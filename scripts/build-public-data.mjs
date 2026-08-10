@@ -1,0 +1,5 @@
+import fs from "node:fs/promises";
+const read=async p=>JSON.parse(await fs.readFile(p,"utf8"));await fs.mkdir("public/datasets",{recursive:true});
+const files=["isc/institutions","isc/source","audit/portal-audit","audit/deep-audit-matrix","audit/packets-index","statistics/portal-ranking","statistics/summary","statistics/rtpmi-weights","units/catalog","systems/catalog","documents/catalog","evidence/provenance-ledger"];
+for(const n of files){const d=await read(`data/${n}.json`);await fs.writeFile(`public/datasets/${n.replaceAll("/","-")}.json`,JSON.stringify(d,null,2)+"\n")}
+const manifest={version:'8.1.0',apiVersion:'v1',snapshotDate:'2026-08-10',iscScope:115,files:files.map(n=>`/datasets/${n.replaceAll('/','-')}.json`),auditPackets:'/datasets/audit-packets-index.json',api:'/api/v1',openapi:'/openapi.json',licenseNote:'Metadata/evidence index only; linked source content remains with original publishers.',missingDataRule:'unresolved is not absence and is not automatically scored zero'};await fs.writeFile('public/datasets/manifest.json',JSON.stringify(manifest,null,2)+'\n');console.log("public datasets built");
