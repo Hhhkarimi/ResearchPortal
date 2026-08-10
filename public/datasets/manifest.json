@@ -1,0 +1,25 @@
+{
+  "version": "8.1.0",
+  "apiVersion": "v1",
+  "snapshotDate": "2026-08-10",
+  "iscScope": 115,
+  "files": [
+    "/datasets/isc-institutions.json",
+    "/datasets/isc-source.json",
+    "/datasets/audit-portal-audit.json",
+    "/datasets/audit-deep-audit-matrix.json",
+    "/datasets/audit-packets-index.json",
+    "/datasets/statistics-portal-ranking.json",
+    "/datasets/statistics-summary.json",
+    "/datasets/statistics-rtpmi-weights.json",
+    "/datasets/units-catalog.json",
+    "/datasets/systems-catalog.json",
+    "/datasets/documents-catalog.json",
+    "/datasets/evidence-provenance-ledger.json"
+  ],
+  "auditPackets": "/datasets/audit-packets-index.json",
+  "api": "/api/v1",
+  "openapi": "/openapi.json",
+  "licenseNote": "Metadata/evidence index only; linked source content remains with original publishers.",
+  "missingDataRule": "unresolved is not absence and is not automatically scored zero"
+}
