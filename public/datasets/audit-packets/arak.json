@@ -1,0 +1,220 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "جامع",
+    "iscRank": 32,
+    "nameFa": "دانشگاه اراک",
+    "slug": "arak"
+  },
+  "portalAudit": {
+    "universitySlug": "arak",
+    "nameFa": "دانشگاه اراک",
+    "iscCategory": "جامع",
+    "iscRank": 32,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.araku.ac.ir/",
+    "evidenceUrls": [
+      "https://research.araku.ac.ir/"
+    ],
+    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "scoreEligibility": "eligible",
+    "observedSignals": [
+      "research",
+      "structure",
+      "library",
+      "laboratory",
+      "industry",
+      "technology",
+      "it",
+      "systems"
+    ]
+  },
+  "deepAudit": {
+    "universitySlug": "arak",
+    "nameFa": "دانشگاه اراک",
+    "iscCategory": "جامع",
+    "iscRank": 32,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.araku.ac.ir/",
+    "evidenceUrls": [
+      "https://research.araku.ac.ir/"
+    ],
+    "deepAuditStatus": "deep-audited",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
+      "informationTechnology": "verified",
+      "systemsServices": "verified",
+      "documentsRegulations": "unresolved"
+    },
+    "auditEvidenceCoverage": 88,
+    "unitsFound": 8,
+    "systemsFound": 4,
+    "documentsFound": 0,
+    "rankingEligibility": "candidate",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": {
+    "universitySlug": "arak",
+    "nameFa": "دانشگاه اراک",
+    "iscCategory": "جامع",
+    "iscRank": 32,
+    "score": 86.6,
+    "confidence": 91.4,
+    "metrics": {
+      "documents": null,
+      "organization": 100,
+      "library": 70,
+      "laboratories": 70,
+      "digital": 85,
+      "industryTech": 100,
+      "dataQuality": 100,
+      "findability": 76.6
+    },
+    "units": 8,
+    "systems": 4,
+    "documents": 0,
+    "activeWeight": 80,
+    "evidenceCoverage": 88,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-10",
+    "rank": 2,
+    "portalRankWithinISCClass": 2,
+    "rankedPortalsInISCClass": 11
+  },
+  "units": [
+    {
+      "id": "arak-1",
+      "universitySlug": "arak",
+      "nameFa": "امور پژوهشی و فناوری",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.araku.ac.ir/"
+    },
+    {
+      "id": "arak-2",
+      "universitySlug": "arak",
+      "nameFa": "ارتباط با صنعت",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.araku.ac.ir/"
+    },
+    {
+      "id": "arak-3",
+      "universitySlug": "arak",
+      "nameFa": "فناوری اطلاعات و ارتباطات",
+      "type": "it",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.araku.ac.ir/"
+    },
+    {
+      "id": "arak-4",
+      "universitySlug": "arak",
+      "nameFa": "کتابخانه و اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.araku.ac.ir/"
+    },
+    {
+      "id": "arak-5",
+      "universitySlug": "arak",
+      "nameFa": "پژوهشکده‌ها و مراکز پژوهشی",
+      "type": "research-centers",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.araku.ac.ir/"
+    },
+    {
+      "id": "arak-tech",
+      "universitySlug": "arak",
+      "nameFa": "مدیریت امور فناوری، کارآفرینی و تجاری‌سازی",
+      "type": "technology",
+      "url": null,
+      "sourceUrl": "https://research.araku.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "arak-lab",
+      "universitySlug": "arak",
+      "nameFa": "آزمایشگاه مرکزی",
+      "type": "laboratory",
+      "url": "https://new.araku.ac.ir/",
+      "sourceUrl": "https://research.araku.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "arak-publishing",
+      "universitySlug": "arak",
+      "nameFa": "انتشارات",
+      "type": "publishing",
+      "url": "https://press.araku.ac.ir/",
+      "sourceUrl": "https://research.araku.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    }
+  ],
+  "systems": [
+    {
+      "id": "arak-zhiro",
+      "universitySlug": "arak",
+      "nameFa": "سامانه ژیرو",
+      "category": "research",
+      "url": "https://rd.araku.ac.ir/",
+      "sourceUrl": "https://research.araku.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "arak-journals",
+      "universitySlug": "arak",
+      "nameFa": "سامانه نشریات علمی",
+      "category": "journals",
+      "url": "https://journals.araku.ac.ir/",
+      "sourceUrl": "https://research.araku.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "arak-press",
+      "universitySlug": "arak",
+      "nameFa": "سامانه انتشارات",
+      "category": "publishing",
+      "url": "https://press.araku.ac.ir/",
+      "sourceUrl": "https://research.araku.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "arak-sate",
+      "universitySlug": "arak",
+      "nameFa": "سامانه ساتع",
+      "category": "industry",
+      "url": "https://sate.atf.gov.ir/",
+      "sourceUrl": "https://research.araku.ac.ir/",
+      "relation": "national-related-system",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    }
+  ],
+  "documents": [],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}

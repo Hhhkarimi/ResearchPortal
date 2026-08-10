@@ -1,0 +1,220 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "جامع",
+    "iscRank": 23,
+    "nameFa": "دانشگاه قم",
+    "slug": "qom"
+  },
+  "portalAudit": {
+    "universitySlug": "qom",
+    "nameFa": "دانشگاه قم",
+    "iscCategory": "جامع",
+    "iscRank": 23,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.qom.ac.ir/",
+    "evidenceUrls": [
+      "https://research.qom.ac.ir/"
+    ],
+    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "scoreEligibility": "eligible"
+  },
+  "deepAudit": {
+    "universitySlug": "qom",
+    "nameFa": "دانشگاه قم",
+    "iscCategory": "جامع",
+    "iscRank": 23,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.qom.ac.ir/",
+    "evidenceUrls": [
+      "https://research.qom.ac.ir/"
+    ],
+    "deepAuditStatus": "deep-audited",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
+      "informationTechnology": "unresolved",
+      "systemsServices": "verified",
+      "documentsRegulations": "unresolved"
+    },
+    "auditEvidenceCoverage": 75,
+    "unitsFound": 10,
+    "systemsFound": 3,
+    "documentsFound": 0,
+    "rankingEligibility": "candidate",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": {
+    "universitySlug": "qom",
+    "nameFa": "دانشگاه قم",
+    "iscCategory": "جامع",
+    "iscRank": 23,
+    "score": 82.2,
+    "confidence": 82,
+    "metrics": {
+      "documents": null,
+      "organization": 100,
+      "library": 70,
+      "laboratories": 70,
+      "digital": 72.5,
+      "industryTech": 90,
+      "dataQuality": 100,
+      "findability": 68.8
+    },
+    "units": 10,
+    "systems": 3,
+    "documents": 0,
+    "activeWeight": 80,
+    "evidenceCoverage": 75,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-10",
+    "rank": 6,
+    "portalRankWithinISCClass": 5,
+    "rankedPortalsInISCClass": 11
+  },
+  "units": [
+    {
+      "id": "qom-1",
+      "universitySlug": "qom",
+      "nameFa": "مدیریت امور پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.qom.ac.ir/"
+    },
+    {
+      "id": "qom-2",
+      "universitySlug": "qom",
+      "nameFa": "کتابخانه و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.qom.ac.ir/"
+    },
+    {
+      "id": "qom-3",
+      "universitySlug": "qom",
+      "nameFa": "آزمایشگاه مرکزی",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.qom.ac.ir/"
+    },
+    {
+      "id": "qom-4",
+      "universitySlug": "qom",
+      "nameFa": "فناوری و ارتباط با صنعت",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.qom.ac.ir/"
+    },
+    {
+      "id": "qom-centers",
+      "universitySlug": "qom",
+      "nameFa": "واحدها و پژوهشکده‌های پژوهشی و فناوری",
+      "type": "research-centers",
+      "url": null,
+      "sourceUrl": "https://research.qom.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "qom-industry",
+      "universitySlug": "qom",
+      "nameFa": "گروه کارآفرینی و ارتباط با جامعه و صنعت",
+      "type": "industry",
+      "url": null,
+      "sourceUrl": "https://research.qom.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "qom-lab",
+      "universitySlug": "qom",
+      "nameFa": "آزمایشگاه مرکزی",
+      "type": "laboratory",
+      "url": null,
+      "sourceUrl": "https://research.qom.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "qom-library",
+      "universitySlug": "qom",
+      "nameFa": "کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "url": null,
+      "sourceUrl": "https://research.qom.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "qom-research",
+      "universitySlug": "qom",
+      "nameFa": "مدیریت پژوهشی",
+      "type": "research",
+      "url": null,
+      "sourceUrl": "https://research.qom.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "qom-tech",
+      "universitySlug": "qom",
+      "nameFa": "مدیریت امور فناوری",
+      "type": "technology",
+      "url": null,
+      "sourceUrl": "https://research.qom.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    }
+  ],
+  "systems": [
+    {
+      "id": "qom-conf",
+      "universitySlug": "qom",
+      "nameFa": "سامانه همایش‌های دانشگاه",
+      "category": "research",
+      "url": "https://conf.qom.ac.ir/",
+      "sourceUrl": "https://research.qom.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "qom-journals",
+      "universitySlug": "qom",
+      "nameFa": "سامانه مدیریت نشریات علمی",
+      "category": "journals",
+      "url": "https://journals.qom.ac.ir/",
+      "sourceUrl": "https://research.qom.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "qom-publishing",
+      "universitySlug": "qom",
+      "nameFa": "سامانه انتشارات دانشگاه",
+      "category": "publishing",
+      "url": "https://book.qom.ac.ir/",
+      "sourceUrl": "https://research.qom.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    }
+  ],
+  "documents": [],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}

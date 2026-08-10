@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "جامع",
+    "iscRank": 20,
+    "nameFa": "دانشگاه شهید چمران اهواز",
+    "slug": "shahid-chamran-ahvaz"
+  },
+  "portalAudit": {
+    "universitySlug": "shahid-chamran-ahvaz",
+    "nameFa": "دانشگاه شهید چمران اهواز",
+    "iscCategory": "جامع",
+    "iscRank": 20,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.scu.ac.ir/",
+    "evidenceUrls": [
+      "https://research.scu.ac.ir/"
+    ],
+    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "scoreEligibility": "eligible"
+  },
+  "deepAudit": {
+    "universitySlug": "shahid-chamran-ahvaz",
+    "nameFa": "دانشگاه شهید چمران اهواز",
+    "iscCategory": "جامع",
+    "iscRank": 20,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.scu.ac.ir/",
+    "evidenceUrls": [
+      "https://research.scu.ac.ir/"
+    ],
+    "deepAuditStatus": "deep-audited",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
+      "informationTechnology": "verified",
+      "systemsServices": "verified",
+      "documentsRegulations": "unresolved"
+    },
+    "auditEvidenceCoverage": 88,
+    "unitsFound": 7,
+    "systemsFound": 2,
+    "documentsFound": 0,
+    "rankingEligibility": "candidate",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": {
+    "universitySlug": "shahid-chamran-ahvaz",
+    "nameFa": "دانشگاه شهید چمران اهواز",
+    "iscCategory": "جامع",
+    "iscRank": 20,
+    "score": 64.9,
+    "confidence": 91.4,
+    "metrics": {
+      "documents": null,
+      "organization": 100,
+      "library": 70,
+      "laboratories": 70,
+      "digital": 22.5,
+      "industryTech": 45,
+      "dataQuality": 100,
+      "findability": 43.8
+    },
+    "units": 7,
+    "systems": 2,
+    "documents": 0,
+    "activeWeight": 80,
+    "evidenceCoverage": 88,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-10",
+    "rank": 15,
+    "portalRankWithinISCClass": 10,
+    "rankedPortalsInISCClass": 11
+  },
+  "units": [
+    {
+      "id": "shahid-chamran-ahvaz-1",
+      "universitySlug": "shahid-chamran-ahvaz",
+      "nameFa": "مدیریت امور پژوهش و فناوری",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.scu.ac.ir/"
+    },
+    {
+      "id": "shahid-chamran-ahvaz-2",
+      "universitySlug": "shahid-chamran-ahvaz",
+      "nameFa": "ارتباط با صنعت و کارآفرینی",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.scu.ac.ir/"
+    },
+    {
+      "id": "shahid-chamran-ahvaz-3",
+      "universitySlug": "shahid-chamran-ahvaz",
+      "nameFa": "فناوری اطلاعات و امنیت فضای مجازی",
+      "type": "it",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.scu.ac.ir/"
+    },
+    {
+      "id": "shahid-chamran-ahvaz-4",
+      "universitySlug": "shahid-chamran-ahvaz",
+      "nameFa": "کتابخانه، اطلاع‌رسانی و اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.scu.ac.ir/"
+    },
+    {
+      "id": "shahid-chamran-ahvaz-5",
+      "universitySlug": "shahid-chamran-ahvaz",
+      "nameFa": "آزمایشگاه مرکزی",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.scu.ac.ir/"
+    },
+    {
+      "id": "shahid-chamran-ahvaz-6",
+      "universitySlug": "shahid-chamran-ahvaz",
+      "nameFa": "چاپ و انتشارات",
+      "type": "publishing",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.scu.ac.ir/"
+    },
+    {
+      "id": "shahid-chamran-ahvaz-7",
+      "universitySlug": "shahid-chamran-ahvaz",
+      "nameFa": "مراکز تحقیقاتی",
+      "type": "research-centers",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.scu.ac.ir/"
+    }
+  ],
+  "systems": [
+    {
+      "id": "shahid-chamran-ahvaz-sys-1",
+      "universitySlug": "shahid-chamran-ahvaz",
+      "nameFa": "سامانه مدیریت نشریات",
+      "category": "journals",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.scu.ac.ir/"
+    },
+    {
+      "id": "shahid-chamran-ahvaz-sys-2",
+      "universitySlug": "shahid-chamran-ahvaz",
+      "nameFa": "سامانه اخلاق پژوهش",
+      "category": "national",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.scu.ac.ir/"
+    }
+  ],
+  "documents": [],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}

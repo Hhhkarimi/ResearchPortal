@@ -1,0 +1,282 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "جامع",
+    "iscRank": 10,
+    "nameFa": "دانشگاه خوارزمی",
+    "slug": "kharazmi"
+  },
+  "portalAudit": {
+    "universitySlug": "kharazmi",
+    "nameFa": "دانشگاه خوارزمی",
+    "iscCategory": "جامع",
+    "iscRank": 10,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.khu.ac.ir/",
+    "evidenceUrls": [
+      "https://research.khu.ac.ir/"
+    ],
+    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "scoreEligibility": "eligible"
+  },
+  "deepAudit": {
+    "universitySlug": "kharazmi",
+    "nameFa": "دانشگاه خوارزمی",
+    "iscCategory": "جامع",
+    "iscRank": 10,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.khu.ac.ir/",
+    "evidenceUrls": [
+      "https://research.khu.ac.ir/"
+    ],
+    "deepAuditStatus": "deep-audited",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
+      "informationTechnology": "verified",
+      "systemsServices": "verified",
+      "documentsRegulations": "unresolved"
+    },
+    "auditEvidenceCoverage": 88,
+    "unitsFound": 14,
+    "systemsFound": 6,
+    "documentsFound": 0,
+    "rankingEligibility": "candidate",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": {
+    "universitySlug": "kharazmi",
+    "nameFa": "دانشگاه خوارزمی",
+    "iscCategory": "جامع",
+    "iscRank": 10,
+    "score": 86.1,
+    "confidence": 91.4,
+    "metrics": {
+      "documents": null,
+      "organization": 100,
+      "library": 100,
+      "laboratories": 70,
+      "digital": 74.2,
+      "industryTech": 90,
+      "dataQuality": 100,
+      "findability": 67.7
+    },
+    "units": 14,
+    "systems": 6,
+    "documents": 0,
+    "activeWeight": 80,
+    "evidenceCoverage": 88,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-10",
+    "rank": 4,
+    "portalRankWithinISCClass": 3,
+    "rankedPortalsInISCClass": 11
+  },
+  "units": [
+    {
+      "id": "kharazmi-1",
+      "universitySlug": "kharazmi",
+      "nameFa": "مدیریت امور پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.khu.ac.ir/"
+    },
+    {
+      "id": "kharazmi-2",
+      "universitySlug": "kharazmi",
+      "nameFa": "مرکز فناوری اطلاعات و ارتباطات",
+      "type": "it",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.khu.ac.ir/"
+    },
+    {
+      "id": "kharazmi-3",
+      "universitySlug": "kharazmi",
+      "nameFa": "کارآفرینی و ارتباط با جامعه",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.khu.ac.ir/"
+    },
+    {
+      "id": "kharazmi-4",
+      "universitySlug": "kharazmi",
+      "nameFa": "مرکز رشد و توسعه واحدهای فناور",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.khu.ac.ir/"
+    },
+    {
+      "id": "kharazmi-5",
+      "universitySlug": "kharazmi",
+      "nameFa": "کتابخانه مرکزی، موزه و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.khu.ac.ir/"
+    },
+    {
+      "id": "kharazmi-6",
+      "universitySlug": "kharazmi",
+      "nameFa": "آزمایشگاه مرکزی",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.khu.ac.ir/"
+    },
+    {
+      "id": "kharazmi-7",
+      "universitySlug": "kharazmi",
+      "nameFa": "انتشارات",
+      "type": "publishing",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.khu.ac.ir/"
+    },
+    {
+      "id": "kharazmi-inc",
+      "universitySlug": "kharazmi",
+      "nameFa": "مرکز رشد و توسعه واحدهای فناور",
+      "type": "technology",
+      "url": "https://inc.khu.ac.ir/",
+      "sourceUrl": "https://research.khu.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "kharazmi-industry",
+      "universitySlug": "kharazmi",
+      "nameFa": "مرکز کارآفرینی و ارتباط با جامعه",
+      "type": "industry",
+      "url": "https://ent.khu.ac.ir/",
+      "sourceUrl": "https://research.khu.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "kharazmi-it",
+      "universitySlug": "kharazmi",
+      "nameFa": "مرکز فناوری اطلاعات و ارتباطات",
+      "type": "it",
+      "url": "https://ict.khu.ac.ir/",
+      "sourceUrl": "https://research.khu.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "kharazmi-lab",
+      "universitySlug": "kharazmi",
+      "nameFa": "آزمایشگاه مرکزی",
+      "type": "laboratory",
+      "url": "https://lab.khu.ac.ir/",
+      "sourceUrl": "https://research.khu.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "kharazmi-library",
+      "universitySlug": "kharazmi",
+      "nameFa": "کتابخانه مرکزی، موزه و مرکز اسناد",
+      "type": "library",
+      "url": "https://lib.khu.ac.ir/",
+      "sourceUrl": "https://research.khu.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "kharazmi-pub",
+      "universitySlug": "kharazmi",
+      "nameFa": "انتشارات",
+      "type": "publishing",
+      "url": "https://pub.khu.ac.ir/",
+      "sourceUrl": "https://research.khu.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "kharazmi-research",
+      "universitySlug": "kharazmi",
+      "nameFa": "مدیریت امور پژوهشی",
+      "type": "research",
+      "url": "https://respro.khu.ac.ir/",
+      "sourceUrl": "https://research.khu.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    }
+  ],
+  "systems": [
+    {
+      "id": "kharazmi-ris",
+      "universitySlug": "kharazmi",
+      "nameFa": "سامانه اطلاعات پژوهشی",
+      "category": "research",
+      "url": "https://ris.khu.ac.ir/",
+      "sourceUrl": "https://research.khu.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "kharazmi-scimet",
+      "universitySlug": "kharazmi",
+      "nameFa": "سامانه علم‌سنجی",
+      "category": "research",
+      "url": "https://scimet.khu.ac.ir/",
+      "sourceUrl": "https://research.khu.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "kharazmi-sys-1",
+      "universitySlug": "kharazmi",
+      "nameFa": "سامانه اطلاعات پژوهشی",
+      "category": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.khu.ac.ir/"
+    },
+    {
+      "id": "kharazmi-sys-2",
+      "universitySlug": "kharazmi",
+      "nameFa": "سامانه علم‌سنجی",
+      "category": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.khu.ac.ir/"
+    },
+    {
+      "id": "kharazmi-sys-3",
+      "universitySlug": "kharazmi",
+      "nameFa": "سامانه نشریات",
+      "category": "journals",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.khu.ac.ir/"
+    },
+    {
+      "id": "kharazmi-sys-4",
+      "universitySlug": "kharazmi",
+      "nameFa": "کتابخانه دیجیتال",
+      "category": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.khu.ac.ir/"
+    }
+  ],
+  "documents": [],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}

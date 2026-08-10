@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "صنعتی",
+    "iscRank": 1,
+    "nameFa": "دانشگاه علم و صنعت ایران",
+    "slug": "iust"
+  },
+  "portalAudit": {
+    "universitySlug": "iust",
+    "nameFa": "دانشگاه علم و صنعت ایران",
+    "iscCategory": "صنعتی",
+    "iscRank": 1,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.iust.ac.ir/",
+    "evidenceUrls": [
+      "https://research.iust.ac.ir/"
+    ],
+    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "scoreEligibility": "eligible",
+    "observedSignals": [
+      "research",
+      "laboratory",
+      "industry",
+      "systems",
+      "library"
+    ]
+  },
+  "deepAudit": {
+    "universitySlug": "iust",
+    "nameFa": "دانشگاه علم و صنعت ایران",
+    "iscCategory": "صنعتی",
+    "iscRank": 1,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.iust.ac.ir/",
+    "evidenceUrls": [
+      "https://research.iust.ac.ir/"
+    ],
+    "deepAuditStatus": "identity-verified-deep-pending",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
+      "informationTechnology": "unresolved",
+      "systemsServices": "verified",
+      "documentsRegulations": "unresolved"
+    },
+    "auditEvidenceCoverage": 69,
+    "unitsFound": 5,
+    "systemsFound": 11,
+    "documentsFound": 0,
+    "rankingEligibility": "unranked-evidence-insufficient",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": null,
+  "units": [
+    {
+      "id": "iust-1",
+      "universitySlug": "iust",
+      "nameFa": "مدیریت امور پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.iust.ac.ir/"
+    },
+    {
+      "id": "iust-2",
+      "universitySlug": "iust",
+      "nameFa": "آزمایشگاه مرکزی",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.iust.ac.ir/"
+    },
+    {
+      "id": "iust-3",
+      "universitySlug": "iust",
+      "nameFa": "انتشارات و نشریات",
+      "type": "publishing",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.iust.ac.ir/"
+    },
+    {
+      "id": "iust-4",
+      "universitySlug": "iust",
+      "nameFa": "ارتباط با صنعت",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.iust.ac.ir/"
+    },
+    {
+      "id": "iust-5",
+      "universitySlug": "iust",
+      "nameFa": "سامانه‌ها و شبکه‌های پژوهشی",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.iust.ac.ir/"
+    }
+  ],
+  "systems": [
+    {
+      "id": "iust-sys-1",
+      "universitySlug": "iust",
+      "nameFa": "شبکه آزمایشگاه‌های علمی ایران (شاعا)",
+      "category": "national",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.iust.ac.ir/"
+    },
+    {
+      "id": "iust-sys-2",
+      "universitySlug": "iust",
+      "nameFa": "سامانه‌های مرتبط معاونت",
+      "category": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.iust.ac.ir/"
+    },
+    {
+      "id": "iust-scimet",
+      "universitySlug": "iust",
+      "nameFa": "سامانه علم‌سنجی اساتید",
+      "category": "research",
+      "url": "https://scimet.iust.ac.ir/",
+      "sourceUrl": "https://research.iust.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "iust-cv",
+      "universitySlug": "iust",
+      "nameFa": "سامانه رزومه اساتید",
+      "category": "research",
+      "url": "https://its.iust.ac.ir/",
+      "sourceUrl": "https://research.iust.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "iust-golestan",
+      "universitySlug": "iust",
+      "nameFa": "سامانه جامع گلستان",
+      "category": "research",
+      "url": "https://golestan.iust.ac.ir/",
+      "sourceUrl": "https://research.iust.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "iust-nan",
+      "universitySlug": "iust",
+      "nameFa": "سامانه نان",
+      "category": "innovation",
+      "url": "https://nan.ac/",
+      "sourceUrl": "https://research.iust.ac.ir/",
+      "relation": "national-related-system",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "iust-shaa",
+      "universitySlug": "iust",
+      "nameFa": "سامانه شاعا",
+      "category": "national",
+      "url": "https://emshaa.msrt.ir/",
+      "sourceUrl": "https://research.iust.ac.ir/",
+      "relation": "national-related-system",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "iust-sate",
+      "universitySlug": "iust",
+      "nameFa": "سامانه ساتع",
+      "category": "industry",
+      "url": "https://sate.atf.gov.ir/",
+      "sourceUrl": "https://research.iust.ac.ir/",
+      "relation": "national-related-system",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "iust-mapfa",
+      "universitySlug": "iust",
+      "nameFa": "سامانه مپفا",
+      "category": "industry",
+      "url": "https://mapfa.msrt.ir/",
+      "sourceUrl": "https://research.iust.ac.ir/",
+      "relation": "national-related-system",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "iust-sajed",
+      "universitySlug": "iust",
+      "nameFa": "سامانه ساجد",
+      "category": "industry",
+      "url": "https://sajed.msrt.ir/",
+      "sourceUrl": "https://research.iust.ac.ir/",
+      "relation": "national-related-system",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "iust-jcr",
+      "universitySlug": "iust",
+      "nameFa": "سامانه نشریات علمی ISC",
+      "category": "journals",
+      "url": "https://jcr.isc.ac/",
+      "sourceUrl": "https://research.iust.ac.ir/",
+      "relation": "national-related-system",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    }
+  ],
+  "documents": [],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}

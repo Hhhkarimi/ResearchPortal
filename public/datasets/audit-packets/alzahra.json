@@ -1,0 +1,199 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "جامع",
+    "iscRank": 25,
+    "nameFa": "دانشگاه الزهرا (س)",
+    "slug": "alzahra"
+  },
+  "portalAudit": {
+    "universitySlug": "alzahra",
+    "nameFa": "دانشگاه الزهرا (س)",
+    "iscCategory": "جامع",
+    "iscRank": 25,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.alzahra.ac.ir/",
+    "evidenceUrls": [
+      "https://research.alzahra.ac.ir/"
+    ],
+    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "scoreEligibility": "eligible"
+  },
+  "deepAudit": {
+    "universitySlug": "alzahra",
+    "nameFa": "دانشگاه الزهرا (س)",
+    "iscCategory": "جامع",
+    "iscRank": 25,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.alzahra.ac.ir/",
+    "evidenceUrls": [
+      "https://research.alzahra.ac.ir/"
+    ],
+    "deepAuditStatus": "deep-audited",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
+      "informationTechnology": "unresolved",
+      "systemsServices": "verified",
+      "documentsRegulations": "unresolved"
+    },
+    "auditEvidenceCoverage": 75,
+    "unitsFound": 7,
+    "systemsFound": 5,
+    "documentsFound": 0,
+    "rankingEligibility": "candidate",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": {
+    "universitySlug": "alzahra",
+    "nameFa": "دانشگاه الزهرا (س)",
+    "iscCategory": "جامع",
+    "iscRank": 25,
+    "score": 84.7,
+    "confidence": 82,
+    "metrics": {
+      "documents": null,
+      "organization": 100,
+      "library": 100,
+      "laboratories": 70,
+      "digital": 75,
+      "industryTech": 100,
+      "dataQuality": 100,
+      "findability": 43.8
+    },
+    "units": 7,
+    "systems": 5,
+    "documents": 0,
+    "activeWeight": 80,
+    "evidenceCoverage": 75,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-10",
+    "rank": 5,
+    "portalRankWithinISCClass": 4,
+    "rankedPortalsInISCClass": 11
+  },
+  "units": [
+    {
+      "id": "alzahra-1",
+      "universitySlug": "alzahra",
+      "nameFa": "مدیریت امور پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.alzahra.ac.ir/"
+    },
+    {
+      "id": "alzahra-2",
+      "universitySlug": "alzahra",
+      "nameFa": "مدیریت امور فناوری",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.alzahra.ac.ir/"
+    },
+    {
+      "id": "alzahra-3",
+      "universitySlug": "alzahra",
+      "nameFa": "ارتباط با صنعت و جامعه",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.alzahra.ac.ir/"
+    },
+    {
+      "id": "alzahra-4",
+      "universitySlug": "alzahra",
+      "nameFa": "نظارت بر امور آزمایشگاه‌ها",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.alzahra.ac.ir/"
+    },
+    {
+      "id": "alzahra-5",
+      "universitySlug": "alzahra",
+      "nameFa": "مرکز کارآفرینی و نوآوری",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.alzahra.ac.ir/"
+    },
+    {
+      "id": "alzahra-6",
+      "universitySlug": "alzahra",
+      "nameFa": "کتابخانه مرکزی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.alzahra.ac.ir/"
+    },
+    {
+      "id": "alzahra-7",
+      "universitySlug": "alzahra",
+      "nameFa": "نشریات و تالیفات علمی",
+      "type": "publishing",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.alzahra.ac.ir/"
+    }
+  ],
+  "systems": [
+    {
+      "id": "alzahra-sys-1",
+      "universitySlug": "alzahra",
+      "nameFa": "سامانه تام",
+      "category": "innovation",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.alzahra.ac.ir/"
+    },
+    {
+      "id": "alzahra-sys-2",
+      "universitySlug": "alzahra",
+      "nameFa": "سامانه اخلاق پژوهش",
+      "category": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.alzahra.ac.ir/"
+    },
+    {
+      "id": "alzahra-sys-3",
+      "universitySlug": "alzahra",
+      "nameFa": "سامانه کتاب",
+      "category": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.alzahra.ac.ir/"
+    },
+    {
+      "id": "alzahra-sys-4",
+      "universitySlug": "alzahra",
+      "nameFa": "سامانه نشریات علمی",
+      "category": "journals",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.alzahra.ac.ir/"
+    },
+    {
+      "id": "alzahra-sys-5",
+      "universitySlug": "alzahra",
+      "nameFa": "جستجوی منابع کتابخانه",
+      "category": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.alzahra.ac.ir/"
+    }
+  ],
+  "documents": [],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "دستگاه اجرایی",
+    "iscRank": 2,
+    "nameFa": "دانشگاه شاهد",
+    "slug": "shahed"
+  },
+  "portalAudit": {
+    "universitySlug": "shahed",
+    "nameFa": "دانشگاه شاهد",
+    "iscCategory": "دستگاه اجرایی",
+    "iscRank": 2,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://res.shahed.ac.ir",
+    "evidenceUrls": [
+      "https://res.shahed.ac.ir",
+      "https://res.shahed.ac.ir/"
+    ],
+    "note": "پرتال مستقیم پژوهش دانشگاه شاهد شناسایی شده است.",
+    "scoreEligibility": "eligible",
+    "observedSignals": [
+      "research",
+      "structure",
+      "library",
+      "laboratory",
+      "technology",
+      "systems"
+    ]
+  },
+  "deepAudit": {
+    "universitySlug": "shahed",
+    "nameFa": "دانشگاه شاهد",
+    "iscCategory": "دستگاه اجرایی",
+    "iscRank": 2,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://res.shahed.ac.ir",
+    "evidenceUrls": [
+      "https://res.shahed.ac.ir",
+      "https://res.shahed.ac.ir/"
+    ],
+    "deepAuditStatus": "deep-audited",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
+      "informationTechnology": "unresolved",
+      "systemsServices": "verified",
+      "documentsRegulations": "verified"
+    },
+    "auditEvidenceCoverage": 88,
+    "unitsFound": 8,
+    "systemsFound": 3,
+    "documentsFound": 1,
+    "rankingEligibility": "candidate",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": {
+    "universitySlug": "shahed",
+    "nameFa": "دانشگاه شاهد",
+    "iscCategory": "دستگاه اجرایی",
+    "iscRank": 2,
+    "score": 64.8,
+    "confidence": 91.4,
+    "metrics": {
+      "documents": 12.8,
+      "organization": 100,
+      "library": 100,
+      "laboratories": 70,
+      "digital": 53.3,
+      "industryTech": 45,
+      "dataQuality": 100,
+      "findability": 80
+    },
+    "units": 8,
+    "systems": 3,
+    "documents": 1,
+    "activeWeight": 100,
+    "evidenceCoverage": 88,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-10",
+    "rank": 16,
+    "portalRankWithinISCClass": 1,
+    "rankedPortalsInISCClass": 1
+  },
+  "units": [
+    {
+      "id": "shahed-research",
+      "universitySlug": "shahed",
+      "nameFa": "مدیریت امور پژوهشی",
+      "type": "research",
+      "url": "https://ram.shahed.ac.ir/",
+      "sourceUrl": "https://res.shahed.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "shahed-tech",
+      "universitySlug": "shahed",
+      "nameFa": "مدیریت امور فناوری و تحقیقات کاربردی",
+      "type": "technology",
+      "url": "https://tarm.shahed.ac.ir/",
+      "sourceUrl": "https://res.shahed.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "shahed-labs-management",
+      "universitySlug": "shahed",
+      "nameFa": "مدیریت امور واحدهای پژوهشی و آزمایشگاه‌ها",
+      "type": "laboratory",
+      "url": "https://rcm.shahed.ac.ir/",
+      "sourceUrl": "https://res.shahed.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "shahed-library",
+      "universitySlug": "shahed",
+      "nameFa": "مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "url": "https://library.shahed.ac.ir/",
+      "sourceUrl": "https://res.shahed.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "shahed-pub",
+      "universitySlug": "shahed",
+      "nameFa": "اداره انتشارات",
+      "type": "publishing",
+      "url": "https://po.shahed.ac.ir/",
+      "sourceUrl": "https://res.shahed.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "shahed-ethics",
+      "universitySlug": "shahed",
+      "nameFa": "کارگروه اخلاق در پژوهش",
+      "type": "ethics",
+      "url": "https://rec.shahed.ac.ir/",
+      "sourceUrl": "https://res.shahed.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "shahed-innovation",
+      "universitySlug": "shahed",
+      "nameFa": "مرکز نوآوری و مراکز رشد",
+      "type": "technology",
+      "url": "https://innovation.shahed.ac.ir/",
+      "sourceUrl": "https://res.shahed.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "shahed-centers",
+      "universitySlug": "shahed",
+      "nameFa": "پژوهشکده‌ها و مراکز تحقیقاتی",
+      "type": "research-centers",
+      "url": "https://res.shahed.ac.ir/",
+      "sourceUrl": "https://res.shahed.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    }
+  ],
+  "systems": [
+    {
+      "id": "shahed-library-search",
+      "universitySlug": "shahed",
+      "nameFa": "جستجوی منابع کتابخانه (KDR)",
+      "category": "library",
+      "url": "https://lib.shahed.ac.ir/",
+      "sourceUrl": "https://library.shahed.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "shahed-scimet",
+      "universitySlug": "shahed",
+      "nameFa": "سامانه علم‌سنجی دانشگاه شاهد (سایمت)",
+      "category": "research",
+      "url": "https://scimet.shahed.ac.ir/",
+      "sourceUrl": "https://library.shahed.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "shahed-megapaper",
+      "universitySlug": "shahed",
+      "nameFa": "سامانه تأمین مدارک علمی مگاپیپر",
+      "category": "library",
+      "url": "https://megapaper.ir/",
+      "sourceUrl": "https://library.shahed.ac.ir/",
+      "relation": "linked-from-portal",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    }
+  ],
+  "documents": [
+    {
+      "id": "shahed-thesis-writing-guideline",
+      "universitySlug": "shahed",
+      "title": "شیوه‌نامه نگارش پایان‌نامه‌ها",
+      "type": "شیوه‌نامه",
+      "topic": "پایان‌نامه و رساله",
+      "url": null,
+      "parentUrl": "https://library.shahed.ac.ir/",
+      "sourceUrl": "https://library.shahed.ac.ir/",
+      "format": "HTML/link-index",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-10",
+      "publisherUnit": "مرکز اسناد و مدارک علمی"
+    }
+  ],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}
