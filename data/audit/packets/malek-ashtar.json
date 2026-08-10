@@ -1,0 +1,65 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "دستگاه اجرایی",
+    "iscRank": 3,
+    "nameFa": "دانشگاه صنعتی مالک اشتر",
+    "slug": "malek-ashtar"
+  },
+  "portalAudit": {
+    "universitySlug": "malek-ashtar",
+    "nameFa": "دانشگاه صنعتی مالک اشتر",
+    "iscCategory": "دستگاه اجرایی",
+    "iscRank": 3,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "restricted-public",
+    "researchUrl": null,
+    "evidenceUrls": [
+      "https://mut.ac.ir/"
+    ],
+    "note": "عضویت ISC حفظ شده است؛ دسترسی عمومی به پرتال/ساختار پژوهش محدود است یا ساختار نهادی با دانشگاه‌های وزارت علوم متفاوت است. رتبه RTPMI منتشر نمی‌شود.",
+    "scoreEligibility": "unranked",
+    "observedSignals": [
+      "research-centers"
+    ]
+  },
+  "deepAudit": {
+    "universitySlug": "malek-ashtar",
+    "nameFa": "دانشگاه صنعتی مالک اشتر",
+    "iscCategory": "دستگاه اجرایی",
+    "iscRank": 3,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "restricted-public",
+    "researchUrl": null,
+    "evidenceUrls": [
+      "https://mut.ac.ir/"
+    ],
+    "deepAuditStatus": "restricted-closed",
+    "dimensions": {
+      "portalIdentity": "restricted",
+      "organization": "restricted",
+      "libraryDocuments": "restricted",
+      "laboratories": "restricted",
+      "industryTechnology": "restricted",
+      "informationTechnology": "restricted",
+      "systemsServices": "restricted",
+      "documentsRegulations": "restricted"
+    },
+    "auditEvidenceCoverage": 100,
+    "unitsFound": 0,
+    "systemsFound": 0,
+    "documentsFound": 0,
+    "rankingEligibility": "unranked-evidence-insufficient",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": null,
+  "units": [],
+  "systems": [],
+  "documents": [],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "جامع",
+    "iscRank": 7,
+    "nameFa": "دانشگاه اصفهان",
+    "slug": "isfahan"
+  },
+  "portalAudit": {
+    "universitySlug": "isfahan",
+    "nameFa": "دانشگاه اصفهان",
+    "iscCategory": "جامع",
+    "iscRank": 7,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.ui.ac.ir/",
+    "evidenceUrls": [
+      "https://research.ui.ac.ir/"
+    ],
+    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "scoreEligibility": "eligible"
+  },
+  "deepAudit": {
+    "universitySlug": "isfahan",
+    "nameFa": "دانشگاه اصفهان",
+    "iscCategory": "جامع",
+    "iscRank": 7,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.ui.ac.ir/",
+    "evidenceUrls": [
+      "https://research.ui.ac.ir/"
+    ],
+    "deepAuditStatus": "deep-audited",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
+      "informationTechnology": "unresolved",
+      "systemsServices": "verified",
+      "documentsRegulations": "verified"
+    },
+    "auditEvidenceCoverage": 88,
+    "unitsFound": 14,
+    "systemsFound": 8,
+    "documentsFound": 3,
+    "rankingEligibility": "candidate",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": {
+    "universitySlug": "isfahan",
+    "nameFa": "دانشگاه اصفهان",
+    "iscCategory": "جامع",
+    "iscRank": 7,
+    "score": 79.1,
+    "confidence": 91.4,
+    "metrics": {
+      "documents": 29.3,
+      "organization": 100,
+      "library": 100,
+      "laboratories": 100,
+      "digital": 97.5,
+      "industryTech": 100,
+      "dataQuality": 100,
+      "findability": 35
+    },
+    "units": 14,
+    "systems": 8,
+    "documents": 3,
+    "activeWeight": 100,
+    "evidenceCoverage": 88,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-10",
+    "rank": 7,
+    "portalRankWithinISCClass": 6,
+    "rankedPortalsInISCClass": 11
+  },
+  "units": [
+    {
+      "id": "isfahan-1",
+      "universitySlug": "isfahan",
+      "nameFa": "امور پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ui.ac.ir/"
+    },
+    {
+      "id": "isfahan-2",
+      "universitySlug": "isfahan",
+      "nameFa": "مدیریت کتابخانه‌ها و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ui.ac.ir/"
+    },
+    {
+      "id": "isfahan-3",
+      "universitySlug": "isfahan",
+      "nameFa": "آزمایشگاه مرکزی",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ui.ac.ir/"
+    },
+    {
+      "id": "isfahan-4",
+      "universitySlug": "isfahan",
+      "nameFa": "ارتباط با صنعت و جامعه",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ui.ac.ir/"
+    },
+    {
+      "id": "isfahan-5",
+      "universitySlug": "isfahan",
+      "nameFa": "فناوری، رشد و کارآفرینی",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ui.ac.ir/"
+    },
+    {
+      "id": "isfahan-6",
+      "universitySlug": "isfahan",
+      "nameFa": "مالکیت فکری و تجاری‌سازی",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ui.ac.ir/"
+    },
+    {
+      "id": "isfahan-7",
+      "universitySlug": "isfahan",
+      "nameFa": "چاپ و انتشارات",
+      "type": "publishing",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ui.ac.ir/"
+    },
+    {
+      "id": "isfahan-docs",
+      "universitySlug": "isfahan",
+      "nameFa": "موزه و مرکز اسناد",
+      "type": "library",
+      "url": null,
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "isfahan-industry",
+      "universitySlug": "isfahan",
+      "nameFa": "مدیریت ارتباط با صنعت و جامعه",
+      "type": "industry",
+      "url": null,
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "isfahan-lab",
+      "universitySlug": "isfahan",
+      "nameFa": "آزمایشگاه مرکزی",
+      "type": "laboratory",
+      "url": null,
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "isfahan-library",
+      "universitySlug": "isfahan",
+      "nameFa": "مدیریت کتابخانه‌های دانشگاه",
+      "type": "library",
+      "url": null,
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "isfahan-publishing",
+      "universitySlug": "isfahan",
+      "nameFa": "اداره چاپ و انتشارات",
+      "type": "publishing",
+      "url": null,
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "isfahan-research",
+      "universitySlug": "isfahan",
+      "nameFa": "مدیریت امور پژوهشی",
+      "type": "research",
+      "url": null,
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "isfahan-tech",
+      "universitySlug": "isfahan",
+      "nameFa": "مدیریت فناوری، رشد و کارآفرینی",
+      "type": "technology",
+      "url": null,
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    }
+  ],
+  "systems": [
+    {
+      "id": "isfahan-central-lab-system",
+      "universitySlug": "isfahan",
+      "nameFa": "آزمایشگاه مرکزی",
+      "category": "laboratory",
+      "url": null,
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "isfahan-journals",
+      "universitySlug": "isfahan",
+      "nameFa": "سامانه نشریات",
+      "category": "journals",
+      "url": null,
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "isfahan-library-search",
+      "universitySlug": "isfahan",
+      "nameFa": "جستجو در کتابخانه",
+      "category": "library",
+      "url": null,
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "isfahan-nan",
+      "universitySlug": "isfahan",
+      "nameFa": "سامانه نان",
+      "category": "national",
+      "url": null,
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "isfahan-research-system",
+      "universitySlug": "isfahan",
+      "nameFa": "سامانه پژوهش",
+      "category": "research",
+      "url": null,
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "isfahan-sate",
+      "universitySlug": "isfahan",
+      "nameFa": "سامانه ساتع",
+      "category": "national",
+      "url": null,
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "isfahan-sys-1",
+      "universitySlug": "isfahan",
+      "nameFa": "پرتال کارآفرینی و رشد فناوری",
+      "category": "innovation",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ui.ac.ir/"
+    },
+    {
+      "id": "isfahan-thesis",
+      "universitySlug": "isfahan",
+      "nameFa": "سامانه پایان‌نامه",
+      "category": "research",
+      "url": null,
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    }
+  ],
+  "documents": [
+    {
+      "id": "isfahan-doc-1",
+      "universitySlug": "isfahan",
+      "title": "آیین‌نامه پذیرش مرکز رشد",
+      "type": "آیین‌نامه",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ui.ac.ir/"
+    },
+    {
+      "id": "isfahan-doc-2",
+      "universitySlug": "isfahan",
+      "title": "آیین‌نامه تمدید استقرار شرکت‌های دانش‌بنیان",
+      "type": "آیین‌نامه",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ui.ac.ir/"
+    },
+    {
+      "id": "isfahan-doc-3",
+      "universitySlug": "isfahan",
+      "title": "فرآیند استقرار در مرکز رشد",
+      "type": "فرآیند",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ui.ac.ir/"
+    }
+  ],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}

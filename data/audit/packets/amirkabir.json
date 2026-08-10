@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "صنعتی",
+    "iscRank": 3,
+    "nameFa": "دانشگاه صنعتی امیرکبیر",
+    "slug": "amirkabir"
+  },
+  "portalAudit": {
+    "universitySlug": "amirkabir",
+    "nameFa": "دانشگاه صنعتی امیرکبیر",
+    "iscCategory": "صنعتی",
+    "iscRank": 3,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.aut.ac.ir/",
+    "evidenceUrls": [
+      "https://research.aut.ac.ir/"
+    ],
+    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "scoreEligibility": "eligible"
+  },
+  "deepAudit": {
+    "universitySlug": "amirkabir",
+    "nameFa": "دانشگاه صنعتی امیرکبیر",
+    "iscCategory": "صنعتی",
+    "iscRank": 3,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.aut.ac.ir/",
+    "evidenceUrls": [
+      "https://research.aut.ac.ir/"
+    ],
+    "deepAuditStatus": "deep-audited",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
+      "informationTechnology": "unresolved",
+      "systemsServices": "verified",
+      "documentsRegulations": "unresolved"
+    },
+    "auditEvidenceCoverage": 75,
+    "unitsFound": 5,
+    "systemsFound": 5,
+    "documentsFound": 0,
+    "rankingEligibility": "candidate",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": {
+    "universitySlug": "amirkabir",
+    "nameFa": "دانشگاه صنعتی امیرکبیر",
+    "iscCategory": "صنعتی",
+    "iscRank": 3,
+    "score": 86.3,
+    "confidence": 82,
+    "metrics": {
+      "documents": null,
+      "organization": 90.8,
+      "library": 100,
+      "laboratories": 100,
+      "digital": 75,
+      "industryTech": 90,
+      "dataQuality": 100,
+      "findability": 43.8
+    },
+    "units": 5,
+    "systems": 5,
+    "documents": 0,
+    "activeWeight": 80,
+    "evidenceCoverage": 75,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-10",
+    "rank": 3,
+    "portalRankWithinISCClass": 1,
+    "rankedPortalsInISCClass": 5
+  },
+  "units": [
+    {
+      "id": "amirkabir-1",
+      "universitySlug": "amirkabir",
+      "nameFa": "مدیریت امور پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.aut.ac.ir/"
+    },
+    {
+      "id": "amirkabir-2",
+      "universitySlug": "amirkabir",
+      "nameFa": "مرکز اطلاع‌رسانی، کتابخانه و نشر",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.aut.ac.ir/"
+    },
+    {
+      "id": "amirkabir-3",
+      "universitySlug": "amirkabir",
+      "nameFa": "مدیریت فناوری و توسعه نوآوری",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.aut.ac.ir/"
+    },
+    {
+      "id": "amirkabir-4",
+      "universitySlug": "amirkabir",
+      "nameFa": "مدیریت ارتباط با صنعت",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.aut.ac.ir/"
+    },
+    {
+      "id": "amirkabir-5",
+      "universitySlug": "amirkabir",
+      "nameFa": "آزمایشگاه مرکزی",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.aut.ac.ir/"
+    }
+  ],
+  "systems": [
+    {
+      "id": "amirkabir-sys-1",
+      "universitySlug": "amirkabir",
+      "nameFa": "جستجوی منابع کتابخانه",
+      "category": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.aut.ac.ir/"
+    },
+    {
+      "id": "amirkabir-sys-2",
+      "universitySlug": "amirkabir",
+      "nameFa": "کتابخانه دیجیتال",
+      "category": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.aut.ac.ir/"
+    },
+    {
+      "id": "amirkabir-sys-3",
+      "universitySlug": "amirkabir",
+      "nameFa": "خدمات آزمایشگاه مرکزی",
+      "category": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.aut.ac.ir/"
+    },
+    {
+      "id": "amirkabir-sys-4",
+      "universitySlug": "amirkabir",
+      "nameFa": "سامانه گرنت",
+      "category": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.aut.ac.ir/"
+    },
+    {
+      "id": "amirkabir-sys-5",
+      "universitySlug": "amirkabir",
+      "nameFa": "سامانه نشریات",
+      "category": "journals",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.aut.ac.ir/"
+    }
+  ],
+  "documents": [],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "صنعتی",
+    "iscRank": 4,
+    "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
+    "slug": "kntu"
+  },
+  "portalAudit": {
+    "universitySlug": "kntu",
+    "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
+    "iscCategory": "صنعتی",
+    "iscRank": 4,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.kntu.ac.ir/",
+    "evidenceUrls": [
+      "https://research.kntu.ac.ir/"
+    ],
+    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "scoreEligibility": "eligible"
+  },
+  "deepAudit": {
+    "universitySlug": "kntu",
+    "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
+    "iscCategory": "صنعتی",
+    "iscRank": 4,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.kntu.ac.ir/",
+    "evidenceUrls": [
+      "https://research.kntu.ac.ir/"
+    ],
+    "deepAuditStatus": "deep-audited",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
+      "informationTechnology": "unresolved",
+      "systemsServices": "verified",
+      "documentsRegulations": "unresolved"
+    },
+    "auditEvidenceCoverage": 75,
+    "unitsFound": 7,
+    "systemsFound": 6,
+    "documentsFound": 0,
+    "rankingEligibility": "candidate",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": {
+    "universitySlug": "kntu",
+    "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
+    "iscCategory": "صنعتی",
+    "iscRank": 4,
+    "score": 74.2,
+    "confidence": 82,
+    "metrics": {
+      "documents": null,
+      "organization": 100,
+      "library": 70,
+      "laboratories": 100,
+      "digital": 55,
+      "industryTech": 45,
+      "dataQuality": 100,
+      "findability": 43.8
+    },
+    "units": 7,
+    "systems": 6,
+    "documents": 0,
+    "activeWeight": 80,
+    "evidenceCoverage": 75,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-10",
+    "rank": 10,
+    "portalRankWithinISCClass": 2,
+    "rankedPortalsInISCClass": 5
+  },
+  "units": [
+    {
+      "id": "kntu-1",
+      "universitySlug": "kntu",
+      "nameFa": "امور توسعه پژوهش",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.kntu.ac.ir/"
+    },
+    {
+      "id": "kntu-2",
+      "universitySlug": "kntu",
+      "nameFa": "ارتباط با صنعت و کارآفرینی",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.kntu.ac.ir/"
+    },
+    {
+      "id": "kntu-3",
+      "universitySlug": "kntu",
+      "nameFa": "انتشارات",
+      "type": "publishing",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.kntu.ac.ir/"
+    },
+    {
+      "id": "kntu-4",
+      "universitySlug": "kntu",
+      "nameFa": "کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.kntu.ac.ir/"
+    },
+    {
+      "id": "kntu-5",
+      "universitySlug": "kntu",
+      "nameFa": "نشریات دانشگاه",
+      "type": "publishing",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.kntu.ac.ir/"
+    },
+    {
+      "id": "kntu-6",
+      "universitySlug": "kntu",
+      "nameFa": "آزمایشگاه‌های پژوهشی",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.kntu.ac.ir/"
+    },
+    {
+      "id": "kntu-7",
+      "universitySlug": "kntu",
+      "nameFa": "پژوهشکده‌ها و مراکز پژوهشی",
+      "type": "research-centers",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.kntu.ac.ir/"
+    }
+  ],
+  "systems": [
+    {
+      "id": "kntu-sys-1",
+      "universitySlug": "kntu",
+      "nameFa": "سیستم پژوهشی گلستان",
+      "category": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.kntu.ac.ir/"
+    },
+    {
+      "id": "kntu-sys-2",
+      "universitySlug": "kntu",
+      "nameFa": "سامانه علم‌سنجی",
+      "category": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.kntu.ac.ir/"
+    },
+    {
+      "id": "kntu-sys-3",
+      "universitySlug": "kntu",
+      "nameFa": "رزومه اساتید",
+      "category": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.kntu.ac.ir/"
+    },
+    {
+      "id": "kntu-sys-4",
+      "universitySlug": "kntu",
+      "nameFa": "توانمندی پژوهشی و آزمایشگاهی",
+      "category": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.kntu.ac.ir/"
+    },
+    {
+      "id": "kntu-sys-5",
+      "universitySlug": "kntu",
+      "nameFa": "شاعا",
+      "category": "national",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.kntu.ac.ir/"
+    },
+    {
+      "id": "kntu-sys-6",
+      "universitySlug": "kntu",
+      "nameFa": "مرکز فناوری اطلاعات - لینک مرتبط",
+      "category": "it-linked",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.kntu.ac.ir/"
+    }
+  ],
+  "documents": [],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "صنعتی",
+    "iscRank": 2,
+    "nameFa": "دانشگاه صنعتی شریف",
+    "slug": "sharif"
+  },
+  "portalAudit": {
+    "universitySlug": "sharif",
+    "nameFa": "دانشگاه صنعتی شریف",
+    "iscCategory": "صنعتی",
+    "iscRank": 2,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.sharif.ir/",
+    "evidenceUrls": [
+      "https://research.sharif.ir/"
+    ],
+    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "scoreEligibility": "eligible"
+  },
+  "deepAudit": {
+    "universitySlug": "sharif",
+    "nameFa": "دانشگاه صنعتی شریف",
+    "iscCategory": "صنعتی",
+    "iscRank": 2,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.sharif.ir/",
+    "evidenceUrls": [
+      "https://research.sharif.ir/"
+    ],
+    "deepAuditStatus": "deep-audited",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
+      "informationTechnology": "unresolved",
+      "systemsServices": "verified",
+      "documentsRegulations": "verified"
+    },
+    "auditEvidenceCoverage": 88,
+    "unitsFound": 7,
+    "systemsFound": 3,
+    "documentsFound": 2,
+    "rankingEligibility": "candidate",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": {
+    "universitySlug": "sharif",
+    "nameFa": "دانشگاه صنعتی شریف",
+    "iscCategory": "صنعتی",
+    "iscRank": 2,
+    "score": 62.1,
+    "confidence": 91.4,
+    "metrics": {
+      "documents": 25.5,
+      "organization": 100,
+      "library": 70,
+      "laboratories": 70,
+      "digital": 27.5,
+      "industryTech": 90,
+      "dataQuality": 100,
+      "findability": 35
+    },
+    "units": 7,
+    "systems": 3,
+    "documents": 2,
+    "activeWeight": 100,
+    "evidenceCoverage": 88,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-10",
+    "rank": 18,
+    "portalRankWithinISCClass": 5,
+    "rankedPortalsInISCClass": 5
+  },
+  "units": [
+    {
+      "id": "sharif-1",
+      "universitySlug": "sharif",
+      "nameFa": "مدیریت امور پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.sharif.ir/"
+    },
+    {
+      "id": "sharif-2",
+      "universitySlug": "sharif",
+      "nameFa": "مدیریت ارتباط با صنعت",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.sharif.ir/"
+    },
+    {
+      "id": "sharif-3",
+      "universitySlug": "sharif",
+      "nameFa": "مدیریت امور فناوری",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.sharif.ir/"
+    },
+    {
+      "id": "sharif-4",
+      "universitySlug": "sharif",
+      "nameFa": "مرکز خدمات آزمایشگاهی",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.sharif.ir/"
+    },
+    {
+      "id": "sharif-5",
+      "universitySlug": "sharif",
+      "nameFa": "کتابخانه مرکزی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.sharif.ir/"
+    },
+    {
+      "id": "sharif-6",
+      "universitySlug": "sharif",
+      "nameFa": "پارک علم و فناوری",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.sharif.ir/"
+    },
+    {
+      "id": "sharif-7",
+      "universitySlug": "sharif",
+      "nameFa": "پژوهشکده‌ها و قطب‌های علمی",
+      "type": "research-centers",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.sharif.ir/"
+    }
+  ],
+  "systems": [
+    {
+      "id": "sharif-sys-1",
+      "universitySlug": "sharif",
+      "nameFa": "سامانه اطلاعات اعضای هیئت علمی",
+      "category": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.sharif.ir/"
+    },
+    {
+      "id": "sharif-sys-2",
+      "universitySlug": "sharif",
+      "nameFa": "سامانه مدیریت دانش",
+      "category": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.sharif.ir/"
+    },
+    {
+      "id": "sharif-sys-3",
+      "universitySlug": "sharif",
+      "nameFa": "ICT دانشگاه - لینک مرتبط، نه زیرمجموعه",
+      "category": "it-linked",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.sharif.ir/"
+    }
+  ],
+  "documents": [
+    {
+      "id": "sharif-doc-1",
+      "universitySlug": "sharif",
+      "title": "آیین‌نامه مالکیت فکری",
+      "type": "آیین‌نامه",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.sharif.ir/"
+    },
+    {
+      "id": "sharif-doc-2",
+      "universitySlug": "sharif",
+      "title": "شیوه‌نامه برنامه هاتف",
+      "type": "شیوه‌نامه",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.sharif.ir/"
+    }
+  ],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}

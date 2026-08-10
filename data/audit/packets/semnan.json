@@ -1,0 +1,374 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "جامع",
+    "iscRank": 15,
+    "nameFa": "دانشگاه سمنان",
+    "slug": "semnan"
+  },
+  "portalAudit": {
+    "universitySlug": "semnan",
+    "nameFa": "دانشگاه سمنان",
+    "iscCategory": "جامع",
+    "iscRank": 15,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.semnan.ac.ir/",
+    "evidenceUrls": [
+      "https://research.semnan.ac.ir/"
+    ],
+    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "scoreEligibility": "eligible"
+  },
+  "deepAudit": {
+    "universitySlug": "semnan",
+    "nameFa": "دانشگاه سمنان",
+    "iscCategory": "جامع",
+    "iscRank": 15,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.semnan.ac.ir/",
+    "evidenceUrls": [
+      "https://research.semnan.ac.ir/"
+    ],
+    "deepAuditStatus": "deep-audited",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
+      "informationTechnology": "verified",
+      "systemsServices": "verified",
+      "documentsRegulations": "verified"
+    },
+    "auditEvidenceCoverage": 100,
+    "unitsFound": 14,
+    "systemsFound": 9,
+    "documentsFound": 6,
+    "rankingEligibility": "candidate",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": {
+    "universitySlug": "semnan",
+    "nameFa": "دانشگاه سمنان",
+    "iscCategory": "جامع",
+    "iscRank": 15,
+    "score": 75.6,
+    "confidence": 100,
+    "metrics": {
+      "documents": 40.5,
+      "organization": 100,
+      "library": 70,
+      "laboratories": 100,
+      "digital": 74.2,
+      "industryTech": 90,
+      "dataQuality": 100,
+      "findability": 47.5
+    },
+    "units": 14,
+    "systems": 9,
+    "documents": 6,
+    "activeWeight": 100,
+    "evidenceCoverage": 100,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-10",
+    "rank": 9,
+    "portalRankWithinISCClass": 7,
+    "rankedPortalsInISCClass": 11
+  },
+  "units": [
+    {
+      "id": "semnan-1",
+      "universitySlug": "semnan",
+      "nameFa": "مدیریت امور پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-2",
+      "universitySlug": "semnan",
+      "nameFa": "مدیریت امور فناوری",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-3",
+      "universitySlug": "semnan",
+      "nameFa": "کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-4",
+      "universitySlug": "semnan",
+      "nameFa": "فناوری اطلاعات و امنیت فضای مجازی",
+      "type": "it",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-5",
+      "universitySlug": "semnan",
+      "nameFa": "آزمایشگاه‌ها و کارگاه‌های تحقیقاتی",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-6",
+      "universitySlug": "semnan",
+      "nameFa": "کارآفرینی و ارتباط با صنعت",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-7",
+      "universitySlug": "semnan",
+      "nameFa": "نشریات و انتشارات",
+      "type": "publishing",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-industry",
+      "universitySlug": "semnan",
+      "nameFa": "مرکز کارآفرینی و ارتباط با صنعت",
+      "type": "industry",
+      "url": null,
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "semnan-it",
+      "universitySlug": "semnan",
+      "nameFa": "مدیریت فناوری اطلاعات و امنیت فضای مجازی",
+      "type": "it",
+      "url": null,
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "semnan-labs",
+      "universitySlug": "semnan",
+      "nameFa": "آزمایشگاه‌ها و کارگاه‌های تحقیقاتی و آموزشی",
+      "type": "laboratory",
+      "url": "https://centrallab.semnan.ac.ir/",
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "semnan-library",
+      "universitySlug": "semnan",
+      "nameFa": "مدیریت کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "url": null,
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "semnan-publishing",
+      "universitySlug": "semnan",
+      "nameFa": "اداره نشریات و چاپ و انتشارات",
+      "type": "publishing",
+      "url": "https://publication.semnan.ac.ir/",
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "semnan-research",
+      "universitySlug": "semnan",
+      "nameFa": "مدیریت امور پژوهشی",
+      "type": "research",
+      "url": null,
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "semnan-tech",
+      "universitySlug": "semnan",
+      "nameFa": "مدیریت امور فناوری",
+      "type": "technology",
+      "url": null,
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    }
+  ],
+  "systems": [
+    {
+      "id": "semnan-central-lab",
+      "universitySlug": "semnan",
+      "nameFa": "سامانه آزمایشگاه مرکزی",
+      "category": "laboratory",
+      "url": "https://centrallab.semnan.ac.ir/",
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "semnan-sampad",
+      "universitySlug": "semnan",
+      "nameFa": "سامانه مدیریت پژوهانه",
+      "category": "research",
+      "url": "https://sampad.semnan.ac.ir/",
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "semnan-shaa",
+      "universitySlug": "semnan",
+      "nameFa": "شبکه آزمایشگاه‌های علمی ایران (شاعا)",
+      "category": "national",
+      "url": "https://shaa.msrt.ir/",
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "relation": "national-related-system",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "semnan-sima",
+      "universitySlug": "semnan",
+      "nameFa": "سامانه پژوهشی سیما",
+      "category": "research",
+      "url": "https://sima.semnan.ac.ir/",
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "relation": "unit-service",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10"
+    },
+    {
+      "id": "semnan-sys-1",
+      "universitySlug": "semnan",
+      "nameFa": "سامانه مدیریت پژوهانه",
+      "category": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-sys-2",
+      "universitySlug": "semnan",
+      "nameFa": "سامانه پژوهشی سیما",
+      "category": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-sys-3",
+      "universitySlug": "semnan",
+      "nameFa": "سامانه آزمایشگاه مرکزی",
+      "category": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-sys-4",
+      "universitySlug": "semnan",
+      "nameFa": "شاعا",
+      "category": "national",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-sys-5",
+      "universitySlug": "semnan",
+      "nameFa": "پایگاه نشریات و انتشارات",
+      "category": "journals",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    }
+  ],
+  "documents": [
+    {
+      "id": "semnan-doc-1",
+      "universitySlug": "semnan",
+      "title": "الحاقیه شیوه‌نامه پژوهانه جامع",
+      "type": "شیوه‌نامه",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-doc-2",
+      "universitySlug": "semnan",
+      "title": "دستورالعمل ایمنی آزمایشگاه‌ها",
+      "type": "دستورالعمل",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-doc-3",
+      "universitySlug": "semnan",
+      "title": "شیوه‌نامه تخلفات پژوهشی",
+      "type": "شیوه‌نامه",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-doc-4",
+      "universitySlug": "semnan",
+      "title": "شیوه‌نامه همکاری با جامعه و صنعت",
+      "type": "شیوه‌نامه",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-doc-5",
+      "universitySlug": "semnan",
+      "title": "دستورالعمل پژوهانه جامع",
+      "type": "دستورالعمل",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    },
+    {
+      "id": "semnan-doc-6",
+      "universitySlug": "semnan",
+      "title": "شیوه‌نامه آزمایشگاه مرکزی",
+      "type": "شیوه‌نامه",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.semnan.ac.ir/"
+    }
+  ],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}
