@@ -1,0 +1,902 @@
+[
+  {
+    "id": "tehran-sys-1",
+    "universitySlug": "tehran",
+    "nameFa": "سامانه رویدادهای علمی",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.ut.ac.ir/fa"
+  },
+  {
+    "id": "tehran-sys-2",
+    "universitySlug": "tehran",
+    "nameFa": "سامانه‌های ملی صنعت/فناوری",
+    "category": "industry",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.ut.ac.ir/fa"
+  },
+  {
+    "id": "ferdowsi-journals",
+    "universitySlug": "ferdowsi",
+    "nameFa": "سامانه یکپارچه نشریات",
+    "category": "journals",
+    "url": "https://jm.um.ac.ir/",
+    "sourceUrl": "https://vpr.um.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "ferdowsi-profdoc",
+    "universitySlug": "ferdowsi",
+    "nameFa": "دسترسی به مقالات دانشگاه",
+    "category": "research",
+    "url": "https://profdoc.um.ac.ir/",
+    "sourceUrl": "https://vpr.um.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "ferdowsi-scimet",
+    "universitySlug": "ferdowsi",
+    "nameFa": "سامانه اطلاعات علمی اعضای هیأت علمی",
+    "category": "research",
+    "url": "https://scimet.um.ac.ir/",
+    "sourceUrl": "https://vpr.um.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "ferdowsi-sys-1",
+    "universitySlug": "ferdowsi",
+    "nameFa": "سامانه یکپارچه نشریات",
+    "category": "journals",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://vpr.um.ac.ir/"
+  },
+  {
+    "id": "ferdowsi-sys-2",
+    "universitySlug": "ferdowsi",
+    "nameFa": "بانک داده‌های پژوهشی",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://vpr.um.ac.ir/"
+  },
+  {
+    "id": "ferdowsi-sys-3",
+    "universitySlug": "ferdowsi",
+    "nameFa": "سامانه پایان‌نامه",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://vpr.um.ac.ir/"
+  },
+  {
+    "id": "ferdowsi-sys-4",
+    "universitySlug": "ferdowsi",
+    "nameFa": "سامانه علم‌سنجی",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://vpr.um.ac.ir/"
+  },
+  {
+    "id": "ferdowsi-sys-5",
+    "universitySlug": "ferdowsi",
+    "nameFa": "شبکه آزمایشگاهی",
+    "category": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://vpr.um.ac.ir/"
+  },
+  {
+    "id": "ferdowsi-thesis",
+    "universitySlug": "ferdowsi",
+    "nameFa": "پایان‌نامه‌های دانشجویی",
+    "category": "research",
+    "url": "https://thesis.um.ac.ir/",
+    "sourceUrl": "https://vpr.um.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "isfahan-central-lab-system",
+    "universitySlug": "isfahan",
+    "nameFa": "آزمایشگاه مرکزی",
+    "category": "laboratory",
+    "url": null,
+    "sourceUrl": "https://research.ui.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "isfahan-journals",
+    "universitySlug": "isfahan",
+    "nameFa": "سامانه نشریات",
+    "category": "journals",
+    "url": null,
+    "sourceUrl": "https://research.ui.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "isfahan-library-search",
+    "universitySlug": "isfahan",
+    "nameFa": "جستجو در کتابخانه",
+    "category": "library",
+    "url": null,
+    "sourceUrl": "https://research.ui.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "isfahan-nan",
+    "universitySlug": "isfahan",
+    "nameFa": "سامانه نان",
+    "category": "national",
+    "url": null,
+    "sourceUrl": "https://research.ui.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "isfahan-research-system",
+    "universitySlug": "isfahan",
+    "nameFa": "سامانه پژوهش",
+    "category": "research",
+    "url": null,
+    "sourceUrl": "https://research.ui.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "isfahan-sate",
+    "universitySlug": "isfahan",
+    "nameFa": "سامانه ساتع",
+    "category": "national",
+    "url": null,
+    "sourceUrl": "https://research.ui.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "isfahan-sys-1",
+    "universitySlug": "isfahan",
+    "nameFa": "پرتال کارآفرینی و رشد فناوری",
+    "category": "innovation",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.ui.ac.ir/"
+  },
+  {
+    "id": "isfahan-thesis",
+    "universitySlug": "isfahan",
+    "nameFa": "سامانه پایان‌نامه",
+    "category": "research",
+    "url": null,
+    "sourceUrl": "https://research.ui.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "kharazmi-ris",
+    "universitySlug": "kharazmi",
+    "nameFa": "سامانه اطلاعات پژوهشی",
+    "category": "research",
+    "url": "https://ris.khu.ac.ir/",
+    "sourceUrl": "https://research.khu.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "kharazmi-scimet",
+    "universitySlug": "kharazmi",
+    "nameFa": "سامانه علم‌سنجی",
+    "category": "research",
+    "url": "https://scimet.khu.ac.ir/",
+    "sourceUrl": "https://research.khu.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "kharazmi-sys-1",
+    "universitySlug": "kharazmi",
+    "nameFa": "سامانه اطلاعات پژوهشی",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.khu.ac.ir/"
+  },
+  {
+    "id": "kharazmi-sys-2",
+    "universitySlug": "kharazmi",
+    "nameFa": "سامانه علم‌سنجی",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.khu.ac.ir/"
+  },
+  {
+    "id": "kharazmi-sys-3",
+    "universitySlug": "kharazmi",
+    "nameFa": "سامانه نشریات",
+    "category": "journals",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.khu.ac.ir/"
+  },
+  {
+    "id": "kharazmi-sys-4",
+    "universitySlug": "kharazmi",
+    "nameFa": "کتابخانه دیجیتال",
+    "category": "library",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.khu.ac.ir/"
+  },
+  {
+    "id": "allameh-sys-1",
+    "universitySlug": "allameh",
+    "nameFa": "سامانه اخلاق در پژوهش",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.atu.ac.ir/fa"
+  },
+  {
+    "id": "allameh-sys-2",
+    "universitySlug": "allameh",
+    "nameFa": "کتابخانه دیجیتال",
+    "category": "library",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.atu.ac.ir/fa"
+  },
+  {
+    "id": "semnan-central-lab",
+    "universitySlug": "semnan",
+    "nameFa": "سامانه آزمایشگاه مرکزی",
+    "category": "laboratory",
+    "url": "https://centrallab.semnan.ac.ir/",
+    "sourceUrl": "https://research.semnan.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "semnan-sampad",
+    "universitySlug": "semnan",
+    "nameFa": "سامانه مدیریت پژوهانه",
+    "category": "research",
+    "url": "https://sampad.semnan.ac.ir/",
+    "sourceUrl": "https://research.semnan.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "semnan-shaa",
+    "universitySlug": "semnan",
+    "nameFa": "شبکه آزمایشگاه‌های علمی ایران (شاعا)",
+    "category": "national",
+    "url": "https://shaa.msrt.ir/",
+    "sourceUrl": "https://research.semnan.ac.ir/",
+    "relation": "national-related-system",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "semnan-sima",
+    "universitySlug": "semnan",
+    "nameFa": "سامانه پژوهشی سیما",
+    "category": "research",
+    "url": "https://sima.semnan.ac.ir/",
+    "sourceUrl": "https://research.semnan.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "semnan-sys-1",
+    "universitySlug": "semnan",
+    "nameFa": "سامانه مدیریت پژوهانه",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.semnan.ac.ir/"
+  },
+  {
+    "id": "semnan-sys-2",
+    "universitySlug": "semnan",
+    "nameFa": "سامانه پژوهشی سیما",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.semnan.ac.ir/"
+  },
+  {
+    "id": "semnan-sys-3",
+    "universitySlug": "semnan",
+    "nameFa": "سامانه آزمایشگاه مرکزی",
+    "category": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.semnan.ac.ir/"
+  },
+  {
+    "id": "semnan-sys-4",
+    "universitySlug": "semnan",
+    "nameFa": "شاعا",
+    "category": "national",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.semnan.ac.ir/"
+  },
+  {
+    "id": "semnan-sys-5",
+    "universitySlug": "semnan",
+    "nameFa": "پایگاه نشریات و انتشارات",
+    "category": "journals",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.semnan.ac.ir/"
+  },
+  {
+    "id": "shahid-chamran-ahvaz-sys-1",
+    "universitySlug": "shahid-chamran-ahvaz",
+    "nameFa": "سامانه مدیریت نشریات",
+    "category": "journals",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.scu.ac.ir/"
+  },
+  {
+    "id": "shahid-chamran-ahvaz-sys-2",
+    "universitySlug": "shahid-chamran-ahvaz",
+    "nameFa": "سامانه اخلاق پژوهش",
+    "category": "national",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.scu.ac.ir/"
+  },
+  {
+    "id": "qom-conf",
+    "universitySlug": "qom",
+    "nameFa": "سامانه همایش‌های دانشگاه",
+    "category": "research",
+    "url": "https://conf.qom.ac.ir/",
+    "sourceUrl": "https://research.qom.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "qom-journals",
+    "universitySlug": "qom",
+    "nameFa": "سامانه مدیریت نشریات علمی",
+    "category": "journals",
+    "url": "https://journals.qom.ac.ir/",
+    "sourceUrl": "https://research.qom.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "qom-publishing",
+    "universitySlug": "qom",
+    "nameFa": "سامانه انتشارات دانشگاه",
+    "category": "publishing",
+    "url": "https://book.qom.ac.ir/",
+    "sourceUrl": "https://research.qom.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "alzahra-sys-1",
+    "universitySlug": "alzahra",
+    "nameFa": "سامانه تام",
+    "category": "innovation",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.alzahra.ac.ir/"
+  },
+  {
+    "id": "alzahra-sys-2",
+    "universitySlug": "alzahra",
+    "nameFa": "سامانه اخلاق پژوهش",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.alzahra.ac.ir/"
+  },
+  {
+    "id": "alzahra-sys-3",
+    "universitySlug": "alzahra",
+    "nameFa": "سامانه کتاب",
+    "category": "library",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.alzahra.ac.ir/"
+  },
+  {
+    "id": "alzahra-sys-4",
+    "universitySlug": "alzahra",
+    "nameFa": "سامانه نشریات علمی",
+    "category": "journals",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.alzahra.ac.ir/"
+  },
+  {
+    "id": "alzahra-sys-5",
+    "universitySlug": "alzahra",
+    "nameFa": "جستجوی منابع کتابخانه",
+    "category": "library",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.alzahra.ac.ir/"
+  },
+  {
+    "id": "iust-sys-1",
+    "universitySlug": "iust",
+    "nameFa": "شبکه آزمایشگاه‌های علمی ایران (شاعا)",
+    "category": "national",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.iust.ac.ir/"
+  },
+  {
+    "id": "iust-sys-2",
+    "universitySlug": "iust",
+    "nameFa": "سامانه‌های مرتبط معاونت",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.iust.ac.ir/"
+  },
+  {
+    "id": "sharif-sys-1",
+    "universitySlug": "sharif",
+    "nameFa": "سامانه اطلاعات اعضای هیئت علمی",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.sharif.ir/"
+  },
+  {
+    "id": "sharif-sys-2",
+    "universitySlug": "sharif",
+    "nameFa": "سامانه مدیریت دانش",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.sharif.ir/"
+  },
+  {
+    "id": "sharif-sys-3",
+    "universitySlug": "sharif",
+    "nameFa": "ICT دانشگاه - لینک مرتبط، نه زیرمجموعه",
+    "category": "it-linked",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.sharif.ir/"
+  },
+  {
+    "id": "amirkabir-sys-1",
+    "universitySlug": "amirkabir",
+    "nameFa": "جستجوی منابع کتابخانه",
+    "category": "library",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.aut.ac.ir/"
+  },
+  {
+    "id": "amirkabir-sys-2",
+    "universitySlug": "amirkabir",
+    "nameFa": "کتابخانه دیجیتال",
+    "category": "library",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.aut.ac.ir/"
+  },
+  {
+    "id": "amirkabir-sys-3",
+    "universitySlug": "amirkabir",
+    "nameFa": "خدمات آزمایشگاه مرکزی",
+    "category": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.aut.ac.ir/"
+  },
+  {
+    "id": "amirkabir-sys-4",
+    "universitySlug": "amirkabir",
+    "nameFa": "سامانه گرنت",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.aut.ac.ir/"
+  },
+  {
+    "id": "amirkabir-sys-5",
+    "universitySlug": "amirkabir",
+    "nameFa": "سامانه نشریات",
+    "category": "journals",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.aut.ac.ir/"
+  },
+  {
+    "id": "kntu-sys-1",
+    "universitySlug": "kntu",
+    "nameFa": "سیستم پژوهشی گلستان",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.kntu.ac.ir/"
+  },
+  {
+    "id": "kntu-sys-2",
+    "universitySlug": "kntu",
+    "nameFa": "سامانه علم‌سنجی",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.kntu.ac.ir/"
+  },
+  {
+    "id": "kntu-sys-3",
+    "universitySlug": "kntu",
+    "nameFa": "رزومه اساتید",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.kntu.ac.ir/"
+  },
+  {
+    "id": "kntu-sys-4",
+    "universitySlug": "kntu",
+    "nameFa": "توانمندی پژوهشی و آزمایشگاهی",
+    "category": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.kntu.ac.ir/"
+  },
+  {
+    "id": "kntu-sys-5",
+    "universitySlug": "kntu",
+    "nameFa": "شاعا",
+    "category": "national",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.kntu.ac.ir/"
+  },
+  {
+    "id": "kntu-sys-6",
+    "universitySlug": "kntu",
+    "nameFa": "مرکز فناوری اطلاعات - لینک مرتبط",
+    "category": "it-linked",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.kntu.ac.ir/"
+  },
+  {
+    "id": "isfahan-technology-sys-1",
+    "universitySlug": "isfahan-technology",
+    "nameFa": "سامانه مپفا",
+    "category": "national",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.iut.ac.ir/"
+  },
+  {
+    "id": "isfahan-technology-sys-2",
+    "universitySlug": "isfahan-technology",
+    "nameFa": "سامانه ساجد",
+    "category": "national",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.iut.ac.ir/"
+  },
+  {
+    "id": "isfahan-technology-sys-3",
+    "universitySlug": "isfahan-technology",
+    "nameFa": "سامانه ساتع",
+    "category": "national",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.iut.ac.ir/"
+  },
+  {
+    "id": "isfahan-technology-sys-4",
+    "universitySlug": "isfahan-technology",
+    "nameFa": "نمایشگاه فناوری دانشگاه",
+    "category": "innovation",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.iut.ac.ir/"
+  },
+  {
+    "id": "isfahan-technology-sys-5",
+    "universitySlug": "isfahan-technology",
+    "nameFa": "راهبردها و اسناد پژوهش",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.iut.ac.ir/"
+  },
+  {
+    "id": "qom-technology-sys-1",
+    "universitySlug": "qom-technology",
+    "nameFa": "سامانه علم‌سنجی",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://qut.ac.ir/fa/researches/index"
+  },
+  {
+    "id": "qom-technology-sys-2",
+    "universitySlug": "qom-technology",
+    "nameFa": "ERP خدمات پژوهشی",
+    "category": "research",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://qut.ac.ir/fa/researches/index"
+  },
+  {
+    "id": "qom-technology-sys-3",
+    "universitySlug": "qom-technology",
+    "nameFa": "فهرست مجلات علمی",
+    "category": "journals",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://qut.ac.ir/fa/researches/index"
+  },
+  {
+    "id": "qom-technology-sys-4",
+    "universitySlug": "qom-technology",
+    "nameFa": "HPC - سرویس مرتبط",
+    "category": "it-linked",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://qut.ac.ir/fa/researches/index"
+  },
+  {
+    "id": "iran-art-sys-1",
+    "universitySlug": "iran-art",
+    "nameFa": "خدمات IT و هوشمندسازی",
+    "category": "it",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.art.ac.ir/fa"
+  },
+  {
+    "id": "iran-art-sys-2",
+    "universitySlug": "iran-art",
+    "nameFa": "پرتال کتابخانه",
+    "category": "library",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.art.ac.ir/fa"
+  },
+  {
+    "id": "iran-art-sys-3",
+    "universitySlug": "iran-art",
+    "nameFa": "پرتال آزمایشگاه مرکزی",
+    "category": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.art.ac.ir/fa"
+  },
+  {
+    "id": "iran-art-sys-4",
+    "universitySlug": "iran-art",
+    "nameFa": "پرتال ارتباط با جامعه",
+    "category": "industry",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.art.ac.ir/fa"
+  },
+  {
+    "id": "iran-art-sys-5",
+    "universitySlug": "iran-art",
+    "nameFa": "پرتال انتشارات",
+    "category": "publishing",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10",
+    "sourceUrl": "https://research.art.ac.ir/fa"
+  },
+  {
+    "id": "arak-zhiro",
+    "universitySlug": "arak",
+    "nameFa": "سامانه ژیرو",
+    "category": "research",
+    "url": "https://rd.araku.ac.ir/",
+    "sourceUrl": "https://research.araku.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "arak-journals",
+    "universitySlug": "arak",
+    "nameFa": "سامانه نشریات علمی",
+    "category": "journals",
+    "url": "https://journals.araku.ac.ir/",
+    "sourceUrl": "https://research.araku.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "arak-press",
+    "universitySlug": "arak",
+    "nameFa": "سامانه انتشارات",
+    "category": "publishing",
+    "url": "https://press.araku.ac.ir/",
+    "sourceUrl": "https://research.araku.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "arak-sate",
+    "universitySlug": "arak",
+    "nameFa": "سامانه ساتع",
+    "category": "industry",
+    "url": "https://sate.atf.gov.ir/",
+    "sourceUrl": "https://research.araku.ac.ir/",
+    "relation": "national-related-system",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "iust-scimet",
+    "universitySlug": "iust",
+    "nameFa": "سامانه علم‌سنجی اساتید",
+    "category": "research",
+    "url": "https://scimet.iust.ac.ir/",
+    "sourceUrl": "https://research.iust.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "iust-cv",
+    "universitySlug": "iust",
+    "nameFa": "سامانه رزومه اساتید",
+    "category": "research",
+    "url": "https://its.iust.ac.ir/",
+    "sourceUrl": "https://research.iust.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "iust-golestan",
+    "universitySlug": "iust",
+    "nameFa": "سامانه جامع گلستان",
+    "category": "research",
+    "url": "https://golestan.iust.ac.ir/",
+    "sourceUrl": "https://research.iust.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "iust-nan",
+    "universitySlug": "iust",
+    "nameFa": "سامانه نان",
+    "category": "innovation",
+    "url": "https://nan.ac/",
+    "sourceUrl": "https://research.iust.ac.ir/",
+    "relation": "national-related-system",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "iust-shaa",
+    "universitySlug": "iust",
+    "nameFa": "سامانه شاعا",
+    "category": "national",
+    "url": "https://emshaa.msrt.ir/",
+    "sourceUrl": "https://research.iust.ac.ir/",
+    "relation": "national-related-system",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "iust-sate",
+    "universitySlug": "iust",
+    "nameFa": "سامانه ساتع",
+    "category": "industry",
+    "url": "https://sate.atf.gov.ir/",
+    "sourceUrl": "https://research.iust.ac.ir/",
+    "relation": "national-related-system",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "iust-mapfa",
+    "universitySlug": "iust",
+    "nameFa": "سامانه مپفا",
+    "category": "industry",
+    "url": "https://mapfa.msrt.ir/",
+    "sourceUrl": "https://research.iust.ac.ir/",
+    "relation": "national-related-system",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "iust-sajed",
+    "universitySlug": "iust",
+    "nameFa": "سامانه ساجد",
+    "category": "industry",
+    "url": "https://sajed.msrt.ir/",
+    "sourceUrl": "https://research.iust.ac.ir/",
+    "relation": "national-related-system",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "iust-jcr",
+    "universitySlug": "iust",
+    "nameFa": "سامانه نشریات علمی ISC",
+    "category": "journals",
+    "url": "https://jcr.isc.ac/",
+    "sourceUrl": "https://research.iust.ac.ir/",
+    "relation": "national-related-system",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "shahed-library-search",
+    "universitySlug": "shahed",
+    "nameFa": "جستجوی منابع کتابخانه (KDR)",
+    "category": "library",
+    "url": "https://lib.shahed.ac.ir/",
+    "sourceUrl": "https://library.shahed.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "shahed-scimet",
+    "universitySlug": "shahed",
+    "nameFa": "سامانه علم‌سنجی دانشگاه شاهد (سایمت)",
+    "category": "research",
+    "url": "https://scimet.shahed.ac.ir/",
+    "sourceUrl": "https://library.shahed.ac.ir/",
+    "relation": "unit-service",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  },
+  {
+    "id": "shahed-megapaper",
+    "universitySlug": "shahed",
+    "nameFa": "سامانه تأمین مدارک علمی مگاپیپر",
+    "category": "library",
+    "url": "https://megapaper.ir/",
+    "sourceUrl": "https://library.shahed.ac.ir/",
+    "relation": "linked-from-portal",
+    "evidence": "verified",
+    "lastVerified": "2026-08-10"
+  }
+]
