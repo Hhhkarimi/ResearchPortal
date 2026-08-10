@@ -1,0 +1,12 @@
+{
+  "openapi":"3.1.0",
+  "info":{"title":"Iran Research Portal Observatory API","version":"1.0.0","description":"Read-only API for the ISC-aligned audit of 115 public research and technology portals. RTPMI measures portal maturity, not scientific quality."},
+  "servers":[{"url":"/api/v1"}],
+  "paths":{
+    "/universities":{"get":{"summary":"List ISC institutions with audit and RTPMI state","parameters":[{"name":"category","in":"query","schema":{"type":"string"}},{"name":"status","in":"query","schema":{"type":"string"}},{"name":"ranked","in":"query","schema":{"type":"boolean"}},{"name":"q","in":"query","schema":{"type":"string"}},{"name":"limit","in":"query","schema":{"type":"integer","maximum":115}},{"name":"offset","in":"query","schema":{"type":"integer","minimum":0}}],"responses":{"200":{"description":"Paginated institution list"}}}},
+    "/universities/{slug}":{"get":{"summary":"Get one complete university audit profile","parameters":[{"name":"slug","in":"path","required":true,"schema":{"type":"string"}}],"responses":{"200":{"description":"University profile"},"404":{"description":"Unknown slug"}}}},
+    "/rankings":{"get":{"summary":"List Evidence-qualified RTPMI rankings","parameters":[{"name":"category","in":"query","schema":{"type":"string"}}],"responses":{"200":{"description":"Ranking list"}}}},
+    "/summary":{"get":{"summary":"Get the national snapshot summary","responses":{"200":{"description":"Summary"}}}},
+    "/health":{"get":{"summary":"Check dataset referential health","responses":{"200":{"description":"Healthy"},"503":{"description":"Degraded"}}}}
+  }
+}
