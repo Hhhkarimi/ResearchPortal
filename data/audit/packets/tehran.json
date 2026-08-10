@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "جامع",
+    "iscRank": 1,
+    "nameFa": "دانشگاه تهران",
+    "slug": "tehran"
+  },
+  "portalAudit": {
+    "universitySlug": "tehran",
+    "nameFa": "دانشگاه تهران",
+    "iscCategory": "جامع",
+    "iscRank": 1,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.ut.ac.ir/fa",
+    "evidenceUrls": [
+      "https://research.ut.ac.ir/fa"
+    ],
+    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "scoreEligibility": "eligible"
+  },
+  "deepAudit": {
+    "universitySlug": "tehran",
+    "nameFa": "دانشگاه تهران",
+    "iscCategory": "جامع",
+    "iscRank": 1,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.ut.ac.ir/fa",
+    "evidenceUrls": [
+      "https://research.ut.ac.ir/fa"
+    ],
+    "deepAuditStatus": "deep-audited",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
+      "informationTechnology": "unresolved",
+      "systemsServices": "verified",
+      "documentsRegulations": "unresolved"
+    },
+    "auditEvidenceCoverage": 75,
+    "unitsFound": 6,
+    "systemsFound": 2,
+    "documentsFound": 0,
+    "rankingEligibility": "candidate",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": {
+    "universitySlug": "tehran",
+    "nameFa": "دانشگاه تهران",
+    "iscCategory": "جامع",
+    "iscRank": 1,
+    "score": 68.2,
+    "confidence": 82,
+    "metrics": {
+      "documents": null,
+      "organization": 100,
+      "library": 70,
+      "laboratories": 70,
+      "digital": 35,
+      "industryTech": 55,
+      "dataQuality": 100,
+      "findability": 43.8
+    },
+    "units": 6,
+    "systems": 2,
+    "documents": 0,
+    "activeWeight": 80,
+    "evidenceCoverage": 75,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-10",
+    "rank": 13,
+    "portalRankWithinISCClass": 9,
+    "rankedPortalsInISCClass": 11
+  },
+  "units": [
+    {
+      "id": "tehran-1",
+      "universitySlug": "tehran",
+      "nameFa": "امور پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ut.ac.ir/fa"
+    },
+    {
+      "id": "tehran-2",
+      "universitySlug": "tehran",
+      "nameFa": "کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ut.ac.ir/fa"
+    },
+    {
+      "id": "tehran-3",
+      "universitySlug": "tehran",
+      "nameFa": "امور آزمایشگاه‌ها",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ut.ac.ir/fa"
+    },
+    {
+      "id": "tehran-4",
+      "universitySlug": "tehran",
+      "nameFa": "انتقال فناوری و مالکیت فکری",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ut.ac.ir/fa"
+    },
+    {
+      "id": "tehran-5",
+      "universitySlug": "tehran",
+      "nameFa": "مجلات و علم‌سنجی",
+      "type": "publishing",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ut.ac.ir/fa"
+    },
+    {
+      "id": "tehran-6",
+      "universitySlug": "tehran",
+      "nameFa": "مراکز و مؤسسات پژوهشی",
+      "type": "research-centers",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ut.ac.ir/fa"
+    }
+  ],
+  "systems": [
+    {
+      "id": "tehran-sys-1",
+      "universitySlug": "tehran",
+      "nameFa": "سامانه رویدادهای علمی",
+      "category": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ut.ac.ir/fa"
+    },
+    {
+      "id": "tehran-sys-2",
+      "universitySlug": "tehran",
+      "nameFa": "سامانه‌های ملی صنعت/فناوری",
+      "category": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ut.ac.ir/fa"
+    }
+  ],
+  "documents": [],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}

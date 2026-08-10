@@ -1,0 +1,135 @@
+{
+  "schemaVersion": "8.0.0",
+  "snapshotDate": "2026-08-10",
+  "institution": {
+    "category": "جامع",
+    "iscRank": 29,
+    "nameFa": "دانشگاه زنجان",
+    "slug": "zanjan"
+  },
+  "portalAudit": {
+    "universitySlug": "zanjan",
+    "nameFa": "دانشگاه زنجان",
+    "iscCategory": "جامع",
+    "iscRank": 29,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.znu.ac.ir/",
+    "evidenceUrls": [
+      "https://research.znu.ac.ir/"
+    ],
+    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "scoreEligibility": "eligible"
+  },
+  "deepAudit": {
+    "universitySlug": "zanjan",
+    "nameFa": "دانشگاه زنجان",
+    "iscCategory": "جامع",
+    "iscRank": 29,
+    "auditDate": "2026-08-10",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.znu.ac.ir/",
+    "evidenceUrls": [
+      "https://research.znu.ac.ir/"
+    ],
+    "deepAuditStatus": "deep-audited",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
+      "informationTechnology": "verified",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "unresolved"
+    },
+    "auditEvidenceCoverage": 75,
+    "unitsFound": 5,
+    "systemsFound": 0,
+    "documentsFound": 0,
+    "rankingEligibility": "candidate",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  "ranking": {
+    "universitySlug": "zanjan",
+    "nameFa": "دانشگاه زنجان",
+    "iscCategory": "جامع",
+    "iscRank": 29,
+    "score": 71.2,
+    "confidence": 82,
+    "metrics": {
+      "documents": null,
+      "organization": 81.7,
+      "library": 70,
+      "laboratories": 70,
+      "digital": null,
+      "industryTech": 45,
+      "dataQuality": 100,
+      "findability": 58.3
+    },
+    "units": 5,
+    "systems": 0,
+    "documents": 0,
+    "activeWeight": 68,
+    "evidenceCoverage": 75,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-10",
+    "rank": 11,
+    "portalRankWithinISCClass": 8,
+    "rankedPortalsInISCClass": 11
+  },
+  "units": [
+    {
+      "id": "zanjan-1",
+      "universitySlug": "zanjan",
+      "nameFa": "امور پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.znu.ac.ir/"
+    },
+    {
+      "id": "zanjan-2",
+      "universitySlug": "zanjan",
+      "nameFa": "فناوری اطلاعات، امنیت و هوشمندسازی",
+      "type": "it",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.znu.ac.ir/"
+    },
+    {
+      "id": "zanjan-3",
+      "universitySlug": "zanjan",
+      "nameFa": "کتابخانه و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.znu.ac.ir/"
+    },
+    {
+      "id": "zanjan-4",
+      "universitySlug": "zanjan",
+      "nameFa": "آزمایشگاه مرکزی",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.znu.ac.ir/"
+    },
+    {
+      "id": "zanjan-5",
+      "universitySlug": "zanjan",
+      "nameFa": "فناوری و ارتباط با صنعت",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.znu.ac.ir/"
+    }
+  ],
+  "systems": [],
+  "documents": [],
+  "interpretation": {
+    "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
+    "rtpmi": "Portal maturity/transparency only; not research performance.",
+    "missing": "unresolved/not-found evidence is not proof of absence and is not automatically scored zero."
+  }
+}
