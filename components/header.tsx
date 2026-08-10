@@ -1,0 +1,35 @@
+"use client";
+
+import Link from "next/link";
+import {usePathname} from "next/navigation";
+import {useState} from "react";
+
+const nav = [
+  ["/universities", "دانشگاه‌ها"],
+  ["/audit", "نقشه ممیزی"],
+  ["/rankings", "RTPMI"],
+  ["/compare", "مقایسه"],
+  ["/documents", "اسناد"],
+  ["/datasets", "داده و API"],
+] as const;
+
+export function Header(){
+  const pathname=usePathname();
+  const [open,setOpen]=useState(false);
+  return <header className="siteHeader">
+    <div className="shell headerIn">
+      <Link href="/" className="brand" aria-label="صفحه نخست رصدخانه">
+        <span className="brandMark" aria-hidden="true"><i/><i/><i/></span>
+        <span><strong>رصدخانه پرتال پژوهش</strong><small>IRAN · ISC 115</small></span>
+      </Link>
+      <nav className={open?"nav open":"nav"} aria-label="ناوبری اصلی">
+        {nav.map(([href,label])=><Link href={href} key={href} onClick={()=>setOpen(false)} className={pathname.startsWith(href)?"active":""}>{label}</Link>)}
+        <Link href="/methodology" onClick={()=>setOpen(false)} className={pathname.startsWith("/methodology")?"active":""}>روش‌شناسی</Link>
+      </nav>
+      <div className="headerActions">
+        <Link href="/datasets" className="headerCta">دریافت داده <span>↙</span></Link>
+        <button className="menuButton" type="button" aria-label={open?"بستن منو":"باز کردن منو"} aria-expanded={open} onClick={()=>setOpen(!open)}><i/><i/><i/></button>
+      </div>
+    </div>
+  </header>
+}

@@ -1,0 +1,5 @@
+import Link from "next/link";
+import {RankingExplorer} from "@/components/ranking-explorer";
+import {rankings,datasetSummary} from "@/lib/data";
+export const metadata={title:"رتبه‌بندی RTPMI 4.1 پرتال‌ها"};
+export default function Page(){const s:any=datasetSummary;return <main className="shell page"><header className="pageHero"><div><span className="eyebrow">RTPMI 4.1 · reproducible · evidence qualified</span><h1>رتبه بلوغ پرتال، نه دانشگاه.</h1><p>فقط پرتال رسمی مستقیم با پوشش شواهد حداقل ۷۵٪ و اطمینان حداقل ۶۵٪ رتبه می‌گیرد. ابعاد نامشخص صفر نشده‌اند.</p></div><div className="pageHeroStamp lime"><b>{s.ranked}</b><span>پرتال رتبه‌پذیر</span><small>{s.unranked} نهاد بدون نمره ساختگی</small></div></header><div className="methodBanner"><b>پیش از خواندن جدول:</b><span>RTPMI درباره شفافیت و بلوغ سطح عمومی پرتال است و هیچ گزاره‌ای درباره کیفیت علمی، اعضای هیئت علمی یا خروجی پژوهشی دانشگاه ندارد.</span><Link href="/methodology">جزئیات روش ←</Link></div><RankingExplorer rankings={rankings}/><p className="dataNote">این Snapshot فقط با نسخه RTPMI 4.1 قابل تفسیر است. تغییر روش‌شناسی می‌تواند ترتیب نسخه‌های آینده را تغییر دهد.</p></main>}

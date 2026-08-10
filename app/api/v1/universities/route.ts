@@ -1,0 +1,7 @@
+import {NextRequest,NextResponse} from "next/server";
+import {audits,datasetSummary,institutions,rankings} from "@/lib/data";
+
+export const dynamic="force-static";
+const headers={"Access-Control-Allow-Origin":"*","Cache-Control":"public, s-maxage=3600, stale-while-revalidate=86400"};
+export function GET(request:NextRequest){const p=request.nextUrl.searchParams;const category=p.get("category");const status=p.get("status");const ranked=p.get("ranked");const q=p.get("q")?.trim();const limit=Math.min(Math.max(Number(p.get("limit"))||115,1),115);const offset=Math.max(Number(p.get("offset"))||0,0);const audit=new Map(audits.map(x=>[x.universitySlug,x]));const rank=new Map(rankings.map(x=>[x.universitySlug,x]));const all=institutions.map(u=>({...u,audit:audit.get(u.slug),rtpmi:rank.get(u.slug)||null})).filter((u:any)=>(!category||u.category===category)&&(!status||u.audit?.portalAuditStatus===status)&&(ranked===null||ranked==="true"&&u.rtpmi||ranked==="false"&&!u.rtpmi)&&(!q||u.nameFa.includes(q)||u.slug.includes(q.toLowerCase())));return NextResponse.json({data:all.slice(offset,offset+limit),meta:{total:all.length,limit,offset,snapshotDate:datasetSummary.snapshotDate,methodologyVersion:datasetSummary.methodologyVersion,disclaimer:datasetSummary.disclaimer}},{headers})}
+export function OPTIONS(){return new NextResponse(null,{status:204,headers:{...headers,"Access-Control-Allow-Methods":"GET, OPTIONS","Access-Control-Allow-Headers":"Content-Type"}})}

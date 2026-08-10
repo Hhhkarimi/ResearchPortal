@@ -1,0 +1,1 @@
+import type {MetadataRoute} from "next";export default function manifest():MetadataRoute.Manifest{return{name:"رصد پرتال معاونت پژوهش و فناوری",short_name:"رصد پرتال",description:"ISC-aligned Research & Technology Portal Observatory",start_url:"/",display:"standalone",background_color:"#070913",theme_color:"#070913",lang:"fa",dir:"rtl"}}

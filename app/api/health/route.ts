@@ -1,0 +1,1 @@
+import {NextResponse} from "next/server";import {datasetSummary} from "@/lib/data";export function GET(){return NextResponse.json({ok:true,release:"7.0.0-isc",...datasetSummary,syntheticScores:0},{headers:{"Cache-Control":"public,s-maxage=300,stale-while-revalidate=3600"}})}

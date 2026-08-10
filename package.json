@@ -1,0 +1,30 @@
+{
+  "name": "iran-research-portal-observatory",
+  "version": "8.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "validate:data": "node scripts/validate-data.mjs",
+    "prepare:data": "node scripts/build-deep-audit.mjs && node scripts/finalize-rtpmi.mjs && node scripts/build-provenance.mjs && node scripts/recompute-summary.mjs && node scripts/build-public-data.mjs && node scripts/build-audit-packets.mjs && node scripts/export-csv.mjs",
+    "audit:all": "node scripts/audit-all-isc.mjs",
+    "monitor:links": "node scripts/audit-all-isc.mjs",
+    "release:check": "npm run prepare:data && npm run validate:data"
+  },
+  "dependencies": {
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.2",
+    "eslint-config-next": "16.3.0",
+    "typescript": "5.9.3"
+  }
+}
