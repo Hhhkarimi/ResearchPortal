@@ -1,16 +1,4 @@
-/**
- * Research Portal Deep Discovery Crawler
- *
- * - Uses only Node.js built-ins (no npm dependency changes).
- * - Starts from officialWebsite/researchUrl/known portal roots.
- * - Follows relevant internal links with a bounded priority crawl.
- * - Uses local Edge/Chrome --dump-dom as an optional JS-render fallback.
- * - Discovers dimension-specific evidence and downloadable research documents.
- * - Downloads related files to a persistent folder OUTSIDE the git worktree.
- * - Never treats a network failure as evidence of absence.
- * - Rejects Telegram and other social-media URLs as authoritative evidence.
- */
-
+/** Multi-hub deep crawler for official Iranian university research portals. */
 import fs from "node:fs/promises";
 import path from "node:path";
 import net from "node:net";
@@ -19,789 +7,394 @@ import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 
 const execFileAsync = promisify(execFile);
-
-const readJson = async (file, fallback = null) => {
-  try {
-    return JSON.parse(await fs.readFile(file, "utf8"));
-  } catch {
-    return fallback;
-  }
+const readJson = async (file, fallback) => {
+  try { return JSON.parse(await fs.readFile(file, "utf8")); } catch { return fallback; }
 };
-
 const intEnv = (name, fallback, min = 1, max = Number.MAX_SAFE_INTEGER) => {
-  const value = Number.parseInt(process.env[name] ?? "", 10);
-  return Number.isFinite(value) ? Math.min(max, Math.max(min, value)) : fallback;
+  const n = Number.parseInt(process.env[name] ?? "", 10);
+  return Number.isFinite(n) ? Math.min(max, Math.max(min, n)) : fallback;
 };
-
 const floatEnv = (name, fallback, min = 0, max = 1) => {
-  const value = Number.parseFloat(process.env[name] ?? "");
-  return Number.isFinite(value) ? Math.min(max, Math.max(min, value)) : fallback;
+  const n = Number.parseFloat(process.env[name] ?? "");
+  return Number.isFinite(n) ? Math.min(max, Math.max(min, n)) : fallback;
 };
 
 const CONFIG = {
-  maxDepth: intEnv("CRAWL_MAX_DEPTH", 3, 1, 6),
-  maxPagesPerUniversity: intEnv("CRAWL_MAX_PAGES_PER_UNIVERSITY", 40, 5, 250),
-  maxDocumentsPerUniversity: intEnv("CRAWL_MAX_DOCUMENTS_PER_UNIVERSITY", 60, 1, 300),
-  pageTimeoutMs: intEnv("CRAWL_PAGE_TIMEOUT_MS", 10_000, 2_000, 60_000),
-  documentTimeoutMs: intEnv("CRAWL_DOCUMENT_TIMEOUT_MS", 20_000, 3_000, 120_000),
+  maxDepth: intEnv("CRAWL_MAX_DEPTH", 6, 1, 8),
+  maxPagesPerUniversity: intEnv("CRAWL_MAX_PAGES_PER_UNIVERSITY", 90, 10, 250),
+  maxPagesPerHub: intEnv("CRAWL_MAX_PAGES_PER_HUB", 35, 5, 100),
+  maxResearchHubs: intEnv("CRAWL_MAX_RESEARCH_HUBS", 12, 1, 40),
+  maxDocumentsPerUniversity: intEnv("CRAWL_MAX_DOCUMENTS_PER_UNIVERSITY", 100, 1, 300),
+  pageTimeoutMs: intEnv("CRAWL_PAGE_TIMEOUT_MS", 12_000, 2_000, 60_000),
+  documentTimeoutMs: intEnv("CRAWL_DOCUMENT_TIMEOUT_MS", 25_000, 3_000, 120_000),
+  browserTimeoutMs: intEnv("CRAWL_BROWSER_TIMEOUT_MS", 25_000, 3_000, 90_000),
   pageConcurrency: intEnv("CRAWL_PAGE_CONCURRENCY", 3, 1, 10),
-  universityConcurrency: intEnv("CRAWL_UNIVERSITY_CONCURRENCY", 4, 1, 12),
-  maxHtmlBytes: intEnv("CRAWL_MAX_HTML_BYTES", 2_500_000, 100_000, 10_000_000),
+  universityConcurrency: intEnv("CRAWL_UNIVERSITY_CONCURRENCY", 3, 1, 12),
+  maxHtmlBytes: intEnv("CRAWL_MAX_HTML_BYTES", 3_500_000, 100_000, 12_000_000),
   maxDocumentBytes: intEnv("CRAWL_MAX_DOCUMENT_BYTES", 26_214_400, 100_000, 200_000_000),
   useBrowserFallback: (process.env.CRAWL_USE_BROWSER_FALLBACK ?? "1") !== "0",
-  browserTimeoutMs: intEnv("CRAWL_BROWSER_TIMEOUT_MS", 18_000, 3_000, 90_000),
   discoveryThreshold: floatEnv("CRAWL_DISCOVERY_THRESHOLD", 0.62, 0.2, 1),
-  documentDir:
-    process.env.CRAWL_DOCUMENT_DIR ||
-    path.resolve("runtime-crawl", "documents"),
+  documentDir: process.env.CRAWL_DOCUMENT_DIR || path.resolve("runtime-crawl", "documents"),
 };
 
-const SOCIAL_HOSTS = new Set([
-  "t.me",
-  "telegram.me",
-  "telegram.org",
-  "instagram.com",
-  "facebook.com",
-  "fb.com",
-  "x.com",
-  "twitter.com",
-  "linkedin.com",
-  "youtube.com",
-  "youtu.be",
-]);
+const SOCIAL_HOSTS = ["t.me","telegram.me","telegram.org","instagram.com","facebook.com","fb.com","x.com","twitter.com","linkedin.com","youtube.com","youtu.be"];
+const DOC_EXTS = new Set([".pdf",".doc",".docx",".xls",".xlsx",".ppt",".pptx",".rtf",".odt",".ods",".odp",".zip"]);
+const ASSET_EXTS = new Set([".js",".css",".png",".jpg",".jpeg",".gif",".webp",".svg",".ico",".woff",".woff2",".ttf",".eot",".map"]);
+const DOC_MIME_HINTS = ["application/pdf","application/msword","application/vnd.openxmlformats","application/vnd.ms-","application/rtf","application/vnd.oasis.opendocument","application/zip","application/octet-stream"];
+const NEGATIVE = ["اخبار","خبر","رویداد","تقویم","آموزش","پذیرش","دانشجو","ثبت نام","news","event","calendar","admission","education","undergraduate","login","ورود"];
 
-const DOCUMENT_EXTENSIONS = new Set([
-  ".pdf",
-  ".doc",
-  ".docx",
-  ".xls",
-  ".xlsx",
-  ".ppt",
-  ".pptx",
-  ".rtf",
-  ".odt",
-  ".ods",
-  ".odp",
-  ".zip",
-]);
-
-const DOCUMENT_MIME_HINTS = [
-  "application/pdf",
-  "application/msword",
-  "application/vnd.openxmlformats",
-  "application/vnd.ms-",
-  "application/rtf",
-  "application/vnd.oasis.opendocument",
-  "application/zip",
-  "application/octet-stream",
-];
-
-const NEGATIVE_NAV_WORDS = [
-  "اخبار",
-  "خبر",
-  "رویداد",
-  "تقویم",
-  "آموزش",
-  "پذیرش",
-  "دانشجو",
-  "ثبت نام",
-  "news",
-  "event",
-  "calendar",
-  "admission",
-  "education",
-  "undergraduate",
-  "login",
-  "ورود",
-];
-
-const PORTAL_KEYWORDS = [
-  "معاونت پژوهشی",
-  "معاونت پژوهش",
-  "معاونت پژوهش و فناوری",
-  "پژوهش و فناوری",
-  "امور پژوهشی",
-  "مدیریت پژوهش",
-  "پرتال پژوهش",
-  "research affairs",
-  "research deputy",
-  "vice chancellor for research",
-  "vice-chancellor for research",
-  "research and technology",
-  "research & technology",
-  "office of research",
-  "research",
-  "vpr",
-];
+const PORTAL_KEYWORDS = ["معاونت پژوهشی","معاونت پژوهش","معاونت پژوهش و فناوری","پژوهش و فناوری","امور پژوهشی","مدیریت پژوهش","پرتال پژوهش","research affairs","research deputy","vice chancellor for research","vice-chancellor for research","research and technology","research & technology","office of research","research","vpr"];
+const HUB_KEYWORDS = ["مدیریت پژوهشی","مدیریت پژوهش","مدیریت امور پژوهشی","امور پژوهشی","دفتر پژوهش","اداره پژوهش","معاونت پژوهشی","معاونت پژوهش","معاونت پژوهش و فناوری","پژوهش و فناوری","مدیریت فناوری","ارتباط با صنعت","جامعه و صنعت","صنعت و جامعه","آزمایشگاه مرکزی","شبکه آزمایشگاهی","کتابخانه مرکزی","مرکز اسناد","فرایندهای پژوهشی","فرآیندهای پژوهشی","فرم های پژوهشی","فرم‌های پژوهشی","research management","research administration","research affairs","research office","office of research","vice chancellor for research","research and technology","technology transfer","industry liaison","central laboratory","central library","/web/mrt/","/mrt/","/research/","/research-affairs/","/research-management/","/researchoffice/","/vpr/"];
 
 const DIMENSIONS = {
-  organization: {
-    labelFa: "ساختار سازمانی",
-    keywords: [
-      "ساختار سازمانی",
-      "چارت سازمانی",
-      "ساختار معاونت",
-      "مدیریت پژوهش",
-      "مدیریت امور پژوهشی",
-      "کارشناسان پژوهش",
-      "کارکنان معاونت",
-      "واحدهای پژوهشی",
-      "مدیران معاونت",
-      "معرفی معاونت",
-      "organizational structure",
-      "organization structure",
-      "research units",
-      "managements",
-      "departments",
-      "staff",
-      "people",
-      "about research",
-    ],
-  },
-  libraryDocuments: {
-    labelFa: "کتابخانه و اسناد",
-    keywords: [
-      "کتابخانه",
-      "کتابخانه مرکزی",
-      "مرکز اسناد",
-      "اسناد علمی",
-      "انتشارات",
-      "نشر دانشگاهی",
-      "نشریات علمی",
-      "مجلات علمی",
-      "library",
-      "central library",
-      "document center",
-      "documentation center",
-      "publication",
-      "publisher",
-      "journals",
-    ],
-  },
-  laboratories: {
-    labelFa: "آزمایشگاه‌ها",
-    keywords: [
-      "آزمایشگاه",
-      "آزمایشگاه مرکزی",
-      "شبکه آزمایشگاهی",
-      "آزمایشگاه ها",
-      "آزمایشگاه‌ها",
-      "کارگاه پژوهشی",
-      "laboratory",
-      "laboratories",
-      "central lab",
-      "lab network",
-      "research lab",
-    ],
-  },
-  industryTechnology: {
-    labelFa: "صنعت و فناوری",
-    keywords: [
-      "ارتباط با صنعت",
-      "جامعه و صنعت",
-      "صنعت و جامعه",
-      "فناوری و نوآوری",
-      "انتقال فناوری",
-      "مالکیت فکری",
-      "مرکز رشد",
-      "شرکت دانش بنیان",
-      "شرکت دانش‌بنیان",
-      "کارآفرینی",
-      "نوآوری",
-      "industry",
-      "technology transfer",
-      "innovation",
-      "intellectual property",
-      "incubator",
-      "knowledge based",
-      "tto",
-    ],
-  },
-  informationTechnology: {
-    labelFa: "فناوری اطلاعات",
-    keywords: [
-      "فناوری اطلاعات",
-      "فناوری اطلاعات و ارتباطات",
-      "مرکز فناوری اطلاعات",
-      "مرکز کامپیوتر",
-      "خدمات فناوری اطلاعات",
-      "information technology",
-      "information and communication technology",
-      "computer center",
-      "ict center",
-      "it center",
-      "ict",
-    ],
-  },
-  systemsServices: {
-    labelFa: "سامانه‌ها و خدمات",
-    keywords: [
-      "سامانه",
-      "سامانه ها",
-      "سامانه‌ها",
-      "خدمات الکترونیکی",
-      "خدمات پژوهشی",
-      "پژوهشیار",
-      "علم سنجی",
-      "علم‌سنجی",
-      "پایان نامه",
-      "پایان‌نامه",
-      "نشریات",
-      "system",
-      "systems",
-      "service",
-      "services",
-      "portal service",
-      "research system",
-      "journals system",
-      "thesis system",
-    ],
-  },
-  documentsRegulations: {
-    labelFa: "اسناد و مقررات",
-    keywords: [
-      "آیین نامه",
-      "آیین‌نامه",
-      "شیوه نامه",
-      "شیوه‌نامه",
-      "دستورالعمل",
-      "بخشنامه",
-      "مقررات",
-      "فرم",
-      "فرم ها",
-      "فرم‌ها",
-      "دانلود فرم",
-      "راهنما",
-      "ضوابط",
-      "سیاست",
-      "اسناد",
-      "مستندات",
-      "regulation",
-      "regulations",
-      "bylaw",
-      "guideline",
-      "procedure",
-      "policy",
-      "circular",
-      "forms",
-      "documents",
-      "download",
-    ],
-  },
+  organization: { labelFa: "ساختار سازمانی", keywords: ["ساختار سازمانی","چارت سازمانی","ساختار معاونت","مدیریت پژوهش","مدیریت پژوهشی","مدیریت امور پژوهشی","کارشناسان پژوهش","کارکنان معاونت","واحدهای پژوهشی","مدیران معاونت","organizational structure","research units","research management","departments","staff"] },
+  libraryDocuments: { labelFa: "کتابخانه و اسناد", keywords: ["کتابخانه","کتابخانه مرکزی","مرکز اسناد","انتشارات","نشریات علمی","مجلات علمی","library","central library","document center","publication","journals"] },
+  laboratories: { labelFa: "آزمایشگاه‌ها", keywords: ["آزمایشگاه","آزمایشگاه مرکزی","شبکه آزمایشگاهی","کارگاه پژوهشی","laboratory","laboratories","central lab","lab network","research lab"] },
+  industryTechnology: { labelFa: "صنعت و فناوری", keywords: ["ارتباط با صنعت","جامعه و صنعت","صنعت و جامعه","فناوری و نوآوری","انتقال فناوری","مالکیت فکری","مرکز رشد","شرکت دانش بنیان","شرکت دانش‌بنیان","کارآفرینی","نوآوری","industry","technology transfer","innovation","intellectual property","incubator","tto"] },
+  informationTechnology: { labelFa: "فناوری اطلاعات", keywords: ["فناوری اطلاعات","فناوری اطلاعات و ارتباطات","مرکز فناوری اطلاعات","مرکز کامپیوتر","خدمات فناوری اطلاعات","information technology","computer center","ict center","it center","ict"] },
+  systemsServices: { labelFa: "سامانه‌ها و خدمات", keywords: ["سامانه","سامانه ها","سامانه‌ها","خدمات الکترونیکی","خدمات پژوهشی","پژوهشیار","علم سنجی","علم‌سنجی","پایان نامه","پایان‌نامه","نشریات","system","systems","service","services","research system","journals system","thesis system"] },
+  documentsRegulations: { labelFa: "اسناد و مقررات", keywords: ["آیین نامه","آیین‌نامه","شیوه نامه","شیوه‌نامه","دستورالعمل","بخشنامه","مقررات","فرایند","فرآیند","فرایندها","فرآیندها","فرم","فرم ها","فرم‌ها","دانلود فرم","راهنما","ضوابط","سیاست","اسناد","مستندات","regulation","bylaw","guideline","procedure","process","workflow","policy","circular","forms","documents","download"] },
 };
+const DOC_KEYWORDS = [...DIMENSIONS.documentsRegulations.keywords,"گرنت","پژوهانه","طرح پژوهشی","پروپوزال","پایان نامه","پایان‌نامه","رساله","اخلاق پژوهش","فرصت مطالعاتی","قرارداد پژوهشی","مالکیت فکری","research grant","research proposal","thesis","dissertation","research ethics","research contract"];
 
-const DOCUMENT_KEYWORDS = [
-  ...DIMENSIONS.documentsRegulations.keywords,
-  "گرنت",
-  "پژوهانه",
-  "طرح پژوهشی",
-  "پروپوزال",
-  "پایان نامه",
-  "پایان‌نامه",
-  "رساله",
-  "اخلاق پژوهش",
-  "فرصت مطالعاتی",
-  "قرارداد پژوهشی",
-  "مالکیت فکری",
-  "research grant",
-  "research proposal",
-  "thesis",
-  "dissertation",
-  "research ethics",
-  "research contract",
-];
+function normalizeText(v) {
+  return String(v ?? "").toLowerCase().replace(/\u200c/g," ").replace(/[يى]/g,"ی").replace(/ك/g,"ک").replace(/ۀ/g,"ه").replace(/[\u064B-\u065F]/g,"").replace(/[^\p{L}\p{N}./:&?=_-]+/gu," ").replace(/\s+/g," ").trim();
+}
+const N_PORTAL = PORTAL_KEYWORDS.map(normalizeText);
+const N_HUB = HUB_KEYWORDS.map(normalizeText);
+const N_DOC = DOC_KEYWORDS.map(normalizeText);
+const N_DIMS = Object.fromEntries(Object.entries(DIMENSIONS).map(([k,v]) => [k,v.keywords.map(normalizeText)]));
+const stripWww = (h) => String(h).toLowerCase().replace(/^www\./,"");
+const hostMatches = (h,e) => h === e || h.endsWith(`.${e}`);
+const isBlockedHost = (h) => SOCIAL_HOSTS.some((x) => hostMatches(stripWww(h), x));
 
-function normalizeText(value) {
-  return String(value ?? "")
-    .toLowerCase()
-    .replace(/\u200c/g, " ")
-    .replace(/[يى]/g, "ی")
-    .replace(/ك/g, "ک")
-    .replace(/ۀ/g, "ه")
-    .replace(/[\u064B-\u065F]/g, "")
-    .replace(/[^\p{L}\p{N}./:&_-]+/gu, " ")
-    .replace(/\s+/g, " ")
-    .trim();
+function isUnsafeHost(h) {
+  const x = stripWww(h);
+  if (x === "localhost" || x.endsWith(".localhost") || x.endsWith(".local") || x.endsWith(".internal")) return true;
+  if (!x.includes(".") && net.isIP(x) === 0) return true;
+  if (!net.isIP(x)) return false;
+  return x.startsWith("10.") || x.startsWith("127.") || x.startsWith("169.254.") || x.startsWith("192.168.") || /^172\.(1[6-9]|2\d|3[01])\./.test(x) || x === "::1" || x.startsWith("fc") || x.startsWith("fd") || x.startsWith("fe80:");
 }
 
-const normalizedPortalKeywords = PORTAL_KEYWORDS.map(normalizeText);
-const normalizedDocumentKeywords = DOCUMENT_KEYWORDS.map(normalizeText);
-const normalizedDimensionKeywords = Object.fromEntries(
-  Object.entries(DIMENSIONS).map(([key, value]) => [
-    key,
-    value.keywords.map(normalizeText),
-  ])
-);
-
-function hostMatches(host, expected) {
-  return host === expected || host.endsWith(`.${expected}`);
-}
-
-function stripWww(host) {
-  return String(host).toLowerCase().replace(/^www\./, "");
-}
-
-function isBlockedHost(host) {
-  const normalized = stripWww(host);
-  return [...SOCIAL_HOSTS].some((blocked) => hostMatches(normalized, blocked));
-}
-
-function isUnsafeHost(host) {
-  const normalized = stripWww(host);
-  if (
-    normalized === "localhost" ||
-    normalized.endsWith(".localhost") ||
-    normalized.endsWith(".local") ||
-    normalized.endsWith(".internal")
-  ) {
-    return true;
-  }
-
-  if (!normalized.includes(".") && net.isIP(normalized) === 0) {
-    return true;
-  }
-
-  if (net.isIP(normalized)) {
-    return (
-      normalized.startsWith("10.") ||
-      normalized.startsWith("127.") ||
-      normalized.startsWith("169.254.") ||
-      normalized.startsWith("192.168.") ||
-      /^172\.(1[6-9]|2\d|3[01])\./.test(normalized) ||
-      normalized === "::1" ||
-      normalized.startsWith("fc") ||
-      normalized.startsWith("fd") ||
-      normalized.startsWith("fe80:")
-    );
-  }
-
-  return false;
-}
-
-function safeHttpUrl(value, base = undefined) {
+function safeHttpUrl(v, base) {
   try {
-    const url = base ? new URL(value, base) : new URL(value);
-    if (!["http:", "https:"].includes(url.protocol)) return null;
-    if (isBlockedHost(url.hostname) || isUnsafeHost(url.hostname)) return null;
-    url.hash = "";
-
-    for (const key of [...url.searchParams.keys()]) {
-      if (
-        key.toLowerCase().startsWith("utm_") ||
-        ["fbclid", "gclid", "mc_cid", "mc_eid"].includes(key.toLowerCase())
-      ) {
-        url.searchParams.delete(key);
-      }
-    }
-
-    return url;
+    const u = base ? new URL(v, base) : new URL(v);
+    if (!["http:","https:"].includes(u.protocol) || isBlockedHost(u.hostname) || isUnsafeHost(u.hostname)) return null;
+    u.hash = "";
+    for (const k of [...u.searchParams.keys()]) if (k.toLowerCase().startsWith("utm_") || ["fbclid","gclid","mc_cid","mc_eid"].includes(k.toLowerCase())) u.searchParams.delete(k);
+    return u;
   } catch {
     return null;
   }
 }
 
-function canonicalUrl(value) {
-  const url = safeHttpUrl(value);
-  if (!url) return null;
-  url.hostname = stripWww(url.hostname);
-  if (url.pathname.length > 1) {
-    url.pathname = url.pathname.replace(/\/+$/, "");
-  }
-  return url.toString();
+function canonicalUrl(v) {
+  const u = safeHttpUrl(v);
+  if (!u) return null;
+  u.hostname = stripWww(u.hostname);
+  if (u.pathname.length > 1) u.pathname = u.pathname.replace(/\/+$/,"");
+  return u.toString();
 }
 
 function baseDomain(host) {
-  const normalized = stripWww(host);
-  if (net.isIP(normalized)) return normalized;
-  const labels = normalized.split(".").filter(Boolean);
-  if (labels.length <= 2) return normalized;
-
-  const iranSecondLevel = [
-    ".ac.ir",
-    ".gov.ir",
-    ".org.ir",
-    ".co.ir",
-    ".id.ir",
-    ".sch.ir",
-  ];
-
-  if (iranSecondLevel.some((suffix) => normalized.endsWith(suffix))) {
-    return labels.slice(-3).join(".");
-  }
-
-  return labels.slice(-2).join(".");
+  const h = stripWww(host);
+  if (net.isIP(h)) return h;
+  const p = h.split(".").filter(Boolean);
+  if (p.length <= 2) return h;
+  if ([".ac.ir",".gov.ir",".org.ir",".co.ir",".id.ir",".sch.ir"].some((s) => h.endsWith(s))) return p.slice(-3).join(".");
+  return p.slice(-2).join(".");
 }
 
-function isInstitutionUrl(value, allowedBases) {
-  const url = safeHttpUrl(value);
-  if (!url) return false;
-  const base = baseDomain(url.hostname);
-  return allowedBases.has(base);
+const isInstitutionUrl = (v,bases) => {
+  const u = safeHttpUrl(v);
+  return !!u && bases.has(baseDomain(u.hostname));
+};
+const decodeURIComponentSafe = (v) => {
+  try { return decodeURIComponent(String(v)); }
+  catch { return String(v); }
+};
+
+function countHits(text, words) {
+  const t = normalizeText(text);
+  return words.reduce((n,w) => n + (w && t.includes(w) ? 1 : 0), 0);
 }
 
-function countKeywordHits(text, keywords) {
-  const normalized = normalizeText(text);
-  if (!normalized) return 0;
-  let count = 0;
-  for (const keyword of keywords) {
-    if (keyword && normalized.includes(keyword)) count += 1;
-  }
-  return count;
-}
-
-function weightedSignal({ anchor = "", url = "", title = "", body = "" }, keywords) {
-  const anchorHits = countKeywordHits(anchor, keywords);
-  const urlHits = countKeywordHits(decodeURIComponentSafe(url), keywords);
-  const titleHits = countKeywordHits(title, keywords);
-  const bodyHits = countKeywordHits(String(body).slice(0, 18_000), keywords);
-
+function weightedSignal({anchor="",url="",title="",body=""}, words) {
+  const a=countHits(anchor,words);
+  const u=countHits(decodeURIComponentSafe(url),words);
+  const t=countHits(title,words);
+  const b=countHits(String(body).slice(0,18000),words);
   return {
-    anchorHits,
-    urlHits,
-    titleHits,
-    bodyHits,
-    score:
-      Math.min(anchorHits, 3) * 5 +
-      Math.min(urlHits, 3) * 4 +
-      Math.min(titleHits, 3) * 4 +
-      Math.min(bodyHits, 3),
+    anchorHits:a,
+    urlHits:u,
+    titleHits:t,
+    bodyHits:b,
+    score:Math.min(a,3)*5+Math.min(u,3)*4+Math.min(t,3)*4+Math.min(b,3)
   };
 }
 
-function decodeURIComponentSafe(value) {
-  try {
-    return decodeURIComponent(String(value));
-  } catch {
-    return String(value);
-  }
+const portalSignal = (c) => weightedSignal(c,N_PORTAL);
+const hubSignal = (c) => weightedSignal(c,N_HUB);
+const dimensionSignals = (c) => Object.fromEntries(Object.entries(N_DIMS).map(([k,w]) => [k,weightedSignal(c,w)]));
+const confidence = (score,floor=.5) => Math.max(floor,Math.min(.99,floor+score/38));
+const hasNegative = (t) => NEGATIVE.some((w) => normalizeText(t).includes(normalizeText(w)));
+
+function decodeHtml(v) {
+  return String(v??"")
+    .replace(/&nbsp;/gi," ")
+    .replace(/&amp;/gi,"&")
+    .replace(/&quot;/gi,'"')
+    .replace(/&#39;|&apos;/gi,"'")
+    .replace(/&lt;/gi,"<")
+    .replace(/&gt;/gi,">")
+    .replace(/&#x([0-9a-f]+);/gi,(_,h)=>String.fromCodePoint(parseInt(h,16)))
+    .replace(/&#(\d+);/g,(_,n)=>String.fromCodePoint(parseInt(n,10)));
 }
 
-function portalSignal(context) {
-  return weightedSignal(context, normalizedPortalKeywords);
-}
-
-function dimensionSignals(context) {
-  return Object.fromEntries(
-    Object.entries(normalizedDimensionKeywords).map(([dimension, keywords]) => [
-      dimension,
-      weightedSignal(context, keywords),
-    ])
-  );
-}
-
-function signalConfidence(score, floor = 0.5) {
-  return Math.max(floor, Math.min(0.99, floor + score / 38));
-}
-
-function hasNegativeNavigationSignal(text) {
-  const normalized = normalizeText(text);
-  return NEGATIVE_NAV_WORDS.some((word) =>
-    normalized.includes(normalizeText(word))
-  );
-}
-
-function decodeHtml(value) {
-  return String(value ?? "")
-    .replace(/&nbsp;/gi, " ")
-    .replace(/&amp;/gi, "&")
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;|&apos;/gi, "'")
-    .replace(/&lt;/gi, "<")
-    .replace(/&gt;/gi, ">")
-    .replace(/&#x([0-9a-f]+);/gi, (_, hex) =>
-      String.fromCodePoint(Number.parseInt(hex, 16))
-    )
-    .replace(/&#(\d+);/g, (_, number) =>
-      String.fromCodePoint(Number.parseInt(number, 10))
-    );
-}
-
-function stripTags(value) {
+function stripTags(v) {
   return decodeHtml(
-    String(value ?? "")
-      .replace(/<script\b[\s\S]*?<\/script>/gi, " ")
-      .replace(/<style\b[\s\S]*?<\/style>/gi, " ")
-      .replace(/<noscript\b[\s\S]*?<\/noscript>/gi, " ")
-      .replace(/<!--[\s\S]*?-->/g, " ")
-      .replace(/<[^>]+>/g, " ")
-  )
-    .replace(/\s+/g, " ")
-    .trim();
+    String(v??"")
+      .replace(/<script\b[\s\S]*?<\/script>/gi," ")
+      .replace(/<style\b[\s\S]*?<\/style>/gi," ")
+      .replace(/<noscript\b[\s\S]*?<\/noscript>/gi," ")
+      .replace(/<!--[\s\S]*?-->/g," ")
+      .replace(/<[^>]+>/g," ")
+  ).replace(/\s+/g," ").trim();
 }
 
-function extractTitle(html) {
-  const match = String(html).match(/<title\b[^>]*>([\s\S]*?)<\/title>/i);
-  return match ? stripTags(match[1]).slice(0, 300) : "";
+const extractTitle = (html) => {
+  const m=String(html).match(/<title\b[^>]*>([\s\S]*?)<\/title>/i);
+  return m ? stripTags(m[1]).slice(0,300) : "";
+};
+
+function attr(attrs,name) {
+  const e=name.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
+  const q=attrs.match(new RegExp(`\\b${e}\\s*=\\s*(["'])([\\s\\S]*?)\\1`,"i"));
+  if(q) return decodeHtml(q[2].trim());
+  const u=attrs.match(new RegExp(`\\b${e}\\s*=\\s*([^\\s>]+)`,"i"));
+  return u ? decodeHtml(u[1].trim()) : "";
 }
 
-function attributeValue(attributes, name) {
-  const escaped = name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  const quoted = attributes.match(
-    new RegExp(`\\b${escaped}\\s*=\\s*([\"'])([\\s\\S]*?)\\1`, "i")
-  );
-  if (quoted) return decodeHtml(quoted[2].trim());
-
-  const unquoted = attributes.match(
-    new RegExp(`\\b${escaped}\\s*=\\s*([^\\s>]+)`, "i")
-  );
-  return unquoted ? decodeHtml(unquoted[1].trim()) : "";
+function addLink(out,seen,value,pageUrl,extra={}) {
+  const u=safeHttpUrl(value,pageUrl);
+  if(!u) return;
+  if(ASSET_EXTS.has(path.extname(u.pathname).toLowerCase())) return;
+  const key=canonicalUrl(u.toString())||u.toString();
+  if(seen.has(key)) return;
+  seen.add(key);
+  out.push({
+    url:u.toString(),
+    anchorText:extra.anchorText||"",
+    title:extra.title||"",
+    discoveryKind:extra.discoveryKind||"html"
+  });
 }
 
-function extractLinks(html, pageUrl) {
-  const links = [];
-  const seen = new Set();
-  const anchorRegex = /<a\b([^>]*)>([\s\S]*?)<\/a>/gi;
-  let match;
+function extractLinks(html,pageUrl) {
+  const out=[],seen=new Set(),src=String(html??"");
+  let m;
 
-  while ((match = anchorRegex.exec(String(html)))) {
-    const attributes = match[1];
-    const href = attributeValue(attributes, "href");
-    if (!href) continue;
-
-    const url = safeHttpUrl(href, pageUrl);
-    if (!url) continue;
-
-    const key = canonicalUrl(url.toString()) || url.toString();
-    if (seen.has(key)) continue;
-    seen.add(key);
-
-    const anchorText = stripTags(match[2]).slice(0, 500);
-    const title = attributeValue(attributes, "title").slice(0, 300);
-
-    links.push({
-      url: url.toString(),
-      anchorText,
-      title,
+  const a=/<a\b([^>]*)>([\s\S]*?)<\/a>/gi;
+  while((m=a.exec(src))) {
+    const href=attr(m[1],"href");
+    if(href) addLink(out,seen,href,pageUrl,{
+      anchorText:stripTags(m[2]).slice(0,500),
+      title:attr(m[1],"title").slice(0,300),
+      discoveryKind:"anchor"
     });
   }
 
-  // Some CMS templates expose useful destinations in iframes.
-  const iframeRegex = /<iframe\b([^>]*)>/gi;
-  while ((match = iframeRegex.exec(String(html)))) {
-    const src = attributeValue(match[1], "src");
-    if (!src) continue;
-    const url = safeHttpUrl(src, pageUrl);
-    if (!url) continue;
-    const key = canonicalUrl(url.toString()) || url.toString();
-    if (seen.has(key)) continue;
-    seen.add(key);
-    links.push({
-      url: url.toString(),
-      anchorText: attributeValue(match[1], "title"),
-      title: attributeValue(match[1], "title"),
+  const f=/<iframe\b([^>]*)>/gi;
+  while((m=f.exec(src))) {
+    const v=attr(m[1],"src");
+    const t=attr(m[1],"title").slice(0,300);
+    if(v) addLink(out,seen,v,pageUrl,{
+      anchorText:t,
+      title:t,
+      discoveryKind:"iframe"
     });
   }
 
-  // JS-heavy university CMS menus sometimes keep the destination on buttons
-  // or generic elements instead of <a href>. Treat these as click targets.
-  const clickableRegex = /<(button|div|li|span)\b([^>]*)>([\s\S]*?)<\/\1>/gi;
-  while ((match = clickableRegex.exec(String(html)))) {
-    const attributes = match[2];
-    const text = stripTags(match[3]).slice(0, 500);
-    const candidates = [
-      attributeValue(attributes, "data-href"),
-      attributeValue(attributes, "data-url"),
-      attributeValue(attributes, "data-link"),
+  const c=/<(button|div|li|span)\b([^>]*)>([\s\S]*?)<\/\1>/gi;
+  while((m=c.exec(src))) {
+    const at=m[2];
+    const text=stripTags(m[3]).slice(0,500);
+    const vals=[
+      attr(at,"data-href"),
+      attr(at,"data-url"),
+      attr(at,"data-link"),
+      attr(at,"data-target-url")
     ].filter(Boolean);
 
-    const onclick = attributeValue(attributes, "onclick");
-    if (onclick) {
-      const clickUrl =
+    const onclick=attr(at,"onclick");
+    if(onclick) {
+      const v=
         onclick.match(/(?:location(?:\.href)?|window\.location)\s*=\s*["']([^"']+)["']/i)?.[1] ||
-        onclick.match(/(?:open|navigate)\s*\(\s*["']([^"']+)["']/i)?.[1];
-      if (clickUrl) candidates.push(clickUrl);
+        onclick.match(/(?:open|navigate|goTo|goto)\s*\(\s*["']([^"']+)["']/i)?.[1];
+      if(v) vals.push(v);
     }
 
-    for (const candidate of candidates) {
-      const url = safeHttpUrl(candidate, pageUrl);
-      if (!url) continue;
-      const key = canonicalUrl(url.toString()) || url.toString();
-      if (seen.has(key)) continue;
-      seen.add(key);
-      links.push({
-        url: url.toString(),
-        anchorText: text,
-        title: attributeValue(attributes, "title"),
-      });
-    }
+    for(const v of vals) addLink(out,seen,v,pageUrl,{
+      anchorText:text,
+      title:attr(at,"title").slice(0,300),
+      discoveryKind:"click-target"
+    });
   }
 
-  return links;
-}
+  const js=decodeHtml(src).replace(/\\\//g,"/");
+  const re=/["'`]((?:https?:\/\/|\/)[^"'`<>\s]{2,800})["'`]/gi;
 
-function isHtmlContentType(contentType) {
-  const value = String(contentType ?? "").toLowerCase();
-  return (
-    !value ||
-    value.includes("text/html") ||
-    value.includes("application/xhtml+xml")
-  );
-}
+  while((m=re.exec(js))) {
+    const u=safeHttpUrl(m[1],pageUrl);
+    if(!u || ASSET_EXTS.has(path.extname(u.pathname).toLowerCase())) continue;
 
-function looksLikeDocumentContentType(contentType) {
-  const value = String(contentType ?? "").toLowerCase();
-  return DOCUMENT_MIME_HINTS.some((hint) => value.includes(hint));
-}
+    const ctx={anchor:"",url:u.toString(),title:"",body:""};
+    const dims=dimensionSignals(ctx);
+    const max=Math.max(0,...Object.values(dims).map(x=>x.score));
 
-function extensionOfUrl(value) {
-  const url = safeHttpUrl(value);
-  if (!url) return "";
-  const extension = path.extname(url.pathname).toLowerCase();
-  return DOCUMENT_EXTENSIONS.has(extension) ? extension : "";
-}
+    if(
+      !DOC_EXTS.has(path.extname(u.pathname).toLowerCase()) &&
+      portalSignal(ctx).score<4 &&
+      hubSignal(ctx).score<4 &&
+      max<4
+    ) continue;
 
-function looksLikeDocumentLink(link) {
-  if (extensionOfUrl(link.url)) return true;
-  const context = `${link.anchorText} ${link.title} ${decodeURIComponentSafe(link.url)}`;
-  return countKeywordHits(context, normalizedDocumentKeywords) > 0;
-}
-
-async function readBodyLimited(response, maxBytes) {
-  const declared = Number.parseInt(response.headers.get("content-length") || "", 10);
-  if (Number.isFinite(declared) && declared > maxBytes) {
-    const error = new Error(`response-too-large:${declared}`);
-    error.code = "RESPONSE_TOO_LARGE";
-    throw error;
+    addLink(out,seen,u.toString(),pageUrl,{
+      discoveryKind:"embedded-url"
+    });
   }
 
-  if (!response.body) {
-    const buffer = Buffer.from(await response.arrayBuffer());
-    if (buffer.length > maxBytes) {
-      const error = new Error(`response-too-large:${buffer.length}`);
-      error.code = "RESPONSE_TOO_LARGE";
-      throw error;
-    }
-    return buffer;
+  return out;
+}
+
+const isHtml = (ct) => {
+  const v=String(ct??"").toLowerCase();
+  return !v || v.includes("text/html") || v.includes("application/xhtml+xml");
+};
+
+const looksDocMime = (ct) =>
+  DOC_MIME_HINTS.some((h) => String(ct??"").toLowerCase().includes(h));
+
+function extOf(v) {
+  const u=safeHttpUrl(v);
+  if(!u) return "";
+  const e=path.extname(u.pathname).toLowerCase();
+  return DOC_EXTS.has(e) ? e : "";
+}
+
+const looksDocLink = (l) =>
+  !!extOf(l.url) ||
+  countHits(`${l.anchorText} ${l.title} ${decodeURIComponentSafe(l.url)}`,N_DOC)>0;
+
+async function readLimited(res,max) {
+  const declared=parseInt(res.headers.get("content-length")||"",10);
+  if(Number.isFinite(declared)&&declared>max)
+    throw new Error(`response-too-large:${declared}`);
+
+  if(!res.body) {
+    const b=Buffer.from(await res.arrayBuffer());
+    if(b.length>max) throw new Error(`response-too-large:${b.length}`);
+    return b;
   }
 
-  const reader = response.body.getReader();
-  const chunks = [];
-  let total = 0;
+  const r=res.body.getReader();
+  const chunks=[];
+  let total=0;
 
   try {
-    while (true) {
-      const { value, done } = await reader.read();
-      if (done) break;
-      const chunk = Buffer.from(value);
-      total += chunk.length;
-      if (total > maxBytes) {
-        await reader.cancel();
-        const error = new Error(`response-too-large:${total}`);
-        error.code = "RESPONSE_TOO_LARGE";
-        throw error;
+    while(true) {
+      const {value,done}=await r.read();
+      if(done) break;
+
+      const c=Buffer.from(value);
+      total+=c.length;
+
+      if(total>max) {
+        await r.cancel();
+        throw new Error(`response-too-large:${total}`);
       }
-      chunks.push(chunk);
+
+      chunks.push(c);
     }
   } finally {
-    reader.releaseLock?.();
+    r.releaseLock?.();
   }
 
   return Buffer.concat(chunks);
 }
 
-const fetchHeaders = {
-  "User-Agent":
-    "IranResearchPortalObservatory/11.0 (+research-discovery; evidence-crawler)",
-  Accept:
-    "text/html,application/xhtml+xml,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,*/*;q=0.4",
-  "Accept-Language": "fa-IR,fa;q=0.9,en;q=0.5",
+const headers={
+  "User-Agent":"IranResearchPortalObservatory/12.0 (+multi-hub-research-discovery)",
+  Accept:"text/html,application/xhtml+xml,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document,*/*;q=0.4",
+  "Accept-Language":"fa-IR,fa;q=0.9,en;q=0.5"
 };
 
-async function fetchResource(url, timeoutMs, maxBytes) {
-  const response = await fetch(url, {
-    redirect: "follow",
-    headers: fetchHeaders,
-    signal: AbortSignal.timeout(timeoutMs),
+async function fetchResource(url,timeout,max) {
+  const res=await fetch(url,{
+    redirect:"follow",
+    headers,
+    signal:AbortSignal.timeout(timeout)
   });
 
-  const contentType = response.headers.get("content-type") || "";
-  const buffer = await readBodyLimited(response, maxBytes);
+  const buffer=await readLimited(res,max);
 
   return {
-    requestedUrl: url,
-    finalUrl: response.url,
-    status: response.status,
-    ok: response.ok,
-    contentType,
-    contentLength: buffer.length,
+    finalUrl:res.url,
+    status:res.status,
+    ok:res.ok,
+    contentType:res.headers.get("content-type")||"",
     buffer,
-    headers: {
-      etag: response.headers.get("etag"),
-      lastModified: response.headers.get("last-modified"),
-      contentDisposition: response.headers.get("content-disposition"),
-    },
+    headers:{
+      contentDisposition:res.headers.get("content-disposition"),
+      etag:res.headers.get("etag"),
+      lastModified:res.headers.get("last-modified")
+    }
   };
 }
 
 async function findBrowser() {
-  if (!CONFIG.useBrowserFallback) return null;
+  if(!CONFIG.useBrowserFallback) return null;
 
-  const candidates = [
+  const c=[
     process.env.CRAWL_BROWSER_PATH,
-    process.env.PROGRAMFILES &&
-      path.join(
-        process.env.PROGRAMFILES,
-        "Microsoft",
-        "Edge",
-        "Application",
-        "msedge.exe"
-      ),
-    process.env["PROGRAMFILES(X86)"] &&
-      path.join(
-        process.env["PROGRAMFILES(X86)"],
-        "Microsoft",
-        "Edge",
-        "Application",
-        "msedge.exe"
-      ),
-    process.env.PROGRAMFILES &&
-      path.join(
-        process.env.PROGRAMFILES,
-        "Google",
-        "Chrome",
-        "Application",
-        "chrome.exe"
-      ),
-    process.env["PROGRAMFILES(X86)"] &&
-      path.join(
-        process.env["PROGRAMFILES(X86)"],
-        "Google",
-        "Chrome",
-        "Application",
-        "chrome.exe"
-      ),
-    process.env.LOCALAPPDATA &&
-      path.join(
-        process.env.LOCALAPPDATA,
-        "Google",
-        "Chrome",
-        "Application",
-        "chrome.exe"
-      ),
+    process.env.PROGRAMFILES&&path.join(
+      process.env.PROGRAMFILES,
+      "Microsoft","Edge","Application","msedge.exe"
+    ),
+    process.env["PROGRAMFILES(X86)"]&&path.join(
+      process.env["PROGRAMFILES(X86)"],
+      "Microsoft","Edge","Application","msedge.exe"
+    ),
+    process.env.PROGRAMFILES&&path.join(
+      process.env.PROGRAMFILES,
+      "Google","Chrome","Application","chrome.exe"
+    ),
+    process.env.LOCALAPPDATA&&path.join(
+      process.env.LOCALAPPDATA,
+      "Google","Chrome","Application","chrome.exe"
+    ),
     "/usr/bin/google-chrome",
     "/usr/bin/chromium",
-    "/usr/bin/chromium-browser",
+    "/usr/bin/chromium-browser"
   ].filter(Boolean);
 
-  for (const candidate of candidates) {
+  for(const p of c) {
     try {
-      await fs.access(candidate);
-      return candidate;
-    } catch {
-      // continue
-    }
+      await fs.access(p);
+      return p;
+    } catch {}
   }
 
   return null;
 }
 
-const BROWSER_PATH = await findBrowser();
+const BROWSER_PATH=await findBrowser();
 
-async function renderWithBrowser(url) {
-  if (!BROWSER_PATH) return null;
+async function render(url) {
+  if(!BROWSER_PATH) return null;
 
   try {
-    const { stdout } = await execFileAsync(
+    const {stdout}=await execFileAsync(
       BROWSER_PATH,
       [
         "--headless=new",
@@ -810,1063 +403,1782 @@ async function renderWithBrowser(url) {
         "--disable-background-networking",
         "--no-first-run",
         "--no-default-browser-check",
+        "--virtual-time-budget=5000",
         "--dump-dom",
-        url,
+        url
       ],
       {
-        timeout: CONFIG.browserTimeoutMs,
-        maxBuffer: 6_000_000,
-        windowsHide: true,
+        timeout:CONFIG.browserTimeoutMs,
+        maxBuffer:10_000_000,
+        windowsHide:true
       }
     );
 
-    return stdout || null;
+    return stdout||null;
   } catch {
     return null;
   }
 }
 
-const robotsCache = new Map();
+const robotsCache=new Map();
 
 function parseRobots(text) {
-  const disallow = [];
-  const sitemaps = [];
-  let applies = false;
+  const disallow=[];
+  const sitemaps=[];
+  let applies=false;
 
-  for (const rawLine of String(text).split(/\r?\n/)) {
-    const line = rawLine.replace(/#.*$/, "").trim();
-    if (!line) continue;
-    const [rawKey, ...rest] = line.split(":");
-    const key = rawKey.trim().toLowerCase();
-    const value = rest.join(":").trim();
+  for(const raw of String(text).split(/\r?\n/)) {
+    const line=raw.replace(/#.*$/,"").trim();
+    if(!line) continue;
 
-    if (key === "user-agent") {
-      applies = value === "*";
-    } else if (key === "disallow" && applies && value) {
-      disallow.push(value);
-    } else if (key === "sitemap" && value) {
-      sitemaps.push(value);
-    }
+    const [k0,...rest]=line.split(":");
+    const k=k0.trim().toLowerCase();
+    const v=rest.join(":").trim();
+
+    if(k==="user-agent") applies=v==="*";
+    else if(k==="disallow"&&applies&&v) disallow.push(v);
+    else if(k==="sitemap"&&v) sitemaps.push(v);
   }
 
-  return { disallow, sitemaps };
+  return {disallow,sitemaps};
 }
 
 async function getRobots(url) {
-  const parsedUrl = safeHttpUrl(url);
-  if (!parsedUrl) return { disallow: [], sitemaps: [] };
+  const u=safeHttpUrl(url);
+  if(!u) return {disallow:[],sitemaps:[]};
 
-  const origin = parsedUrl.origin;
-  if (robotsCache.has(origin)) return robotsCache.get(origin);
+  if(robotsCache.has(u.origin))
+    return robotsCache.get(u.origin);
 
-  const promise = (async () => {
+  const p=(async()=>{
     try {
-      const robotsUrl = new URL("/robots.txt", origin).toString();
-      const resource = await fetchResource(robotsUrl, 5_000, 300_000);
-      if (!resource.ok) return { disallow: [], sitemaps: [] };
-      return parseRobots(resource.buffer.toString("utf8"));
+      const r=await fetchResource(
+        new URL("/robots.txt",u.origin).toString(),
+        5000,
+        300000
+      );
+
+      return r.ok
+        ? parseRobots(r.buffer.toString("utf8"))
+        : {disallow:[],sitemaps:[]};
     } catch {
-      return { disallow: [], sitemaps: [] };
+      return {disallow:[],sitemaps:[]};
     }
   })();
 
-  robotsCache.set(origin, promise);
-  return promise;
+  robotsCache.set(u.origin,p);
+  return p;
 }
 
 async function allowedByRobots(url) {
-  const parsedUrl = safeHttpUrl(url);
-  if (!parsedUrl) return false;
-  const robots = await getRobots(url);
-  const target = `${parsedUrl.pathname}${parsedUrl.search}`;
-  return !robots.disallow.some(
-    (prefix) => prefix !== "/" && prefix && target.startsWith(prefix)
-  ) && !robots.disallow.includes("/");
+  const u=safeHttpUrl(url);
+  if(!u) return false;
+
+  const r=await getRobots(url);
+  const t=`${u.pathname}${u.search}`;
+
+  return !r.disallow.includes("/") &&
+    !r.disallow.some(p=>p!=="/"&&p&&t.startsWith(p));
 }
 
 function parseSitemap(text) {
-  const urls = [];
-  const regex = /<loc\b[^>]*>([\s\S]*?)<\/loc>/gi;
-  let match;
+  const out=[];
+  const re=/<loc\b[^>]*>([\s\S]*?)<\/loc>/gi;
+  let m;
 
-  while ((match = regex.exec(String(text)))) {
-    const value = stripTags(match[1]);
-    const url = safeHttpUrl(value);
-    if (url) urls.push(url.toString());
+  while((m=re.exec(String(text)))) {
+    const u=safeHttpUrl(stripTags(m[1]));
+    if(u) out.push(u.toString());
   }
 
-  return urls;
+  return out;
 }
 
-async function fetchSitemapCandidates(seedUrl, allowedBases) {
-  const parsedSeed = safeHttpUrl(seedUrl);
-  if (!parsedSeed) return [];
+async function sitemapCandidates(seedUrl,bases) {
+  const seed=safeHttpUrl(seedUrl);
+  if(!seed) return [];
 
-  const robots = await getRobots(seedUrl);
-  const sitemapUrls = new Set(robots.sitemaps);
+  const r=await getRobots(seedUrl);
+  const q=[...r.sitemaps];
 
-  if (!sitemapUrls.size) {
-    sitemapUrls.add(new URL("/sitemap.xml", parsedSeed.origin).toString());
-  }
+  if(!q.length)
+    q.push(new URL("/sitemap.xml",seed.origin).toString());
 
-  const candidates = [];
-  for (const sitemapUrl of [...sitemapUrls].slice(0, 3)) {
+  const seen=new Set();
+  const out=new Set();
+
+  while(q.length&&seen.size<8) {
+    const sm=q.shift();
+    const key=canonicalUrl(sm)||sm;
+
+    if(seen.has(key)) continue;
+    seen.add(key);
+
     try {
-      const resource = await fetchResource(sitemapUrl, 8_000, 2_000_000);
-      if (!resource.ok) continue;
-      for (const value of parseSitemap(resource.buffer.toString("utf8"))) {
-        if (!isInstitutionUrl(value, allowedBases)) continue;
+      const res=await fetchResource(sm,8000,3_000_000);
+      if(!res.ok) continue;
 
-        const context = {
-          url: value,
-          anchor: "",
-          title: "",
-          body: "",
+      for(const v of parseSitemap(res.buffer.toString("utf8")).slice(0,1000)) {
+        const u=safeHttpUrl(v);
+
+        if(!u||!isInstitutionUrl(v,bases))
+          continue;
+
+        if(u.pathname.toLowerCase().endsWith(".xml")) {
+          if(seen.size+q.length<8)
+            q.push(v);
+
+          continue;
+        }
+
+        const ctx={
+          anchor:"",
+          url:v,
+          title:"",
+          body:""
         };
 
-        const p = portalSignal(context).score;
-        const dims = dimensionSignals(context);
-        const dimMax = Math.max(...Object.values(dims).map((x) => x.score));
-        if (p >= 4 || dimMax >= 4 || extensionOfUrl(value)) {
-          candidates.push(value);
+        const dims=dimensionSignals(ctx);
+        const max=Math.max(
+          0,
+          ...Object.values(dims).map(x=>x.score)
+        );
+
+        if(
+          portalSignal(ctx).score>=4 ||
+          hubSignal(ctx).score>=4 ||
+          max>=4 ||
+          extOf(v)
+        ) {
+          out.add(v);
         }
       }
-    } catch {
-      // Sitemap failure is non-fatal.
-    }
+    } catch {}
   }
 
-  return [...new Set(candidates)].slice(0, 250);
+  return [...out].slice(0,400);
 }
 
-function priorityForLink(link, parentResearchContext) {
-  const context = {
-    anchor: `${link.anchorText} ${link.title}`,
-    url: link.url,
-    title: "",
-    body: "",
+function priority(link,research) {
+  const c={
+    anchor:`${link.anchorText} ${link.title}`,
+    url:link.url,
+    title:"",
+    body:""
   };
-  const portal = portalSignal(context).score;
-  const dimensions = dimensionSignals(context);
-  const dimensionMax = Math.max(
+
+  const dims=dimensionSignals(c);
+  const max=Math.max(
     0,
-    ...Object.values(dimensions).map((signal) => signal.score)
+    ...Object.values(dims).map(x=>x.score)
   );
-  const document = looksLikeDocumentLink(link) ? 18 : 0;
-  const negative = hasNegativeNavigationSignal(context.anchor) ? -12 : 0;
 
   return (
-    portal * 3 +
-    dimensionMax * 2 +
-    document +
-    (parentResearchContext ? 12 : 0) +
-    negative
+    portalSignal(c).score*3 +
+    hubSignal(c).score*5 +
+    max*2 +
+    (looksDocLink(link)?18:0) +
+    (research?12:0) +
+    (hasNegative(c.anchor)?-12:0)
   );
 }
 
-function shouldQueueLink(link, parentResearchContext, depth) {
-  if (depth > CONFIG.maxDepth) return false;
+function shouldQueue(link,research,depth,isHub=false) {
+  if(depth>CONFIG.maxDepth)
+    return false;
 
-  const context = {
-    anchor: `${link.anchorText} ${link.title}`,
-    url: link.url,
-    title: "",
-    body: "",
+  const c={
+    anchor:`${link.anchorText} ${link.title}`,
+    url:link.url,
+    title:"",
+    body:""
   };
-  const portal = portalSignal(context).score;
-  const dimensions = dimensionSignals(context);
-  const dimensionMax = Math.max(
+
+  const dims=dimensionSignals(c);
+  const max=Math.max(
     0,
-    ...Object.values(dimensions).map((signal) => signal.score)
+    ...Object.values(dims).map(x=>x.score)
   );
 
-  if (portal >= 4 || dimensionMax >= 5) return true;
-  if (parentResearchContext && !hasNegativeNavigationSignal(context.anchor)) {
-    return true;
-  }
-
-  return false;
+  return (
+    isHub ||
+    hubSignal(c).score>=4 ||
+    portalSignal(c).score>=4 ||
+    max>=5 ||
+    (research&&!hasNegative(c.anchor))
+  );
 }
 
-function documentTaxonomy(text) {
-  const normalized = normalizeText(text);
+function taxonomy(text) {
+  const t=normalizeText(text);
 
-  const groups = [
-    ["research ethics", ["اخلاق پژوهش", "کمیته اخلاق", "research ethics"]],
-    ["grants/funding", ["گرنت", "پژوهانه", "حمایت", "grant", "funding"]],
-    [
-      "industry/technology/IP",
-      [
-        "ارتباط با صنعت",
-        "فناوری",
-        "مالکیت فکری",
-        "اختراع",
-        "مرکز رشد",
-        "industry",
-        "technology",
-        "intellectual property",
-      ],
-    ],
-    [
-      "laboratory",
-      ["آزمایشگاه", "آزمایش", "laboratory", "lab"],
-    ],
-    [
-      "publications/journals",
-      ["نشریه", "مجله", "انتشارات", "journal", "publication"],
-    ],
-    [
-      "postgraduate/research affairs",
-      [
-        "پایان نامه",
-        "پایان‌نامه",
-        "رساله",
-        "پروپوزال",
-        "تحصیلات تکمیلی",
-        "thesis",
-        "dissertation",
-        "proposal",
-      ],
-    ],
-    [
-      "regulation/bylaw",
-      ["آیین نامه", "آیین‌نامه", "مقررات", "ضوابط", "regulation", "bylaw"],
-    ],
-    [
-      "procedure/guideline",
-      [
-        "شیوه نامه",
-        "شیوه‌نامه",
-        "دستورالعمل",
-        "راهنما",
-        "guideline",
-        "procedure",
-      ],
-    ],
-    ["form/template", ["فرم", "الگو", "form", "template"]],
-    ["policy/circular", ["بخشنامه", "سیاست", "ابلاغ", "policy", "circular"]],
+  const groups=[
+    ["research ethics",["اخلاق پژوهش","کمیته اخلاق","research ethics"]],
+    ["grants/funding",["گرنت","پژوهانه","حمایت","grant","funding"]],
+    ["industry/technology/IP",["ارتباط با صنعت","فناوری","مالکیت فکری","اختراع","مرکز رشد","industry","technology","intellectual property"]],
+    ["laboratory",["آزمایشگاه","laboratory","lab"]],
+    ["publications/journals",["نشریه","مجله","انتشارات","journal","publication"]],
+    ["postgraduate/research affairs",["پایان نامه","پایان‌نامه","رساله","پروپوزال","تحصیلات تکمیلی","thesis","dissertation","proposal"]],
+    ["regulation/bylaw",["آیین نامه","آیین‌نامه","مقررات","ضوابط","regulation","bylaw"]],
+    ["procedure/guideline",["شیوه نامه","شیوه‌نامه","دستورالعمل","فرایند","فرآیند","راهنما","guideline","procedure","process"]],
+    ["form/template",["فرم","الگو","form","template"]],
+    ["policy/circular",["بخشنامه","سیاست","ابلاغ","policy","circular"]]
   ];
 
-  for (const [taxonomy, keywords] of groups) {
-    if (keywords.some((keyword) => normalized.includes(normalizeText(keyword)))) {
-      return taxonomy;
-    }
-  }
+  for(const [name,words] of groups)
+    if(words.some(w=>t.includes(normalizeText(w))))
+      return name;
 
   return "other";
 }
 
-function documentType(taxonomy, title) {
-  const normalized = normalizeText(title);
-  if (taxonomy === "regulation/bylaw") return "آیین‌نامه";
-  if (taxonomy === "procedure/guideline") return "شیوه‌نامه/دستورالعمل";
-  if (taxonomy === "form/template") return "فرم/الگو";
-  if (taxonomy === "policy/circular") return "سیاست/بخشنامه";
-  if (normalized.includes("فرایند") || normalized.includes("فرآیند")) return "فرآیند";
+function docType(tax,title) {
+  const t=normalizeText(title);
+
+  if(tax==="regulation/bylaw")
+    return "آیین‌نامه";
+
+  if(tax==="procedure/guideline")
+    return "شیوه‌نامه/دستورالعمل";
+
+  if(tax==="form/template")
+    return "فرم/الگو";
+
+  if(tax==="policy/circular")
+    return "سیاست/بخشنامه";
+
+  if(t.includes("فرایند")||t.includes("فرآیند"))
+    return "فرآیند";
+
   return "سند";
 }
 
-function documentTopic(taxonomy, title) {
-  if (taxonomy === "research ethics") return "اخلاق پژوهش";
-  if (taxonomy === "grants/funding") return "حمایت و گرنت";
-  if (taxonomy === "publications/journals") return "انتشارات و نشریات";
-  if (taxonomy === "laboratory") return "آزمایشگاه";
-  if (taxonomy === "industry/technology/IP")
+function docTopic(tax,title) {
+  if(tax==="research ethics")
+    return "اخلاق پژوهش";
+
+  if(tax==="grants/funding")
+    return "حمایت و گرنت";
+
+  if(tax==="publications/journals")
+    return "انتشارات و نشریات";
+
+  if(tax==="laboratory")
+    return "آزمایشگاه";
+
+  if(tax==="industry/technology/IP")
     return "صنعت، فناوری و مالکیت فکری";
-  if (taxonomy === "postgraduate/research affairs")
+
+  if(tax==="postgraduate/research affairs")
     return "تحصیلات تکمیلی و امور پژوهشی";
 
-  const normalized = normalizeText(title);
-  if (normalized.includes("اخلاق")) return "اخلاق پژوهش";
-  if (
-    ["گرنت", "پژوهانه", "حمایت"].some((x) =>
-      normalized.includes(normalizeText(x))
-    )
-  ) {
-    return "حمایت و گرنت";
-  }
-  if (
-    ["نشریه", "مجله", "انتشارات"].some((x) =>
-      normalized.includes(normalizeText(x))
-    )
-  ) {
-    return "انتشارات و نشریات";
-  }
-  if (normalized.includes("آزمایش")) return "آزمایشگاه";
-  if (
-    ["صنعت", "فناوری", "مالکیت فکری", "اختراع", "مرکز رشد"].some((x) =>
-      normalized.includes(normalizeText(x))
-    )
-  ) {
-    return "صنعت، فناوری و مالکیت فکری";
-  }
-  if (
-    ["پایان نامه", "پایان‌نامه", "رساله", "پروپوزال"].some((x) =>
-      normalized.includes(normalizeText(x))
-    )
-  ) {
-    return "تحصیلات تکمیلی و امور پژوهشی";
-  }
+  const t=normalizeText(title);
+
+  if(t.includes("اخلاق"))
+    return "اخلاق پژوهش";
+
+  if(t.includes("آزمایش"))
+    return "آزمایشگاه";
 
   return "سایر";
 }
 
-function filenameFromHeaders(resource, url) {
-  const disposition = resource.headers.contentDisposition || "";
-  const encoded = disposition.match(/filename\*\s*=\s*UTF-8''([^;]+)/i)?.[1];
-  if (encoded) {
+function filename(res,url) {
+  const d=res.headers.contentDisposition||"";
+
+  const e=d.match(/filename\*\s*=\s*UTF-8''([^;]+)/i)?.[1];
+
+  if(e) {
     try {
-      return decodeURIComponent(encoded.replace(/^["']|["']$/g, ""));
-    } catch {
-      // continue
-    }
+      return decodeURIComponent(
+        e.replace(/^["']|["']$/g,"")
+      );
+    } catch {}
   }
 
-  const regular = disposition.match(/filename\s*=\s*["']?([^;"']+)/i)?.[1];
-  if (regular) return regular.trim();
+  const r=d.match(/filename\s*=\s*["']?([^;"']+)/i)?.[1];
 
-  const parsedUrl = safeHttpUrl(url);
-  return parsedUrl
-    ? decodeURIComponentSafe(path.basename(parsedUrl.pathname)) || "document"
+  if(r)
+    return r.trim();
+
+  const u=safeHttpUrl(url);
+
+  return u
+    ? decodeURIComponentSafe(path.basename(u.pathname))||"document"
     : "document";
 }
 
-function safeFilename(value) {
-  const cleaned = String(value || "document")
-    .replace(/[<>:"/\\|?*\u0000-\u001F]/g, "_")
-    .replace(/\s+/g, " ")
+const safeFilename=(v)=>
+  String(v||"document")
+    .replace(/[<>:"/\\|?*\u0000-\u001F]/g,"_")
+    .replace(/\s+/g," ")
     .trim()
-    .slice(0, 140);
+    .slice(0,140)||"document";
 
-  return cleaned || "document";
+function addDoc(map,c) {
+  const k=canonicalUrl(c.url);
+  if(!k) return;
+
+  const score=(x)=>
+    (x.researchContext?20:0)+
+    (x.discoveryPath?.length||0)+
+    countHits(
+      `${x.anchorText} ${x.title} ${x.url}`,
+      N_DOC
+    )*4;
+
+  const p=map.get(k);
+
+  if(!p||score(c)>score(p))
+    map.set(k,c);
 }
 
-function addDocumentCandidate(map, candidate) {
-  const key = canonicalUrl(candidate.url);
-  if (!key || map.has(key)) return;
-  map.set(key, candidate);
-}
+const evidenceKey=(r)=>
+  `${r.universitySlug}|${r.dimension}|${canonicalUrl(r.url)}`;
 
-function evidenceKey(record) {
-  return `${record.universitySlug}|${record.dimension}|${canonicalUrl(record.url)}`;
-}
+async function collectDocument(c,u) {
+  const ctx=[
+    c.anchorText,
+    c.title,
+    c.sourcePageTitle,
+    c.sourcePage,
+    c.url
+  ].filter(Boolean).join(" ");
 
-async function collectDocument(candidate, university) {
-  const context = [
-    candidate.anchorText,
-    candidate.title,
-    candidate.sourcePageTitle,
-    candidate.sourcePage,
-    candidate.url,
-  ]
-    .filter(Boolean)
-    .join(" ");
+  const hits=countHits(ctx,N_DOC);
+  const ext=extOf(c.url);
 
-  const keywordHits = countKeywordHits(context, normalizedDocumentKeywords);
-  const ext = extensionOfUrl(candidate.url);
-
-  // Unknown-extension downloads need a meaningful research/document clue.
-  if (!ext && keywordHits === 0) return null;
+  if(!ext&&!hits)
+    return null;
 
   try {
-    const resource = await fetchResource(
-      candidate.url,
+    const res=await fetchResource(
+      c.url,
       CONFIG.documentTimeoutMs,
       CONFIG.maxDocumentBytes
     );
 
-    const final = safeHttpUrl(resource.finalUrl);
-    if (!final || isBlockedHost(final.hostname) || isUnsafeHost(final.hostname)) {
+    const final=safeHttpUrl(res.finalUrl);
+
+    if(
+      !final ||
+      isBlockedHost(final.hostname) ||
+      isUnsafeHost(final.hostname)
+    ) {
       return null;
     }
 
-    const finalExt = extensionOfUrl(resource.finalUrl);
-    const isDocument =
-      Boolean(ext || finalExt) || looksLikeDocumentContentType(resource.contentType);
+    const fext=extOf(res.finalUrl);
 
-    if (!isDocument || (isHtmlContentType(resource.contentType) && !ext && !finalExt)) {
+    const isDoc=
+      !!(ext||fext) ||
+      looksDocMime(res.contentType);
+
+    if(
+      !isDoc ||
+      (
+        isHtml(res.contentType) &&
+        !ext &&
+        !fext
+      )
+    ) {
       return null;
     }
 
-    const sha256 = createHash("sha256")
-      .update(resource.buffer)
+    const sha256=createHash("sha256")
+      .update(res.buffer)
       .digest("hex");
 
-    let fileName = safeFilename(filenameFromHeaders(resource, resource.finalUrl));
-    if (!path.extname(fileName) && (finalExt || ext)) {
-      fileName += finalExt || ext;
+    let fn=safeFilename(
+      filename(res,res.finalUrl)
+    );
+
+    if(
+      !path.extname(fn) &&
+      (fext||ext)
+    ) {
+      fn+=fext||ext;
     }
 
-    const urlHash = createHash("sha1")
-      .update(resource.finalUrl)
-      .digest("hex")
-      .slice(0, 12);
-
-    const archivePath = path.join(
-      university.slug,
-      `${urlHash}-${fileName}`
+    const archivePath=path.join(
+      u.slug,
+      `${createHash("sha1")
+        .update(res.finalUrl)
+        .digest("hex")
+        .slice(0,12)}-${fn}`
     );
 
-    const destination = path.join(CONFIG.documentDir, archivePath);
-    await fs.mkdir(path.dirname(destination), { recursive: true });
-    await fs.writeFile(destination, resource.buffer);
-
-    const taxonomy = documentTaxonomy(
-      `${candidate.anchorText} ${candidate.title} ${fileName} ${candidate.sourcePageTitle}`
+    const dest=path.join(
+      CONFIG.documentDir,
+      archivePath
     );
-    const title =
-      candidate.anchorText ||
-      candidate.title ||
-      fileName.replace(/\.[^.]+$/, "") ||
+
+    await fs.mkdir(
+      path.dirname(dest),
+      {recursive:true}
+    );
+
+    await fs.writeFile(
+      dest,
+      res.buffer
+    );
+
+    const tax=taxonomy(
+      `${c.anchorText} ${c.title} ${fn} ${c.sourcePageTitle}`
+    );
+
+    const title=
+      c.anchorText ||
+      c.title ||
+      fn.replace(/\.[^.]+$/,"") ||
       "سند پژوهشی";
 
-    const linkedFromInstitution = candidate.linkedFromInstitution === true;
-    const researchContext = candidate.researchContext === true;
-    const confidence = Math.min(
-      0.99,
-      0.54 +
-        (ext || finalExt ? 0.10 : 0) +
-        Math.min(keywordHits, 3) * 0.09 +
-        (linkedFromInstitution ? 0.07 : 0) +
-        (researchContext ? 0.14 : 0)
-    );
+    return {
+      universitySlug:u.slug,
+      nameFa:u.nameFa,
+      title:title.slice(0,500),
+      url:res.finalUrl,
+      sourcePage:c.sourcePage,
+      sourcePageTitle:c.sourcePageTitle||"",
+      anchorText:c.anchorText||"",
+      depth:c.depth,
+      discoveryPath:
+        c.discoveryPath ||
+        [c.sourcePage,res.finalUrl].filter(Boolean),
+      fileName:fn,
+      extension:
+        (fext||ext||path.extname(fn)).toLowerCase(),
+      contentType:res.contentType,
+      bytes:res.buffer.length,
+      sha256,
+      archivePath:archivePath.replaceAll("\\","/"),
+      downloaded:true,
+      status:res.status,
+      taxonomy:tax,
+      type:docType(tax,title),
+      topic:docTopic(tax,title),
+      confidence:Math.min(
+        .99,
+        .54+
+        (ext || fext ? 0.10 : 0)+
+        Math.min(hits,3)*.09+
+        (c.linkedFromInstitution ? 0.07 : 0)+
+        (c.researchContext ? 0.14 : 0)
+      ),
+      discoveredAt:new Date().toISOString()
+    };
+  } catch(error) {
+    const tax=taxonomy(ctx);
 
     return {
-      universitySlug: university.slug,
-      nameFa: university.nameFa,
-      title: title.slice(0, 500),
-      url: resource.finalUrl,
-      sourcePage: candidate.sourcePage,
-      sourcePageTitle: candidate.sourcePageTitle || "",
-      anchorText: candidate.anchorText || "",
-      depth: candidate.depth,
-      fileName,
-      extension: (finalExt || ext || path.extname(fileName)).toLowerCase(),
-      contentType: resource.contentType,
-      bytes: resource.buffer.length,
-      sha256,
-      archivePath: archivePath.replaceAll("\\", "/"),
-      downloaded: true,
-      status: resource.status,
-      taxonomy,
-      type: documentType(taxonomy, title),
-      topic: documentTopic(taxonomy, title),
-      confidence,
-      discoveredAt: new Date().toISOString(),
-    };
-  } catch (error) {
-    return {
-      universitySlug: university.slug,
-      nameFa: university.nameFa,
+      universitySlug:u.slug,
+      nameFa:u.nameFa,
       title:
-        candidate.anchorText ||
-        candidate.title ||
-        path.basename(safeHttpUrl(candidate.url)?.pathname || "") ||
+        c.anchorText ||
+        c.title ||
+        path.basename(
+          safeHttpUrl(c.url)?.pathname||""
+        ) ||
         "سند پژوهشی",
-      url: candidate.url,
-      sourcePage: candidate.sourcePage,
-      sourcePageTitle: candidate.sourcePageTitle || "",
-      anchorText: candidate.anchorText || "",
-      depth: candidate.depth,
-      extension: ext,
-      downloaded: false,
-      error: error instanceof Error ? error.message : String(error),
-      taxonomy: documentTaxonomy(context),
-      type: documentType(documentTaxonomy(context), candidate.anchorText),
-      topic: documentTopic(documentTaxonomy(context), candidate.anchorText),
-      confidence: Math.min(
-        0.9,
-        0.46 +
-          (ext ? 0.10 : 0) +
-          Math.min(keywordHits, 3) * 0.09 +
-          (candidate.researchContext ? 0.12 : 0)
+      url:c.url,
+      sourcePage:c.sourcePage,
+      sourcePageTitle:c.sourcePageTitle||"",
+      anchorText:c.anchorText||"",
+      depth:c.depth,
+      discoveryPath:
+        c.discoveryPath ||
+        [c.sourcePage,c.url].filter(Boolean),
+      extension:ext,
+      downloaded:false,
+      error:
+        error instanceof Error
+          ? error.message
+          : String(error),
+      taxonomy:tax,
+      type:docType(tax,c.anchorText),
+      topic:docTopic(tax,c.anchorText),
+      confidence:Math.min(
+        .9,
+        .46+
+        (ext ? 0.10 : 0)+
+        Math.min(hits,3)*.09+
+        (c.researchContext ? 0.12 : 0)
       ),
-      discoveredAt: new Date().toISOString(),
+      discoveredAt:new Date().toISOString()
     };
   }
 }
 
-async function crawlUniversity(university, audit, reauditRow) {
-  const seeds = [];
-  const seedSeen = new Set();
+async function crawlUniversity(u,a,row) {
+  const seeds=[];
+  const seedSeen=new Set();
 
-  const addSeed = (value, researchContext, priority, sourceKind) => {
-    const url = safeHttpUrl(value);
-    if (!url) return;
-    const key = canonicalUrl(url.toString());
-    if (!key || seedSeen.has(key)) return;
+  const addSeed=(
+    value,
+    researchContext,
+    priority,
+    sourceKind
+  )=>{
+    const url=safeHttpUrl(value);
+    const key=url&&canonicalUrl(url.toString());
+
+    if(
+      !url ||
+      !key ||
+      seedSeen.has(key)
+    ) {
+      return;
+    }
+
     seedSeen.add(key);
+
     seeds.push({
-      url: url.toString(),
-      depth: 0,
+      url:url.toString(),
+      depth:0,
       priority,
       researchContext,
-      anchorText: "",
-      from: null,
+      anchorText:"",
+      from:null,
       sourceKind,
+      hubRoot:
+        ["known-portal","research-url"].includes(sourceKind)
+          ? key
+          : null,
+      discoveryPath:[url.toString()]
     });
   };
 
-  for (const value of reauditRow?.portalUrls || []) {
-    addSeed(value, true, 120, "known-portal");
-  }
+  for(const v of row?.portalUrls||[])
+    addSeed(v,true,130,"known-portal");
 
-  if (audit?.researchUrl) {
-    addSeed(audit.researchUrl, true, 115, "research-url");
-  }
+  if(a?.researchUrl)
+    addSeed(a.researchUrl,true,125,"research-url");
 
-  addSeed(university.officialWebsite, false, 90, "official-website");
-
-  if (!seeds.length) {
-    return {
-      slug: university.slug,
-      nameFa: university.nameFa,
-      pageCount: 0,
-      evidence: [],
-      documents: [],
-      portalCandidates: [],
-      failures: [
-        {
-          url: null,
-          reason: "no-official-seed",
-        },
-      ],
-    };
-  }
-
-  const allowedBases = new Set(
-    seeds
-      .map((seed) => safeHttpUrl(seed.url))
-      .filter(Boolean)
-      .map((url) => baseDomain(url.hostname))
+  addSeed(
+    u.officialWebsite,
+    false,
+    90,
+    "official-website"
   );
 
-  // Existing dimension URLs are also official-domain hints, but social sources are ignored.
-  for (const key of [
+  for(const k of [
     "organizationUrls",
     "libraryUrls",
     "laboratoryUrls",
     "industryTechnologyUrls",
     "informationTechnologyUrls",
     "systemsUrls",
-    "documentIndexUrls",
+    "documentIndexUrls"
   ]) {
-    for (const value of reauditRow?.[key] || []) {
-      const parsed = safeHttpUrl(value);
-      if (parsed) allowedBases.add(baseDomain(parsed.hostname));
+    for(const v of (row?.[k]||[]).slice(0,2))
+      addSeed(v,true,105,`known-${k}`);
+  }
+
+  if(!seeds.length) {
+    return {
+      slug:u.slug,
+      nameFa:u.nameFa,
+      pageCount:0,
+      evidence:[],
+      documents:[],
+      portalCandidates:[],
+      researchHubs:0,
+      failures:[
+        {
+          url:null,
+          reason:"no-official-seed"
+        }
+      ]
+    };
+  }
+
+  const bases=new Set(
+    seeds
+      .map(s=>safeHttpUrl(s.url))
+      .filter(Boolean)
+      .map(x=>baseDomain(x.hostname))
+  );
+
+  for(const k of [
+    "organizationUrls",
+    "libraryUrls",
+    "laboratoryUrls",
+    "industryTechnologyUrls",
+    "informationTechnologyUrls",
+    "systemsUrls",
+    "documentIndexUrls"
+  ]) {
+    for(const v of row?.[k]||[]) {
+      const p=safeHttpUrl(v);
+
+      if(p)
+        bases.add(
+          baseDomain(p.hostname)
+        );
     }
   }
 
-  const queue = [...seeds];
-  const queued = new Set(seeds.map((seed) => canonicalUrl(seed.url)));
-  const visited = new Set();
-  const evidence = new Map();
-  const documentCandidates = new Map();
-  const portalCandidates = new Map();
-  const failures = [];
-  let pagesFetched = 0;
-  let browserFallbackPages = 0;
+  const queue=[...seeds];
 
-  // Pull a filtered subset from sitemaps to improve discovery on CMS sites.
-  try {
-    const sitemapCandidates = await fetchSitemapCandidates(
-      university.officialWebsite || seeds[0].url,
-      allowedBases
+  const queued=new Set(
+    seeds
+      .map(s=>canonicalUrl(s.url))
+      .filter(Boolean)
+  );
+
+  const visited=new Set();
+  const evidence=new Map();
+  const docs=new Map();
+  const portals=new Map();
+  const failures=[];
+
+  const hubs=new Set(
+    seeds
+      .filter(
+        s=>
+          ["known-portal","research-url"]
+            .includes(s.sourceKind)
+      )
+      .map(
+        s=>canonicalUrl(s.url)
+      )
+  );
+
+  const hubCounts=new Map();
+  const origins=new Set();
+
+  let pages=0;
+  let browserPages=0;
+
+  const addSitemaps=async(seed)=>{
+    const p=safeHttpUrl(seed.url);
+
+    if(
+      !p ||
+      origins.has(p.origin)
+    ) {
+      return;
+    }
+
+    origins.add(p.origin);
+
+    try {
+      for(
+        const v of
+          await sitemapCandidates(
+            seed.url,
+            bases
+          )
+      ) {
+        const key=canonicalUrl(v);
+
+        if(
+          !key ||
+          queued.has(key) ||
+          visited.has(key)
+        ) {
+          continue;
+        }
+
+        const isHub=
+          hubSignal({
+            anchor:"",
+            url:v,
+            title:"",
+            body:""
+          }).score>=4 &&
+          hubs.size<CONFIG.maxResearchHubs;
+
+        if(isHub)
+          hubs.add(key);
+
+        queued.add(key);
+
+        queue.push({
+          url:v,
+          depth:isHub?0:1,
+          priority:
+            isHub
+              ?125
+              :(seed.researchContext?65:45),
+          researchContext:
+            seed.researchContext||isHub,
+          anchorText:"",
+          from:seed.url,
+          sourceKind:
+            isHub
+              ?"research-hub-sitemap"
+              :"sitemap",
+          hubRoot:
+            isHub
+              ?key
+              :seed.hubRoot,
+          discoveryPath:[
+            ...(seed.discoveryPath||[seed.url]),
+            v
+          ].slice(-16)
+        });
+      }
+    } catch {}
+  };
+
+  for(const s of seeds)
+    await addSitemaps(s);
+
+  while(
+    queue.length &&
+    visited.size<
+      CONFIG.maxPagesPerUniversity
+  ) {
+    queue.sort(
+      (x,y)=>
+        y.priority-x.priority ||
+        x.depth-y.depth
     );
 
-    for (const value of sitemapCandidates) {
-      const key = canonicalUrl(value);
-      if (!key || queued.has(key)) continue;
-      queued.add(key);
-      queue.push({
-        url: value,
-        depth: 1,
-        priority: 45,
-        researchContext: false,
-        anchorText: "",
-        from: university.officialWebsite || seeds[0].url,
-        sourceKind: "sitemap",
-      });
-    }
-  } catch {
-    // non-fatal
-  }
+    const batch=[];
 
-  while (queue.length && visited.size < CONFIG.maxPagesPerUniversity) {
-    queue.sort((a, b) => b.priority - a.priority || a.depth - b.depth);
-
-    const batch = [];
-    while (
+    while(
       queue.length &&
-      batch.length < CONFIG.pageConcurrency &&
-      visited.size + batch.length < CONFIG.maxPagesPerUniversity
+      batch.length<
+        CONFIG.pageConcurrency &&
+      visited.size+batch.length<
+        CONFIG.maxPagesPerUniversity
     ) {
-      const item = queue.shift();
-      const key = canonicalUrl(item.url);
-      if (!key || visited.has(key)) continue;
+      const item=queue.shift();
+      const key=canonicalUrl(item.url);
+
+      if(
+        !key ||
+        visited.has(key)
+      ) {
+        continue;
+      }
+
+      if(
+        item.hubRoot &&
+        (
+          hubCounts.get(item.hubRoot)||0
+        )>=CONFIG.maxPagesPerHub
+      ) {
+        continue;
+      }
+
       visited.add(key);
       batch.push(item);
     }
 
-    if (!batch.length) continue;
+    if(!batch.length)
+      continue;
 
-    const outcomes = await Promise.all(
-      batch.map(async (item) => {
-        if (!(await allowedByRobots(item.url))) {
-          return {
-            item,
-            skipped: "robots-disallow",
-          };
-        }
+    const outcomes=
+      await Promise.all(
+        batch.map(
+          async item=>{
+            if(
+              !(await allowedByRobots(item.url))
+            ) {
+              return {
+                item,
+                skip:"robots-disallow"
+              };
+            }
 
-        try {
-          const resource = await fetchResource(
-            item.url,
-            CONFIG.pageTimeoutMs,
-            CONFIG.maxHtmlBytes
-          );
+            try {
+              return {
+                item,
+                res:
+                  await fetchResource(
+                    item.url,
+                    CONFIG.pageTimeoutMs,
+                    CONFIG.maxHtmlBytes
+                  )
+              };
+            } catch(e) {
+              return {
+                item,
+                error:
+                  e instanceof Error
+                    ? e.message
+                    : String(e)
+              };
+            }
+          }
+        )
+      );
 
-          return {
-            item,
-            resource,
-          };
-        } catch (error) {
-          return {
-            item,
-            error: error instanceof Error ? error.message : String(error),
-          };
-        }
-      })
-    );
+    for(const o of outcomes) {
+      const item=o.item;
 
-    for (const outcome of outcomes) {
-      const { item } = outcome;
-
-      if (outcome.skipped) {
+      if(o.skip) {
         failures.push({
-          url: item.url,
-          reason: outcome.skipped,
+          url:item.url,
+          reason:o.skip
         });
         continue;
       }
 
-      if (outcome.error) {
+      if(o.error) {
         failures.push({
-          url: item.url,
-          reason: outcome.error,
+          url:item.url,
+          reason:o.error
         });
         continue;
       }
 
-      const resource = outcome.resource;
-      const finalUrl = safeHttpUrl(resource.finalUrl);
-      if (!finalUrl || !isInstitutionUrl(finalUrl.toString(), allowedBases)) {
-        // Redirects outside the institution are not crawled as pages.
+      const res=o.res;
+      const final=safeHttpUrl(
+        res.finalUrl
+      );
+
+      if(
+        !final ||
+        !isInstitutionUrl(
+          final.toString(),
+          bases
+        )
+      ) {
         continue;
       }
 
-      if (!isHtmlContentType(resource.contentType)) {
-        if (
-          looksLikeDocumentContentType(resource.contentType) ||
-          extensionOfUrl(resource.finalUrl)
+      await addSitemaps({
+        ...item,
+        url:final.toString(),
+        discoveryPath:[
+          ...(item.discoveryPath||[]),
+          final.toString()
+        ].slice(-16)
+      });
+
+      if(!isHtml(res.contentType)) {
+        if(
+          looksDocMime(
+            res.contentType
+          ) ||
+          extOf(res.finalUrl)
         ) {
-          addDocumentCandidate(documentCandidates, {
-            url: resource.finalUrl,
-            anchorText: item.anchorText,
-            title: "",
-            sourcePage: item.from || item.url,
-            sourcePageTitle: "",
-            depth: item.depth,
-            linkedFromInstitution: true,
-            researchContext: item.researchContext === true,
+          addDoc(docs,{
+            url:res.finalUrl,
+            anchorText:item.anchorText,
+            title:"",
+            sourcePage:
+              item.from||item.url,
+            sourcePageTitle:"",
+            depth:item.depth,
+            linkedFromInstitution:true,
+            researchContext:
+              item.researchContext,
+            discoveryPath:
+              item.discoveryPath||
+              [item.url]
           });
         }
+
         continue;
       }
 
-      if (!resource.ok) {
+      if(!res.ok) {
         failures.push({
-          url: item.url,
-          status: resource.status,
-          reason: "http-error",
+          url:item.url,
+          status:res.status,
+          reason:"http-error"
         });
         continue;
       }
 
-      pagesFetched += 1;
-      let html = resource.buffer.toString("utf8");
-      let links = extractLinks(html, resource.finalUrl);
+      pages++;
 
-      if (
-        BROWSER_PATH &&
-        CONFIG.useBrowserFallback &&
-        links.length < 4 &&
-        item.depth <= 2
-      ) {
-        const rendered = await renderWithBrowser(resource.finalUrl);
-        if (rendered) {
-          const renderedLinks = extractLinks(rendered, resource.finalUrl);
-          if (renderedLinks.length > links.length) {
-            html = rendered;
-            links = renderedLinks;
-            browserFallbackPages += 1;
-          }
-        }
+      if(item.hubRoot) {
+        hubCounts.set(
+          item.hubRoot,
+          (
+            hubCounts.get(
+              item.hubRoot
+            )||0
+          )+1
+        );
       }
 
-      const title = extractTitle(html);
-      const body = stripTags(html).slice(0, 35_000);
-      const context = {
-        anchor: item.anchorText,
-        url: resource.finalUrl,
-        title,
-        body,
+      let html=
+        res.buffer.toString("utf8");
+
+      let links=
+        extractLinks(
+          html,
+          res.finalUrl
+        );
+
+      const pre={
+        anchor:item.anchorText,
+        url:res.finalUrl,
+        title:"",
+        body:""
       };
 
-      const portal = portalSignal(context);
-      const currentResearchContext =
-        item.researchContext ||
-        portal.score >= 8 ||
-        item.sourceKind === "known-portal" ||
-        item.sourceKind === "research-url";
-
-      if (
-        portal.score >= 8 &&
-        (portal.anchorHits > 0 || portal.urlHits > 0 || portal.titleHits > 0)
+      if(
+        BROWSER_PATH &&
+        CONFIG.useBrowserFallback &&
+        (
+          item.sourceKind==="known-portal" ||
+          item.sourceKind==="research-url" ||
+          String(
+            item.sourceKind||""
+          ).startsWith(
+            "research-hub"
+          ) ||
+          (
+            item.researchContext &&
+            item.depth<=2 &&
+            links.length<16
+          ) ||
+          portalSignal(pre).score>=4 ||
+          hubSignal(pre).score>=4 ||
+          (
+            links.length<6 &&
+            item.depth<=3
+          )
+        )
       ) {
-        const key = canonicalUrl(resource.finalUrl);
-        const candidate = {
-          universitySlug: university.slug,
-          nameFa: university.nameFa,
-          url: resource.finalUrl,
-          sourcePage: item.from,
-          anchorText: item.anchorText,
-          title,
-          depth: item.depth,
-          score: portal.score,
-          confidence: signalConfidence(portal.score, 0.64),
-          officialDomain: true,
-          kind: "portal",
-          discoveredAt: new Date().toISOString(),
-        };
-        const previous = portalCandidates.get(key);
-        if (!previous || candidate.score > previous.score) {
-          portalCandidates.set(key, candidate);
-        }
-      }
-
-      const dims = dimensionSignals(context);
-      for (const [dimension, signal] of Object.entries(dims)) {
-        const hasDirectSignal =
-          signal.anchorHits > 0 || signal.urlHits > 0 || signal.titleHits > 0;
-
-        if (!hasDirectSignal || signal.score < 5) continue;
-
-        const record = {
-          universitySlug: university.slug,
-          nameFa: university.nameFa,
-          dimension,
-          labelFa: DIMENSIONS[dimension].labelFa,
-          url: resource.finalUrl,
-          sourcePage: item.from || resource.finalUrl,
-          anchorText: item.anchorText,
-          title,
-          depth: item.depth,
-          score: signal.score,
-          confidence: signalConfidence(signal.score, 0.58),
-          officialDomain: true,
-          researchContext: currentResearchContext,
-          kind: "page",
-          discoveredAt: new Date().toISOString(),
-        };
-
-        if (record.confidence >= CONFIG.discoveryThreshold) {
-          const key = evidenceKey(record);
-          const previous = evidence.get(key);
-          if (!previous || record.score > previous.score) {
-            evidence.set(key, record);
-          }
-        }
-      }
-
-      for (const link of links) {
-        const parsed = safeHttpUrl(link.url);
-        if (!parsed) continue;
-
-        if (looksLikeDocumentLink(link)) {
-          const documentContextHits = countKeywordHits(
-            `${link.anchorText} ${link.title} ${decodeURIComponentSafe(link.url)}`,
-            normalizedDocumentKeywords
+        const rendered=
+          await render(
+            res.finalUrl
           );
 
-          // On a generic university homepage, do not archive every PDF.
-          // A file is collected when it is linked from research context OR its
-          // own link text/path has a research/document signal.
-          if (currentResearchContext || documentContextHits > 0) {
-            addDocumentCandidate(documentCandidates, {
-              url: parsed.toString(),
-              anchorText: link.anchorText,
-              title: link.title,
-              sourcePage: resource.finalUrl,
-              sourcePageTitle: title,
-              depth: item.depth + 1,
-              linkedFromInstitution: true,
-              researchContext: currentResearchContext,
-            });
+        if(rendered) {
+          const rl=
+            extractLinks(
+              rendered,
+              res.finalUrl
+            );
+
+          if(
+            rl.length>
+            links.length
+          ) {
+            html=rendered;
+            links=rl;
+            browserPages++;
+          }
+        }
+      }
+
+      const title=
+        extractTitle(html);
+
+      const body=
+        stripTags(html)
+          .slice(0,45000);
+
+      const ctx={
+        anchor:item.anchorText,
+        url:res.finalUrl,
+        title,
+        body
+      };
+
+      const ps=portalSignal(ctx);
+      const hs=hubSignal(ctx);
+
+      const research=
+        item.researchContext ||
+        ps.score>=8 ||
+        hs.score>=8 ||
+        item.sourceKind==="known-portal" ||
+        item.sourceKind==="research-url" ||
+        String(
+          item.sourceKind||""
+        ).startsWith(
+          "research-hub"
+        );
+
+      if(
+        ps.score>=8 &&
+        (
+          ps.anchorHits ||
+          ps.urlHits ||
+          ps.titleHits
+        )
+      ) {
+        const key=
+          canonicalUrl(
+            res.finalUrl
+          );
+
+        const cand={
+          universitySlug:u.slug,
+          nameFa:u.nameFa,
+          url:res.finalUrl,
+          sourcePage:item.from,
+          anchorText:item.anchorText,
+          title,
+          depth:item.depth,
+          score:ps.score,
+          confidence:
+            confidence(
+              ps.score,
+              .64
+            ),
+          officialDomain:true,
+          kind:"portal",
+          discoveryPath:
+            item.discoveryPath||
+            [res.finalUrl],
+          discoveredAt:
+            new Date().toISOString()
+        };
+
+        const prev=
+          portals.get(key);
+
+        if(
+          !prev ||
+          cand.score>prev.score
+        ) {
+          portals.set(
+            key,
+            cand
+          );
+        }
+      }
+
+      for(
+        const [
+          dimension,
+          sig
+        ] of Object.entries(
+          dimensionSignals(ctx)
+        )
+      ) {
+        if(
+          !(
+            sig.anchorHits ||
+            sig.urlHits ||
+            sig.titleHits
+          ) ||
+          sig.score<5
+        ) {
+          continue;
+        }
+
+        const rec={
+          universitySlug:u.slug,
+          nameFa:u.nameFa,
+          dimension,
+          labelFa:
+            DIMENSIONS[
+              dimension
+            ].labelFa,
+          url:res.finalUrl,
+          sourcePage:
+            item.from||
+            res.finalUrl,
+          anchorText:
+            item.anchorText,
+          title,
+          depth:item.depth,
+          score:sig.score,
+          confidence:
+            confidence(
+              sig.score,
+              .58
+            ),
+          officialDomain:true,
+          researchContext:
+            research,
+          kind:"page",
+          discoveryPath:
+            item.discoveryPath||
+            [res.finalUrl],
+          discoveredAt:
+            new Date().toISOString()
+        };
+
+        if(
+          rec.confidence>=
+          CONFIG.discoveryThreshold
+        ) {
+          const key=
+            evidenceKey(rec);
+
+          const prev=
+            evidence.get(key);
+
+          if(
+            !prev ||
+            rec.score>prev.score
+          ) {
+            evidence.set(
+              key,
+              rec
+            );
+          }
+        }
+      }
+
+      for(const link of links) {
+        const parsed=
+          safeHttpUrl(link.url);
+
+        if(!parsed)
+          continue;
+
+        const chain=[
+          ...(
+            item.discoveryPath||
+            [res.finalUrl]
+          ),
+          parsed.toString()
+        ].slice(-16);
+
+        if(
+          looksDocLink(link)
+        ) {
+          const hits=
+            countHits(
+              `${link.anchorText} ${link.title} ${decodeURIComponentSafe(link.url)}`,
+              N_DOC
+            );
+
+          if(
+            research ||
+            hits>0
+          ) {
+            addDoc(
+              docs,
+              {
+                url:
+                  parsed.toString(),
+                anchorText:
+                  link.anchorText,
+                title:
+                  link.title,
+                sourcePage:
+                  res.finalUrl,
+                sourcePageTitle:
+                  title,
+                depth:
+                  item.depth+1,
+                linkedFromInstitution:
+                  true,
+                researchContext:
+                  research,
+                discoveryPath:
+                  chain
+              }
+            );
           }
         }
 
-        // HTML page crawling stays inside the institution's accepted base domains.
-        if (!isInstitutionUrl(parsed.toString(), allowedBases)) continue;
-        if (extensionOfUrl(parsed.toString())) continue;
+        if(
+          !isInstitutionUrl(
+            parsed.toString(),
+            bases
+          ) ||
+          extOf(
+            parsed.toString()
+          )
+        ) {
+          continue;
+        }
 
-        const nextDepth = item.depth + 1;
-        if (!shouldQueueLink(link, currentResearchContext, nextDepth)) continue;
+        const key=
+          canonicalUrl(
+            parsed.toString()
+          );
 
-        const key = canonicalUrl(parsed.toString());
-        if (!key || queued.has(key) || visited.has(key)) continue;
+        if(
+          !key ||
+          visited.has(key) ||
+          queued.has(key)
+        ) {
+          continue;
+        }
+
+        const lc={
+          anchor:
+            `${link.anchorText} ${link.title}`,
+          url:link.url,
+          title:"",
+          body:""
+        };
+
+        const candidateHub=
+          hubSignal(lc).score>=4;
+
+        let newHub=false;
+
+        if(
+          candidateHub &&
+          !hubs.has(key) &&
+          hubs.size<
+            CONFIG.maxResearchHubs
+        ) {
+          hubs.add(key);
+          newHub=true;
+        }
+
+        const depth=
+          newHub
+            ?0
+            :item.depth+1;
+
+        if(
+          !shouldQueue(
+            link,
+            research||newHub,
+            depth,
+            newHub
+          )
+        ) {
+          continue;
+        }
 
         queued.add(key);
+
         queue.push({
-          url: parsed.toString(),
-          depth: nextDepth,
-          priority: priorityForLink(link, currentResearchContext),
+          url:
+            parsed.toString(),
+
+          depth,
+
+          priority:
+            priority(
+              link,
+              research
+            )+
+            (
+              newHub
+                ?70
+                :0
+            ),
+
           researchContext:
-            currentResearchContext ||
-            portalSignal({
-              anchor: `${link.anchorText} ${link.title}`,
-              url: link.url,
-              title: "",
-              body: "",
-            }).score >= 5,
-          anchorText: link.anchorText || link.title,
-          from: resource.finalUrl,
-          sourceKind: "link",
+            research ||
+            newHub ||
+            portalSignal(
+              lc
+            ).score>=5,
+
+          anchorText:
+            link.anchorText||
+            link.title,
+
+          from:
+            res.finalUrl,
+
+          sourceKind:
+            newHub
+              ?(
+                link.discoveryKind===
+                "embedded-url"
+                  ?"research-hub-embedded"
+                  :"research-hub"
+              )
+              :(
+                link.discoveryKind===
+                "embedded-url"
+                  ?"embedded-url"
+                  :"link"
+              ),
+
+          hubRoot:
+            newHub
+              ?key
+              :item.hubRoot,
+
+          discoveryPath:
+            chain
         });
       }
     }
   }
 
-  const candidates = [...documentCandidates.values()]
-    .map((candidate) => ({
-      ...candidate,
-      rank:
-        (extensionOfUrl(candidate.url) ? 8 : 0) +
-        countKeywordHits(
-          `${candidate.anchorText} ${candidate.title} ${candidate.url}`,
-          normalizedDocumentKeywords
-        ) *
-          5,
-    }))
-    .sort((a, b) => b.rank - a.rank)
-    .slice(0, CONFIG.maxDocumentsPerUniversity);
-
-  const documents = [];
-  for (let cursor = 0; cursor < candidates.length; cursor += CONFIG.pageConcurrency) {
-    const batch = candidates.slice(cursor, cursor + CONFIG.pageConcurrency);
-    const results = await Promise.all(
-      batch.map((candidate) => collectDocument(candidate, university))
+  const ranked=[
+    ...docs.values()
+  ]
+    .map(
+      c=>({
+        ...c,
+        rank:
+          (
+            extOf(c.url)
+              ?8
+              :0
+          )+
+          (
+            c.researchContext
+              ?12
+              :0
+          )+
+          countHits(
+            `${c.anchorText} ${c.title} ${c.url}`,
+            N_DOC
+          )*5
+      })
+    )
+    .sort(
+      (a,b)=>
+        b.rank-a.rank
+    )
+    .slice(
+      0,
+      CONFIG.maxDocumentsPerUniversity
     );
-    for (const result of results) {
-      if (result) documents.push(result);
-    }
+
+  const documents=[];
+
+  for(
+    let i=0;
+    i<ranked.length;
+    i+=CONFIG.pageConcurrency
+  ) {
+    const results=
+      await Promise.all(
+        ranked
+          .slice(
+            i,
+            i+CONFIG.pageConcurrency
+          )
+          .map(
+            c=>
+              collectDocument(
+                c,
+                u
+              )
+          )
+      );
+
+    for(const r of results)
+      if(r)
+        documents.push(r);
   }
 
   return {
-    slug: university.slug,
-    nameFa: university.nameFa,
-    officialWebsite: university.officialWebsite || null,
-    existingResearchUrl: audit?.researchUrl || null,
-    pageCount: pagesFetched,
-    visitedCount: visited.size,
-    browserFallbackPages,
-    evidence: [...evidence.values()].sort(
-      (a, b) => b.confidence - a.confidence || b.score - a.score
+    slug:u.slug,
+    nameFa:u.nameFa,
+    officialWebsite:
+      u.officialWebsite||null,
+    existingResearchUrl:
+      a?.researchUrl||null,
+    pageCount:pages,
+    visitedCount:
+      visited.size,
+    browserFallbackPages:
+      browserPages,
+    researchHubs:
+      hubs.size,
+    evidence:[
+      ...evidence.values()
+    ].sort(
+      (a,b)=>
+        b.confidence-a.confidence ||
+        b.score-a.score
     ),
-    documents: documents.sort((a, b) => b.confidence - a.confidence),
-    portalCandidates: [...portalCandidates.values()].sort(
-      (a, b) => b.confidence - a.confidence || b.score - a.score
+    documents:
+      documents.sort(
+        (a,b)=>
+          b.confidence-a.confidence
+      ),
+    portalCandidates:[
+      ...portals.values()
+    ].sort(
+      (a,b)=>
+        b.confidence-a.confidence ||
+        b.score-a.score
     ),
-    failures,
+    failures
   };
 }
 
-const [institutions, audits, reaudit] = await Promise.all([
-  readJson("data/isc/institutions.json", []),
-  readJson("data/audit/portal-audit.json", []),
-  readJson("data/evidence/portal-document-reaudit.json", []),
+const [
+  institutions,
+  audits,
+  reaudit
+]=await Promise.all([
+  readJson(
+    "data/isc/institutions.json",
+    []
+  ),
+  readJson(
+    "data/audit/portal-audit.json",
+    []
+  ),
+  readJson(
+    "data/evidence/portal-document-reaudit.json",
+    []
+  )
 ]);
 
-if (!Array.isArray(institutions) || institutions.length !== 115) {
+if(
+  !Array.isArray(institutions) ||
+  institutions.length!==115
+) {
   throw new Error(
     `Expected 115 institutions with officialWebsite seeds, got ${
-      Array.isArray(institutions) ? institutions.length : "invalid data"
+      Array.isArray(institutions)
+        ?institutions.length
+        :"invalid data"
     }`
   );
 }
 
-const auditsBySlug = new Map(
-  (audits || []).map((item) => [item.universitySlug, item])
+const auditsBySlug=
+  new Map(
+    (audits||[])
+      .map(
+        x=>[
+          x.universitySlug,
+          x
+        ]
+      )
+  );
+
+const reauditBySlug=
+  new Map(
+    (reaudit||[])
+      .map(
+        x=>[
+          x.slug,
+          x
+        ]
+      )
+  );
+
+await fs.mkdir(
+  "data/generated",
+  {recursive:true}
 );
-const reauditBySlug = new Map(
-  (reaudit || []).map((item) => [item.slug, item])
+
+await fs.mkdir(
+  CONFIG.documentDir,
+  {recursive:true}
 );
 
-await fs.mkdir("data/generated", { recursive: true });
-await fs.mkdir(CONFIG.documentDir, { recursive: true });
+const results=
+  new Array(
+    institutions.length
+  );
 
-const universityResults = new Array(institutions.length);
-let cursor = 0;
+let cursor=0;
 
-const workers = Array.from(
-  { length: Math.min(CONFIG.universityConcurrency, institutions.length) },
-  async () => {
-    while (cursor < institutions.length) {
-      const index = cursor++;
-      const university = institutions[index];
-      const started = Date.now();
+const workers=
+  Array.from(
+    {
+      length:
+        Math.min(
+          CONFIG.universityConcurrency,
+          institutions.length
+        )
+    },
+    async()=>{
+      while(
+        cursor<
+        institutions.length
+      ) {
+        const i=cursor++;
+        const u=institutions[i];
+        const start=Date.now();
 
-      try {
-        const result = await crawlUniversity(
-          university,
-          auditsBySlug.get(university.slug),
-          reauditBySlug.get(university.slug)
-        );
-        universityResults[index] = {
-          ...result,
-          elapsedMs: Date.now() - started,
-        };
-        console.log(
-          [
-            `[${index + 1}/${institutions.length}] ${university.slug}`,
-            `pages=${result.pageCount}`,
-            `evidence=${result.evidence.length}`,
-            `docs=${result.documents.length}`,
-            `portalCandidates=${result.portalCandidates.length}`,
-            `failures=${result.failures.length}`,
-          ].join(" | ")
-        );
-      } catch (error) {
-        universityResults[index] = {
-          slug: university.slug,
-          nameFa: university.nameFa,
-          pageCount: 0,
-          evidence: [],
-          documents: [],
-          portalCandidates: [],
-          failures: [
-            {
-              url: university.officialWebsite || null,
-              reason: error instanceof Error ? error.message : String(error),
-            },
-          ],
-          elapsedMs: Date.now() - started,
-        };
-        console.warn(
-          `[${index + 1}/${institutions.length}] ${university.slug} failed:`,
-          error instanceof Error ? error.message : String(error)
-        );
+        try {
+          const r=
+            await crawlUniversity(
+              u,
+              auditsBySlug.get(
+                u.slug
+              ),
+              reauditBySlug.get(
+                u.slug
+              )
+            );
+
+          results[i]={
+            ...r,
+            elapsedMs:
+              Date.now()-start
+          };
+
+          console.log(
+            [
+              `[${i+1}/${institutions.length}] ${u.slug}`,
+              `pages=${r.pageCount}`,
+              `evidence=${r.evidence.length}`,
+              `docs=${r.documents.length}`,
+              `portalCandidates=${r.portalCandidates.length}`,
+              `hubs=${r.researchHubs||0}`,
+              `failures=${r.failures.length}`
+            ].join(" | ")
+          );
+        } catch(e) {
+          results[i]={
+            slug:u.slug,
+            nameFa:u.nameFa,
+            pageCount:0,
+            evidence:[],
+            documents:[],
+            portalCandidates:[],
+            researchHubs:0,
+            failures:[
+              {
+                url:
+                  u.officialWebsite||
+                  null,
+                reason:
+                  e instanceof Error
+                    ?e.message
+                    :String(e)
+              }
+            ],
+            elapsedMs:
+              Date.now()-start
+          };
+
+          console.warn(
+            `[${i+1}/${institutions.length}] ${u.slug} failed:`,
+            e instanceof Error
+              ?e.message
+              :String(e)
+          );
+        }
       }
     }
-  }
+  );
+
+await Promise.all(
+  workers
 );
 
-await Promise.all(workers);
+const allEvidence=
+  results.flatMap(
+    x=>x.evidence||[]
+  );
 
-const allEvidence = universityResults.flatMap((item) => item.evidence || []);
-const allDocuments = universityResults.flatMap((item) => item.documents || []);
-const allPortalCandidates = universityResults.flatMap(
-  (item) => item.portalCandidates || []
-);
+const allDocuments=
+  results.flatMap(
+    x=>x.documents||[]
+  );
 
-const evidenceOutput = {
-  schemaVersion: 1,
-  generatedAt: new Date().toISOString(),
-  crawler: "research-deep-discovery",
-  constraints: {
-    maxDepth: CONFIG.maxDepth,
-    maxPagesPerUniversity: CONFIG.maxPagesPerUniversity,
-    pageTimeoutMs: CONFIG.pageTimeoutMs,
-    socialEvidenceBlocked: [...SOCIAL_HOSTS].sort(),
-    browserFallbackAvailable: Boolean(BROWSER_PATH),
+const allPortals=
+  results.flatMap(
+    x=>x.portalCandidates||[]
+  );
+
+const dimensionCounts=
+  Object.fromEntries(
+    Object.keys(DIMENSIONS)
+      .map(
+        d=>[
+          d,
+          allEvidence
+            .filter(
+              x=>
+                x.dimension===d
+            )
+            .length
+        ]
+      )
+  );
+
+const evidenceOutput={
+  schemaVersion:1,
+  generatedAt:
+    new Date().toISOString(),
+  crawler:
+    "research-multi-hub-deep-discovery",
+
+  constraints:{
+    maxDepth:
+      CONFIG.maxDepth,
+
+    maxPagesPerUniversity:
+      CONFIG.maxPagesPerUniversity,
+
+    maxPagesPerHub:
+      CONFIG.maxPagesPerHub,
+
+    maxResearchHubs:
+      CONFIG.maxResearchHubs,
+
+    maxDocumentsPerUniversity:
+      CONFIG.maxDocumentsPerUniversity,
+
+    researchHubDepthReset:
+      true,
+
+    embeddedCmsUrlDiscovery:
+      true,
+
+    multiOriginSitemaps:
+      true,
+
+    pageTimeoutMs:
+      CONFIG.pageTimeoutMs,
+
+    socialEvidenceBlocked:
+      [...SOCIAL_HOSTS].sort(),
+
+    browserFallbackAvailable:
+      Boolean(BROWSER_PATH)
   },
-  evidence: allEvidence,
-  portalCandidates: allPortalCandidates,
+
+  evidence:
+    allEvidence,
+
+  portalCandidates:
+    allPortals
 };
 
-const documentsOutput = {
-  schemaVersion: 1,
-  generatedAt: new Date().toISOString(),
-  documentStorageRoot: CONFIG.documentDir,
-  maxDocumentBytes: CONFIG.maxDocumentBytes,
-  documents: allDocuments,
+const docsOutput={
+  schemaVersion:1,
+  generatedAt:
+    new Date().toISOString(),
+
+  documentStorageRoot:
+    CONFIG.documentDir,
+
+  maxDocumentBytes:
+    CONFIG.maxDocumentBytes,
+
+  documents:
+    allDocuments
 };
 
-const dimensionCounts = Object.fromEntries(
-  Object.keys(DIMENSIONS).map((dimension) => [
-    dimension,
-    allEvidence.filter((item) => item.dimension === dimension).length,
-  ])
-);
+const summary={
+  schemaVersion:1,
 
-const summary = {
-  schemaVersion: 1,
-  generatedAt: new Date().toISOString(),
-  institutions: institutions.length,
-  institutionsWithPages: universityResults.filter((item) => item.pageCount > 0)
-    .length,
-  pagesFetched: universityResults.reduce(
-    (sum, item) => sum + (item.pageCount || 0),
-    0
-  ),
-  browserFallbackPages: universityResults.reduce(
-    (sum, item) => sum + (item.browserFallbackPages || 0),
-    0
-  ),
-  evidenceRecords: allEvidence.length,
-  portalCandidates: allPortalCandidates.length,
-  documentsDiscovered: allDocuments.length,
-  documentsDownloaded: allDocuments.filter((item) => item.downloaded).length,
+  generatedAt:
+    new Date().toISOString(),
+
+  institutions:
+    institutions.length,
+
+  institutionsWithPages:
+    results
+      .filter(
+        x=>
+          x.pageCount>0
+      )
+      .length,
+
+  pagesFetched:
+    results.reduce(
+      (s,x)=>
+        s+(x.pageCount||0),
+      0
+    ),
+
+  browserFallbackPages:
+    results.reduce(
+      (s,x)=>
+        s+(
+          x.browserFallbackPages||
+          0
+        ),
+      0
+    ),
+
+  researchHubs:
+    results.reduce(
+      (s,x)=>
+        s+(
+          x.researchHubs||
+          0
+        ),
+      0
+    ),
+
+  evidenceRecords:
+    allEvidence.length,
+
+  portalCandidates:
+    allPortals.length,
+
+  documentsDiscovered:
+    allDocuments.length,
+
+  documentsDownloaded:
+    allDocuments
+      .filter(
+        x=>x.downloaded
+      )
+      .length,
+
   dimensionCounts,
-  failures: universityResults.reduce(
-    (sum, item) => sum + (item.failures?.length || 0),
-    0
-  ),
-  universities: universityResults.map((item) => ({
-    slug: item.slug,
-    nameFa: item.nameFa,
-    pages: item.pageCount || 0,
-    evidence: item.evidence?.length || 0,
-    documents: item.documents?.length || 0,
-    portalCandidates: item.portalCandidates?.length || 0,
-    failures: item.failures?.length || 0,
-    elapsedMs: item.elapsedMs || 0,
-  })),
+
+  failures:
+    results.reduce(
+      (s,x)=>
+        s+(
+          x.failures?.length||
+          0
+        ),
+      0
+    ),
+
+  universities:
+    results.map(
+      x=>({
+        slug:x.slug,
+        nameFa:x.nameFa,
+        pages:x.pageCount||0,
+        evidence:
+          x.evidence?.length||0,
+        documents:
+          x.documents?.length||0,
+        portalCandidates:
+          x.portalCandidates?.length||
+          0,
+        researchHubs:
+          x.researchHubs||0,
+        failures:
+          x.failures?.length||0,
+        elapsedMs:
+          x.elapsedMs||0
+      })
+    )
 };
 
 await Promise.all([
   fs.writeFile(
     "data/generated/discovery-evidence.json",
-    JSON.stringify(evidenceOutput, null, 2) + "\n"
+    JSON.stringify(
+      evidenceOutput,
+      null,
+      2
+    )+"\n"
   ),
+
   fs.writeFile(
     "data/generated/discovered-documents.json",
-    JSON.stringify(documentsOutput, null, 2) + "\n"
+    JSON.stringify(
+      docsOutput,
+      null,
+      2
+    )+"\n"
   ),
+
   fs.writeFile(
     "data/generated/discovery-summary.json",
-    JSON.stringify(summary, null, 2) + "\n"
-  ),
+    JSON.stringify(
+      summary,
+      null,
+      2
+    )+"\n"
+  )
 ]);
 
 console.log(
   [
-    `deep discovery complete`,
+    "deep discovery complete",
     `universities=${institutions.length}`,
     `pages=${summary.pagesFetched}`,
     `evidence=${allEvidence.length}`,
     `documents=${allDocuments.length}`,
+    `hubs=${summary.researchHubs}`,
     `downloaded=${summary.documentsDownloaded}`,
-    `browser=${BROWSER_PATH ? path.basename(BROWSER_PATH) : "static-only"}`,
+    `browser=${
+      BROWSER_PATH
+        ?path.basename(BROWSER_PATH)
+        :"static-only"
+    }`
   ].join(" | ")
 );
