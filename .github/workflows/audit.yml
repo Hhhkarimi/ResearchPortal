@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   audit:
-    runs-on: [self-hosted, linux, iran-crawler]
+    runs-on: [self-hosted, windows, iran-crawler]
     timeout-minutes: 60
 
     steps:
