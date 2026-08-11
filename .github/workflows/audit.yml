@@ -68,17 +68,17 @@ jobs:
         shell: cmd
         run: npm run prepare:data
 
-      - name: Monitor published evidence links
-        shell: cmd
-        run: npm run monitor:links
-
-      - name: Validate rebuilt datasets
+      - name: Validate promoted datasets
         shell: cmd
         run: npm run validate:data
 
       - name: Enforce no social evidence
         shell: cmd
         run: npm run validate:no-social
+
+      - name: Monitor published evidence links
+        shell: cmd
+        run: npm run monitor:links
 
       - name: Commit deep crawler results
         shell: cmd
