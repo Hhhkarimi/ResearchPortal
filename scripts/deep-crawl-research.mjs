@@ -1049,6 +1049,12 @@ async function crawlUniversity(u,a,row) {
 
   let pages=0;
   let browserPages=0;
+  // Progress heartbeat: prevents long deep crawls from looking frozen.
+  let lastHeartbeat = Date.now();
+
+  console.log(
+    `[${u.slug}] crawl started | seeds=${seeds.length} | hubs=${hubs.size}`
+  );
 
   const addSitemaps=async(seed)=>{
     const p=safeHttpUrl(seed.url);
@@ -1125,12 +1131,36 @@ async function crawlUniversity(u,a,row) {
   for(const s of seeds)
     await addSitemaps(s);
 
-  while(
-    queue.length &&
-    visited.size<
-      CONFIG.maxPagesPerUniversity
-  ) {
-    queue.sort(
+while(
+  queue.length &&
+  visited.size<
+    CONFIG.maxPagesPerUniversity
+) {
+
+  if (Date.now() - lastHeartbeat >= 30_000) {
+    console.log(
+      [
+        `[${u.slug}] working`,
+        `pages=${pages}`,
+        `visited=${visited.size}`,
+        `queue=${queue.length}`,
+        `hubs=${hubs.size}`,
+        `docs=${docs.size}`,
+        `evidence=${evidence.size}`,
+        `portals=${portals.size}`,
+        `failures=${failures.length}`,
+      ].join(" | ")
+    );
+
+    lastHeartbeat = Date.now();
+  }
+
+  queue.sort(
+    (x,y)=>
+      y.priority-x.priority ||
+      x.depth-y.depth
+  );
+  queue.sort(
       (x,y)=>
         y.priority-x.priority ||
         x.depth-y.depth
