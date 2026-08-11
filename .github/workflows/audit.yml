@@ -15,16 +15,19 @@ concurrency:
 jobs:
   audit:
     runs-on: [self-hosted, windows, iran-crawler]
-    timeout-minutes: 120
+    timeout-minutes: 180
 
     env:
-      CRAWL_MAX_DEPTH: "3"
-      CRAWL_MAX_PAGES_PER_UNIVERSITY: "40"
-      CRAWL_MAX_DOCUMENTS_PER_UNIVERSITY: "60"
-      CRAWL_PAGE_TIMEOUT_MS: "10000"
-      CRAWL_DOCUMENT_TIMEOUT_MS: "20000"
+      CRAWL_MAX_DEPTH: "6"
+      CRAWL_MAX_PAGES_PER_UNIVERSITY: "90"
+      CRAWL_MAX_PAGES_PER_HUB: "35"
+      CRAWL_MAX_RESEARCH_HUBS: "12"
+      CRAWL_MAX_DOCUMENTS_PER_UNIVERSITY: "100"
+      CRAWL_PAGE_TIMEOUT_MS: "12000"
+      CRAWL_DOCUMENT_TIMEOUT_MS: "25000"
+      CRAWL_BROWSER_TIMEOUT_MS: "25000"
       CRAWL_PAGE_CONCURRENCY: "3"
-      CRAWL_UNIVERSITY_CONCURRENCY: "4"
+      CRAWL_UNIVERSITY_CONCURRENCY: "3"
       CRAWL_MAX_DOCUMENT_BYTES: "26214400"
       CRAWL_DOCUMENT_DIR: 'C:\actions-runner\_research-documents'
       CRAWL_USE_BROWSER_FALLBACK: "1"
@@ -86,6 +89,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data public/datasets
-          git diff --cached --quiet || git commit -m "chore(crawl): refresh deep research evidence"
+          git diff --cached --quiet || git commit -m "chore(crawl): refresh multi-hub deep research evidence"
           git pull --rebase origin main
           git push origin HEAD:main
