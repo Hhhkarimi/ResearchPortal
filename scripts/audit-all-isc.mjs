@@ -1,14 +1,43 @@
 /**
  * Non-destructive link monitor for every published evidence URL.
- * It never guesses a university URL and never turns a network failure into a
- * claim that a service is absent. Output is an operational signal for review.
+ * It never turns a network failure into a claim that a service is absent.
+ * Telegram/social-media URLs are excluded from authoritative monitoring.
  */
 
 import fs from "node:fs/promises";
 import { createHash } from "node:crypto";
 
+const SOCIAL_HOSTS = new Set([
+  "t.me",
+  "telegram.me",
+  "telegram.org",
+  "instagram.com",
+  "facebook.com",
+  "fb.com",
+  "x.com",
+  "twitter.com",
+  "linkedin.com",
+  "youtube.com",
+  "youtu.be",
+]);
+
 const read = async (path) =>
   JSON.parse(await fs.readFile(path, "utf8"));
+
+function hostMatches(host, expected) {
+  return host === expected || host.endsWith(`.${expected}`);
+}
+
+function allowedEvidenceUrl(value) {
+  try {
+    const url = new URL(value);
+    if (!["http:", "https:"].includes(url.protocol)) return false;
+    const host = url.hostname.toLowerCase().replace(/^www\./, "");
+    return ![...SOCIAL_HOSTS].some((blocked) => hostMatches(host, blocked));
+  } catch {
+    return false;
+  }
+}
 
 const [audits, units, systems, documents, ledger] = await Promise.all([
   read("data/audit/portal-audit.json"),
@@ -22,7 +51,7 @@ const sources = [];
 
 // Collect portal and portal-evidence URLs.
 for (const row of audits) {
-  if (row.researchUrl) {
+  if (allowedEvidenceUrl(row.researchUrl)) {
     sources.push({
       url: row.researchUrl,
       slug: row.universitySlug,
@@ -31,6 +60,7 @@ for (const row of audits) {
   }
 
   for (const url of row.evidenceUrls || []) {
+    if (!allowedEvidenceUrl(url)) continue;
     sources.push({
       url,
       slug: row.universitySlug,
@@ -49,7 +79,7 @@ for (const [kind, rows] of [
   for (const row of rows) {
     const url = row.sourceUrl || row.parentUrl || row.url;
 
-    if (url) {
+    if (allowedEvidenceUrl(url)) {
       sources.push({
         url,
         slug: row.universitySlug,
@@ -91,18 +121,8 @@ const targets = [...grouped.values()];
 
 /**
  * Load the previous crawl result.
- *
  * Older versions may contain an array directly.
- * The current format stores records under:
- *
- * {
- *   schemaVersion,
- *   checkedAt,
- *   uniqueUrls,
- *   claimReferences,
- *   counts,
- *   results: [...]
- * }
+ * Current format stores records under report.results.
  */
 const previousFile = await fs
   .readFile("data/generated/site-health.json", "utf8")
@@ -121,9 +141,6 @@ const previousByUrl = new Map(
     .map((item) => [item.url, item])
 );
 
-/**
- * Inspect one URL.
- */
 async function inspect(target) {
   const checkedAt = new Date().toISOString();
 
@@ -132,7 +149,7 @@ async function inspect(target) {
       redirect: "follow",
       headers: {
         "User-Agent":
-          "IranResearchPortalObservatory/8.1 (+link-monitor)",
+          "IranResearchPortalObservatory/11.0 (+link-monitor)",
         Accept:
           "text/html,application/pdf,application/json;q=0.9,*/*;q=0.5",
       },
@@ -184,14 +201,11 @@ async function inspect(target) {
   }
 }
 
-// Check up to 6 URLs concurrently.
 const results = [];
 let cursor = 0;
 
 const workers = Array.from(
-  {
-    length: Math.min(6, targets.length),
-  },
+  { length: Math.min(6, targets.length) },
   async () => {
     while (cursor < targets.length) {
       const index = cursor++;
@@ -202,7 +216,6 @@ const workers = Array.from(
 
 await Promise.all(workers);
 
-// Summarize changes.
 const counts = results.reduce((out, row) => {
   out[row.change] = (out[row.change] || 0) + 1;
   return out;
@@ -217,35 +230,21 @@ const report = {
   results,
 };
 
-// Ensure generated directory exists.
-await fs.mkdir("data/generated", {
-  recursive: true,
-});
+await fs.mkdir("data/generated", { recursive: true });
 
-// Save complete site-health state.
 await fs.writeFile(
   "data/generated/site-health.json",
   JSON.stringify(report, null, 2) + "\n"
 );
 
-// Save compact change report.
 await fs.writeFile(
   "data/generated/change-report.json",
   JSON.stringify(
     {
       checkedAt: report.checkedAt,
-
-      changed: results.filter(
-        (item) => item.change === "changed"
-      ),
-
-      failed: results.filter(
-        (item) => !item.ok
-      ),
-
-      new: results.filter(
-        (item) => item.change === "new"
-      ),
+      changed: results.filter((item) => item.change === "changed"),
+      failed: results.filter((item) => !item.ok),
+      new: results.filter((item) => item.change === "new"),
     },
     null,
     2
