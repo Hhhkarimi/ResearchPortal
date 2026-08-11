@@ -9,9 +9,9 @@
     "دستگاه اجرایی": 10
   },
   "portalStatusCounts": {
-    "direct-official": 52,
+    "direct-official": 53,
     "official-channel-reference": 8,
-    "official-reference": 10,
+    "official-reference": 9,
     "secondary-reference": 25,
     "false-positive-blocked": 4,
     "institutional-reference": 7,
@@ -22,13 +22,13 @@
     "restricted-public": 3,
     "legacy-restricted": 1
   },
-  "directOfficialPortals": 52,
+  "directOfficialPortals": 53,
   "portalResolutionOutcomes": 115,
   "unresolvedPublicPortal": 0,
-  "ranked": 19,
-  "unranked": 96,
+  "ranked": 21,
+  "unranked": 94,
   "rankedByISCCategory": {
-    "جامع": 11,
+    "جامع": 13,
     "صنعتی": 6,
     "علوم کشاورزی": 0,
     "هنر": 1,
@@ -36,15 +36,15 @@
     "دستگاه اجرایی": 1
   },
   "deepAuditStatusCounts": {
-    "deep-audited": 19,
-    "identity-verified-deep-pending": 33,
-    "reference-resolved-deep-pending": 28,
+    "deep-audited": 21,
+    "identity-verified-deep-pending": 32,
+    "reference-resolved-deep-pending": 27,
     "portal-resolution-pending": 25,
     "blocked-needs-alternative-discovery": 4,
     "restricted-closed": 6
   },
   "deepAuditedByISCCategory": {
-    "جامع": 11,
+    "جامع": 13,
     "صنعتی": 6,
     "علوم کشاورزی": 0,
     "هنر": 1,
@@ -52,39 +52,39 @@
     "دستگاه اجرایی": 1
   },
   "evidenceCoverage": {
-    "average": 29.8,
+    "average": 32.3,
     "complete100": 10,
-    "gte75": 25,
-    "gte50": 26
+    "gte75": 27,
+    "gte50": 31
   },
   "dimensions": {
     "portalIdentity": {
-      "verified": 52,
-      "observed-reference": 28,
+      "verified": 53,
+      "observed-reference": 27,
       "unresolved": 29,
       "restricted": 6
     },
     "organization": {
-      "verified": 19,
-      "unresolved": 60,
-      "observed-reference": 30,
+      "verified": 24,
+      "unresolved": 56,
+      "observed-reference": 29,
       "restricted": 6
     },
     "libraryDocuments": {
-      "verified": 18,
-      "unresolved": 86,
+      "verified": 23,
+      "unresolved": 81,
       "observed-reference": 5,
       "restricted": 6
     },
     "laboratories": {
-      "verified": 18,
-      "unresolved": 86,
+      "verified": 20,
+      "unresolved": 84,
       "observed-reference": 5,
       "restricted": 6
     },
     "industryTechnology": {
-      "verified": 19,
-      "unresolved": 75,
+      "verified": 21,
+      "unresolved": 73,
       "observed-reference": 15,
       "restricted": 6
     },
@@ -95,22 +95,22 @@
       "restricted": 6
     },
     "systemsServices": {
-      "verified": 18,
-      "unresolved": 85,
+      "verified": 23,
+      "unresolved": 80,
       "observed-reference": 6,
       "restricted": 6
     },
     "documentsRegulations": {
-      "unresolved": 79,
-      "verified": 29,
+      "unresolved": 75,
+      "verified": 33,
       "observed-reference": 1,
       "restricted": 6
     }
   },
   "reviewDimensions": {
     "portalIdentity": {
-      "verified": 52,
-      "observed-reference": 13,
+      "verified": 53,
+      "observed-reference": 12,
       "unresolved": 46,
       "restricted": 4
     },
@@ -122,20 +122,20 @@
     },
     "libraryDocuments": {
       "observed-reference": 20,
+      "verified": 8,
+      "unresolved": 83,
+      "restricted": 4
+    },
+    "laboratories": {
+      "observed-reference": 20,
       "verified": 6,
       "unresolved": 85,
       "restricted": 4
     },
-    "laboratories": {
-      "observed-reference": 21,
-      "unresolved": 87,
-      "verified": 3,
-      "restricted": 4
-    },
     "industryTechnology": {
-      "observed-reference": 27,
+      "observed-reference": 25,
       "unresolved": 80,
-      "verified": 4,
+      "verified": 6,
       "restricted": 4
     },
     "informationTechnology": {
@@ -144,22 +144,22 @@
       "restricted": 4
     },
     "systemsServices": {
-      "observed-reference": 23,
-      "unresolved": 79,
-      "verified": 9,
+      "observed-reference": 22,
+      "unresolved": 77,
+      "verified": 12,
       "restricted": 4
     },
     "documentsRegulations": {
-      "unresolved": 87,
-      "verified": 23,
-      "observed-reference": 2,
+      "unresolved": 84,
+      "verified": 27,
+      "observed-reference": 1,
       "restricted": 3
     }
   },
   "reportedReviewDimensions": {
     "portalIdentity": {
-      "verified": 52,
-      "observed-reference": 13,
+      "verified": 53,
+      "observed-reference": 12,
       "unresolved": 40,
       "restricted": 10
     },
@@ -171,20 +171,20 @@
     },
     "libraryDocuments": {
       "observed-reference": 20,
+      "verified": 8,
+      "unresolved": 77,
+      "restricted": 10
+    },
+    "laboratories": {
+      "observed-reference": 20,
       "verified": 6,
       "unresolved": 79,
       "restricted": 10
     },
-    "laboratories": {
-      "observed-reference": 21,
-      "unresolved": 81,
-      "verified": 3,
-      "restricted": 10
-    },
     "industryTechnology": {
-      "observed-reference": 27,
+      "observed-reference": 25,
       "unresolved": 74,
-      "verified": 4,
+      "verified": 6,
       "restricted": 10
     },
     "informationTechnology": {
@@ -193,31 +193,31 @@
       "restricted": 10
     },
     "systemsServices": {
-      "observed-reference": 23,
-      "unresolved": 73,
-      "verified": 9,
+      "observed-reference": 22,
+      "unresolved": 71,
+      "verified": 12,
       "restricted": 10
     },
     "documentsRegulations": {
-      "unresolved": 81,
-      "verified": 23,
-      "observed-reference": 2,
-      "restricted": 9
+      "unresolved": 78,
+      "verified": 27,
+      "restricted": 9,
+      "observed-reference": 1
     }
   },
   "reviewCoverage": {
-    "average": 19.6,
+    "average": 20.9,
     "complete100": 0,
-    "gte75": 3,
+    "gte75": 5,
     "reviewedInstitutions": 115,
     "dimensionOutcomes": 920
   },
-  "units": 154,
-  "systems": 92,
-  "documents": 60,
-  "provenanceRecords": 442,
+  "units": 186,
+  "systems": 110,
+  "documents": 307,
+  "provenanceRecords": 1059,
   "dimensionEvidenceOutcomes": 920,
-  "dimensionEvidenceSources": 391,
+  "dimensionEvidenceSources": 1165,
   "publicationGateDowngrades": 48,
   "auditPackets": 115,
   "snapshotDate": "2026-08-11",
