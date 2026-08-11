@@ -1,22 +1,115 @@
 name: National Evidence Link Monitor
+
 on:
   workflow_dispatch:
   schedule:
     - cron: "30 2 * * 0,3"
-permissions: {contents: read}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: national-evidence-link-monitor
+  cancel-in-progress: false
+
 jobs:
   audit:
     runs-on: ubuntu-latest
     timeout-minutes: 60
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with: {node-version: 22}
-      - run: npm run monitor:links
-      - uses: actions/upload-artifact@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Crawl and monitor evidence links
+        run: npm run monitor:links
+
+      - name: Inspect crawl changes
+        id: crawl
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require("fs");
+
+          const report = JSON.parse(
+            fs.readFileSync(
+              "data/generated/change-report.json",
+              "utf8"
+            )
+          );
+
+          const changed = report.changed?.length ?? 0;
+          const added = report.new?.length ?? 0;
+          const failed = report.failed?.length ?? 0;
+
+          const meaningful = changed + added > 0;
+
+          fs.appendFileSync(
+            process.env.GITHUB_OUTPUT,
+            `meaningful=${meaningful}\n`
+          );
+
+          fs.appendFileSync(
+            process.env.GITHUB_OUTPUT,
+            `changed=${changed}\n`
+          );
+
+          fs.appendFileSync(
+            process.env.GITHUB_OUTPUT,
+            `new=${added}\n`
+          );
+
+          fs.appendFileSync(
+            process.env.GITHUB_OUTPUT,
+            `failed=${failed}\n`
+          );
+
+          console.log({
+            changed,
+            new: added,
+            failed,
+            meaningful
+          });
+          NODE
+
+      - name: Upload crawl report
+        if: always()
+        uses: actions/upload-artifact@v4
         with:
           name: national-evidence-health
           path: |
             data/generated/site-health.json
             data/generated/change-report.json
           retention-days: 30
+
+      - name: Commit meaningful crawl changes
+        if: steps.crawl.outputs.meaningful == 'true'
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add \
+            data/generated/site-health.json \
+            data/generated/change-report.json
+
+          git commit \
+            -m "chore(crawl): update evidence health (changed=${{ steps.crawl.outputs.changed }}, new=${{ steps.crawl.outputs.new }})"
+
+          git pull --rebase origin main
+          git push origin HEAD:main
+
+      - name: No meaningful changes
+        if: steps.crawl.outputs.meaningful != 'true'
+        run: |
+          echo "No meaningful evidence changes detected."
+          echo "Network failures: ${{ steps.crawl.outputs.failed }}"
+          echo "Nothing will be committed."
