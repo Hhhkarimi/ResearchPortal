@@ -1,11 +1,12 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-11T16:23:05.211Z",
-  "uniqueUrls": 155,
-  "claimReferences": 976,
+  "checkedAt": "2026-08-11T18:15:57.840Z",
+  "uniqueUrls": 136,
+  "claimReferences": 938,
   "counts": {
-    "new": 123,
-    "check-failed": 32
+    "unchanged": 81,
+    "check-failed": 18,
+    "changed": 37
   },
   "results": [
     {
@@ -113,8 +114,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "ce1ee8a4ddcca285",
-      "checkedAt": "2026-08-11T16:22:24.545Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:16.171Z",
+      "change": "unchanged"
     },
     {
       "url": "https://res.modares.ac.ir/",
@@ -141,8 +142,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "ac53fdcd5719c8d0",
-      "checkedAt": "2026-08-11T16:22:24.652Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:16.335Z",
+      "change": "unchanged"
     },
     {
       "url": "https://res.modares.ac.ir/res/people",
@@ -165,8 +166,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "327cb543a545fe71",
-      "checkedAt": "2026-08-11T16:22:24.655Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:16.338Z",
+      "change": "unchanged"
     },
     {
       "url": "https://res.modares.ac.ir/res/research-units",
@@ -189,8 +190,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "c487a7a99d24d440",
-      "checkedAt": "2026-08-11T16:22:24.657Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:16.341Z",
+      "change": "unchanged"
     },
     {
       "url": "https://res.modares.ac.ir/res/managements/library/people",
@@ -213,8 +214,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "535a4120dcfb47eb",
-      "checkedAt": "2026-08-11T16:22:24.659Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:16.343Z",
+      "change": "unchanged"
     },
     {
       "url": "https://res.modares.ac.ir/res/forms",
@@ -247,8 +248,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "173bb2e00e93b1fe",
-      "checkedAt": "2026-08-11T16:22:24.661Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:16.347Z",
+      "change": "unchanged"
     },
     {
       "url": "https://vpr.um.ac.ir/",
@@ -487,16 +488,11 @@
           "id": "system-ferdowsi-thesis"
         }
       ],
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://vpr.um.ac.ir/index.php/fa/",
-      "contentType": "text/html; charset=utf-8",
-      "etag": null,
-      "lastModified": "Tue, 11 Aug 2026 16:22:37 GMT",
-      "contentLength": "13211",
-      "signature": "c887bdf9893d08d9",
-      "checkedAt": "2026-08-11T16:22:24.745Z",
-      "change": "new"
+      "status": "network-error",
+      "ok": false,
+      "error": "The operation was aborted due to timeout",
+      "checkedAt": "2026-08-11T18:15:16.507Z",
+      "change": "check-failed"
     },
     {
       "url": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
@@ -521,16 +517,11 @@
           "id": "document-ferdowsi-reaudit-doc-1"
         }
       ],
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
-      "contentType": "text/html; charset=utf-8",
-      "etag": null,
-      "lastModified": "Tue, 11 Aug 2026 16:22:26 GMT",
-      "contentLength": "10347",
-      "signature": "55a8eebf1675127b",
-      "checkedAt": "2026-08-11T16:22:25.085Z",
-      "change": "new"
+      "status": "network-error",
+      "ok": false,
+      "error": "The operation was aborted due to timeout",
+      "checkedAt": "2026-08-11T18:15:16.678Z",
+      "change": "check-failed"
     },
     {
       "url": "https://resevp.sbu.ac.ir/",
@@ -557,8 +548,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "405064f336ee7344",
-      "checkedAt": "2026-08-11T16:22:25.189Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:16.757Z",
+      "change": "unchanged"
     },
     {
       "url": "https://sbu.ac.ir/",
@@ -581,8 +572,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "41519617be88e85c",
-      "checkedAt": "2026-08-11T16:22:25.194Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:16.765Z",
+      "change": "unchanged"
     },
     {
       "url": "https://press.sbu.ac.ir/",
@@ -605,8 +596,8 @@
       "lastModified": null,
       "contentLength": "8555",
       "signature": "d19d447e862bd9a9",
-      "checkedAt": "2026-08-11T16:22:25.271Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:16.770Z",
+      "change": "unchanged"
     },
     {
       "url": "https://scj.sbu.ac.ir/",
@@ -629,8 +620,8 @@
       "lastModified": null,
       "contentLength": "4699",
       "signature": "b973fc785ccc17ea",
-      "checkedAt": "2026-08-11T16:22:25.273Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:16.860Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.shirazu.ac.ir/",
@@ -655,10 +646,10 @@
       "contentType": "text/html;charset=UTF-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "13310",
-      "signature": "de5b80951cc6dfe4",
-      "checkedAt": "2026-08-11T16:22:25.421Z",
-      "change": "new"
+      "contentLength": "13315",
+      "signature": "1b686e626122398a",
+      "checkedAt": "2026-08-11T18:15:17.061Z",
+      "change": "changed"
     },
     {
       "url": "https://law.shirazu.ac.ir/",
@@ -679,10 +670,10 @@
       "contentType": "text/html;charset=UTF-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "16501",
-      "signature": "c1d61c0cf5b86dc9",
-      "checkedAt": "2026-08-11T16:22:25.502Z",
-      "change": "new"
+      "contentLength": "16499",
+      "signature": "317e57b8337ec8ac",
+      "checkedAt": "2026-08-11T18:15:17.066Z",
+      "change": "changed"
     },
     {
       "url": "https://research.tabrizu.ac.ir/",
@@ -709,8 +700,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "715edb3267217a26",
-      "checkedAt": "2026-08-11T16:22:25.770Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:17.534Z",
+      "change": "unchanged"
     },
     {
       "url": "https://tabrizu.ac.ir/",
@@ -733,8 +724,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "9fb757507165809b",
-      "checkedAt": "2026-08-11T16:22:25.922Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:18.042Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.tabrizu.ac.ir/fa/page/9498/%D8%AD%D8%B3%D8%A7%D8%A8%D8%AF%D8%A7%D8%B1%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
@@ -757,8 +748,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "941f8462c163b915",
-      "checkedAt": "2026-08-11T16:22:26.219Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:18.090Z",
+      "change": "unchanged"
     },
     {
       "url": "https://pprs.tabrizu.ac.ir/",
@@ -779,10 +770,10 @@
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "5249",
-      "signature": "f6e03a8c1b661836",
-      "checkedAt": "2026-08-11T16:22:26.350Z",
-      "change": "new"
+      "contentLength": "5251",
+      "signature": "2c68ac3ba41ae89b",
+      "checkedAt": "2026-08-11T18:15:18.328Z",
+      "change": "changed"
     },
     {
       "url": "https://research.ui.ac.ir/",
@@ -1057,10 +1048,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "18789",
-      "signature": "646b0bf55c2a0c74",
-      "checkedAt": "2026-08-11T16:22:26.447Z",
-      "change": "new"
+      "contentLength": "18791",
+      "signature": "cd5ece01353357e7",
+      "checkedAt": "2026-08-11T18:15:18.421Z",
+      "change": "changed"
     },
     {
       "url": "https://are.razi.ac.ir/",
@@ -1085,29 +1076,10 @@
       "contentType": "text/html;charset=UTF-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "70336",
-      "signature": "0bc99f0f875cc847",
-      "checkedAt": "2026-08-11T16:22:26.507Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/hambazi_razi",
-      "claims": [
-        {
-          "slug": "razi",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "razi",
-          "kind": "provenance",
-          "id": "razi-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:26.602Z",
-      "change": "check-failed"
+      "contentLength": "69772",
+      "signature": "1e3b17afba995673",
+      "checkedAt": "2026-08-11T18:15:18.500Z",
+      "change": "changed"
     },
     {
       "url": "https://are.razi.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -1128,29 +1100,10 @@
       "contentType": "text/html;charset=UTF-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "66032",
-      "signature": "f8aa21448be77566",
-      "checkedAt": "2026-08-11T16:22:26.658Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/iasbspr",
-      "claims": [
-        {
-          "slug": "iasbs",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "iasbs",
-          "kind": "provenance",
-          "id": "iasbs-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:26.785Z",
-      "change": "check-failed"
+      "contentLength": "66036",
+      "signature": "764bb96265cb3182",
+      "checkedAt": "2026-08-11T18:15:18.598Z",
+      "change": "changed"
     },
     {
       "url": "https://iasbs.ac.ir/",
@@ -1170,11 +1123,11 @@
       "finalUrl": "https://iasbs.ac.ir/",
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
-      "lastModified": "Tue, 11 Aug 2026 16:31:27 GMT",
+      "lastModified": "Tue, 11 Aug 2026 18:24:18 GMT",
       "contentLength": null,
-      "signature": "4cd80371c770cad5",
-      "checkedAt": "2026-08-11T16:22:26.933Z",
-      "change": "new"
+      "signature": "35324e9e6b16a2c1",
+      "checkedAt": "2026-08-11T18:15:18.726Z",
+      "change": "changed"
     },
     {
       "url": "https://zrtf.ir/%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C-%D8%B9%D9%84%D9%88%D9%85-%D9%BE%D8%A7%DB%8C%D9%87/",
@@ -1197,8 +1150,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "e78089ceaa4d168b",
-      "checkedAt": "2026-08-11T16:22:27.058Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:19.009Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.khu.ac.ir/",
@@ -1422,11 +1375,11 @@
       "finalUrl": "https://research.khu.ac.ir/",
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
-      "lastModified": "Tue, 11 Aug 2026 16:22:27 GMT",
+      "lastModified": "Tue, 11 Aug 2026 18:15:18 GMT",
       "contentLength": null,
-      "signature": "2dabcc39d2577870",
-      "checkedAt": "2026-08-11T16:22:27.250Z",
-      "change": "new"
+      "signature": "b46943d3d4a82494",
+      "checkedAt": "2026-08-11T18:15:19.096Z",
+      "change": "changed"
     },
     {
       "url": "https://pgeducation.khu.ac.ir/files/site41/files/aeen_name_ejraee_97.pdf",
@@ -1459,8 +1412,8 @@
       "lastModified": "Mon, 01 Feb 2021 05:23:53 GMT",
       "contentLength": "992847",
       "signature": "e26e79ed3752181b",
-      "checkedAt": "2026-08-11T16:22:27.322Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:19.106Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.atu.ac.ir/fa",
@@ -1625,29 +1578,10 @@
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "27220",
-      "signature": "0e9b432d81f4f82e",
-      "checkedAt": "2026-08-11T16:22:27.641Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/Sbukerman_official",
-      "claims": [
-        {
-          "slug": "shahid-bahonar-kerman",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "shahid-bahonar-kerman",
-          "kind": "provenance",
-          "id": "shahid-bahonar-kerman-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:27.755Z",
-      "change": "check-failed"
+      "contentLength": "27225",
+      "signature": "2c0ab44d3ec6ef3b",
+      "checkedAt": "2026-08-11T18:15:19.279Z",
+      "change": "changed"
     },
     {
       "url": "https://resvp.guilan.ac.ir/",
@@ -1674,8 +1608,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "61f47572a86ce3d7",
-      "checkedAt": "2026-08-11T16:22:27.888Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:19.404Z",
+      "change": "unchanged"
     },
     {
       "url": "https://guilan.ac.ir/",
@@ -1698,8 +1632,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "db195af34c9fc7a4",
-      "checkedAt": "2026-08-11T16:22:28.422Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:19.425Z",
+      "change": "unchanged"
     },
     {
       "url": "https://www.urmia.ac.ir/",
@@ -1722,8 +1656,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "4f5be13f58f3fbb6",
-      "checkedAt": "2026-08-11T16:22:28.689Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:19.553Z",
+      "change": "unchanged"
     },
     {
       "url": "https://www.urmia.ac.ir/structure",
@@ -1746,8 +1680,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "36324129b3d4ad82",
-      "checkedAt": "2026-08-11T16:22:28.756Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:19.762Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.semnan.ac.ir/",
@@ -2062,10 +1996,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "19880",
-      "signature": "6a99c0b61bb9857a",
-      "checkedAt": "2026-08-11T16:22:28.883Z",
-      "change": "new"
+      "contentLength": "19883",
+      "signature": "59a1e10569bfabb5",
+      "checkedAt": "2026-08-11T18:15:19.945Z",
+      "change": "changed"
     },
     {
       "url": "https://www.usb.ac.ir/%D9%85%DB%8C%D8%B2%D8%AE%D8%AF%D9%85%D8%AA/%D9%85%DB%8C%D8%B2-%D8%AE%D8%AF%D9%85%D8%AA-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
@@ -2096,10 +2030,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "17142",
-      "signature": "7989f672a81af020",
-      "checkedAt": "2026-08-11T16:22:29.127Z",
-      "change": "new"
+      "contentLength": "17138",
+      "signature": "b2ebddf1742e9e17",
+      "checkedAt": "2026-08-11T18:15:20.021Z",
+      "change": "changed"
     },
     {
       "url": "https://www.usb.ac.ir/FileUpload/9992_2026-5-4-10-55-5.pdf",
@@ -2132,8 +2066,8 @@
       "lastModified": "Mon, 04 May 2026 07:25:05 GMT",
       "contentLength": "919996",
       "signature": "7a7d92524938d2c7",
-      "checkedAt": "2026-08-11T16:22:29.153Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:20.126Z",
+      "change": "unchanged"
     },
     {
       "url": "https://yazd.ac.ir/offices/research/home/introduction",
@@ -2158,10 +2092,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "47775",
-      "signature": "422ee0fd6cca39c2",
-      "checkedAt": "2026-08-11T16:22:29.324Z",
-      "change": "new"
+      "contentLength": "47832",
+      "signature": "10c26e9f3073cb3f",
+      "checkedAt": "2026-08-11T18:15:20.253Z",
+      "change": "changed"
     },
     {
       "url": "https://yazd.ac.ir/",
@@ -2182,10 +2116,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "58479",
-      "signature": "a1c6bf558a36a51b",
-      "checkedAt": "2026-08-11T16:22:29.343Z",
-      "change": "new"
+      "contentLength": "58475",
+      "signature": "6c3dcc5b62975e56",
+      "checkedAt": "2026-08-11T18:15:20.290Z",
+      "change": "changed"
     },
     {
       "url": "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
@@ -2206,10 +2140,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "41778",
-      "signature": "cb4c18b2a68c72c9",
-      "checkedAt": "2026-08-11T16:22:29.836Z",
-      "change": "new"
+      "contentLength": "41772",
+      "signature": "fbfe860c229006eb",
+      "checkedAt": "2026-08-11T18:15:21.221Z",
+      "change": "changed"
     },
     {
       "url": "https://uma.ac.ir/find-8.270.2596.fa.html",
@@ -2233,11 +2167,11 @@
       "finalUrl": "https://uma.ac.ir/find.php?item=8.270.2596.fa",
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
-      "lastModified": "Tue, 11 Aug 2026 16:46:09 GMT",
+      "lastModified": "Tue, 11 Aug 2026 18:39:00 GMT",
       "contentLength": null,
-      "signature": "30933883aeca5cb4",
-      "checkedAt": "2026-08-11T16:22:30.687Z",
-      "change": "new"
+      "signature": "2aa82921fb63923f",
+      "checkedAt": "2026-08-11T18:15:21.549Z",
+      "change": "changed"
     },
     {
       "url": "https://uma.ac.ir/",
@@ -2257,11 +2191,11 @@
       "finalUrl": "https://uma.ac.ir/",
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
-      "lastModified": "Tue, 11 Aug 2026 16:46:09 GMT",
+      "lastModified": "Tue, 11 Aug 2026 18:39:00 GMT",
       "contentLength": null,
-      "signature": "8bb54cd8fe5b55d5",
-      "checkedAt": "2026-08-11T16:22:30.744Z",
-      "change": "new"
+      "signature": "6aff245582a45e8d",
+      "checkedAt": "2026-08-11T18:15:21.557Z",
+      "change": "changed"
     },
     {
       "url": "https://uma.ac.ir/find.php?item=8.5244.13832.fa",
@@ -2281,11 +2215,11 @@
       "finalUrl": "https://uma.ac.ir/find.php?item=8.5244.13832.fa",
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
-      "lastModified": "Tue, 11 Aug 2026 16:46:09 GMT",
+      "lastModified": "Tue, 11 Aug 2026 18:39:00 GMT",
       "contentLength": null,
-      "signature": "9f6624548dbdf199",
-      "checkedAt": "2026-08-11T16:22:31.009Z",
-      "change": "new"
+      "signature": "1c446caa27f5ee8f",
+      "checkedAt": "2026-08-11T18:15:21.880Z",
+      "change": "changed"
     },
     {
       "url": "https://uma.ac.ir/content/32005/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2315,11 +2249,11 @@
       "finalUrl": "https://uma.ac.ir/find.php?content_id=32005&url_title=%d8%a2%db%8c%db%8c%d9%86%e2%80%8c%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c&rewrite_url=1",
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
-      "lastModified": "Tue, 11 Aug 2026 16:46:09 GMT",
+      "lastModified": "Tue, 11 Aug 2026 18:39:00 GMT",
       "contentLength": null,
-      "signature": "7c7d79661a51b0f9",
-      "checkedAt": "2026-08-11T16:22:31.018Z",
-      "change": "new"
+      "signature": "3bffdef8135f0708",
+      "checkedAt": "2026-08-11T18:15:21.901Z",
+      "change": "changed"
     },
     {
       "url": "https://uok.ac.ir/web/research-and-innovation",
@@ -2346,8 +2280,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "5b69ffa7ad03cf36",
-      "checkedAt": "2026-08-11T16:22:31.038Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:21.997Z",
+      "change": "unchanged"
     },
     {
       "url": "https://uok.ac.ir/",
@@ -2370,8 +2304,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "f46269b0edfa0a30",
-      "checkedAt": "2026-08-11T16:22:31.152Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:22.119Z",
+      "change": "unchanged"
     },
     {
       "url": "https://uok.ac.ir/web/research-and-innovation/organizational-chart",
@@ -2394,8 +2328,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "e61ac14d246a8f62",
-      "checkedAt": "2026-08-11T16:22:31.236Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:22.257Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.uok.ac.ir/",
@@ -2416,10 +2350,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "4281",
-      "signature": "f997434fceed4750",
-      "checkedAt": "2026-08-11T16:22:31.487Z",
-      "change": "new"
+      "contentLength": "4276",
+      "signature": "e06d9bf1d5f99b00",
+      "checkedAt": "2026-08-11T18:15:22.496Z",
+      "change": "changed"
     },
     {
       "url": "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations",
@@ -2452,8 +2386,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "6be2999ab35431ff",
-      "checkedAt": "2026-08-11T16:22:31.545Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:22.568Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.scu.ac.ir/",
@@ -2570,8 +2504,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "b8e03d25626e7f63",
-      "checkedAt": "2026-08-11T16:22:31.768Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:22.729Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.kashanu.ac.ir/",
@@ -2598,8 +2532,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "ce82e15ff6f04036",
-      "checkedAt": "2026-08-11T16:22:31.872Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:22.907Z",
+      "change": "unchanged"
     },
     {
       "url": "https://www.sku.ac.ir/Vice-President/research",
@@ -2626,8 +2560,8 @@
       "lastModified": null,
       "contentLength": "199325",
       "signature": "f91187aa5c1fceaa",
-      "checkedAt": "2026-08-11T16:22:31.894Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:22.910Z",
+      "change": "unchanged"
     },
     {
       "url": "https://www.sku.ac.ir/Datafiles/UploadedFiles/UserFiles/2015116151928_aeennameh89.pdf",
@@ -2660,8 +2594,8 @@
       "lastModified": "Wed, 07 Jan 2015 11:49:28 GMT",
       "contentLength": "625335",
       "signature": "100c2affde0098a4",
-      "checkedAt": "2026-08-11T16:22:32.052Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:22.919Z",
+      "change": "unchanged"
     },
     {
       "url": "https://res.basu.ac.ir/",
@@ -2688,27 +2622,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "a17fc222932056a6",
-      "checkedAt": "2026-08-11T16:22:32.059Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/s/basuacir",
-      "claims": [
-        {
-          "slug": "bu-ali-sina",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "bu-ali-sina",
-          "kind": "provenance",
-          "id": "bu-ali-sina-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:32.220Z",
-      "change": "check-failed"
+      "checkedAt": "2026-08-11T18:15:22.990Z",
+      "change": "unchanged"
     },
     {
       "url": "https://res.basu.ac.ir/journals-regulations/-/document_library/ocki/view/3692745",
@@ -2741,8 +2656,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "6b90af07081ed4df",
-      "checkedAt": "2026-08-11T16:22:32.231Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:23.039Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.qom.ac.ir/",
@@ -2897,10 +2812,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "23060",
-      "signature": "4c05bf065d720b87",
-      "checkedAt": "2026-08-11T16:22:32.435Z",
-      "change": "new"
+      "contentLength": "23061",
+      "signature": "5babf82ade11e137",
+      "checkedAt": "2026-08-11T18:15:23.063Z",
+      "change": "changed"
     },
     {
       "url": "https://research.alzahra.ac.ir/",
@@ -3047,8 +2962,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "98f7cdce61f34708",
-      "checkedAt": "2026-08-11T16:22:33.029Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:23.199Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.umz.ac.ir/",
@@ -3075,8 +2990,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "db8414a782dc1670",
-      "checkedAt": "2026-08-11T16:22:33.149Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:23.280Z",
+      "change": "unchanged"
     },
     {
       "url": "https://umz.ac.ir/",
@@ -3099,8 +3014,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "42138ce07525eea1",
-      "checkedAt": "2026-08-11T16:22:33.280Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:23.414Z",
+      "change": "unchanged"
     },
     {
       "url": "https://ikiu.ac.ir/",
@@ -3123,8 +3038,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "7730c9cd78473d72",
-      "checkedAt": "2026-08-11T16:22:33.360Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:23.473Z",
+      "change": "unchanged"
     },
     {
       "url": "https://pgu.ac.ir/fa/researchdeputy",
@@ -3147,31 +3062,12 @@
       "ok": true,
       "finalUrl": "https://pgu.ac.ir/fa/researchdeputy",
       "contentType": "text/html; charset=UTF-8",
-      "etag": "\"1786461852-gzip\"",
-      "lastModified": "Tue, 11 Aug 2026 15:24:12 GMT",
+      "etag": "\"1786472123-gzip\"",
+      "lastModified": "Tue, 11 Aug 2026 18:15:23 GMT",
       "contentLength": null,
-      "signature": "0423edee7b35c356",
-      "checkedAt": "2026-08-11T16:22:33.487Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/s/pgu_pr",
-      "claims": [
-        {
-          "slug": "persian-gulf",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "persian-gulf",
-          "kind": "provenance",
-          "id": "persian-gulf-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:33.580Z",
-      "change": "check-failed"
+      "signature": "8b45159716f4aed5",
+      "checkedAt": "2026-08-11T18:15:23.555Z",
+      "change": "changed"
     },
     {
       "url": "https://research.znu.ac.ir/",
@@ -3248,8 +3144,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "d665cb832dbabd0b",
-      "checkedAt": "2026-08-11T16:22:33.740Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:23.679Z",
+      "change": "unchanged"
     },
     {
       "url": "https://www.ilam.ac.ir/dep/research/",
@@ -3276,46 +3172,8 @@
       "lastModified": null,
       "contentLength": "40409",
       "signature": "139bf74ae04e69a4",
-      "checkedAt": "2026-08-11T16:22:34.060Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/ilamac",
-      "claims": [
-        {
-          "slug": "ilam",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "ilam",
-          "kind": "provenance",
-          "id": "ilam-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:34.167Z",
-      "change": "check-failed"
-    },
-    {
-      "url": "https://t.me/hakimUniversity",
-      "claims": [
-        {
-          "slug": "hakim-sabzevari",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "hakim-sabzevari",
-          "kind": "provenance",
-          "id": "hakim-sabzevari-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:34.171Z",
-      "change": "check-failed"
+      "checkedAt": "2026-08-11T18:15:23.741Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.araku.ac.ir/",
@@ -3462,27 +3320,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "9199da3e04c34e57",
-      "checkedAt": "2026-08-11T16:22:34.311Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/asmukarafarini",
-      "claims": [
-        {
-          "slug": "azarbaijan-shahid-madani",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "azarbaijan-shahid-madani",
-          "kind": "provenance",
-          "id": "azarbaijan-shahid-madani-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:34.638Z",
-      "change": "check-failed"
+      "checkedAt": "2026-08-11T18:15:23.913Z",
+      "change": "unchanged"
     },
     {
       "url": "https://birjand.ac.ir/research/fa",
@@ -3509,8 +3348,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "de7fdd979cfe1522",
-      "checkedAt": "2026-08-11T16:22:34.717Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:24.269Z",
+      "change": "unchanged"
     },
     {
       "url": "https://birjand.ac.ir/graduate/fa/regulation",
@@ -3543,8 +3382,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "843dcffaf6d93fbd",
-      "checkedAt": "2026-08-11T16:22:34.920Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:24.545Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.lu.ac.ir/",
@@ -3571,8 +3410,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "6875929d9802657d",
-      "checkedAt": "2026-08-11T16:22:35.619Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:24.974Z",
+      "change": "unchanged"
     },
     {
       "url": "https://rtm.maragheh.ac.ir/",
@@ -3599,8 +3438,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "447c2f392ea4fce9",
-      "checkedAt": "2026-08-11T16:22:35.665Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:25.231Z",
+      "change": "unchanged"
     },
     {
       "url": "https://www.maragheh.ac.ir/fa/article/3289452",
@@ -3623,8 +3462,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "e7ae5dff252841e4",
-      "checkedAt": "2026-08-11T16:22:35.984Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:25.497Z",
+      "change": "unchanged"
     },
     {
       "url": "https://www.maragheh.ac.ir/fa/article/3224206",
@@ -3647,8 +3486,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "0ef74b2f0099a430",
-      "checkedAt": "2026-08-11T16:22:36.248Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:25.523Z",
+      "change": "unchanged"
     },
     {
       "url": "https://rtm.maragheh.ac.ir/postdoc",
@@ -3671,8 +3510,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "98d65377223f099a",
-      "checkedAt": "2026-08-11T16:22:36.252Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:26.050Z",
+      "change": "unchanged"
     },
     {
       "url": "https://res.maragheh.ac.ir/_Pages/Regulations/Default.aspx",
@@ -3703,10 +3542,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "55685",
-      "signature": "a421b2df02551b1d",
-      "checkedAt": "2026-08-11T16:22:36.422Z",
-      "change": "new"
+      "contentLength": "55602",
+      "signature": "3cefc2f04d0472bf",
+      "checkedAt": "2026-08-11T18:15:26.065Z",
+      "change": "changed"
     },
     {
       "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9750ea80-7c7d-4917-ba1b-eb366b50d22f&FileName=Saramadan-researchers+%D9%8D+Editted+Aban+1404.pdf",
@@ -3739,8 +3578,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "7d435fc1918516b7",
-      "checkedAt": "2026-08-11T16:22:36.579Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:26.110Z",
+      "change": "unchanged"
     },
     {
       "url": "https://uoz.ac.ir/prt/",
@@ -3762,7 +3601,7 @@
       "status": "network-error",
       "ok": false,
       "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:36.735Z",
+      "checkedAt": "2026-08-11T18:15:26.147Z",
       "change": "check-failed"
     },
     {
@@ -3791,7 +3630,7 @@
       "status": "network-error",
       "ok": false,
       "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:36.819Z",
+      "checkedAt": "2026-08-11T18:15:26.199Z",
       "change": "check-failed"
     },
     {
@@ -3814,7 +3653,7 @@
       "status": "network-error",
       "ok": false,
       "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:36.839Z",
+      "checkedAt": "2026-08-11T18:15:26.391Z",
       "change": "check-failed"
     },
     {
@@ -3833,26 +3672,7 @@
       "status": "network-error",
       "ok": false,
       "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:36.909Z",
-      "change": "check-failed"
-    },
-    {
-      "url": "https://t.me/s/duacir/24485",
-      "claims": [
-        {
-          "slug": "damghan",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "damghan",
-          "kind": "provenance",
-          "id": "damghan-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:36.976Z",
+      "checkedAt": "2026-08-11T18:15:26.582Z",
       "change": "check-failed"
     },
     {
@@ -3880,8 +3700,8 @@
       "lastModified": null,
       "contentLength": "80779",
       "signature": "8d5b6186d3186343",
-      "checkedAt": "2026-08-11T16:22:37.014Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:26.589Z",
+      "change": "unchanged"
     },
     {
       "url": "https://gu.ac.ir/research/",
@@ -3908,27 +3728,8 @@
       "lastModified": null,
       "contentLength": "974",
       "signature": "ed47891db34f664f",
-      "checkedAt": "2026-08-11T16:22:37.031Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/s/Guresearch",
-      "claims": [
-        {
-          "slug": "golestan",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "golestan",
-          "kind": "provenance",
-          "id": "golestan-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:37.199Z",
-      "change": "check-failed"
+      "checkedAt": "2026-08-11T18:15:26.604Z",
+      "change": "unchanged"
     },
     {
       "url": "https://gu.ac.ir/file/93866315-04dc-ec11-9ed6-005056998f1e/14010228%20final%20bartar%20policy.pdf",
@@ -3961,8 +3762,8 @@
       "lastModified": "Wed, 25 May 2022 08:24:24 GMT",
       "contentLength": "412058",
       "signature": "a1950114d83b3482",
-      "checkedAt": "2026-08-11T16:22:37.306Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:26.765Z",
+      "change": "unchanged"
     },
     {
       "url": "https://www.hormozgan.ac.ir/home/index/10/28/373",
@@ -3981,16 +3782,11 @@
           "id": "hormozgan-portal-evidence-1"
         }
       ],
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://www.hormozgan.ac.ir/home/index/10/28/373",
-      "contentType": "text/html; charset=utf-8",
-      "etag": null,
-      "lastModified": null,
-      "contentLength": "42354",
-      "signature": "9f27af3cfe078d11",
-      "checkedAt": "2026-08-11T16:22:37.529Z",
-      "change": "new"
+      "status": "network-error",
+      "ok": false,
+      "error": "fetch failed",
+      "checkedAt": "2026-08-11T18:15:26.861Z",
+      "change": "check-failed"
     },
     {
       "url": "https://vr.ub.ac.ir/",
@@ -4017,27 +3813,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "050777195eba6545",
-      "checkedAt": "2026-08-11T16:22:37.755Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/s/meyboduni_official/4036",
-      "claims": [
-        {
-          "slug": "meybod",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "meybod",
-          "kind": "provenance",
-          "id": "meybod-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:37.758Z",
-      "change": "check-failed"
+      "checkedAt": "2026-08-11T18:15:27.036Z",
+      "change": "unchanged"
     },
     {
       "url": "http://new.meybod.ac.ir/fa/article/294984",
@@ -4060,27 +3837,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "dbdf5c37fa36a89a",
-      "checkedAt": "2026-08-11T16:22:38.079Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/s/amoluniv",
-      "claims": [
-        {
-          "slug": "amol-special-tech",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "amol-special-tech",
-          "kind": "provenance",
-          "id": "amol-special-tech-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:38.325Z",
-      "change": "check-failed"
+      "checkedAt": "2026-08-11T18:15:27.515Z",
+      "change": "unchanged"
     },
     {
       "url": "https://ausmt.ac.ir/forms",
@@ -4113,8 +3871,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "025dbe1387a70ff3",
-      "checkedAt": "2026-08-11T16:22:39.028Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:27.751Z",
+      "change": "unchanged"
     },
     {
       "url": "https://malayeru.ac.ir/portal/home/?news/32484/116202/279690/",
@@ -4135,10 +3893,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "20847",
-      "signature": "77386b88c61e2e32",
-      "checkedAt": "2026-08-11T16:22:39.277Z",
-      "change": "new"
+      "contentLength": "20848",
+      "signature": "833740afbdbde164",
+      "checkedAt": "2026-08-11T18:15:30.111Z",
+      "change": "changed"
     },
     {
       "url": "https://research.ujiroft.ac.ir/_Pages/Departments/Default.aspx",
@@ -4156,7 +3914,7 @@
       "status": "network-error",
       "ok": false,
       "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:39.824Z",
+      "checkedAt": "2026-08-11T18:15:31.311Z",
       "change": "check-failed"
     },
     {
@@ -4178,10 +3936,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "24378",
-      "signature": "b5aad3be729f2a1d",
-      "checkedAt": "2026-08-11T16:22:40.397Z",
-      "change": "new"
+      "contentLength": "24380",
+      "signature": "7ead44e16b8c9a2f",
+      "checkedAt": "2026-08-11T18:15:34.523Z",
+      "change": "changed"
     },
     {
       "url": "https://research.iust.ac.ir/",
@@ -4360,16 +4118,11 @@
           "id": "system-iust-jcr"
         }
       ],
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://research.iust.ac.ir/",
-      "contentType": "text/html; charset=UTF-8",
-      "etag": null,
-      "lastModified": "Mon, 03 Aug 2026 09:48:30 GMT",
-      "contentLength": "30107",
-      "signature": "2b07f0fd98cd5ae8",
-      "checkedAt": "2026-08-11T16:22:40.554Z",
-      "change": "new"
+      "status": "network-error",
+      "ok": false,
+      "error": "fetch failed",
+      "checkedAt": "2026-08-11T18:15:34.685Z",
+      "change": "check-failed"
     },
     {
       "url": "https://www.iust.ac.ir/files/res_office/pages/dastore_ghotb.pdf",
@@ -4402,8 +4155,8 @@
       "lastModified": "Tue, 14 Oct 2014 07:04:13 GMT",
       "contentLength": "66276",
       "signature": "95e6a969b7203564",
-      "checkedAt": "2026-08-11T16:22:40.899Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:34.824Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.sharif.ir/",
@@ -4550,8 +4303,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "5ac5efba66a72c17",
-      "checkedAt": "2026-08-11T16:22:40.988Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:34.901Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.aut.ac.ir/",
@@ -4673,7 +4426,7 @@
       "status": "network-error",
       "ok": false,
       "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:41.286Z",
+      "checkedAt": "2026-08-11T18:15:35.156Z",
       "change": "check-failed"
     },
     {
@@ -4831,8 +4584,8 @@
       "lastModified": null,
       "contentLength": "108851",
       "signature": "1ddf54b7c9a0d43f",
-      "checkedAt": "2026-08-11T16:22:41.344Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:35.290Z",
+      "change": "unchanged"
     },
     {
       "url": "https://kntu.ac.ir/dorsapax/userfiles/file/Pajohesh/karnameh1392.pdf",
@@ -4865,8 +4618,8 @@
       "lastModified": "Wed, 06 Aug 2025 05:52:41 GMT",
       "contentLength": "13816034",
       "signature": "58a0a412e89bc5e6",
-      "checkedAt": "2026-08-11T16:22:41.470Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:35.602Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.iut.ac.ir/",
@@ -5073,8 +4826,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "20d0781f3f30bd99",
-      "checkedAt": "2026-08-11T16:22:41.588Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:35.707Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.iut.ac.ir/fa/dgr/1770",
@@ -5107,8 +4860,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "d9684f6656b0df35",
-      "checkedAt": "2026-08-11T16:22:41.915Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:35.821Z",
+      "change": "unchanged"
     },
     {
       "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=11",
@@ -5135,46 +4888,8 @@
       "lastModified": null,
       "contentLength": "11348",
       "signature": "d73cd90afa08cf05",
-      "checkedAt": "2026-08-11T16:22:42.242Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/s/shahroudUNI",
-      "claims": [
-        {
-          "slug": "shahrood-technology",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "shahrood-technology",
-          "kind": "provenance",
-          "id": "shahrood-technology-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:42.352Z",
-      "change": "check-failed"
-    },
-    {
-      "url": "https://t.me/s/Research_SUT",
-      "claims": [
-        {
-          "slug": "shahrood-technology",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "shahrood-technology",
-          "kind": "provenance",
-          "id": "shahrood-technology-portal-evidence-2"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:42.877Z",
-      "change": "check-failed"
+      "checkedAt": "2026-08-11T18:15:36.147Z",
+      "change": "unchanged"
     },
     {
       "url": "https://shahroodut.ac.ir/",
@@ -5197,8 +4912,8 @@
       "lastModified": null,
       "contentLength": "380",
       "signature": "94fcbed1501f4cff",
-      "checkedAt": "2026-08-11T16:22:44.252Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:36.264Z",
+      "change": "unchanged"
     },
     {
       "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=6&index=257",
@@ -5231,8 +4946,8 @@
       "lastModified": null,
       "contentLength": "11774",
       "signature": "4259b28e2c070340",
-      "checkedAt": "2026-08-11T16:22:44.344Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:36.381Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.nit.ac.ir/",
@@ -5259,27 +4974,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "04f29d2fa5d310ab",
-      "checkedAt": "2026-08-11T16:22:44.414Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/s/profnoshiravani",
-      "claims": [
-        {
-          "slug": "babol-noshirvani",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "babol-noshirvani",
-          "kind": "provenance",
-          "id": "babol-noshirvani-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:44.427Z",
-      "change": "check-failed"
+      "checkedAt": "2026-08-11T18:15:36.511Z",
+      "change": "unchanged"
     },
     {
       "url": "https://edu.nit.ac.ir/file/download/regulation/657051cde5f4e-1402.pdf",
@@ -5312,8 +5008,8 @@
       "lastModified": null,
       "contentLength": "254428",
       "signature": "58362a5f01c32799",
-      "checkedAt": "2026-08-11T16:22:44.970Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:36.587Z",
+      "change": "unchanged"
     },
     {
       "url": "https://sut.ac.ir/research/fa/",
@@ -5340,8 +5036,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "e91f77ada1216403",
-      "checkedAt": "2026-08-11T16:22:45.209Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:36.771Z",
+      "change": "unchanged"
     },
     {
       "url": "http://sut.ac.ir/main/ShowArticle.aspx?artid=2039",
@@ -5364,8 +5060,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "0e271003982172cc",
-      "checkedAt": "2026-08-11T16:22:45.473Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:36.885Z",
+      "change": "unchanged"
     },
     {
       "url": "https://sutech.ac.ir/",
@@ -5388,8 +5084,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "389b6d00c3ecdd4e",
-      "checkedAt": "2026-08-11T16:22:45.637Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:37.026Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.qiet.ac.ir/",
@@ -5416,27 +5112,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "8fcf82548cbd820b",
-      "checkedAt": "2026-08-11T16:22:45.833Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/s/ArakutOfficial",
-      "claims": [
-        {
-          "slug": "arak-technology",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "arak-technology",
-          "kind": "provenance",
-          "id": "arak-technology-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:46.502Z",
-      "change": "check-failed"
+      "checkedAt": "2026-08-11T18:15:37.091Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.kut.ac.ir/",
@@ -5461,10 +5138,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "5512",
-      "signature": "77aeae504503f6b8",
-      "checkedAt": "2026-08-11T16:22:46.668Z",
-      "change": "new"
+      "contentLength": "5520",
+      "signature": "9637a40e7a89385e",
+      "checkedAt": "2026-08-11T18:15:37.093Z",
+      "change": "changed"
     },
     {
       "url": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
@@ -5495,10 +5172,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "52692",
-      "signature": "27206d2d9f4cbc00",
-      "checkedAt": "2026-08-11T16:22:47.018Z",
-      "change": "new"
+      "contentLength": "52643",
+      "signature": "1ab40d5250ab082a",
+      "checkedAt": "2026-08-11T18:15:37.348Z",
+      "change": "changed"
     },
     {
       "url": "https://qut.ac.ir/fa/researches/index",
@@ -5650,26 +5327,7 @@
       "status": "network-error",
       "ok": false,
       "error": "The operation was aborted due to timeout",
-      "checkedAt": "2026-08-11T16:22:47.198Z",
-      "change": "check-failed"
-    },
-    {
-      "url": "https://t.me/s/jsu_ir",
-      "claims": [
-        {
-          "slug": "jundi-shapur-dezful",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "jundi-shapur-dezful",
-          "kind": "provenance",
-          "id": "jundi-shapur-dezful-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:47.487Z",
+      "checkedAt": "2026-08-11T18:15:37.441Z",
       "change": "check-failed"
     },
     {
@@ -5695,10 +5353,10 @@
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "11681",
-      "signature": "fc3df32d76c6d022",
-      "checkedAt": "2026-08-11T16:22:47.488Z",
-      "change": "new"
+      "contentLength": "11685",
+      "signature": "b20c176aef330815",
+      "checkedAt": "2026-08-11T18:15:37.538Z",
+      "change": "changed"
     },
     {
       "url": "https://birjandut.ac.ir/fa/news/1858",
@@ -5719,10 +5377,10 @@
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "12796",
-      "signature": "355cfc355ceaf4c1",
-      "checkedAt": "2026-08-11T16:22:47.673Z",
-      "change": "new"
+      "contentLength": "12794",
+      "signature": "97a00368030f5147",
+      "checkedAt": "2026-08-11T18:15:37.644Z",
+      "change": "changed"
     },
     {
       "url": "https://birjandut.ac.ir/fa/news/1859",
@@ -5743,29 +5401,10 @@
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "12677",
-      "signature": "c644b8122c886d9d",
-      "checkedAt": "2026-08-11T16:22:47.872Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/s/gorganuniversity_news?before=2268",
-      "claims": [
-        {
-          "slug": "gorgan-agri",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "gorgan-agri",
-          "kind": "provenance",
-          "id": "gorgan-agri-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:48.095Z",
-      "change": "check-failed"
+      "contentLength": "12672",
+      "signature": "2caa024bce9f6b70",
+      "checkedAt": "2026-08-11T18:15:37.783Z",
+      "change": "changed"
     },
     {
       "url": "https://khabarfarsi.com/u/248561459",
@@ -5788,8 +5427,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "1c1759ea1ed64e8a",
-      "checkedAt": "2026-08-11T16:22:48.198Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:38.566Z",
+      "change": "unchanged"
     },
     {
       "url": "https://jrpsm.asnrukh.ac.ir/",
@@ -5810,10 +5449,10 @@
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "13624",
-      "signature": "f9995d6127562191",
-      "checkedAt": "2026-08-11T16:22:48.590Z",
-      "change": "new"
+      "contentLength": "13627",
+      "signature": "32e666ee3ac3a18f",
+      "checkedAt": "2026-08-11T18:15:38.663Z",
+      "change": "changed"
     },
     {
       "url": "https://asnrukh.ac.ir/karafarini/fa/regulation?sort=title",
@@ -5846,8 +5485,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "2dd21dfd0041e64c",
-      "checkedAt": "2026-08-11T16:22:49.106Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:38.672Z",
+      "change": "unchanged"
     },
     {
       "url": "https://asnrukh.ac.ir/file/download/page/1614232844-.pdf",
@@ -5880,8 +5519,8 @@
       "lastModified": null,
       "contentLength": "804737",
       "signature": "c924504ca71da5d3",
-      "checkedAt": "2026-08-11T16:22:49.265Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:38.800Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.art.ac.ir/fa",
@@ -6073,7 +5712,7 @@
       "status": "network-error",
       "ok": false,
       "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:49.408Z",
+      "checkedAt": "2026-08-11T18:15:38.985Z",
       "change": "check-failed"
     },
     {
@@ -6097,8 +5736,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "93b6df799b109738",
-      "checkedAt": "2026-08-11T16:22:49.448Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:38.990Z",
+      "change": "unchanged"
     },
     {
       "url": "https://research.tabriziau.ac.ir/uploads/user/8/files/%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%20%D9%88%20%D9%81%D8%B1%D9%85%20%D9%87%D8%A7/%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%20%D8%A8%D9%86%D8%AF%DB%8C%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%20%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%28new%29%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%20%D8%A8%D9%86%D8%AF%DB%8C%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
@@ -6131,8 +5770,8 @@
       "lastModified": "Thu, 16 Feb 2023 07:06:37 GMT",
       "contentLength": "1378578",
       "signature": "1e796a6b951938de",
-      "checkedAt": "2026-08-11T16:22:49.511Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:39.008Z",
+      "change": "unchanged"
     },
     {
       "url": "https://aui.ac.ir/",
@@ -6155,27 +5794,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "14a6cbc1aa3d619f",
-      "checkedAt": "2026-08-11T16:22:49.563Z",
-      "change": "new"
-    },
-    {
-      "url": "https://t.me/s/archaeology_shirazartu",
-      "claims": [
-        {
-          "slug": "shiraz-art",
-          "kind": "portal-evidence"
-        },
-        {
-          "slug": "shiraz-art",
-          "kind": "provenance",
-          "id": "shiraz-art-portal-evidence-1"
-        }
-      ],
-      "status": "network-error",
-      "ok": false,
-      "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:49.653Z",
-      "change": "check-failed"
+      "checkedAt": "2026-08-11T18:15:39.140Z",
+      "change": "unchanged"
     },
     {
       "url": "http://www.shirazartu.ac.ir/",
@@ -6198,8 +5818,8 @@
       "lastModified": null,
       "contentLength": "155942",
       "signature": "4edbec8ef2b642aa",
-      "checkedAt": "2026-08-11T16:22:50.034Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:39.698Z",
+      "change": "unchanged"
     },
     {
       "url": "https://pnu.ac.ir/",
@@ -6214,16 +5834,11 @@
           "id": "payame-noor-portal-evidence-1"
         }
       ],
-      "status": 200,
-      "ok": true,
-      "finalUrl": "https://pnu.ac.ir/",
-      "contentType": "text/html; charset=utf-8",
-      "etag": null,
-      "lastModified": null,
-      "contentLength": null,
-      "signature": "535846268d146f8f",
-      "checkedAt": "2026-08-11T16:22:50.175Z",
-      "change": "new"
+      "status": "network-error",
+      "ok": false,
+      "error": "The operation was aborted due to timeout",
+      "checkedAt": "2026-08-11T18:15:39.835Z",
+      "change": "check-failed"
     },
     {
       "url": "https://www.nus.ac.ir/",
@@ -6241,7 +5856,7 @@
       "status": "network-error",
       "ok": false,
       "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:50.229Z",
+      "checkedAt": "2026-08-11T18:15:39.981Z",
       "change": "check-failed"
     },
     {
@@ -6269,8 +5884,8 @@
       "lastModified": null,
       "contentLength": null,
       "signature": "68f856affacb2d12",
-      "checkedAt": "2026-08-11T16:22:50.364Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:40.045Z",
+      "change": "unchanged"
     },
     {
       "url": "https://esfahan.cfu.ac.ir/fa/226134/",
@@ -6288,7 +5903,7 @@
       "status": "network-error",
       "ok": false,
       "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:50.503Z",
+      "checkedAt": "2026-08-11T18:15:40.066Z",
       "change": "check-failed"
     },
     {
@@ -6310,10 +5925,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "24732",
-      "signature": "1c751761e22d8f16",
-      "checkedAt": "2026-08-11T16:22:50.515Z",
-      "change": "new"
+      "contentLength": "24731",
+      "signature": "72a9806183c8d7dd",
+      "checkedAt": "2026-08-11T18:15:40.248Z",
+      "change": "changed"
     },
     {
       "url": "https://www.ihu.ac.ir/",
@@ -6336,8 +5951,8 @@
       "lastModified": null,
       "contentLength": "18456",
       "signature": "def776c6022db728",
-      "checkedAt": "2026-08-11T16:22:50.519Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:40.454Z",
+      "change": "unchanged"
     },
     {
       "url": "http://portal.ihu.ac.ir/?q=fa/publications",
@@ -6355,7 +5970,7 @@
       "status": "network-error",
       "ok": false,
       "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:50.688Z",
+      "checkedAt": "2026-08-11T18:15:40.550Z",
       "change": "check-failed"
     },
     {
@@ -6472,8 +6087,8 @@
       "lastModified": "Sun, 09 Aug 2026 09:35:45 GMT",
       "contentLength": null,
       "signature": "dcbcb932aa1f9f5a",
-      "checkedAt": "2026-08-11T16:22:50.693Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:40.664Z",
+      "change": "unchanged"
     },
     {
       "url": "https://library.shahed.ac.ir/",
@@ -6536,8 +6151,8 @@
       "lastModified": "Sun, 09 Aug 2026 09:29:10 GMT",
       "contentLength": null,
       "signature": "c882362a49038803",
-      "checkedAt": "2026-08-11T16:22:50.696Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:41.314Z",
+      "change": "unchanged"
     },
     {
       "url": "https://mut.ac.ir/",
@@ -6555,7 +6170,7 @@
       "status": "network-error",
       "ok": false,
       "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:50.916Z",
+      "checkedAt": "2026-08-11T18:15:41.541Z",
       "change": "check-failed"
     },
     {
@@ -6581,10 +6196,10 @@
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "31987",
-      "signature": "5eb873ba3a848e30",
-      "checkedAt": "2026-08-11T16:22:50.931Z",
-      "change": "new"
+      "contentLength": "31993",
+      "signature": "c206fe690196ef98",
+      "checkedAt": "2026-08-11T18:15:41.632Z",
+      "change": "changed"
     },
     {
       "url": "https://www.srttu.edu/",
@@ -6602,7 +6217,7 @@
       "status": "network-error",
       "ok": false,
       "error": "fetch failed",
-      "checkedAt": "2026-08-11T16:22:51.642Z",
+      "checkedAt": "2026-08-11T18:15:41.643Z",
       "change": "check-failed"
     },
     {
@@ -6626,8 +6241,8 @@
       "lastModified": null,
       "contentLength": "15949",
       "signature": "c4cfd60178d0d048",
-      "checkedAt": "2026-08-11T16:22:51.708Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:41.812Z",
+      "change": "unchanged"
     },
     {
       "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -6660,8 +6275,8 @@
       "lastModified": null,
       "contentLength": "22737",
       "signature": "ff7f4263288d5c6f",
-      "checkedAt": "2026-08-11T16:22:51.756Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:42.809Z",
+      "change": "unchanged"
     },
     {
       "url": "https://nezamat.ir/post-44967/",
@@ -6681,11 +6296,11 @@
       "finalUrl": "https://nezamat.ir/post-44967/",
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
-      "lastModified": "Tue, 11 Aug 2026 16:22:52 GMT",
+      "lastModified": "Tue, 11 Aug 2026 18:15:43 GMT",
       "contentLength": null,
-      "signature": "149d5874bfe30cbf",
-      "checkedAt": "2026-08-11T16:22:52.215Z",
-      "change": "new"
+      "signature": "91542daf39241b2c",
+      "checkedAt": "2026-08-11T18:15:43.048Z",
+      "change": "changed"
     },
     {
       "url": "https://smsnds.sndu.ac.ir/",
@@ -6706,10 +6321,10 @@
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "19568",
-      "signature": "99bdab83b3c0572b",
-      "checkedAt": "2026-08-11T16:22:52.626Z",
-      "change": "new"
+      "contentLength": "19567",
+      "signature": "ee1c4fc3ae05450c",
+      "checkedAt": "2026-08-11T18:15:43.866Z",
+      "change": "changed"
     },
     {
       "url": "https://sndu.ac.ir/file/download/news/1610428363-.pdf",
@@ -6742,8 +6357,8 @@
       "lastModified": null,
       "contentLength": "1665135",
       "signature": "7dea73db63daf0a5",
-      "checkedAt": "2026-08-11T16:22:52.657Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:44.187Z",
+      "change": "unchanged"
     },
     {
       "url": "https://www.put.ac.ir/fa-IR/put/4793/page/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A",
@@ -6768,10 +6383,10 @@
       "contentType": "text/html; charset=utf-8",
       "etag": null,
       "lastModified": null,
-      "contentLength": "26774",
-      "signature": "7609c4d29212efa4",
-      "checkedAt": "2026-08-11T16:22:52.958Z",
-      "change": "new"
+      "contentLength": "26778",
+      "signature": "8e27bb61e4064b59",
+      "checkedAt": "2026-08-11T18:15:44.310Z",
+      "change": "changed"
     },
     {
       "url": "https://www.put.ac.ir/fa-IR/put/5028/page/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%D9%8A-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
@@ -6794,8 +6409,8 @@
       "lastModified": null,
       "contentLength": "24951",
       "signature": "59094e788e2a47bf",
-      "checkedAt": "2026-08-11T16:22:53.329Z",
-      "change": "new"
+      "checkedAt": "2026-08-11T18:15:44.847Z",
+      "change": "unchanged"
     },
     {
       "url": "https://nezamat.ir/post-40635/",
@@ -6815,11 +6430,11 @@
       "finalUrl": "https://nezamat.ir/post-40635/",
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
-      "lastModified": "Tue, 11 Aug 2026 16:22:53 GMT",
+      "lastModified": "Tue, 11 Aug 2026 18:15:46 GMT",
       "contentLength": null,
-      "signature": "ef7fb53e35a638c3",
-      "checkedAt": "2026-08-11T16:22:53.629Z",
-      "change": "new"
+      "signature": "9edf2e2bf019a91a",
+      "checkedAt": "2026-08-11T18:15:46.052Z",
+      "change": "changed"
     },
     {
       "url": "https://nezamat.ir/post-38549/",
@@ -6839,11 +6454,11 @@
       "finalUrl": "https://nezamat.ir/post-38549/",
       "contentType": "text/html; charset=UTF-8",
       "etag": null,
-      "lastModified": "Tue, 11 Aug 2026 16:22:54 GMT",
+      "lastModified": "Tue, 11 Aug 2026 18:15:50 GMT",
       "contentLength": null,
-      "signature": "52c6b4ae812c1837",
-      "checkedAt": "2026-08-11T16:22:54.784Z",
-      "change": "new"
+      "signature": "9555c45334cb0943",
+      "checkedAt": "2026-08-11T18:15:49.552Z",
+      "change": "changed"
     }
   ]
 }
