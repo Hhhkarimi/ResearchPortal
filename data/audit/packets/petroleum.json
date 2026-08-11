@@ -90,7 +90,7 @@
     ],
     "discoveryCrawler": {
       "lastRun": "2026-08-11",
-      "promotedSources": 76,
+      "promotedSources": 73,
       "socialEvidenceRemoved": true
     }
   },
@@ -176,8 +176,8 @@
       "documentsRegulations": "verified"
     },
     "auditEvidenceCoverage": 100,
-    "unitsFound": 13,
-    "systemsFound": 13,
+    "unitsFound": 14,
+    "systemsFound": 14,
     "documentsFound": 46,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
@@ -656,7 +656,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 14,
+      "sourceCount": 15,
       "sources": [
         {
           "url": "https://www.put.ac.ir/fa-IR/put/5028/page/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%D9%8A-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
@@ -780,6 +780,15 @@
           "unitType": "industry",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+          "kind": "unit",
+          "claim": "انتشارات",
+          "id": "petroleum-discovery-unit-library-69937ba08cd6",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         }
       ],
       "publicationAdjustment": null,
@@ -797,8 +806,14 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 10,
+      "sourceCount": 12,
       "sources": [
+        {
+          "url": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
         {
           "url": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
           "kind": "portal-document-reaudit",
@@ -806,13 +821,13 @@
           "id": null
         },
         {
-          "url": "https://roshd.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+          "url": "https://roshd.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
         },
         {
-          "url": "https://roshd.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+          "url": "https://roshd.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
@@ -853,6 +868,13 @@
           "systemCategory": "journals"
         },
         {
+          "url": "https://www.put.ac.ir/fa-IR/put/7448/page/%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "system",
+          "claim": "نشریات",
+          "id": "petroleum-discovery-system-70b390465560",
+          "systemCategory": "journals"
+        },
+        {
           "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D9%85%D9%86%D8%AA%D8%B4%D8%B1%20%D8%B4%D8%AF%D9%87%20%D8%AF%D8%B1%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%20%D8%A8%DB%8C%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C%20%D9%88%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C%20%D8%AF%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B5%D9%86%D8%B9%D8%AA%20%D9%86%D9%81%D8%AA_20171120_120136.pdf",
           "kind": "document",
           "claim": "شیوه‌نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر بین‌المللی و داخلی در دانشگاه صنعت نفت",
@@ -884,25 +906,25 @@
       "sourceCount": 4,
       "sources": [
         {
-          "url": "https://www.put.ac.ir/fa-IR/PUT/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
           "url": "https://www.put.ac.ir/fa-IR/put/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific laboratories source",
           "id": null
         },
         {
-          "url": "https://roshd.put.ac.ir/fa-IR/PUT/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
+          "url": "https://www.put.ac.ir/fa-IR/PUT/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific laboratories source",
           "id": null
         },
         {
           "url": "https://roshd.put.ac.ir/fa-IR/put/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
+        },
+        {
+          "url": "https://roshd.put.ac.ir/fa-IR/PUT/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific laboratories source",
           "id": null
@@ -933,9 +955,12 @@
         },
         {
           "url": "https://roshd.put.ac.ir/fa-IR/PUT/5531/auth/accessDenied",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
+          "kind": "unit",
+          "claim": "مركز رشد دانشگاه صنعت نفت",
+          "id": "petroleum-discovery-unit-industry-8d12ce9a1205",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         },
         {
           "url": "https://www.put.ac.ir/fa-IR/put/4793/page/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A",
@@ -959,14 +984,14 @@
           "sourceLabel": "فناوری اطلاعات — کشف خودکار"
         },
         {
-          "url": "https://roshd.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "url": "https://roshd.put.ac.ir/fa-IR/put/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
           "kind": "research-review-specific",
           "claim": "فناوری اطلاعات — کشف خودکار",
           "id": null,
           "sourceLabel": "فناوری اطلاعات — کشف خودکار"
         },
         {
-          "url": "https://roshd.put.ac.ir/fa-IR/put/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "url": "https://roshd.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
           "kind": "research-review-specific",
           "claim": "فناوری اطلاعات — کشف خودکار",
           "id": null,
@@ -1058,7 +1083,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 78,
+      "sourceCount": 75,
       "sources": [
         {
           "url": "https://www.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
@@ -1073,13 +1098,13 @@
           "id": null
         },
         {
-          "url": "https://roshd.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "url": "https://roshd.put.ac.ir/fa-IR/put/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific informationTechnology source",
           "id": null
         },
         {
-          "url": "https://roshd.put.ac.ir/fa-IR/put/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "url": "https://roshd.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific informationTechnology source",
           "id": null
@@ -1098,30 +1123,6 @@
           "claim": "ساختار معاونت 1",
           "id": null,
           "sourceLabel": "ساختار معاونت 1",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://www.put.ac.ir/fa-IR/put/7448/page/%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://www.put.ac.ir/fa-IR/PUT/7448/page/%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://roshd.put.ac.ir/fa-IR/PUT/7448/page/%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
           "sourceSpecificity": "university-reference"
         },
         {
@@ -1157,14 +1158,6 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://www.put.ac.ir/fa-IR/PUT/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
           "url": "https://www.put.ac.ir/fa-IR/put/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
           "kind": "research-review-reference",
           "claim": "آزمایشگاه‌ها — کشف خودکار",
@@ -1173,7 +1166,7 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://roshd.put.ac.ir/fa-IR/PUT/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
+          "url": "https://www.put.ac.ir/fa-IR/PUT/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
           "kind": "research-review-reference",
           "claim": "آزمایشگاه‌ها — کشف خودکار",
           "id": null,
@@ -1182,6 +1175,14 @@
         },
         {
           "url": "https://roshd.put.ac.ir/fa-IR/put/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "آزمایشگاه‌ها — کشف خودکار",
+          "id": null,
+          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://roshd.put.ac.ir/fa-IR/PUT/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
           "kind": "research-review-reference",
           "claim": "آزمایشگاه‌ها — کشف خودکار",
           "id": null,
@@ -1205,6 +1206,14 @@
           "sourceSpecificity": "university-reference"
         },
         {
+          "url": "https://roshd.put.ac.ir/fa-IR/put/7452/page/%D9%85%D8%B1%DA%A9%D8%B2-%D8%B9%D9%84%D9%85-%D8%B3%D9%86%D8%AC%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
           "url": "https://roshd.put.ac.ir/fa-IR/PUT/7452/page/%D9%85%D8%B1%DA%A9%D8%B2-%D8%B9%D9%84%D9%85-%D8%B3%D9%86%D8%AC%DB%8C",
           "kind": "research-review-reference",
           "claim": "سامانه‌ها و خدمات — کشف خودکار",
@@ -1213,7 +1222,7 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://roshd.put.ac.ir/fa-IR/put/7452/page/%D9%85%D8%B1%DA%A9%D8%B2-%D8%B9%D9%84%D9%85-%D8%B3%D9%86%D8%AC%DB%8C",
+          "url": "https://www.put.ac.ir/fa-IR/put/7460/page/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
           "kind": "research-review-reference",
           "claim": "سامانه‌ها و خدمات — کشف خودکار",
           "id": null,
@@ -1229,7 +1238,7 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://www.put.ac.ir/fa-IR/put/6322/page/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "url": "https://roshd.put.ac.ir/fa-IR/put/7460/page/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
           "kind": "research-review-reference",
           "claim": "سامانه‌ها و خدمات — کشف خودکار",
           "id": null,
@@ -1253,14 +1262,6 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://roshd.put.ac.ir/fa-IR/put/7460/page/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
           "url": "https://scimet.put.ac.ir/",
           "kind": "research-review-reference",
           "claim": "سامانه‌ها و خدمات — کشف خودکار",
@@ -1269,7 +1270,7 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+          "url": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
           "kind": "research-review-reference",
           "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
@@ -1277,7 +1278,7 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://roshd.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+          "url": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
           "kind": "research-review-reference",
           "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
@@ -1293,15 +1294,15 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://www.put.ac.ir/fa-IR/put/1/page/%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA-%D9%86%D9%81%D8%AA",
+          "url": "https://roshd.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
           "kind": "research-review-reference",
-          "claim": "صنعت و فناوری — کشف خودکار",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "صنعت و فناوری — کشف خودکار",
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://roshd.put.ac.ir/fa-IR/PUT/5531/auth/accessDenied",
+          "url": "https://www.put.ac.ir/fa-IR/put/1/page/%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA-%D9%86%D9%81%D8%AA",
           "kind": "research-review-reference",
           "claim": "صنعت و فناوری — کشف خودکار",
           "id": null,
@@ -1692,7 +1693,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 18,
+      "sourceCount": 19,
       "sources": [
         {
           "url": "https://www.put.ac.ir/fa-IR/put/6663/page/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
@@ -1725,13 +1726,19 @@
           "id": null
         },
         {
+          "url": "https://roshd.put.ac.ir/fa-IR/put/7452/page/%D9%85%D8%B1%DA%A9%D8%B2-%D8%B9%D9%84%D9%85-%D8%B3%D9%86%D8%AC%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
           "url": "https://roshd.put.ac.ir/fa-IR/PUT/7452/page/%D9%85%D8%B1%DA%A9%D8%B2-%D8%B9%D9%84%D9%85-%D8%B3%D9%86%D8%AC%DB%8C",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
         },
         {
-          "url": "https://roshd.put.ac.ir/fa-IR/put/7452/page/%D9%85%D8%B1%DA%A9%D8%B2-%D8%B9%D9%84%D9%85-%D8%B3%D9%86%D8%AC%DB%8C",
+          "url": "https://www.put.ac.ir/fa-IR/put/7460/page/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
@@ -1743,7 +1750,7 @@
           "id": null
         },
         {
-          "url": "https://www.put.ac.ir/fa-IR/put/6322/page/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "url": "https://roshd.put.ac.ir/fa-IR/put/7460/page/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
@@ -1756,12 +1763,6 @@
         },
         {
           "url": "https://roshd.put.ac.ir/fa-IR/PUT/6322/page/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://roshd.put.ac.ir/fa-IR/put/7460/page/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
@@ -1799,6 +1800,13 @@
           "claim": "مرکز علم سنجی",
           "id": "petroleum-discovery-system-e1b4ff838b05",
           "systemCategory": "research"
+        },
+        {
+          "url": "https://www.put.ac.ir/fa-IR/put/7448/page/%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "system",
+          "claim": "نشریات",
+          "id": "petroleum-discovery-system-70b390465560",
+          "systemCategory": "journals"
         },
         {
           "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D9%85%D9%86%D8%AA%D8%B4%D8%B1%20%D8%B4%D8%AF%D9%87%20%D8%AF%D8%B1%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%20%D8%A8%DB%8C%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C%20%D9%88%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C%20%D8%AF%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B5%D9%86%D8%B9%D8%AA%20%D9%86%D9%81%D8%AA_20171120_120136.pdf",
@@ -2130,14 +2138,14 @@
       "dataQuality": 100,
       "findability": 75
     },
-    "units": 13,
-    "systems": 13,
+    "units": 14,
+    "systems": 14,
     "documents": 46,
     "activeWeight": 100,
     "evidenceCoverage": 100,
     "methodologyVersion": "RTPMI-4.1-ISC",
     "snapshotDate": "2026-08-11",
-    "rank": 35,
+    "rank": 37,
     "portalRankWithinISCClass": 3,
     "rankedPortalsInISCClass": 4
   },
@@ -2292,6 +2300,17 @@
       "sourceUrl": "https://roshd.put.ac.ir/fa-IR/PUT/5531/auth/accessDenied",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8957894736842105
+    },
+    {
+      "id": "petroleum-discovery-unit-library-69937ba08cd6",
+      "universitySlug": "petroleum",
+      "nameFa": "انتشارات",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "sourceUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
     }
   ],
   "systems": [
@@ -2463,6 +2482,19 @@
       "lastVerified": "2026-08-11",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "petroleum-discovery-system-70b390465560",
+      "universitySlug": "petroleum",
+      "nameFa": "نشریات",
+      "category": "journals",
+      "url": "https://www.put.ac.ir/fa-IR/put/7460/page/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
+      "sourceUrl": "https://www.put.ac.ir/fa-IR/put/7448/page/%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
     }
   ],
   "documents": [
@@ -3192,7 +3224,7 @@
       "lastVerified": "2026-08-11",
       "url": "http://dreamtone.ir/research/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7.pdf",
       "sourceUrl": "http://dreamtone.ir/research/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7.pdf",
-      "parentUrl": "https://www.put.ac.ir/fa-IR/PUT/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
+      "parentUrl": "https://www.put.ac.ir/fa-IR/put/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
       "sha256": "a14cc4b66e33d6579c8de947ef67168fe45db48d55aa27b1f5ac924f68c80c34",
       "fileName": "آزمایشگاهها.pdf",
       "contentType": "application/pdf",
@@ -3213,7 +3245,7 @@
       "lastVerified": "2026-08-11",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA%20%D8%A7%D8%AB%D8%B1.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA%20%D8%A7%D8%AB%D8%B1.docx",
-      "parentUrl": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "sha256": "957db264f6f515fd1249efdd0a77894986545915e8e8287569d35defb295dbaf",
       "fileName": "فرم مشخصات اثر.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -3234,7 +3266,7 @@
       "lastVerified": "2026-08-11",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B9%D9%84%D8%A7%D9%85%20%D9%88%D8%B5%D9%88%D9%84%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B9%D9%84%D8%A7%D9%85%20%D9%88%D8%B5%D9%88%D9%84%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
-      "parentUrl": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "sha256": "e5808577032f70a31a674facb742f2866e3e2b42f86104dcf8e2a08f041dccdd",
       "fileName": "فرم اعلام وصول کتاب.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -3255,7 +3287,7 @@
       "lastVerified": "2026-08-11",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B1%D8%B3%D8%A7%D9%84%20%DA%A9%D8%AA%D8%A7%D8%A8%20%D9%88%20%D8%AA%D8%B9%D9%87%D8%AF%D9%86%D8%A7%D9%85%D9%87.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B1%D8%B3%D8%A7%D9%84%20%DA%A9%D8%AA%D8%A7%D8%A8%20%D9%88%20%D8%AA%D8%B9%D9%87%D8%AF%D9%86%D8%A7%D9%85%D9%87.docx",
-      "parentUrl": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "sha256": "85fc4b368a290c0a85af0d37191aa076cca15dae6b72a532915222261400ca8d",
       "fileName": "فرم ارسال کتاب و تعهدنامه.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -3276,7 +3308,7 @@
       "lastVerified": "2026-08-11",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B5%D8%A7%D9%84%D8%AA%20%D8%AA%D8%B1%D8%AC%D9%85%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B5%D8%A7%D9%84%D8%AA%20%D8%AA%D8%B1%D8%AC%D9%85%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
-      "parentUrl": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "sha256": "70fa5c9290ca392ccd50f66fd3288ccdba64b37d8f89a3d3b787ca4e3b1585b3",
       "fileName": "فرم اصالت ترجمه کتاب.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -3297,7 +3329,7 @@
       "lastVerified": "2026-08-11",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D9%84%D8%A7%DB%8C%D9%84%20%D8%AA%D9%88%D8%AC%DB%8C%D9%87%DB%8C%20%D8%AA%D8%B1%D8%AC%D9%85%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D9%84%D8%A7%DB%8C%D9%84%20%D8%AA%D9%88%D8%AC%DB%8C%D9%87%DB%8C%20%D8%AA%D8%B1%D8%AC%D9%85%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
-      "parentUrl": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "sha256": "3b5167a2cf51585483900920df72fd70cdd3e69038be0c1ff942530941f212bb",
       "fileName": "فرم پرسشنامه دلایل توجیهی ترجمه کتاب.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -3318,7 +3350,7 @@
       "lastVerified": "2026-08-11",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%20%D9%85%D8%B1%D8%A8%D9%88%D8%B7%20%D8%A8%D9%87%20%D8%AA%D8%AD%D9%88%DB%8C%D9%84%20%D8%A2%D8%AB%D8%A7%D8%B1%20%D8%A8%D9%87%20%D9%85%D8%B1%DA%A9%D8%B2%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%20%D9%85%D8%B1%D8%A8%D9%88%D8%B7%20%D8%A8%D9%87%20%D8%AA%D8%AD%D9%88%DB%8C%D9%84%20%D8%A2%D8%AB%D8%A7%D8%B1%20%D8%A8%D9%87%20%D9%85%D8%B1%DA%A9%D8%B2%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA.docx",
-      "parentUrl": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "sha256": "50a020bf4d4338c8338fe28e7cb8d4dc70eb3d0ef2870910ff591a08610cf47b",
       "fileName": "فرم اطلاعات مربوط به تحویل آثار به مرکز انتشارات.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -3339,7 +3371,7 @@
       "lastVerified": "2026-08-11",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%AB%D8%A8%D8%AA%20%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA%20_%DA%A9%D8%A7%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D8%B9%D9%84%D9%85%DB%8C_%20%D8%B5%D8%A7%D8%AD%D8%A8%20%D8%A7%D8%AB%D8%B1.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%AB%D8%A8%D8%AA%20%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA%20_%DA%A9%D8%A7%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D8%B9%D9%84%D9%85%DB%8C_%20%D8%B5%D8%A7%D8%AD%D8%A8%20%D8%A7%D8%AB%D8%B1.docx",
-      "parentUrl": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "sha256": "f9f42e6bca853c678f7de0a7facd604688cf851f6c7ad96a760162709d267d44",
       "fileName": "فرم ثبت مشخصات _کارنامه علمی_ صاحب اثر.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -3360,7 +3392,7 @@
       "lastVerified": "2026-08-11",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%20%DA%86%D8%A7%D9%BE%20%DA%A9%D8%AA%D8%A7%D8%A8%20%D8%AF%D8%B1%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA.doc",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%20%DA%86%D8%A7%D9%BE%20%DA%A9%D8%AA%D8%A7%D8%A8%20%D8%AF%D8%B1%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA.doc",
-      "parentUrl": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "sha256": "ab3938de9173691a84ddd12ac6338cc417db8e1c0003e9026860083b47c15ed7",
       "fileName": "فرم پیشنهاد چاپ کتاب در انتشارات.doc",
       "contentType": "application/msword",
@@ -3381,7 +3413,7 @@
       "lastVerified": "2026-08-11",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%B4%D8%A7%D8%A8%DA%A9.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%B4%D8%A7%D8%A8%DA%A9.docx",
-      "parentUrl": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "sha256": "f6686fb9b623cae1e46182c54ccdf13616325c305d48bd20b5d2d25d6b10458f",
       "fileName": "فرم درخواست شابک.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -3402,7 +3434,7 @@
       "lastVerified": "2026-08-11",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D9%81%DB%8C%D9%BE%D8%A7%20%D9%88%20%D9%85%D8%AC%D9%88%D8%B2%20%D8%A7%D8%B1%D8%B4%D8%A7%D8%AF.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D9%81%DB%8C%D9%BE%D8%A7%20%D9%88%20%D9%85%D8%AC%D9%88%D8%B2%20%D8%A7%D8%B1%D8%B4%D8%A7%D8%AF.docx",
-      "parentUrl": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "sha256": "12f2cc32e7d17b8a708d38ca97e2d333714fafd0afe2402fb6e94c7672d94bb5",
       "fileName": "فرم درخواست فیپا و مجوز ارشاد.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
@@ -3423,7 +3455,7 @@
       "lastVerified": "2026-08-11",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D9%84%D8%A7%DB%8C%D9%84%20%D8%AA%D9%88%D8%AC%DB%8C%D9%87%DB%8C%20%D8%AA%D8%A7%D9%84%DB%8C%D9%81%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D9%84%D8%A7%DB%8C%D9%84%20%D8%AA%D9%88%D8%AC%DB%8C%D9%87%DB%8C%20%D8%AA%D8%A7%D9%84%DB%8C%D9%81%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
-      "parentUrl": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "sha256": "8848e2b6510af5197bfc24f7d4fb45d09ad816d0cd7119182308f3b4e5c86a1b",
       "fileName": "فرم پرسشنامه دلایل توجیهی تالیف کتاب.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",

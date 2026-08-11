@@ -171,7 +171,7 @@
       "documentsRegulations": "verified"
     },
     "auditEvidenceCoverage": 88,
-    "unitsFound": 10,
+    "unitsFound": 11,
     "systemsFound": 3,
     "documentsFound": 58,
     "rankingEligibility": "candidate",
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 60,
+      "sourceCount": 61,
       "sources": [
         {
           "url": "https://research.sharif.ir/",
@@ -550,6 +550,12 @@
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
+        },
+        {
+          "url": "https://www.sharif.ir/web/research/management-of-relations-with-the-industry",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -567,7 +573,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 6,
+      "sourceCount": 7,
       "sources": [
         {
           "url": "https://research.sharif.ir/",
@@ -599,6 +605,15 @@
           "claim": "مدیریت امور پژوهشی - معاونت پژوهش و فناوری",
           "id": "sharif-discovery-unit-research-fadb96ab352f",
           "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.sharif.ir/web/research/management-of-relations-with-the-industry",
+          "kind": "unit",
+          "claim": "مدیریت ارتباط با صنعت - معاونت پژوهش و فناوری",
+          "id": "sharif-discovery-unit-industry-501fea061070",
+          "unitType": "industry",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
         },
@@ -687,7 +702,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 9,
+      "sourceCount": 10,
       "sources": [
         {
           "url": "https://research.sharif.ir/",
@@ -700,6 +715,15 @@
           "kind": "unit",
           "claim": "مدیریت ارتباط با صنعت - معاونت پژوهش و فناوری",
           "id": "sharif-discovery-unit-industry-16e939fb119b",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.sharif.ir/web/research/management-of-relations-with-the-industry",
+          "kind": "unit",
+          "claim": "مدیریت ارتباط با صنعت - معاونت پژوهش و فناوری",
+          "id": "sharif-discovery-unit-industry-501fea061070",
           "unitType": "industry",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
@@ -1183,14 +1207,14 @@
       "dataQuality": 100,
       "findability": 55
     },
-    "units": 10,
+    "units": 11,
     "systems": 3,
     "documents": 58,
     "activeWeight": 100,
     "evidenceCoverage": 88,
     "methodologyVersion": "RTPMI-4.1-ISC",
     "snapshotDate": "2026-08-11",
-    "rank": 29,
+    "rank": 30,
     "portalRankWithinISCClass": 8,
     "rankedPortalsInISCClass": 13
   },
@@ -1290,6 +1314,17 @@
       "sourceUrl": "https://www.sharif.ir/web/research/management-of-research-affairs",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "sharif-discovery-unit-industry-501fea061070",
+      "universitySlug": "sharif",
+      "nameFa": "مدیریت ارتباط با صنعت - معاونت پژوهش و فناوری",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "sourceUrl": "https://www.sharif.ir/web/research/management-of-relations-with-the-industry",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
     }
   ],
   "systems": [

@@ -85,7 +85,7 @@
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-11",
-      "promotedSources": 72,
+      "promotedSources": 71,
       "socialEvidenceRemoved": true
     }
   },
@@ -659,18 +659,12 @@
       "iscCategory": "جامع",
       "iscRank": 41,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-11",
       "sourceCount": 2,
       "sources": [
-        {
-          "url": "https://www.ubonab.ac.ir/Page/140/%D8%AB%D8%A8%D8%AA%E2%80%8C%D9%86%D8%A7%D9%85-%D8%AF%D8%B1-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%D9%86%D8%A7%D8%A8.html",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
         {
           "url": "https://research.ubonab.ac.ir/Library.html",
           "kind": "unit",
@@ -679,10 +673,19 @@
           "unitType": "library",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.ubonab.ac.ir/Page/140/%D8%AB%D8%A8%D8%AA%E2%80%8C%D9%86%D8%A7%D9%85-%D8%AF%D8%B1-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%D9%86%D8%A7%D8%A8.html",
+          "kind": "unit",
+          "claim": "ثبت‌نام در کارگاه‌های آموزشی کتابخانه مرکزی دانشگاه بناب - دانشگاه بناب",
+          "id": "bonab-discovery-unit-library-aeb2cc419aa8",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -818,7 +821,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 60,
+      "sourceCount": 61,
       "sources": [
         {
           "url": "https://edu.ubonab.ac.ir/graduate-regulations.html",
@@ -846,6 +849,12 @@
         },
         {
           "url": "https://edu.ubonab.ac.ir/Page/60/%D9%81%D8%B1%D9%85-%D9%87%D8%A7.html",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://ad.ubonab.ac.ir/Page/8/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C.html",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -914,6 +923,12 @@
           "url": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=20bfce6f-8b09-4a63-8e41-1146341c8244&FileName=%DA%AF%D8%B1%D9%86%D8%AA%20%D9%86%D9%88%D8%B9%201.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "دستورالعمل تخصیص و هزینه کرد پژوهانه (گرنت نوع 1)-(مصوب سال 1405)",
+          "id": null
+        },
+        {
+          "url": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9fc9131b-7fdd-4cfa-9a65-b18ad01f6e36&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%BE%D8%A7%D8%AF%D8%A7%D8%B4%20%D9%85%D9%82%D8%A7%D9%84%D9%87%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%A7%D9%85%D9%86%D8%A7.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل تخصیص پژوهانه تشویقی (گرنت نوع 2) مقالات معتبر علمی - مصوب هیات امنا (1404)",
           "id": null
         },
         {
@@ -1151,12 +1166,6 @@
           "id": null
         },
         {
-          "url": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9fc9131b-7fdd-4cfa-9a65-b18ad01f6e36&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%BE%D8%A7%D8%AF%D8%A7%D8%B4%20%D9%85%D9%82%D8%A7%D9%84%D9%87%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%A7%D9%85%D9%86%D8%A7.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل تخصیص پژوهانه تشویقی (گرنت نوع 2) مقالات معتبر علمی - مصوب هیات امنا (1404)",
-          "id": null
-        },
-        {
           "url": "https://edu.ubonab.ac.ir/Uploads/User/116/education/Informatics/regulations/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%DB%8C%DA%A9%D9%BE%D8%A7%D8%B1%DA%86%D9%87.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%DB%8C%DA%A9%D9%BE%D8%A7%D8%B1%DA%86%D9%87.pdf",
@@ -1250,7 +1259,7 @@
       "url": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6b2c0a74-2905-491e-9da6-a8dbadfc90d7&FileName=%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%D9%86%D8%A7%D9%86.pdf",
       "sourceUrl": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6b2c0a74-2905-491e-9da6-a8dbadfc90d7&FileName=%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%D9%86%D8%A7%D9%86.pdf",
       "parentUrl": "https://rtims.ubonab.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "f162100e9fdca8e0169429023e6ffdeee8b4bb3a6a17a53d2e46a2a247a25f46",
+      "sha256": "3ff63005f0e082fcbb72177fd6a977ee51156bb1a9fddc6effed24a2945da392",
       "fileName": "Ø³Ø§ÙØ§ÙÙ ÙØ§Ù.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 101394,
@@ -1271,7 +1280,7 @@
       "url": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=01655cd7-98cf-495e-bb99-9368b7d28c96&FileName=Ertega-Shiveh.pdf",
       "sourceUrl": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=01655cd7-98cf-495e-bb99-9368b7d28c96&FileName=Ertega-Shiveh.pdf",
       "parentUrl": "https://rtims.ubonab.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "d778f9f561349f43c39937feb7a4dd31554788c8ce872277902b6a6a36604410",
+      "sha256": "befb49a9df0fdb4996c1a0064a13e907b0f2ab573b1cffaa5c8ed661eda53cb0",
       "fileName": "Ertega-Shiveh.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 558340,
@@ -1292,7 +1301,7 @@
       "url": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a91fc72f-a04b-434d-b380-ea3aaaf0b4a4&FileName=%D8%B4%D9%8A%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A%20%D8%AD%D9%85%D8%A7%D9%8A%D8%AA%20%D8%A7%D8%B2%20%D8%B1%D8%B3.docx",
       "sourceUrl": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a91fc72f-a04b-434d-b380-ea3aaaf0b4a4&FileName=%D8%B4%D9%8A%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A%20%D8%AD%D9%85%D8%A7%D9%8A%D8%AA%20%D8%A7%D8%B2%20%D8%B1%D8%B3.docx",
       "parentUrl": "https://rtims.ubonab.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "4dbded5ac66eb77d92965e591001dc6f099d429ecb380d92571b39db96d81130",
+      "sha256": "ead415bf50b3d0da9ddf0232af397b88a1cff6645a3dd34c72f4984b4748b2c1",
       "fileName": "Ø´ÙÙÙ_ÙØ§ÙÙ Ø§Ø¬Ø±Ø§ÙÙ Ø­ÙØ§ÙØª Ø§Ø² Ø±Ø³.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; charset=utf-8",
       "fileSize": 26247,
@@ -1313,7 +1322,7 @@
       "url": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=26d9b1e7-dafd-4c5d-a40d-81be0c70cce3&FileName=ForsatShiveh.doc.doc",
       "sourceUrl": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=26d9b1e7-dafd-4c5d-a40d-81be0c70cce3&FileName=ForsatShiveh.doc.doc",
       "parentUrl": "https://rtims.ubonab.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "84d2cbc50e6de753defdc43f60dd40e50203187940cc31abf5f8d290ca183cd7",
+      "sha256": "9c24722b09aa796205b78c6a223a15ff1c1cb690b813f9daada35748cd90113d",
       "fileName": "ForsatShiveh.doc.doc",
       "contentType": "application/octet-stream; charset=utf-8",
       "fileSize": 1774253,
@@ -1334,7 +1343,7 @@
       "url": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=662e6171-43ee-4bf6-b183-4ed561d35980&FileName=ForsatShiveh@sanat.pdf.pdf",
       "sourceUrl": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=662e6171-43ee-4bf6-b183-4ed561d35980&FileName=ForsatShiveh@sanat.pdf.pdf",
       "parentUrl": "https://rtims.ubonab.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "15c53ec6c3e4e5cf21fe0411d854129484cc255fe50b846100c60ad64f2b2572",
+      "sha256": "0dfc6947c3f2682e1f0eac5a855636ba5f24545b56a4a1395da5d7a64d823e86",
       "fileName": "ForsatShiveh@sanat.pdf.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 1180442,
@@ -1355,7 +1364,7 @@
       "url": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=20bfce6f-8b09-4a63-8e41-1146341c8244&FileName=%DA%AF%D8%B1%D9%86%D8%AA%20%D9%86%D9%88%D8%B9%201.pdf",
       "sourceUrl": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=20bfce6f-8b09-4a63-8e41-1146341c8244&FileName=%DA%AF%D8%B1%D9%86%D8%AA%20%D9%86%D9%88%D8%B9%201.pdf",
       "parentUrl": "https://rtims.ubonab.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "16aa141da2b84e62bc425af4adc4855fa03295c8f4ca91b24f5e108b10397b31",
+      "sha256": "d097a5cee995b2797fcb5ed791d052755180134d38141c14e0ecb76e120515bf",
       "fileName": "Ú¯Ø±ÙØª ÙÙØ¹ 1.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 1392874,
@@ -1376,7 +1385,7 @@
       "url": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=1324bf8c-24a9-4be3-ac3e-a20f988d3d6e&FileName=%DA%AF%D8%B1%D9%86%D8%AA%20%D9%86%D9%88%D8%B9%202.pdf",
       "sourceUrl": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=1324bf8c-24a9-4be3-ac3e-a20f988d3d6e&FileName=%DA%AF%D8%B1%D9%86%D8%AA%20%D9%86%D9%88%D8%B9%202.pdf",
       "parentUrl": "https://rtims.ubonab.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "05790915075c6b0f9141482a08c83984f4742fcef5685837bd648b9296195455",
+      "sha256": "2989fcafc7936858c36db8fcefc31ec5c807e80e6e3e7edb8ce0629fecb5dfb7",
       "fileName": "Ú¯Ø±ÙØª ÙÙØ¹ 2.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 771941,
@@ -1565,7 +1574,7 @@
       "url": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=db95dec6-e278-4097-8eee-c8abb7588ce0&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A8%D9%86%D8%AF%20%D8%A8%20%D9%85%D8%A7%D8%AF%D9%87%2011%20(1).pdf",
       "sourceUrl": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=db95dec6-e278-4097-8eee-c8abb7588ce0&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A8%D9%86%D8%AF%20%D8%A8%20%D9%85%D8%A7%D8%AF%D9%87%2011%20(1).pdf",
       "parentUrl": "https://rtims.ubonab.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "939a8dd61b1be95965cad6787e155e8e7bb4ed52ac76f430798a1aaeb7b81763",
+      "sha256": "e47e32b284131e23d2045ada6378c38d4dce6b067f6602660625c402e3ec01a3",
       "fileName": "Ø¢ÛÛÙ ÙØ§ÙÙ Ø¨ÙØ¯ Ø¨ ÙØ§Ø¯Ù 11 (1).pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 932640,
@@ -1586,7 +1595,7 @@
       "url": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=97cacae7-ace7-455c-9a3c-e57a9fe5524c&FileName=%D9%85%D8%A7%D8%AF%D9%87%2013%20-%20%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C%20%D8%A8%D8%A7%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20(1).pdf",
       "sourceUrl": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=97cacae7-ace7-455c-9a3c-e57a9fe5524c&FileName=%D9%85%D8%A7%D8%AF%D9%87%2013%20-%20%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C%20%D8%A8%D8%A7%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20(1).pdf",
       "parentUrl": "https://rtims.ubonab.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "e2e967b4b1ef97aabe4961a99f2f8d5d523bfcda61c388cbf92cd73f18fa20e8",
+      "sha256": "210fb95859b1555141b5f3822757f13a2d3b5e107c1d20ca3351224f4857a844",
       "fileName": "ÙØ§Ø¯Ù 13 - ÙÙÚ©Ø§Ø±Û Ø¨Ø§ Ø¯Ø§ÙØ´Ú¯Ø§Ù (1).pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 203356,
@@ -1607,7 +1616,7 @@
       "url": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=454af019-8ea5-479e-84d2-91ef70df152b&FileName=Forsat89.pdf.pdf",
       "sourceUrl": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=454af019-8ea5-479e-84d2-91ef70df152b&FileName=Forsat89.pdf.pdf",
       "parentUrl": "https://rtims.ubonab.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "bce2a27e6b78b11f2702561648e91297e3b5d4d8c5a32f33b32740ed4d08a55b",
+      "sha256": "e887dcf7ead65342fbbb961e7bad8a4268bd901258aecab9bbcb9a909c97949b",
       "fileName": "Forsat89.pdf.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 266659,
@@ -1628,7 +1637,7 @@
       "url": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=293836c7-647f-44e5-a527-f6e5813cdb94&FileName=Forsat90.doc.doc",
       "sourceUrl": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=293836c7-647f-44e5-a527-f6e5813cdb94&FileName=Forsat90.doc.doc",
       "parentUrl": "https://rtims.ubonab.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "ddca9b82135e546d01e20907189ffd41902bb1233f1f02725c2c1ce1075171a7",
+      "sha256": "e82206d629b19bbf5fe7fcc748439c54be1e0e124e6c0da88c5ff465ad8e3c03",
       "fileName": "Forsat90.doc.doc",
       "contentType": "application/octet-stream; charset=utf-8",
       "fileSize": 928937,
@@ -2191,7 +2200,12 @@
       "sourceUrl": "https://rtims.ubonab.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9fc9131b-7fdd-4cfa-9a65-b18ad01f6e36&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%BE%D8%A7%D8%AF%D8%A7%D8%B4%20%D9%85%D9%82%D8%A7%D9%84%D9%87%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%A7%D9%85%D9%86%D8%A7.pdf",
       "parentUrl": "https://rtims.ubonab.ac.ir/_Pages/Regulations/Default.aspx",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.85
+      "discoveryConfidence": 0.99,
+      "sha256": "88b8f4c6e8846824af7b2c06abe19f996ee7e1dbbeb058b544f4fb65acdb91ea",
+      "fileName": "Ø¯Ø³ØªÙØ±Ø§ÙØ¹ÙÙ Ù¾Ø§Ø¯Ø§Ø´ ÙÙØ§ÙÙ ÙÛØ§Øª Ø§ÙÙØ§.pdf",
+      "contentType": "application/pdf; charset=utf-8",
+      "fileSize": 7754050,
+      "archivePath": "bonab/5258309743f7-Ø¯Ø³ØªÙØ±Ø§ÙØ¹ÙÙ Ù¾Ø§Ø¯Ø§Ø´ ÙÙØ§ÙÙ ÙÛØ§Øª Ø§ÙÙØ§.pdf"
     },
     {
       "id": "bonab-discovery-document-6e51d4854070",

@@ -85,7 +85,7 @@
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-11",
-      "promotedSources": 61,
+      "promotedSources": 59,
       "socialEvidenceRemoved": true
     }
   },
@@ -173,7 +173,7 @@
     "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 58,
+    "documentsFound": 69,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 60,
+      "sourceCount": 71,
       "sources": [
         {
           "url": "https://research.kut.ac.ir/",
@@ -550,6 +550,83 @@
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aa9186d8-029e-4753-a9fe-a9b89e7b4169&FileName=%D9%85%D9%86%D8%B4%D9%88%D8%B1%20%D9%88%20%D9%85%D9%88%D8%A7%D8%B2%DB%8C%D9%86%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82%20%D9%BE%DA%98%D9%88%D9%87%D8%B4.pdf",
+          "kind": "research-review-specific",
+          "claim": "منشور و موازین اخلاق پژوهش",
+          "id": null,
+          "sourceLabel": "منشور و موازین اخلاق پژوهش"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=3c43a0ef-3492-48e5-babc-8a5f7821f3c5&FileName=%D9%88%D8%A7%D8%AD%D8%AF%20%D9%85%D9%88%D8%B8%D9%81%DB%8C.docx",
+          "kind": "research-review-specific",
+          "claim": "فرم واحد موظفی",
+          "id": null,
+          "sourceLabel": "فرم واحد موظفی"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6887f235-3281-43c6-b8bf-4d81e32124a7&FileName=209b_2.pdf",
+          "kind": "research-review-specific",
+          "claim": "فرم دریافت حق التحقیق طرح­های پژوهشی کاربردی مسأله محور(به سفارش دانشگاه)",
+          "id": null,
+          "sourceLabel": "فرم دریافت حق التحقیق طرح­های پژوهشی کاربردی مسأله محور(به سفارش دانشگاه)"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=b1019aac-cac4-44f4-a36d-4ea65a244d56&FileName=report.docx",
+          "kind": "research-review-specific",
+          "claim": "گزارش نهایی طرح پژوهشی",
+          "id": null,
+          "sourceLabel": "گزارش نهایی طرح پژوهشی"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dd9d3f8f-e683-4c1f-9398-7d41995e4245&FileName=209.pdf",
+          "kind": "research-review-specific",
+          "claim": "فرم دریافت حق التحقیق طرح­های پژوهشی متکی به اعتبار پژوهشی",
+          "id": null,
+          "sourceLabel": "فرم دریافت حق التحقیق طرح­های پژوهشی متکی به اعتبار پژوهشی"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6f3e415f-389e-42df-bb30-b0eb1265e335&FileName=%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%201405.docx",
+          "kind": "research-review-specific",
+          "claim": "پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)",
+          "id": null,
+          "sourceLabel": "پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6670f5a7-664d-44e9-809b-1a457b4eef9d&FileName=Proposal-1401.docx",
+          "kind": "research-review-specific",
+          "claim": "پروپوزال مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور",
+          "id": null,
+          "sourceLabel": "پروپوزال مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=99e5a4b4-ca37-4123-9399-29bd7c899258&FileName=%D8%AA%D8%B9%D9%87%D8%AF%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B9%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%DA%A9%D9%88%D8%AA%D8%A7%D9%87%20%D9%85%D8%AF%D8%AA.pdf",
+          "kind": "research-review-specific",
+          "claim": "فرم تعهدنامه اعزام به سفر علمی در قالب ماموریت پژوهشی",
+          "id": null,
+          "sourceLabel": "فرم تعهدنامه اعزام به سفر علمی در قالب ماموریت پژوهشی"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d8bfa1cb-d259-4314-a623-dd9c29ad6ca5&FileName=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%A7%D8%B9%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%DA%A9%D9%88%D8%AA%D8%A7%D9%87%20%D9%85%D8%AF%D8%AA.pdf",
+          "kind": "research-review-specific",
+          "claim": "راهنمای اعزام به مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور",
+          "id": null,
+          "sourceLabel": "راهنمای اعزام به مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e9bc2355-188d-4095-8248-c74fdcdde857&FileName=%D9%81%D8%B1%D9%85%20%D8%B4%D9%86%D8%A7%D8%B3%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%20%D8%A8%D8%B1%D8%AA%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C.pdf",
+          "kind": "research-review-specific",
+          "claim": "فرم شناسنامه فعالیتهای پژوهشی-پژوهشگر برتر دانشجویی",
+          "id": null,
+          "sourceLabel": "فرم شناسنامه فعالیتهای پژوهشی-پژوهشگر برتر دانشجویی"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=da393bdb-09d0-4a97-8ecc-7bde4b8427d2&FileName=avc_Promotion-Guide.rar",
+          "kind": "research-review-specific",
+          "claim": "راهنمای درخواست ترفیع پایه در سامانه ژیرو",
+          "id": null,
+          "sourceLabel": "راهنمای درخواست ترفیع پایه در سامانه ژیرو"
         }
       ],
       "publicationAdjustment": null,
@@ -567,7 +644,7 @@
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sources": [
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=21fc704c-c2a4-4c7c-b346-ec1ef03061d0&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%20%D8%AA%D8%B4%DA%A9%DB%8C%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
@@ -582,6 +659,20 @@
           "claim": "پروپوزال طرح پژوهشی در قالب واحد فناور",
           "id": null,
           "sourceLabel": "پروپوزال طرح پژوهشی در قالب واحد فناور"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=3c43a0ef-3492-48e5-babc-8a5f7821f3c5&FileName=%D9%88%D8%A7%D8%AD%D8%AF%20%D9%85%D9%88%D8%B8%D9%81%DB%8C.docx",
+          "kind": "research-review-specific",
+          "claim": "فرم واحد موظفی",
+          "id": null,
+          "sourceLabel": "فرم واحد موظفی"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6f3e415f-389e-42df-bb30-b0eb1265e335&FileName=%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%201405.docx",
+          "kind": "research-review-specific",
+          "claim": "پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)",
+          "id": null,
+          "sourceLabel": "پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)"
         }
       ],
       "publicationAdjustment": null,
@@ -677,11 +768,11 @@
           "sourceLabel": "دستورالعمل اجرایی اعطای پژوهانه علمی، آموزشی، پژوهشی، فناوری، نوآوری، مهارتی، هنری، ورزشی و فرهنگی (جامع) به اعضای هیئت علمی"
         },
         {
-          "url": "https://kut.ac.ir/wp-content/uploads/2025/10/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%D8%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C.pdf",
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6f3e415f-389e-42df-bb30-b0eb1265e335&FileName=%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%201405.docx",
           "kind": "research-review-specific",
-          "claim": "شیوه نامه دستیار آموزشی، پژوهشی و فناوری",
+          "claim": "پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)",
           "id": null,
-          "sourceLabel": "شیوه نامه دستیار آموزشی، پژوهشی و فناوری"
+          "sourceLabel": "پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)"
         }
       ],
       "publicationAdjustment": null,
@@ -733,11 +824,11 @@
           "sourceLabel": "آیین نامه نشریات علمی"
         },
         {
-          "url": "https://kut.ac.ir/wp-content/uploads/2025/10/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%AC%D8%A7%D9%85%D8%B9-%D8%A7%DB%8C%D9%81%D8%A7%DB%8C-%D8%AA%D8%B9%D9%87%D8%AF-%D8%AE%D8%AF%D9%85%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86.pdf",
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=da393bdb-09d0-4a97-8ecc-7bde4b8427d2&FileName=avc_Promotion-Guide.rar",
           "kind": "research-review-specific",
-          "claim": "دستورالعمل جامع ایفای تعهد خدمت آموزش رایگان",
+          "claim": "راهنمای درخواست ترفیع پایه در سامانه ژیرو",
           "id": null,
-          "sourceLabel": "دستورالعمل جامع ایفای تعهد خدمت آموزش رایگان"
+          "sourceLabel": "راهنمای درخواست ترفیع پایه در سامانه ژیرو"
         }
       ],
       "publicationAdjustment": null,
@@ -755,22 +846,10 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 60,
+      "sourceCount": 69,
       "sources": [
         {
           "url": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://kut.ac.ir/%d9%85%d9%82%d8%b1%d8%b1%d8%a7%d8%aa-%d9%88-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://kut.ac.ir/%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3%db%8c/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -1052,70 +1131,136 @@
           "id": null
         },
         {
-          "url": "https://kut.ac.ir/wp-content/uploads/2025/10/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87_%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C.pdf",
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aa9186d8-029e-4753-a9fe-a9b89e7b4169&FileName=%D9%85%D9%86%D8%B4%D9%88%D8%B1%20%D9%88%20%D9%85%D9%88%D8%A7%D8%B2%DB%8C%D9%86%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82%20%D9%BE%DA%98%D9%88%D9%87%D8%B4.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه_ی آموزش",
+          "claim": "منشور و موازین اخلاق پژوهش",
           "id": null
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=3c43a0ef-3492-48e5-babc-8a5f7821f3c5&FileName=%D9%88%D8%A7%D8%AD%D8%AF%20%D9%85%D9%88%D8%B8%D9%81%DB%8C.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم واحد موظفی",
+          "id": null
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6887f235-3281-43c6-b8bf-4d81e32124a7&FileName=209b_2.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم دریافت حق التحقیق طرح­های پژوهشی کاربردی مسأله محور(به سفارش دانشگاه)",
+          "id": null
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=b1019aac-cac4-44f4-a36d-4ea65a244d56&FileName=report.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "گزارش نهایی طرح پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dd9d3f8f-e683-4c1f-9398-7d41995e4245&FileName=209.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم دریافت حق التحقیق طرح­های پژوهشی متکی به اعتبار پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6f3e415f-389e-42df-bb30-b0eb1265e335&FileName=%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%201405.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)",
+          "id": null
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6670f5a7-664d-44e9-809b-1a457b4eef9d&FileName=Proposal-1401.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "پروپوزال مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور",
+          "id": null
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=99e5a4b4-ca37-4123-9399-29bd7c899258&FileName=%D8%AA%D8%B9%D9%87%D8%AF%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B9%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%DA%A9%D9%88%D8%AA%D8%A7%D9%87%20%D9%85%D8%AF%D8%AA.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم تعهدنامه اعزام به سفر علمی در قالب ماموریت پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d8bfa1cb-d259-4314-a623-dd9c29ad6ca5&FileName=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%A7%D8%B9%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%DA%A9%D9%88%D8%AA%D8%A7%D9%87%20%D9%85%D8%AF%D8%AA.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "راهنمای اعزام به مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور",
+          "id": null
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e9bc2355-188d-4095-8248-c74fdcdde857&FileName=%D9%81%D8%B1%D9%85%20%D8%B4%D9%86%D8%A7%D8%B3%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%20%D8%A8%D8%B1%D8%AA%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم شناسنامه فعالیتهای پژوهشی-پژوهشگر برتر دانشجویی",
+          "id": null
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=da393bdb-09d0-4a97-8ecc-7bde4b8427d2&FileName=avc_Promotion-Guide.rar",
+          "kind": "portal-document-reaudit-document",
+          "claim": "راهنمای درخواست ترفیع پایه در سامانه ژیرو",
+          "id": null
+        },
+        {
+          "url": "https://kut.ac.ir/wp-content/uploads/2025/10/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87_%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C.pdf",
+          "kind": "document",
+          "claim": "آیین نامه_ی آموزش",
+          "id": "kermanshah-technology-discovery-document-27f0a41d5c12"
         },
         {
           "url": "https://kut.ac.ir/wp-content/uploads/2025/10/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%B4%D9%88%D8%B1%D8%A7%DB%8C-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D9%85%D9%88%D8%A7%D8%B1%D8%AF-%D8%AE%D8%A7%D8%B5.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "آیین نامه جدید شورای بررسی موارد خاص",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-bc1926edc667"
         },
         {
           "url": "https://kut.ac.ir/wp-content/uploads/2025/10/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%A7%D9%85%D8%B9-%D9%85%DB%8C%D9%87%D9%85%D8%A7%D9%86%DB%8C-%D9%88-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "آیین نامه جامع میهمانی و انتقال",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-1d9315a8501b"
         },
         {
           "url": "https://kut.ac.ir/wp-content/uploads/2025/10/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%D8%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "شیوه نامه دستیار آموزشی، پژوهشی و فناوری",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-e5bbbfddfe4f"
         },
         {
           "url": "https://kut.ac.ir/wp-content/uploads/2025/10/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "مقررات-آموزشی",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-adb8927c56a5"
         },
         {
           "url": "https://kut.ac.ir/wp-content/uploads/2025/10/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%AC%D8%A7%D9%85%D8%B9-%D9%85%D8%B9%D8%A7%D9%81%DB%8C%D8%AA-%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "دستورالعمل جامع معافیت تحصیلی",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-4602c1462c80"
         },
         {
           "url": "https://kut.ac.ir/wp-content/uploads/2025/10/%D8%B6%D9%88%D8%A7%D8%A8%D8%B7-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%87%D8%A7%DB%8C-%D8%AD%D8%B0%D9%81-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "ضوابط بررسی درخواست های حذف پزشکی دانشجویان",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-9c9174d5529d"
         },
         {
           "url": "https://kut.ac.ir/wp-content/uploads/2025/10/%D8%B6%D9%88%D8%A7%D8%A8%D8%B7-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86-%D9%85%D9%85%D8%AA%D8%A7%D8%B2-%D9%88-%D8%AD%D8%A7%D8%A6%D8%B2-%D8%B1%D8%AA%D8%A8%D9%87-%D8%A8%D8%B1%D8%AA%D8%B1-%D8%AF%D8%B1-%D9%85%D9%82%D8%B7%D8%B9-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "ضوابط تعیین دانشجویان ممتاز و حائز رتبه برتر در مقطع کارشناسی",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-ed283704ec74"
         },
         {
           "url": "https://kut.ac.ir/wp-content/uploads/2025/10/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%AC%D8%A7%D9%85%D8%B9-%D8%A7%DB%8C%D9%81%D8%A7%DB%8C-%D8%AA%D8%B9%D9%87%D8%AF-%D8%AE%D8%AF%D9%85%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "دستورالعمل جامع ایفای تعهد خدمت آموزش رایگان",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-5fe88333854c"
         },
         {
           "url": "https://kut.ac.ir/wp-content/uploads/2025/11/%D9%81%D8%B1%D9%85-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%AA%D9%88%D8%A3%D9%85-%D8%A8%D8%A7-%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1-%D8%B1%D8%B4%D8%AA%D9%87.docx",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم جدید انتقال توأم با تغییر رشته",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-4ca2a1ad4fa5"
         },
         {
           "url": "https://kut.ac.ir/wp-content/uploads/2025/11/takDars.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم حذف اضطراری (تک درس)",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-4e2fe5d3cb64"
         }
       ],
       "publicationAdjustment": null,
@@ -1153,7 +1298,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6caca31e-fbcd-4b47-bac5-f8ef51a9ce20&FileName=%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA%20%D8%AB%D8%A8%D8%AA%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7.docx",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6caca31e-fbcd-4b47-bac5-f8ef51a9ce20&FileName=%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA%20%D8%AB%D8%A8%D8%AA%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7.docx",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "9b38fbcbd17363f6bfab96a99e48fd8f40c388def968302166cb92df02c88ff7",
+      "sha256": "3811daa9889a43cad63b0ecc5a9087d3cd67cabf8ec024315008285edd0b5f4a",
       "fileName": "ÙØ§ÙÙ ØªØºÛÛØ±Ø§Øª Ø«Ø¨Øª Ù¾Ø§ÛØ§Ù ÙØ§ÙÙ ÙØ§.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; charset=utf-8",
       "fileSize": 493501,
@@ -1174,7 +1319,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=cfadf869-b804-4a7d-9613-ea5d4651f564&FileName=%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%20%D9%88%20%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%B9%D8%AA%D9%81.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=cfadf869-b804-4a7d-9613-ea5d4651f564&FileName=%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%20%D9%88%20%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%B9%D8%AA%D9%81.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "3e22ae5832081acb344371ff51be33de9d47673135ab23de1fdf06bcf1889ff5",
+      "sha256": "ca7842b4b6c4f8cfb678344be2d8360fe827ad038782dc97f22a476541285329",
       "fileName": "ÙØ¬ÙÙØ¹Ù Ø¢ÛÛÙ ÙØ§ÙÙ ÙØ§ Ù Ø´ÛÙÙ ÙØ§ÙÙ ÙØ§Û Ø¹ØªÙ.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 4485948,
@@ -1195,7 +1340,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=0b7aec3f-fe56-4683-9ab2-4f3592f7378c&FileName=New%20colleague.docx",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=0b7aec3f-fe56-4683-9ab2-4f3592f7378c&FileName=New%20colleague.docx",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "c1b751837a25ede2c0067d52587ca75a1758297dd948bc5764a392b45b0f1e2f",
+      "sha256": "238f9b16cab9fb4ddb3d3e925b8a215233d8295c512cc47ffbbbca634fa5e46b",
       "fileName": "New colleague.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; charset=utf-8",
       "fileSize": 59123,
@@ -1216,7 +1361,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=11a891c9-9b95-42cf-b8e4-6f7e3044ca27&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%20%D8%A7%D9%86%D8%AC%D8%A7%D9%85%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%20%DA%A9%D8%B4%D9%88%D8%B1%20%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7%20%D9%88%20%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%B9%D8%A7%D9%84%DB%8C%20%D9%88%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=11a891c9-9b95-42cf-b8e4-6f7e3044ca27&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%20%D8%A7%D9%86%D8%AC%D8%A7%D9%85%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%20%DA%A9%D8%B4%D9%88%D8%B1%20%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7%20%D9%88%20%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%B9%D8%A7%D9%84%DB%8C%20%D9%88%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "172d50d912b0a56b60bddd6acdc6502fd84db1e7a8267b495020b80e5b773b18",
+      "sha256": "cb546a88e5cb71197185c17231c36b48522e945d11a5fe35e61f640556db3222",
       "fileName": "Ø´ÛÙÙ ÙØ§ÙÙ Ø­ÙØ§ÛØª Ø§Ø² Ø§ÙØ¬Ø§Ù ÙØ±ØµØª ÙØ·Ø§ÙØ¹Ø§ØªÛ Ø¯Ø§Ø®Ù Ú©Ø´ÙØ± Ø§Ø¹Ø¶Ø§Ø¡ ÙÛØ§Øª Ø¹ÙÙÛ Ø¯Ø§ÙØ´Ú¯Ø§ÙÙØ§ Ù ",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 1660963,
@@ -1237,7 +1382,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=cb268e0a-2139-4f72-afdd-c027dfa37343&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=cb268e0a-2139-4f72-afdd-c027dfa37343&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "3de1a894aa35f09c73b682af2f0ffa30ad44245b3657b126da5ad26d3721ce15",
+      "sha256": "412e98537427e4bc0379051ff133a0675ffb05e82c9f3ee364c23e072a0a13d3",
       "fileName": "Ø´ÛÙÙ ÙØ§ÙÙ ÙØ±ØµØª ÙØ·Ø§ÙØ¹Ø§ØªÛ ÙØ²Ø§Ø±ØªÛ.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 168329,
@@ -1258,7 +1403,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=5b323f15-1e48-4334-a901-4577b696cf66&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%2099.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=5b323f15-1e48-4334-a901-4577b696cf66&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%2099.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "111565c4a6ef2fa88b6157d2df8f79df2d39e49520871c7c2400c73d86e9596e",
+      "sha256": "b4424b5969f3150d2f8f8b40232f6bbd0ea4101aa27e83f17ed719f90da09f5f",
       "fileName": "Ø´ÛÙÙ ÙØ§ÙÙ Ø§Ø¬Ø±Ø§ÛÛ ÙØ±ØµØª ÙØ·Ø§ÙØ¹Ø§ØªÛ Ø§Ø¹Ø¶Ø§Û ÙÛØ¦Øª Ø¹ÙÙÛ 99.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 714322,
@@ -1279,7 +1424,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9ce00a96-09b8-444e-9c09-e37c50e38f53&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%DA%AF%D8%B3%D8%AA%D8%B1%D8%B4%20%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D9%85%D9%84%DB%8C%20%D9%88%20%D8%A8%DB%8C%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9ce00a96-09b8-444e-9c09-e37c50e38f53&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%DA%AF%D8%B3%D8%AA%D8%B1%D8%B4%20%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D9%85%D9%84%DB%8C%20%D9%88%20%D8%A8%DB%8C%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "c1abd546097e9a9032c8d16e278a529558162381c32dcf8cae2b3377b9940e2e",
+      "sha256": "e8768e9022393278c8c793b66fa42b2814f686293d0f58895eeda9220b5d72cd",
       "fileName": "Ø¯Ø³ØªÙØ± Ø§ÙØ¹ÙÙ Ø§Ø¬Ø±Ø§ÛÛ Ú¯Ø³ØªØ±Ø´ ØªØ¹Ø§ÙÙØ§Øª Ø¹ÙÙÛ ÙÙÛ Ù Ø¨ÛÙ Ø§ÙÙÙÙÛ.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 3059418,
@@ -1300,7 +1445,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=21c5e7b8-f627-4341-9f81-5b00413e010f&FileName=%D8%A2%D9%8A%D9%8A%D9%86_%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85%D9%8A%20%D9%87%D9%8A%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D9%87%D8%A7.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=21c5e7b8-f627-4341-9f81-5b00413e010f&FileName=%D8%A2%D9%8A%D9%8A%D9%86_%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85%D9%8A%20%D9%87%D9%8A%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D9%87%D8%A7.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "d995d212baec0eeb212b15cb18e947ed1756ac4eff26b6c5603fab5e6f50dd39",
+      "sha256": "202acbd1a4e788f625e04ac27c929f60bdbd65a927d97be0ecb0b69bf7ee7679",
       "fileName": "Ø¢ÙÙÙ_ÙØ§ÙÙ Ø§Ø¬Ø±Ø§ÙÙ ÙØ§ÙÙÙ ÙÙØ±Ø±Ø§Øª Ø§ÙØªØ¸Ø§ÙÙ ÙÙØ£Øª Ø¹ÙÙÙ Ø¯Ø§ÙØ´Ú¯Ø§Ù_ÙØ§.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 81307,
@@ -1321,7 +1466,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e6f78071-c425-4754-abd9-c051eeacec14&FileName=%D8%A7%D8%A8%D9%84%D8%A7%D8%BA%20%D8%A7%D8%B5%D9%84%D8%A7%D8%AD%DB%8C%D9%87%20%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86%20%D8%AF%D9%88%D8%B1%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%20%D8%A8%D9%87%20%D8%B1%D9%88%D8%B4%20%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF%20%D9%85%D8%AD%D9%88%D8%B1%20%D8%A7%D8%B2%20%D8%B7%D8%B1%DB%8C%D9%82%20%D8%A2%D8%B2%D9%85%D9%88%D9%86%20%D8%B3%D8%B1%D8%A7%D8%B3%D8%B1%DB%8C.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e6f78071-c425-4754-abd9-c051eeacec14&FileName=%D8%A7%D8%A8%D9%84%D8%A7%D8%BA%20%D8%A7%D8%B5%D9%84%D8%A7%D8%AD%DB%8C%D9%87%20%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86%20%D8%AF%D9%88%D8%B1%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%20%D8%A8%D9%87%20%D8%B1%D9%88%D8%B4%20%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF%20%D9%85%D8%AD%D9%88%D8%B1%20%D8%A7%D8%B2%20%D8%B7%D8%B1%DB%8C%D9%82%20%D8%A2%D8%B2%D9%85%D9%88%D9%86%20%D8%B3%D8%B1%D8%A7%D8%B3%D8%B1%DB%8C.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "855aff0b5d5c18bcb2a90a90dc4fb2a932c38ccec40bef2c508fa80da03cf911",
+      "sha256": "eed23de099e35b2d961d93802d9918fe7dc3e16917592feadf141d60c41b44bb",
       "fileName": "Ø§Ø¨ÙØ§Øº Ø§ØµÙØ§Ø­ÛÙ Ø´ÛÙÙ ÙØ§ÙÙ Ù¾Ø°ÛØ±Ø´ Ø¯Ø§ÙØ´Ø¬ÙÛØ§Ù Ø¯ÙØ±Ù ÙØ§Û Ø¯Ú©ØªØ±Û Ø¨Ù Ø±ÙØ´ Ø§Ø³ØªØ§Ø¯ ÙØ­ÙØ± Ø§Ø² Ø·",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 338049,
@@ -1342,7 +1487,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=18adfc85-a704-4601-b1ca-13042c370ce1&FileName=%D8%A7%D8%B1%D8%B4%D8%AF.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=18adfc85-a704-4601-b1ca-13042c370ce1&FileName=%D8%A7%D8%B1%D8%B4%D8%AF.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "7ba7b6dc78aca3ff8acfccb96dfceb6ff53c5b6e4572610f3369bef34f8eb135",
+      "sha256": "03e1ceb505ee218cae26b646a25c7440725264950dda51f5a51345a98cb26346",
       "fileName": "Ø§Ø±Ø´Ø¯.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 1092958,
@@ -1363,7 +1508,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dc7db8e8-ebfa-4a31-a3e5-9ed4c098542c&FileName=%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dc7db8e8-ebfa-4a31-a3e5-9ed4c098542c&FileName=%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "6bbdfca50d4b393f1398f82847cc43d1817cd719c448678306bdd45e9fafab76",
+      "sha256": "9076cb2fd35360e4427e1590adddb9eee964f297013e723e62d827df9ccf4f62",
       "fileName": "Ø¯Ú©ØªØ±Û.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 1145536,
@@ -1384,7 +1529,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6b8f74e2-18c9-45aa-8fd6-a1ca7cc46487&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6b8f74e2-18c9-45aa-8fd6-a1ca7cc46487&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "5d149c4022559f9fc87cc225527a2697915efa3c4ccada247f33bbce734497e0",
+      "sha256": "0de21fe5569b974fa798570f3d5cfb3cb9d9cc3b773c8f7d0ffafb52d64fc07d",
       "fileName": "Ø¢ÛÛÙ ÙØ§ÙÙ Ø¯Ø³ØªÛØ§Ø± Ù¾ÚÙÙØ´Û ÙØ²Ø§Ø±ØªÛ.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 1635196,
@@ -1405,7 +1550,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ae8bfde8-3fce-479c-8fdb-50a49a565053&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ae8bfde8-3fce-479c-8fdb-50a49a565053&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "52dc928cae116f55577798b08cf1856064bb28eaf0a9b6cb929d52cfeea7e415",
+      "sha256": "4a36af6646a7bc8d204cf32c265a2fe6040aeb5b9ff7f95668cce1c8170fd1d0",
       "fileName": "Ø¢ÛÛÙ ÙØ§ÙÙ ÙØ²Ø§Ø±ØªÛ-Ø¬Ø¯ÛØ¯.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 1127050,
@@ -1426,7 +1571,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f374a25b-5dd7-40c0-af56-10020a8be374&FileName=postdoc-kut.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f374a25b-5dd7-40c0-af56-10020a8be374&FileName=postdoc-kut.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "aa00e3c088d2fd1ff5dd42db3d084ea3ca8a96044e73b166671429df09bc0071",
+      "sha256": "0d55b5a4d7defdd020afc4d63681897441c4632335a42aa2b43270f33e587977",
       "fileName": "postdoc-kut.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 213751,
@@ -1447,7 +1592,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=05fe54e9-c8e5-4e0e-8522-3f7fcba3720b&FileName=Research%20Assistant.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=05fe54e9-c8e5-4e0e-8522-3f7fcba3720b&FileName=Research%20Assistant.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "624fd0d70423e3b55061e4085639ed047d196c0e1a38e1bbf881c854f65a7cbe",
+      "sha256": "acd23d9387c6c2d5584f54f6ab7294a8cb55b794d051a869c57b8ae9027b18a5",
       "fileName": "Research Assistant.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 231837,
@@ -1468,7 +1613,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ba311bd9-3212-4ede-9850-7a4b60244a9b&FileName=%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D8%B1%20%D8%AE%D8%B5%D9%88%D8%B5%20%D8%B1%D9%81%D8%B9%20%D8%A7%D8%A8%D9%87%D8%A7%D9%85%D8%A7%D8%AA%20%D9%85%D8%B7%D8%B1%D9%88%D8%AD%D9%87%20%D9%BE%DB%8C%D8%B1%D8%A7%D9%85%D9%88%D9%86%20%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C%20%D9%85%D8%A7%D8%AF%D9%87%2053.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ba311bd9-3212-4ede-9850-7a4b60244a9b&FileName=%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D8%B1%20%D8%AE%D8%B5%D9%88%D8%B5%20%D8%B1%D9%81%D8%B9%20%D8%A7%D8%A8%D9%87%D8%A7%D9%85%D8%A7%D8%AA%20%D9%85%D8%B7%D8%B1%D9%88%D8%AD%D9%87%20%D9%BE%DB%8C%D8%B1%D8%A7%D9%85%D9%88%D9%86%20%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C%20%D9%85%D8%A7%D8%AF%D9%87%2053.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "79b692da58293719da6809302a179099cf305a24037ab3548b415931e4298c6f",
+      "sha256": "4412fd9544a7cb7ae7196b40aa70675fd9407a522ea61f6b2560b022fc233ee7",
       "fileName": "Ø¨Ø®Ø´ÙØ§ÙÙ Ø¯Ø± Ø®ØµÙØµ Ø±ÙØ¹ Ø§Ø¨ÙØ§ÙØ§Øª ÙØ·Ø±ÙØ­Ù Ù¾ÛØ±Ø§ÙÙÙ Ø¯Ø³ØªÙØ±Ø§ÙØ¹ÙÙ ÙØ­ÙÙ Ø§Ø¹Ø·Ø§Û Ù¾Ø§ÛÙ ØªØ´ÙÛÙÛ",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 171219,
@@ -1489,7 +1634,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=21fc704c-c2a4-4c7c-b346-ec1ef03061d0&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%20%D8%AA%D8%B4%DA%A9%DB%8C%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=21fc704c-c2a4-4c7c-b346-ec1ef03061d0&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%20%D8%AA%D8%B4%DA%A9%DB%8C%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "2e7071d0db304410eacb08a59f5f61967b429c4390f33070cbe955c4fdcb1747",
+      "sha256": "6dfff5e6d55761f61b139cf63325eb1687830fbed237a49583ab874f208761a4",
       "fileName": "Ø´ÛÙÙ ÙØ§ÙÙ Ø§Ø¬Ø±Ø§ÛÛ ØªØ´Ú©ÛÙ ÙØ§Ø­Ø¯ÙØ§Û Ù¾ÚÙÙØ´Û.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 813456,
@@ -1510,7 +1655,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6040bca3-32e9-45f3-bd6f-4b219c43bcc8&FileName=%D9%BE%D8%B3%D8%A7%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%20%D8%B5%D9%86%D8%AF%D9%88%D9%82%20INSF.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6040bca3-32e9-45f3-bd6f-4b219c43bcc8&FileName=%D9%BE%D8%B3%D8%A7%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%20%D8%B5%D9%86%D8%AF%D9%88%D9%82%20INSF.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "97ef3fb9e8595bcc8662b89716fbf2725dd34915cf61038b1aeffe0ea64d851b",
+      "sha256": "59b950a7e710746d53109a312b37a104b20f4b68cc14cc945980ef25474ed141",
       "fileName": "Ù¾Ø³Ø§ Ø¯Ú©ØªØ±Û ØµÙØ¯ÙÙ INSF.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 154907,
@@ -1531,7 +1676,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6042fdcb-8f93-4d4f-82d8-25424a3f35cc&FileName=%D9%81%D8%B1%D9%85%20%D8%A8%D8%B1%D8%A2%D9%88%D8%B1%D8%AF%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20.docx",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6042fdcb-8f93-4d4f-82d8-25424a3f35cc&FileName=%D9%81%D8%B1%D9%85%20%D8%A8%D8%B1%D8%A2%D9%88%D8%B1%D8%AF%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20.docx",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "dedd96bd47d73672a21378004d282d2affcf00735f76e673ecba8152313afefb",
+      "sha256": "8db1e2c74ebf4073614dae5cbd2a8355e74d61ac2faffcd528c94b5b695ba933",
       "fileName": "ÙØ±Ù Ø¨Ø±Ø¢ÙØ±Ø¯ ÙØ²ÛÙÙ Ø§Ø¬Ø±Ø§Û Ø·Ø±Ø­ Ù¾ÚÙÙØ´Û .docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; charset=utf-8",
       "fileSize": 21288,
@@ -1552,7 +1697,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c98a8472-c61a-411b-bc23-1c415f538fda&FileName=Research%20Plan-Help.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c98a8472-c61a-411b-bc23-1c415f538fda&FileName=Research%20Plan-Help.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "0893018c1f154a717272ab4639c340fe045cd9ef55c153a4fefec7394f32cfbf",
+      "sha256": "c19368ef9b29531d5c5576f6e0282575f503b8b6e7c82a61dd2345a0a2c30642",
       "fileName": "Research Plan-Help.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 130208,
@@ -1573,7 +1718,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a319ffd7-f6ac-4277-980f-c8d22ce54d4b&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AC%D9%87%D8%AA%D8%AF%D8%A7%D8%B1%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a319ffd7-f6ac-4277-980f-c8d22ce54d4b&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AC%D9%87%D8%AA%D8%AF%D8%A7%D8%B1%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "ca389e1b9d01513f3913534713213fd97aec7ace44b8e70f42d8fd468fb3c7db",
+      "sha256": "ddf943e81f1dc2da5241220883cd26305e7abb0fb44e18e12f6443e2990f442d",
       "fileName": "Ø´ÛÙÙ ÙØ§ÙÙ Ø§Ø¬Ø±Ø§ÛÛ Ø¨Ø±ÙØ§ÙÙ Ù¾ÚÙÙØ´Û Ø¬ÙØªØ¯Ø§Ø±Ø§Ø¹Ø¶Ø§Û ÙÛØ¦Øª Ø¹ÙÙÛ.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 586525,
@@ -1594,7 +1739,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=7fade0f4-edbf-40ad-b31a-ef33f256d687&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=7fade0f4-edbf-40ad-b31a-ef33f256d687&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "7f480df707f304fc7d66e52a4016e39d4fd0568d27ee0614ed821ebc344aa5e0",
+      "sha256": "cd3b6ac47c4b9702190258d24e90bf9ca1374eeb75f209e88f1a23299e9c7436",
       "fileName": "Ø¯Ø³ØªÙØ±Ø§ÙØ¹ÙÙ Ø­ÙØ§ÛØª Ø§Ø²ÙØ±ØµØª ÙØ·Ø§ÙØ¹Ø§ØªÛ Ø§Ø¹Ø¶Ø§Û ÙÛØ§Øª Ø¹ÙÙÛ.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 647399,
@@ -1615,7 +1760,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=962e4cfd-1e17-4202-857b-915e919b985b&FileName=3.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=962e4cfd-1e17-4202-857b-915e919b985b&FileName=3.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "89c1bb467da2792b0e50af24242d6d95ba857a7756cac866af02837599f6ca47",
+      "sha256": "50aed88dee8d03b07454e710e4879272461ec8c835405fda3a2994423cec0c58",
       "fileName": "3.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 2178882,
@@ -1636,7 +1781,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=15f79b2e-ceab-4206-bbd0-fa75cfe2bd0d&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=15f79b2e-ceab-4206-bbd0-fa75cfe2bd0d&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "b584ffa07e1e337e9d965eb93ebad2ec0b294d50b438f8978ae3b01318b97939",
+      "sha256": "2f17e4e66811b58d8bdc6582249390f61038f856ac7e7fb6778920f6933d23e3",
       "fileName": "Ø¢ÛÛÙ ÙØ§ÙÙ ÙØ´Ø±ÛØ§Øª Ø¹ÙÙÛ.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 7244305,
@@ -1657,7 +1802,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=610e573a-cf74-4081-b0a1-df1a37760858&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=610e573a-cf74-4081-b0a1-df1a37760858&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "4725f1e2b79d0f1f8af967e7785f668afcea476fd233a5cd63fcce9d5ca6cddc",
+      "sha256": "9ade85b4432f6f5b8032432c0ddcd560c4748882903c518a90a42b1cd85448ea",
       "fileName": "Ø¢ÛÛÙ ÙØ§ÙÙ Ø§ÙØªØ´Ø§Ø±Ø§Øª.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 1002155,
@@ -1678,7 +1823,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ab4bf360-53f6-47f0-a31f-2917a0670147&FileName=%D8%A2%D9%8A%D9%8A%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D9%85%D8%A7%D9%8A%D8%B4%20%D9%87%D8%A7%D9%8A%20%D8%B9%D9%84%D9%85%D9%8A.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ab4bf360-53f6-47f0-a31f-2917a0670147&FileName=%D8%A2%D9%8A%D9%8A%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D9%85%D8%A7%D9%8A%D8%B4%20%D9%87%D8%A7%D9%8A%20%D8%B9%D9%84%D9%85%D9%8A.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "5f90b04f2ce0294f340bb025a17189746df033f979bcdb59595fd6e80fd13ebe",
+      "sha256": "551c6aff6b2fc5490c22d9f0e887a90f96281696bf3d176ed746d98ba9049313",
       "fileName": "Ø¢ÙÙÙ ÙØ§ÙÙ ÙÙØ§ÙØ´ ÙØ§Ù Ø¹ÙÙÙ.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 1986668,
@@ -1699,7 +1844,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=cb3d6b9b-13a0-4cb1-82ad-056e8eb4ab2b&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C%20%D9%88%20%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87%20%D8%A8%D8%A7%20%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=cb3d6b9b-13a0-4cb1-82ad-056e8eb4ab2b&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C%20%D9%88%20%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87%20%D8%A8%D8%A7%20%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "ac9283273684cc052249051e0e168c9d9b21797be7bc5627957bc6a7ecedbe77",
+      "sha256": "c72f3a8a98c9c52af4ea1a99fb192cf6f0b11d2afb58972a7b615b7b9df08e09",
       "fileName": "Ø¢ÛÛÙ ÙØ§ÙÙ Ø§Ø¬Ø±Ø§ÛÛ ÙØ§ÙÙÙ Ù¾ÛØ´Ú¯ÛØ±Û Ù ÙÙØ§Ø¨ÙÙ Ø¨Ø§ ØªØ®ÙÙØ§Øª.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 430909,
@@ -1720,7 +1865,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=889234c0-c540-4352-81e9-42e58398d818&FileName=%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D9%84%D9%88%D9%85.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=889234c0-c540-4352-81e9-42e58398d818&FileName=%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D9%84%D9%88%D9%85.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "2e4528558bd2aa774855fb9fb8d772d733b747e834947da19886d2092ff645fa",
+      "sha256": "f14d20e5c86c7d14c4eb637eb46c61bfcca7be6a1d201f5dd37f0bb0d50e93fc",
       "fileName": "ÙØ²Ø§Ø±Øª Ø¹ÙÙÙ.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 169585,
@@ -1741,7 +1886,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aba601a3-85b0-437f-b449-fe1dff29a03f&FileName=%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA%20%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%82%20%D8%A7%D9%84%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%84%201404.docx",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aba601a3-85b0-437f-b449-fe1dff29a03f&FileName=%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA%20%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%82%20%D8%A7%D9%84%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%84%201404.docx",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "b6168a664c2fcdf596d3801accd99ed8abf2b2e2fe5e87cdba9b26d6912e773a",
+      "sha256": "8fee0bf737fb3224c9593b36f64b2976d6db4188c9bf10bb2c4ab84ea421636e",
       "fileName": "ØªØºÛÛØ±Ø§Øª Ø¬Ø¯ÛØ¯ Ø¢ÛÛÙ ÙØ§ÙÙ Ø­Ù Ø§ÙØªØ´ÙÛÙ ÙÙØ§ÙØ§Øª Ø¯Ø± Ø³Ø§Ù 1404.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; charset=utf-8",
       "fileSize": 543037,
@@ -1762,7 +1907,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a167ea63-5786-4d39-b759-ac1d9d69a415&FileName=%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%AA%D8%B1%DB%8C%D9%86%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%82%20%D8%A7%D9%84%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%A7%D9%85%D9%86%D8%A7.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a167ea63-5786-4d39-b759-ac1d9d69a415&FileName=%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%AA%D8%B1%DB%8C%D9%86%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%82%20%D8%A7%D9%84%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%A7%D9%85%D9%86%D8%A7.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "2e938ea59033eff90c560a01f8e0c2a78ab21a070e1b7a1ea3ea95719f001b81",
+      "sha256": "3e1cec5ec681ac34a8d2f18cb52887973151db0e2fe5c659e260b131723f0443",
       "fileName": "Ø¬Ø¯ÛØ¯ ØªØ±ÛÙ Ø¢ÛÛÙ ÙØ§ÙÙ Ø­Ù Ø§ÙØªØ´ÙÛÙ ÙÙØ§ÙØ§Øª ÙÛØ¦Øª Ø§ÙÙØ§.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 291548,
@@ -1783,7 +1928,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=889e2c5d-4ad0-4a63-840d-3e80d7c99446&FileName=1401-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%D8%A7%D8%AD%D8%AF%20%D9%81%D9%86%D8%A7%D9%88%D8%B1.docx",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=889e2c5d-4ad0-4a63-840d-3e80d7c99446&FileName=1401-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%D8%A7%D8%AD%D8%AF%20%D9%81%D9%86%D8%A7%D9%88%D8%B1.docx",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "326f6a23c0eca4fd1282bf6360e13ea1b5702f34ddb991845be5459f87040908",
+      "sha256": "23f1a4ca3889290d93edd0ed874fbe9fd198dc89422f763f8c23b93ecac1372a",
       "fileName": "1401-Ù¾Ø±ÙÙ¾ÙØ²Ø§Ù Ø·Ø±Ø­ Ù¾ÚÙÙØ´Û ÙØ§Ø­Ø¯ ÙÙØ§ÙØ±.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; charset=utf-8",
       "fileSize": 28285,
@@ -1804,7 +1949,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e4c32ccd-9aef-4c7e-a462-45dd81eed40c&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e4c32ccd-9aef-4c7e-a462-45dd81eed40c&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "0a9f9614ece23c6228a120e2f1ef47e5c5449ebe90386a4b153a553c7da82758",
+      "sha256": "6c74f470f9637a1a5d0501fb1e95629ddb77a736c320e86420ab0bc05cdcbd60",
       "fileName": "Ø¢ÛÛÙ ÙØ§ÙÙ Ù¾ÚÙÙØ§ÙÙ.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 1719670,
@@ -1825,7 +1970,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f9969213-c545-457a-a6e1-95b13f8126c7&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%201403.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f9969213-c545-457a-a6e1-95b13f8126c7&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%201403.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "530a08978378d5c4355a7ec8420b2ca629cc26d2abc45aaa121fc135dba6c1e2",
+      "sha256": "91fad9f031b3844a351d551d4f2278d430d20b36676961a952f703cef0d43ee5",
       "fileName": "Ø¢ÛÛÙ ÙØ§ÙÙ Ø­ÙØ§ÛØª Ù¾Ø§ÛØ§Ù ÙØ§ÙÙ 1403.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 252405,
@@ -1846,7 +1991,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=0c0d51f7-8ad7-4f73-a53d-e17dfc1de824&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%20%D8%A8%D8%B1%D8%AA%D8%B1%20-%D9%86%D8%B3%D8%AE%D9%87%20%D9%85%D8%B5%D9%88%D8%A81404.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=0c0d51f7-8ad7-4f73-a53d-e17dfc1de824&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%20%D8%A8%D8%B1%D8%AA%D8%B1%20-%D9%86%D8%B3%D8%AE%D9%87%20%D9%85%D8%B5%D9%88%D8%A81404.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "be184fc8416d3fa64b0f17e234a3c1fee1baf04eea2078ee4a945cbfb2974d9f",
+      "sha256": "5c5a71e0849ce0d055d84cb7d8a988aa945bdb6f6bf2d55f361dc5c9c108a01a",
       "fileName": "Ø´ÛÙÙ ÙØ§ÙÙ Ù¾ÚÙÙØ´Ú¯Ø± Ø¨Ø±ØªØ± -ÙØ³Ø®Ù ÙØµÙØ¨1404.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 1079677,
@@ -1867,7 +2012,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=fd28e3fa-e276-418a-8fb1-86094c85951d&FileName=%D8%A2%DB%8C%D9%86%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%B4%D8%B1%20%201405.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=fd28e3fa-e276-418a-8fb1-86094c85951d&FileName=%D8%A2%DB%8C%D9%86%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%B4%D8%B1%20%201405.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "1e9df8f8eefbab98e3c269a63c51247dd876ecdae96134fbbd61ed5614474244",
+      "sha256": "e2405a8b00639c586edfcd2196782a2c1a488d895eb920a807fd373a59c12ef3",
       "fileName": "Ø¢ÛÙÙ ÙØ§ÙÙ ÙØ´Ø± 1405.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 1002350,
@@ -1888,7 +2033,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6787d913-5b83-40fb-b2f3-8755f763cf9c&FileName=faculty-recruitment-regulations%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B1%D8%AA%D9%82%D8%A7%20.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6787d913-5b83-40fb-b2f3-8755f763cf9c&FileName=faculty-recruitment-regulations%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B1%D8%AA%D9%82%D8%A7%20.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "f24d1bcfd4e8916eb5e8e1ddd8155a29ff9c4e1588980d0e783209e3da5ded81",
+      "sha256": "3cca0868dce1e54bedee6d96e177c4acf19b1e0c71af2151ef4e4b109cd9dfc4",
       "fileName": "faculty-recruitment-regulationsØ¢ÛÛÙ ÙØ§ÙÙ Ø§Ø±ØªÙØ§ .pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 5053913,
@@ -1909,7 +2054,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=84e0f8cd-8fbb-4e0c-9f9a-bdc471ae56da&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=84e0f8cd-8fbb-4e0c-9f9a-bdc471ae56da&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "1910c1f23662e105640f556e0594497f36b691dd49f071361b7ca0c258170956",
+      "sha256": "c3606e711ade8aa26bbb18d3dd486fc825e5c7bd6a2062fd41d8b1e76b05fedf",
       "fileName": "Ø¯Ø³ØªÙØ±Ø§ÙØ¹ÙÙ ÙØ­ÙÙ Ø§Ø¹Ø·Ø§Û Ù¾Ø§ÛÙ ØªØ´ÙÛÙÛ.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 5002253,
@@ -1930,7 +2075,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e4fa51ea-4c59-472d-97d4-48671be97e3a&FileName=book%20review%20form%20(1402%2011%2030).docx",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e4fa51ea-4c59-472d-97d4-48671be97e3a&FileName=book%20review%20form%20(1402%2011%2030).docx",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "199ee36f350a93d38790e0e80e02d1cc7ccac18aac08beca077a9087f488aa08",
+      "sha256": "30e281e7009d24b7e348c82bc0ee636ae5e1648915b0385b0e01212d1cb93f00",
       "fileName": "book review form (1402 11 30).docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; charset=utf-8",
       "fileSize": 62368,
@@ -1951,7 +2096,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=143bd0f2-4574-4ef7-905f-2a4084e86a06&FileName=referee%20form-Plan.doc",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=143bd0f2-4574-4ef7-905f-2a4084e86a06&FileName=referee%20form-Plan.doc",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "15e17f9c82349d3de4593e79ade1f8b2d8f5db31167fb8054cd8123258f43999",
+      "sha256": "748760a4d6a1a262aa33bf47773c34aeaef4a102ee0498bdc5654d8cfe334a0c",
       "fileName": "referee form-Plan.doc",
       "contentType": "application/octet-stream; charset=utf-8",
       "fileSize": 88238,
@@ -1972,7 +2117,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=25f4d3cf-df70-4b72-b19d-73a4a758f026&FileName=%D9%81%D8%B1%D9%85%20%D8%A8%D8%B1%D8%A2%D9%88%D8%B1%D8%AF%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7%20.docx",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=25f4d3cf-df70-4b72-b19d-73a4a758f026&FileName=%D9%81%D8%B1%D9%85%20%D8%A8%D8%B1%D8%A2%D9%88%D8%B1%D8%AF%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7%20.docx",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "c90fb60c4cf617406157955d625185d215836f58e6018b68fe01e303f18c83d7",
+      "sha256": "9b6369d6cdd726a1d128933a985c1dc3855b0e6988d158b093afb3a479dbea02",
       "fileName": "ÙØ±Ù Ø¨Ø±Ø¢ÙØ±Ø¯ ÙØ²ÛÙÙ Ø§Ø¬Ø±Ø§Û Ø·Ø±Ø­ Ù¾Ø³Ø§Ø¯Ú©ØªØ±Ø§ .docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; charset=utf-8",
       "fileSize": 22569,
@@ -1993,7 +2138,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=97bbb00d-3dbe-4307-9057-081b8de87ea9&FileName=PostDoc-Help.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=97bbb00d-3dbe-4307-9057-081b8de87ea9&FileName=PostDoc-Help.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "c3a1c4d9743445f18975fb9f57b8ebce59bd86fd2b2b0470c51598da64e92267",
+      "sha256": "c54a6c588de01c489fba91c600415d3185b231943d733d90c5c3aa3aefcf598f",
       "fileName": "PostDoc-Help.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 356228,
@@ -2014,7 +2159,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9ec34810-ac90-44ba-97eb-6b157dad6215&FileName=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AC%D9%87%D8%AA%20%D8%AF%D8%A7%D8%B1.docx",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9ec34810-ac90-44ba-97eb-6b157dad6215&FileName=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AC%D9%87%D8%AA%20%D8%AF%D8%A7%D8%B1.docx",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "b263fabb5d7409f1a7f451b4ebb504d46bf5db528b376e62ce11ce4aad8c565d",
+      "sha256": "095d34cb507dfa4b0a7898e7987e335f6abe5226615caa9983c500458085bce6",
       "fileName": "Ø¨Ø±ÙØ§ÙÙ Ù¾ÚÙÙØ´Û Ø¬ÙØª Ø¯Ø§Ø±.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; charset=utf-8",
       "fileSize": 177746,
@@ -2035,7 +2180,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=576c3377-644c-400f-b5de-d4da86427a07&FileName=%D8%A7%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=576c3377-644c-400f-b5de-d4da86427a07&FileName=%D8%A7%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "add4d164ec1919b12cbe7a405ee0d87bbe50fb0e014a4dcc0b6d888326d257ae",
+      "sha256": "6359ec88bac1200cf3d3be34dc385bfdd0497706c1889b5e529501f6bb0d1ff5",
       "fileName": "Ø§ÛÛÙ ÙØ§ÙÙ Ø§Ø³ØªÙØ§Ø¯Ù Ø§Ø² ÙØ±ØµØª ÙØ·Ø§ÙØ¹Ø§ØªÛ ÙØ²Ø§Ø±ØªÛ.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 189403,
@@ -2056,7 +2201,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=07dda4e4-c350-4270-b7f8-d8a146afbab7&FileName=instruction.rar",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=07dda4e4-c350-4270-b7f8-d8a146afbab7&FileName=instruction.rar",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "5d2db8a7163996b3af79422c027344a51cba628caa000f4fc8421a877cd0bcb2",
+      "sha256": "eca43f31b95d9b6033a037803fcbb75723ddb858b8165e978975679690f4064e",
       "fileName": "instruction.rar",
       "contentType": "application/octet-stream; charset=utf-8",
       "fileSize": 2121238,
@@ -2077,7 +2222,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=27b1ff82-1b3d-4256-ba84-f3d61583bf1a&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C%20%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=27b1ff82-1b3d-4256-ba84-f3d61583bf1a&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C%20%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "52f2ae9675b9afa20b737031fd3cef6d6f56d142fa7578d535fd670ccb885866",
+      "sha256": "6fb851d40066ec35c32f25daf3f1f2f795da4e6692cffc85db254faf649a4cd2",
       "fileName": "Ø¯Ø³ØªÙØ±Ø§ÙØ¹ÙÙ ÙØ­ÙÙ Ø¨Ø±Ø±Ø³Û ØªØ®ÙÙØ§Øª Ù¾ÚÙÙØ´Û.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 3939493,
@@ -2098,7 +2243,7 @@
       "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=200103c4-19ec-4ba1-a909-21591da09684&FileName=-%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85%D9%8A%20%D9%87%D9%8A%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D9%87%D8%A7.pdf",
       "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=200103c4-19ec-4ba1-a909-21591da09684&FileName=-%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85%D9%8A%20%D9%87%D9%8A%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D9%87%D8%A7.pdf",
       "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-      "sha256": "b16ab4d7d244b28705bf5c471f3b2dbeff882bff62da1d2fa3bcd7fe652cbdc6",
+      "sha256": "cb1ce2ce7d4116cf0912088456810f9fa11f99dd72a3b160fb7d3a332f6ab393",
       "fileName": "- ÙØ§ÙÙÙ ÙÙØ±Ø±Ø§Øª Ø§ÙØªØ¸Ø§ÙÙ ÙÙØ£Øª Ø¹ÙÙÙ Ø¯Ø§ÙØ´Ú¯Ø§Ù_ÙØ§.pdf",
       "contentType": "application/pdf; charset=utf-8",
       "fileSize": 76057,
@@ -2336,6 +2481,232 @@
       "archivePath": "kermanshah-technology/9ca5e57f75a6-takDars.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.98
+    },
+    {
+      "id": "kermanshah-technology-discovery-document-eda6e91e6926",
+      "universitySlug": "kermanshah-technology",
+      "title": "منشور و موازین اخلاق پژوهش",
+      "type": "سند",
+      "topic": "اخلاق پژوهش",
+      "taxonomy": "research ethics",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aa9186d8-029e-4753-a9fe-a9b89e7b4169&FileName=%D9%85%D9%86%D8%B4%D9%88%D8%B1%20%D9%88%20%D9%85%D9%88%D8%A7%D8%B2%DB%8C%D9%86%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82%20%D9%BE%DA%98%D9%88%D9%87%D8%B4.pdf",
+      "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aa9186d8-029e-4753-a9fe-a9b89e7b4169&FileName=%D9%85%D9%86%D8%B4%D9%88%D8%B1%20%D9%88%20%D9%85%D9%88%D8%A7%D8%B2%DB%8C%D9%86%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82%20%D9%BE%DA%98%D9%88%D9%87%D8%B4.pdf",
+      "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
+      "sha256": "363fbb07131e22d7e8b3ae8ca9873fdb606e2ab5a15b6f37773788b1140b70c2",
+      "fileName": "ÙÙØ´ÙØ± Ù ÙÙØ§Ø²ÛÙ Ø§Ø®ÙØ§Ù Ù¾ÚÙÙØ´.pdf",
+      "contentType": "application/pdf; charset=utf-8",
+      "fileSize": 3123058,
+      "archivePath": "kermanshah-technology/b2067295100f-ÙÙØ´ÙØ± Ù ÙÙØ§Ø²ÛÙ Ø§Ø®ÙØ§Ù Ù¾ÚÙÙØ´.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kermanshah-technology-discovery-document-b7b3b68b0fc4",
+      "universitySlug": "kermanshah-technology",
+      "title": "فرم واحد موظفی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=3c43a0ef-3492-48e5-babc-8a5f7821f3c5&FileName=%D9%88%D8%A7%D8%AD%D8%AF%20%D9%85%D9%88%D8%B8%D9%81%DB%8C.docx",
+      "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=3c43a0ef-3492-48e5-babc-8a5f7821f3c5&FileName=%D9%88%D8%A7%D8%AD%D8%AF%20%D9%85%D9%88%D8%B8%D9%81%DB%8C.docx",
+      "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
+      "sha256": "97240acbd26d6cacf6b26a236990b8873e0b9ef07723bf7a84a5695caa62769b",
+      "fileName": "ÙØ§Ø­Ø¯ ÙÙØ¸ÙÛ.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; charset=utf-8",
+      "fileSize": 13850,
+      "archivePath": "kermanshah-technology/67c4da48c534-ÙØ§Ø­Ø¯ ÙÙØ¸ÙÛ.docx",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kermanshah-technology-discovery-document-fbb3f7148a4c",
+      "universitySlug": "kermanshah-technology",
+      "title": "فرم دریافت حق التحقیق طرح­های پژوهشی کاربردی مسأله محور(به سفارش دانشگاه)",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6887f235-3281-43c6-b8bf-4d81e32124a7&FileName=209b_2.pdf",
+      "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6887f235-3281-43c6-b8bf-4d81e32124a7&FileName=209b_2.pdf",
+      "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
+      "sha256": "fac3cc5873c515ca825fcd49af95e803bf2a1b0c07ab7d20ea44abfc08c64fb0",
+      "fileName": "209b_2.pdf",
+      "contentType": "application/pdf; charset=utf-8",
+      "fileSize": 197795,
+      "archivePath": "kermanshah-technology/c21bead58998-209b_2.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kermanshah-technology-discovery-document-a06dc4c09f6c",
+      "universitySlug": "kermanshah-technology",
+      "title": "گزارش نهایی طرح پژوهشی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=b1019aac-cac4-44f4-a36d-4ea65a244d56&FileName=report.docx",
+      "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=b1019aac-cac4-44f4-a36d-4ea65a244d56&FileName=report.docx",
+      "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
+      "sha256": "d05bc87196945146f9381c86960c332a278a225ead5de5b0c760019c83377803",
+      "fileName": "report.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; charset=utf-8",
+      "fileSize": 186946,
+      "archivePath": "kermanshah-technology/0b82782e291e-report.docx",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kermanshah-technology-discovery-document-9bd8c0e3c5be",
+      "universitySlug": "kermanshah-technology",
+      "title": "فرم دریافت حق التحقیق طرح­های پژوهشی متکی به اعتبار پژوهشی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dd9d3f8f-e683-4c1f-9398-7d41995e4245&FileName=209.pdf",
+      "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dd9d3f8f-e683-4c1f-9398-7d41995e4245&FileName=209.pdf",
+      "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
+      "sha256": "3dd0727a67f0f7a812e39454f0089b4d074040dea438918fdb97669a6080c0ad",
+      "fileName": "209.pdf",
+      "contentType": "application/pdf; charset=utf-8",
+      "fileSize": 196239,
+      "archivePath": "kermanshah-technology/a67f02d4bc52-209.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kermanshah-technology-discovery-document-7c22dde65061",
+      "universitySlug": "kermanshah-technology",
+      "title": "پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6f3e415f-389e-42df-bb30-b0eb1265e335&FileName=%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%201405.docx",
+      "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6f3e415f-389e-42df-bb30-b0eb1265e335&FileName=%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%201405.docx",
+      "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
+      "sha256": "e849d73ec075eb268f35e9b64cd4f31d90d02916679254d3c3d1ebee631f28ea",
+      "fileName": "Ù¾Ø±ÙÙ¾ÙØ²Ø§Ù 1405.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; charset=utf-8",
+      "fileSize": 34843,
+      "archivePath": "kermanshah-technology/3eac8b8c44cc-Ù¾Ø±ÙÙ¾ÙØ²Ø§Ù 1405.docx",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kermanshah-technology-discovery-document-8f7b9a517e9a",
+      "universitySlug": "kermanshah-technology",
+      "title": "پروپوزال مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6670f5a7-664d-44e9-809b-1a457b4eef9d&FileName=Proposal-1401.docx",
+      "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6670f5a7-664d-44e9-809b-1a457b4eef9d&FileName=Proposal-1401.docx",
+      "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
+      "sha256": "0307682d4ae91a4bd506d2a158f7160742924c0b84573270f6bd2be047743efe",
+      "fileName": "Proposal-1401.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; charset=utf-8",
+      "fileSize": 22048,
+      "archivePath": "kermanshah-technology/7a34a5464b9b-Proposal-1401.docx",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kermanshah-technology-discovery-document-bae301237281",
+      "universitySlug": "kermanshah-technology",
+      "title": "فرم تعهدنامه اعزام به سفر علمی در قالب ماموریت پژوهشی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=99e5a4b4-ca37-4123-9399-29bd7c899258&FileName=%D8%AA%D8%B9%D9%87%D8%AF%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B9%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%DA%A9%D9%88%D8%AA%D8%A7%D9%87%20%D9%85%D8%AF%D8%AA.pdf",
+      "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=99e5a4b4-ca37-4123-9399-29bd7c899258&FileName=%D8%AA%D8%B9%D9%87%D8%AF%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B9%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%DA%A9%D9%88%D8%AA%D8%A7%D9%87%20%D9%85%D8%AF%D8%AA.pdf",
+      "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
+      "sha256": "4a45905dcd6e5a82a4e76098c8d72307b0457c99573bdcf799e6e02f098cd2e8",
+      "fileName": "ØªØ¹ÙØ¯ ÙØ§ÙÙ Ø§Ø¹Ø²Ø§Ù Ø¨Ù ÙØ±ØµØª Ú©ÙØªØ§Ù ÙØ¯Øª.pdf",
+      "contentType": "application/pdf; charset=utf-8",
+      "fileSize": 77803,
+      "archivePath": "kermanshah-technology/3eb8c8b44329-ØªØ¹ÙØ¯ ÙØ§ÙÙ Ø§Ø¹Ø²Ø§Ù Ø¨Ù ÙØ±ØµØª Ú©ÙØªØ§Ù ÙØ¯Øª.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kermanshah-technology-discovery-document-d0112966a461",
+      "universitySlug": "kermanshah-technology",
+      "title": "راهنمای اعزام به مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d8bfa1cb-d259-4314-a623-dd9c29ad6ca5&FileName=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%A7%D8%B9%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%DA%A9%D9%88%D8%AA%D8%A7%D9%87%20%D9%85%D8%AF%D8%AA.pdf",
+      "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d8bfa1cb-d259-4314-a623-dd9c29ad6ca5&FileName=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%A7%D8%B9%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%DA%A9%D9%88%D8%AA%D8%A7%D9%87%20%D9%85%D8%AF%D8%AA.pdf",
+      "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
+      "sha256": "b164b3252f8807e991b27a2c16deb8ac34693838577df1f26ce8682ab0f52d3c",
+      "fileName": "Ø±Ø§ÙÙÙØ§Û Ø§Ø¹Ø²Ø§Ù Ø¨Ù ÙØ±ØµØª ÙØ·Ø§ÙØ¹Ø§ØªÛ Ú©ÙØªØ§Ù ÙØ¯Øª.pdf",
+      "contentType": "application/pdf; charset=utf-8",
+      "fileSize": 73034,
+      "archivePath": "kermanshah-technology/db6ad87f4b70-Ø±Ø§ÙÙÙØ§Û Ø§Ø¹Ø²Ø§Ù Ø¨Ù ÙØ±ØµØª ÙØ·Ø§ÙØ¹Ø§ØªÛ Ú©ÙØªØ§Ù ÙØ¯Øª.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kermanshah-technology-discovery-document-59e45761f960",
+      "universitySlug": "kermanshah-technology",
+      "title": "فرم شناسنامه فعالیتهای پژوهشی-پژوهشگر برتر دانشجویی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e9bc2355-188d-4095-8248-c74fdcdde857&FileName=%D9%81%D8%B1%D9%85%20%D8%B4%D9%86%D8%A7%D8%B3%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%20%D8%A8%D8%B1%D8%AA%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C.pdf",
+      "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e9bc2355-188d-4095-8248-c74fdcdde857&FileName=%D9%81%D8%B1%D9%85%20%D8%B4%D9%86%D8%A7%D8%B3%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%20%D8%A8%D8%B1%D8%AA%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C.pdf",
+      "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
+      "sha256": "4258cbf93af5b30e9906687b8ba3ed3eb433aa79b65da42e5af2584718ebbdba",
+      "fileName": "ÙØ±Ù Ø´ÙØ§Ø³ÙØ§ÙÙ ÙØ¹Ø§ÙÛØªÙØ§Û Ù¾ÚÙÙØ´Û- Ù¾ÚÙÙØ´Ú¯Ø± Ø¨Ø±ØªØ± Ø¯Ø§ÙØ´Ø¬ÙÛÛ.pdf",
+      "contentType": "application/pdf; charset=utf-8",
+      "fileSize": 232067,
+      "archivePath": "kermanshah-technology/2c3527562544-ÙØ±Ù Ø´ÙØ§Ø³ÙØ§ÙÙ ÙØ¹Ø§ÙÛØªÙØ§Û Ù¾ÚÙÙØ´Û- Ù¾ÚÙÙØ´Ú¯Ø± Ø¨Ø±ØªØ± Ø¯Ø§ÙØ´Ø¬ÙÛÛ.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kermanshah-technology-discovery-document-6732ac1062d5",
+      "universitySlug": "kermanshah-technology",
+      "title": "راهنمای درخواست ترفیع پایه در سامانه ژیرو",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=da393bdb-09d0-4a97-8ecc-7bde4b8427d2&FileName=avc_Promotion-Guide.rar",
+      "sourceUrl": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=da393bdb-09d0-4a97-8ecc-7bde4b8427d2&FileName=avc_Promotion-Guide.rar",
+      "parentUrl": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.85
     }
   ],
   "interpretation": {

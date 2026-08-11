@@ -85,7 +85,7 @@
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
       "lastRun": "2026-08-11",
-      "promotedSources": 94,
+      "promotedSources": 87,
       "socialEvidenceRemoved": true
     }
   },
@@ -171,9 +171,9 @@
       "documentsRegulations": "verified"
     },
     "auditEvidenceCoverage": 100,
-    "unitsFound": 9,
-    "systemsFound": 11,
-    "documentsFound": 58,
+    "unitsFound": 10,
+    "systemsFound": 16,
+    "documentsFound": 88,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 66,
+      "sourceCount": 92,
       "sources": [
         {
           "url": "https://research.znu.ac.ir/",
@@ -552,32 +552,213 @@
           "id": null
         },
         {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5218-shive-forsat.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه نامه فرصت مطالعاتی",
-          "id": null,
-          "sourceLabel": "شیوه نامه فرصت مطالعاتی"
+          "url": "https://research.znu.ac.ir/services/refrences-lib",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
         },
         {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5219-shiveh-forsatin.pdf",
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5168-aein98.pdf",
           "kind": "research-review-specific",
-          "claim": "شیوه نامه فرصت مطالعاتی دانشگاه زنجان",
+          "claim": "آیین نامه نشریات علمی کشور (تعیین اعتبار)",
           "id": null,
-          "sourceLabel": "شیوه نامه فرصت مطالعاتی دانشگاه زنجان"
+          "sourceLabel": "آیین نامه نشریات علمی کشور (تعیین اعتبار)"
         },
         {
-          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5267-aein-forsat.pdf",
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5175-aein.pdf",
           "kind": "research-review-specific",
-          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت",
+          "claim": "آيين نامه تعيين هزينه پردازش مقاله در نشریات علمی",
           "id": null,
-          "sourceLabel": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت"
+          "sourceLabel": "آيين نامه تعيين هزينه پردازش مقاله در نشریات علمی"
         },
         {
-          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-7883-peavastshiveh.pdf",
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5176-shiveh-rotbeh.pdf",
           "kind": "research-review-specific",
-          "claim": "پیوست شیوه نامه فرصت مطالعاتی",
+          "claim": "شيوه نامه ارزيابي و رتبه بندي نشريات علمي",
           "id": null,
-          "sourceLabel": "پیوست شیوه نامه فرصت مطالعاتی"
+          "sourceLabel": "شيوه نامه ارزيابي و رتبه بندي نشريات علمي"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5177-shiveh-nashr.pdf",
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه مجلات علمی دانشگاه زنجان",
+          "id": null,
+          "sourceLabel": "شیوه نامه مجلات علمی دانشگاه زنجان"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5174-aeinenteshar404.pdf",
+          "kind": "research-review-specific",
+          "claim": "آيين نامه انتشارات دانشگاه زنجان",
+          "id": null,
+          "sourceLabel": "آيين نامه انتشارات دانشگاه زنجان"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5181-aein-tarhin.pdf",
+          "kind": "research-review-specific",
+          "claim": "آيين‌نامه طرح‌هاي پژوهشي داخل دانشگاه",
+          "id": null,
+          "sourceLabel": "آيين‌نامه طرح‌هاي پژوهشي داخل دانشگاه"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5182-form-narhaletarh.doc",
+          "kind": "research-review-specific",
+          "claim": "فرم درخواست بررسی گزارش پیشرفت مرحله ای/نهایی طرح پژوهشی داخلی",
+          "id": null,
+          "sourceLabel": "فرم درخواست بررسی گزارش پیشرفت مرحله ای/نهایی طرح پژوهشی داخلی"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5183-form-tarh.docx",
+          "kind": "research-review-specific",
+          "claim": "فرم درخواست بررسی طرح پژوهشی داخلی",
+          "id": null,
+          "sourceLabel": "فرم درخواست بررسی طرح پژوهشی داخلی"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5184-format-gozareshetarh.doc",
+          "kind": "research-review-specific",
+          "claim": "فرمت گزارش نهايي طرح پژوهشي داخلي",
+          "id": null,
+          "sourceLabel": "فرمت گزارش نهايي طرح پژوهشي داخلي"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5192-form-atf.docx",
+          "kind": "research-review-specific",
+          "claim": "فرم عتف گرنت (درخواست خرید)",
+          "id": null,
+          "sourceLabel": "فرم عتف گرنت (درخواست خرید)"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5194-haghtashvigh1404.pdf",
+          "kind": "research-review-specific",
+          "claim": "آيين نامه حق التشويق چاپ مقالات در نشريات",
+          "id": null,
+          "sourceLabel": "آيين نامه حق التشويق چاپ مقالات در نشريات"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5195-form-pardakhtvezarat.docx",
+          "kind": "research-review-specific",
+          "claim": "فرم درخواست پرداخت هزینه‌های چاپ مقاله در مجلات ISI , ISC از محل پژوهانه (Grant)",
+          "id": null,
+          "sourceLabel": "فرم درخواست پرداخت هزینه‌های چاپ مقاله در مجلات ISI , ISC از محل پژوهانه (Grant)"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5196-form-darkhastgrantt.docx",
+          "kind": "research-review-specific",
+          "claim": "فرم درخواست پرداخت هزینه‌های ویرایش مقاله جهت ارسال به مجلات ISI از محل پژوهانه (Grant)",
+          "id": null,
+          "sourceLabel": "فرم درخواست پرداخت هزینه‌های ویرایش مقاله جهت ارسال به مجلات ISI از محل پژوهانه (Grant)"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5197-sokhanra.pdf",
+          "kind": "research-review-specific",
+          "claim": "آيين نامه سخنرانی‌های علمي داخل دانشگاه",
+          "id": null,
+          "sourceLabel": "آيين نامه سخنرانی‌های علمي داخل دانشگاه"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5801-aeinex404.pdf",
+          "kind": "research-review-specific",
+          "claim": "آيين نامه شركت در همايشهاي علمي خارج از كشور",
+          "id": null,
+          "sourceLabel": "آيين نامه شركت در همايشهاي علمي خارج از كشور"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5211-hamayeshin.pdf",
+          "kind": "research-review-specific",
+          "claim": "آيين نامه شركت در همایش‌های علمی داخل كشور",
+          "id": null,
+          "sourceLabel": "آيين نامه شركت در همایش‌های علمی داخل كشور"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5212-aein-bargozarihamayesh.pdf",
+          "kind": "research-review-specific",
+          "claim": "آیین‌نامه نحوه برگزاری و ساماندهی همایش های علمی",
+          "id": null,
+          "sourceLabel": "آیین‌نامه نحوه برگزاری و ساماندهی همایش های علمی"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5216-aein-hamayeshinvezarat.pdf",
+          "kind": "research-review-specific",
+          "claim": "آيين نامه برگزاری همايش‌هاي علمي داخل کشور(وزارت علوم)",
+          "id": null,
+          "sourceLabel": "آيين نامه برگزاری همايش‌هاي علمي داخل کشور(وزارت علوم)"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5199-aein-ozviyat.pdf",
+          "kind": "research-review-specific",
+          "claim": "آيين نامه عضويت در مجامع علمي",
+          "id": null,
+          "sourceLabel": "آيين نامه عضويت در مجامع علمي"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5229-aein-kargahin.pdf",
+          "kind": "research-review-specific",
+          "claim": "آیين نامه شركت در كارگاه‌های آموزشي داخل كشور",
+          "id": null,
+          "sourceLabel": "آیين نامه شركت در كارگاه‌های آموزشي داخل كشور"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5230-aein-kargahex.pdf",
+          "kind": "research-review-specific",
+          "claim": "آیين نامه شرکت در کارگاه‌های آموزشي تخصصي و مدارس تحقيقاتي و نمایشگاه‌های خارج از کشور",
+          "id": null,
+          "sourceLabel": "آیين نامه شرکت در کارگاه‌های آموزشي تخصصي و مدارس تحقيقاتي و نمایشگاه‌های خارج از کشور"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5239-farakhan-hemayat.pdf",
+          "kind": "research-review-specific",
+          "claim": "فراخوان حمایت از پایان نامه هاي تحصیلی مقطع دکتري",
+          "id": null,
+          "sourceLabel": "فراخوان حمایت از پایان نامه هاي تحصیلی مقطع دکتري"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5243-aein-tasis.pdf",
+          "kind": "research-review-specific",
+          "claim": "آیین‌نامه تأسیس و نگهداری هسته‌‌های دانشجویی پژوهش محور",
+          "id": null,
+          "sourceLabel": "آیین‌نامه تأسیس و نگهداری هسته‌‌های دانشجویی پژوهش محور"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5240-form-pardakhatvezarat.doc",
+          "kind": "research-review-specific",
+          "claim": "فرم پرداخت پژوهانه به دانشجویان دکترا از طرف وزارت علوم",
+          "id": null,
+          "sourceLabel": "فرم پرداخت پژوهانه به دانشجویان دکترا از طرف وزارت علوم"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5241-karbarg.doc",
+          "kind": "research-review-specific",
+          "claim": "کاربرگ درخواست حمایت از پايان‌نامه",
+          "id": null,
+          "sourceLabel": "کاربرگ درخواست حمایت از پايان‌نامه"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5205-shiveh-ertega.pdf",
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه ارتقاء",
+          "id": null,
+          "sourceLabel": "شیوه نامه ارتقاء"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5253-form-darkhasttarh.doc",
+          "kind": "research-review-specific",
+          "claim": "فرم خام درخواست ارسال پیشنهاده طرح پژوهشي برون دانشگاهی",
+          "id": null,
+          "sourceLabel": "فرم خام درخواست ارسال پیشنهاده طرح پژوهشي برون دانشگاهی"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/tacs-7954-7aein-band-h.pdf",
+          "kind": "research-review-specific",
+          "claim": "آیین نامه اجرایی بند ح",
+          "id": null,
+          "sourceLabel": "آیین نامه اجرایی بند ح"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/tacs-7956-9band-t-tabsare-9.pdf",
+          "kind": "research-review-specific",
+          "claim": "آیین نامه اجرایی بند (ط) تبصره (9) بودجه 97",
+          "id": null,
+          "sourceLabel": "آیین نامه اجرایی بند (ط) تبصره (9) بودجه 97"
         },
         {
           "url": "https://research.znu.ac.ir/page/rules-forms-rsr",
@@ -587,11 +768,11 @@
           "sourceLabel": "آیین‌نامه‌ها و فرم‌ها"
         },
         {
-          "url": "https://resmng.znu.ac.ir/rules/forms-research-mission-abroad",
+          "url": "http://www.znu.ac.ir/research/rules/publication-regulations",
           "kind": "research-review-specific",
-          "claim": "فرم ها (مأموریت پژوهشی خارج از کشور)",
+          "claim": "آیین نامه انتشارات",
           "id": null,
-          "sourceLabel": "فرم ها (مأموریت پژوهشی خارج از کشور)"
+          "sourceLabel": "آیین نامه انتشارات"
         }
       ],
       "publicationAdjustment": null,
@@ -609,7 +790,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 9,
+      "sourceCount": 7,
       "sources": [
         {
           "url": "https://research.znu.ac.ir/",
@@ -654,32 +835,20 @@
           "relationshipEvidenceUrl": null
         },
         {
+          "url": "https://research.znu.ac.ir/services/refrences-lib",
+          "kind": "unit",
+          "claim": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
+          "id": "zanjan-discovery-unit-library-b784f84566e1",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
           "url": "https://research.znu.ac.ir/services/opportunity-rsr",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
           "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/rules/research-study-opportunity",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/rules/forms-study-opportunity",
-          "kind": "research-review-specific",
-          "claim": "فرم ها (فرصت مطالعاتی)",
-          "id": null,
-          "sourceLabel": "فرم ها (فرصت مطالعاتی)"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/rules/instructions-regulations-study-opportunity",
-          "kind": "research-review-specific",
-          "claim": "دستورالعمل ها و آئین نامه ها (فرصت مطالعاتی)",
-          "id": null,
-          "sourceLabel": "دستورالعمل ها و آئین نامه ها (فرصت مطالعاتی)"
         }
       ],
       "publicationAdjustment": null,
@@ -693,11 +862,11 @@
       "iscCategory": "جامع",
       "iscRank": 29,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 7,
+      "sourceCount": 16,
       "sources": [
         {
           "url": "https://research.znu.ac.ir/",
@@ -707,15 +876,30 @@
         },
         {
           "url": "http://library.znu.ac.ir/SimorghPortal/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "کتابخانه مرکزی و مرکز اسناد دانشگاه زنجان",
+          "id": "zanjan-discovery-unit-library-8939b6031079",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         },
         {
           "url": "http://library.znu.ac.ir/simorghportal/tabid/34/Default.aspx",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "کتابخانه مرکزی و مرکز اسناد دانشگاه زنجان",
+          "id": "zanjan-discovery-unit-library-78133fb4cd9c",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/services/refrences-lib",
+          "kind": "unit",
+          "claim": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
+          "id": "zanjan-discovery-unit-library-b784f84566e1",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/pay-services-from-research-site",
@@ -725,10 +909,41 @@
           "systemCategory": "journals"
         },
         {
+          "url": "https://research.znu.ac.ir/services",
+          "kind": "system",
+          "claim": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
+          "id": "zanjan-discovery-system-b784f84566e1",
+          "systemCategory": "journals"
+        },
+        {
           "url": "https://resmng.znu.ac.ir/rules/forms-sci-pub-country",
           "kind": "document",
           "claim": "فرم ها (نشریات علمی کشور)",
           "id": "zanjan-discovery-document-cf65fd793859"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5168-aein98.pdf",
+          "kind": "document",
+          "claim": "آیین نامه نشریات علمی کشور (تعیین اعتبار)",
+          "id": "zanjan-discovery-document-3a0d7afd4dce"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5175-aein.pdf",
+          "kind": "document",
+          "claim": "آيين نامه تعيين هزينه پردازش مقاله در نشریات علمی",
+          "id": "zanjan-discovery-document-a377b504a76c"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5176-shiveh-rotbeh.pdf",
+          "kind": "document",
+          "claim": "شيوه نامه ارزيابي و رتبه بندي نشريات علمي",
+          "id": "zanjan-discovery-document-894123a4773f"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5194-haghtashvigh1404.pdf",
+          "kind": "document",
+          "claim": "آيين نامه حق التشويق چاپ مقالات در نشريات",
+          "id": "zanjan-discovery-document-ce614084c23f"
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/library-7050-znuthesis.docx",
@@ -738,15 +953,36 @@
           "sourceLabel": "دستورالعمل تدوین پایان نامه های دانشگاه با ورد"
         },
         {
-          "url": "https://resmng.znu.ac.ir/rules/rsr-publication-forms",
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5177-shiveh-nashr.pdf",
           "kind": "research-review-specific",
-          "claim": "فرم ها (انتشارات)",
+          "claim": "شیوه نامه مجلات علمی دانشگاه زنجان",
           "id": null,
-          "sourceLabel": "فرم ها (انتشارات)"
+          "sourceLabel": "شیوه نامه مجلات علمی دانشگاه زنجان"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5195-form-pardakhtvezarat.docx",
+          "kind": "research-review-specific",
+          "claim": "فرم درخواست پرداخت هزینه‌های چاپ مقاله در مجلات ISI , ISC از محل پژوهانه (Grant)",
+          "id": null,
+          "sourceLabel": "فرم درخواست پرداخت هزینه‌های چاپ مقاله در مجلات ISI , ISC از محل پژوهانه (Grant)"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5196-form-darkhastgrantt.docx",
+          "kind": "research-review-specific",
+          "claim": "فرم درخواست پرداخت هزینه‌های ویرایش مقاله جهت ارسال به مجلات ISI از محل پژوهانه (Grant)",
+          "id": null,
+          "sourceLabel": "فرم درخواست پرداخت هزینه‌های ویرایش مقاله جهت ارسال به مجلات ISI از محل پژوهانه (Grant)"
+        },
+        {
+          "url": "http://www.znu.ac.ir/research/rules/publication-regulations",
+          "kind": "research-review-specific",
+          "claim": "آیین نامه انتشارات",
+          "id": null,
+          "sourceLabel": "آیین نامه انتشارات"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -787,11 +1023,11 @@
       "iscCategory": "جامع",
       "iscRank": 29,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 9,
+      "sourceCount": 6,
       "sources": [
         {
           "url": "https://research.znu.ac.ir/",
@@ -801,9 +1037,12 @@
         },
         {
           "url": "https://tacs.znu.ac.ir/rules/forsat-edu-teachers",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
+          "kind": "unit",
+          "claim": "مدیریت امور فناوری و ارتباط با جامعه - دانشگاه زنجان | University of zanjan",
+          "id": "zanjan-discovery-unit-industry-1aad9f023f44",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         },
         {
           "url": "https://research.znu.ac.ir/services/malekiat-fekri-rsr",
@@ -815,7 +1054,7 @@
           "relationshipEvidenceUrl": null
         },
         {
-          "url": "https://education.znu.ac.ir/systems/i-have-recorded-diagnoses-perceptions-principles-samana-golestan-edu",
+          "url": "https://it.znu.ac.ir/systems/download-attachments-zip-files-it",
           "kind": "research-review-specific",
           "claim": "سامانه‌ها و خدمات — کشف خودکار",
           "id": null,
@@ -829,36 +1068,15 @@
           "sourceLabel": "آیین نامه حمایت از پایان نامه های دکتری زیست فناوری"
         },
         {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5237-aein-hemayat.pdf",
-          "kind": "research-review-specific",
-          "claim": "آیین نامه حمایت از پایان نامه های دکتری زیست فناوری",
-          "id": null,
-          "sourceLabel": "آیین نامه حمایت از پایان نامه های دکتری زیست فناوری"
-        },
-        {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5267-aein-forsat.pdf",
           "kind": "research-review-specific",
           "claim": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت",
           "id": null,
           "sourceLabel": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت"
-        },
-        {
-          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5267-aein-forsat.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت",
-          "id": null,
-          "sourceLabel": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/rules/forms-membership",
-          "kind": "research-review-specific",
-          "claim": "فرم ها (عضویت)",
-          "id": null,
-          "sourceLabel": "فرم ها (عضویت)"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -872,7 +1090,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 2,
+      "sourceCount": 8,
       "sources": [
         {
           "url": "https://research.znu.ac.ir/",
@@ -881,11 +1099,53 @@
           "id": null
         },
         {
+          "url": "https://it.znu.ac.ir/rules/rules-guidelines-it",
+          "kind": "system",
+          "claim": "گروه توسعه فناوری اطلاعات، امنیت و هوشمندسازی - دانشگاه زنجان | University of zanjan",
+          "id": "zanjan-discovery-system-963df21e3cd1",
+          "systemCategory": "it"
+        },
+        {
+          "url": "https://it.znu.ac.ir/systems",
+          "kind": "system",
+          "claim": "گروه توسعه فناوری اطلاعات، امنیت و هوشمندسازی - دانشگاه زنجان | University of zanjan",
+          "id": "zanjan-discovery-system-f3627c164437",
+          "systemCategory": "it"
+        },
+        {
           "url": "https://research.znu.ac.ir/services/user-help-it",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
           "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://it.znu.ac.ir/rules",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://systems.znu.ac.ir/it",
+          "kind": "research-review-specific",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
+        },
+        {
+          "url": "https://it.znu.ac.ir/systems/email-guide-it",
+          "kind": "research-review-specific",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
+        },
+        {
+          "url": "https://it.znu.ac.ir/systems/download-attachments-zip-files-it",
+          "kind": "research-review-specific",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -903,40 +1163,28 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 15,
+      "sourceCount": 17,
       "sources": [
         {
-          "url": "https://systems.znu.ac.ir/",
+          "url": "https://it.znu.ac.ir/systems",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
         },
         {
-          "url": "https://education.znu.ac.ir/systems/",
+          "url": "https://systems.znu.ac.ir/it",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
         },
         {
-          "url": "https://education.znu.ac.ir/systems/application-guide-proposed-registration-master-thesis-doctoral-thesis-edu",
+          "url": "https://it.znu.ac.ir/systems/email-guide-it",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
         },
         {
-          "url": "https://resmng.znu.ac.ir/page/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://education.znu.ac.ir/systems/i-have-recorded-diagnoses-perceptions-principles-samana-golestan-edu",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://tacs.znu.ac.ir/rules/support-student-theses",
+          "url": "https://it.znu.ac.ir/systems/download-attachments-zip-files-it",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
@@ -946,6 +1194,13 @@
           "kind": "system",
           "claim": "خدمات و فرآیندها - دانشگاه زنجان",
           "id": "zanjan-discovery-system-5bf3a2fb4eb7",
+          "systemCategory": "research"
+        },
+        {
+          "url": "https://education.znu.ac.ir/systems/",
+          "kind": "system",
+          "claim": "معاونت آموزشي - دانشگاه زنجان | University of zanjan",
+          "id": "zanjan-discovery-system-cf09bab0af2b",
           "systemCategory": "research"
         },
         {
@@ -977,6 +1232,13 @@
           "systemCategory": "research"
         },
         {
+          "url": "https://it.znu.ac.ir/rules/rules-guidelines-it",
+          "kind": "system",
+          "claim": "گروه توسعه فناوری اطلاعات، امنیت و هوشمندسازی - دانشگاه زنجان | University of zanjan",
+          "id": "zanjan-discovery-system-963df21e3cd1",
+          "systemCategory": "it"
+        },
+        {
           "url": "https://research.znu.ac.ir/services/opportunity-rsr",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش کشف‌شده",
@@ -998,11 +1260,25 @@
           "sourceLabel": "پرتال پژوهش کشف‌شده"
         },
         {
-          "url": "https://resmng.znu.ac.ir/rules/forms-sci-pub-country",
+          "url": "https://research.znu.ac.ir/services/refrences-lib",
           "kind": "research-review-specific",
-          "claim": "فرم ها (نشریات علمی کشور)",
+          "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
-          "sourceLabel": "فرم ها (نشریات علمی کشور)"
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5168-aein98.pdf",
+          "kind": "research-review-specific",
+          "claim": "آیین نامه نشریات علمی کشور (تعیین اعتبار)",
+          "id": null,
+          "sourceLabel": "آیین نامه نشریات علمی کشور (تعیین اعتبار)"
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5175-aein.pdf",
+          "kind": "research-review-specific",
+          "claim": "آيين نامه تعيين هزينه پردازش مقاله در نشریات علمی",
+          "id": null,
+          "sourceLabel": "آيين نامه تعيين هزينه پردازش مقاله در نشریات علمی"
         }
       ],
       "publicationAdjustment": null,
@@ -1020,40 +1296,34 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 64,
+      "sourceCount": 93,
       "sources": [
         {
-          "url": "https://resmng.znu.ac.ir/rules",
+          "url": "https://it.znu.ac.ir/rules",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "http://library.znu.ac.ir/SimorghPortal/",
+          "url": "https://it.znu.ac.ir/rules/rules-guidelines-it",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "http://library.znu.ac.ir/simorghportal/tabid/34/Default.aspx",
+          "url": "https://resmng.znu.ac.ir/rules/rules-regulations-conferences",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://education.znu.ac.ir/systems/",
+          "url": "https://it.znu.ac.ir/systems",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://education.znu.ac.ir/systems/application-guide-proposed-registration-master-thesis-doctoral-thesis-edu",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://education.znu.ac.ir/systems/i-have-recorded-diagnoses-perceptions-principles-samana-golestan-edu",
+          "url": "https://it.znu.ac.ir/systems/email-guide-it",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -1066,18 +1336,6 @@
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5293-form-zamaem.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
-          "id": null
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5242-forme-arshadeblag.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
-          "id": null
-        },
-        {
-          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5293-form-zamaem.docx",
           "kind": "portal-document-reaudit-document",
           "claim": "ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
           "id": null
@@ -1125,30 +1383,6 @@
           "id": null
         },
         {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5233-shiveh-arshad.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
-          "id": null
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5235-mosavabe-tahsilat.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "مصوبات هیأت محترم رئیسه دانشگاه در ارتباط با شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
-          "id": null
-        },
-        {
-          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5291-shiveh-payan.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه کمک هزینه پایان نامه کارشناسی ارشد و رساله دکترای دانشگاه زنجان",
-          "id": null
-        },
-        {
-          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5292-mosavabe-payan.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "مصوبات هیأت محترم رئیسه دانشگاه در ارتباط با شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
-          "id": null
-        },
-        {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5220-form-forsat.docx",
           "kind": "portal-document-reaudit-document",
           "claim": "فرم و شیوه نامه تهیه گزارش نهایی فرصت مطالعاتي",
@@ -1170,18 +1404,6 @@
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/central-lab-7558-regulations-centrallab.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "آیین نامه آزمایشگاه مرکزی- وزارت علوم",
-          "id": null
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5220-form-forsat.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم و شیوه نامه تهیه گزارش نهایی فرصت مطالعاتي",
-          "id": null
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5237-aein-hemayat.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه حمایت از پایان نامه های دکتری زیست فناوری",
           "id": null
         },
         {
@@ -1281,51 +1503,177 @@
           "id": null
         },
         {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5217-aein-forsatmotalati.pdf",
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5168-aein98.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "آيين نامه فرصت مطالعاتي",
+          "claim": "آیین نامه نشریات علمی کشور (تعیین اعتبار)",
           "id": null
         },
         {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5218-shive-forsat.pdf",
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5175-aein.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه فرصت مطالعاتی",
+          "claim": "آيين نامه تعيين هزينه پردازش مقاله در نشریات علمی",
           "id": null
         },
         {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5219-shiveh-forsatin.pdf",
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5176-shiveh-rotbeh.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه فرصت مطالعاتی دانشگاه زنجان",
+          "claim": "شيوه نامه ارزيابي و رتبه بندي نشريات علمي",
           "id": null
         },
         {
-          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5267-aein-forsat.pdf",
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5177-shiveh-nashr.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت",
+          "claim": "شیوه نامه مجلات علمی دانشگاه زنجان",
           "id": null
         },
         {
-          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-7883-peavastshiveh.pdf",
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5174-aeinenteshar404.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "پیوست شیوه نامه فرصت مطالعاتی",
+          "claim": "آيين نامه انتشارات دانشگاه زنجان",
           "id": null
         },
         {
-          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7968-6forsat-defa.pdf",
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5181-aein-tarhin.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه فرصت مطالعاتی وزارت دفاع",
+          "claim": "آيين‌نامه طرح‌هاي پژوهشي داخل دانشگاه",
           "id": null
         },
         {
-          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7969-7forsat-naft.pdf",
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5182-form-narhaletarh.doc",
           "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه فرصت مطالعاتی وزارت نفت",
+          "claim": "فرم درخواست بررسی گزارش پیشرفت مرحله ای/نهایی طرح پژوهشی داخلی",
           "id": null
         },
         {
-          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7972-10forsat-niroo.pdf",
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5183-form-tarh.docx",
           "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه فرصت مطالعاتی وزارت نیرو",
+          "claim": "فرم درخواست بررسی طرح پژوهشی داخلی",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5184-format-gozareshetarh.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرمت گزارش نهايي طرح پژوهشي داخلي",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5192-form-atf.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم عتف گرنت (درخواست خرید)",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5194-haghtashvigh1404.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه حق التشويق چاپ مقالات در نشريات",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5195-form-pardakhtvezarat.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست پرداخت هزینه‌های چاپ مقاله در مجلات ISI , ISC از محل پژوهانه (Grant)",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5196-form-darkhastgrantt.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست پرداخت هزینه‌های ویرایش مقاله جهت ارسال به مجلات ISI از محل پژوهانه (Grant)",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5197-sokhanra.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه سخنرانی‌های علمي داخل دانشگاه",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5801-aeinex404.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه شركت در همايشهاي علمي خارج از كشور",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5211-hamayeshin.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه شركت در همایش‌های علمی داخل كشور",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5212-aein-bargozarihamayesh.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین‌نامه نحوه برگزاری و ساماندهی همایش های علمی",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5216-aein-hamayeshinvezarat.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه برگزاری همايش‌هاي علمي داخل کشور(وزارت علوم)",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5199-aein-ozviyat.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه عضويت در مجامع علمي",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5229-aein-kargahin.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیين نامه شركت در كارگاه‌های آموزشي داخل كشور",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5230-aein-kargahex.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیين نامه شرکت در کارگاه‌های آموزشي تخصصي و مدارس تحقيقاتي و نمایشگاه‌های خارج از کشور",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5239-farakhan-hemayat.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فراخوان حمایت از پایان نامه هاي تحصیلی مقطع دکتري",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5243-aein-tasis.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین‌نامه تأسیس و نگهداری هسته‌‌های دانشجویی پژوهش محور",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5240-form-pardakhatvezarat.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پرداخت پژوهانه به دانشجویان دکترا از طرف وزارت علوم",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5241-karbarg.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "کاربرگ درخواست حمایت از پايان‌نامه",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5205-shiveh-ertega.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه ارتقاء",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5253-form-darkhasttarh.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم خام درخواست ارسال پیشنهاده طرح پژوهشي برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/tacs-7954-7aein-band-h.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه اجرایی بند ح",
+          "id": null
+        },
+        {
+          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/tacs-7956-9band-t-tabsare-9.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه اجرایی بند (ط) تبصره (9) بودجه 97",
           "id": null
         },
         {
@@ -1335,76 +1683,178 @@
           "id": null
         },
         {
-          "url": "https://resmng.znu.ac.ir/rules/forms-pajuhaneh",
+          "url": "http://www.znu.ac.ir/research/rules/publication-regulations",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم ها (پژوهانه و خرید کالا)",
+          "claim": "آیین نامه انتشارات",
           "id": null
+        },
+        {
+          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5242-forme-arshadeblag.docx",
+          "kind": "document",
+          "claim": "ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
+          "id": "zanjan-discovery-document-81238550a4c1"
+        },
+        {
+          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5293-form-zamaem.docx",
+          "kind": "document",
+          "claim": "ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
+          "id": "zanjan-discovery-document-70a745d224b7"
+        },
+        {
+          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5233-shiveh-arshad.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
+          "id": "zanjan-discovery-document-2c37db01317c"
+        },
+        {
+          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5235-mosavabe-tahsilat.pdf",
+          "kind": "document",
+          "claim": "مصوبات هیأت محترم رئیسه دانشگاه در ارتباط با شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
+          "id": "zanjan-discovery-document-1fdbe8f13577"
+        },
+        {
+          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5291-shiveh-payan.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه کمک هزینه پایان نامه کارشناسی ارشد و رساله دکترای دانشگاه زنجان",
+          "id": "zanjan-discovery-document-2a6200b56fdb"
+        },
+        {
+          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5292-mosavabe-payan.pdf",
+          "kind": "document",
+          "claim": "مصوبات هیأت محترم رئیسه دانشگاه در ارتباط با شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
+          "id": "zanjan-discovery-document-a9c7e80cfdd2"
+        },
+        {
+          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5220-form-forsat.docx",
+          "kind": "document",
+          "claim": "فرم و شیوه نامه تهیه گزارش نهایی فرصت مطالعاتي",
+          "id": "zanjan-discovery-document-b6328b035c25"
+        },
+        {
+          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5237-aein-hemayat.pdf",
+          "kind": "document",
+          "claim": "آیین نامه حمایت از پایان نامه های دکتری زیست فناوری",
+          "id": "zanjan-discovery-document-1355a8396154"
+        },
+        {
+          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5217-aein-forsatmotalati.pdf",
+          "kind": "document",
+          "claim": "آيين نامه فرصت مطالعاتي",
+          "id": "zanjan-discovery-document-ecfe64c94816"
+        },
+        {
+          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5218-shive-forsat.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی",
+          "id": "zanjan-discovery-document-43571dedd7a7"
+        },
+        {
+          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5219-shiveh-forsatin.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی دانشگاه زنجان",
+          "id": "zanjan-discovery-document-0ca2b78d8fd3"
+        },
+        {
+          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5267-aein-forsat.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت",
+          "id": "zanjan-discovery-document-4b12dee908b7"
+        },
+        {
+          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-7883-peavastshiveh.pdf",
+          "kind": "document",
+          "claim": "پیوست شیوه نامه فرصت مطالعاتی",
+          "id": "zanjan-discovery-document-37c52186f8aa"
+        },
+        {
+          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7968-6forsat-defa.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی وزارت دفاع",
+          "id": "zanjan-discovery-document-e5601d5368bc"
+        },
+        {
+          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7969-7forsat-naft.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی وزارت نفت",
+          "id": "zanjan-discovery-document-85298bc08fd0"
+        },
+        {
+          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7972-10forsat-niroo.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی وزارت نیرو",
+          "id": "zanjan-discovery-document-c9805404f6e2"
+        },
+        {
+          "url": "https://resmng.znu.ac.ir/rules/forms-pajuhaneh",
+          "kind": "document",
+          "claim": "فرم ها (پژوهانه و خرید کالا)",
+          "id": "zanjan-discovery-document-c916fa58addf"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/forms-study-opportunity",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم ها (فرصت مطالعاتی)",
-          "id": null
+          "id": "zanjan-discovery-document-c8676e63355e"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/forms-sci-pub-country",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم ها (نشریات علمی کشور)",
-          "id": null
+          "id": "zanjan-discovery-document-cf65fd793859"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/rsr-publication-forms",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم ها (انتشارات)",
-          "id": null
+          "id": "zanjan-discovery-document-707ff8e31a22"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/forms-articles",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم ها (مقالات)",
-          "id": null
+          "id": "zanjan-discovery-document-20cf0c0786cf"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/forms-lectures",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم ها (سخنرانی ها)",
-          "id": null
+          "id": "zanjan-discovery-document-294964828c1f"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/forms-conventions",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم ها (همایش‌ها)",
-          "id": null
+          "id": "zanjan-discovery-document-4e825061c764"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/forms-membership",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم ها (عضویت)",
-          "id": null
+          "id": "zanjan-discovery-document-571473de3741"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/instructions-regulations-study-opportunity",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "دستورالعمل ها و آئین نامه ها (فرصت مطالعاتی)",
-          "id": null
+          "id": "zanjan-discovery-document-a6ed709b941b"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/forms-research-mission-abroad",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم ها (مأموریت پژوهشی خارج از کشور)",
-          "id": null
+          "id": "zanjan-discovery-document-72a3a35dc1a0"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/forms-training-workshops",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم ها (کارگاه‌های آموزشي)",
-          "id": null
+          "id": "zanjan-discovery-document-9a3bce96f880"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/forms-knowledge-base",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم ها (دانش بنیان)",
-          "id": null
+          "id": "zanjan-discovery-document-f88927adb20a"
         }
       ],
       "publicationAdjustment": null,
@@ -1417,28 +1867,28 @@
     "nameFa": "دانشگاه زنجان",
     "iscCategory": "جامع",
     "iscRank": 29,
-    "score": 81.4,
+    "score": 82.9,
     "confidence": 100,
     "metrics": {
       "documents": 91,
       "organization": 90.8,
       "library": 70,
       "laboratories": 70,
-      "digital": 55,
+      "digital": 67.5,
       "industryTech": 90,
       "dataQuality": 100,
       "findability": 75
     },
-    "units": 9,
-    "systems": 11,
-    "documents": 58,
+    "units": 10,
+    "systems": 16,
+    "documents": 88,
     "activeWeight": 100,
     "evidenceCoverage": 100,
     "methodologyVersion": "RTPMI-4.1-ISC",
     "snapshotDate": "2026-08-11",
-    "rank": 19,
-    "portalRankWithinISCClass": 11,
-    "rankedPortalsInISCClass": 32
+    "rank": 17,
+    "portalRankWithinISCClass": 10,
+    "rankedPortalsInISCClass": 35
   },
   "units": [
     {
@@ -1529,6 +1979,17 @@
       "sourceUrl": "https://research.znu.ac.ir/services/malekiat-fekri-rsr",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.7905263157894736
+    },
+    {
+      "id": "zanjan-discovery-unit-library-b784f84566e1",
+      "universitySlug": "zanjan",
+      "nameFa": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "sourceUrl": "https://research.znu.ac.ir/services/refrences-lib",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9221052631578948
     }
   ],
   "systems": [
@@ -1674,6 +2135,71 @@
       "lastVerified": "2026-08-11",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8431578947368421
+    },
+    {
+      "id": "zanjan-discovery-system-963df21e3cd1",
+      "universitySlug": "zanjan",
+      "nameFa": "گروه توسعه فناوری اطلاعات، امنیت و هوشمندسازی - دانشگاه زنجان | University of zanjan",
+      "category": "it",
+      "url": "https://it.znu.ac.ir/systems",
+      "sourceUrl": "https://it.znu.ac.ir/rules/rules-guidelines-it",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "zanjan-discovery-system-b784f84566e1",
+      "universitySlug": "zanjan",
+      "nameFa": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
+      "category": "journals",
+      "url": "https://research.znu.ac.ir/services/refrences-lib",
+      "sourceUrl": "https://research.znu.ac.ir/services",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "zanjan-discovery-system-bc0ff40ab42d",
+      "universitySlug": "zanjan",
+      "nameFa": "خدمات و فرآیندها - دانشگاه زنجان",
+      "category": "research",
+      "url": "https://systems.znu.ac.ir/it",
+      "sourceUrl": "https://research.znu.ac.ir/services",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "zanjan-discovery-system-f3627c164437",
+      "universitySlug": "zanjan",
+      "nameFa": "گروه توسعه فناوری اطلاعات، امنیت و هوشمندسازی - دانشگاه زنجان | University of zanjan",
+      "category": "it",
+      "url": "https://it.znu.ac.ir/systems/email-guide-it",
+      "sourceUrl": "https://it.znu.ac.ir/systems",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "zanjan-discovery-system-d46dbe94085a",
+      "universitySlug": "zanjan",
+      "nameFa": "گروه توسعه فناوری اطلاعات، امنیت و هوشمندسازی - دانشگاه زنجان | University of zanjan",
+      "category": "it",
+      "url": "https://it.znu.ac.ir/systems/download-attachments-zip-files-it",
+      "sourceUrl": "https://it.znu.ac.ir/systems",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
     }
   ],
   "documents": [
@@ -2602,6 +3128,486 @@
       "url": "https://resmng.znu.ac.ir/rules/forms-knowledge-base",
       "sourceUrl": "https://resmng.znu.ac.ir/rules/forms-knowledge-base",
       "parentUrl": "https://resmng.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.85
+    },
+    {
+      "id": "zanjan-discovery-document-3a0d7afd4dce",
+      "universitySlug": "zanjan",
+      "title": "آیین نامه نشریات علمی کشور (تعیین اعتبار)",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5168-aein98.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5168-aein98.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-a377b504a76c",
+      "universitySlug": "zanjan",
+      "title": "آيين نامه تعيين هزينه پردازش مقاله در نشریات علمی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5175-aein.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5175-aein.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-894123a4773f",
+      "universitySlug": "zanjan",
+      "title": "شيوه نامه ارزيابي و رتبه بندي نشريات علمي",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5176-shiveh-rotbeh.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5176-shiveh-rotbeh.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-b42ce9904efb",
+      "universitySlug": "zanjan",
+      "title": "شیوه نامه مجلات علمی دانشگاه زنجان",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5177-shiveh-nashr.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5177-shiveh-nashr.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-bf2d0016c39c",
+      "universitySlug": "zanjan",
+      "title": "آيين نامه انتشارات دانشگاه زنجان",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5174-aeinenteshar404.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5174-aeinenteshar404.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-458087fdfe40",
+      "universitySlug": "zanjan",
+      "title": "آيين‌نامه طرح‌هاي پژوهشي داخل دانشگاه",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5181-aein-tarhin.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5181-aein-tarhin.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-d590dea91d87",
+      "universitySlug": "zanjan",
+      "title": "فرم درخواست بررسی گزارش پیشرفت مرحله ای/نهایی طرح پژوهشی داخلی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5182-form-narhaletarh.doc",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5182-form-narhaletarh.doc",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-e5b59d2320e8",
+      "universitySlug": "zanjan",
+      "title": "فرم درخواست بررسی طرح پژوهشی داخلی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5183-form-tarh.docx",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5183-form-tarh.docx",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-5adfbce80ff9",
+      "universitySlug": "zanjan",
+      "title": "فرمت گزارش نهايي طرح پژوهشي داخلي",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5184-format-gozareshetarh.doc",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5184-format-gozareshetarh.doc",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-302582ea05ee",
+      "universitySlug": "zanjan",
+      "title": "فرم عتف گرنت (درخواست خرید)",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5192-form-atf.docx",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5192-form-atf.docx",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-ce614084c23f",
+      "universitySlug": "zanjan",
+      "title": "آيين نامه حق التشويق چاپ مقالات در نشريات",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5194-haghtashvigh1404.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5194-haghtashvigh1404.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-204e4a89af9b",
+      "universitySlug": "zanjan",
+      "title": "فرم درخواست پرداخت هزینه‌های چاپ مقاله در مجلات ISI , ISC از محل پژوهانه (Grant)",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5195-form-pardakhtvezarat.docx",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5195-form-pardakhtvezarat.docx",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-b96454108e06",
+      "universitySlug": "zanjan",
+      "title": "فرم درخواست پرداخت هزینه‌های ویرایش مقاله جهت ارسال به مجلات ISI از محل پژوهانه (Grant)",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5196-form-darkhastgrantt.docx",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5196-form-darkhastgrantt.docx",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-0ab42fddf033",
+      "universitySlug": "zanjan",
+      "title": "آيين نامه سخنرانی‌های علمي داخل دانشگاه",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5197-sokhanra.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5197-sokhanra.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-66d83d94919d",
+      "universitySlug": "zanjan",
+      "title": "آيين نامه شركت در همايشهاي علمي خارج از كشور",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5801-aeinex404.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5801-aeinex404.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-78ff3feb9646",
+      "universitySlug": "zanjan",
+      "title": "آيين نامه شركت در همایش‌های علمی داخل كشور",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5211-hamayeshin.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5211-hamayeshin.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-39070623cc5d",
+      "universitySlug": "zanjan",
+      "title": "آیین‌نامه نحوه برگزاری و ساماندهی همایش های علمی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5212-aein-bargozarihamayesh.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5212-aein-bargozarihamayesh.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-2b663db290a1",
+      "universitySlug": "zanjan",
+      "title": "آيين نامه برگزاری همايش‌هاي علمي داخل کشور(وزارت علوم)",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5216-aein-hamayeshinvezarat.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5216-aein-hamayeshinvezarat.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-999be84f38cb",
+      "universitySlug": "zanjan",
+      "title": "آيين نامه عضويت در مجامع علمي",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5199-aein-ozviyat.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5199-aein-ozviyat.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-e387a153c184",
+      "universitySlug": "zanjan",
+      "title": "آیين نامه شركت در كارگاه‌های آموزشي داخل كشور",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5229-aein-kargahin.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5229-aein-kargahin.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-4f9a939dd520",
+      "universitySlug": "zanjan",
+      "title": "آیين نامه شرکت در کارگاه‌های آموزشي تخصصي و مدارس تحقيقاتي و نمایشگاه‌های خارج از کشور",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5230-aein-kargahex.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5230-aein-kargahex.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-3d195318bc67",
+      "universitySlug": "zanjan",
+      "title": "فراخوان حمایت از پایان نامه هاي تحصیلی مقطع دکتري",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5239-farakhan-hemayat.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5239-farakhan-hemayat.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-213436f104af",
+      "universitySlug": "zanjan",
+      "title": "آیین‌نامه تأسیس و نگهداری هسته‌‌های دانشجویی پژوهش محور",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5243-aein-tasis.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5243-aein-tasis.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-a0bc3508ad0a",
+      "universitySlug": "zanjan",
+      "title": "فرم پرداخت پژوهانه به دانشجویان دکترا از طرف وزارت علوم",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5240-form-pardakhatvezarat.doc",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5240-form-pardakhatvezarat.doc",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-3c82172fb56a",
+      "universitySlug": "zanjan",
+      "title": "کاربرگ درخواست حمایت از پايان‌نامه",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5241-karbarg.doc",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5241-karbarg.doc",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-d244f9e658a9",
+      "universitySlug": "zanjan",
+      "title": "شیوه نامه ارتقاء",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5205-shiveh-ertega.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5205-shiveh-ertega.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-acd019f3dbaa",
+      "universitySlug": "zanjan",
+      "title": "فرم خام درخواست ارسال پیشنهاده طرح پژوهشي برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5253-form-darkhasttarh.doc",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5253-form-darkhasttarh.doc",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-0801104ca6be",
+      "universitySlug": "zanjan",
+      "title": "آیین نامه اجرایی بند ح",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/tacs-7954-7aein-band-h.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/tacs-7954-7aein-band-h.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-f88ed442c051",
+      "universitySlug": "zanjan",
+      "title": "آیین نامه اجرایی بند (ط) تبصره (9) بودجه 97",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.znu.ac.ir/files/uploaded/rules-file/tacs-7956-9band-t-tabsare-9.pdf",
+      "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/tacs-7956-9band-t-tabsare-9.pdf",
+      "parentUrl": "https://research.znu.ac.ir/rules",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.86
+    },
+    {
+      "id": "zanjan-discovery-document-a44cd173765c",
+      "universitySlug": "zanjan",
+      "title": "آیین نامه انتشارات",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "http://www.znu.ac.ir/research/rules/publication-regulations",
+      "sourceUrl": "http://www.znu.ac.ir/research/rules/publication-regulations",
+      "parentUrl": "https://research.znu.ac.ir/services",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.85
     }

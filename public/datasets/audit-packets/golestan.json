@@ -88,7 +88,7 @@
     ],
     "discoveryCrawler": {
       "lastRun": "2026-08-11",
-      "promotedSources": 81,
+      "promotedSources": 71,
       "socialEvidenceRemoved": true
     }
   },
@@ -162,22 +162,22 @@
       "https://gu.ac.ir/file/cabfb9f4-6ea8-e911-8137-305a3a756628/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%A7%D8%B5%D9%84%D8%A7%D8%AD%20%D8%B4%D8%AF%D9%87%20%D8%AB%D8%A8%D8%AA%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D9%87%D8%A7%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.pdf",
       "https://gu.ac.ir/file/3532742f-10c2-f011-bc0f-000c29e302f8/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%AC%D8%B0%D8%A8%20%D9%88%20%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4%20-%20%D8%AA%D8%A7%D8%A8%D8%B3%D8%AA%D8%A7%D9%86%201404.pdf"
     ],
-    "deepAuditStatus": "identity-verified-deep-pending",
+    "deepAuditStatus": "deep-audited",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "verified",
-      "libraryDocuments": "unresolved",
+      "libraryDocuments": "verified",
       "laboratories": "unresolved",
       "industryTechnology": "verified",
       "informationTechnology": "unresolved",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 63,
-    "unitsFound": 5,
+    "auditEvidenceCoverage": 75,
+    "unitsFound": 7,
     "systemsFound": 1,
-    "documentsFound": 56,
-    "rankingEligibility": "unranked-evidence-insufficient",
+    "documentsFound": 71,
+    "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
   "dimensionEvidence": [
@@ -192,7 +192,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 61,
+      "sourceCount": 64,
       "sources": [
         {
           "url": "https://gu.ac.ir/research/",
@@ -555,6 +555,25 @@
           "id": null
         },
         {
+          "url": "https://gu.ac.ir/research/ContextPage?id=9611",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://gu.ac.ir/research/ContextPage?id=27705",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://gu.ac.ir/research/ContextPage?id=27749",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
           "url": "https://gu.ac.ir/research/~/file/a34e4973-8610-f111-bc10-000c29e302f8/1504341024-.pdf",
           "kind": "research-review-specific",
           "claim": "دستورالعمل نحوه بررسی و مصادیق تخلفات پژوهشی",
@@ -577,7 +596,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 10,
+      "sourceCount": 9,
       "sources": [
         {
           "url": "https://gu.ac.ir/research/ContextPage?id=9701",
@@ -622,6 +641,24 @@
           "relationshipEvidenceUrl": null
         },
         {
+          "url": "https://gu.ac.ir/library/ContextPage?id=26489",
+          "kind": "unit",
+          "claim": "بازدید رئیس کتابخانه مرکزی و مرکز اسناد دانشگاه گلستان از کتابخانه مرکزی دانشگاه علوم پزشکی گلستان",
+          "id": "golestan-discovery-unit-library-8eb56534187d",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://gu.ac.ir/library/HomePage",
+          "kind": "unit",
+          "claim": "کتابخانه مرکزی و مرکز اسناد دانشگاه گلستان",
+          "id": "golestan-discovery-unit-library-c7877720db44",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
           "url": "https://gu.ac.ir/file/2ef00db8-0460-e911-8137-305a3a756628/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%AD%D9%88%D9%87%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7%20%D9%85%D9%88%D8%B1%D8%AE%20971107.pdf",
           "kind": "research-review-specific",
           "claim": "آیین نامه نحوه تاسیس واحدهای پژوهشی در دانشگاهها مورخ 971107",
@@ -634,27 +671,6 @@
           "claim": "ویرایش دوم آیین نامه نحوه تاسیس واحدهای پژوهشی در دانشگاه مورخ 1400.03.02",
           "id": null,
           "sourceLabel": "ویرایش دوم آیین نامه نحوه تاسیس واحدهای پژوهشی در دانشگاه مورخ 1400.03.02"
-        },
-        {
-          "url": "https://gu.ac.ir/file/3532742f-10c2-f011-bc0f-000c29e302f8/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%AC%D8%B0%D8%A8%20%D9%88%20%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4%20-%20%D8%AA%D8%A7%D8%A8%D8%B3%D8%AA%D8%A7%D9%86%201404.pdf",
-          "kind": "research-review-specific",
-          "claim": "آیین نامه پذیرش و استقرار هسته ها و واحد های فناور در مرکز رشد",
-          "id": null,
-          "sourceLabel": "آیین نامه پذیرش و استقرار هسته ها و واحد های فناور در مرکز رشد"
-        },
-        {
-          "url": "https://gu.ac.ir/file/376d5099-10c2-f011-bc0f-000c29e302f8/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20-%20%D9%88%D8%B1%DA%98%D9%86%206.pdf",
-          "kind": "research-review-specific",
-          "claim": "آیین نامه ارزیابی هسته ها و واحد های فناور",
-          "id": null,
-          "sourceLabel": "آیین نامه ارزیابی هسته ها و واحد های فناور"
-        },
-        {
-          "url": "https://gu.ac.ir/file/0243cc88-f4d0-ec11-9ed4-005056998f1e/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3%20%D9%88%20%D9%8A%D8%A7%20%D8%AA%D8%A8%D8%AF%D9%8A%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%D9%8A%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C.doc",
-          "kind": "research-review-specific",
-          "claim": "فرم درخواست تأسيس و يا تبديل واحدهاي پژوهشي دانشگاهی",
-          "id": null,
-          "sourceLabel": "فرم درخواست تأسيس و يا تبديل واحدهاي پژوهشي دانشگاهی"
         }
       ],
       "publicationAdjustment": null,
@@ -668,12 +684,24 @@
       "iscCategory": "جامع",
       "iscRank": 42,
       "dimension": "libraryDocuments",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 4,
+      "sourceCount": 12,
       "sources": [
+        {
+          "url": "https://gu.ac.ir/library/ContextPage?id=26489",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://gu.ac.ir/library/HomePage",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
         {
           "url": "https://gu.ac.ir/file/a701bd49-cebf-e811-8125-305a3a756628/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C%20%D9%86%D9%85%D8%A7%DB%8C%D9%87%20%D8%B4%D8%AF%D9%87%20%D8%AF%D8%B1%20%D9%86%D9%85%D8%A7%DB%8C%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%A8%DB%8C%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1.pdf",
           "kind": "document",
@@ -697,10 +725,48 @@
           "kind": "document",
           "claim": "دستورالعمل اجرایی تشویق نویسندگان مقالات منتشر شده در نشریات معتبر بین المللی و داخلی اعضای هیات علمی",
           "id": "golestan-discovery-document-61dbeb9098b1"
+        },
+        {
+          "url": "https://gu.ac.ir/file/51b00c60-a4fc-e611-965f-000c2952a238/form%20faculty%20register.pdf",
+          "kind": "document",
+          "claim": "فرم عضویت کتابخانه (اعضای هیأت علمی)",
+          "id": "golestan-discovery-document-78fdf9b595c6"
+        },
+        {
+          "url": "https://gu.ac.ir/file/60f89e6f-a4fc-e611-965f-000c2952a238/form%20register%20daneshjoo.pdf",
+          "kind": "document",
+          "claim": "فرم عضویت کتابخانه - دانشجویان",
+          "id": "golestan-discovery-document-177fd02ecaeb"
+        },
+        {
+          "url": "https://gu.ac.ir/file/f7986280-a4fc-e611-965f-000c2952a238/form%20karmandan%20register.pdf",
+          "kind": "document",
+          "claim": "فرم عضویت کتابخانه (اعضای غیرهیأت علمی)",
+          "id": "golestan-discovery-document-8b0080162c89"
+        },
+        {
+          "url": "https://gu.ac.ir/file/47321bb3-a4fc-e611-965f-000c2952a238/form%20request%20serials.pdf",
+          "kind": "document",
+          "claim": "فرم سفارش خرید نشریات علمی - پژوهشی",
+          "id": "golestan-discovery-document-ad1c2dd39d1c"
+        },
+        {
+          "url": "https://gu.ac.ir/library/ContextPage?id=4106",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://gu.ac.ir/library/ContextPage?id=1033",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -735,35 +801,47 @@
       "iscCategory": "جامع",
       "iscRank": 42,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 14,
+      "sourceCount": 12,
       "sources": [
         {
           "url": "https://gu.ac.ir/incubator/ContextPage?id=5076",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
+          "kind": "unit",
+          "claim": "معرفی مرکز رشد مشترک واحد های فناور دانشگاه گلستان و پارک علم و فناوری گلستان",
+          "id": "golestan-discovery-unit-technology-401eb80a254c",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         },
         {
           "url": "https://gu.ac.ir/incubator/ContextPage?id=5078",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
+          "kind": "unit",
+          "claim": "اعضای شورای مرکز رشد",
+          "id": "golestan-discovery-unit-technology-32aae414ab4a",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         },
         {
           "url": "https://gu.ac.ir/incubator/ContextPage?id=6071",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
+          "kind": "unit",
+          "claim": "فرم های مرکز رشد",
+          "id": "golestan-discovery-unit-technology-4407714111d5",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         },
         {
           "url": "https://gu.ac.ir/incubator/ContextPage?id=6070",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
+          "kind": "unit",
+          "claim": "آیین نامه های مرکز رشد",
+          "id": "golestan-discovery-unit-technology-386e0b13f3c1",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         },
         {
           "url": "https://gu.ac.ir/research/",
@@ -794,39 +872,25 @@
           "sourceLabel": "شیوه نامه اجرایی فرصت تحقیقاتی کوتاه مدت داخل و خارج از کشور در سال 95-سازمان امور دانشجویان"
         },
         {
-          "url": "https://gu.ac.ir/file/f00c6238-8195-e911-8137-305a3a756628/%D9%81%D8%B1%D9%85%20%D9%87%D8%A7%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D8%AF%D8%A7%D8%AE%D9%84.zip",
-          "kind": "research-review-specific",
-          "claim": "فرمهای درخواست فرصت مطالعاتی داخل کشور",
-          "id": null,
-          "sourceLabel": "فرمهای درخواست فرصت مطالعاتی داخل کشور"
-        },
-        {
-          "url": "https://gu.ac.ir/file/3532742f-10c2-f011-bc0f-000c29e302f8/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%AC%D8%B0%D8%A8%20%D9%88%20%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4%20-%20%D8%AA%D8%A7%D8%A8%D8%B3%D8%AA%D8%A7%D9%86%201404.pdf",
-          "kind": "research-review-specific",
-          "claim": "آیین نامه پذیرش و استقرار هسته ها و واحد های فناور در مرکز رشد",
-          "id": null,
-          "sourceLabel": "آیین نامه پذیرش و استقرار هسته ها و واحد های فناور در مرکز رشد"
-        },
-        {
-          "url": "https://gu.ac.ir/file/376d5099-10c2-f011-bc0f-000c29e302f8/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20-%20%D9%88%D8%B1%DA%98%D9%86%206.pdf",
-          "kind": "research-review-specific",
-          "claim": "آیین نامه ارزیابی هسته ها و واحد های فناور",
-          "id": null,
-          "sourceLabel": "آیین نامه ارزیابی هسته ها و واحد های فناور"
-        },
-        {
-          "url": "https://gu.ac.ir/file/0cac8550-10c2-f011-bc0f-000c29e302f8/%D8%B4%D9%8A%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B3%D9%87%DB%8C%D9%84%D8%A7%D8%AA%20%D8%AD%D9%85%D8%A7%D9%8A%D8%AA%D9%8A.pdf",
-          "kind": "research-review-specific",
-          "claim": "آیین نامه حمایت مالی پارک علم و فناوری گلستان",
-          "id": null,
-          "sourceLabel": "آیین نامه حمایت مالی پارک علم و فناوری گلستان"
-        },
-        {
           "url": "https://gu.ac.ir/file/026460ff-4f13-ea11-8139-305a3a756628/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%D9%85%D8%A7%D9%84%DB%8C-%D8%A7%D8%B2-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7-%D9%88-%DA%A9%D9%86%D9%81%D8%B1%D8%A7%D9%86%D8%B3-%D9%87%D8%A7%20(1).docx",
           "kind": "research-review-specific",
           "claim": "فرم درخواست حمایت مالی از همایشها و کنفرانسها-مرکز منطقه&zwnj;ای اطلاع&zwnj;رسانی علوم و فناوری",
           "id": null,
           "sourceLabel": "فرم درخواست حمایت مالی از همایشها و کنفرانسها-مرکز منطقه&zwnj;ای اطلاع&zwnj;رسانی علوم و فناوری"
+        },
+        {
+          "url": "https://gu.ac.ir/file/a78e1e17-8d70-ed11-9edf-0050568ba441/%D8%B3%D8%AE%D9%86%D8%B1%D8%A7%D9%86%DB%8C-%D9%86%D9%87%D8%A7%DB%8C%DB%8C.pdf",
+          "kind": "research-review-specific",
+          "claim": "جهت مشاهده جدول برنامه سخنرانی و کارگاه های اعضای هیئت علمی در هفته پژوهش و فناوری سال 1401 (12 الی 18 اذر ماه)کلیک بفرمایید",
+          "id": null,
+          "sourceLabel": "جهت مشاهده جدول برنامه سخنرانی و کارگاه های اعضای هیئت علمی در هفته پژوهش و فناوری سال 1401 (12 الی 18 اذر ماه)کلیک بفرمایید"
+        },
+        {
+          "url": "https://gu.ac.ir/file/6629f47f-d5e8-e911-8138-305a3a756628/1570253256-.pdf",
+          "kind": "research-review-specific",
+          "claim": "دستورالعمل بیستمین جشنواره تجلیل از پژوهشگران و فناوران برگزیده کشور",
+          "id": null,
+          "sourceLabel": "دستورالعمل بیستمین جشنواره تجلیل از پژوهشگران و فناوران برگزیده کشور"
         },
         {
           "url": "https://drt.msrt.ir/file/download/page/1664865738-23.pdf",
@@ -837,7 +901,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -868,7 +932,7 @@
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 5,
+      "sourceCount": 8,
       "sources": [
         {
           "url": "https://gu.ac.ir/",
@@ -904,6 +968,27 @@
           "claim": "دستورالعمل اجرایی تشویق نویسندگان مقالات منتشر شده در نشریات معتبر بین المللی و داخلی اعضای هیات علمی",
           "id": null,
           "sourceLabel": "دستورالعمل اجرایی تشویق نویسندگان مقالات منتشر شده در نشریات معتبر بین المللی و داخلی اعضای هیات علمی"
+        },
+        {
+          "url": "https://gu.ac.ir/file/47321bb3-a4fc-e611-965f-000c2952a238/form%20request%20serials.pdf",
+          "kind": "research-review-specific",
+          "claim": "فرم سفارش خرید نشریات علمی - پژوهشی",
+          "id": null,
+          "sourceLabel": "فرم سفارش خرید نشریات علمی - پژوهشی"
+        },
+        {
+          "url": "https://gu.ac.ir/file/e02fc6cc-a9fc-e611-965f-000c2952a238/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%AB%D8%A8%D8%AA%20%D9%85%D9%82%D8%A7%D9%84%D9%87%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.pdf",
+          "kind": "research-review-specific",
+          "claim": "راهنمای ثبت مقاله در سامانه گلستان",
+          "id": null,
+          "sourceLabel": "راهنمای ثبت مقاله در سامانه گلستان"
+        },
+        {
+          "url": "https://gu.ac.ir/file/25b26420-acfc-e611-965f-000c2952a238/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%AA%D8%A3%DB%8C%DB%8C%D8%AF%20%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%A7%D8%B2%20%D8%B1%D8%A7%D9%87%20%D9%BE%DB%8C%D8%B4.pdf",
+          "kind": "research-review-specific",
+          "claim": "راهنمای تأیید اطلاعات فعالیت پژوهشی از راه پیش خوان خدمت",
+          "id": null,
+          "sourceLabel": "راهنمای تأیید اطلاعات فعالیت پژوهشی از راه پیش خوان خدمت"
         }
       ],
       "publicationAdjustment": null,
@@ -921,8 +1006,14 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 64,
+      "sourceCount": 79,
       "sources": [
+        {
+          "url": "https://gu.ac.ir/research/ContextPage?id=27749",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
         {
           "url": "https://gu.ac.ir/research/ContextPage?id=4081",
           "kind": "portal-document-reaudit",
@@ -936,13 +1027,13 @@
           "id": null
         },
         {
-          "url": "https://gu.ac.ir/research/ContextPage?id=4058",
+          "url": "https://gu.ac.ir/library/ContextPage?id=4106",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://gu.ac.ir/incubator/ContextPage?id=6071",
+          "url": "https://gu.ac.ir/library/ContextPage?id=1033",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -954,19 +1045,13 @@
           "id": null
         },
         {
-          "url": "https://gu.ac.ir/incubator/ContextPage?id=6070",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
           "url": "https://gu.ac.ir/research/ContextPage?id=4124",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://gu.ac.ir/research/ContextPage?id=18016",
+          "url": "https://gu.ac.ir/library/ContextPage?id=26489",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -1014,27 +1099,21 @@
           "id": null
         },
         {
-          "url": "https://gu.ac.ir/file/55c1fea5-3e25-ee11-841d-000c293a8ee1/%D9%81%D8%B1%D9%85%20%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D9%87%D8%A7%20(4).doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "صورت&shy;جلسه هزینه&zwnj;های مربوط به تبصره &shy;های 4-1 تا 4-3 شیوه نامه پژوهانه اعضای هیئت علمی",
-          "id": null
-        },
-        {
-          "url": "https://gu.ac.ir/file/db22fff2-0147-ee11-841e-000c293a8ee1/Form%20(1).pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "صورتجلسه هزینه کرد پایان نامه/رساله تحصیلات تکمیلی-جایگزین فاکتور-ویژه دانشجویان 1401 به بعد",
-          "id": null
-        },
-        {
-          "url": "https://gu.ac.ir/file/d1880862-ec46-ee11-841e-000c293a8ee1/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87%20%D9%87%D8%B2%D9%8A%D9%86%D9%87%E2%80%8C%D9%87%D8%A7%D9%8A%20%D9%85%D8%B5%D8%B1%D9%81%D9%8A%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA%20%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C%20%D9%88%DB%8C%DA%98%D9%87%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86%20%D9%88%D8%B1%D9%88%D8%AF%DB%8C%201401%20%D8%A8%D9%87%20%D8%A8%D8%B9%D8%AF%20(%D9%85%D8%B5%D9%88%D8%A8%203%20%D9%85%D8%B1%D8%AF%D8%A7%D8%AF%201402%20%D9%87%D9%8A%D8%A6%D8%AA%20%D8%B1%D8%A6%D9%8A%D8%B3%D9%87%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87).doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "صورتجلسه هزينه&zwnj;هاي مصرفي پایان نامه رساله تحصیلات تکمیلی ویژه دانشجویان ورودی 1401 به بعد",
-          "id": null
-        },
-        {
           "url": "https://gu.ac.ir/file/fa150d39-e6f4-eb11-9ec1-005056998f1e/ETHICS-Committee-Establishment-Process.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "شیوه نامه دستورالعمل نحوه تشکیل، روش کار و شرح وظایف کارگروه اخلاق در پژوهش وزارت بهداشت",
+          "id": null
+        },
+        {
+          "url": "https://gu.ac.ir/file/24607845-c763-f111-bc12-000c29e302f8/%D9%86%D8%B8%D8%A7%D9%85%20%D9%86%D8%A7%D9%85%D9%87%20%D9%88%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%20%DA%A9%D8%B1%D8%B3%DB%8C%20%D9%87%D8%A7%DB%8C%20%D9%86%D8%B8%D8%B1%DB%8C%D9%87%20%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%DB%8C%D8%8C%20%D9%86%D9%82%D8%AF%20%D9%88%20%D9%85%D9%86%D8%A7%D8%B8%D8%B1%D9%87.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "نظام نامه و آیین نامه های هیات حمایت از کرسی های نظریه پردازی، نقد و مناظره",
+          "id": null
+        },
+        {
+          "url": "https://gu.ac.ir/file/87eeae6c-c763-f111-bc12-000c29e302f8/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%DA%A9%D8%B1%D8%B3%DB%8C%20%D9%87%D8%A7%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%872%20(2).pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه کرسی های دانشگاه",
           "id": null
         },
         {
@@ -1134,42 +1213,6 @@
           "id": null
         },
         {
-          "url": "https://gu.ac.ir/file/0b739fac-90b8-f011-bc0f-000c29e302f8/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87%20%DB%B4%DB%B0%D9%AA%20%D8%A8%D8%AF%D9%88%D9%86%20%D9%81%D8%A7%DA%A9%D8%AA%D9%88%D8%B1%20-%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ۴۰٪ بدون فاکتور پژوهانه اعضای هیات علمی",
-          "id": null
-        },
-        {
-          "url": "https://gu.ac.ir/file/c4ec7b64-d742-f111-bc12-000c29e302f8/%D9%81%D8%B1%D9%85%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C%20%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%D9%87%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20-%20%D8%AE%D8%A7%D9%84%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم پیشنهاده طرح پژوهشي (فایل ورد)",
-          "id": null
-        },
-        {
-          "url": "https://gu.ac.ir/file/65d866aa-2c3e-f111-bc12-000c29e302f8/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D9%87%D8%A7%DB%8C%20%D9%85%D8%B5%D8%B1%D9%81%DB%8C%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA%20%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "صورتجلسه هزینه های پایان نامه های تحصیلات تکمیلی",
-          "id": null
-        },
-        {
-          "url": "https://gu.ac.ir/file/4f928065-424f-e711-9b01-001e67059a43/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%DB%8C%DA%98%D9%87.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست اعتبار پژوهشی ویژه (گرنت ویژه)",
-          "id": null
-        },
-        {
-          "url": "https://gu.ac.ir/file/df0b46a8-424f-e711-9b01-001e67059a43/%D9%81%D8%B1%D9%85%20%D8%AF%D8%A7%D9%88%D8%B1%DB%8C%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%DB%8C%DA%98%D9%87.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم داوری درخواست اعتبار پژوهشی ویژه (گرنت ویژه)",
-          "id": null
-        },
-        {
-          "url": "https://gu.ac.ir/file/f00c6238-8195-e911-8137-305a3a756628/%D9%81%D8%B1%D9%85%20%D9%87%D8%A7%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D8%AF%D8%A7%D8%AE%D9%84.zip",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرمهای درخواست فرصت مطالعاتی داخل کشور",
-          "id": null
-        },
-        {
           "url": "https://gu.ac.ir/file/3ff72db1-e5f4-eb11-9ec1-005056998f1e/%D8%B4%D9%8A%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82%20%D8%B2%D9%8A%D8%B3%D8%AA%D9%8A%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D9%84%D9%88%D9%85.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "شیوه نامه تشکیل و فعالیت کارگروه ویژه اخلاق زیستی وزارت علوم و تحقیقات",
@@ -1182,21 +1225,9 @@
           "id": null
         },
         {
-          "url": "https://gu.ac.ir/file/3532742f-10c2-f011-bc0f-000c29e302f8/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%AC%D8%B0%D8%A8%20%D9%88%20%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4%20-%20%D8%AA%D8%A7%D8%A8%D8%B3%D8%AA%D8%A7%D9%86%201404.pdf",
+          "url": "https://gu.ac.ir/file/05855c5a-c763-f111-bc12-000c29e302f8/%D9%81%D8%B1%D9%85%20%D8%B7%D8%B1%D8%AD%D9%86%D8%A7%D9%85%D9%87%20%D9%83%D8%B1%D8%B3%D9%8A%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AA%D8%B1%D9%88%D9%8A%D8%AC%D9%8A%20(2).docx",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه پذیرش و استقرار هسته ها و واحد های فناور در مرکز رشد",
-          "id": null
-        },
-        {
-          "url": "https://gu.ac.ir/file/376d5099-10c2-f011-bc0f-000c29e302f8/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20-%20%D9%88%D8%B1%DA%98%D9%86%206.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه ارزیابی هسته ها و واحد های فناور",
-          "id": null
-        },
-        {
-          "url": "https://gu.ac.ir/file/0cac8550-10c2-f011-bc0f-000c29e302f8/%D8%B4%D9%8A%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B3%D9%87%DB%8C%D9%84%D8%A7%D8%AA%20%D8%AD%D9%85%D8%A7%D9%8A%D8%AA%D9%8A.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه حمایت مالی پارک علم و فناوری گلستان",
+          "claim": "فرم طرحنامه كرسي علمی ترويجي",
           "id": null
         },
         {
@@ -1248,39 +1279,51 @@
           "id": null
         },
         {
-          "url": "https://gu.ac.ir/file/251c6629-90dd-f011-bc0f-000c29e302f8/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87%20%D9%87%D8%B2%DB%8C%D9%86%D9%87_%D9%87%D8%A7%DB%8C%20%D9%85%DB%8C%D8%AF%D8%A7%D9%86%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C-%20%D8%A8%D8%A7%20%D8%A7%D8%B1%D8%A7%D8%A6%D9%87%20%D9%81%D8%A7%DA%A9%D8%AA%D9%88%D8%B1.doc",
+          "url": "https://gu.ac.ir/file/84a2493a-7b09-f111-bc10-000c29e302f8/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%DA%A9%D8%AF%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82%20%D8%B2%DB%8C%D8%B3%D8%AA%DB%8C.docx",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم صورتجلسه هزینه های میدانی اعضای هیات علمی",
+          "claim": "فرم_درخواست کد اخلاق زیستی",
           "id": null
         },
         {
-          "url": "https://gu.ac.ir/file/1a8d9176-812e-ed11-9ed9-005056998f1e/%D9%81%D8%B1%D9%85%20%D8%AF%D8%A7%D9%88%D8%B1%DB%8C%20%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.doc",
+          "url": "https://gu.ac.ir/file/170a3d52-7b09-f111-bc10-000c29e302f8/%D9%81%D8%B1%D9%85%20%D8%B1%D8%B6%D8%A7%DB%8C%D8%AA%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A2%DA%AF%D8%A7%D9%87%D8%A7%D9%86%D9%87.docx",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم داوری و نظارت طرح های پژوهشی داخلی",
+          "claim": "فرم رضایت نامه آگاهانه",
           "id": null
         },
         {
-          "url": "https://gu.ac.ir/file/b4c4cda2-7e92-ea11-813d-305a3a756628/%D9%81%D8%B1%D9%85%20%D8%AF%D8%A7%D9%88%D8%B1%DB%8C%20%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C.doc",
+          "url": "https://gu.ac.ir/file/51b00c60-a4fc-e611-965f-000c2952a238/form%20faculty%20register.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم داوری گزارش نهایی طرح تحقیقاتی",
+          "claim": "فرم عضویت کتابخانه (اعضای هیأت علمی)",
           "id": null
         },
         {
-          "url": "https://gu.ac.ir/file/857ea833-8429-eb11-8145-305a3a756628/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%AA%D8%A7%DB%8C%DB%8C%D8%AF%DB%8C%D9%87%20%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C.doc",
+          "url": "https://gu.ac.ir/file/60f89e6f-a4fc-e611-965f-000c2952a238/form%20register%20daneshjoo.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست تاییدیه گزارش نهایی طرح تحقیقاتی",
+          "claim": "فرم عضویت کتابخانه - دانشجویان",
           "id": null
         },
         {
-          "url": "https://gu.ac.ir/file/db1610d0-4679-ed11-9edf-0050568ba441/%D8%AD%D9%82%20%D8%A7%D9%84%D8%AA%D8%AD%D9%82%DB%8C%D9%82.doc",
+          "url": "https://gu.ac.ir/file/f7986280-a4fc-e611-965f-000c2952a238/form%20karmandan%20register.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست پرداخت حق التحقیق طرح تحقیقاتی داخلی",
+          "claim": "فرم عضویت کتابخانه (اعضای غیرهیأت علمی)",
           "id": null
         },
         {
-          "url": "https://gu.ac.ir/file/0243cc88-f4d0-ec11-9ed4-005056998f1e/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3%20%D9%88%20%D9%8A%D8%A7%20%D8%AA%D8%A8%D8%AF%D9%8A%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%D9%8A%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C.doc",
+          "url": "https://gu.ac.ir/file/5c7df0a5-a4fc-e611-965f-000c2952a238/form%20request%20book%20L.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست تأسيس و يا تبديل واحدهاي پژوهشي دانشگاهی",
+          "claim": "فرم سفارش خرید کتاب لاتین",
+          "id": null
+        },
+        {
+          "url": "https://gu.ac.ir/file/47321bb3-a4fc-e611-965f-000c2952a238/form%20request%20serials.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم سفارش خرید نشریات علمی - پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://gu.ac.ir/file/a747ff82-43fe-e611-965f-000c2952a238/form%20temp.%20taahod%20giga2.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم تعهدنامه استفاده از پایگاه های اطلاعاتی اشتراک دانشگاه",
           "id": null
         },
         {
@@ -1302,10 +1345,142 @@
           "id": null
         },
         {
+          "url": "https://gu.ac.ir/file/a78e1e17-8d70-ed11-9edf-0050568ba441/%D8%B3%D8%AE%D9%86%D8%B1%D8%A7%D9%86%DB%8C-%D9%86%D9%87%D8%A7%DB%8C%DB%8C.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "جهت مشاهده جدول برنامه سخنرانی و کارگاه های اعضای هیئت علمی در هفته پژوهش و فناوری سال 1401 (12 الی 18 اذر ماه)کلیک بفرمایید",
+          "id": null
+        },
+        {
+          "url": "https://gu.ac.ir/file/e02fc6cc-a9fc-e611-965f-000c2952a238/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%AB%D8%A8%D8%AA%20%D9%85%D9%82%D8%A7%D9%84%D9%87%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "راهنمای ثبت مقاله در سامانه گلستان",
+          "id": null
+        },
+        {
+          "url": "https://gu.ac.ir/file/25b26420-acfc-e611-965f-000c2952a238/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%AA%D8%A3%DB%8C%DB%8C%D8%AF%20%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%A7%D8%B2%20%D8%B1%D8%A7%D9%87%20%D9%BE%DB%8C%D8%B4.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "راهنمای تأیید اطلاعات فعالیت پژوهشی از راه پیش خوان خدمت",
+          "id": null
+        },
+        {
+          "url": "https://gu.ac.ir/file/6629f47f-d5e8-e911-8138-305a3a756628/1570253256-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل بیستمین جشنواره تجلیل از پژوهشگران و فناوران برگزیده کشور",
+          "id": null
+        },
+        {
           "url": "https://drt.msrt.ir/file/download/page/1664865738-23.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "دستورالعمل جشنواره تجلیل از پژوهشگران، فناوران و نوآوران برگزیده کشور",
           "id": null
+        },
+        {
+          "url": "https://gu.ac.ir/file/55c1fea5-3e25-ee11-841d-000c293a8ee1/%D9%81%D8%B1%D9%85%20%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D9%87%D8%A7%20(4).doc",
+          "kind": "document",
+          "claim": "صورت&shy;جلسه هزینه&zwnj;های مربوط به تبصره &shy;های 4-1 تا 4-3 شیوه نامه پژوهانه اعضای هیئت علمی",
+          "id": "golestan-discovery-document-d6183f659cfb"
+        },
+        {
+          "url": "https://gu.ac.ir/file/db22fff2-0147-ee11-841e-000c293a8ee1/Form%20(1).pdf",
+          "kind": "document",
+          "claim": "صورتجلسه هزینه کرد پایان نامه/رساله تحصیلات تکمیلی-جایگزین فاکتور-ویژه دانشجویان 1401 به بعد",
+          "id": "golestan-discovery-document-288e5908ece3"
+        },
+        {
+          "url": "https://gu.ac.ir/file/d1880862-ec46-ee11-841e-000c293a8ee1/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87%20%D9%87%D8%B2%D9%8A%D9%86%D9%87%E2%80%8C%D9%87%D8%A7%D9%8A%20%D9%85%D8%B5%D8%B1%D9%81%D9%8A%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA%20%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C%20%D9%88%DB%8C%DA%98%D9%87%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86%20%D9%88%D8%B1%D9%88%D8%AF%DB%8C%201401%20%D8%A8%D9%87%20%D8%A8%D8%B9%D8%AF%20(%D9%85%D8%B5%D9%88%D8%A8%203%20%D9%85%D8%B1%D8%AF%D8%A7%D8%AF%201402%20%D9%87%D9%8A%D8%A6%D8%AA%20%D8%B1%D8%A6%D9%8A%D8%B3%D9%87%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87).doc",
+          "kind": "document",
+          "claim": "صورتجلسه هزينه&zwnj;هاي مصرفي پایان نامه رساله تحصیلات تکمیلی ویژه دانشجویان ورودی 1401 به بعد",
+          "id": "golestan-discovery-document-f90ff80af3c6"
+        },
+        {
+          "url": "https://gu.ac.ir/file/0b739fac-90b8-f011-bc0f-000c29e302f8/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87%20%DB%B4%DB%B0%D9%AA%20%D8%A8%D8%AF%D9%88%D9%86%20%D9%81%D8%A7%DA%A9%D8%AA%D9%88%D8%B1%20-%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
+          "kind": "document",
+          "claim": "فرم ۴۰٪ بدون فاکتور پژوهانه اعضای هیات علمی",
+          "id": "golestan-discovery-document-075b83aba20b"
+        },
+        {
+          "url": "https://gu.ac.ir/file/c4ec7b64-d742-f111-bc12-000c29e302f8/%D9%81%D8%B1%D9%85%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C%20%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%D9%87%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20-%20%D8%AE%D8%A7%D9%84%DB%8C.docx",
+          "kind": "document",
+          "claim": "فرم پیشنهاده طرح پژوهشي (فایل ورد)",
+          "id": "golestan-discovery-document-bb4bf0e9dfe9"
+        },
+        {
+          "url": "https://gu.ac.ir/file/65d866aa-2c3e-f111-bc12-000c29e302f8/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D9%87%D8%A7%DB%8C%20%D9%85%D8%B5%D8%B1%D9%81%DB%8C%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA%20%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C.docx",
+          "kind": "document",
+          "claim": "صورتجلسه هزینه های پایان نامه های تحصیلات تکمیلی",
+          "id": "golestan-discovery-document-802887290481"
+        },
+        {
+          "url": "https://gu.ac.ir/file/4f928065-424f-e711-9b01-001e67059a43/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%DB%8C%DA%98%D9%87.docx",
+          "kind": "document",
+          "claim": "فرم درخواست اعتبار پژوهشی ویژه (گرنت ویژه)",
+          "id": "golestan-discovery-document-d285ee0b3ac4"
+        },
+        {
+          "url": "https://gu.ac.ir/file/df0b46a8-424f-e711-9b01-001e67059a43/%D9%81%D8%B1%D9%85%20%D8%AF%D8%A7%D9%88%D8%B1%DB%8C%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%DB%8C%DA%98%D9%87.doc",
+          "kind": "document",
+          "claim": "فرم داوری درخواست اعتبار پژوهشی ویژه (گرنت ویژه)",
+          "id": "golestan-discovery-document-2f995134e71c"
+        },
+        {
+          "url": "https://gu.ac.ir/file/f00c6238-8195-e911-8137-305a3a756628/%D9%81%D8%B1%D9%85%20%D9%87%D8%A7%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D8%AF%D8%A7%D8%AE%D9%84.zip",
+          "kind": "document",
+          "claim": "فرمهای درخواست فرصت مطالعاتی داخل کشور",
+          "id": "golestan-discovery-document-afb1f4340bf9"
+        },
+        {
+          "url": "https://gu.ac.ir/file/3532742f-10c2-f011-bc0f-000c29e302f8/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%AC%D8%B0%D8%A8%20%D9%88%20%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4%20-%20%D8%AA%D8%A7%D8%A8%D8%B3%D8%AA%D8%A7%D9%86%201404.pdf",
+          "kind": "document",
+          "claim": "آیین نامه پذیرش و استقرار هسته ها و واحد های فناور در مرکز رشد",
+          "id": "golestan-discovery-document-080051d21817"
+        },
+        {
+          "url": "https://gu.ac.ir/file/376d5099-10c2-f011-bc0f-000c29e302f8/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20-%20%D9%88%D8%B1%DA%98%D9%86%206.pdf",
+          "kind": "document",
+          "claim": "آیین نامه ارزیابی هسته ها و واحد های فناور",
+          "id": "golestan-discovery-document-0304992a1bf7"
+        },
+        {
+          "url": "https://gu.ac.ir/file/0cac8550-10c2-f011-bc0f-000c29e302f8/%D8%B4%D9%8A%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B3%D9%87%DB%8C%D9%84%D8%A7%D8%AA%20%D8%AD%D9%85%D8%A7%D9%8A%D8%AA%D9%8A.pdf",
+          "kind": "document",
+          "claim": "آیین نامه حمایت مالی پارک علم و فناوری گلستان",
+          "id": "golestan-discovery-document-60ad3680dacb"
+        },
+        {
+          "url": "https://gu.ac.ir/file/251c6629-90dd-f011-bc0f-000c29e302f8/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87%20%D9%87%D8%B2%DB%8C%D9%86%D9%87_%D9%87%D8%A7%DB%8C%20%D9%85%DB%8C%D8%AF%D8%A7%D9%86%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C-%20%D8%A8%D8%A7%20%D8%A7%D8%B1%D8%A7%D8%A6%D9%87%20%D9%81%D8%A7%DA%A9%D8%AA%D9%88%D8%B1.doc",
+          "kind": "document",
+          "claim": "فرم صورتجلسه هزینه های میدانی اعضای هیات علمی",
+          "id": "golestan-discovery-document-48b169fc94d6"
+        },
+        {
+          "url": "https://gu.ac.ir/file/1a8d9176-812e-ed11-9ed9-005056998f1e/%D9%81%D8%B1%D9%85%20%D8%AF%D8%A7%D9%88%D8%B1%DB%8C%20%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.doc",
+          "kind": "document",
+          "claim": "فرم داوری و نظارت طرح های پژوهشی داخلی",
+          "id": "golestan-discovery-document-dc52c6215c5e"
+        },
+        {
+          "url": "https://gu.ac.ir/file/b4c4cda2-7e92-ea11-813d-305a3a756628/%D9%81%D8%B1%D9%85%20%D8%AF%D8%A7%D9%88%D8%B1%DB%8C%20%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C.doc",
+          "kind": "document",
+          "claim": "فرم داوری گزارش نهایی طرح تحقیقاتی",
+          "id": "golestan-discovery-document-789cfb0e1d17"
+        },
+        {
+          "url": "https://gu.ac.ir/file/857ea833-8429-eb11-8145-305a3a756628/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%AA%D8%A7%DB%8C%DB%8C%D8%AF%DB%8C%D9%87%20%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C.doc",
+          "kind": "document",
+          "claim": "فرم درخواست تاییدیه گزارش نهایی طرح تحقیقاتی",
+          "id": "golestan-discovery-document-59d62ac0de49"
+        },
+        {
+          "url": "https://gu.ac.ir/file/db1610d0-4679-ed11-9edf-0050568ba441/%D8%AD%D9%82%20%D8%A7%D9%84%D8%AA%D8%AD%D9%82%DB%8C%D9%82.doc",
+          "kind": "document",
+          "claim": "فرم درخواست پرداخت حق التحقیق طرح تحقیقاتی داخلی",
+          "id": "golestan-discovery-document-4d97d214a6f3"
+        },
+        {
+          "url": "https://gu.ac.ir/file/0243cc88-f4d0-ec11-9ed4-005056998f1e/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3%20%D9%88%20%D9%8A%D8%A7%20%D8%AA%D8%A8%D8%AF%D9%8A%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%D9%8A%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C.doc",
+          "kind": "document",
+          "claim": "فرم درخواست تأسيس و يا تبديل واحدهاي پژوهشي دانشگاهی",
+          "id": "golestan-discovery-document-9ae59b01d6d2"
         }
       ],
       "publicationAdjustment": null,
@@ -1313,7 +1488,34 @@
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
-  "ranking": null,
+  "ranking": {
+    "universitySlug": "golestan",
+    "nameFa": "دانشگاه گلستان",
+    "iscCategory": "جامع",
+    "iscRank": 42,
+    "score": 69.2,
+    "confidence": 82,
+    "metrics": {
+      "documents": 91,
+      "organization": 72.5,
+      "library": 70,
+      "laboratories": null,
+      "digital": 17.5,
+      "industryTech": 45,
+      "dataQuality": 100,
+      "findability": 75
+    },
+    "units": 7,
+    "systems": 1,
+    "documents": 71,
+    "activeWeight": 88,
+    "evidenceCoverage": 75,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-11",
+    "rank": 47,
+    "portalRankWithinISCClass": 27,
+    "rankedPortalsInISCClass": 35
+  },
   "units": [
     {
       "id": "golestan-discovery-unit-technology-401eb80a254c",
@@ -1369,6 +1571,28 @@
       "sourceUrl": "https://gu.ac.ir/research/ContextPage?id=9701",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.7905263157894736
+    },
+    {
+      "id": "golestan-discovery-unit-library-8eb56534187d",
+      "universitySlug": "golestan",
+      "nameFa": "بازدید رئیس کتابخانه مرکزی و مرکز اسناد دانشگاه گلستان از کتابخانه مرکزی دانشگاه علوم پزشکی گلستان",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "sourceUrl": "https://gu.ac.ir/library/ContextPage?id=26489",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "golestan-discovery-unit-library-c7877720db44",
+      "universitySlug": "golestan",
+      "nameFa": "کتابخانه مرکزی و مرکز اسناد دانشگاه گلستان",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "sourceUrl": "https://gu.ac.ir/library/HomePage",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
     }
   ],
   "systems": [
@@ -2549,6 +2773,321 @@
       "parentUrl": "https://gu.ac.ir/research/ContextPage?id=23976",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.86
+    },
+    {
+      "id": "golestan-discovery-document-2319dfb1f246",
+      "universitySlug": "golestan",
+      "title": "نظام نامه و آیین نامه های هیات حمایت از کرسی های نظریه پردازی، نقد و مناظره",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/24607845-c763-f111-bc12-000c29e302f8/%D9%86%D8%B8%D8%A7%D9%85%20%D9%86%D8%A7%D9%85%D9%87%20%D9%88%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%20%DA%A9%D8%B1%D8%B3%DB%8C%20%D9%87%D8%A7%DB%8C%20%D9%86%D8%B8%D8%B1%DB%8C%D9%87%20%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%DB%8C%D8%8C%20%D9%86%D9%82%D8%AF%20%D9%88%20%D9%85%D9%86%D8%A7%D8%B8%D8%B1%D9%87.pdf",
+      "sourceUrl": "https://gu.ac.ir/file/24607845-c763-f111-bc12-000c29e302f8/%D9%86%D8%B8%D8%A7%D9%85%20%D9%86%D8%A7%D9%85%D9%87%20%D9%88%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%20%DA%A9%D8%B1%D8%B3%DB%8C%20%D9%87%D8%A7%DB%8C%20%D9%86%D8%B8%D8%B1%DB%8C%D9%87%20%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%DB%8C%D8%8C%20%D9%86%D9%82%D8%AF%20%D9%88%20%D9%85%D9%86%D8%A7%D8%B8%D8%B1%D9%87.pdf",
+      "parentUrl": "https://gu.ac.ir/research/ContextPage?id=27749",
+      "sha256": "be500ff1129a0b40a39b1fcd78b72e1da16c42a724de7dbfb09b71370050c158",
+      "fileName": "نظام نامه و آیین نامه های هیات حمایت از کرسی های نظریه پردازی، نقد و مناظره.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 489456,
+      "archivePath": "golestan/26ebf7858ba0-نظام نامه و آیین نامه های هیات حمایت از کرسی های نظریه پردازی، نقد و مناظره.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "golestan-discovery-document-033580c46e42",
+      "universitySlug": "golestan",
+      "title": "شیوه نامه کرسی های دانشگاه",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/87eeae6c-c763-f111-bc12-000c29e302f8/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%DA%A9%D8%B1%D8%B3%DB%8C%20%D9%87%D8%A7%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%872%20(2).pdf",
+      "sourceUrl": "https://gu.ac.ir/file/87eeae6c-c763-f111-bc12-000c29e302f8/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%DA%A9%D8%B1%D8%B3%DB%8C%20%D9%87%D8%A7%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%872%20(2).pdf",
+      "parentUrl": "https://gu.ac.ir/research/ContextPage?id=27749",
+      "sha256": "c27c74104bd08cbc6da949e74fa3d86502e4831b06ff71f37a4c6110b6f65e84",
+      "fileName": "شیوه نامه کرسی های دانشگاه2 (2).pdf",
+      "contentType": "application/pdf",
+      "fileSize": 546752,
+      "archivePath": "golestan/f4956a636b1a-شیوه نامه کرسی های دانشگاه2 (2).pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "golestan-discovery-document-e38095b59e42",
+      "universitySlug": "golestan",
+      "title": "فرم طرحنامه كرسي علمی ترويجي",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/05855c5a-c763-f111-bc12-000c29e302f8/%D9%81%D8%B1%D9%85%20%D8%B7%D8%B1%D8%AD%D9%86%D8%A7%D9%85%D9%87%20%D9%83%D8%B1%D8%B3%D9%8A%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AA%D8%B1%D9%88%D9%8A%D8%AC%D9%8A%20(2).docx",
+      "sourceUrl": "https://gu.ac.ir/file/05855c5a-c763-f111-bc12-000c29e302f8/%D9%81%D8%B1%D9%85%20%D8%B7%D8%B1%D8%AD%D9%86%D8%A7%D9%85%D9%87%20%D9%83%D8%B1%D8%B3%D9%8A%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AA%D8%B1%D9%88%D9%8A%D8%AC%D9%8A%20(2).docx",
+      "parentUrl": "https://gu.ac.ir/research/ContextPage?id=27749",
+      "sha256": "f942115d0e496c86f94a16c885cd4968f89b3cd056e2d73d436496d8fda72689",
+      "fileName": "فرم طرحنامه كرسي علمی ترويجي (2).docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 210732,
+      "archivePath": "golestan/2d1e71422782-فرم طرحنامه كرسي علمی ترويجي (2).docx",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "golestan-discovery-document-043dd0f073dd",
+      "universitySlug": "golestan",
+      "title": "فرم_درخواست کد اخلاق زیستی",
+      "type": "سند",
+      "topic": "اخلاق پژوهش",
+      "taxonomy": "research ethics",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/84a2493a-7b09-f111-bc10-000c29e302f8/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%DA%A9%D8%AF%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82%20%D8%B2%DB%8C%D8%B3%D8%AA%DB%8C.docx",
+      "sourceUrl": "https://gu.ac.ir/file/84a2493a-7b09-f111-bc10-000c29e302f8/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%DA%A9%D8%AF%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82%20%D8%B2%DB%8C%D8%B3%D8%AA%DB%8C.docx",
+      "parentUrl": "https://gu.ac.ir/research/ContextPage?id=22658",
+      "sha256": "0e9c9b204048419f7fdaa10821690bd87416bd33b2639b2c7d3409f7166a3844",
+      "fileName": "فرم درخواست کد اخلاق زیستی.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 34565,
+      "archivePath": "golestan/6525b50fcc82-فرم درخواست کد اخلاق زیستی.docx",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "golestan-discovery-document-49c428791a9e",
+      "universitySlug": "golestan",
+      "title": "فرم رضایت نامه آگاهانه",
+      "type": "سند",
+      "topic": "اخلاق پژوهش",
+      "taxonomy": "research ethics",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/170a3d52-7b09-f111-bc10-000c29e302f8/%D9%81%D8%B1%D9%85%20%D8%B1%D8%B6%D8%A7%DB%8C%D8%AA%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A2%DA%AF%D8%A7%D9%87%D8%A7%D9%86%D9%87.docx",
+      "sourceUrl": "https://gu.ac.ir/file/170a3d52-7b09-f111-bc10-000c29e302f8/%D9%81%D8%B1%D9%85%20%D8%B1%D8%B6%D8%A7%DB%8C%D8%AA%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A2%DA%AF%D8%A7%D9%87%D8%A7%D9%86%D9%87.docx",
+      "parentUrl": "https://gu.ac.ir/research/ContextPage?id=22658",
+      "sha256": "5696fcfa9294270e3f98cb9f7b4d1efd4e2e108b390b58c5bfeb6969319531f7",
+      "fileName": "فرم رضایت نامه آگاهانه.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 33463,
+      "archivePath": "golestan/5220a0ea8373-فرم رضایت نامه آگاهانه.docx",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "golestan-discovery-document-78fdf9b595c6",
+      "universitySlug": "golestan",
+      "title": "فرم عضویت کتابخانه (اعضای هیأت علمی)",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/51b00c60-a4fc-e611-965f-000c2952a238/form%20faculty%20register.pdf",
+      "sourceUrl": "https://gu.ac.ir/file/51b00c60-a4fc-e611-965f-000c2952a238/form%20faculty%20register.pdf",
+      "parentUrl": "https://gu.ac.ir/library/ContextPage?id=4106",
+      "sha256": "afd0d49fc30e32ccaef6e01cc08d1f0660cb59402708f5f44798c3b812a4df66",
+      "fileName": "form faculty register.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 208838,
+      "archivePath": "golestan/b537d6887b0f-form faculty register.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "golestan-discovery-document-177fd02ecaeb",
+      "universitySlug": "golestan",
+      "title": "فرم عضویت کتابخانه - دانشجویان",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/60f89e6f-a4fc-e611-965f-000c2952a238/form%20register%20daneshjoo.pdf",
+      "sourceUrl": "https://gu.ac.ir/file/60f89e6f-a4fc-e611-965f-000c2952a238/form%20register%20daneshjoo.pdf",
+      "parentUrl": "https://gu.ac.ir/library/ContextPage?id=4106",
+      "sha256": "f3f640ceea68990dd0cd0204f80ff034d5469a566bd69525a4a717225083653b",
+      "fileName": "form register daneshjoo.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 54880,
+      "archivePath": "golestan/0770ead3c154-form register daneshjoo.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "golestan-discovery-document-8b0080162c89",
+      "universitySlug": "golestan",
+      "title": "فرم عضویت کتابخانه (اعضای غیرهیأت علمی)",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/f7986280-a4fc-e611-965f-000c2952a238/form%20karmandan%20register.pdf",
+      "sourceUrl": "https://gu.ac.ir/file/f7986280-a4fc-e611-965f-000c2952a238/form%20karmandan%20register.pdf",
+      "parentUrl": "https://gu.ac.ir/library/ContextPage?id=4106",
+      "sha256": "c8f97196b3c250fe55f4a2ef7f61d69e20e373ff31354ad5c1e700a2d9e00271",
+      "fileName": "form karmandan register.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 206867,
+      "archivePath": "golestan/e66c965fdd62-form karmandan register.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "golestan-discovery-document-3cd8b19bffda",
+      "universitySlug": "golestan",
+      "title": "فرم سفارش خرید کتاب لاتین",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/5c7df0a5-a4fc-e611-965f-000c2952a238/form%20request%20book%20L.pdf",
+      "sourceUrl": "https://gu.ac.ir/file/5c7df0a5-a4fc-e611-965f-000c2952a238/form%20request%20book%20L.pdf",
+      "parentUrl": "https://gu.ac.ir/library/ContextPage?id=4106",
+      "sha256": "0b2950ca098c52ce7274346fdd859c67e7debb77f09bc21c80bf56028aaefcde",
+      "fileName": "form request book L.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 209838,
+      "archivePath": "golestan/c7f0d84610a0-form request book L.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "golestan-discovery-document-ad1c2dd39d1c",
+      "universitySlug": "golestan",
+      "title": "فرم سفارش خرید نشریات علمی - پژوهشی",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/47321bb3-a4fc-e611-965f-000c2952a238/form%20request%20serials.pdf",
+      "sourceUrl": "https://gu.ac.ir/file/47321bb3-a4fc-e611-965f-000c2952a238/form%20request%20serials.pdf",
+      "parentUrl": "https://gu.ac.ir/library/ContextPage?id=4106",
+      "sha256": "cd77f0bfae14271a6126e43d930044b61d37dfe132002e7b43f50c6085dcc2c2",
+      "fileName": "form request serials.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 208459,
+      "archivePath": "golestan/1fc6c7bfdfda-form request serials.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "golestan-discovery-document-e5c52d9a5d65",
+      "universitySlug": "golestan",
+      "title": "فرم تعهدنامه استفاده از پایگاه های اطلاعاتی اشتراک دانشگاه",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/a747ff82-43fe-e611-965f-000c2952a238/form%20temp.%20taahod%20giga2.docx",
+      "sourceUrl": "https://gu.ac.ir/file/a747ff82-43fe-e611-965f-000c2952a238/form%20temp.%20taahod%20giga2.docx",
+      "parentUrl": "https://gu.ac.ir/library/ContextPage?id=4106",
+      "sha256": "c9192eacf67d156848e1720eaed6579f67b2fbec4287838dafa44cbabab7e8f2",
+      "fileName": "form temp. taahod giga2.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 38940,
+      "archivePath": "golestan/f048c03141ef-form temp. taahod giga2.docx",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "golestan-discovery-document-041dfc1b4fac",
+      "universitySlug": "golestan",
+      "title": "جهت مشاهده جدول برنامه سخنرانی و کارگاه های اعضای هیئت علمی در هفته پژوهش و فناوری سال 1401 (12 الی 18 اذر ماه)کلیک بفرمایید",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/a78e1e17-8d70-ed11-9edf-0050568ba441/%D8%B3%D8%AE%D9%86%D8%B1%D8%A7%D9%86%DB%8C-%D9%86%D9%87%D8%A7%DB%8C%DB%8C.pdf",
+      "sourceUrl": "https://gu.ac.ir/file/a78e1e17-8d70-ed11-9edf-0050568ba441/%D8%B3%D8%AE%D9%86%D8%B1%D8%A7%D9%86%DB%8C-%D9%86%D9%87%D8%A7%DB%8C%DB%8C.pdf",
+      "parentUrl": "https://gu.ac.ir/research/ContextPage?id=24238",
+      "sha256": "dbba5b0f85e36eaf4325218eac080f363af2b421ca1c9fad8d0cebfbb3196c2c",
+      "fileName": "سخنرانی-نهایی.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 494970,
+      "archivePath": "golestan/8f39b52d0656-سخنرانی-نهایی.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "golestan-discovery-document-29b8b0af0e6f",
+      "universitySlug": "golestan",
+      "title": "راهنمای ثبت مقاله در سامانه گلستان",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "سایر",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/e02fc6cc-a9fc-e611-965f-000c2952a238/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%AB%D8%A8%D8%AA%20%D9%85%D9%82%D8%A7%D9%84%D9%87%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.pdf",
+      "sourceUrl": "https://gu.ac.ir/file/e02fc6cc-a9fc-e611-965f-000c2952a238/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%AB%D8%A8%D8%AA%20%D9%85%D9%82%D8%A7%D9%84%D9%87%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86.pdf",
+      "parentUrl": "https://gu.ac.ir/research/ContextPage?id=4124",
+      "sha256": "0b33dbaf8c6c535b0a250f40f2045f398ff022582ed1e7f07cdc9474c15cb781",
+      "fileName": "راهنمای ثبت مقاله در سامانه گلستان.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 517424,
+      "archivePath": "golestan/d6324dd752e1-راهنمای ثبت مقاله در سامانه گلستان.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "golestan-discovery-document-775e1cd3a821",
+      "universitySlug": "golestan",
+      "title": "راهنمای تأیید اطلاعات فعالیت پژوهشی از راه پیش خوان خدمت",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "سایر",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/25b26420-acfc-e611-965f-000c2952a238/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%AA%D8%A3%DB%8C%DB%8C%D8%AF%20%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%A7%D8%B2%20%D8%B1%D8%A7%D9%87%20%D9%BE%DB%8C%D8%B4.pdf",
+      "sourceUrl": "https://gu.ac.ir/file/25b26420-acfc-e611-965f-000c2952a238/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%AA%D8%A3%DB%8C%DB%8C%D8%AF%20%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%A7%D8%B2%20%D8%B1%D8%A7%D9%87%20%D9%BE%DB%8C%D8%B4.pdf",
+      "parentUrl": "https://gu.ac.ir/research/ContextPage?id=4124",
+      "sha256": "68695fcc1b2a0a40004efaa73bf6c559b8f9b41ace5a185bc5a0ca326b3522de",
+      "fileName": "راهنمای تأیید اطلاعات فعالیت پژوهشی از راه پیش.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 544484,
+      "archivePath": "golestan/e5c4d5102da6-راهنمای تأیید اطلاعات فعالیت پژوهشی از راه پیش.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "golestan-discovery-document-f5a2f2e6ec41",
+      "universitySlug": "golestan",
+      "title": "دستورالعمل بیستمین جشنواره تجلیل از پژوهشگران و فناوران برگزیده کشور",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/6629f47f-d5e8-e911-8138-305a3a756628/1570253256-.pdf",
+      "sourceUrl": "https://gu.ac.ir/file/6629f47f-d5e8-e911-8138-305a3a756628/1570253256-.pdf",
+      "parentUrl": "https://gu.ac.ir/research/ContextPage?id=9611",
+      "sha256": "f4b8872c2df21a7b51096632f3d316721a9150b182b162cd187aa638e36f7f94",
+      "fileName": "1570253256-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 806336,
+      "archivePath": "golestan/a7a980c15689-1570253256-.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
     }
   ],
   "interpretation": {

@@ -1,24 +1,24 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-11T20:26:34.994Z",
+  "generatedAt": "2026-08-11T21:10:01.017Z",
   "institutions": 115,
-  "institutionsWithPages": 97,
-  "pagesFetched": 2705,
-  "browserFallbackPages": 3,
-  "evidenceRecords": 2872,
-  "portalCandidates": 908,
-  "documentsDiscovered": 2971,
-  "documentsDownloaded": 2720,
+  "institutionsWithPages": 99,
+  "pagesFetched": 2753,
+  "browserFallbackPages": 4,
+  "evidenceRecords": 2918,
+  "portalCandidates": 959,
+  "documentsDiscovered": 3052,
+  "documentsDownloaded": 2830,
   "dimensionCounts": {
-    "organization": 210,
-    "libraryDocuments": 438,
-    "laboratories": 155,
-    "industryTechnology": 278,
-    "informationTechnology": 65,
-    "systemsServices": 368,
-    "documentsRegulations": 1358
+    "organization": 216,
+    "libraryDocuments": 435,
+    "laboratories": 167,
+    "industryTechnology": 290,
+    "informationTechnology": 78,
+    "systemsServices": 385,
+    "documentsRegulations": 1347
   },
-  "failures": 330,
+  "failures": 372,
   "universities": [
     {
       "slug": "tehran",
@@ -28,17 +28,17 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 0,
-      "elapsedMs": 18808
+      "elapsedMs": 22070
     },
     {
       "slug": "tarbiat-modares",
       "nameFa": "دانشگاه تربیت مدرس",
-      "pages": 36,
-      "evidence": 39,
+      "pages": 37,
+      "evidence": 42,
       "documents": 2,
       "portalCandidates": 13,
-      "failures": 3,
-      "elapsedMs": 30798
+      "failures": 2,
+      "elapsedMs": 27035
     },
     {
       "slug": "ferdowsi",
@@ -48,7 +48,7 @@
       "documents": 50,
       "portalCandidates": 27,
       "failures": 0,
-      "elapsedMs": 216673
+      "elapsedMs": 195790
     },
     {
       "slug": "shahid-beheshti",
@@ -58,7 +58,7 @@
       "documents": 28,
       "portalCandidates": 10,
       "failures": 4,
-      "elapsedMs": 44046
+      "elapsedMs": 33915
     },
     {
       "slug": "shiraz",
@@ -68,7 +68,7 @@
       "documents": 56,
       "portalCandidates": 16,
       "failures": 1,
-      "elapsedMs": 80742
+      "elapsedMs": 89309
     },
     {
       "slug": "tabriz",
@@ -78,17 +78,17 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 2,
-      "elapsedMs": 2325
+      "elapsedMs": 487
     },
     {
       "slug": "isfahan",
       "nameFa": "دانشگاه اصفهان",
-      "pages": 35,
-      "evidence": 56,
-      "documents": 24,
+      "pages": 34,
+      "evidence": 54,
+      "documents": 23,
       "portalCandidates": 8,
-      "failures": 3,
-      "elapsedMs": 50064
+      "failures": 4,
+      "elapsedMs": 51957
     },
     {
       "slug": "razi",
@@ -98,7 +98,7 @@
       "documents": 4,
       "portalCandidates": 36,
       "failures": 2,
-      "elapsedMs": 84862
+      "elapsedMs": 74682
     },
     {
       "slug": "iasbs",
@@ -108,57 +108,57 @@
       "documents": 58,
       "portalCandidates": 0,
       "failures": 12,
-      "elapsedMs": 60053
+      "elapsedMs": 33972
     },
     {
       "slug": "kharazmi",
       "nameFa": "دانشگاه خوارزمی",
-      "pages": 24,
-      "evidence": 35,
+      "pages": 23,
+      "evidence": 31,
       "documents": 7,
-      "portalCandidates": 7,
-      "failures": 16,
-      "elapsedMs": 30066
+      "portalCandidates": 6,
+      "failures": 17,
+      "elapsedMs": 50249
     },
     {
       "slug": "allameh",
       "nameFa": "دانشگاه علامه طباطبایی",
       "pages": 36,
-      "evidence": 47,
+      "evidence": 44,
       "documents": 55,
       "portalCandidates": 12,
       "failures": 1,
-      "elapsedMs": 43316
+      "elapsedMs": 47009
     },
     {
       "slug": "shahid-bahonar-kerman",
       "nameFa": "دانشگاه شهید باهنر کرمان",
-      "pages": 36,
-      "evidence": 32,
-      "documents": 39,
-      "portalCandidates": 12,
+      "pages": 40,
+      "evidence": 23,
+      "documents": 38,
+      "portalCandidates": 16,
       "failures": 0,
-      "elapsedMs": 129559
+      "elapsedMs": 55294
     },
     {
       "slug": "guilan",
       "nameFa": "دانشگاه گیلان",
-      "pages": 34,
+      "pages": 39,
       "evidence": 57,
-      "documents": 1,
-      "portalCandidates": 33,
-      "failures": 6,
-      "elapsedMs": 22435
+      "documents": 0,
+      "portalCandidates": 39,
+      "failures": 1,
+      "elapsedMs": 24220
     },
     {
       "slug": "urmia",
       "nameFa": "دانشگاه ارومیه",
-      "pages": 30,
-      "evidence": 36,
-      "documents": 8,
-      "portalCandidates": 3,
-      "failures": 3,
-      "elapsedMs": 44610
+      "pages": 40,
+      "evidence": 47,
+      "documents": 5,
+      "portalCandidates": 2,
+      "failures": 0,
+      "elapsedMs": 22864
     },
     {
       "slug": "semnan",
@@ -168,17 +168,17 @@
       "documents": 52,
       "portalCandidates": 19,
       "failures": 4,
-      "elapsedMs": 72646
+      "elapsedMs": 84447
     },
     {
       "slug": "sistan-baluchestan",
       "nameFa": "دانشگاه سیستان و بلوچستان",
       "pages": 39,
-      "evidence": 48,
-      "documents": 57,
-      "portalCandidates": 7,
+      "evidence": 44,
+      "documents": 56,
+      "portalCandidates": 8,
       "failures": 1,
-      "elapsedMs": 153044
+      "elapsedMs": 112333
     },
     {
       "slug": "yazd",
@@ -188,27 +188,27 @@
       "documents": 46,
       "portalCandidates": 2,
       "failures": 1,
-      "elapsedMs": 39738
+      "elapsedMs": 43500
     },
     {
       "slug": "mohaghegh-ardabili",
       "nameFa": "دانشگاه محقق اردبیلی",
-      "pages": 13,
+      "pages": 14,
       "evidence": 9,
       "documents": 17,
       "portalCandidates": 3,
       "failures": 1,
-      "elapsedMs": 25892
+      "elapsedMs": 27430
     },
     {
       "slug": "kurdistan",
       "nameFa": "دانشگاه کردستان",
-      "pages": 38,
-      "evidence": 106,
+      "pages": 40,
+      "evidence": 114,
       "documents": 0,
-      "portalCandidates": 37,
+      "portalCandidates": 40,
       "failures": 0,
-      "elapsedMs": 34807
+      "elapsedMs": 18508
     },
     {
       "slug": "shahid-chamran-ahvaz",
@@ -218,47 +218,47 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 0,
-      "elapsedMs": 11920
+      "elapsedMs": 19998
     },
     {
       "slug": "kashan",
       "nameFa": "دانشگاه کاشان",
-      "pages": 39,
-      "evidence": 55,
-      "documents": 21,
+      "pages": 40,
+      "evidence": 54,
+      "documents": 30,
       "portalCandidates": 25,
-      "failures": 1,
-      "elapsedMs": 24411
+      "failures": 0,
+      "elapsedMs": 34716
     },
     {
       "slug": "shahrekord",
       "nameFa": "دانشگاه شهرکرد",
       "pages": 34,
-      "evidence": 25,
+      "evidence": 24,
       "documents": 3,
       "portalCandidates": 8,
       "failures": 5,
-      "elapsedMs": 17659
+      "elapsedMs": 11141
     },
     {
       "slug": "bu-ali-sina",
       "nameFa": "دانشگاه بوعلی سینا",
       "pages": 32,
-      "evidence": 45,
+      "evidence": 43,
       "documents": 9,
       "portalCandidates": 29,
       "failures": 1,
-      "elapsedMs": 15516
+      "elapsedMs": 14326
     },
     {
       "slug": "qom",
       "nameFa": "دانشگاه قم",
       "pages": 25,
-      "evidence": 24,
+      "evidence": 23,
       "documents": 49,
       "portalCandidates": 16,
       "failures": 6,
-      "elapsedMs": 30290
+      "elapsedMs": 29965
     },
     {
       "slug": "alzahra",
@@ -268,7 +268,7 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 0,
-      "elapsedMs": 10172
+      "elapsedMs": 20751
     },
     {
       "slug": "mazandaran",
@@ -278,77 +278,77 @@
       "documents": 57,
       "portalCandidates": 7,
       "failures": 8,
-      "elapsedMs": 15510
+      "elapsedMs": 14567
     },
     {
       "slug": "imam-khomeini-international",
       "nameFa": "دانشگاه بین المللی امام خمینی (ره)",
-      "pages": 28,
-      "evidence": 29,
-      "documents": 12,
-      "portalCandidates": 10,
+      "pages": 36,
+      "evidence": 34,
+      "documents": 3,
+      "portalCandidates": 11,
       "failures": 4,
-      "elapsedMs": 48703
+      "elapsedMs": 31286
     },
     {
       "slug": "persian-gulf",
       "nameFa": "دانشگاه خلیج فارس",
-      "pages": 39,
+      "pages": 40,
       "evidence": 38,
       "documents": 0,
       "portalCandidates": 1,
-      "failures": 1,
-      "elapsedMs": 59695
+      "failures": 0,
+      "elapsedMs": 22764
     },
     {
       "slug": "zanjan",
       "nameFa": "دانشگاه زنجان",
-      "pages": 23,
-      "evidence": 31,
+      "pages": 18,
+      "evidence": 26,
       "documents": 60,
-      "portalCandidates": 12,
-      "failures": 16,
-      "elapsedMs": 306176
+      "portalCandidates": 11,
+      "failures": 22,
+      "elapsedMs": 329588
     },
     {
       "slug": "ilam",
       "nameFa": "دانشگاه ایلام",
-      "pages": 35,
-      "evidence": 28,
+      "pages": 33,
+      "evidence": 20,
       "documents": 60,
       "portalCandidates": 19,
-      "failures": 5,
-      "elapsedMs": 353541
+      "failures": 7,
+      "elapsedMs": 336241
     },
     {
       "slug": "hakim-sabzevari",
       "nameFa": "دانشگاه حکیم سبزواری",
       "pages": 38,
-      "evidence": 41,
-      "documents": 48,
-      "portalCandidates": 24,
+      "evidence": 42,
+      "documents": 47,
+      "portalCandidates": 23,
       "failures": 2,
-      "elapsedMs": 199749
+      "elapsedMs": 148451
     },
     {
       "slug": "arak",
       "nameFa": "دانشگاه اراک",
-      "pages": 17,
-      "evidence": 24,
+      "pages": 19,
+      "evidence": 25,
       "documents": 31,
-      "portalCandidates": 10,
+      "portalCandidates": 9,
       "failures": 0,
-      "elapsedMs": 44893
+      "elapsedMs": 37443
     },
     {
       "slug": "azarbaijan-shahid-madani",
       "nameFa": "دانشگاه شهید مدنی آذربایجان",
       "pages": 30,
       "evidence": 34,
-      "documents": 59,
-      "portalCandidates": 7,
+      "documents": 58,
+      "portalCandidates": 6,
       "failures": 7,
-      "elapsedMs": 115283
+      "elapsedMs": 100133
     },
     {
       "slug": "birjand",
@@ -358,37 +358,37 @@
       "documents": 32,
       "portalCandidates": 33,
       "failures": 0,
-      "elapsedMs": 20734
+      "elapsedMs": 18645
     },
     {
       "slug": "vali-asr-rafsanjan",
       "nameFa": "دانشگاه ولی عصر (عج) رفسنجان",
       "pages": 36,
-      "evidence": 24,
-      "documents": 3,
-      "portalCandidates": 2,
+      "evidence": 30,
+      "documents": 23,
+      "portalCandidates": 0,
       "failures": 4,
-      "elapsedMs": 68764
+      "elapsedMs": 76476
     },
     {
       "slug": "lorestan",
       "nameFa": "دانشگاه لرستان",
-      "pages": 34,
-      "evidence": 47,
+      "pages": 35,
+      "evidence": 45,
       "documents": 58,
       "portalCandidates": 17,
       "failures": 4,
-      "elapsedMs": 38472
+      "elapsedMs": 28576
     },
     {
       "slug": "maragheh",
       "nameFa": "دانشگاه مراغه",
-      "pages": 10,
+      "pages": 11,
       "evidence": 7,
       "documents": 53,
       "portalCandidates": 8,
       "failures": 3,
-      "elapsedMs": 30025
+      "elapsedMs": 42135
     },
     {
       "slug": "zabol",
@@ -398,7 +398,7 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 2,
-      "elapsedMs": 1317
+      "elapsedMs": 535
     },
     {
       "slug": "yasouj",
@@ -408,17 +408,17 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 2,
-      "elapsedMs": 23022
+      "elapsedMs": 23024
     },
     {
       "slug": "damghan",
       "nameFa": "دانشگاه دامغان",
-      "pages": 31,
-      "evidence": 24,
+      "pages": 32,
+      "evidence": 22,
       "documents": 46,
       "portalCandidates": 17,
-      "failures": 2,
-      "elapsedMs": 62819
+      "failures": 1,
+      "elapsedMs": 76948
     },
     {
       "slug": "bonab",
@@ -428,27 +428,27 @@
       "documents": 48,
       "portalCandidates": 8,
       "failures": 4,
-      "elapsedMs": 89233
+      "elapsedMs": 84291
     },
     {
       "slug": "golestan",
       "nameFa": "دانشگاه گلستان",
-      "pages": 26,
-      "evidence": 15,
-      "documents": 55,
-      "portalCandidates": 12,
-      "failures": 9,
-      "elapsedMs": 69421
+      "pages": 20,
+      "evidence": 16,
+      "documents": 52,
+      "portalCandidates": 8,
+      "failures": 15,
+      "elapsedMs": 59322
     },
     {
       "slug": "hormozgan",
       "nameFa": "دانشگاه هرمزگان",
-      "pages": 0,
-      "evidence": 0,
-      "documents": 0,
-      "portalCandidates": 0,
-      "failures": 2,
-      "elapsedMs": 23012
+      "pages": 17,
+      "evidence": 20,
+      "documents": 48,
+      "portalCandidates": 3,
+      "failures": 3,
+      "elapsedMs": 19061
     },
     {
       "slug": "tafresh",
@@ -458,17 +458,17 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 1,
-      "elapsedMs": 412
+      "elapsedMs": 362
     },
     {
       "slug": "ardakan",
       "nameFa": "دانشگاه اردکان",
-      "pages": 34,
-      "evidence": 20,
-      "documents": 19,
-      "portalCandidates": 1,
-      "failures": 4,
-      "elapsedMs": 29436
+      "pages": 25,
+      "evidence": 30,
+      "documents": 11,
+      "portalCandidates": 2,
+      "failures": 5,
+      "elapsedMs": 43878
     },
     {
       "slug": "fasa",
@@ -478,47 +478,47 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 1,
-      "elapsedMs": 376
+      "elapsedMs": 329
     },
     {
       "slug": "ayatollah-borujerdi",
       "nameFa": "دانشگاه آیت الله العظمی بروجردی (ره)",
-      "pages": 38,
-      "evidence": 36,
-      "documents": 33,
+      "pages": 33,
+      "evidence": 28,
+      "documents": 60,
       "portalCandidates": 1,
-      "failures": 2,
-      "elapsedMs": 30973
+      "failures": 6,
+      "elapsedMs": 29175
     },
     {
       "slug": "bojnord",
       "nameFa": "دانشگاه بجنورد",
-      "pages": 27,
-      "evidence": 57,
-      "documents": 13,
-      "portalCandidates": 2,
+      "pages": 22,
+      "evidence": 43,
+      "documents": 24,
+      "portalCandidates": 3,
       "failures": 3,
-      "elapsedMs": 53778
+      "elapsedMs": 70286
     },
     {
       "slug": "khorramshahr-marine",
       "nameFa": "دانشگاه علوم و فنون دریایی خرمشهر",
       "pages": 30,
-      "evidence": 34,
+      "evidence": 32,
       "documents": 32,
       "portalCandidates": 13,
       "failures": 3,
-      "elapsedMs": 99296
+      "elapsedMs": 135028
     },
     {
       "slug": "meybod",
       "nameFa": "دانشگاه میبد",
-      "pages": 39,
-      "evidence": 38,
+      "pages": 38,
+      "evidence": 36,
       "documents": 36,
       "portalCandidates": 2,
-      "failures": 1,
-      "elapsedMs": 8104
+      "failures": 2,
+      "elapsedMs": 9357
     },
     {
       "slug": "bozorgmehr-qaenat",
@@ -528,17 +528,17 @@
       "documents": 41,
       "portalCandidates": 0,
       "failures": 2,
-      "elapsedMs": 52033
+      "elapsedMs": 50497
     },
     {
       "slug": "chabahar-maritime",
       "nameFa": "دانشگاه دریانوردی و علوم دریایی چابهار",
-      "pages": 39,
-      "evidence": 38,
-      "documents": 56,
-      "portalCandidates": 1,
-      "failures": 1,
-      "elapsedMs": 46743
+      "pages": 40,
+      "evidence": 39,
+      "documents": 6,
+      "portalCandidates": 0,
+      "failures": 0,
+      "elapsedMs": 67788
     },
     {
       "slug": "velayat",
@@ -548,37 +548,37 @@
       "documents": 24,
       "portalCandidates": 25,
       "failures": 0,
-      "elapsedMs": 10802
+      "elapsedMs": 10318
     },
     {
       "slug": "amol-special-tech",
       "nameFa": "دانشگاه تخصصی فناوری های نوین آمل",
-      "pages": 0,
-      "evidence": 0,
-      "documents": 0,
+      "pages": 38,
+      "evidence": 38,
+      "documents": 2,
       "portalCandidates": 0,
-      "failures": 1,
-      "elapsedMs": 1758
+      "failures": 2,
+      "elapsedMs": 22419
     },
     {
       "slug": "malayer",
       "nameFa": "دانشگاه ملایر",
-      "pages": 27,
-      "evidence": 28,
-      "documents": 56,
-      "portalCandidates": 9,
-      "failures": 0,
-      "elapsedMs": 56955
+      "pages": 11,
+      "evidence": 8,
+      "documents": 57,
+      "portalCandidates": 5,
+      "failures": 1,
+      "elapsedMs": 20963
     },
     {
       "slug": "gonbad-kavous",
       "nameFa": "دانشگاه گنبد کاووس",
-      "pages": 40,
-      "evidence": 24,
-      "documents": 49,
-      "portalCandidates": 3,
-      "failures": 0,
-      "elapsedMs": 37903
+      "pages": 37,
+      "evidence": 35,
+      "documents": 48,
+      "portalCandidates": 0,
+      "failures": 2,
+      "elapsedMs": 34573
     },
     {
       "slug": "torbat-heydarieh",
@@ -588,7 +588,7 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 2,
-      "elapsedMs": 42663
+      "elapsedMs": 41184
     },
     {
       "slug": "hazrat-masoumeh",
@@ -598,17 +598,17 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 1,
-      "elapsedMs": 303
+      "elapsedMs": 233
     },
     {
       "slug": "jahrom",
       "nameFa": "دانشگاه جهرم",
       "pages": 23,
       "evidence": 35,
-      "documents": 44,
+      "documents": 43,
       "portalCandidates": 0,
-      "failures": 5,
-      "elapsedMs": 116594
+      "failures": 6,
+      "elapsedMs": 74655
     },
     {
       "slug": "kosar",
@@ -618,27 +618,27 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 1,
-      "elapsedMs": 23023
+      "elapsedMs": 23012
     },
     {
       "slug": "jiroft",
       "nameFa": "دانشگاه جیرفت",
-      "pages": 37,
-      "evidence": 9,
-      "documents": 19,
-      "portalCandidates": 26,
-      "failures": 3,
-      "elapsedMs": 32080
+      "pages": 39,
+      "evidence": 23,
+      "documents": 37,
+      "portalCandidates": 32,
+      "failures": 1,
+      "elapsedMs": 26390
     },
     {
       "slug": "salman-farsi-kazerun",
       "nameFa": "دانشگاه سلمان فارسی کازرون",
       "pages": 40,
-      "evidence": 24,
+      "evidence": 28,
       "documents": 13,
-      "portalCandidates": 3,
+      "portalCandidates": 2,
       "failures": 0,
-      "elapsedMs": 10327
+      "elapsedMs": 15171
     },
     {
       "slug": "lar-higher-ed",
@@ -648,7 +648,7 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 0,
-      "elapsedMs": 24733
+      "elapsedMs": 24303
     },
     {
       "slug": "gonabad-higher-ed",
@@ -658,17 +658,17 @@
       "documents": 7,
       "portalCandidates": 0,
       "failures": 1,
-      "elapsedMs": 5471
+      "elapsedMs": 5832
     },
     {
       "slug": "bam-higher-ed",
       "nameFa": "مجتمع آموزش عالی بم",
-      "pages": 38,
-      "evidence": 34,
+      "pages": 27,
+      "evidence": 27,
       "documents": 52,
-      "portalCandidates": 21,
-      "failures": 2,
-      "elapsedMs": 102188
+      "portalCandidates": 12,
+      "failures": 13,
+      "elapsedMs": 96748
     },
     {
       "slug": "neyshabur",
@@ -678,7 +678,7 @@
       "documents": 16,
       "portalCandidates": 0,
       "failures": 2,
-      "elapsedMs": 43202
+      "elapsedMs": 43173
     },
     {
       "slug": "eghlid-higher-ed",
@@ -688,7 +688,7 @@
       "documents": 3,
       "portalCandidates": 0,
       "failures": 2,
-      "elapsedMs": 37499
+      "elapsedMs": 38428
     },
     {
       "slug": "kashmar-higher-ed",
@@ -698,7 +698,7 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 1,
-      "elapsedMs": 60
+      "elapsedMs": 69
     },
     {
       "slug": "seyed-jamaleddin-asadabadi",
@@ -708,57 +708,57 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 1,
-      "elapsedMs": 168
+      "elapsedMs": 216
     },
     {
       "slug": "iust",
       "nameFa": "دانشگاه علم و صنعت ایران",
       "pages": 33,
       "evidence": 54,
-      "documents": 14,
+      "documents": 13,
       "portalCandidates": 7,
       "failures": 1,
-      "elapsedMs": 28526
+      "elapsedMs": 28837
     },
     {
       "slug": "sharif",
       "nameFa": "دانشگاه صنعتی شریف",
       "pages": 10,
-      "evidence": 5,
+      "evidence": 6,
       "documents": 56,
-      "portalCandidates": 6,
-      "failures": 0,
-      "elapsedMs": 30046
+      "portalCandidates": 7,
+      "failures": 1,
+      "elapsedMs": 36237
     },
     {
       "slug": "amirkabir",
       "nameFa": "دانشگاه صنعتی امیرکبیر",
-      "pages": 11,
-      "evidence": 10,
-      "documents": 34,
-      "portalCandidates": 6,
+      "pages": 13,
+      "evidence": 7,
+      "documents": 36,
+      "portalCandidates": 7,
       "failures": 27,
-      "elapsedMs": 14904
+      "elapsedMs": 8769
     },
     {
       "slug": "kntu",
       "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
-      "pages": 25,
-      "evidence": 40,
-      "documents": 20,
+      "pages": 22,
+      "evidence": 35,
+      "documents": 35,
       "portalCandidates": 9,
       "failures": 6,
-      "elapsedMs": 70164
+      "elapsedMs": 49566
     },
     {
       "slug": "isfahan-technology",
       "nameFa": "دانشگاه صنعتی اصفهان",
-      "pages": 31,
-      "evidence": 35,
-      "documents": 56,
+      "pages": 32,
+      "evidence": 26,
+      "documents": 57,
       "portalCandidates": 20,
       "failures": 2,
-      "elapsedMs": 72428
+      "elapsedMs": 53195
     },
     {
       "slug": "shahrood-technology",
@@ -768,17 +768,17 @@
       "documents": 50,
       "portalCandidates": 2,
       "failures": 4,
-      "elapsedMs": 57455
+      "elapsedMs": 72597
     },
     {
       "slug": "babol-noshirvani",
       "nameFa": "دانشگاه صنعتی نوشیروانی بابل",
       "pages": 39,
-      "evidence": 42,
-      "documents": 22,
-      "portalCandidates": 26,
+      "evidence": 39,
+      "documents": 24,
+      "portalCandidates": 29,
       "failures": 1,
-      "elapsedMs": 16473
+      "elapsedMs": 15882
     },
     {
       "slug": "sahand",
@@ -788,17 +788,17 @@
       "documents": 21,
       "portalCandidates": 23,
       "failures": 1,
-      "elapsedMs": 52555
+      "elapsedMs": 45955
     },
     {
       "slug": "shiraz-technology",
       "nameFa": "دانشگاه صنعتی شیراز",
-      "pages": 12,
-      "evidence": 11,
+      "pages": 13,
+      "evidence": 12,
       "documents": 47,
       "portalCandidates": 1,
-      "failures": 3,
-      "elapsedMs": 68635
+      "failures": 2,
+      "elapsedMs": 64016
     },
     {
       "slug": "kgut",
@@ -808,27 +808,27 @@
       "documents": 5,
       "portalCandidates": 0,
       "failures": 3,
-      "elapsedMs": 37369
+      "elapsedMs": 35995
     },
     {
       "slug": "urmia-technology",
       "nameFa": "دانشگاه صنعتی ارومیه",
-      "pages": 28,
-      "evidence": 22,
-      "documents": 27,
-      "portalCandidates": 1,
-      "failures": 7,
-      "elapsedMs": 132587
+      "pages": 31,
+      "evidence": 25,
+      "documents": 28,
+      "portalCandidates": 0,
+      "failures": 4,
+      "elapsedMs": 157377
     },
     {
       "slug": "qochan-technology",
       "nameFa": "دانشگاه صنعتی قوچان",
       "pages": 40,
       "evidence": 65,
-      "documents": 22,
-      "portalCandidates": 19,
+      "documents": 26,
+      "portalCandidates": 20,
       "failures": 0,
-      "elapsedMs": 19096
+      "elapsedMs": 19289
     },
     {
       "slug": "arak-technology",
@@ -838,17 +838,17 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 1,
-      "elapsedMs": 267
+      "elapsedMs": 200
     },
     {
       "slug": "kermanshah-technology",
       "nameFa": "دانشگاه صنعتی کرمانشاه",
-      "pages": 5,
-      "evidence": 6,
+      "pages": 3,
+      "evidence": 4,
       "documents": 57,
       "portalCandidates": 1,
-      "failures": 5,
-      "elapsedMs": 98399
+      "failures": 6,
+      "elapsedMs": 117252
     },
     {
       "slug": "qom-technology",
@@ -858,17 +858,17 @@
       "documents": 2,
       "portalCandidates": 0,
       "failures": 12,
-      "elapsedMs": 135114
+      "elapsedMs": 135549
     },
     {
       "slug": "jundi-shapur-dezful",
       "nameFa": "دانشگاه صنعتی جندی شاپور دزفول",
-      "pages": 39,
-      "evidence": 38,
+      "pages": 38,
+      "evidence": 37,
       "documents": 21,
-      "portalCandidates": 2,
+      "portalCandidates": 1,
       "failures": 0,
-      "elapsedMs": 34900
+      "elapsedMs": 36653
     },
     {
       "slug": "hamedan-technology",
@@ -878,57 +878,57 @@
       "documents": 45,
       "portalCandidates": 0,
       "failures": 2,
-      "elapsedMs": 19626
+      "elapsedMs": 18324
     },
     {
       "slug": "khatam-behbahan",
       "nameFa": "دانشگاه صنعتی خاتم الانبیاء بهبهان",
-      "pages": 6,
-      "evidence": 5,
+      "pages": 30,
+      "evidence": 47,
       "documents": 1,
-      "portalCandidates": 0,
-      "failures": 2,
-      "elapsedMs": 30413
+      "portalCandidates": 20,
+      "failures": 4,
+      "elapsedMs": 39939
     },
     {
       "slug": "sirjan-technology",
       "nameFa": "دانشگاه صنعتی سیرجان",
-      "pages": 38,
-      "evidence": 24,
+      "pages": 26,
+      "evidence": 18,
       "documents": 58,
-      "portalCandidates": 4,
-      "failures": 2,
-      "elapsedMs": 46582
+      "portalCandidates": 3,
+      "failures": 14,
+      "elapsedMs": 79519
     },
     {
       "slug": "mazandaran-science-tech",
       "nameFa": "دانشگاه علم و فناوری مازندران (بهشهر)",
-      "pages": 6,
+      "pages": 8,
       "evidence": 4,
       "documents": 46,
       "portalCandidates": 1,
-      "failures": 2,
-      "elapsedMs": 26881
+      "failures": 4,
+      "elapsedMs": 25948
     },
     {
       "slug": "esfarayen-higher-ed",
       "nameFa": "مجتمع آموزش عالی فنی و مهندسی اسفراین",
-      "pages": 40,
+      "pages": 39,
       "evidence": 43,
       "documents": 31,
-      "portalCandidates": 31,
-      "failures": 0,
-      "elapsedMs": 18346
+      "portalCandidates": 32,
+      "failures": 1,
+      "elapsedMs": 27285
     },
     {
       "slug": "birjand-technology",
       "nameFa": "دانشگاه صنعتی بیرجند",
       "pages": 40,
-      "evidence": 40,
-      "documents": 30,
-      "portalCandidates": 23,
+      "evidence": 39,
+      "documents": 32,
+      "portalCandidates": 22,
       "failures": 0,
-      "elapsedMs": 17176
+      "elapsedMs": 36008
     },
     {
       "slug": "buin-zahra-higher-ed",
@@ -938,47 +938,47 @@
       "documents": 54,
       "portalCandidates": 0,
       "failures": 4,
-      "elapsedMs": 9981
+      "elapsedMs": 9054
     },
     {
       "slug": "mahallat-higher-ed",
       "nameFa": "مرکز آموزش عالی محلات",
       "pages": 22,
-      "evidence": 11,
-      "documents": 32,
+      "evidence": 17,
+      "documents": 36,
       "portalCandidates": 5,
       "failures": 4,
-      "elapsedMs": 49271
+      "elapsedMs": 74533
     },
     {
       "slug": "gorgan-agri",
       "nameFa": "دانشگاه علوم کشاورزی و منابع طبیعی گرگان",
-      "pages": 36,
-      "evidence": 45,
-      "documents": 42,
+      "pages": 35,
+      "evidence": 38,
+      "documents": 38,
       "portalCandidates": 11,
-      "failures": 4,
-      "elapsedMs": 35706
+      "failures": 5,
+      "elapsedMs": 34173
     },
     {
       "slug": "sari-agri",
       "nameFa": "دانشگاه علوم کشاورزی و منابع طبیعی ساری",
-      "pages": 36,
-      "evidence": 30,
+      "pages": 38,
+      "evidence": 35,
       "documents": 57,
       "portalCandidates": 32,
-      "failures": 1,
-      "elapsedMs": 25543
+      "failures": 0,
+      "elapsedMs": 33978
     },
     {
       "slug": "khuzestan-agri",
       "nameFa": "دانشگاه علوم کشاورزی و منابع طبیعی خوزستان",
-      "pages": 39,
-      "evidence": 57,
-      "documents": 30,
-      "portalCandidates": 14,
+      "pages": 40,
+      "evidence": 56,
+      "documents": 25,
+      "portalCandidates": 16,
       "failures": 0,
-      "elapsedMs": 7117
+      "elapsedMs": 9342
     },
     {
       "slug": "torbat-jam-agri",
@@ -988,7 +988,7 @@
       "documents": 1,
       "portalCandidates": 0,
       "failures": 1,
-      "elapsedMs": 17996
+      "elapsedMs": 14130
     },
     {
       "slug": "iran-art",
@@ -998,7 +998,7 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 2,
-      "elapsedMs": 779
+      "elapsedMs": 552
     },
     {
       "slug": "tabriz-islamic-art",
@@ -1008,37 +1008,37 @@
       "documents": 36,
       "portalCandidates": 0,
       "failures": 0,
-      "elapsedMs": 36302
+      "elapsedMs": 69527
     },
     {
       "slug": "isfahan-art",
       "nameFa": "دانشگاه هنر اصفهان",
       "pages": 39,
-      "evidence": 39,
-      "documents": 48,
-      "portalCandidates": 2,
+      "evidence": 40,
+      "documents": 47,
+      "portalCandidates": 3,
       "failures": 0,
-      "elapsedMs": 42372
+      "elapsedMs": 33337
     },
     {
       "slug": "shiraz-art",
       "nameFa": "دانشگاه هنر شیراز",
-      "pages": 24,
-      "evidence": 5,
+      "pages": 27,
+      "evidence": 12,
       "documents": 60,
-      "portalCandidates": 2,
-      "failures": 3,
-      "elapsedMs": 95786
+      "portalCandidates": 0,
+      "failures": 5,
+      "elapsedMs": 135085
     },
     {
       "slug": "payame-noor",
       "nameFa": "دانشگاه پیام نور",
-      "pages": 36,
-      "evidence": 34,
-      "documents": 0,
+      "pages": 38,
+      "evidence": 42,
+      "documents": 1,
       "portalCandidates": 4,
-      "failures": 4,
-      "elapsedMs": 35501
+      "failures": 2,
+      "elapsedMs": 113126
     },
     {
       "slug": "national-skills",
@@ -1048,27 +1048,27 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 1,
-      "elapsedMs": 382
+      "elapsedMs": 69
     },
     {
       "slug": "farhangian",
       "nameFa": "دانشگاه فرهنگیان",
       "pages": 39,
-      "evidence": 31,
-      "documents": 35,
-      "portalCandidates": 10,
+      "evidence": 27,
+      "documents": 21,
+      "portalCandidates": 6,
       "failures": 1,
-      "elapsedMs": 36807
+      "elapsedMs": 35511
     },
     {
       "slug": "applied-science",
       "nameFa": "دانشگاه جامع علمی کاربردی",
-      "pages": 40,
-      "evidence": 43,
-      "documents": 19,
-      "portalCandidates": 11,
-      "failures": 0,
-      "elapsedMs": 14286
+      "pages": 39,
+      "evidence": 44,
+      "documents": 37,
+      "portalCandidates": 26,
+      "failures": 1,
+      "elapsedMs": 15523
     },
     {
       "slug": "imam-hossein",
@@ -1078,17 +1078,17 @@
       "documents": 15,
       "portalCandidates": 2,
       "failures": 18,
-      "elapsedMs": 11003
+      "elapsedMs": 12099
     },
     {
       "slug": "shahed",
       "nameFa": "دانشگاه شاهد",
-      "pages": 36,
-      "evidence": 58,
-      "documents": 42,
-      "portalCandidates": 3,
-      "failures": 2,
-      "elapsedMs": 78500
+      "pages": 33,
+      "evidence": 42,
+      "documents": 43,
+      "portalCandidates": 2,
+      "failures": 4,
+      "elapsedMs": 94901
     },
     {
       "slug": "malek-ashtar",
@@ -1098,17 +1098,17 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 1,
-      "elapsedMs": 23163
+      "elapsedMs": 23011
     },
     {
       "slug": "shahid-rajaee",
       "nameFa": "دانشگاه تربیت دبیر شهید رجایی",
-      "pages": 29,
-      "evidence": 26,
+      "pages": 28,
+      "evidence": 22,
       "documents": 48,
       "portalCandidates": 7,
-      "failures": 8,
-      "elapsedMs": 72708
+      "failures": 9,
+      "elapsedMs": 75174
     },
     {
       "slug": "aja-command",
@@ -1118,17 +1118,17 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 1,
-      "elapsedMs": 434
+      "elapsedMs": 416
     },
     {
       "slug": "national-defense",
       "nameFa": "دانشگاه عالی دفاع ملی",
       "pages": 40,
-      "evidence": 13,
+      "evidence": 10,
       "documents": 0,
-      "portalCandidates": 3,
+      "portalCandidates": 27,
       "failures": 0,
-      "elapsedMs": 31964
+      "elapsedMs": 29777
     },
     {
       "slug": "amin-police",
@@ -1138,17 +1138,17 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 1,
-      "elapsedMs": 269
+      "elapsedMs": 21
     },
     {
       "slug": "petroleum",
       "nameFa": "دانشگاه صنعت نفت",
-      "pages": 36,
-      "evidence": 30,
+      "pages": 37,
+      "evidence": 29,
       "documents": 47,
-      "portalCandidates": 3,
-      "failures": 4,
-      "elapsedMs": 59864
+      "portalCandidates": 0,
+      "failures": 3,
+      "elapsedMs": 74783
     },
     {
       "slug": "irib",
@@ -1158,7 +1158,7 @@
       "documents": 0,
       "portalCandidates": 0,
       "failures": 1,
-      "elapsedMs": 325
+      "elapsedMs": 309
     },
     {
       "slug": "civil-aviation",
@@ -1168,7 +1168,7 @@
       "documents": 19,
       "portalCandidates": 0,
       "failures": 0,
-      "elapsedMs": 9911
+      "elapsedMs": 11933
     }
   ]
 }

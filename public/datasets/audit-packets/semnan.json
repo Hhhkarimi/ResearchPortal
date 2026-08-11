@@ -85,7 +85,7 @@
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
       "lastRun": "2026-08-11",
-      "promotedSources": 110,
+      "promotedSources": 108,
       "socialEvidenceRemoved": true
     }
   },
@@ -173,7 +173,7 @@
     "auditEvidenceCoverage": 100,
     "unitsFound": 32,
     "systemsFound": 14,
-    "documentsFound": 58,
+    "documentsFound": 59,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 71,
+      "sourceCount": 72,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
@@ -601,6 +601,13 @@
           "sourceLabel": "PDF"
         },
         {
+          "url": "https://research.semnan.ac.ir/uploads/7/2022/Apr/04/%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%B1%DB%8C%D8%A7%D9%84%DB%8C.pdf",
+          "kind": "research-review-specific",
+          "claim": "PDF",
+          "id": null,
+          "sourceLabel": "PDF"
+        },
+        {
           "url": "https://research.semnan.ac.ir/uploads/7/2020/Sep/07/%D9%85%D9%86%D8%B4%D9%88%D8%B1_%D8%A7%D8%AE%D9%84%D8%A7%D9%82%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4.pdf",
           "kind": "research-review-specific",
           "claim": "منشور و موازین اخلاق پژوهش",
@@ -895,13 +902,13 @@
           "id": null
         },
         {
-          "url": "https://lib.semnan.ac.ir/Aeennameha",
+          "url": "https://lib.semnan.ac.ir/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%87%D9%85%D8%A7%D9%86%D9%86%D8%AF%D8%AC%D9%88",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
         },
         {
-          "url": "https://lib.semnan.ac.ir/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%87%D9%85%D8%A7%D9%86%D9%86%D8%AF%D8%AC%D9%88",
+          "url": "https://lib.semnan.ac.ir/Aeennameha",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
@@ -970,7 +977,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 8,
+      "sourceCount": 7,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
@@ -1016,13 +1023,6 @@
         },
         {
           "url": "https://centrallab.semnan.ac.ir/agreement.pdf",
-          "kind": "research-review-specific",
-          "claim": "فرم تعهد تجهیزات",
-          "id": null,
-          "sourceLabel": "فرم تعهد تجهیزات"
-        },
-        {
-          "url": "https://centrallab.semnan.ac.ir/agreement.docx",
           "kind": "research-review-specific",
           "claim": "فرم تعهد تجهیزات",
           "id": null,
@@ -1218,7 +1218,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 64,
+      "sourceCount": 65,
       "sources": [
         {
           "url": "https://semnan.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7",
@@ -1521,33 +1521,15 @@
           "id": null
         },
         {
+          "url": "https://research.semnan.ac.ir/uploads/7/2022/Apr/04/%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%B1%DB%8C%D8%A7%D9%84%DB%8C.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "PDF",
+          "id": null
+        },
+        {
           "url": "https://semnan.ac.ir/uploads/1/2023/Jul/30/SemnanUniadmission-form.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "فرم ثبت نام",
-          "id": null
-        },
-        {
-          "url": "https://centrallab.semnan.ac.ir/use.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم استفاده از آزمایشگاه مرکزی",
-          "id": null
-        },
-        {
-          "url": "https://centrallab.semnan.ac.ir/use.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم استفاده از آزمایشگاه مرکزی",
-          "id": null
-        },
-        {
-          "url": "https://centrallab.semnan.ac.ir/agreement.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم تعهد تجهیزات",
-          "id": null
-        },
-        {
-          "url": "https://centrallab.semnan.ac.ir/agreement.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم تعهد تجهیزات",
           "id": null
         },
         {
@@ -1575,9 +1557,27 @@
           "id": null
         },
         {
-          "url": "https://lib.semnan.ac.ir/uploads/19/2021/Jul/04/final_english_database980215.pdf",
+          "url": "https://centrallab.semnan.ac.ir/use.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "جستجوی مقاله در پایگاه ها",
+          "claim": "فرم استفاده از آزمایشگاه مرکزی",
+          "id": null
+        },
+        {
+          "url": "https://centrallab.semnan.ac.ir/use.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم استفاده از آزمایشگاه مرکزی",
+          "id": null
+        },
+        {
+          "url": "https://centrallab.semnan.ac.ir/agreement.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم تعهد تجهیزات",
+          "id": null
+        },
+        {
+          "url": "https://centrallab.semnan.ac.ir/agreement.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم تعهد تجهیزات",
           "id": null
         },
         {
@@ -1597,6 +1597,12 @@
           "kind": "document",
           "claim": "الحاقیه شیوه‌نامه پژوهانه جامع",
           "id": "semnan-doc-1"
+        },
+        {
+          "url": "https://lib.semnan.ac.ir/uploads/19/2021/Jul/04/final_english_database980215.pdf",
+          "kind": "document",
+          "claim": "جستجوی مقاله در پایگاه ها",
+          "id": "semnan-discovery-document-b015518526a0"
         },
         {
           "url": "https://research.semnan.ac.ir/getformes",
@@ -1630,14 +1636,14 @@
     },
     "units": 32,
     "systems": 14,
-    "documents": 58,
+    "documents": 59,
     "activeWeight": 100,
     "evidenceCoverage": 100,
     "methodologyVersion": "RTPMI-4.1-ISC",
     "snapshotDate": "2026-08-11",
     "rank": 2,
     "portalRankWithinISCClass": 2,
-    "rankedPortalsInISCClass": 32
+    "rankedPortalsInISCClass": 35
   },
   "units": [
     {
@@ -3287,6 +3293,27 @@
       "archivePath": "semnan/3bec9546bd3b-research1403-1404.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.85
+    },
+    {
+      "id": "semnan-discovery-document-9a763379309b",
+      "universitySlug": "semnan",
+      "title": "PDF",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.semnan.ac.ir/uploads/7/2022/Apr/04/%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%B1%DB%8C%D8%A7%D9%84%DB%8C.pdf",
+      "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2022/Apr/04/%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%B1%DB%8C%D8%A7%D9%84%DB%8C.pdf",
+      "parentUrl": "https://research.semnan.ac.ir/getformes",
+      "sha256": "85e824d087e05dc3876a0307812664488b14cc3555c10de35257c3f0959f0845",
+      "fileName": "فرصت مطالعاتی ریالی.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 265907,
+      "archivePath": "semnan/19a6b59045f7-فرصت مطالعاتی ریالی.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
     }
   ],
   "interpretation": {

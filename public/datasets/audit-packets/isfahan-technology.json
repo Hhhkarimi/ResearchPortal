@@ -85,7 +85,7 @@
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
       "lastRun": "2026-08-11",
-      "promotedSources": 108,
+      "promotedSources": 98,
       "socialEvidenceRemoved": true
     }
   },
@@ -173,7 +173,7 @@
     "auditEvidenceCoverage": 100,
     "unitsFound": 18,
     "systemsFound": 12,
-    "documentsFound": 62,
+    "documentsFound": 64,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 79,
+      "sourceCount": 85,
       "sources": [
         {
           "url": "https://research.iut.ac.ir/",
@@ -683,6 +683,48 @@
           "claim": "دستورالعمل اجرايي اعطاي پژوهانه علمي آموزشي پژوهشي فناوري نوآوري مهارتي هنري ورزشي و فرهنگي (جامع) 1404",
           "id": null,
           "sourceLabel": "دستورالعمل اجرايي اعطاي پژوهانه علمي آموزشي پژوهشي فناوري نوآوري مهارتي هنري ورزشي و فرهنگي (جامع) 1404"
+        },
+        {
+          "url": "https://research.iut.ac.ir/sites/research/files/text_files/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A%20%D8%A7%D8%B9%D8%B7%D8%A7%D9%8A%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%D9%8A%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A%20%D9%86%D9%88%D8%A2%D9%88%D8%B1%D9%8A%20%D9%85%D9%87%D8%A7%D8%B1%D8%AA%D9%8A%20%D9%87%D9%86%D8%B1%D9%8A%20%D9%88%D8%B1%D8%B2%D8%B4%D9%8A%20%D9%88%20%D9%81%D8%B1%D9%87%D9%86%DA%AF%D9%8A%20%28%D8%AC%D8%A7%D9%85%D8%B9%29_1.pdf",
+          "kind": "research-review-specific",
+          "claim": "دستورالعمل اجرايي اعطاي پژوهانه علمي آموزشي پژوهشي فناوري نوآوري مهارتي هنري ورزشي و فرهنگي (جامع)(اصلاحی 1405)",
+          "id": null,
+          "sourceLabel": "دستورالعمل اجرايي اعطاي پژوهانه علمي آموزشي پژوهشي فناوري نوآوري مهارتي هنري ورزشي و فرهنگي (جامع)(اصلاحی 1405)"
+        },
+        {
+          "url": "https://research.iut.ac.ir/sites/research/files/Files/dastoorejraeidaneshgah_0_0.pdf",
+          "kind": "research-review-specific",
+          "claim": "دستورالعمل اجرايي فرصت مطالعاتي دانشگاه",
+          "id": null,
+          "sourceLabel": "دستورالعمل اجرايي فرصت مطالعاتي دانشگاه"
+        },
+        {
+          "url": "https://research.iut.ac.ir/sites/research/files/modir-kol-pajooheshi/%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%88%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7/form%20forsat.docx",
+          "kind": "research-review-specific",
+          "claim": "فرم درخواست فرصت مطالعاتي داخل",
+          "id": null,
+          "sourceLabel": "فرم درخواست فرصت مطالعاتي داخل"
+        },
+        {
+          "url": "https://research.iut.ac.ir/sites/research/files/modir-kol-pajooheshi/%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D9%88%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7/%D9%81%D8%B1%D9%85%20%D8%AE%D9%84%D8%A7%D8%B5%D9%87%20%D8%B7%D8%B1%D8%AD%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.docx",
+          "kind": "research-review-specific",
+          "claim": "فرم خلاصه طرح فرصت مطالعاتي",
+          "id": null,
+          "sourceLabel": "فرم خلاصه طرح فرصت مطالعاتي"
+        },
+        {
+          "url": "https://research.iut.ac.ir/sites/research/files/Files/academicstaffconferenceforms-revised_14-5-92_0.pdf",
+          "kind": "research-review-specific",
+          "claim": "فرم شركت در كنفرانس",
+          "id": null,
+          "sourceLabel": "فرم شركت در كنفرانس"
+        },
+        {
+          "url": "https://research.iut.ac.ir/sites/research/files/Files/aeenhemayeshbeyn931118_0.pdf",
+          "kind": "research-review-specific",
+          "claim": "آيين نامه شركت اعضاي هيأت علمي در همايش هاي علمي خارج از كشور",
+          "id": null,
+          "sourceLabel": "آيين نامه شركت اعضاي هيأت علمي در همايش هاي علمي خارج از كشور"
         }
       ],
       "publicationAdjustment": null,
@@ -821,7 +863,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 13,
+      "sourceCount": 11,
       "sources": [
         {
           "url": "https://research.iut.ac.ir/",
@@ -831,12 +873,6 @@
         },
         {
           "url": "https://lib-pub.iut.ac.ir/fa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib-pub.iut.ac.ir/fa/library-help",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
@@ -866,6 +902,15 @@
           "id": null
         },
         {
+          "url": "https://lib-pub.iut.ac.ir/fa/library-help",
+          "kind": "unit",
+          "claim": "راهنمای سامانه کتابخانه | کتابخانه مرکزی و انتشارات",
+          "id": "isfahan-technology-discovery-unit-library-30950bd087af",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
           "url": "https://research.iut.ac.ir/fa",
           "kind": "system",
           "claim": "کتابخانه مرکزی و انتشارات | دانشگاه صنعتی اصفهان",
@@ -889,20 +934,6 @@
           "kind": "document",
           "claim": "دستورالعمل اجرایی شيوه نامه تشويق مقالات منتشر شده در نشریات معتبر بین المللی و داخلی",
           "id": "isfahan-technology-discovery-document-325b089b0597"
-        },
-        {
-          "url": "https://lib-pub.iut.ac.ir/sites/lib/files/Site/help-Library/thesis-prof.pdf",
-          "kind": "research-review-specific",
-          "claim": "بررسی و تایید پایان نامه توسط اساتید راهنما",
-          "id": null,
-          "sourceLabel": "بررسی و تایید پایان نامه توسط اساتید راهنما"
-        },
-        {
-          "url": "https://lib-pub.iut.ac.ir/sites/lib/files/Site/help-Library/thesis.pdf",
-          "kind": "research-review-specific",
-          "claim": "راهنما",
-          "id": null,
-          "sourceLabel": "راهنما"
         }
       ],
       "publicationAdjustment": null,
@@ -949,20 +980,14 @@
       "iscCategory": "صنعتی",
       "iscRank": 5,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 15,
+      "sourceCount": 16,
       "sources": [
         {
           "url": "https://research.iut.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://roshd.iut.ac.ir/copyright/1519",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific industryTechnology source",
           "id": null
@@ -973,6 +998,15 @@
           "claim": "مدیریت فناوری و ارتباط با صنعت | معاونت پژوهش و فناوری",
           "id": "isfahan-technology-discovery-unit-industry-5282edc62e1f",
           "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://roshd.iut.ac.ir/copyright/1519",
+          "kind": "unit",
+          "claim": "کمیته مالکیت فکری | مرکز رشد نوین",
+          "id": "isfahan-technology-discovery-unit-technology-0aee3bcefea8",
+          "unitType": "technology",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
         },
@@ -1061,10 +1095,17 @@
           "claim": "دستورالعمل اجرايي اعطاي پژوهانه علمي آموزشي پژوهشي فناوري نوآوري مهارتي هنري ورزشي و فرهنگي (جامع) 1404",
           "id": null,
           "sourceLabel": "دستورالعمل اجرايي اعطاي پژوهانه علمي آموزشي پژوهشي فناوري نوآوري مهارتي هنري ورزشي و فرهنگي (جامع) 1404"
+        },
+        {
+          "url": "https://research.iut.ac.ir/sites/research/files/text_files/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A%20%D8%A7%D8%B9%D8%B7%D8%A7%D9%8A%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%D9%8A%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A%20%D9%86%D9%88%D8%A2%D9%88%D8%B1%D9%8A%20%D9%85%D9%87%D8%A7%D8%B1%D8%AA%D9%8A%20%D9%87%D9%86%D8%B1%D9%8A%20%D9%88%D8%B1%D8%B2%D8%B4%D9%8A%20%D9%88%20%D9%81%D8%B1%D9%87%D9%86%DA%AF%D9%8A%20%28%D8%AC%D8%A7%D9%85%D8%B9%29_1.pdf",
+          "kind": "research-review-specific",
+          "claim": "دستورالعمل اجرايي اعطاي پژوهانه علمي آموزشي پژوهشي فناوري نوآوري مهارتي هنري ورزشي و فرهنگي (جامع)(اصلاحی 1405)",
+          "id": null,
+          "sourceLabel": "دستورالعمل اجرايي اعطاي پژوهانه علمي آموزشي پژوهشي فناوري نوآوري مهارتي هنري ورزشي و فرهنگي (جامع)(اصلاحی 1405)"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -1102,7 +1143,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 9,
+      "sourceCount": 8,
       "sources": [
         {
           "url": "https://research.iut.ac.ir/",
@@ -1124,12 +1165,6 @@
         },
         {
           "url": "https://lib-pub.iut.ac.ir/fa/dissertation-documentary",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://lib-pub.iut.ac.ir/fa/library-help",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
@@ -1177,7 +1212,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 64,
+      "sourceCount": 63,
       "sources": [
         {
           "url": "https://research.iut.ac.ir/fa/dgr/1770",
@@ -1192,25 +1227,7 @@
           "id": null
         },
         {
-          "url": "https://roshd.iut.ac.ir/fa/1727",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://roshd.iut.ac.ir/index.php/fa/copyright/1523",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
           "url": "https://lib-pub.iut.ac.ir/fa/dissertation-documentary",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://lib-pub.iut.ac.ir/fa/library-help",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -1231,6 +1248,12 @@
           "url": "https://lib-pub.iut.ac.ir/sites/lib/files/Site/Thesis-confidentiality/Confidentiality.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "شيوه نامه محرمانه كردن پايان نامه",
+          "id": null
+        },
+        {
+          "url": "https://research.iut.ac.ir/sites/research/files/files/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A7%D9%85%D8%AA%D9%8A%D8%A7%D8%B2%D8%AF%D9%87%D9%8A%20%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%AA%20%D9%87%D8%A7%20%D8%AF%D8%B1%20%DA%86%D8%A7%D8%B1%DA%86%D9%88%D8%A8%20%D8%A2%D9%8A%D9%8A%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستور العمل نحوه امتیاز دهی فعالیت ها در چهارچوب آیین نامه پژوهانه",
           "id": null
         },
         {
@@ -1288,18 +1311,6 @@
           "id": null
         },
         {
-          "url": "https://lib-pub.iut.ac.ir/sites/lib/files/Site/help-Library/thesis-prof.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "بررسی و تایید پایان نامه توسط اساتید راهنما",
-          "id": null
-        },
-        {
-          "url": "https://research.iut.ac.ir/sites/research/files/files/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A7%D9%85%D8%AA%D9%8A%D8%A7%D8%B2%D8%AF%D9%87%D9%8A%20%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%AA%20%D9%87%D8%A7%20%D8%AF%D8%B1%20%DA%86%D8%A7%D8%B1%DA%86%D9%88%D8%A8%20%D8%A2%D9%8A%D9%8A%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستور العمل نحوه امتیاز دهی فعالیت ها در چهارچوب آیین نامه پژوهانه",
-          "id": null
-        },
-        {
           "url": "https://research.iut.ac.ir/sites/research/files/tico/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%B1%20%D8%B5%D9%86%D8%B9%D8%AA.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "آیین نامه فرصت مطالعاتی در صنعت.pdf",
@@ -1321,12 +1332,6 @@
           "url": "https://research.iut.ac.ir/sites/research/files/1402-07/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%B4%D9%8A%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B4%D9%88%D9%8A%D9%82%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D9%85%D9%86%D8%AA%D8%B4%D8%B1%20%D8%B4%D8%AF%D9%87%20%D8%AF%D8%B1%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%20%D8%A8%DB%8C%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C%20%D9%88%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C%20.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "دستورالعمل اجرایی شيوه نامه تشويق مقالات منتشر شده در نشریات معتبر بین المللی و داخلی",
-          "id": null
-        },
-        {
-          "url": "https://lib-pub.iut.ac.ir/sites/lib/files/Site/regulations/weed-form.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم وجين",
           "id": null
         },
         {
@@ -1375,6 +1380,12 @@
           "url": "https://research.iut.ac.ir/sites/research/files/user-116/(24)aeenname%20forsat-dakheli.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "آیین نامه فرصت مطالعاتی داخلی به میزبانی دانشگاه صنعتی اصفهان",
+          "id": null
+        },
+        {
+          "url": "https://lib-pub.iut.ac.ir/sites/lib/files/Site/regulations/weed-form.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم وجين",
           "id": null
         },
         {
@@ -1516,12 +1527,6 @@
           "id": null
         },
         {
-          "url": "https://lib-pub.iut.ac.ir/sites/lib/files/Site/help-Library/thesis.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنما",
-          "id": null
-        },
-        {
           "url": "https://research.iut.ac.ir/sites/research/files/text_files/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A%20%D8%A7%D8%B9%D8%B7%D8%A7%D9%8A%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%D9%8A%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A%20%D9%86%D9%88%D8%A2%D9%88%D8%B1%D9%8A%20%D9%85%D9%87%D8%A7%D8%B1%D8%AA%D9%8A%20%D9%87%D9%86%D8%B1%D9%8A%20%D9%88%D8%B1%D8%B2%D8%B4%D9%8A%20%D9%88%20%D9%81%D8%B1%D9%87%D9%86%DA%AF%D9%8A%20%28%D8%AC%D8%A7%D9%85%D8%B9%29_1.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "دستورالعمل اجرايي اعطاي پژوهانه علمي آموزشي پژوهشي فناوري نوآوري مهارتي هنري ورزشي و فرهنگي (جامع)(اصلاحی 1405)",
@@ -1558,10 +1563,34 @@
           "id": null
         },
         {
+          "url": "https://research.iut.ac.ir/sites/research/files/user-116/(19)%20aeenname%20roydad%20elmi%20majazi.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه برگزاری رویدادهای علمی بین المللی به صورت مجازی",
+          "id": null
+        },
+        {
+          "url": "https://research.iut.ac.ir/sites/research/files/user-116/(20)%20aeenname%20sherkat%20hamayesh%20majazi.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه شرکت اعضای هیأت علمی در همایش های علمی بین المللی به صورت مجازی",
+          "id": null
+        },
+        {
+          "url": "https://lib-pub.iut.ac.ir/sites/lib/files/Site/help-Library/thesis.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "راهنما",
+          "id": null
+        },
+        {
           "url": "https://research.iut.ac.ir/",
           "kind": "document",
           "claim": "آیین‌نامه پژوهانه",
           "id": "isfahan-technology-doc-1"
+        },
+        {
+          "url": "https://lib-pub.iut.ac.ir/sites/lib/files/Site/help-Library/thesis-prof.pdf",
+          "kind": "document",
+          "claim": "بررسی و تایید پایان نامه توسط اساتید راهنما",
+          "id": "isfahan-technology-discovery-document-0697fee44174"
         }
       ],
       "publicationAdjustment": null,
@@ -1588,7 +1617,7 @@
     },
     "units": 18,
     "systems": 12,
-    "documents": 62,
+    "documents": 64,
     "activeWeight": 100,
     "evidenceCoverage": 100,
     "methodologyVersion": "RTPMI-4.1-ISC",
@@ -3166,6 +3195,48 @@
       "contentType": "application/pdf",
       "fileSize": 52308,
       "archivePath": "isfahan-technology/b1be31e68bd3-aeenhemayeshbeyn931118_0.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "isfahan-technology-discovery-document-9c266f365257",
+      "universitySlug": "isfahan-technology",
+      "title": "آیین نامه برگزاری رویدادهای علمی بین المللی به صورت مجازی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.iut.ac.ir/sites/research/files/user-116/(19)%20aeenname%20roydad%20elmi%20majazi.pdf",
+      "sourceUrl": "https://research.iut.ac.ir/sites/research/files/user-116/(19)%20aeenname%20roydad%20elmi%20majazi.pdf",
+      "parentUrl": "https://research.iut.ac.ir/fa/dgr/1765",
+      "sha256": "cd4956109d1a0d10daaf28a802b2617e2af56d33d123374638bd857b67ffbc85",
+      "fileName": "(19) aeenname roydad elmi majazi.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 657206,
+      "archivePath": "isfahan-technology/37730c5a6fb5-(19) aeenname roydad elmi majazi.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "isfahan-technology-discovery-document-88e29302da3e",
+      "universitySlug": "isfahan-technology",
+      "title": "آیین نامه شرکت اعضای هیأت علمی در همایش های علمی بین المللی به صورت مجازی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://research.iut.ac.ir/sites/research/files/user-116/(20)%20aeenname%20sherkat%20hamayesh%20majazi.pdf",
+      "sourceUrl": "https://research.iut.ac.ir/sites/research/files/user-116/(20)%20aeenname%20sherkat%20hamayesh%20majazi.pdf",
+      "parentUrl": "https://research.iut.ac.ir/fa/dgr/1765",
+      "sha256": "0db224ac3bf432ab1a70f7acdc7e1bcf1cf6b7513dab9452691b67aec555d4a5",
+      "fileName": "(20) aeenname sherkat hamayesh majazi.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 640413,
+      "archivePath": "isfahan-technology/40e3f33a7dfb-(20) aeenname sherkat hamayesh majazi.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     }

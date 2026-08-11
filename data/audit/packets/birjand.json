@@ -85,7 +85,7 @@
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-11",
-      "promotedSources": 149,
+      "promotedSources": 143,
       "socialEvidenceRemoved": true
     }
   },
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 60,
+      "sourceCount": 61,
       "sources": [
         {
           "url": "https://birjand.ac.ir/research/fa",
@@ -550,6 +550,13 @@
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
+        },
+        {
+          "url": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -1385,6 +1392,12 @@
           "id": null
         },
         {
+          "url": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
           "url": "https://birjand.ac.ir/research/fa/regulation/category/150/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
@@ -1398,12 +1411,6 @@
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/category/150/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -1833,9 +1840,9 @@
     "evidenceCoverage": 75,
     "methodologyVersion": "RTPMI-4.1-ISC",
     "snapshotDate": "2026-08-11",
-    "rank": 44,
-    "portalRankWithinISCClass": 25,
-    "rankedPortalsInISCClass": 32
+    "rank": 49,
+    "portalRankWithinISCClass": 29,
+    "rankedPortalsInISCClass": 35
   },
   "units": [
     {

@@ -767,7 +767,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 7,
+      "sourceCount": 6,
       "sources": [
         {
           "url": "https://yazd.ac.ir/",
@@ -783,12 +783,6 @@
         },
         {
           "url": "https://yazd.ac.ir/offices/research/deputy/research/core/sshd",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/educational/deputy/graduate/information/thesis",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
@@ -887,6 +881,12 @@
         },
         {
           "url": "https://yazd.ac.ir/offices/educational/deputy/talent/shahrad/forms",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://yazd.ac.ir/offices/educational/deputy/talent/admission/forms",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -1250,13 +1250,6 @@
           "kind": "portal-document-reaudit-document",
           "claim": "EPF025",
           "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/educational/deputy/graduate/information/thesis",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -1288,9 +1281,9 @@
     "evidenceCoverage": 75,
     "methodologyVersion": "RTPMI-4.1-ISC",
     "snapshotDate": "2026-08-11",
-    "rank": 50,
-    "portalRankWithinISCClass": 28,
-    "rankedPortalsInISCClass": 32
+    "rank": 56,
+    "portalRankWithinISCClass": 32,
+    "rankedPortalsInISCClass": 35
   },
   "units": [
     {
