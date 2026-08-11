@@ -38,16 +38,6 @@ jobs:
         shell: cmd
         run: node scripts/inspect-crawl-report.mjs
 
-      - name: Upload crawl report
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: national-evidence-health
-          path: |
-            data/generated/site-health.json
-            data/generated/change-report.json
-          retention-days: 30
-
       - name: Commit meaningful crawl changes
         if: steps.crawl.outputs.meaningful == 'true'
         shell: cmd
@@ -66,3 +56,15 @@ jobs:
           echo No meaningful evidence changes detected.
           echo Network failures: ${{ steps.crawl.outputs.failed }}
           echo Nothing will be committed.
+
+      - name: Upload crawl report
+        if: always()
+        continue-on-error: true
+        timeout-minutes: 2
+        uses: actions/upload-artifact@v4
+        with:
+          name: national-evidence-health
+          path: |
+            data/generated/site-health.json
+            data/generated/change-report.json
+          retention-days: 30
