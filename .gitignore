@@ -7,5 +7,9 @@ data/generated/*
 !data/generated/.gitkeep
 !data/generated/site-health.json
 !data/generated/change-report.json
+!data/generated/discovery-evidence.json
+!data/generated/discovered-documents.json
+!data/generated/discovery-summary.json
 runtime-smoke/
+runtime-crawl/
 *.tsbuildinfo
