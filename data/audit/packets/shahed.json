@@ -5,7 +5,11 @@
     "category": "دستگاه اجرایی",
     "iscRank": 2,
     "nameFa": "دانشگاه شاهد",
-    "slug": "shahed"
+    "slug": "shahed",
+    "officialWebsite": "https://shahed.ac.ir/",
+    "websiteScope": "institution",
+    "websiteVerification": "official-domain",
+    "needsIranRunnerCheck": false
   },
   "portalAudit": {
     "universitySlug": "shahed",
@@ -17,7 +21,6 @@
     "researchUrl": "https://res.shahed.ac.ir",
     "evidenceUrls": [
       "https://res.shahed.ac.ir",
-      "https://res.shahed.ac.ir/",
       "https://library.shahed.ac.ir/"
     ],
     "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
@@ -29,7 +32,12 @@
       "laboratory",
       "technology",
       "systems"
-    ]
+    ],
+    "discoveryCrawler": {
+      "lastRun": "2026-08-11",
+      "promotedSources": 0,
+      "socialEvidenceRemoved": true
+    }
   },
   "deepAudit": {
     "universitySlug": "shahed",
@@ -41,7 +49,6 @@
     "researchUrl": "https://res.shahed.ac.ir",
     "evidenceUrls": [
       "https://res.shahed.ac.ir",
-      "https://res.shahed.ac.ir/",
       "https://library.shahed.ac.ir/"
     ],
     "deepAuditStatus": "deep-audited",
@@ -74,18 +81,12 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 3,
+      "sourceCount": 2,
       "sources": [
         {
           "url": "https://res.shahed.ac.ir",
           "kind": "portal-identity",
           "claim": "official research/technology portal identity",
-          "id": null
-        },
-        {
-          "url": "https://res.shahed.ac.ir/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
           "id": null
         },
         {

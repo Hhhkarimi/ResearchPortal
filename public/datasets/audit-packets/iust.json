@@ -5,7 +5,11 @@
     "category": "صنعتی",
     "iscRank": 1,
     "nameFa": "دانشگاه علم و صنعت ایران",
-    "slug": "iust"
+    "slug": "iust",
+    "officialWebsite": "https://www.iust.ac.ir/",
+    "websiteScope": "institution",
+    "websiteVerification": "official-domain",
+    "needsIranRunnerCheck": false
   },
   "portalAudit": {
     "universitySlug": "iust",
@@ -27,7 +31,12 @@
       "industry",
       "systems",
       "library"
-    ]
+    ],
+    "discoveryCrawler": {
+      "lastRun": "2026-08-11",
+      "promotedSources": 0,
+      "socialEvidenceRemoved": true
+    }
   },
   "deepAudit": {
     "universitySlug": "iust",

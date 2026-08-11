@@ -5,7 +5,11 @@
     "category": "جامع",
     "iscRank": 23,
     "nameFa": "دانشگاه بوعلی سینا",
-    "slug": "bu-ali-sina"
+    "slug": "bu-ali-sina",
+    "officialWebsite": "https://basu.ac.ir/",
+    "websiteScope": "institution",
+    "websiteVerification": "official-domain",
+    "needsIranRunnerCheck": false
   },
   "portalAudit": {
     "universitySlug": "bu-ali-sina",
@@ -16,7 +20,6 @@
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://res.basu.ac.ir/",
     "evidenceUrls": [
-      "https://t.me/s/basuacir",
       "https://res.basu.ac.ir/",
       "https://res.basu.ac.ir/journals-regulations/-/document_library/ocki/view/3692745"
     ],
@@ -24,7 +27,12 @@
     "scoreEligibility": "unranked",
     "observedSignals": [
       "research"
-    ]
+    ],
+    "discoveryCrawler": {
+      "lastRun": "2026-08-11",
+      "promotedSources": 0,
+      "socialEvidenceRemoved": true
+    }
   },
   "deepAudit": {
     "universitySlug": "bu-ali-sina",
@@ -35,7 +43,6 @@
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://res.basu.ac.ir/",
     "evidenceUrls": [
-      "https://t.me/s/basuacir",
       "https://res.basu.ac.ir/",
       "https://res.basu.ac.ir/journals-regulations/-/document_library/ocki/view/3692745"
     ],
@@ -69,18 +76,12 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 3,
+      "sourceCount": 2,
       "sources": [
         {
           "url": "https://res.basu.ac.ir/",
           "kind": "portal-identity",
           "claim": "official research/technology portal identity",
-          "id": null
-        },
-        {
-          "url": "https://t.me/s/basuacir",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
           "id": null
         },
         {

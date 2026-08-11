@@ -5,7 +5,11 @@
     "category": "جامع",
     "iscRank": 28,
     "nameFa": "دانشگاه خلیج فارس",
-    "slug": "persian-gulf"
+    "slug": "persian-gulf",
+    "officialWebsite": "https://pgu.ac.ir/",
+    "websiteScope": "institution",
+    "websiteVerification": "official-domain",
+    "needsIranRunnerCheck": false
   },
   "portalAudit": {
     "universitySlug": "persian-gulf",
@@ -16,7 +20,6 @@
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://pgu.ac.ir/fa/researchdeputy",
     "evidenceUrls": [
-      "https://t.me/s/pgu_pr",
       "https://pgu.ac.ir/fa/researchdeputy"
     ],
     "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
@@ -24,7 +27,12 @@
     "observedSignals": [
       "research",
       "industry"
-    ]
+    ],
+    "discoveryCrawler": {
+      "lastRun": "2026-08-11",
+      "promotedSources": 0,
+      "socialEvidenceRemoved": true
+    }
   },
   "deepAudit": {
     "universitySlug": "persian-gulf",
@@ -35,7 +43,6 @@
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://pgu.ac.ir/fa/researchdeputy",
     "evidenceUrls": [
-      "https://t.me/s/pgu_pr",
       "https://pgu.ac.ir/fa/researchdeputy"
     ],
     "deepAuditStatus": "identity-verified-deep-pending",
@@ -68,18 +75,12 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 2,
+      "sourceCount": 1,
       "sources": [
         {
           "url": "https://pgu.ac.ir/fa/researchdeputy",
           "kind": "portal-identity",
           "claim": "official research/technology portal identity",
-          "id": null
-        },
-        {
-          "url": "https://t.me/s/pgu_pr",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
           "id": null
         }
       ],

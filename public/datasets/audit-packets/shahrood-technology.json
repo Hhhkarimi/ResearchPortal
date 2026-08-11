@@ -5,7 +5,11 @@
     "category": "صنعتی",
     "iscRank": 6,
     "nameFa": "دانشگاه صنعتی شاهرود",
-    "slug": "shahrood-technology"
+    "slug": "shahrood-technology",
+    "officialWebsite": "https://shahroodut.ac.ir/",
+    "websiteScope": "institution",
+    "websiteVerification": "official-domain",
+    "needsIranRunnerCheck": false
   },
   "portalAudit": {
     "universitySlug": "shahrood-technology",
@@ -16,8 +20,6 @@
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=11",
     "evidenceUrls": [
-      "https://t.me/s/shahroudUNI",
-      "https://t.me/s/Research_SUT",
       "https://shahroodut.ac.ir/",
       "https://www.shahroodut.ac.ir/fa/sec/index.php?id=11",
       "https://www.shahroodut.ac.ir/fa/sec/index.php?id=6&index=257"
@@ -27,7 +29,12 @@
     "observedSignals": [
       "research",
       "journals"
-    ]
+    ],
+    "discoveryCrawler": {
+      "lastRun": "2026-08-11",
+      "promotedSources": 0,
+      "socialEvidenceRemoved": true
+    }
   },
   "deepAudit": {
     "universitySlug": "shahrood-technology",
@@ -38,8 +45,6 @@
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=11",
     "evidenceUrls": [
-      "https://t.me/s/shahroudUNI",
-      "https://t.me/s/Research_SUT",
       "https://shahroodut.ac.ir/",
       "https://www.shahroodut.ac.ir/fa/sec/index.php?id=11",
       "https://www.shahroodut.ac.ir/fa/sec/index.php?id=6&index=257"
@@ -74,24 +79,12 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 5,
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=11",
           "kind": "portal-identity",
           "claim": "official research/technology portal identity",
-          "id": null
-        },
-        {
-          "url": "https://t.me/s/shahroudUNI",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
-        },
-        {
-          "url": "https://t.me/s/Research_SUT",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
           "id": null
         },
         {
