@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 5,
@@ -12,13 +12,14 @@
     "nameFa": "دانشگاه شیراز",
     "iscCategory": "جامع",
     "iscRank": 5,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.shirazu.ac.ir/",
     "evidenceUrls": [
-      "https://law.shirazu.ac.ir/"
+      "https://law.shirazu.ac.ir/",
+      "https://research.shirazu.ac.ir/"
     ],
-    "note": "منبع رسمی دانشکده دانشگاه شیراز انتصاب مدیر امور پژوهشی و قائم‌مقام معاون پژوهش و فناوری را ثبت کرده است.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked"
   },
   "deepAudit": {
@@ -26,15 +27,16 @@
     "nameFa": "دانشگاه شیراز",
     "iscCategory": "جامع",
     "iscRank": 5,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.shirazu.ac.ir/",
     "evidenceUrls": [
-      "https://law.shirazu.ac.ir/"
+      "https://law.shirazu.ac.ir/",
+      "https://research.shirazu.ac.ir/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -43,7 +45,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 13,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -61,21 +63,20 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 2,
       "sources": [
+        {
+          "url": "https://research.shirazu.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        },
         {
           "url": "https://law.shirazu.ac.ir/",
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
-        },
-        {
-          "url": "https://research.shirazu.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱"
         }
       ],
       "publicationAdjustment": null,
@@ -89,23 +90,14 @@
       "iscCategory": "جامع",
       "iscRank": 5,
       "dimension": "organization",
-      "status": "observed-reference",
-      "reportedStatus": "verified",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://research.shirazu.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱",
-          "sourceSpecificity": "university-reference"
-        }
-      ],
-      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
-      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -118,7 +110,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -135,7 +127,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -152,7 +144,7 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -169,7 +161,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -186,7 +178,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -203,7 +195,7 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,

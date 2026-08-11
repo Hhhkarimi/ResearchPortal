@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 19,
@@ -12,13 +12,17 @@
     "nameFa": "دانشگاه کردستان",
     "iscCategory": "جامع",
     "iscRank": 19,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://uok.ac.ir/web/research-and-innovation",
     "evidenceUrls": [
-      "https://uok.ac.ir/"
+      "https://uok.ac.ir/",
+      "https://uok.ac.ir/web/research-and-innovation",
+      "https://uok.ac.ir/web/research-and-innovation/organizational-chart",
+      "https://research.uok.ac.ir/",
+      "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations"
     ],
-    "note": "کانال رسمی دانشگاه و کانال معاونت پژوهش و فناوری هویت حوزه را تأیید می‌کند.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked"
   },
   "deepAudit": {
@@ -26,27 +30,31 @@
     "nameFa": "دانشگاه کردستان",
     "iscCategory": "جامع",
     "iscRank": 19,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://uok.ac.ir/web/research-and-innovation",
     "evidenceUrls": [
-      "https://uok.ac.ir/"
+      "https://uok.ac.ir/",
+      "https://uok.ac.ir/web/research-and-innovation",
+      "https://uok.ac.ir/web/research-and-innovation/organizational-chart",
+      "https://research.uok.ac.ir/",
+      "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -61,9 +69,15 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 5,
       "sources": [
+        {
+          "url": "https://uok.ac.ir/web/research-and-innovation",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        },
         {
           "url": "https://uok.ac.ir/",
           "kind": "portal-identity",
@@ -71,32 +85,22 @@
           "id": null
         },
         {
-          "url": "https://uok.ac.ir/web/research-and-innovation",
-          "kind": "research-review-specific",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱"
-        },
-        {
           "url": "https://uok.ac.ir/web/research-and-innovation/organizational-chart",
-          "kind": "research-review-specific",
-          "claim": "چارت سازمانی ۲",
-          "id": null,
-          "sourceLabel": "چارت سازمانی ۲"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.uok.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "سامانه ژیرو ۳",
-          "id": null,
-          "sourceLabel": "سامانه ژیرو ۳"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations",
-          "kind": "research-review-specific",
-          "claim": "فرم و آیین‌نامه ۴",
-          "id": null,
-          "sourceLabel": "فرم و آیین‌نامه ۴"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -113,15 +117,14 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://uok.ac.ir/web/research-and-innovation/organizational-chart",
-          "kind": "research-review-specific",
-          "claim": "چارت سازمانی ۲",
-          "id": null,
-          "sourceLabel": "چارت سازمانی ۲"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -138,7 +141,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -152,47 +155,21 @@
       "iscCategory": "جامع",
       "iscRank": 19,
       "dimension": "laboratories",
-      "status": "observed-reference",
+      "status": "verified",
       "reportedStatus": "verified",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 4,
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
       "sources": [
         {
-          "url": "https://uok.ac.ir/web/research-and-innovation",
-          "kind": "research-review-reference",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱",
-          "sourceSpecificity": "university-reference"
-        },
-        {
           "url": "https://uok.ac.ir/web/research-and-innovation/organizational-chart",
-          "kind": "research-review-reference",
-          "claim": "چارت سازمانی ۲",
-          "id": null,
-          "sourceLabel": "چارت سازمانی ۲",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.uok.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "سامانه ژیرو ۳",
-          "id": null,
-          "sourceLabel": "سامانه ژیرو ۳",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations",
-          "kind": "research-review-reference",
-          "claim": "فرم و آیین‌نامه ۴",
-          "id": null,
-          "sourceLabel": "فرم و آیین‌نامه ۴",
-          "sourceSpecificity": "university-reference"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
         }
       ],
-      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
-      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -205,22 +182,21 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 3,
       "sources": [
+        {
+          "url": "https://uok.ac.ir/web/research-and-innovation/organizational-chart",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
         {
           "url": "https://uok.ac.ir/web/research-and-innovation",
           "kind": "research-review-specific",
           "claim": "پرتال معاونت ۱",
           "id": null,
           "sourceLabel": "پرتال معاونت ۱"
-        },
-        {
-          "url": "https://uok.ac.ir/web/research-and-innovation/organizational-chart",
-          "kind": "research-review-specific",
-          "claim": "چارت سازمانی ۲",
-          "id": null,
-          "sourceLabel": "چارت سازمانی ۲"
         },
         {
           "url": "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations",
@@ -244,7 +220,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -261,15 +237,14 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.uok.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "سامانه ژیرو ۳",
-          "id": null,
-          "sourceLabel": "سامانه ژیرو ۳"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -283,29 +258,42 @@
       "iscCategory": "جامع",
       "iscRank": 19,
       "dimension": "documentsRegulations",
-      "status": "observed-reference",
-      "reportedStatus": "observed-reference",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations",
-          "kind": "research-review-specific",
-          "claim": "فرم و آیین‌نامه ۴",
-          "id": null,
-          "sourceLabel": "فرم و آیین‌نامه ۴"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
   "ranking": null,
   "units": [],
   "systems": [],
-  "documents": [],
+  "documents": [
+    {
+      "id": "kurdistan-reaudit-doc-1",
+      "universitySlug": "kurdistan",
+      "title": "فهرست فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها",
+      "type": "فهرست اسناد",
+      "topic": "سایر",
+      "taxonomy": null,
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations",
+      "sourceUrl": "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations"
+    }
+  ],
   "interpretation": {
     "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
     "rtpmi": "Portal maturity/transparency only; not research performance.",

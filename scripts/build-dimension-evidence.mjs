@@ -1,8 +1,8 @@
 import fs from "node:fs/promises";
 
 const read=async path=>JSON.parse(await fs.readFile(path,"utf8"));
-const [institutions,audits,units,systems,documents,ledger,reviews]=await Promise.all([
-  read("data/isc/institutions.json"),read("data/audit/portal-audit.json"),read("data/units/catalog.json"),read("data/systems/catalog.json"),read("data/documents/catalog.json"),read("data/evidence/provenance-ledger.json"),read("data/evidence/research-review.json")
+const [institutions,audits,units,systems,documents,ledger,reviews,reaudit]=await Promise.all([
+  read("data/isc/institutions.json"),read("data/audit/portal-audit.json"),read("data/units/catalog.json"),read("data/systems/catalog.json"),read("data/documents/catalog.json"),read("data/evidence/provenance-ledger.json"),read("data/evidence/research-review.json"),read("data/evidence/portal-document-reaudit.json").catch(()=>[])
 ]);
 
 const dimensions=["portalIdentity","organization","libraryDocuments","laboratories","industryTechnology","informationTechnology","systemsServices","documentsRegulations"];
@@ -20,6 +20,8 @@ const labelPatterns={
 };
 const statusOutcome={verified:"evidence-confirmed","observed-reference":"reference-only",restricted:"access-restricted",unresolved:"no-public-evidence-resolved"};
 const byUniversity=(items,slug)=>items.filter(item=>item.universitySlug===slug);
+const reauditBySlug=new Map(reaudit.map(item=>[item.slug,item]));
+const reauditDimensionKeys={portalIdentity:"portalUrls",organization:"organizationUrls",libraryDocuments:"libraryUrls",laboratories:"laboratoryUrls",industryTechnology:"industryTechnologyUrls",informationTechnology:"informationTechnologyUrls",systemsServices:"systemsUrls",documentsRegulations:"documentIndexUrls"};
 const urlOf=item=>item?.sourceUrl||item?.parentUrl||item?.url||null;
 const validUrl=value=>{try{return new URL(value).protocol.startsWith("http")}catch{return false}};
 const uniqueSources=sources=>[...sources.reduce((byUrl,source)=>{if(!byUrl.has(source.url))byUrl.set(source.url,source);return byUrl},new Map()).values()];
@@ -40,6 +42,9 @@ for(const institution of institutions){
       if(audit.researchUrl)add(audit.researchUrl,"portal-identity","official research/technology portal identity");
       for(const url of audit.evidenceUrls||[])add(url,"portal-identity","official portal identity evidence");
     }
+    const reauditRow=reauditBySlug.get(slug);
+    for(const url of reauditRow?.[reauditDimensionKeys[dimension]]||[])add(url,"portal-document-reaudit",`dimension-specific ${dimension} source`);
+    if(dimension==="documentsRegulations")for(const item of reauditRow?.directDocuments||[])add(item.url,"portal-document-reaudit-document",item.title);
     if(dimension==="organization"||unitTypes[dimension])for(const item of universityUnits)if(dimension==="organization"||unitTypes[dimension].has(item.type))add(urlOf(item),"unit",item.nameFa,item.id,{unitType:item.type,relationStatus:item.relationStatus||null,relationshipEvidenceUrl:item.relationshipEvidenceUrl||null});
     if(systemTypes[dimension])for(const item of universitySystems)if(systemTypes[dimension].has(item.category))add(urlOf(item),"system",item.nameFa,item.id,{systemCategory:item.category});
     if(dimension==="documentsRegulations")for(const item of universityDocuments)add(urlOf(item),"document",item.title,item.id);

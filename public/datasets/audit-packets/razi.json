@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 8,
@@ -12,13 +12,15 @@
     "nameFa": "دانشگاه رازی",
     "iscCategory": "جامع",
     "iscRank": 8,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://are.razi.ac.ir/",
     "evidenceUrls": [
-      "https://t.me/hambazi_razi"
+      "https://t.me/hambazi_razi",
+      "https://are.razi.ac.ir/",
+      "https://are.razi.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C"
     ],
-    "note": "وجود معاونت پژوهش و فناوری دانشگاه رازی در اطلاع‌رسانی دانشگاهی/دانشجویی قابل ردیابی است؛ پرتال مستقیم هنوز تثبیت نشده.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked"
   },
   "deepAudit": {
@@ -26,15 +28,17 @@
     "nameFa": "دانشگاه رازی",
     "iscCategory": "جامع",
     "iscRank": 8,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://are.razi.ac.ir/",
     "evidenceUrls": [
-      "https://t.me/hambazi_razi"
+      "https://t.me/hambazi_razi",
+      "https://are.razi.ac.ir/",
+      "https://are.razi.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -43,7 +47,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 13,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -61,9 +65,15 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 3,
       "sources": [
+        {
+          "url": "https://are.razi.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        },
         {
           "url": "https://t.me/hambazi_razi",
           "kind": "portal-identity",
@@ -71,11 +81,10 @@
           "id": null
         },
         {
-          "url": "https://are.razi.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱"
+          "url": "https://are.razi.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -92,15 +101,14 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://are.razi.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "مدیریت پژوهشی ۲",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهشی ۲"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -117,7 +125,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -134,7 +142,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -151,9 +159,16 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://are.razi.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        }
+      ],
       "publicationAdjustment": null,
       "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -168,7 +183,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -182,14 +197,21 @@
       "iscCategory": "جامع",
       "iscRank": 8,
       "dimension": "systemsServices",
-      "status": "observed-reference",
-      "reportedStatus": "observed-reference",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://are.razi.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        }
+      ],
       "publicationAdjustment": null,
-      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -202,7 +224,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,

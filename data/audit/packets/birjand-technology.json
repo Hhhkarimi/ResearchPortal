@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "صنعتی",
     "iscRank": 22,
@@ -12,14 +12,15 @@
     "nameFa": "دانشگاه صنعتی بیرجند",
     "iscCategory": "صنعتی",
     "iscRank": 22,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-domain-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.birjandut.ac.ir/",
     "evidenceUrls": [
       "https://birjandut.ac.ir/fa/news/1858",
-      "https://birjandut.ac.ir/fa/news/1859"
+      "https://birjandut.ac.ir/fa/news/1859",
+      "https://research.birjandut.ac.ir/"
     ],
-    "note": "در ممیزی سیستماتیک شواهدی از حوزه پژوهش/فناوری یافت شد، اما برای ادعای ساختار کامل یا رتبه عددی هنوز Evidence مستقیم کافی نیست.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked",
     "observedSignals": [
       "research",
@@ -32,16 +33,17 @@
     "nameFa": "دانشگاه صنعتی بیرجند",
     "iscCategory": "صنعتی",
     "iscRank": 22,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-domain-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.birjandut.ac.ir/",
     "evidenceUrls": [
       "https://birjandut.ac.ir/fa/news/1858",
-      "https://birjandut.ac.ir/fa/news/1859"
+      "https://birjandut.ac.ir/fa/news/1859",
+      "https://research.birjandut.ac.ir/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -50,7 +52,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 19,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -65,12 +67,18 @@
       "iscCategory": "صنعتی",
       "iscRank": 22,
       "dimension": "portalIdentity",
-      "status": "observed-reference",
-      "reportedStatus": "observed-reference",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 3,
       "sources": [
+        {
+          "url": "https://research.birjandut.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        },
         {
           "url": "https://birjandut.ac.ir/fa/news/1858",
           "kind": "portal-identity",
@@ -85,7 +93,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -98,7 +106,7 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -115,7 +123,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -132,7 +140,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -149,9 +157,17 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.birjandut.ac.ir/",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش و فناوری 1",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش و فناوری 1"
+        }
+      ],
       "publicationAdjustment": null,
       "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -166,7 +182,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -183,7 +199,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -200,7 +216,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,

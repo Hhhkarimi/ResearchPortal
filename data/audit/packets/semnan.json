@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 15,
@@ -12,13 +12,13 @@
     "nameFa": "دانشگاه سمنان",
     "iscCategory": "جامع",
     "iscRank": 15,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.semnan.ac.ir/",
     "evidenceUrls": [
       "https://research.semnan.ac.ir/"
     ],
-    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "eligible"
   },
   "deepAudit": {
@@ -26,7 +26,7 @@
     "nameFa": "دانشگاه سمنان",
     "iscCategory": "جامع",
     "iscRank": 15,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.semnan.ac.ir/",
     "evidenceUrls": [
@@ -61,7 +61,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
@@ -82,24 +82,21 @@
       "iscCategory": "جامع",
       "iscRank": 15,
       "dimension": "organization",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
-          "kind": "unit",
-          "claim": "مدیریت امور پژوهشی",
-          "id": "semnan-1",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -109,24 +106,21 @@
       "iscCategory": "جامع",
       "iscRank": 15,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی و مرکز اسناد",
-          "id": "semnan-3",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -136,24 +130,21 @@
       "iscCategory": "جامع",
       "iscRank": 15,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
-          "kind": "unit",
-          "claim": "آزمایشگاه‌ها و کارگاه‌های تحقیقاتی",
-          "id": "semnan-5",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -163,24 +154,21 @@
       "iscCategory": "جامع",
       "iscRank": 15,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
-          "kind": "unit",
-          "claim": "مدیریت امور فناوری",
-          "id": "semnan-2",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -191,23 +179,20 @@
       "iscRank": 15,
       "dimension": "informationTechnology",
       "status": "observed-reference",
-      "reportedStatus": "verified",
+      "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
-          "kind": "unit",
-          "claim": "فناوری اطلاعات و امنیت فضای مجازی",
-          "id": "semnan-4",
-          "unitType": "it",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific informationTechnology source",
+          "id": null
         }
       ],
-      "publicationAdjustment": "Downgraded until a source proving organizational IT dependency is registered.",
-      "verificationBasis": "Downgraded until a source proving organizational IT dependency is registered.",
+      "publicationAdjustment": null,
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -217,22 +202,21 @@
       "iscCategory": "جامع",
       "iscRank": 15,
       "dimension": "systemsServices",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
-          "kind": "system",
-          "claim": "سامانه آزمایشگاه مرکزی",
-          "id": "semnan-central-lab",
-          "systemCategory": "laboratory"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -242,10 +226,10 @@
       "iscCategory": "جامع",
       "iscRank": 15,
       "dimension": "documentsRegulations",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
@@ -256,7 +240,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
@@ -265,17 +249,17 @@
     "nameFa": "دانشگاه سمنان",
     "iscCategory": "جامع",
     "iscRank": 15,
-    "score": 75.6,
+    "score": 82.6,
     "confidence": 100,
     "metrics": {
-      "documents": 40.5,
+      "documents": 65.5,
       "organization": 100,
       "library": 70,
       "laboratories": 100,
       "digital": 74.2,
       "industryTech": 90,
       "dataQuality": 100,
-      "findability": 47.5
+      "findability": 67.5
     },
     "units": 14,
     "systems": 9,
@@ -283,9 +267,9 @@
     "activeWeight": 100,
     "evidenceCoverage": 100,
     "methodologyVersion": "RTPMI-4.1-ISC",
-    "snapshotDate": "2026-08-10",
-    "rank": 9,
-    "portalRankWithinISCClass": 7,
+    "snapshotDate": "2026-08-11",
+    "rank": 6,
+    "portalRankWithinISCClass": 4,
     "rankedPortalsInISCClass": 11
   },
   "units": [
@@ -523,7 +507,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "topic": "حمایت و گرنت",
+      "url": "https://research.semnan.ac.ir/"
     },
     {
       "id": "semnan-doc-2",
@@ -533,7 +519,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "topic": "آزمایشگاه",
+      "url": "https://research.semnan.ac.ir/"
     },
     {
       "id": "semnan-doc-3",
@@ -543,7 +531,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "topic": "سایر",
+      "url": "https://research.semnan.ac.ir/"
     },
     {
       "id": "semnan-doc-4",
@@ -553,7 +543,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "url": "https://research.semnan.ac.ir/"
     },
     {
       "id": "semnan-doc-5",
@@ -563,7 +555,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "topic": "حمایت و گرنت",
+      "url": "https://research.semnan.ac.ir/"
     },
     {
       "id": "semnan-doc-6",
@@ -573,7 +567,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
+      "sourceUrl": "https://research.semnan.ac.ir/",
+      "topic": "آزمایشگاه",
+      "url": "https://research.semnan.ac.ir/"
     }
   ],
   "interpretation": {

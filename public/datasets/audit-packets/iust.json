@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "صنعتی",
     "iscRank": 1,
@@ -12,13 +12,14 @@
     "nameFa": "دانشگاه علم و صنعت ایران",
     "iscCategory": "صنعتی",
     "iscRank": 1,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.iust.ac.ir/",
     "evidenceUrls": [
-      "https://research.iust.ac.ir/"
+      "https://research.iust.ac.ir/",
+      "https://www.iust.ac.ir/files/res_office/pages/dastore_ghotb.pdf"
     ],
-    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "eligible",
     "observedSignals": [
       "research",
@@ -33,13 +34,14 @@
     "nameFa": "دانشگاه علم و صنعت ایران",
     "iscCategory": "صنعتی",
     "iscRank": 1,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.iust.ac.ir/",
     "evidenceUrls": [
-      "https://research.iust.ac.ir/"
+      "https://research.iust.ac.ir/",
+      "https://www.iust.ac.ir/files/res_office/pages/dastore_ghotb.pdf"
     ],
-    "deepAuditStatus": "identity-verified-deep-pending",
+    "deepAuditStatus": "deep-audited",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "verified",
@@ -48,13 +50,13 @@
       "industryTechnology": "verified",
       "informationTechnology": "unresolved",
       "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 69,
+    "auditEvidenceCoverage": 81,
     "unitsFound": 5,
     "systemsFound": 11,
-    "documentsFound": 0,
-    "rankingEligibility": "unranked-evidence-insufficient",
+    "documentsFound": 1,
+    "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
   "dimensionEvidence": [
@@ -68,13 +70,19 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 1,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 2,
       "sources": [
         {
           "url": "https://research.iust.ac.ir/",
           "kind": "portal-identity",
           "claim": "official research/technology portal identity",
+          "id": null
+        },
+        {
+          "url": "https://www.iust.ac.ir/files/res_office/pages/dastore_ghotb.pdf",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         }
       ],
@@ -89,24 +97,21 @@
       "iscCategory": "صنعتی",
       "iscRank": 1,
       "dimension": "organization",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.iust.ac.ir/",
-          "kind": "unit",
-          "claim": "مدیریت امور پژوهشی",
-          "id": "iust-1",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -119,17 +124,14 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.iust.ac.ir/",
-          "kind": "unit",
-          "claim": "انتشارات و نشریات",
-          "id": "iust-3",
-          "unitType": "publishing",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -143,24 +145,21 @@
       "iscCategory": "صنعتی",
       "iscRank": 1,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.iust.ac.ir/",
-          "kind": "unit",
-          "claim": "آزمایشگاه مرکزی",
-          "id": "iust-2",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -170,24 +169,21 @@
       "iscCategory": "صنعتی",
       "iscRank": 1,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.iust.ac.ir/",
-          "kind": "unit",
-          "claim": "ارتباط با صنعت",
-          "id": "iust-4",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -200,7 +196,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -214,22 +210,21 @@
       "iscCategory": "صنعتی",
       "iscRank": 1,
       "dimension": "systemsServices",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.iust.ac.ir/",
-          "kind": "system",
-          "claim": "شبکه آزمایشگاه‌های علمی ایران (شاعا)",
-          "id": "iust-sys-1",
-          "systemCategory": "national"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -239,18 +234,52 @@
       "iscCategory": "صنعتی",
       "iscRank": 1,
       "dimension": "documentsRegulations",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.iust.ac.ir/files/res_office/pages/dastore_ghotb.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل اجرایی قطب‌های علمی",
+          "id": null
+        }
+      ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
-  "ranking": null,
+  "ranking": {
+    "universitySlug": "iust",
+    "nameFa": "دانشگاه علم و صنعت ایران",
+    "iscCategory": "صنعتی",
+    "iscRank": 1,
+    "score": 75.8,
+    "confidence": 86.3,
+    "metrics": {
+      "documents": 37.8,
+      "organization": 90.8,
+      "library": null,
+      "laboratories": 70,
+      "digital": 85.5,
+      "industryTech": 100,
+      "dataQuality": 100,
+      "findability": 71.4
+    },
+    "units": 5,
+    "systems": 11,
+    "documents": 1,
+    "activeWeight": 90,
+    "evidenceCoverage": 81,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-11",
+    "rank": 11,
+    "portalRankWithinISCClass": 3,
+    "rankedPortalsInISCClass": 6
+  },
   "units": [
     {
       "id": "iust-1",
@@ -417,7 +446,21 @@
       "lastVerified": "2026-08-10"
     }
   ],
-  "documents": [],
+  "documents": [
+    {
+      "id": "iust-reaudit-doc-1",
+      "universitySlug": "iust",
+      "title": "دستورالعمل اجرایی قطب‌های علمی",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "سایر",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://www.iust.ac.ir/files/res_office/pages/dastore_ghotb.pdf",
+      "sourceUrl": "https://www.iust.ac.ir/files/res_office/pages/dastore_ghotb.pdf"
+    }
+  ],
   "interpretation": {
     "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
     "rtpmi": "Portal maturity/transparency only; not research performance.",

@@ -1,6 +1,6 @@
 {
   "name": "iran-research-portal-observatory",
-  "version": "9.0.0",
+  "version": "10.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,12 +9,13 @@
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "validate:data": "node scripts/validate-data.mjs",
-    "prepare:data": "node scripts/import-research-audit.mjs && node scripts/build-deep-audit.mjs && node scripts/finalize-rtpmi.mjs && node scripts/build-provenance.mjs && node scripts/build-dimension-evidence.mjs && node scripts/recompute-summary.mjs && node scripts/build-public-data.mjs && node scripts/build-audit-packets.mjs && node scripts/export-csv.mjs",
+    "prepare:data": "node scripts/import-research-audit.mjs && node scripts/import-portal-document-reaudit.mjs && node scripts/build-deep-audit.mjs && node scripts/finalize-rtpmi.mjs && node scripts/build-provenance.mjs && node scripts/build-dimension-evidence.mjs && node scripts/recompute-summary.mjs && node scripts/build-public-data.mjs && node scripts/build-audit-packets.mjs && node scripts/export-csv.mjs",
     "audit:all": "node scripts/audit-all-isc.mjs",
     "monitor:links": "node scripts/audit-all-isc.mjs",
     "release:check": "npm run prepare:data && npm run validate:data"
   },
   "dependencies": {
+    "@fontsource-variable/vazirmatn": "^5.3.0",
     "next": "16.3.0",
     "react": "19.2.8",
     "react-dom": "19.2.8"

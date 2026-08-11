@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 30,
@@ -12,13 +12,14 @@
     "nameFa": "دانشگاه ایلام",
     "iscCategory": "جامع",
     "iscRank": 30,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://www.ilam.ac.ir/dep/research/",
     "evidenceUrls": [
-      "https://t.me/ilamac"
+      "https://t.me/ilamac",
+      "https://www.ilam.ac.ir/dep/research/"
     ],
-    "note": "کانال اطلاع‌رسانی دانشگاه ایلام انتصاب/فعالیت معاونت پژوهش و فناوری را ثبت کرده است.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked"
   },
   "deepAudit": {
@@ -26,15 +27,16 @@
     "nameFa": "دانشگاه ایلام",
     "iscCategory": "جامع",
     "iscRank": 30,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://www.ilam.ac.ir/dep/research/",
     "evidenceUrls": [
-      "https://t.me/ilamac"
+      "https://t.me/ilamac",
+      "https://www.ilam.ac.ir/dep/research/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -43,7 +45,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 13,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -58,12 +60,18 @@
       "iscCategory": "جامع",
       "iscRank": 30,
       "dimension": "portalIdentity",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 1,
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 2,
       "sources": [
+        {
+          "url": "https://www.ilam.ac.ir/dep/research/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        },
         {
           "url": "https://t.me/ilamac",
           "kind": "portal-identity",
@@ -72,7 +80,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -85,7 +93,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -102,7 +110,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -119,7 +127,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -136,9 +144,17 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://www.ilam.ac.ir/dep/research/",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش و فناوری 1",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش و فناوری 1"
+        }
+      ],
       "publicationAdjustment": null,
       "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -153,7 +169,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -170,7 +186,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -187,7 +203,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 10,
@@ -12,13 +12,14 @@
     "nameFa": "دانشگاه خوارزمی",
     "iscCategory": "جامع",
     "iscRank": 10,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.khu.ac.ir/",
     "evidenceUrls": [
-      "https://research.khu.ac.ir/"
+      "https://research.khu.ac.ir/",
+      "https://pgeducation.khu.ac.ir/files/site41/files/aeen_name_ejraee_97.pdf"
     ],
-    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "eligible"
   },
   "deepAudit": {
@@ -26,11 +27,12 @@
     "nameFa": "دانشگاه خوارزمی",
     "iscCategory": "جامع",
     "iscRank": 10,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.khu.ac.ir/",
     "evidenceUrls": [
-      "https://research.khu.ac.ir/"
+      "https://research.khu.ac.ir/",
+      "https://pgeducation.khu.ac.ir/files/site41/files/aeen_name_ejraee_97.pdf"
     ],
     "deepAuditStatus": "deep-audited",
     "dimensions": {
@@ -41,12 +43,12 @@
       "industryTechnology": "verified",
       "informationTechnology": "verified",
       "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 88,
+    "auditEvidenceCoverage": 100,
     "unitsFound": 14,
     "systemsFound": 6,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -61,13 +63,19 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 1,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 2,
       "sources": [
         {
           "url": "https://research.khu.ac.ir/",
           "kind": "portal-identity",
           "claim": "official research/technology portal identity",
+          "id": null
+        },
+        {
+          "url": "https://pgeducation.khu.ac.ir/files/site41/files/aeen_name_ejraee_97.pdf",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         }
       ],
@@ -82,24 +90,21 @@
       "iscCategory": "جامع",
       "iscRank": 10,
       "dimension": "organization",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.khu.ac.ir/",
-          "kind": "unit",
-          "claim": "مدیریت امور پژوهشی",
-          "id": "kharazmi-1",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -109,24 +114,21 @@
       "iscCategory": "جامع",
       "iscRank": 10,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.khu.ac.ir/",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی، موزه و مرکز اسناد",
-          "id": "kharazmi-5",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -136,24 +138,21 @@
       "iscCategory": "جامع",
       "iscRank": 10,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.khu.ac.ir/",
-          "kind": "unit",
-          "claim": "آزمایشگاه مرکزی",
-          "id": "kharazmi-6",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -163,24 +162,21 @@
       "iscCategory": "جامع",
       "iscRank": 10,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.khu.ac.ir/",
-          "kind": "unit",
-          "claim": "کارآفرینی و ارتباط با جامعه",
-          "id": "kharazmi-3",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -191,23 +187,20 @@
       "iscRank": 10,
       "dimension": "informationTechnology",
       "status": "observed-reference",
-      "reportedStatus": "verified",
+      "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.khu.ac.ir/",
-          "kind": "unit",
-          "claim": "مرکز فناوری اطلاعات و ارتباطات",
-          "id": "kharazmi-2",
-          "unitType": "it",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific informationTechnology source",
+          "id": null
         }
       ],
-      "publicationAdjustment": "Downgraded until a source proving organizational IT dependency is registered.",
-      "verificationBasis": "Downgraded until a source proving organizational IT dependency is registered.",
+      "publicationAdjustment": null,
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -217,22 +210,21 @@
       "iscCategory": "جامع",
       "iscRank": 10,
       "dimension": "systemsServices",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.khu.ac.ir/",
-          "kind": "system",
-          "claim": "سامانه اطلاعات پژوهشی",
-          "id": "kharazmi-ris",
-          "systemCategory": "research"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -242,14 +234,21 @@
       "iscCategory": "جامع",
       "iscRank": 10,
       "dimension": "documentsRegulations",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://pgeducation.khu.ac.ir/files/site41/files/aeen_name_ejraee_97.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین‌نامه اجرایی دوره دکتری تخصصی",
+          "id": null
+        }
+      ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
@@ -258,27 +257,27 @@
     "nameFa": "دانشگاه خوارزمی",
     "iscCategory": "جامع",
     "iscRank": 10,
-    "score": 86.1,
-    "confidence": 91.4,
+    "score": 77.1,
+    "confidence": 100,
     "metrics": {
-      "documents": null,
+      "documents": 37.8,
       "organization": 100,
       "library": 100,
       "laboratories": 70,
       "digital": 74.2,
       "industryTech": 90,
       "dataQuality": 100,
-      "findability": 67.7
+      "findability": 74.2
     },
     "units": 14,
     "systems": 6,
-    "documents": 0,
-    "activeWeight": 80,
-    "evidenceCoverage": 88,
+    "documents": 1,
+    "activeWeight": 100,
+    "evidenceCoverage": 100,
     "methodologyVersion": "RTPMI-4.1-ISC",
-    "snapshotDate": "2026-08-10",
-    "rank": 4,
-    "portalRankWithinISCClass": 3,
+    "snapshotDate": "2026-08-11",
+    "rank": 10,
+    "portalRankWithinISCClass": 7,
     "rankedPortalsInISCClass": 11
   },
   "units": [
@@ -476,7 +475,21 @@
       "sourceUrl": "https://research.khu.ac.ir/"
     }
   ],
-  "documents": [],
+  "documents": [
+    {
+      "id": "kharazmi-reaudit-doc-1",
+      "universitySlug": "kharazmi",
+      "title": "آیین‌نامه اجرایی دوره دکتری تخصصی",
+      "type": "آیین‌نامه",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://pgeducation.khu.ac.ir/files/site41/files/aeen_name_ejraee_97.pdf",
+      "sourceUrl": "https://pgeducation.khu.ac.ir/files/site41/files/aeen_name_ejraee_97.pdf"
+    }
+  ],
   "interpretation": {
     "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
     "rtpmi": "Portal maturity/transparency only; not research performance.",

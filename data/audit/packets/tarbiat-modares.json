@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 2,
@@ -12,11 +12,17 @@
     "nameFa": "دانشگاه تربیت مدرس",
     "iscCategory": "جامع",
     "iscRank": 2,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "secondary-reference",
-    "researchUrl": null,
-    "evidenceUrls": [],
-    "note": "سرنخ عمومی/ثانویه از فعالیت پژوهش و فناوری مشاهده شد؛ تا جایگزینی با منبع رسمی مستقیم، Fact سازمانی یا رتبه منتشر نمی‌شود.",
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://res.modares.ac.ir/",
+    "evidenceUrls": [
+      "https://res.modares.ac.ir/",
+      "https://res.modares.ac.ir/res/people",
+      "https://res.modares.ac.ir/res/research-units",
+      "https://res.modares.ac.ir/res/managements/library/people",
+      "https://res.modares.ac.ir/res/forms"
+    ],
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked"
   },
   "deepAudit": {
@@ -24,25 +30,31 @@
     "nameFa": "دانشگاه تربیت مدرس",
     "iscCategory": "جامع",
     "iscRank": 2,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "secondary-reference",
-    "researchUrl": null,
-    "evidenceUrls": [],
-    "deepAuditStatus": "portal-resolution-pending",
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://res.modares.ac.ir/",
+    "evidenceUrls": [
+      "https://res.modares.ac.ir/",
+      "https://res.modares.ac.ir/res/people",
+      "https://res.modares.ac.ir/res/research-units",
+      "https://res.modares.ac.ir/res/managements/library/people",
+      "https://res.modares.ac.ir/res/forms"
+    ],
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 0,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -57,22 +69,38 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 5,
       "sources": [
         {
           "url": "https://res.modares.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱"
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/res/people",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://res.modares.ac.ir/res/research-units",
-          "kind": "research-review-specific",
-          "claim": "واحدهای پژوهشی ۲",
-          "id": null,
-          "sourceLabel": "واحدهای پژوهشی ۲"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/res/managements/library/people",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/res/forms",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -89,15 +117,20 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 1,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 2,
       "sources": [
         {
+          "url": "https://res.modares.ac.ir/res/people",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
+        },
+        {
           "url": "https://res.modares.ac.ir/res/research-units",
-          "kind": "research-review-specific",
-          "claim": "واحدهای پژوهشی ۲",
-          "id": null,
-          "sourceLabel": "واحدهای پژوهشی ۲"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -114,15 +147,14 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://res.modares.ac.ir/res/managements/library/people",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و نشر ۴",
-          "id": null,
-          "sourceLabel": "کتابخانه و نشر ۴"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -139,7 +171,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -156,7 +188,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -173,7 +205,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -190,7 +222,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -207,15 +239,14 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://res.modares.ac.ir/res/forms",
-          "kind": "research-review-specific",
-          "claim": "فرم‌ها ۳",
-          "id": null,
-          "sourceLabel": "فرم‌ها ۳"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -226,7 +257,21 @@
   "ranking": null,
   "units": [],
   "systems": [],
-  "documents": [],
+  "documents": [
+    {
+      "id": "tarbiat-modares-reaudit-doc-1",
+      "universitySlug": "tarbiat-modares",
+      "title": "فهرست فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها",
+      "type": "فهرست اسناد",
+      "topic": "سایر",
+      "taxonomy": null,
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://res.modares.ac.ir/res/forms",
+      "sourceUrl": "https://res.modares.ac.ir/res/forms"
+    }
+  ],
   "interpretation": {
     "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
     "rtpmi": "Portal maturity/transparency only; not research performance.",

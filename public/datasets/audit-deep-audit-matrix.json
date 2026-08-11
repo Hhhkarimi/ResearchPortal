@@ -4,7 +4,7 @@
     "nameFa": "دانشگاه تهران",
     "iscCategory": "جامع",
     "iscRank": 1,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.ut.ac.ir/fa",
     "evidenceUrls": [
@@ -33,25 +33,31 @@
     "nameFa": "دانشگاه تربیت مدرس",
     "iscCategory": "جامع",
     "iscRank": 2,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "secondary-reference",
-    "researchUrl": null,
-    "evidenceUrls": [],
-    "deepAuditStatus": "portal-resolution-pending",
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://res.modares.ac.ir/",
+    "evidenceUrls": [
+      "https://res.modares.ac.ir/",
+      "https://res.modares.ac.ir/res/people",
+      "https://res.modares.ac.ir/res/research-units",
+      "https://res.modares.ac.ir/res/managements/library/people",
+      "https://res.modares.ac.ir/res/forms"
+    ],
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 0,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -60,11 +66,12 @@
     "nameFa": "دانشگاه فردوسی مشهد",
     "iscCategory": "جامع",
     "iscRank": 3,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://vpr.um.ac.ir/",
     "evidenceUrls": [
-      "https://vpr.um.ac.ir/"
+      "https://vpr.um.ac.ir/",
+      "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms"
     ],
     "deepAuditStatus": "deep-audited",
     "dimensions": {
@@ -75,12 +82,12 @@
       "industryTechnology": "verified",
       "informationTechnology": "unresolved",
       "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 75,
+    "auditEvidenceCoverage": 88,
     "unitsFound": 13,
     "systemsFound": 9,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -89,15 +96,18 @@
     "nameFa": "دانشگاه شهید بهشتی",
     "iscCategory": "جامع",
     "iscRank": 4,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://resevp.sbu.ac.ir/",
     "evidenceUrls": [
-      "https://sbu.ac.ir/"
+      "https://sbu.ac.ir/",
+      "https://resevp.sbu.ac.ir/",
+      "https://press.sbu.ac.ir/",
+      "https://scj.sbu.ac.ir/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -106,7 +116,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 13,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -118,15 +128,16 @@
     "nameFa": "دانشگاه شیراز",
     "iscCategory": "جامع",
     "iscRank": 5,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.shirazu.ac.ir/",
     "evidenceUrls": [
-      "https://law.shirazu.ac.ir/"
+      "https://law.shirazu.ac.ir/",
+      "https://research.shirazu.ac.ir/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -135,7 +146,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 13,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -147,15 +158,18 @@
     "nameFa": "دانشگاه تبریز",
     "iscCategory": "جامع",
     "iscRank": 6,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.tabrizu.ac.ir/",
     "evidenceUrls": [
-      "https://tabrizu.ac.ir/"
+      "https://tabrizu.ac.ir/",
+      "https://research.tabrizu.ac.ir/",
+      "https://research.tabrizu.ac.ir/fa/page/9498/%D8%AD%D8%B3%D8%A7%D8%A8%D8%AF%D8%A7%D8%B1%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+      "https://pprs.tabrizu.ac.ir/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -164,7 +178,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 13,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -176,7 +190,7 @@
     "nameFa": "دانشگاه اصفهان",
     "iscCategory": "جامع",
     "iscRank": 7,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.ui.ac.ir/",
     "evidenceUrls": [
@@ -205,15 +219,17 @@
     "nameFa": "دانشگاه رازی",
     "iscCategory": "جامع",
     "iscRank": 8,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://are.razi.ac.ir/",
     "evidenceUrls": [
-      "https://t.me/hambazi_razi"
+      "https://t.me/hambazi_razi",
+      "https://are.razi.ac.ir/",
+      "https://are.razi.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -222,7 +238,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 13,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -234,7 +250,7 @@
     "nameFa": "دانشگاه تحصیلات تکمیلی علوم پایه زنجان",
     "iscCategory": "جامع",
     "iscRank": 9,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-channel-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -265,11 +281,12 @@
     "nameFa": "دانشگاه خوارزمی",
     "iscCategory": "جامع",
     "iscRank": 10,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.khu.ac.ir/",
     "evidenceUrls": [
-      "https://research.khu.ac.ir/"
+      "https://research.khu.ac.ir/",
+      "https://pgeducation.khu.ac.ir/files/site41/files/aeen_name_ejraee_97.pdf"
     ],
     "deepAuditStatus": "deep-audited",
     "dimensions": {
@@ -280,12 +297,12 @@
       "industryTechnology": "verified",
       "informationTechnology": "verified",
       "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 88,
+    "auditEvidenceCoverage": 100,
     "unitsFound": 14,
     "systemsFound": 6,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -294,7 +311,7 @@
     "nameFa": "دانشگاه علامه طباطبایی",
     "iscCategory": "جامع",
     "iscRank": 11,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.atu.ac.ir/fa",
     "evidenceUrls": [
@@ -323,7 +340,7 @@
     "nameFa": "دانشگاه شهید باهنر کرمان",
     "iscCategory": "جامع",
     "iscRank": 12,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -352,15 +369,16 @@
     "nameFa": "دانشگاه گیلان",
     "iscCategory": "جامع",
     "iscRank": 13,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://resvp.guilan.ac.ir/",
     "evidenceUrls": [
-      "https://guilan.ac.ir/"
+      "https://guilan.ac.ir/",
+      "https://resvp.guilan.ac.ir/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -369,7 +387,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 13,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -381,11 +399,12 @@
     "nameFa": "دانشگاه ارومیه",
     "iscCategory": "جامع",
     "iscRank": 14,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-reference",
     "researchUrl": null,
     "evidenceUrls": [
-      "https://www.urmia.ac.ir/"
+      "https://www.urmia.ac.ir/",
+      "https://www.urmia.ac.ir/structure"
     ],
     "deepAuditStatus": "reference-resolved-deep-pending",
     "dimensions": {
@@ -410,7 +429,7 @@
     "nameFa": "دانشگاه سمنان",
     "iscCategory": "جامع",
     "iscRank": 15,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.semnan.ac.ir/",
     "evidenceUrls": [
@@ -439,10 +458,13 @@
     "nameFa": "دانشگاه سیستان و بلوچستان",
     "iscCategory": "جامع",
     "iscRank": 16,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
-    "evidenceUrls": [],
+    "evidenceUrls": [
+      "https://www.usb.ac.ir/%D9%85%DB%8C%D8%B2%D8%AE%D8%AF%D9%85%D8%AA/%D9%85%DB%8C%D8%B2-%D8%AE%D8%AF%D9%85%D8%AA-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+      "https://www.usb.ac.ir/FileUpload/9992_2026-5-4-10-55-5.pdf"
+    ],
     "deepAuditStatus": "portal-resolution-pending",
     "dimensions": {
       "portalIdentity": "unresolved",
@@ -452,12 +474,12 @@
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 0,
+    "auditEvidenceCoverage": 13,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 2,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -466,15 +488,17 @@
     "nameFa": "دانشگاه یزد",
     "iscCategory": "جامع",
     "iscRank": 17,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://yazd.ac.ir/offices/research/home/introduction",
     "evidenceUrls": [
-      "https://yazd.ac.ir/"
+      "https://yazd.ac.ir/",
+      "https://yazd.ac.ir/offices/research/home/introduction",
+      "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -483,7 +507,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 13,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -495,27 +519,30 @@
     "nameFa": "دانشگاه محقق اردبیلی",
     "iscCategory": "جامع",
     "iscRank": 18,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://uma.ac.ir/find-8.270.2596.fa.html",
     "evidenceUrls": [
-      "https://uma.ac.ir/"
+      "https://uma.ac.ir/",
+      "https://uma.ac.ir/find-8.270.2596.fa.html",
+      "https://uma.ac.ir/find.php?item=8.5244.13832.fa",
+      "https://uma.ac.ir/content/32005/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -524,27 +551,31 @@
     "nameFa": "دانشگاه کردستان",
     "iscCategory": "جامع",
     "iscRank": 19,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://uok.ac.ir/web/research-and-innovation",
     "evidenceUrls": [
-      "https://uok.ac.ir/"
+      "https://uok.ac.ir/",
+      "https://uok.ac.ir/web/research-and-innovation",
+      "https://uok.ac.ir/web/research-and-innovation/organizational-chart",
+      "https://research.uok.ac.ir/",
+      "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -553,7 +584,7 @@
     "nameFa": "دانشگاه شهید چمران اهواز",
     "iscCategory": "جامع",
     "iscRank": 20,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.scu.ac.ir/",
     "evidenceUrls": [
@@ -582,70 +613,16 @@
     "nameFa": "دانشگاه کاشان",
     "iscCategory": "جامع",
     "iscRank": 21,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "secondary-reference",
-    "researchUrl": null,
-    "evidenceUrls": [],
-    "deepAuditStatus": "portal-resolution-pending",
-    "dimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "auditEvidenceCoverage": 0,
-    "unitsFound": 0,
-    "systemsFound": 0,
-    "documentsFound": 0,
-    "rankingEligibility": "unranked-evidence-insufficient",
-    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
-  },
-  {
-    "universitySlug": "shahrekord",
-    "nameFa": "دانشگاه شهرکرد",
-    "iscCategory": "جامع",
-    "iscRank": 22,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "secondary-reference",
-    "researchUrl": null,
-    "evidenceUrls": [],
-    "deepAuditStatus": "portal-resolution-pending",
-    "dimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "auditEvidenceCoverage": 0,
-    "unitsFound": 0,
-    "systemsFound": 0,
-    "documentsFound": 0,
-    "rankingEligibility": "unranked-evidence-insufficient",
-    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
-  },
-  {
-    "universitySlug": "bu-ali-sina",
-    "nameFa": "دانشگاه بوعلی سینا",
-    "iscCategory": "جامع",
-    "iscRank": 23,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-channel-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.kashanu.ac.ir/",
     "evidenceUrls": [
-      "https://t.me/s/basuacir"
+      "https://research.kashanu.ac.ir/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
-      "organization": "observed-reference",
+      "portalIdentity": "verified",
+      "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
@@ -661,11 +638,72 @@
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
   {
+    "universitySlug": "shahrekord",
+    "nameFa": "دانشگاه شهرکرد",
+    "iscCategory": "جامع",
+    "iscRank": 22,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://www.sku.ac.ir/Vice-President/research",
+    "evidenceUrls": [
+      "https://www.sku.ac.ir/Vice-President/research",
+      "https://www.sku.ac.ir/Datafiles/UploadedFiles/UserFiles/2015116151928_aeennameh89.pdf"
+    ],
+    "deepAuditStatus": "identity-verified-deep-pending",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
+      "informationTechnology": "unresolved",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "verified"
+    },
+    "auditEvidenceCoverage": 25,
+    "unitsFound": 0,
+    "systemsFound": 0,
+    "documentsFound": 1,
+    "rankingEligibility": "unranked-evidence-insufficient",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  {
+    "universitySlug": "bu-ali-sina",
+    "nameFa": "دانشگاه بوعلی سینا",
+    "iscCategory": "جامع",
+    "iscRank": 23,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://res.basu.ac.ir/",
+    "evidenceUrls": [
+      "https://t.me/s/basuacir",
+      "https://res.basu.ac.ir/",
+      "https://res.basu.ac.ir/journals-regulations/-/document_library/ocki/view/3692745"
+    ],
+    "deepAuditStatus": "identity-verified-deep-pending",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
+      "informationTechnology": "unresolved",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "verified"
+    },
+    "auditEvidenceCoverage": 31,
+    "unitsFound": 0,
+    "systemsFound": 0,
+    "documentsFound": 1,
+    "rankingEligibility": "unranked-evidence-insufficient",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  {
     "universitySlug": "qom",
     "nameFa": "دانشگاه قم",
     "iscCategory": "جامع",
     "iscRank": 23,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.qom.ac.ir/",
     "evidenceUrls": [
@@ -694,7 +732,7 @@
     "nameFa": "دانشگاه الزهرا (س)",
     "iscCategory": "جامع",
     "iscRank": 25,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.alzahra.ac.ir/",
     "evidenceUrls": [
@@ -723,15 +761,16 @@
     "nameFa": "دانشگاه مازندران",
     "iscCategory": "جامع",
     "iscRank": 26,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-channel-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.umz.ac.ir/",
     "evidenceUrls": [
-      "https://umz.ac.ir/"
+      "https://umz.ac.ir/",
+      "https://research.umz.ac.ir/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -740,7 +779,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 13,
+    "auditEvidenceCoverage": 19,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -752,7 +791,7 @@
     "nameFa": "دانشگاه بین المللی امام خمینی (ره)",
     "iscCategory": "جامع",
     "iscRank": 27,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -781,15 +820,16 @@
     "nameFa": "دانشگاه خلیج فارس",
     "iscCategory": "جامع",
     "iscRank": 28,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-channel-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://pgu.ac.ir/fa/researchdeputy",
     "evidenceUrls": [
-      "https://t.me/s/pgu_pr"
+      "https://t.me/s/pgu_pr",
+      "https://pgu.ac.ir/fa/researchdeputy"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -798,7 +838,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 19,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -810,7 +850,7 @@
     "nameFa": "دانشگاه زنجان",
     "iscCategory": "جامع",
     "iscRank": 29,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.znu.ac.ir/",
     "evidenceUrls": [
@@ -839,15 +879,16 @@
     "nameFa": "دانشگاه ایلام",
     "iscCategory": "جامع",
     "iscRank": 30,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://www.ilam.ac.ir/dep/research/",
     "evidenceUrls": [
-      "https://t.me/ilamac"
+      "https://t.me/ilamac",
+      "https://www.ilam.ac.ir/dep/research/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -856,7 +897,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 13,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -868,7 +909,7 @@
     "nameFa": "دانشگاه حکیم سبزواری",
     "iscCategory": "جامع",
     "iscRank": 31,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -897,7 +938,7 @@
     "nameFa": "دانشگاه اراک",
     "iscCategory": "جامع",
     "iscRank": 32,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.araku.ac.ir/",
     "evidenceUrls": [
@@ -926,7 +967,7 @@
     "nameFa": "دانشگاه شهید مدنی آذربایجان",
     "iscCategory": "جامع",
     "iscRank": 33,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -955,11 +996,12 @@
     "nameFa": "دانشگاه بیرجند",
     "iscCategory": "جامع",
     "iscRank": 34,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://birjand.ac.ir/research/fa",
     "evidenceUrls": [
-      "https://birjand.ac.ir/research/fa"
+      "https://birjand.ac.ir/research/fa",
+      "https://birjand.ac.ir/graduate/fa/regulation"
     ],
     "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
@@ -970,12 +1012,12 @@
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 13,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -984,7 +1026,7 @@
     "nameFa": "دانشگاه ولی عصر (عج) رفسنجان",
     "iscCategory": "جامع",
     "iscRank": 35,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1011,101 +1053,16 @@
     "nameFa": "دانشگاه لرستان",
     "iscCategory": "جامع",
     "iscRank": 36,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "secondary-reference",
-    "researchUrl": null,
-    "evidenceUrls": [],
-    "deepAuditStatus": "portal-resolution-pending",
-    "dimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "auditEvidenceCoverage": 0,
-    "unitsFound": 0,
-    "systemsFound": 0,
-    "documentsFound": 0,
-    "rankingEligibility": "unranked-evidence-insufficient",
-    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
-  },
-  {
-    "universitySlug": "maragheh",
-    "nameFa": "دانشگاه مراغه",
-    "iscCategory": "جامع",
-    "iscRank": 37,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-domain-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.lu.ac.ir/",
     "evidenceUrls": [
-      "https://www.maragheh.ac.ir/fa/article/3289452",
-      "https://www.maragheh.ac.ir/fa/article/3224206",
-      "https://rtm.maragheh.ac.ir/postdoc"
+      "https://research.lu.ac.ir/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
-      "organization": "observed-reference",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "observed-reference",
-      "informationTechnology": "unresolved",
-      "systemsServices": "observed-reference",
-      "documentsRegulations": "unresolved"
-    },
-    "auditEvidenceCoverage": 25,
-    "unitsFound": 0,
-    "systemsFound": 0,
-    "documentsFound": 0,
-    "rankingEligibility": "unranked-evidence-insufficient",
-    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
-  },
-  {
-    "universitySlug": "zabol",
-    "nameFa": "دانشگاه زابل",
-    "iscCategory": "جامع",
-    "iscRank": 38,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "secondary-reference",
-    "researchUrl": null,
-    "evidenceUrls": [],
-    "deepAuditStatus": "portal-resolution-pending",
-    "dimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "auditEvidenceCoverage": 0,
-    "unitsFound": 0,
-    "systemsFound": 0,
-    "documentsFound": 0,
-    "rankingEligibility": "unranked-evidence-insufficient",
-    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
-  },
-  {
-    "universitySlug": "yasouj",
-    "nameFa": "دانشگاه یاسوج",
-    "iscCategory": "جامع",
-    "iscRank": 38,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-domain-reference",
-    "researchUrl": null,
-    "evidenceUrls": [
-      "https://yu.ac.ir/fa/natak/content/2608"
-    ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
-    "dimensions": {
-      "portalIdentity": "observed-reference",
-      "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
@@ -1121,11 +1078,105 @@
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
   {
+    "universitySlug": "maragheh",
+    "nameFa": "دانشگاه مراغه",
+    "iscCategory": "جامع",
+    "iscRank": 37,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://rtm.maragheh.ac.ir/",
+    "evidenceUrls": [
+      "https://www.maragheh.ac.ir/fa/article/3289452",
+      "https://www.maragheh.ac.ir/fa/article/3224206",
+      "https://rtm.maragheh.ac.ir/postdoc",
+      "https://rtm.maragheh.ac.ir/",
+      "https://res.maragheh.ac.ir/_Pages/Regulations/Default.aspx",
+      "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9750ea80-7c7d-4917-ba1b-eb366b50d22f&FileName=Saramadan-researchers+%D9%8D+Editted+Aban+1404.pdf"
+    ],
+    "deepAuditStatus": "identity-verified-deep-pending",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "observed-reference",
+      "informationTechnology": "unresolved",
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "verified"
+    },
+    "auditEvidenceCoverage": 44,
+    "unitsFound": 0,
+    "systemsFound": 0,
+    "documentsFound": 2,
+    "rankingEligibility": "unranked-evidence-insufficient",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  {
+    "universitySlug": "zabol",
+    "nameFa": "دانشگاه زابل",
+    "iscCategory": "جامع",
+    "iscRank": 38,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://uoz.ac.ir/prt/",
+    "evidenceUrls": [
+      "https://uoz.ac.ir/prt/",
+      "https://uoz.ac.ir/file/download/page/1671355345-20221116-121542.pdf"
+    ],
+    "deepAuditStatus": "identity-verified-deep-pending",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
+      "informationTechnology": "unresolved",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "verified"
+    },
+    "auditEvidenceCoverage": 25,
+    "unitsFound": 0,
+    "systemsFound": 0,
+    "documentsFound": 1,
+    "rankingEligibility": "unranked-evidence-insufficient",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  {
+    "universitySlug": "yasouj",
+    "nameFa": "دانشگاه یاسوج",
+    "iscCategory": "جامع",
+    "iscRank": 38,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://yu.ac.ir/fa/res/",
+    "evidenceUrls": [
+      "https://yu.ac.ir/fa/natak/content/2608",
+      "https://yu.ac.ir/fa/res/"
+    ],
+    "deepAuditStatus": "identity-verified-deep-pending",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
+      "informationTechnology": "unresolved",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "unresolved"
+    },
+    "auditEvidenceCoverage": 19,
+    "unitsFound": 0,
+    "systemsFound": 0,
+    "documentsFound": 0,
+    "rankingEligibility": "unranked-evidence-insufficient",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  {
     "universitySlug": "damghan",
     "nameFa": "دانشگاه دامغان",
     "iscCategory": "جامع",
     "iscRank": 40,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-channel-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -1154,7 +1205,7 @@
     "nameFa": "دانشگاه بناب",
     "iscCategory": "جامع",
     "iscRank": 41,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.ubonab.ac.ir/",
     "evidenceUrls": [
@@ -1183,16 +1234,47 @@
     "nameFa": "دانشگاه گلستان",
     "iscCategory": "جامع",
     "iscRank": 42,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-channel-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://gu.ac.ir/research/",
     "evidenceUrls": [
-      "https://t.me/s/Guresearch"
+      "https://t.me/s/Guresearch",
+      "https://gu.ac.ir/research/",
+      "https://gu.ac.ir/file/93866315-04dc-ec11-9ed6-005056998f1e/14010228%20final%20bartar%20policy.pdf"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
+      "informationTechnology": "unresolved",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "verified"
+    },
+    "auditEvidenceCoverage": 31,
+    "unitsFound": 0,
+    "systemsFound": 0,
+    "documentsFound": 1,
+    "rankingEligibility": "unranked-evidence-insufficient",
+    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
+  },
+  {
+    "universitySlug": "hormozgan",
+    "nameFa": "دانشگاه هرمزگان",
+    "iscCategory": "جامع",
+    "iscRank": 42,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://www.hormozgan.ac.ir/home/index/10/28/373",
+    "evidenceUrls": [
+      "https://www.hormozgan.ac.ir/home/index/10/28/373"
+    ],
+    "deepAuditStatus": "identity-verified-deep-pending",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
@@ -1208,38 +1290,11 @@
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
   {
-    "universitySlug": "hormozgan",
-    "nameFa": "دانشگاه هرمزگان",
-    "iscCategory": "جامع",
-    "iscRank": 42,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "secondary-reference",
-    "researchUrl": null,
-    "evidenceUrls": [],
-    "deepAuditStatus": "portal-resolution-pending",
-    "dimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "auditEvidenceCoverage": 0,
-    "unitsFound": 0,
-    "systemsFound": 0,
-    "documentsFound": 0,
-    "rankingEligibility": "unranked-evidence-insufficient",
-    "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
-  },
-  {
     "universitySlug": "tafresh",
     "nameFa": "دانشگاه تفرش",
     "iscCategory": "جامع",
     "iscRank": 44,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1266,7 +1321,7 @@
     "nameFa": "دانشگاه اردکان",
     "iscCategory": "جامع",
     "iscRank": 44,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "false-positive-blocked",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1293,7 +1348,7 @@
     "nameFa": "دانشگاه فسا",
     "iscCategory": "جامع",
     "iscRank": 46,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "false-positive-blocked",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1320,7 +1375,7 @@
     "nameFa": "دانشگاه آیت الله العظمی بروجردی (ره)",
     "iscCategory": "جامع",
     "iscRank": 46,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "institutional-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1347,13 +1402,15 @@
     "nameFa": "دانشگاه بجنورد",
     "iscCategory": "جامع",
     "iscRank": 46,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-channel-reference",
-    "researchUrl": null,
-    "evidenceUrls": [],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://vr.ub.ac.ir/",
+    "evidenceUrls": [
+      "https://vr.ub.ac.ir/"
+    ],
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -1362,7 +1419,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 19,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -1374,7 +1431,7 @@
     "nameFa": "دانشگاه علوم و فنون دریایی خرمشهر",
     "iscCategory": "جامع",
     "iscRank": 49,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1401,7 +1458,7 @@
     "nameFa": "دانشگاه میبد",
     "iscCategory": "جامع",
     "iscRank": 50,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-channel-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -1431,7 +1488,7 @@
     "nameFa": "دانشگاه بزرگمهر قائنات",
     "iscCategory": "جامع",
     "iscRank": 51,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1458,7 +1515,7 @@
     "nameFa": "دانشگاه دریانوردی و علوم دریایی چابهار",
     "iscCategory": "جامع",
     "iscRank": 51,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "credible-secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1485,7 +1542,7 @@
     "nameFa": "دانشگاه ولایت",
     "iscCategory": "جامع",
     "iscRank": 53,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1512,11 +1569,12 @@
     "nameFa": "دانشگاه تخصصی فناوری های نوین آمل",
     "iscCategory": "جامع",
     "iscRank": 54,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-channel-reference",
     "researchUrl": null,
     "evidenceUrls": [
-      "https://t.me/s/amoluniv"
+      "https://t.me/s/amoluniv",
+      "https://ausmt.ac.ir/forms"
     ],
     "deepAuditStatus": "reference-resolved-deep-pending",
     "dimensions": {
@@ -1527,12 +1585,12 @@
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 13,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -1541,7 +1599,7 @@
     "nameFa": "دانشگاه ملایر",
     "iscCategory": "جامع",
     "iscRank": 55,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-domain-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -1570,7 +1628,7 @@
     "nameFa": "دانشگاه گنبد کاووس",
     "iscCategory": "جامع",
     "iscRank": 56,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-channel-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1597,7 +1655,7 @@
     "nameFa": "دانشگاه تربت حیدریه",
     "iscCategory": "جامع",
     "iscRank": 57,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1624,7 +1682,7 @@
     "nameFa": "دانشگاه حضرت معصومه (س)",
     "iscCategory": "جامع",
     "iscRank": 58,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1651,7 +1709,7 @@
     "nameFa": "دانشگاه جهرم",
     "iscCategory": "جامع",
     "iscRank": 59,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1678,7 +1736,7 @@
     "nameFa": "دانشگاه کوثر",
     "iscCategory": "جامع",
     "iscRank": 60,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1705,10 +1763,12 @@
     "nameFa": "دانشگاه جیرفت",
     "iscCategory": "جامع",
     "iscRank": 61,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
-    "evidenceUrls": [],
+    "evidenceUrls": [
+      "https://research.ujiroft.ac.ir/_Pages/Departments/Default.aspx"
+    ],
     "deepAuditStatus": "portal-resolution-pending",
     "dimensions": {
       "portalIdentity": "unresolved",
@@ -1732,7 +1792,7 @@
     "nameFa": "دانشگاه سلمان فارسی کازرون",
     "iscCategory": "جامع",
     "iscRank": 62,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1759,7 +1819,7 @@
     "nameFa": "مرکز آموزش عالی لار",
     "iscCategory": "جامع",
     "iscRank": 62,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1786,7 +1846,7 @@
     "nameFa": "مجتمع آموزش عالی گناباد",
     "iscCategory": "جامع",
     "iscRank": 64,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "institutional-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -1815,7 +1875,7 @@
     "nameFa": "مجتمع آموزش عالی بم",
     "iscCategory": "جامع",
     "iscRank": 65,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1842,7 +1902,7 @@
     "nameFa": "دانشگاه نیشابور",
     "iscCategory": "جامع",
     "iscRank": 66,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "false-positive-blocked",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1869,7 +1929,7 @@
     "nameFa": "مرکز آموزش عالی اقلید",
     "iscCategory": "جامع",
     "iscRank": 67,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1896,7 +1956,7 @@
     "nameFa": "مرکز آموزش عالی کاشمر",
     "iscCategory": "جامع",
     "iscRank": 68,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1923,7 +1983,7 @@
     "nameFa": "دانشگاه سید جمال الدین اسدآبادی",
     "iscCategory": "جامع",
     "iscRank": 68,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -1950,13 +2010,14 @@
     "nameFa": "دانشگاه علم و صنعت ایران",
     "iscCategory": "صنعتی",
     "iscRank": 1,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.iust.ac.ir/",
     "evidenceUrls": [
-      "https://research.iust.ac.ir/"
+      "https://research.iust.ac.ir/",
+      "https://www.iust.ac.ir/files/res_office/pages/dastore_ghotb.pdf"
     ],
-    "deepAuditStatus": "identity-verified-deep-pending",
+    "deepAuditStatus": "deep-audited",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "verified",
@@ -1965,13 +2026,13 @@
       "industryTechnology": "verified",
       "informationTechnology": "unresolved",
       "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 69,
+    "auditEvidenceCoverage": 81,
     "unitsFound": 5,
     "systemsFound": 11,
-    "documentsFound": 0,
-    "rankingEligibility": "unranked-evidence-insufficient",
+    "documentsFound": 1,
+    "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
   {
@@ -1979,7 +2040,7 @@
     "nameFa": "دانشگاه صنعتی شریف",
     "iscCategory": "صنعتی",
     "iscRank": 2,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.sharif.ir/",
     "evidenceUrls": [
@@ -2008,7 +2069,7 @@
     "nameFa": "دانشگاه صنعتی امیرکبیر",
     "iscCategory": "صنعتی",
     "iscRank": 3,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.aut.ac.ir/",
     "evidenceUrls": [
@@ -2037,11 +2098,12 @@
     "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
     "iscCategory": "صنعتی",
     "iscRank": 4,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.kntu.ac.ir/",
     "evidenceUrls": [
-      "https://research.kntu.ac.ir/"
+      "https://research.kntu.ac.ir/",
+      "https://kntu.ac.ir/dorsapax/userfiles/file/Pajohesh/karnameh1392.pdf"
     ],
     "deepAuditStatus": "deep-audited",
     "dimensions": {
@@ -2052,12 +2114,12 @@
       "industryTechnology": "verified",
       "informationTechnology": "unresolved",
       "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 75,
+    "auditEvidenceCoverage": 88,
     "unitsFound": 7,
     "systemsFound": 6,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -2066,11 +2128,12 @@
     "nameFa": "دانشگاه صنعتی اصفهان",
     "iscCategory": "صنعتی",
     "iscRank": 5,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.iut.ac.ir/",
     "evidenceUrls": [
-      "https://research.iut.ac.ir/"
+      "https://research.iut.ac.ir/",
+      "https://research.iut.ac.ir/fa/dgr/1770"
     ],
     "deepAuditStatus": "deep-audited",
     "dimensions": {
@@ -2086,7 +2149,7 @@
     "auditEvidenceCoverage": 100,
     "unitsFound": 8,
     "systemsFound": 5,
-    "documentsFound": 5,
+    "documentsFound": 6,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -2095,29 +2158,31 @@
     "nameFa": "دانشگاه صنعتی شاهرود",
     "iscCategory": "صنعتی",
     "iscRank": 6,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-channel-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=11",
     "evidenceUrls": [
       "https://t.me/s/shahroudUNI",
       "https://t.me/s/Research_SUT",
-      "https://shahroodut.ac.ir/"
+      "https://shahroodut.ac.ir/",
+      "https://www.shahroodut.ac.ir/fa/sec/index.php?id=11",
+      "https://www.shahroodut.ac.ir/fa/sec/index.php?id=6&index=257"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "observed-reference",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 19,
+    "auditEvidenceCoverage": 38,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -2126,27 +2191,29 @@
     "nameFa": "دانشگاه صنعتی نوشیروانی بابل",
     "iscCategory": "صنعتی",
     "iscRank": 7,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-channel-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.nit.ac.ir/",
     "evidenceUrls": [
-      "https://t.me/s/profnoshiravani"
+      "https://t.me/s/profnoshiravani",
+      "https://research.nit.ac.ir/",
+      "https://edu.nit.ac.ir/file/download/regulation/657051cde5f4e-1402.pdf"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "observed-reference",
       "laboratories": "unresolved",
       "industryTechnology": "observed-reference",
       "informationTechnology": "observed-reference",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 31,
+    "auditEvidenceCoverage": 50,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -2155,15 +2222,16 @@
     "nameFa": "دانشگاه صنعتی سهند",
     "iscCategory": "صنعتی",
     "iscRank": 8,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-domain-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://sut.ac.ir/research/fa/",
     "evidenceUrls": [
-      "http://sut.ac.ir/main/ShowArticle.aspx?artid=2039"
+      "http://sut.ac.ir/main/ShowArticle.aspx?artid=2039",
+      "https://sut.ac.ir/research/fa/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -2172,7 +2240,7 @@
       "systemsServices": "observed-reference",
       "documentsRegulations": "observed-reference"
     },
-    "auditEvidenceCoverage": 25,
+    "auditEvidenceCoverage": 31,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -2184,7 +2252,7 @@
     "nameFa": "دانشگاه صنعتی شیراز",
     "iscCategory": "صنعتی",
     "iscRank": 9,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "institutional-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -2213,7 +2281,7 @@
     "nameFa": "دانشگاه تحصیلات تکمیلی صنعتی و فناوری پیشرفته کرمان",
     "iscCategory": "صنعتی",
     "iscRank": 10,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -2240,7 +2308,7 @@
     "nameFa": "دانشگاه صنعتی ارومیه",
     "iscCategory": "صنعتی",
     "iscRank": 11,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -2267,13 +2335,15 @@
     "nameFa": "دانشگاه صنعتی قوچان",
     "iscCategory": "صنعتی",
     "iscRank": 12,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "institutional-reference",
-    "researchUrl": null,
-    "evidenceUrls": [],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.qiet.ac.ir/",
+    "evidenceUrls": [
+      "https://research.qiet.ac.ir/"
+    ],
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -2282,7 +2352,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 13,
+    "auditEvidenceCoverage": 19,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -2294,7 +2364,7 @@
     "nameFa": "دانشگاه صنعتی اراک",
     "iscCategory": "صنعتی",
     "iscRank": 13,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-channel-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -2323,25 +2393,28 @@
     "nameFa": "دانشگاه صنعتی کرمانشاه",
     "iscCategory": "صنعتی",
     "iscRank": 14,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "secondary-reference",
-    "researchUrl": null,
-    "evidenceUrls": [],
-    "deepAuditStatus": "portal-resolution-pending",
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.kut.ac.ir/",
+    "evidenceUrls": [
+      "https://research.kut.ac.ir/",
+      "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx"
+    ],
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 0,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -2350,7 +2423,7 @@
     "nameFa": "دانشگاه صنعتی قم",
     "iscCategory": "صنعتی",
     "iscRank": 15,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://qut.ac.ir/fa/researches/index",
     "evidenceUrls": [
@@ -2379,7 +2452,7 @@
     "nameFa": "دانشگاه صنعتی جندی شاپور دزفول",
     "iscCategory": "صنعتی",
     "iscRank": 16,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-channel-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -2408,7 +2481,7 @@
     "nameFa": "دانشگاه صنعتی همدان",
     "iscCategory": "صنعتی",
     "iscRank": 17,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -2435,7 +2508,7 @@
     "nameFa": "دانشگاه صنعتی خاتم الانبیاء بهبهان",
     "iscCategory": "صنعتی",
     "iscRank": 17,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "false-positive-blocked",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -2462,7 +2535,7 @@
     "nameFa": "دانشگاه صنعتی سیرجان",
     "iscCategory": "صنعتی",
     "iscRank": 19,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -2489,7 +2562,7 @@
     "nameFa": "دانشگاه علم و فناوری مازندران (بهشهر)",
     "iscCategory": "صنعتی",
     "iscRank": 20,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -2516,7 +2589,7 @@
     "nameFa": "مجتمع آموزش عالی فنی و مهندسی اسفراین",
     "iscCategory": "صنعتی",
     "iscRank": 21,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -2543,16 +2616,17 @@
     "nameFa": "دانشگاه صنعتی بیرجند",
     "iscCategory": "صنعتی",
     "iscRank": 22,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-domain-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.birjandut.ac.ir/",
     "evidenceUrls": [
       "https://birjandut.ac.ir/fa/news/1858",
-      "https://birjandut.ac.ir/fa/news/1859"
+      "https://birjandut.ac.ir/fa/news/1859",
+      "https://research.birjandut.ac.ir/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -2561,7 +2635,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 19,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -2573,7 +2647,7 @@
     "nameFa": "مرکز آموزش عالی فنی و مهندسی بوئین زهرا",
     "iscCategory": "صنعتی",
     "iscRank": 23,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "institutional-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -2600,7 +2674,7 @@
     "nameFa": "مرکز آموزش عالی محلات",
     "iscCategory": "صنعتی",
     "iscRank": 24,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -2627,7 +2701,7 @@
     "nameFa": "دانشگاه علوم کشاورزی و منابع طبیعی گرگان",
     "iscCategory": "علوم کشاورزی",
     "iscRank": 1,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-channel-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -2656,7 +2730,7 @@
     "nameFa": "دانشگاه علوم کشاورزی و منابع طبیعی ساری",
     "iscCategory": "علوم کشاورزی",
     "iscRank": 2,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "ministry-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -2685,11 +2759,13 @@
     "nameFa": "دانشگاه علوم کشاورزی و منابع طبیعی خوزستان",
     "iscCategory": "علوم کشاورزی",
     "iscRank": 3,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "institutional-reference",
     "researchUrl": null,
     "evidenceUrls": [
-      "https://jrpsm.asnrukh.ac.ir/"
+      "https://jrpsm.asnrukh.ac.ir/",
+      "https://asnrukh.ac.ir/karafarini/fa/regulation?sort=title",
+      "https://asnrukh.ac.ir/file/download/page/1614232844-.pdf"
     ],
     "deepAuditStatus": "reference-resolved-deep-pending",
     "dimensions": {
@@ -2700,12 +2776,12 @@
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "observed-reference",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 19,
+    "auditEvidenceCoverage": 31,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 2,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -2714,7 +2790,7 @@
     "nameFa": "دانشکده کشاورزی و دامپروری تربت جام",
     "iscCategory": "علوم کشاورزی",
     "iscRank": 4,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -2741,7 +2817,7 @@
     "nameFa": "دانشگاه هنر ایران",
     "iscCategory": "هنر",
     "iscRank": 1,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.art.ac.ir/fa",
     "evidenceUrls": [
@@ -2770,11 +2846,12 @@
     "nameFa": "دانشگاه هنر اسلامی تبریز",
     "iscCategory": "هنر",
     "iscRank": 2,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-reference",
     "researchUrl": null,
     "evidenceUrls": [
-      "https://tabriziau.ac.ir/"
+      "https://tabriziau.ac.ir/",
+      "https://research.tabriziau.ac.ir/uploads/user/8/files/%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%20%D9%88%20%D9%81%D8%B1%D9%85%20%D9%87%D8%A7/%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%20%D8%A8%D9%86%D8%AF%DB%8C%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%20%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%28new%29%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%20%D8%A8%D9%86%D8%AF%DB%8C%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf"
     ],
     "deepAuditStatus": "reference-resolved-deep-pending",
     "dimensions": {
@@ -2785,12 +2862,12 @@
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 19,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -2799,7 +2876,7 @@
     "nameFa": "دانشگاه هنر اصفهان",
     "iscCategory": "هنر",
     "iscRank": 3,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -2828,7 +2905,7 @@
     "nameFa": "دانشگاه هنر شیراز",
     "iscCategory": "هنر",
     "iscRank": 4,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "institutional-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -2858,7 +2935,7 @@
     "nameFa": "دانشگاه پیام نور",
     "iscCategory": "زیرنظام",
     "iscRank": 1,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -2887,7 +2964,7 @@
     "nameFa": "دانشگاه ملی مهارت",
     "iscCategory": "زیرنظام",
     "iscRank": 2,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -2916,15 +2993,16 @@
     "nameFa": "دانشگاه فرهنگیان",
     "iscCategory": "زیرنظام",
     "iscRank": 3,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-domain-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://cfu.ac.ir/fa/grid/11/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
     "evidenceUrls": [
-      "https://esfahan.cfu.ac.ir/fa/226134/"
+      "https://esfahan.cfu.ac.ir/fa/226134/",
+      "https://cfu.ac.ir/fa/grid/11/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -2933,7 +3011,7 @@
       "systemsServices": "observed-reference",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 19,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -2945,7 +3023,7 @@
     "nameFa": "دانشگاه جامع علمی کاربردی",
     "iscCategory": "زیرنظام",
     "iscRank": 4,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "official-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -2974,7 +3052,7 @@
     "nameFa": "دانشگاه جامع امام حسین (ع)",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 1,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "restricted-official-reference",
     "researchUrl": null,
     "evidenceUrls": [
@@ -3004,12 +3082,13 @@
     "nameFa": "دانشگاه شاهد",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 2,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://res.shahed.ac.ir",
     "evidenceUrls": [
       "https://res.shahed.ac.ir",
-      "https://res.shahed.ac.ir/"
+      "https://res.shahed.ac.ir/",
+      "https://library.shahed.ac.ir/"
     ],
     "deepAuditStatus": "deep-audited",
     "dimensions": {
@@ -3034,7 +3113,7 @@
     "nameFa": "دانشگاه صنعتی مالک اشتر",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 3,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "restricted-public",
     "researchUrl": null,
     "evidenceUrls": [
@@ -3063,27 +3142,30 @@
     "nameFa": "دانشگاه تربیت دبیر شهید رجایی",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 4,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
     "evidenceUrls": [
-      "https://www.srttu.edu/"
+      "https://www.srttu.edu/",
+      "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
+      "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D9%85%D8%A7/",
+      "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -3092,7 +3174,7 @@
     "nameFa": "دانشگاه فرماندهی و ستاد آجا (دافوس)",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 5,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "restricted-public",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -3119,12 +3201,13 @@
     "nameFa": "دانشگاه عالی دفاع ملی",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 6,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "restricted-official-reference",
     "researchUrl": null,
     "evidenceUrls": [
       "https://nezamat.ir/post-44967/",
-      "https://smsnds.sndu.ac.ir/"
+      "https://smsnds.sndu.ac.ir/",
+      "https://sndu.ac.ir/file/download/news/1610428363-.pdf"
     ],
     "deepAuditStatus": "restricted-closed",
     "dimensions": {
@@ -3140,7 +3223,7 @@
     "auditEvidenceCoverage": 100,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -3149,7 +3232,7 @@
     "nameFa": "دانشگاه علوم انتظامی امین",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 7,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "restricted-public",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -3176,13 +3259,16 @@
     "nameFa": "دانشگاه صنعت نفت",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 8,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-channel-reference",
-    "researchUrl": null,
-    "evidenceUrls": [],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://www.put.ac.ir/fa-IR/put/4793/page/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A",
+    "evidenceUrls": [
+      "https://www.put.ac.ir/fa-IR/put/4793/page/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A",
+      "https://www.put.ac.ir/fa-IR/put/5028/page/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%D9%8A-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87"
+    ],
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -3191,7 +3277,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 19,
+    "auditEvidenceCoverage": 25,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -3203,7 +3289,7 @@
     "nameFa": "دانشگاه صدا و سیمای جمهوری اسلامی ایران",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 9,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "institutional-reference",
     "researchUrl": null,
     "evidenceUrls": [],
@@ -3230,7 +3316,7 @@
     "nameFa": "مرکز آموزش عالی هوانوردی و فرودگاهی کشور",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 10,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "legacy-restricted",
     "researchUrl": null,
     "evidenceUrls": [

@@ -1,11 +1,11 @@
-# GitHub, Codespaces & Vercel Deployment — v9.0.0
+# GitHub, Codespaces & Vercel Deployment — v10.0.0
 
 ## GitHub
 
 ```bash
 git init
 git add .
-git commit -m "Release v9.0.0 - Evidence 115"
+git commit -m "Release v10.0.0 - Portal and document re-audit 115"
 git branch -M main
 git remote add origin YOUR_REPO_URL
 git push -u origin main
@@ -37,4 +37,4 @@ npm run lint
 npm run build
 ```
 
-این gate گزارش ۱۱۵ دانشگاه را به ۹۲۰ outcome تبدیل می‌کند و ماتریس، RTPMI، Provenance، Open Data، ۱۱۵ Audit Packet و ۹ خروجی CSV را بازتولید و اعتبارسنجی می‌کند.
+این gate دو گزارش ۱۱۵ دانشگاه را وارد می‌کند و ماتریس ۹۲۰ outcome، RTPMI، Provenance، Open Data، ۱۱۵ Audit Packet و خروجی‌های CSV را بازتولید و اعتبارسنجی می‌کند.

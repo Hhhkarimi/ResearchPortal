@@ -14,9 +14,11 @@ const packets=read("data/audit/packets-index.json");
 const ledger=read("data/evidence/provenance-ledger.json");
 const reviews=read("data/evidence/research-review.json");
 const dimensionEvidence=read("data/evidence/dimension-evidence.json");
+const portalDocumentReaudit=read("data/evidence/portal-document-reaudit.json");
 const categories={جامع:69,صنعتی:24,"علوم کشاورزی":4,هنر:4,زیرنظام:4,"دستگاه اجرایی":10};
 const dimensions=["portalIdentity","organization","libraryDocuments","laboratories","industryTechnology","informationTechnology","systemsServices","documentsRegulations"];
 const statuses=["verified","observed-reference","restricted","unresolved"];
+const canonicalUrl=value=>{const url=new URL(value);url.hash="";url.hostname=url.hostname.toLowerCase();if(url.pathname.length>1)url.pathname=url.pathname.replace(/\/+$/,"");return url.toString()};
 
 if(isc.length!==115)throw new Error(`ISC scope must be 115, got ${isc.length}`);
 if(source.publicInstitutions!==115)throw new Error("ISC source metadata count mismatch");
@@ -55,6 +57,17 @@ for(const item of ledger){if(!validSlugs.has(item.universitySlug))throw new Erro
 if(dimensionEvidence.length!==920)throw new Error(`Dimension evidence must cover 920 outcomes, got ${dimensionEvidence.length}`);
 if(new Set(dimensionEvidence.map(item=>item.id)).size!==920)throw new Error("Duplicate dimension evidence id");
 if(reviews.length!==115||new Set(reviews.map(item=>item.universitySlug)).size!==115)throw new Error("Research review must cover unique 115 ISC institutions");
+if(portalDocumentReaudit.length!==115||new Set(portalDocumentReaudit.map(item=>item.slug)).size!==115)throw new Error("Portal/document re-audit must cover unique 115 ISC institutions");
+if(portalDocumentReaudit.find(item=>item.slug==="bojnord")?.portalUrls?.[0]!=="https://vr.ub.ac.ir/")throw new Error("University of Bojnord official R&T portal correction is missing");
+for(const row of portalDocumentReaudit)for(const url of [row.portalUrls,row.organizationUrls,row.libraryUrls,row.laboratoryUrls,row.industryTechnologyUrls,row.informationTechnologyUrls,row.systemsUrls,row.documentIndexUrls,row.directDocuments?.map(item=>item.url)].flat(2).filter(Boolean))try{new URL(url)}catch{throw new Error(`Invalid re-audit URL ${row.slug}: ${url}`)}
+for(const row of portalDocumentReaudit){
+  const review=reviews.find(item=>item.universitySlug===row.slug);const roots=new Set(row.portalUrls.map(canonicalUrl));
+  const checks={organization:"organizationUrls",libraryDocuments:"libraryUrls",laboratories:"laboratoryUrls",industryTechnology:"industryTechnologyUrls",systemsServices:"systemsUrls"};
+  for(const [dimension,key] of Object.entries(checks))if(row[key].length&&row[key].every(url=>roots.has(canonicalUrl(url)))&&review.dimensions[dimension]==="verified")throw new Error(`Portal root incorrectly promoted to verified ${row.slug}:${dimension}`);
+  const itOutcome=dimensionEvidence.find(item=>item.id===`${row.slug}:informationTechnology`);
+  if(review.dimensions.informationTechnology==="verified"&&!itOutcome?.sources.some(source=>source.kind==="unit"&&source.relationStatus==="organizationally-attributed"&&source.relationshipEvidenceUrl))throw new Error(`Re-audit IT cannot be verified without separately modeled organizational evidence: ${row.slug}`);
+}
+for(const document of documents)if(!document.topic)throw new Error(`Document without topic classification: ${document.id}`);
 
 for(const slug of validSlugs){
   const rows=dimensionEvidence.filter(item=>item.universitySlug===slug);

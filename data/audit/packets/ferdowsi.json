@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 3,
@@ -12,13 +12,14 @@
     "nameFa": "دانشگاه فردوسی مشهد",
     "iscCategory": "جامع",
     "iscRank": 3,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://vpr.um.ac.ir/",
     "evidenceUrls": [
-      "https://vpr.um.ac.ir/"
+      "https://vpr.um.ac.ir/",
+      "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms"
     ],
-    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "eligible"
   },
   "deepAudit": {
@@ -26,11 +27,12 @@
     "nameFa": "دانشگاه فردوسی مشهد",
     "iscCategory": "جامع",
     "iscRank": 3,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://vpr.um.ac.ir/",
     "evidenceUrls": [
-      "https://vpr.um.ac.ir/"
+      "https://vpr.um.ac.ir/",
+      "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms"
     ],
     "deepAuditStatus": "deep-audited",
     "dimensions": {
@@ -41,12 +43,12 @@
       "industryTechnology": "verified",
       "informationTechnology": "unresolved",
       "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 75,
+    "auditEvidenceCoverage": 88,
     "unitsFound": 13,
     "systemsFound": 9,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -61,13 +63,19 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 1,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 2,
       "sources": [
         {
           "url": "https://vpr.um.ac.ir/",
           "kind": "portal-identity",
           "claim": "official research/technology portal identity",
+          "id": null
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         }
       ],
@@ -82,24 +90,21 @@
       "iscCategory": "جامع",
       "iscRank": 3,
       "dimension": "organization",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://vpr.um.ac.ir/",
-          "kind": "unit",
-          "claim": "مدیریت پژوهشی",
-          "id": "ferdowsi-1",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -109,24 +114,21 @@
       "iscCategory": "جامع",
       "iscRank": 3,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://vpr.um.ac.ir/",
-          "kind": "unit",
-          "claim": "مدیریت نشر و کتابخانه مرکزی",
-          "id": "ferdowsi-4",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -136,24 +138,21 @@
       "iscCategory": "جامع",
       "iscRank": 3,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://vpr.um.ac.ir/",
-          "kind": "unit",
-          "claim": "شبکه آزمایشگاه‌ها و کارگاه‌ها",
-          "id": "ferdowsi-3",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -163,24 +162,21 @@
       "iscCategory": "جامع",
       "iscRank": 3,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://vpr.um.ac.ir/",
-          "kind": "unit",
-          "claim": "ارتباط با صنعت و جامعه",
-          "id": "ferdowsi-2",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -193,7 +189,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -207,22 +203,21 @@
       "iscCategory": "جامع",
       "iscRank": 3,
       "dimension": "systemsServices",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://vpr.um.ac.ir/",
-          "kind": "system",
-          "claim": "سامانه یکپارچه نشریات",
-          "id": "ferdowsi-journals",
-          "systemCategory": "journals"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -232,14 +227,21 @@
       "iscCategory": "جامع",
       "iscRank": 3,
       "dimension": "documentsRegulations",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        }
+      ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
@@ -248,27 +250,27 @@
     "nameFa": "دانشگاه فردوسی مشهد",
     "iscCategory": "جامع",
     "iscRank": 3,
-    "score": 86.8,
-    "confidence": 82,
+    "score": 77.7,
+    "confidence": 91.4,
     "metrics": {
-      "documents": null,
+      "documents": 37.8,
       "organization": 100,
       "library": 70,
       "laboratories": 100,
       "digital": 76.4,
       "industryTech": 90,
       "dataQuality": 100,
-      "findability": 64.5
+      "findability": 71.6
     },
     "units": 13,
     "systems": 9,
-    "documents": 0,
-    "activeWeight": 80,
-    "evidenceCoverage": 75,
+    "documents": 1,
+    "activeWeight": 100,
+    "evidenceCoverage": 88,
     "methodologyVersion": "RTPMI-4.1-ISC",
-    "snapshotDate": "2026-08-10",
-    "rank": 1,
-    "portalRankWithinISCClass": 1,
+    "snapshotDate": "2026-08-11",
+    "rank": 9,
+    "portalRankWithinISCClass": 6,
     "rankedPortalsInISCClass": 11
   },
   "units": [
@@ -487,7 +489,21 @@
       "lastVerified": "2026-08-10"
     }
   ],
-  "documents": [],
+  "documents": [
+    {
+      "id": "ferdowsi-reaudit-doc-1",
+      "universitySlug": "ferdowsi",
+      "title": "فهرست فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها",
+      "type": "فهرست اسناد",
+      "topic": "سایر",
+      "taxonomy": null,
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
+      "sourceUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms"
+    }
+  ],
   "interpretation": {
     "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
     "rtpmi": "Portal maturity/transparency only; not research performance.",

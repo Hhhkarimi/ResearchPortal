@@ -1,6 +1,6 @@
-# Data Status — v9.0.0
+# Data Status — v10.0.0
 
-Snapshot: 2026-08-10
+Snapshot: 2026-08-11
 
 ## Scope
 
@@ -12,25 +12,26 @@ Snapshot: 2026-08-10
 
 - Independent institution reviews: **115/115**
 - Dimension-level outcomes: **920/920** (115 institutions × 8 dimensions)
-- Verified with dimension-specific publication evidence: **138**
-- Official reference observed: **90**
-- Access restricted/blocked with an attempted URL: **32**
-- Unresolved in this snapshot: **660**
-- Reported-direct outcomes downgraded to reference: **33**
+- Verified with dimension-specific publication evidence: **104**
+- Official reference observed: **151**
+- Access restricted/blocked with an attempted URL: **31**
+- Unresolved in this snapshot: **634**
+- Portal-root reuse kept at reference level rather than promoted to direct evidence
 - Restricted outcomes without an attempted URL downgraded to unresolved: **48**
-- Unique URLs represented in the dimension evidence register: **108**
+- Unique URLs represented in the dimension evidence register: **158**
 
-The underlying report recorded 171 direct, 57 reference, 80 restricted and 612 unresolved outcomes. The publication gate made 81 conservative adjustments: 33 direct-to-reference and 48 restricted-to-unresolved. The registry is exhaustive as a review-outcome matrix, not as a claim that every university feature was publicly verifiable. `unresolved` means the audit did not resolve sufficient public evidence; it never means absent or zero. Restricted access counts as review completion, not as Evidence coverage.
+The merged review records 104 direct, 151 reference, 79 restricted and 586 unresolved outcomes. The publication gate makes 48 restricted-to-unresolved adjustments where no attempted official URL is publishable. The importer normalizes URL variants and prevents portal-root reuse and unproven IT dependency from becoming direct evidence. The registry is exhaustive as a review-outcome matrix, not as a claim that every university feature was publicly verifiable. `unresolved` means the audit did not resolve sufficient public evidence; it never means absent or zero. Restricted access counts as review completion, not as Evidence coverage.
 
 ## Portal and structured catalogs
 
 - Portal-resolution outcomes: **115/115**
-- Direct official portal/surface: **21**
-- Deep-audited and RTPMI-ranked: **18**
+- Fresh two-pass portal/document re-audit: **115/115**
+- Direct official portal/surface: **52**
+- Deep-audited and RTPMI-ranked: **19**
 - Units/subunits: **154**
 - Systems/services: **92**
-- Documents/forms/regulations: **34**
-- Provenance rows: **362**
+- Documents/forms/regulations/indexes: **60**
+- Provenance rows: **462**
 - Audit Packets: **115**
 - Synthetic scores: **0**
 

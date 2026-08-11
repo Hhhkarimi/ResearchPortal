@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 61,
@@ -12,11 +12,13 @@
     "nameFa": "دانشگاه جیرفت",
     "iscCategory": "جامع",
     "iscRank": 61,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
-    "evidenceUrls": [],
-    "note": "سرنخ عمومی/ثانویه از فعالیت پژوهش و فناوری مشاهده شد؛ تا جایگزینی با منبع رسمی مستقیم، Fact سازمانی یا رتبه منتشر نمی‌شود.",
+    "evidenceUrls": [
+      "https://research.ujiroft.ac.ir/_Pages/Departments/Default.aspx"
+    ],
+    "note": "بازممیزی پرتال و اسناد در ۲۰ مرداد ۱۴۰۵ انجام شد. بازممیزی پرتال و اسناد در ۲۰ مرداد ۱۴۰۵ انجام شد. بازممیزی پرتال و اسناد در ۲۰ مرداد ۱۴۰۵ انجام شد. بازممیزی پرتال و اسناد در ۲۰ مرداد ۱۴۰۵ انجام شد. بازممیزی پرتال و اسناد در ۲۰ مرداد ۱۴۰۵ انجام شد. سرنخ عمومی/ثانویه از فعالیت پژوهش و فناوری مشاهده شد؛ تا جایگزینی با منبع رسمی مستقیم، Fact سازمانی یا رتبه منتشر نمی‌شود.",
     "scoreEligibility": "unranked"
   },
   "deepAudit": {
@@ -24,10 +26,12 @@
     "nameFa": "دانشگاه جیرفت",
     "iscCategory": "جامع",
     "iscRank": 61,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "secondary-reference",
     "researchUrl": null,
-    "evidenceUrls": [],
+    "evidenceUrls": [
+      "https://research.ujiroft.ac.ir/_Pages/Departments/Default.aspx"
+    ],
     "deepAuditStatus": "portal-resolution-pending",
     "dimensions": {
       "portalIdentity": "unresolved",
@@ -57,9 +61,16 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ujiroft.ac.ir/_Pages/Departments/Default.aspx",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        }
+      ],
       "publicationAdjustment": null,
       "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -74,7 +85,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -91,7 +102,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -108,7 +119,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -125,7 +136,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -142,7 +153,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -156,14 +167,21 @@
       "iscCategory": "جامع",
       "iscRank": 61,
       "dimension": "systemsServices",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ujiroft.ac.ir/_Pages/Departments/Default.aspx",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        }
+      ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -176,7 +194,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,

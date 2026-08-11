@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 37,
@@ -12,15 +12,18 @@
     "nameFa": "دانشگاه مراغه",
     "iscCategory": "جامع",
     "iscRank": 37,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-domain-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://rtm.maragheh.ac.ir/",
     "evidenceUrls": [
       "https://www.maragheh.ac.ir/fa/article/3289452",
       "https://www.maragheh.ac.ir/fa/article/3224206",
-      "https://rtm.maragheh.ac.ir/postdoc"
+      "https://rtm.maragheh.ac.ir/postdoc",
+      "https://rtm.maragheh.ac.ir/",
+      "https://res.maragheh.ac.ir/_Pages/Regulations/Default.aspx",
+      "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9750ea80-7c7d-4917-ba1b-eb366b50d22f&FileName=Saramadan-researchers+%D9%8D+Editted+Aban+1404.pdf"
     ],
-    "note": "در ممیزی سیستماتیک شواهدی از حوزه پژوهش/فناوری یافت شد، اما برای ادعای ساختار کامل یا رتبه عددی هنوز Evidence مستقیم کافی نیست.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked",
     "observedSignals": [
       "research",
@@ -33,29 +36,32 @@
     "nameFa": "دانشگاه مراغه",
     "iscCategory": "جامع",
     "iscRank": 37,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-domain-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://rtm.maragheh.ac.ir/",
     "evidenceUrls": [
       "https://www.maragheh.ac.ir/fa/article/3289452",
       "https://www.maragheh.ac.ir/fa/article/3224206",
-      "https://rtm.maragheh.ac.ir/postdoc"
+      "https://rtm.maragheh.ac.ir/postdoc",
+      "https://rtm.maragheh.ac.ir/",
+      "https://res.maragheh.ac.ir/_Pages/Regulations/Default.aspx",
+      "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9750ea80-7c7d-4917-ba1b-eb366b50d22f&FileName=Saramadan-researchers+%D9%8D+Editted+Aban+1404.pdf"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
       "systemsServices": "observed-reference",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 25,
+    "auditEvidenceCoverage": 44,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 2,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -67,12 +73,18 @@
       "iscCategory": "جامع",
       "iscRank": 37,
       "dimension": "portalIdentity",
-      "status": "observed-reference",
-      "reportedStatus": "observed-reference",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 3,
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 6,
       "sources": [
+        {
+          "url": "https://rtm.maragheh.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        },
         {
           "url": "https://www.maragheh.ac.ir/fa/article/3289452",
           "kind": "portal-identity",
@@ -90,10 +102,22 @@
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/Regulations/Default.aspx",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9750ea80-7c7d-4917-ba1b-eb366b50d22f&FileName=Saramadan-researchers+%D9%8D+Editted+Aban+1404.pdf",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -106,7 +130,7 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -123,7 +147,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -140,7 +164,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -157,9 +181,17 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://rtm.maragheh.ac.ir/",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش و فناوری 1",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش و فناوری 1"
+        }
+      ],
       "publicationAdjustment": null,
       "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -174,7 +206,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -191,9 +223,17 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9750ea80-7c7d-4917-ba1b-eb366b50d22f&FileName=Saramadan-researchers+%D9%8D+Editted+Aban+1404.pdf",
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه سرآمدان پژوهشی - سامانه پژوهشی ژیرو - دانشگاه مراغه",
+          "id": null,
+          "sourceLabel": "شیوه نامه سرآمدان پژوهشی - سامانه پژوهشی ژیرو - دانشگاه مراغه"
+        }
+      ],
       "publicationAdjustment": null,
       "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -205,21 +245,61 @@
       "iscCategory": "جامع",
       "iscRank": 37,
       "dimension": "documentsRegulations",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/Regulations/Default.aspx",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9750ea80-7c7d-4917-ba1b-eb366b50d22f&FileName=Saramadan-researchers+%D9%8D+Editted+Aban+1404.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه سرآمدان پژوهشی - سامانه پژوهشی ژیرو - دانشگاه مراغه",
+          "id": null
+        }
+      ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
   "ranking": null,
   "units": [],
   "systems": [],
-  "documents": [],
+  "documents": [
+    {
+      "id": "maragheh-reaudit-doc-1",
+      "universitySlug": "maragheh",
+      "title": "فهرست فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها",
+      "type": "فهرست اسناد",
+      "topic": "سایر",
+      "taxonomy": null,
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://res.maragheh.ac.ir/_Pages/Regulations/Default.aspx",
+      "sourceUrl": "https://res.maragheh.ac.ir/_Pages/Regulations/Default.aspx"
+    },
+    {
+      "id": "maragheh-reaudit-doc-2",
+      "universitySlug": "maragheh",
+      "title": "شیوه نامه سرآمدان پژوهشی - سامانه پژوهشی ژیرو - دانشگاه مراغه",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "سایر",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9750ea80-7c7d-4917-ba1b-eb366b50d22f&FileName=Saramadan-researchers+%D9%8D+Editted+Aban+1404.pdf",
+      "sourceUrl": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9750ea80-7c7d-4917-ba1b-eb366b50d22f&FileName=Saramadan-researchers+%D9%8D+Editted+Aban+1404.pdf"
+    }
+  ],
   "interpretation": {
     "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
     "rtpmi": "Portal maturity/transparency only; not research performance.",

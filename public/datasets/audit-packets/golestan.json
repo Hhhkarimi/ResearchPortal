@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 42,
@@ -12,13 +12,15 @@
     "nameFa": "دانشگاه گلستان",
     "iscCategory": "جامع",
     "iscRank": 42,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-channel-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://gu.ac.ir/research/",
     "evidenceUrls": [
-      "https://t.me/s/Guresearch"
+      "https://t.me/s/Guresearch",
+      "https://gu.ac.ir/research/",
+      "https://gu.ac.ir/file/93866315-04dc-ec11-9ed6-005056998f1e/14010228%20final%20bartar%20policy.pdf"
     ],
-    "note": "در ممیزی سیستماتیک شواهدی از حوزه پژوهش/فناوری یافت شد، اما برای ادعای ساختار کامل یا رتبه عددی هنوز Evidence مستقیم کافی نیست.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked",
     "observedSignals": [
       "research"
@@ -29,27 +31,29 @@
     "nameFa": "دانشگاه گلستان",
     "iscCategory": "جامع",
     "iscRank": 42,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-channel-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://gu.ac.ir/research/",
     "evidenceUrls": [
-      "https://t.me/s/Guresearch"
+      "https://t.me/s/Guresearch",
+      "https://gu.ac.ir/research/",
+      "https://gu.ac.ir/file/93866315-04dc-ec11-9ed6-005056998f1e/14010228%20final%20bartar%20policy.pdf"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 13,
+    "auditEvidenceCoverage": 31,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -61,21 +65,33 @@
       "iscCategory": "جامع",
       "iscRank": 42,
       "dimension": "portalIdentity",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 1,
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 3,
       "sources": [
         {
+          "url": "https://gu.ac.ir/research/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        },
+        {
           "url": "https://t.me/s/Guresearch",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://gu.ac.ir/file/93866315-04dc-ec11-9ed6-005056998f1e/14010228%20final%20bartar%20policy.pdf",
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -88,7 +104,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -105,7 +121,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -122,7 +138,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -139,9 +155,17 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://gu.ac.ir/research/",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش و فناوری 1",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش و فناوری 1"
+        }
+      ],
       "publicationAdjustment": null,
       "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -156,7 +180,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -173,7 +197,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -187,21 +211,42 @@
       "iscCategory": "جامع",
       "iscRank": 42,
       "dimension": "documentsRegulations",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://gu.ac.ir/file/93866315-04dc-ec11-9ed6-005056998f1e/14010228%20final%20bartar%20policy.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "« » گلستان دانشگاه علمی ت أهی اعضای برتر کتاب انتخاب ...",
+          "id": null
+        }
+      ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
   "ranking": null,
   "units": [],
   "systems": [],
-  "documents": [],
+  "documents": [
+    {
+      "id": "golestan-reaudit-doc-1",
+      "universitySlug": "golestan",
+      "title": "« » گلستان دانشگاه علمی ت أهی اعضای برتر کتاب انتخاب ...",
+      "type": "سند",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "publications/journals",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://gu.ac.ir/file/93866315-04dc-ec11-9ed6-005056998f1e/14010228%20final%20bartar%20policy.pdf",
+      "sourceUrl": "https://gu.ac.ir/file/93866315-04dc-ec11-9ed6-005056998f1e/14010228%20final%20bartar%20policy.pdf"
+    }
+  ],
   "interpretation": {
     "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
     "rtpmi": "Portal maturity/transparency only; not research performance.",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "صنعتی",
     "iscRank": 4,
@@ -12,13 +12,14 @@
     "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
     "iscCategory": "صنعتی",
     "iscRank": 4,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.kntu.ac.ir/",
     "evidenceUrls": [
-      "https://research.kntu.ac.ir/"
+      "https://research.kntu.ac.ir/",
+      "https://kntu.ac.ir/dorsapax/userfiles/file/Pajohesh/karnameh1392.pdf"
     ],
-    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "eligible"
   },
   "deepAudit": {
@@ -26,11 +27,12 @@
     "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
     "iscCategory": "صنعتی",
     "iscRank": 4,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.kntu.ac.ir/",
     "evidenceUrls": [
-      "https://research.kntu.ac.ir/"
+      "https://research.kntu.ac.ir/",
+      "https://kntu.ac.ir/dorsapax/userfiles/file/Pajohesh/karnameh1392.pdf"
     ],
     "deepAuditStatus": "deep-audited",
     "dimensions": {
@@ -41,12 +43,12 @@
       "industryTechnology": "verified",
       "informationTechnology": "unresolved",
       "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 75,
+    "auditEvidenceCoverage": 88,
     "unitsFound": 7,
     "systemsFound": 6,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -61,13 +63,19 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 1,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 2,
       "sources": [
         {
           "url": "https://research.kntu.ac.ir/",
           "kind": "portal-identity",
           "claim": "official research/technology portal identity",
+          "id": null
+        },
+        {
+          "url": "https://kntu.ac.ir/dorsapax/userfiles/file/Pajohesh/karnameh1392.pdf",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         }
       ],
@@ -82,24 +90,21 @@
       "iscCategory": "صنعتی",
       "iscRank": 4,
       "dimension": "organization",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.kntu.ac.ir/",
-          "kind": "unit",
-          "claim": "امور توسعه پژوهش",
-          "id": "kntu-1",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -109,24 +114,21 @@
       "iscCategory": "صنعتی",
       "iscRank": 4,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.kntu.ac.ir/",
-          "kind": "unit",
-          "claim": "انتشارات",
-          "id": "kntu-3",
-          "unitType": "publishing",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -136,24 +138,21 @@
       "iscCategory": "صنعتی",
       "iscRank": 4,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.kntu.ac.ir/",
-          "kind": "unit",
-          "claim": "آزمایشگاه‌های پژوهشی",
-          "id": "kntu-6",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -163,24 +162,21 @@
       "iscCategory": "صنعتی",
       "iscRank": 4,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.kntu.ac.ir/",
-          "kind": "unit",
-          "claim": "ارتباط با صنعت و کارآفرینی",
-          "id": "kntu-2",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -193,7 +189,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -207,22 +203,21 @@
       "iscCategory": "صنعتی",
       "iscRank": 4,
       "dimension": "systemsServices",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.kntu.ac.ir/",
-          "kind": "system",
-          "claim": "سیستم پژوهشی گلستان",
-          "id": "kntu-sys-1",
-          "systemCategory": "research"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -232,14 +227,21 @@
       "iscCategory": "صنعتی",
       "iscRank": 4,
       "dimension": "documentsRegulations",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://kntu.ac.ir/dorsapax/userfiles/file/Pajohesh/karnameh1392.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "کارنامه پژوهشی دانشگاه",
+          "id": null
+        }
+      ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
@@ -248,28 +250,28 @@
     "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
     "iscCategory": "صنعتی",
     "iscRank": 4,
-    "score": 74.2,
-    "confidence": 82,
+    "score": 68.1,
+    "confidence": 91.4,
     "metrics": {
-      "documents": null,
+      "documents": 37.8,
       "organization": 100,
       "library": 70,
       "laboratories": 100,
       "digital": 55,
       "industryTech": 45,
       "dataQuality": 100,
-      "findability": 43.8
+      "findability": 55
     },
     "units": 7,
     "systems": 6,
-    "documents": 0,
-    "activeWeight": 80,
-    "evidenceCoverage": 75,
+    "documents": 1,
+    "activeWeight": 100,
+    "evidenceCoverage": 88,
     "methodologyVersion": "RTPMI-4.1-ISC",
-    "snapshotDate": "2026-08-10",
-    "rank": 10,
-    "portalRankWithinISCClass": 2,
-    "rankedPortalsInISCClass": 5
+    "snapshotDate": "2026-08-11",
+    "rank": 18,
+    "portalRankWithinISCClass": 6,
+    "rankedPortalsInISCClass": 6
   },
   "units": [
     {
@@ -392,7 +394,21 @@
       "sourceUrl": "https://research.kntu.ac.ir/"
     }
   ],
-  "documents": [],
+  "documents": [
+    {
+      "id": "kntu-reaudit-doc-1",
+      "universitySlug": "kntu",
+      "title": "کارنامه پژوهشی دانشگاه",
+      "type": "سند",
+      "topic": "سایر",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://kntu.ac.ir/dorsapax/userfiles/file/Pajohesh/karnameh1392.pdf",
+      "sourceUrl": "https://kntu.ac.ir/dorsapax/userfiles/file/Pajohesh/karnameh1392.pdf"
+    }
+  ],
   "interpretation": {
     "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
     "rtpmi": "Portal maturity/transparency only; not research performance.",

@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 26,
@@ -12,13 +12,14 @@
     "nameFa": "دانشگاه مازندران",
     "iscCategory": "جامع",
     "iscRank": 26,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-channel-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.umz.ac.ir/",
     "evidenceUrls": [
-      "https://umz.ac.ir/"
+      "https://umz.ac.ir/",
+      "https://research.umz.ac.ir/"
     ],
-    "note": "در ممیزی سیستماتیک شواهدی از حوزه پژوهش/فناوری یافت شد، اما برای ادعای ساختار کامل یا رتبه عددی هنوز Evidence مستقیم کافی نیست.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked",
     "observedSignals": [
       "research"
@@ -29,15 +30,16 @@
     "nameFa": "دانشگاه مازندران",
     "iscCategory": "جامع",
     "iscRank": 26,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-channel-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://research.umz.ac.ir/",
     "evidenceUrls": [
-      "https://umz.ac.ir/"
+      "https://umz.ac.ir/",
+      "https://research.umz.ac.ir/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -46,7 +48,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 13,
+    "auditEvidenceCoverage": 19,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -64,21 +66,20 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 2,
       "sources": [
+        {
+          "url": "https://research.umz.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        },
         {
           "url": "https://umz.ac.ir/",
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
-        },
-        {
-          "url": "https://research.umz.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱"
         }
       ],
       "publicationAdjustment": null,
@@ -92,23 +93,14 @@
       "iscCategory": "جامع",
       "iscRank": 26,
       "dimension": "organization",
-      "status": "observed-reference",
-      "reportedStatus": "verified",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://research.umz.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱",
-          "sourceSpecificity": "university-reference"
-        }
-      ],
-      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
-      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -118,23 +110,14 @@
       "iscCategory": "جامع",
       "iscRank": 26,
       "dimension": "libraryDocuments",
-      "status": "observed-reference",
-      "reportedStatus": "verified",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://research.umz.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱",
-          "sourceSpecificity": "university-reference"
-        }
-      ],
-      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
-      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -144,23 +127,14 @@
       "iscCategory": "جامع",
       "iscRank": 26,
       "dimension": "laboratories",
-      "status": "observed-reference",
-      "reportedStatus": "verified",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://research.umz.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱",
-          "sourceSpecificity": "university-reference"
-        }
-      ],
-      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
-      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -170,23 +144,14 @@
       "iscCategory": "جامع",
       "iscRank": 26,
       "dimension": "industryTechnology",
-      "status": "observed-reference",
-      "reportedStatus": "verified",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://research.umz.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱",
-          "sourceSpecificity": "university-reference"
-        }
-      ],
-      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
-      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -199,7 +164,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -216,7 +181,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -233,7 +198,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,

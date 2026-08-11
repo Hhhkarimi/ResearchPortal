@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "هنر",
     "iscRank": 1,
@@ -12,13 +12,13 @@
     "nameFa": "دانشگاه هنر ایران",
     "iscCategory": "هنر",
     "iscRank": 1,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.art.ac.ir/fa",
     "evidenceUrls": [
       "https://research.art.ac.ir/fa"
     ],
-    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "eligible"
   },
   "deepAudit": {
@@ -26,7 +26,7 @@
     "nameFa": "دانشگاه هنر ایران",
     "iscCategory": "هنر",
     "iscRank": 1,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.art.ac.ir/fa",
     "evidenceUrls": [
@@ -61,7 +61,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
@@ -82,24 +82,21 @@
       "iscCategory": "هنر",
       "iscRank": 1,
       "dimension": "organization",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.art.ac.ir/fa",
-          "kind": "unit",
-          "claim": "مدیریت امور پژوهشی",
-          "id": "iran-art-1",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -109,24 +106,21 @@
       "iscCategory": "هنر",
       "iscRank": 1,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.art.ac.ir/fa",
-          "kind": "unit",
-          "claim": "انتشارات",
-          "id": "iran-art-4",
-          "unitType": "publishing",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -136,24 +130,21 @@
       "iscCategory": "هنر",
       "iscRank": 1,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.art.ac.ir/fa",
-          "kind": "unit",
-          "claim": "آزمایشگاه مرکزی",
-          "id": "iran-art-3",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -163,24 +154,21 @@
       "iscCategory": "هنر",
       "iscRank": 1,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.art.ac.ir/fa",
-          "kind": "unit",
-          "claim": "همکاری‌های علمی و هنری با جامعه",
-          "id": "iran-art-2",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -191,23 +179,20 @@
       "iscRank": 1,
       "dimension": "informationTechnology",
       "status": "observed-reference",
-      "reportedStatus": "verified",
+      "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.art.ac.ir/fa",
-          "kind": "unit",
-          "claim": "فناوری اطلاعات، امنیت و هوشمندسازی",
-          "id": "iran-art-6",
-          "unitType": "it",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific informationTechnology source",
+          "id": null
         }
       ],
-      "publicationAdjustment": "Downgraded until a source proving organizational IT dependency is registered.",
-      "verificationBasis": "Downgraded until a source proving organizational IT dependency is registered.",
+      "publicationAdjustment": null,
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -217,22 +202,21 @@
       "iscCategory": "هنر",
       "iscRank": 1,
       "dimension": "systemsServices",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.art.ac.ir/fa",
-          "kind": "system",
-          "claim": "خدمات IT و هوشمندسازی",
-          "id": "iran-art-sys-1",
-          "systemCategory": "it"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -242,10 +226,10 @@
       "iscCategory": "هنر",
       "iscRank": 1,
       "dimension": "documentsRegulations",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
@@ -256,7 +240,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
@@ -265,17 +249,17 @@
     "nameFa": "دانشگاه هنر ایران",
     "iscCategory": "هنر",
     "iscRank": 1,
-    "score": 75.7,
+    "score": 82.7,
     "confidence": 100,
     "metrics": {
-      "documents": 58.5,
+      "documents": 83.5,
       "organization": 90.8,
       "library": 100,
       "laboratories": 100,
       "digital": 75,
       "industryTech": 55,
       "dataQuality": 100,
-      "findability": 35
+      "findability": 55
     },
     "units": 6,
     "systems": 5,
@@ -283,8 +267,8 @@
     "activeWeight": 100,
     "evidenceCoverage": 100,
     "methodologyVersion": "RTPMI-4.1-ISC",
-    "snapshotDate": "2026-08-10",
-    "rank": 8,
+    "snapshotDate": "2026-08-11",
+    "rank": 5,
     "portalRankWithinISCClass": 1,
     "rankedPortalsInISCClass": 1
   },
@@ -400,7 +384,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
+      "sourceUrl": "https://research.art.ac.ir/fa",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "url": "https://research.art.ac.ir/fa"
     },
     {
       "id": "iran-art-doc-2",
@@ -410,7 +396,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
+      "sourceUrl": "https://research.art.ac.ir/fa",
+      "topic": "سایر",
+      "url": "https://research.art.ac.ir/fa"
     },
     {
       "id": "iran-art-doc-3",
@@ -420,7 +408,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
+      "sourceUrl": "https://research.art.ac.ir/fa",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "url": "https://research.art.ac.ir/fa"
     },
     {
       "id": "iran-art-doc-4",
@@ -430,7 +420,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
+      "sourceUrl": "https://research.art.ac.ir/fa",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "url": "https://research.art.ac.ir/fa"
     },
     {
       "id": "iran-art-doc-5",
@@ -440,7 +432,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
+      "sourceUrl": "https://research.art.ac.ir/fa",
+      "topic": "حمایت و گرنت",
+      "url": "https://research.art.ac.ir/fa"
     },
     {
       "id": "iran-art-doc-6",
@@ -450,7 +444,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
+      "sourceUrl": "https://research.art.ac.ir/fa",
+      "topic": "سایر",
+      "url": "https://research.art.ac.ir/fa"
     }
   ],
   "interpretation": {

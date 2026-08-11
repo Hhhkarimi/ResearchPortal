@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "دستگاه اجرایی",
     "iscRank": 6,
@@ -12,14 +12,15 @@
     "nameFa": "دانشگاه عالی دفاع ملی",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 6,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "restricted-official-reference",
     "researchUrl": null,
     "evidenceUrls": [
       "https://nezamat.ir/post-44967/",
-      "https://smsnds.sndu.ac.ir/"
+      "https://smsnds.sndu.ac.ir/",
+      "https://sndu.ac.ir/file/download/news/1610428363-.pdf"
     ],
-    "note": "عضویت ISC حفظ شده است؛ دسترسی عمومی به پرتال/ساختار پژوهش محدود است یا ساختار نهادی با دانشگاه‌های وزارت علوم متفاوت است. رتبه RTPMI منتشر نمی‌شود.",
+    "note": "بازممیزی پرتال و اسناد در ۲۰ مرداد ۱۴۰۵ انجام شد. بازممیزی پرتال و اسناد در ۲۰ مرداد ۱۴۰۵ انجام شد. بازممیزی پرتال و اسناد در ۲۰ مرداد ۱۴۰۵ انجام شد. بازممیزی پرتال و اسناد در ۲۰ مرداد ۱۴۰۵ انجام شد. بازممیزی پرتال و اسناد در ۲۰ مرداد ۱۴۰۵ انجام شد. عضویت ISC حفظ شده است؛ دسترسی عمومی به پرتال/ساختار پژوهش محدود است یا ساختار نهادی با دانشگاه‌های وزارت علوم متفاوت است. رتبه RTPMI منتشر نمی‌شود.",
     "scoreEligibility": "unranked",
     "observedSignals": [
       "research",
@@ -32,12 +33,13 @@
     "nameFa": "دانشگاه عالی دفاع ملی",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 6,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "restricted-official-reference",
     "researchUrl": null,
     "evidenceUrls": [
       "https://nezamat.ir/post-44967/",
-      "https://smsnds.sndu.ac.ir/"
+      "https://smsnds.sndu.ac.ir/",
+      "https://sndu.ac.ir/file/download/news/1610428363-.pdf"
     ],
     "deepAuditStatus": "restricted-closed",
     "dimensions": {
@@ -53,7 +55,7 @@
     "auditEvidenceCoverage": 100,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -68,8 +70,8 @@
       "status": "restricted",
       "reportedStatus": "restricted",
       "reviewOutcome": "access-restricted",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://nezamat.ir/post-44967/",
@@ -79,6 +81,12 @@
         },
         {
           "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://sndu.ac.ir/file/download/news/1610428363-.pdf",
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
@@ -98,8 +106,8 @@
       "status": "restricted",
       "reportedStatus": "restricted",
       "reviewOutcome": "access-restricted",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://nezamat.ir/post-44967/",
@@ -110,6 +118,13 @@
         },
         {
           "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://sndu.ac.ir/file/download/news/1610428363-.pdf",
           "kind": "restriction-reference",
           "claim": "Official or institutional URL recorded during the restricted access attempt",
           "id": null,
@@ -130,8 +145,8 @@
       "status": "restricted",
       "reportedStatus": "restricted",
       "reviewOutcome": "access-restricted",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://nezamat.ir/post-44967/",
@@ -142,6 +157,13 @@
         },
         {
           "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://sndu.ac.ir/file/download/news/1610428363-.pdf",
           "kind": "restriction-reference",
           "claim": "Official or institutional URL recorded during the restricted access attempt",
           "id": null,
@@ -162,8 +184,8 @@
       "status": "restricted",
       "reportedStatus": "restricted",
       "reviewOutcome": "access-restricted",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://nezamat.ir/post-44967/",
@@ -174,6 +196,13 @@
         },
         {
           "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://sndu.ac.ir/file/download/news/1610428363-.pdf",
           "kind": "restriction-reference",
           "claim": "Official or institutional URL recorded during the restricted access attempt",
           "id": null,
@@ -194,8 +223,8 @@
       "status": "restricted",
       "reportedStatus": "restricted",
       "reviewOutcome": "access-restricted",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://nezamat.ir/post-44967/",
@@ -206,6 +235,13 @@
         },
         {
           "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://sndu.ac.ir/file/download/news/1610428363-.pdf",
           "kind": "restriction-reference",
           "claim": "Official or institutional URL recorded during the restricted access attempt",
           "id": null,
@@ -226,8 +262,8 @@
       "status": "restricted",
       "reportedStatus": "restricted",
       "reviewOutcome": "access-restricted",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://nezamat.ir/post-44967/",
@@ -238,6 +274,13 @@
         },
         {
           "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://sndu.ac.ir/file/download/news/1610428363-.pdf",
           "kind": "restriction-reference",
           "claim": "Official or institutional URL recorded during the restricted access attempt",
           "id": null,
@@ -258,8 +301,8 @@
       "status": "restricted",
       "reportedStatus": "restricted",
       "reviewOutcome": "access-restricted",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://nezamat.ir/post-44967/",
@@ -270,6 +313,13 @@
         },
         {
           "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://sndu.ac.ir/file/download/news/1610428363-.pdf",
           "kind": "restriction-reference",
           "claim": "Official or institutional URL recorded during the restricted access attempt",
           "id": null,
@@ -287,36 +337,42 @@
       "iscCategory": "دستگاه اجرایی",
       "iscRank": 6,
       "dimension": "documentsRegulations",
-      "status": "restricted",
-      "reportedStatus": "restricted",
-      "reviewOutcome": "access-restricted",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
       "sources": [
         {
-          "url": "https://nezamat.ir/post-44967/",
-          "kind": "restriction-reference",
-          "claim": "Official or institutional URL recorded during the restricted access attempt",
-          "id": null,
-          "sourceSpecificity": "institution-access"
-        },
-        {
-          "url": "https://smsnds.sndu.ac.ir/",
-          "kind": "restriction-reference",
-          "claim": "Official or institutional URL recorded during the restricted access attempt",
-          "id": null,
-          "sourceSpecificity": "institution-access"
+          "url": "https://sndu.ac.ir/file/download/news/1610428363-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل آزمون ورودی دوره دکتری تخصصی",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
   "ranking": null,
   "units": [],
   "systems": [],
-  "documents": [],
+  "documents": [
+    {
+      "id": "national-defense-reaudit-doc-1",
+      "universitySlug": "national-defense",
+      "title": "دستورالعمل آزمون ورودی دوره دکتری تخصصی",
+      "type": "دستورالعمل",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://sndu.ac.ir/file/download/news/1610428363-.pdf",
+      "sourceUrl": "https://sndu.ac.ir/file/download/news/1610428363-.pdf"
+    }
+  ],
   "interpretation": {
     "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
     "rtpmi": "Portal maturity/transparency only; not research performance.",

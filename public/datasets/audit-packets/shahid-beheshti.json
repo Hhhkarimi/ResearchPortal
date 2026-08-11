@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 4,
@@ -12,13 +12,16 @@
     "nameFa": "دانشگاه شهید بهشتی",
     "iscCategory": "جامع",
     "iscRank": 4,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://resevp.sbu.ac.ir/",
     "evidenceUrls": [
-      "https://sbu.ac.ir/"
+      "https://sbu.ac.ir/",
+      "https://resevp.sbu.ac.ir/",
+      "https://press.sbu.ac.ir/",
+      "https://scj.sbu.ac.ir/"
     ],
-    "note": "کانال/خبر رسمی دانشگاه، هویت معاونت پژوهش و فناوری را تأیید می‌کند.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked"
   },
   "deepAudit": {
@@ -26,15 +29,18 @@
     "nameFa": "دانشگاه شهید بهشتی",
     "iscCategory": "جامع",
     "iscRank": 4,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://resevp.sbu.ac.ir/",
     "evidenceUrls": [
-      "https://sbu.ac.ir/"
+      "https://sbu.ac.ir/",
+      "https://resevp.sbu.ac.ir/",
+      "https://press.sbu.ac.ir/",
+      "https://scj.sbu.ac.ir/"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -43,7 +49,7 @@
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 6,
+    "auditEvidenceCoverage": 13,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -61,9 +67,15 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 4,
       "sources": [
+        {
+          "url": "https://resevp.sbu.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        },
         {
           "url": "https://sbu.ac.ir/",
           "kind": "portal-identity",
@@ -71,11 +83,16 @@
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱"
+          "url": "https://press.sbu.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://scj.sbu.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -92,9 +109,16 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 0,
-      "sources": [],
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://resevp.sbu.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
+        }
+      ],
       "publicationAdjustment": null,
       "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -106,18 +130,17 @@
       "iscCategory": "جامع",
       "iscRank": 4,
       "dimension": "libraryDocuments",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 2,
       "sources": [
         {
           "url": "https://press.sbu.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "مرکز نشر ۲",
-          "id": null,
-          "sourceLabel": "مرکز نشر ۲"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
         },
         {
           "url": "https://scj.sbu.ac.ir/",
@@ -128,7 +151,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -141,7 +164,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -158,7 +181,7 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -175,7 +198,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -192,15 +215,14 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://scj.sbu.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "سامانه نشریات ۳",
-          "id": null,
-          "sourceLabel": "سامانه نشریات ۳"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -217,7 +239,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,

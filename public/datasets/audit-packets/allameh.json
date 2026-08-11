@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 11,
@@ -12,13 +12,13 @@
     "nameFa": "دانشگاه علامه طباطبایی",
     "iscCategory": "جامع",
     "iscRank": 11,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.atu.ac.ir/fa",
     "evidenceUrls": [
       "https://research.atu.ac.ir/fa"
     ],
-    "note": "هویت پرتال/سطح پژوهش با Evidence مستقیم ثبت شده است.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "eligible"
   },
   "deepAudit": {
@@ -26,7 +26,7 @@
     "nameFa": "دانشگاه علامه طباطبایی",
     "iscCategory": "جامع",
     "iscRank": 11,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.atu.ac.ir/fa",
     "evidenceUrls": [
@@ -61,7 +61,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
@@ -82,24 +82,21 @@
       "iscCategory": "جامع",
       "iscRank": 11,
       "dimension": "organization",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.atu.ac.ir/fa",
-          "kind": "unit",
-          "claim": "مدیریت امور پژوهشی",
-          "id": "allameh-1",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -109,24 +106,21 @@
       "iscCategory": "جامع",
       "iscRank": 11,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.atu.ac.ir/fa",
-          "kind": "unit",
-          "claim": "کتابخانه دیجیتال",
-          "id": "allameh-4",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -139,7 +133,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -153,24 +147,21 @@
       "iscCategory": "جامع",
       "iscRank": 11,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.atu.ac.ir/fa",
-          "kind": "unit",
-          "claim": "مرکز ارتباط با جامعه و صنعت",
-          "id": "allameh-2",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -183,7 +174,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -197,22 +188,21 @@
       "iscCategory": "جامع",
       "iscRank": 11,
       "dimension": "systemsServices",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.atu.ac.ir/fa",
-          "kind": "system",
-          "claim": "سامانه اخلاق در پژوهش",
-          "id": "allameh-sys-1",
-          "systemCategory": "research"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -222,10 +212,10 @@
       "iscCategory": "جامع",
       "iscRank": 11,
       "dimension": "documentsRegulations",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
@@ -236,7 +226,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
@@ -245,17 +235,17 @@
     "nameFa": "دانشگاه علامه طباطبایی",
     "iscCategory": "جامع",
     "iscRank": 11,
-    "score": 64,
+    "score": 71.9,
     "confidence": 82,
     "metrics": {
-      "documents": 57,
+      "documents": 82,
       "organization": 81.7,
       "library": 100,
       "laboratories": null,
       "digital": 35,
       "industryTech": 45,
       "dataQuality": 100,
-      "findability": 35
+      "findability": 55
     },
     "units": 4,
     "systems": 2,
@@ -263,9 +253,9 @@
     "activeWeight": 88,
     "evidenceCoverage": 75,
     "methodologyVersion": "RTPMI-4.1-ISC",
-    "snapshotDate": "2026-08-10",
-    "rank": 17,
-    "portalRankWithinISCClass": 11,
+    "snapshotDate": "2026-08-11",
+    "rank": 13,
+    "portalRankWithinISCClass": 8,
     "rankedPortalsInISCClass": 11
   },
   "units": [
@@ -335,7 +325,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.atu.ac.ir/fa"
+      "sourceUrl": "https://research.atu.ac.ir/fa",
+      "topic": "سایر",
+      "url": "https://research.atu.ac.ir/fa"
     },
     {
       "id": "allameh-doc-2",
@@ -345,7 +337,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.atu.ac.ir/fa"
+      "sourceUrl": "https://research.atu.ac.ir/fa",
+      "topic": "سایر",
+      "url": "https://research.atu.ac.ir/fa"
     },
     {
       "id": "allameh-doc-3",
@@ -355,7 +349,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.atu.ac.ir/fa"
+      "sourceUrl": "https://research.atu.ac.ir/fa",
+      "topic": "سایر",
+      "url": "https://research.atu.ac.ir/fa"
     },
     {
       "id": "allameh-doc-4",
@@ -365,7 +361,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.atu.ac.ir/fa"
+      "sourceUrl": "https://research.atu.ac.ir/fa",
+      "topic": "سایر",
+      "url": "https://research.atu.ac.ir/fa"
     },
     {
       "id": "allameh-doc-5",
@@ -375,7 +373,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.atu.ac.ir/fa"
+      "sourceUrl": "https://research.atu.ac.ir/fa",
+      "topic": "حمایت و گرنت",
+      "url": "https://research.atu.ac.ir/fa"
     },
     {
       "id": "allameh-doc-6",
@@ -385,7 +385,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.atu.ac.ir/fa"
+      "sourceUrl": "https://research.atu.ac.ir/fa",
+      "topic": "سایر",
+      "url": "https://research.atu.ac.ir/fa"
     },
     {
       "id": "allameh-doc-7",
@@ -395,7 +397,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.atu.ac.ir/fa"
+      "sourceUrl": "https://research.atu.ac.ir/fa",
+      "topic": "حمایت و گرنت",
+      "url": "https://research.atu.ac.ir/fa"
     },
     {
       "id": "allameh-doc-8",
@@ -405,7 +409,9 @@
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.atu.ac.ir/fa"
+      "sourceUrl": "https://research.atu.ac.ir/fa",
+      "topic": "سایر",
+      "url": "https://research.atu.ac.ir/fa"
     }
   ],
   "interpretation": {

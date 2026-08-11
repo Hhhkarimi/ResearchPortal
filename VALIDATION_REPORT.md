@@ -1,6 +1,6 @@
-# Validation Report — v9.0.0 Evidence 115
+# Validation Report — v10.0.0 Portal & Document Re-audit 115
 
-Snapshot: 2026-08-10
+Snapshot: 2026-08-11
 
 ## Data integrity — PASSED
 
@@ -8,9 +8,10 @@ Snapshot: 2026-08-10
 - Category lock: **69 / 24 / 4 / 4 / 4 / 10**
 - Research reviews: **115/115**
 - Dimension evidence outcomes: **920/920**
-- Published evidence status counts: **138 verified / 90 observed-reference / 32 restricted / 660 unresolved**
-- Research-report outcomes adjusted by the publication gate: **81**
-- Direct-to-reference adjustments: **33**; restricted-without-URL to unresolved: **48**
+- Published evidence status counts: **104 verified / 151 observed-reference / 31 restricted / 634 unresolved**
+- Research-report outcomes adjusted by the publication gate: **48**
+- Portal-root reuse—including normalized URL variants—or IT without organizational proof promoted to verified: **0**
+- Restricted-without-URL to unresolved adjustments: **48**
 - Every institution has exactly eight unique dimension outcomes: **PASSED**
 - Verified outcome without a source URL: **0**
 - Verified IT outcome without an organizational-relation source: **0**
@@ -19,16 +20,17 @@ Snapshot: 2026-08-10
 - Portal-resolution outcomes: **115/115**
 - Deep Audit Matrix: **115/115**
 - Per-institution Audit Packets: **115/115**
-- RTPMI-ranked: **18**; unranked without synthetic score: **97**
+- Portal/document re-audit rows: **115/115**; Bojnord correction: **PASSED**
+- RTPMI-ranked: **19**; unranked without synthetic score: **96**
 
 ## Structured evidence — PASSED
 
 - Units/subunits: **154**
 - Systems/services: **92**
-- Documents/forms/regulations: **34**
-- Provenance records: **362**
-- Dimension evidence source references: **323**
-- Unique URLs represented in the dimension registry: **108**
+- Documents/forms/regulations/indexes: **60**
+- Provenance records: **462**
+- Dimension evidence source references: **411**
+- Unique URLs represented in the dimension registry: **158**
 - JSON/CSV dataset exports: **9**
 
 ## Product surface — PASSED

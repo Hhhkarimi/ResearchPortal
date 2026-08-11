@@ -1,5 +1,15 @@
 # Changelog
 
+## 10.0.0 — Portal & Document Re-audit 115
+
+- Re-ran portal discovery for all 115 ISC institutions and document-specific discovery for every institution, prioritizing official university domains.
+- Corrected the University of Bojnord Research & Technology Vice-Presidency portal to `https://vr.ub.ac.ir/`.
+- Added a machine-readable 115-row portal/document re-audit registry and a deterministic importer into audit, evidence, document, Open Data and per-university packet outputs.
+- Classified document records by form/regulation/guideline type and by research ethics, grants, publications, laboratory, industry/technology/IP, postgraduate/research affairs and other topics.
+- Added self-hosted Vazirmatn Variable across the complete UI, a persistent system-aware light/dark theme and expanded university/document sorting.
+- Preserved publication safeguards: a portal root proves portal identity only; every other dimension still requires its own official source.
+- Kept the release ready for GitHub Codespaces, CI and Vercel without a required database or secret.
+
 ## 9.0.0 — Evidence 115 & Visual Stories
 
 - Added a reproducible 115-institution research review and a complete 920-outcome dimension evidence registry.

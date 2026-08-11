@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "دستگاه اجرایی",
     "iscRank": 2,
@@ -12,14 +12,15 @@
     "nameFa": "دانشگاه شاهد",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 2,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://res.shahed.ac.ir",
     "evidenceUrls": [
       "https://res.shahed.ac.ir",
-      "https://res.shahed.ac.ir/"
+      "https://res.shahed.ac.ir/",
+      "https://library.shahed.ac.ir/"
     ],
-    "note": "پرتال مستقیم پژوهش دانشگاه شاهد شناسایی شده است.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "eligible",
     "observedSignals": [
       "research",
@@ -35,12 +36,13 @@
     "nameFa": "دانشگاه شاهد",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 2,
-    "auditDate": "2026-08-10",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://res.shahed.ac.ir",
     "evidenceUrls": [
       "https://res.shahed.ac.ir",
-      "https://res.shahed.ac.ir/"
+      "https://res.shahed.ac.ir/",
+      "https://library.shahed.ac.ir/"
     ],
     "deepAuditStatus": "deep-audited",
     "dimensions": {
@@ -71,8 +73,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://res.shahed.ac.ir",
@@ -82,6 +84,12 @@
         },
         {
           "url": "https://res.shahed.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/",
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
@@ -98,24 +106,21 @@
       "iscCategory": "دستگاه اجرایی",
       "iscRank": 2,
       "dimension": "organization",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://res.shahed.ac.ir/",
-          "kind": "unit",
-          "claim": "مدیریت امور پژوهشی",
-          "id": "shahed-research",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -125,20 +130,17 @@
       "iscCategory": "دستگاه اجرایی",
       "iscRank": 2,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 2,
       "sources": [
         {
           "url": "https://res.shahed.ac.ir/",
-          "kind": "unit",
-          "claim": "مرکز اسناد و مدارک علمی",
-          "id": "shahed-library",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
         },
         {
           "url": "https://library.shahed.ac.ir/",
@@ -149,7 +151,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -159,24 +161,21 @@
       "iscCategory": "دستگاه اجرایی",
       "iscRank": 2,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://res.shahed.ac.ir/",
-          "kind": "unit",
-          "claim": "مدیریت امور واحدهای پژوهشی و آزمایشگاه‌ها",
-          "id": "shahed-labs-management",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -186,24 +185,21 @@
       "iscCategory": "دستگاه اجرایی",
       "iscRank": 2,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://res.shahed.ac.ir/",
-          "kind": "unit",
-          "claim": "مدیریت امور فناوری و تحقیقات کاربردی",
-          "id": "shahed-tech",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -216,7 +212,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -233,15 +229,14 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://library.shahed.ac.ir/",
-          "kind": "system",
-          "claim": "جستجوی منابع کتابخانه (KDR)",
-          "id": "shahed-library-search",
-          "systemCategory": "library"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -255,10 +250,10 @@
       "iscCategory": "دستگاه اجرایی",
       "iscRank": 2,
       "dimension": "documentsRegulations",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
@@ -269,7 +264,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
@@ -278,17 +273,17 @@
     "nameFa": "دانشگاه شاهد",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 2,
-    "score": 64.8,
+    "score": 71.8,
     "confidence": 91.4,
     "metrics": {
-      "documents": 12.8,
+      "documents": 37.8,
       "organization": 100,
       "library": 100,
       "laboratories": 70,
       "digital": 53.3,
       "industryTech": 45,
       "dataQuality": 100,
-      "findability": 80
+      "findability": 100
     },
     "units": 8,
     "systems": 3,
@@ -296,8 +291,8 @@
     "activeWeight": 100,
     "evidenceCoverage": 88,
     "methodologyVersion": "RTPMI-4.1-ISC",
-    "snapshotDate": "2026-08-10",
-    "rank": 16,
+    "snapshotDate": "2026-08-11",
+    "rank": 14,
     "portalRankWithinISCClass": 1,
     "rankedPortalsInISCClass": 1
   },
@@ -425,7 +420,7 @@
       "title": "شیوه‌نامه نگارش پایان‌نامه‌ها",
       "type": "شیوه‌نامه",
       "topic": "پایان‌نامه و رساله",
-      "url": null,
+      "url": "https://library.shahed.ac.ir/",
       "parentUrl": "https://library.shahed.ac.ir/",
       "sourceUrl": "https://library.shahed.ac.ir/",
       "format": "HTML/link-index",

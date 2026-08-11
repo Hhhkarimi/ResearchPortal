@@ -4,7 +4,7 @@ const write=async(p,x)=>fs.writeFile(p,JSON.stringify(x,null,2)+'\n');
 const [isc,audit,matrix,units,systems,documents]=await Promise.all([
   read('data/isc/institutions.json'),read('data/audit/portal-audit.json'),read('data/audit/deep-audit-matrix.json'),read('data/units/catalog.json'),read('data/systems/catalog.json'),read('data/documents/catalog.json')
 ]);
-const DATE='2026-08-10';
+const DATE='2026-08-11';
 const weights={documents:.20,organization:.12,library:.10,laboratories:.12,digital:.12,industryTech:.12,dataQuality:.12,findability:.10};
 const clamp=n=>Math.max(0,Math.min(100,Math.round(n*10)/10));
 const ratio=(n,d)=>d?Math.min(1,n/d):0;

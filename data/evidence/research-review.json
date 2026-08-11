@@ -5,30 +5,30 @@
     "reportNameFa": "دانشگاه تهران",
     "iscCategory": "جامع",
     "iscRank": 1,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
+      "systemsServices": "observed-reference",
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
+      "systemsServices": "observed-reference",
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 75,
+    "reviewEvidenceCoverage": 44,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
@@ -38,8 +38,8 @@
     "officialSourceUrls": [
       "https://research.ut.ac.ir/fa"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 75,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 44,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -48,8 +48,8 @@
     "reportNameFa": "دانشگاه تربیت مدرس",
     "iscCategory": "جامع",
     "iscRank": 2,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "verified",
@@ -88,15 +88,20 @@
       {
         "label": "کتابخانه و نشر ۴",
         "url": "https://res.modares.ac.ir/res/managements/library/people"
+      },
+      {
+        "label": "ساختار معاونت 1",
+        "url": "https://res.modares.ac.ir/res/people"
       }
     ],
     "officialSourceUrls": [
       "https://res.modares.ac.ir/",
       "https://res.modares.ac.ir/res/research-units",
       "https://res.modares.ac.ir/res/forms",
-      "https://res.modares.ac.ir/res/managements/library/people"
+      "https://res.modares.ac.ir/res/managements/library/people",
+      "https://res.modares.ac.ir/res/people"
     ],
-    "reviewNote": "پرتال معاونت ۱، واحدهای پژوهشی ۲، فرم‌ها ۳، کتابخانه و نشر ۴",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 5 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 50,
     "publicationAdjustedOutcomes": 0
   },
@@ -106,41 +111,46 @@
     "reportNameFa": "دانشگاه فردوسی مشهد",
     "iscCategory": "جامع",
     "iscRank": 3,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 75,
+    "reviewEvidenceCoverage": 56,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
         "url": "https://vpr.um.ac.ir/"
+      },
+      {
+        "label": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1",
+        "url": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms"
       }
     ],
     "officialSourceUrls": [
-      "https://vpr.um.ac.ir/"
+      "https://vpr.um.ac.ir/",
+      "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 75,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 56,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -149,12 +159,12 @@
     "reportNameFa": "دانشگاه شهید بهشتی",
     "iscCategory": "جامع",
     "iscRank": 4,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "observed-reference",
-      "libraryDocuments": "unresolved",
+      "libraryDocuments": "verified",
       "laboratories": "unresolved",
       "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
@@ -164,7 +174,7 @@
     "reportedDimensions": {
       "portalIdentity": "verified",
       "organization": "observed-reference",
-      "libraryDocuments": "unresolved",
+      "libraryDocuments": "verified",
       "laboratories": "unresolved",
       "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
@@ -172,7 +182,7 @@
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 38,
+    "reviewEvidenceCoverage": 50,
     "officialSources": [
       {
         "label": "پرتال معاونت ۱",
@@ -192,8 +202,8 @@
       "https://press.sbu.ac.ir/",
       "https://scj.sbu.ac.ir/"
     ],
-    "reviewNote": "پرتال معاونت ۱، مرکز نشر ۲، سامانه نشریات ۳",
-    "reportedEvidenceCoverage": 38,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 3 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 50,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -202,11 +212,11 @@
     "reportNameFa": "دانشگاه شیراز",
     "iscCategory": "جامع",
     "iscRank": 5,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "observed-reference",
+      "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "observed-reference",
@@ -216,7 +226,7 @@
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
+      "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "observed-reference",
@@ -225,7 +235,7 @@
       "documentsRegulations": "observed-reference"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 31,
+    "reviewEvidenceCoverage": 25,
     "officialSources": [
       {
         "label": "پرتال معاونت ۱",
@@ -235,9 +245,9 @@
     "officialSourceUrls": [
       "https://research.shirazu.ac.ir/"
     ],
-    "reviewNote": "پرتال معاونت ۱",
-    "reportedEvidenceCoverage": 38,
-    "publicationAdjustedOutcomes": 1
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 25,
+    "publicationAdjustedOutcomes": 0
   },
   {
     "universitySlug": "tabriz",
@@ -245,41 +255,56 @@
     "reportNameFa": "دانشگاه تبریز",
     "iscCategory": "جامع",
     "iscRank": 6,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "observed-reference",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
+      "systemsServices": "verified",
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
-      "portalIdentity": "observed-reference",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
+      "portalIdentity": "verified",
+      "organization": "verified",
+      "libraryDocuments": "verified",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
+      "systemsServices": "verified",
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 6,
+    "reviewEvidenceCoverage": 50,
     "officialSources": [
       {
         "label": "منبع رسمی ۱",
         "url": "https://tabrizu.ac.ir/"
+      },
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://research.tabrizu.ac.ir/"
+      },
+      {
+        "label": "ساختار معاونت 1",
+        "url": "https://research.tabrizu.ac.ir/fa/page/9498/%D8%AD%D8%B3%D8%A7%D8%A8%D8%AF%D8%A7%D8%B1%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C"
+      },
+      {
+        "label": "کتابخانه و مرکز اسناد 1",
+        "url": "https://pprs.tabrizu.ac.ir/"
       }
     ],
     "officialSourceUrls": [
-      "https://tabrizu.ac.ir/"
+      "https://tabrizu.ac.ir/",
+      "https://research.tabrizu.ac.ir/",
+      "https://research.tabrizu.ac.ir/fa/page/9498/%D8%AD%D8%B3%D8%A7%D8%A8%D8%AF%D8%A7%D8%B1%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+      "https://pprs.tabrizu.ac.ir/"
     ],
-    "reviewNote": "منبع رسمی ۱",
-    "reportedEvidenceCoverage": 6,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 4 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 50,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -288,30 +313,30 @@
     "reportNameFa": "دانشگاه اصفهان",
     "iscCategory": "جامع",
     "iscRank": 7,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
-      "documentsRegulations": "verified"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
-      "documentsRegulations": "verified"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 88,
+    "reviewEvidenceCoverage": 44,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
@@ -321,8 +346,8 @@
     "officialSourceUrls": [
       "https://research.ui.ac.ir/"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 88,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 44,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -331,8 +356,8 @@
     "reportNameFa": "دانشگاه رازی",
     "iscCategory": "جامع",
     "iscRank": 8,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "verified",
@@ -340,7 +365,7 @@
       "laboratories": "unresolved",
       "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "observed-reference",
+      "systemsServices": "verified",
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
@@ -350,11 +375,11 @@
       "laboratories": "unresolved",
       "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "observed-reference",
+      "systemsServices": "verified",
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 38,
+    "reviewEvidenceCoverage": 44,
     "officialSources": [
       {
         "label": "پرتال معاونت ۱",
@@ -369,8 +394,8 @@
       "https://are.razi.ac.ir/",
       "https://are.razi.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C"
     ],
-    "reviewNote": "پرتال معاونت ۱، مدیریت پژوهشی ۲",
-    "reportedEvidenceCoverage": 38,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 44,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -379,8 +404,8 @@
     "reportNameFa": "دانشگاه تحصیلات تکمیلی علوم پایه زنجان",
     "iscCategory": "جامع",
     "iscRank": 9,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "observed-reference",
       "organization": "observed-reference",
@@ -412,7 +437,7 @@
     "officialSourceUrls": [
       "https://iasbs.ac.ir/"
     ],
-    "reviewNote": "منبع رسمی ۱",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 25,
     "publicationAdjustedOutcomes": 0
   },
@@ -422,42 +447,47 @@
     "reportNameFa": "دانشگاه خوارزمی",
     "iscCategory": "جامع",
     "iscRank": 10,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "observed-reference",
-      "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
-      "informationTechnology": "verified",
-      "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
+      "informationTechnology": "observed-reference",
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 81,
+    "reviewEvidenceCoverage": 63,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
         "url": "https://research.khu.ac.ir/"
+      },
+      {
+        "label": "آیین‌نامه اجرایی دوره دکتری تخصصی",
+        "url": "https://pgeducation.khu.ac.ir/files/site41/files/aeen_name_ejraee_97.pdf"
       }
     ],
     "officialSourceUrls": [
-      "https://research.khu.ac.ir/"
+      "https://research.khu.ac.ir/",
+      "https://pgeducation.khu.ac.ir/files/site41/files/aeen_name_ejraee_97.pdf"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 88,
-    "publicationAdjustedOutcomes": 1
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 63,
+    "publicationAdjustedOutcomes": 0
   },
   {
     "universitySlug": "allameh",
@@ -465,30 +495,30 @@
     "reportNameFa": "دانشگاه علامه طباطبایی",
     "iscCategory": "جامع",
     "iscRank": 11,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
       "laboratories": "unresolved",
-      "industryTechnology": "verified",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
-      "documentsRegulations": "verified"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
       "laboratories": "unresolved",
-      "industryTechnology": "verified",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
-      "documentsRegulations": "verified"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 75,
+    "reviewEvidenceCoverage": 38,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
@@ -498,8 +528,8 @@
     "officialSourceUrls": [
       "https://research.atu.ac.ir/fa"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 75,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 38,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -508,8 +538,8 @@
     "reportNameFa": "دانشگاه شهید باهنر کرمان",
     "iscCategory": "جامع",
     "iscRank": 12,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -534,7 +564,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -544,10 +574,10 @@
     "reportNameFa": "دانشگاه گیلان",
     "iscCategory": "جامع",
     "iscRank": 13,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -557,7 +587,7 @@
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -567,18 +597,23 @@
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 6,
+    "reviewEvidenceCoverage": 13,
     "officialSources": [
       {
         "label": "منبع رسمی ۱",
         "url": "https://guilan.ac.ir/"
+      },
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://resvp.guilan.ac.ir/"
       }
     ],
     "officialSourceUrls": [
-      "https://guilan.ac.ir/"
+      "https://guilan.ac.ir/",
+      "https://resvp.guilan.ac.ir/"
     ],
-    "reviewNote": "منبع رسمی ۱",
-    "reportedEvidenceCoverage": 6,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 13,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -587,41 +622,46 @@
     "reportNameFa": "دانشگاه ارومیه",
     "iscCategory": "جامع",
     "iscRank": 14,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "observed-reference",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
+      "organization": "verified",
+      "libraryDocuments": "verified",
       "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
+      "industryTechnology": "verified",
+      "informationTechnology": "observed-reference",
+      "systemsServices": "verified",
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "observed-reference",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
+      "organization": "verified",
+      "libraryDocuments": "verified",
       "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
+      "industryTechnology": "verified",
+      "informationTechnology": "observed-reference",
+      "systemsServices": "verified",
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 6,
+    "reviewEvidenceCoverage": 63,
     "officialSources": [
       {
         "label": "منبع رسمی ۱",
         "url": "https://www.urmia.ac.ir/"
+      },
+      {
+        "label": "ساختار معاونت 1",
+        "url": "https://www.urmia.ac.ir/structure"
       }
     ],
     "officialSourceUrls": [
-      "https://www.urmia.ac.ir/"
+      "https://www.urmia.ac.ir/",
+      "https://www.urmia.ac.ir/structure"
     ],
-    "reviewNote": "منبع رسمی ۱",
-    "reportedEvidenceCoverage": 6,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 63,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -630,30 +670,30 @@
     "reportNameFa": "دانشگاه سمنان",
     "iscCategory": "جامع",
     "iscRank": 15,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "observed-reference",
-      "systemsServices": "verified",
-      "documentsRegulations": "verified"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
-      "informationTechnology": "verified",
-      "systemsServices": "verified",
-      "documentsRegulations": "verified"
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
+      "informationTechnology": "observed-reference",
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 94,
+    "reviewEvidenceCoverage": 50,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
@@ -663,9 +703,9 @@
     "officialSourceUrls": [
       "https://research.semnan.ac.ir/"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 100,
-    "publicationAdjustedOutcomes": 1
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 50,
+    "publicationAdjustedOutcomes": 0
   },
   {
     "universitySlug": "sistan-baluchestan",
@@ -673,11 +713,11 @@
     "reportNameFa": "دانشگاه سیستان و بلوچستان",
     "iscCategory": "جامع",
     "iscRank": 16,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "verified",
-      "organization": "observed-reference",
+      "portalIdentity": "unresolved",
+      "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "observed-reference",
@@ -686,8 +726,8 @@
       "documentsRegulations": "verified"
     },
     "reportedDimensions": {
-      "portalIdentity": "verified",
-      "organization": "verified",
+      "portalIdentity": "unresolved",
+      "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "observed-reference",
@@ -696,7 +736,7 @@
       "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 38,
+    "reviewEvidenceCoverage": 19,
     "officialSources": [
       {
         "label": "معرفی معاونت ۱",
@@ -705,15 +745,25 @@
       {
         "label": "دستورالعمل‌ها ۲",
         "url": "https://www.usb.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%87%D8%A7/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%AF%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7-%D9%88-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%D9%87%D8%A7%DB%8C-%D8%A7%D8%AE%D9%84%D8%A7%D9%82%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C"
+      },
+      {
+        "label": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1",
+        "url": "https://www.usb.ac.ir/%D9%85%DB%8C%D8%B2%D8%AE%D8%AF%D9%85%D8%AA/%D9%85%DB%8C%D8%B2-%D8%AE%D8%AF%D9%85%D8%AA-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C"
+      },
+      {
+        "label": "سند منتشرشده معاونت پژوهش و فناوری",
+        "url": "https://www.usb.ac.ir/FileUpload/9992_2026-5-4-10-55-5.pdf"
       }
     ],
     "officialSourceUrls": [
       "https://www.usb.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%87%D8%A7/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-      "https://www.usb.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%87%D8%A7/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%AF%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7-%D9%88-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%D9%87%D8%A7%DB%8C-%D8%A7%D8%AE%D9%84%D8%A7%D9%82%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C"
+      "https://www.usb.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%87%D8%A7/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%AF%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7-%D9%88-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%D9%87%D8%A7%DB%8C-%D8%A7%D8%AE%D9%84%D8%A7%D9%82%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+      "https://www.usb.ac.ir/%D9%85%DB%8C%D8%B2%D8%AE%D8%AF%D9%85%D8%AA/%D9%85%DB%8C%D8%B2-%D8%AE%D8%AF%D9%85%D8%AA-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+      "https://www.usb.ac.ir/FileUpload/9992_2026-5-4-10-55-5.pdf"
     ],
-    "reviewNote": "معرفی معاونت ۱، دستورالعمل‌ها ۲",
-    "reportedEvidenceCoverage": 44,
-    "publicationAdjustedOutcomes": 1
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 4 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 19,
+    "publicationAdjustedOutcomes": 0
   },
   {
     "universitySlug": "yazd",
@@ -721,17 +771,17 @@
     "reportNameFa": "دانشگاه یزد",
     "iscCategory": "جامع",
     "iscRank": 17,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش کامل مستقیم",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "verified",
-      "libraryDocuments": "observed-reference",
-      "laboratories": "observed-reference",
-      "industryTechnology": "observed-reference",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
       "informationTechnology": "observed-reference",
-      "systemsServices": "observed-reference",
-      "documentsRegulations": "observed-reference"
+      "systemsServices": "verified",
+      "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
@@ -739,12 +789,12 @@
       "libraryDocuments": "verified",
       "laboratories": "verified",
       "industryTechnology": "verified",
-      "informationTechnology": "verified",
+      "informationTechnology": "observed-reference",
       "systemsServices": "verified",
-      "documentsRegulations": "verified"
+      "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 63,
+    "reviewEvidenceCoverage": 81,
     "officialSources": [
       {
         "label": "پرتال معاونت ۱",
@@ -753,15 +803,20 @@
       {
         "label": "ساختار و خدمات ۲",
         "url": "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C"
+      },
+      {
+        "label": "سامانه‌ها و خدمات 1",
+        "url": "https://yazd.ac.ir/"
       }
     ],
     "officialSourceUrls": [
       "https://yazd.ac.ir/offices/research/home/introduction",
-      "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C"
+      "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+      "https://yazd.ac.ir/"
     ],
-    "reviewNote": "پرتال معاونت ۱، ساختار و خدمات ۲",
-    "reportedEvidenceCoverage": 100,
-    "publicationAdjustedOutcomes": 6
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 3 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 81,
+    "publicationAdjustedOutcomes": 0
   },
   {
     "universitySlug": "mohaghegh-ardabili",
@@ -769,30 +824,30 @@
     "reportNameFa": "دانشگاه محقق اردبیلی",
     "iscCategory": "جامع",
     "iscRank": 18,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش کامل مستقیم",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "observed-reference",
-      "libraryDocuments": "observed-reference",
-      "laboratories": "observed-reference",
-      "industryTechnology": "observed-reference",
+      "libraryDocuments": "verified",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
       "informationTechnology": "observed-reference",
-      "systemsServices": "observed-reference",
+      "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
+      "organization": "observed-reference",
       "libraryDocuments": "verified",
       "laboratories": "verified",
       "industryTechnology": "verified",
-      "informationTechnology": "verified",
+      "informationTechnology": "observed-reference",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 63,
+    "reviewEvidenceCoverage": 88,
     "officialSources": [
       {
         "label": "معاونت پژوهش ۱",
@@ -812,9 +867,9 @@
       "https://uma.ac.ir/find.php?item=8.5244.13832.fa",
       "https://uma.ac.ir/content/32005/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C"
     ],
-    "reviewNote": "معاونت پژوهش ۱، میز خدمات ۲، آیین‌نامه‌ها ۳",
-    "reportedEvidenceCoverage": 100,
-    "publicationAdjustedOutcomes": 6
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 3 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 88,
+    "publicationAdjustedOutcomes": 0
   },
   {
     "universitySlug": "kurdistan",
@@ -822,17 +877,17 @@
     "reportNameFa": "دانشگاه کردستان",
     "iscCategory": "جامع",
     "iscRank": 19,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "verified",
       "libraryDocuments": "unresolved",
-      "laboratories": "observed-reference",
+      "laboratories": "verified",
       "industryTechnology": "verified",
       "informationTechnology": "unresolved",
       "systemsServices": "verified",
-      "documentsRegulations": "observed-reference"
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
@@ -842,10 +897,10 @@
       "industryTechnology": "verified",
       "informationTechnology": "unresolved",
       "systemsServices": "verified",
-      "documentsRegulations": "observed-reference"
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 63,
+    "reviewEvidenceCoverage": 75,
     "officialSources": [
       {
         "label": "پرتال معاونت ۱",
@@ -870,9 +925,9 @@
       "https://research.uok.ac.ir/",
       "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations"
     ],
-    "reviewNote": "پرتال معاونت ۱، چارت سازمانی ۲، سامانه ژیرو ۳، فرم و آیین‌نامه ۴",
-    "reportedEvidenceCoverage": 69,
-    "publicationAdjustedOutcomes": 1
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 4 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 75,
+    "publicationAdjustedOutcomes": 0
   },
   {
     "universitySlug": "shahid-chamran-ahvaz",
@@ -880,30 +935,30 @@
     "reportNameFa": "دانشگاه شهید چمران اهواز",
     "iscCategory": "جامع",
     "iscRank": 20,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "observed-reference",
-      "systemsServices": "verified",
+      "systemsServices": "observed-reference",
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
-      "informationTechnology": "verified",
-      "systemsServices": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
+      "informationTechnology": "observed-reference",
+      "systemsServices": "observed-reference",
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 81,
+    "reviewEvidenceCoverage": 50,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
@@ -913,9 +968,9 @@
     "officialSourceUrls": [
       "https://research.scu.ac.ir/"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 88,
-    "publicationAdjustedOutcomes": 1
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 50,
+    "publicationAdjustedOutcomes": 0
   },
   {
     "universitySlug": "kashan",
@@ -923,30 +978,30 @@
     "reportNameFa": "دانشگاه کاشان",
     "iscCategory": "جامع",
     "iscRank": 21,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "observed-reference",
-      "libraryDocuments": "observed-reference",
-      "laboratories": "observed-reference",
-      "industryTechnology": "observed-reference",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "observed-reference"
+      "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "verified"
+      "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 44,
+    "reviewEvidenceCoverage": 13,
     "officialSources": [
       {
         "label": "پرتال معاونت ۱",
@@ -956,9 +1011,9 @@
     "officialSourceUrls": [
       "https://research.kashanu.ac.ir/"
     ],
-    "reviewNote": "پرتال معاونت ۱",
-    "reportedEvidenceCoverage": 75,
-    "publicationAdjustedOutcomes": 5
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 13,
+    "publicationAdjustedOutcomes": 0
   },
   {
     "universitySlug": "shahrekord",
@@ -966,34 +1021,46 @@
     "reportNameFa": "دانشگاه شهرکرد",
     "iscCategory": "جامع",
     "iscRank": 22,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 25,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://www.sku.ac.ir/Vice-President/research"
+      },
+      {
+        "label": "اهداف، آیین‌نامه‌ها و مقررات پژوهشی",
+        "url": "https://www.sku.ac.ir/Datafiles/UploadedFiles/UserFiles/2015116151928_aeennameh89.pdf"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://www.sku.ac.ir/Vice-President/research",
+      "https://www.sku.ac.ir/Datafiles/UploadedFiles/UserFiles/2015116151928_aeennameh89.pdf"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 25,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -1002,30 +1069,30 @@
     "reportNameFa": "دانشگاه بوعلی سینا",
     "iscCategory": "جامع",
     "iscRank": 23,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "observed-reference",
-      "libraryDocuments": "verified",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
-      "industryTechnology": "observed-reference",
+      "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
       "documentsRegulations": "verified"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
-      "industryTechnology": "verified",
+      "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
       "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 50,
+    "reviewEvidenceCoverage": 25,
     "officialSources": [
       {
         "label": "پرتال معاونت ۱",
@@ -1040,9 +1107,9 @@
       "https://res.basu.ac.ir/",
       "https://res.basu.ac.ir/journals-regulations/-/document_library/ocki/view/3692745"
     ],
-    "reviewNote": "پرتال معاونت ۱، آیین‌نامه مجلات ۲",
-    "reportedEvidenceCoverage": 63,
-    "publicationAdjustedOutcomes": 2
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 25,
+    "publicationAdjustedOutcomes": 0
   },
   {
     "universitySlug": "qom",
@@ -1050,30 +1117,30 @@
     "reportNameFa": "دانشگاه قم",
     "iscCategory": "جامع",
     "iscRank": 23,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
+      "systemsServices": "observed-reference",
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
+      "systemsServices": "observed-reference",
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 75,
+    "reviewEvidenceCoverage": 44,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
@@ -1083,8 +1150,8 @@
     "officialSourceUrls": [
       "https://research.qom.ac.ir/"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 75,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 44,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -1093,30 +1160,30 @@
     "reportNameFa": "دانشگاه الزهرا (س)",
     "iscCategory": "جامع",
     "iscRank": 25,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
+      "systemsServices": "observed-reference",
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
+      "systemsServices": "observed-reference",
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 75,
+    "reviewEvidenceCoverage": 44,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
@@ -1126,8 +1193,8 @@
     "officialSourceUrls": [
       "https://research.alzahra.ac.ir/"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 75,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 44,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -1136,30 +1203,30 @@
     "reportNameFa": "دانشگاه مازندران",
     "iscCategory": "جامع",
     "iscRank": 26,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "observed-reference",
-      "libraryDocuments": "observed-reference",
-      "laboratories": "observed-reference",
-      "industryTechnology": "observed-reference",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 38,
+    "reviewEvidenceCoverage": 13,
     "officialSources": [
       {
         "label": "پرتال معاونت ۱",
@@ -1169,9 +1236,9 @@
     "officialSourceUrls": [
       "https://research.umz.ac.ir/"
     ],
-    "reviewNote": "پرتال معاونت ۱",
-    "reportedEvidenceCoverage": 63,
-    "publicationAdjustedOutcomes": 4
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 13,
+    "publicationAdjustedOutcomes": 0
   },
   {
     "universitySlug": "imam-khomeini-international",
@@ -1179,8 +1246,8 @@
     "reportNameFa": "دانشگاه بین المللی امام خمینی (ره)",
     "iscCategory": "جامع",
     "iscRank": 27,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "observed-reference",
       "organization": "unresolved",
@@ -1212,7 +1279,7 @@
     "officialSourceUrls": [
       "https://ikiu.ac.ir/"
     ],
-    "reviewNote": "منبع رسمی ۱",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 6,
     "publicationAdjustedOutcomes": 0
   },
@@ -1222,238 +1289,8 @@
     "reportNameFa": "دانشگاه خلیج فارس",
     "iscCategory": "جامع",
     "iscRank": 28,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
-    "dimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "reportedDimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
-    "publicationAdjustedOutcomes": 0
-  },
-  {
-    "universitySlug": "zanjan",
-    "nameFa": "دانشگاه زنجان",
-    "reportNameFa": "دانشگاه زنجان",
-    "iscCategory": "جامع",
-    "iscRank": 29,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
-    "dimensions": {
-      "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
-      "informationTechnology": "observed-reference",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "reportedDimensions": {
-      "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
-      "informationTechnology": "verified",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 69,
-    "officialSources": [
-      {
-        "label": "پرتال پژوهش ۱",
-        "url": "https://research.znu.ac.ir/"
-      }
-    ],
-    "officialSourceUrls": [
-      "https://research.znu.ac.ir/"
-    ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 75,
-    "publicationAdjustedOutcomes": 1
-  },
-  {
-    "universitySlug": "ilam",
-    "nameFa": "دانشگاه ایلام",
-    "reportNameFa": "دانشگاه ایلام",
-    "iscCategory": "جامع",
-    "iscRank": 30,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
-    "dimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "reportedDimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
-    "publicationAdjustedOutcomes": 0
-  },
-  {
-    "universitySlug": "hakim-sabzevari",
-    "nameFa": "دانشگاه حکیم سبزواری",
-    "reportNameFa": "دانشگاه حکیم سبزواری",
-    "iscCategory": "جامع",
-    "iscRank": 31,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
-    "dimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "reportedDimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
-    "publicationAdjustedOutcomes": 0
-  },
-  {
-    "universitySlug": "arak",
-    "nameFa": "دانشگاه اراک",
-    "reportNameFa": "دانشگاه اراک",
-    "iscCategory": "جامع",
-    "iscRank": 32,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
-    "dimensions": {
-      "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
-      "informationTechnology": "observed-reference",
-      "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
-    },
-    "reportedDimensions": {
-      "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
-      "informationTechnology": "verified",
-      "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
-    },
-    "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 81,
-    "officialSources": [
-      {
-        "label": "پرتال پژوهش ۱",
-        "url": "https://research.araku.ac.ir/"
-      }
-    ],
-    "officialSourceUrls": [
-      "https://research.araku.ac.ir/"
-    ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 88,
-    "publicationAdjustedOutcomes": 1
-  },
-  {
-    "universitySlug": "azarbaijan-shahid-madani",
-    "nameFa": "دانشگاه شهید مدنی آذربایجان",
-    "reportNameFa": "دانشگاه شهید مدنی آذربایجان",
-    "iscCategory": "جامع",
-    "iscRank": 33,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
-    "dimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "reportedDimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
-    },
-    "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
-    "publicationAdjustedOutcomes": 0
-  },
-  {
-    "universitySlug": "birjand",
-    "nameFa": "دانشگاه بیرجند",
-    "reportNameFa": "دانشگاه بیرجند",
-    "iscCategory": "جامع",
-    "iscRank": 34,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "unresolved",
@@ -1478,25 +1315,111 @@
     "reviewEvidenceCoverage": 13,
     "officialSources": [
       {
-        "label": "پرتال پژوهش ۱",
-        "url": "https://birjand.ac.ir/research/fa"
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://pgu.ac.ir/fa/researchdeputy"
       }
     ],
     "officialSourceUrls": [
-      "https://birjand.ac.ir/research/fa"
+      "https://pgu.ac.ir/fa/researchdeputy"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 13,
     "publicationAdjustedOutcomes": 0
   },
   {
-    "universitySlug": "vali-asr-rafsanjan",
-    "nameFa": "دانشگاه ولی عصر (عج) رفسنجان",
-    "reportNameFa": "دانشگاه ولی عصر (عج) رفسنجان",
+    "universitySlug": "zanjan",
+    "nameFa": "دانشگاه زنجان",
+    "reportNameFa": "دانشگاه زنجان",
     "iscCategory": "جامع",
-    "iscRank": 35,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "iscRank": 29,
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
+      "informationTechnology": "observed-reference",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "unresolved"
+    },
+    "reportedDimensions": {
+      "portalIdentity": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
+      "informationTechnology": "observed-reference",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "unresolved"
+    },
+    "reviewCompletion": 100,
+    "reviewEvidenceCoverage": 44,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش ۱",
+        "url": "https://research.znu.ac.ir/"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://research.znu.ac.ir/"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 44,
+    "publicationAdjustedOutcomes": 0
+  },
+  {
+    "universitySlug": "ilam",
+    "nameFa": "دانشگاه ایلام",
+    "reportNameFa": "دانشگاه ایلام",
+    "iscCategory": "جامع",
+    "iscRank": 30,
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
+      "informationTechnology": "unresolved",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "unresolved"
+    },
+    "reportedDimensions": {
+      "portalIdentity": "verified",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
+      "informationTechnology": "unresolved",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "unresolved"
+    },
+    "reviewCompletion": 100,
+    "reviewEvidenceCoverage": 13,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://www.ilam.ac.ir/dep/research/"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://www.ilam.ac.ir/dep/research/"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 13,
+    "publicationAdjustedOutcomes": 0
+  },
+  {
+    "universitySlug": "hakim-sabzevari",
+    "nameFa": "دانشگاه حکیم سبزواری",
+    "reportNameFa": "دانشگاه حکیم سبزواری",
+    "iscCategory": "جامع",
+    "iscRank": 31,
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -1521,7 +1444,170 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 0,
+    "publicationAdjustedOutcomes": 0
+  },
+  {
+    "universitySlug": "arak",
+    "nameFa": "دانشگاه اراک",
+    "reportNameFa": "دانشگاه اراک",
+    "iscCategory": "جامع",
+    "iscRank": 32,
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
+      "informationTechnology": "observed-reference",
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "unresolved"
+    },
+    "reportedDimensions": {
+      "portalIdentity": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
+      "informationTechnology": "observed-reference",
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "unresolved"
+    },
+    "reviewCompletion": 100,
+    "reviewEvidenceCoverage": 50,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش ۱",
+        "url": "https://research.araku.ac.ir/"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://research.araku.ac.ir/"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 50,
+    "publicationAdjustedOutcomes": 0
+  },
+  {
+    "universitySlug": "azarbaijan-shahid-madani",
+    "nameFa": "دانشگاه شهید مدنی آذربایجان",
+    "reportNameFa": "دانشگاه شهید مدنی آذربایجان",
+    "iscCategory": "جامع",
+    "iscRank": 33,
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
+    "dimensions": {
+      "portalIdentity": "unresolved",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
+      "informationTechnology": "unresolved",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "unresolved"
+    },
+    "reportedDimensions": {
+      "portalIdentity": "unresolved",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
+      "informationTechnology": "unresolved",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "unresolved"
+    },
+    "reviewCompletion": 100,
+    "reviewEvidenceCoverage": 0,
+    "officialSources": [],
+    "officialSourceUrls": [],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 0,
+    "publicationAdjustedOutcomes": 0
+  },
+  {
+    "universitySlug": "birjand",
+    "nameFa": "دانشگاه بیرجند",
+    "reportNameFa": "دانشگاه بیرجند",
+    "iscCategory": "جامع",
+    "iscRank": 34,
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
+    "dimensions": {
+      "portalIdentity": "verified",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
+      "informationTechnology": "unresolved",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "verified"
+    },
+    "reportedDimensions": {
+      "portalIdentity": "verified",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
+      "informationTechnology": "unresolved",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "verified"
+    },
+    "reviewCompletion": 100,
+    "reviewEvidenceCoverage": 25,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش ۱",
+        "url": "https://birjand.ac.ir/research/fa"
+      },
+      {
+        "label": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1",
+        "url": "https://birjand.ac.ir/graduate/fa/regulation"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://birjand.ac.ir/research/fa",
+      "https://birjand.ac.ir/graduate/fa/regulation"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 25,
+    "publicationAdjustedOutcomes": 0
+  },
+  {
+    "universitySlug": "vali-asr-rafsanjan",
+    "nameFa": "دانشگاه ولی عصر (عج) رفسنجان",
+    "reportNameFa": "دانشگاه ولی عصر (عج) رفسنجان",
+    "iscCategory": "جامع",
+    "iscRank": 35,
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
+    "dimensions": {
+      "portalIdentity": "unresolved",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
+      "informationTechnology": "unresolved",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "unresolved"
+    },
+    "reportedDimensions": {
+      "portalIdentity": "unresolved",
+      "organization": "unresolved",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
+      "informationTechnology": "unresolved",
+      "systemsServices": "unresolved",
+      "documentsRegulations": "unresolved"
+    },
+    "reviewCompletion": 100,
+    "reviewEvidenceCoverage": 0,
+    "officialSources": [],
+    "officialSourceUrls": [],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -1531,10 +1617,10 @@
     "reportNameFa": "دانشگاه لرستان",
     "iscCategory": "جامع",
     "iscRank": 36,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -1544,7 +1630,7 @@
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -1554,11 +1640,18 @@
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 13,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://research.lu.ac.ir/"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://research.lu.ac.ir/"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 13,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -1567,30 +1660,30 @@
     "reportNameFa": "دانشگاه مراغه",
     "iscCategory": "جامع",
     "iscRank": 37,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
       "systemsServices": "observed-reference",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
       "systemsServices": "observed-reference",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 25,
+    "reviewEvidenceCoverage": 44,
     "officialSources": [
       {
         "label": "منبع رسمی ۱",
@@ -1603,15 +1696,30 @@
       {
         "label": "منبع رسمی ۳",
         "url": "https://rtm.maragheh.ac.ir/postdoc"
+      },
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://rtm.maragheh.ac.ir/"
+      },
+      {
+        "label": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1",
+        "url": "https://res.maragheh.ac.ir/_Pages/Regulations/Default.aspx"
+      },
+      {
+        "label": "شیوه نامه سرآمدان پژوهشی - سامانه پژوهشی ژیرو - دانشگاه مراغه",
+        "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9750ea80-7c7d-4917-ba1b-eb366b50d22f&FileName=Saramadan-researchers+%D9%8D+Editted+Aban+1404.pdf"
       }
     ],
     "officialSourceUrls": [
       "https://www.maragheh.ac.ir/fa/article/3289452",
       "https://www.maragheh.ac.ir/fa/article/3224206",
-      "https://rtm.maragheh.ac.ir/postdoc"
+      "https://rtm.maragheh.ac.ir/postdoc",
+      "https://rtm.maragheh.ac.ir/",
+      "https://res.maragheh.ac.ir/_Pages/Regulations/Default.aspx",
+      "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9750ea80-7c7d-4917-ba1b-eb366b50d22f&FileName=Saramadan-researchers+%D9%8D+Editted+Aban+1404.pdf"
     ],
-    "reviewNote": "منبع رسمی ۱، منبع رسمی ۲، منبع رسمی ۳",
-    "reportedEvidenceCoverage": 25,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 6 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 44,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -1620,34 +1728,46 @@
     "reportNameFa": "دانشگاه زابل",
     "iscCategory": "جامع",
     "iscRank": 38,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 25,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://uoz.ac.ir/prt/"
+      },
+      {
+        "label": "شیوه‌نامه اجرایی دوره دکتری تخصصی",
+        "url": "https://uoz.ac.ir/file/download/page/1671355345-20221116-121542.pdf"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://uoz.ac.ir/prt/",
+      "https://uoz.ac.ir/file/download/page/1671355345-20221116-121542.pdf"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 25,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -1656,10 +1776,10 @@
     "reportNameFa": "دانشگاه یاسوج",
     "iscCategory": "جامع",
     "iscRank": 38,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -1669,7 +1789,7 @@
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -1679,18 +1799,23 @@
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 13,
+    "reviewEvidenceCoverage": 19,
     "officialSources": [
       {
         "label": "منبع رسمی ۱",
         "url": "https://yu.ac.ir/fa/natak/content/2608"
+      },
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://yu.ac.ir/fa/res/"
       }
     ],
     "officialSourceUrls": [
-      "https://yu.ac.ir/fa/natak/content/2608"
+      "https://yu.ac.ir/fa/natak/content/2608",
+      "https://yu.ac.ir/fa/res/"
     ],
-    "reviewNote": "منبع رسمی ۱",
-    "reportedEvidenceCoverage": 13,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 19,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -1699,8 +1824,8 @@
     "reportNameFa": "دانشگاه دامغان",
     "iscCategory": "جامع",
     "iscRank": 40,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -1725,7 +1850,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -1735,8 +1860,8 @@
     "reportNameFa": "دانشگاه بناب",
     "iscCategory": "جامع",
     "iscRank": 41,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "unresolved",
@@ -1768,7 +1893,7 @@
     "officialSourceUrls": [
       "https://research.ubonab.ac.ir/"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 13,
     "publicationAdjustedOutcomes": 0
   },
@@ -1778,34 +1903,46 @@
     "reportNameFa": "دانشگاه گلستان",
     "iscCategory": "جامع",
     "iscRank": 42,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 25,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://gu.ac.ir/research/"
+      },
+      {
+        "label": "« » گلستان دانشگاه علمی ت أهی اعضای برتر کتاب انتخاب ...",
+        "url": "https://gu.ac.ir/file/93866315-04dc-ec11-9ed6-005056998f1e/14010228%20final%20bartar%20policy.pdf"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://gu.ac.ir/research/",
+      "https://gu.ac.ir/file/93866315-04dc-ec11-9ed6-005056998f1e/14010228%20final%20bartar%20policy.pdf"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 25,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -1814,10 +1951,10 @@
     "reportNameFa": "دانشگاه هرمزگان",
     "iscCategory": "جامع",
     "iscRank": 42,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -1827,7 +1964,7 @@
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -1837,11 +1974,18 @@
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 13,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://www.hormozgan.ac.ir/home/index/10/28/373"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://www.hormozgan.ac.ir/home/index/10/28/373"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 13,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -1850,8 +1994,8 @@
     "reportNameFa": "دانشگاه تفرش",
     "iscCategory": "جامع",
     "iscRank": 44,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -1876,7 +2020,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -1886,8 +2030,8 @@
     "reportNameFa": "دانشگاه اردکان",
     "iscCategory": "جامع",
     "iscRank": 44,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "دسترسی محدود/مسدود",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -1912,7 +2056,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع عمومی قابل ممیزی در این نوبت در دسترس نبود؛ restricted",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 8
   },
@@ -1922,8 +2066,8 @@
     "reportNameFa": "دانشگاه فسا",
     "iscCategory": "جامع",
     "iscRank": 46,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "دسترسی محدود/مسدود",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -1948,7 +2092,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع عمومی قابل ممیزی در این نوبت در دسترس نبود؛ restricted",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 8
   },
@@ -1958,8 +2102,8 @@
     "reportNameFa": "دانشگاه آیت الله العظمی بروجردی (ره)",
     "iscCategory": "جامع",
     "iscRank": 46,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -1984,7 +2128,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -1994,10 +2138,10 @@
     "reportNameFa": "دانشگاه بجنورد",
     "iscCategory": "جامع",
     "iscRank": 46,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -2007,7 +2151,7 @@
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -2017,11 +2161,18 @@
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 13,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://vr.ub.ac.ir/"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://vr.ub.ac.ir/"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 13,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -2030,8 +2181,8 @@
     "reportNameFa": "دانشگاه علوم و فنون دریایی خرمشهر",
     "iscCategory": "جامع",
     "iscRank": 49,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2056,7 +2207,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2066,8 +2217,8 @@
     "reportNameFa": "دانشگاه میبد",
     "iscCategory": "جامع",
     "iscRank": 50,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "observed-reference",
       "organization": "unresolved",
@@ -2099,7 +2250,7 @@
     "officialSourceUrls": [
       "http://new.meybod.ac.ir/fa/article/294984"
     ],
-    "reviewNote": "منبع رسمی ۱",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 19,
     "publicationAdjustedOutcomes": 0
   },
@@ -2109,8 +2260,8 @@
     "reportNameFa": "دانشگاه بزرگمهر قائنات",
     "iscCategory": "جامع",
     "iscRank": 51,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2135,7 +2286,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2145,8 +2296,8 @@
     "reportNameFa": "دانشگاه دریانوردی و علوم دریایی چابهار",
     "iscCategory": "جامع",
     "iscRank": 51,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2171,7 +2322,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2181,8 +2332,8 @@
     "reportNameFa": "دانشگاه ولایت",
     "iscCategory": "جامع",
     "iscRank": 53,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2207,7 +2358,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2217,8 +2368,8 @@
     "reportNameFa": "دانشگاه تخصصی فناوری های نوین آمل",
     "iscCategory": "جامع",
     "iscRank": 54,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2227,7 +2378,7 @@
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
       "portalIdentity": "unresolved",
@@ -2237,14 +2388,21 @@
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 13,
+    "officialSources": [
+      {
+        "label": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1",
+        "url": "https://ausmt.ac.ir/forms"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://ausmt.ac.ir/forms"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 13,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -2253,8 +2411,8 @@
     "reportNameFa": "دانشگاه ملایر",
     "iscCategory": "جامع",
     "iscRank": 55,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "observed-reference",
       "organization": "observed-reference",
@@ -2286,7 +2444,7 @@
     "officialSourceUrls": [
       "https://malayeru.ac.ir/portal/home/?news/32484/116202/279690/"
     ],
-    "reviewNote": "منبع رسمی ۱",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 31,
     "publicationAdjustedOutcomes": 0
   },
@@ -2296,8 +2454,8 @@
     "reportNameFa": "دانشگاه گنبد کاووس",
     "iscCategory": "جامع",
     "iscRank": 56,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2322,7 +2480,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2332,8 +2490,8 @@
     "reportNameFa": "دانشگاه تربت حیدریه",
     "iscCategory": "جامع",
     "iscRank": 57,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2358,7 +2516,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2368,8 +2526,8 @@
     "reportNameFa": "دانشگاه حضرت معصومه (س)",
     "iscCategory": "جامع",
     "iscRank": 58,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2394,7 +2552,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2404,8 +2562,8 @@
     "reportNameFa": "دانشگاه جهرم",
     "iscCategory": "جامع",
     "iscRank": 59,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2430,7 +2588,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2440,8 +2598,8 @@
     "reportNameFa": "دانشگاه کوثر",
     "iscCategory": "جامع",
     "iscRank": 60,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2466,7 +2624,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2476,8 +2634,8 @@
     "reportNameFa": "دانشگاه جیرفت",
     "iscCategory": "جامع",
     "iscRank": 61,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2485,7 +2643,7 @@
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
+      "systemsServices": "verified",
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
@@ -2495,15 +2653,22 @@
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
+      "systemsServices": "verified",
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 13,
+    "officialSources": [
+      {
+        "label": "سامانه‌ها و خدمات 1",
+        "url": "https://research.ujiroft.ac.ir/_Pages/Departments/Default.aspx"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://research.ujiroft.ac.ir/_Pages/Departments/Default.aspx"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 13,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -2512,8 +2677,8 @@
     "reportNameFa": "دانشگاه سلمان فارسی کازرون",
     "iscCategory": "جامع",
     "iscRank": 62,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2538,7 +2703,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2548,8 +2713,8 @@
     "reportNameFa": "مرکز آموزش عالی لار",
     "iscCategory": "جامع",
     "iscRank": 62,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2574,7 +2739,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2584,8 +2749,8 @@
     "reportNameFa": "مجتمع آموزش عالی گناباد",
     "iscCategory": "جامع",
     "iscRank": 64,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "observed-reference",
       "organization": "observed-reference",
@@ -2617,7 +2782,7 @@
     "officialSourceUrls": [
       "https://gonabad.ac.ir/"
     ],
-    "reviewNote": "منبع رسمی ۱",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 13,
     "publicationAdjustedOutcomes": 0
   },
@@ -2627,8 +2792,8 @@
     "reportNameFa": "مجتمع آموزش عالی بم",
     "iscCategory": "جامع",
     "iscRank": 65,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2653,7 +2818,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2663,8 +2828,8 @@
     "reportNameFa": "دانشگاه نیشابور",
     "iscCategory": "جامع",
     "iscRank": 66,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "دسترسی محدود/مسدود",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2689,7 +2854,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع عمومی قابل ممیزی در این نوبت در دسترس نبود؛ restricted",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 8
   },
@@ -2699,8 +2864,8 @@
     "reportNameFa": "مرکز آموزش عالی اقلید",
     "iscCategory": "جامع",
     "iscRank": 67,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2725,7 +2890,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2735,8 +2900,8 @@
     "reportNameFa": "مرکز آموزش عالی کاشمر",
     "iscCategory": "جامع",
     "iscRank": 68,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2761,7 +2926,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2771,8 +2936,8 @@
     "reportNameFa": "دانشگاه سید جمال الدین اسدآبادی",
     "iscCategory": "جامع",
     "iscRank": 68,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -2797,7 +2962,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -2807,41 +2972,46 @@
     "reportNameFa": "دانشگاه علم و صنعت ایران",
     "iscCategory": "صنعتی",
     "iscRank": 1,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
+      "organization": "observed-reference",
       "libraryDocuments": "observed-reference",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
+      "organization": "observed-reference",
       "libraryDocuments": "observed-reference",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 69,
+    "reviewEvidenceCoverage": 56,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
         "url": "https://research.iust.ac.ir/"
+      },
+      {
+        "label": "دستورالعمل اجرایی قطب‌های علمی",
+        "url": "https://www.iust.ac.ir/files/res_office/pages/dastore_ghotb.pdf"
       }
     ],
     "officialSourceUrls": [
-      "https://research.iust.ac.ir/"
+      "https://research.iust.ac.ir/",
+      "https://www.iust.ac.ir/files/res_office/pages/dastore_ghotb.pdf"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 69,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 56,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -2850,34 +3020,41 @@
     "reportNameFa": "دانشگاه صنعتی شریف",
     "iscCategory": "صنعتی",
     "iscRank": 2,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
+      "portalIdentity": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
+      "systemsServices": "observed-reference",
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
-      "libraryDocuments": "unresolved",
-      "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
+      "portalIdentity": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
+      "systemsServices": "observed-reference",
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 44,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://research.sharif.ir/"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://research.sharif.ir/"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 44,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -2886,30 +3063,30 @@
     "reportNameFa": "دانشگاه صنعتی امیرکبیر",
     "iscCategory": "صنعتی",
     "iscRank": 3,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
+      "systemsServices": "observed-reference",
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
+      "systemsServices": "observed-reference",
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 75,
+    "reviewEvidenceCoverage": 44,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
@@ -2919,8 +3096,8 @@
     "officialSourceUrls": [
       "https://research.aut.ac.ir/"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 75,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 44,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -2929,41 +3106,46 @@
     "reportNameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
     "iscCategory": "صنعتی",
     "iscRank": 4,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
-      "documentsRegulations": "unresolved"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 75,
+    "reviewEvidenceCoverage": 56,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
         "url": "https://research.kntu.ac.ir/"
+      },
+      {
+        "label": "کارنامه پژوهشی دانشگاه",
+        "url": "https://kntu.ac.ir/dorsapax/userfiles/file/Pajohesh/karnameh1392.pdf"
       }
     ],
     "officialSourceUrls": [
-      "https://research.kntu.ac.ir/"
+      "https://research.kntu.ac.ir/",
+      "https://kntu.ac.ir/dorsapax/userfiles/file/Pajohesh/karnameh1392.pdf"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 75,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 56,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -2972,42 +3154,47 @@
     "reportNameFa": "دانشگاه صنعتی اصفهان",
     "iscCategory": "صنعتی",
     "iscRank": 5,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "observed-reference",
-      "systemsServices": "verified",
+      "systemsServices": "observed-reference",
       "documentsRegulations": "verified"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
-      "informationTechnology": "verified",
-      "systemsServices": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
+      "informationTechnology": "observed-reference",
+      "systemsServices": "observed-reference",
       "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 94,
+    "reviewEvidenceCoverage": 63,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
         "url": "https://research.iut.ac.ir/"
+      },
+      {
+        "label": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1",
+        "url": "https://research.iut.ac.ir/fa/dgr/1770"
       }
     ],
     "officialSourceUrls": [
-      "https://research.iut.ac.ir/"
+      "https://research.iut.ac.ir/",
+      "https://research.iut.ac.ir/fa/dgr/1770"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 100,
-    "publicationAdjustedOutcomes": 1
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 63,
+    "publicationAdjustedOutcomes": 0
   },
   {
     "universitySlug": "shahrood-technology",
@@ -3015,41 +3202,51 @@
     "reportNameFa": "دانشگاه صنعتی شاهرود",
     "iscCategory": "صنعتی",
     "iscRank": 6,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "observed-reference",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "observed-reference",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 19,
+    "reviewEvidenceCoverage": 38,
     "officialSources": [
       {
         "label": "منبع رسمی ۱",
         "url": "https://shahroodut.ac.ir/"
+      },
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=11"
+      },
+      {
+        "label": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1",
+        "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=6&index=257"
       }
     ],
     "officialSourceUrls": [
-      "https://shahroodut.ac.ir/"
+      "https://shahroodut.ac.ir/",
+      "https://www.shahroodut.ac.ir/fa/sec/index.php?id=11",
+      "https://www.shahroodut.ac.ir/fa/sec/index.php?id=6&index=257"
     ],
-    "reviewNote": "منبع رسمی ۱",
-    "reportedEvidenceCoverage": 19,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 3 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 38,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -3058,34 +3255,46 @@
     "reportNameFa": "دانشگاه صنعتی نوشیروانی بابل",
     "iscCategory": "صنعتی",
     "iscRank": 7,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 25,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://research.nit.ac.ir/"
+      },
+      {
+        "label": "شیوه‌نامه آموزشی دوره دکتری",
+        "url": "https://edu.nit.ac.ir/file/download/regulation/657051cde5f4e-1402.pdf"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://research.nit.ac.ir/",
+      "https://edu.nit.ac.ir/file/download/regulation/657051cde5f4e-1402.pdf"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 25,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -3094,10 +3303,10 @@
     "reportNameFa": "دانشگاه صنعتی سهند",
     "iscCategory": "صنعتی",
     "iscRank": 8,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -3107,7 +3316,7 @@
       "documentsRegulations": "observed-reference"
     },
     "reportedDimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -3117,18 +3326,23 @@
       "documentsRegulations": "observed-reference"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 25,
+    "reviewEvidenceCoverage": 31,
     "officialSources": [
       {
         "label": "منبع رسمی ۱",
         "url": "http://sut.ac.ir/main/ShowArticle.aspx?artid=2039"
+      },
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://sut.ac.ir/research/fa/"
       }
     ],
     "officialSourceUrls": [
-      "http://sut.ac.ir/main/ShowArticle.aspx?artid=2039"
+      "http://sut.ac.ir/main/ShowArticle.aspx?artid=2039",
+      "https://sut.ac.ir/research/fa/"
     ],
-    "reviewNote": "منبع رسمی ۱",
-    "reportedEvidenceCoverage": 25,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 31,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -3137,8 +3351,8 @@
     "reportNameFa": "دانشگاه صنعتی شیراز",
     "iscCategory": "صنعتی",
     "iscRank": 9,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "observed-reference",
       "organization": "observed-reference",
@@ -3170,7 +3384,7 @@
     "officialSourceUrls": [
       "https://sutech.ac.ir/"
     ],
-    "reviewNote": "منبع رسمی ۱",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 13,
     "publicationAdjustedOutcomes": 0
   },
@@ -3180,8 +3394,8 @@
     "reportNameFa": "دانشگاه تحصیلات تکمیلی صنعتی و فناوری پیشرفته کرمان",
     "iscCategory": "صنعتی",
     "iscRank": 10,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -3206,7 +3420,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -3216,8 +3430,8 @@
     "reportNameFa": "دانشگاه صنعتی ارومیه",
     "iscCategory": "صنعتی",
     "iscRank": 11,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -3242,7 +3456,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -3252,10 +3466,10 @@
     "reportNameFa": "دانشگاه صنعتی قوچان",
     "iscCategory": "صنعتی",
     "iscRank": 12,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -3265,7 +3479,7 @@
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -3275,11 +3489,18 @@
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 13,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://research.qiet.ac.ir/"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://research.qiet.ac.ir/"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 13,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -3288,8 +3509,8 @@
     "reportNameFa": "دانشگاه صنعتی اراک",
     "iscCategory": "صنعتی",
     "iscRank": 13,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -3314,7 +3535,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -3324,34 +3545,46 @@
     "reportNameFa": "دانشگاه صنعتی کرمانشاه",
     "iscCategory": "صنعتی",
     "iscRank": 14,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
-      "portalIdentity": "unresolved",
+      "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 25,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://research.kut.ac.ir/"
+      },
+      {
+        "label": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1",
+        "url": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://research.kut.ac.ir/",
+      "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 25,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -3360,30 +3593,30 @@
     "reportNameFa": "دانشگاه صنعتی قم",
     "iscCategory": "صنعتی",
     "iscRank": 15,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
-      "documentsRegulations": "verified"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
-      "systemsServices": "verified",
-      "documentsRegulations": "verified"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 88,
+    "reviewEvidenceCoverage": 44,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
@@ -3393,8 +3626,8 @@
     "officialSourceUrls": [
       "https://qut.ac.ir/fa/researches/index"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 88,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 44,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -3403,8 +3636,8 @@
     "reportNameFa": "دانشگاه صنعتی جندی شاپور دزفول",
     "iscCategory": "صنعتی",
     "iscRank": 16,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -3429,7 +3662,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -3439,8 +3672,8 @@
     "reportNameFa": "دانشگاه صنعتی همدان",
     "iscCategory": "صنعتی",
     "iscRank": 17,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -3465,7 +3698,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -3475,8 +3708,8 @@
     "reportNameFa": "دانشگاه صنعتی خاتم الانبیاء بهبهان",
     "iscCategory": "صنعتی",
     "iscRank": 17,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "دسترسی محدود/مسدود",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -3501,7 +3734,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع عمومی قابل ممیزی در این نوبت در دسترس نبود؛ restricted",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 8
   },
@@ -3511,8 +3744,8 @@
     "reportNameFa": "دانشگاه صنعتی سیرجان",
     "iscCategory": "صنعتی",
     "iscRank": 19,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -3537,7 +3770,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -3547,8 +3780,8 @@
     "reportNameFa": "دانشگاه علم و فناوری مازندران (بهشهر)",
     "iscCategory": "صنعتی",
     "iscRank": 20,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -3573,7 +3806,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -3583,8 +3816,8 @@
     "reportNameFa": "مجتمع آموزش عالی فنی و مهندسی اسفراین",
     "iscCategory": "صنعتی",
     "iscRank": 21,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -3609,7 +3842,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -3619,10 +3852,10 @@
     "reportNameFa": "دانشگاه صنعتی بیرجند",
     "iscCategory": "صنعتی",
     "iscRank": 22,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -3632,7 +3865,7 @@
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -3642,7 +3875,7 @@
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 19,
+    "reviewEvidenceCoverage": 25,
     "officialSources": [
       {
         "label": "منبع رسمی ۱",
@@ -3651,14 +3884,19 @@
       {
         "label": "منبع رسمی ۲",
         "url": "https://birjandut.ac.ir/fa/news/1859"
+      },
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://research.birjandut.ac.ir/"
       }
     ],
     "officialSourceUrls": [
       "https://birjandut.ac.ir/fa/news/1858",
-      "https://birjandut.ac.ir/fa/news/1859"
+      "https://birjandut.ac.ir/fa/news/1859",
+      "https://research.birjandut.ac.ir/"
     ],
-    "reviewNote": "منبع رسمی ۱، منبع رسمی ۲",
-    "reportedEvidenceCoverage": 19,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 3 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 25,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -3667,8 +3905,8 @@
     "reportNameFa": "مرکز آموزش عالی فنی و مهندسی بوئین زهرا",
     "iscCategory": "صنعتی",
     "iscRank": 23,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -3693,7 +3931,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -3703,8 +3941,8 @@
     "reportNameFa": "مرکز آموزش عالی محلات",
     "iscCategory": "صنعتی",
     "iscRank": 24,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -3729,7 +3967,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -3739,8 +3977,8 @@
     "reportNameFa": "دانشگاه علوم کشاورزی و منابع طبیعی گرگان",
     "iscCategory": "علوم کشاورزی",
     "iscRank": 1,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -3765,7 +4003,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -3775,8 +4013,8 @@
     "reportNameFa": "دانشگاه علوم کشاورزی و منابع طبیعی ساری",
     "iscCategory": "علوم کشاورزی",
     "iscRank": 2,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -3801,7 +4039,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -3811,8 +4049,8 @@
     "reportNameFa": "دانشگاه علوم کشاورزی و منابع طبیعی خوزستان",
     "iscCategory": "علوم کشاورزی",
     "iscRank": 3,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "observed-reference",
       "organization": "observed-reference",
@@ -3821,7 +4059,7 @@
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "observed-reference",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
       "portalIdentity": "observed-reference",
@@ -3831,21 +4069,31 @@
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "observed-reference",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 19,
+    "reviewEvidenceCoverage": 31,
     "officialSources": [
       {
         "label": "منبع رسمی ۱",
         "url": "https://jrpsm.asnrukh.ac.ir/"
+      },
+      {
+        "label": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1",
+        "url": "https://asnrukh.ac.ir/karafarini/fa/regulation?sort=title"
+      },
+      {
+        "label": "شیوه‌نامه انتشارات دانشگاه",
+        "url": "https://asnrukh.ac.ir/file/download/page/1614232844-.pdf"
       }
     ],
     "officialSourceUrls": [
-      "https://jrpsm.asnrukh.ac.ir/"
+      "https://jrpsm.asnrukh.ac.ir/",
+      "https://asnrukh.ac.ir/karafarini/fa/regulation?sort=title",
+      "https://asnrukh.ac.ir/file/download/page/1614232844-.pdf"
     ],
-    "reviewNote": "منبع رسمی ۱",
-    "reportedEvidenceCoverage": 19,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 3 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 31,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -3854,8 +4102,8 @@
     "reportNameFa": "دانشکده کشاورزی و دامپروری تربت جام",
     "iscCategory": "علوم کشاورزی",
     "iscRank": 4,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -3880,7 +4128,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -3890,30 +4138,30 @@
     "reportNameFa": "دانشگاه هنر ایران",
     "iscCategory": "هنر",
     "iscRank": 1,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "observed-reference",
-      "systemsServices": "verified",
-      "documentsRegulations": "verified"
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
-      "informationTechnology": "verified",
-      "systemsServices": "verified",
-      "documentsRegulations": "verified"
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
+      "informationTechnology": "observed-reference",
+      "systemsServices": "observed-reference",
+      "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 94,
+    "reviewEvidenceCoverage": 50,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
@@ -3923,9 +4171,9 @@
     "officialSourceUrls": [
       "https://research.art.ac.ir/fa"
     ],
-    "reviewNote": "پرتال پژوهش ۱",
-    "reportedEvidenceCoverage": 100,
-    "publicationAdjustedOutcomes": 1
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 50,
+    "publicationAdjustedOutcomes": 0
   },
   {
     "universitySlug": "tabriz-islamic-art",
@@ -3933,8 +4181,8 @@
     "reportNameFa": "دانشگاه هنر اسلامی تبریز",
     "iscCategory": "هنر",
     "iscRank": 2,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "observed-reference",
       "organization": "unresolved",
@@ -3943,7 +4191,7 @@
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
       "portalIdentity": "observed-reference",
@@ -3953,21 +4201,26 @@
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 6,
+    "reviewEvidenceCoverage": 19,
     "officialSources": [
       {
         "label": "منبع رسمی ۱",
         "url": "https://tabriziau.ac.ir/"
+      },
+      {
+        "label": "امتیازبندی فعالیت‌های پژوهشی",
+        "url": "https://research.tabriziau.ac.ir/uploads/user/8/files/%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%20%D9%88%20%D9%81%D8%B1%D9%85%20%D9%87%D8%A7/%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%20%D8%A8%D9%86%D8%AF%DB%8C%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%20%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%28new%29%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%20%D8%A8%D9%86%D8%AF%DB%8C%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf"
       }
     ],
     "officialSourceUrls": [
-      "https://tabriziau.ac.ir/"
+      "https://tabriziau.ac.ir/",
+      "https://research.tabriziau.ac.ir/uploads/user/8/files/%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%20%D9%88%20%D9%81%D8%B1%D9%85%20%D9%87%D8%A7/%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%20%D8%A8%D9%86%D8%AF%DB%8C%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%20%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%28new%29%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%20%D8%A8%D9%86%D8%AF%DB%8C%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf"
     ],
-    "reviewNote": "منبع رسمی ۱",
-    "reportedEvidenceCoverage": 6,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 19,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -3976,8 +4229,8 @@
     "reportNameFa": "دانشگاه هنر اصفهان",
     "iscCategory": "هنر",
     "iscRank": 3,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "observed-reference",
       "organization": "unresolved",
@@ -4009,7 +4262,7 @@
     "officialSourceUrls": [
       "https://aui.ac.ir/"
     ],
-    "reviewNote": "منبع رسمی ۱",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 6,
     "publicationAdjustedOutcomes": 0
   },
@@ -4019,8 +4272,8 @@
     "reportNameFa": "دانشگاه هنر شیراز",
     "iscCategory": "هنر",
     "iscRank": 4,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "observed-reference",
       "organization": "observed-reference",
@@ -4052,7 +4305,7 @@
     "officialSourceUrls": [
       "http://www.shirazartu.ac.ir/"
     ],
-    "reviewNote": "منبع رسمی ۱",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 13,
     "publicationAdjustedOutcomes": 0
   },
@@ -4062,8 +4315,8 @@
     "reportNameFa": "دانشگاه پیام نور",
     "iscCategory": "زیرنظام",
     "iscRank": 1,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "observed-reference",
       "organization": "unresolved",
@@ -4095,7 +4348,7 @@
     "officialSourceUrls": [
       "https://pnu.ac.ir/"
     ],
-    "reviewNote": "منبع رسمی ۱",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 6,
     "publicationAdjustedOutcomes": 0
   },
@@ -4105,8 +4358,8 @@
     "reportNameFa": "دانشگاه ملی مهارت",
     "iscCategory": "زیرنظام",
     "iscRank": 2,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "observed-reference",
       "organization": "unresolved",
@@ -4138,7 +4391,7 @@
     "officialSourceUrls": [
       "https://www.nus.ac.ir/"
     ],
-    "reviewNote": "منبع رسمی ۱",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 6,
     "publicationAdjustedOutcomes": 0
   },
@@ -4148,10 +4401,10 @@
     "reportNameFa": "دانشگاه فرهنگیان",
     "iscCategory": "زیرنظام",
     "iscRank": 3,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "مرجع رسمی؛ ممیزی عمیق باز",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -4161,7 +4414,7 @@
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
@@ -4171,18 +4424,23 @@
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 19,
+    "reviewEvidenceCoverage": 25,
     "officialSources": [
       {
         "label": "منبع رسمی ۱",
         "url": "https://esfahan.cfu.ac.ir/fa/226134/"
+      },
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://cfu.ac.ir/fa/grid/11/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C"
       }
     ],
     "officialSourceUrls": [
-      "https://esfahan.cfu.ac.ir/fa/226134/"
+      "https://esfahan.cfu.ac.ir/fa/226134/",
+      "https://cfu.ac.ir/fa/grid/11/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C"
     ],
-    "reviewNote": "منبع رسمی ۱",
-    "reportedEvidenceCoverage": 19,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 25,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -4191,8 +4449,8 @@
     "reportNameFa": "دانشگاه جامع علمی کاربردی",
     "iscCategory": "زیرنظام",
     "iscRank": 4,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -4217,7 +4475,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -4227,8 +4485,8 @@
     "reportNameFa": "دانشگاه جامع امام حسین (ع)",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 1,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "دسترسی محدود/مسدود",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "restricted",
       "organization": "restricted",
@@ -4253,7 +4511,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع عمومی قابل ممیزی در این نوبت در دسترس نبود؛ restricted",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -4263,30 +4521,30 @@
     "reportNameFa": "دانشگاه شاهد",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 2,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "پوشش مستقیمِ بخشی",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
       "systemsServices": "verified",
-      "documentsRegulations": "verified"
+      "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "organization": "observed-reference",
+      "libraryDocuments": "observed-reference",
+      "laboratories": "observed-reference",
+      "industryTechnology": "observed-reference",
       "informationTechnology": "unresolved",
       "systemsServices": "verified",
-      "documentsRegulations": "verified"
+      "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 88,
+    "reviewEvidenceCoverage": 50,
     "officialSources": [
       {
         "label": "پرتال پژوهش ۱",
@@ -4295,14 +4553,19 @@
       {
         "label": "منبع رسمی ۲",
         "url": "https://res.shahed.ac.ir/"
+      },
+      {
+        "label": "سامانه‌ها و خدمات 1",
+        "url": "https://library.shahed.ac.ir/"
       }
     ],
     "officialSourceUrls": [
       "https://res.shahed.ac.ir",
-      "https://res.shahed.ac.ir/"
+      "https://res.shahed.ac.ir/",
+      "https://library.shahed.ac.ir/"
     ],
-    "reviewNote": "پرتال پژوهش ۱، منبع رسمی ۲",
-    "reportedEvidenceCoverage": 88,
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 3 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 50,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -4311,8 +4574,8 @@
     "reportNameFa": "دانشگاه صنعتی مالک اشتر",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 3,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "دسترسی محدود/مسدود",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "restricted",
       "organization": "restricted",
@@ -4337,7 +4600,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع عمومی قابل ممیزی در این نوبت در دسترس نبود؛ restricted",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -4347,34 +4610,51 @@
     "reportNameFa": "دانشگاه تربیت دبیر شهید رجایی",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 4,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
+      "portalIdentity": "verified",
+      "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
+      "informationTechnology": "observed-reference",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
+      "portalIdentity": "verified",
+      "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
-      "informationTechnology": "unresolved",
+      "informationTechnology": "observed-reference",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 38,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/"
+      },
+      {
+        "label": "فناوری اطلاعات وابسته 1",
+        "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D9%85%D8%A7/"
+      },
+      {
+        "label": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1",
+        "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
+      "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D9%85%D8%A7/",
+      "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 3 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 38,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -4383,8 +4663,8 @@
     "reportNameFa": "دانشگاه فرماندهی و ستاد آجا (دافوس)",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 5,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "دسترسی محدود/مسدود",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -4409,7 +4689,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع عمومی قابل ممیزی در این نوبت در دسترس نبود؛ restricted",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 8
   },
@@ -4419,8 +4699,8 @@
     "reportNameFa": "دانشگاه عالی دفاع ملی",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 6,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "دسترسی محدود/مسدود",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
       "portalIdentity": "restricted",
       "organization": "restricted",
@@ -4429,7 +4709,7 @@
       "industryTechnology": "restricted",
       "informationTechnology": "restricted",
       "systemsServices": "restricted",
-      "documentsRegulations": "restricted"
+      "documentsRegulations": "verified"
     },
     "reportedDimensions": {
       "portalIdentity": "restricted",
@@ -4439,14 +4719,21 @@
       "industryTechnology": "restricted",
       "informationTechnology": "restricted",
       "systemsServices": "restricted",
-      "documentsRegulations": "restricted"
+      "documentsRegulations": "verified"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع عمومی قابل ممیزی در این نوبت در دسترس نبود؛ restricted",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 13,
+    "officialSources": [
+      {
+        "label": "دستورالعمل آزمون ورودی دوره دکتری تخصصی",
+        "url": "https://sndu.ac.ir/file/download/news/1610428363-.pdf"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://sndu.ac.ir/file/download/news/1610428363-.pdf"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 1 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 13,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -4455,8 +4742,8 @@
     "reportNameFa": "دانشگاه علوم انتظامی امین",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 7,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "دسترسی محدود/مسدود",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -4481,7 +4768,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع عمومی قابل ممیزی در این نوبت در دسترس نبود؛ restricted",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 8
   },
@@ -4491,11 +4778,11 @@
     "reportNameFa": "دانشگاه صنعت نفت",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 8,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی مستقیم پرتال و مخازن اسناد انجام شد",
     "dimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
+      "portalIdentity": "verified",
+      "organization": "verified",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
@@ -4504,8 +4791,8 @@
       "documentsRegulations": "unresolved"
     },
     "reportedDimensions": {
-      "portalIdentity": "unresolved",
-      "organization": "unresolved",
+      "portalIdentity": "verified",
+      "organization": "verified",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
@@ -4514,11 +4801,23 @@
       "documentsRegulations": "unresolved"
     },
     "reviewCompletion": 100,
-    "reviewEvidenceCoverage": 0,
-    "officialSources": [],
-    "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
-    "reportedEvidenceCoverage": 0,
+    "reviewEvidenceCoverage": 25,
+    "officialSources": [
+      {
+        "label": "پرتال پژوهش و فناوری 1",
+        "url": "https://www.put.ac.ir/fa-IR/put/4793/page/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A"
+      },
+      {
+        "label": "ساختار معاونت 1",
+        "url": "https://www.put.ac.ir/fa-IR/put/5028/page/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%D9%8A-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87"
+      }
+    ],
+    "officialSourceUrls": [
+      "https://www.put.ac.ir/fa-IR/put/4793/page/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A",
+      "https://www.put.ac.ir/fa-IR/put/5028/page/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%D9%8A-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87"
+    ],
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 2 URL رسمی ثبت است.",
+    "reportedEvidenceCoverage": 25,
     "publicationAdjustedOutcomes": 0
   },
   {
@@ -4527,8 +4826,8 @@
     "reportNameFa": "دانشگاه صدا و سیمای جمهوری اسلامی ایران",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 9,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "حل‌نشده",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "unresolved",
       "organization": "unresolved",
@@ -4553,7 +4852,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع رسمی مستقیم در این نوبت پیدا/بازیابی نشد؛ unresolved",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   },
@@ -4563,8 +4862,8 @@
     "reportNameFa": "مرکز آموزش عالی هوانوردی و فرودگاهی کشور",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 10,
-    "reviewedAt": "2026-08-10",
-    "reviewOutcome": "دسترسی محدود/مسدود",
+    "reviewedAt": "2026-08-11",
+    "reviewOutcome": "بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",
     "dimensions": {
       "portalIdentity": "restricted",
       "organization": "restricted",
@@ -4589,7 +4888,7 @@
     "reviewEvidenceCoverage": 0,
     "officialSources": [],
     "officialSourceUrls": [],
-    "reviewNote": "منبع عمومی قابل ممیزی در این نوبت در دسترس نبود؛ restricted",
+    "reviewNote": "بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ 0 URL رسمی ثبت است.",
     "reportedEvidenceCoverage": 0,
     "publicationAdjustedOutcomes": 0
   }

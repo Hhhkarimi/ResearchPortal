@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "9.0.0",
-  "snapshotDate": "2026-08-10",
+  "schemaVersion": "10.0.0",
+  "snapshotDate": "2026-08-11",
   "institution": {
     "category": "جامع",
     "iscRank": 23,
@@ -12,13 +12,15 @@
     "nameFa": "دانشگاه بوعلی سینا",
     "iscCategory": "جامع",
     "iscRank": 23,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-channel-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://res.basu.ac.ir/",
     "evidenceUrls": [
-      "https://t.me/s/basuacir"
+      "https://t.me/s/basuacir",
+      "https://res.basu.ac.ir/",
+      "https://res.basu.ac.ir/journals-regulations/-/document_library/ocki/view/3692745"
     ],
-    "note": "در ممیزی سیستماتیک شواهدی از حوزه پژوهش/فناوری یافت شد، اما برای ادعای ساختار کامل یا رتبه عددی هنوز Evidence مستقیم کافی نیست.",
+    "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked",
     "observedSignals": [
       "research"
@@ -29,27 +31,29 @@
     "nameFa": "دانشگاه بوعلی سینا",
     "iscCategory": "جامع",
     "iscRank": 23,
-    "auditDate": "2026-08-10",
-    "portalAuditStatus": "official-channel-reference",
-    "researchUrl": null,
+    "auditDate": "2026-08-11",
+    "portalAuditStatus": "direct-official",
+    "researchUrl": "https://res.basu.ac.ir/",
     "evidenceUrls": [
-      "https://t.me/s/basuacir"
+      "https://t.me/s/basuacir",
+      "https://res.basu.ac.ir/",
+      "https://res.basu.ac.ir/journals-regulations/-/document_library/ocki/view/3692745"
     ],
-    "deepAuditStatus": "reference-resolved-deep-pending",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
-      "portalIdentity": "observed-reference",
+      "portalIdentity": "verified",
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
       "informationTechnology": "unresolved",
       "systemsServices": "unresolved",
-      "documentsRegulations": "unresolved"
+      "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 13,
+    "auditEvidenceCoverage": 31,
     "unitsFound": 0,
     "systemsFound": 0,
-    "documentsFound": 0,
+    "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -64,9 +68,15 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 3,
       "sources": [
+        {
+          "url": "https://res.basu.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        },
         {
           "url": "https://t.me/s/basuacir",
           "kind": "portal-identity",
@@ -74,11 +84,10 @@
           "id": null
         },
         {
-          "url": "https://res.basu.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱"
+          "url": "https://res.basu.ac.ir/journals-regulations/-/document_library/ocki/view/3692745",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -92,31 +101,14 @@
       "iscCategory": "جامع",
       "iscRank": 23,
       "dimension": "organization",
-      "status": "observed-reference",
-      "reportedStatus": "verified",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
-      "sources": [
-        {
-          "url": "https://res.basu.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.basu.ac.ir/journals-regulations/-/document_library/ocki/view/3692745",
-          "kind": "research-review-reference",
-          "claim": "آیین‌نامه مجلات ۲",
-          "id": null,
-          "sourceLabel": "آیین‌نامه مجلات ۲",
-          "sourceSpecificity": "university-reference"
-        }
-      ],
-      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
-      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -126,10 +118,10 @@
       "iscCategory": "جامع",
       "iscRank": 23,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
@@ -141,7 +133,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -154,7 +146,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -168,31 +160,14 @@
       "iscCategory": "جامع",
       "iscRank": 23,
       "dimension": "industryTechnology",
-      "status": "observed-reference",
-      "reportedStatus": "verified",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-10",
-      "sourceCount": 2,
-      "sources": [
-        {
-          "url": "https://res.basu.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.basu.ac.ir/journals-regulations/-/document_library/ocki/view/3692745",
-          "kind": "research-review-reference",
-          "claim": "آیین‌نامه مجلات ۲",
-          "id": null,
-          "sourceLabel": "آیین‌نامه مجلات ۲",
-          "sourceSpecificity": "university-reference"
-        }
-      ],
-      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
-      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-11",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -205,7 +180,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -222,7 +197,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 0,
       "sources": [],
       "publicationAdjustment": null,
@@ -239,15 +214,14 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-10",
+      "reviewedAt": "2026-08-11",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://res.basu.ac.ir/journals-regulations/-/document_library/ocki/view/3692745",
-          "kind": "research-review-specific",
-          "claim": "آیین‌نامه مجلات ۲",
-          "id": null,
-          "sourceLabel": "آیین‌نامه مجلات ۲"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -258,7 +232,21 @@
   "ranking": null,
   "units": [],
   "systems": [],
-  "documents": [],
+  "documents": [
+    {
+      "id": "bu-ali-sina-reaudit-doc-1",
+      "universitySlug": "bu-ali-sina",
+      "title": "فهرست فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها",
+      "type": "فهرست اسناد",
+      "topic": "سایر",
+      "taxonomy": null,
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://res.basu.ac.ir/journals-regulations/-/document_library/ocki/view/3692745",
+      "sourceUrl": "https://res.basu.ac.ir/journals-regulations/-/document_library/ocki/view/3692745"
+    }
+  ],
   "interpretation": {
     "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
     "rtpmi": "Portal maturity/transparency only; not research performance.",
