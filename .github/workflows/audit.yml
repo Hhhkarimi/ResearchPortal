@@ -1,4 +1,4 @@
-name: National Evidence Link Monitor
+name: National Research Discovery & Evidence Monitor
 
 on:
   workflow_dispatch:
@@ -9,13 +9,26 @@ permissions:
   contents: write
 
 concurrency:
-  group: national-evidence-link-monitor
-  cancel-in-progress: false
+  group: national-research-discovery
+  cancel-in-progress: true
 
 jobs:
   audit:
     runs-on: [self-hosted, windows, iran-crawler]
-    timeout-minutes: 60
+    timeout-minutes: 120
+
+    env:
+      CRAWL_MAX_DEPTH: "3"
+      CRAWL_MAX_PAGES_PER_UNIVERSITY: "40"
+      CRAWL_MAX_DOCUMENTS_PER_UNIVERSITY: "60"
+      CRAWL_PAGE_TIMEOUT_MS: "10000"
+      CRAWL_DOCUMENT_TIMEOUT_MS: "20000"
+      CRAWL_PAGE_CONCURRENCY: "3"
+      CRAWL_UNIVERSITY_CONCURRENCY: "4"
+      CRAWL_MAX_DOCUMENT_BYTES: "26214400"
+      CRAWL_DOCUMENT_DIR: 'C:\actions-runner\_research-documents'
+      CRAWL_USE_BROWSER_FALLBACK: "1"
+      DISCOVERY_PROMOTE_CONFIDENCE: "0.78"
 
     steps:
       - name: Checkout repository
@@ -23,48 +36,56 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
+          clean: true
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
 
-      - name: Crawl and monitor evidence links
+      - name: Sanitize and rebuild current published evidence
         shell: cmd
-        run: npm run monitor:links
+        run: |
+          npm run prepare:data
+          npm run validate:data
+          npm run validate:no-social
 
-      - name: Inspect crawl changes
-        id: crawl
-        shell: cmd
-        run: node scripts/inspect-crawl-report.mjs
-
-      - name: Commit meaningful crawl changes
-        if: steps.crawl.outputs.meaningful == 'true'
+      - name: Publish sanitized baseline
         shell: cmd
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/generated/site-health.json data/generated/change-report.json
-          git diff --cached --quiet || git commit -m "chore(crawl): update evidence health (changed=${{ steps.crawl.outputs.changed }}, new=${{ steps.crawl.outputs.new }})"
+          git add data public/datasets
+          git diff --cached --quiet || git commit -m "chore(data): sanitize published evidence"
           git pull --rebase origin main
           git push origin HEAD:main
 
-      - name: No meaningful changes
-        if: steps.crawl.outputs.meaningful != 'true'
+      - name: Deep crawl official research portals
+        shell: cmd
+        run: npm run discover:research
+
+      - name: Promote discovery and rebuild evidence datasets
+        shell: cmd
+        run: npm run prepare:data
+
+      - name: Monitor published evidence links
+        shell: cmd
+        run: npm run monitor:links
+
+      - name: Validate rebuilt datasets
+        shell: cmd
+        run: npm run validate:data
+
+      - name: Enforce no social evidence
+        shell: cmd
+        run: npm run validate:no-social
+
+      - name: Commit deep crawler results
         shell: cmd
         run: |
-          echo No meaningful evidence changes detected.
-          echo Network failures: ${{ steps.crawl.outputs.failed }}
-          echo Nothing will be committed.
-
-      - name: Upload crawl report
-        if: always()
-        continue-on-error: true
-        timeout-minutes: 2
-        uses: actions/upload-artifact@v4
-        with:
-          name: national-evidence-health
-          path: |
-            data/generated/site-health.json
-            data/generated/change-report.json
-          retention-days: 30
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data public/datasets
+          git diff --cached --quiet || git commit -m "chore(crawl): refresh deep research evidence"
+          git pull --rebase origin main
+          git push origin HEAD:main
