@@ -1,0 +1,45 @@
+name: به‌روزرسانی Evidence دانشگاه
+description: پیشنهاد منبع رسمی یا اصلاح داده یک دانشگاه
+title: "[Evidence]: "
+labels: ["data", "evidence-review"]
+body:
+  - type: input
+    id: university
+    attributes:
+      label: دانشگاه یا مؤسسه
+    validations:
+      required: true
+  - type: input
+    id: slug
+    attributes:
+      label: Slug موجود در فهرست ISC
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: URL منبع رسمی
+    validations:
+      required: true
+  - type: dropdown
+    id: dimension
+    attributes:
+      label: بُعد ممیزی
+      options:
+        - هویت پرتال
+        - ساختار سازمانی
+        - کتابخانه و مرکز اسناد
+        - آزمایشگاه
+        - صنعت و فناوری
+        - فناوری اطلاعات
+        - سامانه‌ها و خدمات
+        - اسناد و مقررات
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: ادعای قابل اثبات
+      description: منبع دقیقاً چه چیزی را اثبات می‌کند؟
+    validations:
+      required: true

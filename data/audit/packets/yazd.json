@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "جامع",
@@ -50,6 +50,268 @@
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "yazd:portalIdentity",
+      "universitySlug": "yazd",
+      "nameFa": "دانشگاه یزد",
+      "iscCategory": "جامع",
+      "iscRank": 17,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://yazd.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://yazd.ac.ir/offices/research/home/introduction",
+          "kind": "research-review-specific",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "yazd:organization",
+      "universitySlug": "yazd",
+      "nameFa": "دانشگاه یزد",
+      "iscCategory": "جامع",
+      "iscRank": 17,
+      "dimension": "organization",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "ساختار و خدمات ۲",
+          "id": null,
+          "sourceLabel": "ساختار و خدمات ۲"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "yazd:libraryDocuments",
+      "universitySlug": "yazd",
+      "nameFa": "دانشگاه یزد",
+      "iscCategory": "جامع",
+      "iscRank": 17,
+      "dimension": "libraryDocuments",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://yazd.ac.ir/offices/research/home/introduction",
+          "kind": "research-review-reference",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "ساختار و خدمات ۲",
+          "id": null,
+          "sourceLabel": "ساختار و خدمات ۲",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "yazd:laboratories",
+      "universitySlug": "yazd",
+      "nameFa": "دانشگاه یزد",
+      "iscCategory": "جامع",
+      "iscRank": 17,
+      "dimension": "laboratories",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://yazd.ac.ir/offices/research/home/introduction",
+          "kind": "research-review-reference",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "ساختار و خدمات ۲",
+          "id": null,
+          "sourceLabel": "ساختار و خدمات ۲",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "yazd:industryTechnology",
+      "universitySlug": "yazd",
+      "nameFa": "دانشگاه یزد",
+      "iscCategory": "جامع",
+      "iscRank": 17,
+      "dimension": "industryTechnology",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://yazd.ac.ir/offices/research/home/introduction",
+          "kind": "research-review-reference",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "ساختار و خدمات ۲",
+          "id": null,
+          "sourceLabel": "ساختار و خدمات ۲",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "yazd:informationTechnology",
+      "universitySlug": "yazd",
+      "nameFa": "دانشگاه یزد",
+      "iscCategory": "جامع",
+      "iscRank": 17,
+      "dimension": "informationTechnology",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://yazd.ac.ir/offices/research/home/introduction",
+          "kind": "research-review-reference",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "ساختار و خدمات ۲",
+          "id": null,
+          "sourceLabel": "ساختار و خدمات ۲",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded until a source proving organizational IT dependency is registered.",
+      "verificationBasis": "Downgraded until a source proving organizational IT dependency is registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "yazd:systemsServices",
+      "universitySlug": "yazd",
+      "nameFa": "دانشگاه یزد",
+      "iscCategory": "جامع",
+      "iscRank": 17,
+      "dimension": "systemsServices",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://yazd.ac.ir/offices/research/home/introduction",
+          "kind": "research-review-reference",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "ساختار و خدمات ۲",
+          "id": null,
+          "sourceLabel": "ساختار و خدمات ۲",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "yazd:documentsRegulations",
+      "universitySlug": "yazd",
+      "nameFa": "دانشگاه یزد",
+      "iscCategory": "جامع",
+      "iscRank": 17,
+      "dimension": "documentsRegulations",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://yazd.ac.ir/offices/research/home/introduction",
+          "kind": "research-review-reference",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "ساختار و خدمات ۲",
+          "id": null,
+          "sourceLabel": "ساختار و خدمات ۲",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": null,
   "units": [],
   "systems": [],

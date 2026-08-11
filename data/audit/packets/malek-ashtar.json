@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "دستگاه اجرایی",
@@ -53,6 +53,207 @@
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "malek-ashtar:portalIdentity",
+      "universitySlug": "malek-ashtar",
+      "nameFa": "دانشگاه صنعتی مالک اشتر",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 3,
+      "dimension": "portalIdentity",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://mut.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "malek-ashtar:organization",
+      "universitySlug": "malek-ashtar",
+      "nameFa": "دانشگاه صنعتی مالک اشتر",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 3,
+      "dimension": "organization",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://mut.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "malek-ashtar:libraryDocuments",
+      "universitySlug": "malek-ashtar",
+      "nameFa": "دانشگاه صنعتی مالک اشتر",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 3,
+      "dimension": "libraryDocuments",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://mut.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "malek-ashtar:laboratories",
+      "universitySlug": "malek-ashtar",
+      "nameFa": "دانشگاه صنعتی مالک اشتر",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 3,
+      "dimension": "laboratories",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://mut.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "malek-ashtar:industryTechnology",
+      "universitySlug": "malek-ashtar",
+      "nameFa": "دانشگاه صنعتی مالک اشتر",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 3,
+      "dimension": "industryTechnology",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://mut.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "malek-ashtar:informationTechnology",
+      "universitySlug": "malek-ashtar",
+      "nameFa": "دانشگاه صنعتی مالک اشتر",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 3,
+      "dimension": "informationTechnology",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://mut.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "malek-ashtar:systemsServices",
+      "universitySlug": "malek-ashtar",
+      "nameFa": "دانشگاه صنعتی مالک اشتر",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 3,
+      "dimension": "systemsServices",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://mut.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "malek-ashtar:documentsRegulations",
+      "universitySlug": "malek-ashtar",
+      "nameFa": "دانشگاه صنعتی مالک اشتر",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 3,
+      "dimension": "documentsRegulations",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://mut.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": null,
   "units": [],
   "systems": [],

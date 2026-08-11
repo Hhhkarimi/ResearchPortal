@@ -1,4 +1,4 @@
-# رصدخانه ملی پرتال پژوهش و فناوری — ISC 115 / v8.1.0
+# رصدخانه ملی پرتال پژوهش و فناوری — ISC 115 / v9.0.0
 
 **Iran Research & Technology Portal Observatory** یک پروژه متن‌باز، فارسی/RTL و Evidence-first برای رصد و مقایسه **پرتال عمومی معاونت پژوهش و فناوری** دانشگاه‌ها و مؤسسات دولتی حاضر در طبقه‌بندی ملی ISC است.
 
@@ -20,7 +20,7 @@
 
 دانشگاه‌های غیردولتی ISC و دانشگاه‌های علوم پزشکی در Scope این پروژه نیستند. Validator در صورت کم/زیاد شدن حتی یک عضو یا تغییر تعداد طبقات Fail می‌شود.
 
-## وضعیت ممیزی v8.1
+## وضعیت ممیزی v9.0
 
 - **115/115** نهاد ISC دارای Portal Resolution Outcome هستند؛ هیچ عضو بدون نتیجه ممیزی باقی نمانده است.
 - **21** هویت پرتال/سطح مستقیم رسمی (`direct-official`).
@@ -33,6 +33,9 @@
 - **34** سند/فرم/آیین‌نامه/شیوه‌نامه ساختاریافته.
 - **362** رکورد Provenance.
 - **115 Audit Packet مستقل**؛ یک فایل کامل برای هر عضو ISC.
+- **920 Outcome مستقل Evidence**؛ هشت نتیجه بازبینی برای هر یک از ۱۱۵ دانشگاه.
+- گزارش پژوهش **171** تأیید مستقیم ثبت کرده؛ gate انتشار **33** مورد بدون شاهد بُعدی/سازمانی مستقل را به ارجاع و **48** restricted بدون URL تلاش‌شده را به حل‌نشده تنزل داده است. رجیستر قابل انتشار: **138** تأیید، **90** ارجاع رسمی، **32** محدود و **660** حل‌نشده.
+- **108 URL رسمی یکتا** در رجیستر بُعدی و **70 ارجاع URL** در گزارش پژوهش ۱۱۵ دانشگاه.
 - **18** پرتال رتبه‌پذیر و **97 Unranked**.
 - **0** امتیاز ساختگی برای داده‌های حل‌نشده.
 
@@ -57,6 +60,8 @@
 - `unresolved`
 
 `unresolved` به معنی «وجود ندارد» نیست.
+
+رجیستر انتشار یک gate دوم هم دارد: URL باید به همان بُعد قابل نگاشت باشد. تأیید IT علاوه بر URL، نیازمند رکورد رسمی رابطه سازمانی است. `restricted` تکمیل فرایند بازبینی را نشان می‌دهد، اما در Evidence Coverage امتیاز پوشش نمی‌گیرد.
 
 ## Audit Packet برای تک‌تک ۱۱۵ عضو
 
@@ -112,7 +117,10 @@ data/
 ├── units/catalog.json
 ├── systems/catalog.json
 ├── documents/catalog.json
-├── evidence/provenance-ledger.json
+├── evidence/
+│   ├── provenance-ledger.json
+│   ├── research-review.json      # 115 independent reviews
+│   └── dimension-evidence.json   # 115 × 8 = 920 outcomes
 └── statistics/
     ├── portal-ranking.json
     ├── rtpmi-weights.json
@@ -129,6 +137,12 @@ cp .env.example .env.local
 npm run release:check
 npm run dev
 ```
+
+برای ساخت یک Repository تازه، ZIP نسخه `repo-ready` را مستقیماً در ریشه Repository استخراج و مراحل [REPOSITORY_CHECKLIST.md](REPOSITORY_CHECKLIST.md) را اجرا کنید. بسته شامل `node_modules` و `.next` نیست؛ این دو خروجی محلی با `npm ci` و `npm run build` ساخته می‌شوند.
+
+## GitHub Codespaces
+
+پروژه دارای `.devcontainer` کامل است. بعد از Push به GitHub از مسیر **Code → Codespaces → Create codespace on main** محیط آماده می‌شود؛ Node 22، وابستگی‌ها، `.env.local` نمونه، اعتبارسنجی داده و Forward پورت ۳۰۰۰ به‌صورت خودکار تنظیم می‌شوند. راهنمای کامل در [docs/CODESPACES.md](docs/CODESPACES.md) است.
 
 ## Pipeline
 
@@ -153,7 +167,7 @@ npm run release:check
 - `/rankings` RTPMI فقط برای Evidence-qualified portals
 - `/compare` مقایسه چندبُعدی
 - `/documents` Document Explorer
-- `/evidence` Provenance Ledger
+- `/evidence` رجیستر فیلترپذیر ۹۲۰ Outcome شواهد و پیوندهای Provenance
 - `/datasets` Open Data
 - `/api-docs` راهنمای API نسخه ۱
 - `/methodology` روش‌شناسی
@@ -162,6 +176,7 @@ npm run release:check
 
 - `GET /api/v1/universities` با فیلترهای `category`، `status`، `ranked`، `q`، `limit` و `offset`
 - `GET /api/v1/universities/{slug}` برای پرونده کامل یک دانشگاه
+- `GET /api/v1/evidence` با فیلترهای `university`، `dimension`، `status`، `limit` و `offset`
 - `GET /api/v1/rankings`
 - `GET /api/v1/summary`
 - `GET /api/v1/health`
@@ -181,4 +196,4 @@ npm run release:check
 
 ## Deploy
 
-Repository را در Vercel Import کنید و `NEXT_PUBLIC_SITE_URL` را تنظیم کنید. CI روی GitHub شامل validation، rebuild داده، typecheck، lint، Next build و dependency audit است. نسخه ۸.۱ دارای lockfile بازتولیدپذیر است.
+Repository را در Vercel Import کنید و `NEXT_PUBLIC_SITE_URL` را تنظیم کنید. CI روی GitHub شامل validation، rebuild داده، typecheck، lint، Next build و dependency audit است. هیچ secret یا دیتابیس خارجی برای اجرای نسخه عمومی لازم نیست.

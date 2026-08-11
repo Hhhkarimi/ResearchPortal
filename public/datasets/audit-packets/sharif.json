@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "صنعتی",
@@ -50,6 +50,206 @@
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "sharif:portalIdentity",
+      "universitySlug": "sharif",
+      "nameFa": "دانشگاه صنعتی شریف",
+      "iscCategory": "صنعتی",
+      "iscRank": 2,
+      "dimension": "portalIdentity",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.sharif.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "sharif:organization",
+      "universitySlug": "sharif",
+      "nameFa": "دانشگاه صنعتی شریف",
+      "iscCategory": "صنعتی",
+      "iscRank": 2,
+      "dimension": "organization",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.sharif.ir/",
+          "kind": "unit",
+          "claim": "مدیریت امور پژوهشی",
+          "id": "sharif-1",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "sharif:libraryDocuments",
+      "universitySlug": "sharif",
+      "nameFa": "دانشگاه صنعتی شریف",
+      "iscCategory": "صنعتی",
+      "iscRank": 2,
+      "dimension": "libraryDocuments",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.sharif.ir/",
+          "kind": "unit",
+          "claim": "کتابخانه مرکزی",
+          "id": "sharif-5",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "sharif:laboratories",
+      "universitySlug": "sharif",
+      "nameFa": "دانشگاه صنعتی شریف",
+      "iscCategory": "صنعتی",
+      "iscRank": 2,
+      "dimension": "laboratories",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.sharif.ir/",
+          "kind": "unit",
+          "claim": "مرکز خدمات آزمایشگاهی",
+          "id": "sharif-4",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "sharif:industryTechnology",
+      "universitySlug": "sharif",
+      "nameFa": "دانشگاه صنعتی شریف",
+      "iscCategory": "صنعتی",
+      "iscRank": 2,
+      "dimension": "industryTechnology",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.sharif.ir/",
+          "kind": "unit",
+          "claim": "مدیریت ارتباط با صنعت",
+          "id": "sharif-2",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "sharif:informationTechnology",
+      "universitySlug": "sharif",
+      "nameFa": "دانشگاه صنعتی شریف",
+      "iscCategory": "صنعتی",
+      "iscRank": 2,
+      "dimension": "informationTechnology",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "sharif:systemsServices",
+      "universitySlug": "sharif",
+      "nameFa": "دانشگاه صنعتی شریف",
+      "iscCategory": "صنعتی",
+      "iscRank": 2,
+      "dimension": "systemsServices",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.sharif.ir/",
+          "kind": "system",
+          "claim": "سامانه اطلاعات اعضای هیئت علمی",
+          "id": "sharif-sys-1",
+          "systemCategory": "research"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "sharif:documentsRegulations",
+      "universitySlug": "sharif",
+      "nameFa": "دانشگاه صنعتی شریف",
+      "iscCategory": "صنعتی",
+      "iscRank": 2,
+      "dimension": "documentsRegulations",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.sharif.ir/",
+          "kind": "document",
+          "claim": "آیین‌نامه مالکیت فکری",
+          "id": "sharif-doc-1"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": {
     "universitySlug": "sharif",
     "nameFa": "دانشگاه صنعتی شریف",

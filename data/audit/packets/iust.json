@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "صنعتی",
@@ -57,6 +57,199 @@
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "iust:portalIdentity",
+      "universitySlug": "iust",
+      "nameFa": "دانشگاه علم و صنعت ایران",
+      "iscCategory": "صنعتی",
+      "iscRank": 1,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.iust.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "iust:organization",
+      "universitySlug": "iust",
+      "nameFa": "دانشگاه علم و صنعت ایران",
+      "iscCategory": "صنعتی",
+      "iscRank": 1,
+      "dimension": "organization",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.iust.ac.ir/",
+          "kind": "unit",
+          "claim": "مدیریت امور پژوهشی",
+          "id": "iust-1",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "iust:libraryDocuments",
+      "universitySlug": "iust",
+      "nameFa": "دانشگاه علم و صنعت ایران",
+      "iscCategory": "صنعتی",
+      "iscRank": 1,
+      "dimension": "libraryDocuments",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.iust.ac.ir/",
+          "kind": "unit",
+          "claim": "انتشارات و نشریات",
+          "id": "iust-3",
+          "unitType": "publishing",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "iust:laboratories",
+      "universitySlug": "iust",
+      "nameFa": "دانشگاه علم و صنعت ایران",
+      "iscCategory": "صنعتی",
+      "iscRank": 1,
+      "dimension": "laboratories",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.iust.ac.ir/",
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی",
+          "id": "iust-2",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "iust:industryTechnology",
+      "universitySlug": "iust",
+      "nameFa": "دانشگاه علم و صنعت ایران",
+      "iscCategory": "صنعتی",
+      "iscRank": 1,
+      "dimension": "industryTechnology",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.iust.ac.ir/",
+          "kind": "unit",
+          "claim": "ارتباط با صنعت",
+          "id": "iust-4",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "iust:informationTechnology",
+      "universitySlug": "iust",
+      "nameFa": "دانشگاه علم و صنعت ایران",
+      "iscCategory": "صنعتی",
+      "iscRank": 1,
+      "dimension": "informationTechnology",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "iust:systemsServices",
+      "universitySlug": "iust",
+      "nameFa": "دانشگاه علم و صنعت ایران",
+      "iscCategory": "صنعتی",
+      "iscRank": 1,
+      "dimension": "systemsServices",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.iust.ac.ir/",
+          "kind": "system",
+          "claim": "شبکه آزمایشگاه‌های علمی ایران (شاعا)",
+          "id": "iust-sys-1",
+          "systemCategory": "national"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "iust:documentsRegulations",
+      "universitySlug": "iust",
+      "nameFa": "دانشگاه علم و صنعت ایران",
+      "iscCategory": "صنعتی",
+      "iscRank": 1,
+      "dimension": "documentsRegulations",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": null,
   "units": [
     {

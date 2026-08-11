@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "جامع",
@@ -50,6 +50,199 @@
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "qom:portalIdentity",
+      "universitySlug": "qom",
+      "nameFa": "دانشگاه قم",
+      "iscCategory": "جامع",
+      "iscRank": 23,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.qom.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "qom:organization",
+      "universitySlug": "qom",
+      "nameFa": "دانشگاه قم",
+      "iscCategory": "جامع",
+      "iscRank": 23,
+      "dimension": "organization",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.qom.ac.ir/",
+          "kind": "unit",
+          "claim": "مدیریت امور پژوهشی",
+          "id": "qom-1",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "qom:libraryDocuments",
+      "universitySlug": "qom",
+      "nameFa": "دانشگاه قم",
+      "iscCategory": "جامع",
+      "iscRank": 23,
+      "dimension": "libraryDocuments",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.qom.ac.ir/",
+          "kind": "unit",
+          "claim": "کتابخانه و مرکز اسناد",
+          "id": "qom-2",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "qom:laboratories",
+      "universitySlug": "qom",
+      "nameFa": "دانشگاه قم",
+      "iscCategory": "جامع",
+      "iscRank": 23,
+      "dimension": "laboratories",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.qom.ac.ir/",
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی",
+          "id": "qom-3",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "qom:industryTechnology",
+      "universitySlug": "qom",
+      "nameFa": "دانشگاه قم",
+      "iscCategory": "جامع",
+      "iscRank": 23,
+      "dimension": "industryTechnology",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.qom.ac.ir/",
+          "kind": "unit",
+          "claim": "فناوری و ارتباط با صنعت",
+          "id": "qom-4",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "qom:informationTechnology",
+      "universitySlug": "qom",
+      "nameFa": "دانشگاه قم",
+      "iscCategory": "جامع",
+      "iscRank": 23,
+      "dimension": "informationTechnology",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "qom:systemsServices",
+      "universitySlug": "qom",
+      "nameFa": "دانشگاه قم",
+      "iscCategory": "جامع",
+      "iscRank": 23,
+      "dimension": "systemsServices",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.qom.ac.ir/",
+          "kind": "system",
+          "claim": "سامانه همایش‌های دانشگاه",
+          "id": "qom-conf",
+          "systemCategory": "research"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "qom:documentsRegulations",
+      "universitySlug": "qom",
+      "nameFa": "دانشگاه قم",
+      "iscCategory": "جامع",
+      "iscRank": 23,
+      "dimension": "documentsRegulations",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": {
     "universitySlug": "qom",
     "nameFa": "دانشگاه قم",

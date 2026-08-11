@@ -1,0 +1,17 @@
+name: CI
+on: [push, pull_request]
+permissions: {contents: read}
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: 22, registry-url: https://registry.npmjs.org}
+      - run: npm ci --no-audit --no-fund
+      - run: npm run release:check
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm run build
+        env: {NEXT_PUBLIC_SITE_URL: "https://example.invalid"}
+      - run: npm audit --omit=dev --audit-level=high

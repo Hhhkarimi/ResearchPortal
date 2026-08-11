@@ -1,15 +1,84 @@
-import fs from "node:fs";import path from "node:path";const read=p=>JSON.parse(fs.readFileSync(p,"utf8"));
-const isc=read("data/isc/institutions.json"),source=read("data/isc/source.json"),audit=read("data/audit/portal-audit.json"),deep=read("data/audit/deep-audit-matrix.json"),rank=read("data/statistics/portal-ranking.json"),units=read("data/units/catalog.json"),systems=read("data/systems/catalog.json"),docs=read("data/documents/catalog.json"),packets=read("data/audit/packets-index.json"),ledger=read("data/evidence/provenance-ledger.json");
-const cats={جامع:69,صنعتی:24,"علوم کشاورزی":4,هنر:4,زیرنظام:4,"دستگاه اجرایی":10};
-if(isc.length!==115)throw Error(`ISC scope must be 115, got ${isc.length}`);if(source.publicInstitutions!==115)throw Error('ISC source metadata count mismatch');for(const [k,n] of Object.entries(cats)){const c=isc.filter(x=>x.category===k).length;if(c!==n)throw Error(`${k}: ${c} != ${n}`);if(source.categories?.[k]!==n)throw Error(`source category ${k} mismatch`)}
-const slugs=isc.map(x=>x.slug),valid=new Set(slugs);if(valid.size!==115)throw Error('Duplicate ISC slug');
-for(const [name,collection] of [['Audit',audit],['Deep audit',deep],['Packet index',packets]])if(collection.length!==115||new Set(collection.map(x=>x.universitySlug??x.slug)).size!==115)throw Error(`${name} must cover unique 115 ISC institutions`);
-for(const collection of [audit,deep,units,systems,docs])for(const x of collection)if(!valid.has(x.universitySlug))throw Error(`Record outside ISC: ${x.universitySlug}`);
-const unresolved=audit.filter(x=>x.portalAuditStatus==='unresolved-public-portal');if(unresolved.length)throw Error(`Portal-resolution outcome still missing for: ${unresolved.map(x=>x.universitySlug).join(',')}`);
-const packetDir='data/audit/packets';const packetFiles=fs.readdirSync(packetDir).filter(x=>x.endsWith('.json'));if(packetFiles.length!==115)throw Error(`Expected 115 packet files, got ${packetFiles.length}`);for(const slug of valid)if(!fs.existsSync(path.join(packetDir,`${slug}.json`)))throw Error(`Missing audit packet: ${slug}`);
-const A=new Map(audit.map(x=>[x.universitySlug,x])),M=new Map(deep.map(x=>[x.universitySlug,x]));for(const r of rank){if(!valid.has(r.universitySlug))throw Error(`Rank outside ISC: ${r.universitySlug}`);if(A.get(r.universitySlug)?.portalAuditStatus!=='direct-official')throw Error(`Rank without direct portal: ${r.universitySlug}`);if((M.get(r.universitySlug)?.auditEvidenceCoverage??0)<75)throw Error(`Rank below audit coverage gate: ${r.universitySlug}`);if(r.confidence<65)throw Error(`Low-confidence numeric rank: ${r.universitySlug}`);if(!Number.isFinite(r.score)||r.score<0||r.score>100)throw Error(`Invalid RTPMI: ${r.universitySlug}`)}
-for(const x of [...units,...systems,...docs]){if(['verified','verified-basic'].includes(x.evidence)&&!x.sourceUrl&&!x.parentUrl&&!x.url)throw Error(`Evidence record without provenance URL: ${x.id}`)}
-const ids=[...units,...systems,...docs].map(x=>x.id);if(new Set(ids).size!==ids.length)throw Error('Duplicate entity id across catalogs');
-for(const x of ledger){if(!valid.has(x.universitySlug))throw Error(`Provenance outside ISC: ${x.universitySlug}`);if(!x.sourceUrl)throw Error(`Provenance without sourceUrl: ${x.id}`)}
-const requiredCsv=['data/isc/institutions.csv','data/audit/portal-audit.csv','data/audit/deep-audit-matrix.csv','data/audit/packets-index.csv','data/statistics/portal-ranking.csv','data/units/catalog.csv','data/systems/catalog.csv','data/documents/catalog.csv'];for(const f of requiredCsv)if(!fs.existsSync(f))throw Error(`Missing CSV export: ${f}`);
-console.log(`ISC 115/115 | portal outcome 115/115 | unresolved outcome 0 | deep matrix 115/115 | packets 115/115 | ranked ${rank.length} | unranked ${115-rank.length} | units ${units.length} | systems ${systems.length} | docs ${docs.length} | provenance ${ledger.length}`);
+import fs from "node:fs";
+import path from "node:path";
+
+const read=file=>JSON.parse(fs.readFileSync(file,"utf8"));
+const isc=read("data/isc/institutions.json");
+const source=read("data/isc/source.json");
+const audits=read("data/audit/portal-audit.json");
+const deepAudits=read("data/audit/deep-audit-matrix.json");
+const rankings=read("data/statistics/portal-ranking.json");
+const units=read("data/units/catalog.json");
+const systems=read("data/systems/catalog.json");
+const documents=read("data/documents/catalog.json");
+const packets=read("data/audit/packets-index.json");
+const ledger=read("data/evidence/provenance-ledger.json");
+const reviews=read("data/evidence/research-review.json");
+const dimensionEvidence=read("data/evidence/dimension-evidence.json");
+const categories={جامع:69,صنعتی:24,"علوم کشاورزی":4,هنر:4,زیرنظام:4,"دستگاه اجرایی":10};
+const dimensions=["portalIdentity","organization","libraryDocuments","laboratories","industryTechnology","informationTechnology","systemsServices","documentsRegulations"];
+const statuses=["verified","observed-reference","restricted","unresolved"];
+
+if(isc.length!==115)throw new Error(`ISC scope must be 115, got ${isc.length}`);
+if(source.publicInstitutions!==115)throw new Error("ISC source metadata count mismatch");
+for(const [category,expected] of Object.entries(categories)){
+  const actual=isc.filter(item=>item.category===category).length;
+  if(actual!==expected)throw new Error(`${category}: ${actual} != ${expected}`);
+  if(source.categories?.[category]!==expected)throw new Error(`Source category ${category} mismatch`);
+}
+
+const validSlugs=new Set(isc.map(item=>item.slug));
+if(validSlugs.size!==115)throw new Error("Duplicate ISC slug");
+for(const [name,collection] of [["Audit",audits],["Deep audit",deepAudits],["Packet index",packets]])if(collection.length!==115||new Set(collection.map(item=>item.universitySlug??item.slug)).size!==115)throw new Error(`${name} must cover unique 115 ISC institutions`);
+for(const collection of [audits,deepAudits,units,systems,documents])for(const item of collection)if(!validSlugs.has(item.universitySlug))throw new Error(`Record outside ISC: ${item.universitySlug}`);
+if(audits.some(item=>item.portalAuditStatus==="unresolved-public-portal"))throw new Error("A portal-resolution outcome is still missing");
+
+const packetDirectory="data/audit/packets";
+const packetFiles=fs.readdirSync(packetDirectory).filter(file=>file.endsWith(".json"));
+if(packetFiles.length!==115)throw new Error(`Expected 115 packet files, got ${packetFiles.length}`);
+for(const slug of validSlugs)if(!fs.existsSync(path.join(packetDirectory,`${slug}.json`)))throw new Error(`Missing audit packet: ${slug}`);
+
+const auditsBySlug=new Map(audits.map(item=>[item.universitySlug,item]));
+const deepBySlug=new Map(deepAudits.map(item=>[item.universitySlug,item]));
+for(const ranking of rankings){
+  if(!validSlugs.has(ranking.universitySlug))throw new Error(`Rank outside ISC: ${ranking.universitySlug}`);
+  if(auditsBySlug.get(ranking.universitySlug)?.portalAuditStatus!=="direct-official")throw new Error(`Rank without direct portal: ${ranking.universitySlug}`);
+  if((deepBySlug.get(ranking.universitySlug)?.auditEvidenceCoverage??0)<75)throw new Error(`Rank below audit coverage gate: ${ranking.universitySlug}`);
+  if(ranking.confidence<65)throw new Error(`Low-confidence numeric rank: ${ranking.universitySlug}`);
+  if(!Number.isFinite(ranking.score)||ranking.score<0||ranking.score>100)throw new Error(`Invalid RTPMI: ${ranking.universitySlug}`);
+}
+
+for(const item of [...units,...systems,...documents])if(["verified","verified-basic"].includes(item.evidence)&&!item.sourceUrl&&!item.parentUrl&&!item.url)throw new Error(`Evidence record without provenance URL: ${item.id}`);
+const catalogIds=[...units,...systems,...documents].map(item=>item.id);
+if(new Set(catalogIds).size!==catalogIds.length)throw new Error("Duplicate entity id across catalogs");
+for(const item of ledger){if(!validSlugs.has(item.universitySlug))throw new Error(`Provenance outside ISC: ${item.universitySlug}`);if(!item.sourceUrl)throw new Error(`Provenance without sourceUrl: ${item.id}`)}
+
+if(dimensionEvidence.length!==920)throw new Error(`Dimension evidence must cover 920 outcomes, got ${dimensionEvidence.length}`);
+if(new Set(dimensionEvidence.map(item=>item.id)).size!==920)throw new Error("Duplicate dimension evidence id");
+if(reviews.length!==115||new Set(reviews.map(item=>item.universitySlug)).size!==115)throw new Error("Research review must cover unique 115 ISC institutions");
+
+for(const slug of validSlugs){
+  const rows=dimensionEvidence.filter(item=>item.universitySlug===slug);
+  const review=reviews.find(item=>item.universitySlug===slug);
+  if(rows.length!==8||new Set(rows.map(item=>item.dimension)).size!==8)throw new Error(`Dimension evidence incomplete for ${slug}`);
+  if(!review||Object.keys(review.dimensions||{}).length!==8||review.reviewCompletion!==100)throw new Error(`Review incomplete for ${slug}`);
+  for(const row of rows){
+    if(!dimensions.includes(row.dimension))throw new Error(`Invalid dimension ${row.id}`);
+    if(!statuses.includes(row.status)||!statuses.includes(row.reportedStatus))throw new Error(`Invalid evidence status ${row.id}`);
+    if(review.dimensions[row.dimension]!==row.status)throw new Error(`Review/register status mismatch ${row.id}`);
+    if(row.sourceCount!==row.sources.length)throw new Error(`Source count mismatch ${row.id}`);
+    for(const item of row.sources)try{new URL(item.url)}catch{throw new Error(`Invalid dimension evidence URL ${row.id}`)}
+    if(row.status==="verified"&&!row.sources.some(item=>item.kind!=="research-review-reference"))throw new Error(`Verified dimension without dimension-specific source ${row.id}`);
+    if(row.status==="verified"&&row.publicationAdjustment)throw new Error(`Adjusted outcome cannot remain verified ${row.id}`);
+    if(row.dimension==="informationTechnology"&&row.status==="verified"&&!row.sources.some(item=>item.kind==="unit"&&item.relationStatus==="organizationally-attributed"&&item.relationshipEvidenceUrl))throw new Error(`Verified IT without independently recorded organizational relation ${row.id}`);
+    if(row.status==="restricted"&&!row.sources.length)throw new Error(`Restricted outcome without attempted official URL ${row.id}`);
+  }
+  const verified=rows.filter(item=>item.status==="verified").length;
+  const observed=rows.filter(item=>item.status==="observed-reference").length;
+  const expectedCoverage=Math.round(100*(verified+.5*observed)/8);
+  if(review.reviewEvidenceCoverage!==expectedCoverage)throw new Error(`Evidence coverage mismatch ${slug}`);
+}
+
+const requiredCsv=["data/isc/institutions.csv","data/audit/portal-audit.csv","data/audit/deep-audit-matrix.csv","data/audit/packets-index.csv","data/statistics/portal-ranking.csv","data/units/catalog.csv","data/systems/catalog.csv","data/documents/catalog.csv","data/evidence/dimension-evidence.csv"];
+for(const file of requiredCsv)if(!fs.existsSync(file))throw new Error(`Missing CSV export: ${file}`);
+const statusCounts=Object.fromEntries(statuses.map(status=>[status,dimensionEvidence.filter(item=>item.status===status).length]));
+console.log(`ISC 115/115 | research review 115/115 | dimension outcomes 920/920 | evidence ${JSON.stringify(statusCounts)} | packets 115/115 | ranked ${rankings.length} | unranked ${115-rankings.length} | units ${units.length} | systems ${systems.length} | docs ${documents.length} | provenance ${ledger.length}`);

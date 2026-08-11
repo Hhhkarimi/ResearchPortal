@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "صنعتی",
@@ -50,6 +50,199 @@
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "kntu:portalIdentity",
+      "universitySlug": "kntu",
+      "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
+      "iscCategory": "صنعتی",
+      "iscRank": 4,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.kntu.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kntu:organization",
+      "universitySlug": "kntu",
+      "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
+      "iscCategory": "صنعتی",
+      "iscRank": 4,
+      "dimension": "organization",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.kntu.ac.ir/",
+          "kind": "unit",
+          "claim": "امور توسعه پژوهش",
+          "id": "kntu-1",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kntu:libraryDocuments",
+      "universitySlug": "kntu",
+      "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
+      "iscCategory": "صنعتی",
+      "iscRank": 4,
+      "dimension": "libraryDocuments",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.kntu.ac.ir/",
+          "kind": "unit",
+          "claim": "انتشارات",
+          "id": "kntu-3",
+          "unitType": "publishing",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kntu:laboratories",
+      "universitySlug": "kntu",
+      "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
+      "iscCategory": "صنعتی",
+      "iscRank": 4,
+      "dimension": "laboratories",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.kntu.ac.ir/",
+          "kind": "unit",
+          "claim": "آزمایشگاه‌های پژوهشی",
+          "id": "kntu-6",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kntu:industryTechnology",
+      "universitySlug": "kntu",
+      "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
+      "iscCategory": "صنعتی",
+      "iscRank": 4,
+      "dimension": "industryTechnology",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.kntu.ac.ir/",
+          "kind": "unit",
+          "claim": "ارتباط با صنعت و کارآفرینی",
+          "id": "kntu-2",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kntu:informationTechnology",
+      "universitySlug": "kntu",
+      "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
+      "iscCategory": "صنعتی",
+      "iscRank": 4,
+      "dimension": "informationTechnology",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kntu:systemsServices",
+      "universitySlug": "kntu",
+      "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
+      "iscCategory": "صنعتی",
+      "iscRank": 4,
+      "dimension": "systemsServices",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.kntu.ac.ir/",
+          "kind": "system",
+          "claim": "سیستم پژوهشی گلستان",
+          "id": "kntu-sys-1",
+          "systemCategory": "research"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kntu:documentsRegulations",
+      "universitySlug": "kntu",
+      "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",
+      "iscCategory": "صنعتی",
+      "iscRank": 4,
+      "dimension": "documentsRegulations",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": {
     "universitySlug": "kntu",
     "nameFa": "دانشگاه صنعتی خواجه نصیرالدین طوسی",

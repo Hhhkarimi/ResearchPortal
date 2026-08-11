@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "دستگاه اجرایی",
@@ -57,6 +57,262 @@
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "imam-hossein:portalIdentity",
+      "universitySlug": "imam-hossein",
+      "nameFa": "دانشگاه جامع امام حسین (ع)",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 1,
+      "dimension": "portalIdentity",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://www.ihu.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "http://portal.ihu.ac.ir/?q=fa/publications",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "imam-hossein:organization",
+      "universitySlug": "imam-hossein",
+      "nameFa": "دانشگاه جامع امام حسین (ع)",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 1,
+      "dimension": "organization",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://www.ihu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "http://portal.ihu.ac.ir/?q=fa/publications",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "imam-hossein:libraryDocuments",
+      "universitySlug": "imam-hossein",
+      "nameFa": "دانشگاه جامع امام حسین (ع)",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 1,
+      "dimension": "libraryDocuments",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://www.ihu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "http://portal.ihu.ac.ir/?q=fa/publications",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "imam-hossein:laboratories",
+      "universitySlug": "imam-hossein",
+      "nameFa": "دانشگاه جامع امام حسین (ع)",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 1,
+      "dimension": "laboratories",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://www.ihu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "http://portal.ihu.ac.ir/?q=fa/publications",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "imam-hossein:industryTechnology",
+      "universitySlug": "imam-hossein",
+      "nameFa": "دانشگاه جامع امام حسین (ع)",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 1,
+      "dimension": "industryTechnology",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://www.ihu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "http://portal.ihu.ac.ir/?q=fa/publications",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "imam-hossein:informationTechnology",
+      "universitySlug": "imam-hossein",
+      "nameFa": "دانشگاه جامع امام حسین (ع)",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 1,
+      "dimension": "informationTechnology",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://www.ihu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "http://portal.ihu.ac.ir/?q=fa/publications",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "imam-hossein:systemsServices",
+      "universitySlug": "imam-hossein",
+      "nameFa": "دانشگاه جامع امام حسین (ع)",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 1,
+      "dimension": "systemsServices",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://www.ihu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "http://portal.ihu.ac.ir/?q=fa/publications",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "imam-hossein:documentsRegulations",
+      "universitySlug": "imam-hossein",
+      "nameFa": "دانشگاه جامع امام حسین (ع)",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 1,
+      "dimension": "documentsRegulations",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://www.ihu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "http://portal.ihu.ac.ir/?q=fa/publications",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": null,
   "units": [],
   "systems": [],

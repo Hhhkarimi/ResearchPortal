@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "جامع",
@@ -46,6 +46,183 @@
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "tarbiat-modares:portalIdentity",
+      "universitySlug": "tarbiat-modares",
+      "nameFa": "دانشگاه تربیت مدرس",
+      "iscCategory": "جامع",
+      "iscRank": 2,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://res.modares.ac.ir/",
+          "kind": "research-review-specific",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱"
+        },
+        {
+          "url": "https://res.modares.ac.ir/res/research-units",
+          "kind": "research-review-specific",
+          "claim": "واحدهای پژوهشی ۲",
+          "id": null,
+          "sourceLabel": "واحدهای پژوهشی ۲"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "tarbiat-modares:organization",
+      "universitySlug": "tarbiat-modares",
+      "nameFa": "دانشگاه تربیت مدرس",
+      "iscCategory": "جامع",
+      "iscRank": 2,
+      "dimension": "organization",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://res.modares.ac.ir/res/research-units",
+          "kind": "research-review-specific",
+          "claim": "واحدهای پژوهشی ۲",
+          "id": null,
+          "sourceLabel": "واحدهای پژوهشی ۲"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "tarbiat-modares:libraryDocuments",
+      "universitySlug": "tarbiat-modares",
+      "nameFa": "دانشگاه تربیت مدرس",
+      "iscCategory": "جامع",
+      "iscRank": 2,
+      "dimension": "libraryDocuments",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://res.modares.ac.ir/res/managements/library/people",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و نشر ۴",
+          "id": null,
+          "sourceLabel": "کتابخانه و نشر ۴"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "tarbiat-modares:laboratories",
+      "universitySlug": "tarbiat-modares",
+      "nameFa": "دانشگاه تربیت مدرس",
+      "iscCategory": "جامع",
+      "iscRank": 2,
+      "dimension": "laboratories",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "tarbiat-modares:industryTechnology",
+      "universitySlug": "tarbiat-modares",
+      "nameFa": "دانشگاه تربیت مدرس",
+      "iscCategory": "جامع",
+      "iscRank": 2,
+      "dimension": "industryTechnology",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "tarbiat-modares:informationTechnology",
+      "universitySlug": "tarbiat-modares",
+      "nameFa": "دانشگاه تربیت مدرس",
+      "iscCategory": "جامع",
+      "iscRank": 2,
+      "dimension": "informationTechnology",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "tarbiat-modares:systemsServices",
+      "universitySlug": "tarbiat-modares",
+      "nameFa": "دانشگاه تربیت مدرس",
+      "iscCategory": "جامع",
+      "iscRank": 2,
+      "dimension": "systemsServices",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "tarbiat-modares:documentsRegulations",
+      "universitySlug": "tarbiat-modares",
+      "nameFa": "دانشگاه تربیت مدرس",
+      "iscCategory": "جامع",
+      "iscRank": 2,
+      "dimension": "documentsRegulations",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://res.modares.ac.ir/res/forms",
+          "kind": "research-review-specific",
+          "claim": "فرم‌ها ۳",
+          "id": null,
+          "sourceLabel": "فرم‌ها ۳"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": null,
   "units": [],
   "systems": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "جامع",
@@ -50,6 +50,199 @@
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "tehran:portalIdentity",
+      "universitySlug": "tehran",
+      "nameFa": "دانشگاه تهران",
+      "iscCategory": "جامع",
+      "iscRank": 1,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ut.ac.ir/fa",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "tehran:organization",
+      "universitySlug": "tehran",
+      "nameFa": "دانشگاه تهران",
+      "iscCategory": "جامع",
+      "iscRank": 1,
+      "dimension": "organization",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ut.ac.ir/fa",
+          "kind": "unit",
+          "claim": "امور پژوهشی",
+          "id": "tehran-1",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "tehran:libraryDocuments",
+      "universitySlug": "tehran",
+      "nameFa": "دانشگاه تهران",
+      "iscCategory": "جامع",
+      "iscRank": 1,
+      "dimension": "libraryDocuments",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ut.ac.ir/fa",
+          "kind": "unit",
+          "claim": "کتابخانه مرکزی و مرکز اسناد",
+          "id": "tehran-2",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "tehran:laboratories",
+      "universitySlug": "tehran",
+      "nameFa": "دانشگاه تهران",
+      "iscCategory": "جامع",
+      "iscRank": 1,
+      "dimension": "laboratories",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ut.ac.ir/fa",
+          "kind": "unit",
+          "claim": "امور آزمایشگاه‌ها",
+          "id": "tehran-3",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "tehran:industryTechnology",
+      "universitySlug": "tehran",
+      "nameFa": "دانشگاه تهران",
+      "iscCategory": "جامع",
+      "iscRank": 1,
+      "dimension": "industryTechnology",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ut.ac.ir/fa",
+          "kind": "unit",
+          "claim": "انتقال فناوری و مالکیت فکری",
+          "id": "tehran-4",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "tehran:informationTechnology",
+      "universitySlug": "tehran",
+      "nameFa": "دانشگاه تهران",
+      "iscCategory": "جامع",
+      "iscRank": 1,
+      "dimension": "informationTechnology",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "tehran:systemsServices",
+      "universitySlug": "tehran",
+      "nameFa": "دانشگاه تهران",
+      "iscCategory": "جامع",
+      "iscRank": 1,
+      "dimension": "systemsServices",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ut.ac.ir/fa",
+          "kind": "system",
+          "claim": "سامانه رویدادهای علمی",
+          "id": "tehran-sys-1",
+          "systemCategory": "research"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "tehran:documentsRegulations",
+      "universitySlug": "tehran",
+      "nameFa": "دانشگاه تهران",
+      "iscCategory": "جامع",
+      "iscRank": 1,
+      "dimension": "documentsRegulations",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": {
     "universitySlug": "tehran",
     "nameFa": "دانشگاه تهران",

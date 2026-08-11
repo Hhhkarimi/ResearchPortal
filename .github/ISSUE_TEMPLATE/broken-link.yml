@@ -1,0 +1,24 @@
+name: گزارش لینک خراب
+description: گزارش URL خراب، منتقل‌شده یا محدودشده
+title: "[Broken link]: "
+labels: ["link-health"]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: صفحه رصدخانه
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL منبع
+    validations:
+      required: true
+  - type: textarea
+    id: observation
+    attributes:
+      label: وضعیت مشاهده‌شده
+      description: خطا، redirect، محدودیت دسترسی یا محتوای جایگزین را توضیح دهید.
+    validations:
+      required: true

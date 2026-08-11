@@ -7,5 +7,7 @@ import systems from "@/data/systems/catalog.json";
 import docs from "@/data/documents/catalog.json";
 import summary from "@/data/statistics/summary.json";
 import provenance from "@/data/evidence/provenance-ledger.json";
-export const institutions=isc;export const audits=audit;export const deepAudits=deepAudit;export const rankings=ranking;export const unitCatalog=units;export const systemCatalog=systems;export const documentCatalog=docs;export const datasetSummary=summary;export const provenanceLedger=provenance;
+import dimensions from "@/data/evidence/dimension-evidence.json";
+import reviews from "@/data/evidence/research-review.json";
+export const institutions=isc;export const audits=audit;export const deepAudits=deepAudit;export const rankings=ranking;export const unitCatalog=units;export const systemCatalog=systems;export const documentCatalog=docs;export const datasetSummary=summary;export const provenanceLedger=provenance;export const dimensionEvidence=dimensions;export const researchReviews=reviews;
 export const getInstitution=(slug:string)=>institutions.find(x=>x.slug===slug);export const getAudit=(slug:string)=>audits.find(x=>x.universitySlug===slug);export const getDeepAudit=(slug:string)=>deepAudits.find(x=>x.universitySlug===slug);export const getRank=(slug:string)=>rankings.find(x=>x.universitySlug===slug);

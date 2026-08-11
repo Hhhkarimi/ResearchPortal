@@ -107,10 +107,118 @@
       "restricted": 6
     }
   },
+  "reviewDimensions": {
+    "portalIdentity": {
+      "verified": 31,
+      "observed-reference": 21,
+      "unresolved": 59,
+      "restricted": 4
+    },
+    "organization": {
+      "verified": 22,
+      "observed-reference": 19,
+      "unresolved": 70,
+      "restricted": 4
+    },
+    "libraryDocuments": {
+      "verified": 19,
+      "unresolved": 86,
+      "observed-reference": 6,
+      "restricted": 4
+    },
+    "laboratories": {
+      "verified": 17,
+      "unresolved": 86,
+      "observed-reference": 8,
+      "restricted": 4
+    },
+    "industryTechnology": {
+      "verified": 19,
+      "unresolved": 79,
+      "observed-reference": 13,
+      "restricted": 4
+    },
+    "informationTechnology": {
+      "unresolved": 102,
+      "observed-reference": 9,
+      "restricted": 4
+    },
+    "systemsServices": {
+      "verified": 19,
+      "unresolved": 83,
+      "observed-reference": 9,
+      "restricted": 4
+    },
+    "documentsRegulations": {
+      "unresolved": 95,
+      "verified": 11,
+      "observed-reference": 5,
+      "restricted": 4
+    }
+  },
+  "reportedReviewDimensions": {
+    "portalIdentity": {
+      "verified": 31,
+      "observed-reference": 21,
+      "unresolved": 53,
+      "restricted": 10
+    },
+    "organization": {
+      "verified": 28,
+      "observed-reference": 13,
+      "unresolved": 64,
+      "restricted": 10
+    },
+    "libraryDocuments": {
+      "verified": 23,
+      "unresolved": 80,
+      "restricted": 10,
+      "observed-reference": 2
+    },
+    "laboratories": {
+      "verified": 22,
+      "unresolved": 80,
+      "observed-reference": 3,
+      "restricted": 10
+    },
+    "industryTechnology": {
+      "verified": 24,
+      "unresolved": 73,
+      "observed-reference": 8,
+      "restricted": 10
+    },
+    "informationTechnology": {
+      "unresolved": 96,
+      "verified": 9,
+      "restricted": 10
+    },
+    "systemsServices": {
+      "verified": 21,
+      "unresolved": 77,
+      "observed-reference": 7,
+      "restricted": 10
+    },
+    "documentsRegulations": {
+      "unresolved": 89,
+      "verified": 13,
+      "observed-reference": 3,
+      "restricted": 10
+    }
+  },
+  "reviewCoverage": {
+    "average": 20,
+    "complete100": 0,
+    "gte75": 16,
+    "reviewedInstitutions": 115,
+    "dimensionOutcomes": 920
+  },
   "units": 154,
   "systems": 92,
   "documents": 34,
   "provenanceRecords": 362,
+  "dimensionEvidenceOutcomes": 920,
+  "dimensionEvidenceSources": 323,
+  "publicationGateDowngrades": 81,
   "auditPackets": 115,
   "snapshotDate": "2026-08-10",
   "methodologyVersion": "RTPMI-4.1-ISC",

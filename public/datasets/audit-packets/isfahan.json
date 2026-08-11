@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "جامع",
@@ -50,6 +50,206 @@
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "isfahan:portalIdentity",
+      "universitySlug": "isfahan",
+      "nameFa": "دانشگاه اصفهان",
+      "iscCategory": "جامع",
+      "iscRank": 7,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ui.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "isfahan:organization",
+      "universitySlug": "isfahan",
+      "nameFa": "دانشگاه اصفهان",
+      "iscCategory": "جامع",
+      "iscRank": 7,
+      "dimension": "organization",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ui.ac.ir/",
+          "kind": "unit",
+          "claim": "امور پژوهشی",
+          "id": "isfahan-1",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "isfahan:libraryDocuments",
+      "universitySlug": "isfahan",
+      "nameFa": "دانشگاه اصفهان",
+      "iscCategory": "جامع",
+      "iscRank": 7,
+      "dimension": "libraryDocuments",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ui.ac.ir/",
+          "kind": "unit",
+          "claim": "مدیریت کتابخانه‌ها و مرکز اسناد",
+          "id": "isfahan-2",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "isfahan:laboratories",
+      "universitySlug": "isfahan",
+      "nameFa": "دانشگاه اصفهان",
+      "iscCategory": "جامع",
+      "iscRank": 7,
+      "dimension": "laboratories",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ui.ac.ir/",
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی",
+          "id": "isfahan-3",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "isfahan:industryTechnology",
+      "universitySlug": "isfahan",
+      "nameFa": "دانشگاه اصفهان",
+      "iscCategory": "جامع",
+      "iscRank": 7,
+      "dimension": "industryTechnology",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ui.ac.ir/",
+          "kind": "unit",
+          "claim": "ارتباط با صنعت و جامعه",
+          "id": "isfahan-4",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "isfahan:informationTechnology",
+      "universitySlug": "isfahan",
+      "nameFa": "دانشگاه اصفهان",
+      "iscCategory": "جامع",
+      "iscRank": 7,
+      "dimension": "informationTechnology",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "isfahan:systemsServices",
+      "universitySlug": "isfahan",
+      "nameFa": "دانشگاه اصفهان",
+      "iscCategory": "جامع",
+      "iscRank": 7,
+      "dimension": "systemsServices",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ui.ac.ir/",
+          "kind": "system",
+          "claim": "آزمایشگاه مرکزی",
+          "id": "isfahan-central-lab-system",
+          "systemCategory": "laboratory"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "isfahan:documentsRegulations",
+      "universitySlug": "isfahan",
+      "nameFa": "دانشگاه اصفهان",
+      "iscCategory": "جامع",
+      "iscRank": 7,
+      "dimension": "documentsRegulations",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.ui.ac.ir/",
+          "kind": "document",
+          "claim": "آیین‌نامه پذیرش مرکز رشد",
+          "id": "isfahan-doc-1"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": {
     "universitySlug": "isfahan",
     "nameFa": "دانشگاه اصفهان",

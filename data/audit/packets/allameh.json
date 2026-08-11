@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "جامع",
@@ -50,6 +50,196 @@
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "allameh:portalIdentity",
+      "universitySlug": "allameh",
+      "nameFa": "دانشگاه علامه طباطبایی",
+      "iscCategory": "جامع",
+      "iscRank": 11,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.atu.ac.ir/fa",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "allameh:organization",
+      "universitySlug": "allameh",
+      "nameFa": "دانشگاه علامه طباطبایی",
+      "iscCategory": "جامع",
+      "iscRank": 11,
+      "dimension": "organization",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.atu.ac.ir/fa",
+          "kind": "unit",
+          "claim": "مدیریت امور پژوهشی",
+          "id": "allameh-1",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "allameh:libraryDocuments",
+      "universitySlug": "allameh",
+      "nameFa": "دانشگاه علامه طباطبایی",
+      "iscCategory": "جامع",
+      "iscRank": 11,
+      "dimension": "libraryDocuments",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.atu.ac.ir/fa",
+          "kind": "unit",
+          "claim": "کتابخانه دیجیتال",
+          "id": "allameh-4",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "allameh:laboratories",
+      "universitySlug": "allameh",
+      "nameFa": "دانشگاه علامه طباطبایی",
+      "iscCategory": "جامع",
+      "iscRank": 11,
+      "dimension": "laboratories",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "allameh:industryTechnology",
+      "universitySlug": "allameh",
+      "nameFa": "دانشگاه علامه طباطبایی",
+      "iscCategory": "جامع",
+      "iscRank": 11,
+      "dimension": "industryTechnology",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.atu.ac.ir/fa",
+          "kind": "unit",
+          "claim": "مرکز ارتباط با جامعه و صنعت",
+          "id": "allameh-2",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "allameh:informationTechnology",
+      "universitySlug": "allameh",
+      "nameFa": "دانشگاه علامه طباطبایی",
+      "iscCategory": "جامع",
+      "iscRank": 11,
+      "dimension": "informationTechnology",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "allameh:systemsServices",
+      "universitySlug": "allameh",
+      "nameFa": "دانشگاه علامه طباطبایی",
+      "iscCategory": "جامع",
+      "iscRank": 11,
+      "dimension": "systemsServices",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.atu.ac.ir/fa",
+          "kind": "system",
+          "claim": "سامانه اخلاق در پژوهش",
+          "id": "allameh-sys-1",
+          "systemCategory": "research"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "allameh:documentsRegulations",
+      "universitySlug": "allameh",
+      "nameFa": "دانشگاه علامه طباطبایی",
+      "iscCategory": "جامع",
+      "iscRank": 11,
+      "dimension": "documentsRegulations",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.atu.ac.ir/fa",
+          "kind": "document",
+          "claim": "شیوه‌نامه انتخاب سرآمدان پژوهشی",
+          "id": "allameh-doc-1"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": {
     "universitySlug": "allameh",
     "nameFa": "دانشگاه علامه طباطبایی",

@@ -1,0 +1,9 @@
+.next
+node_modules
+.env*
+!.env.example
+.DS_Store
+data/generated/*
+!data/generated/.gitkeep
+runtime-smoke/
+*.tsbuildinfo

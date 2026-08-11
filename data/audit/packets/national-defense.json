@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "دستگاه اجرایی",
@@ -57,6 +57,262 @@
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "national-defense:portalIdentity",
+      "universitySlug": "national-defense",
+      "nameFa": "دانشگاه عالی دفاع ملی",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 6,
+      "dimension": "portalIdentity",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-44967/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "national-defense:organization",
+      "universitySlug": "national-defense",
+      "nameFa": "دانشگاه عالی دفاع ملی",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 6,
+      "dimension": "organization",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-44967/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "national-defense:libraryDocuments",
+      "universitySlug": "national-defense",
+      "nameFa": "دانشگاه عالی دفاع ملی",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 6,
+      "dimension": "libraryDocuments",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-44967/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "national-defense:laboratories",
+      "universitySlug": "national-defense",
+      "nameFa": "دانشگاه عالی دفاع ملی",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 6,
+      "dimension": "laboratories",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-44967/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "national-defense:industryTechnology",
+      "universitySlug": "national-defense",
+      "nameFa": "دانشگاه عالی دفاع ملی",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 6,
+      "dimension": "industryTechnology",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-44967/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "national-defense:informationTechnology",
+      "universitySlug": "national-defense",
+      "nameFa": "دانشگاه عالی دفاع ملی",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 6,
+      "dimension": "informationTechnology",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-44967/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "national-defense:systemsServices",
+      "universitySlug": "national-defense",
+      "nameFa": "دانشگاه عالی دفاع ملی",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 6,
+      "dimension": "systemsServices",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-44967/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "national-defense:documentsRegulations",
+      "universitySlug": "national-defense",
+      "nameFa": "دانشگاه عالی دفاع ملی",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 6,
+      "dimension": "documentsRegulations",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-44967/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://smsnds.sndu.ac.ir/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": null,
   "units": [],
   "systems": [],

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "جامع",
@@ -50,6 +50,201 @@
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "zanjan:portalIdentity",
+      "universitySlug": "zanjan",
+      "nameFa": "دانشگاه زنجان",
+      "iscCategory": "جامع",
+      "iscRank": 29,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.znu.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "zanjan:organization",
+      "universitySlug": "zanjan",
+      "nameFa": "دانشگاه زنجان",
+      "iscCategory": "جامع",
+      "iscRank": 29,
+      "dimension": "organization",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.znu.ac.ir/",
+          "kind": "unit",
+          "claim": "امور پژوهشی",
+          "id": "zanjan-1",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "zanjan:libraryDocuments",
+      "universitySlug": "zanjan",
+      "nameFa": "دانشگاه زنجان",
+      "iscCategory": "جامع",
+      "iscRank": 29,
+      "dimension": "libraryDocuments",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.znu.ac.ir/",
+          "kind": "unit",
+          "claim": "کتابخانه و مرکز اسناد",
+          "id": "zanjan-3",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "zanjan:laboratories",
+      "universitySlug": "zanjan",
+      "nameFa": "دانشگاه زنجان",
+      "iscCategory": "جامع",
+      "iscRank": 29,
+      "dimension": "laboratories",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.znu.ac.ir/",
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی",
+          "id": "zanjan-4",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "zanjan:industryTechnology",
+      "universitySlug": "zanjan",
+      "nameFa": "دانشگاه زنجان",
+      "iscCategory": "جامع",
+      "iscRank": 29,
+      "dimension": "industryTechnology",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.znu.ac.ir/",
+          "kind": "unit",
+          "claim": "فناوری و ارتباط با صنعت",
+          "id": "zanjan-5",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "zanjan:informationTechnology",
+      "universitySlug": "zanjan",
+      "nameFa": "دانشگاه زنجان",
+      "iscCategory": "جامع",
+      "iscRank": 29,
+      "dimension": "informationTechnology",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.znu.ac.ir/",
+          "kind": "unit",
+          "claim": "فناوری اطلاعات، امنیت و هوشمندسازی",
+          "id": "zanjan-2",
+          "unitType": "it",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": "Downgraded until a source proving organizational IT dependency is registered.",
+      "verificationBasis": "Downgraded until a source proving organizational IT dependency is registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "zanjan:systemsServices",
+      "universitySlug": "zanjan",
+      "nameFa": "دانشگاه زنجان",
+      "iscCategory": "جامع",
+      "iscRank": 29,
+      "dimension": "systemsServices",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "zanjan:documentsRegulations",
+      "universitySlug": "zanjan",
+      "nameFa": "دانشگاه زنجان",
+      "iscCategory": "جامع",
+      "iscRank": 29,
+      "dimension": "documentsRegulations",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": {
     "universitySlug": "zanjan",
     "nameFa": "دانشگاه زنجان",

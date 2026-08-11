@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "دستگاه اجرایی",
@@ -53,6 +53,262 @@
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "civil-aviation:portalIdentity",
+      "universitySlug": "civil-aviation",
+      "nameFa": "مرکز آموزش عالی هوانوردی و فرودگاهی کشور",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 10,
+      "dimension": "portalIdentity",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-40635/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://nezamat.ir/post-38549/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "civil-aviation:organization",
+      "universitySlug": "civil-aviation",
+      "nameFa": "مرکز آموزش عالی هوانوردی و فرودگاهی کشور",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 10,
+      "dimension": "organization",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-40635/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://nezamat.ir/post-38549/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "civil-aviation:libraryDocuments",
+      "universitySlug": "civil-aviation",
+      "nameFa": "مرکز آموزش عالی هوانوردی و فرودگاهی کشور",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 10,
+      "dimension": "libraryDocuments",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-40635/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://nezamat.ir/post-38549/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "civil-aviation:laboratories",
+      "universitySlug": "civil-aviation",
+      "nameFa": "مرکز آموزش عالی هوانوردی و فرودگاهی کشور",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 10,
+      "dimension": "laboratories",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-40635/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://nezamat.ir/post-38549/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "civil-aviation:industryTechnology",
+      "universitySlug": "civil-aviation",
+      "nameFa": "مرکز آموزش عالی هوانوردی و فرودگاهی کشور",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 10,
+      "dimension": "industryTechnology",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-40635/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://nezamat.ir/post-38549/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "civil-aviation:informationTechnology",
+      "universitySlug": "civil-aviation",
+      "nameFa": "مرکز آموزش عالی هوانوردی و فرودگاهی کشور",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 10,
+      "dimension": "informationTechnology",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-40635/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://nezamat.ir/post-38549/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "civil-aviation:systemsServices",
+      "universitySlug": "civil-aviation",
+      "nameFa": "مرکز آموزش عالی هوانوردی و فرودگاهی کشور",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 10,
+      "dimension": "systemsServices",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-40635/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://nezamat.ir/post-38549/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "civil-aviation:documentsRegulations",
+      "universitySlug": "civil-aviation",
+      "nameFa": "مرکز آموزش عالی هوانوردی و فرودگاهی کشور",
+      "iscCategory": "دستگاه اجرایی",
+      "iscRank": 10,
+      "dimension": "documentsRegulations",
+      "status": "restricted",
+      "reportedStatus": "restricted",
+      "reviewOutcome": "access-restricted",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://nezamat.ir/post-40635/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        },
+        {
+          "url": "https://nezamat.ir/post-38549/",
+          "kind": "restriction-reference",
+          "claim": "Official or institutional URL recorded during the restricted access attempt",
+          "id": null,
+          "sourceSpecificity": "institution-access"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An attempted official or institutional URL is registered, but public verification was restricted or blocked.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": null,
   "units": [],
   "systems": [],

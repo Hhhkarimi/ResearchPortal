@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "جامع",
@@ -50,6 +50,199 @@
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "ferdowsi:portalIdentity",
+      "universitySlug": "ferdowsi",
+      "nameFa": "دانشگاه فردوسی مشهد",
+      "iscCategory": "جامع",
+      "iscRank": 3,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://vpr.um.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "ferdowsi:organization",
+      "universitySlug": "ferdowsi",
+      "nameFa": "دانشگاه فردوسی مشهد",
+      "iscCategory": "جامع",
+      "iscRank": 3,
+      "dimension": "organization",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://vpr.um.ac.ir/",
+          "kind": "unit",
+          "claim": "مدیریت پژوهشی",
+          "id": "ferdowsi-1",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "ferdowsi:libraryDocuments",
+      "universitySlug": "ferdowsi",
+      "nameFa": "دانشگاه فردوسی مشهد",
+      "iscCategory": "جامع",
+      "iscRank": 3,
+      "dimension": "libraryDocuments",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://vpr.um.ac.ir/",
+          "kind": "unit",
+          "claim": "مدیریت نشر و کتابخانه مرکزی",
+          "id": "ferdowsi-4",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "ferdowsi:laboratories",
+      "universitySlug": "ferdowsi",
+      "nameFa": "دانشگاه فردوسی مشهد",
+      "iscCategory": "جامع",
+      "iscRank": 3,
+      "dimension": "laboratories",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://vpr.um.ac.ir/",
+          "kind": "unit",
+          "claim": "شبکه آزمایشگاه‌ها و کارگاه‌ها",
+          "id": "ferdowsi-3",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "ferdowsi:industryTechnology",
+      "universitySlug": "ferdowsi",
+      "nameFa": "دانشگاه فردوسی مشهد",
+      "iscCategory": "جامع",
+      "iscRank": 3,
+      "dimension": "industryTechnology",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://vpr.um.ac.ir/",
+          "kind": "unit",
+          "claim": "ارتباط با صنعت و جامعه",
+          "id": "ferdowsi-2",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "ferdowsi:informationTechnology",
+      "universitySlug": "ferdowsi",
+      "nameFa": "دانشگاه فردوسی مشهد",
+      "iscCategory": "جامع",
+      "iscRank": 3,
+      "dimension": "informationTechnology",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "ferdowsi:systemsServices",
+      "universitySlug": "ferdowsi",
+      "nameFa": "دانشگاه فردوسی مشهد",
+      "iscCategory": "جامع",
+      "iscRank": 3,
+      "dimension": "systemsServices",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://vpr.um.ac.ir/",
+          "kind": "system",
+          "claim": "سامانه یکپارچه نشریات",
+          "id": "ferdowsi-journals",
+          "systemCategory": "journals"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "ferdowsi:documentsRegulations",
+      "universitySlug": "ferdowsi",
+      "nameFa": "دانشگاه فردوسی مشهد",
+      "iscCategory": "جامع",
+      "iscRank": 3,
+      "dimension": "documentsRegulations",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": {
     "universitySlug": "ferdowsi",
     "nameFa": "دانشگاه فردوسی مشهد",

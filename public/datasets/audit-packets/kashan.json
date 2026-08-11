@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "جامع",
@@ -46,6 +46,197 @@
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "kashan:portalIdentity",
+      "universitySlug": "kashan",
+      "nameFa": "دانشگاه کاشان",
+      "iscCategory": "جامع",
+      "iscRank": 21,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.kashanu.ac.ir/",
+          "kind": "research-review-specific",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kashan:organization",
+      "universitySlug": "kashan",
+      "nameFa": "دانشگاه کاشان",
+      "iscCategory": "جامع",
+      "iscRank": 21,
+      "dimension": "organization",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.kashanu.ac.ir/",
+          "kind": "research-review-reference",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kashan:libraryDocuments",
+      "universitySlug": "kashan",
+      "nameFa": "دانشگاه کاشان",
+      "iscCategory": "جامع",
+      "iscRank": 21,
+      "dimension": "libraryDocuments",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.kashanu.ac.ir/",
+          "kind": "research-review-reference",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kashan:laboratories",
+      "universitySlug": "kashan",
+      "nameFa": "دانشگاه کاشان",
+      "iscCategory": "جامع",
+      "iscRank": 21,
+      "dimension": "laboratories",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.kashanu.ac.ir/",
+          "kind": "research-review-reference",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kashan:industryTechnology",
+      "universitySlug": "kashan",
+      "nameFa": "دانشگاه کاشان",
+      "iscCategory": "جامع",
+      "iscRank": 21,
+      "dimension": "industryTechnology",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.kashanu.ac.ir/",
+          "kind": "research-review-reference",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kashan:informationTechnology",
+      "universitySlug": "kashan",
+      "nameFa": "دانشگاه کاشان",
+      "iscCategory": "جامع",
+      "iscRank": 21,
+      "dimension": "informationTechnology",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kashan:systemsServices",
+      "universitySlug": "kashan",
+      "nameFa": "دانشگاه کاشان",
+      "iscCategory": "جامع",
+      "iscRank": 21,
+      "dimension": "systemsServices",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kashan:documentsRegulations",
+      "universitySlug": "kashan",
+      "nameFa": "دانشگاه کاشان",
+      "iscCategory": "جامع",
+      "iscRank": 21,
+      "dimension": "documentsRegulations",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.kashanu.ac.ir/",
+          "kind": "research-review-reference",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": null,
   "units": [],
   "systems": [],

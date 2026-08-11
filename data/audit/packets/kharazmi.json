@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "جامع",
@@ -50,6 +50,209 @@
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "kharazmi:portalIdentity",
+      "universitySlug": "kharazmi",
+      "nameFa": "دانشگاه خوارزمی",
+      "iscCategory": "جامع",
+      "iscRank": 10,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.khu.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kharazmi:organization",
+      "universitySlug": "kharazmi",
+      "nameFa": "دانشگاه خوارزمی",
+      "iscCategory": "جامع",
+      "iscRank": 10,
+      "dimension": "organization",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.khu.ac.ir/",
+          "kind": "unit",
+          "claim": "مدیریت امور پژوهشی",
+          "id": "kharazmi-1",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kharazmi:libraryDocuments",
+      "universitySlug": "kharazmi",
+      "nameFa": "دانشگاه خوارزمی",
+      "iscCategory": "جامع",
+      "iscRank": 10,
+      "dimension": "libraryDocuments",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.khu.ac.ir/",
+          "kind": "unit",
+          "claim": "کتابخانه مرکزی، موزه و مرکز اسناد",
+          "id": "kharazmi-5",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kharazmi:laboratories",
+      "universitySlug": "kharazmi",
+      "nameFa": "دانشگاه خوارزمی",
+      "iscCategory": "جامع",
+      "iscRank": 10,
+      "dimension": "laboratories",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.khu.ac.ir/",
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی",
+          "id": "kharazmi-6",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kharazmi:industryTechnology",
+      "universitySlug": "kharazmi",
+      "nameFa": "دانشگاه خوارزمی",
+      "iscCategory": "جامع",
+      "iscRank": 10,
+      "dimension": "industryTechnology",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.khu.ac.ir/",
+          "kind": "unit",
+          "claim": "کارآفرینی و ارتباط با جامعه",
+          "id": "kharazmi-3",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kharazmi:informationTechnology",
+      "universitySlug": "kharazmi",
+      "nameFa": "دانشگاه خوارزمی",
+      "iscCategory": "جامع",
+      "iscRank": 10,
+      "dimension": "informationTechnology",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.khu.ac.ir/",
+          "kind": "unit",
+          "claim": "مرکز فناوری اطلاعات و ارتباطات",
+          "id": "kharazmi-2",
+          "unitType": "it",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": "Downgraded until a source proving organizational IT dependency is registered.",
+      "verificationBasis": "Downgraded until a source proving organizational IT dependency is registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kharazmi:systemsServices",
+      "universitySlug": "kharazmi",
+      "nameFa": "دانشگاه خوارزمی",
+      "iscCategory": "جامع",
+      "iscRank": 10,
+      "dimension": "systemsServices",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.khu.ac.ir/",
+          "kind": "system",
+          "claim": "سامانه اطلاعات پژوهشی",
+          "id": "kharazmi-ris",
+          "systemCategory": "research"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kharazmi:documentsRegulations",
+      "universitySlug": "kharazmi",
+      "nameFa": "دانشگاه خوارزمی",
+      "iscCategory": "جامع",
+      "iscRank": 10,
+      "dimension": "documentsRegulations",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": {
     "universitySlug": "kharazmi",
     "nameFa": "دانشگاه خوارزمی",

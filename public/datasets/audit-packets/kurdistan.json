@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "جامع",
@@ -50,6 +50,258 @@
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "kurdistan:portalIdentity",
+      "universitySlug": "kurdistan",
+      "nameFa": "دانشگاه کردستان",
+      "iscCategory": "جامع",
+      "iscRank": 19,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 5,
+      "sources": [
+        {
+          "url": "https://uok.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://uok.ac.ir/web/research-and-innovation",
+          "kind": "research-review-specific",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱"
+        },
+        {
+          "url": "https://uok.ac.ir/web/research-and-innovation/organizational-chart",
+          "kind": "research-review-specific",
+          "claim": "چارت سازمانی ۲",
+          "id": null,
+          "sourceLabel": "چارت سازمانی ۲"
+        },
+        {
+          "url": "https://research.uok.ac.ir/",
+          "kind": "research-review-specific",
+          "claim": "سامانه ژیرو ۳",
+          "id": null,
+          "sourceLabel": "سامانه ژیرو ۳"
+        },
+        {
+          "url": "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations",
+          "kind": "research-review-specific",
+          "claim": "فرم و آیین‌نامه ۴",
+          "id": null,
+          "sourceLabel": "فرم و آیین‌نامه ۴"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kurdistan:organization",
+      "universitySlug": "kurdistan",
+      "nameFa": "دانشگاه کردستان",
+      "iscCategory": "جامع",
+      "iscRank": 19,
+      "dimension": "organization",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://uok.ac.ir/web/research-and-innovation/organizational-chart",
+          "kind": "research-review-specific",
+          "claim": "چارت سازمانی ۲",
+          "id": null,
+          "sourceLabel": "چارت سازمانی ۲"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kurdistan:libraryDocuments",
+      "universitySlug": "kurdistan",
+      "nameFa": "دانشگاه کردستان",
+      "iscCategory": "جامع",
+      "iscRank": 19,
+      "dimension": "libraryDocuments",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kurdistan:laboratories",
+      "universitySlug": "kurdistan",
+      "nameFa": "دانشگاه کردستان",
+      "iscCategory": "جامع",
+      "iscRank": 19,
+      "dimension": "laboratories",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 4,
+      "sources": [
+        {
+          "url": "https://uok.ac.ir/web/research-and-innovation",
+          "kind": "research-review-reference",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://uok.ac.ir/web/research-and-innovation/organizational-chart",
+          "kind": "research-review-reference",
+          "claim": "چارت سازمانی ۲",
+          "id": null,
+          "sourceLabel": "چارت سازمانی ۲",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://research.uok.ac.ir/",
+          "kind": "research-review-reference",
+          "claim": "سامانه ژیرو ۳",
+          "id": null,
+          "sourceLabel": "سامانه ژیرو ۳",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations",
+          "kind": "research-review-reference",
+          "claim": "فرم و آیین‌نامه ۴",
+          "id": null,
+          "sourceLabel": "فرم و آیین‌نامه ۴",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kurdistan:industryTechnology",
+      "universitySlug": "kurdistan",
+      "nameFa": "دانشگاه کردستان",
+      "iscCategory": "جامع",
+      "iscRank": 19,
+      "dimension": "industryTechnology",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "url": "https://uok.ac.ir/web/research-and-innovation",
+          "kind": "research-review-specific",
+          "claim": "پرتال معاونت ۱",
+          "id": null,
+          "sourceLabel": "پرتال معاونت ۱"
+        },
+        {
+          "url": "https://uok.ac.ir/web/research-and-innovation/organizational-chart",
+          "kind": "research-review-specific",
+          "claim": "چارت سازمانی ۲",
+          "id": null,
+          "sourceLabel": "چارت سازمانی ۲"
+        },
+        {
+          "url": "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations",
+          "kind": "research-review-specific",
+          "claim": "فرم و آیین‌نامه ۴",
+          "id": null,
+          "sourceLabel": "فرم و آیین‌نامه ۴"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kurdistan:informationTechnology",
+      "universitySlug": "kurdistan",
+      "nameFa": "دانشگاه کردستان",
+      "iscCategory": "جامع",
+      "iscRank": 19,
+      "dimension": "informationTechnology",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kurdistan:systemsServices",
+      "universitySlug": "kurdistan",
+      "nameFa": "دانشگاه کردستان",
+      "iscCategory": "جامع",
+      "iscRank": 19,
+      "dimension": "systemsServices",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.uok.ac.ir/",
+          "kind": "research-review-specific",
+          "claim": "سامانه ژیرو ۳",
+          "id": null,
+          "sourceLabel": "سامانه ژیرو ۳"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "kurdistan:documentsRegulations",
+      "universitySlug": "kurdistan",
+      "nameFa": "دانشگاه کردستان",
+      "iscCategory": "جامع",
+      "iscRank": 19,
+      "dimension": "documentsRegulations",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://uok.ac.ir/web/research-and-innovation/research-forms-regulations",
+          "kind": "research-review-specific",
+          "claim": "فرم و آیین‌نامه ۴",
+          "id": null,
+          "sourceLabel": "فرم و آیین‌نامه ۴"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": null,
   "units": [],
   "systems": [],

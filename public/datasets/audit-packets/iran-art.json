@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "هنر",
@@ -50,6 +50,216 @@
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "iran-art:portalIdentity",
+      "universitySlug": "iran-art",
+      "nameFa": "دانشگاه هنر ایران",
+      "iscCategory": "هنر",
+      "iscRank": 1,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.art.ac.ir/fa",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "iran-art:organization",
+      "universitySlug": "iran-art",
+      "nameFa": "دانشگاه هنر ایران",
+      "iscCategory": "هنر",
+      "iscRank": 1,
+      "dimension": "organization",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.art.ac.ir/fa",
+          "kind": "unit",
+          "claim": "مدیریت امور پژوهشی",
+          "id": "iran-art-1",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "iran-art:libraryDocuments",
+      "universitySlug": "iran-art",
+      "nameFa": "دانشگاه هنر ایران",
+      "iscCategory": "هنر",
+      "iscRank": 1,
+      "dimension": "libraryDocuments",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.art.ac.ir/fa",
+          "kind": "unit",
+          "claim": "انتشارات",
+          "id": "iran-art-4",
+          "unitType": "publishing",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "iran-art:laboratories",
+      "universitySlug": "iran-art",
+      "nameFa": "دانشگاه هنر ایران",
+      "iscCategory": "هنر",
+      "iscRank": 1,
+      "dimension": "laboratories",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.art.ac.ir/fa",
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی",
+          "id": "iran-art-3",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "iran-art:industryTechnology",
+      "universitySlug": "iran-art",
+      "nameFa": "دانشگاه هنر ایران",
+      "iscCategory": "هنر",
+      "iscRank": 1,
+      "dimension": "industryTechnology",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.art.ac.ir/fa",
+          "kind": "unit",
+          "claim": "همکاری‌های علمی و هنری با جامعه",
+          "id": "iran-art-2",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "iran-art:informationTechnology",
+      "universitySlug": "iran-art",
+      "nameFa": "دانشگاه هنر ایران",
+      "iscCategory": "هنر",
+      "iscRank": 1,
+      "dimension": "informationTechnology",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.art.ac.ir/fa",
+          "kind": "unit",
+          "claim": "فناوری اطلاعات، امنیت و هوشمندسازی",
+          "id": "iran-art-6",
+          "unitType": "it",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": "Downgraded until a source proving organizational IT dependency is registered.",
+      "verificationBasis": "Downgraded until a source proving organizational IT dependency is registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "iran-art:systemsServices",
+      "universitySlug": "iran-art",
+      "nameFa": "دانشگاه هنر ایران",
+      "iscCategory": "هنر",
+      "iscRank": 1,
+      "dimension": "systemsServices",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.art.ac.ir/fa",
+          "kind": "system",
+          "claim": "خدمات IT و هوشمندسازی",
+          "id": "iran-art-sys-1",
+          "systemCategory": "it"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "iran-art:documentsRegulations",
+      "universitySlug": "iran-art",
+      "nameFa": "دانشگاه هنر ایران",
+      "iscCategory": "هنر",
+      "iscRank": 1,
+      "dimension": "documentsRegulations",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.art.ac.ir/fa",
+          "kind": "document",
+          "claim": "دستورالعمل جشنواره پژوهشگران و فناوران",
+          "id": "iran-art-doc-1"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": {
     "universitySlug": "iran-art",
     "nameFa": "دانشگاه هنر ایران",

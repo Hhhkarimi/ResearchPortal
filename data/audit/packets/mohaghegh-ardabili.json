@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "جامع",
@@ -50,6 +50,316 @@
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "mohaghegh-ardabili:portalIdentity",
+      "universitySlug": "mohaghegh-ardabili",
+      "nameFa": "دانشگاه محقق اردبیلی",
+      "iscCategory": "جامع",
+      "iscRank": 18,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://uma.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://uma.ac.ir/find-8.270.2596.fa.html",
+          "kind": "research-review-specific",
+          "claim": "معاونت پژوهش ۱",
+          "id": null,
+          "sourceLabel": "معاونت پژوهش ۱"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "mohaghegh-ardabili:organization",
+      "universitySlug": "mohaghegh-ardabili",
+      "nameFa": "دانشگاه محقق اردبیلی",
+      "iscCategory": "جامع",
+      "iscRank": 18,
+      "dimension": "organization",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "url": "https://uma.ac.ir/find-8.270.2596.fa.html",
+          "kind": "research-review-reference",
+          "claim": "معاونت پژوهش ۱",
+          "id": null,
+          "sourceLabel": "معاونت پژوهش ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://uma.ac.ir/find.php?item=8.5244.13832.fa",
+          "kind": "research-review-reference",
+          "claim": "میز خدمات ۲",
+          "id": null,
+          "sourceLabel": "میز خدمات ۲",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://uma.ac.ir/content/32005/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "آیین‌نامه‌ها ۳",
+          "id": null,
+          "sourceLabel": "آیین‌نامه‌ها ۳",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "mohaghegh-ardabili:libraryDocuments",
+      "universitySlug": "mohaghegh-ardabili",
+      "nameFa": "دانشگاه محقق اردبیلی",
+      "iscCategory": "جامع",
+      "iscRank": 18,
+      "dimension": "libraryDocuments",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "url": "https://uma.ac.ir/find-8.270.2596.fa.html",
+          "kind": "research-review-reference",
+          "claim": "معاونت پژوهش ۱",
+          "id": null,
+          "sourceLabel": "معاونت پژوهش ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://uma.ac.ir/find.php?item=8.5244.13832.fa",
+          "kind": "research-review-reference",
+          "claim": "میز خدمات ۲",
+          "id": null,
+          "sourceLabel": "میز خدمات ۲",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://uma.ac.ir/content/32005/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "آیین‌نامه‌ها ۳",
+          "id": null,
+          "sourceLabel": "آیین‌نامه‌ها ۳",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "mohaghegh-ardabili:laboratories",
+      "universitySlug": "mohaghegh-ardabili",
+      "nameFa": "دانشگاه محقق اردبیلی",
+      "iscCategory": "جامع",
+      "iscRank": 18,
+      "dimension": "laboratories",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "url": "https://uma.ac.ir/find-8.270.2596.fa.html",
+          "kind": "research-review-reference",
+          "claim": "معاونت پژوهش ۱",
+          "id": null,
+          "sourceLabel": "معاونت پژوهش ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://uma.ac.ir/find.php?item=8.5244.13832.fa",
+          "kind": "research-review-reference",
+          "claim": "میز خدمات ۲",
+          "id": null,
+          "sourceLabel": "میز خدمات ۲",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://uma.ac.ir/content/32005/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "آیین‌نامه‌ها ۳",
+          "id": null,
+          "sourceLabel": "آیین‌نامه‌ها ۳",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "mohaghegh-ardabili:industryTechnology",
+      "universitySlug": "mohaghegh-ardabili",
+      "nameFa": "دانشگاه محقق اردبیلی",
+      "iscCategory": "جامع",
+      "iscRank": 18,
+      "dimension": "industryTechnology",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "url": "https://uma.ac.ir/find-8.270.2596.fa.html",
+          "kind": "research-review-reference",
+          "claim": "معاونت پژوهش ۱",
+          "id": null,
+          "sourceLabel": "معاونت پژوهش ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://uma.ac.ir/find.php?item=8.5244.13832.fa",
+          "kind": "research-review-reference",
+          "claim": "میز خدمات ۲",
+          "id": null,
+          "sourceLabel": "میز خدمات ۲",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://uma.ac.ir/content/32005/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "آیین‌نامه‌ها ۳",
+          "id": null,
+          "sourceLabel": "آیین‌نامه‌ها ۳",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "mohaghegh-ardabili:informationTechnology",
+      "universitySlug": "mohaghegh-ardabili",
+      "nameFa": "دانشگاه محقق اردبیلی",
+      "iscCategory": "جامع",
+      "iscRank": 18,
+      "dimension": "informationTechnology",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "url": "https://uma.ac.ir/find-8.270.2596.fa.html",
+          "kind": "research-review-reference",
+          "claim": "معاونت پژوهش ۱",
+          "id": null,
+          "sourceLabel": "معاونت پژوهش ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://uma.ac.ir/find.php?item=8.5244.13832.fa",
+          "kind": "research-review-reference",
+          "claim": "میز خدمات ۲",
+          "id": null,
+          "sourceLabel": "میز خدمات ۲",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://uma.ac.ir/content/32005/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "آیین‌نامه‌ها ۳",
+          "id": null,
+          "sourceLabel": "آیین‌نامه‌ها ۳",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded until a source proving organizational IT dependency is registered.",
+      "verificationBasis": "Downgraded until a source proving organizational IT dependency is registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "mohaghegh-ardabili:systemsServices",
+      "universitySlug": "mohaghegh-ardabili",
+      "nameFa": "دانشگاه محقق اردبیلی",
+      "iscCategory": "جامع",
+      "iscRank": 18,
+      "dimension": "systemsServices",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 3,
+      "sources": [
+        {
+          "url": "https://uma.ac.ir/find-8.270.2596.fa.html",
+          "kind": "research-review-reference",
+          "claim": "معاونت پژوهش ۱",
+          "id": null,
+          "sourceLabel": "معاونت پژوهش ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://uma.ac.ir/find.php?item=8.5244.13832.fa",
+          "kind": "research-review-reference",
+          "claim": "میز خدمات ۲",
+          "id": null,
+          "sourceLabel": "میز خدمات ۲",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://uma.ac.ir/content/32005/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "آیین‌نامه‌ها ۳",
+          "id": null,
+          "sourceLabel": "آیین‌نامه‌ها ۳",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "mohaghegh-ardabili:documentsRegulations",
+      "universitySlug": "mohaghegh-ardabili",
+      "nameFa": "دانشگاه محقق اردبیلی",
+      "iscCategory": "جامع",
+      "iscRank": 18,
+      "dimension": "documentsRegulations",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://uma.ac.ir/content/32005/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "آیین‌نامه‌ها ۳",
+          "id": null,
+          "sourceLabel": "آیین‌نامه‌ها ۳"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": null,
   "units": [],
   "systems": [],

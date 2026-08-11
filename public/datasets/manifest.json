@@ -1,8 +1,16 @@
 {
-  "version": "8.1.0",
+  "version": "9.0.0",
   "apiVersion": "v1",
   "snapshotDate": "2026-08-10",
   "iscScope": 115,
+  "dimensionEvidenceOutcomes": 920,
+  "dimensionEvidenceStatusCounts": {
+    "verified": 138,
+    "observed-reference": 90,
+    "restricted": 32,
+    "unresolved": 660
+  },
+  "publicationGateDowngrades": 81,
   "files": [
     "/datasets/isc-institutions.json",
     "/datasets/isc-source.json",
@@ -15,7 +23,9 @@
     "/datasets/units-catalog.json",
     "/datasets/systems-catalog.json",
     "/datasets/documents-catalog.json",
-    "/datasets/evidence-provenance-ledger.json"
+    "/datasets/evidence-provenance-ledger.json",
+    "/datasets/evidence-research-review.json",
+    "/datasets/evidence-dimension-evidence.json"
   ],
   "auditPackets": "/datasets/audit-packets-index.json",
   "api": "/api/v1",

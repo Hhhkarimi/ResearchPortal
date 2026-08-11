@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "8.0.0",
+  "schemaVersion": "9.0.0",
   "snapshotDate": "2026-08-10",
   "institution": {
     "category": "صنعتی",
@@ -50,6 +50,216 @@
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
+  "dimensionEvidence": [
+    {
+      "id": "isfahan-technology:portalIdentity",
+      "universitySlug": "isfahan-technology",
+      "nameFa": "دانشگاه صنعتی اصفهان",
+      "iscCategory": "صنعتی",
+      "iscRank": 5,
+      "dimension": "portalIdentity",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.iut.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official research/technology portal identity",
+          "id": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "isfahan-technology:organization",
+      "universitySlug": "isfahan-technology",
+      "nameFa": "دانشگاه صنعتی اصفهان",
+      "iscCategory": "صنعتی",
+      "iscRank": 5,
+      "dimension": "organization",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.iut.ac.ir/",
+          "kind": "unit",
+          "claim": "امور پژوهشی",
+          "id": "isfahan-technology-1",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "isfahan-technology:libraryDocuments",
+      "universitySlug": "isfahan-technology",
+      "nameFa": "دانشگاه صنعتی اصفهان",
+      "iscCategory": "صنعتی",
+      "iscRank": 5,
+      "dimension": "libraryDocuments",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.iut.ac.ir/",
+          "kind": "unit",
+          "claim": "کتابخانه، انتشارات و نشریات",
+          "id": "isfahan-technology-7",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "isfahan-technology:laboratories",
+      "universitySlug": "isfahan-technology",
+      "nameFa": "دانشگاه صنعتی اصفهان",
+      "iscCategory": "صنعتی",
+      "iscRank": 5,
+      "dimension": "laboratories",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.iut.ac.ir/",
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی",
+          "id": "isfahan-technology-2",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "isfahan-technology:industryTechnology",
+      "universitySlug": "isfahan-technology",
+      "nameFa": "دانشگاه صنعتی اصفهان",
+      "iscCategory": "صنعتی",
+      "iscRank": 5,
+      "dimension": "industryTechnology",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.iut.ac.ir/",
+          "kind": "unit",
+          "claim": "فناوری، نوآوری و تجاری‌سازی",
+          "id": "isfahan-technology-5",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "isfahan-technology:informationTechnology",
+      "universitySlug": "isfahan-technology",
+      "nameFa": "دانشگاه صنعتی اصفهان",
+      "iscCategory": "صنعتی",
+      "iscRank": 5,
+      "dimension": "informationTechnology",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.iut.ac.ir/",
+          "kind": "unit",
+          "claim": "مدیریت فناوری اطلاعات",
+          "id": "isfahan-technology-3",
+          "unitType": "it",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
+      "publicationAdjustment": "Downgraded until a source proving organizational IT dependency is registered.",
+      "verificationBasis": "Downgraded until a source proving organizational IT dependency is registered.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "isfahan-technology:systemsServices",
+      "universitySlug": "isfahan-technology",
+      "nameFa": "دانشگاه صنعتی اصفهان",
+      "iscCategory": "صنعتی",
+      "iscRank": 5,
+      "dimension": "systemsServices",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.iut.ac.ir/",
+          "kind": "system",
+          "claim": "سامانه مپفا",
+          "id": "isfahan-technology-sys-1",
+          "systemCategory": "national"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    },
+    {
+      "id": "isfahan-technology:documentsRegulations",
+      "universitySlug": "isfahan-technology",
+      "nameFa": "دانشگاه صنعتی اصفهان",
+      "iscCategory": "صنعتی",
+      "iscRank": 5,
+      "dimension": "documentsRegulations",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
+      "reviewedAt": "2026-08-10",
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.iut.ac.ir/",
+          "kind": "document",
+          "claim": "آیین‌نامه پژوهانه",
+          "id": "isfahan-technology-doc-1"
+        }
+      ],
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
+    }
+  ],
   "ranking": {
     "universitySlug": "isfahan-technology",
     "nameFa": "دانشگاه صنعتی اصفهان",

@@ -1,5 +1,15 @@
 # Changelog
 
+## 9.0.0 — Evidence 115 & Visual Stories
+
+- Added a reproducible 115-institution research review and a complete 920-outcome dimension evidence registry.
+- Preserved uncertainty explicitly: a reproducibility gate makes 81 conservative adjustments, leaving 138 published verified, 90 references, 32 restricted-with-URL and 660 unresolved outcomes.
+- Embedded the eight evidence outcomes and source URLs into all 115 university profiles and audit packets.
+- Added JSON/CSV Open Data exports and the filterable `GET /api/v1/evidence` endpoint with OpenAPI documentation.
+- Added a Persian-digit presentation layer while preserving Latin technical identifiers inside code and API examples.
+- Introduced the 115-star evidence constellation, eight-dimension spectrum and RTPMI podium visual stories.
+- Added a complete GitHub Codespaces devcontainer, setup automation and VS Code tasks.
+
 ## 8.1.0 — Living Reference & Experience Release
 
 - Rebuilt the public experience around three journeys: university, policymaker and researcher.
