@@ -110,6 +110,7 @@ jobs:
 
       - name: No meaningful changes
         if: steps.crawl.outputs.meaningful != 'true'
+        shell: cmd
         run: |
           echo "No meaningful evidence changes detected."
           echo "Network failures: ${{ steps.crawl.outputs.failed }}"
