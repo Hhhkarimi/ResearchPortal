@@ -30,6 +30,7 @@ jobs:
           node-version: 22
 
       - name: Crawl and monitor evidence links
+        shell: cmd
         run: npm run monitor:links
 
       - name: Inspect crawl changes
