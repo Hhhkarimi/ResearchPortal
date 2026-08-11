@@ -88,7 +88,7 @@
     ],
     "discoveryCrawler": {
       "lastRun": "2026-08-11",
-      "promotedSources": 73,
+      "promotedSources": 70,
       "socialEvidenceRemoved": true
     }
   },
@@ -176,7 +176,7 @@
     "auditEvidenceCoverage": 63,
     "unitsFound": 3,
     "systemsFound": 1,
-    "documentsFound": 56,
+    "documentsFound": 57,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -854,7 +854,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 56,
+      "sourceCount": 57,
       "sources": [
         {
           "url": "https://umz.ac.ir/documents/492510/7319958/3-%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%AA%D8%AF%D9%88%DB%8C%D9%86_%D9%BE%D8%A7%DB%8C%D8%A7%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%87%D8%A7%DB%8C_%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C_%D8%A7%D8%B1%D8%B4%D8%AF_%D9%88_%D8%B1%D8%B3%D8%A7%D9%84%D9%87_%D9%87%D8%A7%DB%8C_%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf/d96425ab-5196-8489-39a6-1a20f53b463d?t=1784440196247",
@@ -1190,6 +1190,12 @@
           "url": "https://research.umz.ac.ir/documents/492510/7111689/2-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87+%D8%B7%D8%B1%D8%AD+%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87.doc/b6c18d68-cd1b-d783-4bdf-85df65796ff5?t=1784015455254&download=true",
           "kind": "portal-document-reaudit-document",
           "claim": "پرسشنامه طرح فناورانه",
+          "id": null
+        },
+        {
+          "url": "https://umz.ac.ir/documents/492510/7112181/1-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87+%D8%B4%D8%B1%DA%A9%D8%AA+%D8%AF%D8%B1+%DA%AF%D8%B1%D8%AF%D9%87%D9%85%D8%A7%D9%8A%D9%8A+%D9%87%D8%A7%D9%8A+%D8%A8%D9%8A%D9%86+%D8%A7%D9%84%D9%85%D9%84%D9%84%D9%8A+%D8%AE%D8%A7%D8%B1%D8%AC+%D8%A7%D8%B2+%DA%A9%D8%B4%D9%88%D8%B1.docx/497145c5-af63-ba59-d308-d50a5f94d0ca?t=1784015558296&download=true",
+          "kind": "portal-document-reaudit-document",
+          "claim": "پرسشنامه شرکت در همایش خارج کشور",
           "id": null
         }
       ],
@@ -2423,6 +2429,27 @@
       "contentType": "application/msword",
       "fileSize": 203776,
       "archivePath": "mazandaran/e4d2b04650e8-2-پرسشنامه طرح فناورانه.doc",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "mazandaran-discovery-document-014e5754d10f",
+      "universitySlug": "mazandaran",
+      "title": "پرسشنامه شرکت در همایش خارج کشور",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://umz.ac.ir/documents/492510/7112181/1-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87+%D8%B4%D8%B1%DA%A9%D8%AA+%D8%AF%D8%B1+%DA%AF%D8%B1%D8%AF%D9%87%D9%85%D8%A7%D9%8A%D9%8A+%D9%87%D8%A7%D9%8A+%D8%A8%D9%8A%D9%86+%D8%A7%D9%84%D9%85%D9%84%D9%84%D9%8A+%D8%AE%D8%A7%D8%B1%D8%AC+%D8%A7%D8%B2+%DA%A9%D8%B4%D9%88%D8%B1.docx/497145c5-af63-ba59-d308-d50a5f94d0ca?t=1784015558296&download=true",
+      "sourceUrl": "https://umz.ac.ir/documents/492510/7112181/1-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87+%D8%B4%D8%B1%DA%A9%D8%AA+%D8%AF%D8%B1+%DA%AF%D8%B1%D8%AF%D9%87%D9%85%D8%A7%D9%8A%D9%8A+%D9%87%D8%A7%D9%8A+%D8%A8%D9%8A%D9%86+%D8%A7%D9%84%D9%85%D9%84%D9%84%D9%8A+%D8%AE%D8%A7%D8%B1%D8%AC+%D8%A7%D8%B2+%DA%A9%D8%B4%D9%88%D8%B1.docx/497145c5-af63-ba59-d308-d50a5f94d0ca?t=1784015558296&download=true",
+      "parentUrl": "https://research.umz.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+      "sha256": "b4fc3c158d5edfe873710aa2eb206c1c9ef2ac4f474a40e7e6bf2b7ff50594b5",
+      "fileName": "1-پرسشنامه شرکت در گردهمايي هاي بين المللي خارج از کشور.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 40214,
+      "archivePath": "mazandaran/183bfe9e70c7-1-پرسشنامه شرکت در گردهمايي هاي بين المللي خارج از کشور.docx",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     }

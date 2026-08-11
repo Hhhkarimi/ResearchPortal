@@ -20,13 +20,22 @@
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://qut.ac.ir/fa/researches/index",
     "evidenceUrls": [
-      "https://qut.ac.ir/fa/researches/index"
+      "https://qut.ac.ir/fa/researches/index",
+      "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_5.aspx",
+      "https://qut.ac.ir/fa/press/index/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%a7%d9%84%d9%87%db%8c%d8%a7%d8%aa%db%8c%d9%90-%d8%ad%d9%83%d9%85%d8%b1%d8%a7%d9%86%db%8c-%d8%b9%d9%84%d9%88%d9%85-%d9%88-%d9%81%d9%86%d9%88%d9%86-%d9%87%d9%85%da%af%d8%b1%d8%a7",
+      "https://scimet.qut.ac.ir/",
+      "https://qut.ac.ir/fa/honors/index/140409251",
+      "https://digitallib.qut.ac.ir/DL/SPortal/DefaultSP15501.aspx",
+      "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_2.aspx",
+      "https://digitallib.qut.ac.ir/Dl/Search/default.aspx?Login=1",
+      "https://digitallib.qut.ac.ir/Dl/SPortal/Search/DefaultSP.aspx?bs=%",
+      "https://erp.qut.ac.ir/hermes.html?param=tezcoreshow.aspx"
     ],
     "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
       "lastRun": "2026-08-11",
-      "promotedSources": 0,
+      "promotedSources": 9,
       "socialEvidenceRemoved": true
     }
   },
@@ -39,7 +48,16 @@
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://qut.ac.ir/fa/researches/index",
     "evidenceUrls": [
-      "https://qut.ac.ir/fa/researches/index"
+      "https://qut.ac.ir/fa/researches/index",
+      "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_5.aspx",
+      "https://qut.ac.ir/fa/press/index/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%a7%d9%84%d9%87%db%8c%d8%a7%d8%aa%db%8c%d9%90-%d8%ad%d9%83%d9%85%d8%b1%d8%a7%d9%86%db%8c-%d8%b9%d9%84%d9%88%d9%85-%d9%88-%d9%81%d9%86%d9%88%d9%86-%d9%87%d9%85%da%af%d8%b1%d8%a7",
+      "https://scimet.qut.ac.ir/",
+      "https://qut.ac.ir/fa/honors/index/140409251",
+      "https://digitallib.qut.ac.ir/DL/SPortal/DefaultSP15501.aspx",
+      "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_2.aspx",
+      "https://digitallib.qut.ac.ir/Dl/Search/default.aspx?Login=1",
+      "https://digitallib.qut.ac.ir/Dl/SPortal/Search/DefaultSP.aspx?bs=%",
+      "https://erp.qut.ac.ir/hermes.html?param=tezcoreshow.aspx"
     ],
     "deepAuditStatus": "deep-audited",
     "dimensions": {
@@ -53,8 +71,8 @@
       "documentsRegulations": "verified"
     },
     "auditEvidenceCoverage": 88,
-    "unitsFound": 6,
-    "systemsFound": 4,
+    "unitsFound": 12,
+    "systemsFound": 7,
     "documentsFound": 3,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
@@ -71,12 +89,66 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 1,
+      "sourceCount": 10,
       "sources": [
         {
           "url": "https://qut.ac.ir/fa/researches/index",
           "kind": "portal-identity",
           "claim": "official research/technology portal identity",
+          "id": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_5.aspx",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://qut.ac.ir/fa/press/index/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%a7%d9%84%d9%87%db%8c%d8%a7%d8%aa%db%8c%d9%90-%d8%ad%d9%83%d9%85%d8%b1%d8%a7%d9%86%db%8c-%d8%b9%d9%84%d9%88%d9%85-%d9%88-%d9%81%d9%86%d9%88%d9%86-%d9%87%d9%85%da%af%d8%b1%d8%a7",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://scimet.qut.ac.ir/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://qut.ac.ir/fa/honors/index/140409251",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/DL/SPortal/DefaultSP15501.aspx",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_2.aspx",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/Dl/Search/default.aspx?Login=1",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/DefaultSP.aspx?bs=%",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://erp.qut.ac.ir/hermes.html?param=tezcoreshow.aspx",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         }
       ],
@@ -95,13 +167,67 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 1,
+      "sourceCount": 7,
       "sources": [
         {
           "url": "https://qut.ac.ir/fa/researches/index",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific organization source",
           "id": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_5.aspx",
+          "kind": "unit",
+          "claim": "كتابخانه دانشگاه صنعتي قم",
+          "id": "qom-technology-discovery-unit-library-ed43e4af4b61",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://qut.ac.ir/fa/honors/index/140409251",
+          "kind": "unit",
+          "claim": "کسب عنوان دانشگاه برگزیده در تعامل با جامعه و صنعت توسط دانشگاه صنعتی قم",
+          "id": "qom-technology-discovery-unit-industry-3ef75b9bc24c",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/DL/SPortal/DefaultSP15501.aspx",
+          "kind": "unit",
+          "claim": "كتابخانه دانشگاه صنعتي قم",
+          "id": "qom-technology-discovery-unit-library-a7c0b33a4c3f",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_2.aspx",
+          "kind": "unit",
+          "claim": "كتابخانه دانشگاه صنعتي قم",
+          "id": "qom-technology-discovery-unit-library-40a89ff437d7",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/Dl/Search/default.aspx?Login=1",
+          "kind": "unit",
+          "claim": "دانشگاه صنعتی قم ، کتابخانه 2.0 ثنا",
+          "id": "qom-technology-discovery-unit-library-14f1d887ddf8",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/DefaultSP.aspx?bs=%",
+          "kind": "unit",
+          "claim": "كتابخانه دانشگاه صنعتي قم",
+          "id": "qom-technology-discovery-unit-library-720eb9e02248",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         }
       ],
       "publicationAdjustment": null,
@@ -115,21 +241,51 @@
       "iscCategory": "صنعتی",
       "iscRank": 15,
       "dimension": "libraryDocuments",
-      "status": "observed-reference",
-      "reportedStatus": "observed-reference",
-      "reviewOutcome": "reference-only",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 1,
+      "sourceCount": 6,
       "sources": [
         {
           "url": "https://qut.ac.ir/fa/researches/index",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_5.aspx",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/DL/SPortal/DefaultSP15501.aspx",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_2.aspx",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/Dl/Search/default.aspx?Login=1",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/DefaultSP.aspx?bs=%",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -163,21 +319,27 @@
       "iscCategory": "صنعتی",
       "iscRank": 15,
       "dimension": "industryTechnology",
-      "status": "observed-reference",
-      "reportedStatus": "observed-reference",
-      "reviewOutcome": "reference-only",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sources": [
         {
           "url": "https://qut.ac.ir/fa/researches/index",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific industryTechnology source",
           "id": null
+        },
+        {
+          "url": "https://qut.ac.ir/fa/honors/index/140409251",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -204,21 +366,46 @@
       "iscCategory": "صنعتی",
       "iscRank": 15,
       "dimension": "systemsServices",
-      "status": "observed-reference",
-      "reportedStatus": "observed-reference",
-      "reviewOutcome": "reference-only",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 1,
+      "sourceCount": 5,
       "sources": [
         {
           "url": "https://qut.ac.ir/fa/researches/index",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
+        },
+        {
+          "url": "https://qut.ac.ir/fa/press/index/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%a7%d9%84%d9%87%db%8c%d8%a7%d8%aa%db%8c%d9%90-%d8%ad%d9%83%d9%85%d8%b1%d8%a7%d9%86%db%8c-%d8%b9%d9%84%d9%88%d9%85-%d9%88-%d9%81%d9%86%d9%88%d9%86-%d9%87%d9%85%da%af%d8%b1%d8%a7",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://scimet.qut.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://erp.qut.ac.ir/hermes.html?param=tezcoreshow.aspx",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://qut.ac.ir/",
+          "kind": "system",
+          "claim": "سامانه الهیاتیِ حكمرانی علوم و فنون همگرا",
+          "id": "qom-technology-discovery-system-af96580f61cd",
+          "systemCategory": "research"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -251,28 +438,28 @@
     "nameFa": "دانشگاه صنعتی قم",
     "iscCategory": "صنعتی",
     "iscRank": 15,
-    "score": 72,
+    "score": 74,
     "confidence": 91.4,
     "metrics": {
       "documents": 54.3,
       "organization": 100,
       "library": 70,
       "laboratories": 70,
-      "digital": 45,
+      "digital": 55,
       "industryTech": 90,
       "dataQuality": 100,
-      "findability": 55
+      "findability": 63.6
     },
-    "units": 6,
-    "systems": 4,
+    "units": 12,
+    "systems": 7,
     "documents": 3,
     "activeWeight": 100,
     "evidenceCoverage": 88,
     "methodologyVersion": "RTPMI-4.1-ISC",
     "snapshotDate": "2026-08-11",
-    "rank": 13,
-    "portalRankWithinISCClass": 4,
-    "rankedPortalsInISCClass": 6
+    "rank": 33,
+    "portalRankWithinISCClass": 9,
+    "rankedPortalsInISCClass": 13
   },
   "units": [
     {
@@ -328,6 +515,72 @@
       "evidence": "verified",
       "lastVerified": "2026-08-10",
       "sourceUrl": "https://qut.ac.ir/fa/researches/index"
+    },
+    {
+      "id": "qom-technology-discovery-unit-library-ed43e4af4b61",
+      "universitySlug": "qom-technology",
+      "nameFa": "كتابخانه دانشگاه صنعتي قم",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "sourceUrl": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_5.aspx",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qom-technology-discovery-unit-industry-3ef75b9bc24c",
+      "universitySlug": "qom-technology",
+      "nameFa": "کسب عنوان دانشگاه برگزیده در تعامل با جامعه و صنعت توسط دانشگاه صنعتی قم",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "sourceUrl": "https://qut.ac.ir/fa/honors/index/140409251",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8957894736842105
+    },
+    {
+      "id": "qom-technology-discovery-unit-library-a7c0b33a4c3f",
+      "universitySlug": "qom-technology",
+      "nameFa": "كتابخانه دانشگاه صنعتي قم",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "sourceUrl": "https://digitallib.qut.ac.ir/DL/SPortal/DefaultSP15501.aspx",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8957894736842105
+    },
+    {
+      "id": "qom-technology-discovery-unit-library-40a89ff437d7",
+      "universitySlug": "qom-technology",
+      "nameFa": "كتابخانه دانشگاه صنعتي قم",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "sourceUrl": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_2.aspx",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8957894736842105
+    },
+    {
+      "id": "qom-technology-discovery-unit-library-14f1d887ddf8",
+      "universitySlug": "qom-technology",
+      "nameFa": "دانشگاه صنعتی قم ، کتابخانه 2.0 ثنا",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "sourceUrl": "https://digitallib.qut.ac.ir/Dl/Search/default.aspx?Login=1",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "qom-technology-discovery-unit-library-720eb9e02248",
+      "universitySlug": "qom-technology",
+      "nameFa": "كتابخانه دانشگاه صنعتي قم",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "sourceUrl": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/DefaultSP.aspx?bs=%",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
     }
   ],
   "systems": [
@@ -366,6 +619,45 @@
       "evidence": "verified",
       "lastVerified": "2026-08-10",
       "sourceUrl": "https://qut.ac.ir/fa/researches/index"
+    },
+    {
+      "id": "qom-technology-discovery-system-af96580f61cd",
+      "universitySlug": "qom-technology",
+      "nameFa": "سامانه الهیاتیِ حكمرانی علوم و فنون همگرا",
+      "category": "research",
+      "url": "https://qut.ac.ir/fa/press/index/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%a7%d9%84%d9%87%db%8c%d8%a7%d8%aa%db%8c%d9%90-%d8%ad%d9%83%d9%85%d8%b1%d8%a7%d9%86%db%8c-%d8%b9%d9%84%d9%88%d9%85-%d9%88-%d9%81%d9%86%d9%88%d9%86-%d9%87%d9%85%da%af%d8%b1%d8%a7",
+      "sourceUrl": "https://qut.ac.ir/",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qom-technology-discovery-system-35f914e2defe",
+      "universitySlug": "qom-technology",
+      "nameFa": "���Ԑ�� ����ی ��",
+      "category": "research",
+      "url": "https://scimet.qut.ac.ir/",
+      "sourceUrl": "https://qut.ac.ir/",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "qom-technology-discovery-system-4ab3cd8af68a",
+      "universitySlug": "qom-technology",
+      "nameFa": "Dashboard",
+      "category": "research",
+      "url": "https://erp.qut.ac.ir/hermes.html?param=tezcoreshow.aspx",
+      "sourceUrl": "https://qut.ac.ir/",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-11",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8431578947368421
     }
   ],
   "documents": [

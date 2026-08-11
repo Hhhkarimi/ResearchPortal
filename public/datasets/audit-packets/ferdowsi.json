@@ -85,7 +85,7 @@
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
       "lastRun": "2026-08-11",
-      "promotedSources": 81,
+      "promotedSources": 87,
       "socialEvidenceRemoved": true
     }
   },
@@ -173,7 +173,7 @@
     "auditEvidenceCoverage": 88,
     "unitsFound": 18,
     "systemsFound": 10,
-    "documentsFound": 41,
+    "documentsFound": 58,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 60,
+      "sourceCount": 61,
       "sources": [
         {
           "url": "https://vpr.um.ac.ir/",
@@ -550,6 +550,12 @@
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/97-2016-11-21-04-19-32/1714-2024-12-02-08-01-30",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -690,7 +696,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 32,
+      "sourceCount": 39,
       "sources": [
         {
           "url": "https://vpr.um.ac.ir/",
@@ -706,9 +712,12 @@
         },
         {
           "url": "https://innov.um.ac.ir/index.php/fa/innovation-centers/elzamat-esteghrar",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
+          "kind": "unit",
+          "claim": "آیین نامه و الزامات استقرار در مراکز نوآوری",
+          "id": "ferdowsi-discovery-unit-technology-e3aab1b3d53c",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         },
         {
           "url": "https://vpr.um.ac.ir/index.php/fa/vice-chancellor-for-research-and-technology/innovation-and-theorizing",
@@ -721,6 +730,13 @@
         },
         {
           "url": "https://vpr.um.ac.ir/index.php/fa/contact-us/managers-of-research-and-technology",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/97-2016-11-21-04-19-32/1714-2024-12-02-08-01-30",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
@@ -909,11 +925,53 @@
           "sourceLabel": "شیوه نامه جشنواره تجلیل از فناوران و نوآوران برگزیده کشور"
         },
         {
-          "url": "http://tto.um.ac.ir/index.php?option=com_content&view=article&id=664&Itemid=756&lang=fa",
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-pajoheshi-ejra-ghanun-pishgiri-takhalof-asar-elmi.pdf",
           "kind": "research-review-specific",
-          "claim": "پایان نامه های حمایتی",
+          "claim": "بخشنامه معاون پژوهش و فناوری وزارت در خصوص قانون پیشگیری و مقابله با تقلب",
           "id": null,
-          "sourceLabel": "پایان نامه های حمایتی"
+          "sourceLabel": "بخشنامه معاون پژوهش و فناوری وزارت در خصوص قانون پیشگیری و مقابله با تقلب"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/99/21jashnvare.pdf",
+          "kind": "research-review-specific",
+          "claim": "دستورالعمل بیست و یکمین جشنواره تجلیل از پژوهشگران و فناوران برتر",
+          "id": null,
+          "sourceLabel": "دستورالعمل بیست و یکمین جشنواره تجلیل از پژوهشگران و فناوران برتر"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/98/20tajlil-pajoheshgaran.pdf",
+          "kind": "research-review-specific",
+          "claim": "دستورالعمل بیستمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور",
+          "id": null,
+          "sourceLabel": "دستورالعمل بیستمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/97/ayinname97.pdf",
+          "kind": "research-review-specific",
+          "claim": "دستورالعمل نوزدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور",
+          "id": null,
+          "sourceLabel": "دستورالعمل نوزدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/96/18tajlil-pajohesh-fanavar.pdf",
+          "kind": "research-review-specific",
+          "claim": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر",
+          "id": null,
+          "sourceLabel": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/18tajlil-pajohesh-fanavar.pdf",
+          "kind": "research-review-specific",
+          "claim": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برگزیده",
+          "id": null,
+          "sourceLabel": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برگزیده"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1403/ostan/ostan1403.pdf",
+          "kind": "research-review-specific",
+          "claim": "دستورالعمل برگزاری هفته پژوهش و فناوری استان سال 1403",
+          "id": null,
+          "sourceLabel": "دستورالعمل برگزاری هفته پژوهش و فناوری استان سال 1403"
         }
       ],
       "publicationAdjustment": null,
@@ -985,7 +1043,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-11",
-      "sourceCount": 49,
+      "sourceCount": 64,
       "sources": [
         {
           "url": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
@@ -1001,12 +1059,6 @@
         },
         {
           "url": "https://vpr.um.ac.ir/index.php/fa/faculty/promotion-regulations",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://innov.um.ac.ir/index.php/fa/innovation-centers/elzamat-esteghrar",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -1042,12 +1094,6 @@
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/index.php/fa/instructions",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
           "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/mosavabat/omana/nahve-pardakht-pajoohane.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "پژوهانه راهنمایی و مشاور پایان نامه و رساله",
@@ -1060,9 +1106,9 @@
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/banners/pazhohane1403.pdf",
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/tahsilat-takmili/shivename-pishgiri-taghalob.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه پژوهانه جامع 1403",
+          "claim": "دستورالعمل ماده 5آیین نامه اجرائی قانون پیشگیری و مقابله با تقلب در تهیه آثار علمی",
           "id": null
         },
         {
@@ -1102,33 +1148,21 @@
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/1402.pdf",
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/96/shivename-hafte_pajohesh.doc",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه 1402",
+          "claim": "شیوه نامه گرامیداشت هفته پژوهش و فناوری در دانشگاه فردوسی مشهد",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/grant14011.pdf",
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1402/ayinname24.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه ۱۴۰1",
+          "claim": "شیوه نامه جشنواره تجلیل از فناوران و نوآوران برگزیده کشور",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/1400.pdf",
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/korsi/nazariye-pardazi.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه ۱۴۰۰",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/%20%20%2094.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه ۱۳۹۴",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/%20%20%20%2093-%20-5.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه ۱۳۹۳",
+          "claim": "آیین نامه کمیته دستگاهی برگزاری کرسی های نظریه پردازی، نقد ومناظره",
           "id": null
         },
         {
@@ -1144,9 +1178,33 @@
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/Ethics-Guidelines-Regulations-Instructions.pdf",
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/shive-name-ejraee-ertegha.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "مجموعه قوانین، دستورالعمل ها و راهنماهای اخلاق در پژوهشهای زیست پزشکی ایران",
+          "claim": "شیوه نامه اجرایی ارتقا",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/zavabet-hey-at%20momayaze.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "ضوابط و مقررات خاص هیات ممیزه",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/1402.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه طرح پژوهه 1402",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/grant14011.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه طرح پژوهه ۱۴۰1",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/1400.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه طرح پژوهه ۱۴۰۰",
           "id": null
         },
         {
@@ -1180,93 +1238,15 @@
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/aeen-name-ertegha-95.pdf",
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/%20%20%2094.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه ارتقا - مصوب 1395",
+          "claim": "آیین نامه طرح پژوهه ۱۳۹۴",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/shive-name-ejraee-ertegha.pdf",
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/%20%20%20%2093-%20-5.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اجرایی ارتقا",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/zavabet-hey-at%20momayaze.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "ضوابط و مقررات خاص هیات ممیزه",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/Guideline.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنماي مراقبت و استفاده از حيوانات آزمايشگاهي",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/animal.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای اخلاق پژوهش بر حیوانات",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/emtiaz-ketab.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنماي نحوه ارزيابي و امتيازدهي كتاب",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/korsi/nazariye-pardazi.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه کمیته دستگاهی برگزاری کرسی های نظریه پردازی، نقد ومناظره",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/96/shivename-hafte_pajohesh.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه گرامیداشت هفته پژوهش و فناوری در دانشگاه فردوسی مشهد",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1402/ayinname24.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه جشنواره تجلیل از فناوران و نوآوران برگزیده کشور",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/entezat-timrahbari.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "اهم انتظارات دانشگاه از تيم راهبري رساله",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/dastooramal-nahve-barrasi-takhalofat-pajooheshi.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل نحوه بررسی تخلفات پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/gharbalgari-departmant.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ارزیابی کمیته غربالگری دانشکده ها",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/humanity.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای اخلاق با آزمودنی انسانی",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/vulnerables%201.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای اخلاقی پژوهش برگروه های آسیب پذیر",
-          "id": null
-        },
-        {
-          "url": "http://thesis.um.ac.ir/",
-          "kind": "portal-document-reaudit-document",
-          "claim": "پایان نامه های دانشجویی",
+          "claim": "آیین نامه طرح پژوهه ۱۳۹۳",
           "id": null
         },
         {
@@ -1276,10 +1256,178 @@
           "id": null
         },
         {
-          "url": "http://tto.um.ac.ir/index.php?option=com_content&view=article&id=664&Itemid=756&lang=fa",
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-hoghoghi-majles.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "پایان نامه های حمایتی",
+          "claim": "بخشنامه معاون حقوقی وزارت در خصوص قانون پیشگیری و مقابله با تقلب",
           "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-amozeshi-ghanun-pishgiri.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "بخشنامه معاون آموزشی وزارت در خصوص قانون پیشگیری و مقابله با تقلب",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-pajoheshi-ejra-ghanun-pishgiri-takhalof-asar-elmi.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "بخشنامه معاون پژوهش و فناوری وزارت در خصوص قانون پیشگیری و مقابله با تقلب",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/emtiaz-ketab.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "راهنماي نحوه ارزيابي و امتيازدهي كتاب",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/gharbalgari-departmant.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم ارزیابی کمیته غربالگری دانشکده ها",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/TARIFMOAVENAT/SIASAT1.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "سیاستها",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/mosavabat/heyat-raeese/93.10.28-dastooramal-nahve-taeen-zarfiyat-rahnamaee-moshavere.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مصوبه 93.10.28 - تعیین ظرفیت راهنمایی و مشاوره",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/mosavabat/retired-mosavabe.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل مربوط به اعضای هیات علمی بازنشسته",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/entezat-timrahbari.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اهم انتظارات دانشگاه از تيم راهبري رساله",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1400/siasatha1400.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "برگزیده سیاستها و اقدامات تاثیرگذار بر مرجعیت علمی",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/99/21jashnvare.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل بیست و یکمین جشنواره تجلیل از پژوهشگران و فناوران برتر",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/98/20tajlil-pajoheshgaran.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل بیستمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/97/ayinname97.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل نوزدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/96/18tajlil-pajohesh-fanavar.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/18tajlil-pajohesh-fanavar.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برگزیده",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1403/ostan/ostan1403.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل برگزاری هفته پژوهش و فناوری استان سال 1403",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1402/dastoramal24.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل بیست و چهارمین جشنواره تجلیل از پژوهشگران ، فناوران و نوآوران برگزیده کشور",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1401/dastoramal1401.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل بیست و سومین جشنواره تجلیل از پژوهشگران ، فناوران و نوآوران برگزیده کشور",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/akhlagh.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "منشوراخلاق پژوهش",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/banners/pazhohane1403.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه پژوهانه جامع 1403",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/aeen-name-ertegha-95.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه ارتقا - مصوب 1395",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/dastooramal-nahve-barrasi-takhalofat-pajooheshi.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل نحوه بررسی تخلفات پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/Ethics-Guidelines-Regulations-Instructions.pdf",
+          "kind": "document",
+          "claim": "مجموعه قوانین، دستورالعمل ها و راهنماهای اخلاق در پژوهشهای زیست پزشکی ایران",
+          "id": "ferdowsi-discovery-document-ab1a4de1f763"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/Guideline.pdf",
+          "kind": "document",
+          "claim": "راهنماي مراقبت و استفاده از حيوانات آزمايشگاهي",
+          "id": "ferdowsi-discovery-document-dfbacc07fb55"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/animal.pdf",
+          "kind": "document",
+          "claim": "راهنمای اخلاق پژوهش بر حیوانات",
+          "id": "ferdowsi-discovery-document-d7e65aca87d6"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/humanity.doc",
+          "kind": "document",
+          "claim": "راهنمای اخلاق با آزمودنی انسانی",
+          "id": "ferdowsi-discovery-document-9321f448a872"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/vulnerables%201.doc",
+          "kind": "document",
+          "claim": "راهنمای اخلاقی پژوهش برگروه های آسیب پذیر",
+          "id": "ferdowsi-discovery-document-9eccc19e1c09"
+        },
+        {
+          "url": "http://thesis.um.ac.ir/",
+          "kind": "document",
+          "claim": "پایان نامه های دانشجویی",
+          "id": "ferdowsi-discovery-document-733fa75bd5d4"
+        },
+        {
+          "url": "http://tto.um.ac.ir/index.php?option=com_content&view=article&id=664&Itemid=756&lang=fa",
+          "kind": "document",
+          "claim": "پایان نامه های حمایتی",
+          "id": "ferdowsi-discovery-document-c1e79cb88a0c"
         }
       ],
       "publicationAdjustment": null,
@@ -1292,10 +1440,10 @@
     "nameFa": "دانشگاه فردوسی مشهد",
     "iscCategory": "جامع",
     "iscRank": 3,
-    "score": 88.1,
+    "score": 89.9,
     "confidence": 91.4,
     "metrics": {
-      "documents": 91,
+      "documents": 100,
       "organization": 100,
       "library": 70,
       "laboratories": 100,
@@ -1306,14 +1454,14 @@
     },
     "units": 18,
     "systems": 10,
-    "documents": 41,
+    "documents": 58,
     "activeWeight": 100,
     "evidenceCoverage": 88,
     "methodologyVersion": "RTPMI-4.1-ISC",
     "snapshotDate": "2026-08-11",
-    "rank": 1,
-    "portalRankWithinISCClass": 1,
-    "rankedPortalsInISCClass": 13
+    "rank": 4,
+    "portalRankWithinISCClass": 4,
+    "rankedPortalsInISCClass": 32
   },
   "units": [
     {
@@ -1668,13 +1816,8 @@
       "url": "https://vpr.um.ac.ir/images/32/banners/pazhohane1403.pdf",
       "sourceUrl": "https://vpr.um.ac.ir/images/32/banners/pazhohane1403.pdf",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/faculty/grant2",
-      "sha256": "11a4913c8357b147d40469c2dd74ba18bbfce2ea648bda791400111bcdd22735",
-      "fileName": "pazhohane1403.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 5708911,
-      "archivePath": "ferdowsi/0743534af1f9-pazhohane1403.pdf",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
+      "discoveryConfidence": 0.9
     },
     {
       "id": "ferdowsi-discovery-document-da627313cfa6",
@@ -1979,7 +2122,12 @@
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/pajoohee99.pdf",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/faculty/grant2",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9
+      "discoveryConfidence": 0.99,
+      "sha256": "a5816fc80262800dab08fdb55775eed76d2d85c6d07c1bda091993ed97fe49a0",
+      "fileName": "pajoohee99.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1702071,
+      "archivePath": "ferdowsi/e5ef2047e5c5-pajoohee99.pdf"
     },
     {
       "id": "ferdowsi-discovery-document-9c1656f3b1f1",
@@ -1995,7 +2143,12 @@
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/pajooh98.pdf",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/faculty/grant2",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9
+      "discoveryConfidence": 0.99,
+      "sha256": "712b718283e3b9db41dd3869f6296bb7bf696cfece7fcaa8ac327db21be4e75d",
+      "fileName": "pajooh98.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1680742,
+      "archivePath": "ferdowsi/f8156646072a-pajooh98.pdf"
     },
     {
       "id": "ferdowsi-discovery-document-ab2c65dad5fb",
@@ -2011,7 +2164,12 @@
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/pajoohe97.pdf",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/faculty/grant2",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9
+      "discoveryConfidence": 0.99,
+      "sha256": "11c9da58ba5d83f8e9596e9196440d0151a9bedf8ff82c4a00fb7b31e174a01b",
+      "fileName": "pajoohe97.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 590702,
+      "archivePath": "ferdowsi/f670e865c12e-pajoohe97.pdf"
     },
     {
       "id": "ferdowsi-discovery-document-6605b3530138",
@@ -2027,7 +2185,12 @@
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/ayeenname96.pdf",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/faculty/grant2",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9
+      "discoveryConfidence": 0.99,
+      "sha256": "8fbc818e4f63fb051f708e83028be6aa5371197c06082188f21ac7f140222a1b",
+      "fileName": "ayeenname96.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 191047,
+      "archivePath": "ferdowsi/831023c935a8-ayeenname96.pdf"
     },
     {
       "id": "ferdowsi-discovery-document-d4b08c079c1f",
@@ -2043,7 +2206,12 @@
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/%20%20%2095-05.pdf",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/faculty/grant2",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9
+      "discoveryConfidence": 0.99,
+      "sha256": "58d59382c5c4ce612de1cfdda92e4f73fbfc2cf3f001fd9e8470924a423bf3b6",
+      "fileName": "95-05.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 204256,
+      "archivePath": "ferdowsi/ef3d266d5d6c-95-05.pdf"
     },
     {
       "id": "ferdowsi-discovery-document-14b37834de7c",
@@ -2075,7 +2243,12 @@
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/shive-name-ejraee-ertegha.pdf",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/faculty/promotion-regulations",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9
+      "discoveryConfidence": 0.99,
+      "sha256": "70794f9f461760a6bb3cd906bbc4cd1bbcf8cee03d099e9668e68ccfcbd6bbad",
+      "fileName": "shive-name-ejraee-ertegha.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 2517026,
+      "archivePath": "ferdowsi/8c28b9d29674-shive-name-ejraee-ertegha.pdf"
     },
     {
       "id": "ferdowsi-discovery-document-8b6ce5048f7b",
@@ -2091,7 +2264,12 @@
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/zavabet-hey-at%20momayaze.pdf",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/faculty/promotion-regulations",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9
+      "discoveryConfidence": 0.99,
+      "sha256": "92728fc47032d5a66909a09abe05d5294ddb435d47c0fe67f89c034c4d166f55",
+      "fileName": "zavabet-hey-at momayaze.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 916063,
+      "archivePath": "ferdowsi/0e8a65d9a561-zavabet-hey-at momayaze.pdf"
     },
     {
       "id": "ferdowsi-discovery-document-dfbacc07fb55",
@@ -2139,7 +2317,12 @@
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/emtiaz-ketab.pdf",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/faculty/promotion-regulations",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9
+      "discoveryConfidence": 0.99,
+      "sha256": "2f5cd1450ea64f88cb3575cd45719e590f49c96999529c986b6c587fc88ecaa2",
+      "fileName": "emtiaz-ketab.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 165335,
+      "archivePath": "ferdowsi/d771967f215b-emtiaz-ketab.pdf"
     },
     {
       "id": "ferdowsi-discovery-document-b7388ca8f83c",
@@ -2147,7 +2330,7 @@
       "title": "آیین نامه کمیته دستگاهی برگزاری کرسی های نظریه پردازی، نقد ومناظره",
       "type": "سند",
       "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-11",
@@ -2155,7 +2338,12 @@
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/korsi/nazariye-pardazi.pdf",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/vice-chancellor-for-research-and-technology/innovation-and-theorizing",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.99,
+      "sha256": "034bb0ba33bb86af8264c9cbab29bd6ba0226c7c30b54769ef6fd927cf14c664",
+      "fileName": "nazariye-pardazi.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 96273,
+      "archivePath": "ferdowsi/e160cfa97591-nazariye-pardazi.pdf"
     },
     {
       "id": "ferdowsi-discovery-document-14c1482765bb",
@@ -2171,7 +2359,12 @@
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/96/shivename-hafte_pajohesh.doc",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1408",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.99,
+      "sha256": "f8be618b4e76fac726fea22637755bdfb7f40cd5ef6f984be5aea570b678b384",
+      "fileName": "shivename-hafte_pajohesh.doc",
+      "contentType": "application/msword",
+      "fileSize": 366080,
+      "archivePath": "ferdowsi/4d950fa1a432-shivename-hafte_pajohesh.doc"
     },
     {
       "id": "ferdowsi-discovery-document-e6d5455b0986",
@@ -2187,7 +2380,12 @@
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1402/ayinname24.pdf",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/119-1402/1710-reserch1402",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.99,
+      "sha256": "be6becfdffc512291c6e36777b6c80a8954ac21284dc56f23c3753832f40535a",
+      "fileName": "ayinname24.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 417559,
+      "archivePath": "ferdowsi/ae3c498527c7-ayinname24.pdf"
     },
     {
       "id": "ferdowsi-discovery-document-c1118b84f472",
@@ -2195,15 +2393,20 @@
       "title": "اهم انتظارات دانشگاه از تيم راهبري رساله",
       "type": "سند",
       "topic": "حمایت و گرنت",
-      "taxonomy": "grants/funding",
+      "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-11",
       "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/entezat-timrahbari.pdf",
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/entezat-timrahbari.pdf",
-      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/faculty/grant2",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-management",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.9400000000000001,
+      "sha256": "defc231243af0b822e421639b47da83212ad901fa1cc8754c21decadac4688ad",
+      "fileName": "entezat-timrahbari.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 401534,
+      "archivePath": "ferdowsi/d142acabcdff-entezat-timrahbari.pdf"
     },
     {
       "id": "ferdowsi-discovery-document-0ea2d99221af",
@@ -2235,7 +2438,12 @@
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/gharbalgari-departmant.doc",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/forms",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.99,
+      "sha256": "a3272c9b3603a1cb99a93a67bd2f6eaec62f4bb6128e7fdbfda6e5a3de40ebd2",
+      "fileName": "gharbalgari-departmant.doc",
+      "contentType": "application/msword",
+      "fileSize": 98816,
+      "archivePath": "ferdowsi/838daf04d163-gharbalgari-departmant.doc"
     },
     {
       "id": "ferdowsi-discovery-document-9321f448a872",
@@ -2315,7 +2523,12 @@
       "sourceUrl": "https://innov.um.ac.ir/images/38/forms_regulations/Ayinname-fanavari-1402-1",
       "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.85
+      "discoveryConfidence": 0.99,
+      "sha256": "4a417b2213ab1176b33a25bc9b81f45661392ee97c5e6cae73ad28f7e1672d00",
+      "fileName": "Ayinname-fanavari-1402-1",
+      "contentType": "application/pdf",
+      "fileSize": 555173,
+      "archivePath": "ferdowsi/347290c06d53-Ayinname-fanavari-1402-1"
     },
     {
       "id": "ferdowsi-discovery-document-c1e79cb88a0c",
@@ -2332,6 +2545,363 @@
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/graduate/terms-and-conditions",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.85
+    },
+    {
+      "id": "ferdowsi-discovery-document-57fd5b85cdfb",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل ماده 5آیین نامه اجرائی قانون پیشگیری و مقابله با تقلب در تهیه آثار علمی",
+      "type": "سند",
+      "topic": "اخلاق پژوهش",
+      "taxonomy": "research ethics",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/tahsilat-takmili/shivename-pishgiri-taghalob.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/tahsilat-takmili/shivename-pishgiri-taghalob.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-ethics",
+      "sha256": "b2212681e8fa69a379dafc622d573fb5772aa25c1f3d6623cc260a72976a85e8",
+      "fileName": "shivename-pishgiri-taghalob.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1908183,
+      "archivePath": "ferdowsi/063d02ea5420-shivename-pishgiri-taghalob.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-43354bbe7ddb",
+      "universitySlug": "ferdowsi",
+      "title": "بخشنامه معاون حقوقی وزارت در خصوص قانون پیشگیری و مقابله با تقلب",
+      "type": "سند",
+      "topic": "اخلاق پژوهش",
+      "taxonomy": "research ethics",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-hoghoghi-majles.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-hoghoghi-majles.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-ethics",
+      "sha256": "5bca0f781b5539826418acd45bf18a10af3a653b0c48e297d1df4fcccb388756",
+      "fileName": "moaven-hoghoghi-majles.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 475219,
+      "archivePath": "ferdowsi/c81b8bfd2c1c-moaven-hoghoghi-majles.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-3c5f874f6158",
+      "universitySlug": "ferdowsi",
+      "title": "بخشنامه معاون آموزشی وزارت در خصوص قانون پیشگیری و مقابله با تقلب",
+      "type": "سند",
+      "topic": "اخلاق پژوهش",
+      "taxonomy": "research ethics",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-amozeshi-ghanun-pishgiri.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-amozeshi-ghanun-pishgiri.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-ethics",
+      "sha256": "7bceaeb8ac75a8dfd19fdd82c0eea6223bfa64533d43dd914be8d262455f32bc",
+      "fileName": "moaven-amozeshi-ghanun-pishgiri.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 3617630,
+      "archivePath": "ferdowsi/9569c43c21a5-moaven-amozeshi-ghanun-pishgiri.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-03a48557a1fe",
+      "universitySlug": "ferdowsi",
+      "title": "بخشنامه معاون پژوهش و فناوری وزارت در خصوص قانون پیشگیری و مقابله با تقلب",
+      "type": "سند",
+      "topic": "اخلاق پژوهش",
+      "taxonomy": "research ethics",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-pajoheshi-ejra-ghanun-pishgiri-takhalof-asar-elmi.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-pajoheshi-ejra-ghanun-pishgiri-takhalof-asar-elmi.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-ethics",
+      "sha256": "3df5126e4ae7c9fca9f6c1f8889f3de49502be387838acc34ddaec24b7a2fd6d",
+      "fileName": "moaven-pajoheshi-ejra-ghanun-pishgiri-takhalof-asar-elmi.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 995989,
+      "archivePath": "ferdowsi/478009619c75-moaven-pajoheshi-ejra-ghanun-pishgiri-takhalof-asar-elmi.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-e32bd01b2c00",
+      "universitySlug": "ferdowsi",
+      "title": "سیاستها",
+      "type": "سیاست/بخشنامه",
+      "topic": "سایر",
+      "taxonomy": "policy/circular",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/TARIFMOAVENAT/SIASAT1.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/TARIFMOAVENAT/SIASAT1.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/",
+      "sha256": "8c1f86ee4cbe7435b52ef3559081137fd85bf691fc1a8c6923043b9b4d6c9081",
+      "fileName": "SIASAT1.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1404618,
+      "archivePath": "ferdowsi/12626a48cbd0-SIASAT1.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "ferdowsi-discovery-document-8d3476220112",
+      "universitySlug": "ferdowsi",
+      "title": "مصوبه 93.10.28 - تعیین ظرفیت راهنمایی و مشاوره",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "سایر",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/mosavabat/heyat-raeese/93.10.28-dastooramal-nahve-taeen-zarfiyat-rahnamaee-moshavere.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/mosavabat/heyat-raeese/93.10.28-dastooramal-nahve-taeen-zarfiyat-rahnamaee-moshavere.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/",
+      "sha256": "e570cda49388be1573f3cb39f48cc4f2d35511aca059bb87217c3041e4abc12b",
+      "fileName": "93.10.28-dastooramal-nahve-taeen-zarfiyat-rahnamaee-moshavere.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 388235,
+      "archivePath": "ferdowsi/24033334e876-93.10.28-dastooramal-nahve-taeen-zarfiyat-rahnamaee-moshavere.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "ferdowsi-discovery-document-ee9b944afaf7",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل مربوط به اعضای هیات علمی بازنشسته",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "سایر",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/mosavabat/retired-mosavabe.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/mosavabat/retired-mosavabe.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/",
+      "sha256": "e0a2122b98c976d727d15790e722e2581bff8229942a6259573dae59fa13201b",
+      "fileName": "retired-mosavabe.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 118761,
+      "archivePath": "ferdowsi/c15f0a9db0bc-retired-mosavabe.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "ferdowsi-discovery-document-95322f9c63f0",
+      "universitySlug": "ferdowsi",
+      "title": "برگزیده سیاستها و اقدامات تاثیرگذار بر مرجعیت علمی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1400/siasatha1400.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1400/siasatha1400.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1407",
+      "sha256": "f949c4156cd1de0674469cd7b2ca18c6bc0c02cf29bef7363b2faa7f826f74e3",
+      "fileName": "siasatha1400.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1372374,
+      "archivePath": "ferdowsi/f499c7f3edd7-siasatha1400.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "ferdowsi-discovery-document-bf04fa591622",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل بیست و یکمین جشنواره تجلیل از پژوهشگران و فناوران برتر",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/99/21jashnvare.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/99/21jashnvare.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1327",
+      "sha256": "017f3bb5dfcaa9aae0b0aee0309f50d8fd20ebeed16d64c73b2f936d7d59a6bc",
+      "fileName": "21jashnvare.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 829470,
+      "archivePath": "ferdowsi/585d8e92d6b2-21jashnvare.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "ferdowsi-discovery-document-31ac028ebb69",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل بیستمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/98/20tajlil-pajoheshgaran.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/98/20tajlil-pajoheshgaran.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1273",
+      "sha256": "a82bfc47f618546803908b6edd5ce34c7f11b4aaef7960d6bac675505ee74e72",
+      "fileName": "20tajlil-pajoheshgaran.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 803513,
+      "archivePath": "ferdowsi/508b68e263cb-20tajlil-pajoheshgaran.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "ferdowsi-discovery-document-eab5d52be8a3",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل نوزدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/97/ayinname97.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/97/ayinname97.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1271",
+      "sha256": "f8ff1eb99bd22bead2e85cfadcc9d35a746a5b5d420c82a3e4f4e37ded4a9c71",
+      "fileName": "ayinname97.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1331121,
+      "archivePath": "ferdowsi/aa45d1073ae4-ayinname97.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "ferdowsi-discovery-document-db86848fa68e",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/96/18tajlil-pajohesh-fanavar.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/96/18tajlil-pajohesh-fanavar.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1408",
+      "sha256": "67d4ae5cc8602cf819a5619c493c38d209ab89620af992964b1a52e4161414e3",
+      "fileName": "18tajlil-pajohesh-fanavar.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1612110,
+      "archivePath": "ferdowsi/d39bebb4d21a-18tajlil-pajohesh-fanavar.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "ferdowsi-discovery-document-ff2f7e0d10f8",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برگزیده",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/18tajlil-pajohesh-fanavar.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/18tajlil-pajohesh-fanavar.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1268",
+      "sha256": "0d231a2d2422e3fb5977e629e8f641e0c01d33ad769ed532e71623d389100255",
+      "fileName": "18tajlil-pajohesh-fanavar.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1607479,
+      "archivePath": "ferdowsi/3a1ece3782d7-18tajlil-pajohesh-fanavar.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "ferdowsi-discovery-document-d4165224295d",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل برگزاری هفته پژوهش و فناوری استان سال 1403",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1403/ostan/ostan1403.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1403/ostan/ostan1403.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/123-1403/1711-1403",
+      "sha256": "e668dd2bd781b3b414cfbc4423b9072d3a595e985a0dd006c7222492a7432e85",
+      "fileName": "ostan1403.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 778288,
+      "archivePath": "ferdowsi/ad2ef13a5163-ostan1403.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "ferdowsi-discovery-document-76b0374de88a",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل بیست و چهارمین جشنواره تجلیل از پژوهشگران ، فناوران و نوآوران برگزیده کشور",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1402/dastoramal24.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1402/dastoramal24.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/119-1402/1710-reserch1402",
+      "sha256": "3bf3f2e31c5055df74f99f33cc404220a1e1ef584a3de5e3c0a38d69d5b4b6ec",
+      "fileName": "dastoramal24.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1076767,
+      "archivePath": "ferdowsi/ab4877262af3-dastoramal24.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "ferdowsi-discovery-document-30c7e0d8cf9f",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل بیست و سومین جشنواره تجلیل از پژوهشگران ، فناوران و نوآوران برگزیده کشور",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1401/dastoramal1401.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1401/dastoramal1401.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/2-uncategorize/1489-research-and-technology-week",
+      "sha256": "5fe00c626ae9d23a6d03d0bcc4bfa1548f84be8f14286570c7bf03edb3d6384d",
+      "fileName": "dastoramal1401.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 855382,
+      "archivePath": "ferdowsi/298b125e4ef2-dastoramal1401.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "ferdowsi-discovery-document-51401ca3df81",
+      "universitySlug": "ferdowsi",
+      "title": "منشوراخلاق پژوهش",
+      "type": "سند",
+      "topic": "اخلاق پژوهش",
+      "taxonomy": "research ethics",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-11",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/akhlagh.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/akhlagh.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-ethics",
+      "sha256": "3f72c359e8c93e9132e902855103e331a4f4fb4cd0a30e1d581fdd0c4b020f6f",
+      "fileName": "akhlagh.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 96547,
+      "archivePath": "ferdowsi/c0424f23ac54-akhlagh.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9400000000000001
     }
   ],
   "interpretation": {
