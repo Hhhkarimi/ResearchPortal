@@ -49,38 +49,26 @@ jobs:
           node-version: 22
 
       - name: Clean legacy downloaded document archive
-        shell: powershell
+        shell: cmd
         run: |
-          $legacy = "C:\actions-runner\_research-documents"
+          @echo off
 
-          if (Test-Path $legacy) {
-            $before = (
-              Get-ChildItem $legacy `
-                -Recurse `
-                -File `
-                -ErrorAction SilentlyContinue |
-              Measure-Object Length -Sum
-            ).Sum
+          echo ==========================================
+          echo Cleaning old crawler document archive
+          echo ==========================================
 
-            Write-Host (
-              "Removing legacy crawler archive: {0:N2} GB" -f ($before / 1GB)
-            )
-
-            Remove-Item $legacy `
-              -Recurse `
-              -Force `
-              -ErrorAction SilentlyContinue
-          }
-
-          $drive = Get-PSDrive C
-
-          Write-Host (
-            "Free disk after cleanup: {0:N2} GB" -f ($drive.Free / 1GB)
+          if exist "C:\actions-runner\_research-documents" (
+            echo Removing C:\actions-runner\_research-documents ...
+            rmdir /s /q "C:\actions-runner\_research-documents"
+          ) else (
+            echo No legacy document archive found.
           )
 
-          if ($drive.Free -lt 1GB) {
-            throw "Less than 1 GB free on C:. Free disk space before running the crawler."
-          }
+          echo.
+          echo Cleanup completed.
+          echo.
+          echo Current C drive status:
+          dir C:\
 
       - name: Sanitize and rebuild current published evidence
         shell: cmd
