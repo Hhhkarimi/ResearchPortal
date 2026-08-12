@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "crawlerVersion": "13.0-smart-title-checkpoint",
+  "fingerprint": "2d8ff250282c8bbacd5efcf616c77ac5cf1791496b19a76f70cf5d12641b607a",
+  "completed": true,
+  "completedAt": "2026-08-12T21:07:48.732Z",
+  "index": 97,
+  "slug": "iran-art",
+  "result": {
+    "slug": "iran-art",
+    "nameFa": "دانشگاه هنر ایران",
+    "officialWebsite": "https://art.ac.ir/",
+    "existingResearchUrl": "https://research.art.ac.ir/fa",
+    "pageCount": 0,
+    "visitedCount": 2,
+    "browserFallbackPages": 0,
+    "researchHubs": 1,
+    "evidence": [],
+    "documents": [],
+    "portalCandidates": [],
+    "failures": [
+      {
+        "url": "https://research.art.ac.ir/fa",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://art.ac.ir/",
+        "reason": "fetch failed"
+      }
+    ],
+    "elapsedMs": 917
+  }
+}
