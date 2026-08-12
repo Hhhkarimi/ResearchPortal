@@ -23,14 +23,16 @@ jobs:
       CRAWL_MAX_PAGES_PER_HUB: "35"
       CRAWL_MAX_RESEARCH_HUBS: "12"
       CRAWL_MAX_DOCUMENTS_PER_UNIVERSITY: "100"
+
       CRAWL_PAGE_TIMEOUT_MS: "12000"
-      CRAWL_DOCUMENT_TIMEOUT_MS: "25000"
+      CRAWL_DOCUMENT_TIMEOUT_MS: "15000"
       CRAWL_BROWSER_TIMEOUT_MS: "25000"
+
       CRAWL_PAGE_CONCURRENCY: "3"
       CRAWL_UNIVERSITY_CONCURRENCY: "3"
-      CRAWL_MAX_DOCUMENT_BYTES: "26214400"
-      CRAWL_DOCUMENT_DIR: 'C:\actions-runner\_research-documents'
+
       CRAWL_USE_BROWSER_FALLBACK: "1"
+
       DISCOVERY_PROMOTE_CONFIDENCE: "0.78"
 
     steps:
@@ -46,6 +48,40 @@ jobs:
         with:
           node-version: 22
 
+      - name: Clean legacy downloaded document archive
+        shell: powershell
+        run: |
+          $legacy = "C:\actions-runner\_research-documents"
+
+          if (Test-Path $legacy) {
+            $before = (
+              Get-ChildItem $legacy `
+                -Recurse `
+                -File `
+                -ErrorAction SilentlyContinue |
+              Measure-Object Length -Sum
+            ).Sum
+
+            Write-Host (
+              "Removing legacy crawler archive: {0:N2} GB" -f ($before / 1GB)
+            )
+
+            Remove-Item $legacy `
+              -Recurse `
+              -Force `
+              -ErrorAction SilentlyContinue
+          }
+
+          $drive = Get-PSDrive C
+
+          Write-Host (
+            "Free disk after cleanup: {0:N2} GB" -f ($drive.Free / 1GB)
+          )
+
+          if ($drive.Free -lt 1GB) {
+            throw "Less than 1 GB free on C:. Free disk space before running the crawler."
+          }
+
       - name: Sanitize and rebuild current published evidence
         shell: cmd
         run: |
@@ -58,8 +94,11 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data public/datasets
+
           git diff --cached --quiet || git commit -m "chore(data): sanitize published evidence"
+
           git pull --rebase origin main
           git push origin HEAD:main
 
@@ -88,7 +127,10 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add data public/datasets
-          git diff --cached --quiet || git commit -m "chore(crawl): refresh multi-hub deep research evidence"
+
+          git diff --cached --quiet || git commit -m "chore(crawl): refresh multi-hub metadata-only research evidence"
+
           git pull --rebase origin main
           git push origin HEAD:main
