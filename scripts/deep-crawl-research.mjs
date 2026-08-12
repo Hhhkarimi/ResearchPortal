@@ -10,10 +10,14 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import net from "node:net";
+import { createHash } from "node:crypto";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 
 const execFileAsync = promisify(execFile);
+
+const CRAWLER_VERSION =
+  "13.0-smart-title-checkpoint";
 
 const readJson = async (file, fallback) => {
   try {
@@ -44,9 +48,54 @@ const CONFIG = {
   browserTimeoutMs: intEnv("CRAWL_BROWSER_TIMEOUT_MS", 25_000, 3_000, 90_000),
   pageConcurrency: intEnv("CRAWL_PAGE_CONCURRENCY", 3, 1, 10),
   universityConcurrency: intEnv("CRAWL_UNIVERSITY_CONCURRENCY", 3, 1, 12),
-  maxHtmlBytes: intEnv("CRAWL_MAX_HTML_BYTES", 3_500_000, 100_000, 12_000_000),
-  useBrowserFallback: (process.env.CRAWL_USE_BROWSER_FALLBACK ?? "1") !== "0",
-  discoveryThreshold: floatEnv("CRAWL_DISCOVERY_THRESHOLD", 0.62, 0.2, 1),
+  maxHtmlBytes: intEnv(
+    "CRAWL_MAX_HTML_BYTES",
+    3_500_000,
+    100_000,
+    12_000_000
+  ),
+
+  useBrowserFallback:
+    (
+      process.env
+        .CRAWL_USE_BROWSER_FALLBACK ??
+      "1"
+    ) !== "0",
+
+  discoveryThreshold: floatEnv(
+    "CRAWL_DISCOVERY_THRESHOLD",
+    0.62,
+    0.2,
+    1
+  ),
+
+  checkpointIntervalMs: intEnv(
+    "CRAWL_CHECKPOINT_INTERVAL_MS",
+    1_800_000,
+    60_000,
+    7_200_000
+  ),
+
+  checkpointDir:
+    path.resolve(
+      process.env
+        .CRAWL_CHECKPOINT_DIR ||
+      "data/crawl-checkpoints"
+    ),
+
+  checkpointPush:
+    (
+      process.env
+        .CRAWL_CHECKPOINT_PUSH ??
+      "1"
+    ) !== "0",
+
+  checkpointReset:
+    (
+      process.env
+        .CRAWL_CHECKPOINT_RESET ??
+      "0"
+    ) === "1",
 };
 
 const SOCIAL_HOSTS = [
@@ -5321,9 +5370,7 @@ const auditsBySlug =
       (
         item
       ) => [
-        item
-          .universitySlug,
-
+        item.universitySlug,
         item,
       ]
     )
@@ -5347,17 +5394,905 @@ const reauditBySlug =
 await fs.mkdir(
   "data/generated",
   {
-    recursive:
-      true,
+    recursive: true,
   }
 );
 
+/*
+ * ==========================================================
+ * CHECKPOINT / RESUME
+ * ==========================================================
+ *
+ * Granularity:
+ *   one checkpoint per COMPLETED university.
+ *
+ * Therefore:
+ * - finished universities are never crawled again after restart;
+ * - an interrupted run repeats only universities that were still
+ *   actively crawling at the moment of interruption;
+ * - with universityConcurrency=3, normally at most 3 universities
+ *   can be repeated.
+ *
+ * Checkpoints are pushed to GitHub every 30 minutes.
+ */
+
+const CHECKPOINT_SCHEMA_VERSION =
+  1;
+
+const CHECKPOINT_MANIFEST =
+  path.join(
+    CONFIG.checkpointDir,
+    "manifest.json"
+  );
+
+/*
+ * Do NOT hash every timestamp / generatedAt field from the datasets.
+ *
+ * Only crawl-relevant seed data is included so running prepare:data
+ * again does not accidentally invalidate a valid partial crawl.
+ */
+const checkpointSeedShape = {
+  crawlerVersion:
+    CRAWLER_VERSION,
+
+  checkpointSchemaVersion:
+    CHECKPOINT_SCHEMA_VERSION,
+
+  crawlConfig: {
+    maxDepth:
+      CONFIG.maxDepth,
+
+    maxPagesPerUniversity:
+      CONFIG
+        .maxPagesPerUniversity,
+
+    maxPagesPerHub:
+      CONFIG.maxPagesPerHub,
+
+    maxResearchHubs:
+      CONFIG.maxResearchHubs,
+
+    maxDocumentsPerUniversity:
+      CONFIG
+        .maxDocumentsPerUniversity,
+
+    pageTimeoutMs:
+      CONFIG.pageTimeoutMs,
+
+    documentTimeoutMs:
+      CONFIG
+        .documentTimeoutMs,
+
+    browserTimeoutMs:
+      CONFIG
+        .browserTimeoutMs,
+
+    pageConcurrency:
+      CONFIG.pageConcurrency,
+
+    universityConcurrency:
+      CONFIG
+        .universityConcurrency,
+
+    discoveryThreshold:
+      CONFIG
+        .discoveryThreshold,
+  },
+
+  institutions:
+    institutions.map(
+      (
+        item
+      ) => ({
+        slug:
+          item.slug,
+
+        officialWebsite:
+          item
+            .officialWebsite ||
+          null,
+      })
+    ),
+
+  audits:
+    (
+      audits ||
+      []
+    ).map(
+      (
+        item
+      ) => ({
+        universitySlug:
+          item.universitySlug,
+
+        researchUrl:
+          item.researchUrl ||
+          null,
+      })
+    ),
+
+  reaudit:
+    (
+      reaudit ||
+      []
+    ).map(
+      (
+        item
+      ) => ({
+        slug:
+          item.slug,
+
+        portalUrls:
+          item.portalUrls ||
+          [],
+
+        organizationUrls:
+          item
+            .organizationUrls ||
+          [],
+
+        libraryUrls:
+          item.libraryUrls ||
+          [],
+
+        laboratoryUrls:
+          item
+            .laboratoryUrls ||
+          [],
+
+        industryTechnologyUrls:
+          item
+            .industryTechnologyUrls ||
+          [],
+
+        informationTechnologyUrls:
+          item
+            .informationTechnologyUrls ||
+          [],
+
+        systemsUrls:
+          item.systemsUrls ||
+          [],
+
+        documentIndexUrls:
+          item
+            .documentIndexUrls ||
+          [],
+      })
+    ),
+};
+
+const checkpointFingerprint =
+  createHash(
+    "sha256"
+  )
+    .update(
+      JSON.stringify(
+        checkpointSeedShape
+      )
+    )
+    .digest(
+      "hex"
+    );
+
+let checkpointStartedAt =
+  new Date()
+    .toISOString();
+
+let checkpointDirty =
+  false;
+
+/*
+ * All checkpoint writes and git checkpoint publishes are serialized.
+ *
+ * This prevents git from reading a checkpoint file while another
+ * worker is writing it.
+ */
+let checkpointChain =
+  Promise.resolve();
+
+function withCheckpointLock(
+  task
+) {
+  const run =
+    checkpointChain.then(
+      task,
+      task
+    );
+
+  checkpointChain =
+    run.catch(
+      () => {}
+    );
+
+  return run;
+}
+
+async function atomicWriteJson(
+  file,
+  value
+) {
+  await fs.mkdir(
+    path.dirname(
+      file
+    ),
+    {
+      recursive: true,
+    }
+  );
+
+  const temp =
+    `${file}.tmp-${process.pid}-${Date.now()}`;
+
+  await fs.writeFile(
+    temp,
+
+    JSON.stringify(
+      value,
+      null,
+      2
+    ) + "\n",
+
+    "utf8"
+  );
+
+  await fs.rm(
+    file,
+    {
+      force: true,
+    }
+  ).catch(
+    () => {}
+  );
+
+  await fs.rename(
+    temp,
+    file
+  );
+}
+
+async function resetCheckpointDirectory(
+  reason
+) {
+  await fs.rm(
+    CONFIG.checkpointDir,
+    {
+      recursive: true,
+      force: true,
+    }
+  );
+
+  await fs.mkdir(
+    CONFIG.checkpointDir,
+    {
+      recursive: true,
+    }
+  );
+
+  checkpointStartedAt =
+    new Date()
+      .toISOString();
+
+  checkpointDirty =
+    true;
+
+  console.log(
+    `[checkpoint] reset | reason=${reason}`
+  );
+}
+
+/*
+ * Final result slots.
+ *
+ * Existing completed checkpoints will be inserted here before
+ * new crawling starts.
+ */
 const results =
   new Array(
     institutions.length
   );
 
-let cursor = 0;
+const completedSlugs =
+  new Set();
+
+function checkpointManifestObject() {
+  return {
+    schemaVersion:
+      CHECKPOINT_SCHEMA_VERSION,
+
+    crawlerVersion:
+      CRAWLER_VERSION,
+
+    fingerprint:
+      checkpointFingerprint,
+
+    startedAt:
+      checkpointStartedAt,
+
+    updatedAt:
+      new Date()
+        .toISOString(),
+
+    totalUniversities:
+      institutions.length,
+
+    completedUniversities:
+      completedSlugs.size,
+
+    completedSlugs:
+      institutions
+        .map(
+          (
+            item
+          ) =>
+            item.slug
+        )
+        .filter(
+          (
+            slug
+          ) =>
+            completedSlugs
+              .has(
+                slug
+              )
+        ),
+
+    cycleComplete:
+      completedSlugs.size ===
+      institutions.length,
+
+    checkpointGranularity:
+      "completed-university",
+
+    checkpointIntervalMs:
+      CONFIG
+        .checkpointIntervalMs,
+  };
+}
+
+async function writeCheckpointManifest() {
+  await atomicWriteJson(
+    CHECKPOINT_MANIFEST,
+    checkpointManifestObject()
+  );
+}
+
+async function saveUniversityCheckpoint(
+  index,
+  result
+) {
+  return withCheckpointLock(
+    async () => {
+      const university =
+        institutions[
+          index
+        ];
+
+      const payload = {
+        schemaVersion:
+          CHECKPOINT_SCHEMA_VERSION,
+
+        crawlerVersion:
+          CRAWLER_VERSION,
+
+        fingerprint:
+          checkpointFingerprint,
+
+        completed:
+          true,
+
+        completedAt:
+          new Date()
+            .toISOString(),
+
+        index,
+
+        slug:
+          university.slug,
+
+        result,
+      };
+
+      await atomicWriteJson(
+        path.join(
+          CONFIG.checkpointDir,
+          `${university.slug}.json`
+        ),
+
+        payload
+      );
+
+      results[
+        index
+      ] =
+        result;
+
+      completedSlugs.add(
+        university.slug
+      );
+
+      checkpointDirty =
+        true;
+
+      await writeCheckpointManifest();
+
+      console.log(
+        `[checkpoint] saved ${university.slug} | completed=${completedSlugs.size}/${institutions.length}`
+      );
+    }
+  );
+}
+
+async function loadExistingCheckpoints() {
+  await fs.mkdir(
+    CONFIG.checkpointDir,
+    {
+      recursive: true,
+    }
+  );
+
+  /*
+   * Manual emergency reset.
+   */
+  if (
+    CONFIG
+      .checkpointReset
+  ) {
+    await resetCheckpointDirectory(
+      "CRAWL_CHECKPOINT_RESET=1"
+    );
+
+    await writeCheckpointManifest();
+
+    return;
+  }
+
+  const manifest =
+    await readJson(
+      CHECKPOINT_MANIFEST,
+      null
+    );
+
+  /*
+   * First crawl cycle.
+   */
+  if (!manifest) {
+    await writeCheckpointManifest();
+
+    checkpointDirty =
+      true;
+
+    return;
+  }
+
+  /*
+   * If crawl logic/config/seeds changed, old partial crawl must
+   * not silently mix with the new crawl.
+   */
+  if (
+    manifest
+      .schemaVersion !==
+      CHECKPOINT_SCHEMA_VERSION ||
+
+    manifest
+      .crawlerVersion !==
+      CRAWLER_VERSION ||
+
+    manifest
+      .fingerprint !==
+      checkpointFingerprint
+  ) {
+    await resetCheckpointDirectory(
+      "fingerprint-or-version-changed"
+    );
+
+    await writeCheckpointManifest();
+
+    return;
+  }
+
+  checkpointStartedAt =
+    manifest.startedAt ||
+    checkpointStartedAt;
+
+  /*
+   * Load each completed university.
+   */
+  for (
+    let index = 0;
+    index <
+    institutions.length;
+    index++
+  ) {
+    const university =
+      institutions[
+        index
+      ];
+
+    const checkpoint =
+      await readJson(
+        path.join(
+          CONFIG.checkpointDir,
+          `${university.slug}.json`
+        ),
+
+        null
+      );
+
+    if (
+      !checkpoint ||
+
+      checkpoint
+        .schemaVersion !==
+        CHECKPOINT_SCHEMA_VERSION ||
+
+      checkpoint
+        .crawlerVersion !==
+        CRAWLER_VERSION ||
+
+      checkpoint
+        .fingerprint !==
+        checkpointFingerprint ||
+
+      checkpoint
+        .completed !==
+        true ||
+
+      checkpoint.slug !==
+        university.slug ||
+
+      checkpoint
+        .result
+        ?.slug !==
+        university.slug
+    ) {
+      continue;
+    }
+
+    results[
+      index
+    ] =
+      checkpoint.result;
+
+    completedSlugs.add(
+      university.slug
+    );
+  }
+
+  console.log(
+    [
+      "[checkpoint] resume",
+
+      `completed=${completedSlugs.size}/${institutions.length}`,
+
+      `remaining=${institutions.length - completedSlugs.size}`,
+    ].join(
+      " | "
+    )
+  );
+
+  await writeCheckpointManifest();
+}
+
+/*
+ * ==========================================================
+ * PERIODIC GIT PUBLISH
+ * ==========================================================
+ */
+
+async function gitExec(
+  args
+) {
+  const {
+    stdout = "",
+    stderr = "",
+  } =
+    await execFileAsync(
+      "git",
+      args,
+      {
+        cwd:
+          process.cwd(),
+
+        windowsHide:
+          true,
+
+        maxBuffer:
+          4_000_000,
+      }
+    );
+
+  return {
+    stdout:
+      String(
+        stdout
+      ),
+
+    stderr:
+      String(
+        stderr
+      ),
+  };
+}
+
+async function publishCheckpoints(
+  reason =
+    "interval"
+) {
+  if (
+    !CONFIG
+      .checkpointPush
+  ) {
+    return;
+  }
+
+  /*
+   * Hold the same lock used by checkpoint writers.
+   *
+   * A university can keep crawling in another worker, but completed
+   * checkpoint files are not modified while git is staging them.
+   */
+  return withCheckpointLock(
+    async () => {
+      if (
+        !checkpointDirty
+      ) {
+        console.log(
+          `[checkpoint] publish skipped | reason=${reason} | no-new-checkpoints`
+        );
+
+        return;
+      }
+
+      await writeCheckpointManifest();
+
+      try {
+        await gitExec([
+          "config",
+          "user.name",
+          "github-actions[bot]",
+        ]);
+
+        await gitExec([
+          "config",
+          "user.email",
+          "41898282+github-actions[bot]@users.noreply.github.com",
+        ]);
+
+        /*
+         * Very important:
+         *
+         * Stage ONLY checkpoint files here.
+         *
+         * Do not publish incomplete authoritative datasets.
+         */
+        await gitExec([
+          "add",
+          "-A",
+          "--",
+          "data/crawl-checkpoints",
+        ]);
+
+        const staged =
+          await gitExec([
+            "diff",
+            "--cached",
+            "--name-only",
+            "--",
+            "data/crawl-checkpoints",
+          ]);
+
+        if (
+          !staged
+            .stdout
+            .trim()
+        ) {
+          checkpointDirty =
+            false;
+
+          console.log(
+            `[checkpoint] publish skipped | reason=${reason} | nothing-staged`
+          );
+
+          return;
+        }
+
+        const message =
+          `chore(crawl): checkpoint ${completedSlugs.size}/${institutions.length} [skip ci]`;
+
+        await gitExec([
+          "commit",
+          "-m",
+          message,
+        ]);
+
+        /*
+         * In normal operation concurrency prevents another crawl
+         * from modifying main simultaneously.
+         *
+         * pull --rebase also makes manual repository changes safer.
+         */
+        await gitExec([
+          "pull",
+          "--rebase",
+          "origin",
+          "main",
+        ]);
+
+        await gitExec([
+          "push",
+          "origin",
+          "HEAD:main",
+        ]);
+
+        checkpointDirty =
+          false;
+
+        console.log(
+          [
+            "[checkpoint] pushed",
+
+            `reason=${reason}`,
+
+            `completed=${completedSlugs.size}/${institutions.length}`,
+          ].join(
+            " | "
+          )
+        );
+      } catch (
+        error
+      ) {
+        /*
+         * A failed checkpoint push must NOT kill the crawl.
+         *
+         * Keep checkpointDirty=true so the next 30-minute cycle
+         * retries the push.
+         */
+        checkpointDirty =
+          true;
+
+        console.warn(
+          `[checkpoint] push failed | reason=${reason}:`,
+
+          error instanceof
+          Error
+            ? error.message
+            : String(
+                error
+              )
+        );
+      }
+    }
+  );
+}
+
+/*
+ * Restore previous work before assigning university jobs.
+ */
+await loadExistingCheckpoints();
+
+const pendingIndices =
+  institutions
+    .map(
+      (
+        _,
+        index
+      ) =>
+        index
+    )
+    .filter(
+      (
+        index
+      ) =>
+        !completedSlugs
+          .has(
+            institutions[
+              index
+            ].slug
+          )
+    );
+
+console.log(
+  [
+    "[checkpoint] crawl plan",
+
+    `alreadyDone=${completedSlugs.size}`,
+
+    `pending=${pendingIndices.length}`,
+
+    `total=${institutions.length}`,
+  ].join(
+    " | "
+  )
+);
+
+let pendingCursor =
+  0;
+
+let shuttingDown =
+  false;
+
+/*
+ * Every 30 minutes:
+ *
+ * commit + push only completed university checkpoint files.
+ */
+const checkpointTimer =
+  setInterval(
+    () => {
+      void publishCheckpoints(
+        "30-minute-interval"
+      );
+    },
+
+    CONFIG
+      .checkpointIntervalMs
+  );
+
+/*
+ * Do not let this timer alone keep Node alive after work completes.
+ */
+checkpointTimer
+  .unref?.();
+
+/*
+ * GitHub Actions cancellation / runner stop.
+ *
+ * Best-effort final checkpoint push.
+ */
+async function handleTermination(
+  signal
+) {
+  if (
+    shuttingDown
+  ) {
+    return;
+  }
+
+  shuttingDown =
+    true;
+
+  console.warn(
+    `[checkpoint] received ${signal}; attempting final checkpoint push...`
+  );
+
+  try {
+    await publishCheckpoints(
+      `signal-${signal}`
+    );
+  } catch {}
+
+  process.exit(
+    signal ===
+      "SIGINT"
+      ? 130
+      : 143
+  );
+}
+
+process.once(
+  "SIGINT",
+  () => {
+    void handleTermination(
+      "SIGINT"
+    );
+  }
+);
+
+process.once(
+  "SIGTERM",
+  () => {
+    void handleTermination(
+      "SIGTERM"
+    );
+  }
+);
+
+/*
+ * ==========================================================
+ * UNIVERSITY WORKERS
+ * ==========================================================
+ */
 
 const workers =
   Array.from(
@@ -5367,17 +6302,22 @@ const workers =
           CONFIG
             .universityConcurrency,
 
-          institutions.length
+          Math.max(
+            1,
+            pendingIndices.length
+          )
         ),
     },
 
     async () => {
       while (
-        cursor <
-        institutions.length
+        pendingCursor <
+        pendingIndices.length
       ) {
         const index =
-          cursor++;
+          pendingIndices[
+            pendingCursor++
+          ];
 
         const university =
           institutions[
@@ -5401,15 +6341,21 @@ const workers =
               )
             );
 
-          results[
-            index
-          ] = {
+          const completedResult = {
             ...result,
 
             elapsedMs:
               Date.now() -
               started,
           };
+
+          /*
+           * Save checkpoint immediately when the university finishes.
+           */
+          await saveUniversityCheckpoint(
+            index,
+            completedResult
+          );
 
           console.log(
             [
@@ -5433,54 +6379,13 @@ const workers =
         } catch (
           error
         ) {
-          results[
-            index
-          ] = {
-            slug:
-              university.slug,
-
-            nameFa:
-              university.nameFa,
-
-            pageCount:
-              0,
-
-            evidence:
-              [],
-
-            documents:
-              [],
-
-            portalCandidates:
-              [],
-
-            researchHubs:
-              0,
-
-            failures: [
-              {
-                url:
-                  university
-                    .officialWebsite ||
-                  null,
-
-                reason:
-                  error instanceof
-                  Error
-                    ? error.message
-                    : String(
-                        error
-                      ),
-              },
-            ],
-
-            elapsedMs:
-              Date.now() -
-              started,
-          };
-
+          /*
+           * Do NOT checkpoint a top-level failed university.
+           *
+           * It will automatically be retried on the next run.
+           */
           console.warn(
-            `[${index + 1}/${institutions.length}] ${university.slug} failed:`,
+            `[${index + 1}/${institutions.length}] ${university.slug} failed and will be retried on the next run:`,
 
             error instanceof
             Error
@@ -5497,6 +6402,77 @@ const workers =
 await Promise.all(
   workers
 );
+
+clearInterval(
+  checkpointTimer
+);
+
+/*
+ * Push everything completed even if 30-minute timer has not fired yet.
+ *
+ * At this exact point generated final datasets have NOT yet been
+ * rewritten, therefore git working tree is safe for pull --rebase.
+ */
+await publishCheckpoints(
+  "crawl-workers-finished"
+);
+
+/*
+ * If any university had a top-level failure, stop here.
+ *
+ * Existing completed checkpoints are already safely pushed.
+ * Next run will resume and retry only missing universities.
+ */
+const missing =
+  institutions.filter(
+    (
+      _,
+      index
+    ) =>
+      !results[
+        index
+      ]
+  );
+
+if (
+  missing.length
+) {
+  await writeCheckpointManifest();
+
+  await publishCheckpoints(
+    "incomplete-crawl"
+  );
+
+  throw new Error(
+    `Crawl incomplete: ${missing.length} universities have no completed checkpoint: ${
+      missing
+        .slice(
+          0,
+          20
+        )
+        .map(
+          (
+            item
+          ) =>
+            item.slug
+        )
+        .join(", ")
+    }${
+      missing.length >
+      20
+        ? ", ..."
+        : ""
+    }`
+  );
+}
+
+/*
+ * ==========================================================
+ * ALL 115 ARE NOW COMPLETE
+ * ==========================================================
+ *
+ * Only now do we build the authoritative discovery outputs.
+ */
 
 const allEvidence =
   results.flatMap(
@@ -5561,8 +6537,7 @@ const evidenceOutput = {
 
   constraints: {
     maxDepth:
-      CONFIG
-        .maxDepth,
+      CONFIG.maxDepth,
 
     maxPagesPerUniversity:
       CONFIG
@@ -5595,9 +6570,18 @@ const evidenceOutput = {
     smartDocumentTitles:
       true,
 
-    pageTimeoutMs:
+    checkpointResume:
+      true,
+
+    checkpointGranularity:
+      "completed-university",
+
+    checkpointIntervalMs:
       CONFIG
-        .pageTimeoutMs,
+        .checkpointIntervalMs,
+
+    pageTimeoutMs:
+      CONFIG.pageTimeoutMs,
 
     socialEvidenceBlocked:
       [
@@ -5673,6 +6657,7 @@ const summary = {
             .pageCount ||
           0
         ),
+
       0
     ),
 
@@ -5688,6 +6673,7 @@ const summary = {
             .browserFallbackPages ||
           0
         ),
+
       0
     ),
 
@@ -5703,6 +6689,7 @@ const summary = {
             .researchHubs ||
           0
         ),
+
       0
     ),
 
@@ -5743,6 +6730,11 @@ const summary = {
   documentBodiesStored:
     false,
 
+  checkpointResume:
+    true,
+
+  checkpointFingerprint,
+
   dimensionCounts,
 
   failures:
@@ -5758,6 +6750,7 @@ const summary = {
             ?.length ||
           0
         ),
+
       0
     ),
 
@@ -5863,6 +6856,8 @@ console.log(
     `metadataVerified=${summary.documentsMetadataVerified}`,
 
     `smartTitles=${summary.documentsWithSmartTitle}`,
+
+    `checkpoint=115/${institutions.length}`,
 
     "downloaded=0",
 
