@@ -15,23 +15,50 @@ concurrency:
 jobs:
   audit:
     runs-on: [self-hosted, windows, iran-crawler]
-    timeout-minutes: 180
+
+    # Checkpoint/resume means even if this eventually times out,
+    # the next run continues from completed universities.
+    timeout-minutes: 360
 
     env:
       CRAWL_MAX_DEPTH: "6"
+
       CRAWL_MAX_PAGES_PER_UNIVERSITY: "90"
+
       CRAWL_MAX_PAGES_PER_HUB: "35"
+
       CRAWL_MAX_RESEARCH_HUBS: "12"
+
       CRAWL_MAX_DOCUMENTS_PER_UNIVERSITY: "100"
 
       CRAWL_PAGE_TIMEOUT_MS: "12000"
+
       CRAWL_DOCUMENT_TIMEOUT_MS: "15000"
+
       CRAWL_BROWSER_TIMEOUT_MS: "25000"
 
       CRAWL_PAGE_CONCURRENCY: "3"
+
       CRAWL_UNIVERSITY_CONCURRENCY: "3"
 
       CRAWL_USE_BROWSER_FALLBACK: "1"
+
+      # =====================================================
+      # CHECKPOINT / RESUME
+      # =====================================================
+
+      # 30 minutes = 1,800,000 ms
+      CRAWL_CHECKPOINT_INTERVAL_MS: "1800000"
+
+      CRAWL_CHECKPOINT_DIR: "data/crawl-checkpoints"
+
+      # Allow crawler to commit/push checkpoint state.
+      CRAWL_CHECKPOINT_PUSH: "1"
+
+      # Keep this at 0 normally.
+      # Set to 1 only when you intentionally want to discard
+      # an unfinished crawl and start all 115 again.
+      CRAWL_CHECKPOINT_RESET: "0"
 
       DISCOVERY_PROMOTE_CONFIDENCE: "0.78"
 
@@ -90,10 +117,12 @@ jobs:
           git pull --rebase origin main
           git push origin HEAD:main
 
-      - name: Deep crawl official research portals
+      - name: Deep crawl official research portals with checkpoint resume
         shell: cmd
         run: npm run discover:research
 
+      # These steps run ONLY after all 115 universities have
+      # completed checkpoints.
       - name: Promote discovery and rebuild evidence datasets
         shell: cmd
         run: npm run prepare:data
@@ -110,15 +139,36 @@ jobs:
         shell: cmd
         run: npm run monitor:links
 
+      # Checkpoints are useful only while a crawl cycle is incomplete.
+      #
+      # Delete them only after the full crawl + promotion + validation
+      # + link monitoring have all succeeded.
+      #
+      # If anything above fails, this step never runs and the next
+      # workflow resumes from the saved checkpoints.
+      - name: Remove completed crawl checkpoints
+        shell: cmd
+        run: |
+          @echo off
+
+          if exist "data\crawl-checkpoints" (
+            echo Crawl completed successfully.
+            echo Removing checkpoint state before final publication...
+
+            rmdir /s /q "data\crawl-checkpoints"
+          ) else (
+            echo No checkpoint directory found.
+          )
+
       - name: Commit deep crawler results
         shell: cmd
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add data public/datasets
+          git add -A data public/datasets
 
-          git diff --cached --quiet || git commit -m "chore(crawl): refresh multi-hub metadata-only research evidence"
+          git diff --cached --quiet || git commit -m "chore(crawl): publish completed multi-hub research evidence"
 
           git pull --rebase origin main
           git push origin HEAD:main
