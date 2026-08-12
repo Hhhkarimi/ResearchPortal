@@ -9,210 +9,210 @@
     "دستگاه اجرایی": 10
   },
   "portalStatusCounts": {
-    "direct-official": 88,
-    "official-channel-reference": 3,
-    "secondary-reference": 13,
-    "false-positive-blocked": 2,
-    "institutional-reference": 3,
-    "official-reference": 2,
+    "direct-official": 98,
+    "official-channel-reference": 2,
+    "secondary-reference": 8,
+    "false-positive-blocked": 1,
+    "official-reference": 1,
     "restricted-public": 3,
+    "institutional-reference": 1,
     "legacy-restricted": 1
   },
-  "directOfficialPortals": 88,
+  "directOfficialPortals": 98,
   "portalResolutionOutcomes": 115,
   "unresolvedPublicPortal": 0,
-  "ranked": 61,
-  "unranked": 54,
+  "ranked": 82,
+  "unranked": 33,
   "rankedByISCCategory": {
-    "جامع": 35,
-    "صنعتی": 13,
+    "جامع": 50,
+    "صنعتی": 18,
     "علوم کشاورزی": 3,
-    "هنر": 3,
+    "هنر": 4,
     "زیرنظام": 3,
     "دستگاه اجرایی": 4
   },
   "deepAuditStatusCounts": {
-    "deep-audited": 61,
-    "identity-verified-deep-pending": 27,
-    "reference-resolved-deep-pending": 8,
-    "portal-resolution-pending": 13,
-    "blocked-needs-alternative-discovery": 2,
+    "deep-audited": 82,
+    "identity-verified-deep-pending": 16,
+    "reference-resolved-deep-pending": 4,
+    "portal-resolution-pending": 8,
+    "blocked-needs-alternative-discovery": 1,
     "restricted-closed": 4
   },
   "deepAuditedByISCCategory": {
-    "جامع": 35,
-    "صنعتی": 13,
+    "جامع": 50,
+    "صنعتی": 18,
     "علوم کشاورزی": 3,
-    "هنر": 3,
+    "هنر": 4,
     "زیرنظام": 3,
     "دستگاه اجرایی": 4
   },
   "evidenceCoverage": {
-    "average": 67.4,
-    "complete100": 15,
-    "gte75": 70,
-    "gte50": 93
+    "average": 77.2,
+    "complete100": 32,
+    "gte75": 86,
+    "gte50": 102
   },
   "dimensions": {
     "portalIdentity": {
-      "verified": 88,
-      "observed-reference": 8,
-      "unresolved": 15,
+      "verified": 98,
+      "observed-reference": 4,
+      "unresolved": 9,
       "restricted": 4
     },
     "organization": {
-      "verified": 89,
-      "unresolved": 15,
-      "observed-reference": 7,
+      "verified": 97,
+      "observed-reference": 4,
+      "unresolved": 10,
       "restricted": 4
     },
     "libraryDocuments": {
-      "verified": 72,
-      "unresolved": 39,
+      "verified": 84,
+      "unresolved": 27,
       "restricted": 4
     },
     "laboratories": {
-      "verified": 60,
-      "unresolved": 49,
+      "verified": 73,
+      "unresolved": 36,
       "observed-reference": 2,
       "restricted": 4
     },
     "industryTechnology": {
-      "verified": 69,
-      "unresolved": 36,
-      "observed-reference": 6,
+      "verified": 89,
+      "unresolved": 19,
+      "observed-reference": 3,
       "restricted": 4
     },
     "informationTechnology": {
-      "unresolved": 86,
-      "verified": 24,
+      "unresolved": 71,
+      "verified": 39,
       "observed-reference": 1,
       "restricted": 4
     },
     "systemsServices": {
-      "verified": 79,
-      "unresolved": 30,
+      "verified": 91,
+      "unresolved": 18,
       "observed-reference": 2,
       "restricted": 4
     },
     "documentsRegulations": {
-      "unresolved": 19,
-      "verified": 92,
+      "verified": 97,
+      "unresolved": 14,
       "restricted": 4
     }
   },
   "reviewDimensions": {
     "portalIdentity": {
-      "verified": 83,
-      "observed-reference": 5,
-      "unresolved": 24,
-      "restricted": 3
+      "verified": 96,
+      "observed-reference": 2,
+      "unresolved": 15,
+      "restricted": 2
     },
     "organization": {
       "observed-reference": 32,
-      "verified": 16,
-      "unresolved": 60,
+      "unresolved": 61,
+      "verified": 15,
       "restricted": 7
     },
     "libraryDocuments": {
-      "observed-reference": 10,
-      "verified": 55,
-      "unresolved": 46,
+      "verified": 70,
+      "unresolved": 37,
+      "observed-reference": 4,
       "restricted": 4
     },
     "laboratories": {
-      "observed-reference": 16,
-      "verified": 36,
-      "unresolved": 57,
+      "observed-reference": 10,
+      "verified": 56,
+      "unresolved": 43,
       "restricted": 6
     },
     "industryTechnology": {
-      "observed-reference": 21,
-      "unresolved": 50,
-      "verified": 40,
+      "observed-reference": 15,
+      "verified": 66,
+      "unresolved": 30,
       "restricted": 4
     },
     "informationTechnology": {
-      "unresolved": 84,
-      "observed-reference": 22,
-      "verified": 2,
+      "unresolved": 75,
+      "observed-reference": 26,
+      "verified": 7,
       "restricted": 7
     },
     "systemsServices": {
-      "observed-reference": 13,
-      "unresolved": 35,
-      "verified": 63,
-      "restricted": 4
+      "verified": 73,
+      "unresolved": 27,
+      "observed-reference": 12,
+      "restricted": 3
     },
     "documentsRegulations": {
-      "unresolved": 22,
-      "verified": 91,
+      "verified": 97,
+      "unresolved": 16,
       "restricted": 2
     }
   },
   "reportedReviewDimensions": {
     "portalIdentity": {
-      "verified": 83,
-      "observed-reference": 5,
-      "unresolved": 21,
-      "restricted": 6
+      "verified": 96,
+      "observed-reference": 2,
+      "unresolved": 12,
+      "restricted": 5
     },
     "organization": {
       "observed-reference": 32,
-      "verified": 16,
-      "unresolved": 57,
+      "unresolved": 58,
+      "verified": 15,
       "restricted": 10
     },
     "libraryDocuments": {
-      "observed-reference": 10,
-      "verified": 55,
-      "unresolved": 43,
+      "verified": 70,
+      "unresolved": 34,
+      "observed-reference": 4,
       "restricted": 7
     },
     "laboratories": {
-      "observed-reference": 16,
-      "verified": 36,
-      "unresolved": 54,
+      "observed-reference": 10,
+      "verified": 56,
+      "unresolved": 40,
       "restricted": 9
     },
     "industryTechnology": {
-      "observed-reference": 21,
-      "unresolved": 47,
-      "verified": 40,
+      "observed-reference": 15,
+      "verified": 66,
+      "unresolved": 27,
       "restricted": 7
     },
     "informationTechnology": {
-      "unresolved": 81,
-      "observed-reference": 14,
-      "verified": 10,
+      "unresolved": 72,
+      "verified": 29,
+      "observed-reference": 4,
       "restricted": 10
     },
     "systemsServices": {
-      "observed-reference": 13,
-      "unresolved": 32,
-      "verified": 63,
-      "restricted": 7
+      "verified": 73,
+      "unresolved": 24,
+      "observed-reference": 12,
+      "restricted": 6
     },
     "documentsRegulations": {
-      "unresolved": 19,
-      "verified": 91,
+      "verified": 97,
+      "unresolved": 13,
       "restricted": 5
     }
   },
   "reviewCoverage": {
-    "average": 48.6,
-    "complete100": 0,
-    "gte75": 25,
+    "average": 57.8,
+    "complete100": 2,
+    "gte75": 49,
     "reviewedInstitutions": 115,
     "dimensionOutcomes": 920
   },
-  "units": 1135,
-  "systems": 449,
-  "documents": 3332,
-  "provenanceRecords": 9718,
+  "units": 2245,
+  "systems": 792,
+  "documents": 6671,
+  "provenanceRecords": 15559,
   "dimensionEvidenceOutcomes": 920,
-  "dimensionEvidenceSources": 14251,
-  "publicationGateDowngrades": 32,
+  "dimensionEvidenceSources": 25133,
+  "publicationGateDowngrades": 46,
   "auditPackets": 115,
   "snapshotDate": "2026-08-11",
   "methodologyVersion": "RTPMI-4.1-ISC",

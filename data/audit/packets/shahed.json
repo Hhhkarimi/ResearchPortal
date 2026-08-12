@@ -93,7 +93,7 @@
     ],
     "discoveryCrawler": {
       "lastRun": "2026-08-12",
-      "promotedSources": 83,
+      "promotedSources": 122,
       "socialEvidenceRemoved": true
     }
   },
@@ -179,9 +179,9 @@
       "documentsRegulations": "verified"
     },
     "auditEvidenceCoverage": 100,
-    "unitsFound": 33,
-    "systemsFound": 18,
-    "documentsFound": 63,
+    "unitsFound": 59,
+    "systemsFound": 26,
+    "documentsFound": 89,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -197,7 +197,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 63,
+      "sourceCount": 91,
       "sources": [
         {
           "url": "https://res.shahed.ac.ir",
@@ -560,25 +560,192 @@
           "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/research/research-forms/",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+          "url": "https://po.shahed.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%a7%d9%88%d9%84%db%8c%d9%86-%d9%86%d8%b4/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/research/proposals-and-theses/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
+          "url": "https://ram.shahed.ac.ir/%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%d8%b3%d9%84%d8%b3%d9%84%d9%87-%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%d8%a7%d8%ae%d9%84%d8%a7%d9%82-%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/research/library/",
+          "url": "https://res.shahed.ac.ir/student-research-committee-2/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/student-research-committee-3/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/new-science-and-technologies-research-institute/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/research-institute-of-islamic-studies-of-social-injuries/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/immune-response-regulation-research-center/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/applied-research/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/management-of-research-centers/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/the-performance-of-research-affairs/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/introducing-the-office-of-research-centers/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/the-performance-of-the-office-of-research-centers/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/the-five-year-plan-of-the-office-of-research-centers-affairs/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/approved-research-centers/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/research-centers-in-progress/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://ram.shahed.ac.ir/%d9%85%d8%b1%d8%a7%d8%b3%d9%85-%da%af%d8%b1%d8%a7%d9%85%db%8c%d8%af%d8%a7%d8%b4%d8%aa-%d9%87%d9%81%d8%aa%d9%87-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%af%d8%b1/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/organigram/53944/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/deputy/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/vision/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%da%af%d9%81%d8%aa%d9%88%da%af%d9%88-%d8%a8%d8%a7-%d8%af%da%a9%d8%aa%d8%b1-%d8%ad%d9%85%d8%b2%d9%87%d8%b9%d9%84%db%8c-%d9%86%d9%88%d8%b1%d9%85%d8%ad%d9%85%d8%af%db%8c%d8%8c/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/the-system-of-providing-scientific-documents/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%d8%a7%d8%b1%d8%aa%d9%82%d8%a7%db%8c-%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%d8%af%d9%88%d8%b1%d9%87%d9%87%d8%a7%db%8c-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af-%d9%88/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%db%8c%da%a9-%d9%88%d8%a7%d8%ad%d8%af-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d8%a7%d8%b2-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%d8%aa/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%d8%af%d9%88%d8%b1%d9%87-%d9%85%d8%ac%d8%a7%d8%b2%db%8c-%d8%aa%d9%87%db%8c%d9%87-%d9%88-%d9%81%d8%b1%d9%85%d9%88%d9%84%d8%a7%d8%b3%db%8c%d9%88%d9%86-%d9%85/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%a8%d9%87%d8%b3%d8%aa%d8%a7%d9%86/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/ministerial-systems/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/technology-systems-growth-center/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://ram.shahed.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/technical-services/",
           "kind": "research-review-specific",
           "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
           "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/%D9%81%D8%B1%D9%85-%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D9%88%D8%B1%D8%B2%DB%8C-.docx",
+          "kind": "research-review-specific",
+          "claim": "نمونه فایل معرفی‌نامه کارورزی ( )",
+          "id": null,
+          "sourceLabel": "نمونه فایل معرفی‌نامه کارورزی ( )"
         }
       ],
       "publicationAdjustment": null,
@@ -596,7 +763,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 25,
+      "sourceCount": 51,
       "sources": [
         {
           "url": "https://res.shahed.ac.ir/",
@@ -605,7 +772,7 @@
           "id": null
         },
         {
-          "url": "https://rcm.shahed.ac.ir/",
+          "url": "https://ram.shahed.ac.ir/organigram/chart/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific organization source",
           "id": null
@@ -615,6 +782,15 @@
           "kind": "unit",
           "claim": "آزمایشگاه ها – دانشکده علوم پایه",
           "id": "shahed-discovery-unit-laboratory-3105e5b5f351",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://rcm.shahed.ac.ir/",
+          "kind": "unit",
+          "claim": "مدیریت امور واحدهای پژوهشی و آزمایشگاه ها – دانشگاه تراز انقلاب اسلامی",
+          "id": "shahed-discovery-unit-laboratory-007e535a922c",
           "unitType": "laboratory",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
@@ -816,6 +992,231 @@
           "unitType": "library",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%d8%a7%d8%b1%d8%aa%d9%82%d8%a7%db%8c-%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
+          "kind": "unit",
+          "claim": "ارتقای وضعیت آزمایشگاه مرکزی دانشگاه در شبکه آزمایشگاهی فناوری‌های راهبردی – معاونت پژوهش و فناوری",
+          "id": "shahed-discovery-unit-laboratory-f1574c0720cb",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af-%d9%88-%d9%85%d8%af-2/",
+          "kind": "unit",
+          "claim": "وبینار آشنایی با خدمات مرکز اسناد و مدارک علمی دانشگاه شاهد – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-d7ba89834be2",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/azar-1402-webinars-registration-form/",
+          "kind": "unit",
+          "claim": "فرم ثبت نام دوره های آذر 1402 – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-adb1fa5e1a78",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://po.shahed.ac.ir/",
+          "kind": "unit",
+          "claim": "اداره انتشارات – دانشگاه تراز انقلاب اسلامی",
+          "id": "shahed-discovery-unit-library-d8580e1a15d5",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://ram.shahed.ac.ir/",
+          "kind": "unit",
+          "claim": "مدیریت امور پژوهشی – دانشگاه تراز انقلاب اسلامی",
+          "id": "shahed-discovery-unit-research-2d96d26c1027",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/scientometrics/",
+          "kind": "unit",
+          "claim": "علم‌سنجی – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-7c8eea487e56",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/history-2/",
+          "kind": "unit",
+          "claim": "تاریخچه – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-3c01d5a586bd",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/goals-and-tasks/",
+          "kind": "unit",
+          "claim": "اهداف و وظایف – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-72d5f2a5b92a",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/organization-chart/",
+          "kind": "unit",
+          "claim": "نمودار سازمانی – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-97a8fb4247e8",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/staff/",
+          "kind": "unit",
+          "claim": "کارکنان – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-3c19724b07e0",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/retired-staff/",
+          "kind": "unit",
+          "claim": "کارکنان بازنشسته – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-7b904e953ba6",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/book-circulation/",
+          "kind": "unit",
+          "claim": "امانت (گردش کتاب) – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-e46289d0c548",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/technical-services/",
+          "kind": "unit",
+          "claim": "خدمات فنی – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-d5bf27a704bb",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/information-department/",
+          "kind": "unit",
+          "claim": "اطلاع‌رسانی – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-49874ff084b2",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/references-and-periodicals/",
+          "kind": "unit",
+          "claim": "مرجع و نشریات ادواری – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-fe568e536a42",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d8%b3%d8%a7%d9%84%d9%86%d9%87%d8%a7%db%8c-%d9%85%d8%b7%d8%a7%d9%84%d8%b9%d9%87/",
+          "kind": "unit",
+          "claim": "سالن‌های مطالعه – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-ea80576ad1b1",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/paged-2/2/?pp=env",
+          "kind": "unit",
+          "claim": "مرکز اسناد و مدارک علمی – دانشگاه تراز انقلاب اسلامی",
+          "id": "shahed-discovery-unit-library-08477f87c6cd",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/paged-2/3/?pp=env",
+          "kind": "unit",
+          "claim": "مرکز اسناد و مدارک علمی – دانشگاه تراز انقلاب اسلامی",
+          "id": "shahed-discovery-unit-library-060a3e86b271",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%db%8c%d9%87-%d8%af%d8%b1%d8%ae%d8%b5%d9%88%d8%b5-%d9%86%d8%ad%d9%88%d9%87-%d8%af%d8%b3%d8%aa%d8%b1%d8%b3%db%8c-%d8%a8%d9%87-%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87/",
+          "kind": "unit",
+          "claim": "اطلاعیه درخصوص نحوه دسترسی به پایگاه‌های اطلاعاتی علمی از طریق سامانه مگاپیپر – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-f2e5d79f4108",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/paged-2/191/?pp=env",
+          "kind": "unit",
+          "claim": "مرکز اسناد و مدارک علمی – دانشگاه تراز انقلاب اسلامی",
+          "id": "shahed-discovery-unit-library-f2aceaa7e226",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/category/instruction/",
+          "kind": "unit",
+          "claim": "آموزش – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-c040d1d117ce",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d8%a7%d8%a8%d8%b2%d8%a7%d8%b1%d9%87%d8%a7%db%8c-%d9%87%d9%88%d8%b4-%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c-%d8%af%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4/",
+          "kind": "unit",
+          "claim": "کارگاه ابزارهای هوش مصنوعی در پژوهش – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-5fb1417c5593",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d9%86%d8%ad%d9%88%d9%87-%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1%d8%b3%d9%86%d8%ac%db%8c-%d9%85%d8%ac%d9%84%d8%a7%d8%aa/",
+          "kind": "unit",
+          "claim": "وبینار آموزشی «آشنایی با نرم‌افزار استناددهی مندلی (Mendeley)» – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-93e03185dd0c",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%db%8c%da%a9-%d9%88%d8%a7%d8%ad%d8%af-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d8%a7%d8%b2-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%d8%aa/",
+          "kind": "unit",
+          "claim": "بازدید یک واحد صنعتی از آزمایشگاه های تخصصی دانشکده فنی و مهندسی و بررسی زمینه‌های همکاری – معاونت پژوهش و فناوری",
+          "id": "shahed-discovery-unit-laboratory-32d708b6d379",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/organigram/53944/",
+          "kind": "unit",
+          "claim": "معاون پژوهش و فناوری – معاونت پژوهش و فناوری",
+          "id": "shahed-discovery-unit-research-09168bd3714a",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         }
       ],
       "publicationAdjustment": null,
@@ -833,7 +1234,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 20,
+      "sourceCount": 42,
       "sources": [
         {
           "url": "https://res.shahed.ac.ir/",
@@ -860,25 +1261,43 @@
           "id": null
         },
         {
+          "url": "https://library.shahed.ac.ir/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d9%85%d8%b1%d8%a7%d8%ad%d9%84-%d8%aa%d8%b3%d9%88%db%8c%d9%87%d8%ad%d8%b3%d8%a7%d8%a8-%d9%be%d8%a7%db%8c%d8%a7%d9%86%d9%86%d8%a7%d9%85/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af-%d9%88-%d9%85/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/payannameha_tasviyehesab/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af-%d9%88-%d9%85%d8%af-2/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/azar-1402-webinars-registration-form/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://po.shahed.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
           "url": "https://sci.shahed.ac.ir/research/library/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://eng.shahed.ac.ir/research/library/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/research/library/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://library.shahed.ac.ir/ezharnameh/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
@@ -890,25 +1309,112 @@
           "id": null
         },
         {
-          "url": "https://library.shahed.ac.ir/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d9%85%d8%b4%d8%a7%d9%87%d8%af%d9%87-%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%af%d8%b1/",
+          "url": "https://library.shahed.ac.ir/scientometrics/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
         },
         {
-          "url": "https://library.shahed.ac.ir/thesis_writing_principles_of_shahed_university/",
+          "url": "https://library.shahed.ac.ir/history-2/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
         },
         {
-          "url": "https://library.shahed.ac.ir/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d9%85%d8%b1%d8%a7%d8%ad%d9%84-%d8%aa%d8%b3%d9%88%db%8c%d9%87%d8%ad%d8%b3%d8%a7%d8%a8-%d9%be%d8%a7%db%8c%d8%a7%d9%86%d9%86%d8%a7%d9%85/",
-          "kind": "unit",
-          "claim": "راهنمای مراحل تسویه‌حساب پایان‌نامه در مرکز اسناد و مدارک علمی دانشگاه شاهد – مرکز اسناد و مدارک علمی",
-          "id": "shahed-discovery-unit-library-6dc2df046e48",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "url": "https://library.shahed.ac.ir/goals-and-tasks/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/organization-chart/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/staff/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/retired-staff/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/book-circulation/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/technical-services/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/information-department/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/references-and-periodicals/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d8%b3%d8%a7%d9%84%d9%86%d9%87%d8%a7%db%8c-%d9%85%d8%b7%d8%a7%d9%84%d8%b9%d9%87/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/paged-2/2/?pp=env",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/paged-2/3/?pp=env",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%db%8c%d9%87-%d8%af%d8%b1%d8%ae%d8%b5%d9%88%d8%b5-%d9%86%d8%ad%d9%88%d9%87-%d8%af%d8%b3%d8%aa%d8%b1%d8%b3%db%8c-%d8%a8%d9%87-%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/paged-2/191/?pp=env",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/category/instruction/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d8%a7%d8%a8%d8%b2%d8%a7%d8%b1%d9%87%d8%a7%db%8c-%d9%87%d9%88%d8%b4-%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c-%d8%af%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d9%86%d8%ad%d9%88%d9%87-%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1%d8%b3%d9%86%d8%ac%db%8c-%d9%85%d8%ac%d9%84%d8%a7%d8%aa/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
         },
         {
           "url": "https://library.shahed.ac.ir/payannameha_submit/",
@@ -920,19 +1426,37 @@
           "relationshipEvidenceUrl": null
         },
         {
-          "url": "https://library.shahed.ac.ir/payannameha_tasviyehesab/",
+          "url": "https://eng.shahed.ac.ir/research/library/",
           "kind": "unit",
-          "claim": "payannameha_tasviyehesab – مرکز اسناد و مدارک علمی",
-          "id": "shahed-discovery-unit-library-1261ee1e586b",
+          "claim": "کتابخانه – دانشکده فنی و مهندسی",
+          "id": "shahed-discovery-unit-library-30f2971641ba",
           "unitType": "library",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
         },
         {
-          "url": "https://library.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af-%d9%88-%d9%85/",
+          "url": "https://library.shahed.ac.ir/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d9%85%d8%b4%d8%a7%d9%87%d8%af%d9%87-%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%af%d8%b1/",
           "kind": "unit",
-          "claim": "وبینار آموزشی «آشنایی با مرکز اسناد و مدارک علمی و سامانه‌های ایرانداک» – مرکز اسناد و مدارک علمی",
-          "id": "shahed-discovery-unit-library-ada221c247fc",
+          "claim": "راهنمای مشاهده وضعیت اعتبار نشریات در سامانه بهستان – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-dec22fee34ba",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/thesis_writing_principles_of_shahed_university/",
+          "kind": "unit",
+          "claim": "شیوه‌نامه نگارش پایان‌نامه‌های دانشگاه شاهد – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-2ff020b06c52",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/ezharnameh/",
+          "kind": "unit",
+          "claim": "ezharnameh – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-unit-library-440e036ef2f7",
           "unitType": "library",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
@@ -965,6 +1489,15 @@
           "relationshipEvidenceUrl": null
         },
         {
+          "url": "https://agri.shahed.ac.ir/research/library/",
+          "kind": "unit",
+          "claim": "کتابخانه – دانشکده علوم کشاورزی",
+          "id": "shahed-discovery-unit-library-0d36922afc83",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
           "url": "https://library.shahed.ac.ir/storage/sites/8/2023/10/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D9%87-%D9%88%D8%B6%D8%B9%DB%8C%D8%AA-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D9%87-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%A8%D9%87%D8%B3%D8%AA%D8%A7%D9%86-%D9%85%D9%87%D8%B1-1402.pdf",
           "kind": "document",
           "claim": "راهنمای مشاهده وضعیت اعتبار نشریات علمی در سامانه بهستان – مهر 1402",
@@ -975,6 +1508,13 @@
           "kind": "document",
           "claim": "راهنمای بارگذاری پایان نامه در نرم افزار کتابخانه",
           "id": "shahed-discovery-document-83f94bf02fb9"
+        },
+        {
+          "url": "https://library.shahed.ac.ir/storage/sites/8/2023/08/megapaper-guide.pdf",
+          "kind": "research-review-specific",
+          "claim": "راهنمای ثبت نام و استفاده از سامانه تامین مدارک علمی (مگاپیپر)",
+          "id": null,
+          "sourceLabel": "راهنمای ثبت نام و استفاده از سامانه تامین مدارک علمی (مگاپیپر)"
         }
       ],
       "publicationAdjustment": null,
@@ -992,7 +1532,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 6,
+      "sourceCount": 8,
       "sources": [
         {
           "url": "https://res.shahed.ac.ir/",
@@ -1008,27 +1548,57 @@
         },
         {
           "url": "https://rcm.shahed.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
+          "kind": "unit",
+          "claim": "مدیریت امور واحدهای پژوهشی و آزمایشگاه ها – دانشگاه تراز انقلاب اسلامی",
+          "id": "shahed-discovery-unit-laboratory-007e535a922c",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         },
         {
           "url": "https://rcm.shahed.ac.ir/%da%af%d8%b1%d9%86%d8%aa-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
+          "kind": "unit",
+          "claim": "گرنت خدمات آزمایشگاهی شاعا – مدیریت امور واحدهای پژوهشی و آزمایشگاه ها",
+          "id": "shahed-discovery-unit-laboratory-73ff6998f108",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         },
         {
           "url": "https://sci.shahed.ac.ir/facilities/laboratories/research-laboratory/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
+          "kind": "unit",
+          "claim": "آزمایشگاه تحقیقاتی – دانشکده علوم پایه",
+          "id": "shahed-discovery-unit-laboratory-6481b6efdd5e",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         },
         {
           "url": "https://sci.shahed.ac.ir/facilities/laboratories/electrochemistry-and-battery-research-laboratory/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
+          "kind": "unit",
+          "claim": "آزمایشگاه تحقیقات الکتروشیمی و باتری – دانشکده علوم پایه",
+          "id": "shahed-discovery-unit-laboratory-c12ccb6a7ed1",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%d8%a7%d8%b1%d8%aa%d9%82%d8%a7%db%8c-%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
+          "kind": "unit",
+          "claim": "ارتقای وضعیت آزمایشگاه مرکزی دانشگاه در شبکه آزمایشگاهی فناوری‌های راهبردی – معاونت پژوهش و فناوری",
+          "id": "shahed-discovery-unit-laboratory-f1574c0720cb",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%db%8c%da%a9-%d9%88%d8%a7%d8%ad%d8%af-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d8%a7%d8%b2-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%d8%aa/",
+          "kind": "unit",
+          "claim": "بازدید یک واحد صنعتی از آزمایشگاه های تخصصی دانشکده فنی و مهندسی و بررسی زمینه‌های همکاری – معاونت پژوهش و فناوری",
+          "id": "shahed-discovery-unit-laboratory-32d708b6d379",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         }
       ],
       "publicationAdjustment": null,
@@ -1055,18 +1625,18 @@
           "id": null
         },
         {
+          "url": "https://res.shahed.ac.ir/technology-systems-growth-center/",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
           "url": "https://sci.shahed.ac.ir/facilities/computer-center/",
           "kind": "research-review-specific",
           "claim": "فناوری اطلاعات — کشف خودکار",
           "id": null,
           "sourceLabel": "فناوری اطلاعات — کشف خودکار"
-        },
-        {
-          "url": "https://library.shahed.ac.ir/thesis_writing_principles_of_shahed_university/",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -1084,7 +1654,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 74,
+      "sourceCount": 80,
       "sources": [
         {
           "url": "https://sci.shahed.ac.ir/facilities/computer-center/",
@@ -1109,11 +1679,267 @@
           "sourceSpecificity": "university-reference"
         },
         {
+          "url": "https://po.shahed.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%a7%d9%88%d9%84%db%8c%d9%86-%d9%86%d8%b4/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://ram.shahed.ac.ir/%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%d8%b3%d9%84%d8%b3%d9%84%d9%87-%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%d8%a7%d8%ae%d9%84%d8%a7%d9%82-%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/student-research-committee-2/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/student-research-committee-3/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/new-science-and-technologies-research-institute/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/research-institute-of-islamic-studies-of-social-injuries/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/immune-response-regulation-research-center/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/applied-research/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/management-of-research-centers/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/the-performance-of-research-affairs/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/introducing-the-office-of-research-centers/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/the-performance-of-the-office-of-research-centers/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/the-five-year-plan-of-the-office-of-research-centers-affairs/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/approved-research-centers/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/research-centers-in-progress/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://ram.shahed.ac.ir/%d9%85%d8%b1%d8%a7%d8%b3%d9%85-%da%af%d8%b1%d8%a7%d9%85%db%8c%d8%af%d8%a7%d8%b4%d8%aa-%d9%87%d9%81%d8%aa%d9%87-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%af%d8%b1/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
           "url": "https://sci.shahed.ac.ir/research/introducing-the-research-office/",
           "kind": "research-review-reference",
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
           "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/organigram/53944/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/deputy/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/vision/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%da%af%d9%81%d8%aa%d9%88%da%af%d9%88-%d8%a8%d8%a7-%d8%af%da%a9%d8%aa%d8%b1-%d8%ad%d9%85%d8%b2%d9%87%d8%b9%d9%84%db%8c-%d9%86%d9%88%d8%b1%d9%85%d8%ad%d9%85%d8%af%db%8c%d8%8c/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/the-system-of-providing-scientific-documents/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%d8%a7%d8%b1%d8%aa%d9%82%d8%a7%db%8c-%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%d8%af%d9%88%d8%b1%d9%87%d9%87%d8%a7%db%8c-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af-%d9%88/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%db%8c%da%a9-%d9%88%d8%a7%d8%ad%d8%af-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d8%a7%d8%b2-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%d8%aa/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%d8%af%d9%88%d8%b1%d9%87-%d9%85%d8%ac%d8%a7%d8%b2%db%8c-%d8%aa%d9%87%db%8c%d9%87-%d9%88-%d9%81%d8%b1%d9%85%d9%88%d9%84%d8%a7%d8%b3%db%8c%d9%88%d9%86-%d9%85/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%a8%d9%87%d8%b3%d8%aa%d8%a7%d9%86/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/ministerial-systems/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/technology-systems-growth-center/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://ram.shahed.ac.ir/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/download_category/instructions-and-forms/",
+          "kind": "research-review-reference",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af-%d9%88-%d9%85/",
+          "kind": "research-review-reference",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d9%85%d8%b1%d8%a7%d8%ad%d9%84-%d8%aa%d8%b3%d9%88%db%8c%d9%87%d8%ad%d8%b3%d8%a7%d8%a8-%d9%be%d8%a7%db%8c%d8%a7%d9%86%d9%86%d8%a7%d9%85/",
+          "kind": "research-review-reference",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
@@ -1125,7 +1951,7 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://shahed.ac.ir/systems/systems-of-professors-and-faculty-members/",
+          "url": "https://library.shahed.ac.ir/theses-and-research-projects/",
           "kind": "research-review-reference",
           "claim": "سامانه‌ها و خدمات — کشف خودکار",
           "id": null,
@@ -1133,23 +1959,7 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://shahed.ac.ir/systems/employee-systems/",
-          "kind": "research-review-reference",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://shahed.ac.ir/systems/public-client-systems/",
-          "kind": "research-review-reference",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://shahed.ac.ir/systems/student-systems/",
+          "url": "https://library.shahed.ac.ir/scientometrics/",
           "kind": "research-review-reference",
           "claim": "سامانه‌ها و خدمات — کشف خودکار",
           "id": null,
@@ -1173,118 +1983,6 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://sci.shahed.ac.ir/facilities/laboratories/",
-          "kind": "research-review-reference",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/research/research-forms/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://eng.shahed.ac.ir/forms-copy-3/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/education/forms/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://rcm.shahed.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://sci.shahed.ac.ir/regulations/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/education/faculty-regulations/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://library.shahed.ac.ir/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d9%85%d8%b4%d8%a7%d9%87%d8%af%d9%87-%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%af%d8%b1/",
-          "kind": "research-review-reference",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://library.shahed.ac.ir/thesis_writing_principles_of_shahed_university/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://rcm.shahed.ac.ir/%da%af%d8%b1%d9%86%d8%aa-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c/",
-          "kind": "research-review-reference",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://library.shahed.ac.ir/theses-and-research-projects/",
-          "kind": "research-review-reference",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/research/proposals-and-theses/",
-          "kind": "research-review-reference",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://sci.shahed.ac.ir/facilities/laboratories/research-laboratory/",
-          "kind": "research-review-reference",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://sci.shahed.ac.ir/facilities/laboratories/electrochemistry-and-battery-research-laboratory/",
-          "kind": "research-review-reference",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
           "url": "https://library.shahed.ac.ir/office-of-the-head/",
           "kind": "research-review-reference",
           "claim": "کتابخانه و اسناد — کشف خودکار",
@@ -1301,6 +1999,62 @@
           "sourceSpecificity": "university-reference"
         },
         {
+          "url": "https://library.shahed.ac.ir/payannameha_tasviyehesab/",
+          "kind": "research-review-reference",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af-%d9%88-%d9%85%d8%af-2/",
+          "kind": "research-review-reference",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://library.shahed.ac.ir/azar-1402-webinars-registration-form/",
+          "kind": "research-review-reference",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://po.shahed.ac.ir/",
+          "kind": "research-review-reference",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://ram.shahed.ac.ir/samaneh-behestan/",
+          "kind": "research-review-reference",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://library.shahed.ac.ir/references-and-periodicals/",
+          "kind": "research-review-reference",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%db%8c%d9%87-%d8%af%d8%b1%d8%ae%d8%b5%d9%88%d8%b5-%d9%86%d8%ad%d9%88%d9%87-%d8%af%d8%b3%d8%aa%d8%b1%d8%b3%db%8c-%d8%a8%d9%87-%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87/",
+          "kind": "research-review-reference",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
           "url": "https://sci.shahed.ac.ir/research/library/",
           "kind": "research-review-reference",
           "claim": "کتابخانه و اسناد — کشف خودکار",
@@ -1309,7 +2063,15 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://eng.shahed.ac.ir/research/library/",
+          "url": "https://ram.shahed.ac.ir/organigram/chart/",
+          "kind": "research-review-reference",
+          "claim": "ساختار سازمانی — کشف خودکار",
+          "id": null,
+          "sourceLabel": "ساختار سازمانی — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://library.shahed.ac.ir/history-2/",
           "kind": "research-review-reference",
           "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
@@ -1317,7 +2079,7 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://agri.shahed.ac.ir/research/library/",
+          "url": "https://library.shahed.ac.ir/goals-and-tasks/",
           "kind": "research-review-reference",
           "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
@@ -1325,7 +2087,7 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://library.shahed.ac.ir/ezharnameh/",
+          "url": "https://library.shahed.ac.ir/organization-chart/",
           "kind": "research-review-reference",
           "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
@@ -1333,347 +2095,203 @@
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85%D9%87%D8%A7-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
+          "url": "https://library.shahed.ac.ir/staff/",
           "kind": "research-review-reference",
-          "claim": "فرم های گزارش پیشرفت پایان نامه ارشد",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "فرم های گزارش پیشرفت پایان نامه ارشد",
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/e-%D9%81%D8%B1%D9%85-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C%D9%87-%D9%85%D9%88%D8%B6%D9%88%D8%B9-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%841.doc",
+          "url": "https://library.shahed.ac.ir/retired-staff/",
           "kind": "research-review-reference",
-          "claim": "فرم پیشنهادیه موضوع پایان‌نامه (پروپوزال)",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "فرم پیشنهادیه موضوع پایان‌نامه (پروپوزال)",
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%B7%D8%B1%D8%AD-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C%D8%A7%D8%B1%D8%B4%D8%AF-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.docx",
+          "url": "https://library.shahed.ac.ir/book-circulation/",
           "kind": "research-review-reference",
-          "claim": "(فرم طرح نامه پایان نامه رساله دانشجویی(ارشد-دکتری",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "(فرم طرح نامه پایان نامه رساله دانشجویی(ارشد-دکتری",
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-.pdf",
+          "url": "https://library.shahed.ac.ir/technical-services/",
           "kind": "research-review-reference",
-          "claim": "دانلود آیین‌نامه کارشناسی فرمت: PDF - حجم: 450KB",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "دانلود آیین‌نامه کارشناسی فرمت: PDF - حجم: 450KB",
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%83%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%D9%8A.pdf",
+          "url": "https://library.shahed.ac.ir/information-department/",
           "kind": "research-review-reference",
-          "claim": "دانلود شیوه‌نامه کارشناسی فرمت: PDF - حجم: 380KB",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "دانلود شیوه‌نامه کارشناسی فرمت: PDF - حجم: 380KB",
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF-.pdf",
+          "url": "https://library.shahed.ac.ir/%d8%b3%d8%a7%d9%84%d9%86%d9%87%d8%a7%db%8c-%d9%85%d8%b7%d8%a7%d9%84%d8%b9%d9%87/",
           "kind": "research-review-reference",
-          "claim": "دانلود آیین‌نامه ارشد فرمت: PDF - حجم: 520KB",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "دانلود آیین‌نامه ارشد فرمت: PDF - حجم: 520KB",
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.pdf",
+          "url": "https://library.shahed.ac.ir/paged-2/2/?pp=env",
           "kind": "research-review-reference",
-          "claim": "دانلود شیوه‌نامه ارشد فرمت: PDF - حجم: 410KB",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "دانلود شیوه‌نامه ارشد فرمت: PDF - حجم: 410KB",
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-.pdf",
+          "url": "https://library.shahed.ac.ir/paged-2/3/?pp=env",
           "kind": "research-review-reference",
-          "claim": "دانلود آیین‌نامه دکتری فرمت: PDF - حجم: 580KB",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "دانلود آیین‌نامه دکتری فرمت: PDF - حجم: 580KB",
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
+          "url": "https://library.shahed.ac.ir/paged-2/191/?pp=env",
           "kind": "research-review-reference",
-          "claim": "دانلود شیوه‌نامه دکتری فرمت: PDF - حجم: 610KB",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "دانلود شیوه‌نامه دکتری فرمت: PDF - حجم: 610KB",
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/m-%D9%81%D8%B1%D9%85%D9%87%D8%A7%DB%8C-%D8%AC%D9%84%D8%B3%D9%87-%D8%AF%D9%81%D8%A7%D8%B9-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
+          "url": "https://library.shahed.ac.ir/category/instruction/",
           "kind": "research-review-reference",
-          "claim": "فرم‌های جلسه دفاع کارشناسی ارشد",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "فرم‌های جلسه دفاع کارشناسی ارشد",
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/f-%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA-3-%D9%85%D8%A7%D9%87%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
+          "url": "https://library.shahed.ac.ir/%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d8%a7%d8%a8%d8%b2%d8%a7%d8%b1%d9%87%d8%a7%db%8c-%d9%87%d9%88%d8%b4-%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c-%d8%af%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4/",
           "kind": "research-review-reference",
-          "claim": "فرم گزارش پیشرفت 3 ماهه پایان‌نامه",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "فرم گزارش پیشرفت 3 ماهه پایان‌نامه",
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/n-%D9%81%D8%B1%D9%85-%D8%AD%D9%82-%D8%A7%D9%84%D8%B2%D8%AD%D9%85%D9%87-%D8%AF%D8%A7%D9%88%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
+          "url": "https://library.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d9%86%d8%ad%d9%88%d9%87-%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1%d8%b3%d9%86%d8%ac%db%8c-%d9%85%d8%ac%d9%84%d8%a7%d8%aa/",
           "kind": "research-review-reference",
-          "claim": "فرم حق الزحمه داوری پایان‌نامه",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "فرم حق الزحمه داوری پایان‌نامه",
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/g-%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AF%D9%81%D8%A7%D8%B9-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.doc",
+          "url": "https://sci.shahed.ac.ir/facilities/laboratories/",
           "kind": "research-review-reference",
-          "claim": "فرم درخواست دفاع از پایان‌نامه",
+          "claim": "آزمایشگاه‌ها — کشف خودکار",
           "id": null,
-          "sourceLabel": "فرم درخواست دفاع از پایان‌نامه",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/h-%D9%81%D8%B1%D9%85-%D8%A7%D8%B1%D8%B2%D9%8A%D8%A7%D8%A8%D9%8A-%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
-          "kind": "research-review-reference",
-          "claim": "فرم ارزيابی دستاوردهای علمی پایان‌نامه",
-          "id": null,
-          "sourceLabel": "فرم ارزيابی دستاوردهای علمی پایان‌نامه",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/l-%D9%81%D8%B1%D9%85-%DA%86%DA%A9%DB%8C%D8%AF%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87.doc",
-          "kind": "research-review-reference",
-          "claim": "فرم چکیده پایان‌نامه",
-          "id": null,
-          "sourceLabel": "فرم چکیده پایان‌نامه",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "http://site.shahed.ac.ir/FaniMohandesi/SiteAssets/Pages/edu-phd/1400_09_02_shivenameh.doc",
-          "kind": "research-review-reference",
-          "claim": "شیوه‌نامه استفاده از فرصت مطالعاتی",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه استفاده از فرصت مطالعاتی",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/11/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DB%8C%DA%A9%D9%BE%D8%A7%D8%B1%DA%86%D9%87-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D8%AF%D9%88%D8%B1%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C%D8%8C-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF-%D9%88-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C-1.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه یکپارچه مقررات آموزشی",
-          "id": null,
-          "sourceLabel": "آیین نامه یکپارچه مقررات آموزشی",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D8%B3%D8%A7%D8%B2%DB%8C.docx",
-          "kind": "research-review-reference",
-          "claim": "فرم های معادلسازی",
-          "id": null,
-          "sourceLabel": "فرم های معادلسازی",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2025/09/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86_%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85_%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87.pdf",
-          "kind": "research-review-reference",
-          "claim": "راهنمای بارگذاری پایان نامه در نرم افزار کتابخانه",
-          "id": null,
-          "sourceLabel": "راهنمای بارگذاری پایان نامه در نرم افزار کتابخانه",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2025/09/%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D9%85%D8%AF%DB%8C%D8%AF-%D8%B3%D9%86%D9%88%D8%A7%D8%AA972.docx",
-          "kind": "research-review-reference",
-          "claim": "فرم گزارش پیشرفت پایان نامه ارشد برای تمدید سنوات",
-          "id": null,
-          "sourceLabel": "فرم گزارش پیشرفت پایان نامه ارشد برای تمدید سنوات",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%85%D9%87%D9%84%D8%AA-%D8%A7%D8%B1%D8%A7%D8%A6%D9%87-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87.pdf",
-          "kind": "research-review-reference",
-          "claim": "فرم درخواست مهلت ارائه مقاله از پایان نامه",
-          "id": null,
-          "sourceLabel": "فرم درخواست مهلت ارائه مقاله از پایان نامه",
+          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
           "sourceSpecificity": "university-reference"
         },
         {
           "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%DA%A9%D8%A7%D8%B1%D9%88%D8%B1%D8%B2%DB%8C-.docx",
           "kind": "research-review-reference",
-          "claim": "دانلود فرم درخواست کارورزی (Word)",
+          "claim": "فرم درخواست کارورزی ( )",
           "id": null,
-          "sourceLabel": "دانلود فرم درخواست کارورزی (Word)",
+          "sourceLabel": "فرم درخواست کارورزی ( )",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/%D9%81%D8%B1%D9%85-%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D9%88%D8%B1%D8%B2%DB%8C-.docx",
+          "kind": "research-review-reference",
+          "claim": "نمونه فایل معرفی‌نامه کارورزی ( )",
+          "id": null,
+          "sourceLabel": "نمونه فایل معرفی‌نامه کارورزی ( )",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/Master-1.docx",
+          "kind": "research-review-reference",
+          "claim": "Master فرم صورت‌جلسه گروه آموزشی مقطع کارشناسی ارشد (تکمیل توسط دانشجو)",
+          "id": null,
+          "sourceLabel": "Master فرم صورت‌جلسه گروه آموزشی مقطع کارشناسی ارشد (تکمیل توسط دانشجو)",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/PhD-1.docx",
+          "kind": "research-review-reference",
+          "claim": "PhD فرم صورت‌جلسه گروه آموزشی مقطع دکتری (تکمیل توسط دانشجو)",
+          "id": null,
+          "sourceLabel": "PhD فرم صورت‌جلسه گروه آموزشی مقطع دکتری (تکمیل توسط دانشجو)",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://book.shahed.ac.ir/data/shahed/news/%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%A4%D9%84%D9%81.pdf",
+          "kind": "research-review-reference",
+          "claim": "شیوه‌نامه مؤلف برای انتشار کتاب",
+          "id": null,
+          "sourceLabel": "شیوه‌نامه مؤلف برای انتشار کتاب",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/storage/sites/18/2023/01/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D9%80%D8%AA-%D8%A7%DB%8C%D9%85%DB%8C%D9%84.pdf",
+          "kind": "research-review-reference",
+          "claim": "فرم درخواست پست الکترونیکی از دانشگاه برای دانشجویان ارشد و دکتری و هیئت علمی",
+          "id": null,
+          "sourceLabel": "فرم درخواست پست الکترونیکی از دانشگاه برای دانشجویان ارشد و دکتری و هیئت علمی",
           "sourceSpecificity": "university-reference"
         },
         {
           "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-2.pdf",
           "kind": "research-review-reference",
-          "claim": "راهنمای بخش‌های 9 تا 10 فایل پروپوزال و سایر موارد تکمیلی",
+          "claim": "FP‑2 راهنمای بخش‌های 9 تا 10 فایل پروپوزال و سایر موارد تکمیلی",
           "id": null,
-          "sourceLabel": "راهنمای بخش‌های 9 تا 10 فایل پروپوزال و سایر موارد تکمیلی",
+          "sourceLabel": "FP‑2 راهنمای بخش‌های 9 تا 10 فایل پروپوزال و سایر موارد تکمیلی",
           "sourceSpecificity": "university-reference"
         },
         {
           "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-3-1.pdf",
           "kind": "research-review-reference",
-          "claim": "راهنمای خلاصه‌شده ارسال پروپوزال برای دانشجویان ورودی قبل از سال 1403",
+          "claim": "FP‑3 راهنمای خلاصه‌شده ارسال پروپوزال برای دانشجویان ورودی قبل از سال 1403",
           "id": null,
-          "sourceLabel": "راهنمای خلاصه‌شده ارسال پروپوزال برای دانشجویان ورودی قبل از سال 1403",
+          "sourceLabel": "FP‑3 راهنمای خلاصه‌شده ارسال پروپوزال برای دانشجویان ورودی قبل از سال 1403",
           "sourceSpecificity": "university-reference"
         },
         {
           "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-4-1.pdf",
           "kind": "research-review-reference",
-          "claim": "راهنمای خلاصه‌شده ارسال پروپوزال برای دانشجویان ورودی 1403 به بعد از طریق پورتال آموزشی و پژوهشی بهستان",
+          "claim": "FP‑4 راهنمای خلاصه‌شده ارسال پروپوزال برای دانشجویان ورودی 1403 به بعد از طریق پورتال آموزشی و پژوهشی بهستان",
           "id": null,
-          "sourceLabel": "راهنمای خلاصه‌شده ارسال پروپوزال برای دانشجویان ورودی 1403 به بعد از طریق پورتال آموزشی و پژوهشی بهستان",
+          "sourceLabel": "FP‑4 راهنمای خلاصه‌شده ارسال پروپوزال برای دانشجویان ورودی 1403 به بعد از طریق پورتال آموزشی و پژوهشی بهستان",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/a-%D9%81%D8%B1%D9%85-%D8%AA%D8%B9%D9%8A%D9%8A%D9%86-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7.doc",
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D8%A7-1.pdf",
           "kind": "research-review-reference",
-          "claim": "فرم تعیین استاد راهنما",
+          "claim": "راهنما راهنمای فایل‌های بارگذاری شده",
           "id": null,
-          "sourceLabel": "فرم تعیین استاد راهنما",
+          "sourceLabel": "راهنما راهنمای فایل‌های بارگذاری شده",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "http://site.shahed.ac.ir/FaniMohandesi/SiteAssets/SitePages/PhD%20Education%20forms/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C982.docx",
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-1-1-1.pdf",
           "kind": "research-review-reference",
-          "claim": "فرم درخواست دانشجویی",
+          "claim": "FP‑1 توضیحات تکمیل فایل‌های مرتبط با کد اخلاق",
           "id": null,
-          "sourceLabel": "فرم درخواست دانشجویی",
+          "sourceLabel": "FP‑1 توضیحات تکمیل فایل‌های مرتبط با کد اخلاق",
           "sourceSpecificity": "university-reference"
         },
         {
-          "url": "http://site.shahed.ac.ir/FaniMohandesi/DocLib1/taein_e_ostad_rahnama.doc",
+          "url": "https://library.shahed.ac.ir/storage/sites/8/2023/08/megapaper-guide.pdf",
           "kind": "research-review-reference",
-          "claim": "فرم تعیین استاد راهنما",
+          "claim": "راهنمای ثبت نام و استفاده از سامانه تامین مدارک علمی (مگاپیپر)",
           "id": null,
-          "sourceLabel": "فرم تعیین استاد راهنما",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "http://site.shahed.ac.ir/FaniMohandesi/SiteAssets/SitePages/PhD%20Education%20forms/%D9%81%D8%B1%D9%85%20%D8%AC%D9%84%D8%B3%D8%A7%D8%AA%20%D8%AF%D9%81%D8%A7%D8%B9.docx",
-          "kind": "research-review-reference",
-          "claim": "فرم جلسات دفاع",
-          "id": null,
-          "sourceLabel": "فرم جلسات دفاع",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "http://site.shahed.ac.ir/FaniMohandesi/DocLib1/%D9%81%D8%B1%D9%85%D8%AA%20%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.docx",
-          "kind": "research-review-reference",
-          "claim": "فرمت گزارش پروپوزال",
-          "id": null,
-          "sourceLabel": "فرمت گزارش پروپوزال",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D8%A7%D8%B8%D9%87%D8%A7%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87.docx",
-          "kind": "research-review-reference",
-          "claim": "اظهارنامه پایان نامه",
-          "id": null,
-          "sourceLabel": "اظهارنامه پایان نامه",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D9%85%D8%AC%D9%88%D8%B2-%D8%B5%D8%AD%D8%A7%D9%81%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87.docx",
-          "kind": "research-review-reference",
-          "claim": "مجوز صحافی پایان نامه",
-          "id": null,
-          "sourceLabel": "مجوز صحافی پایان نامه",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/Dastore-negareshe-propozal.doc",
-          "kind": "research-review-reference",
-          "claim": "دستورالعمل نگارش پروپوزال دانشجویی الگو",
-          "id": null,
-          "sourceLabel": "دستورالعمل نگارش پروپوزال دانشجویی الگو",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%85%D8%AC%D9%88%D8%B2-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D9%88%D9%85.pdf",
-          "kind": "research-review-reference",
-          "claim": "فرم درخواست مجوز استاد راهنمای دوم",
-          "id": null,
-          "sourceLabel": "فرم درخواست مجوز استاد راهنمای دوم",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
-          "kind": "research-review-reference",
-          "claim": "درخواست دفاع از پایان نامه کارشناسی ارشد",
-          "id": null,
-          "sourceLabel": "درخواست دفاع از پایان نامه کارشناسی ارشد",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/10/%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7.docx",
-          "kind": "research-review-reference",
-          "claim": "فرم تعیین استاد راهنما",
-          "id": null,
-          "sourceLabel": "فرم تعیین استاد راهنما",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D8%AC%D9%84%D8%B3%D9%87-%D9%BE%DB%8C%D8%B4-%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D8%B2-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.doc",
-          "kind": "research-review-reference",
-          "claim": "فرم برگزاری جلسه پیش دفاع از رساله دکتری",
-          "id": null,
-          "sourceLabel": "فرم برگزاری جلسه پیش دفاع از رساله دکتری",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D9%85%D8%AF%DB%8C%D8%AF-%D8%B3%D9%86%D9%88%D8%A7%D8%AA972.pdf",
-          "kind": "research-review-reference",
-          "claim": "فرم گزارش پیشرفت رساله دکتری برای تمدید سنوات",
-          "id": null,
-          "sourceLabel": "فرم گزارش پیشرفت رساله دکتری برای تمدید سنوات",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/gozaresh-pishragt-3-mahe-doctori.pdf",
-          "kind": "research-review-reference",
-          "claim": "فرم گزارش سه ماهه پيشرفت رساله دانشجويان دکتری دانشکده کشاورزی",
-          "id": null,
-          "sourceLabel": "فرم گزارش سه ماهه پيشرفت رساله دانشجويان دکتری دانشکده کشاورزی",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%B3%D9%85%DB%8C%D9%86%D8%A7%D8%B1-%D8%B4%D8%B4-%D9%85%D8%A7%D9%87%D9%87-%D9%BE%D9%8A%D8%B4%D8%B1%D9%81%D8%AA-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D8%A7%D9%86%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%D8%AF%D8%A7%D9%86%D8%B4%DA%A9%D8%AF%D9%87%DA%A9%D8%B4%D8%A7%D9%88%D8%B1%D8%B2%DB%8C.pdf",
-          "kind": "research-review-reference",
-          "claim": "فرم سمینار شش ماهه پيشرفت رساله دانشجويان دکتری دانشکده کشاورزی",
-          "id": null,
-          "sourceLabel": "فرم سمینار شش ماهه پيشرفت رساله دانشجويان دکتری دانشکده کشاورزی",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agre.shahed.ac.ir/wp-content/uploads/sites/12/2024/10/%D8%B4%DB%8C%D8%A6%D9%87%D9%86%D8%A7%D9%85%D9%87%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%D8%A2%D8%A6%DB%8C%D9%86%D9%86%D8%A7%D9%85%D9%87%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C.pdf",
-          "kind": "research-review-reference",
-          "claim": "شیوه نامه اجرایی آئین نامه آموزشی دکتری تخصصی",
-          "id": null,
-          "sourceLabel": "شیوه نامه اجرایی آئین نامه آموزشی دکتری تخصصی",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agre.shahed.ac.ir/wp-content/uploads/sites/12/2024/10/%D8%B4%DB%8C%D9%88%D9%87%D9%86%D8%A7%D9%85%D9%87%D8%A7%D8%AD%D8%B1%D8%A7%D8%B2%D8%A8%D8%B3%D9%86%D8%AF%DA%AF%DB%8C%D8%B2%D8%A8%D8%A7%D9%86%D8%AE%D8%A7%D8%B1%D8%AC%DB%8C.pdf",
-          "kind": "research-review-reference",
-          "claim": "شیوه نامه احراز بسندگی زبان خارجی",
-          "id": null,
-          "sourceLabel": "شیوه نامه احراز بسندگی زبان خارجی",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://agre.shahed.ac.ir/wp-content/uploads/sites/12/2024/10/%D8%B4%DB%8C%D9%88%D9%87%D9%86%D8%A7%D9%85%D9%87%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%D8%B4%D8%B1%D8%A7%DB%8C%D8%B7%D9%85%D9%82%D8%A7%D9%84%D9%87%D9%87%D8%A7%DB%8C%D8%A7%D9%84%D8%B2%D8%A7%D9%85%DB%8C%D8%A8%D8%B1%D8%A7%DB%8C%D9%BE%DB%8C%D8%B4%D8%AF%D9%81%D8%A7%D8%B9%D9%88%D8%B0%D9%81%D8%A7%D8%B9.pdf",
-          "kind": "research-review-reference",
-          "claim": "شیوه نامه اجرایی شرایط مقاله های الزامی برای پیش دفاع و ذفاع",
-          "id": null,
-          "sourceLabel": "شیوه نامه اجرایی شرایط مقاله های الزامی برای پیش دفاع و ذفاع",
+          "sourceLabel": "راهنمای ثبت نام و استفاده از سامانه تامین مدارک علمی (مگاپیپر)",
           "sourceSpecificity": "university-reference"
         }
       ],
@@ -1692,10 +2310,16 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 12,
+      "sourceCount": 20,
       "sources": [
         {
           "url": "https://library.shahed.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af-%d9%88-%d9%85/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
@@ -1707,49 +2331,43 @@
           "id": null
         },
         {
-          "url": "https://shahed.ac.ir/systems/systems-of-professors-and-faculty-members/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://shahed.ac.ir/systems/employee-systems/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://shahed.ac.ir/systems/public-client-systems/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://shahed.ac.ir/systems/student-systems/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://library.shahed.ac.ir/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d9%85%d8%b4%d8%a7%d9%87%d8%af%d9%87-%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%af%d8%b1/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
           "url": "https://library.shahed.ac.ir/theses-and-research-projects/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
         },
         {
-          "url": "https://library.shahed.ac.ir/thesis_writing_principles_of_shahed_university/",
+          "url": "https://library.shahed.ac.ir/scientometrics/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/research/proposals-and-theses/",
+          "url": "https://library.shahed.ac.ir/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d9%85%d8%b1%d8%a7%d8%ad%d9%84-%d8%aa%d8%b3%d9%88%db%8c%d9%87%d8%ad%d8%b3%d8%a7%d8%a8-%d9%be%d8%a7%db%8c%d8%a7%d9%86%d9%86%d8%a7%d9%85/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://ram.shahed.ac.ir/samaneh-behestan/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/references-and-periodicals/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%db%8c%d9%87-%d8%af%d8%b1%d8%ae%d8%b5%d9%88%d8%b5-%d9%86%d8%ad%d9%88%d9%87-%d8%af%d8%b3%d8%aa%d8%b1%d8%b3%db%8c-%d8%a8%d9%87-%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/technical-services/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
@@ -1762,11 +2380,67 @@
           "systemCategory": "research"
         },
         {
+          "url": "https://library.shahed.ac.ir/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d9%85%d8%b4%d8%a7%d9%87%d8%af%d9%87-%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%af%d8%b1/",
+          "kind": "system",
+          "claim": "وبینار آموزشی «آشنایی با مرکز اسناد و مدارک علمی و سامانه‌های ایرانداک» – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-system-ada221c247fc",
+          "systemCategory": "library"
+        },
+        {
+          "url": "https://library.shahed.ac.ir/thesis_writing_principles_of_shahed_university/",
+          "kind": "system",
+          "claim": "payannameha_submit – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-system-5743db1d64a2",
+          "systemCategory": "library"
+        },
+        {
           "url": "https://agri.shahed.ac.ir/research/library/",
           "kind": "system",
           "claim": "پروپوزال و پایان نامه ها – دانشکده علوم کشاورزی",
           "id": "shahed-discovery-system-c83b3561fc42",
           "systemCategory": "research"
+        },
+        {
+          "url": "https://ram.shahed.ac.ir/",
+          "kind": "system",
+          "claim": "سامانه بهستان – مدیریت امور پژوهشی",
+          "id": "shahed-discovery-system-d8fb9b2b41cc",
+          "systemCategory": "research"
+        },
+        {
+          "url": "https://library.shahed.ac.ir/paged-2/2/?pp=env",
+          "kind": "system",
+          "claim": "اطلاعیه درخصوص نحوه دسترسی به پایگاه‌های اطلاعاتی علمی از طریق سامانه مگاپیپر – مرکز اسناد و مدارک علمی",
+          "id": "shahed-discovery-system-f2e5d79f4108",
+          "systemCategory": "library"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/the-system-of-providing-scientific-documents/",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/ministerial-systems/",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/technology-systems-growth-center/",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://library.shahed.ac.ir/storage/sites/8/2023/08/megapaper-guide.pdf",
+          "kind": "research-review-specific",
+          "claim": "راهنمای ثبت نام و استفاده از سامانه تامین مدارک علمی (مگاپیپر)",
+          "id": null,
+          "sourceLabel": "راهنمای ثبت نام و استفاده از سامانه تامین مدارک علمی (مگاپیپر)"
         }
       ],
       "publicationAdjustment": null,
@@ -1784,8 +2458,20 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 74,
+      "sourceCount": 103,
       "sources": [
+        {
+          "url": "https://sci.shahed.ac.ir/download_category/instructions-and-forms/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://library.shahed.ac.ir/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d9%85%d8%b1%d8%a7%d8%ad%d9%84-%d8%aa%d8%b3%d9%88%db%8c%d9%87%d8%ad%d8%b3%d8%a7%d8%a8-%d9%be%d8%a7%db%8c%d8%a7%d9%86%d9%86%d8%a7%d9%85/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
         {
           "url": "https://sci.shahed.ac.ir/forms-research/",
           "kind": "portal-document-reaudit",
@@ -1799,43 +2485,13 @@
           "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/research/research-forms/",
+          "url": "https://library.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af-%d9%88-%d9%85/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://eng.shahed.ac.ir/forms-copy-3/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/education/forms/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://sci.shahed.ac.ir/regulations/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/education/faculty-regulations/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://library.shahed.ac.ir/thesis_writing_principles_of_shahed_university/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://library.shahed.ac.ir/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d9%85%d8%b4%d8%a7%d9%87%d8%af%d9%87-%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%af%d8%b1/",
+          "url": "https://library.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af-%d9%88-%d9%85%d8%af-2/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -1859,262 +2515,244 @@
           "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85%D9%87%D8%A7-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم های گزارش پیشرفت پایان نامه ارشد",
-          "id": null
-        },
-        {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/e-%D9%81%D8%B1%D9%85-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C%D9%87-%D9%85%D9%88%D8%B6%D9%88%D8%B9-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%841.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم پیشنهادیه موضوع پایان‌نامه (پروپوزال)",
-          "id": null
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%B7%D8%B1%D8%AD-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C%D8%A7%D8%B1%D8%B4%D8%AF-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "(فرم طرح نامه پایان نامه رساله دانشجویی(ارشد-دکتری",
-          "id": null
-        },
-        {
-          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانلود آیین‌نامه کارشناسی فرمت: PDF - حجم: 450KB",
-          "id": null
-        },
-        {
-          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%83%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%D9%8A.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانلود شیوه‌نامه کارشناسی فرمت: PDF - حجم: 380KB",
-          "id": null
-        },
-        {
-          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانلود آیین‌نامه ارشد فرمت: PDF - حجم: 520KB",
-          "id": null
-        },
-        {
-          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانلود شیوه‌نامه ارشد فرمت: PDF - حجم: 410KB",
-          "id": null
-        },
-        {
-          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانلود آیین‌نامه دکتری فرمت: PDF - حجم: 580KB",
-          "id": null
-        },
-        {
-          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانلود شیوه‌نامه دکتری فرمت: PDF - حجم: 610KB",
-          "id": null
-        },
-        {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/m-%D9%81%D8%B1%D9%85%D9%87%D8%A7%DB%8C-%D8%AC%D9%84%D8%B3%D9%87-%D8%AF%D9%81%D8%A7%D8%B9-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم‌های جلسه دفاع کارشناسی ارشد",
-          "id": null
-        },
-        {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/f-%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA-3-%D9%85%D8%A7%D9%87%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم گزارش پیشرفت 3 ماهه پایان‌نامه",
-          "id": null
-        },
-        {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/n-%D9%81%D8%B1%D9%85-%D8%AD%D9%82-%D8%A7%D9%84%D8%B2%D8%AD%D9%85%D9%87-%D8%AF%D8%A7%D9%88%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم حق الزحمه داوری پایان‌نامه",
-          "id": null
-        },
-        {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/g-%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AF%D9%81%D8%A7%D8%B9-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست دفاع از پایان‌نامه",
-          "id": null
-        },
-        {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/h-%D9%81%D8%B1%D9%85-%D8%A7%D8%B1%D8%B2%D9%8A%D8%A7%D8%A8%D9%8A-%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ارزيابی دستاوردهای علمی پایان‌نامه",
-          "id": null
-        },
-        {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/l-%D9%81%D8%B1%D9%85-%DA%86%DA%A9%DB%8C%D8%AF%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم چکیده پایان‌نامه",
-          "id": null
-        },
-        {
-          "url": "http://site.shahed.ac.ir/FaniMohandesi/SiteAssets/Pages/edu-phd/1400_09_02_shivenameh.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه استفاده از فرصت مطالعاتی",
-          "id": null
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/11/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DB%8C%DA%A9%D9%BE%D8%A7%D8%B1%DA%86%D9%87-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D8%AF%D9%88%D8%B1%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C%D8%8C-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF-%D9%88-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C-1.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه یکپارچه مقررات آموزشی",
-          "id": null
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D8%B3%D8%A7%D8%B2%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم های معادلسازی",
-          "id": null
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2025/09/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86_%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85_%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای بارگذاری پایان نامه در نرم افزار کتابخانه",
-          "id": null
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2025/09/%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D9%85%D8%AF%DB%8C%D8%AF-%D8%B3%D9%86%D9%88%D8%A7%D8%AA972.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم گزارش پیشرفت پایان نامه ارشد برای تمدید سنوات",
-          "id": null
-        },
-        {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%85%D9%87%D9%84%D8%AA-%D8%A7%D8%B1%D8%A7%D8%A6%D9%87-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست مهلت ارائه مقاله از پایان نامه",
+          "url": "https://library.shahed.ac.ir/azar-1402-webinars-registration-form/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
           "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%DA%A9%D8%A7%D8%B1%D9%88%D8%B1%D8%B2%DB%8C-.docx",
           "kind": "portal-document-reaudit-document",
-          "claim": "دانلود فرم درخواست کارورزی (Word)",
+          "claim": "فرم درخواست کارورزی ( )",
+          "id": null
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/%D9%81%D8%B1%D9%85-%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D9%88%D8%B1%D8%B2%DB%8C-.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "نمونه فایل معرفی‌نامه کارورزی ( )",
+          "id": null
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/Master-1.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "Master فرم صورت‌جلسه گروه آموزشی مقطع کارشناسی ارشد (تکمیل توسط دانشجو)",
+          "id": null
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/PhD-1.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "PhD فرم صورت‌جلسه گروه آموزشی مقطع دکتری (تکمیل توسط دانشجو)",
+          "id": null
+        },
+        {
+          "url": "https://book.shahed.ac.ir/data/shahed/news/%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%A4%D9%84%D9%81.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه مؤلف برای انتشار کتاب",
+          "id": null
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/storage/sites/18/2023/01/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D9%80%D8%AA-%D8%A7%DB%8C%D9%85%DB%8C%D9%84.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست پست الکترونیکی از دانشگاه برای دانشجویان ارشد و دکتری و هیئت علمی",
           "id": null
         },
         {
           "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-2.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای بخش‌های 9 تا 10 فایل پروپوزال و سایر موارد تکمیلی",
+          "claim": "FP‑2 راهنمای بخش‌های 9 تا 10 فایل پروپوزال و سایر موارد تکمیلی",
           "id": null
         },
         {
           "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-3-1.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای خلاصه‌شده ارسال پروپوزال برای دانشجویان ورودی قبل از سال 1403",
+          "claim": "FP‑3 راهنمای خلاصه‌شده ارسال پروپوزال برای دانشجویان ورودی قبل از سال 1403",
           "id": null
         },
         {
           "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-4-1.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای خلاصه‌شده ارسال پروپوزال برای دانشجویان ورودی 1403 به بعد از طریق پورتال آموزشی و پژوهشی بهستان",
+          "claim": "FP‑4 راهنمای خلاصه‌شده ارسال پروپوزال برای دانشجویان ورودی 1403 به بعد از طریق پورتال آموزشی و پژوهشی بهستان",
           "id": null
         },
         {
-          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/a-%D9%81%D8%B1%D9%85-%D8%AA%D8%B9%D9%8A%D9%8A%D9%86-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7.doc",
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D8%A7-1.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم تعیین استاد راهنما",
+          "claim": "راهنما راهنمای فایل‌های بارگذاری شده",
           "id": null
         },
         {
-          "url": "http://site.shahed.ac.ir/FaniMohandesi/SiteAssets/SitePages/PhD%20Education%20forms/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C982.docx",
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-1-1-1.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست دانشجویی",
+          "claim": "FP‑1 توضیحات تکمیل فایل‌های مرتبط با کد اخلاق",
           "id": null
         },
         {
-          "url": "http://site.shahed.ac.ir/FaniMohandesi/DocLib1/taein_e_ostad_rahnama.doc",
+          "url": "https://library.shahed.ac.ir/storage/sites/8/2023/08/megapaper-guide.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم تعیین استاد راهنما",
+          "claim": "راهنمای ثبت نام و استفاده از سامانه تامین مدارک علمی (مگاپیپر)",
           "id": null
         },
         {
-          "url": "http://site.shahed.ac.ir/FaniMohandesi/SiteAssets/SitePages/PhD%20Education%20forms/%D9%81%D8%B1%D9%85%20%D8%AC%D9%84%D8%B3%D8%A7%D8%AA%20%D8%AF%D9%81%D8%A7%D8%B9.docx",
+          "url": "https://library.shahed.ac.ir/storage/sites/8/2026/05/payannameha_tasviyehesab.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم جلسات دفاع",
+          "claim": "payannameha_tasviyehesab",
           "id": null
         },
         {
-          "url": "http://site.shahed.ac.ir/FaniMohandesi/DocLib1/%D9%81%D8%B1%D9%85%D8%AA%20%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.docx",
+          "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2023/11/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A8%D9%87%D8%B3%D8%AA%D8%A7%D9%86-%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%B1%D8%A7%DB%8C%D8%AC.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرمت گزارش پروپوزال",
+          "claim": "راهنمای پژوهانه در بهستان (سوالات رایج)",
           "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D8%A7%D8%B8%D9%87%D8%A7%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87.docx",
+          "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2023/12/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AD%D9%82-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "اظهارنامه پایان نامه",
+          "claim": "راهنمای حق تشویق مقالات در بهستان (سوالات رایج)",
           "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D9%85%D8%AC%D9%88%D8%B2-%D8%B5%D8%AD%D8%A7%D9%81%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87.docx",
+          "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2023/11/%D8%B1%D9%88%D8%B4-%D8%AB%D8%A8%D8%AA-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D9%87%D9%85%D8%A7%DB%8C%D8%B4%DB%8C-%D8%AA%D9%88%D8%B3%D8%B7-%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1-%D9%87%DB%8C%D8%A3%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "مجوز صحافی پایان نامه",
+          "claim": "روش ثبت مقالات همایشی توسط اعضاء هیأت علمی دانشگاه",
           "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/Dastore-negareshe-propozal.doc",
+          "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2024/05/%D8%B1%D9%88%D8%B4-%DA%AF%D8%B1%D9%81%D8%AA%D9%86-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%B1%DB%8C%D8%B2-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%88%DB%8C%DA%98%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%A9%D8%B1%D8%AF-402.docx",
           "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل نگارش پروپوزال دانشجویی الگو",
+          "claim": "روش گرفتن گزارش ریز هزینه‌های اعتبار ویژه پژوهشی استاد",
           "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%85%D8%AC%D9%88%D8%B2-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D9%88%D9%85.pdf",
+          "url": "https://res.shahed.ac.ir/wp-content/uploads/sites/51/2025/06/14040209-1.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست مجوز استاد راهنمای دوم",
+          "claim": "photo18706024060",
           "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
+          "url": "https://res.shahed.ac.ir/wp-content/uploads/sites/51/2025/06/%D8%AE%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "درخواست دفاع از پایان نامه کارشناسی ارشد",
+          "claim": "بنر خبرنامه",
           "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/10/%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7.docx",
+          "url": "https://srcres.shahed.ac.ir/regulations-and-instructions-of-the-ministry-of-health/",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم تعیین استاد راهنما",
+          "claim": "آیین‌نامه‌ها و دستورالعمل‌های وزارت بهداشت",
           "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D8%AC%D9%84%D8%B3%D9%87-%D9%BE%DB%8C%D8%B4-%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D8%B2-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.doc",
+          "url": "https://srcres.shahed.ac.ir/Research-committee-forms/",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم برگزاری جلسه پیش دفاع از رساله دکتری",
+          "claim": "فرم‌های کمیته تحقیقاتی",
           "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D9%85%D8%AF%DB%8C%D8%AF-%D8%B3%D9%86%D9%88%D8%A7%D8%AA972.pdf",
+          "url": "https://srcres.shahed.ac.ir/ethical-code-forms/",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم گزارش پیشرفت رساله دکتری برای تمدید سنوات",
+          "claim": "فرم‌های کد اخلاق",
           "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/gozaresh-pishragt-3-mahe-doctori.pdf",
+          "url": "https://srcres.shahed.ac.ir/regulations-and-guidelines-of-the-university/",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم گزارش سه ماهه پيشرفت رساله دانشجويان دکتری دانشکده کشاورزی",
+          "claim": "آیئین‌نامه‌ها و دستورالعمل‌های دانشگاه",
           "id": null
         },
         {
-          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%B3%D9%85%DB%8C%D9%86%D8%A7%D8%B1-%D8%B4%D8%B4-%D9%85%D8%A7%D9%87%D9%87-%D9%BE%D9%8A%D8%B4%D8%B1%D9%81%D8%AA-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D8%A7%D9%86%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%D8%AF%D8%A7%D9%86%D8%B4%DA%A9%D8%AF%D9%87%DA%A9%D8%B4%D8%A7%D9%88%D8%B1%D8%B2%DB%8C.pdf",
+          "url": "https://pores.shahed.ac.ir/wp-content/uploads/sites/29/2025/06/%D8%AE%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-1.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم سمینار شش ماهه پيشرفت رساله دانشجويان دکتری دانشکده کشاورزی",
+          "claim": "خبرنامه پژوهشی",
           "id": null
         },
         {
-          "url": "https://agre.shahed.ac.ir/wp-content/uploads/sites/12/2024/10/%D8%B4%DB%8C%D8%A6%D9%87%D9%86%D8%A7%D9%85%D9%87%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%D8%A2%D8%A6%DB%8C%D9%86%D9%86%D8%A7%D9%85%D9%87%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C.pdf",
+          "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2025/04/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AC%D9%87%D8%AA-%D8%AF%D8%A7%D8%B1.docx",
           "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اجرایی آئین نامه آموزشی دکتری تخصصی",
+          "claim": "راهنمای ارسال برنامه تحقیقاتی جهت دار",
           "id": null
         },
         {
-          "url": "https://agre.shahed.ac.ir/wp-content/uploads/sites/12/2024/10/%D8%B4%DB%8C%D9%88%D9%87%D9%86%D8%A7%D9%85%D9%87%D8%A7%D8%AD%D8%B1%D8%A7%D8%B2%D8%A8%D8%B3%D9%86%D8%AF%DA%AF%DB%8C%D8%B2%D8%A8%D8%A7%D9%86%D8%AE%D8%A7%D8%B1%D8%AC%DB%8C.pdf",
+          "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2023/11/%D8%B1%D9%88%D8%B4-%D8%AB%D8%A8%D8%AA-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D8%AA%D9%88%D8%B3%D8%B7-%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه احراز بسندگی زبان خارجی",
+          "claim": "روش ثبت مقالات توسط اعضاء هیات علمی",
           "id": null
         },
         {
-          "url": "https://agre.shahed.ac.ir/wp-content/uploads/sites/12/2024/10/%D8%B4%DB%8C%D9%88%D9%87%D9%86%D8%A7%D9%85%D9%87%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%D8%B4%D8%B1%D8%A7%DB%8C%D8%B7%D9%85%D9%82%D8%A7%D9%84%D9%87%D9%87%D8%A7%DB%8C%D8%A7%D9%84%D8%B2%D8%A7%D9%85%DB%8C%D8%A8%D8%B1%D8%A7%DB%8C%D9%BE%DB%8C%D8%B4%D8%AF%D9%81%D8%A7%D8%B9%D9%88%D8%B0%D9%81%D8%A7%D8%B9.pdf",
+          "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2024/11/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%BE%D8%B1%D9%88%D9%81%D8%A7%DB%8C%D9%84-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اجرایی شرایط مقاله های الزامی برای پیش دفاع و ذفاع",
+          "claim": "راهنمای تکمیل پروفایل پژوهشی",
           "id": null
+        },
+        {
+          "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2024/11/%D8%AB%D8%A8%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-1.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "راهنمای ثبت آزمایشگاه در سامانه بهستان",
+          "id": null
+        },
+        {
+          "url": "https://tarmres.shahed.ac.ir/%d9%81%d8%b1%d9%85%d9%87%d8%a7/",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین‌نامه‌ها و مصوبات برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://rcmres.shahed.ac.ir/laws-and-regulations/",
+          "kind": "portal-document-reaudit-document",
+          "claim": "قوانین و مقررات",
+          "id": null
+        },
+        {
+          "url": "https://ramres.shahed.ac.ir/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AC%D9%87%D8%AA-%D8%AF%D8%A7%D8%B1/",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پرسشنامه برنامه تحقیقاتی جهت دار",
+          "id": null
+        },
+        {
+          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/e-%D9%81%D8%B1%D9%85-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C%D9%87-%D9%85%D9%88%D8%B6%D9%88%D8%B9-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%841.doc",
+          "kind": "document",
+          "claim": "فرم پیشنهادیه موضوع پایان‌نامه (پروپوزال)",
+          "id": "shahed-discovery-document-b3133fe11665"
+        },
+        {
+          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/m-%D9%81%D8%B1%D9%85%D9%87%D8%A7%DB%8C-%D8%AC%D9%84%D8%B3%D9%87-%D8%AF%D9%81%D8%A7%D8%B9-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
+          "kind": "document",
+          "claim": "فرم‌های جلسه دفاع کارشناسی ارشد",
+          "id": "shahed-discovery-document-77941fe91a67"
+        },
+        {
+          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/f-%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA-3-%D9%85%D8%A7%D9%87%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
+          "kind": "document",
+          "claim": "فرم گزارش پیشرفت 3 ماهه پایان‌نامه",
+          "id": "shahed-discovery-document-57374635fdbd"
+        },
+        {
+          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/n-%D9%81%D8%B1%D9%85-%D8%AD%D9%82-%D8%A7%D9%84%D8%B2%D8%AD%D9%85%D9%87-%D8%AF%D8%A7%D9%88%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
+          "kind": "document",
+          "claim": "فرم حق الزحمه داوری پایان‌نامه",
+          "id": "shahed-discovery-document-5de2a50a6e23"
+        },
+        {
+          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/g-%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AF%D9%81%D8%A7%D8%B9-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.doc",
+          "kind": "document",
+          "claim": "فرم درخواست دفاع از پایان‌نامه",
+          "id": "shahed-discovery-document-c53d26746722"
+        },
+        {
+          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/h-%D9%81%D8%B1%D9%85-%D8%A7%D8%B1%D8%B2%D9%8A%D8%A7%D8%A8%D9%8A-%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
+          "kind": "document",
+          "claim": "فرم ارزيابی دستاوردهای علمی پایان‌نامه",
+          "id": "shahed-discovery-document-d8e87cdef992"
+        },
+        {
+          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/l-%D9%81%D8%B1%D9%85-%DA%86%DA%A9%DB%8C%D8%AF%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87.doc",
+          "kind": "document",
+          "claim": "فرم چکیده پایان‌نامه",
+          "id": "shahed-discovery-document-a4a03ea05d75"
+        },
+        {
+          "url": "http://site.shahed.ac.ir/FaniMohandesi/SiteAssets/Pages/edu-phd/1400_09_02_shivenameh.doc",
+          "kind": "document",
+          "claim": "شیوه‌نامه استفاده از فرصت مطالعاتی",
+          "id": "shahed-discovery-document-bc46f32ecbcd"
         },
         {
           "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2025/09/%D9%81%D8%B1%D9%85%D8%AF%D8%A7%D9%88%D8%B1%DB%8C%D9%BE%DB%8C%D8%B4%D8%AF%D9%81%D8%A7%D8%B9%D8%A7%D8%B2%D8%B1%D8%B3%D8%A7%D9%84%D9%87%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.docx",
@@ -2127,6 +2765,72 @@
           "kind": "document",
           "claim": "دستورالعمل نگارش پایان نامه",
           "id": "shahed-discovery-document-697a4d31d4fc"
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-.pdf",
+          "kind": "document",
+          "claim": "دانلود آیین‌نامه کارشناسی فرمت: PDF - حجم: 450KB",
+          "id": "shahed-discovery-document-5510030c89fa"
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%83%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%D9%8A.pdf",
+          "kind": "document",
+          "claim": "دانلود شیوه‌نامه کارشناسی فرمت: PDF - حجم: 380KB",
+          "id": "shahed-discovery-document-23c2176283eb"
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF-.pdf",
+          "kind": "document",
+          "claim": "دانلود آیین‌نامه ارشد فرمت: PDF - حجم: 520KB",
+          "id": "shahed-discovery-document-14446606e356"
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.pdf",
+          "kind": "document",
+          "claim": "دانلود شیوه‌نامه ارشد فرمت: PDF - حجم: 410KB",
+          "id": "shahed-discovery-document-7e8685428dfd"
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-.pdf",
+          "kind": "document",
+          "claim": "دانلود آیین‌نامه دکتری فرمت: PDF - حجم: 580KB",
+          "id": "shahed-discovery-document-cb2cc7c4591e"
+        },
+        {
+          "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2025/10/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
+          "kind": "document",
+          "claim": "دانلود شیوه‌نامه دکتری فرمت: PDF - حجم: 610KB",
+          "id": "shahed-discovery-document-e7e97e7c483f"
+        },
+        {
+          "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2026/05/a-%D9%81%D8%B1%D9%85-%D8%AA%D8%B9%D9%8A%D9%8A%D9%86-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7.doc",
+          "kind": "document",
+          "claim": "فرم تعیین استاد راهنما",
+          "id": "shahed-discovery-document-2f794f713107"
+        },
+        {
+          "url": "http://site.shahed.ac.ir/FaniMohandesi/SiteAssets/SitePages/PhD%20Education%20forms/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C982.docx",
+          "kind": "document",
+          "claim": "فرم درخواست دانشجویی",
+          "id": "shahed-discovery-document-88b7963d6c18"
+        },
+        {
+          "url": "http://site.shahed.ac.ir/FaniMohandesi/DocLib1/taein_e_ostad_rahnama.doc",
+          "kind": "document",
+          "claim": "فرم تعیین استاد راهنما",
+          "id": "shahed-discovery-document-173649a83d5f"
+        },
+        {
+          "url": "http://site.shahed.ac.ir/FaniMohandesi/SiteAssets/SitePages/PhD%20Education%20forms/%D9%81%D8%B1%D9%85%20%D8%AC%D9%84%D8%B3%D8%A7%D8%AA%20%D8%AF%D9%81%D8%A7%D8%B9.docx",
+          "kind": "document",
+          "claim": "فرم جلسات دفاع",
+          "id": "shahed-discovery-document-be9deb75bf15"
+        },
+        {
+          "url": "http://site.shahed.ac.ir/FaniMohandesi/DocLib1/%D9%81%D8%B1%D9%85%D8%AA%20%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.docx",
+          "kind": "document",
+          "claim": "فرمت گزارش پروپوزال",
+          "id": "shahed-discovery-document-5bc068011368"
         },
         {
           "url": "https://eng.shahed.ac.ir/wp-content/uploads/sites/15/2025/09/1403_davari_proposal.doc",
@@ -2225,10 +2929,159 @@
           "id": "shahed-discovery-document-582241179678"
         },
         {
-          "url": "https://rcmres.shahed.ac.ir/laws-and-regulations/",
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85%D9%87%D8%A7-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
           "kind": "document",
-          "claim": "قوانین و مقررات",
-          "id": "shahed-discovery-document-7160079a4824"
+          "claim": "فرم های گزارش پیشرفت پایان نامه ارشد",
+          "id": "shahed-discovery-document-3acadf8eadf8"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%B7%D8%B1%D8%AD-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C%D8%A7%D8%B1%D8%B4%D8%AF-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.docx",
+          "kind": "document",
+          "claim": "(فرم طرح نامه پایان نامه رساله دانشجویی(ارشد-دکتری",
+          "id": "shahed-discovery-document-55835e0a7c67"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/11/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DB%8C%DA%A9%D9%BE%D8%A7%D8%B1%DA%86%D9%87-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D8%AF%D9%88%D8%B1%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C%D8%8C-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF-%D9%88-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C-1.pdf",
+          "kind": "document",
+          "claim": "آیین نامه یکپارچه مقررات آموزشی",
+          "id": "shahed-discovery-document-f24fd65797e5"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D8%AF%D9%84%D8%B3%D8%A7%D8%B2%DB%8C.docx",
+          "kind": "document",
+          "claim": "فرم های معادلسازی",
+          "id": "shahed-discovery-document-37002ae4bfef"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2025/09/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86_%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85_%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87.pdf",
+          "kind": "document",
+          "claim": "راهنمای بارگذاری پایان نامه در نرم افزار کتابخانه",
+          "id": "shahed-discovery-document-83f94bf02fb9"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2025/09/%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D9%85%D8%AF%DB%8C%D8%AF-%D8%B3%D9%86%D9%88%D8%A7%D8%AA972.docx",
+          "kind": "document",
+          "claim": "فرم گزارش پیشرفت پایان نامه ارشد برای تمدید سنوات",
+          "id": "shahed-discovery-document-e17de3f2becb"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%85%D9%87%D9%84%D8%AA-%D8%A7%D8%B1%D8%A7%D8%A6%D9%87-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87.pdf",
+          "kind": "document",
+          "claim": "فرم درخواست مهلت ارائه مقاله از پایان نامه",
+          "id": "shahed-discovery-document-a65d10897c7a"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D8%A7%D8%B8%D9%87%D8%A7%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87.docx",
+          "kind": "document",
+          "claim": "اظهارنامه پایان نامه",
+          "id": "shahed-discovery-document-f503d7804c53"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D9%85%D8%AC%D9%88%D8%B2-%D8%B5%D8%AD%D8%A7%D9%81%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87.docx",
+          "kind": "document",
+          "claim": "مجوز صحافی پایان نامه",
+          "id": "shahed-discovery-document-7ccdf99483a1"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/Dastore-negareshe-propozal.doc",
+          "kind": "document",
+          "claim": "دستورالعمل نگارش پروپوزال دانشجویی الگو",
+          "id": "shahed-discovery-document-3603ccfebb4b"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%85%D8%AC%D9%88%D8%B2-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D9%88%D9%85.pdf",
+          "kind": "document",
+          "claim": "فرم درخواست مجوز استاد راهنمای دوم",
+          "id": "shahed-discovery-document-fa8dde7c86c4"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF.docx",
+          "kind": "document",
+          "claim": "درخواست دفاع از پایان نامه کارشناسی ارشد",
+          "id": "shahed-discovery-document-ad2de3e420da"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/10/%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7.docx",
+          "kind": "document",
+          "claim": "فرم تعیین استاد راهنما",
+          "id": "shahed-discovery-document-95a5964a8c06"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D8%AC%D9%84%D8%B3%D9%87-%D9%BE%DB%8C%D8%B4-%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D8%B2-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.doc",
+          "kind": "document",
+          "claim": "فرم برگزاری جلسه پیش دفاع از رساله دکتری",
+          "id": "shahed-discovery-document-245a20abbbfc"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D9%85%D8%AF%DB%8C%D8%AF-%D8%B3%D9%86%D9%88%D8%A7%D8%AA972.pdf",
+          "kind": "document",
+          "claim": "فرم گزارش پیشرفت رساله دکتری برای تمدید سنوات",
+          "id": "shahed-discovery-document-ff4b314fb16b"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/gozaresh-pishragt-3-mahe-doctori.pdf",
+          "kind": "document",
+          "claim": "فرم گزارش سه ماهه پيشرفت رساله دانشجويان دکتری دانشکده کشاورزی",
+          "id": "shahed-discovery-document-052c6c258d61"
+        },
+        {
+          "url": "https://agri.shahed.ac.ir/storage/sites/12/2024/09/%D9%81%D8%B1%D9%85-%D8%B3%D9%85%DB%8C%D9%86%D8%A7%D8%B1-%D8%B4%D8%B4-%D9%85%D8%A7%D9%87%D9%87-%D9%BE%D9%8A%D8%B4%D8%B1%D9%81%D8%AA-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D8%A7%D9%86%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%D8%AF%D8%A7%D9%86%D8%B4%DA%A9%D8%AF%D9%87%DA%A9%D8%B4%D8%A7%D9%88%D8%B1%D8%B2%DB%8C.pdf",
+          "kind": "document",
+          "claim": "فرم سمینار شش ماهه پيشرفت رساله دانشجويان دکتری دانشکده کشاورزی",
+          "id": "shahed-discovery-document-a3360fbb6dbf"
+        },
+        {
+          "url": "https://agre.shahed.ac.ir/wp-content/uploads/sites/12/2024/10/%D8%B4%DB%8C%D8%A6%D9%87%D9%86%D8%A7%D9%85%D9%87%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%D8%A2%D8%A6%DB%8C%D9%86%D9%86%D8%A7%D9%85%D9%87%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اجرایی آئین نامه آموزشی دکتری تخصصی",
+          "id": "shahed-discovery-document-5c850fbe163e"
+        },
+        {
+          "url": "https://agre.shahed.ac.ir/wp-content/uploads/sites/12/2024/10/%D8%B4%DB%8C%D9%88%D9%87%D9%86%D8%A7%D9%85%D9%87%D8%A7%D8%AD%D8%B1%D8%A7%D8%B2%D8%A8%D8%B3%D9%86%D8%AF%DA%AF%DB%8C%D8%B2%D8%A8%D8%A7%D9%86%D8%AE%D8%A7%D8%B1%D8%AC%DB%8C.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه احراز بسندگی زبان خارجی",
+          "id": "shahed-discovery-document-3fc47f9d40b0"
+        },
+        {
+          "url": "https://agre.shahed.ac.ir/wp-content/uploads/sites/12/2024/10/%D8%B4%DB%8C%D9%88%D9%87%D9%86%D8%A7%D9%85%D9%87%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%D8%B4%D8%B1%D8%A7%DB%8C%D8%B7%D9%85%D9%82%D8%A7%D9%84%D9%87%D9%87%D8%A7%DB%8C%D8%A7%D9%84%D8%B2%D8%A7%D9%85%DB%8C%D8%A8%D8%B1%D8%A7%DB%8C%D9%BE%DB%8C%D8%B4%D8%AF%D9%81%D8%A7%D8%B9%D9%88%D8%B0%D9%81%D8%A7%D8%B9.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اجرایی شرایط مقاله های الزامی برای پیش دفاع و ذفاع",
+          "id": "shahed-discovery-document-790987b36089"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/immune-response-regulation-research-center/",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/the-performance-of-research-affairs/",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/the-performance-of-the-office-of-research-centers/",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://res.shahed.ac.ir/the-system-of-providing-scientific-documents/",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://library.shahed.ac.ir/information-department/",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -2241,26 +3094,26 @@
     "nameFa": "دانشگاه شاهد",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 2,
-    "score": 84.3,
+    "score": 83.9,
     "confidence": 100,
     "metrics": {
       "documents": 100,
       "organization": 100,
       "library": 100,
       "laboratories": 70,
-      "digital": 69.7,
+      "digital": 69,
       "industryTech": 45,
       "dataQuality": 100,
-      "findability": 81.1
+      "findability": 78.4
     },
-    "units": 33,
-    "systems": 18,
-    "documents": 63,
+    "units": 59,
+    "systems": 26,
+    "documents": 89,
     "activeWeight": 100,
     "evidenceCoverage": 100,
     "methodologyVersion": "RTPMI-4.1-ISC",
     "snapshotDate": "2026-08-11",
-    "rank": 14,
+    "rank": 20,
     "portalRankWithinISCClass": 2,
     "rankedPortalsInISCClass": 4
   },
@@ -2621,6 +3474,292 @@
       "sourceUrl": "https://agri.shahed.ac.ir/research/library/",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "shahed-discovery-unit-laboratory-f1574c0720cb",
+      "universitySlug": "shahed",
+      "nameFa": "ارتقای وضعیت آزمایشگاه مرکزی دانشگاه در شبکه آزمایشگاهی فناوری‌های راهبردی – معاونت پژوهش و فناوری",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://res.shahed.ac.ir/%d8%a7%d8%b1%d8%aa%d9%82%d8%a7%db%8c-%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahed-discovery-unit-library-d7ba89834be2",
+      "universitySlug": "shahed",
+      "nameFa": "وبینار آشنایی با خدمات مرکز اسناد و مدارک علمی دانشگاه شاهد – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af-%d9%88-%d9%85%d8%af-2/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahed-discovery-unit-library-adb1fa5e1a78",
+      "universitySlug": "shahed",
+      "nameFa": "فرم ثبت نام دوره های آذر 1402 – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/azar-1402-webinars-registration-form/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahed-discovery-unit-library-d8580e1a15d5",
+      "universitySlug": "shahed",
+      "nameFa": "اداره انتشارات – دانشگاه تراز انقلاب اسلامی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://po.shahed.ac.ir/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8957894736842105
+    },
+    {
+      "id": "shahed-discovery-unit-research-2d96d26c1027",
+      "universitySlug": "shahed",
+      "nameFa": "مدیریت امور پژوهشی – دانشگاه تراز انقلاب اسلامی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://ram.shahed.ac.ir/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-research-e0447f34ac34",
+      "universitySlug": "shahed",
+      "nameFa": "مدیریت امور پژوهشی – مدیریت امور پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://ram.shahed.ac.ir/organigram/chart/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-7c8eea487e56",
+      "universitySlug": "shahed",
+      "nameFa": "علم‌سنجی – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/scientometrics/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-3c01d5a586bd",
+      "universitySlug": "shahed",
+      "nameFa": "تاریخچه – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/history-2/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-72d5f2a5b92a",
+      "universitySlug": "shahed",
+      "nameFa": "اهداف و وظایف – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/goals-and-tasks/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-97a8fb4247e8",
+      "universitySlug": "shahed",
+      "nameFa": "نمودار سازمانی – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/organization-chart/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-3c19724b07e0",
+      "universitySlug": "shahed",
+      "nameFa": "کارکنان – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/staff/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-7b904e953ba6",
+      "universitySlug": "shahed",
+      "nameFa": "کارکنان بازنشسته – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/retired-staff/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-e46289d0c548",
+      "universitySlug": "shahed",
+      "nameFa": "امانت (گردش کتاب) – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/book-circulation/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-d5bf27a704bb",
+      "universitySlug": "shahed",
+      "nameFa": "خدمات فنی – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/technical-services/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-49874ff084b2",
+      "universitySlug": "shahed",
+      "nameFa": "اطلاع‌رسانی – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/information-department/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-fe568e536a42",
+      "universitySlug": "shahed",
+      "nameFa": "مرجع و نشریات ادواری – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/references-and-periodicals/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-ea80576ad1b1",
+      "universitySlug": "shahed",
+      "nameFa": "سالن‌های مطالعه – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/%d8%b3%d8%a7%d9%84%d9%86%d9%87%d8%a7%db%8c-%d9%85%d8%b7%d8%a7%d9%84%d8%b9%d9%87/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-08477f87c6cd",
+      "universitySlug": "shahed",
+      "nameFa": "مرکز اسناد و مدارک علمی – دانشگاه تراز انقلاب اسلامی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/paged-2/2/?pp=env",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-060a3e86b271",
+      "universitySlug": "shahed",
+      "nameFa": "مرکز اسناد و مدارک علمی – دانشگاه تراز انقلاب اسلامی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/paged-2/3/?pp=env",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-f2e5d79f4108",
+      "universitySlug": "shahed",
+      "nameFa": "اطلاعیه درخصوص نحوه دسترسی به پایگاه‌های اطلاعاتی علمی از طریق سامانه مگاپیپر – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%db%8c%d9%87-%d8%af%d8%b1%d8%ae%d8%b5%d9%88%d8%b5-%d9%86%d8%ad%d9%88%d9%87-%d8%af%d8%b3%d8%aa%d8%b1%d8%b3%db%8c-%d8%a8%d9%87-%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-f2aceaa7e226",
+      "universitySlug": "shahed",
+      "nameFa": "مرکز اسناد و مدارک علمی – دانشگاه تراز انقلاب اسلامی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/paged-2/191/?pp=env",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-c040d1d117ce",
+      "universitySlug": "shahed",
+      "nameFa": "آموزش – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/category/instruction/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-5fb1417c5593",
+      "universitySlug": "shahed",
+      "nameFa": "کارگاه ابزارهای هوش مصنوعی در پژوهش – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d8%a7%d8%a8%d8%b2%d8%a7%d8%b1%d9%87%d8%a7%db%8c-%d9%87%d9%88%d8%b4-%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c-%d8%af%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-library-93e03185dd0c",
+      "universitySlug": "shahed",
+      "nameFa": "وبینار آموزشی «آشنایی با نرم‌افزار استناددهی مندلی (Mendeley)» – مرکز اسناد و مدارک علمی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d9%86%d8%ad%d9%88%d9%87-%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1%d8%b3%d9%86%d8%ac%db%8c-%d9%85%d8%ac%d9%84%d8%a7%d8%aa/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-unit-laboratory-32d708b6d379",
+      "universitySlug": "shahed",
+      "nameFa": "بازدید یک واحد صنعتی از آزمایشگاه های تخصصی دانشکده فنی و مهندسی و بررسی زمینه‌های همکاری – معاونت پژوهش و فناوری",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://res.shahed.ac.ir/%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%db%8c%da%a9-%d9%88%d8%a7%d8%ad%d8%af-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d8%a7%d8%b2-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%d8%aa/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8431578947368421
+    },
+    {
+      "id": "shahed-discovery-unit-research-09168bd3714a",
+      "universitySlug": "shahed",
+      "nameFa": "معاون پژوهش و فناوری – معاونت پژوهش و فناوری",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://res.shahed.ac.ir/organigram/53944/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.7905263157894736
     }
   ],
   "systems": [
@@ -2851,6 +3990,110 @@
       "lastVerified": "2026-08-11",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahed-discovery-system-df3c1e81e19d",
+      "universitySlug": "shahed",
+      "nameFa": "سامانه های وزارتین – معاونت پژوهش و فناوری",
+      "category": "research",
+      "url": "https://res.shahed.ac.ir/ministerial-systems/",
+      "sourceUrl": "https://res.shahed.ac.ir/",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahed-discovery-system-7c8eea487e56",
+      "universitySlug": "shahed",
+      "nameFa": "علم‌سنجی – مرکز اسناد و مدارک علمی",
+      "category": "library",
+      "url": "https://library.shahed.ac.ir/scientometrics/",
+      "sourceUrl": "https://library.shahed.ac.ir/",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahed-discovery-system-d8fb9b2b41cc",
+      "universitySlug": "shahed",
+      "nameFa": "سامانه بهستان – مدیریت امور پژوهشی",
+      "category": "research",
+      "url": "https://ram.shahed.ac.ir/samaneh-behestan/",
+      "sourceUrl": "https://ram.shahed.ac.ir/",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8957894736842105
+    },
+    {
+      "id": "shahed-discovery-system-fe568e536a42",
+      "universitySlug": "shahed",
+      "nameFa": "مرجع و نشریات ادواری – مرکز اسناد و مدارک علمی",
+      "category": "journals",
+      "url": "https://library.shahed.ac.ir/references-and-periodicals/",
+      "sourceUrl": "https://library.shahed.ac.ir/",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8957894736842105
+    },
+    {
+      "id": "shahed-discovery-system-f2e5d79f4108",
+      "universitySlug": "shahed",
+      "nameFa": "اطلاعیه درخصوص نحوه دسترسی به پایگاه‌های اطلاعاتی علمی از طریق سامانه مگاپیپر – مرکز اسناد و مدارک علمی",
+      "category": "library",
+      "url": "https://library.shahed.ac.ir/%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%db%8c%d9%87-%d8%af%d8%b1%d8%ae%d8%b5%d9%88%d8%b5-%d9%86%d8%ad%d9%88%d9%87-%d8%af%d8%b3%d8%aa%d8%b1%d8%b3%db%8c-%d8%a8%d9%87-%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87/",
+      "sourceUrl": "https://library.shahed.ac.ir/paged-2/2/?pp=env",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8957894736842105
+    },
+    {
+      "id": "shahed-discovery-system-d5bf27a704bb",
+      "universitySlug": "shahed",
+      "nameFa": "خدمات فنی – مرکز اسناد و مدارک علمی",
+      "category": "library",
+      "url": "https://library.shahed.ac.ir/technical-services/",
+      "sourceUrl": "https://library.shahed.ac.ir/",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-system-23754195bf73",
+      "universitySlug": "shahed",
+      "nameFa": "وبینار آموزشی آشنایی با سامانه بهستان و نحوه اعتبارسنجی در پایگاه‌های استنادی ‎ – معاونت پژوهش و فناوری",
+      "category": "research",
+      "url": "https://res.shahed.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%a8%d9%87%d8%b3%d8%aa%d8%a7%d9%86/",
+      "sourceUrl": "https://res.shahed.ac.ir/",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "shahed-discovery-system-72fac1654fb8",
+      "universitySlug": "shahed",
+      "nameFa": "مرکز رشد واحدهای فناور – معاونت پژوهش و فناوری",
+      "category": "research",
+      "url": "https://res.shahed.ac.ir/technology-systems-growth-center/",
+      "sourceUrl": "https://res.shahed.ac.ir/",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
     }
   ],
   "documents": [
@@ -3358,18 +4601,15 @@
       "title": "دانلود فرم درخواست کارورزی (Word)",
       "type": "فرم/الگو",
       "topic": "سایر",
-      "taxonomy": "form/template",
+      "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%DA%A9%D8%A7%D8%B1%D9%88%D8%B1%D8%B2%DB%8C-.docx",
       "sourceUrl": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%DA%A9%D8%A7%D8%B1%D9%88%D8%B1%D8%B2%DB%8C-.docx",
       "parentUrl": "https://sci.shahed.ac.ir/educational-forms/",
-      "sha256": "348fc258f20cc95278b81b24685e006a0d9a1ca4de78ba99e894e37b20eab1f0",
       "fileName": "فرم-درخواست-کارورزی-.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "fileSize": 2590355,
-      "archivePath": "shahed/3886dd55eacb-فرم-درخواست-کارورزی-.docx",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -3386,11 +4626,9 @@
       "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-2.pdf",
       "sourceUrl": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-2.pdf",
       "parentUrl": "https://sci.shahed.ac.ir/educational-forms/",
-      "sha256": "8a1c27c53938c768960c8350693a018ae6c2a8575d2cb7cbc129e8cf91740622",
       "fileName": "FP-2.pdf",
       "contentType": "application/pdf",
       "fileSize": 588527,
-      "archivePath": "shahed/1192c0500812-FP-2.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -3407,11 +4645,9 @@
       "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-3-1.pdf",
       "sourceUrl": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-3-1.pdf",
       "parentUrl": "https://sci.shahed.ac.ir/educational-forms/",
-      "sha256": "bad2bffa47e41f2d70b465990c649380af839c5e90e6e373322524e0f3b65918",
       "fileName": "FP-3-1.pdf",
       "contentType": "application/pdf",
       "fileSize": 638922,
-      "archivePath": "shahed/30865d839fe1-FP-3-1.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -3428,11 +4664,9 @@
       "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-4-1.pdf",
       "sourceUrl": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-4-1.pdf",
       "parentUrl": "https://sci.shahed.ac.ir/educational-forms/",
-      "sha256": "5b01e734c67eb1a1bb7dbcdea10815fe4ab911416e64b221aa21d401be14eda4",
       "fileName": "FP-4-1.pdf",
       "contentType": "application/pdf",
       "fileSize": 627770,
-      "archivePath": "shahed/f531ce831169-FP-4-1.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -3739,12 +4973,12 @@
       "taxonomy": "laboratory",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-11",
+      "lastVerified": "2026-08-12",
       "url": "https://rcmres.shahed.ac.ir/laws-and-regulations/",
       "sourceUrl": "https://rcmres.shahed.ac.ir/laws-and-regulations/",
       "parentUrl": "https://rcm.shahed.ac.ir/",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.85
+      "discoveryConfidence": 0.79
     },
     {
       "id": "shahed-discovery-document-3acadf8eadf8",
@@ -4150,6 +5384,455 @@
       "parentUrl": "https://agri.shahed.ac.ir/education/faculty-regulations/",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.9
+    },
+    {
+      "id": "shahed-discovery-document-e8a18f7ceb72",
+      "universitySlug": "shahed",
+      "title": "نمونه فایل معرفی‌نامه کارورزی ( )",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/%D9%81%D8%B1%D9%85-%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D9%88%D8%B1%D8%B2%DB%8C-.docx",
+      "sourceUrl": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/%D9%81%D8%B1%D9%85-%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%86%D8%A7%D9%85%D9%87-%DA%A9%D8%A7%D8%B1%D9%88%D8%B1%D8%B2%DB%8C-.docx",
+      "parentUrl": "https://sci.shahed.ac.ir/educational-forms/",
+      "fileName": "فرم-معرفی-نامه-کارورزی-.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 11881,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahed-discovery-document-69c63bdaa3dd",
+      "universitySlug": "shahed",
+      "title": "Master فرم صورت‌جلسه گروه آموزشی مقطع کارشناسی ارشد (تکمیل توسط دانشجو)",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/Master-1.docx",
+      "sourceUrl": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/Master-1.docx",
+      "parentUrl": "https://sci.shahed.ac.ir/educational-forms/",
+      "fileName": "Master-1.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 20441,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahed-discovery-document-1c16b886368c",
+      "universitySlug": "shahed",
+      "title": "PhD فرم صورت‌جلسه گروه آموزشی مقطع دکتری (تکمیل توسط دانشجو)",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/PhD-1.docx",
+      "sourceUrl": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/PhD-1.docx",
+      "parentUrl": "https://sci.shahed.ac.ir/educational-forms/",
+      "fileName": "PhD-1.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 20215,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahed-discovery-document-645250d97382",
+      "universitySlug": "shahed",
+      "title": "شیوه‌نامه مؤلف برای انتشار کتاب",
+      "type": "سند",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "publications/journals",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://book.shahed.ac.ir/data/shahed/news/%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%A4%D9%84%D9%81.pdf",
+      "sourceUrl": "https://book.shahed.ac.ir/data/shahed/news/%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%A4%D9%84%D9%81.pdf",
+      "parentUrl": "https://po.shahed.ac.ir/",
+      "fileName": "شیوه‌نامه_مؤلف.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 2193821,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahed-discovery-document-4834ee5fd796",
+      "universitySlug": "shahed",
+      "title": "فرم درخواست پست الکترونیکی از دانشگاه برای دانشجویان ارشد و دکتری و هیئت علمی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sci.shahed.ac.ir/storage/sites/18/2023/01/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D9%80%D8%AA-%D8%A7%DB%8C%D9%85%DB%8C%D9%84.pdf",
+      "sourceUrl": "https://sci.shahed.ac.ir/storage/sites/18/2023/01/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D9%80%D8%AA-%D8%A7%DB%8C%D9%85%DB%8C%D9%84.pdf",
+      "parentUrl": "https://sci.shahed.ac.ir/facilities/computer-center/",
+      "fileName": "فرم-درخواسـت-ایمیل.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 200005,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahed-discovery-document-93e352fafb73",
+      "universitySlug": "shahed",
+      "title": "راهنما راهنمای فایل‌های بارگذاری شده",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "سایر",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D8%A7-1.pdf",
+      "sourceUrl": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D8%A7-1.pdf",
+      "parentUrl": "https://sci.shahed.ac.ir/educational-forms/",
+      "fileName": "راهنمای-فایل-ها-1.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 415694,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahed-discovery-document-9c53efac0ed7",
+      "universitySlug": "shahed",
+      "title": "FP‑1 توضیحات تکمیل فایل‌های مرتبط با کد اخلاق",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "اخلاق پژوهش",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-1-1-1.pdf",
+      "sourceUrl": "https://sci.shahed.ac.ir/wp-content/uploads/sites/18/2026/04/FP-1-1-1.pdf",
+      "parentUrl": "https://sci.shahed.ac.ir/educational-forms/",
+      "fileName": "FP-1-1-1.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 194810,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahed-discovery-document-66eab9293cff",
+      "universitySlug": "shahed",
+      "title": "راهنمای ثبت نام و استفاده از سامانه تامین مدارک علمی (مگاپیپر)",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "سایر",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://library.shahed.ac.ir/storage/sites/8/2023/08/megapaper-guide.pdf",
+      "sourceUrl": "https://library.shahed.ac.ir/storage/sites/8/2023/08/megapaper-guide.pdf",
+      "parentUrl": "https://library.shahed.ac.ir/%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%db%8c%d9%87-%d8%af%d8%b1%d8%ae%d8%b5%d9%88%d8%b5-%d9%86%d8%ad%d9%88%d9%87-%d8%af%d8%b3%d8%aa%d8%b1%d8%b3%db%8c-%d8%a8%d9%87-%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87/",
+      "fileName": "megapaper-guide.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 353688,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahed-discovery-document-9d115b42c9b9",
+      "universitySlug": "shahed",
+      "title": "payannameha_tasviyehesab",
+      "type": "سند",
+      "topic": "سایر",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://library.shahed.ac.ir/storage/sites/8/2026/05/payannameha_tasviyehesab.pdf",
+      "sourceUrl": "https://library.shahed.ac.ir/storage/sites/8/2026/05/payannameha_tasviyehesab.pdf",
+      "parentUrl": "https://library.shahed.ac.ir/payannameha_tasviyehesab/",
+      "fileName": "payannameha_tasviyehesab.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 134800,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9800000000000001
+    },
+    {
+      "id": "shahed-discovery-document-5053e3d9ec76",
+      "universitySlug": "shahed",
+      "title": "راهنمای پژوهانه در بهستان (سوالات رایج)",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2023/11/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A8%D9%87%D8%B3%D8%AA%D8%A7%D9%86-%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%B1%D8%A7%DB%8C%D8%AC.pdf",
+      "sourceUrl": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2023/11/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A8%D9%87%D8%B3%D8%AA%D8%A7%D9%86-%D8%B3%D9%88%D8%A7%D9%84%D8%A7%D8%AA-%D8%B1%D8%A7%DB%8C%D8%AC.pdf",
+      "parentUrl": "https://ram.shahed.ac.ir/samaneh-behestan/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "shahed-discovery-document-d7a7aeb43cf2",
+      "universitySlug": "shahed",
+      "title": "راهنمای حق تشویق مقالات در بهستان (سوالات رایج)",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2023/12/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AD%D9%82-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA.pdf",
+      "sourceUrl": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2023/12/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AD%D9%82-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA.pdf",
+      "parentUrl": "https://ram.shahed.ac.ir/samaneh-behestan/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "shahed-discovery-document-4bf3b20cd787",
+      "universitySlug": "shahed",
+      "title": "روش ثبت مقالات همایشی توسط اعضاء هیأت علمی دانشگاه",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "سایر",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2023/11/%D8%B1%D9%88%D8%B4-%D8%AB%D8%A8%D8%AA-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D9%87%D9%85%D8%A7%DB%8C%D8%B4%DB%8C-%D8%AA%D9%88%D8%B3%D8%B7-%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1-%D9%87%DB%8C%D8%A3%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87.pdf",
+      "sourceUrl": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2023/11/%D8%B1%D9%88%D8%B4-%D8%AB%D8%A8%D8%AA-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D9%87%D9%85%D8%A7%DB%8C%D8%B4%DB%8C-%D8%AA%D9%88%D8%B3%D8%B7-%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1-%D9%87%DB%8C%D8%A3%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87.pdf",
+      "parentUrl": "https://ram.shahed.ac.ir/samaneh-behestan/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
+    },
+    {
+      "id": "shahed-discovery-document-dfd6a36ff1e7",
+      "universitySlug": "shahed",
+      "title": "روش گرفتن گزارش ریز هزینه‌های اعتبار ویژه پژوهشی استاد",
+      "type": "سند",
+      "topic": "آزمایشگاه",
+      "taxonomy": "laboratory",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2024/05/%D8%B1%D9%88%D8%B4-%DA%AF%D8%B1%D9%81%D8%AA%D9%86-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%B1%DB%8C%D8%B2-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%88%DB%8C%DA%98%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%A9%D8%B1%D8%AF-402.docx",
+      "sourceUrl": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2024/05/%D8%B1%D9%88%D8%B4-%DA%AF%D8%B1%D9%81%D8%AA%D9%86-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%B1%DB%8C%D8%B2-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%88%DB%8C%DA%98%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%A9%D8%B1%D8%AF-402.docx",
+      "parentUrl": "https://ram.shahed.ac.ir/samaneh-behestan/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
+    },
+    {
+      "id": "shahed-discovery-document-dd416abb4b17",
+      "universitySlug": "shahed",
+      "title": "photo18706024060",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://res.shahed.ac.ir/wp-content/uploads/sites/51/2025/06/14040209-1.pdf",
+      "sourceUrl": "https://res.shahed.ac.ir/wp-content/uploads/sites/51/2025/06/14040209-1.pdf",
+      "parentUrl": "https://res.shahed.ac.ir/",
+      "fileName": "14040209-1.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 14778895,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
+    },
+    {
+      "id": "shahed-discovery-document-121c171b23ac",
+      "universitySlug": "shahed",
+      "title": "بنر خبرنامه",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://res.shahed.ac.ir/wp-content/uploads/sites/51/2025/06/%D8%AE%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
+      "sourceUrl": "https://res.shahed.ac.ir/wp-content/uploads/sites/51/2025/06/%D8%AE%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
+      "parentUrl": "https://res.shahed.ac.ir/",
+      "fileName": "خبرنامه-پژوهشی.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 5644447,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
+    },
+    {
+      "id": "shahed-discovery-document-6c5a3c5c794b",
+      "universitySlug": "shahed",
+      "title": "آیین‌نامه‌ها و دستورالعمل‌های وزارت بهداشت",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://srcres.shahed.ac.ir/regulations-and-instructions-of-the-ministry-of-health/",
+      "sourceUrl": "https://srcres.shahed.ac.ir/regulations-and-instructions-of-the-ministry-of-health/",
+      "parentUrl": "https://src.shahed.ac.ir/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.88
+    },
+    {
+      "id": "shahed-discovery-document-345301ddd82a",
+      "universitySlug": "shahed",
+      "title": "فرم‌های کمیته تحقیقاتی",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://srcres.shahed.ac.ir/Research-committee-forms/",
+      "sourceUrl": "https://srcres.shahed.ac.ir/Research-committee-forms/",
+      "parentUrl": "https://src.shahed.ac.ir/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.88
+    },
+    {
+      "id": "shahed-discovery-document-bd1a8a161735",
+      "universitySlug": "shahed",
+      "title": "فرم‌های کد اخلاق",
+      "type": "فرم/الگو",
+      "topic": "اخلاق پژوهش",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://srcres.shahed.ac.ir/ethical-code-forms/",
+      "sourceUrl": "https://srcres.shahed.ac.ir/ethical-code-forms/",
+      "parentUrl": "https://src.shahed.ac.ir/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.88
+    },
+    {
+      "id": "shahed-discovery-document-66c4d5ea0f98",
+      "universitySlug": "shahed",
+      "title": "آیئین‌نامه‌ها و دستورالعمل‌های دانشگاه",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://srcres.shahed.ac.ir/regulations-and-guidelines-of-the-university/",
+      "sourceUrl": "https://srcres.shahed.ac.ir/regulations-and-guidelines-of-the-university/",
+      "parentUrl": "https://src.shahed.ac.ir/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.88
+    },
+    {
+      "id": "shahed-discovery-document-41b60578b865",
+      "universitySlug": "shahed",
+      "title": "خبرنامه پژوهشی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://pores.shahed.ac.ir/wp-content/uploads/sites/29/2025/06/%D8%AE%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-1.pdf",
+      "sourceUrl": "https://pores.shahed.ac.ir/wp-content/uploads/sites/29/2025/06/%D8%AE%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-1.pdf",
+      "parentUrl": "https://po.shahed.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%a7%d9%88%d9%84%db%8c%d9%86-%d9%86%d8%b4/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8
+    },
+    {
+      "id": "shahed-discovery-document-191322aa69d4",
+      "universitySlug": "shahed",
+      "title": "راهنمای ارسال برنامه تحقیقاتی جهت دار",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "سایر",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2025/04/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AC%D9%87%D8%AA-%D8%AF%D8%A7%D8%B1.docx",
+      "sourceUrl": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2025/04/%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AC%D9%87%D8%AA-%D8%AF%D8%A7%D8%B1.docx",
+      "parentUrl": "https://ram.shahed.ac.ir/samaneh-behestan/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8
+    },
+    {
+      "id": "shahed-discovery-document-7dbab20e8995",
+      "universitySlug": "shahed",
+      "title": "روش ثبت مقالات توسط اعضاء هیات علمی",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "سایر",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2023/11/%D8%B1%D9%88%D8%B4-%D8%AB%D8%A8%D8%AA-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D8%AA%D9%88%D8%B3%D8%B7-%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C.pdf",
+      "sourceUrl": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2023/11/%D8%B1%D9%88%D8%B4-%D8%AB%D8%A8%D8%AA-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D8%AA%D9%88%D8%B3%D8%B7-%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C.pdf",
+      "parentUrl": "https://ram.shahed.ac.ir/samaneh-behestan/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8
+    },
+    {
+      "id": "shahed-discovery-document-57d57f2fc162",
+      "universitySlug": "shahed",
+      "title": "راهنمای تکمیل پروفایل پژوهشی",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "سایر",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2024/11/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%BE%D8%B1%D9%88%D9%81%D8%A7%DB%8C%D9%84-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
+      "sourceUrl": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2024/11/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%BE%D8%B1%D9%88%D9%81%D8%A7%DB%8C%D9%84-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
+      "parentUrl": "https://ram.shahed.ac.ir/samaneh-behestan/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8
+    },
+    {
+      "id": "shahed-discovery-document-196617e8fc3a",
+      "universitySlug": "shahed",
+      "title": "راهنمای ثبت آزمایشگاه در سامانه بهستان",
+      "type": "سند",
+      "topic": "آزمایشگاه",
+      "taxonomy": "laboratory",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2024/11/%D8%AB%D8%A8%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-1.pdf",
+      "sourceUrl": "https://ramres.shahed.ac.ir/wp-content/uploads/sites/30/2024/11/%D8%AB%D8%A8%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-1.pdf",
+      "parentUrl": "https://ram.shahed.ac.ir/samaneh-behestan/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8
+    },
+    {
+      "id": "shahed-discovery-document-2edacff047c1",
+      "universitySlug": "shahed",
+      "title": "آیین‌نامه‌ها و مصوبات برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tarmres.shahed.ac.ir/%d9%81%d8%b1%d9%85%d9%87%d8%a7/",
+      "sourceUrl": "https://tarmres.shahed.ac.ir/%d9%81%d8%b1%d9%85%d9%87%d8%a7/",
+      "parentUrl": "https://tarm.shahed.ac.ir/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.79
+    },
+    {
+      "id": "shahed-discovery-document-493861541aa6",
+      "universitySlug": "shahed",
+      "title": "فرم پرسشنامه برنامه تحقیقاتی جهت دار",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://ramres.shahed.ac.ir/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AC%D9%87%D8%AA-%D8%AF%D8%A7%D8%B1/",
+      "sourceUrl": "https://ramres.shahed.ac.ir/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AC%D9%87%D8%AA-%D8%AF%D8%A7%D8%B1/",
+      "parentUrl": "https://ram.shahed.ac.ir/samaneh-behestan/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.79
     }
   ],
   "interpretation": {

@@ -92,7 +92,7 @@
     ],
     "discoveryCrawler": {
       "lastRun": "2026-08-12",
-      "promotedSources": 92,
+      "promotedSources": 170,
       "socialEvidenceRemoved": true
     }
   },
@@ -171,16 +171,16 @@
       "portalIdentity": "verified",
       "organization": "verified",
       "libraryDocuments": "verified",
-      "laboratories": "unresolved",
-      "industryTechnology": "observed-reference",
+      "laboratories": "verified",
+      "industryTechnology": "verified",
       "informationTechnology": "observed-reference",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 75,
-    "unitsFound": 2,
+    "auditEvidenceCoverage": 94,
+    "unitsFound": 6,
     "systemsFound": 4,
-    "documentsFound": 25,
+    "documentsFound": 52,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -196,7 +196,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 70,
+      "sourceCount": 100,
       "sources": [
         {
           "url": "https://research.nit.ac.ir/",
@@ -559,6 +559,12 @@
           "id": null
         },
         {
+          "url": "https://research.nit.ac.ir/fa/regulation/123/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87-%D8%AA%D8%AC%D9%84%DB%8C%D9%84-%D8%A7%D8%B2-%D8%A8%D8%B1%DA%AF%D8%B2%DB%8C%D8%AF%DA%AF%D8%A7%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%B3%D8%A7%D9%84-%DB%B9%DB%B4",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
           "url": "https://research.nit.ac.ir/fa/regulation/12/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-grant-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-%D9%86%D9%88%D8%B4%DB%8C%D8%B1%D9%88%D8%A7%D9%86%DB%8C-%D8%A8%D8%A7%D8%A8%D9%84-%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%DB%B1%DB%B4%DB%B0%DB%B1-%DB%B1%DB%B2-%DB%B2%DB%B9-%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA-%D8%A7%D8%B6%D8%A7%D9%81%D9%87-%D8%B4%D8%AF%D9%87-%D8%AA%D8%A7-%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DB%B1%DB%B4%DB%B0%DB%B5-%DB%B0%DB%B3-%DB%B0%DB%B1-",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific portalIdentity source",
@@ -571,20 +577,121 @@
           "id": null
         },
         {
+          "url": "https://research.nit.ac.ir/fa/regulation/156/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1-%DA%AF%D8%B2%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-isc-%D8%A8%D8%A7-%D8%B9%D9%86%D9%88%D8%A7%D9%86-%DA%86%DA%AF%D9%88%D9%86%D9%87-%D8%A8%D9%87-%DB%8C%DA%A9-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-%D9%85%D9%84%DB%8C-%D9%88-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%AA%D8%A8%D8%AF%DB%8C%D9%84-%D8%B4%D9%88%DB%8C%D9%85",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/155/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%88%D9%84-%D9%88-%D9%85%D8%A8%D8%A7%D9%86%DB%8C-%D9%85%D8%A7%D9%84%DA%A9%DB%8C%D8%AA-%D9%81%DA%A9%D8%B1%DB%8C-%D9%88-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9-%D8%AF%D8%B1-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D9%87%D9%81%D8%AA%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%DB%B9%DB%B7",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/400/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/170/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AB%D8%A8%D8%AA-%D8%AA%D8%A7%D9%84%DB%8C%D9%81-%D8%AA%D8%B5%D9%86%DB%8C%D9%81-%D9%88-%D8%AA%D8%B1%D8%AC%D9%85%D9%87-%DA%A9%D8%AA%D8%A7%D8%A8",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
           "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=-circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
-          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
         },
         {
-          "url": "https://research.nit.ac.ir/fa/tag/713/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA+98",
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/61/%D9%81%D8%A7%DB%8C%D9%84-%D8%B3%D8%AE%D8%B1%D8%A7%D9%86%DB%8C-%D9%87%D8%A7-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=-title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=-categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=-outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=-approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/61/%D9%81%D8%A7%DB%8C%D9%84-%D8%B3%D8%AE%D8%B1%D8%A7%D9%86%DB%8C-%D9%87%D8%A7-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/61/%D9%81%D8%A7%DB%8C%D9%84-%D8%B3%D8%AE%D8%B1%D8%A7%D9%86%DB%8C-%D9%87%D8%A7-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/61/%D9%81%D8%A7%DB%8C%D9%84-%D8%B3%D8%AE%D8%B1%D8%A7%D9%86%DB%8C-%D9%87%D8%A7-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/61/%D9%81%D8%A7%DB%8C%D9%84-%D8%B3%D8%AE%D8%B1%D8%A7%D9%86%DB%8C-%D9%87%D8%A7-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/news/6942/%D9%86%D8%B4%D8%B3%D8%AA-%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%D8%A7-%D9%85%D8%AF%DB%8C%D8%B1%D8%B9%D8%A7%D9%85%D9%84-%D9%88-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%D8%A7%D9%86-%D8%B4%D8%B1%DA%A9%D8%AA-%D8%A8%D9%86%DB%8C%D8%A7%D8%AF-%D8%A8%D8%AA%D9%86-%DA%A9%D8%A7%D8%B3%D9%BE%DB%8C%D9%86",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
           "kind": "research-review-specific",
           "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
@@ -598,32 +705,116 @@
           "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
-          "url": "https://research.nit.ac.ir/file/download/regulation/65acb56d5b368-.doc",
+          "url": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
           "kind": "research-review-specific",
-          "claim": "لینک دانلود فایل",
+          "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
-          "sourceLabel": "لینک دانلود فایل"
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation?sort=circularNo",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation?sort=-circularNo",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-categoryId",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-outdated",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-approvalDate",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/tag/713/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA+98",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1629691454-03m.zip?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه هدفمند‌سازی رساله های دکتری دکتری پژوهش محور",
+          "id": null,
+          "sourceLabel": "شیوه نامه هدفمند‌سازی رساله های دکتری دکتری پژوهش محور"
         },
         {
           "url": "https://research.nit.ac.ir/file/download/regulation/1629691722-m0031.pdf",
           "kind": "research-review-specific",
-          "claim": "لینک دانلود فایل",
+          "claim": "راهنمای ثبت الکترونیکی اظهارنامه اختراع راهنمای ثبت الکترونیکی اظهارنامه اختراع لینک تاریخ تصویب : ۰۱ بهمن ۱۳۹۴ آخرین به‌روزرسانی : ۰۵ دی ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
           "id": null,
-          "sourceLabel": "لینک دانلود فایل"
+          "sourceLabel": "راهنمای ثبت الکترونیکی اظهارنامه اختراع راهنمای ثبت الکترونیکی اظهارنامه اختراع لینک تاریخ تصویب : ۰۱ بهمن ۱۳۹۴ آخرین به‌روزرسانی : ۰۵ دی ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی"
         },
         {
-          "url": "https://research.nit.ac.ir/file/download/regulation/1778575598-6a02e8ee3ce94-document2.pdf",
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632637847-.zip",
           "kind": "research-review-specific",
-          "claim": "لینک دانلود فایل",
+          "claim": "کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ لینک آخرین به‌روزرسانی : ۰۴ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
           "id": null,
-          "sourceLabel": "لینک دانلود فایل"
+          "sourceLabel": "کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ لینک آخرین به‌روزرسانی : ۰۴ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی"
         },
         {
-          "url": "https://research.nit.ac.ir/file/download/regulation/1629691498-dr.pdf",
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632638664-.pdf",
           "kind": "research-review-specific",
-          "claim": "لینک دانلود فایل",
+          "claim": "راهنمای ثبت تالیف، تصنیف و ترجمه کتاب راهنمای ثبت تالیف، تصنیف و ترجمه کتاب لینک آخرین به‌روزرسانی : ۰۴ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
           "id": null,
-          "sourceLabel": "لینک دانلود فایل"
+          "sourceLabel": "راهنمای ثبت تالیف، تصنیف و ترجمه کتاب راهنمای ثبت تالیف، تصنیف و ترجمه کتاب لینک آخرین به‌روزرسانی : ۰۴ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی"
         }
       ],
       "publicationAdjustment": null,
@@ -641,7 +832,7 @@
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 2,
+      "sourceCount": 6,
       "sources": [
         {
           "url": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
@@ -657,6 +848,42 @@
           "kind": "unit",
           "claim": "آیین‌نامه‌ها و فرم‌ها- انتشارات",
           "id": "babol-noshirvani-discovery-unit-library-6919f1ad8f6f",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://itc.nit.ac.ir/fa/news/1125/%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%B2%DB%8C%D8%B1%D8%B3%D8%A7%D8%AE%D8%AA-%D8%B4%D8%A8%DA%A9%D9%87-%D8%B3%D8%A7%D8%AE%D8%AA%D9%85%D8%A7%D9%86-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "unit",
+          "claim": "اتمام پروژه راه‌اندازی زیرساخت شبکه ساختمان کتابخانه مرکزی دانشگاه",
+          "id": "babol-noshirvani-discovery-unit-library-5a14fe172d54",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/400/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
+          "kind": "unit",
+          "claim": "فرم اطلاعات آزمایشگاه تحقیقاتی - حوزه معاونت پژوهش و فناوری",
+          "id": "babol-noshirvani-discovery-unit-laboratory-46a094f87d8e",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/155/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%88%D9%84-%D9%88-%D9%85%D8%A8%D8%A7%D9%86%DB%8C-%D9%85%D8%A7%D9%84%DA%A9%DB%8C%D8%AA-%D9%81%DA%A9%D8%B1%DB%8C-%D9%88-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9-%D8%AF%D8%B1-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D9%87%D9%81%D8%AA%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%DB%B9%DB%B7",
+          "kind": "unit",
+          "claim": "کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ - حوزه معاونت پژوهش و فناوری",
+          "id": "babol-noshirvani-discovery-unit-technology-103b26cefdd3",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و فرم‌ها- انتشارات",
+          "id": "babol-noshirvani-discovery-unit-library-1aaaf6600fdf",
           "unitType": "library",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
@@ -677,8 +904,14 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 4,
+      "sourceCount": 10,
       "sources": [
+        {
+          "url": "https://itc.nit.ac.ir/fa/news/1125/%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%B2%DB%8C%D8%B1%D8%B3%D8%A7%D8%AE%D8%AA-%D8%B4%D8%A8%DA%A9%D9%87-%D8%B3%D8%A7%D8%AE%D8%AA%D9%85%D8%A7%D9%86-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
         {
           "url": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
           "kind": "portal-document-reaudit",
@@ -687,12 +920,15 @@
         },
         {
           "url": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=circularNo",
-          "kind": "unit",
-          "claim": "آیین‌نامه‌ها و فرم‌ها- انتشارات",
-          "id": "babol-noshirvani-discovery-unit-library-6919f1ad8f6f",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
         },
         {
           "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -707,6 +943,30 @@
           "claim": "آیین نامه نشریات 98",
           "id": "babol-noshirvani-discovery-system-97ff577c0c0b",
           "systemCategory": "journals"
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/65aca95c0c9be-.pdf?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "راهنمای فرایند انتشار نشریه جدید نشریات علمی ۰۱ بهمن ۱۴۰۲",
+          "id": "babol-noshirvani-discovery-document-1f10018c4d34"
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1628347052-m003.pdf?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "شیوه‌نامه تشویق نویسندگان مقالات منتشر شده در نشریات بین‌المللی و داخلی تشویق نویسندگان مقالات منتشر شده در نشریات بین‌المللی و داخلی (پاداش مقالات)",
+          "id": "babol-noshirvani-discovery-document-a959db72ac66"
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/65acae31067b7-.docx?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "فرم پرسش نامه پیشنهاد انتشار نشریه علمی نشریات علمی ۰۱ بهمن ۱۴۰۲",
+          "id": "babol-noshirvani-discovery-document-b19a258fd5da"
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/65acd21f01c3d-98.pdf?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "آیین نامه نشریات ۹۸ نشریات علمی ۰۱ بهمن ۱۴۰۲",
+          "id": "babol-noshirvani-discovery-document-d7c89f1ee679"
         }
       ],
       "publicationAdjustment": null,
@@ -724,8 +984,18 @@
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 0,
-      "sources": [],
+      "sourceCount": 1,
+      "sources": [
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/400/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
+          "kind": "unit",
+          "claim": "فرم اطلاعات آزمایشگاه تحقیقاتی - حوزه معاونت پژوهش و فناوری",
+          "id": "babol-noshirvani-discovery-unit-laboratory-46a094f87d8e",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        }
+      ],
       "publicationAdjustment": null,
       "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -741,14 +1011,37 @@
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 1,
+      "sourceCount": 4,
       "sources": [
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/155/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%88%D9%84-%D9%88-%D9%85%D8%A8%D8%A7%D9%86%DB%8C-%D9%85%D8%A7%D9%84%DA%A9%DB%8C%D8%AA-%D9%81%DA%A9%D8%B1%DB%8C-%D9%88-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9-%D8%AF%D8%B1-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D9%87%D9%81%D8%AA%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%DB%B9%DB%B7",
+          "kind": "unit",
+          "claim": "کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ - حوزه معاونت پژوهش و فناوری",
+          "id": "babol-noshirvani-discovery-unit-technology-103b26cefdd3",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
         {
           "url": "https://research.nit.ac.ir/",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش و فناوری 1",
           "id": null,
           "sourceLabel": "پرتال پژوهش و فناوری 1"
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1629691454-03m.zip?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه هدفمند‌سازی رساله های دکتری دکتری پژوهش محور",
+          "id": null,
+          "sourceLabel": "شیوه نامه هدفمند‌سازی رساله های دکتری دکتری پژوهش محور"
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632637847-.zip",
+          "kind": "research-review-specific",
+          "claim": "کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ لینک آخرین به‌روزرسانی : ۰۴ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+          "id": null,
+          "sourceLabel": "کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ لینک آخرین به‌روزرسانی : ۰۴ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی"
         }
       ],
       "publicationAdjustment": null,
@@ -835,20 +1128,8 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 61,
+      "sourceCount": 117,
       "sources": [
-        {
-          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
         {
           "url": "https://research.nit.ac.ir/fa/regulation",
           "kind": "portal-document-reaudit",
@@ -868,19 +1149,97 @@
           "id": null
         },
         {
-          "url": "https://research.nit.ac.ir/fa/tag/713/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA+98",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
           "url": "https://research.nit.ac.ir/fa/tag/714/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+98+%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.nit.ac.ir/fa/regulation/category/7/%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "url": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation?sort=circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation?sort=-circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/tag/713/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA+98",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -894,146 +1253,315 @@
         {
           "url": "https://research.nit.ac.ir/file/download/regulation/6587cade9bb47-.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/file/download/regulation/65acd21f01c3d-98.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "لینک",
           "id": null
         },
         {
           "url": "https://research.nit.ac.ir/file/download/regulation/65acd283370c8-98-.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "لینک",
           "id": null
         },
         {
           "url": "https://research.nit.ac.ir/file/download/regulation/1633944859-.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/file/download/regulation/1634376433-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/file/download/regulation/1632639048-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/file/download/regulation/1632639007-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "شیوه نامه اجرایی انتخاب پژوهشگران برتر شیوه نامه اجرایی انتخاب پژوهشگران برتر لینک تاریخ تصویب : ۰۶ مهر ۱۴۰۰ آخرین به‌روزرسانی : ۱۹ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
           "id": null
         },
         {
           "url": "https://research.nit.ac.ir/file/download/regulation/1632638505-21.08.98.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/file/download/regulation/1632808550-formtalif.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/file/download/regulation/1632808524-formtarjomeh.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/file/download/regulation/1640508850-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "لینک",
           "id": null
         },
         {
           "url": "https://research.nit.ac.ir/file/download/regulation/65aca95c0c9be-.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "لینک",
           "id": null
         },
         {
-          "url": "https://research.nit.ac.ir/file/download/regulation/65acae31067b7-.docx",
+          "url": "https://research.nit.ac.ir/file/download/regulation/1629691454-03m.zip?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "شیوه نامه هدفمند‌سازی رساله های دکتری دکتری پژوهش محور",
           "id": null
         },
         {
-          "url": "https://research.nit.ac.ir/file/download/regulation/65acaf2f0e163-.doc",
+          "url": "https://research.nit.ac.ir/file/download/regulation/1640508850-.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/file/download/regulation/1629689844-.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/file/download/regulation/65acb001745fd-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/file/download/regulation/1629689907-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/file/download/regulation/65acb0bf006f5-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/file/download/regulation/1629689979-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/file/download/regulation/65acb30f50c3e-.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.nit.ac.ir/file/download/regulation/65acb56d5b368-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "لینک",
           "id": null
         },
         {
           "url": "https://research.nit.ac.ir/file/download/regulation/1629691722-m0031.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "راهنمای ثبت الکترونیکی اظهارنامه اختراع راهنمای ثبت الکترونیکی اظهارنامه اختراع لینک تاریخ تصویب : ۰۱ بهمن ۱۳۹۴ آخرین به‌روزرسانی : ۰۵ دی ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632637847-.zip",
+          "kind": "portal-document-reaudit-document",
+          "claim": "کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ لینک آخرین به‌روزرسانی : ۰۴ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632638664-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "راهنمای ثبت تالیف، تصنیف و ترجمه کتاب راهنمای ثبت تالیف، تصنیف و ترجمه کتاب لینک آخرین به‌روزرسانی : ۰۴ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
           "id": null
         },
         {
           "url": "https://research.nit.ac.ir/file/download/regulation/1778575598-6a02e8ee3ce94-document2.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/65aca95c0c9be-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "راهنمای فرایند انتشار نشریه جدید نشریات علمی ۰۱ بهمن ۱۴۰۲",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1628347052-m003.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه تشویق نویسندگان مقالات منتشر شده در نشریات بین‌المللی و داخلی تشویق نویسندگان مقالات منتشر شده در نشریات بین‌المللی و داخلی (پاداش مقالات)",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1767592401-695b51d1ab07a-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه اجرایی برگزاری رویدادهای علمی دانشگاه صنعتی نوشیروانی بابل برگزاری رویدادهای علمی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/65acd21f01c3d-98.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1634376433-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632639048-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632639007-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آخرین آیین نامه استخدامی اعضای هیات علمی (مصوب شهریور ۹۵) آخرین آیین نامه استخدامی اعضای هیات علمی (مصوب شهریور ۹۵) لینک آخرین به‌روزرسانی : ۰۴ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632808550-formtalif.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پیشنهاد تالیف فرم پیشنهاد تالیف لینک آخرین به‌روزرسانی : ۰۶ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632808524-formtarjomeh.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پیشنهاد ترجمه فرم پیشنهاد ترجمه لینک آخرین به‌روزرسانی : ۰۶ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/65acae31067b7-.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/65acaf2f0e163-.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1629689844-.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست معرفی به بانک فرم درخواست معرفی به بانک لینک آخرین به‌روزرسانی : ۰۵ دی ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/65acb001745fd-.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پرسش نامه سردبیر نشریه فرم پرسش نامه سردبیر نشریه لینک تاریخ تصویب : ۰۱ بهمن ۱۴۰۲ مرجع تصویب : دبیرخانه کمیسیون بررسی نشریات علمی وزارت علوم آخرین به‌روزرسانی : ۰۱ بهمن ۱۴۰۲ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1629689907-.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست هزینه شرکت در کنفرانس‌‌های خارجی فرم درخواست هزینه شرکت در کنفرانس‌‌های خارجی لینک آخرین به‌روزرسانی : ۰۵ دی ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/65acb0bf006f5-.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1629689979-.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست هزینه شرکت در کنفرانس‌‌های داخلی فرم درخواست هزینه شرکت در کنفرانس‌‌های داخلی لینک آخرین به‌روزرسانی : ۰۵ دی ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/65acb30f50c3e-.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/65acb56d5b368-.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
           "id": null
         },
         {
           "url": "https://research.nit.ac.ir/file/download/regulation/1629691498-dr.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "فرم های مربوط به درخواست مجوز و ظرفیت دکتری پژوهش محو فرم های مربوط به درخواست مجوز و ظرفیت دکتری پژوهش محو لینک آخرین به‌روزرسانی : ۰۱ شهریور ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
           "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632637879-isc-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632634021-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه جشنواره تجلیل از برگزیدگان پژوهش و فناوری سال ۹۴ آیین نامه جشنواره تجلیل از برگزیدگان پژوهش و فناوری سال ۹۴ لینک آخرین به‌روزرسانی : ۰۴ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1665387035-.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم اطلاعات آزمایشگاه تحقیقاتی فرم اطلاعات آزمایشگاه تحقیقاتی لینک آخرین به‌روزرسانی : ۱۸ مهر ۱۴۰۱ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1751358216-68639b08dc490-document.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرایند ثبت اختراع و ثبت علائم تجاری داخلی در دانشگاه صنعتی نوشیروانی بابل ثبت اختراع ۱۰ تیر ۱۴۰۴",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632638664-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "راهنمای ثبت تالیف، تصنیف و ترجمه کتاب راهنمای سامانه پژوهشی گلستان",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632638041-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "نمودار روند بررسی طرح پژوهشی داخلی طرح پژوهشی داخلی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632636311-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "نمودار روند بررسی در خواست فرصت مطالعاتی ۱۳۹۴ فرصت مطالعاتی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/6587cade9bb47-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "کتاب مجموعه آیین نامه ها، شیوه نامه ها و دستورالعمل های اجرایی مصوب معاونت پژوهشی وزارت عتف مجموعه آیین نامه ها، شیوه نامه ها و دستورالعمل های اجرایی مصوب معاونت پژوهشی وزارت عتف",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632810822-2011112944248248102542229.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مراحل چاپ کتاب انتشارات",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632808550-formtalif.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پیشنهاد تالیف انتشارات",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632808524-formtarjomeh.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پیشنهاد ترجمه انتشارات",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632808479-moghararatentesharat.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مقرر ات اضافه شده به اساسنامه انتشارات انتشارات",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632808418-1391-5-21-2012811125539098086525.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اساسنامه انتشارات دانشگاه صنعتی نوشیروانی بابل انتشارات",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/65acae31067b7-.docx?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پرسش نامه پیشنهاد انتشار نشریه علمی نشریات علمی ۰۱ بهمن ۱۴۰۲",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1629689803-.docx?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "پرسشنامه مشخصات متقاضی شرکت در گردهمایی‌های علمی و بین‌المللی خارج از کشور شرکت در کنفرانس های داخلی و خارجی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/65acd21f01c3d-98.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه نشریات ۹۸ نشریات علمی ۰۱ بهمن ۱۴۰۲",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1634377202-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آئین‌نامه اجرایی پذیرش دستیار پژوهشی پسا دکتری/دستیار پژوهشی ۰۲ شهریور ۱۴۰۰",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1629691498-dr.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم های مربوط به درخواست مجوز و ظرفیت دکتری پژوهش محو دکتری پژوهش محور",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1767592447-695b51ffa0c6e-.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست برگزاری رویداد علمی در دانشگاه صنعتی نوشیروانی بابل برگزاری رویدادهای علمی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1666074122-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آئین نامه نحوه تأسیس واحدهای پژوهشی در دانشگاه ها واحدهای پژوهشی دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/file/download/regulation/1632638858-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "تفاهم نامه همکاری دانشگاه صنعتی نوشیروانی بابل با پژوهشگاه نیرو تفاهم نامه",
+          "id": null
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/123/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87-%D8%AA%D8%AC%D9%84%DB%8C%D9%84-%D8%A7%D8%B2-%D8%A8%D8%B1%DA%AF%D8%B2%DB%8C%D8%AF%DA%AF%D8%A7%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%B3%D8%A7%D9%84-%DB%B9%DB%B4",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
         },
         {
           "url": "https://research.nit.ac.ir/fa/regulation/479/%DA%A9%D8%AA%D8%A7%D8%A8-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81",
@@ -1204,6 +1732,34 @@
           "sourceLabel": "پرتال پژوهش کشف‌شده"
         },
         {
+          "url": "https://research.nit.ac.ir/fa/regulation/156/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1-%DA%AF%D8%B2%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-isc-%D8%A8%D8%A7-%D8%B9%D9%86%D9%88%D8%A7%D9%86-%DA%86%DA%AF%D9%88%D9%86%D9%87-%D8%A8%D9%87-%DB%8C%DA%A9-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-%D9%85%D9%84%DB%8C-%D9%88-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%AA%D8%A8%D8%AF%DB%8C%D9%84-%D8%B4%D9%88%DB%8C%D9%85",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/155/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%88%D9%84-%D9%88-%D9%85%D8%A8%D8%A7%D9%86%DB%8C-%D9%85%D8%A7%D9%84%DA%A9%DB%8C%D8%AA-%D9%81%DA%A9%D8%B1%DB%8C-%D9%88-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9-%D8%AF%D8%B1-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D9%87%D9%81%D8%AA%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%DB%B9%DB%B7",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/400/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/170/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AB%D8%A8%D8%AA-%D8%AA%D8%A7%D9%84%DB%8C%D9%81-%D8%AA%D8%B5%D9%86%DB%8C%D9%81-%D9%88-%D8%AA%D8%B1%D8%AC%D9%85%D9%87-%DA%A9%D8%AA%D8%A7%D8%A8",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
           "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش کشف‌شده",
@@ -1230,6 +1786,97 @@
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
           "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=title",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=categoryId",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=outdated",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=approvalDate",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/61/%D9%81%D8%A7%DB%8C%D9%84-%D8%B3%D8%AE%D8%B1%D8%A7%D9%86%DB%8C-%D9%87%D8%A7-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=circularNo",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=-title",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=-categoryId",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=-outdated",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=-approvalDate",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/61/%D9%81%D8%A7%DB%8C%D9%84-%D8%B3%D8%AE%D8%B1%D8%A7%D9%86%DB%8C-%D9%87%D8%A7-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/61/%D9%81%D8%A7%DB%8C%D9%84-%D8%B3%D8%AE%D8%B1%D8%A7%D9%86%DB%8C-%D9%87%D8%A7-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/61/%D9%81%D8%A7%DB%8C%D9%84-%D8%B3%D8%AE%D8%B1%D8%A7%D9%86%DB%8C-%D9%87%D8%A7-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.nit.ac.ir/fa/regulation/category/61/%D9%81%D8%A7%DB%8C%D9%84-%D8%B3%D8%AE%D8%B1%D8%A7%D9%86%DB%8C-%D9%87%D8%A7-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
         }
       ],
       "publicationAdjustment": null,
@@ -1242,28 +1889,28 @@
     "nameFa": "دانشگاه صنعتی نوشیروانی بابل",
     "iscCategory": "صنعتی",
     "iscRank": 7,
-    "score": 69.7,
-    "confidence": 82,
+    "score": 72.6,
+    "confidence": 95.7,
     "metrics": {
-      "documents": 73,
-      "organization": 54.2,
+      "documents": 91,
+      "organization": 72.5,
       "library": 70,
-      "laboratories": null,
+      "laboratories": 70,
       "digital": 45,
-      "industryTech": null,
+      "industryTech": 45,
       "dataQuality": 100,
       "findability": 75
     },
-    "units": 2,
+    "units": 6,
     "systems": 4,
-    "documents": 25,
-    "activeWeight": 76,
-    "evidenceCoverage": 75,
+    "documents": 52,
+    "activeWeight": 100,
+    "evidenceCoverage": 94,
     "methodologyVersion": "RTPMI-4.1-ISC",
     "snapshotDate": "2026-08-11",
-    "rank": 46,
-    "portalRankWithinISCClass": 10,
-    "rankedPortalsInISCClass": 13
+    "rank": 68,
+    "portalRankWithinISCClass": 15,
+    "rankedPortalsInISCClass": 18
   },
   "units": [
     {
@@ -1285,6 +1932,50 @@
       "evidence": "verified",
       "lastVerified": "2026-08-11",
       "sourceUrl": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=circularNo",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "babol-noshirvani-discovery-unit-library-5a14fe172d54",
+      "universitySlug": "babol-noshirvani",
+      "nameFa": "اتمام پروژه راه‌اندازی زیرساخت شبکه ساختمان کتابخانه مرکزی دانشگاه",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://itc.nit.ac.ir/fa/news/1125/%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%B2%DB%8C%D8%B1%D8%B3%D8%A7%D8%AE%D8%AA-%D8%B4%D8%A8%DA%A9%D9%87-%D8%B3%D8%A7%D8%AE%D8%AA%D9%85%D8%A7%D9%86-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9484210526315788
+    },
+    {
+      "id": "babol-noshirvani-discovery-unit-laboratory-46a094f87d8e",
+      "universitySlug": "babol-noshirvani",
+      "nameFa": "فرم اطلاعات آزمایشگاه تحقیقاتی - حوزه معاونت پژوهش و فناوری",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.nit.ac.ir/fa/regulation/400/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9484210526315788
+    },
+    {
+      "id": "babol-noshirvani-discovery-unit-technology-103b26cefdd3",
+      "universitySlug": "babol-noshirvani",
+      "nameFa": "کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ - حوزه معاونت پژوهش و فناوری",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.nit.ac.ir/fa/regulation/155/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%88%D9%84-%D9%88-%D9%85%D8%A8%D8%A7%D9%86%DB%8C-%D9%85%D8%A7%D9%84%DA%A9%DB%8C%D8%AA-%D9%81%DA%A9%D8%B1%DB%8C-%D9%88-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9-%D8%AF%D8%B1-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D9%87%D9%81%D8%AA%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%DB%B9%DB%B7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8957894736842105
+    },
+    {
+      "id": "babol-noshirvani-discovery-unit-library-1aaaf6600fdf",
+      "universitySlug": "babol-noshirvani",
+      "nameFa": "آیین‌نامه‌ها و فرم‌ها- انتشارات",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8694736842105263
     }
@@ -1370,11 +2061,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/6587cade9bb47-.pdf",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/6587cade9bb47-.pdf",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/479/%DA%A9%D8%AA%D8%A7%D8%A8-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81",
-      "sha256": "e9045cdbb3233207aafb06debb10172c7a8ff65cdf6e299f4c6c8a42d67d8194",
       "fileName": "6587cade9bb47-.pdf",
       "contentType": "application/pdf",
       "fileSize": 4485085,
-      "archivePath": "babol-noshirvani/68b4ee87ffa5-6587cade9bb47-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1391,11 +2080,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/65acd21f01c3d-98.pdf",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/65acd21f01c3d-98.pdf",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/498/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%DB%B9%DB%B8",
-      "sha256": "20f353016a6a06d59b4c174c55f694e61aeb4e41235506ad7ed6372ce073befc",
       "fileName": "65acd21f01c3d-98.pdf",
       "contentType": "application/pdf",
       "fileSize": 2094727,
-      "archivePath": "babol-noshirvani/2932072c5900-65acd21f01c3d-98.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1412,11 +2099,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/65acd283370c8-98-.pdf",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/65acd283370c8-98-.pdf",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/499/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%DB%B9%DB%B8-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C",
-      "sha256": "3fdd9b340e350691f54693678ee08d62a35d0fa3d360baaefb5cfc96f468afb4",
       "fileName": "65acd283370c8-98-.pdf",
       "contentType": "application/pdf",
       "fileSize": 2325372,
-      "archivePath": "babol-noshirvani/375fd1943dee-65acd283370c8-98-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1433,11 +2118,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/1633944859-.pdf",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1633944859-.pdf",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/333/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86-%D8%A8%D8%B1%D8%AA%D8%B1",
-      "sha256": "25666ce81c7a55e6c6538fb8e140a648fc0e1ec7d303807faab761bbbed2a7b5",
       "fileName": "1633944859-.pdf",
       "contentType": "application/pdf",
       "fileSize": 277823,
-      "archivePath": "babol-noshirvani/e304b50d54b9-1633944859-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1454,11 +2137,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/1634376433-.pdf",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1634376433-.pdf",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/137/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%AF%D9%88%D8%B1%D9%87-%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-%D9%86%D9%88%D8%B4%DB%8C%D8%B1%D9%88%D8%A7%D9%86%DB%8C-%D8%A8%D8%A7%D8%A8%D9%84",
-      "sha256": "d0e1c96399e4941309b4340f03dfe0c659ecea060bf73f76fcb69c0af8a7f103",
       "fileName": "1634376433-.pdf",
       "contentType": "application/pdf",
       "fileSize": 286712,
-      "archivePath": "babol-noshirvani/39bd07a1037a-1634376433-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1475,11 +2156,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/1632639048-.pdf",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632639048-.pdf",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/181/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C-%D8%AF%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-%D9%86%D9%88%D8%B4%DB%8C%D8%B1%D9%88%D8%A7%D9%86%DB%8C-%D8%A8%D8%A7%D8%A8%D9%84",
-      "sha256": "b9cbf4ec6a52a3f423ddf8190f68aca8ad71a2a7f6762e09bf5d210eefb59174",
       "fileName": "1632639048-.pdf",
       "contentType": "application/pdf",
       "fileSize": 52847,
-      "archivePath": "babol-noshirvani/b866e6f14fb9-1632639048-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1496,11 +2175,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/1632639007-.pdf",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632639007-.pdf",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/180/%D8%A2%D8%AE%D8%B1%DB%8C%D9%86-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D8%B4%D9%87%D8%B1%DB%8C%D9%88%D8%B1-%DB%B9%DB%B5-",
-      "sha256": "50cacd8dfeb7e6c3b7709069a9ead4ecf9ce32e5451ee06f055aeea9ae716303",
       "fileName": "1632639007-.pdf",
       "contentType": "application/pdf",
       "fileSize": 1185336,
-      "archivePath": "babol-noshirvani/c0fc4726bac7-1632639007-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1517,11 +2194,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/1632638505-21.08.98.pdf",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632638505-21.08.98.pdf",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/164/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-%D9%86%D9%88%D8%B4%DB%8C%D8%B1%D9%88%D8%A7%D9%86%DB%8C-%D8%A8%D8%A7%D8%A8%D9%84-%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%DB%B2%DB%B1.%DB%B0%DB%B8.%DB%B9%DB%B8",
-      "sha256": "1c5da0d9dfdd4b02efb7e71ebaaa86abfbb9fd39fabf2c45fdacc383703b6233",
       "fileName": "1632638505-21.08.98.pdf",
       "contentType": "application/pdf",
       "fileSize": 272642,
-      "archivePath": "babol-noshirvani/93b369f0934a-1632638505-21.08.98.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1538,11 +2213,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/1632808550-formtalif.doc",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632808550-formtalif.doc",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/191/%D9%81%D8%B1%D9%85-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF-%D8%AA%D8%A7%D9%84%DB%8C%D9%81",
-      "sha256": "ea0aea76446618b677658d71d7c26e78dbbc8c594dd9afdf7b984ef139731ddd",
       "fileName": "1632808550-formtalif.doc",
       "contentType": "application/msword",
       "fileSize": 45056,
-      "archivePath": "babol-noshirvani/13ce1d8cfc81-1632808550-formtalif.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1559,11 +2232,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/1632808524-formtarjomeh.doc",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632808524-formtarjomeh.doc",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/190/%D9%81%D8%B1%D9%85-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF-%D8%AA%D8%B1%D8%AC%D9%85%D9%87",
-      "sha256": "2cb3a3c5081cf4c9a1872e3044bbeb20eb0f7fc0ab73c21a79ec0e7670dbae79",
       "fileName": "1632808524-formtarjomeh.doc",
       "contentType": "application/msword",
       "fileSize": 52224,
-      "archivePath": "babol-noshirvani/884c8884fe91-1632808524-formtarjomeh.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1580,11 +2251,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/1640508850-.pdf",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1640508850-.pdf",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/29/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%85%D8%B5%D8%A7%D8%AF%DB%8C%D9%82-%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "sha256": "3db2bd96c12e461df6b4879c6cf126142e64192b03c811ec4c49f13d57126198",
       "fileName": "1640508850-.pdf",
       "contentType": "application/pdf",
       "fileSize": 3992289,
-      "archivePath": "babol-noshirvani/d47f0236ac1c-1640508850-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1601,11 +2270,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/65aca95c0c9be-.pdf",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/65aca95c0c9be-.pdf",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/491/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF",
-      "sha256": "36066b50b371e28305fcb4f1d24dac0ca8e5f70b39ca513e4f7ed864ed99fd7f",
       "fileName": "65aca95c0c9be-.pdf",
       "contentType": "application/pdf",
       "fileSize": 355155,
-      "archivePath": "babol-noshirvani/0825a1c82fd3-65aca95c0c9be-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1622,11 +2289,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/65acae31067b7-.docx",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/65acae31067b7-.docx",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/492/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D9%87-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "94059a2c1c9b7ffac2ba05e2a207c76f9d7823f1b98cb3319239e0ecb36d9450",
       "fileName": "65acae31067b7-.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "fileSize": 63448,
-      "archivePath": "babol-noshirvani/39ea097038af-65acae31067b7-.docx",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1643,11 +2308,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/65acaf2f0e163-.doc",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/65acaf2f0e163-.doc",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/493/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4-%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%D9%85%D8%B3%D8%A6%D9%88%D9%84-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
-      "sha256": "c256b79e03adad55342b167d63abaf3f0a30f1ea64eaf4507f8628705761cdef",
       "fileName": "65acaf2f0e163-.doc",
       "contentType": "application/msword",
       "fileSize": 55808,
-      "archivePath": "babol-noshirvani/88928b505fc7-65acaf2f0e163-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1664,11 +2327,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/1629689844-.docx",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1629689844-.docx",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/6/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D8%A8%D9%87-%D8%A8%D8%A7%D9%86%DA%A9",
-      "sha256": "d41c4c4c5ffb29334a8ad5a0ca113f2f173fe9c246aa344cf44a6023c01f1a1a",
       "fileName": "1629689844-.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "fileSize": 21564,
-      "archivePath": "babol-noshirvani/ead1a7c0445c-1629689844-.docx",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1685,11 +2346,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/65acb001745fd-.doc",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/65acb001745fd-.doc",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/494/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4-%D9%86%D8%A7%D9%85%D9%87-%D8%B3%D8%B1%D8%AF%D8%A8%DB%8C%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
-      "sha256": "9c988a08895e01a8e05519cb33ad4d7d5c4df6f2239c4a9e640339105ca4c698",
       "fileName": "65acb001745fd-.doc",
       "contentType": "application/msword",
       "fileSize": 68096,
-      "archivePath": "babol-noshirvani/a6d8ea6afc58-65acb001745fd-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1706,11 +2365,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/1629689907-.doc",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1629689907-.doc",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/7/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D8%B4%D8%B1%DA%A9%D8%AA-%D8%AF%D8%B1-%DA%A9%D9%86%D9%81%D8%B1%D8%A7%D9%86%D8%B3-%D9%87%D8%A7%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC%DB%8C",
-      "sha256": "4944aa93715bb08c1391300d676bf4689d393ead7a1b2142b78bfb76e3093c2a",
       "fileName": "1629689907-.doc",
       "contentType": "application/msword",
       "fileSize": 47616,
-      "archivePath": "babol-noshirvani/09ae8f1a9a5a-1629689907-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1727,11 +2384,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/65acb0bf006f5-.doc",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/65acb0bf006f5-.doc",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/495/%D9%81%D8%B1%D9%85-%D9%85%D8%AE%D8%B5%D9%88%D8%B5-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A3%D8%AA-%D8%AA%D8%AD%D8%B1%DB%8C%D8%B1%DB%8C%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
-      "sha256": "8e35d8290acc1fc1663dcd4f8baf0bf7d0f23482097add8cc49361421ec7aa2a",
       "fileName": "65acb0bf006f5-.doc",
       "contentType": "application/msword",
       "fileSize": 56320,
-      "archivePath": "babol-noshirvani/33de4a4cc0a3-65acb0bf006f5-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1748,11 +2403,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/1629689979-.doc",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1629689979-.doc",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/9/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D8%B4%D8%B1%DA%A9%D8%AA-%D8%AF%D8%B1-%DA%A9%D9%86%D9%81%D8%B1%D8%A7%D9%86%D8%B3-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C",
-      "sha256": "a3556c16d9385155fd6b3e008956703295b5b392b67a6f0f7f967ccadea2c18a",
       "fileName": "1629689979-.doc",
       "contentType": "application/msword",
       "fileSize": 45568,
-      "archivePath": "babol-noshirvani/7416dc5d8d6a-1629689979-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1769,11 +2422,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/65acb30f50c3e-.docx",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/65acb30f50c3e-.docx",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/496/%D9%81%D8%B1%D9%85-%D8%AA%D8%B9%D8%A7%D8%B1%D8%B6-%D9%85%D9%86%D8%A7%D9%81%D8%B9-%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%D9%87",
-      "sha256": "c70084fdf185520d92c69f15a80b6de17654b38a62aa354f882780662e1bb326",
       "fileName": "65acb30f50c3e-.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "fileSize": 18967,
-      "archivePath": "babol-noshirvani/13a4006b474e-65acb30f50c3e-.docx",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1790,11 +2441,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/65acb56d5b368-.doc",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/65acb56d5b368-.doc",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/497/%D9%81%D8%B1%D9%85-%D8%AA%D9%81%D8%A7%D9%87%D9%85-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%DB%8C%D9%86-%D9%86%D8%B4%D8%B1%DB%8C%D9%87-%D8%B9%D9%84%D9%85%DB%8C-%D9%88-%D8%A7%D9%86%D8%AC%D9%85%D9%86",
-      "sha256": "f1e0d3d0825fa4e38994f7957a18c7d42aed334b44aa2a9fa890473d9783eae4",
       "fileName": "65acb56d5b368-.doc",
       "contentType": "application/msword",
       "fileSize": 40960,
-      "archivePath": "babol-noshirvani/496f971ff70f-65acb56d5b368-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1811,11 +2460,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/1629691722-m0031.pdf",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1629691722-m0031.pdf",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/24/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AB%D8%A8%D8%AA-%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C-%D8%A7%D8%B8%D9%87%D8%A7%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9",
-      "sha256": "9c2678740e11a0bc0a46f0d698ecaa1571bad350397cdd3b594bb78f74820079",
       "fileName": "1629691722-m0031.pdf",
       "contentType": "application/pdf",
       "fileSize": 1264264,
-      "archivePath": "babol-noshirvani/6d8b5f842cfa-1629691722-m0031.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1832,11 +2479,9 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/1778575598-6a02e8ee3ce94-document2.pdf",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1778575598-6a02e8ee3ce94-document2.pdf",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/12/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-grant-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-%D9%86%D9%88%D8%B4%DB%8C%D8%B1%D9%88%D8%A7%D9%86%DB%8C-%D8%A8%D8%A7%D8%A8%D9%84-%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%DB%B1%DB%B4%DB%B0%DB%B1-%DB%B1%DB%B2-%DB%B2%DB%B9-%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA-%D8%A7%D8%B6%D8%A7%D9%81%D9%87-%D8%B4%D8%AF%D9%87-%D8%AA%D8%A7-%D8%AA%D8%A7%D8%B1%DB%8C%D8%AE%DB%B1%DB%B4%DB%B0%DB%B5-%DB%B0%DB%B3-%DB%B0%DB%B1-",
-      "sha256": "336a4c217f298de77ae0ee8911a2d3cebd254d91669be569db6e01a03ae794b8",
       "fileName": "1778575598-6a02e8ee3ce94-document2.pdf",
       "contentType": "application/pdf",
       "fileSize": 716041,
-      "archivePath": "babol-noshirvani/bf7fadda114f-1778575598-6a02e8ee3ce94-document2.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1853,11 +2498,522 @@
       "url": "https://research.nit.ac.ir/file/download/regulation/1629691498-dr.pdf",
       "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1629691498-dr.pdf",
       "parentUrl": "https://research.nit.ac.ir/fa/regulation/22/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%85%D8%AC%D9%88%D8%B2-%D9%88-%D8%B8%D8%B1%D9%81%DB%8C%D8%AA-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%85%D8%AD%D9%88",
-      "sha256": "45bc6db2b35f0c0da3304dbc4db64b81109cdf7943775d1a423cda06aab51e5e",
       "fileName": "1629691498-dr.pdf",
       "contentType": "application/pdf",
       "fileSize": 101750,
-      "archivePath": "babol-noshirvani/be3c2be4e9ba-1629691498-dr.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-cb47f035168d",
+      "universitySlug": "babol-noshirvani",
+      "title": "شیوه نامه هدفمند‌سازی رساله های دکتری دکتری پژوهش محور",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1629691454-03m.zip?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1629691454-03m.zip?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+      "fileName": "1629691454-03m.zip",
+      "contentType": "application/zip",
+      "fileSize": 88886,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-42e5254499aa",
+      "universitySlug": "babol-noshirvani",
+      "title": "کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ کارگاه اصول و مبانی مالکیت فکری و ثبت اختراع در ایران هفته پژوهش ۹۷ لینک آخرین به‌روزرسانی : ۰۴ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1632637847-.zip",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632637847-.zip",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/155/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%88%D9%84-%D9%88-%D9%85%D8%A8%D8%A7%D9%86%DB%8C-%D9%85%D8%A7%D9%84%DA%A9%DB%8C%D8%AA-%D9%81%DA%A9%D8%B1%DB%8C-%D9%88-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9-%D8%AF%D8%B1-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D9%87%D9%81%D8%AA%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%DB%B9%DB%B7",
+      "fileName": "1632637847-.zip",
+      "contentType": "application/zip",
+      "fileSize": 5267307,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-152a35550c18",
+      "universitySlug": "babol-noshirvani",
+      "title": "راهنمای ثبت تالیف، تصنیف و ترجمه کتاب راهنمای ثبت تالیف، تصنیف و ترجمه کتاب لینک آخرین به‌روزرسانی : ۰۴ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1632638664-.pdf",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632638664-.pdf",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/170/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AB%D8%A8%D8%AA-%D8%AA%D8%A7%D9%84%DB%8C%D9%81-%D8%AA%D8%B5%D9%86%DB%8C%D9%81-%D9%88-%D8%AA%D8%B1%D8%AC%D9%85%D9%87-%DA%A9%D8%AA%D8%A7%D8%A8",
+      "fileName": "1632638664-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 386074,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-1f10018c4d34",
+      "universitySlug": "babol-noshirvani",
+      "title": "راهنمای فرایند انتشار نشریه جدید نشریات علمی ۰۱ بهمن ۱۴۰۲",
+      "type": "فرآیند",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "publications/journals",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/65aca95c0c9be-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/65aca95c0c9be-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation",
+      "fileName": "65aca95c0c9be-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 355155,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-a959db72ac66",
+      "universitySlug": "babol-noshirvani",
+      "title": "شیوه‌نامه تشویق نویسندگان مقالات منتشر شده در نشریات بین‌المللی و داخلی تشویق نویسندگان مقالات منتشر شده در نشریات بین‌المللی و داخلی (پاداش مقالات)",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1628347052-m003.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1628347052-m003.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation?sort=circularNo",
+      "fileName": "1628347052-m003.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 168861,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-702ae9db76ae",
+      "universitySlug": "babol-noshirvani",
+      "title": "شیوه نامه اجرایی برگزاری رویدادهای علمی دانشگاه صنعتی نوشیروانی بابل برگزاری رویدادهای علمی",
+      "type": "آیین‌نامه",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1767592401-695b51d1ab07a-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1767592401-695b51d1ab07a-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation?sort=-circularNo",
+      "fileName": "1767592401-695b51d1ab07a-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 575606,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-04ba74d6c359",
+      "universitySlug": "babol-noshirvani",
+      "title": "لینک",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1632637879-isc-.pdf",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632637879-isc-.pdf",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/156/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1-%DA%AF%D8%B2%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-isc-%D8%A8%D8%A7-%D8%B9%D9%86%D9%88%D8%A7%D9%86-%DA%86%DA%AF%D9%88%D9%86%D9%87-%D8%A8%D9%87-%DB%8C%DA%A9-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-%D9%85%D9%84%DB%8C-%D9%88-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%AA%D8%A8%D8%AF%DB%8C%D9%84-%D8%B4%D9%88%DB%8C%D9%85",
+      "fileName": "1632637879-isc-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 7215456,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-3f88551af863",
+      "universitySlug": "babol-noshirvani",
+      "title": "آیین نامه جشنواره تجلیل از برگزیدگان پژوهش و فناوری سال ۹۴ آیین نامه جشنواره تجلیل از برگزیدگان پژوهش و فناوری سال ۹۴ لینک آخرین به‌روزرسانی : ۰۴ مهر ۱۴۰۰ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1632634021-.pdf",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632634021-.pdf",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/123/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87-%D8%AA%D8%AC%D9%84%DB%8C%D9%84-%D8%A7%D8%B2-%D8%A8%D8%B1%DA%AF%D8%B2%DB%8C%D8%AF%DA%AF%D8%A7%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%B3%D8%A7%D9%84-%DB%B9%DB%B4",
+      "fileName": "1632634021-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 2222613,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-e2ddf08134d5",
+      "universitySlug": "babol-noshirvani",
+      "title": "فرم اطلاعات آزمایشگاه تحقیقاتی فرم اطلاعات آزمایشگاه تحقیقاتی لینک آخرین به‌روزرسانی : ۱۸ مهر ۱۴۰۱ دسته‌ها - آیین‌نامه‌ها و فرم‌های پژوهشی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1665387035-.docx",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1665387035-.docx",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/400/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
+      "fileName": "1665387035-.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 18706,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-ca7dba44b9b4",
+      "universitySlug": "babol-noshirvani",
+      "title": "فرایند ثبت اختراع و ثبت علائم تجاری داخلی در دانشگاه صنعتی نوشیروانی بابل ثبت اختراع ۱۰ تیر ۱۴۰۴",
+      "type": "فرآیند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1751358216-68639b08dc490-document.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1751358216-68639b08dc490-document.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-approvalDate",
+      "fileName": "1751358216-68639b08dc490-document.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 562234,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-9c8d142525a3",
+      "universitySlug": "babol-noshirvani",
+      "title": "راهنمای ثبت تالیف، تصنیف و ترجمه کتاب راهنمای سامانه پژوهشی گلستان",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1632638664-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632638664-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+      "fileName": "1632638664-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 386074,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-816cc0056e89",
+      "universitySlug": "babol-noshirvani",
+      "title": "نمودار روند بررسی طرح پژوهشی داخلی طرح پژوهشی داخلی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1632638041-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632638041-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+      "fileName": "1632638041-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 70610,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-84c30755b807",
+      "universitySlug": "babol-noshirvani",
+      "title": "نمودار روند بررسی در خواست فرصت مطالعاتی ۱۳۹۴ فرصت مطالعاتی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1632636311-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632636311-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+      "fileName": "1632636311-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 62007,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-a92c8ff6fafc",
+      "universitySlug": "babol-noshirvani",
+      "title": "کتاب مجموعه آیین نامه ها، شیوه نامه ها و دستورالعمل های اجرایی مصوب معاونت پژوهشی وزارت عتف مجموعه آیین نامه ها، شیوه نامه ها و دستورالعمل های اجرایی مصوب معاونت پژوهشی وزارت عتف",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/6587cade9bb47-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/6587cade9bb47-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/114/%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%85%D8%B5%D9%88%D8%A8-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81?sort=-title",
+      "fileName": "6587cade9bb47-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 4485085,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-513657e15437",
+      "universitySlug": "babol-noshirvani",
+      "title": "مراحل چاپ کتاب انتشارات",
+      "type": "سند",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "publications/journals",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1632810822-2011112944248248102542229.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632810822-2011112944248248102542229.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "fileName": "1632810822-2011112944248248102542229.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 208649,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-941d5952d9d6",
+      "universitySlug": "babol-noshirvani",
+      "title": "فرم پیشنهاد تالیف انتشارات",
+      "type": "سند",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "publications/journals",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1632808550-formtalif.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632808550-formtalif.doc?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "fileName": "1632808550-formtalif.doc",
+      "contentType": "application/msword",
+      "fileSize": 45056,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-a6512262f072",
+      "universitySlug": "babol-noshirvani",
+      "title": "فرم پیشنهاد ترجمه انتشارات",
+      "type": "سند",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "publications/journals",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1632808524-formtarjomeh.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632808524-formtarjomeh.doc?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
+      "fileName": "1632808524-formtarjomeh.doc",
+      "contentType": "application/msword",
+      "fileSize": 52224,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-be9c7fce3b59",
+      "universitySlug": "babol-noshirvani",
+      "title": "مقرر ات اضافه شده به اساسنامه انتشارات انتشارات",
+      "type": "سند",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "publications/journals",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1632808479-moghararatentesharat.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632808479-moghararatentesharat.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
+      "fileName": "1632808479-moghararatentesharat.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 256666,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-85e651084168",
+      "universitySlug": "babol-noshirvani",
+      "title": "اساسنامه انتشارات دانشگاه صنعتی نوشیروانی بابل انتشارات",
+      "type": "سند",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "publications/journals",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1632808418-1391-5-21-2012811125539098086525.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632808418-1391-5-21-2012811125539098086525.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/22/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
+      "fileName": "1632808418-1391-5-21-2012811125539098086525.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 132386,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-b19a258fd5da",
+      "universitySlug": "babol-noshirvani",
+      "title": "فرم پرسش نامه پیشنهاد انتشار نشریه علمی نشریات علمی ۰۱ بهمن ۱۴۰۲",
+      "type": "سند",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "publications/journals",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/65acae31067b7-.docx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/65acae31067b7-.docx?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation",
+      "fileName": "65acae31067b7-.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 63448,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-805277964c3d",
+      "universitySlug": "babol-noshirvani",
+      "title": "پرسشنامه مشخصات متقاضی شرکت در گردهمایی‌های علمی و بین‌المللی خارج از کشور شرکت در کنفرانس های داخلی و خارجی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1629689803-.docx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1629689803-.docx?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation?sort=circularNo",
+      "fileName": "1629689803-.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 33265,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-d7c89f1ee679",
+      "universitySlug": "babol-noshirvani",
+      "title": "آیین نامه نشریات ۹۸ نشریات علمی ۰۱ بهمن ۱۴۰۲",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/65acd21f01c3d-98.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/65acd21f01c3d-98.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-approvalDate",
+      "fileName": "65acd21f01c3d-98.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 2094727,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-e036e9cde8bf",
+      "universitySlug": "babol-noshirvani",
+      "title": "آئین‌نامه اجرایی پذیرش دستیار پژوهشی پسا دکتری/دستیار پژوهشی ۰۲ شهریور ۱۴۰۰",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1634377202-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1634377202-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+      "fileName": "1634377202-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 348270,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-33bafe0fabff",
+      "universitySlug": "babol-noshirvani",
+      "title": "فرم های مربوط به درخواست مجوز و ظرفیت دکتری پژوهش محو دکتری پژوهش محور",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1629691498-dr.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1629691498-dr.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+      "fileName": "1629691498-dr.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 101750,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-17e120e11d4a",
+      "universitySlug": "babol-noshirvani",
+      "title": "فرم درخواست برگزاری رویداد علمی در دانشگاه صنعتی نوشیروانی بابل برگزاری رویدادهای علمی",
+      "type": "آیین‌نامه",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1767592447-695b51ffa0c6e-.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1767592447-695b51ffa0c6e-.doc?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation?sort=-circularNo",
+      "fileName": "1767592447-695b51ffa0c6e-.doc",
+      "contentType": "application/msword",
+      "fileSize": 161792,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-5d5444fcc279",
+      "universitySlug": "babol-noshirvani",
+      "title": "آئین نامه نحوه تأسیس واحدهای پژوهشی در دانشگاه ها واحدهای پژوهشی دانشگاهی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1666074122-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1666074122-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+      "fileName": "1666074122-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1065800,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "babol-noshirvani-discovery-document-7bf768b94699",
+      "universitySlug": "babol-noshirvani",
+      "title": "تفاهم نامه همکاری دانشگاه صنعتی نوشیروانی بابل با پژوهشگاه نیرو تفاهم نامه",
+      "type": "آیین‌نامه",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.nit.ac.ir/file/download/regulation/1632638858-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.nit.ac.ir/file/download/regulation/1632638858-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.nit.ac.ir/fa/regulation/category/12/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-outdated",
+      "fileName": "1632638858-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 2709722,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     }

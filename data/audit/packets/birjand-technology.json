@@ -90,7 +90,7 @@
     ],
     "discoveryCrawler": {
       "lastRun": "2026-08-12",
-      "promotedSources": 86,
+      "promotedSources": 125,
       "socialEvidenceRemoved": true
     }
   },
@@ -176,9 +176,9 @@
       "documentsRegulations": "verified"
     },
     "auditEvidenceCoverage": 63,
-    "unitsFound": 3,
+    "unitsFound": 6,
     "systemsFound": 0,
-    "documentsFound": 29,
+    "documentsFound": 54,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -194,7 +194,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 67,
+      "sourceCount": 105,
       "sources": [
         {
           "url": "https://research.birjandut.ac.ir/",
@@ -557,53 +557,305 @@
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/fa/regulation?sort=-circularNo",
+          "url": "https://research.birjandut.ac.ir/fa/tag/257/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA+%D9%BE%DA%98%D9%88%D9%87%D8%B4+%D9%88+%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%D8%8C+%D8%AF%D9%81%D8%AA%D8%B1+%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7+%D8%A8%D8%A7+%D8%B5%D9%86%D8%B9%D8%AA+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/tag/202/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA+%D9%BE%DA%98%D9%88%D9%87%D8%B4+%D9%88+%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/news/2505/%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D8%AC%D9%84%D8%B3%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C-%D9%88-%D9%85%D8%A7%D9%84%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/18/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA-%DB%B1%DB%B0-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%88%D8%A7%D8%B1%DB%8C%D8%B2-%D9%85%D8%A8%D9%84%D8%BA",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/16/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA-%DB%B8-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/15/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA%DB%B7-%D9%86%DA%A9%D8%A7%D8%AA-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/14/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA-%DB%B6-%D8%AA%D8%B9%D9%87%D8%AF%D9%86%D8%A7%D9%85%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/13/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA-%DB%B5-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/12/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA%DB%B4-%D9%86%DA%A9%D8%A7%D8%AA-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%A7%D8%B5%D9%84%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/11/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA-%DB%B3-%DA%AF%D8%B1%D8%AF%D8%B4-%DA%A9%D8%A7%D8%B1-%D9%BE%D8%B3-%D8%A7%D8%B2-%D8%B9%D9%82%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/10/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA-%DB%B2-%D8%B9%D9%82%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D9%86%D9%88%D8%B9-%D8%A8",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/9/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA-%DB%B1-%D8%B9%D9%82%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D9%86%D9%88%D8%B9-%D8%A7%D9%84%D9%81",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/1/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D9%85%D8%AA%D9%82%D8%A7%D8%B6%DB%8C%D8%A7%D9%86-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/23/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
           "kind": "research-review-specific",
           "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
           "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
-          "url": "https://research.birjandut.ac.ir/fa/regulation/category/2/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-circularNo",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=approvalDate",
           "kind": "research-review-specific",
           "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
           "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661756-1662368878-.docx",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
           "kind": "research-review-specific",
-          "claim": "لینک دانلود فایل",
+          "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
-          "sourceLabel": "لینک دانلود فایل"
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738929-1662369576-.pdf",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
           "kind": "research-review-specific",
-          "claim": "لینک دانلود فایل",
+          "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
-          "sourceLabel": "لینک دانلود فایل"
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-title",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-categoryId",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-outdated",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-approvalDate",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-categoryId",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-outdated",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-approvalDate",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
           "url": "https://research.birjandut.ac.ir/file/download/regulation/1771307536-6994021019e13-.pdf?language=fa&subdomain=research",
           "kind": "research-review-specific",
-          "claim": "1771307536-6994021019e13-",
+          "claim": "4 شیوه نامه جدید فرصت مطالعاتی جامعه و صنعت فرم ها و آیین نامه ها ۲۰ آبان ۱۴۰۴",
           "id": null,
-          "sourceLabel": "1771307536-6994021019e13-"
+          "sourceLabel": "4 شیوه نامه جدید فرصت مطالعاتی جامعه و صنعت فرم ها و آیین نامه ها ۲۰ آبان ۱۴۰۴"
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292291-69d0cf83139cb-.docx?language=fa&subdomain=research",
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661460-1662368597-.pdf?language=fa&subdomain=research",
           "kind": "research-review-specific",
-          "claim": "1775292291-69d0cf83139cb-",
+          "claim": "7 شیوه نامه فرصت مطالعاتی در جامعه و صنعت فرم ها و آیین نامه ها",
           "id": null,
-          "sourceLabel": "1775292291-69d0cf83139cb-"
+          "sourceLabel": "7 شیوه نامه فرصت مطالعاتی در جامعه و صنعت فرم ها و آیین نامه ها"
         },
         {
           "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292239-69d0cf4f3953c-.pdf?language=fa&subdomain=research",
           "kind": "research-review-specific",
-          "claim": "1775292239-69d0cf4f3953c-",
+          "claim": "2 شیوه‌نامه حق التشویق بروندادهای پژوهشی دانشگاه صنعتی بیرجند فرم ها و آیین نامه ها",
           "id": null,
-          "sourceLabel": "1775292239-69d0cf4f3953c-"
+          "sourceLabel": "2 شیوه‌نامه حق التشویق بروندادهای پژوهشی دانشگاه صنعتی بیرجند فرم ها و آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662739165-1662369806-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "12 دستورالعمل اجرایی آئین نامه تخصیص پژوهانه فرم ها و آیین نامه ها",
+          "id": null,
+          "sourceLabel": "12 دستورالعمل اجرایی آئین نامه تخصیص پژوهانه فرم ها و آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1762771921-6911c3d188509-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "2 آیین نامه جامع پژوهانه آیین نامه ها",
+          "id": null,
+          "sourceLabel": "2 آیین نامه جامع پژوهانه آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/66ceda57a8b8f-.docx?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 قابل توجه اعضای محترم هیأت علمی؛ راهنمای استفاده از مگاپیپر آیین نامه ها",
+          "id": null,
+          "sourceLabel": "1 قابل توجه اعضای محترم هیأت علمی؛ راهنمای استفاده از مگاپیپر آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738695-1662369231-p8.docx?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "2 پیوست ۸-پروپوزال خارج دانشگاهی فرم های پژوهشی",
+          "id": null,
+          "sourceLabel": "2 پیوست ۸-پروپوزال خارج دانشگاهی فرم های پژوهشی"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738658-1662369195-p7.docx?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 پیوست۷- نکات پروپوزال فرم های پژوهشی",
+          "id": null,
+          "sourceLabel": "1 پیوست۷- نکات پروپوزال فرم های پژوهشی"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662565769-1662370245-applicants-apply-for-study-opportunities-in-the-community-and-industry.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "14 درخواست استفاده متقاضیان فرصت مطالعاتی در جامعه و صنعت فرم ها و آیین نامه ها",
+          "id": null,
+          "sourceLabel": "14 درخواست استفاده متقاضیان فرصت مطالعاتی در جامعه و صنعت فرم ها و آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661742-1662368853-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "10 دستورالعمل ماموریت پژوهشی فرم ها و آیین نامه ها",
+          "id": null,
+          "sourceLabel": "10 دستورالعمل ماموریت پژوهشی فرم ها و آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292291-69d0cf83139cb-.docx?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 فرم درخواست حق التشویق بروندادهای پژوهشی فرم ها و آیین نامه ها",
+          "id": null,
+          "sourceLabel": "1 فرم درخواست حق التشویق بروندادهای پژوهشی فرم ها و آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/64e09544ea75f-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 آیین‌نامه جذب و به‌کارگیری محققان پسادکتری آیین نامه ها",
+          "id": null,
+          "sourceLabel": "1 آیین‌نامه جذب و به‌کارگیری محققان پسادکتری آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662739095-1662369647-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "14 دستور العمل نحوه بررسی تخلفات پژوهشی فرم ها و آیین نامه ها",
+          "id": null,
+          "sourceLabel": "14 دستور العمل نحوه بررسی تخلفات پژوهشی فرم ها و آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738929-1662369576-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "15 دستور العمل استفاده از خدمات آزمایشگاهی - کارگاهی دانشگاه فرم ها و آیین نامه ها",
+          "id": null,
+          "sourceLabel": "15 دستور العمل استفاده از خدمات آزمایشگاهی - کارگاهی دانشگاه فرم ها و آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738893-1662369522-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "16 پژوهشگر برتر فرم ها و آیین نامه ها",
+          "id": null,
+          "sourceLabel": "16 پژوهشگر برتر فرم ها و آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738861-1662369494-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 آئین نامه جشنواره تجلیل از پژوهشگران و فناوران برتر آیین نامه ها",
+          "id": null,
+          "sourceLabel": "1 آئین نامه جشنواره تجلیل از پژوهشگران و فناوران برتر آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738746-1662369347-p10.docx?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 پیوست ۱۰- نامه درخواست واریز مبلغ فرم های پژوهشی",
+          "id": null,
+          "sourceLabel": "1 پیوست ۱۰- نامه درخواست واریز مبلغ فرم های پژوهشی"
         }
       ],
       "publicationAdjustment": null,
@@ -621,7 +873,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 3,
+      "sourceCount": 7,
       "sources": [
         {
           "url": "https://research.birjandut.ac.ir/fa/regulation/22/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
@@ -649,6 +901,40 @@
           "unitType": "industry",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/tag/257/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA+%D9%BE%DA%98%D9%88%D9%87%D8%B4+%D9%88+%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%D8%8C+%D8%AF%D9%81%D8%AA%D8%B1+%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7+%D8%A8%D8%A7+%D8%B5%D9%86%D8%B9%D8%AA+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "unit",
+          "claim": "معاونت پژوهش و فناوری، دفتر ارتباط با صنعت دانشگاه",
+          "id": "birjand-technology-discovery-unit-industry-6d7812b5dc8d",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/1/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D9%85%D8%AA%D9%82%D8%A7%D8%B6%DB%8C%D8%A7%D9%86-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA",
+          "kind": "unit",
+          "claim": "درخواست استفاده متقاضیان فرصت مطالعاتی در جامعه و صنعت - معاونت پژوهش و فناوری",
+          "id": "birjand-technology-discovery-unit-industry-b53c7a89cd90",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/news/2505/%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D8%AC%D9%84%D8%B3%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C-%D9%88-%D9%85%D8%A7%D9%84%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "unit",
+          "claim": "برگزاری جلسه مدیران معاونت پژوهش و فناوری با معاون اداری و مالی دانشگاه",
+          "id": "birjand-technology-discovery-unit-research-8cba322b77ed",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662565769-1662370245-applicants-apply-for-study-opportunities-in-the-community-and-industry.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "14 درخواست استفاده متقاضیان فرصت مطالعاتی در جامعه و صنعت فرم ها و آیین نامه ها",
+          "id": null,
+          "sourceLabel": "14 درخواست استفاده متقاضیان فرصت مطالعاتی در جامعه و صنعت فرم ها و آیین نامه ها"
         }
       ],
       "publicationAdjustment": null,
@@ -683,7 +969,7 @@
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 1,
+      "sourceCount": 2,
       "sources": [
         {
           "url": "https://research.birjandut.ac.ir/fa/regulation/22/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
@@ -693,6 +979,13 @@
           "unitType": "laboratory",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738929-1662369576-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "15 دستور العمل استفاده از خدمات آزمایشگاهی - کارگاهی دانشگاه فرم ها و آیین نامه ها",
+          "id": null,
+          "sourceLabel": "15 دستور العمل استفاده از خدمات آزمایشگاهی - کارگاهی دانشگاه فرم ها و آیین نامه ها"
         }
       ],
       "publicationAdjustment": null,
@@ -710,7 +1003,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 3,
+      "sourceCount": 10,
       "sources": [
         {
           "url": "https://research.birjandut.ac.ir/fa/regulation/293/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA",
@@ -731,11 +1024,64 @@
           "relationshipEvidenceUrl": null
         },
         {
+          "url": "https://research.birjandut.ac.ir/fa/tag/257/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA+%D9%BE%DA%98%D9%88%D9%87%D8%B4+%D9%88+%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%D8%8C+%D8%AF%D9%81%D8%AA%D8%B1+%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7+%D8%A8%D8%A7+%D8%B5%D9%86%D8%B9%D8%AA+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "unit",
+          "claim": "معاونت پژوهش و فناوری، دفتر ارتباط با صنعت دانشگاه",
+          "id": "birjand-technology-discovery-unit-industry-6d7812b5dc8d",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/1/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D9%85%D8%AA%D9%82%D8%A7%D8%B6%DB%8C%D8%A7%D9%86-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA",
+          "kind": "unit",
+          "claim": "درخواست استفاده متقاضیان فرصت مطالعاتی در جامعه و صنعت - معاونت پژوهش و فناوری",
+          "id": "birjand-technology-discovery-unit-industry-b53c7a89cd90",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
           "url": "https://research.birjandut.ac.ir/",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش و فناوری 1",
           "id": null,
           "sourceLabel": "پرتال پژوهش و فناوری 1"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1771307536-6994021019e13-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "4 شیوه نامه جدید فرصت مطالعاتی جامعه و صنعت فرم ها و آیین نامه ها ۲۰ آبان ۱۴۰۴",
+          "id": null,
+          "sourceLabel": "4 شیوه نامه جدید فرصت مطالعاتی جامعه و صنعت فرم ها و آیین نامه ها ۲۰ آبان ۱۴۰۴"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661460-1662368597-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "7 شیوه نامه فرصت مطالعاتی در جامعه و صنعت فرم ها و آیین نامه ها",
+          "id": null,
+          "sourceLabel": "7 شیوه نامه فرصت مطالعاتی در جامعه و صنعت فرم ها و آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292239-69d0cf4f3953c-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "2 شیوه‌نامه حق التشویق بروندادهای پژوهشی دانشگاه صنعتی بیرجند فرم ها و آیین نامه ها",
+          "id": null,
+          "sourceLabel": "2 شیوه‌نامه حق التشویق بروندادهای پژوهشی دانشگاه صنعتی بیرجند فرم ها و آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662565769-1662370245-applicants-apply-for-study-opportunities-in-the-community-and-industry.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "14 درخواست استفاده متقاضیان فرصت مطالعاتی در جامعه و صنعت فرم ها و آیین نامه ها",
+          "id": null,
+          "sourceLabel": "14 درخواست استفاده متقاضیان فرصت مطالعاتی در جامعه و صنعت فرم ها و آیین نامه ها"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738861-1662369494-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 آئین نامه جشنواره تجلیل از پژوهشگران و فناوران برتر آیین نامه ها",
+          "id": null,
+          "sourceLabel": "1 آئین نامه جشنواره تجلیل از پژوهشگران و فناوران برتر آیین نامه ها"
         }
       ],
       "publicationAdjustment": null,
@@ -787,20 +1133,8 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 65,
+      "sourceCount": 109,
       "sources": [
-        {
-          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
         {
           "url": "https://research.birjandut.ac.ir/fa/regulation",
           "kind": "portal-document-reaudit",
@@ -826,43 +1160,19 @@
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/fa/regulation/category/2/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/fa/regulation?sort=circularNo",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/fa/regulation/category/2/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research.birjandut.ac.ir/fa/regulation?sort=-circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research.birjandut.ac.ir/fa/regulation/category/2/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=circularNo&page=1",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=circularNo&page=2",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -880,178 +1190,412 @@
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1771307536-6994021019e13-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292239-69d0cf4f3953c-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1768815883-696dfd0b39fe2-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1768795347-696dacd39509a-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1763441885-691bfcdd24d07-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1762771921-6911c3d188509-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/64e09544ea75f-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/646069b908508-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662739134-1662369690-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661460-1662368597-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661829-1662368934-aein.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292291-69d0cf83139cb-.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/66ceda57a8b8f-.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662739165-1662369806-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1747114482-6822d9f222d14-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661505-1662368745-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661604-1662368790-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661742-1662368853-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661756-1662368878-.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738929-1662369576-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
           "url": "https://research.birjandut.ac.ir/file/download/regulation/1771307536-6994021019e13-.pdf?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "1771307536-6994021019e13-",
+          "claim": "4 شیوه نامه جدید فرصت مطالعاتی جامعه و صنعت فرم ها و آیین نامه ها ۲۰ آبان ۱۴۰۴",
           "id": null
         },
         {
-          "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292291-69d0cf83139cb-.docx?language=fa&subdomain=research",
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661460-1662368597-.pdf?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "1775292291-69d0cf83139cb-",
+          "claim": "7 شیوه نامه فرصت مطالعاتی در جامعه و صنعت فرم ها و آیین نامه ها",
           "id": null
         },
         {
           "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292239-69d0cf4f3953c-.pdf?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "1775292239-69d0cf4f3953c-",
+          "claim": "2 شیوه‌نامه حق التشویق بروندادهای پژوهشی دانشگاه صنعتی بیرجند فرم ها و آیین نامه ها",
           "id": null
         },
         {
-          "url": "https://birjandut.ac.ir/file/download/download/1771664524-6999748c841dc-.pdf",
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662739165-1662369806-.pdf?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "کتابچه توانمندی های اعضای هیات علمی",
+          "claim": "12 دستورالعمل اجرایی آئین نامه تخصیص پژوهانه فرم ها و آیین نامه ها",
           "id": null
         },
         {
-          "url": "https://birjandut.ac.ir/file/download/download/1766570126-694bb88ef1737-paeez22-nxpowerlite-copy-.pdf",
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1762771921-6911c3d188509-.pdf?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "1766570126-694bb88ef1737-paeez22-nxpowerlite-copy-",
+          "claim": "2 آیین نامه جامع پژوهانه آیین نامه ها",
           "id": null
         },
         {
-          "url": "https://birjandut.ac.ir/file/download/download/1750837533-685ba91d03ad2-1404-..-.pdf",
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/66ceda57a8b8f-.docx?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "1750837533-685ba91d03ad2-1404-..-",
+          "claim": "1 قابل توجه اعضای محترم هیأت علمی؛ راهنمای استفاده از مگاپیپر آیین نامه ها",
           "id": null
         },
         {
-          "url": "https://birjandut.ac.ir/file/download/download/1743843664-67f0f150859e5-1403-nxpowerlite-copy-.pdf",
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738695-1662369231-p8.docx?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "1743843664-67f0f150859e5-1403-nxpowerlite-copy-",
+          "claim": "2 پیوست ۸-پروپوزال خارج دانشگاهی فرم های پژوهشی",
           "id": null
         },
         {
-          "url": "https://birjandut.ac.ir/file/download/download/1734860732-6767dfbc8fdc0-1403.pdf",
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738658-1662369195-p7.docx?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "1734860732-6767dfbc8fdc0-1403",
+          "claim": "1 پیوست۷- نکات پروپوزال فرم های پژوهشی",
           "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662565769-1662370245-applicants-apply-for-study-opportunities-in-the-community-and-industry.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "14 درخواست استفاده متقاضیان فرصت مطالعاتی در جامعه و صنعت فرم ها و آیین نامه ها",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661742-1662368853-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "10 دستورالعمل ماموریت پژوهشی فرم ها و آیین نامه ها",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292291-69d0cf83139cb-.docx?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 فرم درخواست حق التشویق بروندادهای پژوهشی فرم ها و آیین نامه ها",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/64e09544ea75f-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 آیین‌نامه جذب و به‌کارگیری محققان پسادکتری آیین نامه ها",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662739095-1662369647-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "14 دستور العمل نحوه بررسی تخلفات پژوهشی فرم ها و آیین نامه ها",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738929-1662369576-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "15 دستور العمل استفاده از خدمات آزمایشگاهی - کارگاهی دانشگاه فرم ها و آیین نامه ها",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738893-1662369522-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "16 پژوهشگر برتر فرم ها و آیین نامه ها",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738861-1662369494-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 آئین نامه جشنواره تجلیل از پژوهشگران و فناوران برتر آیین نامه ها",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738746-1662369347-p10.docx?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 پیوست ۱۰- نامه درخواست واریز مبلغ فرم های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661905-1662369115-p4.docx?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "2 پیوست۴-نکات قرارداد اصلی فرم های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661872-1662369010-p2.docx?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "2 پیوست ۲-عقد قرارداد طرح های تحقیقاتی نوع ب فرم های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661852-1662368978-p1.docx?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 پیوست ۱-عقد قرارداد طرح های تحقیقاتی نوع الف فرم های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661505-1662368745-.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "5 فرم الف فرم ها و آیین نامه ها",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661604-1662368790-.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "4 فرم ب فرم ها و آیین نامه ها",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661756-1662368878-.docx?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "3 فرم درخواست استفاده از ماموریت پژوهشی فرم ها و آیین نامه ها",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1781933963-6a36278b8ca5d-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "2 اعلام اولویت های پژوهشی اداره کل منابع طبیعی وآبخیز داری خراسان جنوبی نیازهای پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1771307536-6994021019e13-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه جدید فرصت مطالعاتی جامعه و صنعت شیوه نامه جدید فرصت مطالعاتی جامعه و صنعت لینک تاریخ تصویب : ۲۰ آبان ۱۴۰۴ آخرین به‌روزرسانی : ۲۸ بهمن ۱۴۰۴ کلیدواژه‌ها: فرصت مطالعاتی دسترسی سریع روابط عمومی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1762771921-6911c3d188509-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه جامع پژوهانه آیین نامه جامع پژوهانه لینک آخرین به‌روزرسانی : ۱۹ آبان ۱۴۰۴ دسترسی سریع روابط عمومی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661460-1662368597-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه فرصت مطالعاتی در جامعه و صنعت شیوه نامه فرصت مطالعاتی در جامعه و صنعت لینک آخرین به‌روزرسانی : ۱۷ شهریور ۱۴۰۱ دسترسی سریع روابط عمومی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1763441885-691bfcdd24d07-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "7 شیوه نامه اجرایی انتخاب اعضای هیئت علمی سرآمد پژوهشی دانشگاه صنعتی بیرجند آیین نامه ها",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292239-69d0cf4f3953c-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه حق التشویق بروندادهای پژوهشی دانشگاه صنعتی بیرجند شیوه‌نامه حق التشویق بروندادهای پژوهشی دانشگاه صنعتی بیرجند لینک آخرین به‌روزرسانی : ۱۵ فروردین ۱۴۰۵ دسترسی سریع روابط عمومی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1768815883-696dfd0b39fe2-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اصلاحیه آیین‌نامه تشویق دستاوردهای پژوهشی اصلاحیه آیین‌نامه تشویق دستاوردهای پژوهشی لینک آخرین به‌روزرسانی : ۲۹ دی ۱۴۰۴ دسترسی سریع روابط عمومی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1768795347-696dacd39509a-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین‌نامه تشویق دستاوردهای پژوهشی آیین‌نامه تشویق دستاوردهای پژوهشی لینک آخرین به‌روزرسانی : ۲۹ دی ۱۴۰۴ دسترسی سریع روابط عمومی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1763441885-691bfcdd24d07-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/64e09544ea75f-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین‌نامه جذب و به‌کارگیری محققان پسادکتری آیین‌نامه جذب و به‌کارگیری محققان پسادکتری لینک آخرین به‌روزرسانی : ۰۶ بهمن ۱۴۰۲ دسترسی سریع روابط عمومی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/646069b908508-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه طرح های پژوهشی کاربردی و فناورانه آیین نامه طرح های پژوهشی کاربردی و فناورانه لینک آخرین به‌روزرسانی : ۰۶ بهمن ۱۴۰۲ دسترسی سریع روابط عمومی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662739134-1662369690-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین‌نامه اجرایی قانون پیشگیری و مقابله با تقلب در تهیه آثار علمی آیین‌نامه اجرایی قانون پیشگیری و مقابله با تقلب در تهیه آثار علمی لینک آخرین به‌روزرسانی : ۰۶ بهمن ۱۴۰۲ دسترسی سریع روابط عمومی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661829-1662368934-aein.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه عقد قراردادهای برون دانشگاهی اعضای هیات‌علمی آیین نامه عقد قراردادهای برون دانشگاهی اعضای هیات‌علمی لینک آخرین به‌روزرسانی : ۰۶ بهمن ۱۴۰۲ دسترسی سریع روابط عمومی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662739165-1662369806-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل اجرایی آئین نامه تخصیص پژوهانه دستورالعمل اجرایی آئین نامه تخصیص پژوهانه لینک آخرین به‌روزرسانی : ۱۸ شهریور ۱۴۰۱ دسترسی سریع روابط عمومی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738624-1662369170-p6.docx?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "6 پیوست ۶- تعهدنامه فرم های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661927-1662369139-p5.docx?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "5 پیوست ۵-قرارداد داخلی فرم های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661892-1662369043-p3.docx?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "3 پیوست ۳-گردش کار پس از عقد قرارداد طرح های تحقیقاتی فرم های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292291-69d0cf83139cb-.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست حق التشویق بروندادهای پژوهشی فرم درخواست حق التشویق بروندادهای پژوهشی لینک آخرین به‌روزرسانی : ۱۵ فروردین ۱۴۰۵ دسترسی سریع روابط عمومی",
+          "id": null
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/66ceda57a8b8f-.docx",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-technology-discovery-document-401ad8311fc0"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1747114482-6822d9f222d14-.doc",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-technology-discovery-document-95d01e637ba9"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661505-1662368745-.doc",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-technology-discovery-document-4e82065c7ba0"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661604-1662368790-.doc",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-technology-discovery-document-6c43e3f12869"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661742-1662368853-.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-technology-discovery-document-27320b59ccad"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661756-1662368878-.docx",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-technology-discovery-document-429c7728bed9"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738929-1662369576-.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-technology-discovery-document-7665508fcd69"
         },
         {
           "url": "https://cie.birjandut.ac.ir/file/download/regulation/1765016838-693405062ff92-1403-.pdf?language=fa&subdomain=cie",
           "kind": "document",
           "claim": "1765016838-693405062ff92-1403-",
           "id": "birjand-technology-discovery-document-f317141e2faa"
+        },
+        {
+          "url": "https://birjandut.ac.ir/file/download/download/1771664524-6999748c841dc-.pdf",
+          "kind": "document",
+          "claim": "کتابچه توانمندی های اعضای هیات علمی",
+          "id": "birjand-technology-discovery-document-c184225dcc81"
+        },
+        {
+          "url": "https://birjandut.ac.ir/file/download/download/1766570126-694bb88ef1737-paeez22-nxpowerlite-copy-.pdf",
+          "kind": "document",
+          "claim": "1766570126-694bb88ef1737-paeez22-nxpowerlite-copy-",
+          "id": "birjand-technology-discovery-document-91906061d37f"
+        },
+        {
+          "url": "https://birjandut.ac.ir/file/download/download/1750837533-685ba91d03ad2-1404-..-.pdf",
+          "kind": "document",
+          "claim": "1750837533-685ba91d03ad2-1404-..-",
+          "id": "birjand-technology-discovery-document-1dab24628791"
+        },
+        {
+          "url": "https://birjandut.ac.ir/file/download/download/1743843664-67f0f150859e5-1403-nxpowerlite-copy-.pdf",
+          "kind": "document",
+          "claim": "1743843664-67f0f150859e5-1403-nxpowerlite-copy-",
+          "id": "birjand-technology-discovery-document-26859bc8f793"
+        },
+        {
+          "url": "https://birjandut.ac.ir/file/download/download/1734860732-6767dfbc8fdc0-1403.pdf",
+          "kind": "document",
+          "claim": "1734860732-6767dfbc8fdc0-1403",
+          "id": "birjand-technology-discovery-document-52d77cc66a7d"
         },
         {
           "url": "https://research.birjandut.ac.ir/fa/regulation/293/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA",
@@ -1199,6 +1743,83 @@
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
           "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/18/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA-%DB%B1%DB%B0-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%88%D8%A7%D8%B1%DB%8C%D8%B2-%D9%85%D8%A8%D9%84%D8%BA",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/16/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA-%DB%B8-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/15/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA%DB%B7-%D9%86%DA%A9%D8%A7%D8%AA-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/14/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA-%DB%B6-%D8%AA%D8%B9%D9%87%D8%AF%D9%86%D8%A7%D9%85%D9%87",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/13/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA-%DB%B5-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/12/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA%DB%B4-%D9%86%DA%A9%D8%A7%D8%AA-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%A7%D8%B5%D9%84%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/11/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA-%DB%B3-%DA%AF%D8%B1%D8%AF%D8%B4-%DA%A9%D8%A7%D8%B1-%D9%BE%D8%B3-%D8%A7%D8%B2-%D8%B9%D9%82%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/10/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA-%DB%B2-%D8%B9%D9%82%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D9%86%D9%88%D8%B9-%D8%A8",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/9/%D9%BE%DB%8C%D9%88%D8%B3%D8%AA-%DB%B1-%D8%B9%D9%82%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D9%86%D9%88%D8%B9-%D8%A7%D9%84%D9%81",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/1/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D9%85%D8%AA%D9%82%D8%A7%D8%B6%DB%8C%D8%A7%D9%86-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.birjandut.ac.ir/fa/regulation/23/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1-%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
         }
       ],
       "publicationAdjustment": null,
@@ -1240,6 +1861,39 @@
       "sourceUrl": "https://research.birjandut.ac.ir/fa/regulation/3/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8957894736842105
+    },
+    {
+      "id": "birjand-technology-discovery-unit-industry-6d7812b5dc8d",
+      "universitySlug": "birjand-technology",
+      "nameFa": "معاونت پژوهش و فناوری، دفتر ارتباط با صنعت دانشگاه",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.birjandut.ac.ir/fa/tag/257/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA+%D9%BE%DA%98%D9%88%D9%87%D8%B4+%D9%88+%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%D8%8C+%D8%AF%D9%81%D8%AA%D8%B1+%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7+%D8%A8%D8%A7+%D8%B5%D9%86%D8%B9%D8%AA+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-unit-industry-b53c7a89cd90",
+      "universitySlug": "birjand-technology",
+      "nameFa": "درخواست استفاده متقاضیان فرصت مطالعاتی در جامعه و صنعت - معاونت پژوهش و فناوری",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.birjandut.ac.ir/fa/regulation/1/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D9%85%D8%AA%D9%82%D8%A7%D8%B6%DB%8C%D8%A7%D9%86-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8957894736842105
+    },
+    {
+      "id": "birjand-technology-discovery-unit-research-8cba322b77ed",
+      "universitySlug": "birjand-technology",
+      "nameFa": "برگزاری جلسه مدیران معاونت پژوهش و فناوری با معاون اداری و مالی دانشگاه",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.birjandut.ac.ir/fa/news/2505/%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D8%AC%D9%84%D8%B3%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C-%D9%88-%D9%85%D8%A7%D9%84%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8957894736842105
     }
   ],
   "systems": [],
@@ -1257,11 +1911,9 @@
       "url": "https://research.birjandut.ac.ir/file/download/regulation/1771307536-6994021019e13-.pdf",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1771307536-6994021019e13-.pdf",
       "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/293/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA",
-      "sha256": "59899f800389bc6c32328d60b87d53b1b89ebc715dcfe1be77e32b35a266c3ef",
       "fileName": "1771307536-6994021019e13-.pdf",
       "contentType": "application/pdf",
       "fileSize": 1005144,
-      "archivePath": "birjand-technology/b11c7237b6f0-1771307536-6994021019e13-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1278,11 +1930,9 @@
       "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292239-69d0cf4f3953c-.pdf",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1775292239-69d0cf4f3953c-.pdf",
       "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/295/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%82-%D8%A7%D9%84%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D8%A8%D8%B1%D9%88%D9%86%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-      "sha256": "d7491f94564f417398ce2c74b72b83e9b02d5dd427709492b974c9c46ce1ed3b",
       "fileName": "1775292239-69d0cf4f3953c-.pdf",
       "contentType": "application/pdf",
       "fileSize": 775444,
-      "archivePath": "birjand-technology/4d2bac625539-1775292239-69d0cf4f3953c-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1299,11 +1949,9 @@
       "url": "https://research.birjandut.ac.ir/file/download/regulation/1768815883-696dfd0b39fe2-.pdf",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1768815883-696dfd0b39fe2-.pdf",
       "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/291/%D8%A7%D8%B5%D9%84%D8%A7%D8%AD%DB%8C%D9%87-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "sha256": "75c8a6d9526e02bbc9444430de9fa76bcdb1ca0d6ec9c84b05888b28228782cb",
       "fileName": "1768815883-696dfd0b39fe2-.pdf",
       "contentType": "application/pdf",
       "fileSize": 285688,
-      "archivePath": "birjand-technology/e6a7c0da6749-1768815883-696dfd0b39fe2-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1320,11 +1968,9 @@
       "url": "https://research.birjandut.ac.ir/file/download/regulation/1768795347-696dacd39509a-.pdf",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1768795347-696dacd39509a-.pdf",
       "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/290/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "sha256": "698c0171430f1e0618fc6550818fa0e7832221730e5f12595a54a4b336c143f3",
       "fileName": "1768795347-696dacd39509a-.pdf",
       "contentType": "application/pdf",
       "fileSize": 602073,
-      "archivePath": "birjand-technology/6bdf761d4dd0-1768795347-696dacd39509a-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1341,11 +1987,9 @@
       "url": "https://research.birjandut.ac.ir/file/download/regulation/1763441885-691bfcdd24d07-.pdf",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1763441885-691bfcdd24d07-.pdf",
       "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/284/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%B3%D8%B1%D8%A2%D9%85%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-      "sha256": "cbef6b5158abe76d6eeb03cd8270291f8b3b6251fc967ed10f73757f5f0128a6",
       "fileName": "1763441885-691bfcdd24d07-.pdf",
       "contentType": "application/pdf",
       "fileSize": 965567,
-      "archivePath": "birjand-technology/172e3448c5e2-1763441885-691bfcdd24d07-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1362,11 +2006,9 @@
       "url": "https://research.birjandut.ac.ir/file/download/regulation/1762771921-6911c3d188509-.pdf",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1762771921-6911c3d188509-.pdf",
       "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/283/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%A7%D9%85%D8%B9-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87",
-      "sha256": "b143414b8c59eb4e39fd86527cd877034fb7cea2d31f2369260bdfffba4f35e8",
       "fileName": "1762771921-6911c3d188509-.pdf",
       "contentType": "application/pdf",
       "fileSize": 9209676,
-      "archivePath": "birjand-technology/f003f7e1d38d-1762771921-6911c3d188509-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1383,11 +2025,9 @@
       "url": "https://research.birjandut.ac.ir/file/download/regulation/64e09544ea75f-.pdf",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/64e09544ea75f-.pdf",
       "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/173/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%B0%D8%A8-%D9%88-%D8%A8%D9%87-%DA%A9%D8%A7%D8%B1%DA%AF%DB%8C%D8%B1%DB%8C-%D9%85%D8%AD%D9%82%D9%82%D8%A7%D9%86-%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C",
-      "sha256": "8cced81627f825455af38090bf5df8b8aa88b6f2cac284648e8ecf301f2f2917",
       "fileName": "64e09544ea75f-.pdf",
       "contentType": "application/pdf",
       "fileSize": 1126270,
-      "archivePath": "birjand-technology/277174b409f1-64e09544ea75f-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1404,11 +2044,9 @@
       "url": "https://research.birjandut.ac.ir/file/download/regulation/646069b908508-.pdf",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/646069b908508-.pdf",
       "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/162/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87",
-      "sha256": "5c414cc8dc57b552cb9f56bc3047aef776c50470e2b1980a4947dc16222d18f9",
       "fileName": "646069b908508-.pdf",
       "contentType": "application/pdf",
       "fileSize": 129838,
-      "archivePath": "birjand-technology/4be1b59b0d67-646069b908508-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1425,11 +2063,9 @@
       "url": "https://research.birjandut.ac.ir/file/download/regulation/1662739134-1662369690-.pdf",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662739134-1662369690-.pdf",
       "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/24/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C-%D9%88-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87-%D8%A8%D8%A7-%D8%AA%D9%82%D9%84%D8%A8-%D8%AF%D8%B1-%D8%AA%D9%87%DB%8C%D9%87-%D8%A2%D8%AB%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "a0019e17d098ef4f56a6321491000d9a80f3d9ac91c2215613479d96c23cd69d",
       "fileName": "1662739134-1662369690-.pdf",
       "contentType": "application/pdf",
       "fileSize": 426697,
-      "archivePath": "birjand-technology/76aa9ca5c019-1662739134-1662369690-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1446,11 +2082,9 @@
       "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661460-1662368597-.pdf",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662661460-1662368597-.pdf",
       "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/3/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA",
-      "sha256": "01e6739ac1277fb9717f782a0010607bf79b25d18ec4abca131153347421c5c3",
       "fileName": "1662661460-1662368597-.pdf",
       "contentType": "application/pdf",
       "fileSize": 1177646,
-      "archivePath": "birjand-technology/51c5d5a2e922-1662661460-1662368597-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1467,11 +2101,9 @@
       "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661829-1662368934-aein.pdf",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662661829-1662368934-aein.pdf",
       "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/8/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B9%D9%82%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "8ea5bf470c8a7802bcca2a419e49289fd0b5dfbbf35d1d90c628e195d84ef4e6",
       "fileName": "1662661829-1662368934-aein.pdf",
       "contentType": "application/pdf",
       "fileSize": 166073,
-      "archivePath": "birjand-technology/316772f4968a-1662661829-1662368934-aein.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1488,11 +2120,9 @@
       "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292291-69d0cf83139cb-.docx",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1775292291-69d0cf83139cb-.docx",
       "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/296/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AD%D9%82-%D8%A7%D9%84%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D8%A8%D8%B1%D9%88%D9%86%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "sha256": "741546e43a291d84b704c022aa7492de9f7520130218db20bc11157c70917749",
       "fileName": "1775292291-69d0cf83139cb-.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "fileSize": 18922,
-      "archivePath": "birjand-technology/1b4ec106b190-1775292291-69d0cf83139cb-.docx",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1530,11 +2160,9 @@
       "url": "https://research.birjandut.ac.ir/file/download/regulation/1662739165-1662369806-.pdf",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662739165-1662369806-.pdf",
       "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/25/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87",
-      "sha256": "4ed9c93dbf2ad1c1024da3c8431cfeeaa52b77912ed4b3b34aeda461a88e22d0",
       "fileName": "1662739165-1662369806-.pdf",
       "contentType": "application/pdf",
       "fileSize": 191228,
-      "archivePath": "birjand-technology/c3b55f36dffc-1662739165-1662369806-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1802,12 +2430,10 @@
       "lastVerified": "2026-08-12",
       "url": "https://research.birjandut.ac.ir/file/download/regulation/1771307536-6994021019e13-.pdf?language=fa&subdomain=research",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1771307536-6994021019e13-.pdf?language=fa&subdomain=research",
-      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-      "sha256": "59899f800389bc6c32328d60b87d53b1b89ebc715dcfe1be77e32b35a266c3ef",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-circularNo",
       "fileName": "1771307536-6994021019e13-.pdf",
       "contentType": "application/pdf",
       "fileSize": 1005144,
-      "archivePath": "birjand-technology/6bdaae848816-1771307536-6994021019e13-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1823,12 +2449,10 @@
       "lastVerified": "2026-08-12",
       "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292291-69d0cf83139cb-.docx?language=fa&subdomain=research",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1775292291-69d0cf83139cb-.docx?language=fa&subdomain=research",
-      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-      "sha256": "741546e43a291d84b704c022aa7492de9f7520130218db20bc11157c70917749",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-circularNo",
       "fileName": "1775292291-69d0cf83139cb-.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "fileSize": 18922,
-      "archivePath": "birjand-technology/b482563ce1d5-1775292291-69d0cf83139cb-.docx",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1844,12 +2468,485 @@
       "lastVerified": "2026-08-12",
       "url": "https://research.birjandut.ac.ir/file/download/regulation/1775292239-69d0cf4f3953c-.pdf?language=fa&subdomain=research",
       "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1775292239-69d0cf4f3953c-.pdf?language=fa&subdomain=research",
-      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-      "sha256": "d7491f94564f417398ce2c74b72b83e9b02d5dd427709492b974c9c46ce1ed3b",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-circularNo",
       "fileName": "1775292239-69d0cf4f3953c-.pdf",
       "contentType": "application/pdf",
       "fileSize": 775444,
-      "archivePath": "birjand-technology/0aab2e4324c8-1775292239-69d0cf4f3953c-.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-c55fc7c3fb3c",
+      "universitySlug": "birjand-technology",
+      "title": "7 شیوه نامه فرصت مطالعاتی در جامعه و صنعت فرم ها و آیین نامه ها",
+      "type": "آیین‌نامه",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661460-1662368597-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662661460-1662368597-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-title",
+      "fileName": "1662661460-1662368597-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1177646,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-80f18a6a60f5",
+      "universitySlug": "birjand-technology",
+      "title": "12 دستورالعمل اجرایی آئین نامه تخصیص پژوهانه فرم ها و آیین نامه ها",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662739165-1662369806-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662739165-1662369806-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-circularNo",
+      "fileName": "1662739165-1662369806-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 191228,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-54c7b78bd3a4",
+      "universitySlug": "birjand-technology",
+      "title": "2 آیین نامه جامع پژوهانه آیین نامه ها",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1762771921-6911c3d188509-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1762771921-6911c3d188509-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=title",
+      "fileName": "1762771921-6911c3d188509-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 9209676,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-84fb3c90b010",
+      "universitySlug": "birjand-technology",
+      "title": "1 قابل توجه اعضای محترم هیأت علمی؛ راهنمای استفاده از مگاپیپر آیین نامه ها",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/66ceda57a8b8f-.docx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/66ceda57a8b8f-.docx?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-title",
+      "fileName": "66ceda57a8b8f-.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 2618854,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-6c8f83007f73",
+      "universitySlug": "birjand-technology",
+      "title": "2 پیوست ۸-پروپوزال خارج دانشگاهی فرم های پژوهشی",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738695-1662369231-p8.docx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662738695-1662369231-p8.docx?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-categoryId",
+      "fileName": "1662738695-1662369231-p8.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 55924,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-b840bc4469e2",
+      "universitySlug": "birjand-technology",
+      "title": "1 پیوست۷- نکات پروپوزال فرم های پژوهشی",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738658-1662369195-p7.docx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662738658-1662369195-p7.docx?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+      "fileName": "1662738658-1662369195-p7.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 22980,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-76dfc961f5f9",
+      "universitySlug": "birjand-technology",
+      "title": "14 درخواست استفاده متقاضیان فرصت مطالعاتی در جامعه و صنعت فرم ها و آیین نامه ها",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662565769-1662370245-applicants-apply-for-study-opportunities-in-the-community-and-industry.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662565769-1662370245-applicants-apply-for-study-opportunities-in-the-community-and-industry.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-title",
+      "fileName": "1662565769-1662370245-applicants-apply-for-study-opportunities-in-the-community-and-industry.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 34350,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-f471948cb5b7",
+      "universitySlug": "birjand-technology",
+      "title": "10 دستورالعمل ماموریت پژوهشی فرم ها و آیین نامه ها",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661742-1662368853-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662661742-1662368853-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-title",
+      "fileName": "1662661742-1662368853-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1177646,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-347fcadefd47",
+      "universitySlug": "birjand-technology",
+      "title": "1 آیین‌نامه جذب و به‌کارگیری محققان پسادکتری آیین نامه ها",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/64e09544ea75f-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/64e09544ea75f-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=approvalDate",
+      "fileName": "64e09544ea75f-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1126270,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-a05c3a95fb7b",
+      "universitySlug": "birjand-technology",
+      "title": "14 دستور العمل نحوه بررسی تخلفات پژوهشی فرم ها و آیین نامه ها",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662739095-1662369647-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662739095-1662369647-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-circularNo",
+      "fileName": "1662739095-1662369647-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 3938815,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-97900cbfec61",
+      "universitySlug": "birjand-technology",
+      "title": "15 دستور العمل استفاده از خدمات آزمایشگاهی - کارگاهی دانشگاه فرم ها و آیین نامه ها",
+      "type": "سند",
+      "topic": "آزمایشگاه",
+      "taxonomy": "laboratory",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738929-1662369576-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662738929-1662369576-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-circularNo",
+      "fileName": "1662738929-1662369576-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 146447,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-5ff98d445884",
+      "universitySlug": "birjand-technology",
+      "title": "16 پژوهشگر برتر فرم ها و آیین نامه ها",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738893-1662369522-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662738893-1662369522-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-circularNo",
+      "fileName": "1662738893-1662369522-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 74120,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-3b47be426750",
+      "universitySlug": "birjand-technology",
+      "title": "1 آئین نامه جشنواره تجلیل از پژوهشگران و فناوران برتر آیین نامه ها",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738861-1662369494-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662738861-1662369494-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=title",
+      "fileName": "1662738861-1662369494-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1120299,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-c9422a77c47e",
+      "universitySlug": "birjand-technology",
+      "title": "1 پیوست ۱۰- نامه درخواست واریز مبلغ فرم های پژوهشی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738746-1662369347-p10.docx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662738746-1662369347-p10.docx?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-categoryId",
+      "fileName": "1662738746-1662369347-p10.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 24420,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-4febbc4dd470",
+      "universitySlug": "birjand-technology",
+      "title": "2 پیوست۴-نکات قرارداد اصلی فرم های پژوهشی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661905-1662369115-p4.docx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662661905-1662369115-p4.docx?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+      "fileName": "1662661905-1662369115-p4.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 23329,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-3bac5c4b0625",
+      "universitySlug": "birjand-technology",
+      "title": "2 پیوست ۲-عقد قرارداد طرح های تحقیقاتی نوع ب فرم های پژوهشی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661872-1662369010-p2.docx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662661872-1662369010-p2.docx?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+      "fileName": "1662661872-1662369010-p2.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 249336,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-9b0faf48fadd",
+      "universitySlug": "birjand-technology",
+      "title": "1 پیوست ۱-عقد قرارداد طرح های تحقیقاتی نوع الف فرم های پژوهشی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661852-1662368978-p1.docx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662661852-1662368978-p1.docx?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+      "fileName": "1662661852-1662368978-p1.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 247014,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-09ce017b957d",
+      "universitySlug": "birjand-technology",
+      "title": "5 فرم الف فرم ها و آیین نامه ها",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661505-1662368745-.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662661505-1662368745-.doc?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-title",
+      "fileName": "1662661505-1662368745-.doc",
+      "contentType": "application/msword",
+      "fileSize": 548352,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-4cee73b22b91",
+      "universitySlug": "birjand-technology",
+      "title": "4 فرم ب فرم ها و آیین نامه ها",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661604-1662368790-.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662661604-1662368790-.doc?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-title",
+      "fileName": "1662661604-1662368790-.doc",
+      "contentType": "application/msword",
+      "fileSize": 550400,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-b118000f166b",
+      "universitySlug": "birjand-technology",
+      "title": "3 فرم درخواست استفاده از ماموریت پژوهشی فرم ها و آیین نامه ها",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661756-1662368878-.docx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662661756-1662368878-.docx?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-title",
+      "fileName": "1662661756-1662368878-.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 13565,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-4070a4d59d01",
+      "universitySlug": "birjand-technology",
+      "title": "2 اعلام اولویت های پژوهشی اداره کل منابع طبیعی وآبخیز داری خراسان جنوبی نیازهای پژوهشی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1781933963-6a36278b8ca5d-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1781933963-6a36278b8ca5d-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation",
+      "fileName": "1781933963-6a36278b8ca5d-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 512846,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-5f5050e4857f",
+      "universitySlug": "birjand-technology",
+      "title": "7 شیوه نامه اجرایی انتخاب اعضای هیئت علمی سرآمد پژوهشی دانشگاه صنعتی بیرجند آیین نامه ها",
+      "type": "آیین‌نامه",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1763441885-691bfcdd24d07-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1763441885-691bfcdd24d07-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/1/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7?sort=-circularNo",
+      "fileName": "1763441885-691bfcdd24d07-.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 965567,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-f845c8f319d8",
+      "universitySlug": "birjand-technology",
+      "title": "6 پیوست ۶- تعهدنامه فرم های پژوهشی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662738624-1662369170-p6.docx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662738624-1662369170-p6.docx?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+      "fileName": "1662738624-1662369170-p6.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 34983,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-06deff578a95",
+      "universitySlug": "birjand-technology",
+      "title": "5 پیوست ۵-قرارداد داخلی فرم های پژوهشی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661927-1662369139-p5.docx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662661927-1662369139-p5.docx?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+      "fileName": "1662661927-1662369139-p5.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 247151,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "birjand-technology-discovery-document-788bf25ef391",
+      "universitySlug": "birjand-technology",
+      "title": "3 پیوست ۳-گردش کار پس از عقد قرارداد طرح های تحقیقاتی فرم های پژوهشی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.birjandut.ac.ir/file/download/regulation/1662661892-1662369043-p3.docx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.birjandut.ac.ir/file/download/regulation/1662661892-1662369043-p3.docx?language=fa&subdomain=research",
+      "parentUrl": "https://research.birjandut.ac.ir/fa/regulation/category/43/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+      "fileName": "1662661892-1662369043-p3.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 306000,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     }

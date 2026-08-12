@@ -89,7 +89,7 @@
     ],
     "discoveryCrawler": {
       "lastRun": "2026-08-12",
-      "promotedSources": 85,
+      "promotedSources": 184,
       "socialEvidenceRemoved": true
     }
   },
@@ -175,9 +175,9 @@
       "documentsRegulations": "verified"
     },
     "auditEvidenceCoverage": 88,
-    "unitsFound": 7,
+    "unitsFound": 22,
     "systemsFound": 2,
-    "documentsFound": 21,
+    "documentsFound": 44,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -193,7 +193,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 60,
+      "sourceCount": 106,
       "sources": [
         {
           "url": "https://sut.ac.ir/research/fa/",
@@ -554,6 +554,301 @@
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/17/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%B7%D8%B1%D8%AD-%D8%AF%D8%A7%D8%AE%D9%84-%D8%AF%D8%B1-%D8%B4%D9%88%D8%B1%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/21/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/20/%D9%81%D8%B1%D9%85-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%85%D8%B1%DA%A9%D8%B2-%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/page/878/%D8%B1%DB%8C%D8%A7%D8%B3%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/page/879/%D8%B1%DB%8C%D8%A7%D8%B3%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/939/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%B5%D9%86%D8%B9%D8%AA-%D9%88-%D8%AC%D8%A7%D9%85%D8%B9%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/88/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C-%D9%BE%D8%A7%DB%8C%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C-%D8%A8%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/83/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%B4%D8%B1%DA%A9%D8%AA-%D8%AF%D8%B1-%DA%A9%D9%86%D9%81%D8%B1%D8%A7%D9%86%D8%B3-%D9%87%D8%A7%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/person/category/198/%D9%87%D9%85%DA%A9%D8%A7%D8%B1%D8%A7%D9%86-%D8%A8%D8%AE%D8%B4-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/person/category/197/%D9%87%D9%85%DA%A9%D8%A7%D8%B1%D8%A7%D9%86-%D8%A8%D8%AE%D8%B4-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "آزمایشگاه‌ها — کشف خودکار",
+          "id": null,
+          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=circularNo",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/25/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%B9%D9%85%D9%88%D9%85%DB%8C?sort=circularNo",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/152/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C-%D9%88-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87-%D8%A8%D8%A7-%D8%AA%D9%82%D9%84%D8%A8-%D8%AF%D8%B1-%D8%AA%D9%87%DB%8C%D9%87-%D8%A2%D8%AB%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C?sort=circularNo",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/25/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%B9%D9%85%D9%88%D9%85%DB%8C?sort=-circularNo",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/152/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C-%D9%88-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87-%D8%A8%D8%A7-%D8%AA%D9%82%D9%84%D8%A8-%D8%AF%D8%B1-%D8%AA%D9%87%DB%8C%D9%87-%D8%A2%D8%AB%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=title",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=categoryId",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=outdated",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=approvalDate",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=-title",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=-categoryId",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=-outdated",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=-approvalDate",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=title",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=categoryId",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=outdated",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -571,7 +866,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 7,
+      "sourceCount": 22,
       "sources": [
         {
           "url": "https://library.sut.ac.ir/",
@@ -635,6 +930,141 @@
           "unitType": "research",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/page/879/%D8%B1%DB%8C%D8%A7%D8%B3%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "unit",
+          "claim": "ریاست کتابخانه مرکزی - معاونت پژوهش و فناوری",
+          "id": "sahand-discovery-unit-library-740c9ece45b1",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/person/category/198/%D9%87%D9%85%DA%A9%D8%A7%D8%B1%D8%A7%D9%86-%D8%A8%D8%AE%D8%B4-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "unit",
+          "claim": "همکاران بخش کتابخانه مرکزی",
+          "id": "sahand-discovery-unit-library-45ec59d3daf3",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/page/878/%D8%B1%DB%8C%D8%A7%D8%B3%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "unit",
+          "claim": "ریاست آزمایشگاه مرکزی - معاونت پژوهش و فناوری",
+          "id": "sahand-discovery-unit-laboratory-e8aaf92c8ea3",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/person/category/197/%D9%87%D9%85%DA%A9%D8%A7%D8%B1%D8%A7%D9%86-%D8%A8%D8%AE%D8%B4-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "unit",
+          "claim": "همکاران بخش آزمایشگاه مرکزی",
+          "id": "sahand-discovery-unit-laboratory-63e252d833c8",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/939/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%B5%D9%86%D8%B9%D8%AA-%D9%88-%D8%AC%D8%A7%D9%85%D8%B9%D9%87",
+          "kind": "unit",
+          "claim": "دستورالعمل وزارتی فرصت مطالعاتی در صنعت و جامعه - معاونت پژوهش و فناوری",
+          "id": "sahand-discovery-unit-industry-444a54b892c0",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=circularNo",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+          "id": "sahand-discovery-unit-research-72dc69220bc6",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+          "id": "sahand-discovery-unit-research-63048eb2abb0",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+          "id": "sahand-discovery-unit-research-85fdb7bede56",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+          "id": "sahand-discovery-unit-research-c9be1610abfb",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+          "id": "sahand-discovery-unit-research-ab5563e55ebf",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+          "id": "sahand-discovery-unit-research-890e3290751c",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+          "id": "sahand-discovery-unit-research-9f0fdc9f55d2",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-categoryId",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+          "id": "sahand-discovery-unit-research-2c51233f722d",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-outdated",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+          "id": "sahand-discovery-unit-research-afd19cd00e0e",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-approvalDate",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+          "id": "sahand-discovery-unit-research-8d1c6d55048a",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         }
       ],
       "publicationAdjustment": null,
@@ -654,6 +1084,12 @@
       "reviewedAt": "2026-08-12",
       "sourceCount": 6,
       "sources": [
+        {
+          "url": "https://sut.ac.ir/research/fa/person/category/198/%D9%87%D9%85%DA%A9%D8%A7%D8%B1%D8%A7%D9%86-%D8%A8%D8%AE%D8%B4-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
         {
           "url": "https://library.sut.ac.ir/",
           "kind": "portal-document-reaudit",
@@ -679,25 +1115,20 @@
           "relationshipEvidenceUrl": null
         },
         {
+          "url": "https://sut.ac.ir/research/fa/page/879/%D8%B1%DB%8C%D8%A7%D8%B3%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "unit",
+          "claim": "ریاست کتابخانه مرکزی - معاونت پژوهش و فناوری",
+          "id": "sahand-discovery-unit-library-740c9ece45b1",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
           "url": "https://sut.ac.ir/research/fa/regulation/category/25/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%B9%D9%85%D9%88%D9%85%DB%8C",
           "kind": "system",
           "claim": "آیین نامه نشریات علمی وزارت - معاونت پژوهش و فناوری",
           "id": "sahand-discovery-system-28a069530b77",
           "systemCategory": "journals"
-        },
-        {
-          "url": "https://library.sut.ac.ir/wp-content/uploads/2025/04/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AB%D8%A8%D8%AA-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%D9%87-%D8%AF%D8%B1-%D8%B3%D8%A7%DB%8C%D8%AA-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%AF%D8%A7%DA%A9.pdf",
-          "kind": "research-review-specific",
-          "claim": "راهنمای ثبت پایان نامه و پروپوزال در ایرانداک",
-          "id": null,
-          "sourceLabel": "راهنمای ثبت پایان نامه و پروپوزال در ایرانداک"
-        },
-        {
-          "url": "https://library.sut.ac.ir/wp-content/uploads/2025/11/%D9%81%D8%B1%D9%85-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87.doc",
-          "kind": "research-review-specific",
-          "claim": "هزینه چاپ و تکثیر پایان نامه",
-          "id": null,
-          "sourceLabel": "هزینه چاپ و تکثیر پایان نامه"
         }
       ],
       "publicationAdjustment": null,
@@ -711,12 +1142,18 @@
       "iscCategory": "صنعتی",
       "iscRank": 8,
       "dimension": "laboratories",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 1,
+      "sourceCount": 3,
       "sources": [
+        {
+          "url": "https://sut.ac.ir/research/fa/person/category/197/%D9%87%D9%85%DA%A9%D8%A7%D8%B1%D8%A7%D9%86-%D8%A8%D8%AE%D8%B4-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
+        },
         {
           "url": "https://sut.ac.ir/research/fa/regulation/61/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%A7%D8%A6%D9%87-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%A9%D8%AF%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-%D8%B3%D9%87%D9%86%D8%AF-%D8%A8%D9%87-%D8%B3%D8%A7%DB%8C%D8%B1-%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D8%AF%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%D9%85%D8%AA%D9%82%D8%A7%D8%B6%DB%8C%D8%A7%D9%86-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
           "kind": "unit",
@@ -725,10 +1162,19 @@
           "unitType": "laboratory",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/page/878/%D8%B1%DB%8C%D8%A7%D8%B3%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "unit",
+          "claim": "ریاست آزمایشگاه مرکزی - معاونت پژوهش و فناوری",
+          "id": "sahand-discovery-unit-laboratory-e8aaf92c8ea3",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -742,13 +1188,22 @@
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 3,
+      "sourceCount": 5,
       "sources": [
         {
           "url": "https://sut.ac.ir/research/fa/regulation/86/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%B5%D9%86%D8%B9%D8%AA-%D9%88-%D8%AC%D8%A7%D9%85%D8%B9%D9%87",
           "kind": "unit",
           "claim": "شیوه نامه فرصت مطالعاتی در صنعت و جامعه - معاونت پژوهش و فناوری",
           "id": "sahand-discovery-unit-industry-0fc94579c7ba",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/939/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%B5%D9%86%D8%B9%D8%AA-%D9%88-%D8%AC%D8%A7%D9%85%D8%B9%D9%87",
+          "kind": "unit",
+          "claim": "دستورالعمل وزارتی فرصت مطالعاتی در صنعت و جامعه - معاونت پژوهش و فناوری",
+          "id": "sahand-discovery-unit-industry-444a54b892c0",
           "unitType": "industry",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
@@ -766,6 +1221,13 @@
           "claim": "پرتال پژوهش و فناوری 1",
           "id": null,
           "sourceLabel": "پرتال پژوهش و فناوری 1"
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1783485068-6a4dd28ca134e-.pdf",
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه فرصت مطالعاتی در صنعت و جامعه آیین نامه های پژوهشی اعضای هیات علمی شیوه نامه فرصت مطالعاتی در صنعت و جامعه لینک تاریخ تصویب : ۳۱ خرداد ۱۴۰۵ آخرین به‌روزرسانی : ۱۷ تیر ۱۴۰۵ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null,
+          "sourceLabel": "شیوه نامه فرصت مطالعاتی در صنعت و جامعه آیین نامه های پژوهشی اعضای هیات علمی شیوه نامه فرصت مطالعاتی در صنعت و جامعه لینک تاریخ تصویب : ۳۱ خرداد ۱۴۰۵ آخرین به‌روزرسانی : ۱۷ تیر ۱۴۰۵ دسترسی سریع اداره تحصیلات تکمیلی"
         }
       ],
       "publicationAdjustment": null,
@@ -832,20 +1294,8 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 57,
+      "sourceCount": 114,
       "sources": [
-        {
-          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
         {
           "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=-circularNo",
           "kind": "portal-document-reaudit",
@@ -853,31 +1303,7 @@
           "id": null
         },
         {
-          "url": "https://sut.ac.ir/research/fa/regulation/category/5/%D9%81%D8%B1%D9%85%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87?sort=circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/research/fa/regulation/category/6/%D9%81%D8%B1%D9%85%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87?sort=circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/research/fa/regulation/category/5/%D9%81%D8%B1%D9%85%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87?sort=-circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/research/fa/regulation/category/5/%D9%81%D8%B1%D9%85%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/research/fa/regulation/category/6/%D9%81%D8%B1%D9%85%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -901,21 +1327,303 @@
           "id": null
         },
         {
-          "url": "https://sut.ac.ir/research/fa/regulation/category/24/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%85%D9%86%D8%B3%D9%88%D8%AE-%D8%B4%D8%AF%D9%87",
+          "url": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://sut.ac.ir/research/fa/regulation",
+          "url": "https://sut.ac.ir/research/fa/regulation/category/25/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%B9%D9%85%D9%88%D9%85%DB%8C?sort=circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://library.sut.ac.ir/",
+          "url": "https://sut.ac.ir/research/fa/regulation/category/152/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C-%D9%88-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87-%D8%A8%D8%A7-%D8%AA%D9%82%D9%84%D8%A8-%D8%AF%D8%B1-%D8%AA%D9%87%DB%8C%D9%87-%D8%A2%D8%AB%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C?sort=circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/25/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%B9%D9%85%D9%88%D9%85%DB%8C?sort=-circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/152/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C-%D9%88-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87-%D8%A8%D8%A7-%D8%AA%D9%82%D9%84%D8%A8-%D8%AF%D8%B1-%D8%AA%D9%87%DB%8C%D9%87-%D8%A2%D8%AB%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=-title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=-categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=-outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=-approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1748164948-6832e154b780a-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه جامع هزینه کرد پژوهانه (گرنت) آیین نامه های پژوهشی اعضای هیات علمی شیوه نامه جامع هزینه کرد پژوهانه (گرنت) لینک آخرین به‌روزرسانی : ۳۰ خرداد ۱۴۰۵ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1784718993-6a60a69195ff2-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه جامع اعطای پژوهانه (گرنت) آیین نامه های پژوهشی اعضای هیات علمی شیوه نامه جامع اعطای پژوهانه (گرنت) لینک تاریخ تصویب : ۲۶ مهر ۱۴۰۴ آخرین به‌روزرسانی : ۳۱ تیر ۱۴۰۵ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1783485068-6a4dd28ca134e-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه فرصت مطالعاتی در صنعت و جامعه آیین نامه های پژوهشی اعضای هیات علمی شیوه نامه فرصت مطالعاتی در صنعت و جامعه لینک تاریخ تصویب : ۳۱ خرداد ۱۴۰۵ آخرین به‌روزرسانی : ۱۷ تیر ۱۴۰۵ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1748164948-6832e154b780a-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "5 شیوه نامه جامع هزینه کرد پژوهانه (گرنت) آیین نامه های پژوهشی اعضای هیات علمی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1784718993-6a60a69195ff2-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "2 شیوه نامه جامع اعطای پژوهانه (گرنت) آیین نامه های پژوهشی اعضای هیات علمی ۲۶ مهر ۱۴۰۴",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1782915662-6a45224e0a0b9-5-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6564afec279a8-616.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه حمایت از شرکتهای دانش بنیان دانشگاه آیین نامه های پژوهشی عمومی شیوه نامه حمایت از شرکتهای دانش بنیان دانشگاه لینک آخرین به‌روزرسانی : ۰۶ آذر ۱۴۰۲ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6564b06a9a6a7-600.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1783149477-6a48b3a56d75f-.zip",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل وزارتی فرصت مطالعاتی در صنعت و جامعه آیین نامه های پژوهشی اعضای هیات علمی دستورالعمل وزارتی فرصت مطالعاتی در صنعت و جامعه لینک آخرین به‌روزرسانی : ۱۳ تیر ۱۴۰۵ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/65639fd6b8dda-f13.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 فرم درخواست بررسی طرح داخل در شورای پژوهشی فرم های مربوط به مدیریت پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6563a39e37b16-itcompuetrservices.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 فرم درخواست خدمات کامپیوتری فرم های خدمات کامپیوتری",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6563a37f505ec-mohasebatpishrafte-form.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "2 فرم استفاده از خدمات مرکز محاسبات پیشرفته فرم های خدمات کامپیوتری",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1783485068-6a4dd28ca134e-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "7 شیوه نامه فرصت مطالعاتی در صنعت و جامعه آیین نامه های پژوهشی اعضای هیات علمی ۳۱ خرداد ۱۴۰۵",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6564b1a77b270-forsatk.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه فرصت مطالعاتی خارج از کشور آیین نامه های پژوهشی اعضای هیات علمی آیین نامه فرصت مطالعاتی خارج از کشور لینک آخرین به‌روزرسانی : ۲۴ خرداد ۱۴۰۵ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/65639fd6b8dda-f13.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست بررسی طرح داخل در شورای پژوهشی فرم های مربوط به مدیریت پژوهشی فرم درخواست بررسی طرح داخل در شورای پژوهشی لینک آخرین به‌روزرسانی : ۰۵ آذر ۱۴۰۲ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6563a39e37b16-itcompuetrservices.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست خدمات کامپیوتری فرم های خدمات کامپیوتری فرم درخواست خدمات کامپیوتری لینک آخرین به‌روزرسانی : ۰۵ آذر ۱۴۰۲ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6563a37f505ec-mohasebatpishrafte-form.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم استفاده از خدمات مرکز محاسبات پیشرفته فرم های خدمات کامپیوتری فرم استفاده از خدمات مرکز محاسبات پیشرفته لینک آخرین به‌روزرسانی : ۰۵ آذر ۱۴۰۲ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1784795424-6a61d120247bb-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل اعطای پایه تشویقی به اعضای هیات علمی آیین نامه های پژوهشی اعضای هیات علمی دستورالعمل اعطای پایه تشویقی به اعضای هیات علمی لینک آخرین به‌روزرسانی : ۰۱ مرداد ۱۴۰۵ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6564b1e83d054-504.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1783149477-6a48b3a56d75f-.zip?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 دستورالعمل وزارتی فرصت مطالعاتی در صنعت و جامعه آیین نامه های پژوهشی اعضای هیات علمی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1782915662-6a45224e0a0b9-5-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "8 شیوه‌نامه تشویق مقالات چاپ شده در مجلات معتبر بین‌المللی و داخلی آیین نامه های پژوهشی اعضای هیات علمی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6564afec279a8-616.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 شیوه نامه حمایت از شرکتهای دانش بنیان دانشگاه آیین نامه های پژوهشی عمومی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6564b0f682b42-mp.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه فرصت تحقیقاتی (ماموریت پژوهشی) خارج از کشور آیین نامه های پژوهشی اعضای هیات علمی آیین نامه فرصت تحقیقاتی (ماموریت پژوهشی) خارج از کشور لینک آخرین به‌روزرسانی : ۲۴ خرداد ۱۴۰۵ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1740980946-67c542d291c6f-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه بالاسری طرح های پژوهشی آیین نامه های پژوهشی اعضای هیات علمی آیین نامه بالاسری طرح های پژوهشی لینک آخرین به‌روزرسانی : ۲۴ خرداد ۱۴۰۵ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1735361861-676f854570bd8-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه برگزاری دوره پژوهشی پسا دکتری آیین نامه های پژوهشی اعضای هیات علمی آیین نامه برگزاری دوره پژوهشی پسا دکتری لینک آخرین به‌روزرسانی : ۲۴ خرداد ۱۴۰۵ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6564b17e35881-0711.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه بکارگیری دستیار پژوهشی آیین نامه های پژوهشی اعضای هیات علمی آیین نامه بکارگیری دستیار پژوهشی لینک آخرین به‌روزرسانی : ۲۴ خرداد ۱۴۰۵ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6564b151ce807-503.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین‌نامه طرح‌های پژوهشی داخلی آیین نامه های پژوهشی اعضای هیات علمی آیین‌نامه طرح‌های پژوهشی داخلی لینک آخرین به‌روزرسانی : ۰۶ آذر ۱۴۰۲ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6564af893f996-613.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین‌‌نامه تاسیس و ارزیابی عملکرد واحدهای پژوهشی دانشگاه آیین نامه های پژوهشی عمومی آیین‌‌نامه تاسیس و ارزیابی عملکرد واحدهای پژوهشی دانشگاه لینک آخرین به‌روزرسانی : ۰۶ آذر ۱۴۰۲ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6564af42a76bb-pub.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه انتشارات دانشگاه صنعتی سهند آیین نامه های پژوهشی عمومی آیین نامه انتشارات دانشگاه صنعتی سهند لینک آخرین به‌روزرسانی : ۰۶ آذر ۱۴۰۲ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6564af16dc88f-615.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه نشریات علمی وزارت آیین نامه های پژوهشی عمومی آیین نامه نشریات علمی وزارت لینک آخرین به‌روزرسانی : ۰۶ آذر ۱۴۰۲ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6564ae8902800-aiinnamehresaledoctor.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه برنامه مشترک دکترای وزارت نیرو و دانشگاهها آیین نامه های پژوهشی عمومی آیین نامه برنامه مشترک دکترای وزارت نیرو و دانشگاهها لینک آخرین به‌روزرسانی : ۰۶ آذر ۱۴۰۲ دسترسی سریع اداره تحصیلات تکمیلی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/1762242628-6909b04415dc3-1917878-3-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
           "id": null
         },
         {
@@ -927,122 +1635,68 @@
         {
           "url": "https://sut.ac.ir/file/download/regulation/1762242701-6909b08d99ae2-1917878-1-.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "لینک",
           "id": null
         },
         {
-          "url": "https://sut.ac.ir/file/download/regulation/6564b1a77b270-forsatk.pdf",
+          "url": "https://sut.ac.ir/file/download/regulation/6564b1a77b270-forsatk.pdf?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "10 آیین نامه فرصت مطالعاتی خارج از کشور آیین نامه های پژوهشی اعضای هیات علمی",
           "id": null
         },
         {
-          "url": "https://sut.ac.ir/file/download/regulation/6564b0f682b42-mp.pdf",
+          "url": "https://sut.ac.ir/file/download/regulation/1784795424-6a61d120247bb-.pdf?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "6 دستورالعمل اعطای پایه تشویقی به اعضای هیات علمی آیین نامه های پژوهشی اعضای هیات علمی",
           "id": null
         },
         {
-          "url": "https://sut.ac.ir/file/download/regulation/1748164948-6832e154b780a-.pdf",
+          "url": "https://sut.ac.ir/file/download/regulation/6564b1e83d054-504.pdf?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "9 دستورالعمل شرکت در کنفرانس های خارج از کشور اعضای هیات علمی آیین نامه های پژوهشی اعضای هیات علمی",
           "id": null
         },
         {
-          "url": "https://sut.ac.ir/file/download/regulation/1784718993-6a60a69195ff2-.pdf",
+          "url": "https://sut.ac.ir/file/download/regulation/1762242701-6909b08d99ae2-1917878-1-.pdf?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/file/download/regulation/1783485068-6a4dd28ca134e-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/file/download/regulation/1740980946-67c542d291c6f-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/file/download/regulation/1735361861-676f854570bd8-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/file/download/regulation/1782915662-6a45224e0a0b9-5-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/file/download/regulation/6564b17e35881-0711.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/file/download/regulation/6564b151ce807-503.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/file/download/regulation/6564afec279a8-616.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/file/download/regulation/6564af893f996-613.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/file/download/regulation/6564af42a76bb-pub.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://sut.ac.ir/file/download/regulation/6564af16dc88f-615.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "2 دستورالعمل ماده 5 آیین نامه اجرایی قانون پیشگیری و مقابله با تقلب در تهیه آثار علمی آیین نامه اجرایی قانون پیشگیری و مقابله با تقلب در تهیه آثار علمی",
           "id": null
         },
         {
           "url": "https://sut.ac.ir/file/download/regulation/6564aedee1124-614.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "لینک",
           "id": null
         },
         {
-          "url": "https://sut.ac.ir/file/download/regulation/6564ae8902800-aiinnamehresaledoctor.pdf",
+          "url": "https://sut.ac.ir/file/download/regulation/6564b0f682b42-mp.pdf?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "13 آیین نامه فرصت تحقیقاتی (ماموریت پژوهشی) خارج از کشور آیین نامه های پژوهشی اعضای هیات علمی",
           "id": null
         },
         {
-          "url": "https://sut.ac.ir/file/download/regulation/1762242628-6909b04415dc3-1917878-3-.pdf",
+          "url": "https://sut.ac.ir/file/download/regulation/1740980946-67c542d291c6f-.pdf?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "3 آیین نامه بالاسری طرح های پژوهشی آیین نامه های پژوهشی اعضای هیات علمی",
           "id": null
         },
         {
-          "url": "https://sut.ac.ir/file/download/regulation/6564b06a9a6a7-600.pdf",
+          "url": "https://sut.ac.ir/file/download/regulation/1735361861-676f854570bd8-.pdf?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "claim": "4 آیین نامه برگزاری دوره پژوهشی پسا دکتری آیین نامه های پژوهشی اعضای هیات علمی",
+          "id": null
+        },
+        {
+          "url": "https://sut.ac.ir/file/download/regulation/6564b17e35881-0711.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "11 آیین نامه بکارگیری دستیار پژوهشی آیین نامه های پژوهشی اعضای هیات علمی",
           "id": null
         },
         {
           "url": "https://library.sut.ac.ir/wp-content/uploads/2025/11/%D9%81%D8%B1%D9%85-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87.doc",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "هزینه چاپ و تکثیر پایان نامه",
-          "id": null
+          "id": "sahand-discovery-document-8b8c5490d9aa"
         },
         {
           "url": "https://sut.ac.ir/research/fa/regulation/920/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%85%D8%A7%D8%AF%D9%87-5-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C-%D9%88-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87-%D8%A8%D8%A7-%D8%AA%D9%82%D9%84%D8%A8-%D8%AF%D8%B1-%D8%AA%D9%87%DB%8C%D9%87-%D8%A2%D8%AB%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C",
@@ -1178,6 +1832,55 @@
           "sourceLabel": "پرتال پژوهش کشف‌شده"
         },
         {
+          "url": "https://sut.ac.ir/research/fa/regulation/17/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%B7%D8%B1%D8%AD-%D8%AF%D8%A7%D8%AE%D9%84-%D8%AF%D8%B1-%D8%B4%D9%88%D8%B1%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/21/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/20/%D9%81%D8%B1%D9%85-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%85%D8%B1%DA%A9%D8%B2-%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/939/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%B5%D9%86%D8%B9%D8%AA-%D9%88-%D8%AC%D8%A7%D9%85%D8%B9%D9%87",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/88/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C-%D9%BE%D8%A7%DB%8C%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C-%D8%A8%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/83/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%B4%D8%B1%DA%A9%D8%AA-%D8%AF%D8%B1-%DA%A9%D9%86%D9%81%D8%B1%D8%A7%D9%86%D8%B3-%D9%87%D8%A7%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
           "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش کشف‌شده",
@@ -1197,6 +1900,132 @@
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
           "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=circularNo",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-categoryId",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-outdated",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-approvalDate",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-categoryId",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-outdated",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://sut.ac.ir/research/fa/regulation/category/26/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%87%D8%A7%DB%8C-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-approvalDate",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
         }
       ],
       "publicationAdjustment": null,
@@ -1209,10 +2038,10 @@
     "nameFa": "دانشگاه صنعتی سهند",
     "iscCategory": "صنعتی",
     "iscRank": 8,
-    "score": 68.3,
+    "score": 70.1,
     "confidence": 91.4,
     "metrics": {
-      "documents": 64,
+      "documents": 73,
       "organization": 81.7,
       "library": 70,
       "laboratories": 70,
@@ -1221,16 +2050,16 @@
       "dataQuality": 100,
       "findability": 75
     },
-    "units": 7,
+    "units": 22,
     "systems": 2,
-    "documents": 21,
+    "documents": 44,
     "activeWeight": 100,
     "evidenceCoverage": 88,
     "methodologyVersion": "RTPMI-4.1-ISC",
     "snapshotDate": "2026-08-11",
-    "rank": 51,
-    "portalRankWithinISCClass": 11,
-    "rankedPortalsInISCClass": 13
+    "rank": 73,
+    "portalRankWithinISCClass": 17,
+    "rankedPortalsInISCClass": 18
   },
   "units": [
     {
@@ -1309,6 +2138,171 @@
       "sourceUrl": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "sahand-discovery-unit-library-740c9ece45b1",
+      "universitySlug": "sahand",
+      "nameFa": "ریاست کتابخانه مرکزی - معاونت پژوهش و فناوری",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/page/879/%D8%B1%DB%8C%D8%A7%D8%B3%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-unit-library-45ec59d3daf3",
+      "universitySlug": "sahand",
+      "nameFa": "همکاران بخش کتابخانه مرکزی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/person/category/198/%D9%87%D9%85%DA%A9%D8%A7%D8%B1%D8%A7%D9%86-%D8%A8%D8%AE%D8%B4-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-unit-laboratory-e8aaf92c8ea3",
+      "universitySlug": "sahand",
+      "nameFa": "ریاست آزمایشگاه مرکزی - معاونت پژوهش و فناوری",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/page/878/%D8%B1%DB%8C%D8%A7%D8%B3%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-unit-laboratory-63e252d833c8",
+      "universitySlug": "sahand",
+      "nameFa": "همکاران بخش آزمایشگاه مرکزی",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/person/category/197/%D9%87%D9%85%DA%A9%D8%A7%D8%B1%D8%A7%D9%86-%D8%A8%D8%AE%D8%B4-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-unit-industry-444a54b892c0",
+      "universitySlug": "sahand",
+      "nameFa": "دستورالعمل وزارتی فرصت مطالعاتی در صنعت و جامعه - معاونت پژوهش و فناوری",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/regulation/939/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%B5%D9%86%D8%B9%D8%AA-%D9%88-%D8%AC%D8%A7%D9%85%D8%B9%D9%87",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8957894736842105
+    },
+    {
+      "id": "sahand-discovery-unit-research-72dc69220bc6",
+      "universitySlug": "sahand",
+      "nameFa": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=circularNo",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "sahand-discovery-unit-research-63048eb2abb0",
+      "universitySlug": "sahand",
+      "nameFa": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "sahand-discovery-unit-research-85fdb7bede56",
+      "universitySlug": "sahand",
+      "nameFa": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "sahand-discovery-unit-research-c9be1610abfb",
+      "universitySlug": "sahand",
+      "nameFa": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "sahand-discovery-unit-research-ab5563e55ebf",
+      "universitySlug": "sahand",
+      "nameFa": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "sahand-discovery-unit-research-890e3290751c",
+      "universitySlug": "sahand",
+      "nameFa": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "sahand-discovery-unit-research-9f0fdc9f55d2",
+      "universitySlug": "sahand",
+      "nameFa": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "sahand-discovery-unit-research-2c51233f722d",
+      "universitySlug": "sahand",
+      "nameFa": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-categoryId",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "sahand-discovery-unit-research-afd19cd00e0e",
+      "universitySlug": "sahand",
+      "nameFa": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-outdated",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "sahand-discovery-unit-research-8d1c6d55048a",
+      "universitySlug": "sahand",
+      "nameFa": "آیین‌نامه‌ها و مصوبات- فرم های مربوط به مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-approvalDate",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
     }
   ],
   "systems": [
@@ -1353,11 +2347,9 @@
       "url": "https://library.sut.ac.ir/wp-content/uploads/2025/04/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AB%D8%A8%D8%AA-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%D9%87-%D8%AF%D8%B1-%D8%B3%D8%A7%DB%8C%D8%AA-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%AF%D8%A7%DA%A9.pdf",
       "sourceUrl": "https://library.sut.ac.ir/wp-content/uploads/2025/04/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AB%D8%A8%D8%AA-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%D9%87-%D8%AF%D8%B1-%D8%B3%D8%A7%DB%8C%D8%AA-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%D8%AF%D8%A7%DA%A9.pdf",
       "parentUrl": "https://library.sut.ac.ir/",
-      "sha256": "9e8e6326cc4364a963c698898f2e344f5b968f613c4e78b6b7c0bf54315515b1",
       "fileName": "راهنمای-ثبت-پایان-نامه-و-پروپوزال-پیشنهاده-در-سایت-ایرانداک.pdf",
       "contentType": "application/pdf",
       "fileSize": 233630,
-      "archivePath": "sahand/5383ac395208-راهنمای-ثبت-پایان-نامه-و-پروپوزال-پیشنهاده-در-سایت-ایرانداک.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1374,11 +2366,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/1762242701-6909b08d99ae2-1917878-1-.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/1762242701-6909b08d99ae2-1917878-1-.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/920/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%85%D8%A7%D8%AF%D9%87-5-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C-%D9%88-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87-%D8%A8%D8%A7-%D8%AA%D9%82%D9%84%D8%A8-%D8%AF%D8%B1-%D8%AA%D9%87%DB%8C%D9%87-%D8%A2%D8%AB%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "6f93ac6385d041ac74fe80392c5663389144435becc1f6bdd1e230063d09bae3",
       "fileName": "1917878 (1).pdf",
       "contentType": "application/pdf",
       "fileSize": 1912072,
-      "archivePath": "sahand/a40b47b8081b-1917878 (1).pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1395,11 +2385,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/6564b1a77b270-forsatk.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564b1a77b270-forsatk.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/81/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
-      "sha256": "48c97ca33c606e6bf6a38370c1e2285942401f1ceb9a98a45b05448eca482f01",
       "fileName": "FORSATK.pdf",
       "contentType": "application/pdf",
       "fileSize": 2098820,
-      "archivePath": "sahand/67f41e530fbb-FORSATK.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1416,11 +2404,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/6564b0f682b42-mp.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564b0f682b42-mp.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/77/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
-      "sha256": "b03641b88c2b042b8718663965f9ddef10015bb062c557e9776e78b755685320",
       "fileName": "MP.pdf",
       "contentType": "application/pdf",
       "fileSize": 537615,
-      "archivePath": "sahand/47c21eff994e-MP.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1437,11 +2423,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/1748164948-6832e154b780a-.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/1748164948-6832e154b780a-.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/89/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%A7%D9%85%D8%B9-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%A9%D8%B1%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%DA%AF%D8%B1%D9%86%D8%AA-",
-      "sha256": "38b994a16a5088c771cd9e04d96115998aee0a7b5df66d8ed9ad9e0b2dddc3d1",
       "fileName": "نحوه هزینه کرد اعتبار (گرنت) پژوهشی اعضای هیات علمی.pdf",
       "contentType": "application/pdf",
       "fileSize": 582476,
-      "archivePath": "sahand/8c844373e0a9-نحوه هزینه کرد اعتبار (گرنت) پژوهشی اعضای هیات علمی.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1458,11 +2442,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/1784718993-6a60a69195ff2-.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/1784718993-6a60a69195ff2-.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/934/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%A7%D9%85%D8%B9-%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%DA%AF%D8%B1%D9%86%D8%AA-",
-      "sha256": "403ee02e874eeb65bdaa2136c9f7acd3d8cda41919b51e40d1b509845ee0a26b",
       "fileName": "شيوه نامه جامع اعطاي پژوهانه نسخه چهارم.pdf",
       "contentType": "application/pdf",
       "fileSize": 295216,
-      "archivePath": "sahand/b5e9a0b90f0a-شيوه نامه جامع اعطاي پژوهانه نسخه چهارم.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1479,11 +2461,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/1783485068-6a4dd28ca134e-.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/1783485068-6a4dd28ca134e-.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/86/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%B5%D9%86%D8%B9%D8%AA-%D9%88-%D8%AC%D8%A7%D9%85%D8%B9%D9%87",
-      "sha256": "d74f1e57de4c825e790bece6f396c915c8784957bff16b0c1bb48e43739e687e",
       "fileName": "شيوه نامه اجرايي فرصت مطالعاتي صنعتي.pdf",
       "contentType": "application/pdf",
       "fileSize": 236666,
-      "archivePath": "sahand/6ee8fa15d2ba-شيوه نامه اجرايي فرصت مطالعاتي صنعتي.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1500,11 +2480,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/1740980946-67c542d291c6f-.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/1740980946-67c542d291c6f-.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/695/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "sha256": "48eafaa9db009c8edd95fe00479d64e6f6ef6b47e23a11893457559c7526ba75",
       "fileName": "آیین نامه بالاسری.pdf",
       "contentType": "application/pdf",
       "fileSize": 856362,
-      "archivePath": "sahand/da75bfd4b622-آیین نامه بالاسری.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1521,11 +2499,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/1735361861-676f854570bd8-.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/1735361861-676f854570bd8-.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/675/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D8%AF%D9%88%D8%B1%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C",
-      "sha256": "9a93f97b92a8b65f08f84c86e272322ea86307ad2722d367626408b363d9205d",
       "fileName": "آیین نامه برگزاری دوره پژوهشی پسا دکتری.pdf",
       "contentType": "application/pdf",
       "fileSize": 227918,
-      "archivePath": "sahand/98cd3e4a1bd3-آیین نامه برگزاری دوره پژوهشی پسا دکتری.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1542,11 +2518,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/1782915662-6a45224e0a0b9-5-.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/1782915662-6a45224e0a0b9-5-.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/84/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%DA%86%D8%A7%D9%BE-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D9%88-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C",
-      "sha256": "c7af0e31ac7e6cf241761f70a4afbdf4a5a2ec4aa1dbc537c211f4603b3a28a8",
       "fileName": "دستور 5ـ شيوه نامه تشويق مقالات.pdf",
       "contentType": "application/pdf",
       "fileSize": 1050558,
-      "archivePath": "sahand/a809aea1f0d3-دستور 5ـ شيوه نامه تشويق مقالات.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1563,11 +2537,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/6564b17e35881-0711.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564b17e35881-0711.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/80/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%DA%A9%D8%A7%D8%B1%DA%AF%DB%8C%D8%B1%DB%8C-%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "sha256": "4d5b5b59b0a61cfae38eecdc71fcbbbf7303a028d195856dd597bc12e7932059",
       "fileName": "0711.pdf",
       "contentType": "application/pdf",
       "fileSize": 1728193,
-      "archivePath": "sahand/94888fc189dc-0711.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1584,11 +2556,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/6564b151ce807-503.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564b151ce807-503.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/79/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C",
-      "sha256": "111c6a6057b978f0af81d6f727fb4e7040fadca19379d9fb02154cfe235f2d1a",
       "fileName": "503.pdf",
       "contentType": "application/pdf",
       "fileSize": 78786,
-      "archivePath": "sahand/01f6203af028-503.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1605,11 +2575,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/6564afec279a8-616.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564afec279a8-616.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/67/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%D8%A7%D8%B2-%D8%B4%D8%B1%DA%A9%D8%AA%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4-%D8%A8%D9%86%DB%8C%D8%A7%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-      "sha256": "08bdde0c1e80074135ecc66b04edd77268d819fc8773dac9c015d31d66126735",
       "fileName": "616.pdf",
       "contentType": "application/pdf",
       "fileSize": 236687,
-      "archivePath": "sahand/165dc8dd77fa-616.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1626,11 +2594,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/6564af893f996-613.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564af893f996-613.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/64/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%D9%88-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-      "sha256": "272e44f3b0d9c524bfe3e5451bb3854e861b8a03990493c1d574ff3b17e8b1d9",
       "fileName": "613.pdf",
       "contentType": "application/pdf",
       "fileSize": 295561,
-      "archivePath": "sahand/eff67b6f70c8-613.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1647,11 +2613,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/6564af42a76bb-pub.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564af42a76bb-pub.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/63/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-%D8%B3%D9%87%D9%86%D8%AF",
-      "sha256": "d0559526f65e276b0e38787989309db01a8f81878ce421a784dd1150d22265c3",
       "fileName": "pub.pdf",
       "contentType": "application/pdf",
       "fileSize": 309475,
-      "archivePath": "sahand/ee348946dae6-pub.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1668,11 +2632,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/6564af16dc88f-615.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564af16dc88f-615.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/62/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA",
-      "sha256": "57dee06859bb509c0b2fa333c884aef5f861357888ee4d93e05cd643b20a4a18",
       "fileName": "615.pdf",
       "contentType": "application/pdf",
       "fileSize": 1065722,
-      "archivePath": "sahand/72fdb5af27a7-615.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1689,11 +2651,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/6564aedee1124-614.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564aedee1124-614.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/61/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%A7%D8%A6%D9%87-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%A9%D8%AF%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-%D8%B3%D9%87%D9%86%D8%AF-%D8%A8%D9%87-%D8%B3%D8%A7%DB%8C%D8%B1-%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D8%AF%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%D9%85%D8%AA%D9%82%D8%A7%D8%B6%DB%8C%D8%A7%D9%86-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-      "sha256": "522027e854dd5818639dbce07f2c8e66fbcc6414696d56797ccddf19be684846",
       "fileName": "614.pdf",
       "contentType": "application/pdf",
       "fileSize": 126596,
-      "archivePath": "sahand/1a68494d1401-614.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1710,11 +2670,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/6564ae8902800-aiinnamehresaledoctor.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564ae8902800-aiinnamehresaledoctor.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/60/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%B4%D8%AA%D8%B1%DA%A9-%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D9%86%DB%8C%D8%B1%D9%88-%D9%88-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7",
-      "sha256": "2e08f8079947b4640c933d38cac05904b98588b08096ca655cc99004877ef8e3",
       "fileName": "aiinnamehresaledoctor.pdf",
       "contentType": "application/pdf",
       "fileSize": 763834,
-      "archivePath": "sahand/51524e6b9757-aiinnamehresaledoctor.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1731,11 +2689,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/1762242628-6909b04415dc3-1917878-3-.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/1762242628-6909b04415dc3-1917878-3-.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/919/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C-%D9%88-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87-%D8%A8%D8%A7-%D8%AA%D9%82%D9%84%D8%A8-%D8%AF%D8%B1-%D8%AA%D9%87%DB%8C%D9%87-%D8%A2%D8%AB%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "52e30486701ac4ceaf82f523176b1f82b6aee8a425a539c6134ccbdd11d5098c",
       "fileName": "1917878 (3).pdf",
       "contentType": "application/pdf",
       "fileSize": 428480,
-      "archivePath": "sahand/1a891def3b87-1917878 (3).pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1752,11 +2708,9 @@
       "url": "https://sut.ac.ir/file/download/regulation/6564b06a9a6a7-600.pdf",
       "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564b06a9a6a7-600.pdf",
       "parentUrl": "https://sut.ac.ir/research/fa/regulation/71/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-%D8%B3%D9%87%D9%86%D8%AF",
-      "sha256": "428303af362372a8facdc2d65d32749d5f7b37454185782f21ae87a3dddf1983",
       "fileName": "600.pdf",
       "contentType": "application/pdf",
       "fileSize": 160114,
-      "archivePath": "sahand/c77c832beef5-600.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1778,6 +2732,443 @@
       "contentType": "application/msword",
       "fileSize": 67072,
       "archivePath": "sahand/e305dbe1c30e-فرم-هزینه-پایان-نامه.doc",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-15b361098751",
+      "universitySlug": "sahand",
+      "title": "5 شیوه نامه جامع هزینه کرد پژوهانه (گرنت) آیین نامه های پژوهشی اعضای هیات علمی",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/1748164948-6832e154b780a-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/1748164948-6832e154b780a-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+      "fileName": "نحوه هزینه کرد اعتبار (گرنت) پژوهشی اعضای هیات علمی.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 582476,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-863e3234ba76",
+      "universitySlug": "sahand",
+      "title": "2 شیوه نامه جامع اعطای پژوهانه (گرنت) آیین نامه های پژوهشی اعضای هیات علمی ۲۶ مهر ۱۴۰۴",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/1784718993-6a60a69195ff2-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/1784718993-6a60a69195ff2-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+      "fileName": "شيوه نامه جامع اعطاي پژوهانه نسخه چهارم.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 295216,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-fb142cb2d60b",
+      "universitySlug": "sahand",
+      "title": "دستورالعمل وزارتی فرصت مطالعاتی در صنعت و جامعه آیین نامه های پژوهشی اعضای هیات علمی دستورالعمل وزارتی فرصت مطالعاتی در صنعت و جامعه لینک آخرین به‌روزرسانی : ۱۳ تیر ۱۴۰۵ دسترسی سریع اداره تحصیلات تکمیلی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/1783149477-6a48b3a56d75f-.zip",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/1783149477-6a48b3a56d75f-.zip",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/939/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%B5%D9%86%D8%B9%D8%AA-%D9%88-%D8%AC%D8%A7%D9%85%D8%B9%D9%87",
+      "fileName": "فرصت مطالعاتی در صنعت.zip",
+      "contentType": "application/x-zip-compressed",
+      "fileSize": 1549207,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-f3f29e7fe004",
+      "universitySlug": "sahand",
+      "title": "1 فرم درخواست بررسی طرح داخل در شورای پژوهشی فرم های مربوط به مدیریت پژوهشی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/65639fd6b8dda-f13.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/65639fd6b8dda-f13.doc?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7-%D8%A8%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-title",
+      "fileName": "f13.doc",
+      "contentType": "application/msword",
+      "fileSize": 43008,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-528c081c478c",
+      "universitySlug": "sahand",
+      "title": "1 فرم درخواست خدمات کامپیوتری فرم های خدمات کامپیوتری",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/6563a39e37b16-itcompuetrservices.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/6563a39e37b16-itcompuetrservices.doc?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=-title",
+      "fileName": "ITCompuetrServices.doc",
+      "contentType": "application/msword",
+      "fileSize": 75776,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-757961ad23ca",
+      "universitySlug": "sahand",
+      "title": "2 فرم استفاده از خدمات مرکز محاسبات پیشرفته فرم های خدمات کامپیوتری",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/6563a37f505ec-mohasebatpishrafte-form.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/6563a37f505ec-mohasebatpishrafte-form.doc?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/10/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C?sort=-title",
+      "fileName": "MohasebatPishrafte_form.doc",
+      "contentType": "application/msword",
+      "fileSize": 41472,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-6a3507964f9f",
+      "universitySlug": "sahand",
+      "title": "7 شیوه نامه فرصت مطالعاتی در صنعت و جامعه آیین نامه های پژوهشی اعضای هیات علمی ۳۱ خرداد ۱۴۰۵",
+      "type": "آیین‌نامه",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/1783485068-6a4dd28ca134e-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/1783485068-6a4dd28ca134e-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+      "fileName": "شيوه نامه اجرايي فرصت مطالعاتي صنعتي.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 236666,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-942820acb18d",
+      "universitySlug": "sahand",
+      "title": "فرم درخواست بررسی طرح داخل در شورای پژوهشی فرم های مربوط به مدیریت پژوهشی فرم درخواست بررسی طرح داخل در شورای پژوهشی لینک آخرین به‌روزرسانی : ۰۵ آذر ۱۴۰۲ دسترسی سریع اداره تحصیلات تکمیلی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/65639fd6b8dda-f13.doc",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/65639fd6b8dda-f13.doc",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/17/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%B7%D8%B1%D8%AD-%D8%AF%D8%A7%D8%AE%D9%84-%D8%AF%D8%B1-%D8%B4%D9%88%D8%B1%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+      "fileName": "f13.doc",
+      "contentType": "application/msword",
+      "fileSize": 43008,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-acffeccec55d",
+      "universitySlug": "sahand",
+      "title": "فرم درخواست خدمات کامپیوتری فرم های خدمات کامپیوتری فرم درخواست خدمات کامپیوتری لینک آخرین به‌روزرسانی : ۰۵ آذر ۱۴۰۲ دسترسی سریع اداره تحصیلات تکمیلی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/6563a39e37b16-itcompuetrservices.doc",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/6563a39e37b16-itcompuetrservices.doc",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/21/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%DA%A9%D8%A7%D9%85%D9%BE%DB%8C%D9%88%D8%AA%D8%B1%DB%8C",
+      "fileName": "ITCompuetrServices.doc",
+      "contentType": "application/msword",
+      "fileSize": 75776,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-a23bde5d20a4",
+      "universitySlug": "sahand",
+      "title": "فرم استفاده از خدمات مرکز محاسبات پیشرفته فرم های خدمات کامپیوتری فرم استفاده از خدمات مرکز محاسبات پیشرفته لینک آخرین به‌روزرسانی : ۰۵ آذر ۱۴۰۲ دسترسی سریع اداره تحصیلات تکمیلی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/6563a37f505ec-mohasebatpishrafte-form.doc",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/6563a37f505ec-mohasebatpishrafte-form.doc",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/20/%D9%81%D8%B1%D9%85-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%85%D8%B1%DA%A9%D8%B2-%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%D9%87",
+      "fileName": "MohasebatPishrafte_form.doc",
+      "contentType": "application/msword",
+      "fileSize": 41472,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-056ba252aebd",
+      "universitySlug": "sahand",
+      "title": "دستورالعمل اعطای پایه تشویقی به اعضای هیات علمی آیین نامه های پژوهشی اعضای هیات علمی دستورالعمل اعطای پایه تشویقی به اعضای هیات علمی لینک آخرین به‌روزرسانی : ۰۱ مرداد ۱۴۰۵ دسترسی سریع اداره تحصیلات تکمیلی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/1784795424-6a61d120247bb-.pdf",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/1784795424-6a61d120247bb-.pdf",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/88/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C-%D9%BE%D8%A7%DB%8C%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C-%D8%A8%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
+      "fileName": "دستورالعمل نحوه اعطای پایه تشویقی.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 4844380,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-a247f4ae9773",
+      "universitySlug": "sahand",
+      "title": "لینک",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/6564b1e83d054-504.pdf",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564b1e83d054-504.pdf",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/83/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%B4%D8%B1%DA%A9%D8%AA-%D8%AF%D8%B1-%DA%A9%D9%86%D9%81%D8%B1%D8%A7%D9%86%D8%B3-%D9%87%D8%A7%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
+      "fileName": "504.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 252859,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-d5f47d958ed6",
+      "universitySlug": "sahand",
+      "title": "1 دستورالعمل وزارتی فرصت مطالعاتی در صنعت و جامعه آیین نامه های پژوهشی اعضای هیات علمی",
+      "type": "آیین‌نامه",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/1783149477-6a48b3a56d75f-.zip?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/1783149477-6a48b3a56d75f-.zip?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+      "fileName": "فرصت مطالعاتی در صنعت.zip",
+      "contentType": "application/x-zip-compressed",
+      "fileSize": 1549207,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-3ede4bacd1f4",
+      "universitySlug": "sahand",
+      "title": "8 شیوه‌نامه تشویق مقالات چاپ شده در مجلات معتبر بین‌المللی و داخلی آیین نامه های پژوهشی اعضای هیات علمی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/1782915662-6a45224e0a0b9-5-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/1782915662-6a45224e0a0b9-5-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+      "fileName": "دستور 5ـ شيوه نامه تشويق مقالات.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1050558,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-303aaeb11493",
+      "universitySlug": "sahand",
+      "title": "1 شیوه نامه حمایت از شرکتهای دانش بنیان دانشگاه آیین نامه های پژوهشی عمومی",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/6564afec279a8-616.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564afec279a8-616.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/25/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%B9%D9%85%D9%88%D9%85%DB%8C?sort=-circularNo",
+      "fileName": "616.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 236687,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-c24fe2c9891f",
+      "universitySlug": "sahand",
+      "title": "10 آیین نامه فرصت مطالعاتی خارج از کشور آیین نامه های پژوهشی اعضای هیات علمی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/6564b1a77b270-forsatk.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564b1a77b270-forsatk.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+      "fileName": "FORSATK.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 2098820,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-70396656a1ea",
+      "universitySlug": "sahand",
+      "title": "6 دستورالعمل اعطای پایه تشویقی به اعضای هیات علمی آیین نامه های پژوهشی اعضای هیات علمی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/1784795424-6a61d120247bb-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/1784795424-6a61d120247bb-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+      "fileName": "دستورالعمل نحوه اعطای پایه تشویقی.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 4844380,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-ed7c511b7f60",
+      "universitySlug": "sahand",
+      "title": "9 دستورالعمل شرکت در کنفرانس های خارج از کشور اعضای هیات علمی آیین نامه های پژوهشی اعضای هیات علمی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/6564b1e83d054-504.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564b1e83d054-504.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+      "fileName": "504.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 252859,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-61dc7ad1b0f5",
+      "universitySlug": "sahand",
+      "title": "2 دستورالعمل ماده 5 آیین نامه اجرایی قانون پیشگیری و مقابله با تقلب در تهیه آثار علمی آیین نامه اجرایی قانون پیشگیری و مقابله با تقلب در تهیه آثار علمی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/1762242701-6909b08d99ae2-1917878-1-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/1762242701-6909b08d99ae2-1917878-1-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/152/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C-%D9%88-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87-%D8%A8%D8%A7-%D8%AA%D9%82%D9%84%D8%A8-%D8%AF%D8%B1-%D8%AA%D9%87%DB%8C%D9%87-%D8%A2%D8%AB%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+      "fileName": "1917878 (1).pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1912072,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-dbff72892596",
+      "universitySlug": "sahand",
+      "title": "13 آیین نامه فرصت تحقیقاتی (ماموریت پژوهشی) خارج از کشور آیین نامه های پژوهشی اعضای هیات علمی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/6564b0f682b42-mp.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564b0f682b42-mp.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+      "fileName": "MP.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 537615,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-be0b0fee224f",
+      "universitySlug": "sahand",
+      "title": "3 آیین نامه بالاسری طرح های پژوهشی آیین نامه های پژوهشی اعضای هیات علمی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/1740980946-67c542d291c6f-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/1740980946-67c542d291c6f-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+      "fileName": "آیین نامه بالاسری.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 856362,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-a6d292853a15",
+      "universitySlug": "sahand",
+      "title": "4 آیین نامه برگزاری دوره پژوهشی پسا دکتری آیین نامه های پژوهشی اعضای هیات علمی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/1735361861-676f854570bd8-.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/1735361861-676f854570bd8-.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+      "fileName": "آیین نامه برگزاری دوره پژوهشی پسا دکتری.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 227918,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "sahand-discovery-document-9296e43af4f6",
+      "universitySlug": "sahand",
+      "title": "11 آیین نامه بکارگیری دستیار پژوهشی آیین نامه های پژوهشی اعضای هیات علمی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://sut.ac.ir/file/download/regulation/6564b17e35881-0711.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://sut.ac.ir/file/download/regulation/6564b17e35881-0711.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://sut.ac.ir/research/fa/regulation/category/23/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
+      "fileName": "0711.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1728193,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     }

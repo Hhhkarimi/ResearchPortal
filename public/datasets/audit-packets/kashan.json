@@ -85,7 +85,7 @@
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-12",
-      "promotedSources": 87,
+      "promotedSources": 131,
       "socialEvidenceRemoved": true
     }
   },
@@ -163,17 +163,17 @@
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "verified",
-      "libraryDocuments": "unresolved",
+      "libraryDocuments": "verified",
       "laboratories": "verified",
       "industryTechnology": "verified",
       "informationTechnology": "unresolved",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 75,
-    "unitsFound": 4,
-    "systemsFound": 1,
-    "documentsFound": 32,
+    "auditEvidenceCoverage": 88,
+    "unitsFound": 18,
+    "systemsFound": 2,
+    "documentsFound": 45,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 72,
+      "sourceCount": 90,
       "sources": [
         {
           "url": "https://research.kashanu.ac.ir/",
@@ -552,88 +552,207 @@
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/136/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C?sort=-circularNo",
+          "url": "https://research.kashanu.ac.ir/fa/tag/777/Research+Units",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/fa/organizationChart/709/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/fa",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/fa/page/8426/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/page/3716/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/page/3781/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/fa/news/25766/%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%D8%B3%D8%A7%DB%8C%D8%AA-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/news/7211/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AA%DA%A9%D9%85%DB%8C%D9%84-%D9%81%D8%B1%D9%85-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%DA%AF%D8%B1%D8%AF%D9%87%D9%85%D8%A7%DB%8C%DB%8C",
           "kind": "research-review-specific",
           "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
           "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858486-683d76765e27a-1748171768-6832fbf8839c6-.doc?language=fa&subdomain=research-affairs",
+          "url": "https://research.kashanu.ac.ir/fa/tag/2605/%D8%B4%D8%A8%DA%A9%D9%87+%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C+%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%E2%80%8C%D9%87%D8%A7%DB%8C+%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF%DB%8C",
           "kind": "research-review-specific",
-          "claim": "1748171768-6832fbf8839c6-",
+          "claim": "آزمایشگاه‌ها — کشف خودکار",
           "id": null,
-          "sourceLabel": "1748171768-6832fbf8839c6-"
+          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858465-683d7661744d0-1748171733-6832fbd5a8115-.doc?language=fa&subdomain=research-affairs",
+          "url": "https://research.kashanu.ac.ir/fa/tag/312/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87+%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
           "kind": "research-review-specific",
-          "claim": "1748171733-6832fbd5a8115-",
+          "claim": "آزمایشگاه‌ها — کشف خودکار",
           "id": null,
-          "sourceLabel": "1748171733-6832fbd5a8115-"
+          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858435-683d76438761c-1748171667-6832fb9390491-.pdf?language=fa&subdomain=research-affairs",
+          "url": "https://research.kashanu.ac.ir/fa/tag/561/Central+Laboratory",
           "kind": "research-review-specific",
-          "claim": "1748171667-6832fb9390491-",
+          "claim": "آزمایشگاه‌ها — کشف خودکار",
           "id": null,
-          "sourceLabel": "1748171667-6832fb9390491-"
+          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858386-683d7612823ea-1748171617-6832fb6199757-.pdf?language=fa&subdomain=research-affairs",
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=title",
           "kind": "research-review-specific",
-          "claim": "1748171617-6832fb6199757-",
+          "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
-          "sourceLabel": "1748171617-6832fb6199757-"
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858268-683d759c5646d-1748171532-6832fb0ce93bb-.doc?language=fa&subdomain=research-affairs",
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=categoryId",
           "kind": "research-review-specific",
-          "claim": "1748171532-6832fb0ce93bb-",
+          "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
-          "sourceLabel": "1748171532-6832fb0ce93bb-"
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858236-683d757cb425d-1748171388-6832fa7c5b8d5-.doc?language=fa&subdomain=research-affairs",
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=outdated",
           "kind": "research-review-specific",
-          "claim": "1748171388-6832fa7c5b8d5-",
+          "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
-          "sourceLabel": "1748171388-6832fa7c5b8d5-"
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858209-683d7561d372d-1748170620-6832f77cd1da2-.doc?language=fa&subdomain=research-affairs",
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=approvalDate",
           "kind": "research-review-specific",
-          "claim": "1748170620-6832f77cd1da2-",
+          "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
-          "sourceLabel": "1748170620-6832f77cd1da2-"
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-title",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-categoryId",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-outdated",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-approvalDate",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/news/11103/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%DA%A9%D8%A7%D8%B4%D8%A7%D9%86-%D8%B9%D8%B6%D9%88-%D9%81%D8%B9%D8%A7%D9%84-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF%DB%8C-%D9%82%D8%B1%D8%A7%D8%B1-%DA%AF%D8%B1%D9%81%D8%AA",
+          "kind": "research-review-specific",
+          "claim": "آزمایشگاه‌ها — کشف خودکار",
+          "id": null,
+          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/145/%D9%81%D8%B1%D9%85",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/2606/Iran+High-Tech+Laboratory+Network",
+          "kind": "research-review-specific",
+          "claim": "آزمایشگاه‌ها — کشف خودکار",
+          "id": null,
+          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/782/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "ساختار سازمانی — کشف خودکار",
+          "id": null,
+          "sourceLabel": "ساختار سازمانی — کشف خودکار"
         },
         {
           "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858152-683d7528cb66c-1748168685-6832efedeb706-1747728415-682c381f43116-.zip?language=fa&subdomain=research-affairs",
           "kind": "research-review-specific",
-          "claim": "1748168685-6832efedeb706-1747728415-682c381f43116-",
+          "claim": "1 پرسشنامه درخواست استفاده از فرصت مطالعاتی خارج کشور (فرم های الف/ب/ج) فرم های هیئت علمی",
           "id": null,
-          "sourceLabel": "1748168685-6832efedeb706-1747728415-682c381f43116-"
+          "sourceLabel": "1 پرسشنامه درخواست استفاده از فرصت مطالعاتی خارج کشور (فرم های الف/ب/ج) فرم های هیئت علمی"
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1751107935-685fc95f33102-.docx?language=fa&subdomain=research-affairs",
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858486-683d76765e27a-1748171768-6832fbf8839c6-.doc?language=fa&subdomain=research-affairs",
           "kind": "research-review-specific",
-          "claim": "کاربرگ_تقاضا_-_مشخصات_پژوهشگر",
+          "claim": "1 فرم سفر علمی اساتید (بعد از سفر- خارج از کشور) فرم های هیئت علمی",
           "id": null,
-          "sourceLabel": "کاربرگ_تقاضا_-_مشخصات_پژوهشگر"
+          "sourceLabel": "1 فرم سفر علمی اساتید (بعد از سفر- خارج از کشور) فرم های هیئت علمی"
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1759211914-68db718a30901-.xls?language=fa&subdomain=research-affairs",
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858268-683d759c5646d-1748171532-6832fb0ce93bb-.doc?language=fa&subdomain=research-affairs",
           "kind": "research-review-specific",
-          "claim": "فرم_دانشجویان",
+          "claim": "1 فرم گزارش شرکت اساتید در گردهمایی علمی بین المللی خارج از کشور فرم های هیئت علمی",
           "id": null,
-          "sourceLabel": "فرم_دانشجویان"
+          "sourceLabel": "1 فرم گزارش شرکت اساتید در گردهمایی علمی بین المللی خارج از کشور فرم های هیئت علمی"
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748869127-683da007e4f0a-1748173886-6833043e20ce0-.doc?language=fa&subdomain=research-affairs",
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858435-683d76438761c-1748171667-6832fb9390491-.pdf?language=fa&subdomain=research-affairs",
           "kind": "research-review-specific",
-          "claim": "1748173886-6833043e20ce0-",
+          "claim": "6 فرم ارزیابی طرح پژوهشی توسط داور- بعد از اجرای طرح فرم های هیئت علمی",
           "id": null,
-          "sourceLabel": "1748173886-6833043e20ce0-"
+          "sourceLabel": "6 فرم ارزیابی طرح پژوهشی توسط داور- بعد از اجرای طرح فرم های هیئت علمی"
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858386-683d7612823ea-1748171617-6832fb6199757-.pdf?language=fa&subdomain=research-affairs",
+          "kind": "research-review-specific",
+          "claim": "5 فرم ارزیابی طرح پژوهشی توسط داور- قبل از اجرای طرح فرم های هیئت علمی",
+          "id": null,
+          "sourceLabel": "5 فرم ارزیابی طرح پژوهشی توسط داور- قبل از اجرای طرح فرم های هیئت علمی"
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858209-683d7561d372d-1748170620-6832f77cd1da2-.doc?language=fa&subdomain=research-affairs",
+          "kind": "research-review-specific",
+          "claim": "2 فرم درخواست فرصت مطالعاتی اعضاء هیئت علمی فرم های هیئت علمی",
+          "id": null,
+          "sourceLabel": "2 فرم درخواست فرصت مطالعاتی اعضاء هیئت علمی فرم های هیئت علمی"
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858465-683d7661744d0-1748171733-6832fbd5a8115-.doc?language=fa&subdomain=research-affairs",
+          "kind": "research-review-specific",
+          "claim": "7 فرم سفر علمی اساتید (قبل از سفر- خارج از کشور) فرم های هیئت علمی",
+          "id": null,
+          "sourceLabel": "7 فرم سفر علمی اساتید (قبل از سفر- خارج از کشور) فرم های هیئت علمی"
         }
       ],
       "publicationAdjustment": null,
@@ -647,12 +766,18 @@
       "iscCategory": "جامع",
       "iscRank": 21,
       "dimension": "organization",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 4,
+      "sourceCount": 18,
       "sources": [
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/782/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
+        },
         {
           "url": "https://research.kashanu.ac.ir/fa/tag/929/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87+%D9%87%D8%A7",
           "kind": "unit",
@@ -688,10 +813,127 @@
           "unitType": "research",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/2605/%D8%B4%D8%A8%DA%A9%D9%87+%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C+%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%E2%80%8C%D9%87%D8%A7%DB%8C+%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF%DB%8C",
+          "kind": "unit",
+          "claim": "شبکه آزمایشگاهی فناوری‌های راهبردی",
+          "id": "kashan-discovery-unit-laboratory-b6ff30ab7574",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/312/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87+%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی",
+          "id": "kashan-discovery-unit-laboratory-94bb0003a86e",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/561/Central+Laboratory",
+          "kind": "unit",
+          "claim": "Central Laboratory",
+          "id": "kashan-discovery-unit-laboratory-5ff4c9a4a761",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/fa/organizationChart/709/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "unit",
+          "claim": "ساختار سازمانی مدیریت امور پژوهشی",
+          "id": "kashan-discovery-unit-research-61f508289c4b",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/news/11103/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%DA%A9%D8%A7%D8%B4%D8%A7%D9%86-%D8%B9%D8%B6%D9%88-%D9%81%D8%B9%D8%A7%D9%84-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF%DB%8C-%D9%82%D8%B1%D8%A7%D8%B1-%DA%AF%D8%B1%D9%81%D8%AA",
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی دانشگاه کاشان عضو فعال شبکه آزمایشگاهی فناوری‌های راهبردی قرار گرفت",
+          "id": "kashan-discovery-unit-laboratory-f0f0449783e2",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.kashanu.ac.ir/fa/organizationChart/659",
+          "kind": "unit",
+          "claim": "ساختار سازمانی کتابخانه مرکزی تامین منابع علمی و انتشارات دانشگاه",
+          "id": "kashan-discovery-unit-library-65b8f1f216ad",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/777/Research+Units",
+          "kind": "unit",
+          "claim": "Research Units",
+          "id": "kashan-discovery-unit-research-a0eecb7cf16e",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/2606/Iran+High-Tech+Laboratory+Network",
+          "kind": "unit",
+          "claim": "Iran High-Tech Laboratory Network",
+          "id": "kashan-discovery-unit-laboratory-65c5960362d0",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.kashanu.ac.ir/fa",
+          "kind": "unit",
+          "claim": "کتابخانه مرکزی دانشگاه کاشان",
+          "id": "kashan-discovery-unit-library-2e37a346c6d8",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/page/3716/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "unit",
+          "claim": "واحدهای پژوهشی - معاونت پژوهشی و ارتباطات علمی",
+          "id": "kashan-discovery-unit-research-ee1cd7ee8170",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/fa",
+          "kind": "unit",
+          "claim": "مدیریت امور پژوهشی",
+          "id": "kashan-discovery-unit-research-d7139775cc46",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/fa/page/8426/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "unit",
+          "claim": "معرفی مدیریت امور پژوهشی - مدیریت امور پژوهشی",
+          "id": "kashan-discovery-unit-research-20ffe39c282e",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://journals.kashanu.ac.ir/",
+          "kind": "unit",
+          "claim": "سامانه مدیریت نشریات علمی دانشگاه کاشان",
+          "id": "kashan-discovery-unit-library-8f94a5574e50",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -701,14 +943,40 @@
       "iscCategory": "جامع",
       "iscRank": 21,
       "dimension": "libraryDocuments",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 0,
-      "sources": [],
+      "sourceCount": 4,
+      "sources": [
+        {
+          "url": "https://library.kashanu.ac.ir/fa/organizationChart/659",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.kashanu.ac.ir/fa",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://journals.kashanu.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/400/Office+of+Vice-Chancellor+for+Research+and+Technology",
+          "kind": "system",
+          "claim": "سامانه مدیریت نشریات علمی دانشگاه کاشان",
+          "id": "kashan-discovery-system-8f94a5574e50",
+          "systemCategory": "journals"
+        }
+      ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -722,8 +990,38 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 1,
+      "sourceCount": 6,
       "sources": [
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/2605/%D8%B4%D8%A8%DA%A9%D9%87+%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C+%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%E2%80%8C%D9%87%D8%A7%DB%8C+%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/312/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87+%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/561/Central+Laboratory",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/news/11103/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%DA%A9%D8%A7%D8%B4%D8%A7%D9%86-%D8%B9%D8%B6%D9%88-%D9%81%D8%B9%D8%A7%D9%84-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF%DB%8C-%D9%82%D8%B1%D8%A7%D8%B1-%DA%AF%D8%B1%D9%81%D8%AA",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/2606/Iran+High-Tech+Laboratory+Network",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific laboratories source",
+          "id": null
+        },
         {
           "url": "https://research.kashanu.ac.ir/fa/tag/929/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87+%D9%87%D8%A7",
           "kind": "portal-document-reaudit",
@@ -774,18 +1072,18 @@
           "sourceLabel": "پرتال پژوهش کشف‌شده"
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858152-683d7528cb66c-1748168685-6832efedeb706-1747728415-682c381f43116-.zip",
-          "kind": "research-review-specific",
-          "claim": "لینک دانلود فایل",
-          "id": null,
-          "sourceLabel": "لینک دانلود فایل"
-        },
-        {
           "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858152-683d7528cb66c-1748168685-6832efedeb706-1747728415-682c381f43116-.zip?language=fa&subdomain=research-affairs",
           "kind": "research-review-specific",
-          "claim": "1748168685-6832efedeb706-1747728415-682c381f43116-",
+          "claim": "1 پرسشنامه درخواست استفاده از فرصت مطالعاتی خارج کشور (فرم های الف/ب/ج) فرم های هیئت علمی",
           "id": null,
-          "sourceLabel": "1748168685-6832efedeb706-1747728415-682c381f43116-"
+          "sourceLabel": "1 پرسشنامه درخواست استفاده از فرصت مطالعاتی خارج کشور (فرم های الف/ب/ج) فرم های هیئت علمی"
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858152-683d7528cb66c-1748168685-6832efedeb706-1747728415-682c381f43116-.zip",
+          "kind": "research-review-specific",
+          "claim": "لینک",
+          "id": null,
+          "sourceLabel": "لینک"
         }
       ],
       "publicationAdjustment": null,
@@ -816,22 +1114,35 @@
       "iscCategory": "جامع",
       "iscRank": 21,
       "dimension": "systemsServices",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 1,
+      "sourceCount": 3,
       "sources": [
+        {
+          "url": "https://journals.kashanu.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
         {
           "url": "https://research.kashanu.ac.ir/fa",
           "kind": "system",
           "claim": "فراخوان حمایت از پایان نامه های تحصیلات تکمیلی",
           "id": "kashan-discovery-system-d3c28135125f",
           "systemCategory": "research"
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/fa/tag/400/Office+of+Vice-Chancellor+for+Research+and+Technology",
+          "kind": "system",
+          "claim": "سامانه مدیریت نشریات علمی دانشگاه کاشان",
+          "id": "kashan-discovery-system-8f94a5574e50",
+          "systemCategory": "journals"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -845,22 +1156,10 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 61,
+      "sourceCount": 78,
       "sources": [
         {
-          "url": "https://research.kashanu.ac.ir/fa/tag/864/%D9%81%D8%B1%D9%85+%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
           "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/136/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -872,219 +1171,315 @@
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/136/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C?sort=circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
           "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/136/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C?sort=-circularNo",
+          "url": "https://research.kashanu.ac.ir/fa/news/7211/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AA%DA%A9%D9%85%DB%8C%D9%84-%D9%81%D8%B1%D9%85-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%DA%AF%D8%B1%D8%AF%D9%87%D9%85%D8%A7%DB%8C%DB%8C",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/134/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=circularNo",
+          "url": "https://research.kashanu.ac.ir/fa/tag/864/%D9%81%D8%B1%D9%85+%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/134/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=title",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation",
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=categoryId",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858152-683d7528cb66c-1748168685-6832efedeb706-1747728415-682c381f43116-.zip",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748869041-683d9fb17dc20-1748173733-683303a516354-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1777267274-69eef24a89377-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1760438094-68ee274e89717-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1783145966-6a48a5ee8e026-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1750760081-685a7a9113f88-1404-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C?sort=-approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1780314671-6a1d722fce3ec-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1763805823-69218a7f07e58-guide-of-artificial-intelligence.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1749447986-68467532ba8b4-5-4-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1749447958-68467516a2c0f-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858486-683d76765e27a-1748171768-6832fbf8839c6-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858465-683d7661744d0-1748171733-6832fbd5a8115-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748694383-683af56f0ecf3-1746004229-6811e905e8278-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748693565-683af23d2e883-652a8fcd3ce32-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858435-683d76438761c-1748171667-6832fb9390491-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858386-683d7612823ea-1748171617-6832fb6199757-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858268-683d759c5646d-1748171532-6832fb0ce93bb-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858236-683d757cb425d-1748171388-6832fa7c5b8d5-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858209-683d7561d372d-1748170620-6832f77cd1da2-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858486-683d76765e27a-1748171768-6832fbf8839c6-.doc?language=fa&subdomain=research-affairs",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1748171768-6832fbf8839c6-",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858465-683d7661744d0-1748171733-6832fbd5a8115-.doc?language=fa&subdomain=research-affairs",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1748171733-6832fbd5a8115-",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858435-683d76438761c-1748171667-6832fb9390491-.pdf?language=fa&subdomain=research-affairs",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1748171667-6832fb9390491-",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858386-683d7612823ea-1748171617-6832fb6199757-.pdf?language=fa&subdomain=research-affairs",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1748171617-6832fb6199757-",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858268-683d759c5646d-1748171532-6832fb0ce93bb-.doc?language=fa&subdomain=research-affairs",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1748171532-6832fb0ce93bb-",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858236-683d757cb425d-1748171388-6832fa7c5b8d5-.doc?language=fa&subdomain=research-affairs",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1748171388-6832fa7c5b8d5-",
-          "id": null
-        },
-        {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858209-683d7561d372d-1748170620-6832f77cd1da2-.doc?language=fa&subdomain=research-affairs",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1748170620-6832f77cd1da2-",
+          "url": "https://research.kashanu.ac.ir/fa/tag/145/%D9%81%D8%B1%D9%85",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
           "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858152-683d7528cb66c-1748168685-6832efedeb706-1747728415-682c381f43116-.zip?language=fa&subdomain=research-affairs",
           "kind": "portal-document-reaudit-document",
-          "claim": "1748168685-6832efedeb706-1747728415-682c381f43116-",
+          "claim": "1 پرسشنامه درخواست استفاده از فرصت مطالعاتی خارج کشور (فرم های الف/ب/ج) فرم های هیئت علمی",
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1751107935-685fc95f33102-.docx?language=fa&subdomain=research-affairs",
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858152-683d7528cb66c-1748168685-6832efedeb706-1747728415-682c381f43116-.zip",
           "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ_تقاضا_-_مشخصات_پژوهشگر",
+          "claim": "لینک",
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1759211914-68db718a30901-.xls?language=fa&subdomain=research-affairs",
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748869041-683d9fb17dc20-1748173733-683303a516354-.doc",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم_دانشجویان",
+          "claim": "فرم های درخواست پژوهانه فرم های دانشجویی فرم های درخواست پژوهانه لینک آخرین به‌روزرسانی : ۱۲ خرداد ۱۴۰۴ دسته‌ها - فرم های دانشجویی",
           "id": null
         },
         {
-          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748869127-683da007e4f0a-1748173886-6833043e20ce0-.doc?language=fa&subdomain=research-affairs",
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1780314671-6a1d722fce3ec-.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "1748173886-6833043e20ce0-",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748693565-683af23d2e883-652a8fcd3ce32-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858435-683d76438761c-1748171667-6832fb9390491-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم ارزیابی طرح پژوهشی توسط داور- بعد از اجرای طرح فرم های هیئت علمی فرم ارزیابی طرح پژوهشی توسط داور- بعد از اجرای طرح لینک آخرین به‌روزرسانی : ۱۲ خرداد ۱۴۰۴ دسته‌ها - فرم های هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858386-683d7612823ea-1748171617-6832fb6199757-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم ارزیابی طرح پژوهشی توسط داور- قبل از اجرای طرح فرم های هیئت علمی فرم ارزیابی طرح پژوهشی توسط داور- قبل از اجرای طرح لینک آخرین به‌روزرسانی : ۱۲ خرداد ۱۴۰۴ دسته‌ها - فرم های هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858209-683d7561d372d-1748170620-6832f77cd1da2-.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست فرصت مطالعاتی اعضاء هیئت علمی فرم های هیئت علمی فرم درخواست فرصت مطالعاتی اعضاء هیئت علمی لینک آخرین به‌روزرسانی : ۱۲ خرداد ۱۴۰۴ دسته‌ها - فرم های هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858486-683d76765e27a-1748171768-6832fbf8839c6-.doc?language=fa&subdomain=research-affairs",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 فرم سفر علمی اساتید (بعد از سفر- خارج از کشور) فرم های هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858268-683d759c5646d-1748171532-6832fb0ce93bb-.doc?language=fa&subdomain=research-affairs",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 فرم گزارش شرکت اساتید در گردهمایی علمی بین المللی خارج از کشور فرم های هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1760438094-68ee274e89717-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1783145966-6a48a5ee8e026-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1750760081-685a7a9113f88-1404-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858486-683d76765e27a-1748171768-6832fbf8839c6-.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم سفر علمی اساتید (بعد از سفر- خارج از کشور) فرم های هیئت علمی فرم سفر علمی اساتید (بعد از سفر- خارج از کشور) لینک آخرین به‌روزرسانی : ۱۲ خرداد ۱۴۰۴ دسته‌ها - فرم های هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858465-683d7661744d0-1748171733-6832fbd5a8115-.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم سفر علمی اساتید (قبل از سفر- خارج از کشور) فرم های هیئت علمی فرم سفر علمی اساتید (قبل از سفر- خارج از کشور) لینک آخرین به‌روزرسانی : ۱۲ خرداد ۱۴۰۴ دسته‌ها - فرم های هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748694383-683af56f0ecf3-1746004229-6811e905e8278-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه اجرایی پسادکتری دانشگاه کاشان آئین نامه و دستورالعمل هیئت علمی شیوه نامه اجرایی پسادکتری دانشگاه کاشان لینک آخرین به‌روزرسانی : ۱۰ خرداد ۱۴۰۴ دسته‌ها - آئین نامه و دستورالعمل هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858268-683d759c5646d-1748171532-6832fb0ce93bb-.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم گزارش شرکت اساتید در گردهمایی علمی بین المللی خارج از کشور فرم های هیئت علمی فرم گزارش شرکت اساتید در گردهمایی علمی بین المللی خارج از کشور لینک آخرین به‌روزرسانی : ۱۲ خرداد ۱۴۰۴ دسته‌ها - فرم های هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858236-683d757cb425d-1748171388-6832fa7c5b8d5-.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم سفر علمی اساتید (داخل کشور) فرم های هیئت علمی فرم سفر علمی اساتید (داخل کشور) لینک آخرین به‌روزرسانی : ۱۲ خرداد ۱۴۰۴ دسته‌ها - فرم های هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1777267274-69eef24a89377-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858435-683d76438761c-1748171667-6832fb9390491-.pdf?language=fa&subdomain=research-affairs",
+          "kind": "portal-document-reaudit-document",
+          "claim": "6 فرم ارزیابی طرح پژوهشی توسط داور- بعد از اجرای طرح فرم های هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858386-683d7612823ea-1748171617-6832fb6199757-.pdf?language=fa&subdomain=research-affairs",
+          "kind": "portal-document-reaudit-document",
+          "claim": "5 فرم ارزیابی طرح پژوهشی توسط داور- قبل از اجرای طرح فرم های هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858209-683d7561d372d-1748170620-6832f77cd1da2-.doc?language=fa&subdomain=research-affairs",
+          "kind": "portal-document-reaudit-document",
+          "claim": "2 فرم درخواست فرصت مطالعاتی اعضاء هیئت علمی فرم های هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858465-683d7661744d0-1748171733-6832fbd5a8115-.doc?language=fa&subdomain=research-affairs",
+          "kind": "portal-document-reaudit-document",
+          "claim": "7 فرم سفر علمی اساتید (قبل از سفر- خارج از کشور) فرم های هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858236-683d757cb425d-1748171388-6832fa7c5b8d5-.doc?language=fa&subdomain=research-affairs",
+          "kind": "portal-document-reaudit-document",
+          "claim": "3 فرم سفر علمی اساتید (داخل کشور) فرم های هیئت علمی",
+          "id": null
+        },
+        {
+          "url": "https://research.kashanu.ac.ir/file/download/news/1505710920-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1763805823-69218a7f07e58-guide-of-artificial-intelligence.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "راهنمای استفاده از ابزارهای هوش مصنوعی در پژوهش اخلاق در پژوهش راهنمای استفاده از ابزارهای هوش مصنوعی در پژوهش لینک تاریخ تصویب : ۰۷ اردیبهشت ۱۴۰۴ آخرین به‌روزرسانی : ۰۱ آذر ۱۴۰۴ دسته‌ها - اخلاق در پژوهش",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1749447986-68467532ba8b4-5-4-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "لینک",
+          "id": null
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1749447958-68467516a2c0f-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل نحوه بررسی تخلفات پژوهشی اخلاق در پژوهش دستورالعمل نحوه بررسی تخلفات پژوهشی لینک تاریخ تصویب : ۲۳ اسفند ۱۳۹۳ آخرین به‌روزرسانی : ۱۹ خرداد ۱۴۰۴ دسته‌ها - اخلاق در پژوهش",
+          "id": null
+        },
+        {
+          "url": "https://jias.kashanu.ac.ir/article_115359_52e45f2cb3ed443e2915a7b437576cf6.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اصل مقاله 8.27 M",
+          "id": null
+        },
+        {
+          "url": "https://jias.kashanu.ac.ir/article_115236_9bd0bfab175e5347e3847505e3ce0eeb.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اصل مقاله 6.6 M",
+          "id": null
+        },
+        {
+          "url": "https://jias.kashanu.ac.ir/article_115256_e59162b63cb34cb395043b9c7e43e760.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اصل مقاله 7.86 M",
+          "id": null
+        },
+        {
+          "url": "https://jias.kashanu.ac.ir/article_115408_43b343b5271fa85bbd8cd35cbb80fffe.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اصل مقاله 5.39 M",
+          "id": null
+        },
+        {
+          "url": "https://jias.kashanu.ac.ir/article_115409_04941299dd9d19c1c20101c3a1327e39.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اصل مقاله 4.03 M",
+          "id": null
+        },
+        {
+          "url": "https://jias.kashanu.ac.ir/article_115420_7022db9d2869a64966142a35f5661220.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اصل مقاله 4.28 M",
+          "id": null
+        },
+        {
+          "url": "https://jias.kashanu.ac.ir/article_115450_86b225469e95459de4a61c3f547c141c.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اصل مقاله 4.75 M",
+          "id": null
+        },
+        {
+          "url": "https://jias.kashanu.ac.ir/article_115471_ddbf93eedf94d6b62692f21abd1864f6.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اصل مقاله 6.98 M",
+          "id": null
+        },
+        {
+          "url": "https://jias.kashanu.ac.ir/article_115472_95acefeb3f62c5dd2cd1b160bb3796ac.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اصل مقاله 3.98 M",
+          "id": null
+        },
+        {
+          "url": "https://jias.kashanu.ac.ir/article_115514_d869dcb283764051d4da7b2d1282a23b.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اصل مقاله 5.38 M",
+          "id": null
+        },
+        {
+          "url": "https://jias.kashanu.ac.ir/article_115515_e9ff1149dd1000cbb09891f67cfc579a.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اصل مقاله 4.32 M",
+          "id": null
+        },
+        {
+          "url": "https://jias.kashanu.ac.ir/article_115416_b85fc8847ddfbc351cfb08b7946ced6d.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اصل مقاله 4.33 M",
           "id": null
         },
         {
@@ -1098,6 +1493,24 @@
           "kind": "document",
           "claim": "Guide of Artificial Intelligence",
           "id": "kashan-discovery-document-10277a128a7f"
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1751107935-685fc95f33102-.docx?language=fa&subdomain=research-affairs",
+          "kind": "document",
+          "claim": "کاربرگ_تقاضا_-_مشخصات_پژوهشگر",
+          "id": "kashan-discovery-document-bff8e8a1bf65"
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1759211914-68db718a30901-.xls?language=fa&subdomain=research-affairs",
+          "kind": "document",
+          "claim": "فرم_دانشجویان",
+          "id": "kashan-discovery-document-cfe010dfe749"
+        },
+        {
+          "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748869127-683da007e4f0a-1748173886-6833043e20ce0-.doc?language=fa&subdomain=research-affairs",
+          "kind": "document",
+          "claim": "1748173886-6833043e20ce0-",
+          "id": "kashan-discovery-document-86c38ef5593d"
         },
         {
           "url": "https://research-affairs.kashanu.ac.ir/fa/regulation/830/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%DA%A9%D8%B4%D9%88%D8%B1-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%A7%D9%84%D9%81-%D8%A8-%D8%AC-",
@@ -1243,28 +1656,28 @@
     "nameFa": "دانشگاه کاشان",
     "iscCategory": "جامع",
     "iscRank": 21,
-    "score": 76.4,
-    "confidence": 82,
+    "score": 79,
+    "confidence": 91.4,
     "metrics": {
       "documents": 91,
-      "organization": 81.7,
-      "library": null,
+      "organization": 90.8,
+      "library": 70,
       "laboratories": 70,
-      "digital": 17.5,
+      "digital": 35,
       "industryTech": 90,
       "dataQuality": 100,
       "findability": 75
     },
-    "units": 4,
-    "systems": 1,
-    "documents": 32,
-    "activeWeight": 90,
-    "evidenceCoverage": 75,
+    "units": 18,
+    "systems": 2,
+    "documents": 45,
+    "activeWeight": 100,
+    "evidenceCoverage": 88,
     "methodologyVersion": "RTPMI-4.1-ISC",
     "snapshotDate": "2026-08-11",
-    "rank": 27,
-    "portalRankWithinISCClass": 14,
-    "rankedPortalsInISCClass": 35
+    "rank": 40,
+    "portalRankWithinISCClass": 26,
+    "rankedPortalsInISCClass": 50
   },
   "units": [
     {
@@ -1310,6 +1723,160 @@
       "sourceUrl": "https://research.kashanu.ac.ir/fa/page/3715/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.7905263157894736
+    },
+    {
+      "id": "kashan-discovery-unit-laboratory-b6ff30ab7574",
+      "universitySlug": "kashan",
+      "nameFa": "شبکه آزمایشگاهی فناوری‌های راهبردی",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.kashanu.ac.ir/fa/tag/2605/%D8%B4%D8%A8%DA%A9%D9%87+%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C+%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%E2%80%8C%D9%87%D8%A7%DB%8C+%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF%DB%8C",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kashan-discovery-unit-laboratory-94bb0003a86e",
+      "universitySlug": "kashan",
+      "nameFa": "آزمایشگاه مرکزی",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.kashanu.ac.ir/fa/tag/312/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87+%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kashan-discovery-unit-laboratory-5ff4c9a4a761",
+      "universitySlug": "kashan",
+      "nameFa": "Central Laboratory",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.kashanu.ac.ir/fa/tag/561/Central+Laboratory",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kashan-discovery-unit-research-61f508289c4b",
+      "universitySlug": "kashan",
+      "nameFa": "ساختار سازمانی مدیریت امور پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research-affairs.kashanu.ac.ir/fa/organizationChart/709/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kashan-discovery-unit-laboratory-f0f0449783e2",
+      "universitySlug": "kashan",
+      "nameFa": "آزمایشگاه مرکزی دانشگاه کاشان عضو فعال شبکه آزمایشگاهی فناوری‌های راهبردی قرار گرفت",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.kashanu.ac.ir/fa/news/11103/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%DA%A9%D8%A7%D8%B4%D8%A7%D9%86-%D8%B9%D8%B6%D9%88-%D9%81%D8%B9%D8%A7%D9%84-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF%DB%8C-%D9%82%D8%B1%D8%A7%D8%B1-%DA%AF%D8%B1%D9%81%D8%AA",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kashan-discovery-unit-library-65b8f1f216ad",
+      "universitySlug": "kashan",
+      "nameFa": "ساختار سازمانی کتابخانه مرکزی تامین منابع علمی و انتشارات دانشگاه",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.kashanu.ac.ir/fa/organizationChart/659",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kashan-discovery-unit-research-a0eecb7cf16e",
+      "universitySlug": "kashan",
+      "nameFa": "Research Units",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.kashanu.ac.ir/fa/tag/777/Research+Units",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kashan-discovery-unit-laboratory-65c5960362d0",
+      "universitySlug": "kashan",
+      "nameFa": "Iran High-Tech Laboratory Network",
+      "type": "laboratory",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.kashanu.ac.ir/fa/tag/2606/Iran+High-Tech+Laboratory+Network",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kashan-discovery-unit-research-b823dc54fc70",
+      "universitySlug": "kashan",
+      "nameFa": "واحدهای پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.kashanu.ac.ir/fa/tag/782/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "kashan-discovery-unit-library-2e37a346c6d8",
+      "universitySlug": "kashan",
+      "nameFa": "کتابخانه مرکزی دانشگاه کاشان",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.kashanu.ac.ir/fa",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "kashan-discovery-unit-research-ee1cd7ee8170",
+      "universitySlug": "kashan",
+      "nameFa": "واحدهای پژوهشی - معاونت پژوهشی و ارتباطات علمی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.kashanu.ac.ir/fa/page/3716/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8957894736842105
+    },
+    {
+      "id": "kashan-discovery-unit-research-d7139775cc46",
+      "universitySlug": "kashan",
+      "nameFa": "مدیریت امور پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research-affairs.kashanu.ac.ir/fa",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "kashan-discovery-unit-research-20ffe39c282e",
+      "universitySlug": "kashan",
+      "nameFa": "معرفی مدیریت امور پژوهشی - مدیریت امور پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research-affairs.kashanu.ac.ir/fa/page/8426/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "kashan-discovery-unit-library-8f94a5574e50",
+      "universitySlug": "kashan",
+      "nameFa": "سامانه مدیریت نشریات علمی دانشگاه کاشان",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://journals.kashanu.ac.ir/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8168421052631578
     }
   ],
   "systems": [
@@ -1325,6 +1892,19 @@
       "lastVerified": "2026-08-11",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kashan-discovery-system-8f94a5574e50",
+      "universitySlug": "kashan",
+      "nameFa": "سامانه مدیریت نشریات علمی دانشگاه کاشان",
+      "category": "journals",
+      "url": "https://journals.kashanu.ac.ir/",
+      "sourceUrl": "https://research.kashanu.ac.ir/fa/tag/400/Office+of+Vice-Chancellor+for+Research+and+Technology",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8431578947368421
     }
   ],
   "documents": [
@@ -1334,18 +1914,16 @@
       "title": "لینک دانلود فایل",
       "type": "فرم/الگو",
       "topic": "سایر",
-      "taxonomy": "form/template",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858152-683d7528cb66c-1748168685-6832efedeb706-1747728415-682c381f43116-.zip",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858152-683d7528cb66c-1748168685-6832efedeb706-1747728415-682c381f43116-.zip",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/830/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%DA%A9%D8%B4%D9%88%D8%B1-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%A7%D9%84%D9%81-%D8%A8-%D8%AC-",
-      "sha256": "babeee4fb8934b6c62cfc22e7b20533345db9cd78c3f1e109cebfb4f7cf7b90f",
       "fileName": "1748168685-6832efedeb706-1747728415-682c381f43116-.zip",
       "contentType": "application/x-zip-compressed",
       "fileSize": 52523,
-      "archivePath": "kashan/08740108c894-1748168685-6832efedeb706-1747728415-682c381f43116-.zip",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1362,11 +1940,9 @@
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748869041-683d9fb17dc20-1748173733-683303a516354-.doc",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748869041-683d9fb17dc20-1748173733-683303a516354-.doc",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/838/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87",
-      "sha256": "5c5d905e42bafa7ff94f56868c39230f595af100139aa7e922ea839529dce2c0",
       "fileName": "1748173733-683303a516354-.doc",
       "contentType": "application/msword",
       "fileSize": 101888,
-      "archivePath": "kashan/5d955a78eb52-1748173733-683303a516354-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1383,11 +1959,9 @@
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1777267274-69eef24a89377-.pdf",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1777267274-69eef24a89377-.pdf",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/939/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5-%D9%88-%D9%86%D8%AD%D9%88%D9%87-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%A9%D8%B1%D8%AF-%D9%88-%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%AC%D8%A7%D9%85%D8%B9",
-      "sha256": "ee0848f38db3fb69340be7de1cbfeee4e8c0a69da0b3e98edd21645e6e2061fe",
       "fileName": "شیوه نامه اجرایی و نحوه هزینه کرد پژوهانه جامع.pdf",
       "contentType": "application/pdf",
       "fileSize": 733261,
-      "archivePath": "kashan/8167136dbb08-شیوه نامه اجرایی و نحوه هزینه کرد پژوهانه جامع.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1397,18 +1971,16 @@
       "title": "لینک دانلود فایل",
       "type": "شیوه‌نامه/دستورالعمل",
       "topic": "سایر",
-      "taxonomy": "procedure/guideline",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1760438094-68ee274e89717-.pdf",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1760438094-68ee274e89717-.pdf",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/865/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D8%B3%D8%B1%D8%A2%D9%85%D8%AF%D8%A7%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%DA%A9%D8%A7%D8%B4%D8%A7%D9%86",
-      "sha256": "93c334a1c76eb072e651f7ce408eb1efc081c615e849004ae3bd61b696f24046",
       "fileName": "تعیین سرآمدان پژوهشی.pdf",
       "contentType": "application/pdf",
       "fileSize": 375763,
-      "archivePath": "kashan/ae58af571a42-تعیین سرآمدان پژوهشی.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1418,18 +1990,16 @@
       "title": "لینک دانلود فایل",
       "type": "شیوه‌نامه/دستورالعمل",
       "topic": "سایر",
-      "taxonomy": "procedure/guideline",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1783145966-6a48a5ee8e026-.pdf",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1783145966-6a48a5ee8e026-.pdf",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/954/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%88-%D9%86%D8%AD%D9%88%D9%87-%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86-%D8%A8%D8%B1%D8%AA%D8%B1-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%A8%D8%A7-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-      "sha256": "72daf9bd0d1ab6244d12f2cc3462654d71e2c0872237aab3a1ccacc621289acb",
       "fileName": "دستورالعمل همکاری با پژوهشگران برتر.pdf",
       "contentType": "application/pdf",
       "fileSize": 1991052,
-      "archivePath": "kashan/de1028ad66b1-دستورالعمل همکاری با پژوهشگران برتر.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1439,18 +2009,16 @@
       "title": "لینک دانلود فایل",
       "type": "شیوه‌نامه/دستورالعمل",
       "topic": "سایر",
-      "taxonomy": "procedure/guideline",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1750760081-685a7a9113f88-1404-.pdf",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1750760081-685a7a9113f88-1404-.pdf",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/858/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%B4%D8%B1%DA%A9%D8%AA-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B1-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
-      "sha256": "a790b05d2edcbb240cfd969b969dbdaac85b524b79cc04b59017a180ba41d840",
       "fileName": "شیوه نامه سفرهای خارجی اساتید (1404).pdf",
       "contentType": "application/pdf",
       "fileSize": 229339,
-      "archivePath": "kashan/63abbb798eb1-شیوه نامه سفرهای خارجی اساتید (1404).pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1467,11 +2035,9 @@
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1780314671-6a1d722fce3ec-.pdf",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1780314671-6a1d722fce3ec-.pdf",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/949/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%82%D9%88%D9%82-%D9%85%D8%A7%D9%84%DA%A9%DB%8C%D8%AA-%D9%81%DA%A9%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%DA%A9%D8%A7%D8%B4%D8%A7%D9%86",
-      "sha256": "a975e918efbd57f5f273d7aec5e6c26e2520a2c6fb3cdb9943cd9845de80b23a",
       "fileName": "شیوه_نامه_مالکیت_فکری.pdf",
       "contentType": "application/pdf",
       "fileSize": 2850203,
-      "archivePath": "kashan/b0f6d0842cd3-شیوه_نامه_مالکیت_فکری.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1481,18 +2047,16 @@
       "title": "لینک دانلود فایل",
       "type": "شیوه‌نامه/دستورالعمل",
       "topic": "سایر",
-      "taxonomy": "procedure/guideline",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1763805823-69218a7f07e58-guide-of-artificial-intelligence.pdf",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1763805823-69218a7f07e58-guide-of-artificial-intelligence.pdf",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/922/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%A7%D8%A8%D8%B2%D8%A7%D8%B1%D9%87%D8%A7%DB%8C-%D9%87%D9%88%D8%B4-%D9%85%D8%B5%D9%86%D9%88%D8%B9%DB%8C-%D8%AF%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4",
-      "sha256": "954dca49ea9e1b14f6cb20eaf266f476c43c5d6694919cd219e09438b40ad86a",
       "fileName": "Guide of Artificial Intelligence.pdf",
       "contentType": "application/pdf",
       "fileSize": 3770403,
-      "archivePath": "kashan/df5e6065e2fe-Guide of Artificial Intelligence.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1502,18 +2066,16 @@
       "title": "لینک دانلود فایل",
       "type": "شیوه‌نامه/دستورالعمل",
       "topic": "سایر",
-      "taxonomy": "procedure/guideline",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1749447986-68467532ba8b4-5-4-.pdf",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1749447986-68467532ba8b4-5-4-.pdf",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/857/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%85%D8%A7%D8%AF%D9%87-%DB%B5-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%82%D8%A7%D9%86%D9%88%D9%86-%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C-%D9%88-%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87-%D8%A8%D8%A7-%D8%AA%D9%82%D9%84%D8%A8-%D8%AF%D8%B1-%D8%AA%D9%87%DB%8C%D9%87-%D8%A2%D8%AB%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "6f93ac6385d041ac74fe80392c5663389144435becc1f6bdd1e230063d09bae3",
       "fileName": "دستورالعمل_ماده_5(4).pdf",
       "contentType": "application/pdf",
       "fileSize": 1912072,
-      "archivePath": "kashan/282210d66e1d-دستورالعمل_ماده_5(4).pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1523,18 +2085,16 @@
       "title": "لینک دانلود فایل",
       "type": "شیوه‌نامه/دستورالعمل",
       "topic": "سایر",
-      "taxonomy": "procedure/guideline",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1749447958-68467516a2c0f-.pdf",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1749447958-68467516a2c0f-.pdf",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/855/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "sha256": "d03f280ca34c257791b79a62e2c9025973ed659340480534a44199bb036e744d",
       "fileName": "دستورالعمل بررسی تخلفات پژوهشی.pdf",
       "contentType": "application/pdf",
       "fileSize": 3938817,
-      "archivePath": "kashan/93dcf05f722e-دستورالعمل بررسی تخلفات پژوهشی.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1544,18 +2104,16 @@
       "title": "لینک دانلود فایل",
       "type": "فرم/الگو",
       "topic": "سایر",
-      "taxonomy": "form/template",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858486-683d76765e27a-1748171768-6832fbf8839c6-.doc",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858486-683d76765e27a-1748171768-6832fbf8839c6-.doc",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/837/%D9%81%D8%B1%D9%85-%D8%B3%D9%81%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D8%A7%D8%B3%D8%A7%D8%AA%DB%8C%D8%AF-%D8%A8%D8%B9%D8%AF-%D8%A7%D8%B2-%D8%B3%D9%81%D8%B1-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1-",
-      "sha256": "489e0b47f926a193cdcbb9570e6f5319d90fb1b8f8cbabaf41d41e7af77bdd86",
       "fileName": "1748171768-6832fbf8839c6-.doc",
       "contentType": "application/msword",
       "fileSize": 102912,
-      "archivePath": "kashan/e747a24a3be8-1748171768-6832fbf8839c6-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1565,18 +2123,16 @@
       "title": "لینک دانلود فایل",
       "type": "فرم/الگو",
       "topic": "سایر",
-      "taxonomy": "form/template",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858465-683d7661744d0-1748171733-6832fbd5a8115-.doc",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858465-683d7661744d0-1748171733-6832fbd5a8115-.doc",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/836/%D9%81%D8%B1%D9%85-%D8%B3%D9%81%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D8%A7%D8%B3%D8%A7%D8%AA%DB%8C%D8%AF-%D9%82%D8%A8%D9%84-%D8%A7%D8%B2-%D8%B3%D9%81%D8%B1-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1-",
-      "sha256": "76c1d36905c268b1f0da71df07efbe8bf061dd23146ac16fa02564b5ef926d23",
       "fileName": "1748171733-6832fbd5a8115-.doc",
       "contentType": "application/msword",
       "fileSize": 102912,
-      "archivePath": "kashan/d91766689069-1748171733-6832fbd5a8115-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1586,18 +2142,16 @@
       "title": "لینک دانلود فایل",
       "type": "شیوه‌نامه/دستورالعمل",
       "topic": "سایر",
-      "taxonomy": "procedure/guideline",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748694383-683af56f0ecf3-1746004229-6811e905e8278-.pdf",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748694383-683af56f0ecf3-1746004229-6811e905e8278-.pdf",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/814/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%DA%A9%D8%A7%D8%B4%D8%A7%D9%86",
-      "sha256": "e705462e384e5b336efd27ad4b9b97e87ed418cf8161e34dcd2c7ee238cda4a6",
       "fileName": "1746004229-6811e905e8278-.pdf",
       "contentType": "application/pdf",
       "fileSize": 1042018,
-      "archivePath": "kashan/83cd16b3d4ec-1746004229-6811e905e8278-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1607,18 +2161,16 @@
       "title": "لینک دانلود فایل",
       "type": "شیوه‌نامه/دستورالعمل",
       "topic": "سایر",
-      "taxonomy": "procedure/guideline",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748693565-683af23d2e883-652a8fcd3ce32-.pdf",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748693565-683af23d2e883-652a8fcd3ce32-.pdf",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/810/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA",
-      "sha256": "9cb914fdba2b2332134dd8e05447e1b32e7e04f8b19ae0d68d2367a7addd9e0e",
       "fileName": "652a8fcd3ce32-.pdf",
       "contentType": "application/pdf",
       "fileSize": 1179750,
-      "archivePath": "kashan/3e9f23fa3191-652a8fcd3ce32-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1628,18 +2180,16 @@
       "title": "لینک دانلود فایل",
       "type": "فرم/الگو",
       "topic": "سایر",
-      "taxonomy": "form/template",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858435-683d76438761c-1748171667-6832fb9390491-.pdf",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858435-683d76438761c-1748171667-6832fb9390491-.pdf",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/835/%D9%81%D8%B1%D9%85-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AA%D9%88%D8%B3%D8%B7-%D8%AF%D8%A7%D9%88%D8%B1-%D8%A8%D8%B9%D8%AF-%D8%A7%D8%B2-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C-%D8%B7%D8%B1%D8%AD",
-      "sha256": "c03d4fa9acb7a1802b2a4e81557381d14d13deb826eabf42be09bd8a81ff4033",
       "fileName": "1748171667-6832fb9390491-.pdf",
       "contentType": "application/pdf",
       "fileSize": 135517,
-      "archivePath": "kashan/fb506da70249-1748171667-6832fb9390491-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1649,18 +2199,16 @@
       "title": "لینک دانلود فایل",
       "type": "فرم/الگو",
       "topic": "سایر",
-      "taxonomy": "form/template",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858386-683d7612823ea-1748171617-6832fb6199757-.pdf",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858386-683d7612823ea-1748171617-6832fb6199757-.pdf",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/834/%D9%81%D8%B1%D9%85-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AA%D9%88%D8%B3%D8%B7-%D8%AF%D8%A7%D9%88%D8%B1-%D9%82%D8%A8%D9%84-%D8%A7%D8%B2-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C-%D8%B7%D8%B1%D8%AD",
-      "sha256": "00832da702f923eb9379296528e3b436acd31c3951b6fcde2d289af4601fcc86",
       "fileName": "1748171617-6832fb6199757-.pdf",
       "contentType": "application/pdf",
       "fileSize": 255128,
-      "archivePath": "kashan/59584c4aab0e-1748171617-6832fb6199757-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1670,18 +2218,16 @@
       "title": "لینک دانلود فایل",
       "type": "فرم/الگو",
       "topic": "سایر",
-      "taxonomy": "form/template",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858268-683d759c5646d-1748171532-6832fb0ce93bb-.doc",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858268-683d759c5646d-1748171532-6832fb0ce93bb-.doc",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/833/%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%B4%D8%B1%DA%A9%D8%AA-%D8%A7%D8%B3%D8%A7%D8%AA%DB%8C%D8%AF-%D8%AF%D8%B1-%DA%AF%D8%B1%D8%AF%D9%87%D9%85%D8%A7%DB%8C%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
-      "sha256": "f89e8468c0f251cca4a79469f791cf998306365bfe47c96574ea07eb9cc14e3c",
       "fileName": "1748171532-6832fb0ce93bb-.doc",
       "contentType": "application/msword",
       "fileSize": 736768,
-      "archivePath": "kashan/f90ae81ad11e-1748171532-6832fb0ce93bb-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1691,18 +2237,16 @@
       "title": "لینک دانلود فایل",
       "type": "فرم/الگو",
       "topic": "سایر",
-      "taxonomy": "form/template",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858236-683d757cb425d-1748171388-6832fa7c5b8d5-.doc",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858236-683d757cb425d-1748171388-6832fa7c5b8d5-.doc",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/832/%D9%81%D8%B1%D9%85-%D8%B3%D9%81%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D8%A7%D8%B3%D8%A7%D8%AA%DB%8C%D8%AF-%D8%AF%D8%A7%D8%AE%D9%84-%DA%A9%D8%B4%D9%88%D8%B1-",
-      "sha256": "d071f69d1006223ffe7d9d66a86a514515575bc9b7e29ebfd0eb2e19907ec1a0",
       "fileName": "1748171388-6832fa7c5b8d5-.doc",
       "contentType": "application/msword",
       "fileSize": 97792,
-      "archivePath": "kashan/c17ff2d6dbf4-1748171388-6832fa7c5b8d5-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1712,18 +2256,16 @@
       "title": "لینک دانلود فایل",
       "type": "فرم/الگو",
       "topic": "سایر",
-      "taxonomy": "form/template",
+      "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858209-683d7561d372d-1748170620-6832f77cd1da2-.doc",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858209-683d7561d372d-1748170620-6832f77cd1da2-.doc",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/831/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "ed4826ca0974078fbe2ae969fc1f6da3b3732eb31f2f8ce641c73f603135a4d5",
       "fileName": "1748170620-6832f77cd1da2-.doc",
       "contentType": "application/msword",
       "fileSize": 90112,
-      "archivePath": "kashan/eedef0e73673-1748170620-6832f77cd1da2-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1782,11 +2324,9 @@
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858486-683d76765e27a-1748171768-6832fbf8839c6-.doc?language=fa&subdomain=research-affairs",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858486-683d76765e27a-1748171768-6832fbf8839c6-.doc?language=fa&subdomain=research-affairs",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "489e0b47f926a193cdcbb9570e6f5319d90fb1b8f8cbabaf41d41e7af77bdd86",
       "fileName": "1748171768-6832fbf8839c6-.doc",
       "contentType": "application/msword",
       "fileSize": 102912,
-      "archivePath": "kashan/b70688bcd997-1748171768-6832fbf8839c6-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1803,11 +2343,9 @@
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858465-683d7661744d0-1748171733-6832fbd5a8115-.doc?language=fa&subdomain=research-affairs",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858465-683d7661744d0-1748171733-6832fbd5a8115-.doc?language=fa&subdomain=research-affairs",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "76c1d36905c268b1f0da71df07efbe8bf061dd23146ac16fa02564b5ef926d23",
       "fileName": "1748171733-6832fbd5a8115-.doc",
       "contentType": "application/msword",
       "fileSize": 102912,
-      "archivePath": "kashan/a001ad04a1ce-1748171733-6832fbd5a8115-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1824,11 +2362,9 @@
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858435-683d76438761c-1748171667-6832fb9390491-.pdf?language=fa&subdomain=research-affairs",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858435-683d76438761c-1748171667-6832fb9390491-.pdf?language=fa&subdomain=research-affairs",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "c03d4fa9acb7a1802b2a4e81557381d14d13deb826eabf42be09bd8a81ff4033",
       "fileName": "1748171667-6832fb9390491-.pdf",
       "contentType": "application/pdf",
       "fileSize": 135517,
-      "archivePath": "kashan/83b7d446ff17-1748171667-6832fb9390491-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1845,11 +2381,9 @@
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858386-683d7612823ea-1748171617-6832fb6199757-.pdf?language=fa&subdomain=research-affairs",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858386-683d7612823ea-1748171617-6832fb6199757-.pdf?language=fa&subdomain=research-affairs",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "00832da702f923eb9379296528e3b436acd31c3951b6fcde2d289af4601fcc86",
       "fileName": "1748171617-6832fb6199757-.pdf",
       "contentType": "application/pdf",
       "fileSize": 255128,
-      "archivePath": "kashan/a93b2f69cad0-1748171617-6832fb6199757-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1866,11 +2400,9 @@
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858268-683d759c5646d-1748171532-6832fb0ce93bb-.doc?language=fa&subdomain=research-affairs",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858268-683d759c5646d-1748171532-6832fb0ce93bb-.doc?language=fa&subdomain=research-affairs",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "f89e8468c0f251cca4a79469f791cf998306365bfe47c96574ea07eb9cc14e3c",
       "fileName": "1748171532-6832fb0ce93bb-.doc",
       "contentType": "application/msword",
       "fileSize": 736768,
-      "archivePath": "kashan/1df24dfd5e9e-1748171532-6832fb0ce93bb-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1887,11 +2419,9 @@
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858236-683d757cb425d-1748171388-6832fa7c5b8d5-.doc?language=fa&subdomain=research-affairs",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858236-683d757cb425d-1748171388-6832fa7c5b8d5-.doc?language=fa&subdomain=research-affairs",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "d071f69d1006223ffe7d9d66a86a514515575bc9b7e29ebfd0eb2e19907ec1a0",
       "fileName": "1748171388-6832fa7c5b8d5-.doc",
       "contentType": "application/msword",
       "fileSize": 97792,
-      "archivePath": "kashan/d37ea716ea68-1748171388-6832fa7c5b8d5-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1908,11 +2438,9 @@
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858209-683d7561d372d-1748170620-6832f77cd1da2-.doc?language=fa&subdomain=research-affairs",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858209-683d7561d372d-1748170620-6832f77cd1da2-.doc?language=fa&subdomain=research-affairs",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "ed4826ca0974078fbe2ae969fc1f6da3b3732eb31f2f8ce641c73f603135a4d5",
       "fileName": "1748170620-6832f77cd1da2-.doc",
       "contentType": "application/msword",
       "fileSize": 90112,
-      "archivePath": "kashan/8e3876101de9-1748170620-6832f77cd1da2-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1929,11 +2457,9 @@
       "url": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858152-683d7528cb66c-1748168685-6832efedeb706-1747728415-682c381f43116-.zip?language=fa&subdomain=research-affairs",
       "sourceUrl": "https://research-affairs.kashanu.ac.ir/file/download/regulation/1748858152-683d7528cb66c-1748168685-6832efedeb706-1747728415-682c381f43116-.zip?language=fa&subdomain=research-affairs",
       "parentUrl": "https://research-affairs.kashanu.ac.ir/fa/regulation/category/135/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "babeee4fb8934b6c62cfc22e7b20533345db9cd78c3f1e109cebfb4f7cf7b90f",
       "fileName": "1748168685-6832efedeb706-1747728415-682c381f43116-.zip",
       "contentType": "application/x-zip-compressed",
       "fileSize": 52523,
-      "archivePath": "kashan/8750854a6a5c-1748168685-6832efedeb706-1747728415-682c381f43116-.zip",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1999,6 +2525,241 @@
       "archivePath": "kashan/847cf1d826ef-1748173886-6833043e20ce0-.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kashan-discovery-document-603aa824b500",
+      "universitySlug": "kashan",
+      "title": "لینک",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "سایر",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.kashanu.ac.ir/file/download/news/1505710920-.pdf",
+      "sourceUrl": "https://research.kashanu.ac.ir/file/download/news/1505710920-.pdf",
+      "parentUrl": "https://research.kashanu.ac.ir/fa/news/7211/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AA%DA%A9%D9%85%DB%8C%D9%84-%D9%81%D8%B1%D9%85-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%DA%AF%D8%B1%D8%AF%D9%87%D9%85%D8%A7%DB%8C%DB%8C",
+      "fileName": "راهنمای تکمیل فرم مقالات کنفرانسی.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 267061,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "kashan-discovery-document-20d95ba10175",
+      "universitySlug": "kashan",
+      "title": "اصل مقاله 8.27 M",
+      "type": "سند",
+      "topic": "سایر",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://jias.kashanu.ac.ir/article_115359_52e45f2cb3ed443e2915a7b437576cf6.pdf",
+      "sourceUrl": "https://jias.kashanu.ac.ir/article_115359_52e45f2cb3ed443e2915a7b437576cf6.pdf",
+      "parentUrl": "https://jias.kashanu.ac.ir/",
+      "fileName": "JIAS_Volume 14_Issue 28_Pages 65-82.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9800000000000001
+    },
+    {
+      "id": "kashan-discovery-document-4a8e6d989825",
+      "universitySlug": "kashan",
+      "title": "اصل مقاله 6.6 M",
+      "type": "سند",
+      "topic": "سایر",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://jias.kashanu.ac.ir/article_115236_9bd0bfab175e5347e3847505e3ce0eeb.pdf",
+      "sourceUrl": "https://jias.kashanu.ac.ir/article_115236_9bd0bfab175e5347e3847505e3ce0eeb.pdf",
+      "parentUrl": "https://jias.kashanu.ac.ir/",
+      "fileName": "JIAS_Volume 14_Issue 28_Pages 5-28.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
+    },
+    {
+      "id": "kashan-discovery-document-94dac0ac13ca",
+      "universitySlug": "kashan",
+      "title": "اصل مقاله 7.86 M",
+      "type": "سند",
+      "topic": "سایر",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://jias.kashanu.ac.ir/article_115256_e59162b63cb34cb395043b9c7e43e760.pdf",
+      "sourceUrl": "https://jias.kashanu.ac.ir/article_115256_e59162b63cb34cb395043b9c7e43e760.pdf",
+      "parentUrl": "https://jias.kashanu.ac.ir/",
+      "fileName": "JIAS_Volume 14_Issue 28_Pages 29-63.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
+    },
+    {
+      "id": "kashan-discovery-document-3d21a2b8ca74",
+      "universitySlug": "kashan",
+      "title": "اصل مقاله 5.39 M",
+      "type": "سند",
+      "topic": "سایر",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://jias.kashanu.ac.ir/article_115408_43b343b5271fa85bbd8cd35cbb80fffe.pdf",
+      "sourceUrl": "https://jias.kashanu.ac.ir/article_115408_43b343b5271fa85bbd8cd35cbb80fffe.pdf",
+      "parentUrl": "https://jias.kashanu.ac.ir/",
+      "fileName": "JIAS_Volume 14_Issue 28_Pages 83-111.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
+    },
+    {
+      "id": "kashan-discovery-document-90131ecd9089",
+      "universitySlug": "kashan",
+      "title": "اصل مقاله 4.03 M",
+      "type": "سند",
+      "topic": "سایر",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://jias.kashanu.ac.ir/article_115409_04941299dd9d19c1c20101c3a1327e39.pdf",
+      "sourceUrl": "https://jias.kashanu.ac.ir/article_115409_04941299dd9d19c1c20101c3a1327e39.pdf",
+      "parentUrl": "https://jias.kashanu.ac.ir/",
+      "fileName": "JIAS_Volume 14_Issue 28_Pages 113-127.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
+    },
+    {
+      "id": "kashan-discovery-document-01d516061c80",
+      "universitySlug": "kashan",
+      "title": "اصل مقاله 4.28 M",
+      "type": "سند",
+      "topic": "سایر",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://jias.kashanu.ac.ir/article_115420_7022db9d2869a64966142a35f5661220.pdf",
+      "sourceUrl": "https://jias.kashanu.ac.ir/article_115420_7022db9d2869a64966142a35f5661220.pdf",
+      "parentUrl": "https://jias.kashanu.ac.ir/",
+      "fileName": "JIAS_Volume 14_Issue 28_Pages 129-152.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
+    },
+    {
+      "id": "kashan-discovery-document-c0d495fa9709",
+      "universitySlug": "kashan",
+      "title": "اصل مقاله 4.75 M",
+      "type": "سند",
+      "topic": "سایر",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://jias.kashanu.ac.ir/article_115450_86b225469e95459de4a61c3f547c141c.pdf",
+      "sourceUrl": "https://jias.kashanu.ac.ir/article_115450_86b225469e95459de4a61c3f547c141c.pdf",
+      "parentUrl": "https://jias.kashanu.ac.ir/",
+      "fileName": "JIAS_Volume 14_Issue 28_Pages 153-169.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
+    },
+    {
+      "id": "kashan-discovery-document-5f3f34007c83",
+      "universitySlug": "kashan",
+      "title": "اصل مقاله 6.98 M",
+      "type": "سند",
+      "topic": "سایر",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://jias.kashanu.ac.ir/article_115471_ddbf93eedf94d6b62692f21abd1864f6.pdf",
+      "sourceUrl": "https://jias.kashanu.ac.ir/article_115471_ddbf93eedf94d6b62692f21abd1864f6.pdf",
+      "parentUrl": "https://jias.kashanu.ac.ir/",
+      "fileName": "JIAS_Volume 14_Issue 28_Pages 171-196.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
+    },
+    {
+      "id": "kashan-discovery-document-01ded2996128",
+      "universitySlug": "kashan",
+      "title": "اصل مقاله 3.98 M",
+      "type": "سند",
+      "topic": "سایر",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://jias.kashanu.ac.ir/article_115472_95acefeb3f62c5dd2cd1b160bb3796ac.pdf",
+      "sourceUrl": "https://jias.kashanu.ac.ir/article_115472_95acefeb3f62c5dd2cd1b160bb3796ac.pdf",
+      "parentUrl": "https://jias.kashanu.ac.ir/",
+      "fileName": "JIAS_Volume 14_Issue 28_Pages 197-215.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
+    },
+    {
+      "id": "kashan-discovery-document-38b4bbc6032b",
+      "universitySlug": "kashan",
+      "title": "اصل مقاله 5.38 M",
+      "type": "سند",
+      "topic": "سایر",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://jias.kashanu.ac.ir/article_115514_d869dcb283764051d4da7b2d1282a23b.pdf",
+      "sourceUrl": "https://jias.kashanu.ac.ir/article_115514_d869dcb283764051d4da7b2d1282a23b.pdf",
+      "parentUrl": "https://jias.kashanu.ac.ir/",
+      "fileName": "JIAS_Volume 14_Issue 28_Pages 217-238.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
+    },
+    {
+      "id": "kashan-discovery-document-02ee0c21370a",
+      "universitySlug": "kashan",
+      "title": "اصل مقاله 4.32 M",
+      "type": "سند",
+      "topic": "سایر",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://jias.kashanu.ac.ir/article_115515_e9ff1149dd1000cbb09891f67cfc579a.pdf",
+      "sourceUrl": "https://jias.kashanu.ac.ir/article_115515_e9ff1149dd1000cbb09891f67cfc579a.pdf",
+      "parentUrl": "https://jias.kashanu.ac.ir/",
+      "fileName": "JIAS_Volume 14_Issue 28_Pages 239-260.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
+    },
+    {
+      "id": "kashan-discovery-document-f7120fa58876",
+      "universitySlug": "kashan",
+      "title": "اصل مقاله 4.33 M",
+      "type": "سند",
+      "topic": "سایر",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://jias.kashanu.ac.ir/article_115416_b85fc8847ddfbc351cfb08b7946ced6d.pdf",
+      "sourceUrl": "https://jias.kashanu.ac.ir/article_115416_b85fc8847ddfbc351cfb08b7946ced6d.pdf",
+      "parentUrl": "https://jias.kashanu.ac.ir/",
+      "fileName": "JIAS_Volume 14_Issue 28_Pages 261-271.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89
     }
   ],
   "interpretation": {

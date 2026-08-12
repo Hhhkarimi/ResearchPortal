@@ -85,7 +85,7 @@
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-12",
-      "promotedSources": 74,
+      "promotedSources": 173,
       "socialEvidenceRemoved": true
     }
   },
@@ -163,17 +163,17 @@
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "verified",
-      "libraryDocuments": "unresolved",
+      "libraryDocuments": "verified",
       "laboratories": "verified",
       "industryTechnology": "verified",
       "informationTechnology": "unresolved",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 75,
-    "unitsFound": 4,
-    "systemsFound": 16,
-    "documentsFound": 41,
+    "auditEvidenceCoverage": 88,
+    "unitsFound": 10,
+    "systemsFound": 18,
+    "documentsFound": 110,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 60,
+      "sourceCount": 73,
       "sources": [
         {
           "url": "https://www.ilam.ac.ir/dep/research/",
@@ -550,6 +550,84 @@
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/research/news/?ihwffsxhz-%D9%81%D8%B1%D8%A7%D9%8A%D9%86%D8%AF-%D9%87%D8%A7%D9%8A-%DA%A9%D8%A7%D8%B1%D9%8A-%D8%AD%D9%88%D8%B2%D9%87-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/research/news/ihwffsxhz-%D9%81%D8%B1%D8%A7%D9%8A%D9%86%D8%AF-%D9%87%D8%A7%D9%8A-%DA%A9%D8%A7%D8%B1%D9%8A-%D8%AD%D9%88%D8%B2%D9%87-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/research/page/ihwfsyzsf-%D9%85%D8%AF%D9%8A%D8%B1-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/research/page/ihwfsyzwy-%D8%B4%D9%88%D8%B1%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/research/news/ihwffxkkq-%D8%AF%DA%A9%D8%AA%D8%B1-%D9%85%D9%87%D8%AF%D9%8A%E2%80%8C%D8%B2%D8%A7%D8%AF%D9%87--%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%A2%D8%A8%E2%80%8C%D9%88%D8%AE%D8%A7%DA%A9-%D8%AA%D9%88%D8%A7%D9%86-%D8%A2%D8%B2%D9%85%D9%88%D9%86%E2%80%8C-%D9%88-%D8%AE%D8%B7%D8%A7-%D9%86%D8%AF%D8%A7%D8%B1%D9%86%D8%AF",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/research/news/ihwffhyzw-%D9%86%D8%B4%D8%B3%D8%AA-%D8%B4%D9%88%D8%B1%D8%A7%D9%8A-%D9%87%D9%85%D8%A7%D9%87%D9%86%DA%AF%D9%8A-%D9%88-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%B1%D9%8A%D8%B2%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D9%87-%D9%BE%D9%86%D8%AC-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A-%DA%A9%D8%B4%D9%88%D8%B1",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/research/news/ihwffhyhz-%D8%A7%D8%AC%D9%84%D8%A7%D8%B3-%D8%B4%D9%88%D8%B1%D8%A7%D9%8A-%D9%87%D9%85%D8%A7%D9%87%D9%86%DA%AF%D9%8A-%D9%88-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D8%B1%D9%8A%D8%B2%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D9%87-%D9%BE%D9%86%D8%AC-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/research/sub2431",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep403/research",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/research/?cat=2",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/research/sub2205",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/research/news/ihwfhuwus-%D9%86%D8%B4%D8%B3%D8%AA-%D8%B4%D9%88%D8%B1%D8%A7%D9%8A-%D9%87%D9%85%D8%A7%D9%87%D9%86%DA%AF%D9%8A-%D9%88-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D8%B1%D9%8A%D8%B2%D9%8A-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%E2%80%8C%D9%87%D8%A7%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D9%87-%D9%BE%D9%86%D8%AC-%DA%A9%D8%B4%D9%88%D8%B1-",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/research/page/ihwfszkxf-%D9%81%D8%B1%D8%A7%D9%8A%D9%86%D8%AF-%D8%A7%D9%86%D8%AC%D8%A7%D9%85-%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%AA-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A-",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -567,7 +645,7 @@
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 4,
+      "sourceCount": 10,
       "sources": [
         {
           "url": "https://www.ilam.ac.ir/dep/research/news/ihwffhhkf-%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D9%85%D8%AF%D9%8A%D8%B1%D9%8A%D8%AA-%D9%85%D8%B1%DA%A9%D8%B2-%D8%B1%D8%B4%D8%AF-%D9%88-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%D9%8A%D9%86%D9%8A-",
@@ -604,6 +682,60 @@
           "unitType": "research",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/sanat/",
+          "kind": "unit",
+          "claim": ".:: ارتباط با صنعت و جامعه ::.",
+          "id": "ilam-discovery-unit-industry-b02f9626e2af",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/sanat/page/ihwffwyzw-%D9%84%D9%8A%D8%B3%D8%AA-%D9%81%D8%B1%D8%B5%D8%AA%E2%80%8C-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D9%8A%D9%84%D8%A7%D9%85",
+          "kind": "unit",
+          "claim": ".:: ارتباط با صنعت و جامعه ::.",
+          "id": "ilam-discovery-unit-industry-6f3708284a0d",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsquyk-%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF-%D8%AB%D8%A8%D8%AA-%D9%86%D8%A7%D9%85-%D9%88-%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "unit",
+          "claim": "فرايند ثبت نام و تسويه در کتابخانه مرکزي",
+          "id": "ilam-discovery-unit-library-8f59f1b9a8cd",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep403/sanat",
+          "kind": "unit",
+          "claim": ".:: ارتباط با صنعت و جامعه ::.",
+          "id": "ilam-discovery-unit-industry-5710b55e58d0",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/sanat/page/ihwfszxyw-%D8%B4%D9%8A%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%AF%D8%A7%D8%AE%D9%84%D9%8A-",
+          "kind": "unit",
+          "claim": ".:: ارتباط با صنعت و جامعه ::.",
+          "id": "ilam-discovery-unit-industry-01f55bbdfbda",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/sanat/page/ihwfszfkz-%D8%B4%D9%8A%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%A7%D8%B9%D8%B6%D8%A7%D9%8A-%D9%87%D9%8A%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%D9%8A",
+          "kind": "unit",
+          "claim": ".:: ارتباط با صنعت و جامعه ::.",
+          "id": "ilam-discovery-unit-industry-a3047a771a79",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         }
       ],
       "publicationAdjustment": null,
@@ -617,12 +749,18 @@
       "iscCategory": "جامع",
       "iscRank": 30,
       "dimension": "libraryDocuments",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 4,
+      "sourceCount": 6,
       "sources": [
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsquyk-%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF-%D8%AB%D8%A8%D8%AA-%D9%86%D8%A7%D9%85-%D9%88-%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
         {
           "url": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
           "kind": "system",
@@ -647,10 +785,16 @@
           "kind": "document",
           "claim": "شيوه نامه ارزيابي و رتبه بندي نشريات علمي",
           "id": "ilam-discovery-document-de21beb2cd58"
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1400/941400218-entesharat.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل اجرايي چاپ و نشر کتاب دانشگاه ايلام",
+          "id": "ilam-discovery-document-0776d52e62cb"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -696,12 +840,42 @@
       "iscCategory": "جامع",
       "iscRank": 30,
       "dimension": "industryTechnology",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 6,
+      "sourceCount": 7,
       "sources": [
+        {
+          "url": "https://www.ilam.ac.ir/dep/sanat/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/sanat/page/ihwffwyzw-%D9%84%D9%8A%D8%B3%D8%AA-%D9%81%D8%B1%D8%B5%D8%AA%E2%80%8C-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D9%8A%D9%84%D8%A7%D9%85",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep403/sanat",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/sanat/page/ihwfszxyw-%D8%B4%D9%8A%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%AF%D8%A7%D8%AE%D9%84%D9%8A-",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/sanat/page/ihwfszfkz-%D8%B4%D9%8A%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%A7%D8%B9%D8%B6%D8%A7%D9%8A-%D9%87%D9%8A%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%D9%8A",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
         {
           "url": "https://www.ilam.ac.ir/dep/research/news/ihwffhhkf-%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D9%85%D8%AF%D9%8A%D8%B1%D9%8A%D8%AA-%D9%85%D8%B1%DA%A9%D8%B2-%D8%B1%D8%B4%D8%AF-%D9%88-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%D9%8A%D9%86%D9%8A-",
           "kind": "unit",
@@ -717,38 +891,10 @@
           "claim": "پرتال پژوهش و فناوری 1",
           "id": null,
           "sourceLabel": "پرتال پژوهش و فناوری 1"
-        },
-        {
-          "url": "https://www.ilam.ac.ir/file_bank/1398/74139879-dastoramal.docx",
-          "kind": "research-review-specific",
-          "claim": "دستورالعمل اجرايي آيين نامه تشکيل و حمايت از هسته&zwnj;هاي پژوهشي و فناوري (",
-          "id": null,
-          "sourceLabel": "دستورالعمل اجرايي آيين نامه تشکيل و حمايت از هسته&zwnj;هاي پژوهشي و فناوري ("
-        },
-        {
-          "url": "https://www.ilam.ac.ir/file_bank/1398/741398126-dastoramal-haste-pazhoohesh.pdf",
-          "kind": "research-review-specific",
-          "claim": "دستورالعمل اجرايي آيين نامه تشکيل&zwnj;و&zwnj;حمايت&zwnj;از&zwnj;هسته هاي&zwnj;پژوهشي&zwnj;و&zwnj;فناوري&zwnj;دانشگاه&zwnj;ايلام",
-          "id": null,
-          "sourceLabel": "دستورالعمل اجرايي آيين نامه تشکيل&zwnj;و&zwnj;حمايت&zwnj;از&zwnj;هسته هاي&zwnj;پژوهشي&zwnj;و&zwnj;فناوري&zwnj;دانشگاه&zwnj;ايلام"
-        },
-        {
-          "url": "https://www.ilam.ac.ir/file_bank/1400/741400414-sh400.pdf",
-          "kind": "research-review-specific",
-          "claim": "شيوه نامه تسويه حساب طرحهاي مختلف و هسته هاي پژوهشي و فناوري دانشگاه ايلام",
-          "id": null,
-          "sourceLabel": "شيوه نامه تسويه حساب طرحهاي مختلف و هسته هاي پژوهشي و فناوري دانشگاه ايلام"
-        },
-        {
-          "url": "https://www.ilam.ac.ir/file_bank/1398/741398126-hastehay-pazhooheshi.pdf",
-          "kind": "research-review-specific",
-          "claim": "آيين نامه تشکيل&zwnj;و&zwnj;حمايت&zwnj;از&zwnj;هسته هاي&zwnj;پژوهشي&zwnj;و&zwnj;فناوري&zwnj;دانشگاه&zwnj;ايلام 97/06/11",
-          "id": null,
-          "sourceLabel": "آيين نامه تشکيل&zwnj;و&zwnj;حمايت&zwnj;از&zwnj;هسته هاي&zwnj;پژوهشي&zwnj;و&zwnj;فناوري&zwnj;دانشگاه&zwnj;ايلام 97/06/11"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -779,8 +925,14 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 13,
+      "sourceCount": 8,
       "sources": [
+        {
+          "url": "https://www.ilam.ac.ir/page/?ihwfsykzy-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%D9%8A-%D9%88%D9%8A%D8%AF%D9%88%D8%A6%D9%88%D9%8A%D9%8A-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%D9%8A-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%88-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%D9%8A-%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
         {
           "url": "https://ilam.ac.ir/page/?ihwffkuwh-%D8%AD%D9%85%D8%A7%D9%8A%D8%AA-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D8%B2-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%D9%8A-%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%D9%8A%D9%84%D9%8A-%D8%B4%D8%B1%DA%A9%D8%AA-%DA%AF%D8%A7%D8%B2-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86",
           "kind": "portal-document-reaudit",
@@ -794,49 +946,7 @@
           "id": null
         },
         {
-          "url": "https://www.ilam.ac.ir/forms/get/460/word/%D9%81%D8%B1%D9%85-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%A9%D8%B1%D8%AF-%D8%A7%D8%B2-%D9%85%D8%AD%D9%84-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%B9%D8%B6%D9%88-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D9%88-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/forms/get/570/word/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%D8%A7%D8%B3%D9%81%D9%86%D8%AF%D9%85%D8%A7%D9%87-96-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/forms/get/566/pdf/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%A2%D8%B0%D8%B1%D9%85%D8%A7%D9%87-96-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/forms/get/564/pdf/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D9%85%D8%B1%D8%AF%D8%A7%D8%AF%D9%85%D8%A7%D9%87-96-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/forms/get/562/pdf/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%AA%DB%8C%D8%B1%D9%85%D8%A7%D9%87-96-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/forms/get/560/pdf/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%AE%D8%B1%D8%AF%D8%A7%D8%AF-96-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/forms/get/571/pdf/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%86%D8%A7%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%D8%A7%D8%B3%D9%81%D9%86%D8%AF%D9%85%D8%A7%D9%87-96-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/forms/get/550/pdf/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%86%D8%A7%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%A2%D8%B0%D8%B1-95/",
+          "url": "https://www.ilam.ac.ir/forms/get/521/word/%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%A7%D9%82%D8%B3%D8%A7%D8%B7-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86-%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
@@ -861,6 +971,13 @@
           "claim": "Ilam University :: دانشگاه ایلام",
           "id": "ilam-discovery-system-78f741306b14",
           "systemCategory": "research"
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep403/research",
+          "kind": "system",
+          "claim": ".:: راهنماي ویدوئویی سامانه های دانشگاه و سامانه های دانلود مقالات :: ::.",
+          "id": "ilam-discovery-system-896c039314c2",
+          "systemCategory": "research"
         }
       ],
       "publicationAdjustment": null,
@@ -878,10 +995,154 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 49,
+      "sourceCount": 130,
       "sources": [
         {
+          "url": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/finc/page/ihwfsqkyk-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D9%8A%D9%87-%D9%87%D8%A7--%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/std/page/ihwfsyqyf-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/std/page/ihwfsyqqh-%D9%81%D8%B1%D9%85%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/farhangi/page/ihwffwyfs-%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/sanat/page/ihwfszxyw-%D8%B4%D9%8A%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%AF%D8%A7%D8%AE%D9%84%D9%8A-",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/sanat/page/ihwfszfkz-%D8%B4%D9%8A%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%A7%D8%B9%D8%B6%D8%A7%D9%8A-%D9%87%D9%8A%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%D9%8A",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/page/?ihwfsykzy-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%D9%8A-%D9%88%D9%8A%D8%AF%D9%88%D8%A6%D9%88%D9%8A%D9%8A-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%D9%8A-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%88-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%D9%8A-%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsquyk-%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF-%D8%AB%D8%A8%D8%AA-%D9%86%D8%A7%D9%85-%D9%88-%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsquyz-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%A7%D9%85%D8%A7%D9%86%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8-",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsquyy-%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%A7%D8%B9%D8%B2%D8%A7%D9%85-%D8%B9%D8%B6%D9%88-%D9%87%DB%8C%D8%A3%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%A8%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84-%D9%88-%D8%AE%D8%A7%D8%B1%D8%AC-%DA%A9%D9%88%D8%AA%D8%A7%D9%87-%D9%85%D8%AF%D8%AA-%D9%88-%D8%A8%D9%84%D9%86%D8%AF%D9%85%D8%AF%D8%AA-",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsquyh-%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%AA%D8%B5%D9%88%DB%8C%D8%A8-%D9%88-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C-%D8%B7%D8%B1%D8%AD%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%D8%A7%D9%85%D9%84-%D8%B7%D8%B1%D8%AD%E2%80%8C%D9%87%D8%A7%DB%8C-2-%D9%88-52-%D9%88-4-%D9%85%DB%8C%D9%84%DB%8C%D9%88%D9%86-%D8%AA%D9%88%D9%85%D8%A7%D9%86%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsquys-%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsqusk-%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsquzw-%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF-%DA%86%D8%A7%D9%BE-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%AA%D8%B1%D8%AC%D9%85%D9%87-%D8%A7%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsquzx-%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF-%DA%86%D8%A7%D9%BE-%DA%A9%D8%AA%D8%A7%D8%A8--%D8%AA%D8%B5%D9%86%DB%8C%D9%81%DB%8C--%D8%AA%D8%A7%D9%84%DB%8C%D9%81%DB%8C-%D8%AA%D8%B5%D8%AD%DB%8C%D8%AD-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D8%AF%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsquyq-%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF-%D8%AA%D8%B5%D9%88%DB%8C%D8%A8-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsqusw-%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF-%D8%A7%D9%86%D8%B9%D9%82%D8%A7%D8%AF-%D8%B7%D8%B1%D8%AD%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A8%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsqusx-%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF-%D8%A7%D9%86%D8%B9%D9%82%D8%A7%D8%AF-%D8%AA%D9%81%D8%A7%D9%87%D9%85%E2%80%8C%D9%86%D8%A7%D9%85%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsquyf-%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsquss-%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%AB%D8%A8%D8%AA-%D9%86%D8%A7%D9%85-%DA%A9%D8%A7%D8%B1%D8%A2%D9%85%D9%88%D8%B2%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
           "url": "https://www.ilam.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/show/?ihwfsquzk-%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C-%D8%BA%DB%8C%D8%B1-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/forms/get/521/word/%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%A7%D9%82%D8%B3%D8%A7%D8%B7-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86-%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -899,15 +1160,417 @@
           "id": null
         },
         {
+          "url": "https://www.ilam.ac.ir/file_bank/1399/74139963-forminfo.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم اطلاعات پايان نامه دانشجويي",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1401/74140188-form.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شيوه نامه اجرايي پذيرش پسادکترا و بکارگيري دستيار پژوهشي مصوب هيات امنا (تيرماه 1400)",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1399/861399420-moghararat.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مقررات عمومي سراهاي دانشجويي",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1399/861399420-form.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرمهاي اسکان در سراهاي دانشجويي",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1402/86140272-Form.taahod.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "Student Affairs فرم ها و آیین نامه ها مقررات عمومي سراهاي دانشجويي فرمهاي اسکان در سراهاي دانشجويي فرم تعهد التزام به ضوابط اخلاقي، رفتاري و پوشش دانشجويان دانشگاه ايلام ( ) ( ) آخرین ویرایش: ۲ مهر ۱۴۰۲ صفحات مرتبط مسئول اداره سراها",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1402/86140272-Form.taahod.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "Student Affairs فرم ها و آیین نامه ها مقررات عمومي سراهاي دانشجويي فرمهاي اسکان در سراهاي دانشجويي فرم تعهد التزام به ضوابط اخلاقي، رفتاري و پوشش دانشجويان دانشگاه ايلام ( ) ( ) آخرین ویرایش: ۲ مهر ۱۴۰۲ صفحات مرتبط مسئول اداره سراها",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/anfmddd.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه فرصت مطالعاتي دانشجويان دوره دکتري",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/anaddnm.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه آزمون دوره دكتري نيمه متمركز",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/anekbmkh.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين&zwnj;نامه اجرايي کميسيون بررسي موارد خاص",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/anedeakhbd.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين&zwnj;نامه انتقال دانشجويان ايراني از خارج به داخل",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/andd88bb.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين&zwnj;نامه دوره دکترا 88 به بعد",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/andd88vmgh.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين&zwnj;نامه دوره دکترا 88 و ماقبل",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/shnmvadvbdd.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شيوه نامه مصاحبه وارزيابي داوطلبان ورود به دوره دکتري",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1399/95139975-951398103-shevenameh.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شيوه نامه اجرايي آزمون جامع دوره دکتري",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1398/951398103-dastorlamal1.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل پذيرش دانشجوي دوره دکتري پژوهش محور ويژه متقاضيان غير ايراني دانشگاه ايلام",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1402/741402920-%D9%81%D8%B1%D9%85-%D8%AA%D8%A7%D9%8A%D9%8A%D8%AF%D9%8A%D9%87-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D9%85%D8%B3%D8%AA%D8%AE%D8%B1%D8%AC-%D8%A7%D8%B2-%D8%B1%D8%B3%D8%A7%D9%84%D9%87.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم تأييديه مقاله مستخرج از رساله دکتري جهت صدور مجوز دفاع (ويرايش آذر 1402)",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1401/12214011221-ab.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم احراز بسندگي زبان خاجي دانشجويان دکتري",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1401/951401717-m.d.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم محرمانه دفاع از پايان نامه دکتري",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1403/1221403117-1-16631139717.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم صورتجلسه پيش دفاع رساله دکتري",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1404/122140471-tb.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم تاييديه مقاله رساله دکتري جهت مجوز دفاع",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1397/951397116-%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%D9%8A%D8%B4%D8%B1%D9%81%D8%AA-%DA%A9%D8%A7%D8%B1-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7-.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "گزارش پيشرفت کار رساله دکتري تخصصي (فايل )",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1397/9513971219-%D9%81%D8%B1%D9%85-1-.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "گزارش پيشرفت کار رساله دکترا تخصصي (فايل )",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1397/74139746-%D8%AC%D9%85%D8%B9-21.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم اطلاعات پايان نامه دانشجويي را فقط يکبار و در موقع دريافت قسط اول تکميل نماييد.",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1397/74139746-%D9%81%D8%B1%D9%85-%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87-%D9%87%D8%B2%D9%8A%D9%86%D9%87-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D8%A7%D9%86-%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%D9%8A%D9%84%D9%8A.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم صوتجلسه هزينه پايان نامه دانشجويان تحصيلات تکميلي",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1398/941398410-1392.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه قبل از سال 1392 مقطع تحصيلي دکتري و ارشد",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1400/7414001117-an.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه ورودي 99 مقطع کارشناسي ارشد و ورودي 98 مقطع دکتري به بعد",
+          "id": null
+        },
+        {
+          "url": "http://www.ilam.ac.ir/file_bank/1394/1394117-%D9%81%D8%B1%D9%85%20%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84%20%D8%AF%D8%A7%D9%8A%D9%85.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم انتقال دائم",
+          "id": null
+        },
+        {
+          "url": "http://www.ilam.ac.ir/file_bank/1395/1395108-%D9%81%D8%B1%D9%85%20%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84%20%D9%85%D9%88%D9%82%D8%AA.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم انتقال موقت",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1397/691397105-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%AA%D9%88%D8%A7%D9%85-%D8%A8%D8%A7-%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1-%D8%B1%D8%B4%D8%AA%D9%87.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست انتقال تؤام با تغيير رشته",
+          "id": null
+        },
+        {
+          "url": "http://www.ilam.ac.ir/file_bank/1395/1395117-%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D9%85%D8%B1%D8%AE%D8%B5%D9%8A%20%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%D9%8A.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست مرخصي تحصيلي",
+          "id": null
+        },
+        {
+          "url": "http://www.ilam.ac.ir/file_bank/1395/1395117-%D9%81%D8%B1%D9%85%20%D8%AF%D9%88%D8%B1%D9%87%20%D8%AA%D8%A7%D8%A8%D8%B3%D8%AA%D8%A7%D9%86%D9%8A.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم دوره تابستاني",
+          "id": null
+        },
+        {
+          "url": "http://www.ilam.ac.ir/file_bank/1395/1395117-%D9%81%D8%B1%D9%85%20%D9%85%D8%B9%D8%A7%D8%AF%D9%84%20%20%D8%B3%D8%A7%D8%B2%D9%8A.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم معادل سازي",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1403/1221403823-ma.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم معرفي به استاد",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1397/691397105-%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1-%D8%B1%D8%B4%D8%AA%D9%87-%D8%AF%D8%A7%D8%AE%D9%84-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم تغيير رشته داخل دانشگاه",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1397/691397105-%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A8%D8%B1%D8%B1%D8%B3%D9%8A-%DA%A9%D8%AF-%D8%B1%D8%B4%D8%AA%D9%87.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم بررسي کد رشته براي تغيير رشته",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1401/1221401914-t.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم تعهد نامه",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1401/1221401914-a.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم استشهاد محلي",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1401/1221401914-azad.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم تعهد دانشگاه آزاد",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1400/951400310-951397126-%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84.-1-.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پيشنهادي پروپوزال کارشناسي ارشد",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1403/122140365-ham.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم تاييد نتيجه همانندجوي",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1401/1221401921-ka.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم محرمانه دفاع از پايان نامه کارشناسي ارشد",
+          "id": null
+        },
+        {
+          "url": "https://ilam.ac.ir/file_bank/1402/741402113-payeh-tashvighi.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شيوه نامه پايه تشويقي اعضاي هيأت علمي سال 1402",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1402/9140226-%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%DA%A9%D8%A7%D8%B1%DA%AF%D9%8A%D8%B1%D9%8A-%D8%AF%D8%B3%D8%AA%D9%8A%D8%A7%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A1.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شيوه نامه بکارگيري دستيار پژوهشي در دانشگاه ايلام",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1402/9140226-%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D8%A6%D9%8A-%D9%BE%D8%B0%D9%8A%D8%B1%D8%B4-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%D9%8A.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شيوه نامه اجرايي پژوهشگر پسادکتري (Postdoc) در دانشگاه ايلام",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1401/74140144-sh.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شيوه نامه امتياز دهي طرح هاي پژوهشي خارج از دانشگاه",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1400/941400416-dt4.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل اجرايي فرصت مطالعاتي اعضاي هيات علمي دانشگاه ايلام (1400)",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1400/741400414-sh400.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شيوه نامه تسويه حساب طرحهاي مختلف و هسته هاي پژوهشي و فناوري دانشگاه ايلام",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1400/741400414-da400.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل اجرايي فرصت مطالعاتي اعضاي هيأت علمي دانشگاه ايلام",
+          "id": null
+        },
+        {
+          "url": "http://www.ilam.ac.ir/file_bank/1394/1394115-Aeenname%20karshenasi%2091%20va%20baad.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه آموزشي 1391 به بعد آيين نامه آموزشي 1393 آيين نامه مهماني و انتقالي دانشجويان آيين نامه کميسيون موارد خاص دانشگاه آيين نامه کميسيون موارد خاص استاني",
+          "id": null
+        },
+        {
+          "url": "http://www.ilam.ac.ir/file_bank/1394/1394115-%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%20%DA%A9%D8%A7%D8%B1%D8%AF%D8%A7%D9%86%DB%8C%20%D9%88%20%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C%20%D9%85%D8%B5%D9%88%D8%A8%20%D8%A7%D8%B3%D9%81%D9%86%D8%AF%201393.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه آموزشي 1391 به بعد آيين نامه آموزشي 1393 آيين نامه مهماني و انتقالي دانشجويان آيين نامه کميسيون موارد خاص دانشگاه آيين نامه کميسيون موارد خاص استاني",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1397/691397105-%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%82%D9%84-%D9%88-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه آموزشي 1391 به بعد آيين نامه آموزشي 1393 آيين نامه مهماني و انتقالي دانشجويان آيين نامه کميسيون موارد خاص دانشگاه آيين نامه کميسيون موارد خاص استاني",
+          "id": null
+        },
+        {
+          "url": "http://www.ilam.ac.ir/file_bank/1394/1394115-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A%20%DA%A9%D9%85%D9%8A%D8%B3%D9%8A%D9%88%D9%86%20%D8%A8%D8%B1%D8%B1%D8%B3%D9%8A%20%D9%85%D9%88%D8%A7%D8%B1%D8%AF%20%D8%AE%D8%A7%D8%B5%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%E2%80%8C%D9%87%D8%A7.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه آموزشي 1391 به بعد آيين نامه آموزشي 1393 آيين نامه مهماني و انتقالي دانشجويان آيين نامه کميسيون موارد خاص دانشگاه آيين نامه کميسيون موارد خاص استاني",
+          "id": null
+        },
+        {
+          "url": "http://www.ilam.ac.ir/file_bank/1394/1394115-ostani1.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين نامه آموزشي 1391 به بعد آيين نامه آموزشي 1393 آيين نامه مهماني و انتقالي دانشجويان آيين نامه کميسيون موارد خاص دانشگاه آيين نامه کميسيون موارد خاص استاني",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/andkan.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين&zwnj;نامه دوره كارشناسي ارشد ناپيوسته",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1397/951397109-94.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين&zwnj;نامه دوره کارشناسي ارشد ناپيوسته 88 به بعد (1394)",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1398/951398913-Aeen-nameh-Arshad-73.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين&zwnj;نامه دوره کارشناسي ارشد ناپيوسته 88 و ماقبل (1373)",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1397/951397109-13881.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آيين&zwnj;نامه دوره کارشناسي ارشد ناپيوسته 88 و ماقبل (1388)",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1393/13931119-erpReport_12.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "ارتقاء سلامت نظام اداري نامه ها،اطلاعیه ها، بخشنامه ها و فرم ها تحصيل کارکنان جمع آورس سوابق بيمه جمع آوري کارنامه ادواري ا طلاعيه مانده مرخصي کارکنان ساعت کاري آخرین ویرایش: ۳۰ آبان ۱۴۰۰ صفحات مرتبط اتوماسيون اداري",
+          "id": null
+        },
+        {
+          "url": "http://www.ilam.ac.ir/file_bank/1401/1221401914-a.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم استشهاد محلي",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1401/1221401914-t.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم تعهد محضري صدور گواهينامه موقت المثني",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1401/1221401915-formt.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم تعهد محضري آموزش رايگان",
+          "id": null
+        },
+        {
+          "url": "https://ilam.ac.ir/file_bank/1399/91399720-es-b.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شيوه نامه فرصت مطالعاتي اعضاي هيات علمي",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1403/741403610-1231.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل اجرايي اعطاي پايه ترفيع ساليانه و شرح وظايف اعضاي هيات علمي پژوهشي دانشگاه",
+          "id": null
+        },
+        {
+          "url": "https://ilam.ac.ir/file_bank/1403/74140346-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%BE%D8%A7%D9%8A%D9%87-%D8%A7%D8%B3%D8%AA%D8%AD%D9%82%D8%A7%D9%82%D9%8A-%D8%B3%D8%A7%D9%84-1402.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل اعطاي ترفيع ساليانه اعضاي هيات علمي 1402",
+          "id": null
+        },
+        {
           "url": "https://www.ilam.ac.ir/file_bank/1402/741402919-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%DA%AF%D8%B1%D9%86%D8%AA-1401.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "آيين نامه گرنت سال 1401 اعضا هيات علمي دانشگاه ايلام",
           "id": null
         },
         {
+          "url": "https://www.ilam.ac.ir/file_bank/1400/741400913-fad.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم ارزيابي اوليه کتاب در گروه آموزشي و شوراي دانشکده",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1400/941400616-dsa.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل نحوه بررسي تخلفات پژوهشي",
+          "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1400/941400218-entesharat.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل اجرايي چاپ و نشر کتاب دانشگاه ايلام",
+          "id": null
+        },
+        {
           "url": "https://www.ilam.ac.ir/file_bank/1398/74139879-dastoramal.docx",
           "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل اجرايي آيين نامه تشکيل و حمايت از هسته&zwnj;هاي پژوهشي و فناوري (",
+          "claim": "دستورالعمل اجرايي آيين نامه تشکيل و حمايت از هسته&zwnj;هاي پژوهشي و فناوري ( فايل )",
           "id": null
         },
         {
@@ -971,129 +1634,75 @@
           "id": null
         },
         {
-          "url": "https://www.ilam.ac.ir/file_bank/1399/74139963-forminfo.docx",
+          "url": "https://www.ilam.ac.ir/file_bank/1398/forms/941398418-%D9%81%D8%B1%D8%A2%D9%8A%D9%86%D8%AF-%D8%AA%D8%B4%DA%A9%D9%8A%D9%84-%D9%87%D8%B3%D8%AA%D9%87.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم اطلاعات پايان نامه دانشجويي",
+          "claim": "فرآيند تشکيل هسته&zwnj;هاي پژوهشي و فناوري دانشگاه ايلام",
           "id": null
         },
         {
-          "url": "https://www.ilam.ac.ir/file_bank/1397/74139746-%D8%AC%D9%85%D8%B9-21.docx",
+          "url": "https://www.ilam.ac.ir/file_bank/1399/891399721-91399720-es-b1.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم اطلاعات پايان نامه دانشجويي",
+          "claim": "شيوه‌نامه فرصت مطالعاتي اعضاي هيئت علمي",
           "id": null
         },
         {
-          "url": "https://www.ilam.ac.ir/file_bank/1397/74139746-%D9%81%D8%B1%D9%85-%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87-%D9%87%D8%B2%D9%8A%D9%86%D9%87-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D8%A7%D9%86-%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%D9%8A%D9%84%D9%8A.docx",
+          "url": "http://www.ilam.ac.ir/file_bank/1397/86139738-%D9%81%D8%B1%D9%85-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-1.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم صوتجلسه هزينه پايان نامه دانشجويان تحصيلات تکميلي",
+          "claim": "Student Affairs فرمها و آیین نامه ها فرم 1 پرسشنامه علایق ورزشی فرم اعلام آمادگی اولیه آخرین ویرایش: ۸ خرداد ۱۳۹۷ صفحات مرتبط رييس تربيت بدني",
           "id": null
         },
         {
-          "url": "https://ilam.ac.ir/file_bank/1402/741402113-payeh-tashvighi.pdf",
+          "url": "http://www.ilam.ac.ir/file_bank/1397/86139738-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B9%D9%84%D8%A7%D8%A6%D9%82-%D9%88%D8%B1%D8%B2%D8%B4%D9%8A.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "شيوه نامه پايه تشويقي اعضاي هيأت علمي سال 1402",
+          "claim": "Student Affairs فرمها و آیین نامه ها فرم 1 پرسشنامه علایق ورزشی فرم اعلام آمادگی اولیه آخرین ویرایش: ۸ خرداد ۱۳۹۷ صفحات مرتبط رييس تربيت بدني",
           "id": null
         },
         {
-          "url": "https://www.ilam.ac.ir/file_bank/1402/9140226-%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%DA%A9%D8%A7%D8%B1%DA%AF%D9%8A%D8%B1%D9%8A-%D8%AF%D8%B3%D8%AA%D9%8A%D8%A7%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A1.pdf",
+          "url": "http://www.ilam.ac.ir/file_bank/1397/86139738-%D9%81%D8%B1%D9%85-%D8%A7%D8%B9%D9%84%D8%A7%D9%85-%D8%A2%D9%85%D8%A7%D8%AF%DA%AF%DB%8C-%D8%A7%D9%88%D9%84%DB%8C%D9%87.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "شيوه نامه بکارگيري دستيار پژوهشي در دانشگاه ايلام",
+          "claim": "Student Affairs فرمها و آیین نامه ها فرم 1 پرسشنامه علایق ورزشی فرم اعلام آمادگی اولیه آخرین ویرایش: ۸ خرداد ۱۳۹۷ صفحات مرتبط رييس تربيت بدني",
           "id": null
         },
         {
-          "url": "https://www.ilam.ac.ir/file_bank/1402/9140226-%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D8%A6%D9%8A-%D9%BE%D8%B0%D9%8A%D8%B1%D8%B4-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%D9%8A.pdf",
+          "url": "http://www.ilam.ac.ir/file_bank/1395/1395512-%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%B4%D9%88%D8%B1%D8%A7%D9%8A%20%D9%81%D8%B1%D9%87%D9%86%DA%AF%D9%8A%20%D8%AC%D8%AF%D9%8A%D8%AF.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "شيوه نامه اجرايي پژوهشگر پسادکتري (Postdoc) در دانشگاه ايلام",
+          "claim": "فرم درخواست برنامه از کميته حمايت از انجمن هاي علمي دانشجويي فرم درخواست برنامه از شوراي فرهنگي فرم درخواست برگزاري کرسي آزادانديشي و تريبون آزاد فرم مخصوص پرداخت هديه فرم درخواست براي ارسال پيامک",
           "id": null
         },
         {
-          "url": "https://www.ilam.ac.ir/file_bank/1401/74140144-sh.pdf",
+          "url": "http://www.ilam.ac.ir/file_bank/1395/1395512-1391320-%D9%81%D8%B1%D9%85%20%D9%85%D8%AE%D8%B5%D9%88%D8%B5%20%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA%20%D9%87%D8%AF%DB%8C%D9%87.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "شيوه نامه امتياز دهي طرح هاي پژوهشي خارج از دانشگاه",
+          "claim": "فرم درخواست برنامه از کميته حمايت از انجمن هاي علمي دانشجويي فرم درخواست برنامه از شوراي فرهنگي فرم درخواست برگزاري کرسي آزادانديشي و تريبون آزاد فرم مخصوص پرداخت هديه فرم درخواست براي ارسال پيامک",
           "id": null
         },
         {
-          "url": "https://www.ilam.ac.ir/file_bank/1400/941400615-a4.pdf",
+          "url": "https://www.ilam.ac.ir/file_bank/1397/8913971211-%D8%B4%D9%8A%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "آيين نامه اعطاي پايه تشويقي پژوهشي اعضاي هيات علمي سال 1400",
+          "claim": "شيوه&zwnj;نامه اجرايي فرصت مطالعاتي داخلي",
           "id": null
         },
         {
-          "url": "https://www.ilam.ac.ir/file_bank/1400/941400416-dt4.pdf",
+          "url": "https://www.ilam.ac.ir/forms/get/468/pdf/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85-%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%D9%85%D8%A7%D9%84%DB%8C-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C-%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C/",
           "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل اجرايي فرصت مطالعاتي اعضاي هيات علمي دانشگاه ايلام",
+          "claim": "آيين نام حمايت مالي از پايان&zwnj;نامه&zwnj;هاي دانشجويي تحصيلات تکميلي",
           "id": null
         },
         {
-          "url": "https://www.ilam.ac.ir/file_bank/1400/741400414-sh400.pdf",
+          "url": "https://www.ilam.ac.ir/page/?ihwfszwkq-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-96-%D8%A7%D8%B1%D8%B4%D8%AF-95-%D8%A8%D9%87-%D8%A8%D8%B9%D8%AF-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C",
           "kind": "portal-document-reaudit-document",
-          "claim": "شيوه نامه تسويه حساب طرحهاي مختلف و هسته هاي پژوهشي و فناوري دانشگاه ايلام",
+          "claim": "آيين نامه ورودي 96 مقطع کارشناسي ارشد و ورودي 95 مقطع دکتري به بعد",
           "id": null
         },
         {
-          "url": "https://www.ilam.ac.ir/file_bank/1400/741400414-da400.pdf",
+          "url": "https://ilam.ac.ir/page/?ihwffwysz-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A-%D8%AD%D8%B0%D9%81-%D9%BE%D8%B2%D8%B4%DA%A9%D9%8A-%D8%AF%D8%B1%D9%88%D8%B3-%D8%AF%D8%B1%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86-%D8%AA%D8%B1%D9%85-1401",
           "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل اجرايي فرصت مطالعاتي اعضاي هيأت علمي دانشگاه ايلام",
+          "claim": "آيين نامه اجرايي حذف پزشکي دروس درامتحانات پايان ترم 1401",
           "id": null
         },
         {
-          "url": "https://www.ilam.ac.ir/file_bank/1399/7413991020-a99new.pdf",
+          "url": "http://www.ilam.ac.ir/file_bank/1394/1394116-%D8%A7%D9%86%D8%B5%D8%B1%D8%A7%D9%81.bmp",
           "kind": "portal-document-reaudit-document",
-          "claim": "آيين نامه انجام طرح هاي تحقيقاتي داخلي دانشگاه ايلام مصوب 1399",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/file_bank/1398/741398126-hastehay-pazhooheshi.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آيين نامه تشکيل&zwnj;و&zwnj;حمايت&zwnj;از&zwnj;هسته هاي&zwnj;پژوهشي&zwnj;و&zwnj;فناوري&zwnj;دانشگاه&zwnj;ايلام 97/06/11",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/file_bank/1397/741397722-tashvigh-hiat-elmi.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آيين نامه اعطاي پايه تشويقي اعضا هيات علمي دانشگاه ايلام",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/file_bank/1402/741402920-%D9%81%D8%B1%D9%85-%D8%AA%D8%A7%D9%8A%D9%8A%D8%AF%D9%8A%D9%87-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D9%85%D8%B3%D8%AA%D8%AE%D8%B1%D8%AC-%D8%A7%D8%B2-%D8%B1%D8%B3%D8%A7%D9%84%D9%87.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم تأييديه مقاله مستخرج از رساله دکتري جهت صدور مجوز دفاع",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/file_bank/1401/74140188-form.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شيوه نامه اجرايي پذيرش پسادکترا و بکارگيري دستيار پژوهشي مصوب هيات امنا (تيرماه 1400)",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/file_bank/1400/7414001130-kh1.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "خلاصه آيين نامه جديد نشريات علمي",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/file_bank/1400/7414001120-aan.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آيين نامه نشريات جديد مصوب 1398",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/file_bank/1400/7414001120-sh.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شيوه نامه ارزيابي و رتبه بندي نشريات علمي",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/file_bank/1398/941398410-1392.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آيين نامه قبل از سال 1392 مقطع تحصيلي دکتري و ارشد",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/file_bank/1400/7414001117-an.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آيين نامه ورودي 99 مقطع کارشناسي ارشد و ورودي 98 مقطع دکتري به بعد",
+          "claim": "فرم انصرافي",
           "id": null
         },
         {
@@ -1103,83 +1712,70 @@
           "id": null
         },
         {
-          "url": "https://www.ilam.ac.ir/forms/get/521/word/%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%A7%D9%82%D8%B3%D8%A7%D8%B7-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86-%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C/",
+          "url": "https://www.ilam.ac.ir/dep/research/page/index.html",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم گزارش اقساط پايان نامه دانشجويان تحصيلات تکميلي",
+          "claim": "آيين نامه حمايت از پايان نامه‌ها بیانیه راهبرد مشارکت بیانیه توافق سطح خدمت بیانیه حریم خصوصی نقشه سایت راه های تماس ايلام، بلوار پژوهش، دانشگاه ايلام info@ilam.ac.ir 59241000(084) لینک های پربازدید مرکز فناوري اطلاعات",
           "id": null
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1400/941400615-a4.pdf",
+          "kind": "document",
+          "claim": "آيين نامه اعطاي پايه تشويقي پژوهشي اعضاي هيات علمي سال 1400",
+          "id": "ilam-discovery-document-069bf0a9fc33"
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1399/7413991020-a99new.pdf",
+          "kind": "document",
+          "claim": "آيين نامه انجام طرح هاي تحقيقاتي داخلي دانشگاه ايلام مصوب 1399",
+          "id": "ilam-discovery-document-1eb1a6af56d7"
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1398/741398126-hastehay-pazhooheshi.pdf",
+          "kind": "document",
+          "claim": "آيين نامه تشکيل&zwnj;و&zwnj;حمايت&zwnj;از&zwnj;هسته هاي&zwnj;پژوهشي&zwnj;و&zwnj;فناوري&zwnj;دانشگاه&zwnj;ايلام 97/06/11",
+          "id": "ilam-discovery-document-f24b1fbfcfc1"
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1397/741397722-tashvigh-hiat-elmi.pdf",
+          "kind": "document",
+          "claim": "آيين نامه اعطاي پايه تشويقي اعضا هيات علمي دانشگاه ايلام",
+          "id": "ilam-discovery-document-ca5474f9dacc"
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1400/7414001130-kh1.pdf",
+          "kind": "document",
+          "claim": "خلاصه آيين نامه جديد نشريات علمي",
+          "id": "ilam-discovery-document-1a5c89d7dfb3"
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1400/7414001120-aan.pdf",
+          "kind": "document",
+          "claim": "آيين نامه نشريات جديد مصوب 1398",
+          "id": "ilam-discovery-document-6a600047ba06"
+        },
+        {
+          "url": "https://www.ilam.ac.ir/file_bank/1400/7414001120-sh.pdf",
+          "kind": "document",
+          "claim": "شيوه نامه ارزيابي و رتبه بندي نشريات علمي",
+          "id": "ilam-discovery-document-de21beb2cd58"
         },
         {
           "url": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "آيين‌نامه‌ها و دستورالعمل هاي پژوهشي",
-          "id": null
-        },
-        {
-          "url": "https://ilam.ac.ir/file_bank/1399/91399720-es-b.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شيوه نامه فرصت مطالعاتي اعضاي هيات علمي",
-          "id": null
+          "id": "ilam-discovery-document-6cdb917d575a"
         },
         {
           "url": "https://www.ilam.ac.ir/file_bank/1403/117140325-fani.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم درخواست حمايت از پايان نامه&zwnj;هاي فني",
-          "id": null
+          "id": "ilam-discovery-document-fb9e94fd419a"
         },
         {
           "url": "https://www.ilam.ac.ir/file_bank/1403/117140325-q-fani.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم درخواست حمايت از پايان نامه&zwnj;هاي غير فني",
-          "id": null
-        },
-        {
-          "url": "https://www.ilam.ac.ir/forms/get/570/word/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%D8%A7%D8%B3%D9%81%D9%86%D8%AF%D9%85%D8%A7%D9%87-96-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://www.ilam.ac.ir/forms/get/566/pdf/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%A2%D8%B0%D8%B1%D9%85%D8%A7%D9%87-96-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://www.ilam.ac.ir/forms/get/564/pdf/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D9%85%D8%B1%D8%AF%D8%A7%D8%AF%D9%85%D8%A7%D9%87-96-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://www.ilam.ac.ir/forms/get/562/pdf/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%AA%DB%8C%D8%B1%D9%85%D8%A7%D9%87-96-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://www.ilam.ac.ir/forms/get/560/pdf/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%AE%D8%B1%D8%AF%D8%A7%D8%AF-96-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://www.ilam.ac.ir/forms/get/571/pdf/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%86%D8%A7%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%D8%A7%D8%B3%D9%81%D9%86%D8%AF%D9%85%D8%A7%D9%87-96-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://www.ilam.ac.ir/forms/get/550/pdf/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%86%D8%A7%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%A2%D8%B0%D8%B1-95/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
+          "id": "ilam-discovery-document-f512bda29a84"
         }
       ],
       "publicationAdjustment": null,
@@ -1192,28 +1788,28 @@
     "nameFa": "دانشگاه ایلام",
     "iscCategory": "جامع",
     "iscRank": 30,
-    "score": 70.2,
-    "confidence": 82,
+    "score": 83.2,
+    "confidence": 91.4,
     "metrics": {
-      "documents": 73,
-      "organization": 72.5,
-      "library": null,
+      "documents": 100,
+      "organization": 90.8,
+      "library": 70,
       "laboratories": 70,
       "digital": 55,
-      "industryTech": 45,
+      "industryTech": 90,
       "dataQuality": 100,
       "findability": 75
     },
-    "units": 4,
-    "systems": 16,
-    "documents": 41,
-    "activeWeight": 90,
-    "evidenceCoverage": 75,
+    "units": 10,
+    "systems": 18,
+    "documents": 110,
+    "activeWeight": 100,
+    "evidenceCoverage": 88,
     "methodologyVersion": "RTPMI-4.1-ISC",
     "snapshotDate": "2026-08-11",
-    "rank": 45,
-    "portalRankWithinISCClass": 26,
-    "rankedPortalsInISCClass": 35
+    "rank": 23,
+    "portalRankWithinISCClass": 16,
+    "rankedPortalsInISCClass": 50
   },
   "units": [
     {
@@ -1259,6 +1855,72 @@
       "sourceUrl": "https://www.ilam.ac.ir/dep/research/news/ihwffhfff--%D8%A7%D9%86%D8%AA%D8%B5%D8%A7%D8%A8-%D8%B3%D8%B1%D9%BE%D8%B1%D8%B3%D8%AA--%D9%85%D8%AF%D9%8A%D8%B1%D9%8A%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87--",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.7905263157894736
+    },
+    {
+      "id": "ilam-discovery-unit-industry-b02f9626e2af",
+      "universitySlug": "ilam",
+      "nameFa": ".:: ارتباط با صنعت و جامعه ::.",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/sanat/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ilam-discovery-unit-industry-6f3708284a0d",
+      "universitySlug": "ilam",
+      "nameFa": ".:: ارتباط با صنعت و جامعه ::.",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/sanat/page/ihwffwyzw-%D9%84%D9%8A%D8%B3%D8%AA-%D9%81%D8%B1%D8%B5%D8%AA%E2%80%8C-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D9%8A%D9%84%D8%A7%D9%85",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ilam-discovery-unit-library-8f59f1b9a8cd",
+      "universitySlug": "ilam",
+      "nameFa": "فرايند ثبت نام و تسويه در کتابخانه مرکزي",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.ilam.ac.ir/forms/show/?ihwfsquyk-%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF-%D8%AB%D8%A8%D8%AA-%D9%86%D8%A7%D9%85-%D9%88-%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9484210526315788
+    },
+    {
+      "id": "ilam-discovery-unit-industry-5710b55e58d0",
+      "universitySlug": "ilam",
+      "nameFa": ".:: ارتباط با صنعت و جامعه ::.",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.ilam.ac.ir/dep403/sanat",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "ilam-discovery-unit-industry-01f55bbdfbda",
+      "universitySlug": "ilam",
+      "nameFa": ".:: ارتباط با صنعت و جامعه ::.",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/sanat/page/ihwfszxyw-%D8%B4%D9%8A%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%AF%D8%A7%D8%AE%D9%84%D9%8A-",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "ilam-discovery-unit-industry-a3047a771a79",
+      "universitySlug": "ilam",
+      "nameFa": ".:: ارتباط با صنعت و جامعه ::.",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/sanat/page/ihwfszfkz-%D8%B4%D9%8A%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%A7%D8%B9%D8%B6%D8%A7%D9%8A-%D9%87%D9%8A%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%D9%8A",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
     }
   ],
   "systems": [
@@ -1469,6 +2131,32 @@
       "lastVerified": "2026-08-11",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8168421052631578
+    },
+    {
+      "id": "ilam-discovery-system-896c039314c2",
+      "universitySlug": "ilam",
+      "nameFa": ".:: راهنماي ویدوئویی سامانه های دانشگاه و سامانه های دانلود مقالات :: ::.",
+      "category": "research",
+      "url": "https://www.ilam.ac.ir/page/?ihwfsykzy-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%D9%8A-%D9%88%D9%8A%D8%AF%D9%88%D8%A6%D9%88%D9%8A%D9%8A-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%D9%8A-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%88-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%D9%8A-%D8%AF%D8%A7%D9%86%D9%84%D9%88%D8%AF-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA",
+      "sourceUrl": "https://www.ilam.ac.ir/dep403/research",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ilam-discovery-system-284e3f2525a8",
+      "universitySlug": "ilam",
+      "nameFa": "فرم گزارش اقساط پايان نامه دانشجويان تحصيلات تکميلي",
+      "category": "research",
+      "url": "https://www.ilam.ac.ir/forms/get/521/word/%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%A7%D9%82%D8%B3%D8%A7%D8%B7-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86-%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C/",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8431578947368421
     }
   ],
   "documents": [
@@ -1486,7 +2174,10 @@
       "sourceUrl": "https://www.ilam.ac.ir/file_bank/1400/741400414-dgd99.pdf",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9
+      "discoveryConfidence": 0.99,
+      "fileName": "741400414-dgd99.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 390037
     },
     {
       "id": "ilam-discovery-document-725953d4d437",
@@ -1694,7 +2385,10 @@
       "sourceUrl": "https://www.ilam.ac.ir/file_bank/1399/74139963-forminfo.docx",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9
+      "discoveryConfidence": 0.99,
+      "fileName": "74139963-forminfo.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 165583
     },
     {
       "id": "ilam-discovery-document-b29b65320003",
@@ -1702,7 +2396,7 @@
       "title": "فرم اطلاعات پايان نامه دانشجويي",
       "type": "سند",
       "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
+      "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
@@ -1718,7 +2412,7 @@
       "title": "فرم صوتجلسه هزينه پايان نامه دانشجويان تحصيلات تکميلي",
       "type": "سند",
       "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
+      "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
@@ -1742,7 +2436,7 @@
       "sourceUrl": "https://ilam.ac.ir/file_bank/1402/741402113-payeh-tashvighi.pdf",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.9
     },
     {
       "id": "ilam-discovery-document-c364325b30f9",
@@ -1758,7 +2452,7 @@
       "sourceUrl": "https://www.ilam.ac.ir/file_bank/1402/9140226-%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%DA%A9%D8%A7%D8%B1%DA%AF%D9%8A%D8%B1%D9%8A-%D8%AF%D8%B3%D8%AA%D9%8A%D8%A7%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A1.pdf",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.9
     },
     {
       "id": "ilam-discovery-document-d60d57d0ae17",
@@ -1774,7 +2468,7 @@
       "sourceUrl": "https://www.ilam.ac.ir/file_bank/1402/9140226-%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D8%A6%D9%8A-%D9%BE%D8%B0%D9%8A%D8%B1%D8%B4-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%D9%8A.pdf",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.9
     },
     {
       "id": "ilam-discovery-document-9409f31c0b93",
@@ -1790,7 +2484,7 @@
       "sourceUrl": "https://www.ilam.ac.ir/file_bank/1401/74140144-sh.pdf",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.9
     },
     {
       "id": "ilam-discovery-document-069bf0a9fc33",
@@ -1822,7 +2516,7 @@
       "sourceUrl": "https://www.ilam.ac.ir/file_bank/1400/941400416-dt4.pdf",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.9
     },
     {
       "id": "ilam-discovery-document-9d09cd3880f8",
@@ -1838,7 +2532,7 @@
       "sourceUrl": "https://www.ilam.ac.ir/file_bank/1400/741400414-sh400.pdf",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.9
     },
     {
       "id": "ilam-discovery-document-abf6b42f8a17",
@@ -1854,7 +2548,7 @@
       "sourceUrl": "https://www.ilam.ac.ir/file_bank/1400/741400414-da400.pdf",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.9
     },
     {
       "id": "ilam-discovery-document-1eb1a6af56d7",
@@ -1918,7 +2612,7 @@
       "sourceUrl": "https://www.ilam.ac.ir/file_bank/1402/741402920-%D9%81%D8%B1%D9%85-%D8%AA%D8%A7%D9%8A%D9%8A%D8%AF%D9%8A%D9%87-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D9%85%D8%B3%D8%AA%D8%AE%D8%B1%D8%AC-%D8%A7%D8%B2-%D8%B1%D8%B3%D8%A7%D9%84%D9%87.pdf",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.9
     },
     {
       "id": "ilam-discovery-document-72e2059f2c30",
@@ -1934,7 +2628,10 @@
       "sourceUrl": "https://www.ilam.ac.ir/file_bank/1401/74140188-form.pdf",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.99,
+      "fileName": "74140188-form.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 698641
     },
     {
       "id": "ilam-discovery-document-1a5c89d7dfb3",
@@ -1990,7 +2687,7 @@
       "title": "آيين نامه قبل از سال 1392 مقطع تحصيلي دکتري و ارشد",
       "type": "سند",
       "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
+      "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
@@ -1998,7 +2695,7 @@
       "sourceUrl": "https://www.ilam.ac.ir/file_bank/1398/941398410-1392.pdf",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyzhx-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%85%D8%A7%D9%8A%D8%AA-%D8%A7%D8%B2-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.9
     },
     {
       "id": "ilam-discovery-document-0d56a2673d2d",
@@ -2006,7 +2703,7 @@
       "title": "آيين نامه ورودي 99 مقطع کارشناسي ارشد و ورودي 98 مقطع دکتري به بعد",
       "type": "سند",
       "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
+      "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
@@ -2014,7 +2711,7 @@
       "sourceUrl": "https://www.ilam.ac.ir/file_bank/1400/7414001117-an.pdf",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyzhx-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%85%D8%A7%D9%8A%D8%AA-%D8%A7%D8%B2-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.86
+      "discoveryConfidence": 0.9
     },
     {
       "id": "ilam-discovery-document-f5aa622dd62f",
@@ -2030,7 +2727,7 @@
       "sourceUrl": "https://www.ilam.ac.ir/forms/get/460/word/%D9%81%D8%B1%D9%85-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%A9%D8%B1%D8%AF-%D8%A7%D8%B2-%D9%85%D8%AD%D9%84-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%B9%D8%B6%D9%88-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D9%88-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%D8%A7%D8%AA-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87/",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.85
+      "discoveryConfidence": 0.88
     },
     {
       "id": "ilam-discovery-document-d7c80bfc6f7f",
@@ -2044,9 +2741,9 @@
       "lastVerified": "2026-08-12",
       "url": "https://www.ilam.ac.ir/dep/research/page/ihwfsyzhx-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%85%D8%A7%D9%8A%D8%AA-%D8%A7%D8%B2-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7",
       "sourceUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyzhx-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%85%D8%A7%D9%8A%D8%AA-%D8%A7%D8%B2-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7",
-      "parentUrl": "https://www.ilam.ac.ir/dep/research/",
+      "parentUrl": "https://www.ilam.ac.ir/dep/research/sub2431",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.85
+      "discoveryConfidence": 0.88
     },
     {
       "id": "ilam-discovery-document-284e3f2525a8",
@@ -2062,7 +2759,7 @@
       "sourceUrl": "https://www.ilam.ac.ir/forms/get/521/word/%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%A7%D9%82%D8%B3%D8%A7%D8%B7-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86-%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C/",
       "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.85
+      "discoveryConfidence": 0.88
     },
     {
       "id": "ilam-discovery-document-6cdb917d575a",
@@ -2094,7 +2791,7 @@
       "sourceUrl": "https://ilam.ac.ir/file_bank/1399/91399720-es-b.pdf",
       "parentUrl": "https://ilam.ac.ir/",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8300000000000001
+      "discoveryConfidence": 0.9
     },
     {
       "id": "ilam-discovery-document-fb9e94fd419a",
@@ -2127,6 +2824,1119 @@
       "parentUrl": "https://ilam.ac.ir/page/?ihwffkuwh-%D8%AD%D9%85%D8%A7%D9%8A%D8%AA-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D8%B2-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%D9%8A-%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%D9%8A%D9%84%D9%8A-%D8%B4%D8%B1%DA%A9%D8%AA-%DA%AF%D8%A7%D8%B2-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8300000000000001
+    },
+    {
+      "id": "ilam-discovery-document-e0321d4faf66",
+      "universitySlug": "ilam",
+      "title": "مقررات عمومي سراهاي دانشجويي",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1399/861399420-moghararat.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1399/861399420-moghararat.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/std/page/ihwfsyqyf-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "fileName": "861399420-moghararat.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 386183,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ilam-discovery-document-ccbbe86d50a8",
+      "universitySlug": "ilam",
+      "title": "فرمهاي اسکان در سراهاي دانشجويي",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1399/861399420-form.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1399/861399420-form.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/std/page/ihwfsyqyf-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "fileName": "861399420-form.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 644188,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ilam-discovery-document-4f2a1503ff5b",
+      "universitySlug": "ilam",
+      "title": "Student Affairs فرم ها و آیین نامه ها مقررات عمومي سراهاي دانشجويي فرمهاي اسکان در سراهاي دانشجويي فرم تعهد التزام به ضوابط اخلاقي، رفتاري و پوشش دانشجويان دانشگاه ايلام ( ) ( ) آخرین ویرایش: ۲ مهر ۱۴۰۲ صفحات مرتبط مسئول اداره سراها",
+      "type": "آیین‌نامه",
+      "topic": "اخلاق پژوهش",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1402/86140272-Form.taahod.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1402/86140272-Form.taahod.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/std/page/ihwfsyqyf-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "fileName": "86140272-Form.taahod.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 646899,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ilam-discovery-document-9010c5760a22",
+      "universitySlug": "ilam",
+      "title": "Student Affairs فرم ها و آیین نامه ها مقررات عمومي سراهاي دانشجويي فرمهاي اسکان در سراهاي دانشجويي فرم تعهد التزام به ضوابط اخلاقي، رفتاري و پوشش دانشجويان دانشگاه ايلام ( ) ( ) آخرین ویرایش: ۲ مهر ۱۴۰۲ صفحات مرتبط مسئول اداره سراها",
+      "type": "آیین‌نامه",
+      "topic": "اخلاق پژوهش",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1402/86140272-Form.taahod.doc",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1402/86140272-Form.taahod.doc",
+      "parentUrl": "https://www.ilam.ac.ir/dep/std/page/ihwfsyqyf-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-03abf31855c0",
+      "universitySlug": "ilam",
+      "title": "آيين نامه فرصت مطالعاتي دانشجويان دوره دکتري",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/anfmddd.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/anfmddd.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-018385620bba",
+      "universitySlug": "ilam",
+      "title": "آيين نامه آزمون دوره دكتري نيمه متمركز",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/anaddnm.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/anaddnm.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-79dcbb245072",
+      "universitySlug": "ilam",
+      "title": "آيين&zwnj;نامه اجرايي کميسيون بررسي موارد خاص",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/anekbmkh.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/anekbmkh.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-0b56f4875a8e",
+      "universitySlug": "ilam",
+      "title": "آيين&zwnj;نامه انتقال دانشجويان ايراني از خارج به داخل",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/anedeakhbd.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/anedeakhbd.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-df8615a13de3",
+      "universitySlug": "ilam",
+      "title": "آيين&zwnj;نامه دوره دکترا 88 به بعد",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/andd88bb.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/andd88bb.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-8a9930ee9ffb",
+      "universitySlug": "ilam",
+      "title": "آيين&zwnj;نامه دوره دکترا 88 و ماقبل",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/andd88vmgh.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/andd88vmgh.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-a0dce41623cd",
+      "universitySlug": "ilam",
+      "title": "شيوه نامه مصاحبه وارزيابي داوطلبان ورود به دوره دکتري",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/shnmvadvbdd.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/shnmvadvbdd.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-68c95c595379",
+      "universitySlug": "ilam",
+      "title": "شيوه نامه اجرايي آزمون جامع دوره دکتري",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1399/95139975-951398103-shevenameh.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1399/95139975-951398103-shevenameh.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-fd4ddccabc75",
+      "universitySlug": "ilam",
+      "title": "دستورالعمل پذيرش دانشجوي دوره دکتري پژوهش محور ويژه متقاضيان غير ايراني دانشگاه ايلام",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1398/951398103-dastorlamal1.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1398/951398103-dastorlamal1.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-cc4c67283457",
+      "universitySlug": "ilam",
+      "title": "فرم احراز بسندگي زبان خاجي دانشجويان دکتري",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1401/12214011221-ab.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1401/12214011221-ab.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-20220f574825",
+      "universitySlug": "ilam",
+      "title": "فرم محرمانه دفاع از پايان نامه دکتري",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1401/951401717-m.d.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1401/951401717-m.d.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-a2354eeeff7a",
+      "universitySlug": "ilam",
+      "title": "فرم صورتجلسه پيش دفاع رساله دکتري",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1403/1221403117-1-16631139717.docx",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1403/1221403117-1-16631139717.docx",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-fc71a9504b0d",
+      "universitySlug": "ilam",
+      "title": "فرم تاييديه مقاله رساله دکتري جهت مجوز دفاع",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1404/122140471-tb.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1404/122140471-tb.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-56bbaed5f6db",
+      "universitySlug": "ilam",
+      "title": "گزارش پيشرفت کار رساله دکتري تخصصي (فايل )",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1397/951397116-%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%D9%8A%D8%B4%D8%B1%D9%81%D8%AA-%DA%A9%D8%A7%D8%B1-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7-.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1397/951397116-%D9%81%D8%B1%D9%85-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%BE%D9%8A%D8%B4%D8%B1%D9%81%D8%AA-%DA%A9%D8%A7%D8%B1-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7-.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-12f6f795ab86",
+      "universitySlug": "ilam",
+      "title": "گزارش پيشرفت کار رساله دکترا تخصصي (فايل )",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1397/9513971219-%D9%81%D8%B1%D9%85-1-.docx",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1397/9513971219-%D9%81%D8%B1%D9%85-1-.docx",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-c24e56938e4f",
+      "universitySlug": "ilam",
+      "title": "فرم انتقال دائم",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1394/1394117-%D9%81%D8%B1%D9%85%20%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84%20%D8%AF%D8%A7%D9%8A%D9%85.pdf",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1394/1394117-%D9%81%D8%B1%D9%85%20%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84%20%D8%AF%D8%A7%D9%8A%D9%85.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-d5ce440a12f6",
+      "universitySlug": "ilam",
+      "title": "فرم انتقال موقت",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1395/1395108-%D9%81%D8%B1%D9%85%20%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84%20%D9%85%D9%88%D9%82%D8%AA.pdf",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1395/1395108-%D9%81%D8%B1%D9%85%20%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84%20%D9%85%D9%88%D9%82%D8%AA.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-5a1138c51c48",
+      "universitySlug": "ilam",
+      "title": "فرم درخواست انتقال تؤام با تغيير رشته",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1397/691397105-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%AA%D9%88%D8%A7%D9%85-%D8%A8%D8%A7-%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1-%D8%B1%D8%B4%D8%AA%D9%87.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1397/691397105-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84-%D8%AA%D9%88%D8%A7%D9%85-%D8%A8%D8%A7-%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1-%D8%B1%D8%B4%D8%AA%D9%87.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-ff5d3018a4a3",
+      "universitySlug": "ilam",
+      "title": "فرم درخواست مرخصي تحصيلي",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1395/1395117-%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D9%85%D8%B1%D8%AE%D8%B5%D9%8A%20%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%D9%8A.doc",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1395/1395117-%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D9%85%D8%B1%D8%AE%D8%B5%D9%8A%20%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%D9%8A.doc",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-19103015c605",
+      "universitySlug": "ilam",
+      "title": "فرم دوره تابستاني",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1395/1395117-%D9%81%D8%B1%D9%85%20%D8%AF%D9%88%D8%B1%D9%87%20%D8%AA%D8%A7%D8%A8%D8%B3%D8%AA%D8%A7%D9%86%D9%8A.doc",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1395/1395117-%D9%81%D8%B1%D9%85%20%D8%AF%D9%88%D8%B1%D9%87%20%D8%AA%D8%A7%D8%A8%D8%B3%D8%AA%D8%A7%D9%86%D9%8A.doc",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-72647df030fa",
+      "universitySlug": "ilam",
+      "title": "فرم معادل سازي",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1395/1395117-%D9%81%D8%B1%D9%85%20%D9%85%D8%B9%D8%A7%D8%AF%D9%84%20%20%D8%B3%D8%A7%D8%B2%D9%8A.doc",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1395/1395117-%D9%81%D8%B1%D9%85%20%D9%85%D8%B9%D8%A7%D8%AF%D9%84%20%20%D8%B3%D8%A7%D8%B2%D9%8A.doc",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-014be5e412a2",
+      "universitySlug": "ilam",
+      "title": "فرم معرفي به استاد",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1403/1221403823-ma.docx",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1403/1221403823-ma.docx",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-b466a1474b3b",
+      "universitySlug": "ilam",
+      "title": "فرم تغيير رشته داخل دانشگاه",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1397/691397105-%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1-%D8%B1%D8%B4%D8%AA%D9%87-%D8%AF%D8%A7%D8%AE%D9%84-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1397/691397105-%D8%AA%D8%BA%D9%8A%D9%8A%D8%B1-%D8%B1%D8%B4%D8%AA%D9%87-%D8%AF%D8%A7%D8%AE%D9%84-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-118fe1140f5c",
+      "universitySlug": "ilam",
+      "title": "فرم بررسي کد رشته براي تغيير رشته",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1397/691397105-%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A8%D8%B1%D8%B1%D8%B3%D9%8A-%DA%A9%D8%AF-%D8%B1%D8%B4%D8%AA%D9%87.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1397/691397105-%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A8%D8%B1%D8%B1%D8%B3%D9%8A-%DA%A9%D8%AF-%D8%B1%D8%B4%D8%AA%D9%87.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-da17137e14af",
+      "universitySlug": "ilam",
+      "title": "فرم تعهد نامه",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1401/1221401914-t.docx",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1401/1221401914-t.docx",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-116fc529a861",
+      "universitySlug": "ilam",
+      "title": "فرم استشهاد محلي",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1401/1221401914-a.docx",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1401/1221401914-a.docx",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-2a9524a9a951",
+      "universitySlug": "ilam",
+      "title": "فرم تعهد دانشگاه آزاد",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1401/1221401914-azad.docx",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1401/1221401914-azad.docx",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-d7c7dbf057a5",
+      "universitySlug": "ilam",
+      "title": "فرم پيشنهادي پروپوزال کارشناسي ارشد",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1400/951400310-951397126-%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84.-1-.doc",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1400/951400310-951397126-%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84.-1-.doc",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-4f7274f0fbb6",
+      "universitySlug": "ilam",
+      "title": "فرم تاييد نتيجه همانندجوي",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1403/122140365-ham.docx",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1403/122140365-ham.docx",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-d993ae894d67",
+      "universitySlug": "ilam",
+      "title": "فرم محرمانه دفاع از پايان نامه کارشناسي ارشد",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1401/1221401921-ka.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1401/1221401921-ka.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-5633d30a4848",
+      "universitySlug": "ilam",
+      "title": "آيين نامه آموزشي 1391 به بعد آيين نامه آموزشي 1393 آيين نامه مهماني و انتقالي دانشجويان آيين نامه کميسيون موارد خاص دانشگاه آيين نامه کميسيون موارد خاص استاني",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1394/1394115-Aeenname%20karshenasi%2091%20va%20baad.pdf",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1394/1394115-Aeenname%20karshenasi%2091%20va%20baad.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-01619053d64c",
+      "universitySlug": "ilam",
+      "title": "آيين نامه آموزشي 1391 به بعد آيين نامه آموزشي 1393 آيين نامه مهماني و انتقالي دانشجويان آيين نامه کميسيون موارد خاص دانشگاه آيين نامه کميسيون موارد خاص استاني",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1394/1394115-%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%20%DA%A9%D8%A7%D8%B1%D8%AF%D8%A7%D9%86%DB%8C%20%D9%88%20%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C%20%D9%85%D8%B5%D9%88%D8%A8%20%D8%A7%D8%B3%D9%81%D9%86%D8%AF%201393.pdf",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1394/1394115-%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%20%DA%A9%D8%A7%D8%B1%D8%AF%D8%A7%D9%86%DB%8C%20%D9%88%20%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C%20%D9%85%D8%B5%D9%88%D8%A8%20%D8%A7%D8%B3%D9%81%D9%86%D8%AF%201393.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-cd3e1d4186eb",
+      "universitySlug": "ilam",
+      "title": "آيين نامه آموزشي 1391 به بعد آيين نامه آموزشي 1393 آيين نامه مهماني و انتقالي دانشجويان آيين نامه کميسيون موارد خاص دانشگاه آيين نامه کميسيون موارد خاص استاني",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1397/691397105-%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%82%D9%84-%D9%88-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1397/691397105-%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%82%D9%84-%D9%88-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-21f69b9760d4",
+      "universitySlug": "ilam",
+      "title": "آيين نامه آموزشي 1391 به بعد آيين نامه آموزشي 1393 آيين نامه مهماني و انتقالي دانشجويان آيين نامه کميسيون موارد خاص دانشگاه آيين نامه کميسيون موارد خاص استاني",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1394/1394115-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A%20%DA%A9%D9%85%D9%8A%D8%B3%D9%8A%D9%88%D9%86%20%D8%A8%D8%B1%D8%B1%D8%B3%D9%8A%20%D9%85%D9%88%D8%A7%D8%B1%D8%AF%20%D8%AE%D8%A7%D8%B5%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%E2%80%8C%D9%87%D8%A7.pdf",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1394/1394115-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A%20%DA%A9%D9%85%D9%8A%D8%B3%D9%8A%D9%88%D9%86%20%D8%A8%D8%B1%D8%B1%D8%B3%D9%8A%20%D9%85%D9%88%D8%A7%D8%B1%D8%AF%20%D8%AE%D8%A7%D8%B5%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%E2%80%8C%D9%87%D8%A7.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-ce3ad1e3c538",
+      "universitySlug": "ilam",
+      "title": "آيين نامه آموزشي 1391 به بعد آيين نامه آموزشي 1393 آيين نامه مهماني و انتقالي دانشجويان آيين نامه کميسيون موارد خاص دانشگاه آيين نامه کميسيون موارد خاص استاني",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1394/1394115-ostani1.pdf",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1394/1394115-ostani1.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-0ded1ad4234f",
+      "universitySlug": "ilam",
+      "title": "آيين&zwnj;نامه دوره كارشناسي ارشد ناپيوسته",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/andkan.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/aca/files/tahsilat/vezarat/andkan.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-72381d799138",
+      "universitySlug": "ilam",
+      "title": "آيين&zwnj;نامه دوره کارشناسي ارشد ناپيوسته 88 به بعد (1394)",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1397/951397109-94.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1397/951397109-94.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-4413b3f87e98",
+      "universitySlug": "ilam",
+      "title": "آيين&zwnj;نامه دوره کارشناسي ارشد ناپيوسته 88 و ماقبل (1373)",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1398/951398913-Aeen-nameh-Arshad-73.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1398/951398913-Aeen-nameh-Arshad-73.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-a7dec8128e2c",
+      "universitySlug": "ilam",
+      "title": "آيين&zwnj;نامه دوره کارشناسي ارشد ناپيوسته 88 و ماقبل (1388)",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1397/951397109-13881.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1397/951397109-13881.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-ecab8d66783a",
+      "universitySlug": "ilam",
+      "title": "ارتقاء سلامت نظام اداري نامه ها،اطلاعیه ها، بخشنامه ها و فرم ها تحصيل کارکنان جمع آورس سوابق بيمه جمع آوري کارنامه ادواري ا طلاعيه مانده مرخصي کارکنان ساعت کاري آخرین ویرایش: ۳۰ آبان ۱۴۰۰ صفحات مرتبط اتوماسيون اداري",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1393/13931119-erpReport_12.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1393/13931119-erpReport_12.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/finc/page/ihwfsqkyk-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D9%8A%D9%87-%D9%87%D8%A7--%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-2a204e5e7012",
+      "universitySlug": "ilam",
+      "title": "فرم استشهاد محلي",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1401/1221401914-a.pdf",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1401/1221401914-a.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-4324ce2106a3",
+      "universitySlug": "ilam",
+      "title": "فرم تعهد محضري صدور گواهينامه موقت المثني",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1401/1221401914-t.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1401/1221401914-t.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-f2514a474082",
+      "universitySlug": "ilam",
+      "title": "فرم تعهد محضري آموزش رايگان",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1401/1221401915-formt.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1401/1221401915-formt.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-f42afe21705a",
+      "universitySlug": "ilam",
+      "title": "دستورالعمل اجرايي اعطاي پايه ترفيع ساليانه و شرح وظايف اعضاي هيات علمي پژوهشي دانشگاه",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1403/741403610-1231.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1403/741403610-1231.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-653fa25584ae",
+      "universitySlug": "ilam",
+      "title": "دستورالعمل اعطاي ترفيع ساليانه اعضاي هيات علمي 1402",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://ilam.ac.ir/file_bank/1403/74140346-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%BE%D8%A7%D9%8A%D9%87-%D8%A7%D8%B3%D8%AA%D8%AD%D9%82%D8%A7%D9%82%D9%8A-%D8%B3%D8%A7%D9%84-1402.pdf",
+      "sourceUrl": "https://ilam.ac.ir/file_bank/1403/74140346-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%BE%D8%A7%D9%8A%D9%87-%D8%A7%D8%B3%D8%AA%D8%AD%D9%82%D8%A7%D9%82%D9%8A-%D8%B3%D8%A7%D9%84-1402.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-82df0ab0aac4",
+      "universitySlug": "ilam",
+      "title": "فرم ارزيابي اوليه کتاب در گروه آموزشي و شوراي دانشکده",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1400/741400913-fad.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1400/741400913-fad.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-b0097f2ede61",
+      "universitySlug": "ilam",
+      "title": "دستورالعمل نحوه بررسي تخلفات پژوهشي",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1400/941400616-dsa.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1400/941400616-dsa.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-0776d52e62cb",
+      "universitySlug": "ilam",
+      "title": "دستورالعمل اجرايي چاپ و نشر کتاب دانشگاه ايلام",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1400/941400218-entesharat.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1400/941400218-entesharat.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-9d1e34b32799",
+      "universitySlug": "ilam",
+      "title": "فرآيند تشکيل هسته&zwnj;هاي پژوهشي و فناوري دانشگاه ايلام",
+      "type": "فرآیند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1398/forms/941398418-%D9%81%D8%B1%D8%A2%D9%8A%D9%86%D8%AF-%D8%AA%D8%B4%DA%A9%D9%8A%D9%84-%D9%87%D8%B3%D8%AA%D9%87.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1398/forms/941398418-%D9%81%D8%B1%D8%A2%D9%8A%D9%86%D8%AF-%D8%AA%D8%B4%DA%A9%D9%8A%D9%84-%D9%87%D8%B3%D8%AA%D9%87.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/research/news/ihwffsxhz-%D9%81%D8%B1%D8%A7%D9%8A%D9%86%D8%AF-%D9%87%D8%A7%D9%8A-%DA%A9%D8%A7%D8%B1%D9%8A-%D8%AD%D9%88%D8%B2%D9%87-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-16bb8397f1c3",
+      "universitySlug": "ilam",
+      "title": "شيوه‌نامه فرصت مطالعاتي اعضاي هيئت علمي",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1399/891399721-91399720-es-b1.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1399/891399721-91399720-es-b1.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/sanat/page/ihwfszfkz-%D8%B4%D9%8A%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%A7%D8%B9%D8%B6%D8%A7%D9%8A-%D9%87%D9%8A%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%D9%8A",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-eb431ddc0140",
+      "universitySlug": "ilam",
+      "title": "Student Affairs فرمها و آیین نامه ها فرم 1 پرسشنامه علایق ورزشی فرم اعلام آمادگی اولیه آخرین ویرایش: ۸ خرداد ۱۳۹۷ صفحات مرتبط رييس تربيت بدني",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1397/86139738-%D9%81%D8%B1%D9%85-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-1.pdf",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1397/86139738-%D9%81%D8%B1%D9%85-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-1.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/std/page/ihwfsyqqh-%D9%81%D8%B1%D9%85%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-3e87fe344f3b",
+      "universitySlug": "ilam",
+      "title": "Student Affairs فرمها و آیین نامه ها فرم 1 پرسشنامه علایق ورزشی فرم اعلام آمادگی اولیه آخرین ویرایش: ۸ خرداد ۱۳۹۷ صفحات مرتبط رييس تربيت بدني",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1397/86139738-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B9%D9%84%D8%A7%D8%A6%D9%82-%D9%88%D8%B1%D8%B2%D8%B4%D9%8A.pdf",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1397/86139738-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B9%D9%84%D8%A7%D8%A6%D9%82-%D9%88%D8%B1%D8%B2%D8%B4%D9%8A.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/std/page/ihwfsyqqh-%D9%81%D8%B1%D9%85%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-c66d6a55ca91",
+      "universitySlug": "ilam",
+      "title": "Student Affairs فرمها و آیین نامه ها فرم 1 پرسشنامه علایق ورزشی فرم اعلام آمادگی اولیه آخرین ویرایش: ۸ خرداد ۱۳۹۷ صفحات مرتبط رييس تربيت بدني",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1397/86139738-%D9%81%D8%B1%D9%85-%D8%A7%D8%B9%D9%84%D8%A7%D9%85-%D8%A2%D9%85%D8%A7%D8%AF%DA%AF%DB%8C-%D8%A7%D9%88%D9%84%DB%8C%D9%87.pdf",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1397/86139738-%D9%81%D8%B1%D9%85-%D8%A7%D8%B9%D9%84%D8%A7%D9%85-%D8%A2%D9%85%D8%A7%D8%AF%DA%AF%DB%8C-%D8%A7%D9%88%D9%84%DB%8C%D9%87.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/std/page/ihwfsyqqh-%D9%81%D8%B1%D9%85%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-f8bec6fcf494",
+      "universitySlug": "ilam",
+      "title": "فرم درخواست برنامه از کميته حمايت از انجمن هاي علمي دانشجويي فرم درخواست برنامه از شوراي فرهنگي فرم درخواست برگزاري کرسي آزادانديشي و تريبون آزاد فرم مخصوص پرداخت هديه فرم درخواست براي ارسال پيامک",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1395/1395512-%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%B4%D9%88%D8%B1%D8%A7%D9%8A%20%D9%81%D8%B1%D9%87%D9%86%DA%AF%D9%8A%20%D8%AC%D8%AF%D9%8A%D8%AF.pdf",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1395/1395512-%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%B4%D9%88%D8%B1%D8%A7%D9%8A%20%D9%81%D8%B1%D9%87%D9%86%DA%AF%D9%8A%20%D8%AC%D8%AF%D9%8A%D8%AF.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/farhangi/page/ihwffwyfs-%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-21f4efcbd43c",
+      "universitySlug": "ilam",
+      "title": "فرم درخواست برنامه از کميته حمايت از انجمن هاي علمي دانشجويي فرم درخواست برنامه از شوراي فرهنگي فرم درخواست برگزاري کرسي آزادانديشي و تريبون آزاد فرم مخصوص پرداخت هديه فرم درخواست براي ارسال پيامک",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1395/1395512-1391320-%D9%81%D8%B1%D9%85%20%D9%85%D8%AE%D8%B5%D9%88%D8%B5%20%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA%20%D9%87%D8%AF%DB%8C%D9%87.pdf",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1395/1395512-1391320-%D9%81%D8%B1%D9%85%20%D9%85%D8%AE%D8%B5%D9%88%D8%B5%20%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA%20%D9%87%D8%AF%DB%8C%D9%87.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/farhangi/page/ihwffwyfs-%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-4236fb5caf3f",
+      "universitySlug": "ilam",
+      "title": "شيوه&zwnj;نامه اجرايي فرصت مطالعاتي داخلي",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/file_bank/1397/8913971211-%D8%B4%D9%8A%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA.pdf",
+      "sourceUrl": "https://www.ilam.ac.ir/file_bank/1397/8913971211-%D8%B4%D9%8A%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA.pdf",
+      "parentUrl": "https://www.ilam.ac.ir/dep/sanat/page/ihwfszxyw-%D8%B4%D9%8A%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-%D8%AF%D8%A7%D8%AE%D9%84%D9%8A-",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ilam-discovery-document-05a4b8f5e96e",
+      "universitySlug": "ilam",
+      "title": "آيين نام حمايت مالي از پايان&zwnj;نامه&zwnj;هاي دانشجويي تحصيلات تکميلي",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/forms/get/468/pdf/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85-%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%D9%85%D8%A7%D9%84%DB%8C-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C-%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C/",
+      "sourceUrl": "https://www.ilam.ac.ir/forms/get/468/pdf/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85-%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%D9%85%D8%A7%D9%84%DB%8C-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C-%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C/",
+      "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyqzw-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.88
+    },
+    {
+      "id": "ilam-discovery-document-2e46f5e887d5",
+      "universitySlug": "ilam",
+      "title": "فرم ها و آيين نامه ها",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/dep/std/page/ihwfsyqyf-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/std/page/ihwfsyqyf-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "parentUrl": "https://www.ilam.ac.ir/dep/std/page/ihwfsyqyf-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.88
+    },
+    {
+      "id": "ilam-discovery-document-cc90e68812eb",
+      "universitySlug": "ilam",
+      "title": "آيين نامه ورودي 96 مقطع کارشناسي ارشد و ورودي 95 مقطع دکتري به بعد",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/page/?ihwfszwkq-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-96-%D8%A7%D8%B1%D8%B4%D8%AF-95-%D8%A8%D9%87-%D8%A8%D8%B9%D8%AF-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C",
+      "sourceUrl": "https://www.ilam.ac.ir/page/?ihwfszwkq-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%D8%A7%D8%B2-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-96-%D8%A7%D8%B1%D8%B4%D8%AF-95-%D8%A8%D9%87-%D8%A8%D8%B9%D8%AF-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C",
+      "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyzhx-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%85%D8%A7%D9%8A%D8%AA-%D8%A7%D8%B2-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.88
+    },
+    {
+      "id": "ilam-discovery-document-ac66384cad36",
+      "universitySlug": "ilam",
+      "title": "آيين نامه اجرايي حذف پزشکي دروس درامتحانات پايان ترم 1401",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://ilam.ac.ir/page/?ihwffwysz-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A-%D8%AD%D8%B0%D9%81-%D9%BE%D8%B2%D8%B4%DA%A9%D9%8A-%D8%AF%D8%B1%D9%88%D8%B3-%D8%AF%D8%B1%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86-%D8%AA%D8%B1%D9%85-1401",
+      "sourceUrl": "https://ilam.ac.ir/page/?ihwffwysz-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A-%D8%AD%D8%B0%D9%81-%D9%BE%D8%B2%D8%B4%DA%A9%D9%8A-%D8%AF%D8%B1%D9%88%D8%B3-%D8%AF%D8%B1%D8%A7%D9%85%D8%AA%D8%AD%D8%A7%D9%86%D8%A7%D8%AA-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86-%D8%AA%D8%B1%D9%85-1401",
+      "parentUrl": "https://ilam.ac.ir/page/?ihwffkuwh-%D8%AD%D9%85%D8%A7%D9%8A%D8%AA-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D8%B2-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%D9%8A-%D8%AA%D8%AD%D8%B5%D9%8A%D9%84%D8%A7%D8%AA-%D8%AA%DA%A9%D9%85%D9%8A%D9%84%D9%8A-%D8%B4%D8%B1%DA%A9%D8%AA-%DA%AF%D8%A7%D8%B2-%D8%A7%D8%B3%D8%AA%D8%A7%D9%86",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.88
+    },
+    {
+      "id": "ilam-discovery-document-ad591e839b48",
+      "universitySlug": "ilam",
+      "title": "فرم انصرافي",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "http://www.ilam.ac.ir/file_bank/1394/1394116-%D8%A7%D9%86%D8%B5%D8%B1%D8%A7%D9%81.bmp",
+      "sourceUrl": "http://www.ilam.ac.ir/file_bank/1394/1394116-%D8%A7%D9%86%D8%B5%D8%B1%D8%A7%D9%81.bmp",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqyw-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%DA%AF%D9%88%D8%A7%D9%87%D9%8A-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.88
+    },
+    {
+      "id": "ilam-discovery-document-0dd34ec22b5f",
+      "universitySlug": "ilam",
+      "title": "آيين نامه حمايت از پايان نامه‌ها بیانیه راهبرد مشارکت بیانیه توافق سطح خدمت بیانیه حریم خصوصی نقشه سایت راه های تماس ايلام، بلوار پژوهش، دانشگاه ايلام info@ilam.ac.ir 59241000(084) لینک های پربازدید مرکز فناوري اطلاعات",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/dep/research/page/index.html",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/research/page/index.html",
+      "parentUrl": "https://www.ilam.ac.ir/dep/research/page/ihwfsyzhu-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3-%D8%AD%D9%85%D8%A7%D9%8A%D8%AA-%D8%A7%D8%B2-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.88
+    },
+    {
+      "id": "ilam-discovery-document-86201ea52ee8",
+      "universitySlug": "ilam",
+      "title": "آيين نامه ها،مقررات و بخشنامه ها",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "parentUrl": "https://www.ilam.ac.ir/dep/aca/page/ihwffwqqq-%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.88
+    },
+    {
+      "id": "ilam-discovery-document-964693f771ca",
+      "universitySlug": "ilam",
+      "title": "نامه ها،اطلاعيه ها، بخشنامه ها و فرم ها",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/dep/finc/page/ihwfsqkyk-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D9%8A%D9%87-%D9%87%D8%A7--%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
+      "sourceUrl": "https://www.ilam.ac.ir/dep/finc/page/ihwfsqkyk-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D9%8A%D9%87-%D9%87%D8%A7--%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
+      "parentUrl": "https://www.ilam.ac.ir/dep/finc/page/ihwfsqkyk-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D9%8A%D9%87-%D9%87%D8%A7--%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.88
+    },
+    {
+      "id": "ilam-discovery-document-4aebbe38c667",
+      "universitySlug": "ilam",
+      "title": "فرآيند اعزام عضو هيأت علمي به فرصت مطالعاتي(داخل و خارج- کوتاه مدت و بلندمدت)",
+      "type": "فرآیند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.ilam.ac.ir/forms/show/?ihwfsquyy-%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%A7%D8%B9%D8%B2%D8%A7%D9%85-%D8%B9%D8%B6%D9%88-%D9%87%DB%8C%D8%A3%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%A8%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84-%D9%88-%D8%AE%D8%A7%D8%B1%D8%AC-%DA%A9%D9%88%D8%AA%D8%A7%D9%87-%D9%85%D8%AF%D8%AA-%D9%88-%D8%A8%D9%84%D9%86%D8%AF%D9%85%D8%AF%D8%AA-",
+      "sourceUrl": "https://www.ilam.ac.ir/forms/show/?ihwfsquyy-%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%A7%D8%B9%D8%B2%D8%A7%D9%85-%D8%B9%D8%B6%D9%88-%D9%87%DB%8C%D8%A3%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%A8%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84-%D9%88-%D8%AE%D8%A7%D8%B1%D8%AC-%DA%A9%D9%88%D8%AA%D8%A7%D9%87-%D9%85%D8%AF%D8%AA-%D9%88-%D8%A8%D9%84%D9%86%D8%AF%D9%85%D8%AF%D8%AA-",
+      "parentUrl": "https://www.ilam.ac.ir/dep/research/news/ihwffsxhz-%D9%81%D8%B1%D8%A7%D9%8A%D9%86%D8%AF-%D9%87%D8%A7%D9%8A-%DA%A9%D8%A7%D8%B1%D9%8A-%D8%AD%D9%88%D8%B2%D9%87-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.88
     }
   ],
   "interpretation": {

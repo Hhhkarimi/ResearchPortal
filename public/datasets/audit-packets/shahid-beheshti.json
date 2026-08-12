@@ -85,7 +85,7 @@
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-12",
-      "promotedSources": 47,
+      "promotedSources": 101,
       "socialEvidenceRemoved": true
     }
   },
@@ -159,22 +159,22 @@
       "https://resevp.sbu.ac.ir/documents/1801139/0/%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87_%D8%AA%D8%B6%D9%85%D9%8A%D9%86_%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA_%D8%AF%D9%88%D9%84%D8%AA.pdf/4826d6fe-f670-fb79-92c7-a8171aade4f7?t=1638854921423",
       "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA.pdf/9b0e6f6d-2094-1602-e5e1-cbe474bd4f3f?t=1638855005792"
     ],
-    "deepAuditStatus": "identity-verified-deep-pending",
+    "deepAuditStatus": "deep-audited",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "verified",
       "libraryDocuments": "verified",
       "laboratories": "unresolved",
-      "industryTechnology": "unresolved",
+      "industryTechnology": "verified",
       "informationTechnology": "unresolved",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 63,
-    "unitsFound": 2,
-    "systemsFound": 3,
-    "documentsFound": 49,
-    "rankingEligibility": "unranked-evidence-insufficient",
+    "auditEvidenceCoverage": 75,
+    "unitsFound": 23,
+    "systemsFound": 9,
+    "documentsFound": 67,
+    "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
   "dimensionEvidence": [
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 60,
+      "sourceCount": 70,
       "sources": [
         {
           "url": "https://resevp.sbu.ac.ir/",
@@ -550,6 +550,68 @@
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/industryrelations",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/management",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/samaneha",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/fa/samaneha",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/resvp/samaneha",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/resvp/form",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/fa/w/%D8%A8%D8%B1%D9%BE%D8%A7%DB%8C%DB%8C-%D8%BA%D8%B1%D9%81%D9%87-%C2%AB%D8%AF%D8%A7%D9%86%D8%B4%D9%85%D9%86%D8%AF%D8%A7%D9%86-%D8%A2%DB%8C%D9%86%D8%AF%D9%87%C2%BB-%D8%A7%D8%B2-%D8%B3%D9%88%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1?redirect=%2Ffa%2Fw%2F%25D8%25A8%25D8%25B1%25D9%25BE%25D8%25A7%25DB%258C%25DB%258C-%25D8%25BA%25D8%25B1%25D9%2581%25D9%2587-%25C2%25AB%25D8%25AF%25D8%25A7%25D9%2586%25D8%25B4%25D9%2585%25D9%2586%25D8%25AF%25D8%25A7%25D9%2586-%25D8%25A2%25DB%258C%25D9%2586%25D8%25AF%25D9%2587%25C2%25BB-%25D8%25A7%25D8%25B2-%25D8%25B3%25D9%2588%25DB%258C-%25DA%25A9%25D8%25AA%25D8%25A7%25D8%25A8%25D8%25AE%25D8%25A7%25D9%2586%25D9%2587-%25D9%2585%25D8%25B1%3Fredirect%3D%252Ffa%252Fw%252F%2525D8%2525A8%2525D8%2525B1%2525D9%2525BE%2525D8%2525A7%2525DB%25258C%2525DB%25258C-%2525D8%2525BA%2525D8%2525B1%2525D9%252581%2525D9%252587-%2525C2%2525AB%2525D8%2525AF%2525D8%2525A7%2525D9%252586%2525D8%2525B4%2525D9%252585%2525D9%252586%2525D8%2525AF%2525D8%2525A7%2525D9%252586-%2525D8%2525A2%2525DB%25258C%2525D9%252586%2525D8%2525AF%2525D9%252587%2525C2%2525BB-%2525D8%2525A7%2525D8%2525B2-%2525D8%2525B3%2525D9%252588%2525DB%25258C-%2525DA%2525A9%2525D8%2525AA%2525D8%2525A7%2525D8%2525A8%2525D8%2525AE%2525D8%2525A7%2525D9%252586%2525D9%252587-%2525D9%252585%2525D8%2525B1%253Fredirect%253D%25252F",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/fa/w/%D8%A8%D8%B1%D9%BE%D8%A7%DB%8C%DB%8C-%D8%BA%D8%B1%D9%81%D9%87-%C2%AB%D8%AF%D8%A7%D9%86%D8%B4%D9%85%D9%86%D8%AF%D8%A7%D9%86-%D8%A2%DB%8C%D9%86%D8%AF%D9%87%C2%BB-%D8%A7%D8%B2-%D8%B3%D9%88%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1?redirect=%2Ffa%2Fw%2F%25D8%25A8%25D8%25B1%25D9%25BE%25D8%25A7%25DB%258C%25DB%258C-%25D8%25BA%25D8%25B1%25D9%2581%25D9%2587-%25C2%25AB%25D8%25AF%25D8%25A7%25D9%2586%25D8%25B4%25D9%2585%25D9%2586%25D8%25AF%25D8%25A7%25D9%2586-%25D8%25A2%25DB%258C%25D9%2586%25D8%25AF%25D9%2587%25C2%25BB-%25D8%25A7%25D8%25B2-%25D8%25B3%25D9%2588%25DB%258C-%25DA%25A9%25D8%25AA%25D8%25A7%25D8%25A8%25D8%25AE%25D8%25A7%25D9%2586%25D9%2587-%25D9%2585%25D8%25B1%3Fredirect%3D%252Ffa%252Fw%252F%2525D8%2525A8%2525D8%2525B1%2525D9%2525BE%2525D8%2525A7%2525DB%25258C%2525DB%25258C-%2525D8%2525BA%2525D8%2525B1%2525D9%252581%2525D9%252587-%2525C2%2525AB%2525D8%2525AF%2525D8%2525A7%2525D9%252586%2525D8%2525B4%2525D9%252585%2525D9%252586%2525D8%2525AF%2525D8%2525A7%2525D9%252586-%2525D8%2525A2%2525DB%25258C%2525D9%252586%2525D8%2525AF%2525D9%252587%2525C2%2525BB-%2525D8%2525A7%2525D8%2525B2-%2525D8%2525B3%2525D9%252588%2525DB%25258C-%2525DA%2525A9%2525D8%2525AA%2525D8%2525A7%2525D8%2525A8%2525D8%2525AE%2525D8%2525A7%2525D9%252586%2525D9%252587-%2525D9%252585%2525D8%2525B1",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/service-time",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/service-time",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -567,7 +629,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 4,
+      "sourceCount": 25,
       "sources": [
         {
           "url": "https://resevp.sbu.ac.ir/",
@@ -594,11 +656,200 @@
           "relationshipEvidenceUrl": null
         },
         {
-          "url": "https://www.sbu.ac.ir/documents/1801139/5638216/%DA%A9%D8%AA%D8%A7%D8%A8%DA%86%D9%87+%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA+%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7+%D8%A8%D8%A7+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA-+1400+%281%29.pdf/5c64ed8b-a0f0-0354-9b1b-2c2154ea68d3?t=1638855549481",
+          "url": "https://resevp.sbu.ac.ir/fa/w/%D8%A8%D8%B1%D9%BE%D8%A7%DB%8C%DB%8C-%D8%BA%D8%B1%D9%81%D9%87-%C2%AB%D8%AF%D8%A7%D9%86%D8%B4%D9%85%D9%86%D8%AF%D8%A7%D9%86-%D8%A2%DB%8C%D9%86%D8%AF%D9%87%C2%BB-%D8%A7%D8%B2-%D8%B3%D9%88%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1?redirect=%2Ffa%2Fw%2F%25D8%25A8%25D8%25B1%25D9%25BE%25D8%25A7%25DB%258C%25DB%258C-%25D8%25BA%25D8%25B1%25D9%2581%25D9%2587-%25C2%25AB%25D8%25AF%25D8%25A7%25D9%2586%25D8%25B4%25D9%2585%25D9%2586%25D8%25AF%25D8%25A7%25D9%2586-%25D8%25A2%25DB%258C%25D9%2586%25D8%25AF%25D9%2587%25C2%25BB-%25D8%25A7%25D8%25B2-%25D8%25B3%25D9%2588%25DB%258C-%25DA%25A9%25D8%25AA%25D8%25A7%25D8%25A8%25D8%25AE%25D8%25A7%25D9%2586%25D9%2587-%25D9%2585%25D8%25B1%3Fredirect%3D%252Ffa%252Fw%252F%2525D8%2525A8%2525D8%2525B1%2525D9%2525BE%2525D8%2525A7%2525DB%25258C%2525DB%25258C-%2525D8%2525BA%2525D8%2525B1%2525D9%252581%2525D9%252587-%2525C2%2525AB%2525D8%2525AF%2525D8%2525A7%2525D9%252586%2525D8%2525B4%2525D9%252585%2525D9%252586%2525D8%2525AF%2525D8%2525A7%2525D9%252586-%2525D8%2525A2%2525DB%25258C%2525D9%252586%2525D8%2525AF%2525D9%252587%2525C2%2525BB-%2525D8%2525A7%2525D8%2525B2-%2525D8%2525B3%2525D9%252588%2525DB%25258C-%2525DA%2525A9%2525D8%2525AA%2525D8%2525A7%2525D8%2525A8%2525D8%2525AE%2525D8%2525A7%2525D9%252586%2525D9%252587-%2525D9%252585%2525D8%2525B1%253Fredirect%253D%25252F",
+          "kind": "unit",
+          "claim": "برپایی غرفه «دانشمندان آینده» از سوی کتابخانه مرکزی و مرکز اسناد در ایام وداع با آقای شهید ایران - معاونت پژوهشی و فناوری",
+          "id": "shahid-beheshti-discovery-unit-library-37502db4a0e9",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/fa/w/%D8%A8%D8%B1%D9%BE%D8%A7%DB%8C%DB%8C-%D8%BA%D8%B1%D9%81%D9%87-%C2%AB%D8%AF%D8%A7%D9%86%D8%B4%D9%85%D9%86%D8%AF%D8%A7%D9%86-%D8%A2%DB%8C%D9%86%D8%AF%D9%87%C2%BB-%D8%A7%D8%B2-%D8%B3%D9%88%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1?redirect=%2Ffa%2Fw%2F%25D8%25A8%25D8%25B1%25D9%25BE%25D8%25A7%25DB%258C%25DB%258C-%25D8%25BA%25D8%25B1%25D9%2581%25D9%2587-%25C2%25AB%25D8%25AF%25D8%25A7%25D9%2586%25D8%25B4%25D9%2585%25D9%2586%25D8%25AF%25D8%25A7%25D9%2586-%25D8%25A2%25DB%258C%25D9%2586%25D8%25AF%25D9%2587%25C2%25BB-%25D8%25A7%25D8%25B2-%25D8%25B3%25D9%2588%25DB%258C-%25DA%25A9%25D8%25AA%25D8%25A7%25D8%25A8%25D8%25AE%25D8%25A7%25D9%2586%25D9%2587-%25D9%2585%25D8%25B1%3Fredirect%3D%252Ffa%252Fw%252F%2525D8%2525A8%2525D8%2525B1%2525D9%2525BE%2525D8%2525A7%2525DB%25258C%2525DB%25258C-%2525D8%2525BA%2525D8%2525B1%2525D9%252581%2525D9%252587-%2525C2%2525AB%2525D8%2525AF%2525D8%2525A7%2525D9%252586%2525D8%2525B4%2525D9%252585%2525D9%252586%2525D8%2525AF%2525D8%2525A7%2525D9%252586-%2525D8%2525A2%2525DB%25258C%2525D9%252586%2525D8%2525AF%2525D9%252587%2525C2%2525BB-%2525D8%2525A7%2525D8%2525B2-%2525D8%2525B3%2525D9%252588%2525DB%25258C-%2525DA%2525A9%2525D8%2525AA%2525D8%2525A7%2525D8%2525A8%2525D8%2525AE%2525D8%2525A7%2525D9%252586%2525D9%252587-%2525D9%252585%2525D8%2525B1",
+          "kind": "unit",
+          "claim": "برپایی غرفه «دانشمندان آینده» از سوی کتابخانه مرکزی و مرکز اسناد در ایام وداع با آقای شهید ایران - معاونت پژوهشی و فناوری",
+          "id": "shahid-beheshti-discovery-unit-library-ca1d674bf362",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/form",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و فرم‌ها - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-6a44fb071974",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/management",
+          "kind": "unit",
+          "claim": "مدیر کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-bbe06b6de739",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/assistance",
+          "kind": "unit",
+          "claim": "معاون کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-1f5e3792b203",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/service-time",
+          "kind": "unit",
+          "claim": "ساعت‌های ارائه خدمت بخش‌های مختلف کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-71b6ba047cb4",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/service-time",
+          "kind": "unit",
+          "claim": "ساعت‌های ارائه خدمت بخش‌های مختلف کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-938b66892a12",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/management",
+          "kind": "unit",
+          "claim": "مدیر کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-7a807715fda1",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/assistance",
+          "kind": "unit",
+          "claim": "معاون کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-814ce27f8df5",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/libulletin",
+          "kind": "unit",
+          "claim": "خبرنامه کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-11b2ab106b70",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/",
+          "kind": "unit",
+          "claim": "صفحه اصلی - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-149315c82bfb",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/libulletin",
+          "kind": "unit",
+          "claim": "خبرنامه کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-f37fd3e5fdb4",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/",
+          "kind": "unit",
+          "claim": "صفحه اصلی - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-2e4c77902e6d",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/industryrelations",
+          "kind": "unit",
+          "claim": "مدیریت همکاری‌های پژوهشی و ارتباط با صنعت و جامعه - معاونت پژوهشی و فناوری",
+          "id": "shahid-beheshti-discovery-unit-industry-6ad146663971",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/about-us",
+          "kind": "unit",
+          "claim": "معرفی - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-97bec499ad9a",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/about-us",
+          "kind": "unit",
+          "claim": "معرفی - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-9646014c5471",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/w/knowledge-system?redirect=%2Ffa%2Fweb%2Flib%2F",
+          "kind": "unit",
+          "claim": "سامانه‌های دانشی - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-f060d0ce7d62",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/w/free-databases?redirect=%2Ffa%2Fweb%2Flib%2F",
+          "kind": "unit",
+          "claim": "پایگاه‌های اطلاعاتی رایگان - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-887505d4ea58",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/w/donating?redirect=%2Ffa%2Fweb%2Flib%2F",
+          "kind": "unit",
+          "claim": "نحوه اهدا منابع - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-842c85c9e5be",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/w/vebinar?redirect=%2Ffa%2Fweb%2Flib%2F",
+          "kind": "unit",
+          "claim": "وبینارها - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-47f7e2ceeeca",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/w/knowledge-system?redirect=%2Ffa%2F",
+          "kind": "unit",
+          "claim": "سامانه‌های دانشی - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-unit-library-ab39ab5818f9",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/5638216/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C+%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C12-10-94.docx/8f00660f-a782-b6bc-cf41-7d4616bb9363?t=1626070349828",
           "kind": "research-review-specific",
-          "claim": "کتابچه آیین‌نامه‌های مدیریت همکاری‌های پژوهشی و ارتباط با جامعه و صنعت ۱۴۰۰",
+          "claim": "فرم پرسشنامه تبدیل واحد و ارزیابی",
           "id": null,
-          "sourceLabel": "کتابچه آیین‌نامه‌های مدیریت همکاری‌های پژوهشی و ارتباط با جامعه و صنعت ۱۴۰۰"
+          "sourceLabel": "فرم پرسشنامه تبدیل واحد و ارزیابی"
         }
       ],
       "publicationAdjustment": null,
@@ -616,10 +867,118 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 4,
+      "sourceCount": 28,
       "sources": [
         {
           "url": "https://press.sbu.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/form",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/management",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/assistance",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/service-time",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/service-time",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/management",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/assistance",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/libulletin",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/libulletin",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/about-us",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/about-us",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/w/knowledge-system?redirect=%2Ffa%2Fweb%2Flib%2F",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/w/free-databases?redirect=%2Ffa%2Fweb%2Flib%2F",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/w/donating?redirect=%2Ffa%2Fweb%2Flib%2F",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/w/vebinar?redirect=%2Ffa%2Fweb%2Flib%2F",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/w/knowledge-system?redirect=%2Ffa%2F",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
@@ -643,11 +1002,53 @@
           "relationshipEvidenceUrl": null
         },
         {
+          "url": "https://resevp.sbu.ac.ir/fa/w/%D8%A8%D8%B1%D9%BE%D8%A7%DB%8C%DB%8C-%D8%BA%D8%B1%D9%81%D9%87-%C2%AB%D8%AF%D8%A7%D9%86%D8%B4%D9%85%D9%86%D8%AF%D8%A7%D9%86-%D8%A2%DB%8C%D9%86%D8%AF%D9%87%C2%BB-%D8%A7%D8%B2-%D8%B3%D9%88%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1?redirect=%2Ffa%2Fw%2F%25D8%25A8%25D8%25B1%25D9%25BE%25D8%25A7%25DB%258C%25DB%258C-%25D8%25BA%25D8%25B1%25D9%2581%25D9%2587-%25C2%25AB%25D8%25AF%25D8%25A7%25D9%2586%25D8%25B4%25D9%2585%25D9%2586%25D8%25AF%25D8%25A7%25D9%2586-%25D8%25A2%25DB%258C%25D9%2586%25D8%25AF%25D9%2587%25C2%25BB-%25D8%25A7%25D8%25B2-%25D8%25B3%25D9%2588%25DB%258C-%25DA%25A9%25D8%25AA%25D8%25A7%25D8%25A8%25D8%25AE%25D8%25A7%25D9%2586%25D9%2587-%25D9%2585%25D8%25B1%3Fredirect%3D%252Ffa%252Fw%252F%2525D8%2525A8%2525D8%2525B1%2525D9%2525BE%2525D8%2525A7%2525DB%25258C%2525DB%25258C-%2525D8%2525BA%2525D8%2525B1%2525D9%252581%2525D9%252587-%2525C2%2525AB%2525D8%2525AF%2525D8%2525A7%2525D9%252586%2525D8%2525B4%2525D9%252585%2525D9%252586%2525D8%2525AF%2525D8%2525A7%2525D9%252586-%2525D8%2525A2%2525DB%25258C%2525D9%252586%2525D8%2525AF%2525D9%252587%2525C2%2525BB-%2525D8%2525A7%2525D8%2525B2-%2525D8%2525B3%2525D9%252588%2525DB%25258C-%2525DA%2525A9%2525D8%2525AA%2525D8%2525A7%2525D8%2525A8%2525D8%2525AE%2525D8%2525A7%2525D9%252586%2525D9%252587-%2525D9%252585%2525D8%2525B1%253Fredirect%253D%25252F",
+          "kind": "unit",
+          "claim": "برپایی غرفه «دانشمندان آینده» از سوی کتابخانه مرکزی و مرکز اسناد در ایام وداع با آقای شهید ایران - معاونت پژوهشی و فناوری",
+          "id": "shahid-beheshti-discovery-unit-library-37502db4a0e9",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/fa/w/%D8%A8%D8%B1%D9%BE%D8%A7%DB%8C%DB%8C-%D8%BA%D8%B1%D9%81%D9%87-%C2%AB%D8%AF%D8%A7%D9%86%D8%B4%D9%85%D9%86%D8%AF%D8%A7%D9%86-%D8%A2%DB%8C%D9%86%D8%AF%D9%87%C2%BB-%D8%A7%D8%B2-%D8%B3%D9%88%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1?redirect=%2Ffa%2Fw%2F%25D8%25A8%25D8%25B1%25D9%25BE%25D8%25A7%25DB%258C%25DB%258C-%25D8%25BA%25D8%25B1%25D9%2581%25D9%2587-%25C2%25AB%25D8%25AF%25D8%25A7%25D9%2586%25D8%25B4%25D9%2585%25D9%2586%25D8%25AF%25D8%25A7%25D9%2586-%25D8%25A2%25DB%258C%25D9%2586%25D8%25AF%25D9%2587%25C2%25BB-%25D8%25A7%25D8%25B2-%25D8%25B3%25D9%2588%25DB%258C-%25DA%25A9%25D8%25AA%25D8%25A7%25D8%25A8%25D8%25AE%25D8%25A7%25D9%2586%25D9%2587-%25D9%2585%25D8%25B1%3Fredirect%3D%252Ffa%252Fw%252F%2525D8%2525A8%2525D8%2525B1%2525D9%2525BE%2525D8%2525A7%2525DB%25258C%2525DB%25258C-%2525D8%2525BA%2525D8%2525B1%2525D9%252581%2525D9%252587-%2525C2%2525AB%2525D8%2525AF%2525D8%2525A7%2525D9%252586%2525D8%2525B4%2525D9%252585%2525D9%252586%2525D8%2525AF%2525D8%2525A7%2525D9%252586-%2525D8%2525A2%2525DB%25258C%2525D9%252586%2525D8%2525AF%2525D9%252587%2525C2%2525BB-%2525D8%2525A7%2525D8%2525B2-%2525D8%2525B3%2525D9%252588%2525DB%25258C-%2525DA%2525A9%2525D8%2525AA%2525D8%2525A7%2525D8%2525A8%2525D8%2525AE%2525D8%2525A7%2525D9%252586%2525D9%252587-%2525D9%252585%2525D8%2525B1",
+          "kind": "unit",
+          "claim": "برپایی غرفه «دانشمندان آینده» از سوی کتابخانه مرکزی و مرکز اسناد در ایام وداع با آقای شهید ایران - معاونت پژوهشی و فناوری",
+          "id": "shahid-beheshti-discovery-unit-library-ca1d674bf362",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
           "url": "https://scj.sbu.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "سامانه نشریات ۳",
-          "id": null,
-          "sourceLabel": "سامانه نشریات ۳"
+          "kind": "system",
+          "claim": "سامانه مدیریت نشریات علمی دانشگاه شهید بهشتی",
+          "id": "shahid-beheshti-discovery-system-7b14366aafa9",
+          "systemCategory": "journals"
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D8%B4%DA%A9%DB%8C%D9%84+%D9%88+%D9%88%D8%B8%D8%A7%DB%8C%D9%81+%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87+%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%D8%B3%D9%86%D8%AC%DB%8C+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7.pdf/d7e70d45-fa61-d61b-222a-2156874c8225?t=1614805489730",
+          "kind": "document",
+          "claim": "شیوه‌نامه تشکیل و وظایف کارگروه اعتبارسنجی نشریه‌ها",
+          "id": "shahid-beheshti-discovery-document-d03010c3e35f"
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A8%D9%87+%D8%B1%D9%88%D8%B2%D8%B1%D8%B3%D8%A7%D9%86%DB%8C+%D9%81%D9%87%D8%B1%D8%B3%D8%AA+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7%DB%8C+%D8%B3%D9%81%DB%8C%D8%AF.pdf/f3fe4ebf-77da-e55c-3eee-c42b580a3b3c?t=1614805490225",
+          "kind": "document",
+          "claim": "شیوه‌نامه به‌روزرسانی فهرست نشریه‌های سفید",
+          "id": "shahid-beheshti-discovery-document-25d17c296c7e"
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D8%B4%DA%A9%DB%8C%D9%84+%D9%88+%D9%88%D8%B8%D8%A7%DB%8C%D9%81+%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87+%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%D8%B3%D9%86%D8%AC%DB%8C+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7.pdf/d7e70d45-fa61-d61b-222a-2156874c8225?t=1614805489730",
+          "kind": "document",
+          "claim": "شیوه‌نامه تشکیل و وظایف کارگروه اعتبارسنجی نشریه‌ها",
+          "id": "shahid-beheshti-discovery-document-28ec59464497"
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A8%D9%87+%D8%B1%D9%88%D8%B2%D8%B1%D8%B3%D8%A7%D9%86%DB%8C+%D9%81%D9%87%D8%B1%D8%B3%D8%AA+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7%DB%8C+%D8%B3%D9%81%DB%8C%D8%AF.pdf/f3fe4ebf-77da-e55c-3eee-c42b580a3b3c?t=1614805490225",
+          "kind": "document",
+          "claim": "شیوه‌نامه به‌روزرسانی فهرست نشریه‌های سفید",
+          "id": "shahid-beheshti-discovery-document-85529d55e65f"
         }
       ],
       "publicationAdjustment": null,
@@ -682,8 +1083,17 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 5,
+      "sourceCount": 6,
       "sources": [
+        {
+          "url": "https://resevp.sbu.ac.ir/industryrelations",
+          "kind": "unit",
+          "claim": "مدیریت همکاری‌های پژوهشی و ارتباط با صنعت و جامعه - معاونت پژوهشی و فناوری",
+          "id": "shahid-beheshti-discovery-unit-industry-6ad146663971",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
         {
           "url": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%D9%81%D8%B1%D9%85+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%B5%D9%86%D8%B9%D8%AA%DB%8C.doc/fb33846e-cfc6-497a-4d4f-540c3bd87872?t=1638855183522",
           "kind": "research-review-specific",
@@ -699,25 +1109,25 @@
           "sourceLabel": "فرم درخواست فرصت مطالعاتی جامعه و صنعت"
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA++-+%D9%85%D8%B5%D9%88%D8%A8%D9%87+%D8%AF%D8%B1+%D8%B3%D8%A7%D9%84+1399.pdf/3795630c-353a-cacc-57c0-8f8cc2cf5035?t=1779525007295",
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF+%D8%AA%D8%B5%D9%88%DB%8C%D8%A8++%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA+%D9%87%D8%A7%DB%8C+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA.docx/45955483-f3b0-f0b6-1061-475ac3041984?t=1638855276214",
           "kind": "research-review-specific",
-          "claim": "دستورالعمل اجرایی فرصت مطالعاتی جامعه و صنعت - مصوبه در سال 1399",
+          "claim": "کاربرگ تصویب ماموریت های جامعه و صنعت",
           "id": null,
-          "sourceLabel": "دستورالعمل اجرایی فرصت مطالعاتی جامعه و صنعت - مصوبه در سال 1399"
+          "sourceLabel": "کاربرگ تصویب ماموریت های جامعه و صنعت"
         },
         {
-          "url": "https://www.sbu.ac.ir/documents/1801139/5638216/%DA%A9%D8%AA%D8%A7%D8%A8%DA%86%D9%87+%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA+%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7+%D8%A8%D8%A7+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA-+1400+%281%29.pdf/5c64ed8b-a0f0-0354-9b1b-2c2154ea68d3?t=1638855549481",
+          "url": "https://resevp.sbu.ac.ir/documents/3665261/4958325/%D8%AC%D8%B0%D8%A8+%D9%81%D8%B1%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C+%D8%B7%D8%A8%D9%82+%D8%AA%D9%81%D8%A7%D9%87%D9%85+%D9%86%D8%A7%D9%85%D9%87.pdf/b05fec4f-de03-e2be-c5b3-abab01c09308?t=1614764301754",
           "kind": "research-review-specific",
-          "claim": "کتابچه آیین‌نامه‌های مدیریت همکاری‌های پژوهشی و ارتباط با جامعه و صنعت ۱۴۰۰",
+          "claim": "فرایند​ جذب پژوهشیار پسادکترا با حمایت مشترک دانشگاه و صندوق حمایت از پژوهشگران و فناوران",
           "id": null,
-          "sourceLabel": "کتابچه آیین‌نامه‌های مدیریت همکاری‌های پژوهشی و ارتباط با جامعه و صنعت ۱۴۰۰"
+          "sourceLabel": "فرایند​ جذب پژوهشیار پسادکترا با حمایت مشترک دانشگاه و صندوق حمایت از پژوهشگران و فناوران"
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA.pdf/9b0e6f6d-2094-1602-e5e1-cbe474bd4f3f?t=1638855005792",
+          "url": "https://www.sbu.ac.ir/documents/3665261/4958325/%D8%AC%D8%B0%D8%A8+%D9%81%D8%B1%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C+%D8%B7%D8%A8%D9%82+%D8%AA%D9%81%D8%A7%D9%87%D9%85+%D9%86%D8%A7%D9%85%D9%87.pdf/b05fec4f-de03-e2be-c5b3-abab01c09308?t=1614764301754",
           "kind": "research-review-specific",
-          "claim": "دستورالعمل فرصت مطالعاتی جامعه و صنعت",
+          "claim": "فرایند​ جذب پژوهشیار پسادکترا با حمایت مشترک دانشگاه و صندوق حمایت از پژوهشگران و فناوران",
           "id": null,
-          "sourceLabel": "دستورالعمل فرصت مطالعاتی جامعه و صنعت"
+          "sourceLabel": "فرایند​ جذب پژوهشیار پسادکترا با حمایت مشترک دانشگاه و صندوق حمایت از پژوهشگران و فناوران"
         }
       ],
       "publicationAdjustment": null,
@@ -752,10 +1162,22 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 7,
+      "sourceCount": 13,
       "sources": [
         {
           "url": "https://scj.sbu.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/w/knowledge-system?redirect=%2Ffa%2Fweb%2Flib%2F",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/w/knowledge-system?redirect=%2Ffa%2F",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
@@ -782,6 +1204,34 @@
           "systemCategory": "research"
         },
         {
+          "url": "https://www.sbu.ac.ir/fa/web/lib/",
+          "kind": "system",
+          "claim": "سامانه‌های دانشی - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-system-f060d0ce7d62",
+          "systemCategory": "library"
+        },
+        {
+          "url": "https://lib.sbu.ac.ir/fa/",
+          "kind": "system",
+          "claim": "سامانه‌های دانشی - کتابخانه مرکزی و مرکز اسناد",
+          "id": "shahid-beheshti-discovery-system-ab39ab5818f9",
+          "systemCategory": "library"
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/fa/systems",
+          "kind": "system",
+          "claim": "سامانه‌ها - معاونت پژوهشی و فناوری",
+          "id": "shahid-beheshti-discovery-system-1194616f58ce",
+          "systemCategory": "research"
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/resvp/systems",
+          "kind": "system",
+          "claim": "سامانه‌ها - معاونت پژوهشی و فناوری",
+          "id": "shahid-beheshti-discovery-system-b02c3319d907",
+          "systemCategory": "research"
+        },
+        {
           "url": "https://resevp.sbu.ac.ir/systems",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش کشف‌شده",
@@ -789,18 +1239,18 @@
           "sourceLabel": "پرتال پژوهش کشف‌شده"
         },
         {
-          "url": "https://resevp.sbu.ac.ir/fa/systems",
+          "url": "https://www.sbu.ac.ir/fa/web/lib/service-time",
           "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
         },
         {
-          "url": "https://www.sbu.ac.ir/fa/web/resvp/systems",
+          "url": "https://lib.sbu.ac.ir/fa/service-time",
           "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
           "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -818,108 +1268,72 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 52,
+      "sourceCount": 82,
       "sources": [
         {
-          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%87%D8%B3%D8%AA%D9%87+%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf/80783f0a-75d9-37e9-03fc-0aeba52afbc1?t=1614805651277",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل اجرایی آیین‌نامه هسته‌های پژوهشی",
+          "url": "https://www.sbu.ac.ir/fa/web/lib/form",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pdf/ae3cc754-3014-5e13-3c6d-4d45e0f0b96c?t=1614805649300",
-          "kind": "portal-document-reaudit-document",
-          "claim": "​آیین‌نامه فرصت مطالعاتی",
+          "url": "https://www.sbu.ac.ir/fa/web/lib/management",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pdf/416d6178-c4c7-16c8-9fdb-2a0115688b56?t=1614805649805",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه اجرایی فرصت مطالعاتی",
+          "url": "https://www.sbu.ac.ir/fa/web/lib/assistance",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87+%D8%A8%D9%87+%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86+%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7.pdf/78ad3352-7c30-1a33-aab7-4eeb07d47ffc?t=1614805660665",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه اجرایی اعطای پژوهانه به دانشجویان دکترا",
+          "url": "https://www.sbu.ac.ir/fa/web/lib/service-time",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C+%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87+%D8%A8%D9%87+%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86+%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7.pdf/d30a2d3c-6c32-5a7c-ce07-4da863c182ec?t=1614805660897",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه اجرای اعطای پژوهانه به دانشجویان دکترا",
+          "url": "https://lib.sbu.ac.ir/fa/service-time",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D8%AA%D8%B9%DB%8C%DB%8C%D9%86+%D9%86%D8%AD%D9%88%D9%87+%D8%AA%DA%A9%D8%AB%DB%8C%D8%B1+%D9%BE%D8%A7%DB%8C%D8%A7%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%87%D8%A7%DB%8C+%DA%86%D8%A7%D9%BE%DB%8C+%D9%88+%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C.pdf/758bb5fc-a09b-0588-5089-99ca75b5d08b?t=1614805658792",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل تعیین نحوه تکثیر پایان‌نامه‌های چاپی و الکترونیکی",
+          "url": "https://lib.sbu.ac.ir/fa/management",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D9%85%D8%A7%D8%AF%D9%87+5+%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C+%D9%88+%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87+%D8%A8%D8%A7+%D8%AA%D9%82%D9%84%D8%A8+%D8%AF%D8%B1+%D8%A2%D8%AB%D8%A7%D8%B1+%D8%B9%D9%84%D9%85%DB%8C.pdf/9fa09b25-8e24-1733-ef97-58d881f458c5?t=1614805656423",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل ماده 5 آیین‌نامه پیشگیری و مقابله با تقلب در آثار علمی (اردیبهشت 1399)",
+          "url": "https://lib.sbu.ac.ir/fa/assistance",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%87%D8%B3%D8%AA%D9%87+%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf/80783f0a-75d9-37e9-03fc-0aeba52afbc1?t=1614805651277",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل اجرایی آیین‌نامه هسته‌های پژوهشی",
+          "url": "https://www.sbu.ac.ir/fa/web/lib/libulletin",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pdf/ae3cc754-3014-5e13-3c6d-4d45e0f0b96c?t=1614805649300",
-          "kind": "portal-document-reaudit-document",
-          "claim": "​آیین‌نامه فرصت مطالعاتی",
+          "url": "https://www.sbu.ac.ir/fa/web/lib/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pdf/416d6178-c4c7-16c8-9fdb-2a0115688b56?t=1614805649805",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه اجرایی فرصت مطالعاتی",
+          "url": "https://lib.sbu.ac.ir/fa/libulletin",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87+%D8%A8%D9%87+%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86+%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7.pdf/78ad3352-7c30-1a33-aab7-4eeb07d47ffc?t=1614805660665",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه اجرایی اعطای پژوهانه به دانشجویان دکترا",
-          "id": null
-        },
-        {
-          "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C+%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87+%D8%A8%D9%87+%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86+%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7.pdf/d30a2d3c-6c32-5a7c-ce07-4da863c182ec?t=1614805660897",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه اجرای اعطای پژوهانه به دانشجویان دکترا",
-          "id": null
-        },
-        {
-          "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D8%AA%D8%B9%DB%8C%DB%8C%D9%86+%D9%86%D8%AD%D9%88%D9%87+%D8%AA%DA%A9%D8%AB%DB%8C%D8%B1+%D9%BE%D8%A7%DB%8C%D8%A7%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%87%D8%A7%DB%8C+%DA%86%D8%A7%D9%BE%DB%8C+%D9%88+%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C.pdf/758bb5fc-a09b-0588-5089-99ca75b5d08b?t=1614805658792",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل تعیین نحوه تکثیر پایان‌نامه‌های چاپی و الکترونیکی",
-          "id": null
-        },
-        {
-          "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D9%85%D8%A7%D8%AF%D9%87+5+%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C+%D9%88+%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87+%D8%A8%D8%A7+%D8%AA%D9%82%D9%84%D8%A8+%D8%AF%D8%B1+%D8%A2%D8%AB%D8%A7%D8%B1+%D8%B9%D9%84%D9%85%DB%8C.pdf/9fa09b25-8e24-1733-ef97-58d881f458c5?t=1614805656423",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل ماده 5 آیین‌نامه پیشگیری و مقابله با تقلب در آثار علمی (اردیبهشت 1399)",
-          "id": null
-        },
-        {
-          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF+%D8%B4%D8%B1%DA%A9%D8%AA+%D8%AF%D8%B1+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C+%D9%87%DB%8C%D8%AA+%D8%B9%D9%84%D9%85%DB%8C+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+%D8%B4%D9%87%DB%8C%D8%AF+%D8%A8%D9%87%D8%B4%D8%AA%DB%8C.docx/4e41f911-0c39-cc01-f069-f8856531bae7?t=1638012732308",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم شرکت در فرصت مطالعاتی اعضای هیت علمی دانشگاه شهید بهشتی",
-          "id": null
-        },
-        {
-          "url": "https://www.sbu.ac.ir/documents/1801139/6614630/%D9%81%D8%B1%D9%85+%D9%85%D8%B9%D8%B1%D9%81%DB%8C+%DA%A9%D8%AA%D8%A7%D8%A8.docx/a4c19219-d028-6761-2e49-18851546098d?t=1637732447893&download=true",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم معرفی کتاب",
-          "id": null
-        },
-        {
-          "url": "https://www.sbu.ac.ir/documents/1801139/6614630/%D9%81%D8%B1%D9%85+%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA+%D8%A8%D8%B1%D9%88%D8%B2%D8%B1%D8%B3%D8%A7%D9%86%DB%8C+%D9%81%D9%87%D8%B1%D8%B3%D8%AA%E2%80%8C%D9%87%D8%A7%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B.xlsx/c09a35d6-a722-3382-4c53-e27466f6fa2a?t=1637731882107&download=true",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست امتیازدهی کتاب",
+          "url": "https://lib.sbu.ac.ir/fa/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
@@ -935,58 +1349,184 @@
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA++-+%D9%85%D8%B5%D9%88%D8%A8%D9%87+%D8%AF%D8%B1+%D8%B3%D8%A7%D9%84+1399.pdf/3795630c-353a-cacc-57c0-8f8cc2cf5035?t=1779525007295",
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%D9%81%D8%B1%D9%85+%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4+%D8%A7%D8%B8%D9%87%D8%A7%D8%B1%DB%8C+%D9%85%D8%AC%D8%B1%DB%8C+%D8%A8%D8%B1%D8%A7%DB%8C+%D9%85.doc/72ebe6b8-a1f7-01c3-aef5-7dadf9e48394?t=1638855232207",
           "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل اجرایی فرصت مطالعاتی جامعه و صنعت - مصوبه در سال 1399",
+          "claim": "فرم گزارش اظهاری مجری برای م",
           "id": null
         },
         {
-          "url": "https://www.sbu.ac.ir/documents/1801139/5638216/%DA%A9%D8%AA%D8%A7%D8%A8%DA%86%D9%87+%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA+%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7+%D8%A8%D8%A7+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA-+1400+%281%29.pdf/5c64ed8b-a0f0-0354-9b1b-2c2154ea68d3?t=1638855549481",
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%D9%81%D8%B1%D9%85+%D9%84%DB%8C%D8%B3%D8%AA+%D9%87%D9%85%DA%A9%D8%A7%D8%B1%D8%A7%D9%86.docx/0f621be9-8b80-c11f-5569-1c709d0efa07?t=1638855256306",
           "kind": "portal-document-reaudit-document",
-          "claim": "کتابچه آیین‌نامه‌های مدیریت همکاری‌های پژوهشی و ارتباط با جامعه و صنعت ۱۴۰۰",
+          "claim": "فرم لیست همکاران",
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D8%A8%D9%86%D8%AF+%D9%88+%D8%AA%D8%A8%D8%B5%D8%B1%D9%87+9+%D9%82%D8%A7%D9%86%D9%88%D9%86+%D8%A8%D9%88%D8%AF%D8%AC%D9%87+1400.pdf/de96dab5-c7d2-a13f-2904-9fe5721d5f12?t=1638854781395",
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF+%D8%AA%D8%B5%D9%88%DB%8C%D8%A8++%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA+%D9%87%D8%A7%DB%8C+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA.docx/45955483-f3b0-f0b6-1061-475ac3041984?t=1638855276214",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه اجرایی بند و تبصره 9 قانون بودجه 1400",
+          "claim": "کاربرگ تصویب ماموریت های جامعه و صنعت",
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%DA%A9%D8%A7%D9%86%D9%88%D9%86+%D9%BE%D8%AA%D9%86%D8%AA+%D8%A7%DB%8C%D8%B1%D8%A7%D9%86.pdf/e1329999-eef6-dc3b-9851-171e7c6b3f5c?t=1638854805276",
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%D9%86%D9%85%D9%88%D9%86%D9%87+%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C+%D8%A8%D8%B1%D9%88%D9%86+%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C.docx/5434eb1e-e6e6-3092-7a2f-6f96623153b2?t=1638855295132",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه کانون پتنت ایران",
+          "claim": "نمونه قرارداد پژوهشی برون سازمانی",
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%85%D8%B9%D8%A7%D9%81+%D8%A7%D8%B2+%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA+%D8%A8%D8%B1+%D8%A7%D8%B1%D8%B2%D8%B4+%D8%A7%D9%81%D8%B2%D9%88%D8%AF%D9%87.pdf/4acfc471-2bbb-b936-15a4-28014563cf74?t=1638854832303",
+          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pdf/416d6178-c4c7-16c8-9fdb-2a0115688b56?t=1614805649805",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه معاف از مالیات بر ارزش‌افزوده",
+          "claim": "شیوه‌نامه اجرایی فرصت مطالعاتی",
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%DB%80+%D9%BE%D8%A7%DB%8C%D8%B4+%D8%B7%D8%B1%D8%AD%E2%80%8C%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C+%D8%A8%D8%B1%D9%88%D9%86+%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C.pdf/49a20a07-c98f-0f9d-985f-9a1c4b278dba?t=1638854855611",
+          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C+%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87+%D8%A8%D9%87+%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86+%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7.pdf/d30a2d3c-6c32-5a7c-ce07-4da863c182ec?t=1614805660897",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه پایش طرح‌های پژوهشی برون‌سازمانی",
+          "claim": "شیوه‌نامه اجرای اعطای پژوهانه به دانشجویان دکترا",
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%DB%80+%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C+%D8%AF%D8%B1+%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1%DB%8C%D8%A7%D8%A8%DB%8C+%D8%B7%D8%B1%D8%AD+%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf/47ff13de-6ffe-4f7a-845a-0670141c02de?t=1638854901208",
+          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D8%AA%D8%B9%DB%8C%DB%8C%D9%86+%D9%86%D8%AD%D9%88%D9%87+%D8%AA%DA%A9%D8%AB%DB%8C%D8%B1+%D9%BE%D8%A7%DB%8C%D8%A7%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%87%D8%A7%DB%8C+%DA%86%D8%A7%D9%BE%DB%8C+%D9%88+%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C.pdf/758bb5fc-a09b-0588-5089-99ca75b5d08b?t=1614805658792",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه همکاری در بازاریابی طرح‌های پژوهشیی",
+          "claim": "دستورالعمل تعیین نحوه تکثیر پایان‌نامه‌های چاپی و الکترونیکی",
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/1801139/0/%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87_%D8%AA%D8%B6%D9%85%D9%8A%D9%86_%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA_%D8%AF%D9%88%D9%84%D8%AA.pdf/4826d6fe-f670-fb79-92c7-a8171aade4f7?t=1638854921423",
+          "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pdf/416d6178-c4c7-16c8-9fdb-2a0115688b56?t=1614805649805",
           "kind": "portal-document-reaudit-document",
-          "claim": "آيين‌نامه تضمين معاملات دولت",
+          "claim": "شیوه‌نامه اجرایی فرصت مطالعاتی",
           "id": null
         },
         {
-          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA.pdf/9b0e6f6d-2094-1602-e5e1-cbe474bd4f3f?t=1638855005792",
+          "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C+%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87+%D8%A8%D9%87+%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86+%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7.pdf/d30a2d3c-6c32-5a7c-ce07-4da863c182ec?t=1614805660897",
           "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل فرصت مطالعاتی جامعه و صنعت",
+          "claim": "شیوه‌نامه اجرای اعطای پژوهانه به دانشجویان دکترا",
           "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D8%AA%D8%B9%DB%8C%DB%8C%D9%86+%D9%86%D8%AD%D9%88%D9%87+%D8%AA%DA%A9%D8%AB%DB%8C%D8%B1+%D9%BE%D8%A7%DB%8C%D8%A7%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%87%D8%A7%DB%8C+%DA%86%D8%A7%D9%BE%DB%8C+%D9%88+%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C.pdf/758bb5fc-a09b-0588-5089-99ca75b5d08b?t=1614805658792",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل تعیین نحوه تکثیر پایان‌نامه‌های چاپی و الکترونیکی",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/3665261/4958325/%D8%AC%D8%B0%D8%A8+%D9%81%D8%B1%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C+%D8%B7%D8%A8%D9%82+%D8%AA%D9%81%D8%A7%D9%87%D9%85+%D9%86%D8%A7%D9%85%D9%87.pdf/b05fec4f-de03-e2be-c5b3-abab01c09308?t=1614764301754",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرایند​ جذب پژوهشیار پسادکترا با حمایت مشترک دانشگاه و صندوق حمایت از پژوهشگران و فناوران",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/3665261/4958325/%D8%AC%D8%AF%D9%88%D9%84+%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C+%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1+%D9%88%DB%8C%DA%98%D9%8731594.pdf/f0e77346-e5af-71f8-cb07-45ccd9ef73ac?t=1614764381097",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم جدول امتیاز فعالیت های پژوهشی برای محاسبه اعتبار ویژه",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/5638216/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C+%D8%A8%D8%A7%D9%86%DA%A9+-+%D9%81%D8%B9%D8%A7%D9%84%D8%B3%D8%A7%D8%B2%DB%8C+%D8%B1%D9%85%D8%B2.pdf/37441134-a508-9b3c-4a92-41c32f4fd23c?t=1618403842794",
+          "kind": "portal-document-reaudit-document",
+          "claim": "راهنمای فعالسازی رمز بانکی اعتبار ویژه",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF+%D8%B4%D8%B1%DA%A9%D8%AA+%D8%AF%D8%B1+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C+%D9%87%DB%8C%D8%AA+%D8%B9%D9%84%D9%85%DB%8C+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+%D8%B4%D9%87%DB%8C%D8%AF+%D8%A8%D9%87%D8%B4%D8%AA%DB%8C.docx/4e41f911-0c39-cc01-f069-f8856531bae7?t=1638012732308",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم شرکت در فرصت مطالعاتی اعضای هیت علمی دانشگاه شهید بهشتی",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D8%B4%DA%A9%DB%8C%D9%84+%D9%88+%D9%88%D8%B8%D8%A7%DB%8C%D9%81+%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87+%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%D8%B3%D9%86%D8%AC%DB%8C+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7.pdf/d7e70d45-fa61-d61b-222a-2156874c8225?t=1614805489730",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه تشکیل و وظایف کارگروه اعتبارسنجی نشریه‌ها",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A8%D9%87+%D8%B1%D9%88%D8%B2%D8%B1%D8%B3%D8%A7%D9%86%DB%8C+%D9%81%D9%87%D8%B1%D8%B3%D8%AA+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7%DB%8C+%D8%B3%D9%81%DB%8C%D8%AF.pdf/f3fe4ebf-77da-e55c-3eee-c42b580a3b3c?t=1614805490225",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه به‌روزرسانی فهرست نشریه‌های سفید",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C+%D9%86%D9%87%D8%A7%DB%8C%DB%8C+%D9%87%DB%8C%D8%A7%D8%AA+%D8%A7%D9%85%D9%86%D8%A7+9+%D8%A7%D8%A8.pdf/776655e7-1b7f-3037-c16c-5accdb380f86?t=1693628368365",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه اجرایی پذیرش پژوهشگر پسادکترا",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614847/%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D9%82%D8%AF%DB%8C%D8%B1+%D8%A7%D8%B2+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+29+%D9%85%D9%87%D8%B1+1399.pdf/72347a87-a0d2-4751-6744-4f210e884ae1?t=1629699726339",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه تقدیر از پژوهشگران دانشگاه (29 مهر 1399)",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D8%B4%DA%A9%DB%8C%D9%84+%D9%88+%D9%88%D8%B8%D8%A7%DB%8C%D9%81+%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87+%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%D8%B3%D9%86%D8%AC%DB%8C+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7.pdf/d7e70d45-fa61-d61b-222a-2156874c8225?t=1614805489730",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه تشکیل و وظایف کارگروه اعتبارسنجی نشریه‌ها",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A8%D9%87+%D8%B1%D9%88%D8%B2%D8%B1%D8%B3%D8%A7%D9%86%DB%8C+%D9%81%D9%87%D8%B1%D8%B3%D8%AA+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7%DB%8C+%D8%B3%D9%81%DB%8C%D8%AF.pdf/f3fe4ebf-77da-e55c-3eee-c42b580a3b3c?t=1614805490225",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه به‌روزرسانی فهرست نشریه‌های سفید",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/1801139/6614847/%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D9%82%D8%AF%DB%8C%D8%B1+%D8%A7%D8%B2+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+29+%D9%85%D9%87%D8%B1+1399.pdf/72347a87-a0d2-4751-6744-4f210e884ae1?t=1629699726339",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه تقدیر از پژوهشگران دانشگاه (29 مهر 1399)",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/1801139/5638216/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C+%D8%A8%D8%A7%D9%86%DA%A9+-+%D9%81%D8%B9%D8%A7%D9%84%D8%B3%D8%A7%D8%B2%DB%8C+%D8%B1%D9%85%D8%B2.pdf/37441134-a508-9b3c-4a92-41c32f4fd23c?t=1618403842794",
+          "kind": "portal-document-reaudit-document",
+          "claim": "راهنمای فعالسازی رمز بانکی اعتبار ویژه",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/1801139/6614630/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF+%D8%B4%D8%B1%DA%A9%D8%AA+%D8%AF%D8%B1+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C+%D9%87%DB%8C%D8%AA+%D8%B9%D9%84%D9%85%DB%8C+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+%D8%B4%D9%87%DB%8C%D8%AF+%D8%A8%D9%87%D8%B4%D8%AA%DB%8C.docx/4e41f911-0c39-cc01-f069-f8856531bae7?t=1638012732308",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم شرکت در فرصت مطالعاتی اعضای هیت علمی دانشگاه شهید بهشتی",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/3665261/4958325/%D8%AC%D8%B0%D8%A8+%D9%81%D8%B1%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C+%D8%B7%D8%A8%D9%82+%D8%AA%D9%81%D8%A7%D9%87%D9%85+%D9%86%D8%A7%D9%85%D9%87.pdf/b05fec4f-de03-e2be-c5b3-abab01c09308?t=1614764301754",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرایند​ جذب پژوهشیار پسادکترا با حمایت مشترک دانشگاه و صندوق حمایت از پژوهشگران و فناوران",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/1801139/6614630/%D9%81%D8%B1%D9%85+%D9%85%D8%B9%D8%B1%D9%81%DB%8C+%DA%A9%D8%AA%D8%A7%D8%A8.docx/a4c19219-d028-6761-2e49-18851546098d?t=1637732447893&download=true",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم معرفی کتاب",
+          "id": null
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/1801139/6614630/%D9%81%D8%B1%D9%85+%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA+%D8%A8%D8%B1%D9%88%D8%B2%D8%B1%D8%B3%D8%A7%D9%86%DB%8C+%D9%81%D9%87%D8%B1%D8%B3%D8%AA%E2%80%8C%D9%87%D8%A7%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B%E2%80%8B.xlsx/c09a35d6-a722-3382-4c53-e27466f6fa2a?t=1637731882107&download=true",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست امتیازدهی کتاب",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/5638216/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C+%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C12-10-94.docx/8f00660f-a782-b6bc-cf41-7d4616bb9363?t=1626070349828",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پرسشنامه تبدیل واحد و ارزیابی",
+          "id": null
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%87%D8%B3%D8%AA%D9%87+%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf/80783f0a-75d9-37e9-03fc-0aeba52afbc1?t=1614805651277",
+          "kind": "document",
+          "claim": "دستورالعمل اجرایی آیین‌نامه هسته‌های پژوهشی",
+          "id": "shahid-beheshti-discovery-document-86e04be66b89"
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pdf/ae3cc754-3014-5e13-3c6d-4d45e0f0b96c?t=1614805649300",
+          "kind": "document",
+          "claim": "​آیین‌نامه فرصت مطالعاتی",
+          "id": "shahid-beheshti-discovery-document-838d04d543c2"
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87+%D8%A8%D9%87+%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86+%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7.pdf/78ad3352-7c30-1a33-aab7-4eeb07d47ffc?t=1614805660665",
+          "kind": "document",
+          "claim": "آیین‌نامه اجرایی اعطای پژوهانه به دانشجویان دکترا",
+          "id": "shahid-beheshti-discovery-document-b33b906bd70d"
         },
         {
           "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87+%D9%85%D8%B9%D8%B1%D9%81%DB%8C+%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C+%D9%85%D8%B4%D8%AA%D8%B1%DA%A9+%D8%A8%D8%A7+%D8%B5%D9%86%D8%AF%D9%88%D9%82+%D8%AD%D9%85%D8%A7%DB%8C%D8%AA+%D8%A7%D8%B2+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86.docx/224f161e-2286-1a04-8c61-cf47ce364c7e?t=1614805661183",
@@ -995,10 +1535,40 @@
           "id": "shahid-beheshti-discovery-document-349c0d77c79c"
         },
         {
+          "url": "https://resevp.sbu.ac.ir/documents/3665261/4974335/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D9%85%D8%A7%D8%AF%D9%87+5+%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C+%D9%88+%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87+%D8%A8%D8%A7+%D8%AA%D9%82%D9%84%D8%A8+%D8%AF%D8%B1+%D8%A2%D8%AB%D8%A7%D8%B1+%D8%B9%D9%84%D9%85%DB%8C.pdf/9fa09b25-8e24-1733-ef97-58d881f458c5?t=1614805656423",
+          "kind": "document",
+          "claim": "دستورالعمل ماده 5 آیین‌نامه پیشگیری و مقابله با تقلب در آثار علمی (اردیبهشت 1399)",
+          "id": "shahid-beheshti-discovery-document-3b78d86d0f08"
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%87%D8%B3%D8%AA%D9%87+%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf/80783f0a-75d9-37e9-03fc-0aeba52afbc1?t=1614805651277",
+          "kind": "document",
+          "claim": "دستورالعمل اجرایی آیین‌نامه هسته‌های پژوهشی",
+          "id": "shahid-beheshti-discovery-document-7079fef78876"
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pdf/ae3cc754-3014-5e13-3c6d-4d45e0f0b96c?t=1614805649300",
+          "kind": "document",
+          "claim": "​آیین‌نامه فرصت مطالعاتی",
+          "id": "shahid-beheshti-discovery-document-0c4ce9941ee1"
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87+%D8%A8%D9%87+%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86+%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7.pdf/78ad3352-7c30-1a33-aab7-4eeb07d47ffc?t=1614805660665",
+          "kind": "document",
+          "claim": "آیین‌نامه اجرایی اعطای پژوهانه به دانشجویان دکترا",
+          "id": "shahid-beheshti-discovery-document-54ddaee9a5cb"
+        },
+        {
           "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87+%D9%85%D8%B9%D8%B1%D9%81%DB%8C+%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C+%D9%85%D8%B4%D8%AA%D8%B1%DA%A9+%D8%A8%D8%A7+%D8%B5%D9%86%D8%AF%D9%88%D9%82+%D8%AD%D9%85%D8%A7%DB%8C%D8%AA+%D8%A7%D8%B2+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86.docx/224f161e-2286-1a04-8c61-cf47ce364c7e?t=1614805661183",
           "kind": "document",
           "claim": "شیوه‌نامه اجرایی معرفی برای دریافت پژوهانه از بنیاد ملی نخبگان",
           "id": "shahid-beheshti-discovery-document-9ec10e01b881"
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/3665261/4974335/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D9%85%D8%A7%D8%AF%D9%87+5+%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C+%D9%88+%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87+%D8%A8%D8%A7+%D8%AA%D9%82%D9%84%D8%A8+%D8%AF%D8%B1+%D8%A2%D8%AB%D8%A7%D8%B1+%D8%B9%D9%84%D9%85%DB%8C.pdf/9fa09b25-8e24-1733-ef97-58d881f458c5?t=1614805656423",
+          "kind": "document",
+          "claim": "دستورالعمل ماده 5 آیین‌نامه پیشگیری و مقابله با تقلب در آثار علمی (اردیبهشت 1399)",
+          "id": "shahid-beheshti-discovery-document-d9970c1b5157"
         },
         {
           "url": "https://resevp.sbu.ac.ir/form",
@@ -1109,6 +1679,60 @@
           "id": "shahid-beheshti-discovery-document-ce512f8d479d"
         },
         {
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA++-+%D9%85%D8%B5%D9%88%D8%A8%D9%87+%D8%AF%D8%B1+%D8%B3%D8%A7%D9%84+1399.pdf/3795630c-353a-cacc-57c0-8f8cc2cf5035?t=1779525007295",
+          "kind": "document",
+          "claim": "دستورالعمل اجرایی فرصت مطالعاتی جامعه و صنعت - مصوبه در سال 1399",
+          "id": "shahid-beheshti-discovery-document-09e5c6c31d55"
+        },
+        {
+          "url": "https://www.sbu.ac.ir/documents/1801139/5638216/%DA%A9%D8%AA%D8%A7%D8%A8%DA%86%D9%87+%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA+%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7+%D8%A8%D8%A7+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA-+1400+%281%29.pdf/5c64ed8b-a0f0-0354-9b1b-2c2154ea68d3?t=1638855549481",
+          "kind": "document",
+          "claim": "کتابچه آیین‌نامه‌های مدیریت همکاری‌های پژوهشی و ارتباط با جامعه و صنعت ۱۴۰۰",
+          "id": "shahid-beheshti-discovery-document-a7b4e7761feb"
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C+%D8%A8%D9%86%D8%AF+%D9%88+%D8%AA%D8%A8%D8%B5%D8%B1%D9%87+9+%D9%82%D8%A7%D9%86%D9%88%D9%86+%D8%A8%D9%88%D8%AF%D8%AC%D9%87+1400.pdf/de96dab5-c7d2-a13f-2904-9fe5721d5f12?t=1638854781395",
+          "kind": "document",
+          "claim": "آیین‌نامه اجرایی بند و تبصره 9 قانون بودجه 1400",
+          "id": "shahid-beheshti-discovery-document-c85e82187b74"
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%DA%A9%D8%A7%D9%86%D9%88%D9%86+%D9%BE%D8%AA%D9%86%D8%AA+%D8%A7%DB%8C%D8%B1%D8%A7%D9%86.pdf/e1329999-eef6-dc3b-9851-171e7c6b3f5c?t=1638854805276",
+          "kind": "document",
+          "claim": "آیین‌نامه کانون پتنت ایران",
+          "id": "shahid-beheshti-discovery-document-7b0279d4e824"
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%A2%DB%8C%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D9%85%D8%B9%D8%A7%D9%81+%D8%A7%D8%B2+%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA+%D8%A8%D8%B1+%D8%A7%D8%B1%D8%B2%D8%B4+%D8%A7%D9%81%D8%B2%D9%88%D8%AF%D9%87.pdf/4acfc471-2bbb-b936-15a4-28014563cf74?t=1638854832303",
+          "kind": "document",
+          "claim": "آیین‌نامه معاف از مالیات بر ارزش‌افزوده",
+          "id": "shahid-beheshti-discovery-document-0da001885c6d"
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%DB%80+%D9%BE%D8%A7%DB%8C%D8%B4+%D8%B7%D8%B1%D8%AD%E2%80%8C%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C+%D8%A8%D8%B1%D9%88%D9%86+%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C.pdf/49a20a07-c98f-0f9d-985f-9a1c4b278dba?t=1638854855611",
+          "kind": "document",
+          "claim": "آیین‌نامه پایش طرح‌های پژوهشی برون‌سازمانی",
+          "id": "shahid-beheshti-discovery-document-6a4a90b0bb87"
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%DB%80+%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C+%D8%AF%D8%B1+%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1%DB%8C%D8%A7%D8%A8%DB%8C+%D8%B7%D8%B1%D8%AD+%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf/47ff13de-6ffe-4f7a-845a-0670141c02de?t=1638854901208",
+          "kind": "document",
+          "claim": "آیین‌نامه همکاری در بازاریابی طرح‌های پژوهشیی",
+          "id": "shahid-beheshti-discovery-document-38dafbcac320"
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/0/%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87_%D8%AA%D8%B6%D9%85%D9%8A%D9%86_%D9%85%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA_%D8%AF%D9%88%D9%84%D8%AA.pdf/4826d6fe-f670-fb79-92c7-a8171aade4f7?t=1638854921423",
+          "kind": "document",
+          "claim": "آيين‌نامه تضمين معاملات دولت",
+          "id": "shahid-beheshti-discovery-document-401c97ce423d"
+        },
+        {
+          "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA.pdf/9b0e6f6d-2094-1602-e5e1-cbe474bd4f3f?t=1638855005792",
+          "kind": "document",
+          "claim": "دستورالعمل فرصت مطالعاتی جامعه و صنعت",
+          "id": "shahid-beheshti-discovery-document-5a7767643876"
+        },
+        {
           "url": "https://www.sbu.ac.ir/documents/1801139/5638216/%DA%A9%D8%AA%D8%A7%D8%A8%DA%86%D9%87+%D9%85%D8%B1%D8%AA%D8%A8%D8%B7+%D8%A8%D8%A7+%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87+%D8%B1%DB%8C%D8%B2%DB%8C+%D9%88+%D9%BE%DA%98%D9%88%D9%87%D8%B4+%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%D8%A7%D8%AA+%D8%AA%DA%A9%D9%85%DB%8C%D9%84%DB%8C-+%D8%A7%D8%B3%D9%81%D9%86%D8%AF+%D9%85%D8%A7%D9%87+99.pdf/3133569d-5b52-92a4-09fe-9c1ed0f1ed3c?t=1639296828605",
           "kind": "document",
           "claim": "کتابچه آیین‌نامه‌های مدیریت برنامه‌ریزی و پژوهش تحصیلات تکمیلی (تیر 1400)‌",
@@ -1134,6 +1758,13 @@
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
           "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://www.sbu.ac.ir/fa/web/resvp/form",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
         }
       ],
       "publicationAdjustment": null,
@@ -1141,7 +1772,34 @@
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
-  "ranking": null,
+  "ranking": {
+    "universitySlug": "shahid-beheshti",
+    "nameFa": "دانشگاه شهید بهشتی",
+    "iscCategory": "جامع",
+    "iscRank": 4,
+    "score": 74.1,
+    "confidence": 82,
+    "metrics": {
+      "documents": 73,
+      "organization": 63.3,
+      "library": 100,
+      "laboratories": null,
+      "digital": 67.5,
+      "industryTech": 45,
+      "dataQuality": 100,
+      "findability": 75
+    },
+    "units": 23,
+    "systems": 9,
+    "documents": 67,
+    "activeWeight": 88,
+    "evidenceCoverage": 75,
+    "methodologyVersion": "RTPMI-4.1-ISC",
+    "snapshotDate": "2026-08-11",
+    "rank": 61,
+    "portalRankWithinISCClass": 40,
+    "rankedPortalsInISCClass": 50
+  },
   "units": [
     {
       "id": "shahid-beheshti-discovery-unit-library-e11d2a496fce",
@@ -1164,6 +1822,237 @@
       "sourceUrl": "https://resevp.sbu.ac.ir/fa/w/%D8%A8%D8%B1%D9%BE%D8%A7%DB%8C%DB%8C-%D8%BA%D8%B1%D9%81%D9%87-%C2%AB%D8%AF%D8%A7%D9%86%D8%B4%D9%85%D9%86%D8%AF%D8%A7%D9%86-%D8%A2%DB%8C%D9%86%D8%AF%D9%87%C2%BB-%D8%A7%D8%B2-%D8%B3%D9%88%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1?redirect=%2Ffa%2Fw%2F%25D8%25A8%25D8%25B1%25D9%25BE%25D8%25A7%25DB%258C%25DB%258C-%25D8%25BA%25D8%25B1%25D9%2581%25D9%2587-%25C2%25AB%25D8%25AF%25D8%25A7%25D9%2586%25D8%25B4%25D9%2585%25D9%2586%25D8%25AF%25D8%25A7%25D9%2586-%25D8%25A2%25DB%258C%25D9%2586%25D8%25AF%25D9%2587%25C2%25BB-%25D8%25A7%25D8%25B2-%25D8%25B3%25D9%2588%25DB%258C-%25DA%25A9%25D8%25AA%25D8%25A7%25D8%25A8%25D8%25AE%25D8%25A7%25D9%2586%25D9%2587-%25D9%2585%25D8%25B1%3Fredirect%3D%252F",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-37502db4a0e9",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "برپایی غرفه «دانشمندان آینده» از سوی کتابخانه مرکزی و مرکز اسناد در ایام وداع با آقای شهید ایران - معاونت پژوهشی و فناوری",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://resevp.sbu.ac.ir/fa/w/%D8%A8%D8%B1%D9%BE%D8%A7%DB%8C%DB%8C-%D8%BA%D8%B1%D9%81%D9%87-%C2%AB%D8%AF%D8%A7%D9%86%D8%B4%D9%85%D9%86%D8%AF%D8%A7%D9%86-%D8%A2%DB%8C%D9%86%D8%AF%D9%87%C2%BB-%D8%A7%D8%B2-%D8%B3%D9%88%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1?redirect=%2Ffa%2Fw%2F%25D8%25A8%25D8%25B1%25D9%25BE%25D8%25A7%25DB%258C%25DB%258C-%25D8%25BA%25D8%25B1%25D9%2581%25D9%2587-%25C2%25AB%25D8%25AF%25D8%25A7%25D9%2586%25D8%25B4%25D9%2585%25D9%2586%25D8%25AF%25D8%25A7%25D9%2586-%25D8%25A2%25DB%258C%25D9%2586%25D8%25AF%25D9%2587%25C2%25BB-%25D8%25A7%25D8%25B2-%25D8%25B3%25D9%2588%25DB%258C-%25DA%25A9%25D8%25AA%25D8%25A7%25D8%25A8%25D8%25AE%25D8%25A7%25D9%2586%25D9%2587-%25D9%2585%25D8%25B1%3Fredirect%3D%252Ffa%252Fw%252F%2525D8%2525A8%2525D8%2525B1%2525D9%2525BE%2525D8%2525A7%2525DB%25258C%2525DB%25258C-%2525D8%2525BA%2525D8%2525B1%2525D9%252581%2525D9%252587-%2525C2%2525AB%2525D8%2525AF%2525D8%2525A7%2525D9%252586%2525D8%2525B4%2525D9%252585%2525D9%252586%2525D8%2525AF%2525D8%2525A7%2525D9%252586-%2525D8%2525A2%2525DB%25258C%2525D9%252586%2525D8%2525AF%2525D9%252587%2525C2%2525BB-%2525D8%2525A7%2525D8%2525B2-%2525D8%2525B3%2525D9%252588%2525DB%25258C-%2525DA%2525A9%2525D8%2525AA%2525D8%2525A7%2525D8%2525A8%2525D8%2525AE%2525D8%2525A7%2525D9%252586%2525D9%252587-%2525D9%252585%2525D8%2525B1%253Fredirect%253D%25252F",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-ca1d674bf362",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "برپایی غرفه «دانشمندان آینده» از سوی کتابخانه مرکزی و مرکز اسناد در ایام وداع با آقای شهید ایران - معاونت پژوهشی و فناوری",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://resevp.sbu.ac.ir/fa/w/%D8%A8%D8%B1%D9%BE%D8%A7%DB%8C%DB%8C-%D8%BA%D8%B1%D9%81%D9%87-%C2%AB%D8%AF%D8%A7%D9%86%D8%B4%D9%85%D9%86%D8%AF%D8%A7%D9%86-%D8%A2%DB%8C%D9%86%D8%AF%D9%87%C2%BB-%D8%A7%D8%B2-%D8%B3%D9%88%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1?redirect=%2Ffa%2Fw%2F%25D8%25A8%25D8%25B1%25D9%25BE%25D8%25A7%25DB%258C%25DB%258C-%25D8%25BA%25D8%25B1%25D9%2581%25D9%2587-%25C2%25AB%25D8%25AF%25D8%25A7%25D9%2586%25D8%25B4%25D9%2585%25D9%2586%25D8%25AF%25D8%25A7%25D9%2586-%25D8%25A2%25DB%258C%25D9%2586%25D8%25AF%25D9%2587%25C2%25BB-%25D8%25A7%25D8%25B2-%25D8%25B3%25D9%2588%25DB%258C-%25DA%25A9%25D8%25AA%25D8%25A7%25D8%25A8%25D8%25AE%25D8%25A7%25D9%2586%25D9%2587-%25D9%2585%25D8%25B1%3Fredirect%3D%252Ffa%252Fw%252F%2525D8%2525A8%2525D8%2525B1%2525D9%2525BE%2525D8%2525A7%2525DB%25258C%2525DB%25258C-%2525D8%2525BA%2525D8%2525B1%2525D9%252581%2525D9%252587-%2525C2%2525AB%2525D8%2525AF%2525D8%2525A7%2525D9%252586%2525D8%2525B4%2525D9%252585%2525D9%252586%2525D8%2525AF%2525D8%2525A7%2525D9%252586-%2525D8%2525A2%2525DB%25258C%2525D9%252586%2525D8%2525AF%2525D9%252587%2525C2%2525BB-%2525D8%2525A7%2525D8%2525B2-%2525D8%2525B3%2525D9%252588%2525DB%25258C-%2525DA%2525A9%2525D8%2525AA%2525D8%2525A7%2525D8%2525A8%2525D8%2525AE%2525D8%2525A7%2525D9%252586%2525D9%252587-%2525D9%252585%2525D8%2525B1",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-6a44fb071974",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "آیین‌نامه‌ها و فرم‌ها - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.sbu.ac.ir/fa/web/lib/form",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-bbe06b6de739",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "مدیر کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.sbu.ac.ir/fa/web/lib/management",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-1f5e3792b203",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "معاون کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.sbu.ac.ir/fa/web/lib/assistance",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-71b6ba047cb4",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "ساعت‌های ارائه خدمت بخش‌های مختلف کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.sbu.ac.ir/fa/web/lib/service-time",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-938b66892a12",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "ساعت‌های ارائه خدمت بخش‌های مختلف کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://lib.sbu.ac.ir/fa/service-time",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-7a807715fda1",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "مدیر کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://lib.sbu.ac.ir/fa/management",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-814ce27f8df5",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "معاون کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://lib.sbu.ac.ir/fa/assistance",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-11b2ab106b70",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "خبرنامه کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.sbu.ac.ir/fa/web/lib/libulletin",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-149315c82bfb",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "صفحه اصلی - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.sbu.ac.ir/fa/web/lib/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-f37fd3e5fdb4",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "خبرنامه کتابخانه مرکزی، مرکز اسناد و موزه - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://lib.sbu.ac.ir/fa/libulletin",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-2e4c77902e6d",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "صفحه اصلی - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://lib.sbu.ac.ir/fa/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-industry-6ad146663971",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "مدیریت همکاری‌های پژوهشی و ارتباط با صنعت و جامعه - معاونت پژوهشی و فناوری",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://resevp.sbu.ac.ir/industryrelations",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-97bec499ad9a",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "معرفی - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.sbu.ac.ir/fa/web/lib/about-us",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-9646014c5471",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "معرفی - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://lib.sbu.ac.ir/fa/about-us",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-f060d0ce7d62",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "سامانه‌های دانشی - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.sbu.ac.ir/fa/web/lib/w/knowledge-system?redirect=%2Ffa%2Fweb%2Flib%2F",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-887505d4ea58",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "پایگاه‌های اطلاعاتی رایگان - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.sbu.ac.ir/fa/web/lib/w/free-databases?redirect=%2Ffa%2Fweb%2Flib%2F",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-842c85c9e5be",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "نحوه اهدا منابع - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.sbu.ac.ir/fa/web/lib/w/donating?redirect=%2Ffa%2Fweb%2Flib%2F",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-47f7e2ceeeca",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "وبینارها - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://www.sbu.ac.ir/fa/web/lib/w/vebinar?redirect=%2Ffa%2Fweb%2Flib%2F",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "shahid-beheshti-discovery-unit-library-ab39ab5818f9",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "سامانه‌های دانشی - کتابخانه مرکزی و مرکز اسناد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://lib.sbu.ac.ir/fa/w/knowledge-system?redirect=%2Ffa%2F",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
     }
   ],
   "systems": [
@@ -1205,6 +2094,84 @@
       "lastVerified": "2026-08-11",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-system-f060d0ce7d62",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "سامانه‌های دانشی - کتابخانه مرکزی و مرکز اسناد",
+      "category": "library",
+      "url": "https://www.sbu.ac.ir/fa/web/lib/w/knowledge-system?redirect=%2Ffa%2Fweb%2Flib%2F",
+      "sourceUrl": "https://www.sbu.ac.ir/fa/web/lib/",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-system-ab39ab5818f9",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "سامانه‌های دانشی - کتابخانه مرکزی و مرکز اسناد",
+      "category": "library",
+      "url": "https://lib.sbu.ac.ir/fa/w/knowledge-system?redirect=%2Ffa%2F",
+      "sourceUrl": "https://lib.sbu.ac.ir/fa/",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-system-2f3b5a09ef34",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "سامانه‌ها - معاونت پژوهشی و فناوری",
+      "category": "research",
+      "url": "https://resevp.sbu.ac.ir/samaneha",
+      "sourceUrl": "https://resevp.sbu.ac.ir/",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-system-1194616f58ce",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "سامانه‌ها - معاونت پژوهشی و فناوری",
+      "category": "research",
+      "url": "https://resevp.sbu.ac.ir/fa/samaneha",
+      "sourceUrl": "https://resevp.sbu.ac.ir/fa/systems",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-system-b02c3319d907",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "سامانه‌ها - معاونت پژوهشی و فناوری",
+      "category": "research",
+      "url": "https://www.sbu.ac.ir/fa/web/resvp/samaneha",
+      "sourceUrl": "https://www.sbu.ac.ir/fa/web/resvp/systems",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-system-7b14366aafa9",
+      "universitySlug": "shahid-beheshti",
+      "nameFa": "سامانه مدیریت نشریات علمی دانشگاه شهید بهشتی",
+      "category": "journals",
+      "url": "https://scj.sbu.ac.ir/",
+      "sourceUrl": "https://scj.sbu.ac.ir/",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8431578947368421
     }
   ],
   "documents": [
@@ -1265,11 +2232,9 @@
       "parentUrl": "https://resevp.sbu.ac.ir/regulations",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "eb754a13bfc861a8e9454402e8f2c62445ffb64cf5e2582cb431b39a5929b52f",
       "fileName": "شیوه نامه اجرایی فرصت مطالعاتی.pdf",
       "contentType": "application/pdf",
-      "fileSize": 2802699,
-      "archivePath": "shahid-beheshti/cf1ed348b89e-شیوه نامه اجرایی فرصت مطالعاتی.pdf"
+      "fileSize": 2802699
     },
     {
       "id": "shahid-beheshti-discovery-document-b33b906bd70d",
@@ -1307,11 +2272,9 @@
       "parentUrl": "https://resevp.sbu.ac.ir/regulations",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "5f3383841804b5bf6a2417e9c7402b7cc4cd8f52dfe660d4608a69f9f240966e",
       "fileName": "شیوه نامه اجرای اعطای پژوهانه به دانشجویان دکترا.pdf",
       "contentType": "application/pdf",
-      "fileSize": 149671,
-      "archivePath": "shahid-beheshti/730a1f25e329-شیوه نامه اجرای اعطای پژوهانه به دانشجویان دکترا.pdf"
+      "fileSize": 149671
     },
     {
       "id": "shahid-beheshti-discovery-document-349c0d77c79c",
@@ -1344,11 +2307,9 @@
       "parentUrl": "https://resevp.sbu.ac.ir/regulations",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "d6b0dcc9cc9c2376738c9d4023fe063d73db969b668875666a0a552350bbc0df",
       "fileName": "دستورالعمل تعیین نحوه تکثیر پایان نامه های چاپی و الکترونیکی.pdf",
       "contentType": "application/pdf",
-      "fileSize": 37155,
-      "archivePath": "shahid-beheshti/8dd89b44113f-دستورالعمل تعیین نحوه تکثیر پایان نامه های چاپی و الکترونیکی.pdf"
+      "fileSize": 37155
     },
     {
       "id": "shahid-beheshti-discovery-document-3b78d86d0f08",
@@ -1428,11 +2389,9 @@
       "parentUrl": "https://www.sbu.ac.ir/fa/web/resvp/regulations",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "eb754a13bfc861a8e9454402e8f2c62445ffb64cf5e2582cb431b39a5929b52f",
       "fileName": "شیوه نامه اجرایی فرصت مطالعاتی.pdf",
       "contentType": "application/pdf",
-      "fileSize": 2802699,
-      "archivePath": "shahid-beheshti/6a6c419f63e0-شیوه نامه اجرایی فرصت مطالعاتی.pdf"
+      "fileSize": 2802699
     },
     {
       "id": "shahid-beheshti-discovery-document-54ddaee9a5cb",
@@ -1470,11 +2429,9 @@
       "parentUrl": "https://www.sbu.ac.ir/fa/web/resvp/regulations",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "5f3383841804b5bf6a2417e9c7402b7cc4cd8f52dfe660d4608a69f9f240966e",
       "fileName": "شیوه نامه اجرای اعطای پژوهانه به دانشجویان دکترا.pdf",
       "contentType": "application/pdf",
-      "fileSize": 149671,
-      "archivePath": "shahid-beheshti/4352578ec81b-شیوه نامه اجرای اعطای پژوهانه به دانشجویان دکترا.pdf"
+      "fileSize": 149671
     },
     {
       "id": "shahid-beheshti-discovery-document-9ec10e01b881",
@@ -1507,11 +2464,9 @@
       "parentUrl": "https://www.sbu.ac.ir/fa/web/resvp/regulations",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "d6b0dcc9cc9c2376738c9d4023fe063d73db969b668875666a0a552350bbc0df",
       "fileName": "دستورالعمل تعیین نحوه تکثیر پایان نامه های چاپی و الکترونیکی.pdf",
       "contentType": "application/pdf",
-      "fileSize": 37155,
-      "archivePath": "shahid-beheshti/6219a8f21cec-دستورالعمل تعیین نحوه تکثیر پایان نامه های چاپی و الکترونیکی.pdf"
+      "fileSize": 37155
     },
     {
       "id": "shahid-beheshti-discovery-document-d9970c1b5157",
@@ -1754,14 +2709,12 @@
       "lastVerified": "2026-08-12",
       "url": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF+%D8%B4%D8%B1%DA%A9%D8%AA+%D8%AF%D8%B1+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C+%D9%87%DB%8C%D8%AA+%D8%B9%D9%84%D9%85%DB%8C+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+%D8%B4%D9%87%DB%8C%D8%AF+%D8%A8%D9%87%D8%B4%D8%AA%DB%8C.docx/4e41f911-0c39-cc01-f069-f8856531bae7?t=1638012732308",
       "sourceUrl": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF+%D8%B4%D8%B1%DA%A9%D8%AA+%D8%AF%D8%B1+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C+%D9%87%DB%8C%D8%AA+%D8%B9%D9%84%D9%85%DB%8C+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+%D8%B4%D9%87%DB%8C%D8%AF+%D8%A8%D9%87%D8%B4%D8%AA%DB%8C.docx/4e41f911-0c39-cc01-f069-f8856531bae7?t=1638012732308",
-      "parentUrl": "https://resevp.sbu.ac.ir/fa/web/resvp/forms-old",
+      "parentUrl": "https://resevp.sbu.ac.ir/form",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "d98f10e7f389fe336661c45768ab01f03b6193eeca350837769c65a33b924337",
       "fileName": "کاربرگ شرکت در فرصت مطالعاتی اعضای هیت علمی دانشگاه شهید بهشتی.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "fileSize": 359368,
-      "archivePath": "shahid-beheshti/851ef2924f02-کاربرگ شرکت در فرصت مطالعاتی اعضای هیت علمی دانشگاه شهید بهشتی.docx"
+      "fileSize": 359368
     },
     {
       "id": "shahid-beheshti-discovery-document-8c7237954e06",
@@ -1849,7 +2802,7 @@
       "title": "فرم معرفی کتاب",
       "type": "سند",
       "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
+      "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
@@ -1858,11 +2811,9 @@
       "parentUrl": "https://resevp.sbu.ac.ir/fa/web/resvp/forms-old",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "cb6c36835ea0c3367eb4ea7b560a1bcde7314a9d5b1f8b65f599d57a30ac0459",
       "fileName": "فرم معرفی کتاب.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "fileSize": 22193,
-      "archivePath": "shahid-beheshti/17e149771fcc-فرم معرفی کتاب.docx"
+      "fileSize": 22193
     },
     {
       "id": "shahid-beheshti-discovery-document-64a4c197ae61",
@@ -1870,7 +2821,7 @@
       "title": "فرم درخواست امتیازدهی کتاب",
       "type": "سند",
       "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
+      "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
@@ -1879,11 +2830,9 @@
       "parentUrl": "https://resevp.sbu.ac.ir/fa/web/resvp/forms-old",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "f966df93a2a226f3e8f1e778dbf539346a9de4902cf63093d3df0ccffdd32480",
       "fileName": "فرم درخواست بروزرسانی فهرست‌ها​​​​​​​.xlsx",
       "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-      "fileSize": 17667,
-      "archivePath": "shahid-beheshti/84120c6ef664-فرم درخواست بروزرسانی فهرست‌ها​​​​​​​.xlsx"
+      "fileSize": 17667
     },
     {
       "id": "shahid-beheshti-discovery-document-f46777785126",
@@ -1900,11 +2849,9 @@
       "parentUrl": "https://resevp.sbu.ac.ir/fa/web/resvp/forms-old",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "28d8a9e5b5e9b5cc3a74910f5629f56947ad3650e87f59428f2387cbde34fafb",
       "fileName": "فرم برنامه تحقیقاتی فرصت مطالعاتی صنعتی.doc",
       "contentType": "application/msword",
-      "fileSize": 47104,
-      "archivePath": "shahid-beheshti/9e7657d60e21-فرم برنامه تحقیقاتی فرصت مطالعاتی صنعتی.doc"
+      "fileSize": 47104
     },
     {
       "id": "shahid-beheshti-discovery-document-7bf3c8145a53",
@@ -1921,11 +2868,9 @@
       "parentUrl": "https://resevp.sbu.ac.ir/fa/web/resvp/forms-old",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "9b925054666868bcacac27b61c009778d494876e621cac7636c389bc9dcd92b6",
       "fileName": "فرم درخواست فرصت مطالعاتی جامعه و صنعت.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "fileSize": 55009,
-      "archivePath": "shahid-beheshti/a4606a469da1-فرم درخواست فرصت مطالعاتی جامعه و صنعت.docx"
+      "fileSize": 55009
     },
     {
       "id": "shahid-beheshti-discovery-document-09e5c6c31d55",
@@ -2131,6 +3076,348 @@
       "parentUrl": "https://resevp.sbu.ac.ir/regulations",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.85
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-33d8b5e6a836",
+      "universitySlug": "shahid-beheshti",
+      "title": "فرم گزارش اظهاری مجری برای م",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%D9%81%D8%B1%D9%85+%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4+%D8%A7%D8%B8%D9%87%D8%A7%D8%B1%DB%8C+%D9%85%D8%AC%D8%B1%DB%8C+%D8%A8%D8%B1%D8%A7%DB%8C+%D9%85.doc/72ebe6b8-a1f7-01c3-aef5-7dadf9e48394?t=1638855232207",
+      "sourceUrl": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%D9%81%D8%B1%D9%85+%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4+%D8%A7%D8%B8%D9%87%D8%A7%D8%B1%DB%8C+%D9%85%D8%AC%D8%B1%DB%8C+%D8%A8%D8%B1%D8%A7%DB%8C+%D9%85.doc/72ebe6b8-a1f7-01c3-aef5-7dadf9e48394?t=1638855232207",
+      "parentUrl": "https://resevp.sbu.ac.ir/fa/web/resvp/forms-old",
+      "fileName": "فرم گزارش اظهاری مجری برای م.doc",
+      "contentType": "application/msword",
+      "fileSize": 147968,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-54664e0b643c",
+      "universitySlug": "shahid-beheshti",
+      "title": "فرم لیست همکاران",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%D9%81%D8%B1%D9%85+%D9%84%DB%8C%D8%B3%D8%AA+%D9%87%D9%85%DA%A9%D8%A7%D8%B1%D8%A7%D9%86.docx/0f621be9-8b80-c11f-5569-1c709d0efa07?t=1638855256306",
+      "sourceUrl": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%D9%81%D8%B1%D9%85+%D9%84%DB%8C%D8%B3%D8%AA+%D9%87%D9%85%DA%A9%D8%A7%D8%B1%D8%A7%D9%86.docx/0f621be9-8b80-c11f-5569-1c709d0efa07?t=1638855256306",
+      "parentUrl": "https://resevp.sbu.ac.ir/fa/web/resvp/forms-old",
+      "fileName": "فرم لیست همکاران.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 28754,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-d75547c5ad03",
+      "universitySlug": "shahid-beheshti",
+      "title": "کاربرگ تصویب ماموریت های جامعه و صنعت",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF+%D8%AA%D8%B5%D9%88%DB%8C%D8%A8++%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA+%D9%87%D8%A7%DB%8C+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA.docx/45955483-f3b0-f0b6-1061-475ac3041984?t=1638855276214",
+      "sourceUrl": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF+%D8%AA%D8%B5%D9%88%DB%8C%D8%A8++%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA+%D9%87%D8%A7%DB%8C+%D8%AC%D8%A7%D9%85%D8%B9%D9%87+%D9%88+%D8%B5%D9%86%D8%B9%D8%AA.docx/45955483-f3b0-f0b6-1061-475ac3041984?t=1638855276214",
+      "parentUrl": "https://resevp.sbu.ac.ir/fa/web/resvp/forms-old",
+      "fileName": "کاربرگ تصویب ماموریت های جامعه و صنعت.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 352759,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-ea4fdd12af58",
+      "universitySlug": "shahid-beheshti",
+      "title": "نمونه قرارداد پژوهشی برون سازمانی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%D9%86%D9%85%D9%88%D9%86%D9%87+%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C+%D8%A8%D8%B1%D9%88%D9%86+%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C.docx/5434eb1e-e6e6-3092-7a2f-6f96623153b2?t=1638855295132",
+      "sourceUrl": "https://resevp.sbu.ac.ir/documents/1801139/6614630/%D9%86%D9%85%D9%88%D9%86%D9%87+%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C+%D8%A8%D8%B1%D9%88%D9%86+%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C.docx/5434eb1e-e6e6-3092-7a2f-6f96623153b2?t=1638855295132",
+      "parentUrl": "https://resevp.sbu.ac.ir/fa/web/resvp/forms-old",
+      "fileName": "نمونه قرارداد پژوهشی برون سازمانی.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 29479,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-6d1c58f2e54b",
+      "universitySlug": "shahid-beheshti",
+      "title": "فرایند​ جذب پژوهشیار پسادکترا با حمایت مشترک دانشگاه و صندوق حمایت از پژوهشگران و فناوران",
+      "type": "فرآیند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://resevp.sbu.ac.ir/documents/3665261/4958325/%D8%AC%D8%B0%D8%A8+%D9%81%D8%B1%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C+%D8%B7%D8%A8%D9%82+%D8%AA%D9%81%D8%A7%D9%87%D9%85+%D9%86%D8%A7%D9%85%D9%87.pdf/b05fec4f-de03-e2be-c5b3-abab01c09308?t=1614764301754",
+      "sourceUrl": "https://resevp.sbu.ac.ir/documents/3665261/4958325/%D8%AC%D8%B0%D8%A8+%D9%81%D8%B1%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C+%D8%B7%D8%A8%D9%82+%D8%AA%D9%81%D8%A7%D9%87%D9%85+%D9%86%D8%A7%D9%85%D9%87.pdf/b05fec4f-de03-e2be-c5b3-abab01c09308?t=1614764301754",
+      "parentUrl": "https://resevp.sbu.ac.ir/form",
+      "fileName": "جذب فرادکتری طبق تفاهم نامه.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 102728,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-e4ebf9ad61c4",
+      "universitySlug": "shahid-beheshti",
+      "title": "فرم جدول امتیاز فعالیت های پژوهشی برای محاسبه اعتبار ویژه",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://resevp.sbu.ac.ir/documents/3665261/4958325/%D8%AC%D8%AF%D9%88%D9%84+%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C+%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1+%D9%88%DB%8C%DA%98%D9%8731594.pdf/f0e77346-e5af-71f8-cb07-45ccd9ef73ac?t=1614764381097",
+      "sourceUrl": "https://resevp.sbu.ac.ir/documents/3665261/4958325/%D8%AC%D8%AF%D9%88%D9%84+%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C+%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1+%D9%88%DB%8C%DA%98%D9%8731594.pdf/f0e77346-e5af-71f8-cb07-45ccd9ef73ac?t=1614764381097",
+      "parentUrl": "https://resevp.sbu.ac.ir/fa/web/resvp/forms-old",
+      "fileName": "جدول امتیازدهی اعتبار ویژه31594.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 321134,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-a028d0702c1d",
+      "universitySlug": "shahid-beheshti",
+      "title": "راهنمای فعالسازی رمز بانکی اعتبار ویژه",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://resevp.sbu.ac.ir/documents/1801139/5638216/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C+%D8%A8%D8%A7%D9%86%DA%A9+-+%D9%81%D8%B9%D8%A7%D9%84%D8%B3%D8%A7%D8%B2%DB%8C+%D8%B1%D9%85%D8%B2.pdf/37441134-a508-9b3c-4a92-41c32f4fd23c?t=1618403842794",
+      "sourceUrl": "https://resevp.sbu.ac.ir/documents/1801139/5638216/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C+%D8%A8%D8%A7%D9%86%DA%A9+-+%D9%81%D8%B9%D8%A7%D9%84%D8%B3%D8%A7%D8%B2%DB%8C+%D8%B1%D9%85%D8%B2.pdf/37441134-a508-9b3c-4a92-41c32f4fd23c?t=1618403842794",
+      "parentUrl": "https://resevp.sbu.ac.ir/form",
+      "fileName": "راهنمای بانک - فعالسازی رمز.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1149117,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-d03010c3e35f",
+      "universitySlug": "shahid-beheshti",
+      "title": "شیوه‌نامه تشکیل و وظایف کارگروه اعتبارسنجی نشریه‌ها",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://resevp.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D8%B4%DA%A9%DB%8C%D9%84+%D9%88+%D9%88%D8%B8%D8%A7%DB%8C%D9%81+%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87+%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%D8%B3%D9%86%D8%AC%DB%8C+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7.pdf/d7e70d45-fa61-d61b-222a-2156874c8225?t=1614805489730",
+      "sourceUrl": "https://resevp.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D8%B4%DA%A9%DB%8C%D9%84+%D9%88+%D9%88%D8%B8%D8%A7%DB%8C%D9%81+%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87+%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%D8%B3%D9%86%D8%AC%DB%8C+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7.pdf/d7e70d45-fa61-d61b-222a-2156874c8225?t=1614805489730",
+      "parentUrl": "https://resevp.sbu.ac.ir/regulations",
+      "fileName": "شیوه نامه تشکیل و وظایف کارگروه اعتبارسنجی نشریه ها.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 2087783,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-25d17c296c7e",
+      "universitySlug": "shahid-beheshti",
+      "title": "شیوه‌نامه به‌روزرسانی فهرست نشریه‌های سفید",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://resevp.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A8%D9%87+%D8%B1%D9%88%D8%B2%D8%B1%D8%B3%D8%A7%D9%86%DB%8C+%D9%81%D9%87%D8%B1%D8%B3%D8%AA+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7%DB%8C+%D8%B3%D9%81%DB%8C%D8%AF.pdf/f3fe4ebf-77da-e55c-3eee-c42b580a3b3c?t=1614805490225",
+      "sourceUrl": "https://resevp.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A8%D9%87+%D8%B1%D9%88%D8%B2%D8%B1%D8%B3%D8%A7%D9%86%DB%8C+%D9%81%D9%87%D8%B1%D8%B3%D8%AA+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7%DB%8C+%D8%B3%D9%81%DB%8C%D8%AF.pdf/f3fe4ebf-77da-e55c-3eee-c42b580a3b3c?t=1614805490225",
+      "parentUrl": "https://resevp.sbu.ac.ir/regulations",
+      "fileName": "شیوه نامه به روزرسانی فهرست نشریه های سفید.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 735830,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-2d262761a4c6",
+      "universitySlug": "shahid-beheshti",
+      "title": "شیوه‌نامه اجرایی پذیرش پژوهشگر پسادکترا",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C+%D9%86%D9%87%D8%A7%DB%8C%DB%8C+%D9%87%DB%8C%D8%A7%D8%AA+%D8%A7%D9%85%D9%86%D8%A7+9+%D8%A7%D8%A8.pdf/776655e7-1b7f-3037-c16c-5accdb380f86?t=1693628368365",
+      "sourceUrl": "https://resevp.sbu.ac.ir/documents/1801139/6614636/%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C+%D9%86%D9%87%D8%A7%DB%8C%DB%8C+%D9%87%DB%8C%D8%A7%D8%AA+%D8%A7%D9%85%D9%86%D8%A7+9+%D8%A7%D8%A8.pdf/776655e7-1b7f-3037-c16c-5accdb380f86?t=1693628368365",
+      "parentUrl": "https://resevp.sbu.ac.ir/regulations",
+      "fileName": "پسادکتری نهایی هیات امنا 9 اب.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 238518,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-63f5c88e788a",
+      "universitySlug": "shahid-beheshti",
+      "title": "شیوه‌نامه تقدیر از پژوهشگران دانشگاه (29 مهر 1399)",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://resevp.sbu.ac.ir/documents/1801139/6614847/%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D9%82%D8%AF%DB%8C%D8%B1+%D8%A7%D8%B2+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+29+%D9%85%D9%87%D8%B1+1399.pdf/72347a87-a0d2-4751-6744-4f210e884ae1?t=1629699726339",
+      "sourceUrl": "https://resevp.sbu.ac.ir/documents/1801139/6614847/%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D9%82%D8%AF%DB%8C%D8%B1+%D8%A7%D8%B2+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+29+%D9%85%D9%87%D8%B1+1399.pdf/72347a87-a0d2-4751-6744-4f210e884ae1?t=1629699726339",
+      "parentUrl": "https://resevp.sbu.ac.ir/regulations",
+      "fileName": "شیوه‌نامه تقدیر از پژوهشگران دانشگاه 29 مهر 1399.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 184929,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-28ec59464497",
+      "universitySlug": "shahid-beheshti",
+      "title": "شیوه‌نامه تشکیل و وظایف کارگروه اعتبارسنجی نشریه‌ها",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D8%B4%DA%A9%DB%8C%D9%84+%D9%88+%D9%88%D8%B8%D8%A7%DB%8C%D9%81+%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87+%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%D8%B3%D9%86%D8%AC%DB%8C+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7.pdf/d7e70d45-fa61-d61b-222a-2156874c8225?t=1614805489730",
+      "sourceUrl": "https://www.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D8%B4%DA%A9%DB%8C%D9%84+%D9%88+%D9%88%D8%B8%D8%A7%DB%8C%D9%81+%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87+%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%D8%B3%D9%86%D8%AC%DB%8C+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7.pdf/d7e70d45-fa61-d61b-222a-2156874c8225?t=1614805489730",
+      "parentUrl": "https://www.sbu.ac.ir/fa/web/resvp/regulations",
+      "fileName": "شیوه نامه تشکیل و وظایف کارگروه اعتبارسنجی نشریه ها.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 2087783,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-85529d55e65f",
+      "universitySlug": "shahid-beheshti",
+      "title": "شیوه‌نامه به‌روزرسانی فهرست نشریه‌های سفید",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A8%D9%87+%D8%B1%D9%88%D8%B2%D8%B1%D8%B3%D8%A7%D9%86%DB%8C+%D9%81%D9%87%D8%B1%D8%B3%D8%AA+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7%DB%8C+%D8%B3%D9%81%DB%8C%D8%AF.pdf/f3fe4ebf-77da-e55c-3eee-c42b580a3b3c?t=1614805490225",
+      "sourceUrl": "https://www.sbu.ac.ir/documents/3665261/4974182/%D8%B4%DB%8C%D9%88%D9%87+%D9%86%D8%A7%D9%85%D9%87+%D8%A8%D9%87+%D8%B1%D9%88%D8%B2%D8%B1%D8%B3%D8%A7%D9%86%DB%8C+%D9%81%D9%87%D8%B1%D8%B3%D8%AA+%D9%86%D8%B4%D8%B1%DB%8C%D9%87+%D9%87%D8%A7%DB%8C+%D8%B3%D9%81%DB%8C%D8%AF.pdf/f3fe4ebf-77da-e55c-3eee-c42b580a3b3c?t=1614805490225",
+      "parentUrl": "https://www.sbu.ac.ir/fa/web/resvp/regulations",
+      "fileName": "شیوه نامه به روزرسانی فهرست نشریه های سفید.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 735830,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-c2ff0d465321",
+      "universitySlug": "shahid-beheshti",
+      "title": "شیوه‌نامه تقدیر از پژوهشگران دانشگاه (29 مهر 1399)",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.sbu.ac.ir/documents/1801139/6614847/%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D9%82%D8%AF%DB%8C%D8%B1+%D8%A7%D8%B2+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+29+%D9%85%D9%87%D8%B1+1399.pdf/72347a87-a0d2-4751-6744-4f210e884ae1?t=1629699726339",
+      "sourceUrl": "https://www.sbu.ac.ir/documents/1801139/6614847/%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87+%D8%AA%D9%82%D8%AF%DB%8C%D8%B1+%D8%A7%D8%B2+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+29+%D9%85%D9%87%D8%B1+1399.pdf/72347a87-a0d2-4751-6744-4f210e884ae1?t=1629699726339",
+      "parentUrl": "https://www.sbu.ac.ir/fa/web/resvp/regulations",
+      "fileName": "شیوه‌نامه تقدیر از پژوهشگران دانشگاه 29 مهر 1399.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 184929,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-123977f9ed03",
+      "universitySlug": "shahid-beheshti",
+      "title": "راهنمای فعالسازی رمز بانکی اعتبار ویژه",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.sbu.ac.ir/documents/1801139/5638216/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C+%D8%A8%D8%A7%D9%86%DA%A9+-+%D9%81%D8%B9%D8%A7%D9%84%D8%B3%D8%A7%D8%B2%DB%8C+%D8%B1%D9%85%D8%B2.pdf/37441134-a508-9b3c-4a92-41c32f4fd23c?t=1618403842794",
+      "sourceUrl": "https://www.sbu.ac.ir/documents/1801139/5638216/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C+%D8%A8%D8%A7%D9%86%DA%A9+-+%D9%81%D8%B9%D8%A7%D9%84%D8%B3%D8%A7%D8%B2%DB%8C+%D8%B1%D9%85%D8%B2.pdf/37441134-a508-9b3c-4a92-41c32f4fd23c?t=1618403842794",
+      "parentUrl": "https://www.sbu.ac.ir/fa/web/resvp/form",
+      "fileName": "راهنمای بانک - فعالسازی رمز.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1149117,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-a8e0de3cc606",
+      "universitySlug": "shahid-beheshti",
+      "title": "فرم شرکت در فرصت مطالعاتی اعضای هیت علمی دانشگاه شهید بهشتی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.sbu.ac.ir/documents/1801139/6614630/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF+%D8%B4%D8%B1%DA%A9%D8%AA+%D8%AF%D8%B1+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C+%D9%87%DB%8C%D8%AA+%D8%B9%D9%84%D9%85%DB%8C+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+%D8%B4%D9%87%DB%8C%D8%AF+%D8%A8%D9%87%D8%B4%D8%AA%DB%8C.docx/4e41f911-0c39-cc01-f069-f8856531bae7?t=1638012732308",
+      "sourceUrl": "https://www.sbu.ac.ir/documents/1801139/6614630/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF+%D8%B4%D8%B1%DA%A9%D8%AA+%D8%AF%D8%B1+%D9%81%D8%B1%D8%B5%D8%AA+%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C+%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C+%D9%87%DB%8C%D8%AA+%D8%B9%D9%84%D9%85%DB%8C+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+%D8%B4%D9%87%DB%8C%D8%AF+%D8%A8%D9%87%D8%B4%D8%AA%DB%8C.docx/4e41f911-0c39-cc01-f069-f8856531bae7?t=1638012732308",
+      "parentUrl": "https://www.sbu.ac.ir/fa/web/resvp/form",
+      "fileName": "کاربرگ شرکت در فرصت مطالعاتی اعضای هیت علمی دانشگاه شهید بهشتی.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 359368,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-a37156926ad5",
+      "universitySlug": "shahid-beheshti",
+      "title": "فرایند​ جذب پژوهشیار پسادکترا با حمایت مشترک دانشگاه و صندوق حمایت از پژوهشگران و فناوران",
+      "type": "فرآیند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://www.sbu.ac.ir/documents/3665261/4958325/%D8%AC%D8%B0%D8%A8+%D9%81%D8%B1%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C+%D8%B7%D8%A8%D9%82+%D8%AA%D9%81%D8%A7%D9%87%D9%85+%D9%86%D8%A7%D9%85%D9%87.pdf/b05fec4f-de03-e2be-c5b3-abab01c09308?t=1614764301754",
+      "sourceUrl": "https://www.sbu.ac.ir/documents/3665261/4958325/%D8%AC%D8%B0%D8%A8+%D9%81%D8%B1%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C+%D8%B7%D8%A8%D9%82+%D8%AA%D9%81%D8%A7%D9%87%D9%85+%D9%86%D8%A7%D9%85%D9%87.pdf/b05fec4f-de03-e2be-c5b3-abab01c09308?t=1614764301754",
+      "parentUrl": "https://www.sbu.ac.ir/fa/web/resvp/form",
+      "fileName": "جذب فرادکتری طبق تفاهم نامه.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 102728,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "shahid-beheshti-discovery-document-5543ff708a8f",
+      "universitySlug": "shahid-beheshti",
+      "title": "فرم پرسشنامه تبدیل واحد و ارزیابی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://resevp.sbu.ac.ir/documents/1801139/5638216/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C+%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C12-10-94.docx/8f00660f-a782-b6bc-cf41-7d4616bb9363?t=1626070349828",
+      "sourceUrl": "https://resevp.sbu.ac.ir/documents/1801139/5638216/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87+%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C+%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C12-10-94.docx/8f00660f-a782-b6bc-cf41-7d4616bb9363?t=1626070349828",
+      "parentUrl": "https://resevp.sbu.ac.ir/form",
+      "fileName": "پرسشنامه ارزیابی عملکرد پژوهشی12-10-94.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 227940,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
     }
   ],
   "interpretation": {

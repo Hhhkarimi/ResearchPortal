@@ -85,7 +85,7 @@
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
       "lastRun": "2026-08-12",
-      "promotedSources": 87,
+      "promotedSources": 146,
       "socialEvidenceRemoved": true
     }
   },
@@ -166,14 +166,14 @@
       "libraryDocuments": "verified",
       "laboratories": "verified",
       "industryTechnology": "verified",
-      "informationTechnology": "unresolved",
+      "informationTechnology": "verified",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 88,
-    "unitsFound": 18,
-    "systemsFound": 10,
-    "documentsFound": 58,
+    "auditEvidenceCoverage": 100,
+    "unitsFound": 33,
+    "systemsFound": 15,
+    "documentsFound": 115,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 61,
+      "sourceCount": 78,
       "sources": [
         {
           "url": "https://vpr.um.ac.ir/",
@@ -552,10 +552,118 @@
           "id": null
         },
         {
+          "url": "https://118.um.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%87%D8%A7/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C.html",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/109-2020-12-20-10-25-52/1776-1404-2",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/109-2020-12-20-10-25-52/1777-1404-3",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/109-2020-12-20-10-25-52/1778-2025-11-29-09-44-56",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php?option=com_content&view=article&id=1082&catid=91&lang=fa",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/1402?id=398",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
           "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/97-2016-11-21-04-19-32/1714-2024-12-02-08-01-30",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific portalIdentity source",
           "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/109-2020-12-20-10-25-52/1775-1404",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/2-uncategorize/1412-research-and-tech-week-1399-faculties",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/2-uncategorize/1328-research-and-tech-week-1399-faculties",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/1402",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1493",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/research-opportunity/regulations",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/research/thesis-compilation-guide",
+          "kind": "research-review-specific",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/research/thesis-title-until-2004",
+          "kind": "research-review-specific",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/research/defended-dissertations",
+          "kind": "research-review-specific",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/research/unprotected-dissertations",
+          "kind": "research-review-specific",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/lib-services/researchers",
+          "kind": "research-review-specific",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -573,7 +681,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 6,
+      "sourceCount": 22,
       "sources": [
         {
           "url": "https://vpr.um.ac.ir/",
@@ -625,6 +733,146 @@
           "unitType": "research",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/index.php?lang=fa",
+          "kind": "unit",
+          "claim": "مدیریت ارتباط با صنعت و جامعه دانشگاه فردوسی مشهد - صفحه اصلی مدیریت",
+          "id": "ferdowsi-discovery-unit-industry-460b1296918f",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://ict.um.ac.ir/index.php/fa/",
+          "kind": "unit",
+          "claim": "مرکز توسعه فناوری اطلاعات، امنیت و هوشمند سازی",
+          "id": "ferdowsi-discovery-unit-it-e97b5e2ea23a",
+          "unitType": "it",
+          "relationStatus": "organizationally-attributed",
+          "relationshipEvidenceUrl": "https://vpap.um.ac.ir/index.php?lang=fa"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php?lang=fa",
+          "kind": "unit",
+          "claim": "کتابخانه مرکزی و نشر",
+          "id": "ferdowsi-discovery-unit-library-916afd966f4d",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=article&id=12816:collection-development-policy&catid=1177:regulations",
+          "kind": "unit",
+          "claim": "خط‌مشی مجموعه‌سازی کتابخانه مرکزی و نشر دانشگاه فردوسی مشهد",
+          "id": "ferdowsi-discovery-unit-library-d78a3063a408",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=article&id=12823:weeding-regulations&catid=1177:regulations",
+          "kind": "unit",
+          "claim": "آیین نامه وجین منابع در کتابخانه مرکزی و نشر دانشگاه فردوسی مشهد",
+          "id": "ferdowsi-discovery-unit-library-250754dfe465",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=category&id=1165",
+          "kind": "unit",
+          "claim": "همکاران کتابخانه مرکزی",
+          "id": "ferdowsi-discovery-unit-library-893c50b2a8b0",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/management-of-publishing-scientific-works",
+          "kind": "unit",
+          "claim": "مدیریت نشر و کتابخانه مرکزی",
+          "id": "ferdowsi-discovery-unit-library-bfe224db1108",
+          "unitType": "library",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/",
+          "kind": "unit",
+          "claim": "مدیریت ارتباط با صنعت و جامعه دانشگاه فردوسی مشهد - صفحه اصلی مدیریت",
+          "id": "ferdowsi-discovery-unit-industry-7afd3c0808a3",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/news/2110-2025-06-29-05-22-16",
+          "kind": "unit",
+          "claim": "مدیریت ارتباط با صنعت و جامعه دانشگاه فردوسی مشهد - انتصاب مديريت ارتباط با صنعت و جامعه",
+          "id": "ferdowsi-discovery-unit-industry-3c64a949cf7d",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+          "kind": "unit",
+          "claim": "مدیریت ارتباط با صنعت و جامعه دانشگاه فردوسی مشهد - فرم ها",
+          "id": "ferdowsi-discovery-unit-industry-7779ae240827",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/forms",
+          "kind": "unit",
+          "claim": "مدیریت ارتباط با صنعت و جامعه دانشگاه فردوسی مشهد - فرم ها",
+          "id": "ferdowsi-discovery-unit-industry-e5901babac51",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/research-opportunity/regulations",
+          "kind": "unit",
+          "claim": "مدیریت ارتباط با صنعت و جامعه دانشگاه فردوسی مشهد - آیین‌نامه‌ها و دستورالعمل‌های فرصت مطالعاتی در صنعت و جامعه",
+          "id": "ferdowsi-discovery-unit-industry-2cc123247906",
+          "unitType": "industry",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://prof.um.ac.ir/news/%DA%A9%D9%86%DA%AF%D8%B1%D9%87-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C-ict-%D9%87%D9%84%D9%86%D8%AF.html",
+          "kind": "unit",
+          "claim": "کنگره نوآوری ICT هلند",
+          "id": "ferdowsi-discovery-unit-it-4c0b2b261a17",
+          "unitType": "it",
+          "relationStatus": "organizationally-attributed",
+          "relationshipEvidenceUrl": "https://prof.um.ac.ir/izadyar/"
+        },
+        {
+          "url": "https://oip.um.ac.ir/index.php/fa/",
+          "kind": "unit",
+          "claim": "صفحه نخست",
+          "id": "ferdowsi-discovery-unit-technology-66193a12b51b",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://innov.um.ac.ir/index.php/fa/images/38/FORMS_and_REGULATIONS/innovcenter_accept_FORM.pdf",
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه مدیریتی/اجرایی/نظارتی مراکز نوآوری فرم پذیرش در مراکز نوآوری دانشکده ها",
+          "id": null,
+          "sourceLabel": "شیوه نامه مدیریتی/اجرایی/نظارتی مراکز نوآوری فرم پذیرش در مراکز نوآوری دانشکده ها"
+        },
+        {
+          "url": "https://innov.um.ac.ir/index.php/fa/images/38/FORMS_and_REGULATIONS/innovcenter_accept_FORM_2.doc",
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه مدیریتی/اجرایی/نظارتی مراکز نوآوری فرم پذیرش در مراکز نوآوری دانشکده ها",
+          "id": null,
+          "sourceLabel": "شیوه نامه مدیریتی/اجرایی/نظارتی مراکز نوآوری فرم پذیرش در مراکز نوآوری دانشکده ها"
         }
       ],
       "publicationAdjustment": null,
@@ -638,21 +886,78 @@
       "iscCategory": "جامع",
       "iscRank": 3,
       "dimension": "libraryDocuments",
-      "status": "observed-reference",
-      "reportedStatus": "observed-reference",
-      "reviewOutcome": "reference-only",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 1,
+      "sourceCount": 10,
       "sources": [
         {
           "url": "https://vpr.um.ac.ir/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php?lang=fa",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=article&id=12816:collection-development-policy&catid=1177:regulations",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=article&id=12823:weeding-regulations&catid=1177:regulations",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=category&id=1165",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/management-of-publishing-scientific-works",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/images/forms/%D9%81%D8%B1%D9%85_%D8%AA%D8%B3%D9%88%DB%8C%D9%87_%D8%AD%D8%B3%D8%A7%D8%A8_%D9%81%D8%B1%D8%AF%D9%88%D8%B3%DB%8C_%D8%AF%D8%B1_%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C_%D8%AA%DA%A9%DB%8C_1403.pdf",
+          "kind": "document",
+          "claim": "? فرم تسویه حساب دانشجویان فردوسی دارای عضویت در کتابخانه مرکزی دانشگاه علوم پزشکی مشهد",
+          "id": "ferdowsi-discovery-document-a51238db47b4"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/membership-and-forms",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/lib-services/researchers",
+          "kind": "research-review-specific",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -662,9 +967,9 @@
       "iscCategory": "جامع",
       "iscRank": 3,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-12",
       "sourceCount": 2,
       "sources": [
@@ -676,13 +981,16 @@
         },
         {
           "url": "https://vpr.um.ac.ir/index.php/fa/2020-08-25-06-35-55/1050-corona-instruction",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
+          "kind": "unit",
+          "claim": "دستورالعمل ارائه خدمات آزمایشگاهی و استفاده از خوابگاه در شرایط شیوع ویروس کرونا",
+          "id": "ferdowsi-discovery-unit-laboratory-cc4918f60f58",
+          "unitType": "laboratory",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -696,7 +1004,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 39,
+      "sourceCount": 54,
       "sources": [
         {
           "url": "https://vpr.um.ac.ir/",
@@ -705,7 +1013,55 @@
           "id": null
         },
         {
+          "url": "https://tto.um.ac.ir/index.php?lang=fa",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/news/2110-2025-06-29-05-22-16",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/forms",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/research-opportunity/regulations",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
           "url": "https://innov.um.ac.ir/index.php/fa/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://prof.um.ac.ir/news/%DA%A9%D9%86%DA%AF%D8%B1%D9%87-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C-ict-%D9%87%D9%84%D9%86%D8%AF.html",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://oip.um.ac.ir/index.php/fa/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific industryTechnology source",
           "id": null
@@ -730,6 +1086,34 @@
         },
         {
           "url": "https://vpr.um.ac.ir/index.php/fa/contact-us/managers-of-research-and-technology",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/109-2020-12-20-10-25-52/1776-1404-2",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/109-2020-12-20-10-25-52/1777-1404-3",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/109-2020-12-20-10-25-52/1778-2025-11-29-09-44-56",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/1402?id=398",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
@@ -876,6 +1260,27 @@
           "sourceLabel": "پرتال پژوهش کشف‌شده"
         },
         {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/109-2020-12-20-10-25-52/1775-1404",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/2-uncategorize/1412-research-and-tech-week-1399-faculties",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/2-uncategorize/1328-research-and-tech-week-1399-faculties",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
           "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1484",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش کشف‌شده",
@@ -890,88 +1295,88 @@
           "sourceLabel": "پرتال پژوهش کشف‌شده"
         },
         {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/1402",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1493",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://oip.um.ac.ir/index.php/fa/patent-forms1",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/membership-and-forms",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://ict.um.ac.ir/index.php/fa/",
+          "kind": "research-review-specific",
+          "claim": "فناوری اطلاعات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "فناوری اطلاعات — کشف خودکار"
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/PDF_TTO/hemayat.doc",
+          "kind": "research-review-specific",
+          "claim": "قرارداد پژوهشی حمايت از پايان‌نامه‌های تحصيلات تكميلی",
+          "id": null,
+          "sourceLabel": "قرارداد پژوهشی حمايت از پايان‌نامه‌های تحصيلات تكميلی"
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/PDF_TTO/hemayat.pdf",
+          "kind": "research-review-specific",
+          "claim": "قرارداد پژوهشی حمايت از پايان‌نامه‌های تحصيلات تكميلی",
+          "id": null,
+          "sourceLabel": "قرارداد پژوهشی حمايت از پايان‌نامه‌های تحصيلات تكميلی"
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/2022/hamed/pdf/shivenameh.pdf",
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی در جامعه و صنعت",
+          "id": null,
+          "sourceLabel": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی در جامعه و صنعت"
+        },
+        {
+          "url": "https://innov.um.ac.ir/index.php/fa/images/38/FORMS_and_REGULATIONS/innovcenter_accept_FORM.pdf",
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه مدیریتی/اجرایی/نظارتی مراکز نوآوری فرم پذیرش در مراکز نوآوری دانشکده ها",
+          "id": null,
+          "sourceLabel": "شیوه نامه مدیریتی/اجرایی/نظارتی مراکز نوآوری فرم پذیرش در مراکز نوآوری دانشکده ها"
+        },
+        {
+          "url": "https://innov.um.ac.ir/index.php/fa/images/38/FORMS_and_REGULATIONS/innovcenter_accept_FORM_2.doc",
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه مدیریتی/اجرایی/نظارتی مراکز نوآوری فرم پذیرش در مراکز نوآوری دانشکده ها",
+          "id": null,
+          "sourceLabel": "شیوه نامه مدیریتی/اجرایی/نظارتی مراکز نوآوری فرم پذیرش در مراکز نوآوری دانشکده ها"
+        },
+        {
           "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_park.doc",
           "kind": "research-review-specific",
-          "claim": "innovation_center_park",
+          "claim": "آیین نامه کمیسیون تخصصی فناوری و نوآوری فرم پیشنهاده تأسیس و راه اندازی مراکز نوآوری - نسخه پارک علم وفناوری",
           "id": null,
-          "sourceLabel": "innovation_center_park"
+          "sourceLabel": "آیین نامه کمیسیون تخصصی فناوری و نوآوری فرم پیشنهاده تأسیس و راه اندازی مراکز نوآوری - نسخه پارک علم وفناوری"
         },
         {
-          "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_research_ins.doc",
+          "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/elzamat_esteghrar.pdf",
           "kind": "research-review-specific",
-          "claim": "innovation_center_research_ins",
+          "claim": "آیین نامه و الزمات استقرار در مراکز نوآوری فرم پیشنهاده تأسیس و راه اندازی مراکز نوآوری - نسخه پژوهشکده",
           "id": null,
-          "sourceLabel": "innovation_center_research_ins"
-        },
-        {
-          "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_faculty.doc",
-          "kind": "research-review-specific",
-          "claim": "innovation_center_faculty",
-          "id": null,
-          "sourceLabel": "innovation_center_faculty"
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/96/shivename-hafte_pajohesh.doc",
-          "kind": "research-review-specific",
-          "claim": "شیوه نامه گرامیداشت هفته پژوهش و فناوری در دانشگاه فردوسی مشهد",
-          "id": null,
-          "sourceLabel": "شیوه نامه گرامیداشت هفته پژوهش و فناوری در دانشگاه فردوسی مشهد"
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1402/ayinname24.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه نامه جشنواره تجلیل از فناوران و نوآوران برگزیده کشور",
-          "id": null,
-          "sourceLabel": "شیوه نامه جشنواره تجلیل از فناوران و نوآوران برگزیده کشور"
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-pajoheshi-ejra-ghanun-pishgiri-takhalof-asar-elmi.pdf",
-          "kind": "research-review-specific",
-          "claim": "بخشنامه معاون پژوهش و فناوری وزارت در خصوص قانون پیشگیری و مقابله با تقلب",
-          "id": null,
-          "sourceLabel": "بخشنامه معاون پژوهش و فناوری وزارت در خصوص قانون پیشگیری و مقابله با تقلب"
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/99/21jashnvare.pdf",
-          "kind": "research-review-specific",
-          "claim": "دستورالعمل بیست و یکمین جشنواره تجلیل از پژوهشگران و فناوران برتر",
-          "id": null,
-          "sourceLabel": "دستورالعمل بیست و یکمین جشنواره تجلیل از پژوهشگران و فناوران برتر"
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/98/20tajlil-pajoheshgaran.pdf",
-          "kind": "research-review-specific",
-          "claim": "دستورالعمل بیستمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور",
-          "id": null,
-          "sourceLabel": "دستورالعمل بیستمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور"
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/97/ayinname97.pdf",
-          "kind": "research-review-specific",
-          "claim": "دستورالعمل نوزدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور",
-          "id": null,
-          "sourceLabel": "دستورالعمل نوزدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور"
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/96/18tajlil-pajohesh-fanavar.pdf",
-          "kind": "research-review-specific",
-          "claim": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر",
-          "id": null,
-          "sourceLabel": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر"
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/18tajlil-pajohesh-fanavar.pdf",
-          "kind": "research-review-specific",
-          "claim": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برگزیده",
-          "id": null,
-          "sourceLabel": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برگزیده"
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1403/ostan/ostan1403.pdf",
-          "kind": "research-review-specific",
-          "claim": "دستورالعمل برگزاری هفته پژوهش و فناوری استان سال 1403",
-          "id": null,
-          "sourceLabel": "دستورالعمل برگزاری هفته پژوهش و فناوری استان سال 1403"
+          "sourceLabel": "آیین نامه و الزمات استقرار در مراکز نوآوری فرم پیشنهاده تأسیس و راه اندازی مراکز نوآوری - نسخه پژوهشکده"
         }
       ],
       "publicationAdjustment": null,
@@ -985,14 +1390,651 @@
       "iscCategory": "جامع",
       "iscRank": 3,
       "dimension": "informationTechnology",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
+      "status": "observed-reference",
+      "reportedStatus": "verified",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 0,
-      "sources": [],
-      "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "sourceCount": 80,
+      "sources": [
+        {
+          "url": "https://ict.um.ac.ir/index.php/fa/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific informationTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://prof.um.ac.ir/news/%DA%A9%D9%86%DA%AF%D8%B1%D9%87-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C-ict-%D9%87%D9%84%D9%86%D8%AF.html",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific informationTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش ۱",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
+          "kind": "research-review-reference",
+          "claim": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1",
+          "id": null,
+          "sourceLabel": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://118.um.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%87%D8%A7/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C.html",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/contact-us/managers-of-research-and-technology",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/109-2020-12-20-10-25-52/1776-1404-2",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/109-2020-12-20-10-25-52/1777-1404-3",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/109-2020-12-20-10-25-52/1778-2025-11-29-09-44-56",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php?option=com_content&view=article&id=1082&catid=91&lang=fa",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/1402?id=398",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/97-2016-11-21-04-19-32/1714-2024-12-02-08-01-30",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-management",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=991",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1709",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1575",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1407",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1327",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1273",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1271",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1408",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1268",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1409",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1410",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/123-1403/1712-1403",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/123-1403/1711-1403",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/119-1402/1577-researchostan1402",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/119-1402/1710-reserch1402",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/2-uncategorize/1485-research-and-technology-week",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/2-uncategorize/1489-research-and-technology-week",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/2-uncategorize/1329-research-and-tech-week-1398-faculties",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/109-2020-12-20-10-25-52/1775-1404",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/2-uncategorize/1412-research-and-tech-week-1399-faculties",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/2-uncategorize/1328-research-and-tech-week-1399-faculties",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1484",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=253",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/vice-chancellor-for-research-and-technology/innovation-and-theorizing",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-ethics",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/1402",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1493",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/expert-forms",
+          "kind": "research-review-reference",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://tto.um.ac.ir/forms",
+          "kind": "research-review-reference",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://oip.um.ac.ir/index.php/fa/patent-forms1",
+          "kind": "research-review-reference",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions",
+          "kind": "research-review-reference",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/membership-and-forms",
+          "kind": "research-review-reference",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/regulationss",
+          "kind": "research-review-reference",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://tto.um.ac.ir/index.php?lang=fa",
+          "kind": "research-review-reference",
+          "claim": "صنعت و فناوری — کشف خودکار",
+          "id": null,
+          "sourceLabel": "صنعت و فناوری — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/faculty/promotion-regulations",
+          "kind": "research-review-reference",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php?lang=fa",
+          "kind": "research-review-reference",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=article&id=12816:collection-development-policy&catid=1177:regulations",
+          "kind": "research-review-reference",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=article&id=12823:weeding-regulations&catid=1177:regulations",
+          "kind": "research-review-reference",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=category&id=1165",
+          "kind": "research-review-reference",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://tto.um.ac.ir/research-opportunity/regulations",
+          "kind": "research-review-reference",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
+          "kind": "research-review-reference",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/research/thesis-compilation-guide",
+          "kind": "research-review-reference",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/research/thesis-title-until-2004",
+          "kind": "research-review-reference",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/research/defended-dissertations",
+          "kind": "research-review-reference",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/research/unprotected-dissertations",
+          "kind": "research-review-reference",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/management-of-publishing-scientific-works",
+          "kind": "research-review-reference",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://tto.um.ac.ir/",
+          "kind": "research-review-reference",
+          "claim": "صنعت و فناوری — کشف خودکار",
+          "id": null,
+          "sourceLabel": "صنعت و فناوری — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://tto.um.ac.ir/news/2110-2025-06-29-05-22-16",
+          "kind": "research-review-reference",
+          "claim": "صنعت و فناوری — کشف خودکار",
+          "id": null,
+          "sourceLabel": "صنعت و فناوری — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+          "kind": "research-review-reference",
+          "claim": "صنعت و فناوری — کشف خودکار",
+          "id": null,
+          "sourceLabel": "صنعت و فناوری — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/index.php/fa/faculty/dissertation-guidance-capacity",
+          "kind": "research-review-reference",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/lib-services/researchers",
+          "kind": "research-review-reference",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://innov.um.ac.ir/index.php/fa/",
+          "kind": "research-review-reference",
+          "claim": "صنعت و فناوری — کشف خودکار",
+          "id": null,
+          "sourceLabel": "صنعت و فناوری — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://oip.um.ac.ir/index.php/fa/",
+          "kind": "research-review-reference",
+          "claim": "صنعت و فناوری — کشف خودکار",
+          "id": null,
+          "sourceLabel": "صنعت و فناوری — کشف خودکار",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/rahnama_naghshe.pdf",
+          "kind": "research-review-reference",
+          "claim": "شیوه نامه چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد راهنمای تدوین نقشه",
+          "id": null,
+          "sourceLabel": "شیوه نامه چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد راهنمای تدوین نقشه",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/rahnama_tosifnameh.pdf",
+          "kind": "research-review-reference",
+          "claim": "دستورالعمل چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد توصیف نامه اختراع (خام)/راهنمای نگارش توصیف نامه",
+          "id": null,
+          "sourceLabel": "دستورالعمل چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد توصیف نامه اختراع (خام)/راهنمای نگارش توصیف نامه",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/shivenameh_PARSA.pdf",
+          "kind": "research-review-reference",
+          "claim": "شیوه نامه چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد",
+          "id": null,
+          "sourceLabel": "شیوه نامه چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/PDF_TTO/hemayat.doc",
+          "kind": "research-review-reference",
+          "claim": "قرارداد پژوهشی حمايت از پايان‌نامه‌های تحصيلات تكميلی",
+          "id": null,
+          "sourceLabel": "قرارداد پژوهشی حمايت از پايان‌نامه‌های تحصيلات تكميلی",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/PDF_TTO/hemayat.pdf",
+          "kind": "research-review-reference",
+          "claim": "قرارداد پژوهشی حمايت از پايان‌نامه‌های تحصيلات تكميلی",
+          "id": null,
+          "sourceLabel": "قرارداد پژوهشی حمايت از پايان‌نامه‌های تحصيلات تكميلی",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/2022/hamed/pdf/shivenameh.pdf",
+          "kind": "research-review-reference",
+          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی در جامعه و صنعت",
+          "id": null,
+          "sourceLabel": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی در جامعه و صنعت",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/mosavabat/omana/nahve-pardakht-pajoohane.pdf",
+          "kind": "research-review-reference",
+          "claim": "پژوهانه راهنمایی و مشاور پایان نامه و رساله",
+          "id": null,
+          "sourceLabel": "پژوهانه راهنمایی و مشاور پایان نامه و رساله",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/dastooralamal_PARSA.pdf",
+          "kind": "research-review-reference",
+          "claim": "دستورالعمل چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد",
+          "id": null,
+          "sourceLabel": "دستورالعمل چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://innov.um.ac.ir/index.php/fa/images/38/FORMS_and_REGULATIONS/innovcenter_accept_FORM.pdf",
+          "kind": "research-review-reference",
+          "claim": "شیوه نامه مدیریتی/اجرایی/نظارتی مراکز نوآوری فرم پذیرش در مراکز نوآوری دانشکده ها",
+          "id": null,
+          "sourceLabel": "شیوه نامه مدیریتی/اجرایی/نظارتی مراکز نوآوری فرم پذیرش در مراکز نوآوری دانشکده ها",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://innov.um.ac.ir/index.php/fa/images/38/FORMS_and_REGULATIONS/innovcenter_accept_FORM_2.doc",
+          "kind": "research-review-reference",
+          "claim": "شیوه نامه مدیریتی/اجرایی/نظارتی مراکز نوآوری فرم پذیرش در مراکز نوآوری دانشکده ها",
+          "id": null,
+          "sourceLabel": "شیوه نامه مدیریتی/اجرایی/نظارتی مراکز نوآوری فرم پذیرش در مراکز نوآوری دانشکده ها",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_park.doc",
+          "kind": "research-review-reference",
+          "claim": "آیین نامه کمیسیون تخصصی فناوری و نوآوری فرم پیشنهاده تأسیس و راه اندازی مراکز نوآوری - نسخه پارک علم وفناوری",
+          "id": null,
+          "sourceLabel": "آیین نامه کمیسیون تخصصی فناوری و نوآوری فرم پیشنهاده تأسیس و راه اندازی مراکز نوآوری - نسخه پارک علم وفناوری",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/elzamat_esteghrar.pdf",
+          "kind": "research-review-reference",
+          "claim": "آیین نامه و الزمات استقرار در مراکز نوآوری فرم پیشنهاده تأسیس و راه اندازی مراکز نوآوری - نسخه پژوهشکده",
+          "id": null,
+          "sourceLabel": "آیین نامه و الزمات استقرار در مراکز نوآوری فرم پیشنهاده تأسیس و راه اندازی مراکز نوآوری - نسخه پژوهشکده",
+          "sourceSpecificity": "university-reference"
+        }
+      ],
+      "publicationAdjustment": "Downgraded until a source proving organizational IT dependency is registered.",
+      "verificationBasis": "Downgraded until a source proving organizational IT dependency is registered.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -1006,10 +2048,34 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 3,
+      "sourceCount": 10,
       "sources": [
         {
           "url": "https://vpr.um.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/research/thesis-compilation-guide",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/research/thesis-title-until-2004",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/research/defended-dissertations",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/research/unprotected-dissertations",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
@@ -1021,11 +2087,31 @@
           "id": null
         },
         {
+          "url": "https://library.um.ac.ir/index.php/fa/lib-services/researchers",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
           "url": "https://vpr.um.ac.ir/index.php/fa/faculty/grant2",
           "kind": "system",
           "claim": "راهنمایی پارسا (رساله دکتری و پایان نامه کارشناسی ارشد)",
           "id": "ferdowsi-discovery-system-902fee1eaef7",
           "systemCategory": "research"
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
+          "kind": "system",
+          "claim": "راهنمای تدوین پایان نامه",
+          "id": "ferdowsi-discovery-system-9e3406330232",
+          "systemCategory": "research"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php?lang=fa",
+          "kind": "system",
+          "claim": "پژوهشگران",
+          "id": "ferdowsi-discovery-system-44d597002374",
+          "systemCategory": "library"
         }
       ],
       "publicationAdjustment": null,
@@ -1043,7 +2129,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 64,
+      "sourceCount": 128,
       "sources": [
         {
           "url": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
@@ -1052,7 +2138,37 @@
           "id": null
         },
         {
-          "url": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
+          "url": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/expert-forms",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/forms",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://oip.um.ac.ir/index.php/fa/patent-forms1",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/membership-and-forms",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/regulationss",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -1064,33 +2180,75 @@
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/index.php/fa/faculty/grant2",
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=article&id=12823:weeding-regulations&catid=1177:regulations",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/index.php/fa/faculty/dissertation-guidance-capacity",
+          "url": "https://tto.um.ac.ir/research-opportunity/regulations",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/index.php/fa/graduate/terms-and-conditions",
+          "url": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/index.php/fa/articles/terms-and-conditions",
+          "url": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/index.php/fa/2020-08-25-06-35-55/1050-corona-instruction",
+          "url": "https://iraniah.um.ac.ir/index.php/fa/research/thesis-compilation-guide",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=article&id=12816:collection-development-policy&catid=1177:regulations",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/rahnama_naghshe.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد راهنمای تدوین نقشه",
+          "id": null
+        },
+        {
+          "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/rahnama_tosifnameh.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد توصیف نامه اختراع (خام)/راهنمای نگارش توصیف نامه",
+          "id": null
+        },
+        {
+          "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/shivenameh_PARSA.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/PDF_TTO/hemayat.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "قرارداد پژوهشی حمايت از پايان‌نامه‌های تحصيلات تكميلی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/PDF_TTO/hemayat.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "قرارداد پژوهشی حمايت از پايان‌نامه‌های تحصيلات تكميلی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/2022/hamed/pdf/shivenameh.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی در جامعه و صنعت",
           "id": null
         },
         {
@@ -1100,9 +2258,231 @@
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/tahsilat-takmili/forum-corona2.pdf",
+          "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/dastooralamal_PARSA.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "مشاهده دستورالعمل و فرم ها",
+          "claim": "دستورالعمل چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد",
+          "id": null
+        },
+        {
+          "url": "https://innov.um.ac.ir/index.php/fa/images/38/FORMS_and_REGULATIONS/innovcenter_accept_FORM.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه مدیریتی/اجرایی/نظارتی مراکز نوآوری فرم پذیرش در مراکز نوآوری دانشکده ها",
+          "id": null
+        },
+        {
+          "url": "https://innov.um.ac.ir/index.php/fa/images/38/FORMS_and_REGULATIONS/innovcenter_accept_FORM_2.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه مدیریتی/اجرایی/نظارتی مراکز نوآوری فرم پذیرش در مراکز نوآوری دانشکده ها",
+          "id": null
+        },
+        {
+          "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_park.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه کمیسیون تخصصی فناوری و نوآوری فرم پیشنهاده تأسیس و راه اندازی مراکز نوآوری - نسخه پارک علم وفناوری",
+          "id": null
+        },
+        {
+          "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/elzamat_esteghrar.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه و الزمات استقرار در مراکز نوآوری فرم پیشنهاده تأسیس و راه اندازی مراکز نوآوری - نسخه پژوهشکده",
+          "id": null
+        },
+        {
+          "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_research_ins.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه و الزمات استقرار در مراکز نوآوری فرم پیشنهاده تأسیس و راه اندازی مراکز نوآوری - نسخه پژوهشکده",
+          "id": null
+        },
+        {
+          "url": "https://oip.um.ac.ir/images/158/forms/form-davar.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پرسشنامه ارزیابی اختراع",
+          "id": null
+        },
+        {
+          "url": "https://oip.um.ac.ir/images/158/forms/form-edeanameh.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم ادعا نامه ثبت اختراع",
+          "id": null
+        },
+        {
+          "url": "https://oip.um.ac.ir/images/158/forms/form-ghabeliat-new.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم قابلیت ثبت اختراع",
+          "id": null
+        },
+        {
+          "url": "https://oip.um.ac.ir/images/158/forms/form-taeid_ekhtera.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پرسشنامه متقاضیان تائید اختراع",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/%D8%AE%D8%B1%D9%88%D8%AC_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88_%D8%A7%D8%B2_%D8%B8%D8%B1%D9%81%DB%8C%D8%AA_%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF_%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "خروج دانشجو از ظرفیت استاد راهنما",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/zarfiat_parsaha_jadid.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "zarfiat parsaha jadid",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%B8%D8%B1%D9%81%DB%8C%D8%AA_%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%DB%8C_%D9%BE%D8%A7%D8%B1%D8%B3%D8%A7%D9%87%D8%A7_-_%D9%86%D9%87%D8%A7%DB%8C%DB%8C_%D8%A7%D8%B3%D9%81%D9%86%D8%AF_1404.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل ظرفیت راهنمایی پارساها نهایی اسفند 1404",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/pajoohane1402.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "pajoohane1402",
+          "id": null
+        },
+        {
+          "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/tosifnameh_blank",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد توصیف نامه اختراع (خام)/راهنمای نگارش توصیف نامه",
+          "id": null
+        },
+        {
+          "url": "https://iraniah.um.ac.ir/index.php/fa/images/135/stories/Farsi/shevenameh1.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "راهنمای تدوین پایان‌نامه/ رساله بازدید: 1812 راهنمای تدوین پایان‌نامه/ رساله ( ) راهنمای تدوین پایان‌نامه ویژه گرایش آموزش زبان ( )",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/2022/industry-survay.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "پرسشنامه طرح پژوهشی برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/2022/industry-survay.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "پرسشنامه طرح پژوهشی برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/2022/gharardad-boroon-daneshgahi.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "قرارداد طرح پژوهشی برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/2022/gharardad-boroon-daneshgahi.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "قرارداد طرح پژوهشی برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/2022/scheduling.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "برنامه زمان‌بندی طرح پژوهشی برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/2022/scheduling.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "برنامه زمان‌بندی طرح پژوهشی برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/2022/a.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "ابلاغيه طرح پژوهشی برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/2022/a.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "ابلاغيه طرح پژوهشی برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/6._%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA_%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5_%D8%A7%D9%85%D8%AA%D9%8A%D8%A7%D8%B2_%D8%B7%D8%B1%D8%AD_%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "درخواست تخصيص امتياز طرح پژوهشی برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/6._%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA_%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5_%D8%A7%D9%85%D8%AA%D9%8A%D8%A7%D8%B2_%D8%B7%D8%B1%D8%AD_%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "درخواست تخصيص امتياز طرح پژوهشی برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/PDF_TTO/00003.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "ارزيابی طرح پژوهشی برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/PDF_TTO/00004.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "ارزيابی طرح پژوهشی برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/2022/hamed/pdf/4.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "کاربرگ تفاهم نامه فرصت مطالعاتی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/TTO_pdf/research-opportunity.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل اجرايی فرصت مطالعاتی اعضای هيأت علمی در صنعت و جامعه",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/2022/hamed/pdf/3.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "کاربرگ درخواست فرصت مطالعاتی در جامعه و صنعت",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/2022/hamed/pdf/5.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "کاربرگ دستاوردهای دوره فرصت مطالعاتی",
+          "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/images/242/97_aeinnameh/thesis.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "۶ دستورالعمل استفاده از پایان‌نامه‌های تحصیلات تکمیلی (۱۳۹۷) (نیاز به ویرایش)",
+          "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/images/forms/Adjunct_Faculty_Membership.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "? فرم معرفی اساتید حق التدریس",
+          "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/images/forms/Informal_Workforce_Membership.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "? فرم معرفی کارکنان غیر رسمی",
+          "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/images/forms/%D9%81%D8%B1%D9%85_%D8%AA%D8%B3%D9%88%DB%8C%D9%87_%D8%AD%D8%B3%D8%A7%D8%A8_%D9%81%D8%B1%D8%AF%D9%88%D8%B3%DB%8C_%D8%AF%D8%B1_%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C_%D8%AA%DA%A9%DB%8C_1403.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "? فرم تسویه حساب دانشجویان فردوسی دارای عضویت در کتابخانه مرکزی دانشگاه علوم پزشکی مشهد",
+          "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/images/forms/%D9%81%D8%B1%D9%85_%D8%AA%D8%B9%D9%87%D8%AF%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C_%D8%A8%D8%A7%D8%B2%D9%86%D8%B4%D8%B3%D8%AA%D9%87_97.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "? فرم تعهد نامه اعضای بازنشسته دانشگاه",
+          "id": null
+        },
+        {
+          "url": "https://innov.um.ac.ir/images/38/forms_regulations/Ayinname-fanavari-1402-1",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آیین نامه کمیسیون تخصصی فناوری و نوآوری فرم پیشنهاده تأسیس و راه اندازی مراکز نوآوری - نسخه پارک علم وفناوری",
           "id": null
         },
         {
@@ -1112,39 +2492,63 @@
           "id": null
         },
         {
-          "url": "https://innov.um.ac.ir/index.php/fa/images/38/FORMS_and_REGULATIONS/innovcenter_accept_FORM.pdf",
+          "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/rahnama_edeanameh.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "innovcenter_accept_FORM",
+          "claim": "قانون ثبت اختراعات، طرح های صنعتی و علائم تجاری (مصوب ۱۳۸۶) فرم ادعا نامه (خام)/راهنمای تکمیل ادعانامه",
           "id": null
         },
         {
-          "url": "https://innov.um.ac.ir/index.php/fa/images/38/FORMS_and_REGULATIONS/innovcenter_accept_FORM_2.doc",
+          "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/rahnama_kholaseh.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "innovcenter_accept_FORM_2",
-          "id": null
-        },
-        {
-          "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_park.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "innovation_center_park",
-          "id": null
-        },
-        {
-          "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/elzamat_esteghrar.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "elzamat_esteghrar",
-          "id": null
-        },
-        {
-          "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_research_ins.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "innovation_center_research_ins",
+          "claim": "قانون حمایت از مالکیت صنعتی (۱۴۰۳) فرم نگارش خلاصه (خام)/راهنمای نگارش خلاصه",
           "id": null
         },
         {
           "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_faculty.doc",
           "kind": "portal-document-reaudit-document",
-          "claim": "innovation_center_faculty",
+          "claim": "فرم پیشنهاده تأسیس و راه اندازی مراکز نوآوری - نسخه دانشکده",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/4._%D8%AA%D8%B9%D9%87%D8%AF_%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%AC%D8%B1%D9%8A%D8%A7%D9%86_%D8%B7%D8%B1%D8%AD_%D9%87%D8%A7%D9%8A_%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "تعهدنامه مجريان طرحهای پژوهشی برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/4._%D8%AA%D8%B9%D9%87%D8%AF_%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%AC%D8%B1%D9%8A%D8%A7%D9%86_%D8%B7%D8%B1%D8%AD_%D9%87%D8%A7%D9%8A_%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "تعهدنامه مجريان طرحهای پژوهشی برون دانشگاهی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/8._%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87_%D8%A7%D8%B1%D8%B2%D9%8A%D8%A7%D8%A8%D9%8A_%D8%B7%D8%B1%D8%AD_%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "صورتجلسه ارزيابی طرح مطالعاتی",
+          "id": null
+        },
+        {
+          "url": "https://tto.um.ac.ir/images/290/PDF_TTO/0003.xls",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم اطلاعات رساله دكتری در قالب پژوهانه موسسه آموزشی و تحقيقاتی صنايع دفاعی",
+          "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/images/29/public_services/checkout/SHIVEH%20NAMEH950401.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "۲ دستورالعمل پیشنهادی نحوه تدوین پایان‌نامه تحصیلات تکمیلی دانشگاه فردوسی مشهد (نیاز به ویرایش)",
+          "id": null
+        },
+        {
+          "url": "https://library.um.ac.ir/images/29/public_services/checkout/Thesis_Templateferdowsi__university-950401-2.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "۳ الگوی آماده تدوین پایان‌نامه تحصیلات تکمیلی دانشگاه فردوسی مشهد (با توجه به الگوی دانشکده به دانشکده ضرورت این الگو بررسی شود)",
+          "id": null
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/tahsilat-takmili/forum-corona2.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "دستورالعمل و فرم ها",
           "id": null
         },
         {
@@ -1166,232 +2570,172 @@
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/aeen-name-ertegha-89.pdf",
+          "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf//ShivehNameDaneshkadeh.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه ارتقا-مصوب 1389",
+          "claim": "شیوه‌نامۀ تدوین پایان‌نامه/ رساله (داخلی دانشکدۀ ادبیّات)",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/aeen-name-ertegha-87.doc",
+          "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf/mogharrateDefa.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه ارتقا-مصوب 1387",
+          "claim": "مقررات مربوط دفاع از پایان‌نامه/ رساله",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/shive-name-ejraee-ertegha.pdf",
+          "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf/MosavabehMaghaleh.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اجرایی ارتقا",
+          "claim": "مصوبه ترتیب نویسندگان مقاله‌های مستخرج از رساله/ پایان‌نامه",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/zavabet-hey-at%20momayaze.pdf",
+          "url": "https://farsidept_jm3.um.ac.ir/images/2//proposalArshadTashih.doc",
           "kind": "portal-document-reaudit-document",
-          "claim": "ضوابط و مقررات خاص هیات ممیزه",
+          "claim": "پیشنهادۀ کارشناسی ارشد (مخصوص پایان‌نامه‌های تصحیح نسخه)",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/1402.pdf",
+          "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf/dastoor-amal-ejraee-zavabet-va-moghararat-pajooheshi-doktori.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه 1402",
+          "claim": "دستورالعمل اجرایی، ضوابط اجرایی و مقررات پژوهشی دورۀ دکتری (قابل اجرا برای پیشنهاده‌های مصوّب 1396/1/1 به بعد)",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/grant14011.pdf",
+          "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf/dastoramal-zavabet-pajpheshi-arshad.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه ۱۴۰1",
+          "claim": "دستورالعمل اجرایی، ضوابط اجرایی و مقررات پژوهشی دورۀ کارشناسی‌ارشد (قابل اجرا برای پیشنهاده‌های مصوّب 1397/7/1 به بعد)",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/1400.pdf",
+          "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf/shevenameh1.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه ۱۴۰۰",
+          "claim": "راهنمای تدوین پایان‌نامه/ رساله بازدید: 1812 راهنمای تدوین پایان‌نامه/ رساله ( ) راهنمای تدوین پایان‌نامه ویژه گرایش آموزش زبان ( )",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/pajoohee99.pdf",
+          "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf/shivehnameh_amozesh_zaban2.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه ۱۳۹۹",
+          "claim": "راهنمای تدوین پایان‌نامه/ رساله بازدید: 1812 راهنمای تدوین پایان‌نامه/ رساله ( ) راهنمای تدوین پایان‌نامه ویژه گرایش آموزش زبان ( )",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/pajooh98.pdf",
+          "url": "https://farsidept_jm3.um.ac.ir/images/2/propuzalarshad2.doc",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه ۱۳۹۸",
+          "claim": "پیشنهادۀ کارشناسی ارشد",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/pajoohe97.pdf",
+          "url": "https://farsidept_jm3.um.ac.ir/images/2//PropozalArshadAmouzesh.doc",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه ۱۳۹۷",
+          "claim": "پیشنهادۀ کارشناسی ارشد (مخصوص گرایش آموزش زبان)",
           "id": null
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/ayeenname96.pdf",
+          "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf/AyyinnamehJamea.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه ۱۳۹۶",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/%20%20%2095-05.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه ۱۳۹۵",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/%20%20%2094.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه ۱۳۹۴",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/%20%20%20%2093-%20-5.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح پژوهه ۱۳۹۳",
-          "id": null
-        },
-        {
-          "url": "https://innov.um.ac.ir/images/38/forms_regulations/Ayinname-fanavari-1402-1",
-          "kind": "portal-document-reaudit-document",
-          "claim": "Ayinname-fanavari-1402-1",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-hoghoghi-majles.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "بخشنامه معاون حقوقی وزارت در خصوص قانون پیشگیری و مقابله با تقلب",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-amozeshi-ghanun-pishgiri.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "بخشنامه معاون آموزشی وزارت در خصوص قانون پیشگیری و مقابله با تقلب",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-pajoheshi-ejra-ghanun-pishgiri-takhalof-asar-elmi.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "بخشنامه معاون پژوهش و فناوری وزارت در خصوص قانون پیشگیری و مقابله با تقلب",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/emtiaz-ketab.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنماي نحوه ارزيابي و امتيازدهي كتاب",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/gharbalgari-departmant.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ارزیابی کمیته غربالگری دانشکده ها",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/TARIFMOAVENAT/SIASAT1.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "سیاستها",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/mosavabat/heyat-raeese/93.10.28-dastooramal-nahve-taeen-zarfiyat-rahnamaee-moshavere.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "مصوبه 93.10.28 - تعیین ظرفیت راهنمایی و مشاوره",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/mosavabat/retired-mosavabe.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل مربوط به اعضای هیات علمی بازنشسته",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/entezat-timrahbari.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "اهم انتظارات دانشگاه از تيم راهبري رساله",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1400/siasatha1400.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "برگزیده سیاستها و اقدامات تاثیرگذار بر مرجعیت علمی",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/99/21jashnvare.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل بیست و یکمین جشنواره تجلیل از پژوهشگران و فناوران برتر",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/98/20tajlil-pajoheshgaran.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل بیستمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/97/ayinname97.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل نوزدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/96/18tajlil-pajohesh-fanavar.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/18tajlil-pajohesh-fanavar.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برگزیده",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1403/ostan/ostan1403.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل برگزاری هفته پژوهش و فناوری استان سال 1403",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1402/dastoramal24.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل بیست و چهارمین جشنواره تجلیل از پژوهشگران ، فناوران و نوآوران برگزیده کشور",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1401/dastoramal1401.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل بیست و سومین جشنواره تجلیل از پژوهشگران ، فناوران و نوآوران برگزیده کشور",
-          "id": null
-        },
-        {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/akhlagh.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "منشوراخلاق پژوهش",
+          "claim": "آیین‌نامه جامع آموزشی (همه مقاطع)",
           "id": null
         },
         {
           "url": "https://vpr.um.ac.ir/images/32/banners/pazhohane1403.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "آیین نامه پژوهانه جامع 1403",
-          "id": null
+          "id": "ferdowsi-discovery-document-84cba32bbaa6"
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/aeen-name-ertegha-95.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه ارتقا - مصوب 1395",
-          "id": null
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/1402.pdf",
+          "kind": "document",
+          "claim": "آیین نامه طرح پژوهه 1402",
+          "id": "ferdowsi-discovery-document-099e395058ac"
         },
         {
-          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/dastooramal-nahve-barrasi-takhalofat-pajooheshi.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل نحوه بررسی تخلفات پژوهشی",
-          "id": null
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/grant14011.pdf",
+          "kind": "document",
+          "claim": "آیین نامه طرح پژوهه ۱۴۰1",
+          "id": "ferdowsi-discovery-document-7d117ad1131f"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/1400.pdf",
+          "kind": "document",
+          "claim": "آیین نامه طرح پژوهه ۱۴۰۰",
+          "id": "ferdowsi-discovery-document-e359faaae28b"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/%20%20%2094.pdf",
+          "kind": "document",
+          "claim": "آیین نامه طرح پژوهه ۱۳۹۴",
+          "id": "ferdowsi-discovery-document-4fa145c64fde"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/%20%20%20%2093-%20-5.pdf",
+          "kind": "document",
+          "claim": "آیین نامه طرح پژوهه ۱۳۹۳",
+          "id": "ferdowsi-discovery-document-ad8a96215284"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/aeen-name-ertegha-89.pdf",
+          "kind": "document",
+          "claim": "آیین نامه ارتقا-مصوب 1389",
+          "id": "ferdowsi-discovery-document-0564d8ecbd97"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/aeen-name-ertegha-87.doc",
+          "kind": "document",
+          "claim": "آیین نامه ارتقا-مصوب 1387",
+          "id": "ferdowsi-discovery-document-93e3588fe310"
         },
         {
           "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/Ethics-Guidelines-Regulations-Instructions.pdf",
           "kind": "document",
           "claim": "مجموعه قوانین، دستورالعمل ها و راهنماهای اخلاق در پژوهشهای زیست پزشکی ایران",
           "id": "ferdowsi-discovery-document-ab1a4de1f763"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/pajoohee99.pdf",
+          "kind": "document",
+          "claim": "آیین نامه طرح پژوهه ۱۳۹۹",
+          "id": "ferdowsi-discovery-document-6b3dcfa9f09e"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/pajooh98.pdf",
+          "kind": "document",
+          "claim": "آیین نامه طرح پژوهه ۱۳۹۸",
+          "id": "ferdowsi-discovery-document-9c1656f3b1f1"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/pajoohe97.pdf",
+          "kind": "document",
+          "claim": "آیین نامه طرح پژوهه ۱۳۹۷",
+          "id": "ferdowsi-discovery-document-ab2c65dad5fb"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/ayeenname96.pdf",
+          "kind": "document",
+          "claim": "آیین نامه طرح پژوهه ۱۳۹۶",
+          "id": "ferdowsi-discovery-document-6605b3530138"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/pajoohe/%20%20%2095-05.pdf",
+          "kind": "document",
+          "claim": "آیین نامه طرح پژوهه ۱۳۹۵",
+          "id": "ferdowsi-discovery-document-d4b08c079c1f"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/aeen-name-ertegha-95.pdf",
+          "kind": "document",
+          "claim": "آیین نامه ارتقا - مصوب 1395",
+          "id": "ferdowsi-discovery-document-14b37834de7c"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/shive-name-ejraee-ertegha.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اجرایی ارتقا",
+          "id": "ferdowsi-discovery-document-9b1b8240cbf6"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/zavabet-hey-at%20momayaze.pdf",
+          "kind": "document",
+          "claim": "ضوابط و مقررات خاص هیات ممیزه",
+          "id": "ferdowsi-discovery-document-8b6ce5048f7b"
         },
         {
           "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/Guideline.pdf",
@@ -1404,6 +2748,30 @@
           "kind": "document",
           "claim": "راهنمای اخلاق پژوهش بر حیوانات",
           "id": "ferdowsi-discovery-document-d7e65aca87d6"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/ertegha/emtiaz-ketab.pdf",
+          "kind": "document",
+          "claim": "راهنماي نحوه ارزيابي و امتيازدهي كتاب",
+          "id": "ferdowsi-discovery-document-55b434987873"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/entezat-timrahbari.pdf",
+          "kind": "document",
+          "claim": "اهم انتظارات دانشگاه از تيم راهبري رساله",
+          "id": "ferdowsi-discovery-document-c1118b84f472"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/dastooramal-nahve-barrasi-takhalofat-pajooheshi.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل نحوه بررسی تخلفات پژوهشی",
+          "id": "ferdowsi-discovery-document-0ea2d99221af"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/gharbalgari-departmant.doc",
+          "kind": "document",
+          "claim": "فرم ارزیابی کمیته غربالگری دانشکده ها",
+          "id": "ferdowsi-discovery-document-327b4ada5dc6"
         },
         {
           "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/committe/humanity.doc",
@@ -1428,6 +2796,109 @@
           "kind": "document",
           "claim": "پایان نامه های حمایتی",
           "id": "ferdowsi-discovery-document-c1e79cb88a0c"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-hoghoghi-majles.pdf",
+          "kind": "document",
+          "claim": "بخشنامه معاون حقوقی وزارت در خصوص قانون پیشگیری و مقابله با تقلب",
+          "id": "ferdowsi-discovery-document-43354bbe7ddb"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-amozeshi-ghanun-pishgiri.pdf",
+          "kind": "document",
+          "claim": "بخشنامه معاون آموزشی وزارت در خصوص قانون پیشگیری و مقابله با تقلب",
+          "id": "ferdowsi-discovery-document-3c5f874f6158"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/moaven-pajoheshi-ejra-ghanun-pishgiri-takhalof-asar-elmi.pdf",
+          "kind": "document",
+          "claim": "بخشنامه معاون پژوهش و فناوری وزارت در خصوص قانون پیشگیری و مقابله با تقلب",
+          "id": "ferdowsi-discovery-document-03a48557a1fe"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/TARIFMOAVENAT/SIASAT1.pdf",
+          "kind": "document",
+          "claim": "سیاستها",
+          "id": "ferdowsi-discovery-document-e32bd01b2c00"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/mosavabat/heyat-raeese/93.10.28-dastooramal-nahve-taeen-zarfiyat-rahnamaee-moshavere.pdf",
+          "kind": "document",
+          "claim": "مصوبه 93.10.28 - تعیین ظرفیت راهنمایی و مشاوره",
+          "id": "ferdowsi-discovery-document-8d3476220112"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/mosavabat/retired-mosavabe.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل مربوط به اعضای هیات علمی بازنشسته",
+          "id": "ferdowsi-discovery-document-ee9b944afaf7"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1400/siasatha1400.pdf",
+          "kind": "document",
+          "claim": "برگزیده سیاستها و اقدامات تاثیرگذار بر مرجعیت علمی",
+          "id": "ferdowsi-discovery-document-95322f9c63f0"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/99/21jashnvare.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل بیست و یکمین جشنواره تجلیل از پژوهشگران و فناوران برتر",
+          "id": "ferdowsi-discovery-document-bf04fa591622"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/98/20tajlil-pajoheshgaran.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل بیستمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور",
+          "id": "ferdowsi-discovery-document-31ac028ebb69"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/97/ayinname97.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل نوزدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر کشور",
+          "id": "ferdowsi-discovery-document-eab5d52be8a3"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/96/18tajlil-pajohesh-fanavar.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برتر",
+          "id": "ferdowsi-discovery-document-db86848fa68e"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/18tajlil-pajohesh-fanavar.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل هجدهمین جشنواره تجلیل از پژوهشگران و فناوران برگزیده",
+          "id": "ferdowsi-discovery-document-ff2f7e0d10f8"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1403/ostan/ostan1403.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل برگزاری هفته پژوهش و فناوری استان سال 1403",
+          "id": "ferdowsi-discovery-document-d4165224295d"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1402/dastoramal24.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل بیست و چهارمین جشنواره تجلیل از پژوهشگران ، فناوران و نوآوران برگزیده کشور",
+          "id": "ferdowsi-discovery-document-76b0374de88a"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/haftepajohesh/1401/dastoramal1401.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل بیست و سومین جشنواره تجلیل از پژوهشگران ، فناوران و نوآوران برگزیده کشور",
+          "id": "ferdowsi-discovery-document-30c7e0d8cf9f"
+        },
+        {
+          "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/manshoor-akhlagh-pajooheshi/akhlagh.pdf",
+          "kind": "document",
+          "claim": "منشوراخلاق پژوهش",
+          "id": "ferdowsi-discovery-document-51401ca3df81"
+        },
+        {
+          "url": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=category&id=1165",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -1440,28 +2911,28 @@
     "nameFa": "دانشگاه فردوسی مشهد",
     "iscCategory": "جامع",
     "iscRank": 3,
-    "score": 89.9,
-    "confidence": 91.4,
+    "score": 94.2,
+    "confidence": 100,
     "metrics": {
       "documents": 100,
       "organization": 100,
-      "library": 70,
+      "library": 100,
       "laboratories": 100,
-      "digital": 75.5,
+      "digital": 85.3,
       "industryTech": 90,
       "dataQuality": 100,
-      "findability": 70.6
+      "findability": 71.4
     },
-    "units": 18,
-    "systems": 10,
-    "documents": 58,
+    "units": 33,
+    "systems": 15,
+    "documents": 115,
     "activeWeight": 100,
-    "evidenceCoverage": 88,
+    "evidenceCoverage": 100,
     "methodologyVersion": "RTPMI-4.1-ISC",
     "snapshotDate": "2026-08-11",
-    "rank": 4,
-    "portalRankWithinISCClass": 4,
-    "rankedPortalsInISCClass": 35
+    "rank": 2,
+    "portalRankWithinISCClass": 2,
+    "rankedPortalsInISCClass": 50
   },
   "units": [
     {
@@ -1641,6 +3112,175 @@
       "sourceUrl": "https://vpr.um.ac.ir/index.php/fa/research-management",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "ferdowsi-discovery-unit-industry-460b1296918f",
+      "universitySlug": "ferdowsi",
+      "nameFa": "مدیریت ارتباط با صنعت و جامعه دانشگاه فردوسی مشهد - صفحه اصلی مدیریت",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://tto.um.ac.ir/index.php?lang=fa",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-unit-it-e97b5e2ea23a",
+      "universitySlug": "ferdowsi",
+      "nameFa": "مرکز توسعه فناوری اطلاعات، امنیت و هوشمند سازی",
+      "type": "it",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://ict.um.ac.ir/index.php/fa/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "relationStatus": "organizationally-attributed",
+      "relationshipEvidenceUrl": "https://vpap.um.ac.ir/index.php?lang=fa"
+    },
+    {
+      "id": "ferdowsi-discovery-unit-library-916afd966f4d",
+      "universitySlug": "ferdowsi",
+      "nameFa": "کتابخانه مرکزی و نشر",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.um.ac.ir/index.php?lang=fa",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-unit-library-d78a3063a408",
+      "universitySlug": "ferdowsi",
+      "nameFa": "خط‌مشی مجموعه‌سازی کتابخانه مرکزی و نشر دانشگاه فردوسی مشهد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=article&id=12816:collection-development-policy&catid=1177:regulations",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-unit-library-250754dfe465",
+      "universitySlug": "ferdowsi",
+      "nameFa": "آیین نامه وجین منابع در کتابخانه مرکزی و نشر دانشگاه فردوسی مشهد",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=article&id=12823:weeding-regulations&catid=1177:regulations",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-unit-library-893c50b2a8b0",
+      "universitySlug": "ferdowsi",
+      "nameFa": "همکاران کتابخانه مرکزی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions?view=category&id=1165",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-unit-library-bfe224db1108",
+      "universitySlug": "ferdowsi",
+      "nameFa": "مدیریت نشر و کتابخانه مرکزی",
+      "type": "library",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://vpr.um.ac.ir/index.php/fa/management-of-publishing-scientific-works",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-unit-industry-7afd3c0808a3",
+      "universitySlug": "ferdowsi",
+      "nameFa": "مدیریت ارتباط با صنعت و جامعه دانشگاه فردوسی مشهد - صفحه اصلی مدیریت",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://tto.um.ac.ir/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-unit-industry-3c64a949cf7d",
+      "universitySlug": "ferdowsi",
+      "nameFa": "مدیریت ارتباط با صنعت و جامعه دانشگاه فردوسی مشهد - انتصاب مديريت ارتباط با صنعت و جامعه",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://tto.um.ac.ir/news/2110-2025-06-29-05-22-16",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "ferdowsi-discovery-unit-industry-7779ae240827",
+      "universitySlug": "ferdowsi",
+      "nameFa": "مدیریت ارتباط با صنعت و جامعه دانشگاه فردوسی مشهد - فرم ها",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "ferdowsi-discovery-unit-industry-e5901babac51",
+      "universitySlug": "ferdowsi",
+      "nameFa": "مدیریت ارتباط با صنعت و جامعه دانشگاه فردوسی مشهد - فرم ها",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://tto.um.ac.ir/forms",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "ferdowsi-discovery-unit-industry-2cc123247906",
+      "universitySlug": "ferdowsi",
+      "nameFa": "مدیریت ارتباط با صنعت و جامعه دانشگاه فردوسی مشهد - آیین‌نامه‌ها و دستورالعمل‌های فرصت مطالعاتی در صنعت و جامعه",
+      "type": "industry",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://tto.um.ac.ir/research-opportunity/regulations",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
+    },
+    {
+      "id": "ferdowsi-discovery-unit-it-4c0b2b261a17",
+      "universitySlug": "ferdowsi",
+      "nameFa": "کنگره نوآوری ICT هلند",
+      "type": "it",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://prof.um.ac.ir/news/%DA%A9%D9%86%DA%AF%D8%B1%D9%87-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C-ict-%D9%87%D9%84%D9%86%D8%AF.html",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263,
+      "relationStatus": "organizationally-attributed",
+      "relationshipEvidenceUrl": "https://prof.um.ac.ir/izadyar/"
+    },
+    {
+      "id": "ferdowsi-discovery-unit-technology-4c0b2b261a17",
+      "universitySlug": "ferdowsi",
+      "nameFa": "کنگره نوآوری ICT هلند",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://prof.um.ac.ir/news/%DA%A9%D9%86%DA%AF%D8%B1%D9%87-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C-ict-%D9%87%D9%84%D9%86%D8%AF.html",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8168421052631578
+    },
+    {
+      "id": "ferdowsi-discovery-unit-technology-66193a12b51b",
+      "universitySlug": "ferdowsi",
+      "nameFa": "صفحه نخست",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://oip.um.ac.ir/index.php/fa/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.7905263157894736
     }
   ],
   "systems": [
@@ -1745,6 +3385,71 @@
       "lastVerified": "2026-08-11",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-system-9e3406330232",
+      "universitySlug": "ferdowsi",
+      "nameFa": "راهنمای تدوین پایان نامه",
+      "category": "research",
+      "url": "https://iraniah.um.ac.ir/index.php/fa/research/thesis-compilation-guide",
+      "sourceUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-system-63f9ea370559",
+      "universitySlug": "ferdowsi",
+      "nameFa": "عنوان پایان نامه ها تا سال 1383",
+      "category": "research",
+      "url": "https://iraniah.um.ac.ir/index.php/fa/research/thesis-title-until-2004",
+      "sourceUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-system-8679e56e095e",
+      "universitySlug": "ferdowsi",
+      "nameFa": "پایان نامه های دفاع شده",
+      "category": "research",
+      "url": "https://iraniah.um.ac.ir/index.php/fa/research/defended-dissertations",
+      "sourceUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-system-51a44cb45661",
+      "universitySlug": "ferdowsi",
+      "nameFa": "پایان نامه های دفاع نشده",
+      "category": "research",
+      "url": "https://iraniah.um.ac.ir/index.php/fa/research/unprotected-dissertations",
+      "sourceUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-system-44d597002374",
+      "universitySlug": "ferdowsi",
+      "nameFa": "پژوهشگران",
+      "category": "library",
+      "url": "https://library.um.ac.ir/index.php/fa/lib-services/researchers",
+      "sourceUrl": "https://library.um.ac.ir/index.php?lang=fa",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
     }
   ],
   "documents": [
@@ -1773,12 +3478,10 @@
       "lastVerified": "2026-08-12",
       "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/mosavabat/omana/nahve-pardakht-pajoohane.pdf",
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/mosavabat/omana/nahve-pardakht-pajoohane.pdf",
-      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/",
-      "sha256": "aa5cc0e591a5e6f443cb29c0e86d5c428a5ca46f5369c5d6eb4aae59d497ca9e",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/109-2020-12-20-10-25-52/1778-2025-11-29-09-44-56",
       "fileName": "nahve-pardakht-pajoohane.pdf",
       "contentType": "application/pdf",
       "fileSize": 203820,
-      "archivePath": "ferdowsi/cbe2c0604911-nahve-pardakht-pajoohane.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1788,18 +3491,16 @@
       "title": "مشاهده دستورالعمل و فرم ها",
       "type": "سند",
       "topic": "آزمایشگاه",
-      "taxonomy": "laboratory",
+      "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/tahsilat-takmili/forum-corona2.pdf",
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/tahsilat-takmili/forum-corona2.pdf",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/2020-08-25-06-35-55/1050-corona-instruction",
-      "sha256": "3db235712baf5d0fcfa856408953211f144de28c0317ddd4ee0882846195f2de",
       "fileName": "forum-corona2.pdf",
       "contentType": "application/pdf",
       "fileSize": 592214,
-      "archivePath": "ferdowsi/c70f113e02f0-forum-corona2.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1832,11 +3533,9 @@
       "url": "https://innov.um.ac.ir/index.php/fa/images/38/FORMS_and_REGULATIONS/innovcenter_accept_FORM.pdf",
       "sourceUrl": "https://innov.um.ac.ir/index.php/fa/images/38/FORMS_and_REGULATIONS/innovcenter_accept_FORM.pdf",
       "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
-      "sha256": "4ca989876e2786e23921cc0614cac6de2b2893381cacce9d2779d5412e3491d8",
       "fileName": "innovcenter_accept_FORM.pdf",
       "contentType": "text/html; charset=UTF-8",
       "fileSize": 2272,
-      "archivePath": "ferdowsi/fd9e7509fedb-innovcenter_accept_FORM.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1853,11 +3552,9 @@
       "url": "https://innov.um.ac.ir/index.php/fa/images/38/FORMS_and_REGULATIONS/innovcenter_accept_FORM_2.doc",
       "sourceUrl": "https://innov.um.ac.ir/index.php/fa/images/38/FORMS_and_REGULATIONS/innovcenter_accept_FORM_2.doc",
       "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
-      "sha256": "4ca989876e2786e23921cc0614cac6de2b2893381cacce9d2779d5412e3491d8",
       "fileName": "innovcenter_accept_FORM_2.doc",
       "contentType": "text/html; charset=UTF-8",
       "fileSize": 2272,
-      "archivePath": "ferdowsi/4f008c4d79e3-innovcenter_accept_FORM_2.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1867,18 +3564,16 @@
       "title": "innovation_center_park",
       "type": "آیین‌نامه",
       "topic": "سایر",
-      "taxonomy": "regulation/bylaw",
+      "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
       "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_park.doc",
       "sourceUrl": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_park.doc",
       "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
-      "sha256": "31150e52264b0155c57edf6d9028b401ede88eee036bac734b2d9bf3f24ec4bc",
       "fileName": "innovation_center_park.doc",
       "contentType": "application/msword",
       "fileSize": 113152,
-      "archivePath": "ferdowsi/f75884ff7698-innovation_center_park.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1895,11 +3590,9 @@
       "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/elzamat_esteghrar.pdf",
       "sourceUrl": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/elzamat_esteghrar.pdf",
       "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
-      "sha256": "26f501475c13b17871b1e0996e4fd1702edeb6694dd4f4aef0741e17ff671863",
       "fileName": "elzamat_esteghrar.pdf",
       "contentType": "application/pdf",
       "fileSize": 392640,
-      "archivePath": "ferdowsi/567f632f362a-elzamat_esteghrar.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1916,11 +3609,9 @@
       "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_research_ins.doc",
       "sourceUrl": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_research_ins.doc",
       "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
-      "sha256": "964b63cb7394cd1885688113144a7314f1b65608c70aa0cfaea0d55ff999f959",
       "fileName": "innovation_center_research_ins.doc",
       "contentType": "application/msword",
       "fileSize": 110080,
-      "archivePath": "ferdowsi/c3f6fd5a6504-innovation_center_research_ins.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1937,11 +3628,9 @@
       "url": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_faculty.doc",
       "sourceUrl": "https://innov.um.ac.ir/images/38/FORMS_and_REGULATIONS/innovation_center_faculty.doc",
       "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
-      "sha256": "7710f031a2d628eae257d9c222eebbb14ca9ba4c7613622de69d9935d62eec6e",
       "fileName": "innovation_center_faculty.doc",
       "contentType": "application/msword",
       "fileSize": 110592,
-      "archivePath": "ferdowsi/7867a9064fda-innovation_center_faculty.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -2339,11 +4028,9 @@
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/vice-chancellor-for-research-and-technology/innovation-and-theorizing",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "034bb0ba33bb86af8264c9cbab29bd6ba0226c7c30b54769ef6fd927cf14c664",
       "fileName": "nazariye-pardazi.pdf",
       "contentType": "application/pdf",
-      "fileSize": 96273,
-      "archivePath": "ferdowsi/e160cfa97591-nazariye-pardazi.pdf"
+      "fileSize": 96273
     },
     {
       "id": "ferdowsi-discovery-document-14c1482765bb",
@@ -2360,11 +4047,9 @@
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week?id=1408",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "f8be618b4e76fac726fea22637755bdfb7f40cd5ef6f984be5aea570b678b384",
       "fileName": "shivename-hafte_pajohesh.doc",
       "contentType": "application/msword",
-      "fileSize": 366080,
-      "archivePath": "ferdowsi/4d950fa1a432-shivename-hafte_pajohesh.doc"
+      "fileSize": 366080
     },
     {
       "id": "ferdowsi-discovery-document-e6d5455b0986",
@@ -2381,11 +4066,9 @@
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-and-technology-week/119-1402/1710-reserch1402",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "be6becfdffc512291c6e36777b6c80a8954ac21284dc56f23c3753832f40535a",
       "fileName": "ayinname24.pdf",
       "contentType": "application/pdf",
-      "fileSize": 417559,
-      "archivePath": "ferdowsi/ae3c498527c7-ayinname24.pdf"
+      "fileSize": 417559
     },
     {
       "id": "ferdowsi-discovery-document-c1118b84f472",
@@ -2515,7 +4198,7 @@
       "title": "Ayinname-fanavari-1402-1",
       "type": "آیین‌نامه",
       "topic": "سایر",
-      "taxonomy": "regulation/bylaw",
+      "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
@@ -2524,11 +4207,9 @@
       "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
-      "sha256": "4a417b2213ab1176b33a25bc9b81f45661392ee97c5e6cae73ad28f7e1672d00",
       "fileName": "Ayinname-fanavari-1402-1",
       "contentType": "application/pdf",
-      "fileSize": 555173,
-      "archivePath": "ferdowsi/347290c06d53-Ayinname-fanavari-1402-1"
+      "fileSize": 555173
     },
     {
       "id": "ferdowsi-discovery-document-c1e79cb88a0c",
@@ -2559,11 +4240,9 @@
       "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/tahsilat-takmili/shivename-pishgiri-taghalob.pdf",
       "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/tahsilat-takmili/shivename-pishgiri-taghalob.pdf",
       "parentUrl": "https://vpr.um.ac.ir/index.php/fa/research-ethics",
-      "sha256": "b2212681e8fa69a379dafc622d573fb5772aa25c1f3d6623cc260a72976a85e8",
       "fileName": "shivename-pishgiri-taghalob.pdf",
       "contentType": "application/pdf",
       "fileSize": 1908183,
-      "archivePath": "ferdowsi/063d02ea5420-shivename-pishgiri-taghalob.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -2902,6 +4581,1056 @@
       "archivePath": "ferdowsi/c0424f23ac54-akhlagh.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.9400000000000001
+    },
+    {
+      "id": "ferdowsi-discovery-document-204478156208",
+      "universitySlug": "ferdowsi",
+      "title": "شیوه نامه چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد راهنمای تدوین نقشه",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/rahnama_naghshe.pdf",
+      "sourceUrl": "https://innov.um.ac.ir/images/38/malekiat_fekri/rahnama_naghshe.pdf",
+      "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
+      "fileName": "rahnama_naghshe.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 194112,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-3d9a44794901",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد توصیف نامه اختراع (خام)/راهنمای نگارش توصیف نامه",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/rahnama_tosifnameh.pdf",
+      "sourceUrl": "https://innov.um.ac.ir/images/38/malekiat_fekri/rahnama_tosifnameh.pdf",
+      "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
+      "fileName": "rahnama_tosifnameh.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 311560,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-cbfa809ecbb0",
+      "universitySlug": "ferdowsi",
+      "title": "شیوه نامه چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/shivenameh_PARSA.pdf",
+      "sourceUrl": "https://innov.um.ac.ir/images/38/malekiat_fekri/shivenameh_PARSA.pdf",
+      "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
+      "fileName": "shivenameh_PARSA.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 278016,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-64fd81360e08",
+      "universitySlug": "ferdowsi",
+      "title": "قرارداد پژوهشی حمايت از پايان‌نامه‌های تحصيلات تكميلی",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/PDF_TTO/hemayat.doc",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/PDF_TTO/hemayat.doc",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "hemayat.doc",
+      "contentType": "application/msword",
+      "fileSize": 48640,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-052e5a648948",
+      "universitySlug": "ferdowsi",
+      "title": "قرارداد پژوهشی حمايت از پايان‌نامه‌های تحصيلات تكميلی",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/PDF_TTO/hemayat.pdf",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/PDF_TTO/hemayat.pdf",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "hemayat.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 142726,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-f25223955876",
+      "universitySlug": "ferdowsi",
+      "title": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی در جامعه و صنعت",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/2022/hamed/pdf/shivenameh.pdf",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/2022/hamed/pdf/shivenameh.pdf",
+      "parentUrl": "https://tto.um.ac.ir/research-opportunity/regulations",
+      "fileName": "shivenameh.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1179279,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-dde1eadc1df1",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/dastooralamal_PARSA.pdf",
+      "sourceUrl": "https://innov.um.ac.ir/images/38/malekiat_fekri/dastooralamal_PARSA.pdf",
+      "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
+      "fileName": "dastooralamal_PARSA.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 275582,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-7cab8b52a5f5",
+      "universitySlug": "ferdowsi",
+      "title": "فرم پرسشنامه ارزیابی اختراع",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://oip.um.ac.ir/images/158/forms/form-davar.doc",
+      "sourceUrl": "https://oip.um.ac.ir/images/158/forms/form-davar.doc",
+      "parentUrl": "https://oip.um.ac.ir/index.php/fa/patent-forms1",
+      "fileName": "form-davar.doc",
+      "contentType": "application/msword",
+      "fileSize": 368128,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-6c20b478d165",
+      "universitySlug": "ferdowsi",
+      "title": "فرم ادعا نامه ثبت اختراع",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://oip.um.ac.ir/images/158/forms/form-edeanameh.doc",
+      "sourceUrl": "https://oip.um.ac.ir/images/158/forms/form-edeanameh.doc",
+      "parentUrl": "https://oip.um.ac.ir/index.php/fa/patent-forms1",
+      "fileName": "form-edeanameh.doc",
+      "contentType": "application/msword",
+      "fileSize": 348672,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-9d7aa2943bc9",
+      "universitySlug": "ferdowsi",
+      "title": "فرم قابلیت ثبت اختراع",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://oip.um.ac.ir/images/158/forms/form-ghabeliat-new.doc",
+      "sourceUrl": "https://oip.um.ac.ir/images/158/forms/form-ghabeliat-new.doc",
+      "parentUrl": "https://oip.um.ac.ir/index.php/fa/patent-forms1",
+      "fileName": "form-ghabeliat-new.doc",
+      "contentType": "application/msword",
+      "fileSize": 359424,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-596758885a15",
+      "universitySlug": "ferdowsi",
+      "title": "فرم پرسشنامه متقاضیان تائید اختراع",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://oip.um.ac.ir/images/158/forms/form-taeid_ekhtera.doc",
+      "sourceUrl": "https://oip.um.ac.ir/images/158/forms/form-taeid_ekhtera.doc",
+      "parentUrl": "https://oip.um.ac.ir/index.php/fa/patent-forms1",
+      "fileName": "form-taeid_ekhtera.doc",
+      "contentType": "application/msword",
+      "fileSize": 358400,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-ecbbdd207fa8",
+      "universitySlug": "ferdowsi",
+      "title": "خروج دانشجو از ظرفیت استاد راهنما",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://vpr.um.ac.ir/images/32/%D8%AE%D8%B1%D9%88%D8%AC_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88_%D8%A7%D8%B2_%D8%B8%D8%B1%D9%81%DB%8C%D8%AA_%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF_%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/%D8%AE%D8%B1%D9%88%D8%AC_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88_%D8%A7%D8%B2_%D8%B8%D8%B1%D9%81%DB%8C%D8%AA_%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF_%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/faculty/dissertation-guidance-capacity",
+      "fileName": "خروج_دانشجو_از_ظرفیت_استاد_راهنما.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 147376,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-b03a01d67898",
+      "universitySlug": "ferdowsi",
+      "title": "zarfiat parsaha jadid",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/zarfiat_parsaha_jadid.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/zarfiat_parsaha_jadid.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/faculty/dissertation-guidance-capacity",
+      "fileName": "zarfiat_parsaha_jadid.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 860264,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-7fe85e28dac2",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل ظرفیت راهنمایی پارساها نهایی اسفند 1404",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%B8%D8%B1%D9%81%DB%8C%D8%AA_%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%DB%8C_%D9%BE%D8%A7%D8%B1%D8%B3%D8%A7%D9%87%D8%A7_-_%D9%86%D9%87%D8%A7%DB%8C%DB%8C_%D8%A7%D8%B3%D9%81%D9%86%D8%AF_1404.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%B8%D8%B1%D9%81%DB%8C%D8%AA_%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%DB%8C_%D9%BE%D8%A7%D8%B1%D8%B3%D8%A7%D9%87%D8%A7_-_%D9%86%D9%87%D8%A7%DB%8C%DB%8C_%D8%A7%D8%B3%D9%81%D9%86%D8%AF_1404.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/faculty/dissertation-guidance-capacity",
+      "fileName": "دستورالعمل_ظرفیت_راهنمایی_پارساها_-_نهایی_اسفند_1404.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 716066,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-b59ff813ccdb",
+      "universitySlug": "ferdowsi",
+      "title": "pajoohane1402",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/pajoohane1402.pdf",
+      "sourceUrl": "https://vpr.um.ac.ir/images/32/stories/moavenat/heat-elmi/pajoohane1402.pdf",
+      "parentUrl": "https://vpr.um.ac.ir/index.php/fa/faculty/dissertation-guidance-capacity",
+      "fileName": "pajoohane1402.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 181780,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-6c90b2f7ada6",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل چاپ پایان نامه/رساله در دانشگاه فردوسی مشهد توصیف نامه اختراع (خام)/راهنمای نگارش توصیف نامه",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/tosifnameh_blank",
+      "sourceUrl": "https://innov.um.ac.ir/images/38/malekiat_fekri/tosifnameh_blank",
+      "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
+      "fileName": "tosifnameh_blank",
+      "contentType": "application/msword",
+      "fileSize": 31232,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-911040f8ea4c",
+      "universitySlug": "ferdowsi",
+      "title": "راهنمای تدوین پایان‌نامه/ رساله بازدید: 1812 راهنمای تدوین پایان‌نامه/ رساله ( ) راهنمای تدوین پایان‌نامه ویژه گرایش آموزش زبان ( )",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://iraniah.um.ac.ir/index.php/fa/images/135/stories/Farsi/shevenameh1.pdf",
+      "sourceUrl": "https://iraniah.um.ac.ir/index.php/fa/images/135/stories/Farsi/shevenameh1.pdf",
+      "parentUrl": "https://iraniah.um.ac.ir/index.php/fa/research/thesis-compilation-guide",
+      "fileName": "shevenameh1.pdf",
+      "contentType": "text/html; charset=UTF-8",
+      "fileSize": 2274,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-87061ee7d136",
+      "universitySlug": "ferdowsi",
+      "title": "پرسشنامه طرح پژوهشی برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/2022/industry-survay.docx",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/2022/industry-survay.docx",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "industry-survay.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 35325,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-eb59bac9dc55",
+      "universitySlug": "ferdowsi",
+      "title": "پرسشنامه طرح پژوهشی برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/2022/industry-survay.pdf",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/2022/industry-survay.pdf",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "industry-survay.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 155544,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-3ba0728bc7aa",
+      "universitySlug": "ferdowsi",
+      "title": "قرارداد طرح پژوهشی برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/2022/gharardad-boroon-daneshgahi.docx",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/2022/gharardad-boroon-daneshgahi.docx",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "gharardad-boroon-daneshgahi.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 29865,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-eab556e17158",
+      "universitySlug": "ferdowsi",
+      "title": "قرارداد طرح پژوهشی برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/2022/gharardad-boroon-daneshgahi.pdf",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/2022/gharardad-boroon-daneshgahi.pdf",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "gharardad-boroon-daneshgahi.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 95375,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-31e478b9d382",
+      "universitySlug": "ferdowsi",
+      "title": "برنامه زمان‌بندی طرح پژوهشی برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/2022/scheduling.docx",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/2022/scheduling.docx",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "scheduling.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 2339710,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-c505f65d9beb",
+      "universitySlug": "ferdowsi",
+      "title": "برنامه زمان‌بندی طرح پژوهشی برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/2022/scheduling.pdf",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/2022/scheduling.pdf",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "scheduling.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 56885,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-96823d3ec5f9",
+      "universitySlug": "ferdowsi",
+      "title": "ابلاغيه طرح پژوهشی برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/2022/a.docx",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/2022/a.docx",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "a.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 17152,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-29e5bc442cc7",
+      "universitySlug": "ferdowsi",
+      "title": "ابلاغيه طرح پژوهشی برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/2022/a.pdf",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/2022/a.pdf",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "a.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 114228,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-b47e44e80da1",
+      "universitySlug": "ferdowsi",
+      "title": "درخواست تخصيص امتياز طرح پژوهشی برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/6._%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA_%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5_%D8%A7%D9%85%D8%AA%D9%8A%D8%A7%D8%B2_%D8%B7%D8%B1%D8%AD_%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A.doc",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/6._%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA_%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5_%D8%A7%D9%85%D8%AA%D9%8A%D8%A7%D8%B2_%D8%B7%D8%B1%D8%AD_%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A.doc",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "6._درخواست_تخصيص_امتياز_طرح_پژوهشي_برون_دانشگاهي.doc",
+      "contentType": "application/msword",
+      "fileSize": 71680,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-837295660fef",
+      "universitySlug": "ferdowsi",
+      "title": "درخواست تخصيص امتياز طرح پژوهشی برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/6._%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA_%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5_%D8%A7%D9%85%D8%AA%D9%8A%D8%A7%D8%B2_%D8%B7%D8%B1%D8%AD_%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A.pdf",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/6._%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA_%D8%AA%D8%AE%D8%B5%D9%8A%D8%B5_%D8%A7%D9%85%D8%AA%D9%8A%D8%A7%D8%B2_%D8%B7%D8%B1%D8%AD_%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A.pdf",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "6._درخواست_تخصيص_امتياز_طرح_پژوهشي_برون_دانشگاهي.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 328927,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-e6eae3b97396",
+      "universitySlug": "ferdowsi",
+      "title": "ارزيابی طرح پژوهشی برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/PDF_TTO/00003.doc",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/PDF_TTO/00003.doc",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "00003.doc",
+      "contentType": "application/msword",
+      "fileSize": 88064,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-bb524c06fe0b",
+      "universitySlug": "ferdowsi",
+      "title": "ارزيابی طرح پژوهشی برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/PDF_TTO/00004.pdf",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/PDF_TTO/00004.pdf",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "00004.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 202195,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-086774649886",
+      "universitySlug": "ferdowsi",
+      "title": "کاربرگ تفاهم نامه فرصت مطالعاتی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/2022/hamed/pdf/4.doc",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/2022/hamed/pdf/4.doc",
+      "parentUrl": "https://tto.um.ac.ir/research-opportunity/regulations",
+      "fileName": "4.doc",
+      "contentType": "application/msword",
+      "fileSize": 154112,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-c8e108ec0e94",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل اجرايی فرصت مطالعاتی اعضای هيأت علمی در صنعت و جامعه",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/TTO_pdf/research-opportunity.pdf",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/TTO_pdf/research-opportunity.pdf",
+      "parentUrl": "https://tto.um.ac.ir/research-opportunity/regulations",
+      "fileName": "research-opportunity.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 259574,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-f4f6b5b40c42",
+      "universitySlug": "ferdowsi",
+      "title": "کاربرگ درخواست فرصت مطالعاتی در جامعه و صنعت",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/2022/hamed/pdf/3.doc",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/2022/hamed/pdf/3.doc",
+      "parentUrl": "https://tto.um.ac.ir/research-opportunity/regulations",
+      "fileName": "3.doc",
+      "contentType": "application/msword",
+      "fileSize": 107520,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-5403b4f71217",
+      "universitySlug": "ferdowsi",
+      "title": "کاربرگ دستاوردهای دوره فرصت مطالعاتی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/2022/hamed/pdf/5.docx",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/2022/hamed/pdf/5.docx",
+      "parentUrl": "https://tto.um.ac.ir/research-opportunity/regulations",
+      "fileName": "5.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 32869,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-c492448e9eeb",
+      "universitySlug": "ferdowsi",
+      "title": "۶ دستورالعمل استفاده از پایان‌نامه‌های تحصیلات تکمیلی (۱۳۹۷) (نیاز به ویرایش)",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://library.um.ac.ir/images/242/97_aeinnameh/thesis.pdf",
+      "sourceUrl": "https://library.um.ac.ir/images/242/97_aeinnameh/thesis.pdf",
+      "parentUrl": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions",
+      "fileName": "thesis.pdf",
+      "contentType": "text/html; charset=utf-8",
+      "fileSize": 146,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-435a388cf4bf",
+      "universitySlug": "ferdowsi",
+      "title": "? فرم معرفی اساتید حق التدریس",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://library.um.ac.ir/images/forms/Adjunct_Faculty_Membership.pdf",
+      "sourceUrl": "https://library.um.ac.ir/images/forms/Adjunct_Faculty_Membership.pdf",
+      "parentUrl": "https://library.um.ac.ir/index.php/fa/about-us/membership-and-forms",
+      "fileName": "Adjunct_Faculty_Membership.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 109747,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-897f51f56e1d",
+      "universitySlug": "ferdowsi",
+      "title": "? فرم معرفی کارکنان غیر رسمی",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://library.um.ac.ir/images/forms/Informal_Workforce_Membership.pdf",
+      "sourceUrl": "https://library.um.ac.ir/images/forms/Informal_Workforce_Membership.pdf",
+      "parentUrl": "https://library.um.ac.ir/index.php/fa/about-us/membership-and-forms",
+      "fileName": "Informal_Workforce_Membership.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 108280,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-a51238db47b4",
+      "universitySlug": "ferdowsi",
+      "title": "? فرم تسویه حساب دانشجویان فردوسی دارای عضویت در کتابخانه مرکزی دانشگاه علوم پزشکی مشهد",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://library.um.ac.ir/images/forms/%D9%81%D8%B1%D9%85_%D8%AA%D8%B3%D9%88%DB%8C%D9%87_%D8%AD%D8%B3%D8%A7%D8%A8_%D9%81%D8%B1%D8%AF%D9%88%D8%B3%DB%8C_%D8%AF%D8%B1_%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C_%D8%AA%DA%A9%DB%8C_1403.pdf",
+      "sourceUrl": "https://library.um.ac.ir/images/forms/%D9%81%D8%B1%D9%85_%D8%AA%D8%B3%D9%88%DB%8C%D9%87_%D8%AD%D8%B3%D8%A7%D8%A8_%D9%81%D8%B1%D8%AF%D9%88%D8%B3%DB%8C_%D8%AF%D8%B1_%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C_%D8%AA%DA%A9%DB%8C_1403.pdf",
+      "parentUrl": "https://library.um.ac.ir/index.php/fa/about-us/membership-and-forms",
+      "fileName": "فرم_تسویه_حساب_فردوسی_در_پزشکی_تکی_1403.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 49452,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-f550d9d7324c",
+      "universitySlug": "ferdowsi",
+      "title": "? فرم تعهد نامه اعضای بازنشسته دانشگاه",
+      "type": "فرم/الگو",
+      "topic": "سایر",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://library.um.ac.ir/images/forms/%D9%81%D8%B1%D9%85_%D8%AA%D8%B9%D9%87%D8%AF%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C_%D8%A8%D8%A7%D8%B2%D9%86%D8%B4%D8%B3%D8%AA%D9%87_97.pdf",
+      "sourceUrl": "https://library.um.ac.ir/images/forms/%D9%81%D8%B1%D9%85_%D8%AA%D8%B9%D9%87%D8%AF%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C_%D8%A8%D8%A7%D8%B2%D9%86%D8%B4%D8%B3%D8%AA%D9%87_97.pdf",
+      "parentUrl": "https://library.um.ac.ir/index.php/fa/about-us/membership-and-forms",
+      "fileName": "فرم_تعهدنامه_اعضای_بازنشسته_97.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 81469,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-3b0dbc67980e",
+      "universitySlug": "ferdowsi",
+      "title": "قانون ثبت اختراعات، طرح های صنعتی و علائم تجاری (مصوب ۱۳۸۶) فرم ادعا نامه (خام)/راهنمای تکمیل ادعانامه",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/rahnama_edeanameh.pdf",
+      "sourceUrl": "https://innov.um.ac.ir/images/38/malekiat_fekri/rahnama_edeanameh.pdf",
+      "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
+      "fileName": "rahnama_edeanameh.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 384447,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-cb8d3b950c83",
+      "universitySlug": "ferdowsi",
+      "title": "قانون حمایت از مالکیت صنعتی (۱۴۰۳) فرم نگارش خلاصه (خام)/راهنمای نگارش خلاصه",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://innov.um.ac.ir/images/38/malekiat_fekri/rahnama_kholaseh.pdf",
+      "sourceUrl": "https://innov.um.ac.ir/images/38/malekiat_fekri/rahnama_kholaseh.pdf",
+      "parentUrl": "https://innov.um.ac.ir/index.php/fa/forms-and-regulations",
+      "fileName": "rahnama_kholaseh.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 28850,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-271664c1de48",
+      "universitySlug": "ferdowsi",
+      "title": "تعهدنامه مجريان طرحهای پژوهشی برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/4._%D8%AA%D8%B9%D9%87%D8%AF_%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%AC%D8%B1%D9%8A%D8%A7%D9%86_%D8%B7%D8%B1%D8%AD_%D9%87%D8%A7%D9%8A_%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A.doc",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/4._%D8%AA%D8%B9%D9%87%D8%AF_%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%AC%D8%B1%D9%8A%D8%A7%D9%86_%D8%B7%D8%B1%D8%AD_%D9%87%D8%A7%D9%8A_%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A.doc",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "4._تعهد_نامه_مجريان_طرح_هاي_پژوهشي_برون_دانشگاهي.doc",
+      "contentType": "application/msword",
+      "fileSize": 35840,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-58f359c433a7",
+      "universitySlug": "ferdowsi",
+      "title": "تعهدنامه مجريان طرحهای پژوهشی برون دانشگاهی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/4._%D8%AA%D8%B9%D9%87%D8%AF_%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%AC%D8%B1%D9%8A%D8%A7%D9%86_%D8%B7%D8%B1%D8%AD_%D9%87%D8%A7%D9%8A_%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A.pdf",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/4._%D8%AA%D8%B9%D9%87%D8%AF_%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%AC%D8%B1%D9%8A%D8%A7%D9%86_%D8%B7%D8%B1%D8%AD_%D9%87%D8%A7%D9%8A_%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A.pdf",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "4._تعهد_نامه_مجريان_طرح_هاي_پژوهشي_برون_دانشگاهي.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 179791,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-e3a04ff533ce",
+      "universitySlug": "ferdowsi",
+      "title": "صورتجلسه ارزيابی طرح مطالعاتی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/8._%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87_%D8%A7%D8%B1%D8%B2%D9%8A%D8%A7%D8%A8%D9%8A_%D8%B7%D8%B1%D8%AD_%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A.doc",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/TTO_pdf/%D9%81%D8%B1%D9%85_%D9%87%D8%A7/8._%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87_%D8%A7%D8%B1%D8%B2%D9%8A%D8%A7%D8%A8%D9%8A_%D8%B7%D8%B1%D8%AD_%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A.doc",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "8._صورتجلسه_ارزيابي_طرح_مطالعاتي.doc",
+      "contentType": "application/msword",
+      "fileSize": 76288,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-7c22165a280d",
+      "universitySlug": "ferdowsi",
+      "title": "فرم اطلاعات رساله دكتری در قالب پژوهانه موسسه آموزشی و تحقيقاتی صنايع دفاعی",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://tto.um.ac.ir/images/290/PDF_TTO/0003.xls",
+      "sourceUrl": "https://tto.um.ac.ir/images/290/PDF_TTO/0003.xls",
+      "parentUrl": "https://tto.um.ac.ir/announcements/2109-2025-06-22-04-30-16",
+      "fileName": "0003.xls",
+      "contentType": "application/vnd.ms-excel",
+      "fileSize": 216064,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-9791b6e9fa80",
+      "universitySlug": "ferdowsi",
+      "title": "۲ دستورالعمل پیشنهادی نحوه تدوین پایان‌نامه تحصیلات تکمیلی دانشگاه فردوسی مشهد (نیاز به ویرایش)",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://library.um.ac.ir/images/29/public_services/checkout/SHIVEH%20NAMEH950401.pdf",
+      "sourceUrl": "https://library.um.ac.ir/images/29/public_services/checkout/SHIVEH%20NAMEH950401.pdf",
+      "parentUrl": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions",
+      "fileName": "SHIVEH NAMEH950401.pdf",
+      "contentType": "text/html; charset=utf-8",
+      "fileSize": 146,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-33fa98f33999",
+      "universitySlug": "ferdowsi",
+      "title": "۳ الگوی آماده تدوین پایان‌نامه تحصیلات تکمیلی دانشگاه فردوسی مشهد (با توجه به الگوی دانشکده به دانشکده ضرورت این الگو بررسی شود)",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://library.um.ac.ir/images/29/public_services/checkout/Thesis_Templateferdowsi__university-950401-2.doc",
+      "sourceUrl": "https://library.um.ac.ir/images/29/public_services/checkout/Thesis_Templateferdowsi__university-950401-2.doc",
+      "parentUrl": "https://library.um.ac.ir/index.php/fa/about-us/regulations-and-instructions",
+      "fileName": "Thesis_Templateferdowsi__university-950401-2.doc",
+      "contentType": "text/html; charset=utf-8",
+      "fileSize": 146,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "ferdowsi-discovery-document-4d19b7d63458",
+      "universitySlug": "ferdowsi",
+      "title": "شیوه‌نامۀ تدوین پایان‌نامه/ رساله (داخلی دانشکدۀ ادبیّات)",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf//ShivehNameDaneshkadeh.pdf",
+      "sourceUrl": "https://farsidept_jm3.um.ac.ir/images/2/pdf//ShivehNameDaneshkadeh.pdf",
+      "parentUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/regulationss",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ferdowsi-discovery-document-ce76677f265d",
+      "universitySlug": "ferdowsi",
+      "title": "مقررات مربوط دفاع از پایان‌نامه/ رساله",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf/mogharrateDefa.pdf",
+      "sourceUrl": "https://farsidept_jm3.um.ac.ir/images/2/pdf/mogharrateDefa.pdf",
+      "parentUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/regulationss",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ferdowsi-discovery-document-e9a24c8d8ee4",
+      "universitySlug": "ferdowsi",
+      "title": "مصوبه ترتیب نویسندگان مقاله‌های مستخرج از رساله/ پایان‌نامه",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf/MosavabehMaghaleh.pdf",
+      "sourceUrl": "https://farsidept_jm3.um.ac.ir/images/2/pdf/MosavabehMaghaleh.pdf",
+      "parentUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/regulationss",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ferdowsi-discovery-document-77e6326287ee",
+      "universitySlug": "ferdowsi",
+      "title": "پیشنهادۀ کارشناسی ارشد (مخصوص پایان‌نامه‌های تصحیح نسخه)",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://farsidept_jm3.um.ac.ir/images/2//proposalArshadTashih.doc",
+      "sourceUrl": "https://farsidept_jm3.um.ac.ir/images/2//proposalArshadTashih.doc",
+      "parentUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ferdowsi-discovery-document-51747bd9c2d9",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل اجرایی، ضوابط اجرایی و مقررات پژوهشی دورۀ دکتری (قابل اجرا برای پیشنهاده‌های مصوّب 1396/1/1 به بعد)",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf/dastoor-amal-ejraee-zavabet-va-moghararat-pajooheshi-doktori.pdf",
+      "sourceUrl": "https://farsidept_jm3.um.ac.ir/images/2/pdf/dastoor-amal-ejraee-zavabet-va-moghararat-pajooheshi-doktori.pdf",
+      "parentUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/regulationss",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ferdowsi-discovery-document-468ae3dec38e",
+      "universitySlug": "ferdowsi",
+      "title": "دستورالعمل اجرایی، ضوابط اجرایی و مقررات پژوهشی دورۀ کارشناسی‌ارشد (قابل اجرا برای پیشنهاده‌های مصوّب 1397/7/1 به بعد)",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf/dastoramal-zavabet-pajpheshi-arshad.pdf",
+      "sourceUrl": "https://farsidept_jm3.um.ac.ir/images/2/pdf/dastoramal-zavabet-pajpheshi-arshad.pdf",
+      "parentUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/regulationss",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ferdowsi-discovery-document-62402cf75585",
+      "universitySlug": "ferdowsi",
+      "title": "راهنمای تدوین پایان‌نامه/ رساله بازدید: 1812 راهنمای تدوین پایان‌نامه/ رساله ( ) راهنمای تدوین پایان‌نامه ویژه گرایش آموزش زبان ( )",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf/shevenameh1.pdf",
+      "sourceUrl": "https://farsidept_jm3.um.ac.ir/images/2/pdf/shevenameh1.pdf",
+      "parentUrl": "https://iraniah.um.ac.ir/index.php/fa/research/thesis-compilation-guide",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ferdowsi-discovery-document-e699f5b00e8f",
+      "universitySlug": "ferdowsi",
+      "title": "راهنمای تدوین پایان‌نامه/ رساله بازدید: 1812 راهنمای تدوین پایان‌نامه/ رساله ( ) راهنمای تدوین پایان‌نامه ویژه گرایش آموزش زبان ( )",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf/shivehnameh_amozesh_zaban2.pdf",
+      "sourceUrl": "https://farsidept_jm3.um.ac.ir/images/2/pdf/shivehnameh_amozesh_zaban2.pdf",
+      "parentUrl": "https://iraniah.um.ac.ir/index.php/fa/research/thesis-compilation-guide",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ferdowsi-discovery-document-ba1cc0cffd03",
+      "universitySlug": "ferdowsi",
+      "title": "پیشنهادۀ کارشناسی ارشد",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://farsidept_jm3.um.ac.ir/images/2/propuzalarshad2.doc",
+      "sourceUrl": "https://farsidept_jm3.um.ac.ir/images/2/propuzalarshad2.doc",
+      "parentUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ferdowsi-discovery-document-3f2750538da2",
+      "universitySlug": "ferdowsi",
+      "title": "پیشنهادۀ کارشناسی ارشد (مخصوص گرایش آموزش زبان)",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://farsidept_jm3.um.ac.ir/images/2//PropozalArshadAmouzesh.doc",
+      "sourceUrl": "https://farsidept_jm3.um.ac.ir/images/2//PropozalArshadAmouzesh.doc",
+      "parentUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/postgraduate-forms",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
+    },
+    {
+      "id": "ferdowsi-discovery-document-2427e9ee4b49",
+      "universitySlug": "ferdowsi",
+      "title": "آیین‌نامه جامع آموزشی (همه مقاطع)",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://farsidept_jm3.um.ac.ir/images/2/pdf/AyyinnamehJamea.pdf",
+      "sourceUrl": "https://farsidept_jm3.um.ac.ir/images/2/pdf/AyyinnamehJamea.pdf",
+      "parentUrl": "https://iraniah.um.ac.ir/index.php/fa/regulations-and-forms/regulationss",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9
     }
   ],
   "interpretation": {

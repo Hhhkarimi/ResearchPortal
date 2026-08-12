@@ -89,7 +89,7 @@
     ],
     "discoveryCrawler": {
       "lastRun": "2026-08-12",
-      "promotedSources": 91,
+      "promotedSources": 144,
       "socialEvidenceRemoved": true
     }
   },
@@ -171,13 +171,13 @@
       "laboratories": "unresolved",
       "industryTechnology": "verified",
       "informationTechnology": "unresolved",
-      "systemsServices": "unresolved",
+      "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 50,
-    "unitsFound": 10,
-    "systemsFound": 0,
-    "documentsFound": 26,
+    "auditEvidenceCoverage": 63,
+    "unitsFound": 22,
+    "systemsFound": 1,
+    "documentsFound": 43,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -193,7 +193,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 70,
+      "sourceCount": 102,
       "sources": [
         {
           "url": "https://research.qiet.ac.ir/",
@@ -556,17 +556,142 @@
           "id": null
         },
         {
+          "url": "https://research.qiet.ac.ir/fa/page/85/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/page/86/%D8%B9%D9%86%D8%A7%D9%88%DB%8C%D9%86-%D8%AA%D9%88%D8%A7%D9%86%D9%85%D9%86%D8%AF%DB%8C-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/page/91/%D9%84%DB%8C%D9%86%DA%A9-%D9%87%D8%A7%DB%8C-%D9%85%D9%81%DB%8C%D8%AF-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/95/%D8%AE%D9%84%D8%A7%D8%B5%D9%87-%D8%B3%D9%86%D8%AF-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D9%86%D9%81%D8%AA",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/9/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/page/82/%D8%AF%D9%81%D8%AA%D8%B1-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
           "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/fa/regulation/category/15/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%B2%D9%85%D8%A7%D9%86-%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D8%B7%D8%B1%D8%AD?sort=-circularNo",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+          "url": "https://research.qiet.ac.ir/fa/regulation/68/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/67/%D8%AE%D9%84%D8%A7%D8%B5%D9%87-%DB%8C-%D8%A7%D9%87%D9%85-%D9%85%D8%B7%D8%A7%D9%84%D8%A8-%D9%BE%D8%B1%D9%88%D9%86%D8%AF%D9%87-%D8%A7%D8%B1%D8%AA%D9%82%D8%A7-%D8%A8%D9%87-%D9%85%D8%B1%D8%AA%D8%A8%D9%87-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DB%8C%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/59/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/58/%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/62/%D9%81%D8%B1%D9%85-%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%D9%87%D8%B3%D8%AA%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/page/84/%D8%AF%D9%81%D8%AA%D8%B1-%D8%AD%D8%B3%D8%A7%D8%A8%D8%AF%D8%A7%D8%B1%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/page/83/%D8%AF%D9%81%D8%AA%D8%B1-%D9%86%D8%B8%D8%A7%D8%B1%D8%AA-%D9%88-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/page/78/%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D9%87%D8%A7%DB%8C-%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/page/87/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/page/88/%D8%AA%D9%81%D8%A7%D9%87%D9%85-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/page/89/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/page/90/%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86-%D8%AD%D9%88%D8%B2%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
         },
         {
           "url": "https://research.qiet.ac.ir/fa/regulation/category/14/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=-circularNo",
@@ -576,53 +701,130 @@
           "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
-          "url": "https://research.qiet.ac.ir/fa/regulation/category/13/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%D9%86%DA%AF%D8%A7%D9%85-%D8%B9%D9%82%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF?sort=-circularNo",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/15/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%B2%D9%85%D8%A7%D9%86-%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D8%B7%D8%B1%D8%AD?sort=-circularNo",
           "kind": "research-review-specific",
           "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
           "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1601973713-.pdf?language=fa&subdomain=research",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=title",
           "kind": "research-review-specific",
-          "claim": "1601973713-",
+          "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
-          "sourceLabel": "1601973713-"
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928357-fnp9.docx?language=fa&subdomain=research",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=categoryId",
           "kind": "research-review-specific",
-          "claim": "1588928357-fnp9",
+          "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
-          "sourceLabel": "1588928357-fnp9"
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928320-fnp8.doc?language=fa&subdomain=research",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=outdated",
           "kind": "research-review-specific",
-          "claim": "1588928320-fnp8",
+          "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
-          "sourceLabel": "1588928320-fnp8"
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928287-fnp7.docx?language=fa&subdomain=research",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=approvalDate",
           "kind": "research-review-specific",
-          "claim": "1588928287-fnp7",
+          "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
-          "sourceLabel": "1588928287-fnp7"
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928261-fnp4.doc?language=fa&subdomain=research",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/19/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
           "kind": "research-review-specific",
-          "claim": "1588928261-fnp4",
+          "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
-          "sourceLabel": "1588928261-fnp4"
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/17/%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1601364463-morvarid-co.-process.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 شیوه نامه بهره برداری از شبکه ابر رایانش ملی مصوبات و آئین نامه های پژوهشی",
+          "id": null,
+          "sourceLabel": "1 شیوه نامه بهره برداری از شبکه ابر رایانش ملی مصوبات و آئین نامه های پژوهشی"
         },
         {
           "url": "https://research.qiet.ac.ir/file/download/regulation/1588928202-fnp2.doc?language=fa&subdomain=research",
           "kind": "research-review-specific",
-          "claim": "1588928202-fnp2",
+          "claim": "2 گزارش نهایی طرح پژوهشی فرم های پژوهشی",
           "id": null,
-          "sourceLabel": "1588928202-fnp2"
+          "sourceLabel": "2 گزارش نهایی طرح پژوهشی فرم های پژوهشی"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928174-fnp1.doc?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 قرارداد طرح پژوهشی فرم های پژوهشی",
+          "id": null,
+          "sourceLabel": "1 قرارداد طرح پژوهشی فرم های پژوهشی"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588930732-mp7.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 نقشه جامع علمی کشور اسناد بالادستی کشور",
+          "id": null,
+          "sourceLabel": "1 نقشه جامع علمی کشور اسناد بالادستی کشور"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588930637-mp5.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 خلاصه سند توسعه پژوهش و فناوری وزارت نفت اسناد بالادستی کشور",
+          "id": null,
+          "sourceLabel": "1 خلاصه سند توسعه پژوهش و فناوری وزارت نفت اسناد بالادستی کشور"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928202-fnp2.doc",
+          "kind": "research-review-specific",
+          "claim": "گزارش نهایی طرح پژوهشی گزارش نهایی طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null,
+          "sourceLabel": "گزارش نهایی طرح پژوهشی گزارش نهایی طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928174-fnp1.doc",
+          "kind": "research-review-specific",
+          "claim": "قرارداد طرح پژوهشی قرارداد طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null,
+          "sourceLabel": "قرارداد طرح پژوهشی قرارداد طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1601973713-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 پرسشنامه پیشنهاد پروژه پژوهشی(پروپزال) مرکز شد پژوهشگاه صنعت نفت فرم های لازم جهت فعالیت در مرکز نوآوری",
+          "id": null,
+          "sourceLabel": "1 پرسشنامه پیشنهاد پروژه پژوهشی(پروپزال) مرکز شد پژوهشگاه صنعت نفت فرم های لازم جهت فعالیت در مرکز نوآوری"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588925193-fmn12.doc?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 فهرست هزینه ها فرم های زمان اتمام طرح",
+          "id": null,
+          "sourceLabel": "1 فهرست هزینه ها فرم های زمان اتمام طرح"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588925162-fmn11.doc?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "2 فرم چکیده طرح فرم های زمان اتمام طرح",
+          "id": null,
+          "sourceLabel": "2 فرم چکیده طرح فرم های زمان اتمام طرح"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588925136-fmn10.doc?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "2 صورت وضعیت نهایی طرح فرم های زمان اتمام طرح",
+          "id": null,
+          "sourceLabel": "2 صورت وضعیت نهایی طرح فرم های زمان اتمام طرح"
         }
       ],
       "publicationAdjustment": null,
@@ -640,7 +842,7 @@
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 10,
+      "sourceCount": 27,
       "sources": [
         {
           "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
@@ -731,6 +933,149 @@
           "unitType": "technology",
           "relationStatus": null,
           "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/page/85/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "unit",
+          "claim": "مدیریت پژوهشی - مدیریت امور پژوهشی و فناوری",
+          "id": "qochan-technology-discovery-unit-research-23d931f920af",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/9/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و فرم‌ها- آیین نام های مدیریت پژوهشی",
+          "id": "qochan-technology-discovery-unit-research-da530403c31e",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=circularNo",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و فرم‌ها- فرم های مدیریت پژوهشی",
+          "id": "qochan-technology-discovery-unit-research-a30f20bf7d3d",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و فرم‌ها- فرم های مدیریت پژوهشی",
+          "id": "qochan-technology-discovery-unit-research-fdf30c39fb51",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و فرم‌ها- فرم های مدیریت پژوهشی",
+          "id": "qochan-technology-discovery-unit-research-7fb82ce6f407",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و فرم‌ها- فرم های مدیریت پژوهشی",
+          "id": "qochan-technology-discovery-unit-research-8be8c389570c",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و فرم‌ها- فرم های مدیریت پژوهشی",
+          "id": "qochan-technology-discovery-unit-research-b746169739a9",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و فرم‌ها- فرم های مدیریت پژوهشی",
+          "id": "qochan-technology-discovery-unit-research-269922e55d52",
+          "unitType": "research",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=title",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و فرم‌ها- فرم های لازم جهت فعالیت در مرکز نوآوری",
+          "id": "qochan-technology-discovery-unit-technology-2784b81bd737",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=categoryId",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و فرم‌ها- فرم های لازم جهت فعالیت در مرکز نوآوری",
+          "id": "qochan-technology-discovery-unit-technology-618ff4591825",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=outdated",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و فرم‌ها- فرم های لازم جهت فعالیت در مرکز نوآوری",
+          "id": "qochan-technology-discovery-unit-technology-2af97f76e1fd",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=approvalDate",
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و فرم‌ها- فرم های لازم جهت فعالیت در مرکز نوآوری",
+          "id": "qochan-technology-discovery-unit-technology-b76ee475ed05",
+          "unitType": "technology",
+          "relationStatus": null,
+          "relationshipEvidenceUrl": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928453-fnp12.docx",
+          "kind": "research-review-specific",
+          "claim": "فرمت طرح پژوهشی برون دانشگاهی فرمت طرح پژوهشی برون دانشگاهی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null,
+          "sourceLabel": "فرمت طرح پژوهشی برون دانشگاهی فرمت طرح پژوهشی برون دانشگاهی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928393-fnp10.doc",
+          "kind": "research-review-specific",
+          "claim": "فرم پروپوزال ماموریت پژوهشی فرم پروپوزال ماموریت پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null,
+          "sourceLabel": "فرم پروپوزال ماموریت پژوهشی فرم پروپوزال ماموریت پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928261-fnp4.doc",
+          "kind": "research-review-specific",
+          "claim": "فرم پیشنهادی اجرای طرح پژوهشی فرم پیشنهادی اجرای طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null,
+          "sourceLabel": "فرم پیشنهادی اجرای طرح پژوهشی فرم پیشنهادی اجرای طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928202-fnp2.doc",
+          "kind": "research-review-specific",
+          "claim": "گزارش نهایی طرح پژوهشی گزارش نهایی طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null,
+          "sourceLabel": "گزارش نهایی طرح پژوهشی گزارش نهایی طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928174-fnp1.doc",
+          "kind": "research-review-specific",
+          "claim": "قرارداد طرح پژوهشی قرارداد طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null,
+          "sourceLabel": "قرارداد طرح پژوهشی قرارداد طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی"
         }
       ],
       "publicationAdjustment": null,
@@ -748,8 +1093,34 @@
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 0,
-      "sources": [],
+      "sourceCount": 4,
+      "sources": [
+        {
+          "url": "https://research.qiet.ac.ir/fa",
+          "kind": "system",
+          "claim": "آیین‌نامه‌ها و فرم‌ها- نشریات",
+          "id": "qochan-technology-discovery-system-ba957d1d05da",
+          "systemCategory": "journals"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1594184042-jcr-2019.xls?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "1 نشریات JCR۲۰۱۹ فهرست نشریات JCR۲۰۱۹ تا JCR۲۰۰۸",
+          "id": "qochan-technology-discovery-document-4b7ad2274518"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588930549-isc-en-journals.xlsx?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "2 ISC EN journals فهرست نشریات دارای نمایه ISC",
+          "id": "qochan-technology-discovery-document-7d5dd3bc5605"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588930517-isc-fa-journals.xlsx?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "3 ISC FA journals فهرست نشریات دارای نمایه ISC",
+          "id": "qochan-technology-discovery-document-242528d533fe"
+        }
+      ],
       "publicationAdjustment": null,
       "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -782,7 +1153,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 10,
+      "sourceCount": 16,
       "sources": [
         {
           "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
@@ -816,6 +1187,30 @@
         },
         {
           "url": "https://research.qiet.ac.ir/fa/regulation/category/14/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=-circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=approvalDate",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific industryTechnology source",
           "id": null
@@ -853,6 +1248,20 @@
           "claim": "پرتال پژوهش و فناوری 1",
           "id": null,
           "sourceLabel": "پرتال پژوهش و فناوری 1"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588930637-mp5.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 خلاصه سند توسعه پژوهش و فناوری وزارت نفت اسناد بالادستی کشور",
+          "id": null,
+          "sourceLabel": "1 خلاصه سند توسعه پژوهش و فناوری وزارت نفت اسناد بالادستی کشور"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1601973713-.pdf?language=fa&subdomain=research",
+          "kind": "research-review-specific",
+          "claim": "1 پرسشنامه پیشنهاد پروژه پژوهشی(پروپزال) مرکز شد پژوهشگاه صنعت نفت فرم های لازم جهت فعالیت در مرکز نوآوری",
+          "id": null,
+          "sourceLabel": "1 پرسشنامه پیشنهاد پروژه پژوهشی(پروپزال) مرکز شد پژوهشگاه صنعت نفت فرم های لازم جهت فعالیت در مرکز نوآوری"
         }
       ],
       "publicationAdjustment": null,
@@ -883,14 +1292,28 @@
       "iscCategory": "صنعتی",
       "iscRank": 12,
       "dimension": "systemsServices",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 0,
-      "sources": [],
+      "sourceCount": 2,
+      "sources": [
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/19/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa",
+          "kind": "system",
+          "claim": "آیین‌نامه‌ها و فرم‌ها- نشریات",
+          "id": "qochan-technology-discovery-system-ba957d1d05da",
+          "systemCategory": "journals"
+        }
+      ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -904,52 +1327,10 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-12",
-      "sourceCount": 62,
+      "sourceCount": 93,
       "sources": [
         {
-          "url": "https://research.qiet.ac.ir/fa/regulation/category/18/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
           "url": "https://research.qiet.ac.ir/fa/regulation/category/15/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%B2%D9%85%D8%A7%D9%86-%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D8%B7%D8%B1%D8%AD",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/fa/regulation/category/14/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/fa/regulation/category/13/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%D9%86%DA%AF%D8%A7%D9%85-%D8%B9%D9%82%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/fa/regulation/category/16/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D8%AF%D8%B1-%D9%87%D8%B3%D8%AA%D9%87-%D8%B1%D8%B4%D8%AF-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/fa/regulation",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/fa/regulation/category/18/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -961,31 +1342,19 @@
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/fa/regulation/category/15/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%B2%D9%85%D8%A7%D9%86-%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D8%B7%D8%B1%D8%AD?sort=circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
           "url": "https://research.qiet.ac.ir/fa/regulation/category/14/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/fa/regulation/category/13/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%D9%86%DA%AF%D8%A7%D9%85-%D8%B9%D9%82%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF?sort=circularNo",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/18/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/fa/regulation/category/16/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D8%AF%D8%B1-%D9%87%D8%B3%D8%AA%D9%87-%D8%B1%D8%B4%D8%AF-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C?sort=circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/fa/regulation/category/18/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/20/%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%A8%D8%A7%D9%84%D8%A7%D8%AF%D8%B3%D8%AA%DB%8C-%DA%A9%D8%B4%D9%88%D8%B1?sort=circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -997,178 +1366,366 @@
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/fa/regulation/category/15/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%B2%D9%85%D8%A7%D9%86-%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D8%B7%D8%B1%D8%AD?sort=-circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
           "url": "https://research.qiet.ac.ir/fa/regulation/category/14/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=-circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/fa/regulation/category/13/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%87%D9%86%DA%AF%D8%A7%D9%85-%D8%B9%D9%82%D8%AF-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF?sort=-circularNo",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/18/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1601364463-morvarid-co.-process.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/20/%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%A8%D8%A7%D9%84%D8%A7%D8%AF%D8%B3%D8%AA%DB%8C-%DA%A9%D8%B4%D9%88%D8%B1?sort=-circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924608-mn1.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/15/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%B2%D9%85%D8%A7%D9%86-%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D8%B7%D8%B1%D8%AD?sort=circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928453-fnp12.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/15/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%B2%D9%85%D8%A7%D9%86-%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D8%B7%D8%B1%D8%AD?sort=-circularNo",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928416-fnp11.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/20/%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%A8%D8%A7%D9%84%D8%A7%D8%AF%D8%B3%D8%AA%DB%8C-%DA%A9%D8%B4%D9%88%D8%B1",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928393-fnp10.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928357-fnp9.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/14/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928287-fnp7.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/18/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928261-fnp4.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=title",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588925162-fmn11.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=categoryId",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588925011-fmn7.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=outdated",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924974-fmn6.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=approvalDate",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924950-fmn5.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/19/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924921-fmn4.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/17/%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924870-fmn3.doc",
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1601364463-morvarid-co.-process.pdf?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924844-fmn2.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک دانلود فایل",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1601973713-.pdf?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1601973713-",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928514-fnp14.doc?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1588928514-fnp14",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928487-fnp13.doc?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1588928487-fnp13",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928453-fnp12.docx?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1588928453-fnp12",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928416-fnp11.docx?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1588928416-fnp11",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928393-fnp10.doc?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1588928393-fnp10",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928357-fnp9.docx?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1588928357-fnp9",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928320-fnp8.doc?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1588928320-fnp8",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928287-fnp7.docx?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1588928287-fnp7",
-          "id": null
-        },
-        {
-          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928261-fnp4.doc?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1588928261-fnp4",
+          "claim": "1 شیوه نامه بهره برداری از شبکه ابر رایانش ملی مصوبات و آئین نامه های پژوهشی",
           "id": null
         },
         {
           "url": "https://research.qiet.ac.ir/file/download/regulation/1588928202-fnp2.doc?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
-          "claim": "1588928202-fnp2",
+          "claim": "2 گزارش نهایی طرح پژوهشی فرم های پژوهشی",
           "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928174-fnp1.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 قرارداد طرح پژوهشی فرم های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588930732-mp7.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 نقشه جامع علمی کشور اسناد بالادستی کشور",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588930637-mp5.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 خلاصه سند توسعه پژوهش و فناوری وزارت نفت اسناد بالادستی کشور",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928453-fnp12.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرمت طرح پژوهشی برون دانشگاهی فرمت طرح پژوهشی برون دانشگاهی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928393-fnp10.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پروپوزال ماموریت پژوهشی فرم پروپوزال ماموریت پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928261-fnp4.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پیشنهادی اجرای طرح پژوهشی فرم پیشنهادی اجرای طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928202-fnp2.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "گزارش نهایی طرح پژوهشی گزارش نهایی طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928174-fnp1.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "قرارداد طرح پژوهشی قرارداد طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1601973713-.pdf?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 پرسشنامه پیشنهاد پروژه پژوهشی(پروپزال) مرکز شد پژوهشگاه صنعت نفت فرم های لازم جهت فعالیت در مرکز نوآوری",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928514-fnp14.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 گزارش ماموریت پژوهشی فرم های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928487-fnp13.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "2 خلاصه‌ی اهم مطالب پرونده ارتقاء به مرتبه علمی دانشیاری/ استاد فرم های پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588925193-fmn12.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 فهرست هزینه ها فرم های زمان اتمام طرح",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588925162-fmn11.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "2 فرم چکیده طرح فرم های زمان اتمام طرح",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588925136-fmn10.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "2 صورت وضعیت نهایی طرح فرم های زمان اتمام طرح",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588925106-fmn9.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 پیشرفت نهایی فرم های زمان اتمام طرح",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588925038-fmn8.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 گزارش کارشناسی طرح در مرکز نوآوری فرم های کارگروه مرکز نوآوری",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924824-fmn1.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 فرم اولیه پذیرش مرکز نوآوری فرم های هنگام عقد قرارداد",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924844-fmn2.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "2 فرم پیشرفت مرحله ای فرم های هنگام عقد قرارداد",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924921-fmn4.doc?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 فرم امتیاز دستاورد های طرح فرم های کارگروه مرکز نوآوری",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1594184042-jcr-2019.xls?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "1 نشریات JCR۲۰۱۹ فهرست نشریات JCR۲۰۱۹ تا JCR۲۰۰۸",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588930549-isc-en-journals.xlsx?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "2 ISC EN journals فهرست نشریات دارای نمایه ISC",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588930517-isc-fa-journals.xlsx?language=fa&subdomain=research",
+          "kind": "portal-document-reaudit-document",
+          "claim": "3 ISC FA journals فهرست نشریات دارای نمایه ISC",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1601364463-morvarid-co.-process.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه بهره برداری از شبکه ابر رایانش ملی شیوه نامه بهره برداری از شبکه ابر رایانش ملی لینک آخرین به‌روزرسانی : ۰۸ مهر ۱۳۹۹ دسته‌ها - آیین نام های مدیریت پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928416-fnp11.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم احراز شرایط عمومی و اختصاصی ماموریت پژوهشی فرم احراز شرایط عمومی و اختصاصی ماموریت پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928357-fnp9.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم مجوز ثبت شرکت برای اعضای هیئت علمی فرم مجوز ثبت شرکت برای اعضای هیئت علمی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928287-fnp7.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم تشویق مقاله فرم تشویق مقاله لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588925162-fmn11.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم چکیده طرح فرم چکیده طرح لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های لازم جهت فعالیت در مرکز نوآوری",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588925011-fmn7.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم کارشناسی و امتیازدهی ایده فرم کارشناسی و امتیازدهی ایده لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های لازم جهت فعالیت در مرکز نوآوری",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924974-fmn6.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم عدم تشابه طرح های مرکز نوآوری فرم عدم تشابه طرح های مرکز نوآوری لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های لازم جهت فعالیت در مرکز نوآوری",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924950-fmn5.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم ارزیابی طرح در پایان فرم ارزیابی طرح در پایان لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های لازم جهت فعالیت در مرکز نوآوری",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924921-fmn4.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم امتیاز دستاورد های طرح فرم امتیاز دستاورد های طرح لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های لازم جهت فعالیت در مرکز نوآوری",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924870-fmn3.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم تقاضای پیش پرداخت فرم تقاضای پیش پرداخت لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های لازم جهت فعالیت در مرکز نوآوری",
+          "id": null
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924608-mn1.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "qochan-technology-discovery-document-4aad3d9a5754"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588924844-fmn2.doc",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "qochan-technology-discovery-document-e8b783c9a309"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928453-fnp12.docx?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "1588928453-fnp12",
+          "id": "qochan-technology-discovery-document-356687eea952"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928416-fnp11.docx?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "1588928416-fnp11",
+          "id": "qochan-technology-discovery-document-84e98edd3179"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928393-fnp10.doc?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "1588928393-fnp10",
+          "id": "qochan-technology-discovery-document-61c22d9f2d53"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928357-fnp9.docx?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "1588928357-fnp9",
+          "id": "qochan-technology-discovery-document-6c0006248ecd"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928320-fnp8.doc?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "1588928320-fnp8",
+          "id": "qochan-technology-discovery-document-a6ead53118b0"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928287-fnp7.docx?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "1588928287-fnp7",
+          "id": "qochan-technology-discovery-document-4ef2f30f00d9"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/file/download/regulation/1588928261-fnp4.doc?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "1588928261-fnp4",
+          "id": "qochan-technology-discovery-document-9e47cecc2e76"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/95/%D8%AE%D9%84%D8%A7%D8%B5%D9%87-%D8%B3%D9%86%D8%AF-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D9%86%D9%81%D8%AA",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/9/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
         },
         {
           "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -1295,6 +1852,69 @@
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
           "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/68/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/67/%D8%AE%D9%84%D8%A7%D8%B5%D9%87-%DB%8C-%D8%A7%D9%87%D9%85-%D9%85%D8%B7%D8%A7%D9%84%D8%A8-%D9%BE%D8%B1%D9%88%D9%86%D8%AF%D9%87-%D8%A7%D8%B1%D8%AA%D9%82%D8%A7-%D8%A8%D9%87-%D9%85%D8%B1%D8%AA%D8%A8%D9%87-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DB%8C%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/59/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/58/%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/62/%D9%81%D8%B1%D9%85-%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%D9%87%D8%B3%D8%AA%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
         }
       ],
       "publicationAdjustment": null,
@@ -1413,9 +2033,155 @@
       "sourceUrl": "https://research.qiet.ac.ir/fa/regulation/category/14/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=-circularNo",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8431578947368421
+    },
+    {
+      "id": "qochan-technology-discovery-unit-research-23d931f920af",
+      "universitySlug": "qochan-technology",
+      "nameFa": "مدیریت پژوهشی - مدیریت امور پژوهشی و فناوری",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.qiet.ac.ir/fa/page/85/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-unit-research-da530403c31e",
+      "universitySlug": "qochan-technology",
+      "nameFa": "آیین‌نامه‌ها و فرم‌ها- آیین نام های مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.qiet.ac.ir/fa/regulation/category/9/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-unit-research-a30f20bf7d3d",
+      "universitySlug": "qochan-technology",
+      "nameFa": "آیین‌نامه‌ها و فرم‌ها- فرم های مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=circularNo",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "qochan-technology-discovery-unit-research-fdf30c39fb51",
+      "universitySlug": "qochan-technology",
+      "nameFa": "آیین‌نامه‌ها و فرم‌ها- فرم های مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "qochan-technology-discovery-unit-research-7fb82ce6f407",
+      "universitySlug": "qochan-technology",
+      "nameFa": "آیین‌نامه‌ها و فرم‌ها- فرم های مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "qochan-technology-discovery-unit-research-8be8c389570c",
+      "universitySlug": "qochan-technology",
+      "nameFa": "آیین‌نامه‌ها و فرم‌ها- فرم های مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=categoryId",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "qochan-technology-discovery-unit-research-b746169739a9",
+      "universitySlug": "qochan-technology",
+      "nameFa": "آیین‌نامه‌ها و فرم‌ها- فرم های مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "qochan-technology-discovery-unit-research-269922e55d52",
+      "universitySlug": "qochan-technology",
+      "nameFa": "آیین‌نامه‌ها و فرم‌ها- فرم های مدیریت پژوهشی",
+      "type": "research",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=approvalDate",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8694736842105263
+    },
+    {
+      "id": "qochan-technology-discovery-unit-technology-2784b81bd737",
+      "universitySlug": "qochan-technology",
+      "nameFa": "آیین‌نامه‌ها و فرم‌ها- فرم های لازم جهت فعالیت در مرکز نوآوری",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=title",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8431578947368421
+    },
+    {
+      "id": "qochan-technology-discovery-unit-technology-618ff4591825",
+      "universitySlug": "qochan-technology",
+      "nameFa": "آیین‌نامه‌ها و فرم‌ها- فرم های لازم جهت فعالیت در مرکز نوآوری",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=categoryId",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8431578947368421
+    },
+    {
+      "id": "qochan-technology-discovery-unit-technology-2af97f76e1fd",
+      "universitySlug": "qochan-technology",
+      "nameFa": "آیین‌نامه‌ها و فرم‌ها- فرم های لازم جهت فعالیت در مرکز نوآوری",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=outdated",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8431578947368421
+    },
+    {
+      "id": "qochan-technology-discovery-unit-technology-b76ee475ed05",
+      "universitySlug": "qochan-technology",
+      "nameFa": "آیین‌نامه‌ها و فرم‌ها- فرم های لازم جهت فعالیت در مرکز نوآوری",
+      "type": "technology",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "sourceUrl": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=approvalDate",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.8431578947368421
     }
   ],
-  "systems": [],
+  "systems": [
+    {
+      "id": "qochan-technology-discovery-system-ba957d1d05da",
+      "universitySlug": "qochan-technology",
+      "nameFa": "آیین‌نامه‌ها و فرم‌ها- نشریات",
+      "category": "journals",
+      "url": "https://research.qiet.ac.ir/fa/regulation/category/19/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
+      "sourceUrl": "https://research.qiet.ac.ir/fa",
+      "relation": "research-portal-discovery",
+      "evidence": "verified",
+      "lastVerified": "2026-08-12",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9747368421052631
+    }
+  ],
   "documents": [
     {
       "id": "qochan-technology-discovery-document-ea887dd5cd70",
@@ -1430,11 +2196,9 @@
       "url": "https://research.qiet.ac.ir/file/download/regulation/1601364463-morvarid-co.-process.pdf",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1601364463-morvarid-co.-process.pdf",
       "parentUrl": "https://research.qiet.ac.ir/fa/regulation/353/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D9%87%D8%B1%D9%87-%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B2-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A7%D8%A8%D8%B1-%D8%B1%D8%A7%DB%8C%D8%A7%D9%86%D8%B4-%D9%85%D9%84%DB%8C",
-      "sha256": "3e45cafff5dac7499c1624b5576a3f4a969f18c0cd94c534f8c9428f256d211d",
       "fileName": "1601364463-morvarid-co.-process.pdf",
       "contentType": "application/pdf",
       "fileSize": 5083085,
-      "archivePath": "qochan-technology/10c8d4035808-1601364463-morvarid-co.-process.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1472,11 +2236,9 @@
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588928453-fnp12.docx",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588928453-fnp12.docx",
       "parentUrl": "https://research.qiet.ac.ir/fa/regulation/66/%D9%81%D8%B1%D9%85%D8%AA-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A8%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C",
-      "sha256": "1628d6c42165838c92769ceb81e083d7295a16bc567cd851b080ce3b3d31a56d",
       "fileName": "1588928453-fnp12.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "fileSize": 18156,
-      "archivePath": "qochan-technology/b2965cc6db87-1588928453-fnp12.docx",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1493,11 +2255,9 @@
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588928416-fnp11.docx",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588928416-fnp11.docx",
       "parentUrl": "https://research.qiet.ac.ir/fa/regulation/65/%D9%81%D8%B1%D9%85-%D8%A7%D8%AD%D8%B1%D8%A7%D8%B2-%D8%B4%D8%B1%D8%A7%DB%8C%D8%B7-%D8%B9%D9%85%D9%88%D9%85%DB%8C-%D9%88-%D8%A7%D8%AE%D8%AA%D8%B5%D8%A7%D8%B5%DB%8C-%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "sha256": "e369ebe66c36e0d9352512ee496ba620f434444e2d69e637234f499dd5a20b63",
       "fileName": "1588928416-fnp11.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "fileSize": 47934,
-      "archivePath": "qochan-technology/d032bebcffae-1588928416-fnp11.docx",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1514,11 +2274,9 @@
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588928393-fnp10.doc",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588928393-fnp10.doc",
       "parentUrl": "https://research.qiet.ac.ir/fa/regulation/64/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "sha256": "4d53d76c53f62261020fbb89bbde413fcd556c71b5bbd794d9c82f0fc4c44cf0",
       "fileName": "1588928393-fnp10.doc",
       "contentType": "application/msword",
       "fileSize": 290816,
-      "archivePath": "qochan-technology/2a4fad56cb12-1588928393-fnp10.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1535,11 +2293,9 @@
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588928357-fnp9.docx",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588928357-fnp9.docx",
       "parentUrl": "https://research.qiet.ac.ir/fa/regulation/63/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%D9%85%D8%AC%D9%88%D8%B2-%D8%AB%D8%A8%D8%AA-%D8%B4%D8%B1%DA%A9%D8%AA-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-      "sha256": "4fac133b58f8b89a1c017c065004ab605210b8e3d924fe33cf939dbf4b6ea35a",
       "fileName": "1588928357-fnp9.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "fileSize": 45921,
-      "archivePath": "qochan-technology/cae384b298e1-1588928357-fnp9.docx",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1556,11 +2312,9 @@
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588928287-fnp7.docx",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588928287-fnp7.docx",
       "parentUrl": "https://research.qiet.ac.ir/fa/regulation/61/%D9%81%D8%B1%D9%85-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D9%85%D9%82%D8%A7%D9%84%D9%87",
-      "sha256": "9d4b7b683e83c775657467b22b9832d332e31311a17d6ece99bf3e5079ebe744",
       "fileName": "1588928287-fnp7.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "fileSize": 85621,
-      "archivePath": "qochan-technology/52286098001e-1588928287-fnp7.docx",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1577,11 +2331,9 @@
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588928261-fnp4.doc",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588928261-fnp4.doc",
       "parentUrl": "https://research.qiet.ac.ir/fa/regulation/60/%D9%81%D8%B1%D9%85-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "sha256": "7cc7a8fffe495eb9bfd6d26644439534ea6d7040186c9eb9fd79871fc8c99798",
       "fileName": "1588928261-fnp4.doc",
       "contentType": "application/msword",
       "fileSize": 2508800,
-      "archivePath": "qochan-technology/f0bbb526b406-1588928261-fnp4.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1598,11 +2350,9 @@
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588925162-fmn11.doc",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588925162-fmn11.doc",
       "parentUrl": "https://research.qiet.ac.ir/fa/regulation/39/%D9%81%D8%B1%D9%85-%DA%86%DA%A9%DB%8C%D8%AF%D9%87-%D8%B7%D8%B1%D8%AD",
-      "sha256": "3c41558ac8f38751dc46355b27c0784f1fe8f1cf9f02ef1e6c224ae5383de895",
       "fileName": "1588925162-fmn11.doc",
       "contentType": "application/msword",
       "fileSize": 60416,
-      "archivePath": "qochan-technology/d10c5f9c373d-1588925162-fmn11.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1619,11 +2369,9 @@
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588925011-fmn7.doc",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588925011-fmn7.doc",
       "parentUrl": "https://research.qiet.ac.ir/fa/regulation/35/%D9%81%D8%B1%D9%85-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D9%88-%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C-%D8%A7%DB%8C%D8%AF%D9%87",
-      "sha256": "f436066a2d60c924f0dc81407b6562da1a20dbfb9572efbe7adacdf9e9463e77",
       "fileName": "1588925011-fmn7.doc",
       "contentType": "application/msword",
       "fileSize": 77312,
-      "archivePath": "qochan-technology/877766d59767-1588925011-fmn7.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1640,11 +2388,9 @@
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588924974-fmn6.doc",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588924974-fmn6.doc",
       "parentUrl": "https://research.qiet.ac.ir/fa/regulation/34/%D9%81%D8%B1%D9%85-%D8%B9%D8%AF%D9%85-%D8%AA%D8%B4%D8%A7%D8%A8%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
-      "sha256": "d10972271dc273be1fb3014f720fcedadb23b4f1d6a99cab461380f8ff5f3903",
       "fileName": "1588924974-fmn6.doc",
       "contentType": "application/msword",
       "fileSize": 55296,
-      "archivePath": "qochan-technology/66d903998653-1588924974-fmn6.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1661,11 +2407,9 @@
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588924950-fmn5.doc",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588924950-fmn5.doc",
       "parentUrl": "https://research.qiet.ac.ir/fa/regulation/33/%D9%81%D8%B1%D9%85-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D8%B7%D8%B1%D8%AD-%D8%AF%D8%B1-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86",
-      "sha256": "6a56bc2db8241f716c8a2a4053f69bb87f12950c0dfb64ae3a73e6e9e893386c",
       "fileName": "1588924950-fmn5.doc",
       "contentType": "application/msword",
       "fileSize": 73216,
-      "archivePath": "qochan-technology/e9ed3aff7493-1588924950-fmn5.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1682,11 +2426,9 @@
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588924921-fmn4.doc",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588924921-fmn4.doc",
       "parentUrl": "https://research.qiet.ac.ir/fa/regulation/32/%D9%81%D8%B1%D9%85-%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2-%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF-%D9%87%D8%A7%DB%8C-%D8%B7%D8%B1%D8%AD",
-      "sha256": "ecda45c2a2b9205dff1b03f5c70c8567572ef9282b102c9f98d2a4805e537ec0",
       "fileName": "1588924921-fmn4.doc",
       "contentType": "application/msword",
       "fileSize": 77824,
-      "archivePath": "qochan-technology/f528d9e85f8f-1588924921-fmn4.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1703,11 +2445,9 @@
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588924870-fmn3.doc",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588924870-fmn3.doc",
       "parentUrl": "https://research.qiet.ac.ir/fa/regulation/31/%D9%81%D8%B1%D9%85-%D8%AA%D9%82%D8%A7%D8%B6%D8%A7%DB%8C-%D9%BE%DB%8C%D8%B4-%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA",
-      "sha256": "d428b9dac4ccf19abb53a4e32af9e0d327aa8e83c0d25b6b4a2d26e0855926db",
       "fileName": "1588924870-fmn3.doc",
       "contentType": "application/msword",
       "fileSize": 59392,
-      "archivePath": "qochan-technology/f664c457ec78-1588924870-fmn3.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1744,12 +2484,10 @@
       "lastVerified": "2026-08-12",
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588928514-fnp14.doc?language=fa&subdomain=research",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588928514-fnp14.doc?language=fa&subdomain=research",
-      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "sha256": "a0269b70ead323b5d9f050699be76a4a9381b2a819ee7852f4bc72fb7b53eef1",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/18/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
       "fileName": "1588928514-fnp14.doc",
       "contentType": "application/msword",
       "fileSize": 135168,
-      "archivePath": "qochan-technology/749359e4b152-1588928514-fnp14.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1765,12 +2503,10 @@
       "lastVerified": "2026-08-12",
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588928487-fnp13.doc?language=fa&subdomain=research",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588928487-fnp13.doc?language=fa&subdomain=research",
-      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "sha256": "0c3fc44a5ab97a6bc5b06ed28f05f2965a523fee97e42f5aa666ed8f91a3af34",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/18/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
       "fileName": "1588928487-fnp13.doc",
       "contentType": "application/msword",
       "fileSize": 68096,
-      "archivePath": "qochan-technology/37c73e2eb97b-1588928487-fnp13.doc",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1891,12 +2627,10 @@
       "lastVerified": "2026-08-12",
       "url": "https://research.qiet.ac.ir/file/download/regulation/1601973713-.pdf?language=fa&subdomain=research",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1601973713-.pdf?language=fa&subdomain=research",
-      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "sha256": "ba0f664e35b8046b48287ea560c2facce17b87c145516deb2f48e0d197b972b0",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=title",
       "fileName": "1601973713-.pdf",
       "contentType": "application/pdf",
       "fileSize": 300697,
-      "archivePath": "qochan-technology/9fbc65715d16-1601973713-.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -1954,12 +2688,333 @@
       "lastVerified": "2026-08-12",
       "url": "https://research.qiet.ac.ir/file/download/regulation/1588928202-fnp2.doc?language=fa&subdomain=research",
       "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588928202-fnp2.doc?language=fa&subdomain=research",
-      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "sha256": "562249667812271dec5022a08ea50212eedde6477a6ce554289ad09262f7f7fa",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/18/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
       "fileName": "1588928202-fnp2.doc",
       "contentType": "application/msword",
       "fileSize": 110080,
-      "archivePath": "qochan-technology/7110197a3f73-1588928202-fnp2.doc",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-826de7231ae9",
+      "universitySlug": "qochan-technology",
+      "title": "1 شیوه نامه بهره برداری از شبکه ابر رایانش ملی مصوبات و آئین نامه های پژوهشی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1601364463-morvarid-co.-process.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1601364463-morvarid-co.-process.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/9/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+      "fileName": "1601364463-morvarid-co.-process.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 5083085,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-9ae8bec2410f",
+      "universitySlug": "qochan-technology",
+      "title": "1 قرارداد طرح پژوهشی فرم های پژوهشی",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588928174-fnp1.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588928174-fnp1.doc?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/18/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=-circularNo",
+      "fileName": "1588928174-fnp1.doc",
+      "contentType": "application/msword",
+      "fileSize": 83456,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-95ab4de3090a",
+      "universitySlug": "qochan-technology",
+      "title": "1 نقشه جامع علمی کشور اسناد بالادستی کشور",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588930732-mp7.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588930732-mp7.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/20/%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%A8%D8%A7%D9%84%D8%A7%D8%AF%D8%B3%D8%AA%DB%8C-%DA%A9%D8%B4%D9%88%D8%B1",
+      "fileName": "1588930732-mp7.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 2042773,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-c4b5be4cb5ad",
+      "universitySlug": "qochan-technology",
+      "title": "1 خلاصه سند توسعه پژوهش و فناوری وزارت نفت اسناد بالادستی کشور",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588930637-mp5.pdf?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588930637-mp5.pdf?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/20/%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%A8%D8%A7%D9%84%D8%A7%D8%AF%D8%B3%D8%AA%DB%8C-%DA%A9%D8%B4%D9%88%D8%B1?sort=-circularNo",
+      "fileName": "1588930637-mp5.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 218114,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-04ad61c93446",
+      "universitySlug": "qochan-technology",
+      "title": "گزارش نهایی طرح پژوهشی گزارش نهایی طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588928202-fnp2.doc",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588928202-fnp2.doc",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/59/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+      "fileName": "1588928202-fnp2.doc",
+      "contentType": "application/msword",
+      "fileSize": 110080,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-a5345aa192c6",
+      "universitySlug": "qochan-technology",
+      "title": "قرارداد طرح پژوهشی قرارداد طرح پژوهشی لینک آخرین به‌روزرسانی : ۱۹ اردیبهشت ۱۳۹۹ دسته‌ها - فرم های مدیریت پژوهشی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588928174-fnp1.doc",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588928174-fnp1.doc",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/58/%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
+      "fileName": "1588928174-fnp1.doc",
+      "contentType": "application/msword",
+      "fileSize": 83456,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-290a6f8a041c",
+      "universitySlug": "qochan-technology",
+      "title": "1 فهرست هزینه ها فرم های زمان اتمام طرح",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588925193-fmn12.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588925193-fmn12.doc?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/15/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%B2%D9%85%D8%A7%D9%86-%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D8%B7%D8%B1%D8%AD",
+      "fileName": "1588925193-fmn12.doc",
+      "contentType": "application/msword",
+      "fileSize": 60416,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-8f2b5baed92f",
+      "universitySlug": "qochan-technology",
+      "title": "2 فرم چکیده طرح فرم های زمان اتمام طرح",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588925162-fmn11.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588925162-fmn11.doc?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/15/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%B2%D9%85%D8%A7%D9%86-%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D8%B7%D8%B1%D8%AD",
+      "fileName": "1588925162-fmn11.doc",
+      "contentType": "application/msword",
+      "fileSize": 60416,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-c9398bb0296d",
+      "universitySlug": "qochan-technology",
+      "title": "2 صورت وضعیت نهایی طرح فرم های زمان اتمام طرح",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588925136-fmn10.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588925136-fmn10.doc?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/15/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%B2%D9%85%D8%A7%D9%86-%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D8%B7%D8%B1%D8%AD?sort=-circularNo",
+      "fileName": "1588925136-fmn10.doc",
+      "contentType": "application/msword",
+      "fileSize": 62464,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-48f8b226f9ad",
+      "universitySlug": "qochan-technology",
+      "title": "1 پیشرفت نهایی فرم های زمان اتمام طرح",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588925106-fmn9.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588925106-fmn9.doc?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/15/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%B2%D9%85%D8%A7%D9%86-%D8%A7%D8%AA%D9%85%D8%A7%D9%85-%D8%B7%D8%B1%D8%AD?sort=-circularNo",
+      "fileName": "1588925106-fmn9.doc",
+      "contentType": "application/msword",
+      "fileSize": 75264,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-41884ef5e926",
+      "universitySlug": "qochan-technology",
+      "title": "1 گزارش کارشناسی طرح در مرکز نوآوری فرم های کارگروه مرکز نوآوری",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588925038-fmn8.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588925038-fmn8.doc?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/14/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
+      "fileName": "1588925038-fmn8.doc",
+      "contentType": "application/msword",
+      "fileSize": 70656,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-bf80158a5bc0",
+      "universitySlug": "qochan-technology",
+      "title": "1 فرم اولیه پذیرش مرکز نوآوری فرم های هنگام عقد قرارداد",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588924824-fmn1.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588924824-fmn1.doc?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/12/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%84%D8%A7%D8%B2%D9%85-%D8%AC%D9%87%D8%AA-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=-circularNo",
+      "fileName": "1588924824-fmn1.doc",
+      "contentType": "application/msword",
+      "fileSize": 286720,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-5af0f7bcaec5",
+      "universitySlug": "qochan-technology",
+      "title": "2 فرم پیشرفت مرحله ای فرم های هنگام عقد قرارداد",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588924844-fmn2.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588924844-fmn2.doc?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/8/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?sort=outdated",
+      "fileName": "1588924844-fmn2.doc",
+      "contentType": "application/msword",
+      "fileSize": 69632,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-dbd9625bb6a0",
+      "universitySlug": "qochan-technology",
+      "title": "1 فرم امتیاز دستاورد های طرح فرم های کارگروه مرکز نوآوری",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588924921-fmn4.doc?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588924921-fmn4.doc?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/14/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%DA%AF%D8%B1%D9%88%D9%87-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C?sort=-circularNo",
+      "fileName": "1588924921-fmn4.doc",
+      "contentType": "application/msword",
+      "fileSize": 77824,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-4b7ad2274518",
+      "universitySlug": "qochan-technology",
+      "title": "1 نشریات JCR۲۰۱۹ فهرست نشریات JCR۲۰۱۹ تا JCR۲۰۰۸",
+      "type": "آیین‌نامه",
+      "topic": "سایر",
+      "taxonomy": "regulation/bylaw",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1594184042-jcr-2019.xls?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1594184042-jcr-2019.xls?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/19/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
+      "fileName": "1594184042-jcr-2019.xls",
+      "contentType": "application/vnd.ms-excel",
+      "fileSize": 4072960,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-7d5dd3bc5605",
+      "universitySlug": "qochan-technology",
+      "title": "2 ISC EN journals فهرست نشریات دارای نمایه ISC",
+      "type": "سند",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "publications/journals",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588930549-isc-en-journals.xlsx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588930549-isc-en-journals.xlsx?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/19/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
+      "fileName": "1588930549-isc-en-journals.xlsx",
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "fileSize": 85142,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "qochan-technology-discovery-document-242528d533fe",
+      "universitySlug": "qochan-technology",
+      "title": "3 ISC FA journals فهرست نشریات دارای نمایه ISC",
+      "type": "سند",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "publications/journals",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://research.qiet.ac.ir/file/download/regulation/1588930517-isc-fa-journals.xlsx?language=fa&subdomain=research",
+      "sourceUrl": "https://research.qiet.ac.ir/file/download/regulation/1588930517-isc-fa-journals.xlsx?language=fa&subdomain=research",
+      "parentUrl": "https://research.qiet.ac.ir/fa/regulation/category/19/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
+      "fileName": "1588930517-isc-fa-journals.xlsx",
+      "contentType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "fileSize": 66663,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     }
