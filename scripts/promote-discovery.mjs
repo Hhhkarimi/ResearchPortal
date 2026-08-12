@@ -1309,47 +1309,119 @@ for (
   };
 
   for (
-    const [
-      dimension,
-      key,
-    ] of Object.entries(checks)
-  ) {
-    if (hasSpecific(key)) {
-      dimensions[dimension] =
-        "verified";
-    } else if (
-      dimensions[dimension] !==
-        "verified" &&
-      (row[key] || []).length &&
-      dimensions[dimension] !==
-        "restricted"
-    ) {
-      dimensions[dimension] =
-        "observed-reference";
-    }
+  const [
+    dimension,
+    key,
+  ] of Object.entries(checks)
+) {
+  const urls =
+    row[key] || [];
+
+  const specific =
+    hasSpecific(key);
+
+  const onlyPortalRoots =
+    urls.length > 0 &&
+    urls.every(
+      (url) =>
+        roots.has(
+          canonicalUrl(url)
+        )
+    );
+
+  /*
+   * A real dimension-specific URL can verify the dimension.
+   */
+  if (specific) {
+    dimensions[dimension] =
+      "verified";
+
+    continue;
   }
 
+  /*
+   * Critical publication rule:
+   *
+   * If every URL for this dimension is merely one of the
+   * portal roots, the portal homepage/root alone must NOT
+   * keep the dimension verified.
+   *
+   * This also corrects stale "verified" outcomes inherited
+   * from an earlier promotion cycle.
+   */
   if (
-    hasValidItRelation &&
-    hasSpecific(
-      "informationTechnologyUrls"
-    )
-  ) {
-    dimensions.informationTechnology =
-      "verified";
-  } else if (
-    dimensions.informationTechnology !==
-      "verified" &&
-    (
-      row.informationTechnologyUrls ||
-      []
-    ).length &&
-    dimensions.informationTechnology !==
+    onlyPortalRoots &&
+    dimensions[dimension] !==
       "restricted"
   ) {
-    dimensions.informationTechnology =
+    dimensions[dimension] =
+      "observed-reference";
+
+    continue;
+  }
+
+  /*
+   * There is some reference, but not enough specific public
+   * evidence to promote it to verified.
+   */
+  if (
+    dimensions[dimension] !==
+      "verified" &&
+    urls.length &&
+    dimensions[dimension] !==
+      "restricted"
+  ) {
+    dimensions[dimension] =
       "observed-reference";
   }
+}
+
+/*
+ * Information Technology has an additional strict rule:
+ *
+ * verified requires BOTH:
+ * 1) a dimension-specific IT URL
+ * 2) separately modeled organizational relationship evidence
+ */
+const itUrls =
+  row.informationTechnologyUrls ||
+  [];
+
+const hasSpecificIt =
+  hasSpecific(
+    "informationTechnologyUrls"
+  );
+
+if (
+  hasValidItRelation &&
+  hasSpecificIt
+) {
+  dimensions.informationTechnology =
+    "verified";
+} else if (
+  itUrls.length &&
+  dimensions.informationTechnology !==
+    "restricted"
+) {
+  /*
+   * Even if an older cycle marked IT as verified,
+   * a root/reference without sufficient organizational
+   * attribution must be downgraded.
+   */
+  dimensions.informationTechnology =
+    "observed-reference";
+} else if (
+  dimensions.informationTechnology ===
+    "verified" &&
+  !hasValidItRelation
+) {
+  /*
+   * No usable IT reference and no organizational attribution.
+   * Do not preserve an invalid historical verified state.
+   */
+  dimensions.informationTechnology =
+    "unresolved";
+}
 
   if (
     (row.directDocuments || [])
