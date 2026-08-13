@@ -55,6 +55,70 @@ export function HeroConstellation({audits,summary}:{audits:any[];summary:any}){
   </div>;
 }
 
+const ledgerDimensions=[
+  ["portalIdentity","هویت"],
+  ["organization","ساختار"],
+  ["libraryDocuments","کتابخانه"],
+  ["laboratories","آزمایشگاه"],
+  ["industryTechnology","صنعت"],
+  ["systemsServices","سامانه"],
+  ["documentsRegulations","اسناد"],
+] as const;
+
+const outcomeLabel:Record<string,string>={
+  verified:"تأیید مستقیم",
+  "observed-reference":"شاهد یا ارجاع",
+  restricted:"دسترسی محدود",
+  unresolved:"حل‌نشده",
+};
+
+export function EvidenceLedger({audits,summary}:{audits:any[];summary:any}){
+  const sample=audits.slice(0,5);
+
+  return <div className="evidenceLedger" aria-label={`نمونه دفتر شواهد ${formatFaNumber(audits.length)} نهاد`}>
+    <header className="ledgerHeader">
+      <div><span className="ledgerSeal" aria-hidden="true">ر</span><span><b>دفتر ممیزی ملی</b><small>EVIDENCE LEDGER / SNAPSHOT 10.0</small></span></div>
+      <span className="ledgerStatus"><i/> داده منتشرشده</span>
+    </header>
+
+    <div className="ledgerSummary">
+      <div><span>دامنه ثبت</span><b>{formatFaNumber(audits.length||115)}</b><small>دانشگاه و مؤسسه ISC</small></div>
+      <dl>
+        <div><dt>پرتال مستقیم</dt><dd>{formatFaNumber(summary.directOfficialPortals||0)}</dd></div>
+        <div><dt>ردیف شواهد</dt><dd>{formatFaNumber(summary.provenanceRecords||0)}</dd></div>
+        <div><dt>رتبه‌پذیر</dt><dd>{formatFaNumber(summary.ranked||0)}</dd></div>
+      </dl>
+    </div>
+
+    <div className="ledgerTable">
+      <div className="ledgerColumns" aria-hidden="true">
+        <span>نهاد</span>
+        <div>{ledgerDimensions.map(([,label])=><i key={label}>{label}</i>)}</div>
+        <b>پوشش</b>
+      </div>
+      {sample.map((row,index)=><Link href={`/universities/${row.universitySlug}`} className="ledgerRow" key={row.universitySlug}>
+        <span className="ledgerIndex">{formatFaNumber(index+1,{minimumIntegerDigits:2})}</span>
+        <span className="ledgerName"><b>{row.nameFa}</b><small>{row.iscCategory}</small></span>
+        <span className="ledgerTrace">
+          {ledgerDimensions.map(([key,label])=>{
+            const outcome=row.dimensions?.[key]||"unresolved";
+            return <i className={`traceCell ${outcome}`} title={`${label}: ${outcomeLabel[outcome]||outcome}`} key={key}><span className="srOnly">{label}: {outcomeLabel[outcome]||outcome}</span></i>;
+          })}
+        </span>
+        <strong>{formatFaNumber(row.reviewEvidenceCoverage||0)}<small>٪</small></strong>
+      </Link>)}
+    </div>
+
+    <footer className="ledgerLegend">
+      <span><i className="verified"/> تأیید مستقیم</span>
+      <span><i className="observed-reference"/> شاهد/ارجاع</span>
+      <span><i className="restricted"/> محدود</span>
+      <span><i className="unresolved"/> حل‌نشده</span>
+      <Link href="/evidence">همه شواهد ←</Link>
+    </footer>
+  </div>;
+}
+
 export function EvidenceSpectrum({dimensions}:{dimensions:Record<string,Record<string,number>>}){
   const entries=Object.entries(dimensions).filter(([key])=>Object.prototype.hasOwnProperty.call(dimensionLabels,key));
   const values=entries.map(([,value])=>value);

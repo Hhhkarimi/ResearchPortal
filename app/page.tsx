@@ -1,6 +1,6 @@
 import Link from "next/link";
 import {HomeExplorer} from "@/components/home-explorer";
-import {HeroConstellation} from "@/components/visual-stories";
+import {EvidenceLedger} from "@/components/visual-stories";
 import {audits,datasetSummary,institutions,rankings,researchReviews} from "@/lib/data";
 
 const fa=(n:number)=>n.toLocaleString("fa-IR");
@@ -13,16 +13,16 @@ export default function Home(){
   return <main>
     <section className="hero shell">
       <div className="heroCopy">
-        <div className="liveBadge"><i/> داده‌نمای ممیزی ۱۱۵ نهاد دولتی ISC <span>نسخه ۱۰.۰</span></div>
-        <h1>پرتال معاونت پژوهشی و فناوری دانشگاه‌ها،<em> زیر ذره‌بین داده.</em></h1>
-        <p>مرجع ملی سنجش بلوغ و شفافیت پرتال معاونت پژوهشی و فناوری دانشگاه‌ها؛ از ساختار معاونت و کتابخانه تا آزمایشگاه، صنعت و فناوری، سامانه‌ها و اسناد.</p>
+        <div className="liveBadge"><i/> دفتر شواهد ۱۱۵ نهاد دولتی ISC <span>Snapshot ۱۰.۰</span></div>
+        <h1>ردِ شواهد را بگیرید؛<em> پرتال پژوهشی را بسنجید.</em></h1>
+        <p>رصدخانه‌ای برای سنجش بلوغ و شفافیت پرتال معاونت پژوهشی و فناوری دانشگاه‌ها؛ از ساختار معاونت و کتابخانه تا آزمایشگاه، صنعت و فناوری، سامانه‌ها و اسناد.</p>
         <HomeExplorer institutions={institutions} audits={audits} rankings={rankings}/>
         <div className="heroLinks">
-          <Link href="/audit">دیدن نقشه ملی ممیزی <span>←</span></Link>
-          <Link href="/methodology">RTPMI دقیقاً چه می‌سنجد؟</Link>
+          <Link className="primaryLink" href="/audit">باز کردن دفتر ممیزی <span>←</span></Link>
+          <Link className="quietLink" href="/methodology">RTPMI دقیقاً چه می‌سنجد؟</Link>
         </div>
       </div>
-      <HeroConstellation audits={researchReviews} summary={summary}/>
+      <EvidenceLedger audits={researchReviews} summary={summary}/>
     </section>
 
     <section className="proofStrip">
@@ -50,7 +50,7 @@ export default function Home(){
           <strong>پرونده پرتال خودتان را باز کنید</strong>
           <p>شکاف‌های شفافیت، وضعیت شواهد، واحدها، سامانه‌ها و اسناد را یک‌جا ببینید.</p>
           <b>پیدا کردن دانشگاه ←</b>
-          <i>01</i>
+          <i>پرونده</i>
         </Link>
 
         <Link href="/audit" className="journeyCard cyan">
@@ -58,7 +58,7 @@ export default function Home(){
           <strong>تصویر ملی ۱۱۵ × ۷ را ببینید</strong>
           <p>پوشش ممیزی را بر اساس گروه ISC و وضعیت دسترسی رصد و مقایسه کنید.</p>
           <b>ورود به نقشه ممیزی ←</b>
-          <i>02</i>
+          <i>سیاست</i>
         </Link>
 
         <Link href="/datasets" className="journeyCard lime">
@@ -66,7 +66,7 @@ export default function Home(){
           <strong>داده را بگیرید و بازتولید کنید</strong>
           <p>JSON، CSV، دفتر شواهد، ۱۱۵ Audit Packet و API نسخه‌دار آماده استفاده‌اند.</p>
           <b>رفتن به Data Lab ←</b>
-          <i>03</i>
+          <i>داده</i>
         </Link>
       </div>
     </section>
