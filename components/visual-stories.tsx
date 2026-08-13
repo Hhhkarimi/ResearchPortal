@@ -1,6 +1,5 @@
 import Link from "next/link";
 import {formatFaNumber} from "@/lib/fa";
-import {PUBLIC_OUTCOME_COUNT} from "@/lib/public-model";
 
 const dimensionLabels:any={
   portalIdentity:"هویت پرتال",
@@ -13,9 +12,11 @@ const dimensionLabels:any={
 };
 
 export function HeroConstellation({audits,summary}:{audits:any[];summary:any}){
-  return <div className="constellation" aria-label="کهکشان شواهد ۱۱۵ دانشگاه">
+  const institutionCount=audits.length||115;
+
+  return <div className="constellation" aria-label={`رادار ارزیابی ${formatFaNumber(institutionCount)} دانشگاه و مؤسسه`}>
     <div className="auroraBlob violet"/><div className="auroraBlob cyan"/><div className="signalSweep"/>
-    <div className="constellationHeader"><span><i/> نقشه زنده Evidence</span><b>۱۱۵ دانشگاه · ۷ بُعد</b></div>
+    <div className="constellationHeader"><span><i/> رادار ارزیابی ملی</span><b>{formatFaNumber(institutionCount)} نهاد · ۷ بُعد</b></div>
     <div className="constellationField">
       {audits.map((row,index)=>{
         const coverage=row.reviewEvidenceCoverage??row.auditEvidenceCoverage??0;
@@ -31,9 +32,9 @@ export function HeroConstellation({audits,summary}:{audits:any[];summary:any}){
         ><i/><span>{coverage>=75?row.nameFa:""}</span></Link>
       })}
       <div className="constellationCore">
-        <span>ماتریس ملی</span>
-        <b>{formatFaNumber(PUBLIC_OUTCOME_COUNT)}</b>
-        <small>outcome مستند</small>
+        <span>دامنه ارزیابی</span>
+        <b>{formatFaNumber(institutionCount)}</b>
+        <small>دانشگاه و مؤسسه ISC</small>
         <em>{formatFaNumber(summary.ranked)} رتبه‌پذیر</em>
         <i className="corePulse"/>
       </div>
@@ -49,7 +50,7 @@ export function HeroConstellation({audits,summary}:{audits:any[];summary:any}){
       <span><i className="mid"/> پوشش میانی</span>
       <span><i className="low"/> شاهد اولیه</span>
       <span><i className="dark"/> هنوز حل‌نشده</span>
-      <b>{formatFaNumber(summary.dimensionEvidenceOutcomes||PUBLIC_OUTCOME_COUNT)} / {formatFaNumber(PUBLIC_OUTCOME_COUNT)}</b>
+      <b>{formatFaNumber(institutionCount)} نهاد در رادار</b>
     </div>
   </div>;
 }
