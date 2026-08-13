@@ -17,7 +17,6 @@ import {
   rankings,
   researchReviews,
   systemCatalog,
-  uniquePublicUrls,
   unitCatalog,
 } from "@/lib/data";
 
@@ -25,6 +24,11 @@ import {
   PUBLIC_DIMENSION_COUNT,
   RTPMI_VERSION,
 } from "@/lib/public-model";
+
+import {
+  semanticCatalogTitles,
+  semanticEvidenceSources,
+} from "@/lib/semantic-labels";
 
 export function generateStaticParams() {
   return institutions.map(
@@ -250,45 +254,31 @@ export default async function Page(
     0;
 
   /*
-   * This is the important dedupe.
-   *
-   * Not a raw JS Set anymore.
+   * Keep every distinct canonical URL, but preserve the richest
+   * metadata available for each one so the UI can name it
+   * semantically instead of showing numbered duplicates.
    */
+  const reviewSources =
+    semanticEvidenceSources(
+      slug,
+      review,
+      audit
+    );
+
   const reviewUrls =
-    uniquePublicUrls([
-      ...(
-        review
-          ?.officialSourceUrls ||
-        []
-      ),
-
-      ...(
-        review
-          ?.officialSources ||
-        []
-      ).map(
-        (
-          source:
-            any
-        ) =>
-          source.url
-      ),
-
-      ...(
-        audit
-          ?.evidenceUrls ||
-        []
-      ),
-    ]);
+    reviewSources.map(
+      (source) =>
+        source.url
+    );
 
   const primarySources =
-    reviewUrls.slice(
+    reviewSources.slice(
       0,
       14
     );
 
   const additionalSources =
-    reviewUrls.slice(
+    reviewSources.slice(
       14
     );
 
@@ -744,26 +734,27 @@ export default async function Page(
 
           <p>
             این جمع‌بندی از URLهای رسمی یکتاشده، شواهد بُعدی و
-            اقلام دارای provenance ساخته شده است. نسخه‌های تکراری
-            یک منبع پیش از نمایش ادغام می‌شوند.
+            اقلام دارای provenance ساخته شده است. URLهای متفاوت
+            حفظ می‌شوند و عنوان هر منبع از متادیتا و ساختار همان
+            لینک به‌صورت معنایی نمایش داده می‌شود.
           </p>
 
-          {reviewUrls.length
+          {reviewSources.length
             ? (
               <div className="sourceList">
                 {primarySources.map(
                   (
-                    url
+                    source
                   ) => (
                     <SourceLink
-                      url={
-                        url
+                      source={
+                        source
                       }
                       key={
                         canonicalPublicUrl(
-                          url
+                          source.url
                         ) ||
-                        url
+                        source.url
                       }
                     />
                   )
@@ -783,17 +774,17 @@ export default async function Page(
                     <div>
                       {additionalSources.map(
                         (
-                          url
+                          source
                         ) => (
                           <SourceLink
-                            url={
-                              url
+                            source={
+                              source
                             }
                             key={
                               canonicalPublicUrl(
-                                url
+                                source.url
                               ) ||
-                              url
+                              source.url
                             }
                           />
                         )
@@ -848,8 +839,10 @@ export default async function Page(
           </div>
 
           <p>
-            رکوردهای تکراری با URL استانداردشده ادغام شده‌اند و فقط
-            اقلام دارای ردّ منبع نمایش داده می‌شوند.
+            فقط URLهای واقعاً تکراری ادغام می‌شوند. اگر چند لینک
+            متفاوت عنوان خام یکسان داشته باشند، همه لینک‌ها حفظ
+            می‌شوند و با عنوان معنایی متناسب با نوع منبع نمایش داده
+            می‌شوند.
           </p>
         </div>
 
@@ -885,11 +878,14 @@ export default async function Page(
 
 function SourceLink(
   {
-    url,
+    source,
   }: {
-    url: string;
+    source: any;
   }
 ) {
+  const url =
+    source.url;
+
   let host =
     "منبع رسمی";
 
@@ -937,12 +933,19 @@ function SourceLink(
     >
       <span>
         <b>
-          {host}
+          {source.displayTitle ||
+            "منبع رسمی"}
         </b>
 
         <small>
-          {path ||
-            "/"}
+          {[
+            host,
+            path || "/",
+          ]
+            .filter(Boolean)
+            .join(
+              " · "
+            )}
         </small>
       </span>
 
@@ -964,6 +967,11 @@ function Catalog(
     empty: string;
   }
 ) {
+  const displayTitles =
+    semanticCatalogTitles(
+      items
+    );
+
   const primary =
     items.slice(
       0,
@@ -1007,6 +1015,11 @@ function Catalog(
                     item={
                       item
                     }
+                    displayTitle={
+                      displayTitles.get(
+                        item
+                      )
+                    }
                     key={
                       item.id ||
                       canonicalPublicUrl(
@@ -1041,6 +1054,11 @@ function Catalog(
                         item={
                           item
                         }
+                        displayTitle={
+                          displayTitles.get(
+                            item
+                          )
+                        }
                         key={
                           item.id ||
                           canonicalPublicUrl(
@@ -1074,8 +1092,10 @@ function Catalog(
 function CatalogItem(
   {
     item,
+    displayTitle,
   }: {
     item: any;
+    displayTitle?: string;
   }
 ) {
   const url =
@@ -1113,7 +1133,8 @@ function CatalogItem(
     <>
       <span>
         <b>
-          {item.nameFa ||
+          {displayTitle ||
+            item.nameFa ||
             item.title ||
             "رکورد بدون عنوان"}
         </b>
