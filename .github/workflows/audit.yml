@@ -62,6 +62,10 @@ jobs:
 
       DISCOVERY_PROMOTE_CONFIDENCE: "0.78"
 
+      PIPELINE_ARTIFACT_ROOT: "C:\\actions-runner\\_pipeline-artifacts"
+
+      PIPELINE_WORK_ROOT: "C:\\actions-runner\\_pipeline-work"
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -74,6 +78,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set UTC snapshot date
+        shell: powershell
+        run: |
+          $date = (Get-Date).ToUniversalTime().ToString("yyyy-MM-dd")
+          "PIPELINE_SNAPSHOT_DATE=$date" >> $env:GITHUB_ENV
 
       - name: Clean legacy downloaded document archive
         shell: cmd
