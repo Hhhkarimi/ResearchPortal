@@ -6,6 +6,7 @@ import rawUnits from "@/data/units/catalog.json";
 import rawSystems from "@/data/systems/catalog.json";
 import rawDocs from "@/data/documents/catalog.json";
 import rawSummary from "@/data/statistics/summary.json";
+import rawSnapshotDiff from "@/data/statistics/snapshot-diff.json";
 import rawProvenance from "@/data/evidence/provenance-ledger.json";
 import rawDimensions from "@/data/evidence/dimension-evidence.json";
 import rawReviews from "@/data/evidence/research-review.json";
@@ -394,6 +395,8 @@ export const datasetSummary:
   provenanceRecords:
     provenanceLedger.length,
 };
+
+export const snapshotDiff = rawSnapshotDiff;
 
 export {
   canonicalPublicUrl,

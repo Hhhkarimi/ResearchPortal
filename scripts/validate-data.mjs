@@ -8,6 +8,8 @@ const source = read("data/isc/source.json");
 const audits = read("data/audit/portal-audit.json");
 const deepAudits = read("data/audit/deep-audit-matrix.json");
 const rankings = read("data/statistics/portal-ranking.json");
+const summary = read("data/statistics/summary.json");
+const snapshotDiff = read("data/statistics/snapshot-diff.json");
 const units = read("data/units/catalog.json");
 const systems = read("data/systems/catalog.json");
 const documents = read("data/documents/catalog.json");
@@ -47,6 +49,28 @@ const EXPECTED_INSTITUTIONS = 115;
 const EXPECTED_DIMENSIONS = dimensions.length;
 const EXPECTED_DIMENSION_OUTCOMES = EXPECTED_INSTITUTIONS * EXPECTED_DIMENSIONS;
 const EXPECTED_RTPMI_VERSION = process.env.PIPELINE_METHODOLOGY_VERSION || "RTPMI-4.2-ISC";
+
+if (summary.methodologyVersion !== EXPECTED_RTPMI_VERSION) {
+  throw new Error(`Summary methodology is stale: ${summary.methodologyVersion}`);
+}
+if (summary.publicEvidenceDimensions !== EXPECTED_DIMENSIONS) {
+  throw new Error(`Summary must expose ${EXPECTED_DIMENSIONS} public dimensions`);
+}
+for (const field of ["dimensions", "reviewDimensions", "reportedReviewDimensions"]) {
+  if (Object.prototype.hasOwnProperty.call(summary[field] || {}, "informationTechnology")) {
+    throw new Error(`Legacy IT dimension remains in summary.${field}`);
+  }
+  if (Object.keys(summary[field] || {}).length !== EXPECTED_DIMENSIONS) {
+    throw new Error(`Summary ${field} must contain exactly ${EXPECTED_DIMENSIONS} dimensions`);
+  }
+}
+if (summary.dimensionEvidenceOutcomes !== EXPECTED_DIMENSION_OUTCOMES ||
+    summary.reviewCoverage?.dimensionOutcomes !== EXPECTED_DIMENSION_OUTCOMES) {
+  throw new Error(`Summary outcome count must be ${EXPECTED_DIMENSION_OUTCOMES}`);
+}
+if (snapshotDiff.toSnapshot !== summary.snapshotDate || !snapshotDiff.fromSnapshot) {
+  throw new Error("Snapshot diff is not aligned with the current summary");
+}
 
 const TRACKING_PARAMS = new Set([
   "fbclid",

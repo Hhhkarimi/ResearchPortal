@@ -1,7 +1,7 @@
 [pipeline]
 name = "research-portal-release"
 snapshot_date = "${PIPELINE_SNAPSHOT_DATE:-2026-08-12}"
-schema_version = "${PIPELINE_SCHEMA_VERSION:-10.0.0}"
+schema_version = "${PIPELINE_SCHEMA_VERSION:-11.0.0}"
 methodology_version = "${PIPELINE_METHODOLOGY_VERSION:-RTPMI-4.2-ISC}"
 artifact_root = "${PIPELINE_ARTIFACT_ROOT:-.pipeline/artifacts}"
 work_root = "${PIPELINE_WORK_ROOT:-.pipeline/work}"
@@ -142,6 +142,8 @@ name = "snapshot_generation"
 depends_on = ["evidence_validation_build"]
 commands = [
   ["node", "scripts/recompute-summary.mjs"],
+  ["node", "scripts/build-snapshot-diff.mjs"],
+  ["node", "scripts/build-global-search-index.mjs"],
   ["node", "scripts/build-public-data.mjs"],
   ["node", "scripts/build-audit-packets.mjs"],
   ["node", "scripts/export-csv.mjs"],
@@ -153,6 +155,7 @@ inputs = [
   "data/audit/deep-audit-matrix.json",
   "data/statistics/portal-ranking.json",
   "data/statistics/rtpmi-weights.json",
+  "data/snapshots",
   "data/units/catalog.json",
   "data/systems/catalog.json",
   "data/documents/catalog.json",

@@ -4,7 +4,7 @@ const [isc,audits,deep,rankings,units,systems,documents,dimensionEvidence]=await
   read('data/isc/institutions.json'),read('data/audit/portal-audit.json'),read('data/audit/deep-audit-matrix.json'),read('data/statistics/portal-ranking.json'),read('data/units/catalog.json'),read('data/systems/catalog.json'),read('data/documents/catalog.json'),read('data/evidence/dimension-evidence.json')
 ]);
 const A=new Map(audits.map(x=>[x.universitySlug,x])),D=new Map(deep.map(x=>[x.universitySlug,x])),R=new Map(rankings.map(x=>[x.universitySlug,x]));
-const snapshotDate=process.env.PIPELINE_SNAPSHOT_DATE||"2026-08-11",schemaVersion=process.env.PIPELINE_SCHEMA_VERSION||"10.0.0";
+const snapshotDate=process.env.PIPELINE_SNAPSHOT_DATE||"2026-08-12",schemaVersion=process.env.PIPELINE_SCHEMA_VERSION||"11.0.0";
 await fs.rm('data/audit/packets',{recursive:true,force:true});await fs.mkdir('data/audit/packets',{recursive:true});
 await fs.rm('public/datasets/audit-packets',{recursive:true,force:true});await fs.mkdir('public/datasets/audit-packets',{recursive:true});
 const index=[];

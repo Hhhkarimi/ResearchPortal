@@ -4,6 +4,7 @@ import Link from "next/link";
 import {usePathname} from "next/navigation";
 import {useState} from "react";
 import {ThemeToggle} from "@/components/theme-toggle";
+import {CommandSearch} from "@/components/command-search";
 
 const nav = [
   ["/universities", "دانشگاه‌ها"],
@@ -29,6 +30,7 @@ export function Header(){
         <Link href="/methodology" onClick={()=>setOpen(false)} className={pathname.startsWith("/methodology")?"active":""}>روش‌شناسی</Link>
       </nav>
       <div className="headerActions">
+        <CommandSearch/>
         <ThemeToggle/>
         <Link href="/datasets" className="headerCta">دریافت داده <span>↙</span></Link>
         <button className="menuButton" type="button" aria-label={open?"بستن منو":"باز کردن منو"} aria-expanded={open} onClick={()=>setOpen(current=>!current)}><i/><i/><i/></button>

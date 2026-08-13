@@ -1,7 +1,7 @@
 import Link from "next/link";
 import {HomeExplorer} from "@/components/home-explorer";
 import {HeroConstellation} from "@/components/visual-stories";
-import {audits,datasetSummary,institutions,rankings,researchReviews} from "@/lib/data";
+import {audits,datasetSummary,institutions,rankings,researchReviews,snapshotDiff} from "@/lib/data";
 
 const fa=(n:number)=>n.toLocaleString("fa-IR");
 
@@ -17,7 +17,7 @@ export default function Home(){
   return <main>
     <section className="hero shell">
       <div className="heroCopy">
-        <div className="liveBadge"><i/> ممیزی پرتال معاونت پژوهشی و فناوری ۱۱۵ نهاد دولتی ISC <span>Snapshot ۱۰.۰</span></div>
+        <div className="liveBadge"><i/> ممیزی پرتال معاونت پژوهشی و فناوری ۱۱۵ نهاد دولتی ISC <span>Observatory ۱۱.۰</span></div>
         <h1>ردِ شواهد را بگیرید؛<em> پرتال معاونت پژوهشی و فناوری را بسنجید.</em></h1>
         <p>رصدخانه‌ای برای سنجش بلوغ و شفافیت پرتال معاونت پژوهشی و فناوری دانشگاه‌ها؛ از ساختار معاونت و کتابخانه تا آزمایشگاه، صنعت و فناوری، سامانه‌ها و اسناد.</p>
         <HomeExplorer institutions={searchInstitutions} audits={searchAudits} rankings={searchRankings}/>
@@ -37,6 +37,46 @@ export default function Home(){
         <div><b>{fa(summary.systems)}</b><span>سامانه و خدمت</span></div>
         <div><b>{fa(summary.documents)}</b><span>سند و فرم مستقیم</span></div>
       </div>
+    </section>
+
+    <section className="shell snapshotDelta" aria-labelledby="snapshot-delta-title">
+      <header>
+        <div>
+          <span className="eyebrow">Snapshot delta · {snapshotDiff.fromSnapshot} → {snapshotDiff.toSnapshot}</span>
+          <h2 id="snapshot-delta-title">از رصد قبلی چه تغییر کرده؟</h2>
+        </div>
+        <p>تغییرات با داده نسخه‌بندی‌شده محاسبه شده‌اند؛ خطاهای دسترسی به معنی حذف منبع نیست.</p>
+      </header>
+      <div className="snapshotDeltaGrid">
+        <article>
+          <span>پوشش Evidence</span>
+          <b>{snapshotDiff.totals.evidenceCoverageAverage.delta > 0 ? "+" : ""}{fa(snapshotDiff.totals.evidenceCoverageAverage.delta)}</b>
+          <small>واحد درصد، با مبنای ثابت هفت‌بُعدی</small>
+        </article>
+        <article>
+          <span>پرتال مستقیم رسمی جدید</span>
+          <b>{fa(snapshotDiff.newDirectPortals.length)}</b>
+          <small>تغییر وضعیت نسبت به Snapshot قبلی</small>
+        </article>
+        <article>
+          <span>پالایش اسناد خارج از دامنه</span>
+          <b>{fa(Math.abs(snapshotDiff.totals.documents.delta))}</b>
+          <small>رکورد خبری/نامرتبط از catalog پژوهشی کنار گذاشته شد</small>
+        </article>
+        <article className="attention">
+          <span>لینک نیازمند بازبینی</span>
+          <b>{fa(snapshotDiff.brokenLinksDetected)}</b>
+          <small>پاسخ ناموفق در پایش metadata</small>
+        </article>
+        <article>
+          <span>تغییر در ردیف‌های RTPMI</span>
+          <b>{fa(snapshotDiff.rankingChanges)}</b>
+          <small>{snapshotDiff.methodologyChanged ? "بازمبنایی روش 4.1 به 4.2" : "با روش‌شناسی ثابت"}</small>
+        </article>
+      </div>
+      {snapshotDiff.methodologyChanged ? <div className="snapshotMethodNote">
+        <b>یادداشت تفسیر:</b> تغییر امتیازها در این انتشار فقط تغییر عملکرد نیست؛ روش‌شناسی از {snapshotDiff.methodology.before} به {snapshotDiff.methodology.after} تغییر کرده است.
+      </div> : null}
     </section>
 
     <section className="shell section journey">

@@ -8,6 +8,7 @@ import {
 
 import {
   datasetSummary,
+  dimensionEvidence,
   researchReviews
 } from "@/lib/data";
 
@@ -20,6 +21,7 @@ export default function Page() {
   const summary:
     any =
     datasetSummary;
+  const evidenceIndex = new Map(dimensionEvidence.map((item:any) => [`${item.universitySlug}:${item.dimension}`, item]));
 
   return (
     <main className="shell page">
@@ -41,14 +43,14 @@ export default function Page() {
         </div>
 
         <div className="pageHeroStamp">
-          <b>۸۰۵</b>
+          <b>۱۱۵</b>
 
           <span>
-            خانه ممیزی
+            نهاد در رصد ملی
           </span>
 
           <small>
-            ۱۱۵ نهاد × ۷ بُعد
+            ۷ بُعد · ۸۰۵ outcome مستند
           </small>
         </div>
       </header>
@@ -109,6 +111,16 @@ export default function Page() {
           iscRank:item.iscRank,
           reviewEvidenceCoverage:item.reviewEvidenceCoverage,
           dimensions:item.dimensions,
+          evidence:Object.fromEntries(Object.keys(item.dimensions).map((dimension) => {
+            const evidence:any=evidenceIndex.get(`${item.universitySlug}:${dimension}`);
+            const source=evidence?.sources?.[0];
+            return [dimension,evidence?{
+              sourceCount:evidence.sourceCount,
+              lastVerified:evidence.reviewedAt || source?.lastVerified || evidence.lastVerified || source?.verifiedAt || null,
+              verificationBasis:evidence.verificationBasis,
+              source:source?{url:source.url,label:source.label || source.title || source.claim}:null,
+            }:null];
+          })),
         }))}
       />
     </main>

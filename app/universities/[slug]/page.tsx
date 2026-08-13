@@ -30,6 +30,7 @@ import {
   semanticCatalogTitles,
   semanticEvidenceSources,
 } from "@/lib/semantic-labels";
+import {buildUniversityInsights} from "@/lib/university-insights";
 
 export function generateStaticParams() {
   return institutions.map(
@@ -257,6 +258,15 @@ export default async function Page(
           ),
         }
       : null;
+
+  const insights = buildUniversityInsights({
+    outcomes: reviewed,
+    coverage,
+    ranking,
+    units: units.length,
+    systems: systems.length,
+    documents: documents.length,
+  });
 
   return (
     <main className="shell page profilePage">
@@ -515,6 +525,29 @@ export default async function Page(
             )}{" "}
             سند
           </small>
+        </div>
+      </section>
+
+      <section className="profileDecision" aria-labelledby="profile-decision-title">
+        <div className="profileDecisionHead">
+          <div>
+            <span className="eyebrow">Decision brief · همین Snapshot</span>
+            <h2 id="profile-decision-title">سه نکته مهم این پرتال</h2>
+          </div>
+          <p>این جمع‌بندی از outcomeهای عمومی ساخته شده و درباره عملکرد پژوهشی دانشگاه داوری نمی‌کند.</p>
+        </div>
+        <div className="profileInsightGrid">
+          {insights.highlights.map((item) => <article className={item.tone} key={item.label}>
+            <span>{item.label}</span><b>{item.title}</b><p>{item.text}</p>
+          </article>)}
+        </div>
+        <div className="actionGapPanel">
+          <header><div><span>شکاف‌های قابل اقدام</span><b>چه چیزی در سطح عمومی پرتال قابل بهبود است؟</b></div><small>{insights.gaps.length.toLocaleString("fa-IR")} اقدام اولویت‌دار</small></header>
+          <div>
+            {insights.gaps.map((gap, index) => <article key={gap.dimension}>
+              <i>{(index + 1).toLocaleString("fa-IR")}</i><span><b>{gap.title}</b><p>{gap.action}</p></span><em className={gap.status}/>
+            </article>)}
+          </div>
         </div>
       </section>
 

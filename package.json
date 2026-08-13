@@ -1,6 +1,6 @@
 {
   "name": "iran-research-portal-observatory",
-  "version": "10.0.0",
+  "version": "11.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -23,6 +23,7 @@
     "monitor:links": "node scripts/audit-all-isc.mjs",
     "release:check": "npm run prepare:data && npm run validate:data && npm run validate:no-social",
     "validate:no-social": "node scripts/check-no-social-evidence.mjs",
+    "validate:v11": "node scripts/validate-v11-observatory.mjs",
     "db:migrate": "node scripts/db-migrate.mjs",
     "db:import": "node scripts/db-import-snapshot.mjs",
     "db:validate": "node scripts/db-validate.mjs",

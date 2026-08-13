@@ -26,7 +26,7 @@ npm run lint
 npm run build
 ```
 
-`release:check` گزارش تحقیق ۱۱۵ دانشگاه را به داده ساختاریافته تبدیل می‌کند، رجیستر ۹۲۰ outcome را می‌سازد و تمام JSON/CSVها و Audit Packetها را دوباره تولید می‌کند.
+`release:check` گزارش تحقیق ۱۱۵ دانشگاه را به داده ساختاریافته تبدیل می‌کند، رجیستر ۸۰۵ outcome هفت‌بُعدی را می‌سازد و تمام JSON/CSVها، Snapshot Diff، Search Index و Audit Packetها را دوباره تولید می‌کند.
 
 ## متغیر محیطی
 

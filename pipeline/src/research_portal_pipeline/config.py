@@ -86,7 +86,7 @@ def load_config(path: Path, project_root: Path) -> PipelineConfig:
     return PipelineConfig(
         name=str(pipeline.get("name", "research-portal")),
         snapshot_date=snapshot_date,
-        schema_version=_expand(str(pipeline.get("schema_version", "10.0.0"))),
+        schema_version=_expand(str(pipeline.get("schema_version", "11.0.0"))),
         methodology_version=_expand(str(pipeline.get("methodology_version", "RTPMI-4.2-ISC"))),
         artifact_root=_path(str(pipeline.get("artifact_root", ".pipeline/artifacts")), project_root),
         work_root=_path(str(pipeline.get("work_root", ".pipeline/work")), project_root),

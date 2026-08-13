@@ -1,4 +1,4 @@
-# رصدخانه ملی پرتال پژوهش و فناوری — ISC 115 / v10.0.0
+# رصدخانه ملی پرتال معاونت پژوهشی و فناوری — ISC 115 / v11.0.0 Observatory
 
 **Iran Research & Technology Portal Observatory** یک پروژه متن‌باز، فارسی/RTL و Evidence-first برای رصد و مقایسه **پرتال عمومی معاونت پژوهش و فناوری** دانشگاه‌ها و مؤسسات دولتی حاضر در طبقه‌بندی ملی ISC است.
 
@@ -20,29 +20,28 @@
 
 دانشگاه‌های غیردولتی ISC و دانشگاه‌های علوم پزشکی در Scope این پروژه نیستند. Validator در صورت کم/زیاد شدن حتی یک عضو یا تغییر تعداد طبقات Fail می‌شود.
 
-## وضعیت ممیزی v10.0
+## وضعیت ممیزی v11.0
 
 - **115/115** نهاد ISC دارای Portal Resolution Outcome هستند؛ هیچ عضو بدون نتیجه ممیزی باقی نمانده است.
 - **115/115** نهاد یک باز‌ممیزی تازهٔ دوگذر برای پرتال پژوهش و فناوری و مخازن اسناد دریافت کرده‌اند.
-- **52** هویت پرتال/سطح مستقیم رسمی (`direct-official`).
-- **19** پرتال دارای Deep Audit کافی و واجد Gate فعلی RTPMI.
-- **33** پرتال مستقیم رسمی هنوز Deep Evidence کافی برای رتبه عمومی ندارند.
-- **6** نهاد با وضعیت دسترسی عمومی محدود/restricted بسته شده‌اند.
-- **4** false-positive شناسایی و Block شده‌اند تا منبع اشتباه وارد Production نشود.
-- **154** رکورد واحد/زیرمجموعه پژوهشی.
-- **92** سامانه/خدمت.
-- **60** سند/فرم/آیین‌نامه/شیوه‌نامه/شاخص سند ساختاریافته و طبقه‌بندی‌شده.
-- **462** رکورد Provenance.
+- **98** هویت پرتال/سطح مستقیم رسمی (`direct-official`).
+- **79** پرتال دارای Deep Audit کافی و واجد Gate فعلی RTPMI.
+- **19** پرتال مستقیم رسمی هنوز Deep Evidence کافی برای رتبه عمومی ندارند.
+- **4** پرونده با وضعیت دسترسی عمومی محدود/restricted بسته شده‌اند.
+- **1** false-positive شناسایی و Block شده است تا منبع اشتباه وارد Production نشود.
+- **1,973** رکورد واحد/زیرمجموعه پژوهشی.
+- **718** سامانه/خدمت.
+- **4,862** سند/فرم/آیین‌نامه/شیوه‌نامه ساختاریافته و طبقه‌بندی‌شده.
+- **13,059** رکورد Provenance.
 - **115 Audit Packet مستقل**؛ یک فایل کامل برای هر عضو ISC.
-- **920 Outcome مستقل Evidence**؛ هشت نتیجه بازبینی برای هر یک از ۱۱۵ دانشگاه.
-- باز‌ممیزی جدید صفحهٔ اصلی پرتال را فقط برای «هویت پرتال» کافی می‌داند؛ استفادهٔ همان URL برای ابعاد دیگر در حد ارجاع می‌ماند و IT بدون شاهد رابطه سازمانی تأیید نمی‌شود. رجیستر قابل انتشار: **104** تأیید، **151** ارجاع رسمی، **31** محدود و **634** حل‌نشده.
-- **158 URL رسمی یکتا** و **411 ارجاع منبع** در رجیستر بُعدی.
-- **19** پرتال رتبه‌پذیر و **96 Unranked**.
+- **805 Outcome مستقل Evidence**؛ هفت نتیجه بازبینی برای هر یک از ۱۱۵ دانشگاه.
+- فناوری اطلاعات یک بُعد مستقل نیست و فقط در صورت نگاشت معتبر، زیر «سامانه‌ها و خدمات» یا «ساختار سازمانی» قرار می‌گیرد.
+- **79** پرتال رتبه‌پذیر و **36 Unranked**.
 - **0** امتیاز ساختگی برای داده‌های حل‌نشده.
 
-گزارش منبع باز‌ممیزی در `docs/PORTAL_DOCUMENT_REAUDIT_115.md` و دادهٔ ماشینی آن در `data/evidence/portal-document-reaudit.json` نگهداری می‌شود. ۵۲ به معنی «تعداد پرتال مستقیم بازیابی‌شده در این Snapshot» است؛ ۶۳ مورد دیگر غایب فرض نمی‌شوند و ممکن است محدود، کم‌ایندکس یا هنوز حل‌نشده باشند.
+گزارش منبع باز‌ممیزی در `docs/PORTAL_DOCUMENT_REAUDIT_115.md` و دادهٔ ماشینی آن در `data/evidence/portal-document-reaudit.json` نگهداری می‌شود. نتیجه حل‌نشده یا محدود به معنی نبود قابلیت در دانشگاه نیست؛ فقط شواهد عمومی کافی در Snapshot حاضر بازیابی نشده است.
 
-## هشت بُعد Deep Audit
+## هفت بُعد عمومی ممیزی
 
 برای هر ۱۱۵ نهاد، این ماتریس در `data/audit/deep-audit-matrix.json` وجود دارد:
 
@@ -51,9 +50,8 @@
 3. کتابخانه و مرکز اسناد
 4. آزمایشگاه مرکزی/پژوهشی و زیرساخت‌ها
 5. ارتباط با صنعت، فناوری، نوآوری، TTO و IP
-6. فناوری اطلاعات — فقط با Evidence سازمانی
-7. سامانه‌ها و خدمات دیجیتال
-8. آیین‌نامه‌ها، فرم‌ها، شیوه‌نامه‌ها، دستورالعمل‌ها و سایر اسناد
+6. سامانه‌ها و خدمات پژوهشی
+7. آیین‌نامه‌ها، فرم‌ها، شیوه‌نامه‌ها، دستورالعمل‌ها و سایر اسناد
 
 وضعیت هر خانه یکی از این موارد است:
 
@@ -64,7 +62,7 @@
 
 `unresolved` به معنی «وجود ندارد» نیست.
 
-رجیستر انتشار یک gate دوم هم دارد: URL باید به همان بُعد قابل نگاشت باشد. تأیید IT علاوه بر URL، نیازمند رکورد رسمی رابطه سازمانی است. `restricted` تکمیل فرایند بازبینی را نشان می‌دهد، اما در Evidence Coverage امتیاز پوشش نمی‌گیرد.
+رجیستر انتشار یک gate دوم هم دارد: URL باید به همان بُعد قابل نگاشت باشد. `restricted` تکمیل فرایند بازبینی را نشان می‌دهد، اما در Evidence Coverage امتیاز پوشش نمی‌گیرد.
 
 ## Audit Packet برای تک‌تک ۱۱۵ عضو
 
@@ -73,7 +71,7 @@
 - هویت و رتبه/طبقه ISC
 - نتیجه Portal Audit
 - Evidence URLها
-- ماتریس هشت‌بُعدی
+- ماتریس هفت‌بُعدی
 - Audit Evidence Coverage
 - واحدهای تابع/مرتبط ثبت‌شده
 - سامانه‌ها و نوع رابطه آنها
@@ -81,7 +79,9 @@
 - RTPMI/Confidence در صورت واجد شرایط بودن
 - توضیح صریح Missing/Unranked
 
-## RTPMI 4.1 — مدل قابل بازتولید
+## RTPMI 4.2 — مدل قابل بازتولید
+
+تعریف کامل و نسخه‌بندی‌شده روش در [`docs/RTPMI_4_2_METHODOLOGY.md`](docs/RTPMI_4_2_METHODOLOGY.md) نگهداری می‌شود.
 
 وزن‌ها:
 
@@ -114,7 +114,7 @@ data/
 │   └── source.json
 ├── audit/
 │   ├── portal-audit.json        # 115/115 portal outcomes
-│   ├── deep-audit-matrix.json   # 115 × 8
+│   ├── deep-audit-matrix.json   # 115 × 7
 │   ├── packets/                 # 115 independent audit packets
 │   └── packets-index.json
 ├── units/catalog.json
@@ -123,8 +123,10 @@ data/
 ├── evidence/
 │   ├── provenance-ledger.json
 │   ├── research-review.json      # 115 independent reviews
-│   ├── dimension-evidence.json   # 115 × 8 = 920 outcomes
+│   ├── dimension-evidence.json   # 115 × 7 = 805 outcomes
 │   └── portal-document-reaudit.json # fresh portal/document discovery for all 115
+├── snapshots/<date>/             # frozen inputs for reproducible diffs
+├── search/global-index.json      # compact four-kind server search index
 └── statistics/
     ├── portal-ranking.json
     ├── rtpmi-weights.json
@@ -167,11 +169,11 @@ npm run release:check
 - `/isc-scope` Scope دقیق ISC
 - `/universities` فهرست ۱۱۵ عضو
 - `/universities/[slug]` پرونده Evidence هر دانشگاه
-- `/audit` ماتریس 115×8
+- `/audit` ماتریس تعاملی 115×7
 - `/rankings` RTPMI فقط برای Evidence-qualified portals
 - `/compare` مقایسه چندبُعدی
 - `/documents` Document Explorer
-- `/evidence` رجیستر فیلترپذیر ۹۲۰ Outcome شواهد و پیوندهای Provenance
+- `/evidence` رجیستر فیلترپذیر ۸۰۵ Outcome شواهد و پیوندهای Provenance
 - `/datasets` Open Data
 - `/api-docs` راهنمای API نسخه ۱
 - `/methodology` روش‌شناسی
@@ -183,6 +185,7 @@ npm run release:check
 - `GET /api/v1/evidence` با فیلترهای `university`، `dimension`، `status`، `limit` و `offset`
 - `GET /api/v1/rankings`
 - `GET /api/v1/summary`
+- `GET /api/v1/search?q=...&limit=...` برای جست‌وجوی دانشگاه، سند، سامانه و واحد پژوهشی
 - `GET /api/v1/health`
 - قرارداد OpenAPI در `/openapi.json`
 
