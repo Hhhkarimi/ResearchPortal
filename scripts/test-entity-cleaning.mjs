@@ -111,7 +111,7 @@ const cases = [
     keep: false,
   },
   {
-    name: "Library portal endpoint on a dedicated subdomain stays a system",
+    name: "Library portal endpoint on a university subdomain stays an internal system",
     kind: "systems",
     record: {
       universitySlug: "sirjan-technology",
@@ -122,10 +122,11 @@ const cases = [
       discoveredBy: "research-deep-discovery",
     },
     keep: true,
-    entityType: "external-system",
+    entityType: "system",
+    ownershipScope: "university",
   },
   {
-    name: "Trusted scientometrics endpoint remains a system",
+    name: "Trusted scientometrics subdomain remains an internal university system",
     kind: "systems",
     record: {
       universitySlug: "kharazmi",
@@ -137,7 +138,42 @@ const cases = [
       evidence: "verified",
     },
     keep: true,
+    entityType: "system",
+    ownershipScope: "university",
+  },
+  {
+    name: "Semnan research subdomain is university-owned, not external",
+    kind: "systems",
+    record: {
+      universitySlug: "semnan",
+      nameFa: "سامانه مدیریت پژوهانه",
+      category: "research",
+      url: "https://sampad.semnan.ac.ir/",
+      sourceUrl: "https://research.semnan.ac.ir/",
+      relation: "unit-service",
+      evidence: "verified",
+    },
+    keep: true,
+    entityType: "system",
+    relation: "unit-service",
+    ownershipScope: "university",
+  },
+  {
+    name: "Different institutional domain can remain external-specific",
+    kind: "systems",
+    record: {
+      universitySlug: "example",
+      nameFa: "سامانه پژوهشی اختصاصی برون‌میزبان",
+      category: "research",
+      url: "https://research-app.vendor-example.com/login",
+      sourceUrl: "https://research.example.ac.ir/",
+      relation: "linked-external-system",
+      evidence: "verified",
+    },
+    keep: true,
     entityType: "external-system",
+    relation: "linked-external-system",
+    ownershipScope: "external-specific",
   },
   {
     name: "Allameh curriculum form is not a library unit",
@@ -216,6 +252,124 @@ const cases = [
     topicDimension: "industryTechnology",
   },
   {
+    name: "SHAA is a ministry national service, not a university system",
+    kind: "systems",
+    record: {
+      universitySlug: "lorestan",
+      nameFa: "شبکه آزمایشگاه‌های علمی ایران (شاعا)",
+      category: "laboratory",
+      url: "https://shaa.msrt.ir/",
+      sourceUrl: "https://research.lu.ac.ir/واحدها/آزمایشگاه-مرکزی/",
+      relation: "national-related-system",
+      evidence: "verified",
+      discoveredBy: "research-deep-discovery",
+    },
+    keep: false,
+    entityType: "external-service",
+    dimension: "laboratories",
+    relation: "links-to",
+    ownershipScope: "ministry-national",
+    countTowardUniversitySystems: false,
+    countTowardRTPMI: false,
+  },
+  {
+    name: "National-related system relation never counts as a university system",
+    kind: "systems",
+    record: {
+      universitySlug: "example",
+      nameFa: "سامانه ملی پژوهشی",
+      category: "research",
+      url: "https://national.example.gov.ir/login",
+      sourceUrl: "https://research.example.ac.ir/",
+      relation: "national-related-system",
+      evidence: "verified",
+    },
+    keep: false,
+    entityType: "external-service",
+    relation: "links-to",
+    countTowardUniversitySystems: false,
+    countTowardRTPMI: false,
+  },
+  {
+    name: "MegaPaper is an external literature provider, not a university system",
+    kind: "systems",
+    record: {
+      universitySlug: "shahed",
+      nameFa: "سامانه تأمین مدارک علمی مگاپیپر",
+      category: "library",
+      url: "https://megapaper.ir/",
+      sourceUrl: "https://library.shahed.ac.ir/",
+      relation: "linked-from-portal",
+      evidence: "verified",
+    },
+    keep: false,
+    entityType: "external-service",
+    dimension: "libraryDocuments",
+    relation: "links-to",
+    ownershipScope: "commercial-external",
+    countTowardUniversitySystems: false,
+    countTowardRTPMI: false,
+  },
+  {
+    name: "GigaLib is an external literature provider, not a university system",
+    kind: "systems",
+    record: {
+      universitySlug: "example",
+      nameFa: "گیگالیب",
+      category: "library",
+      url: "https://gigalib.org/ip/",
+      sourceUrl: "https://library.example.ac.ir/",
+      relation: "linked-external-system",
+      evidence: "verified",
+    },
+    keep: false,
+    entityType: "external-service",
+    dimension: "libraryDocuments",
+    relation: "links-to",
+    ownershipScope: "commercial-external",
+    countTowardUniversitySystems: false,
+    countTowardRTPMI: false,
+  },
+  {
+    name: "GigaPaper brand fallback is external even if the exact provider host changes",
+    kind: "systems",
+    record: {
+      universitySlug: "example",
+      nameFa: "سامانه گیگاپیپر",
+      category: "library",
+      url: "https://papers.example-provider.ir/login",
+      sourceUrl: "https://library.example.ac.ir/",
+      relation: "linked-from-portal",
+      evidence: "verified",
+    },
+    keep: false,
+    entityType: "external-service",
+    dimension: "libraryDocuments",
+    relation: "links-to",
+    ownershipScope: "commercial-external",
+    countTowardUniversitySystems: false,
+    countTowardRTPMI: false,
+  },
+  {
+    name: "MSRT host cannot count as a university system even without national relation",
+    kind: "systems",
+    record: {
+      universitySlug: "iust",
+      nameFa: "سامانه ساجد",
+      category: "research",
+      url: "https://sajed.msrt.ir/",
+      sourceUrl: "https://research.iust.ac.ir/",
+      relation: "linked-external-system",
+      evidence: "verified",
+    },
+    keep: false,
+    entityType: "external-service",
+    relation: "links-to",
+    ownershipScope: "ministry-national",
+    countTowardUniversitySystems: false,
+    countTowardRTPMI: false,
+  },
+  {
     name: "Direct PDF remains document",
     kind: "documents",
     record: {
@@ -255,6 +409,14 @@ for (const test of cases) {
   if (test.entityType) assert.equal(result.entityType, test.entityType, `${test.name}: entityType`);
   if (test.dimension) assert.equal(result.dimension, test.dimension, `${test.name}: dimension`);
   if (test.topicDimension) assert.equal(result.topicDimension, test.topicDimension, `${test.name}: topicDimension`);
+  if (test.relation) assert.equal(result.relation, test.relation, `${test.name}: relation`);
+  if (test.ownershipScope) assert.equal(result.ownershipScope, test.ownershipScope, `${test.name}: ownershipScope`);
+  if (Object.prototype.hasOwnProperty.call(test, "countTowardUniversitySystems")) {
+    assert.equal(result.countTowardUniversitySystems, test.countTowardUniversitySystems, `${test.name}: countTowardUniversitySystems`);
+  }
+  if (Object.prototype.hasOwnProperty.call(test, "countTowardRTPMI")) {
+    assert.equal(result.countTowardRTPMI, test.countTowardRTPMI, `${test.name}: countTowardRTPMI`);
+  }
 
   const suffix = result.keep
     ? ` | ${JSON.stringify(enrichCatalogRecord(test.record, test.kind, result))}`

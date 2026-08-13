@@ -69,6 +69,136 @@ const SYSTEM_APPLICATION_PATH =
 const CONTENT_PAGE_PATH =
   /\/(?:organizational-structure|research-and-technology|units?|management|about|page|pages|news|article|announcement|announcements|guide|guides|how-to|instructions?|forms?|regulations?|downloads?)(?:\/|[?#]|$)/iu;
 
+// Shared national/ministry and third-party research-access services may be
+// linked from a university portal, but they are not university systems. They are
+// preserved as external-service references and never contribute to university
+// system counts or RTPMI. The rule is ownership-based, not just title-based.
+const EXTERNAL_RESEARCH_SERVICE_HOSTS = new Map([
+  ["shaa.msrt.ir", {
+    serviceId: "shaa",
+    dimension: "laboratories",
+    ownerType: "ministry",
+    ownershipScope: "ministry-national",
+  }],
+  ["emshaa.msrt.ir", {
+    serviceId: "shaa",
+    dimension: "laboratories",
+    ownerType: "ministry",
+    ownershipScope: "ministry-national",
+  }],
+  ["sajed.msrt.ir", {
+    serviceId: "sajed",
+    dimension: null,
+    ownerType: "ministry",
+    ownershipScope: "ministry-national",
+  }],
+  ["mapfa.msrt.ir", {
+    serviceId: "mapfa",
+    dimension: null,
+    ownerType: "ministry",
+    ownershipScope: "ministry-national",
+  }],
+  ["sate.atf.gov.ir", {
+    serviceId: "sate",
+    dimension: null,
+    ownerType: "national-agency",
+    ownershipScope: "national-shared",
+  }],
+  ["jcr.isc.ac", {
+    serviceId: "isc-jcr",
+    dimension: "libraryDocuments",
+    ownerType: "national-index",
+    ownershipScope: "national-shared",
+  }],
+  ["nan.ac", {
+    serviceId: "nan",
+    dimension: null,
+    ownerType: "national-platform",
+    ownershipScope: "national-shared",
+  }],
+  ["gigalib.org", {
+    serviceId: "gigalib",
+    dimension: "libraryDocuments",
+    ownerType: "external-provider",
+    ownershipScope: "commercial-external",
+  }],
+  ["gigalib.ir", {
+    serviceId: "gigalib",
+    dimension: "libraryDocuments",
+    ownerType: "external-provider",
+    ownershipScope: "commercial-external",
+  }],
+  ["gigapaper.ir", {
+    serviceId: "gigapaper",
+    dimension: "libraryDocuments",
+    ownerType: "external-provider",
+    ownershipScope: "commercial-external",
+  }],
+  ["megapaper.ir", {
+    serviceId: "megapaper",
+    dimension: "libraryDocuments",
+    ownerType: "external-provider",
+    ownershipScope: "commercial-external",
+  }],
+]);
+
+const EXTERNAL_RESEARCH_SERVICE_TEXT =
+  /گیگا[\s\u200c-]*لیب|گیگا[\s\u200c-]*پیپر|مگا[\s\u200c-]*پیپر|مگاپیپر|\bgiga[\s-]*lib\b|\bgiga[\s-]*paper\b|\bmega[\s-]*paper\b/iu;
+
+function sharedExternalService(record) {
+  const target = record?.url;
+  let host = null;
+  try {
+    host = new URL(String(target ?? "")).hostname.toLowerCase().replace(/^www\./, "");
+  } catch {}
+
+  if (host && EXTERNAL_RESEARCH_SERVICE_HOSTS.has(host)) {
+    return EXTERNAL_RESEARCH_SERVICE_HOSTS.get(host);
+  }
+
+  // Ministry/ISC domains are categorically outside university ownership even if
+  // a legacy row lost its national-related-system relation.
+  if (host && (host === "msrt.ir" || host.endsWith(".msrt.ir"))) {
+    return {
+      serviceId: null,
+      dimension: null,
+      ownerType: "ministry",
+      ownershipScope: "ministry-national",
+    };
+  }
+  if (host && (host === "isc.ac" || host.endsWith(".isc.ac"))) {
+    return {
+      serviceId: null,
+      dimension: "libraryDocuments",
+      ownerType: "national-index",
+      ownershipScope: "national-shared",
+    };
+  }
+
+  if (record?.relation === "national-related-system") {
+    return {
+      serviceId: null,
+      dimension: null,
+      ownerType: "national-shared",
+      ownershipScope: "national-shared",
+    };
+  }
+
+  const brandText = [record?.nameFa, record?.title, record?.label, target]
+    .filter(Boolean)
+    .join(" ");
+  if (EXTERNAL_RESEARCH_SERVICE_TEXT.test(brandText)) {
+    return {
+      serviceId: null,
+      dimension: "libraryDocuments",
+      ownerType: "external-provider",
+      ownershipScope: "commercial-external",
+    };
+  }
+
+  return null;
+}
+
 const DIMENSION_PATTERNS = [
   ["libraryDocuments", /کتابخانه|مرکز\s*اسناد|منابع\s*علمی|\blibrary\b|\bdocument\s+center\b/iu],
   ["laboratories", /آزمایشگاه|شبکه\s*آزمایشگاهی|تجهیزات\s*پژوهشی|\blaborator(?:y|ies)\b|\bcentral\s+lab\b/iu],
@@ -283,6 +413,31 @@ function sameHost(a, b) {
   return Boolean(ah && bh && ah === bh);
 }
 
+const MULTI_LABEL_PUBLIC_SUFFIXES = new Set([
+  "ac.ir", "gov.ir", "org.ir", "co.ir", "net.ir", "sch.ir", "id.ir",
+  "ac.uk", "co.uk", "org.uk", "gov.uk",
+]);
+
+function institutionalDomainFromHost(host) {
+  if (!host) return null;
+  const parts = String(host).toLowerCase().replace(/^www\./, "").split(".").filter(Boolean);
+  if (parts.length < 2) return parts.join(".") || null;
+
+  const lastTwo = parts.slice(-2).join(".");
+  if (MULTI_LABEL_PUBLIC_SUFFIXES.has(lastTwo) && parts.length >= 3) {
+    return parts.slice(-3).join(".");
+  }
+  return lastTwo;
+}
+
+function sameInstitutionDomain(a, b) {
+  const ah = canonicalHost(a);
+  const bh = canonicalHost(b);
+  const ad = institutionalDomainFromHost(ah);
+  const bd = institutionalDomainFromHost(bh);
+  return Boolean(ad && bd && ad === bd);
+}
+
 function systemHostSignal(value) {
   try {
     const host = canonicalHost(value);
@@ -462,7 +617,6 @@ function actualSystemEndpoint(record) {
   const trustedRelation = [
     "unit-service",
     "managed-by-portal",
-    "national-related-system",
     "system-endpoint",
     "linked-external-system",
   ].includes(record?.relation);
@@ -624,6 +778,30 @@ export function classifyCatalogRecord(record, catalogKind) {
   }
 
   if (catalogKind === "systems") {
+    const sharedService = sharedExternalService(record);
+    if (sharedService) {
+      const sharedDimension = sharedService.dimension || topicDimension || inferredDimension || "systemsServices";
+      return baseClassification({
+        keep: false,
+        entityType: "external-service",
+        dimension: sharedDimension,
+        primaryDimension: sharedDimension,
+        topicDimension: null,
+        relation: "links-to",
+        reason: sharedService.serviceId === "shaa"
+          ? "msrt-shaa-national-service-not-university-system"
+          : sharedService.ownershipScope === "commercial-external"
+            ? "third-party-research-access-service-not-university-system"
+            : "national-shared-service-not-university-system",
+        disposition: "reference",
+        serviceId: sharedService.serviceId,
+        ownerType: sharedService.ownerType,
+        ownershipScope: sharedService.ownershipScope,
+        countTowardUniversitySystems: false,
+        countTowardRTPMI: false,
+      });
+    }
+
     if (announcement) {
       return baseClassification({
         keep: false,
@@ -679,26 +857,30 @@ export function classifyCatalogRecord(record, catalogKind) {
       });
     }
 
+    // Different subdomains of the same institutional domain are still university-
+    // owned. For example research.semnan.ac.ir -> sampad.semnan.ac.ir is an
+    // internal university system, not an external system. Ownership is decided
+    // at the registrable institutional-domain level, not by exact hostname.
     const external = validEntityUrl(record?.url) &&
       validEntityUrl(record?.sourceUrl) &&
-      !sameHost(record.url, record.sourceUrl);
+      !sameInstitutionDomain(record.url, record.sourceUrl);
 
-    const semanticRelation = [
+    const internalRelations = new Set([
       "unit-service",
       "managed-by-portal",
-      "national-related-system",
       "system-endpoint",
-      "linked-external-system",
-    ].includes(record?.relation)
-      ? record.relation
-      : (external ? "linked-external-system" : "system-endpoint");
+    ]);
+    const semanticRelation = external
+      ? (record?.relation === "linked-external-system" ? record.relation : "linked-external-system")
+      : (internalRelations.has(record?.relation) ? record.relation : "system-endpoint");
 
     return baseClassification({
       keep: true,
       entityType: external ? "external-system" : "system",
+      ownershipScope: external ? "external-specific" : "university",
       dimension: "systemsServices",
       relation: semanticRelation,
-      reason: external ? "proven-research-external-system-endpoint" : "proven-research-system-endpoint",
+      reason: external ? "proven-research-external-system-endpoint" : "proven-university-system-endpoint",
       disposition: "catalog",
     });
   }
@@ -1086,6 +1268,13 @@ export function enrichCatalogRecord(record, catalogKind, classification) {
   if (classification.primaryDimension) next.primaryDimension = classification.primaryDimension;
   if (classification.topicDimension && classification.topicDimension !== "informationTechnology") {
     next.topicDimension = classification.topicDimension;
+  }
+  if (classification.ownershipScope) next.ownershipScope = classification.ownershipScope;
+  if (Object.prototype.hasOwnProperty.call(classification, "countTowardUniversitySystems")) {
+    next.countTowardUniversitySystems = classification.countTowardUniversitySystems;
+  }
+  if (Object.prototype.hasOwnProperty.call(classification, "countTowardRTPMI")) {
+    next.countTowardRTPMI = classification.countTowardRTPMI;
   }
 
   if (catalogKind === "units") {

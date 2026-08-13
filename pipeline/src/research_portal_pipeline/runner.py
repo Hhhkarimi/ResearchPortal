@@ -95,11 +95,17 @@ class PipelineRunner:
 
     def _stage_fingerprint(self, stage: StageSpec, work: Path) -> tuple[str, dict[str, str]]:
         inputs = hash_paths(work, stage.inputs)
+        # v2.2.4: stage cache must be invalidated whenever executable pipeline
+        # code/config changes. Previously the run manifest recorded code_hash but
+        # the stage fingerprint ignored it, so stale deterministic stage output
+        # could survive script changes and later fail release validation.
+        code_hash = self._code_hash()
         fingerprint = canonical_hash({
             "pipelineVersion": __version__, "stage": stage.name, "commands": stage.commands,
             "declaredInputs": stage.inputs, "declaredOutputs": stage.outputs,
             "dependsOn": stage.depends_on, "deterministic": stage.deterministic,
-            "inputs": inputs, "snapshotDate": self.config.snapshot_date,
+            "inputs": inputs, "codeHash": code_hash,
+            "snapshotDate": self.config.snapshot_date,
             "schemaVersion": self.config.schema_version,
             "methodologyVersion": self.config.methodology_version,
         })

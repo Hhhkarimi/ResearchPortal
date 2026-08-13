@@ -93,6 +93,17 @@ const badSystemTitle =
 
 for (const system of systems) {
   const title = normalizeEntityText(system.nameFa || system.title);
+  let systemHost = null;
+  try { systemHost = new URL(String(system.url || "")).hostname.toLowerCase().replace(/^www\./, ""); } catch {}
+  const forbiddenExternalSystemHost = systemHost && (
+    systemHost === "msrt.ir" || systemHost.endsWith(".msrt.ir") ||
+    systemHost === "isc.ac" || systemHost.endsWith(".isc.ac") ||
+    ["sate.atf.gov.ir", "nan.ac", "gigalib.org", "gigalib.ir", "gigapaper.ir", "megapaper.ir"].includes(systemHost)
+  );
+  const forbiddenExternalSystemBrand = /گیگا[\s\u200c-]*لیب|گیگا[\s\u200c-]*پیپر|مگا[\s\u200c-]*پیپر|مگاپیپر|\bgiga[\s-]*lib\b|\bgiga[\s-]*paper\b|\bmega[\s-]*paper\b/iu.test(title);
+  if (forbiddenExternalSystemHost || forbiddenExternalSystemBrand || system.relation === "national-related-system") {
+    failures.push(`systems: shared external service counted as university system | ${system.universitySlug} | ${system.nameFa || system.title || system.url}`);
+  }
   if (!system.url) {
     failures.push(`systems: endpoint URL missing | ${system.universitySlug} | ${system.nameFa || system.title}`);
   }
@@ -109,7 +120,35 @@ function hostOf(value) {
   catch { return null; }
 }
 
+const MULTI_LABEL_PUBLIC_SUFFIXES = new Set([
+  "ac.ir", "gov.ir", "org.ir", "co.ir", "net.ir", "sch.ir", "id.ir",
+  "ac.uk", "co.uk", "org.uk", "gov.uk",
+]);
+
+function institutionalDomain(value) {
+  const host = hostOf(value);
+  if (!host) return null;
+  const parts = host.split(".").filter(Boolean);
+  if (parts.length < 2) return parts.join(".") || null;
+  const lastTwo = parts.slice(-2).join(".");
+  return MULTI_LABEL_PUBLIC_SUFFIXES.has(lastTwo) && parts.length >= 3
+    ? parts.slice(-3).join(".")
+    : lastTwo;
+}
+
+function sameInstitutionDomain(a, b) {
+  const ad = institutionalDomain(a);
+  const bd = institutionalDomain(b);
+  return Boolean(ad && bd && ad === bd);
+}
+
 for (const system of systems) {
+  if (system.entityType === "external-system" && system.url && (system.sourceUrl || system.parentUrl) && sameInstitutionDomain(system.url, system.sourceUrl || system.parentUrl)) {
+    failures.push(`systems: university subdomain mislabeled external-system | ${system.universitySlug} | ${system.url}`);
+  }
+  if (system.entityType === "system" && system.ownershipScope && system.ownershipScope !== "university") {
+    failures.push(`systems: internal system has non-university ownership scope | ${system.universitySlug} | ${system.url || system.nameFa}`);
+  }
   const targetHost = hostOf(system.url);
   const sourceHost = hostOf(system.sourceUrl || system.parentUrl);
   const sameHost = targetHost && sourceHost && targetHost === sourceHost;
@@ -154,6 +193,27 @@ for (const ref of references) {
   }
 }
 
+for (const ref of references) {
+  let refHost = null;
+  try { refHost = new URL(String(ref.url || "")).hostname.toLowerCase().replace(/^www\./, ""); } catch {}
+  const knownExternalReference = refHost && (
+    refHost === "msrt.ir" || refHost.endsWith(".msrt.ir") ||
+    refHost === "isc.ac" || refHost.endsWith(".isc.ac") ||
+    ["sate.atf.gov.ir", "nan.ac", "gigalib.org", "gigalib.ir", "gigapaper.ir", "megapaper.ir"].includes(refHost)
+  );
+  if (knownExternalReference || ref.ownershipScope === "commercial-external" || ref.ownershipScope === "national-shared" || ref.ownershipScope === "ministry-national") {
+    if (ref.entityType !== "external-service" || ref.relation !== "links-to") {
+      failures.push(`references: external-service ownership classification invalid | ${ref.universitySlug} | ${JSON.stringify(ref)}`);
+    }
+    if (ref.countTowardUniversitySystems !== false || ref.countTowardRTPMI !== false) {
+      failures.push(`references: external service must not count toward university systems/RTPMI | ${ref.universitySlug} | ${ref.url}`);
+    }
+  }
+  if (["shaa.msrt.ir", "emshaa.msrt.ir"].includes(refHost) && ref.dimension !== "laboratories") {
+    failures.push(`references: SHAA must remain laboratory-context evidence | ${ref.universitySlug} | ${ref.url}`);
+  }
+}
+
 const lorestanSystemLeaks = systems.filter((item) =>
   item.universitySlug === "lorestan" &&
   /راهنمای\s*سامانه[\s‌-]*های\s*کتابخانه\s*مرکزی|مشاهده\s*پژوهانه.*سامانه\s*گلستان|راهنمای\s*استفاده\s*از\s*گرنت.*سامانه\s*گلستان|سامانه\s*ثبت\s*اختراع/iu.test(String(item.nameFa || item.title || ""))
@@ -193,18 +253,18 @@ if (tehranCentralLibraries.length > 1) {
 
 if (!report) failures.push("entity cleaning report is missing");
 if (report?.schemaVersion !== 2) failures.push(`entity cleaning report schemaVersion must be 2, got ${report?.schemaVersion}`);
-if (report?.policyVersion !== "entity-cleaning-2.2.2-news-path-canonical-labels") failures.push(`unexpected cleaning policy version: ${report?.policyVersion}`);
+if (report?.policyVersion !== "entity-cleaning-2.2.6-institutional-domain-ownership") failures.push(`unexpected cleaning policy version: ${report?.policyVersion}`);
 if (!references.length) failures.push("reference-pages is empty; cleaning stage probably did not run");
 
 if (failures.length) {
   throw new Error([
-    `Entity catalog validation v2.2.2 failed: ${failures.length}`,
+    `Entity catalog validation v2.2.6 failed: ${failures.length}`,
     ...failures.slice(0, 100),
   ].join("\n"));
 }
 
 console.log([
-  "entity catalog validation v2.2.2 passed",
+  "entity catalog validation v2.2.6 passed",
   `units=${units.length}`,
   `systems=${systems.length}`,
   `documents=${documents.length}`,

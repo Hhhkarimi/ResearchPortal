@@ -61,6 +61,11 @@ function compactReference(sourceCatalog, record, classification) {
     topicDimension: classification.topicDimension || null,
     relation: classification.relation,
     reason: classification.reason,
+    serviceId: classification.serviceId ?? null,
+    ownerType: classification.ownerType ?? null,
+    ownershipScope: classification.ownershipScope ?? null,
+    countTowardUniversitySystems: classification.countTowardUniversitySystems ?? null,
+    countTowardRTPMI: classification.countTowardRTPMI ?? null,
     discoveredBy: record?.discoveredBy || null,
     discoveryConfidence: record?.discoveryConfidence ?? null,
     lastVerified: record?.lastVerified || null,
@@ -453,11 +458,12 @@ for (const event of events) countsByAction[event.action] = (countsByAction[event
 const lorestanEvents = events.filter((item) => item.universitySlug === "lorestan");
 const report = {
   schemaVersion: 2,
-  policyVersion: "entity-cleaning-2.2.2-news-path-canonical-labels",
+  policyVersion: "entity-cleaning-2.2.6-institutional-domain-ownership",
   generatedAt: new Date().toISOString(),
   policy: {
     catalogs: "Catalogs contain actual organizational units, research-facing system endpoints, and documents only.",
-    references: "Indexes, guides, announcements, staff/profile pages, service pages and non-research systems are preserved as references.",
+    references: "Indexes, guides, announcements, staff/profile pages, service pages, national/ministry platforms and third-party research-access providers are preserved as references.",
+    externalOwnership: "National, ministry, ISC and shared commercial research-access services are not university systems and never count toward systemsServices/RTPMI.",
     documentDimensions: "Document indexes stay in documentsRegulations; topicDimension records library/laboratory/industry/system context without moving the index out of the documents dimension.",
     logicalEntities: "Safe bilingual/unit duplicates are merged; evidenceUrls preserve provenance while alternateUrls contains only equivalent entity targets.",
     systemEndpoints: "Same-host CMS/content pages are not systems merely because their title or slug contains the word system; an application-like endpoint or trusted relation is required.",
@@ -491,7 +497,7 @@ await Promise.all([
 ]);
 
 console.log([
-  "entity cleaning v2.2.2 complete",
+  "entity cleaning v2.2.6 complete",
   `units=${cleanedUnits.stats.before}->${cleanedUnits.stats.after}`,
   `systems=${cleanedSystems.stats.before}->${cleanedSystems.stats.after}`,
   `documents=${cleanedDocuments.stats.before}->${cleanedDocuments.stats.after}`,
