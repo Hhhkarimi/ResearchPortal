@@ -1,7 +1,276 @@
 "use client";
 
 import Link from "next/link";
-import {useMemo, useState} from "react";
 
-const dimensions=[['documents','اسناد'],['organization','ساختار'],['library','کتابخانه'],['laboratories','آزمایشگاه'],['digital','دیجیتال و IT'],['industryTech','صنعت و فناوری'],['dataQuality','کیفیت داده'],['findability','یافت‌پذیری']] as const;
-export function CompareExplorer({rankings}:{rankings:any[]}){const [selected,setSelected]=useState(rankings.slice(0,3).map(x=>x.universitySlug));const add=(slug:string)=>setSelected(s=>s.includes(slug)?s.filter(x=>x!==slug):s.length<4?[...s,slug]:s);const rows=useMemo(()=>selected.map(s=>rankings.find(r=>r.universitySlug===s)).filter(Boolean),[selected,rankings]);return <><div className="comparePicker glass"><div><span className="eyebrow">انتخاب ۲ تا ۴ پرتال</span><h2>مقایسه‌ای که خودتان می‌سازید</h2></div><select aria-label="افزودن دانشگاه به مقایسه" value="" onChange={e=>e.target.value&&add(e.target.value)}><option value="">+ افزودن دانشگاه</option>{rankings.filter(r=>!selected.includes(r.universitySlug)).map(r=><option value={r.universitySlug} key={r.universitySlug}>{r.nameFa}</option>)}</select><div className="selectedChips">{rows.map(r=><button key={r.universitySlug} onClick={()=>add(r.universitySlug)}>{r.nameFa}<span>×</span></button>)}</div></div>{rows.length<2?<div className="emptyState"><b>حداقل دو دانشگاه انتخاب کنید.</b></div>:<div className="comparisonBoard"><div className="comparisonHeader"><span>بُعد RTPMI</span>{rows.map(r=><Link href={`/universities/${r.universitySlug}`} key={r.universitySlug}><b>{r.nameFa}</b><small>{r.score} RTPMI · اطمینان {r.confidence}%</small></Link>)}</div>{dimensions.map(([key,label])=><div className="comparisonLine" key={key}><b>{label}</b>{rows.map(r=>{const v=r.metrics[key];return <div key={r.universitySlug} className={v===null?"missing":""}><span><i style={{width:`${v??0}%`}}/></span><strong>{v===null?"نامشخص":v}</strong></div>})}</div>)}</div>}<p className="dataNote">اعداد فقط برای پرتال‌های Evidence-qualified نمایش داده می‌شوند. «نامشخص» در محاسبه صفر نشده است.</p></>}
+import {
+  useMemo,
+  useState
+} from "react";
+
+const dimensions = [
+  ["documents", "اسناد"],
+  ["organization", "ساختار"],
+  ["library", "کتابخانه"],
+  ["laboratories", "آزمایشگاه"],
+  ["systems", "سامانه‌های پژوهشی"],
+  ["industryTech", "صنعت و فناوری"],
+  ["dataQuality", "کیفیت داده"],
+  ["findability", "یافت‌پذیری"],
+] as const;
+
+export function CompareExplorer(
+  {
+    rankings,
+  }: {
+    rankings:
+      any[];
+  }
+) {
+  const [
+    selected,
+    setSelected,
+  ] =
+    useState(
+      rankings
+        .slice(
+          0,
+          3
+        )
+        .map(
+          (item) =>
+            item.universitySlug
+        )
+    );
+
+  const add = (
+    slug:
+      string
+  ) =>
+    setSelected(
+      (current) =>
+        current.includes(
+          slug
+        )
+          ? current.filter(
+              (item) =>
+                item !==
+                slug
+            )
+
+          : current.length <
+              4
+            ? [
+                ...current,
+                slug,
+              ]
+
+            : current
+    );
+
+  const rows =
+    useMemo(
+      () =>
+        selected
+          .map(
+            (slug) =>
+              rankings.find(
+                (row) =>
+                  row.universitySlug ===
+                  slug
+              )
+          )
+          .filter(Boolean),
+
+      [
+        selected,
+        rankings,
+      ]
+    );
+
+  return (
+    <>
+      <div className="comparePicker glass">
+        <div>
+          <span className="eyebrow">
+            انتخاب ۲ تا ۴ پرتال
+          </span>
+
+          <h2>
+            مقایسه‌ای که خودتان می‌سازید
+          </h2>
+        </div>
+
+        <select
+          aria-label="افزودن دانشگاه به مقایسه"
+          value=""
+          onChange={
+            (
+              event
+            ) =>
+              event.target.value &&
+              add(
+                event.target.value
+              )
+          }
+        >
+          <option value="">
+            + افزودن دانشگاه
+          </option>
+
+          {rankings
+            .filter(
+              (row) =>
+                !selected.includes(
+                  row.universitySlug
+                )
+            )
+            .map(
+              (row) => (
+                <option
+                  value={
+                    row.universitySlug
+                  }
+                  key={
+                    row.universitySlug
+                  }
+                >
+                  {row.nameFa}
+                </option>
+              )
+            )}
+        </select>
+
+        <div className="selectedChips">
+          {rows.map(
+            (
+              row
+            ) => (
+              <button
+                key={
+                  row.universitySlug
+                }
+                onClick={
+                  () =>
+                    add(
+                      row.universitySlug
+                    )
+                }
+              >
+                {row.nameFa}
+                <span>
+                  ×
+                </span>
+              </button>
+            )
+          )}
+        </div>
+      </div>
+
+      {rows.length <
+      2
+        ? (
+          <div className="emptyState">
+            <b>
+              حداقل دو دانشگاه انتخاب کنید.
+            </b>
+          </div>
+        )
+        : (
+          <div className="comparisonBoard">
+            <div className="comparisonHeader">
+              <span>
+                مؤلفه RTPMI
+              </span>
+
+              {rows.map(
+                (
+                  row
+                ) => (
+                  <Link
+                    href={`/universities/${row.universitySlug}`}
+                    key={
+                      row.universitySlug
+                    }
+                  >
+                    <b>
+                      {row.nameFa}
+                    </b>
+
+                    <small>
+                      {row.score} RTPMI · اطمینان {row.confidence}%
+                    </small>
+                  </Link>
+                )
+              )}
+            </div>
+
+            {dimensions.map(
+              (
+                [
+                  key,
+                  label,
+                ]
+              ) => (
+                <div
+                  className="comparisonLine"
+                  key={
+                    key
+                  }
+                >
+                  <b>
+                    {label}
+                  </b>
+
+                  {rows.map(
+                    (
+                      row
+                    ) => {
+                      const value =
+                        row.metrics[
+                          key
+                        ];
+
+                      return (
+                        <div
+                          key={
+                            row.universitySlug
+                          }
+                          className={
+                            value ===
+                            null
+                              ? "missing"
+                              : ""
+                          }
+                        >
+                          <span>
+                            <i
+                              style={{
+                                width:
+                                  `${value ?? 0}%`,
+                              }}
+                            />
+                          </span>
+
+                          <strong>
+                            {value ===
+                            null
+                              ? "نامشخص"
+                              : value}
+                          </strong>
+                        </div>
+                      );
+                    }
+                  )}
+                </div>
+              )
+            )}
+          </div>
+        )}
+
+      <p className="dataNote">
+        اعداد فقط برای پرتال‌های Evidence-qualified نمایش داده می‌شوند.
+        «نامشخص» در محاسبه صفر نشده است.
+      </p>
+    </>
+  );
+}
