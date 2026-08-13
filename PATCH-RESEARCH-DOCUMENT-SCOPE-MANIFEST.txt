@@ -1,0 +1,23 @@
+Base main commit: fb4d4ad73ccf61b18bf23e985c8c0f86b2c0394f
+ResearchPortal research-document scope fix
+
+MODIFIED
+- package.json
+
+ADDED
+- scripts/research-document-scope.mjs
+- scripts/filter-research-documents.mjs
+- scripts/validate-research-document-scope.mjs
+- README-FA.md
+
+DELETE REQUIRED
+- none
+
+OPTIONAL CLEANUP
+- README-FA.md (previous patch helper doc)
+- MANIFEST.txt (previous patch helper doc)
+
+NO CHANGE REQUIRED
+- package-lock.json
+- crawler/checkpoint files
+- authoritative portal seed URL arrays
