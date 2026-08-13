@@ -13,3 +13,7 @@ data/generated/*
 runtime-smoke/
 runtime-crawl/
 *.tsbuildinfo
+.pipeline/
+.venv/
+__pycache__/
+*.py[cod]
