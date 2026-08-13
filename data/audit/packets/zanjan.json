@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "10.0.0",
+  "schemaVersion": "11.0.0",
   "snapshotDate": "2026-08-12",
   "institution": {
     "category": "جامع",
@@ -85,7 +85,7 @@
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
       "lastRun": "2026-08-13",
-      "promotedSources": 190,
+      "promotedSources": 184,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 105,
+      "sourceCount": 106,
       "sources": [
         {
           "url": "https://research.znu.ac.ir/",
@@ -544,9 +544,10 @@
         },
         {
           "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5188-aein-phajohanehvezarat.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "درخصوص ممنوعیت خرید کالاهای خارجی دارای تولید مشابه داخلی آیین نامه پژوهانه اعضای هیات علمی دانشگاهها و موسسات آموزش عالی وزارت علوم",
+          "id": null,
+          "sourceLabel": "درخصوص ممنوعیت خرید کالاهای خارجی دارای تولید مشابه داخلی آیین نامه پژوهانه اعضای هیات علمی دانشگاهها و موسسات آموزش عالی وزارت علوم"
         },
         {
           "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5187-shiveh-mosavabat.pdf",
@@ -844,6 +845,13 @@
           "claim": "آيين‌نامه طرح‌هاي پژوهشي داخل دانشگاه فرم ها (طرح های پژوهشی) فرم درخواست بررسی گزارش پیشرفت مرحله ای/نهایی طرح پژوهشی داخلی",
           "id": null,
           "sourceLabel": "آيين‌نامه طرح‌هاي پژوهشي داخل دانشگاه فرم ها (طرح های پژوهشی) فرم درخواست بررسی گزارش پیشرفت مرحله ای/نهایی طرح پژوهشی داخلی"
+        },
+        {
+          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-hazinehkard.pdf",
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه پژوهانه و خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه",
+          "id": null,
+          "sourceLabel": "شیوه نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه پژوهانه و خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه"
         }
       ],
       "publicationAdjustment": null,

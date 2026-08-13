@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "10.0.0",
+  "schemaVersion": "11.0.0",
   "snapshotDate": "2026-08-12",
   "institution": {
     "category": "جامع",
@@ -69,13 +69,23 @@
       "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/foreigners.docx",
       "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/k1-english.docx",
       "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/isco-conf-report.docx",
-      "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/Conferenceprocess.pdf"
+      "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/Conferenceprocess.pdf",
+      "https://yazd.ac.ir/resesrch",
+      "https://yazd.ac.ir/offices/research/deputy/research/introduction",
+      "https://yazd.ac.ir/offices/research/people/head",
+      "https://yazd.ac.ir/offices/research/deputy/labs/forms",
+      "https://yazd.ac.ir/offices/research/deputy/technology/forms",
+      "https://yazd.ac.ir/president/administration/yupr/forms",
+      "https://yazd.ac.ir/president/administration/planning/processes",
+      "https://yazd.ac.ir/offices/research/deputy/entrepreneurship/services/software",
+      "https://yazd.ac.ir/offices/research/deputy/labs/introduction",
+      "https://nahad.yazd.ac.ir/category/1000/1002/%da%a9%d8%a7%d8%b1%d8%a8%d8%b1%d8%af%db%8c-%da%a9%d8%b1%d8%af%d9%86-%d9%be%d8%a7%db%8c%d8%a7%d9%86%e2%80%8c%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%e2%80%8c%d9%87%d8%a7/"
     ],
     "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-13",
-      "promotedSources": 148,
+      "promotedSources": 143,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -138,7 +148,17 @@
       "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/foreigners.docx",
       "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/k1-english.docx",
       "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/isco-conf-report.docx",
-      "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/Conferenceprocess.pdf"
+      "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/Conferenceprocess.pdf",
+      "https://yazd.ac.ir/resesrch",
+      "https://yazd.ac.ir/offices/research/deputy/research/introduction",
+      "https://yazd.ac.ir/offices/research/people/head",
+      "https://yazd.ac.ir/offices/research/deputy/labs/forms",
+      "https://yazd.ac.ir/offices/research/deputy/technology/forms",
+      "https://yazd.ac.ir/president/administration/yupr/forms",
+      "https://yazd.ac.ir/president/administration/planning/processes",
+      "https://yazd.ac.ir/offices/research/deputy/entrepreneurship/services/software",
+      "https://yazd.ac.ir/offices/research/deputy/labs/introduction",
+      "https://nahad.yazd.ac.ir/category/1000/1002/%da%a9%d8%a7%d8%b1%d8%a8%d8%b1%d8%af%db%8c-%da%a9%d8%b1%d8%af%d9%86-%d9%be%d8%a7%db%8c%d8%a7%d9%86%e2%80%8c%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%e2%80%8c%d9%87%d8%a7/"
     ],
     "deepAuditStatus": "deep-audited",
     "dimensions": {
@@ -153,7 +173,7 @@
     "auditEvidenceCoverage": 100,
     "unitsFound": 15,
     "systemsFound": 9,
-    "documentsFound": 88,
+    "documentsFound": 90,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -169,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 77,
+      "sourceCount": 80,
       "sources": [
         {
           "url": "https://yazd.ac.ir/offices/research/home/introduction",
@@ -491,31 +511,45 @@
         },
         {
           "url": "https://yazd.ac.ir/offices/research/deputy/labs/forms",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://yazd.ac.ir/offices/research/deputy/technology/forms",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://yazd.ac.ir/president/administration/yupr/forms",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://yazd.ac.ir/president/administration/planning/processes",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://yazd.ac.ir/offices/research/deputy/entrepreneurship/services/software",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://yazd.ac.ir/offices/research/deputy/labs/introduction",
-          "kind": "research-review-specific",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://nahad.yazd.ac.ir/category/1000/1002/%da%a9%d8%a7%d8%b1%d8%a8%d8%b1%d8%af%db%8c-%da%a9%d8%b1%d8%af%d9%86-%d9%be%d8%a7%db%8c%d8%a7%d9%86%e2%80%8c%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%e2%80%8c%d9%87%d8%a7/",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://yazd.ac.ir/offices/research/deputy/publications/council",
@@ -2013,7 +2047,7 @@
     },
     "units": 15,
     "systems": 9,
-    "documents": 88,
+    "documents": 90,
     "activeWeight": 100,
     "evidenceCoverage": 100,
     "methodologyVersion": "RTPMI-4.2-ISC",
@@ -3990,6 +4024,44 @@
       "fileName": "conflict-author-form2.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "fileSize": 19976,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "yazd-discovery-document-affb919525b5",
+      "universitySlug": "yazd",
+      "title": "کاربرگ اعطای نمره حمایت برون‌دانشگاهی از پایان‌نامه",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/support-score.pdf",
+      "sourceUrl": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/support-score.pdf",
+      "parentUrl": "https://yazd.ac.ir/offices/educational/deputy/graduate/home/forms/phd",
+      "fileName": "support-score.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 354826,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "yazd-discovery-document-209fb4e286f1",
+      "universitySlug": "yazd",
+      "title": "کاربرگ تقاضای تغییر عنوان پایان‌نامه قبل از جلسه دفاع",
+      "type": "سند",
+      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/suggest/EPF022.pdf",
+      "sourceUrl": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/suggest/EPF022.pdf",
+      "parentUrl": "https://yazd.ac.ir/offices/educational/deputy/graduate/home/forms/phd",
+      "fileName": "EPF022.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 136894,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     }

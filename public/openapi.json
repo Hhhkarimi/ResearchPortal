@@ -2,7 +2,7 @@
   "openapi": "3.1.0",
   "info": {
     "title": "Iran Research Portal Observatory API",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "description": "Read-only API for the ISC-aligned audit of 115 public research and technology portals and its 805 dimension-level evidence outcomes. RTPMI measures portal maturity, not scientific quality."
   },
   "servers": [
@@ -181,6 +181,18 @@
           "200": {
             "description": "Summary"
           }
+        }
+      }
+    },
+    "/search": {
+      "get": {
+        "summary": "Search universities, documents, systems and research units",
+        "parameters": [
+          {"name": "q", "in": "query", "required": true, "schema": {"type": "string", "minLength": 2}},
+          {"name": "limit", "in": "query", "schema": {"type": "integer", "minimum": 1, "maximum": 24}}
+        ],
+        "responses": {
+          "200": {"description": "Ranked search results with snapshot and methodology metadata"}
         }
       }
     },

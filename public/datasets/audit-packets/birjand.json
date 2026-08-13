@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "10.0.0",
-  "snapshotDate": "2026-08-11",
+  "schemaVersion": "11.0.0",
+  "snapshotDate": "2026-08-12",
   "institution": {
     "category": "جامع",
     "iscRank": 34,
@@ -16,7 +16,7 @@
     "nameFa": "دانشگاه بیرجند",
     "iscCategory": "جامع",
     "iscRank": 34,
-    "auditDate": "2026-08-12",
+    "auditDate": "2026-08-13",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://birjand.ac.ir/research/fa",
     "evidenceUrls": [
@@ -84,17 +84,18 @@
     "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
-      "lastRun": "2026-08-12",
-      "promotedSources": 259,
+      "lastRun": "2026-08-13",
+      "promotedSources": 257,
       "socialEvidenceRemoved": true
-    }
+    },
+    "observedSignals": []
   },
   "deepAudit": {
     "universitySlug": "birjand",
     "nameFa": "دانشگاه بیرجند",
     "iscCategory": "جامع",
     "iscRank": 34,
-    "auditDate": "2026-08-11",
+    "auditDate": "2026-08-12",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://birjand.ac.ir/research/fa",
     "evidenceUrls": [
@@ -166,14 +167,13 @@
       "libraryDocuments": "verified",
       "laboratories": "verified",
       "industryTechnology": "verified",
-      "informationTechnology": "unresolved",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 88,
-    "unitsFound": 78,
+    "auditEvidenceCoverage": 100,
+    "unitsFound": 62,
     "systemsFound": 9,
-    "documentsFound": 80,
+    "documentsFound": 72,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -188,8 +188,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 91,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 89,
       "sources": [
         {
           "url": "https://birjand.ac.ir/research/fa",
@@ -205,194 +205,194 @@
         },
         {
           "url": "https://birjand.ac.ir/research/fa/organizationChart/1/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/5122/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/2735/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/442/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/549/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%85%D8%B1%D8%A7%D8%AD%D9%84-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B3%D9%86%D8%AC%DB%8C-%D9%88-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D9%85%D9%84%DB%8C-%D9%88-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D9%88%D8%B3%D8%B3%D9%87-isc",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/481/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/328/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/350/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%DA%AF%D8%B1%D9%88%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/342/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%AD%D9%88%D9%87-%D8%AA%D8%B4%DA%A9%DB%8C%D9%84-%D9%88-%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%DA%A9%D9%85%DB%8C%D8%B3%DB%8C%D9%88%D9%86-%D8%A7%D9%86%D8%AC%D9%85%D9%86%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/330/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%88-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D8%AF%D9%87%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/329/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AE%D9%88%D8%AF%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/577/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/346/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D8%A7%D8%B3%D8%AA%D9%86%D8%A7%D8%AF%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B1-isc",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/345/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/331/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/325/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%86%D8%A7%D9%BE-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D8%AF%D8%B1-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84-%D9%88-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/324/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%D9%88-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/321/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2-%D8%AF%D9%87%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/320/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/487/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/486/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%88-%D8%B1%D8%AA%D8%A8%D9%87-%D8%A8%D9%86%D8%AF%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/485/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%AF%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C-%D8%A8%D8%A7%D8%B2",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/386/%D9%81%D8%B1%D9%85-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%DB%B2-%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%86%D9%82%D8%AF%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/181/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/176/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D8%AE%D9%88%D8%AF%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/434/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C-%D9%82%D8%A8%D9%84-%D8%A7%D8%B2-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%DB%8C%D9%86%D8%A7%D8%B1-",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/433/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%AF%D8%A8%DB%8C%D8%B1%D8%AE%D8%A7%D9%86%D9%87-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA%DB%8C-%D9%88-%D8%B3%D8%A7%DB%8C%D8%AA-%D9%87%D9%85%D8%A7%DB%8C%D8%B4",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/409/%D9%81%D8%B1%D9%85-%D9%85%D8%AD%D8%B1%D9%85%D8%A7%D9%86%D9%87-%D8%A7%D8%B1%D8%B2%D8%B4%DB%8C%D8%A7%D8%A8%DB%8C-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/408/%D9%81%D8%B1%D9%85-%D9%85%D8%AD%D8%B1%D9%85%D8%A7%D9%86%D9%87-%D8%A7%D8%B1%D8%B2%D8%B4%DB%8C%D8%A7%D8%A8%DB%8C-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/341/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%D9%88-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/339/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/337/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%85%D8%B1%D8%AC%D8%B9-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D9%88-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%B3%D8%A8%DA%A9-apa",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
@@ -600,12 +600,6 @@
           "id": null
         },
         {
-          "url": "https://birjand.ac.ir/research/fa/news/16254/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D8%B3%D9%87-%D8%B3%D8%A7%D9%84%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C-%D9%88-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA-%D9%88-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D8%A7%D9%88%D8%A7",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
           "url": "https://birjand.ac.ir/research/fa/news/16256/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%DB%8C%DA%A9-%D8%B3%D8%A7%D9%84%D9%87-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific portalIdentity source",
@@ -711,13 +705,6 @@
           "sourceLabel": "صنعت و فناوری — کشف خودکار"
         },
         {
-          "url": "https://birjand.ac.ir/research/fa/news/16255",
-          "kind": "research-review-specific",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
-        },
-        {
           "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=title",
           "kind": "research-review-specific",
           "claim": "اسناد و مقررات — کشف خودکار",
@@ -760,584 +747,442 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 64,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 62,
       "sources": [
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
           "kind": "unit",
           "claim": "آیین‌نامه‌ها و مصوبات- آیین نامه های مجلات و انتشارات",
           "id": "birjand-discovery-unit-library-44a8e163ed28",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/324/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%D9%88-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
           "kind": "unit",
           "claim": "شیوه نامه تدوین و نگارش کتاب انتشارات دانشگاه - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-1706aac789e3",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/320/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
           "kind": "unit",
           "claim": "آیین نامه انتشارات دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-d72e42b8d0f1",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/organizationChart/1/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
           "kind": "unit",
           "claim": "چارت سازمانی معاونت پژوهش و فناوری",
           "id": "birjand-discovery-unit-research-fe5cd2cf04c0",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "research"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/345/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85",
           "kind": "unit",
           "claim": "آیین نامه نشریات علمی وزارت علوم - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-4266cc1eb2ab",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/331/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
           "kind": "unit",
           "claim": "آیین نامه اجرایی نشریات علمی دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-529f00a2f89a",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/487/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1",
           "kind": "unit",
           "claim": "شیوه نامه تشویقی نشریات علمی داخلی نمایه شده در نمایه های بین المللی معتبر - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-1551b86f7085",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/486/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%88-%D8%B1%D8%AA%D8%A8%D9%87-%D8%A8%D9%86%D8%AF%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
           "kind": "unit",
           "claim": "شیوه نامه ارزیابی و رتبه بندی نشریات علمی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-d74e8343713a",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/485/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%AF%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C-%D8%A8%D8%A7%D8%B2",
           "kind": "unit",
           "claim": "آیین نامه تعیین هزینه پردازش مقاله در نشریات علمی دسترسی باز - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-7329da939f75",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa",
           "kind": "unit",
           "claim": "معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-ca07e5af139d",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/5122/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C",
           "kind": "unit",
           "claim": "فرم‌های کمیته اخلاق زیست پزشکی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-c66710d677ad",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/2735/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
           "kind": "unit",
           "claim": "آیین نامه ها - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-0944c3dd568c",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/442/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
           "kind": "unit",
           "claim": "آیین نامه طرح‌های پژوهشی کاربردی و فناورانه دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-26388fe539b9",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/549/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%85%D8%B1%D8%A7%D8%AD%D9%84-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B3%D9%86%D8%AC%DB%8C-%D9%88-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D9%85%D9%84%DB%8C-%D9%88-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D9%88%D8%B3%D8%B3%D9%87-isc",
           "kind": "unit",
           "claim": "شیوه نامه و مراحل اعتبار سنجی و نمایه سازی همایش های ملی و بین المللی توسط موسسه ISC - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-d8fdff60db13",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/481/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
           "kind": "unit",
           "claim": "آیین‌نامه تشویق دستاوردهای پژوهشی و فناوری - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-8320b0cb96e2",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/328/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
           "kind": "unit",
           "claim": "آیین نامه تخصیص پژوهانه اعضای هیات علمی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-757b8fb932c0",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/350/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%DA%AF%D8%B1%D9%88%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "آیین نامه تاسیس گروه های پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-5ed2f1caae18",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/342/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%AD%D9%88%D9%87-%D8%AA%D8%B4%DA%A9%DB%8C%D9%84-%D9%88-%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%DA%A9%D9%85%DB%8C%D8%B3%DB%8C%D9%88%D9%86-%D8%A7%D9%86%D8%AC%D9%85%D9%86%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86",
           "kind": "unit",
           "claim": "آیین نامه نحوه تشکیل و شرح وظایف کمیسیون انجمنهای علمی ایران - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-06977741b0cd",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/330/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%88-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D8%AF%D9%87%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
           "kind": "unit",
           "claim": "آیین نامه نحوه برگزاری و ساماندهی همایش های علمی دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-03346ff686b2",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/329/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AE%D9%88%D8%AF%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
           "kind": "unit",
           "claim": "آیین نامه طرح های پژوهشی خودارزیاب دانشگاه - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-aa21c4fe2984",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/577/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
           "kind": "unit",
           "claim": "آیین نامه فرصت مطالعاتی خارج از کشور - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-ca453e2728c1",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/346/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D8%A7%D8%B3%D8%AA%D9%86%D8%A7%D8%AF%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B1-isc",
           "kind": "unit",
           "claim": "آیین نامه نمایه سازی استنادی نشریات معتبر علمی در ISC - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-f68924581f1f",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/325/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%86%D8%A7%D9%BE-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D8%AF%D8%B1-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84-%D9%88-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
           "kind": "unit",
           "claim": "آیین نامه پرداخت هزینه چاپ مقالات در مجلات معتبر علمی - پژوهشی داخل و خارج از کشور - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-bf088ed0c338",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/321/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2-%D8%AF%D9%87%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
           "kind": "unit",
           "claim": "آیین نامه امتیاز دهی کتاب - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-06e2b6ac4460",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/386/%D9%81%D8%B1%D9%85-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%DB%B2-%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%86%D9%82%D8%AF%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-",
           "kind": "unit",
           "claim": "فرم شماره ۲- تسویه حساب اعتبار نقدی (پژوهانه) - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-42e8f7e14d15",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/181/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "فرم درخواست ماموریت پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-dcb7cc52f9f2",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/176/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D8%AE%D9%88%D8%AF%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8",
           "kind": "unit",
           "claim": "فرم پرسشنامه طرح خودارزیاب - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-c05666746780",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/434/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C-%D9%82%D8%A8%D9%84-%D8%A7%D8%B2-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%DB%8C%D9%86%D8%A7%D8%B1-",
           "kind": "unit",
           "claim": "فرم اطلاعات پیشنهادی قبل از برگزاری همایش (کارگاه، سمینار) - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-29cb405bc23d",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/433/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%AF%D8%A8%DB%8C%D8%B1%D8%AE%D8%A7%D9%86%D9%87-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA%DB%8C-%D9%88-%D8%B3%D8%A7%DB%8C%D8%AA-%D9%87%D9%85%D8%A7%DB%8C%D8%B4",
           "kind": "unit",
           "claim": "فرم درخواست راه اندازی دبیرخانه اینترنتی و سایت همایش - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-769df7c8caa2",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/409/%D9%81%D8%B1%D9%85-%D9%85%D8%AD%D8%B1%D9%85%D8%A7%D9%86%D9%87-%D8%A7%D8%B1%D8%B2%D8%B4%DB%8C%D8%A7%D8%A8%DB%8C-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "فرم محرمانه ارزشیابی گزارش نهایی طرحهای پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-c44f7576f865",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/408/%D9%81%D8%B1%D9%85-%D9%85%D8%AD%D8%B1%D9%85%D8%A7%D9%86%D9%87-%D8%A7%D8%B1%D8%B2%D8%B4%DB%8C%D8%A7%D8%A8%DB%8C-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "فرم محرمانه ارزشیابی پرسشنامه طرحهای پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-e3f89c2b65fe",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/341/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%D9%88-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "راهنمای تدوین و نگارش گزارش نهایی طرحهای پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-df83fa8ee557",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/339/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "دستورالعمل نحوه بررسی تخلفات پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-499e61144c1c",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/337/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%85%D8%B1%D8%AC%D8%B9-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D9%88-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%B3%D8%A8%DA%A9-apa",
           "kind": "unit",
           "claim": "دستورالعمل مرجع نویسی پروپوزال و گزارش نهایی طرح پژوهشی سبک APA - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-1e589c1e71a4",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/4451/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
           "kind": "unit",
           "claim": "عملکرد معاونت پژوهش، فناوری و نوآوری - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-52ec1c1f7e4b",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/news/16255/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D8%B3%D9%87-%D8%B3%D8%A7%D9%84%D9%87-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D8%B4%D8%B1-%D9%88-%D8%B2%DB%8C%D8%B3%D8%AA-%D8%A8%D9%88%D9%85-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
           "kind": "unit",
           "claim": "کلیپ عملکرد سه ساله شبکه آزمایشگاهی و کارگاهی، مدیریت کتابخانه مرکزی و مرکز نشر و زیست بوم فناوری و نوآوری و کارآفرینی",
           "id": "birjand-discovery-unit-technology-e72e2b603782",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16255",
-          "kind": "unit",
-          "claim": "کلیپ عملکرد سه ساله شبکه آزمایشگاهی و کارگاهی، مدیریت کتابخانه مرکزی و مرکز نشر و زیست بوم فناوری و نوآوری و کارآفرینی",
-          "id": "birjand-discovery-unit-laboratory-8bafe5b6bd29",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/content/252/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%B9%D9%85%D9%84%DA%AF%D8%B1%D8%AF-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
           "kind": "unit",
           "claim": "گزارش عملگرد معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-2005a42a15fa",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16254/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D8%B3%D9%87-%D8%B3%D8%A7%D9%84%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C-%D9%88-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA-%D9%88-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D8%A7%D9%88%D8%A7",
-          "kind": "unit",
-          "claim": "عملکرد سه ساله مدیریت امور پژوهشی، مدیریت کارآفرینی و ارتباط با صنعت و مدیریت فاوا",
-          "id": "birjand-discovery-unit-industry-f58565ad39eb",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/news/16256/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%DB%8C%DA%A9-%D8%B3%D8%A7%D9%84%D9%87-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
           "kind": "unit",
           "claim": "کلیپ عملکرد یک ساله معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-a13701fe7004",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/news/16259/%D8%B1%D9%88%D9%86%D9%85%D8%A7%DB%8C%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C",
           "kind": "unit",
           "claim": "رونمایی سامانه شبکه آزمایشگاهی و کارگاهی",
           "id": "birjand-discovery-unit-laboratory-fedf97147540",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/171/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "مدیریت امور پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-research-1f21385a3988",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "research"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/1284/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "فرآیندهای مدیریت امور پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-research-233ea405db5a",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "research"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/323/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%DA%86%D8%A7%D9%BE-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
           "kind": "unit",
           "claim": "دستورالعمل تدوین، چاپ و انتشار نشریات علمی دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-f4ff8c003ede",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/170/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%87%D8%A7",
           "kind": "unit",
           "claim": "مدیریت ها - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-b5920a69ae29",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/2775/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A8%D9%84%D9%86%D8%AF-%D9%85%D8%AF%D8%AA-%DB%B6-%D9%85%D8%A7%D9%87%D9%87-",
           "kind": "unit",
           "claim": "فرآیند فرصت مطالعاتی بلند مدت (۶ ماهه) - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-aa3f9468a790",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/2854/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%DA%A9%D9%88%D8%AA%D8%A7%D9%87-%D9%85%D8%AF%D8%AA-%DB%B3-%D9%85%D8%A7%D9%87%D9%87-",
           "kind": "unit",
           "claim": "فرآیند فرصت مطالعاتی کوتاه مدت (۳ ماهه) - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-27f832274459",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/2774/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%A7%D8%B1%D8%A7%D8%A6%D9%87-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%AF%D8%B1-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
           "kind": "unit",
           "claim": "فرآیند ارائه مقاله در همایش های خارج از کشور - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-527043afcb83",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=circularNo",
           "kind": "unit",
           "claim": "آیین‌نامه‌ها و مصوبات- آیین نامه های مجلات و انتشارات",
           "id": "birjand-discovery-unit-library-b1a498af0f2b",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
           "kind": "unit",
           "claim": "آیین‌نامه‌ها و مصوبات- آیین نامه های مجلات و انتشارات",
           "id": "birjand-discovery-unit-library-9316014d8f75",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=title",
           "kind": "unit",
           "claim": "آیین‌نامه‌ها و مصوبات- آیین نامه های مجلات و انتشارات",
           "id": "birjand-discovery-unit-library-65e21cf08be9",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/180/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%DB%8C%D8%A7-%D8%AA%D8%A7%DB%8C%DB%8C%D8%AF-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "پرسشنامه درخواست تعیین یا تایید اعتبار علمی_پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-673cd844de4b",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/179/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AE%D8%B5%D9%88%D8%B5-%D8%B3%D8%B1%D8%AF%D8%A8%DB%8C%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
           "kind": "unit",
           "claim": "پرسشنامه مخصوص سردبیر نشریه - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-4d507423af1d",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/178/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AE%D8%B5%D9%88%D8%B5-%D8%A7%D8%B9%D8%B6%D8%A7-%D9%87%DB%8C%D8%A7%D8%AA-%D8%AA%D8%AD%D8%B1%DB%8C%D8%B1%DB%8C%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
           "kind": "unit",
           "claim": "پرسشنامه مخصوص اعضاء هیات تحریریه نشریه - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-cbd88cf6b8d2",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/177/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%D9%85%D8%B3%D8%A6%D9%88%D9%84-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
           "kind": "unit",
           "claim": "پرسشنامه مدیرمسئول نشریه - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-ac3355fe3ac2",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/457/rfp-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C",
           "kind": "unit",
           "claim": "rfp طرح‌های کاربردی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-1a2a374f9276",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/456/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C",
           "kind": "unit",
           "claim": "پروپوزال طرح‌های کاربردی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-4c8e4fe35d89",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/455/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87",
           "kind": "unit",
           "claim": "پروپوزال طرح‌های فناورانه - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-712810957fce",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/436/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A8%D8%B9%D8%AF-%D8%A7%D8%B2-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%DA%AF%D8%B1%D8%AF%D9%87%D9%85%D8%A7%DB%8C%DB%8C-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%DA%A9%D9%86%DA%AF%D8%B1%D9%87-%D9%88-.....-",
           "kind": "unit",
           "claim": "اطلاعات بعد از برگزاری گردهمایی های علمی (همایش، کنگره و .....) - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-9844b999b446",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/415/%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8-%D9%85%D8%A7%D9%84%DB%8C-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "تسویه حساب مالی واحد پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-de4b31ad826f",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/414/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "درخواست تاسیس واحد پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-dcf554bf64fe",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/397/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87-%D8%A7%D9%87%D8%AF%D8%A7-%D8%A7%D9%85%D9%88%D8%A7%D9%84",
           "kind": "unit",
           "claim": "صورتجلسه اهداء اموال - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-a5e730884179",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/175/%D9%81%D8%B1%D9%85-%D8%AE%D9%84%D8%A7%D8%B5%D9%87-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
           "kind": "unit",
           "claim": "فرم خلاصه فعالیتهای آموزشی ، پژوهشی و اجرایی اعضای هیئت علمی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-d334cfe4466a",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://cv.birjand.ac.ir/saghebjou/fa",
           "kind": "unit",
           "claim": "مرضیه ثاقب جو",
           "id": "birjand-discovery-unit-technology-9c4c8c75d005",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         }
       ],
       "publicationAdjustment": null,
@@ -1354,8 +1199,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 25,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 24,
       "sources": [
         {
           "url": "https://birjand.ac.ir/research/fa/news/16255/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D8%B3%D9%87-%D8%B3%D8%A7%D9%84%D9%87-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D8%B4%D8%B1-%D9%88-%D8%B2%DB%8C%D8%B3%D8%AA-%D8%A8%D9%88%D9%85-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
@@ -1365,105 +1210,87 @@
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "system",
+          "claim": "شیوه نامه تشویقی نشریات علمی داخلی نمایه شده در نمایه های بین المللی معتبر - معاونت پژوهش، فناوری و نوآوری",
+          "id": "birjand-discovery-system-1551b86f7085",
+          "systemCategory": "journals"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و مصوبات- آیین نامه های مجلات و انتشارات",
+          "id": "birjand-discovery-unit-library-b1a498af0f2b",
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و مصوبات- آیین نامه های مجلات و انتشارات",
+          "id": "birjand-discovery-unit-library-9316014d8f75",
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=title",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16255",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "آیین‌نامه‌ها و مصوبات- آیین نامه های مجلات و انتشارات",
+          "id": "birjand-discovery-unit-library-65e21cf08be9",
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/324/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%D9%88-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
           "kind": "unit",
           "claim": "شیوه نامه تدوین و نگارش کتاب انتشارات دانشگاه - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-1706aac789e3",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/320/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
           "kind": "unit",
           "claim": "آیین نامه انتشارات دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-d72e42b8d0f1",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/345/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85",
           "kind": "unit",
           "claim": "آیین نامه نشریات علمی وزارت علوم - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-4266cc1eb2ab",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/331/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
           "kind": "unit",
           "claim": "آیین نامه اجرایی نشریات علمی دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-529f00a2f89a",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/487/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1",
           "kind": "unit",
           "claim": "شیوه نامه تشویقی نشریات علمی داخلی نمایه شده در نمایه های بین المللی معتبر - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-1551b86f7085",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/486/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%88-%D8%B1%D8%AA%D8%A8%D9%87-%D8%A8%D9%86%D8%AF%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
           "kind": "unit",
           "claim": "شیوه نامه ارزیابی و رتبه بندی نشریات علمی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-d74e8343713a",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/485/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%AF%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C-%D8%A8%D8%A7%D8%B2",
           "kind": "unit",
           "claim": "آیین نامه تعیین هزینه پردازش مقاله در نشریات علمی دسترسی باز - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-7329da939f75",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/323/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%DA%86%D8%A7%D9%BE-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
           "kind": "unit",
           "claim": "دستورالعمل تدوین، چاپ و انتشار نشریات علمی دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-library-f4ff8c003ede",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/1530505267-5-porsesh-nameh-sar-dabir.zip",
@@ -1548,8 +1375,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 4,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://birjand.ac.ir/research/fa/news/16255",
@@ -1559,15 +1386,10 @@
         },
         {
           "url": "https://birjand.ac.ir/research/fa/news/16259/%D8%B1%D9%88%D9%86%D9%85%D8%A7%DB%8C%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16255/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D8%B3%D9%87-%D8%B3%D8%A7%D9%84%D9%87-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D8%B4%D8%B1-%D9%88-%D8%B2%DB%8C%D8%B3%D8%AA-%D8%A8%D9%88%D9%85-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
+          "kind": "unit",
+          "claim": "رونمایی سامانه شبکه آزمایشگاهی و کارگاهی",
+          "id": "birjand-discovery-unit-laboratory-fedf97147540",
+          "unitType": "laboratory"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/content/252/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%B9%D9%85%D9%84%DA%AF%D8%B1%D8%AF-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
@@ -1591,20 +1413,15 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 60,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 48,
       "sources": [
         {
           "url": "https://birjand.ac.ir/research/fa/news/16255/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D8%B3%D9%87-%D8%B3%D8%A7%D9%84%D9%87-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D8%B4%D8%B1-%D9%88-%D8%B2%DB%8C%D8%B3%D8%AA-%D8%A8%D9%88%D9%85-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16255",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
+          "kind": "unit",
+          "claim": "کلیپ عملکرد سه ساله شبکه آزمایشگاهی و کارگاهی، مدیریت کتابخانه مرکزی و مرکز نشر و زیست بوم فناوری و نوآوری و کارآفرینی",
+          "id": "birjand-discovery-unit-technology-e72e2b603782",
+          "unitType": "technology"
         },
         {
           "url": "https://cv.birjand.ac.ir/saghebjou/fa",
@@ -1617,495 +1434,308 @@
           "kind": "unit",
           "claim": "معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-ca07e5af139d",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/5122/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C",
           "kind": "unit",
           "claim": "فرم‌های کمیته اخلاق زیست پزشکی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-c66710d677ad",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/2735/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
           "kind": "unit",
           "claim": "آیین نامه ها - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-0944c3dd568c",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/442/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
           "kind": "unit",
           "claim": "آیین نامه طرح‌های پژوهشی کاربردی و فناورانه دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-26388fe539b9",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/549/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%85%D8%B1%D8%A7%D8%AD%D9%84-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B3%D9%86%D8%AC%DB%8C-%D9%88-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D9%85%D9%84%DB%8C-%D9%88-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D9%88%D8%B3%D8%B3%D9%87-isc",
           "kind": "unit",
           "claim": "شیوه نامه و مراحل اعتبار سنجی و نمایه سازی همایش های ملی و بین المللی توسط موسسه ISC - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-d8fdff60db13",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/481/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
           "kind": "unit",
           "claim": "آیین‌نامه تشویق دستاوردهای پژوهشی و فناوری - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-8320b0cb96e2",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/328/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
           "kind": "unit",
           "claim": "آیین نامه تخصیص پژوهانه اعضای هیات علمی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-757b8fb932c0",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/350/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%DA%AF%D8%B1%D9%88%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "آیین نامه تاسیس گروه های پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-5ed2f1caae18",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/342/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%AD%D9%88%D9%87-%D8%AA%D8%B4%DA%A9%DB%8C%D9%84-%D9%88-%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%DA%A9%D9%85%DB%8C%D8%B3%DB%8C%D9%88%D9%86-%D8%A7%D9%86%D8%AC%D9%85%D9%86%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86",
           "kind": "unit",
           "claim": "آیین نامه نحوه تشکیل و شرح وظایف کمیسیون انجمنهای علمی ایران - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-06977741b0cd",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/330/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%88-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D8%AF%D9%87%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
           "kind": "unit",
           "claim": "آیین نامه نحوه برگزاری و ساماندهی همایش های علمی دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-03346ff686b2",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/329/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AE%D9%88%D8%AF%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
           "kind": "unit",
           "claim": "آیین نامه طرح های پژوهشی خودارزیاب دانشگاه - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-aa21c4fe2984",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/577/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
           "kind": "unit",
           "claim": "آیین نامه فرصت مطالعاتی خارج از کشور - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-ca453e2728c1",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/346/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D8%A7%D8%B3%D8%AA%D9%86%D8%A7%D8%AF%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B1-isc",
           "kind": "unit",
           "claim": "آیین نامه نمایه سازی استنادی نشریات معتبر علمی در ISC - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-f68924581f1f",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/345/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85",
-          "kind": "unit",
-          "claim": "آیین نامه نشریات علمی وزارت علوم - معاونت پژوهش، فناوری و نوآوری",
-          "id": "birjand-discovery-unit-technology-4266cc1eb2ab",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/331/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "unit",
-          "claim": "آیین نامه اجرایی نشریات علمی دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
-          "id": "birjand-discovery-unit-technology-529f00a2f89a",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/325/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%86%D8%A7%D9%BE-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D8%AF%D8%B1-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84-%D9%88-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
           "kind": "unit",
           "claim": "آیین نامه پرداخت هزینه چاپ مقالات در مجلات معتبر علمی - پژوهشی داخل و خارج از کشور - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-bf088ed0c338",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/324/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%D9%88-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "unit",
-          "claim": "شیوه نامه تدوین و نگارش کتاب انتشارات دانشگاه - معاونت پژوهش، فناوری و نوآوری",
-          "id": "birjand-discovery-unit-technology-1706aac789e3",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/321/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2-%D8%AF%D9%87%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
           "kind": "unit",
           "claim": "آیین نامه امتیاز دهی کتاب - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-06e2b6ac4460",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/320/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "unit",
-          "claim": "آیین نامه انتشارات دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
-          "id": "birjand-discovery-unit-technology-d72e42b8d0f1",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/487/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1",
-          "kind": "unit",
-          "claim": "شیوه نامه تشویقی نشریات علمی داخلی نمایه شده در نمایه های بین المللی معتبر - معاونت پژوهش، فناوری و نوآوری",
-          "id": "birjand-discovery-unit-technology-1551b86f7085",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/486/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%88-%D8%B1%D8%AA%D8%A8%D9%87-%D8%A8%D9%86%D8%AF%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "unit",
-          "claim": "شیوه نامه ارزیابی و رتبه بندی نشریات علمی - معاونت پژوهش، فناوری و نوآوری",
-          "id": "birjand-discovery-unit-technology-d74e8343713a",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/485/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%AF%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C-%D8%A8%D8%A7%D8%B2",
-          "kind": "unit",
-          "claim": "آیین نامه تعیین هزینه پردازش مقاله در نشریات علمی دسترسی باز - معاونت پژوهش، فناوری و نوآوری",
-          "id": "birjand-discovery-unit-technology-7329da939f75",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/386/%D9%81%D8%B1%D9%85-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%DB%B2-%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%86%D9%82%D8%AF%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-",
           "kind": "unit",
           "claim": "فرم شماره ۲- تسویه حساب اعتبار نقدی (پژوهانه) - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-42e8f7e14d15",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/181/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "فرم درخواست ماموریت پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-dcb7cc52f9f2",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/176/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D8%AE%D9%88%D8%AF%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8",
           "kind": "unit",
           "claim": "فرم پرسشنامه طرح خودارزیاب - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-c05666746780",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/434/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C-%D9%82%D8%A8%D9%84-%D8%A7%D8%B2-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%DB%8C%D9%86%D8%A7%D8%B1-",
           "kind": "unit",
           "claim": "فرم اطلاعات پیشنهادی قبل از برگزاری همایش (کارگاه، سمینار) - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-29cb405bc23d",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/433/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%AF%D8%A8%DB%8C%D8%B1%D8%AE%D8%A7%D9%86%D9%87-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA%DB%8C-%D9%88-%D8%B3%D8%A7%DB%8C%D8%AA-%D9%87%D9%85%D8%A7%DB%8C%D8%B4",
           "kind": "unit",
           "claim": "فرم درخواست راه اندازی دبیرخانه اینترنتی و سایت همایش - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-769df7c8caa2",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/409/%D9%81%D8%B1%D9%85-%D9%85%D8%AD%D8%B1%D9%85%D8%A7%D9%86%D9%87-%D8%A7%D8%B1%D8%B2%D8%B4%DB%8C%D8%A7%D8%A8%DB%8C-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "فرم محرمانه ارزشیابی گزارش نهایی طرحهای پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-c44f7576f865",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/408/%D9%81%D8%B1%D9%85-%D9%85%D8%AD%D8%B1%D9%85%D8%A7%D9%86%D9%87-%D8%A7%D8%B1%D8%B2%D8%B4%DB%8C%D8%A7%D8%A8%DB%8C-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "فرم محرمانه ارزشیابی پرسشنامه طرحهای پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-e3f89c2b65fe",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/341/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%D9%88-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "راهنمای تدوین و نگارش گزارش نهایی طرحهای پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-df83fa8ee557",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/339/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "دستورالعمل نحوه بررسی تخلفات پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-499e61144c1c",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/337/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%85%D8%B1%D8%AC%D8%B9-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D9%88-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%B3%D8%A8%DA%A9-apa",
           "kind": "unit",
           "claim": "دستورالعمل مرجع نویسی پروپوزال و گزارش نهایی طرح پژوهشی سبک APA - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-1e589c1e71a4",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/4451/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
           "kind": "unit",
           "claim": "عملکرد معاونت پژوهش، فناوری و نوآوری - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-52ec1c1f7e4b",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/content/252/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%B9%D9%85%D9%84%DA%AF%D8%B1%D8%AF-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
           "kind": "unit",
           "claim": "گزارش عملگرد معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-2005a42a15fa",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16254/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D8%B3%D9%87-%D8%B3%D8%A7%D9%84%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C-%D9%88-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA-%D9%88-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D8%A7%D9%88%D8%A7",
-          "kind": "unit",
-          "claim": "عملکرد سه ساله مدیریت امور پژوهشی، مدیریت کارآفرینی و ارتباط با صنعت و مدیریت فاوا",
-          "id": "birjand-discovery-unit-industry-f58565ad39eb",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/news/16256/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%DB%8C%DA%A9-%D8%B3%D8%A7%D9%84%D9%87-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
           "kind": "unit",
           "claim": "کلیپ عملکرد یک ساله معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-a13701fe7004",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/170/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%87%D8%A7",
           "kind": "unit",
           "claim": "مدیریت ها - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-b5920a69ae29",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/page/171/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "unit",
-          "claim": "مدیریت امور پژوهشی - معاونت پژوهش، فناوری و نوآوری",
-          "id": "birjand-discovery-unit-technology-1f21385a3988",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/page/1284/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "unit",
-          "claim": "فرآیندهای مدیریت امور پژوهشی - معاونت پژوهش، فناوری و نوآوری",
-          "id": "birjand-discovery-unit-technology-233ea405db5a",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/2775/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A8%D9%84%D9%86%D8%AF-%D9%85%D8%AF%D8%AA-%DB%B6-%D9%85%D8%A7%D9%87%D9%87-",
           "kind": "unit",
           "claim": "فرآیند فرصت مطالعاتی بلند مدت (۶ ماهه) - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-aa3f9468a790",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/2854/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%DA%A9%D9%88%D8%AA%D8%A7%D9%87-%D9%85%D8%AF%D8%AA-%DB%B3-%D9%85%D8%A7%D9%87%D9%87-",
           "kind": "unit",
           "claim": "فرآیند فرصت مطالعاتی کوتاه مدت (۳ ماهه) - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-27f832274459",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/2774/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%A7%D8%B1%D8%A7%D8%A6%D9%87-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%AF%D8%B1-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
           "kind": "unit",
           "claim": "فرآیند ارائه مقاله در همایش های خارج از کشور - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-527043afcb83",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/323/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%DA%86%D8%A7%D9%BE-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "unit",
-          "claim": "دستورالعمل تدوین، چاپ و انتشار نشریات علمی دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
-          "id": "birjand-discovery-unit-technology-f4ff8c003ede",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/180/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%DB%8C%D8%A7-%D8%AA%D8%A7%DB%8C%DB%8C%D8%AF-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "پرسشنامه درخواست تعیین یا تایید اعتبار علمی_پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-673cd844de4b",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/179/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AE%D8%B5%D9%88%D8%B5-%D8%B3%D8%B1%D8%AF%D8%A8%DB%8C%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
           "kind": "unit",
           "claim": "پرسشنامه مخصوص سردبیر نشریه - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-4d507423af1d",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/178/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AE%D8%B5%D9%88%D8%B5-%D8%A7%D8%B9%D8%B6%D8%A7-%D9%87%DB%8C%D8%A7%D8%AA-%D8%AA%D8%AD%D8%B1%DB%8C%D8%B1%DB%8C%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
           "kind": "unit",
           "claim": "پرسشنامه مخصوص اعضاء هیات تحریریه نشریه - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-cbd88cf6b8d2",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/177/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%D9%85%D8%B3%D8%A6%D9%88%D9%84-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
           "kind": "unit",
           "claim": "پرسشنامه مدیرمسئول نشریه - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-ac3355fe3ac2",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/457/rfp-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C",
           "kind": "unit",
           "claim": "rfp طرح‌های کاربردی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-1a2a374f9276",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/456/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C",
           "kind": "unit",
           "claim": "پروپوزال طرح‌های کاربردی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-4c8e4fe35d89",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/455/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87",
           "kind": "unit",
           "claim": "پروپوزال طرح‌های فناورانه - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-712810957fce",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/436/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A8%D8%B9%D8%AF-%D8%A7%D8%B2-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%DA%AF%D8%B1%D8%AF%D9%87%D9%85%D8%A7%DB%8C%DB%8C-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%DA%A9%D9%86%DA%AF%D8%B1%D9%87-%D9%88-.....-",
           "kind": "unit",
           "claim": "اطلاعات بعد از برگزاری گردهمایی های علمی (همایش، کنگره و .....) - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-9844b999b446",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/415/%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8-%D9%85%D8%A7%D9%84%DB%8C-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "تسویه حساب مالی واحد پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-de4b31ad826f",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/414/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "درخواست تاسیس واحد پژوهشی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-dcf554bf64fe",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/397/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87-%D8%A7%D9%87%D8%AF%D8%A7-%D8%A7%D9%85%D9%88%D8%A7%D9%84",
           "kind": "unit",
           "claim": "صورتجلسه اهداء اموال - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-a5e730884179",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/175/%D9%81%D8%B1%D9%85-%D8%AE%D9%84%D8%A7%D8%B5%D9%87-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
           "kind": "unit",
           "claim": "فرم خلاصه فعالیتهای آموزشی ، پژوهشی و اجرایی اعضای هیئت علمی - معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-d334cfe4466a",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://birjand.ac.ir/file/download/page/1608360975-new-folder.zip",
@@ -2127,23 +1757,6 @@
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
-      "id": "birjand:informationTechnology",
-      "universitySlug": "birjand",
-      "nameFa": "دانشگاه بیرجند",
-      "iscCategory": "جامع",
-      "iscRank": 34,
-      "dimension": "informationTechnology",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 0,
-      "sources": [],
-      "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
-      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
-    },
-    {
       "id": "birjand:systemsServices",
       "universitySlug": "birjand",
       "nameFa": "دانشگاه بیرجند",
@@ -2153,7 +1766,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 6,
       "sources": [
         {
@@ -2171,16 +1784,16 @@
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
           "kind": "system",
-          "claim": "آیین نامه نمایه سازی استنادی نشریات معتبر علمی در ISC - معاونت پژوهش، فناوری و نوآوری",
-          "id": "birjand-discovery-system-f68924581f1f",
+          "claim": "شیوه نامه تشویقی نشریات علمی داخلی نمایه شده در نمایه های بین المللی معتبر - معاونت پژوهش، فناوری و نوآوری",
+          "id": "birjand-discovery-system-1551b86f7085",
           "systemCategory": "journals"
         },
         {
           "url": "https://birjand.ac.ir/research/fa/content/252/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%B9%D9%85%D9%84%DA%AF%D8%B1%D8%AF-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
           "kind": "system",
-          "claim": "رونمایی سامانه شبکه آزمایشگاهی و کارگاهی",
-          "id": "birjand-discovery-system-fedf97147540",
-          "systemCategory": "laboratory"
+          "claim": "کلیپ رونمایی از سامانه تشویق فعالیت های پژوهشی",
+          "id": "birjand-discovery-system-782d25c80835",
+          "systemCategory": "research"
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/652b6db2a4fe7-.pdf?language=fa&subdomain=graduate",
@@ -2211,8 +1824,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 127,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 119,
       "sources": [
         {
           "url": "https://birjand.ac.ir/graduate/fa/regulation",
@@ -2276,9 +1889,9 @@
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/65a798a682e38-10461405-2-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک",
-          "id": null
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-c46f12012c75"
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/1591775182-.pdf",
@@ -2288,9 +1901,9 @@
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/1658037518-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک",
-          "id": null
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-65612c721e08"
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/1658037395-.pdf",
@@ -2314,24 +1927,6 @@
           "url": "https://birjand.ac.ir/file/download/regulation/1611050849-.doc",
           "kind": "portal-document-reaudit-document",
           "claim": "پروپوزال طرح‌های فناورانه فرم های پژوهشی پروپوزال طرح‌های فناورانه لینک آخرین به‌روزرسانی : ۳۰ دی ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/655f18f32075c-.pdf?language=fa&subdomain=graduate",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 راهنمای تصویری ایجاد صورت جلسه الکترونیکی آزمون جامع فرآیندهای اعضای هیأت علمی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/6560471b52d67-.pdf?language=fa&subdomain=graduate",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 راهنمای تصویری ورود داده ظرفیت رشته و گرایش فرآیندهای اعضای هیأت علمی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/6582bca086c11-aeinnameh-jameh-amozeshi.pdf?language=fa&subdomain=graduate",
-          "kind": "portal-document-reaudit-document",
-          "claim": "11 شیوه نامه جامع آموزشی دوره های تحصیلی دانشگاه بیرجند مربوط به دانشجویان ورودی ۱۴۰۲ و مابعد آیین نامه ها و مقررات دانشجویان تحصیلات تکمیلی",
           "id": null
         },
         {
@@ -2527,24 +2122,6 @@
           "id": null
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1735023648-676a5c20030a9-.pdf?language=fa&subdomain=graduate",
-          "kind": "portal-document-reaudit-document",
-          "claim": "4 شیوه نامه بسندگی مهارت زبان خارجی دانشجویان دکتری دانشگاه بیرجند آیین نامه های مقطع دکترا",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/65335a1a5a76b-.pdf?language=fa&subdomain=graduate",
-          "kind": "portal-document-reaudit-document",
-          "claim": "8 شیوه نامه اجرایی احراز بسندگی زبان خارجی برای دانشجویان دوره دکتری تخصصی وزارت علوم و استعلام وابسته به آن آیین نامه های مقطع دکترا",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1686646982-1230249728-1350643235.pdf?language=fa&subdomain=graduate",
-          "kind": "portal-document-reaudit-document",
-          "claim": "10 شیوه نامه پذیرش دانشجویان دوره های دکتری به روش استاد محور از طریق آزمون دکتری تخصصی آیین نامه های اعضای هیات علمی",
-          "id": null
-        },
-        {
           "url": "https://birjand.ac.ir/file/download/regulation/1598694284-tarh3-4-.pdf?language=fa&subdomain=graduate",
           "kind": "portal-document-reaudit-document",
           "claim": "14 راهنمای ثبت طرح تحقیق مصوب(طرح پژوهشی ۳) در سامانه جامع آموزشی (دانشجویان تحصیلات تکمیلی) فرآیندها",
@@ -2618,9 +2195,9 @@
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/1554782260-hcm.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک",
-          "id": null
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-e1e95df7f8b1"
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/1591775089-.pdf",
@@ -2636,26 +2213,14 @@
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/1658037239-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک",
-          "id": null
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-d4f0d461d255"
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/1591775146-.pdf?language=fa&subdomain=research",
           "kind": "portal-document-reaudit-document",
           "claim": "5 دستورالعمل تدوین، چاپ و انتشار نشریات علمی دانشگاه بیرجند آیین نامه های مجلات و انتشارات",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/6670f373b2b97-.pdf?language=fa&subdomain=graduate",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 دستورالعمل تشویق اساتید دانشگاه بیرجند برای جذب دانشجوی تحصیلات تکمیلی استادمحور آیین نامه های اعضای هیات علمی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/650eb5460e7de-1402.pdf?language=fa&subdomain=graduate",
-          "kind": "portal-document-reaudit-document",
-          "claim": "9 آیین نامه وزارتی یکپارچه مقررات آموزشی دوره های تحصیلی کاردانی، کارشناسی، کارشناسی ارشد، دکتری تخصصی ۱۴۰۲ آیین نامه ها و مقررات دانشجویان تحصیلات تکمیلی",
           "id": null
         },
         {
@@ -3029,27 +2594,27 @@
     "nameFa": "دانشگاه بیرجند",
     "iscCategory": "جامع",
     "iscRank": 34,
-    "score": 86.5,
-    "confidence": 91.4,
+    "score": 80,
+    "confidence": 100,
     "metrics": {
       "documents": 91,
-      "organization": 90.8,
+      "organization": 81.7,
       "library": 70,
       "laboratories": 100,
-      "digital": 67.5,
-      "industryTech": 90,
+      "systems": 67.5,
+      "industryTech": 45,
       "dataQuality": 100,
       "findability": 75
     },
-    "units": 78,
+    "units": 62,
     "systems": 9,
-    "documents": 80,
+    "documents": 72,
     "activeWeight": 100,
-    "evidenceCoverage": 88,
-    "methodologyVersion": "RTPMI-4.1-ISC",
-    "snapshotDate": "2026-08-11",
-    "rank": 14,
-    "portalRankWithinISCClass": 9,
+    "evidenceCoverage": 100,
+    "methodologyVersion": "RTPMI-4.2-ISC",
+    "snapshotDate": "2026-08-12",
+    "rank": 28,
+    "portalRankWithinISCClass": 21,
     "rankedPortalsInISCClass": 50
   },
   "units": [
@@ -3296,28 +2861,6 @@
       "discoveryConfidence": 0.8694736842105263
     },
     {
-      "id": "birjand-discovery-unit-technology-4266cc1eb2ab",
-      "universitySlug": "birjand",
-      "nameFa": "آیین نامه نشریات علمی وزارت علوم - معاونت پژوهش، فناوری و نوآوری",
-      "type": "technology",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/regulation/345/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
-      "id": "birjand-discovery-unit-technology-529f00a2f89a",
-      "universitySlug": "birjand",
-      "nameFa": "آیین نامه اجرایی نشریات علمی دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
-      "type": "technology",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/regulation/331/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
       "id": "birjand-discovery-unit-technology-bf088ed0c338",
       "universitySlug": "birjand",
       "nameFa": "آیین نامه پرداخت هزینه چاپ مقالات در مجلات معتبر علمی - پژوهشی داخل و خارج از کشور - معاونت پژوهش، فناوری و نوآوری",
@@ -3329,17 +2872,6 @@
       "discoveryConfidence": 0.8694736842105263
     },
     {
-      "id": "birjand-discovery-unit-technology-1706aac789e3",
-      "universitySlug": "birjand",
-      "nameFa": "شیوه نامه تدوین و نگارش کتاب انتشارات دانشگاه - معاونت پژوهش، فناوری و نوآوری",
-      "type": "technology",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/regulation/324/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%D9%88-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
       "id": "birjand-discovery-unit-technology-06e2b6ac4460",
       "universitySlug": "birjand",
       "nameFa": "آیین نامه امتیاز دهی کتاب - معاونت پژوهش، فناوری و نوآوری",
@@ -3347,50 +2879,6 @@
       "evidence": "verified",
       "lastVerified": "2026-08-11",
       "sourceUrl": "https://birjand.ac.ir/research/fa/regulation/321/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2-%D8%AF%D9%87%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
-      "id": "birjand-discovery-unit-technology-d72e42b8d0f1",
-      "universitySlug": "birjand",
-      "nameFa": "آیین نامه انتشارات دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
-      "type": "technology",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/regulation/320/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
-      "id": "birjand-discovery-unit-technology-1551b86f7085",
-      "universitySlug": "birjand",
-      "nameFa": "شیوه نامه تشویقی نشریات علمی داخلی نمایه شده در نمایه های بین المللی معتبر - معاونت پژوهش، فناوری و نوآوری",
-      "type": "technology",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/regulation/487/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
-      "id": "birjand-discovery-unit-technology-d74e8343713a",
-      "universitySlug": "birjand",
-      "nameFa": "شیوه نامه ارزیابی و رتبه بندی نشریات علمی - معاونت پژوهش، فناوری و نوآوری",
-      "type": "technology",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/regulation/486/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%88-%D8%B1%D8%AA%D8%A8%D9%87-%D8%A8%D9%86%D8%AF%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
-      "id": "birjand-discovery-unit-technology-7329da939f75",
-      "universitySlug": "birjand",
-      "nameFa": "آیین نامه تعیین هزینه پردازش مقاله در نشریات علمی دسترسی باز - معاونت پژوهش، فناوری و نوآوری",
-      "type": "technology",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/regulation/485/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%AF%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C-%D8%A8%D8%A7%D8%B2",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8694736842105263
     },
@@ -3527,17 +3015,6 @@
       "discoveryConfidence": 0.99
     },
     {
-      "id": "birjand-discovery-unit-laboratory-8bafe5b6bd29",
-      "universitySlug": "birjand",
-      "nameFa": "کلیپ عملکرد سه ساله شبکه آزمایشگاهی و کارگاهی، مدیریت کتابخانه مرکزی و مرکز نشر و زیست بوم فناوری و نوآوری و کارآفرینی",
-      "type": "laboratory",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/news/16255",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
       "id": "birjand-discovery-unit-technology-2005a42a15fa",
       "universitySlug": "birjand",
       "nameFa": "گزارش عملگرد معاونت پژوهش، فناوری و نوآوری",
@@ -3545,28 +3022,6 @@
       "evidence": "verified",
       "lastVerified": "2026-08-12",
       "sourceUrl": "https://birjand.ac.ir/research/fa/content/252/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%B9%D9%85%D9%84%DA%AF%D8%B1%D8%AF-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9747368421052631
-    },
-    {
-      "id": "birjand-discovery-unit-industry-f58565ad39eb",
-      "universitySlug": "birjand",
-      "nameFa": "عملکرد سه ساله مدیریت امور پژوهشی، مدیریت کارآفرینی و ارتباط با صنعت و مدیریت فاوا",
-      "type": "industry",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/news/16254/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D8%B3%D9%87-%D8%B3%D8%A7%D9%84%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C-%D9%88-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA-%D9%88-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D8%A7%D9%88%D8%A7",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9747368421052631
-    },
-    {
-      "id": "birjand-discovery-unit-technology-8bafe5b6bd29",
-      "universitySlug": "birjand",
-      "nameFa": "کلیپ عملکرد سه ساله شبکه آزمایشگاهی و کارگاهی، مدیریت کتابخانه مرکزی و مرکز نشر و زیست بوم فناوری و نوآوری و کارآفرینی",
-      "type": "technology",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/news/16255",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.9747368421052631
     },
@@ -3589,28 +3044,6 @@
       "evidence": "verified",
       "lastVerified": "2026-08-12",
       "sourceUrl": "https://birjand.ac.ir/research/fa/news/16259/%D8%B1%D9%88%D9%86%D9%85%D8%A7%DB%8C%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9484210526315788
-    },
-    {
-      "id": "birjand-discovery-unit-library-e72e2b603782",
-      "universitySlug": "birjand",
-      "nameFa": "کلیپ عملکرد سه ساله شبکه آزمایشگاهی و کارگاهی، مدیریت کتابخانه مرکزی و مرکز نشر و زیست بوم فناوری و نوآوری و کارآفرینی",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/news/16255/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D8%B3%D9%87-%D8%B3%D8%A7%D9%84%D9%87-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D8%B4%D8%B1-%D9%88-%D8%B2%DB%8C%D8%B3%D8%AA-%D8%A8%D9%88%D9%85-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9484210526315788
-    },
-    {
-      "id": "birjand-discovery-unit-laboratory-e72e2b603782",
-      "universitySlug": "birjand",
-      "nameFa": "کلیپ عملکرد سه ساله شبکه آزمایشگاهی و کارگاهی، مدیریت کتابخانه مرکزی و مرکز نشر و زیست بوم فناوری و نوآوری و کارآفرینی",
-      "type": "laboratory",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/news/16255/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D8%B3%D9%87-%D8%B3%D8%A7%D9%84%D9%87-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D8%B4%D8%B1-%D9%88-%D8%B2%DB%8C%D8%B3%D8%AA-%D8%A8%D9%88%D9%85-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.9484210526315788
     },
@@ -3659,28 +3092,6 @@
       "discoveryConfidence": 0.8694736842105263
     },
     {
-      "id": "birjand-discovery-unit-technology-1f21385a3988",
-      "universitySlug": "birjand",
-      "nameFa": "مدیریت امور پژوهشی - معاونت پژوهش، فناوری و نوآوری",
-      "type": "technology",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/page/171/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
-      "id": "birjand-discovery-unit-technology-233ea405db5a",
-      "universitySlug": "birjand",
-      "nameFa": "فرآیندهای مدیریت امور پژوهشی - معاونت پژوهش، فناوری و نوآوری",
-      "type": "technology",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/page/1284/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
       "id": "birjand-discovery-unit-technology-aa3f9468a790",
       "universitySlug": "birjand",
       "nameFa": "فرآیند فرصت مطالعاتی بلند مدت (۶ ماهه) - معاونت پژوهش، فناوری و نوآوری",
@@ -3721,17 +3132,6 @@
       "evidence": "verified",
       "lastVerified": "2026-08-12",
       "sourceUrl": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=circularNo",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
-      "id": "birjand-discovery-unit-technology-f4ff8c003ede",
-      "universitySlug": "birjand",
-      "nameFa": "دستورالعمل تدوین، چاپ و انتشار نشریات علمی دانشگاه بیرجند - معاونت پژوهش، فناوری و نوآوری",
-      "type": "technology",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/regulation/323/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%DA%86%D8%A7%D9%BE-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8694736842105263
     },
@@ -3899,17 +3299,6 @@
       "sourceUrl": "https://cv.birjand.ac.ir/saghebjou/fa",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8431578947368421
-    },
-    {
-      "id": "birjand-discovery-unit-library-8bafe5b6bd29",
-      "universitySlug": "birjand",
-      "nameFa": "کلیپ عملکرد سه ساله شبکه آزمایشگاهی و کارگاهی، مدیریت کتابخانه مرکزی و مرکز نشر و زیست بوم فناوری و نوآوری و کارآفرینی",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://birjand.ac.ir/research/fa/news/16255",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8431578947368421
     }
   ],
   "systems": [
@@ -4054,7 +3443,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/page/1744789140-67ff5e94c4fe9-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/page/1744789140-67ff5e94c4fe9-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/page/5122/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C",
@@ -4073,7 +3462,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/page/1744789195-67ff5ecb629e1-.docx",
       "sourceUrl": "https://birjand.ac.ir/file/download/page/1744789195-67ff5ecb629e1-.docx",
       "parentUrl": "https://birjand.ac.ir/research/fa/page/5122/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C",
@@ -4092,7 +3481,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/page/1744789445-67ff5fc5d1467-.docx",
       "sourceUrl": "https://birjand.ac.ir/file/download/page/1744789445-67ff5fc5d1467-.docx",
       "parentUrl": "https://birjand.ac.ir/research/fa/page/5122/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C",
@@ -4111,7 +3500,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1599459424-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1599459424-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/442/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
@@ -4130,7 +3519,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/65a798a682e38-10461405-2-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/65a798a682e38-10461405-2-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/549/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%85%D8%B1%D8%A7%D8%AD%D9%84-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B3%D9%86%D8%AC%DB%8C-%D9%88-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D9%85%D9%84%DB%8C-%D9%88-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D9%88%D8%B3%D8%B3%D9%87-isc",
@@ -4149,7 +3538,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1644133371-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1644133371-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/481/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
@@ -4168,7 +3557,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1644135031-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1644135031-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/328/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
@@ -4187,7 +3576,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1644134766-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1644134766-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/350/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%DA%AF%D8%B1%D9%88%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -4206,7 +3595,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1554787810-pdfoperation.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1554787810-pdfoperation.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/342/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%AD%D9%88%D9%87-%D8%AA%D8%B4%DA%A9%DB%8C%D9%84-%D9%88-%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%DA%A9%D9%85%DB%8C%D8%B3%DB%8C%D9%88%D9%86-%D8%A7%D9%86%D8%AC%D9%85%D9%86%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86",
@@ -4225,7 +3614,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1610975294-untitled.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1610975294-untitled.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/330/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%88-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D8%AF%D9%87%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
@@ -4244,7 +3633,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1778408169-6a005ae988dae-1405.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1778408169-6a005ae988dae-1405.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/329/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AE%D9%88%D8%AF%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
@@ -4263,7 +3652,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1761636671-6900713f11a58-890630.zip",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1761636671-6900713f11a58-890630.zip",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/577/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
@@ -4282,7 +3671,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1554866593-document1.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1554866593-document1.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/346/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D8%A7%D8%B3%D8%AA%D9%86%D8%A7%D8%AF%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B1-isc",
@@ -4301,7 +3690,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1658036783-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1658036783-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/345/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85",
@@ -4320,7 +3709,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/664c44038d3ca-1402-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/664c44038d3ca-1402-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/331/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
@@ -4339,7 +3728,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1554782260-hcm.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1554782260-hcm.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/325/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%86%D8%A7%D9%BE-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D8%AF%D8%B1-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84-%D9%88-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
@@ -4358,7 +3747,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1591775182-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1591775182-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/324/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%D9%88-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
@@ -4377,7 +3766,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1591775089-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1591775089-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/321/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2-%D8%AF%D9%87%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
@@ -4396,7 +3785,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/664c45a2eabbd-1-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/664c45a2eabbd-1-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/320/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
@@ -4415,7 +3804,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1658037518-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1658037518-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/487/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1",
@@ -4434,7 +3823,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1658037395-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1658037395-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/486/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%88-%D8%B1%D8%AA%D8%A8%D9%87-%D8%A8%D9%86%D8%AF%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
@@ -4453,7 +3842,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1658037239-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1658037239-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/485/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%AF%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C-%D8%A8%D8%A7%D8%B2",
@@ -4472,7 +3861,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1569055151-2.docx",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1569055151-2.docx",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/386/%D9%81%D8%B1%D9%85-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%DB%B2-%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%86%D9%82%D8%AF%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-",
@@ -4491,7 +3880,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1530505373-mamoreat-pajoheshi.zip",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1530505373-mamoreat-pajoheshi.zip",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/181/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -4510,7 +3899,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1604817257-new-folder.zip",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1604817257-new-folder.zip",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/176/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D8%AE%D9%88%D8%AF%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8",
@@ -4529,7 +3918,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1610788843-1.docx",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1610788843-1.docx",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/434/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C-%D9%82%D8%A8%D9%84-%D8%A7%D8%B2-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%DB%8C%D9%86%D8%A7%D8%B1-",
@@ -4548,7 +3937,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1610789059-2.docx",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1610789059-2.docx",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/433/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%AF%D8%A8%DB%8C%D8%B1%D8%AE%D8%A7%D9%86%D9%87-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA%DB%8C-%D9%88-%D8%B3%D8%A7%DB%8C%D8%AA-%D9%87%D9%85%D8%A7%DB%8C%D8%B4",
@@ -4567,7 +3956,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1573446414-.doc",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1573446414-.doc",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/409/%D9%81%D8%B1%D9%85-%D9%85%D8%AD%D8%B1%D9%85%D8%A7%D9%86%D9%87-%D8%A7%D8%B1%D8%B2%D8%B4%DB%8C%D8%A7%D8%A8%DB%8C-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -4586,7 +3975,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1573446384-.doc",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1573446384-.doc",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/408/%D9%81%D8%B1%D9%85-%D9%85%D8%AD%D8%B1%D9%85%D8%A7%D9%86%D9%87-%D8%A7%D8%B1%D8%B2%D8%B4%DB%8C%D8%A7%D8%A8%DB%8C-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -4605,7 +3994,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1554787587-rahnama-2.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1554787587-rahnama-2.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/341/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%D9%88-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -4624,7 +4013,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1555485928-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1555485928-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/339/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -4643,7 +4032,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1554785686-finalapa.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1554785686-finalapa.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/337/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%85%D8%B1%D8%AC%D8%B9-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D9%88-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%B3%D8%A8%DA%A9-apa",
@@ -4662,7 +4051,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/page/1608360975-new-folder.zip",
       "sourceUrl": "https://birjand.ac.ir/file/download/page/1608360975-new-folder.zip",
       "parentUrl": "https://birjand.ac.ir/research/fa/page/2775/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A8%D9%84%D9%86%D8%AF-%D9%85%D8%AF%D8%AA-%DB%B6-%D9%85%D8%A7%D9%87%D9%87-",
@@ -4681,7 +4070,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/652b6db2a4fe7-.pdf?language=fa&subdomain=graduate",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/652b6db2a4fe7-.pdf?language=fa&subdomain=graduate",
       "parentUrl": "https://birjand.ac.ir/graduate/fa/regulation",
@@ -4700,7 +4089,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1569055151-2.docx?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1569055151-2.docx?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -4719,7 +4108,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1611050900-.doc",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1611050900-.doc",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/456/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C",
@@ -4738,70 +4127,13 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1611050849-.doc",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1611050849-.doc",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/455/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87",
       "fileName": "پروپوزال+فناورانه.doc",
       "contentType": "application/msword",
       "fileSize": 177152,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "birjand-discovery-document-98e0452e7f84",
-      "universitySlug": "birjand",
-      "title": "2 راهنمای تصویری ایجاد صورت جلسه الکترونیکی آزمون جامع فرآیندهای اعضای هیأت علمی",
-      "type": "آیین‌نامه",
-      "topic": "سایر",
-      "taxonomy": "regulation/bylaw",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://birjand.ac.ir/file/download/regulation/655f18f32075c-.pdf?language=fa&subdomain=graduate",
-      "sourceUrl": "https://birjand.ac.ir/file/download/regulation/655f18f32075c-.pdf?language=fa&subdomain=graduate",
-      "parentUrl": "https://birjand.ac.ir/graduate/fa/regulation",
-      "fileName": "راهنمای ثبت نمرات آزمون جامع توسط مدیر محترم گروه و معاون محترم آموزشی دانشکده.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 623662,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "birjand-discovery-document-2abd05380301",
-      "universitySlug": "birjand",
-      "title": "3 راهنمای تصویری ورود داده ظرفیت رشته و گرایش فرآیندهای اعضای هیأت علمی",
-      "type": "آیین‌نامه",
-      "topic": "سایر",
-      "taxonomy": "regulation/bylaw",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://birjand.ac.ir/file/download/regulation/6560471b52d67-.pdf?language=fa&subdomain=graduate",
-      "sourceUrl": "https://birjand.ac.ir/file/download/regulation/6560471b52d67-.pdf?language=fa&subdomain=graduate",
-      "parentUrl": "https://birjand.ac.ir/graduate/fa/regulation",
-      "fileName": "راهنمای تصویری ورود داده ظرفیت رشته و گرایش.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 582257,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "birjand-discovery-document-96d450f52dbe",
-      "universitySlug": "birjand",
-      "title": "11 شیوه نامه جامع آموزشی دوره های تحصیلی دانشگاه بیرجند مربوط به دانشجویان ورودی ۱۴۰۲ و مابعد آیین نامه ها و مقررات دانشجویان تحصیلات تکمیلی",
-      "type": "سند",
-      "topic": "تحصیلات تکمیلی و امور پژوهشی",
-      "taxonomy": "postgraduate/research affairs",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://birjand.ac.ir/file/download/regulation/6582bca086c11-aeinnameh-jameh-amozeshi.pdf?language=fa&subdomain=graduate",
-      "sourceUrl": "https://birjand.ac.ir/file/download/regulation/6582bca086c11-aeinnameh-jameh-amozeshi.pdf?language=fa&subdomain=graduate",
-      "parentUrl": "https://birjand.ac.ir/graduate/fa/regulation",
-      "fileName": "Aeinnameh Jameh Amozeshi.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 4214998,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -4814,7 +4146,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1598693789-farayand-tarh.pdf?language=fa&subdomain=graduate",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1598693789-farayand-tarh.pdf?language=fa&subdomain=graduate",
       "parentUrl": "https://birjand.ac.ir/graduate/fa/regulation",
@@ -4833,7 +4165,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1530505373-mamoreat-pajoheshi.zip?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1530505373-mamoreat-pajoheshi.zip?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -4852,7 +4184,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1530505300-8-porsshnameh-taain-ya-tamdid-etbar.zip?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1530505300-8-porsshnameh-taain-ya-tamdid-etbar.zip?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -4871,7 +4203,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/page/1744789381-67ff5f85a2672-irct-.doc",
       "sourceUrl": "https://birjand.ac.ir/file/download/page/1744789381-67ff5f85a2672-irct-.doc",
       "parentUrl": "https://birjand.ac.ir/research/fa/page/5122/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C",
@@ -4890,7 +4222,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/page/1744789489-67ff5ff1692e1-.doc",
       "sourceUrl": "https://birjand.ac.ir/file/download/page/1744789489-67ff5ff1692e1-.doc",
       "parentUrl": "https://birjand.ac.ir/research/fa/page/5122/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C",
@@ -4909,7 +4241,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1591775146-.pdf",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1591775146-.pdf",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/323/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%DA%86%D8%A7%D9%BE-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
@@ -4928,7 +4260,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1530505300-8-porsshnameh-taain-ya-tamdid-etbar.zip",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1530505300-8-porsshnameh-taain-ya-tamdid-etbar.zip",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/180/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%DB%8C%D8%A7-%D8%AA%D8%A7%DB%8C%DB%8C%D8%AF-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -4947,7 +4279,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1530505267-5-porsesh-nameh-sar-dabir.zip",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1530505267-5-porsesh-nameh-sar-dabir.zip",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/179/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AE%D8%B5%D9%88%D8%B5-%D8%B3%D8%B1%D8%AF%D8%A8%DB%8C%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
@@ -4966,7 +4298,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1530505233-7-porsshnameh-heat-tahrireh.zip",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1530505233-7-porsshnameh-heat-tahrireh.zip",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/178/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AE%D8%B5%D9%88%D8%B5-%D8%A7%D8%B9%D8%B6%D8%A7-%D9%87%DB%8C%D8%A7%D8%AA-%D8%AA%D8%AD%D8%B1%DB%8C%D8%B1%DB%8C%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
@@ -4985,7 +4317,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1530505199-6-porsshnameh-modir-masol.zip",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1530505199-6-porsshnameh-modir-masol.zip",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/177/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%D9%85%D8%B3%D8%A6%D9%88%D9%84-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
@@ -5004,7 +4336,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1611050956-rfp.doc",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1611050956-rfp.doc",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/457/rfp-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C",
@@ -5023,7 +4355,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1610789207-3.docx",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1610789207-3.docx",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/436/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A8%D8%B9%D8%AF-%D8%A7%D8%B2-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%DA%AF%D8%B1%D8%AF%D9%87%D9%85%D8%A7%DB%8C%DB%8C-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%DA%A9%D9%86%DA%AF%D8%B1%D9%87-%D9%88-.....-",
@@ -5042,7 +4374,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1587975433-2-.docx",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1587975433-2-.docx",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/415/%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8-%D9%85%D8%A7%D9%84%DB%8C-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -5061,7 +4393,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1587975380-.docx",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1587975380-.docx",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/414/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -5080,7 +4412,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1570338908-1-.docx",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1570338908-1-.docx",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/397/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87-%D8%A7%D9%87%D8%AF%D8%A7-%D8%A7%D9%85%D9%88%D8%A7%D9%84",
@@ -5099,7 +4431,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1530505035-rezome.zip",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1530505035-rezome.zip",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/175/%D9%81%D8%B1%D9%85-%D8%AE%D9%84%D8%A7%D8%B5%D9%87-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
@@ -5118,7 +4450,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1591775182-.pdf?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1591775182-.pdf?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
@@ -5137,7 +4469,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1658037518-.pdf?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1658037518-.pdf?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
@@ -5156,70 +4488,13 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1658037395-.pdf?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1658037395-.pdf?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
       "fileName": "شیوه نامه ارزیابی و رتبه بندی نشریات علمی.pdf",
       "contentType": "application/pdf",
       "fileSize": 2325372,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "birjand-discovery-document-0cb0db6ae174",
-      "universitySlug": "birjand",
-      "title": "4 شیوه نامه بسندگی مهارت زبان خارجی دانشجویان دکتری دانشگاه بیرجند آیین نامه های مقطع دکترا",
-      "type": "آیین‌نامه",
-      "topic": "سایر",
-      "taxonomy": "regulation/bylaw",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://birjand.ac.ir/file/download/regulation/1735023648-676a5c20030a9-.pdf?language=fa&subdomain=graduate",
-      "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1735023648-676a5c20030a9-.pdf?language=fa&subdomain=graduate",
-      "parentUrl": "https://birjand.ac.ir/graduate/fa/regulation",
-      "fileName": "اصلاحیه بسندگی زبان دانشگاه بیرجند.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 318546,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "birjand-discovery-document-4850e16c9875",
-      "universitySlug": "birjand",
-      "title": "8 شیوه نامه اجرایی احراز بسندگی زبان خارجی برای دانشجویان دوره دکتری تخصصی وزارت علوم و استعلام وابسته به آن آیین نامه های مقطع دکترا",
-      "type": "آیین‌نامه",
-      "topic": "سایر",
-      "taxonomy": "regulation/bylaw",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://birjand.ac.ir/file/download/regulation/65335a1a5a76b-.pdf?language=fa&subdomain=graduate",
-      "sourceUrl": "https://birjand.ac.ir/file/download/regulation/65335a1a5a76b-.pdf?language=fa&subdomain=graduate",
-      "parentUrl": "https://birjand.ac.ir/graduate/fa/regulation",
-      "fileName": "آیین نامه بسندگی زبان وزارتی+استعلام وزارتی.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 703167,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "birjand-discovery-document-62cf6f010ad7",
-      "universitySlug": "birjand",
-      "title": "10 شیوه نامه پذیرش دانشجویان دوره های دکتری به روش استاد محور از طریق آزمون دکتری تخصصی آیین نامه های اعضای هیات علمی",
-      "type": "آیین‌نامه",
-      "topic": "سایر",
-      "taxonomy": "regulation/bylaw",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://birjand.ac.ir/file/download/regulation/1686646982-1230249728-1350643235.pdf?language=fa&subdomain=graduate",
-      "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1686646982-1230249728-1350643235.pdf?language=fa&subdomain=graduate",
-      "parentUrl": "https://birjand.ac.ir/graduate/fa/regulation",
-      "fileName": "1230249728_-1350643235.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 113783,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -5232,7 +4507,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1598694284-tarh3-4-.pdf?language=fa&subdomain=graduate",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1598694284-tarh3-4-.pdf?language=fa&subdomain=graduate",
       "parentUrl": "https://birjand.ac.ir/graduate/fa/regulation",
@@ -5251,7 +4526,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1611050900-.doc?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1611050900-.doc?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -5270,7 +4545,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1611050849-.doc?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1611050849-.doc?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -5289,51 +4564,13 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1591775146-.pdf?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1591775146-.pdf?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
       "fileName": "دستورالعمل تهیه و چاپ نشریات علمی دانشگاه بیرجند.pdf",
       "contentType": "application/pdf",
       "fileSize": 80336,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "birjand-discovery-document-4a60d5f89ab2",
-      "universitySlug": "birjand",
-      "title": "1 دستورالعمل تشویق اساتید دانشگاه بیرجند برای جذب دانشجوی تحصیلات تکمیلی استادمحور آیین نامه های اعضای هیات علمی",
-      "type": "سند",
-      "topic": "تحصیلات تکمیلی و امور پژوهشی",
-      "taxonomy": "postgraduate/research affairs",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://birjand.ac.ir/file/download/regulation/6670f373b2b97-.pdf?language=fa&subdomain=graduate",
-      "sourceUrl": "https://birjand.ac.ir/file/download/regulation/6670f373b2b97-.pdf?language=fa&subdomain=graduate",
-      "parentUrl": "https://birjand.ac.ir/graduate/fa/regulation",
-      "fileName": "دستور+العمل+تشویق+اساتید+برای+جذب+دانشجوی+استاد+محور+مصوب+امنا.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 312228,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "birjand-discovery-document-c64cb77c9bfc",
-      "universitySlug": "birjand",
-      "title": "9 آیین نامه وزارتی یکپارچه مقررات آموزشی دوره های تحصیلی کاردانی، کارشناسی، کارشناسی ارشد، دکتری تخصصی ۱۴۰۲ آیین نامه ها و مقررات دانشجویان تحصیلات تکمیلی",
-      "type": "سند",
-      "topic": "تحصیلات تکمیلی و امور پژوهشی",
-      "taxonomy": "postgraduate/research affairs",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://birjand.ac.ir/file/download/regulation/650eb5460e7de-1402.pdf?language=fa&subdomain=graduate",
-      "sourceUrl": "https://birjand.ac.ir/file/download/regulation/650eb5460e7de-1402.pdf?language=fa&subdomain=graduate",
-      "parentUrl": "https://birjand.ac.ir/graduate/fa/regulation",
-      "fileName": "آیین نامه یکپارچه مقررات آموزشی دوره های کاردانی، کارشناسی، کارشناسی ارشد و دکتری 1402.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 5694224,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -5346,7 +4583,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1530505267-5-porsesh-nameh-sar-dabir.zip?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1530505267-5-porsesh-nameh-sar-dabir.zip?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -5365,7 +4602,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1530505233-7-porsshnameh-heat-tahrireh.zip?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1530505233-7-porsshnameh-heat-tahrireh.zip?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -5384,7 +4621,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1530505199-6-porsshnameh-modir-masol.zip?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1530505199-6-porsshnameh-modir-masol.zip?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -5403,7 +4640,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1604817257-new-folder.zip?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1604817257-new-folder.zip?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -5422,7 +4659,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1530505035-rezome.zip?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1530505035-rezome.zip?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -5441,7 +4678,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1611050956-rfp.doc?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1611050956-rfp.doc?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -5460,7 +4697,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1610789207-3.docx?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1610789207-3.docx?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -5479,7 +4716,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1610788843-1.docx?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1610788843-1.docx?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -5498,7 +4735,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1610789059-2.docx?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1610789059-2.docx?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -5517,7 +4754,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1587975433-2-.docx?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1587975433-2-.docx?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -5536,7 +4773,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://birjand.ac.ir/file/download/regulation/1587975380-.docx?language=fa&subdomain=research",
       "sourceUrl": "https://birjand.ac.ir/file/download/regulation/1587975380-.docx?language=fa&subdomain=research",
       "parentUrl": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
