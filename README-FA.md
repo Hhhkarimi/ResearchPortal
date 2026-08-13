@@ -1,59 +1,114 @@
-# پکیج بهبود رابط کاربری ResearchPortal
+# Data Cleaning Engine v1
 
-این پکیج برای commit مبنا‌ی `1fb3335` در شاخه `main` آماده شده است.
+این پکیج مرحله اول قبل از Crawl عمیق بعدی است.
 
-## خلاصه طراحی
+## چه چیزی را اصلاح می‌کند؟
 
-هویت بصری رابط با پالت لاجوردیِ جوهری، یشمیِ تأیید، زعفرانیِ هشدار و کاغذ آبی‌فام منسجم شده است. به درخواست نهایی، نمودار راداری تعاملی قبلی در Hero صفحه اول حفظ شده و همچنان وضعیت واقعی ۱۱۵ نهاد را نمایش می‌دهد.
+سه Catalog اصلی دیگر فقط بر اساس keyword پر نمی‌شوند:
 
-بهبودهای اصلی:
+- `data/units/catalog.json` فقط **واحد واقعی** نگه می‌دارد.
+- `data/systems/catalog.json` فقط **endpoint واقعی سامانه** نگه می‌دارد.
+- `data/documents/catalog.json` فقط **سند مستقیم یا landing page مشخص یک سند** نگه می‌دارد.
 
-- Hero جدید با پیام کوتاه‌تر، CTA روشن‌تر، جست‌وجوی برجسته‌تر و نمودار راداری اصلی
-- حفظ `HeroConstellation` به‌عنوان امضای بصری صفحه اول
-- یکدست‌سازی نام «پرتال معاونت پژوهشی و فناوری» در متن‌های رابط، metadata، رتبه‌بندی، مقایسه، روش‌شناسی و پرونده دانشگاه
-- هویت بصری جدید برای لوگو، header، کارت‌ها، رتبه‌بندی و بخش‌های داده
-- حذف شماره‌های گمراه‌کننده ۰۱/۰۲/۰۳ از مسیرهای مخاطب و جایگزینی با برچسب معنایی
-- پشتیبانی کامل از RTL، حالت تیره، focus keyboard، موبایل و `prefers-reduced-motion`
-- Performance Engineering بر اساس Vercel React Best Practices؛ جزئیات عددی در `PERFORMANCE-REPORT-FA.md`
-- کاهش ۸۴.۹٪ تا ۹۸.۵٪ حجم gzip پاسخ اولیه صفحات سنگین
-- بارگذاری progressive نمایه ۴۷۹۱ سند و حفظ جست‌وجوی کامل
+موارد زیر حذفِ بی‌ردپا نمی‌شوند:
 
-## وضعیت فایل‌ها
+- صفحه «فرم‌ها و آیین‌نامه‌ها»
+- صفحه ساختار سازمانی
+- راهنمای سامانه
+- اطلاعیه درباره سامانه
+- صفحه واسط/Service page
 
-| عملیات | فایل | توضیح |
-| --- | --- | --- |
-| تغییر | `app/page.tsx` | بازنویسی Hero، حفظ نمودار راداری و برچسب مسیرهای مخاطب |
-| تغییر | `app/ux-refresh.css` | سیستم رنگ، هویت بصری، responsive و dark mode |
-| تغییر | `components/visual-stories.tsx` | متن‌های نمودار راداری و نمودار رتبه‌بندی |
-| تغییر | `app/layout.tsx`, `app/manifest.ts` | نام کامل محصول در metadata و manifest |
-| تغییر | صفحه‌های `compare`, `datasets`, `isc-scope`, `methodology`, `rankings`, `universities/[slug]` | یکدست‌سازی نام پرتال |
-| تغییر | کامپوننت‌های explorer و header | یکدست‌سازی برچسب‌ها و عنوان محصول |
-| افزودن | `app/api/v1/documents/route.ts` | نمایه استاتیک و cacheable اسناد برای بارگذاری progressive |
-| افزودن | `lib/document-search-index.ts` | DTO کم‌حجم و index مشترک اسناد |
-| تغییر | `lib/data.ts` | indexهای O(1) برای داده‌های هر دانشگاه |
-| تغییر | Client Explorerها و `persian-digits.tsx` | deferred search، DOM محدود، idle batching و propهای کم‌حجم |
-| حذف | — | حذف فایل لازم نیست |
+این موارد به:
 
-## روش اعمال
+`data/generated/reference-pages.json`
 
-از ریشه پروژه یکی از دو روش زیر را انجام دهید.
+منتقل می‌شوند.
 
-روش پیشنهادی:
+موارد خارج از دامنه عمومی (مثل IT) به:
+
+`data/generated/entity-quarantine.json`
+
+می‌روند.
+
+گزارش کامل همه جابه‌جایی‌ها:
+
+`data/generated/entity-cleaning-report.json`
+
+## Logical entity
+
+برای واحدها و سامانه‌ها، duplicateهای امن بر اساس URL canonical و conceptهای دو زبانه ادغام می‌شوند و URLهای دیگر در:
+
+`alternateUrls`
+
+باقی می‌مانند.
+
+## Lorestan Golden Guards
+
+پکیج به‌صورت مشخص تست می‌کند که:
+
+- «راهنمای سامانه‌های کتابخانه مرکزی» دیگر System نباشد.
+- «راهنمای استفاده از گرنت در سامانه گلستان» System نباشد.
+- صفحه «فرم‌ها و آیین‌نامه‌ها» Document مستقل نباشد.
+- PDF واقعی Document بماند.
+- صفحه کتابخانه از Organization به Library برگردد.
+
+## تغییر Deep Audit
+
+`build-deep-audit.mjs` حالا از `portal-document-reaudit.json` تمیزشده هم استفاده می‌کند.
+
+در نتیجه:
+
+- وجود یک Library page دیگر به تنهایی `organization=verified` نمی‌کند.
+- Systems فقط با System واقعی/endpoint تأیید می‌شود.
+- Document index می‌تواند وجود بخش اسناد را ثابت کند، اما خودش در Document Catalog نمایش داده نمی‌شود.
+
+## اجرا — بدون Crawl
+
+اول تست policy:
 
 ```bash
-git apply research-portal-frontend.patch
+npm run test:entity-cleaning
 ```
 
-روش دستی: محتوای پوشه `files/` را با حفظ همین مسیرها روی پروژه کپی کنید.
+بعد فقط Cleaning روی داده فعلی:
 
-## اعتبارسنجی انجام‌شده
+```bash
+npm run clean:entities
+npm run validate:entities
+```
 
-- `npm run typecheck` — موفق
-- `npm run lint` — موفق، بدون خطا؛ ۷ هشدار قدیمی و نامرتبط باقی مانده است
-- `next build --webpack` — موفق؛ ۲۵۴ صفحه و route تولید شد
-- smoke test تولیدی برای `/`، `/universities`، `/audit`، `/rankings` و `/datasets` — موفق
-- `git diff --check` — موفق
+برای بازسازی کامل RTPMI و خروجی عمومی با همین داده موجود:
 
-## نکته نسخه سوم
+```bash
+npm run release:check
+npm run typecheck
+npm run lint
+npm run build
+```
 
-این نسخه جایگزین پکیج‌های قبلی است: نمودار راداری در صفحه اول حفظ شده، عبارت کامل «پرتال معاونت پژوهشی و فناوری» در نقاط اصلی رابط به‌کار رفته و اصلاحات Performance Engineering نیز به همان پچ افزوده شده است.
+**`npm run discover:research` را اجرا نکن.**
+
+## بررسی دانشگاه لرستان
+
+بعد از اجرا:
+
+```bash
+node -e "const r=require('./data/generated/entity-cleaning-report.json'); console.log(JSON.stringify(r.lorestan,null,2))"
+```
+
+و در `data/generated/reference-pages.json` می‌توان مواردی را دید که از System/Document/Unit به Reference منتقل شده‌اند.
+
+## فایل‌های پکیج
+
+جایگزین:
+- `package.json`
+- `pipeline/config/pipeline.toml`
+- `scripts/build-deep-audit.mjs`
+
+جدید:
+- `scripts/entity-cleaning-policy.mjs`
+- `scripts/clean-entity-catalogs.mjs`
+- `scripts/validate-entity-catalogs.mjs`
+- `scripts/test-entity-cleaning.mjs`
+
+هیچ فایل فعلی لازم نیست حذف شود.

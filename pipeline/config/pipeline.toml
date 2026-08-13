@@ -67,6 +67,7 @@ depends_on = ["discovery_promotion"]
 commands = [
   ["node", "scripts/normalize-public-data.mjs"],
   ["node", "scripts/filter-research-documents.mjs"],
+  ["node", "scripts/clean-entity-catalogs.mjs"],
 ]
 inputs = [
   "data/audit/portal-audit.json",
@@ -84,6 +85,9 @@ outputs = [
   "data/systems/catalog.json",
   "data/documents/catalog.json",
   "data/generated/research-document-filter-report.json",
+  "data/generated/reference-pages.json",
+  "data/generated/entity-quarantine.json",
+  "data/generated/entity-cleaning-report.json",
 ]
 timeout_seconds = 600
 
@@ -94,6 +98,7 @@ commands = [["node", "scripts/build-deep-audit.mjs"]]
 inputs = [
   "data/isc/institutions.json",
   "data/audit/portal-audit.json",
+  "data/evidence/portal-document-reaudit.json",
   "data/units/catalog.json",
   "data/systems/catalog.json",
   "data/documents/catalog.json",
@@ -176,6 +181,7 @@ depends_on = ["snapshot_generation"]
 commands = [
   ["node", "scripts/validate-data.mjs"],
   ["node", "scripts/validate-research-document-scope.mjs"],
+  ["node", "scripts/validate-entity-catalogs.mjs"],
   ["node", "scripts/check-no-social-evidence.mjs"],
 ]
 inputs = ["data", "public/datasets"]
