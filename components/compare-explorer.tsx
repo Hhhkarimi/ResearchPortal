@@ -12,7 +12,7 @@ const dimensions = [
   ["organization", "ساختار"],
   ["library", "کتابخانه"],
   ["laboratories", "آزمایشگاه"],
-  ["systems", "سامانه‌های پژوهشی"],
+  ["systems", "سامانه‌ها و خدمات پژوهشی"],
   ["industryTech", "صنعت و فناوری"],
   ["dataQuality", "کیفیت داده"],
   ["findability", "یافت‌پذیری"],
@@ -237,7 +237,9 @@ export function CompareExplorer(
                           }
                           className={
                             value ===
-                            null
+                              null ||
+                            value ===
+                              undefined
                               ? "missing"
                               : ""
                           }
@@ -253,7 +255,9 @@ export function CompareExplorer(
 
                           <strong>
                             {value ===
-                            null
+                              null ||
+                            value ===
+                              undefined
                               ? "نامشخص"
                               : value}
                           </strong>
