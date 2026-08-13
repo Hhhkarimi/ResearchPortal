@@ -1,6 +1,6 @@
 {
   "schemaVersion": "10.0.0",
-  "snapshotDate": "2026-08-11",
+  "snapshotDate": "2026-08-12",
   "institution": {
     "category": "هنر",
     "iscRank": 1,
@@ -16,7 +16,7 @@
     "nameFa": "دانشگاه هنر ایران",
     "iscCategory": "هنر",
     "iscRank": 1,
-    "auditDate": "2026-08-12",
+    "auditDate": "2026-08-13",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.art.ac.ir/fa",
     "evidenceUrls": [
@@ -25,38 +25,38 @@
     "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
-      "lastRun": "2026-08-12",
+      "lastRun": "2026-08-13",
       "promotedSources": 0,
       "socialEvidenceRemoved": true
-    }
+    },
+    "observedSignals": []
   },
   "deepAudit": {
     "universitySlug": "iran-art",
     "nameFa": "دانشگاه هنر ایران",
     "iscCategory": "هنر",
     "iscRank": 1,
-    "auditDate": "2026-08-11",
+    "auditDate": "2026-08-12",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.art.ac.ir/fa",
     "evidenceUrls": [
       "https://research.art.ac.ir/fa"
     ],
-    "deepAuditStatus": "deep-audited",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "verified",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
       "industryTechnology": "verified",
-      "informationTechnology": "verified",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 100,
-    "unitsFound": 6,
-    "systemsFound": 5,
-    "documentsFound": 6,
-    "rankingEligibility": "candidate",
+    "auditEvidenceCoverage": 71,
+    "unitsFound": 1,
+    "systemsFound": 1,
+    "documentsFound": 1,
+    "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
   "dimensionEvidence": [
@@ -70,7 +70,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 1,
       "sources": [
         {
@@ -94,7 +94,7 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 1,
       "sources": [
         {
@@ -118,7 +118,7 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 1,
       "sources": [
         {
@@ -142,7 +142,7 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 1,
       "sources": [
         {
@@ -166,37 +166,13 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.art.ac.ir/fa",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific industryTechnology source",
-          "id": null
-        }
-      ],
-      "publicationAdjustment": null,
-      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
-      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
-    },
-    {
-      "id": "iran-art:informationTechnology",
-      "universitySlug": "iran-art",
-      "nameFa": "دانشگاه هنر ایران",
-      "iscCategory": "هنر",
-      "iscRank": 1,
-      "dimension": "informationTechnology",
-      "status": "observed-reference",
-      "reportedStatus": "observed-reference",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://research.art.ac.ir/fa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific informationTechnology source",
           "id": null
         }
       ],
@@ -214,7 +190,7 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 1,
       "sources": [
         {
@@ -238,7 +214,7 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 1,
       "sources": [
         {
@@ -253,85 +229,13 @@
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
-  "ranking": {
-    "universitySlug": "iran-art",
-    "nameFa": "دانشگاه هنر ایران",
-    "iscCategory": "هنر",
-    "iscRank": 1,
-    "score": 82.7,
-    "confidence": 100,
-    "metrics": {
-      "documents": 83.5,
-      "organization": 90.8,
-      "library": 100,
-      "laboratories": 100,
-      "digital": 75,
-      "industryTech": 55,
-      "dataQuality": 100,
-      "findability": 55
-    },
-    "units": 6,
-    "systems": 5,
-    "documents": 6,
-    "activeWeight": 100,
-    "evidenceCoverage": 100,
-    "methodologyVersion": "RTPMI-4.1-ISC",
-    "snapshotDate": "2026-08-11",
-    "rank": 29,
-    "portalRankWithinISCClass": 1,
-    "rankedPortalsInISCClass": 4
-  },
+  "ranking": null,
   "units": [
     {
       "id": "iran-art-1",
       "universitySlug": "iran-art",
-      "nameFa": "مدیریت امور پژوهشی",
-      "type": "research",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
-    },
-    {
-      "id": "iran-art-2",
-      "universitySlug": "iran-art",
       "nameFa": "همکاری‌های علمی و هنری با جامعه",
       "type": "industry",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
-    },
-    {
-      "id": "iran-art-3",
-      "universitySlug": "iran-art",
-      "nameFa": "آزمایشگاه مرکزی",
-      "type": "laboratory",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
-    },
-    {
-      "id": "iran-art-4",
-      "universitySlug": "iran-art",
-      "nameFa": "انتشارات",
-      "type": "publishing",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
-    },
-    {
-      "id": "iran-art-5",
-      "universitySlug": "iran-art",
-      "nameFa": "کتابخانه مرکزی و مرکز اسناد",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
-    },
-    {
-      "id": "iran-art-6",
-      "universitySlug": "iran-art",
-      "nameFa": "فناوری اطلاعات، امنیت و هوشمندسازی",
-      "type": "it",
       "evidence": "verified",
       "lastVerified": "2026-08-10",
       "sourceUrl": "https://research.art.ac.ir/fa"
@@ -339,46 +243,10 @@
   ],
   "systems": [
     {
-      "id": "iran-art-sys-1",
-      "universitySlug": "iran-art",
-      "nameFa": "خدمات IT و هوشمندسازی",
-      "category": "it",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
-    },
-    {
       "id": "iran-art-sys-2",
-      "universitySlug": "iran-art",
-      "nameFa": "پرتال کتابخانه",
-      "category": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
-    },
-    {
-      "id": "iran-art-sys-3",
       "universitySlug": "iran-art",
       "nameFa": "پرتال آزمایشگاه مرکزی",
       "category": "laboratory",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
-    },
-    {
-      "id": "iran-art-sys-4",
-      "universitySlug": "iran-art",
-      "nameFa": "پرتال ارتباط با جامعه",
-      "category": "industry",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
-    },
-    {
-      "id": "iran-art-sys-5",
-      "universitySlug": "iran-art",
-      "nameFa": "پرتال انتشارات",
-      "category": "publishing",
       "evidence": "verified",
       "lastVerified": "2026-08-10",
       "sourceUrl": "https://research.art.ac.ir/fa"
@@ -395,66 +263,6 @@
       "lastVerified": "2026-08-10",
       "sourceUrl": "https://research.art.ac.ir/fa",
       "topic": "صنعت، فناوری و مالکیت فکری",
-      "url": "https://research.art.ac.ir/fa"
-    },
-    {
-      "id": "iran-art-doc-2",
-      "universitySlug": "iran-art",
-      "title": "چارچوب موظفی اعضای هیئت علمی پژوهشی",
-      "type": "سند",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa",
-      "topic": "سایر",
-      "url": "https://research.art.ac.ir/fa"
-    },
-    {
-      "id": "iran-art-doc-3",
-      "universitySlug": "iran-art",
-      "title": "فرم تناسب رساله",
-      "type": "فرم",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa",
-      "topic": "تحصیلات تکمیلی و امور پژوهشی",
-      "url": "https://research.art.ac.ir/fa"
-    },
-    {
-      "id": "iran-art-doc-4",
-      "universitySlug": "iran-art",
-      "title": "آیین‌نامه هدفمندسازی رساله‌های دکتری",
-      "type": "آیین‌نامه",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa",
-      "topic": "تحصیلات تکمیلی و امور پژوهشی",
-      "url": "https://research.art.ac.ir/fa"
-    },
-    {
-      "id": "iran-art-doc-5",
-      "universitySlug": "iran-art",
-      "title": "آیین‌نامه حمایت از پایان‌نامه و رساله",
-      "type": "آیین‌نامه",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa",
-      "topic": "حمایت و گرنت",
-      "url": "https://research.art.ac.ir/fa"
-    },
-    {
-      "id": "iran-art-doc-6",
-      "universitySlug": "iran-art",
-      "title": "آیین‌نامه دکتری آموزشی-پژوهشی",
-      "type": "آیین‌نامه",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa",
-      "topic": "سایر",
       "url": "https://research.art.ac.ir/fa"
     }
   ],
