@@ -33,7 +33,15 @@
         "summary": "Query the 920 dimension-level evidence outcomes",
         "parameters": [
           {"name": "university", "in": "query", "schema": {"type": "string"}},
-          {"name": "dimension", "in": "query", "schema": {"type": "string", "enum": ["portalIdentity", "organization", "libraryDocuments", "laboratories", "industryTechnology", "informationTechnology", "systemsServices", "documentsRegulations"]}},
+          {"name": "dimension", "in": "query", "schema": {"type": "string", "enum": [
+  "portalIdentity",
+  "organization",
+  "libraryDocuments",
+  "laboratories",
+  "industryTechnology",
+  "systemsServices",
+  "documentsRegulations"
+]}},
           {"name": "status", "in": "query", "schema": {"type": "string", "enum": ["verified", "observed-reference", "restricted", "unresolved"]}},
           {"name": "limit", "in": "query", "schema": {"type": "integer", "minimum": 1, "maximum": 920}},
           {"name": "offset", "in": "query", "schema": {"type": "integer", "minimum": 0}}
