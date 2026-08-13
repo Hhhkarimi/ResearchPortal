@@ -518,11 +518,18 @@ function quality(
   return score;
 }
 
-function mergeRecords<
-  T extends Record<
+type MergeablePublicRecord =
+  Record<
     string,
     any
-  >
+  > & {
+    id?: any;
+    nameFa?: any;
+    title?: any;
+  };
+
+function mergeRecords<
+  T extends MergeablePublicRecord
 >(
   existing: T,
   incoming: T
