@@ -1,114 +1,55 @@
-# Data Cleaning Engine v1
+# ResearchPortal — Data Cleaning Engine v2.2.2
 
-این پکیج مرحله اول قبل از Crawl عمیق بعدی است.
+نسخه `entity-cleaning-2.2.2-news-path-canonical-labels`
 
-## چه چیزی را اصلاح می‌کند؟
+این Hotfix روی v2.2 قرار می‌گیرد و Crawler را اجرا نمی‌کند. RTPMI/Findability v2.2 بدون تغییر حفظ شده‌اند.
 
-سه Catalog اصلی دیگر فقط بر اساس keyword پر نمی‌شوند:
+## اصلاحات این Hotfix
 
-- `data/units/catalog.json` فقط **واحد واقعی** نگه می‌دارد.
-- `data/systems/catalog.json` فقط **endpoint واقعی سامانه** نگه می‌دارد.
-- `data/documents/catalog.json` فقط **سند مستقیم یا landing page مشخص یک سند** نگه می‌دارد.
+1. **Post-merge semantic validation**: بعد از logical merge، هر رکورد دوباره طبقه‌بندی می‌شود. اگر merge باعث شود News/Service/Announcement به Unit نشت کند، رکورد به Reference منتقل می‌شود.
+2. **Second logical-key collapse**: بعد از نرمال‌سازی display label، logical key دوباره محاسبه می‌شود تا duplicateهایی مثل Central Library تهران یکی شوند.
+3. **Percent-encoded labels**: عنوان‌های `%DA%A9...` چندمرحله decode می‌شوند و دیگر به‌عنوان display label خام باقی نمی‌مانند.
+4. **Display-label preference**: برای Unit، عنوان سازمانی کوتاه بر headline خبری/خدماتی ترجیح داده می‌شود.
+5. **Missing label recovery**: رکوردهایی مثل انتشارات مرکزی لرستان، حتی اگر `nameFa` خالی باشد، از URL سازمانی label معتبر می‌گیرند.
 
-موارد زیر حذفِ بی‌ردپا نمی‌شوند:
+Golden guards این چهار regression واقعی را پوشش می‌دهند: Arak encoded library، Semnan library news، Tehran library news/duplicate، Lorestan central publications missing label.
 
-- صفحه «فرم‌ها و آیین‌نامه‌ها»
-- صفحه ساختار سازمانی
-- راهنمای سامانه
-- اطلاعیه درباره سامانه
-- صفحه واسط/Service page
+## اعمال در PowerShell
 
-این موارد به:
+از root پروژه:
 
-`data/generated/reference-pages.json`
+```powershell
+git restore data public/datasets
 
-منتقل می‌شوند.
+Expand-Archive `
+  -Path "$HOME\Downloads\ResearchPortal-data-cleaning-engine-v2.2.2.zip" `
+  -DestinationPath . `
+  -Force
 
-موارد خارج از دامنه عمومی (مثل IT) به:
-
-`data/generated/entity-quarantine.json`
-
-می‌روند.
-
-گزارش کامل همه جابه‌جایی‌ها:
-
-`data/generated/entity-cleaning-report.json`
-
-## Logical entity
-
-برای واحدها و سامانه‌ها، duplicateهای امن بر اساس URL canonical و conceptهای دو زبانه ادغام می‌شوند و URLهای دیگر در:
-
-`alternateUrls`
-
-باقی می‌مانند.
-
-## Lorestan Golden Guards
-
-پکیج به‌صورت مشخص تست می‌کند که:
-
-- «راهنمای سامانه‌های کتابخانه مرکزی» دیگر System نباشد.
-- «راهنمای استفاده از گرنت در سامانه گلستان» System نباشد.
-- صفحه «فرم‌ها و آیین‌نامه‌ها» Document مستقل نباشد.
-- PDF واقعی Document بماند.
-- صفحه کتابخانه از Organization به Library برگردد.
-
-## تغییر Deep Audit
-
-`build-deep-audit.mjs` حالا از `portal-document-reaudit.json` تمیزشده هم استفاده می‌کند.
-
-در نتیجه:
-
-- وجود یک Library page دیگر به تنهایی `organization=verified` نمی‌کند.
-- Systems فقط با System واقعی/endpoint تأیید می‌شود.
-- Document index می‌تواند وجود بخش اسناد را ثابت کند، اما خودش در Document Catalog نمایش داده نمی‌شود.
-
-## اجرا — بدون Crawl
-
-اول تست policy:
-
-```bash
+Set-Alias npm npm.cmd
 npm run test:entity-cleaning
-```
-
-بعد فقط Cleaning روی داده فعلی:
-
-```bash
-npm run clean:entities
+npm run prepare:data:legacy
+node scripts/validate-data.mjs
 npm run validate:entities
-```
-
-برای بازسازی کامل RTPMI و خروجی عمومی با همین داده موجود:
-
-```bash
-npm run release:check
+npm run validate:no-social
 npm run typecheck
 npm run lint
 npm run build
 ```
 
-**`npm run discover:research` را اجرا نکن.**
+Crawler را هنوز اجرا نکن.
 
-## بررسی دانشگاه لرستان
+## QA هنگام ساخت
 
-بعد از اجرا:
+- همه فایل‌های `.mjs`: `node --check` PASS
+- targeted entity tests: PASS
+- fixture validation شامل 4 regression واقعی: PASS
+- fixture result: Arak library label decoded، Semnan/Tehran news removed، Tehran central library deduplicated، Lorestan publishing label recovered.
 
-```bash
-node -e "const r=require('./data/generated/entity-cleaning-report.json'); console.log(JSON.stringify(r.lorestan,null,2))"
-```
 
-و در `data/generated/reference-pages.json` می‌توان مواردی را دید که از System/Document/Unit به Reference منتقل شده‌اند.
+## اصلاحات v2.2.2
 
-## فایل‌های پکیج
-
-جایگزین:
-- `package.json`
-- `pipeline/config/pipeline.toml`
-- `scripts/build-deep-audit.mjs`
-
-جدید:
-- `scripts/entity-cleaning-policy.mjs`
-- `scripts/clean-entity-catalogs.mjs`
-- `scripts/validate-entity-catalogs.mjs`
-- `scripts/test-entity-cleaning.mjs`
-
-هیچ فایل فعلی لازم نیست حذف شود.
+- مسیرهای خبری فارسی مانند `/همه-اخبار/`، `/اخبار/` و `/رویدادها/` دیگر نمی‌توانند به‌عنوان Unit باقی بمانند، حتی اگر عنوان merge شده شبیه نام یک واحد باشد.
+- نام‌های تکراری کتابخانه مرکزی بعد از merge canonical می‌شوند؛ مثال: `کتابخانه مرکزی ... کتابخانه مرکزی ...` به یک نام واحد تبدیل می‌شود.
+- پسوندهای پوسته سایت/زبان مانند `معاونت پژوهش و فناوری فارسی` از نام canonical واحد حذف می‌شوند.
+- RTPMI، coverage shrinkage و Findability همان v2.2 باقی مانده‌اند.

@@ -49,7 +49,7 @@
     "nameFa": "دانشگاه صنعتی قم",
     "iscCategory": "صنعتی",
     "iscRank": 15,
-    "auditDate": "2026-08-12",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://qut.ac.ir/fa/researches/index",
     "evidenceUrls": [
@@ -76,12 +76,12 @@
       "laboratories": "verified",
       "industryTechnology": "verified",
       "systemsServices": "verified",
-      "documentsRegulations": "verified"
+      "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 100,
-    "unitsFound": 8,
-    "systemsFound": 4,
-    "documentsFound": 1,
+    "auditEvidenceCoverage": 86,
+    "unitsFound": 2,
+    "systemsFound": 1,
+    "documentsFound": 0,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -199,7 +199,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 8,
+      "sourceCount": 2,
       "sources": [
         {
           "url": "https://qut.ac.ir/fa/researches/index",
@@ -213,48 +213,6 @@
           "claim": "كتابخانه دانشگاه صنعتي قم",
           "id": "qom-technology-discovery-unit-library-ed43e4af4b61",
           "unitType": "library"
-        },
-        {
-          "url": "https://qut.ac.ir/fa/honors/index/140409251",
-          "kind": "unit",
-          "claim": "کسب عنوان دانشگاه برگزیده در تعامل با جامعه و صنعت توسط دانشگاه صنعتی قم",
-          "id": "qom-technology-discovery-unit-industry-3ef75b9bc24c",
-          "unitType": "industry"
-        },
-        {
-          "url": "https://digitallib.qut.ac.ir/DL/SPortal/DefaultSP15501.aspx",
-          "kind": "unit",
-          "claim": "كتابخانه دانشگاه صنعتي قم",
-          "id": "qom-technology-discovery-unit-library-a7c0b33a4c3f",
-          "unitType": "library"
-        },
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_2.aspx",
-          "kind": "unit",
-          "claim": "كتابخانه دانشگاه صنعتي قم",
-          "id": "qom-technology-discovery-unit-library-40a89ff437d7",
-          "unitType": "library"
-        },
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/Search/default.aspx?Login=1",
-          "kind": "unit",
-          "claim": "دانشگاه صنعتی قم ، کتابخانه 2.0 ثنا",
-          "id": "qom-technology-discovery-unit-library-14f1d887ddf8",
-          "unitType": "library"
-        },
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/DefaultSP.aspx?bs=%",
-          "kind": "unit",
-          "claim": "كتابخانه دانشگاه صنعتي قم",
-          "id": "qom-technology-discovery-unit-library-720eb9e02248",
-          "unitType": "library"
-        },
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%AF%D8%B3%D8%AA%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%D9%8A%20%D8%A2%D8%B2%D9%85%D8%A7%D9%8A%D8%B4%DA%AF%D8%A7%D9%87%D9%8A",
-          "kind": "unit",
-          "claim": "كتابخانه دانشگاه صنعتي قم",
-          "id": "qom-technology-discovery-unit-laboratory-4d23c2a20631",
-          "unitType": "laboratory"
         }
       ],
       "publicationAdjustment": null,
@@ -272,7 +230,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 6,
+      "sourceCount": 5,
       "sources": [
         {
           "url": "https://qut.ac.ir/fa/researches/index",
@@ -293,24 +251,16 @@
           "id": null
         },
         {
+          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%AF%D8%B3%D8%AA%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%D9%8A%20%D8%A2%D8%B2%D9%85%D8%A7%D9%8A%D8%B4%DA%AF%D8%A7%D9%87%D9%8A",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
           "url": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_5.aspx",
           "kind": "unit",
           "claim": "كتابخانه دانشگاه صنعتي قم",
           "id": "qom-technology-discovery-unit-library-ed43e4af4b61",
-          "unitType": "library"
-        },
-        {
-          "url": "https://digitallib.qut.ac.ir/DL/SPortal/DefaultSP15501.aspx",
-          "kind": "unit",
-          "claim": "كتابخانه دانشگاه صنعتي قم",
-          "id": "qom-technology-discovery-unit-library-a7c0b33a4c3f",
-          "unitType": "library"
-        },
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_2.aspx",
-          "kind": "unit",
-          "claim": "كتابخانه دانشگاه صنعتي قم",
-          "id": "qom-technology-discovery-unit-library-40a89ff437d7",
           "unitType": "library"
         }
       ],
@@ -339,9 +289,10 @@
         },
         {
           "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%AF%D8%B3%D8%AA%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%D9%8A%20%D8%A2%D8%B2%D9%85%D8%A7%D9%8A%D8%B4%DA%AF%D8%A7%D9%87%D9%8A",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "آزمایشگاه‌ها — کشف خودکار",
+          "id": null,
+          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -359,20 +310,13 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 2,
+      "sourceCount": 1,
       "sources": [
         {
           "url": "https://qut.ac.ir/fa/researches/index",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific industryTechnology source",
           "id": null
-        },
-        {
-          "url": "https://qut.ac.ir/fa/honors/index/140409251",
-          "kind": "unit",
-          "claim": "کسب عنوان دانشگاه برگزیده در تعامل با جامعه و صنعت توسط دانشگاه صنعتی قم",
-          "id": "qom-technology-discovery-unit-industry-3ef75b9bc24c",
-          "unitType": "industry"
         }
       ],
       "publicationAdjustment": null,
@@ -390,7 +334,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 2,
+      "sourceCount": 5,
       "sources": [
         {
           "url": "https://qut.ac.ir/fa/researches/index",
@@ -399,10 +343,28 @@
           "id": null
         },
         {
+          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4%20%D8%B3%D9%8A%DA%AF%D9%86%D8%A7%D9%84%D9%87%D8%A7%20Signal%20processing",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%D9%8A%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%B9%D8%A7%D9%84%D9%8A",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%B3%D9%8A%D8%A7%D8%B3%D8%AA%D9%85%D8%AF%D8%A7%D8%B1%D8%A7%D9%86",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
           "url": "https://qut.ac.ir/",
           "kind": "system",
-          "claim": "سامانه الهیاتیِ حكمرانی علوم و فنون همگرا",
-          "id": "qom-technology-discovery-system-af96580f61cd",
+          "claim": "���Ԑ�� ����ی ��",
+          "id": "qom-technology-discovery-system-35f914e2defe",
           "systemCategory": "research"
         }
       ],
@@ -421,31 +383,28 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 4,
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4%20%D8%B3%D9%8A%DA%AF%D9%86%D8%A7%D9%84%D9%87%D8%A7%20Signal%20processing",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
           "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%D9%8A%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%B9%D8%A7%D9%84%D9%8A",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         },
         {
           "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%B3%D9%8A%D8%A7%D8%B3%D8%AA%D9%85%D8%AF%D8%A7%D8%B1%D8%A7%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://qut.ac.ir/fa/researches/index",
-          "kind": "document",
-          "claim": "طرح‌های درون‌سازمانی و برون‌سازمانی",
-          "id": "qom-technology-doc-1"
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -458,28 +417,31 @@
     "nameFa": "دانشگاه صنعتی قم",
     "iscCategory": "صنعتی",
     "iscRank": 15,
-    "score": 61.1,
-    "confidence": 100,
+    "score": 51.4,
+    "coverageAdjustedScore": 41.1,
+    "rankingScore": 51.1,
+    "confidence": 89.9,
     "metrics": {
-      "documents": 37.8,
-      "organization": 81.7,
+      "documents": null,
+      "organization": 63.3,
       "library": 70,
-      "laboratories": 70,
-      "systems": 32.5,
-      "industryTech": 45,
+      "laboratories": 0,
+      "systems": 37.5,
+      "industryTech": 0,
       "dataQuality": 100,
-      "findability": 70
+      "findability": 100
     },
-    "units": 8,
-    "systems": 4,
-    "documents": 1,
-    "activeWeight": 100,
-    "evidenceCoverage": 100,
+    "units": 2,
+    "systems": 1,
+    "documents": 0,
+    "activeWeight": 80,
+    "evidenceCoverage": 86,
     "methodologyVersion": "RTPMI-4.2-ISC",
-    "snapshotDate": "2026-08-12",
-    "rank": 78,
-    "portalRankWithinISCClass": 16,
-    "rankedPortalsInISCClass": 16
+    "scoringPolicyVersion": "entity-cleaning-2.2-coverage-shrinkage-findability",
+    "snapshotDate": "2026-08-11",
+    "rank": 48,
+    "portalRankWithinISCClass": 10,
+    "rankedPortalsInISCClass": 10
   },
   "units": [
     {
@@ -489,7 +451,16 @@
       "type": "research",
       "evidence": "verified",
       "lastVerified": "2026-08-10",
-      "sourceUrl": "https://qut.ac.ir/fa/researches/index"
+      "sourceUrl": "https://qut.ac.ir/fa/researches/index",
+      "entityType": "unit",
+      "dimension": "organization",
+      "relation": "organizational-unit",
+      "cleaningReason": "organizational-unit-identity-proven",
+      "primaryDimension": "organization",
+      "evidenceUrls": [
+        "https://qut.ac.ir/fa/researches/index"
+      ],
+      "alternateUrls": []
     },
     {
       "id": "qom-technology-discovery-unit-library-ed43e4af4b61",
@@ -500,98 +471,28 @@
       "lastVerified": "2026-08-11",
       "sourceUrl": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_5.aspx",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "qom-technology-discovery-unit-industry-3ef75b9bc24c",
-      "universitySlug": "qom-technology",
-      "nameFa": "کسب عنوان دانشگاه برگزیده در تعامل با جامعه و صنعت توسط دانشگاه صنعتی قم",
-      "type": "industry",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://qut.ac.ir/fa/honors/index/140409251",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8957894736842105
-    },
-    {
-      "id": "qom-technology-discovery-unit-library-a7c0b33a4c3f",
-      "universitySlug": "qom-technology",
-      "nameFa": "كتابخانه دانشگاه صنعتي قم",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://digitallib.qut.ac.ir/DL/SPortal/DefaultSP15501.aspx",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8957894736842105
-    },
-    {
-      "id": "qom-technology-discovery-unit-library-40a89ff437d7",
-      "universitySlug": "qom-technology",
-      "nameFa": "كتابخانه دانشگاه صنعتي قم",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_2.aspx",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8957894736842105
-    },
-    {
-      "id": "qom-technology-discovery-unit-library-14f1d887ddf8",
-      "universitySlug": "qom-technology",
-      "nameFa": "دانشگاه صنعتی قم ، کتابخانه 2.0 ثنا",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://digitallib.qut.ac.ir/Dl/Search/default.aspx?Login=1",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
-      "id": "qom-technology-discovery-unit-library-720eb9e02248",
-      "universitySlug": "qom-technology",
-      "nameFa": "كتابخانه دانشگاه صنعتي قم",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/DefaultSP.aspx?bs=%",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
-      "id": "qom-technology-discovery-unit-laboratory-4d23c2a20631",
-      "universitySlug": "qom-technology",
-      "nameFa": "كتابخانه دانشگاه صنعتي قم",
-      "type": "laboratory",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%AF%D8%B3%D8%AA%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%D9%8A%20%D8%A2%D8%B2%D9%85%D8%A7%D9%8A%D8%B4%DA%AF%D8%A7%D9%87%D9%8A",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8431578947368421
+      "discoveryConfidence": 0.99,
+      "entityType": "unit",
+      "dimension": "libraryDocuments",
+      "relation": "organizational-unit",
+      "cleaningReason": "organizational-unit-identity-proven",
+      "primaryDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_5.aspx",
+        "https://digitallib.qut.ac.ir/DL/SPortal/DefaultSP15501.aspx",
+        "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_2.aspx",
+        "https://digitallib.qut.ac.ir/Dl/SPortal/Search/DefaultSP.aspx?bs=%",
+        "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%AF%D8%B3%D8%AA%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%D9%8A%20%D8%A2%D8%B2%D9%85%D8%A7%D9%8A%D8%B4%DA%AF%D8%A7%D9%87%D9%8A"
+      ],
+      "alternateUrls": [
+        "https://digitallib.qut.ac.ir/DL/SPortal/DefaultSP15501.aspx",
+        "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_2.aspx",
+        "https://digitallib.qut.ac.ir/Dl/SPortal/Search/DefaultSP.aspx?bs=%",
+        "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%AF%D8%B3%D8%AA%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%D9%8A%20%D8%A2%D8%B2%D9%85%D8%A7%D9%8A%D8%B4%DA%AF%D8%A7%D9%87%D9%8A"
+      ]
     }
   ],
   "systems": [
-    {
-      "id": "qom-technology-sys-1",
-      "universitySlug": "qom-technology",
-      "nameFa": "HPC - سرویس مرتبط",
-      "category": "it-linked",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://qut.ac.ir/fa/researches/index"
-    },
-    {
-      "id": "qom-technology-discovery-system-af96580f61cd",
-      "universitySlug": "qom-technology",
-      "nameFa": "سامانه الهیاتیِ حكمرانی علوم و فنون همگرا",
-      "category": "research",
-      "url": "https://qut.ac.ir/fa/press/index/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%a7%d9%84%d9%87%db%8c%d8%a7%d8%aa%db%8c%d9%90-%d8%ad%d9%83%d9%85%d8%b1%d8%a7%d9%86%db%8c-%d8%b9%d9%84%d9%88%d9%85-%d9%88-%d9%81%d9%86%d9%88%d9%86-%d9%87%d9%85%da%af%d8%b1%d8%a7",
-      "sourceUrl": "https://qut.ac.ir/",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
     {
       "id": "qom-technology-discovery-system-35f914e2defe",
       "universitySlug": "qom-technology",
@@ -599,40 +500,23 @@
       "category": "research",
       "url": "https://scimet.qut.ac.ir/",
       "sourceUrl": "https://qut.ac.ir/",
-      "relation": "research-portal-discovery",
+      "relation": "linked-external-system",
       "evidence": "verified",
       "lastVerified": "2026-08-11",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9747368421052631
-    },
-    {
-      "id": "qom-technology-discovery-system-4ab3cd8af68a",
-      "universitySlug": "qom-technology",
-      "nameFa": "Dashboard",
-      "category": "research",
-      "url": "https://erp.qut.ac.ir/hermes.html?param=tezcoreshow.aspx",
-      "sourceUrl": "https://qut.ac.ir/",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8431578947368421
+      "discoveryConfidence": 0.9747368421052631,
+      "entityType": "external-system",
+      "dimension": "systemsServices",
+      "cleaningReason": "proven-research-external-system-endpoint",
+      "primaryDimension": "systemsServices",
+      "evidenceUrls": [
+        "https://scimet.qut.ac.ir/",
+        "https://qut.ac.ir/"
+      ],
+      "alternateUrls": []
     }
   ],
-  "documents": [
-    {
-      "id": "qom-technology-doc-1",
-      "universitySlug": "qom-technology",
-      "title": "طرح‌های درون‌سازمانی و برون‌سازمانی",
-      "type": "سند",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://qut.ac.ir/fa/researches/index",
-      "topic": "سایر",
-      "url": "https://qut.ac.ir/fa/researches/index"
-    }
-  ],
+  "documents": [],
   "interpretation": {
     "iscRank": "ISC classification rank inside the ISC class; independent from RTPMI.",
     "rtpmi": "Portal maturity/transparency only; not research performance.",

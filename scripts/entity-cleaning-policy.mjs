@@ -16,28 +16,58 @@ const GUIDE_TEXT =
   /راهنما|نحوه\s*(?:استفاده|درخواست|ثبت)|آموزش\s*(?:استفاده|سامانه)|دستور\s*کار|\bguide(?:line)?s?\b|\bhow[\s-]*to\b|\binstruction(?:s)?\b|\bmanual\b/iu;
 
 const ANNOUNCEMENT_TEXT =
-  /اطلاعیه|اخبار|خبر|رویداد|فراخوان|اعلامیه|\bannouncement(?:s)?\b|\bnews\b|\bevent\b|\bcall\s+for\b/iu;
+  /اطلاعیه|اخبار|خبر|رویداد|فراخوان|اعلامیه|رونمایی|وبینار|نشست|برگزاری|منصوب\s*شد|انتصاب|\bannouncement(?:s)?\b|\bnews\b|\bevent\b|\bwebinar\b|\bcall\s+for\b|\bappointed\b|\blaunch(?:ed)?\b/iu;
 
 const DOCUMENT_INDEX_TEXT =
-  /فرم[\s‌-]*(?:ها|های)|آیین[\s‌-]*نامه[\s‌-]*(?:ها|های)|شیوه[\s‌-]*نامه[\s‌-]*(?:ها|های)|دستورالعمل[\s‌-]*(?:ها|های)|اسناد\s*و\s*مقررات|فرم\s*و\s*آیین[\s‌-]*نامه|forms?\s*(?:and|&)\s*regulations?|regulations?\s*(?:and|&)\s*forms?|document(?:s)?\s*(?:center|index|archive)|downloads?/iu;
+  /فرم[\s‌-]*(?:ها|های)|آیین[\s‌-]*نامه[\s‌-]*(?:ها|های)|آئین[\s‌-]*نامه[\s‌-]*(?:ها|های)|شیوه[\s‌-]*نامه[\s‌-]*(?:ها|های)|دستورالعمل[\s‌-]*(?:ها|های)|اسناد\s*و\s*مقررات|فرم\s*و\s*آیین[\s‌-]*نامه|forms?\s*(?:and|&)\s*regulations?|regulations?\s*(?:and|&)\s*forms?|document(?:s)?\s*(?:center|index|archive)|downloads?/iu;
 
 const SPECIFIC_DOCUMENT_TEXT =
-  /آیین[\s‌-]*نامه|شیوه[\s‌-]*نامه|دستورالعمل|بخشنامه|فرم|الگو|سیاست|ضوابط|فرآیند|فرایند|پروپوزال|پایان[\s‌-]*نامه|رساله|اخلاق\s*پژوهش|گرنت|پژوهانه|\bregulation\b|\bbylaw\b|\bguideline\b|\bprocedure\b|\bform\b|\btemplate\b|\bpolicy\b|\bproposal\b|\bthesis\b|\bdissertation\b|\bgrant\b/iu;
-
-const UNIT_NOUN_TEXT =
-  /معاونت|مدیریت|اداره|دفتر|مرکز|کتابخانه|آزمایشگاه|پژوهشکده|پژوهشگاه|مرکز\s*رشد|ارتباط\s*با\s*صنعت|جامعه\s*و\s*صنعت|انتقال\s*فناوری|مالکیت\s*فکری|انتشارات|نشریات|کمیته\s*اخلاق|\bvice[\s-]*chancellor\b|\bdepartment\b|\boffice\b|\bcenter\b|\bcentre\b|\blibrary\b|\blaborator(?:y|ies)\b|\bincubator\b|\btechnology\s+transfer\b|\bindustry\s+liaison\b|\bpublishing\b|\bresearch\s+center\b/iu;
+  /آیین[\s‌-]*نامه|آئین[\s‌-]*نامه|شیوه[\s‌-]*نامه|دستورالعمل|بخشنامه|فرم|الگو|سیاست|ضوابط|فرآیند|فرایند|پروپوزال|پایان[\s‌-]*نامه|رساله|اخلاق\s*پژوهش|گرنت|پژوهانه|\bregulation\b|\bbylaw\b|\bguideline\b|\bprocedure\b|\bform\b|\btemplate\b|\bpolicy\b|\bproposal\b|\bthesis\b|\bdissertation\b|\bgrant\b/iu;
 
 const STRUCTURE_HUB_TEXT =
-  /ساختار\s*سازمانی|چارت\s*سازمانی|ساختار\s*معاونت|واحدهای\s*معاونت|معرفی\s*واحدها|\borganizational\s+structure\b|\borganisation\s+structure\b|\bresearch\s+units\b/iu;
+  /ساختار\s*سازمانی|چارت\s*سازمانی|ساختار\s*معاونت|واحدهای\s*معاونت|واحدهای\s*پژوهشی(?:\s*و\s*فناوری)?|معرفی\s*واحدها|\borganizational\s+structure\b|\borganisation\s+structure\b|\bresearch\s+units\b/iu;
+
+const UNIT_PROFILE_TEXT =
+  /^(?:معرفی|درباره|کارکنان|همکاران|اعضا|ریاست|مدیر|مدیریت\s*کنندگان|تماس\s*با|اطلاعات\s*تماس)(?:\s|$|[-–—|])|\b(?:staff|employees|people|team|about|contact|director|head)\b/iu;
+
+const SERVICE_INFO_TEXT =
+  /جامعه\s*کاربران|تور\s*مجازی|ساعت\s*کار|شرایط\s*تسویه|تسویه\s*حساب|تحویل\s*غیرحضوری|ارائه\s*خدمات|خدمات\s*دهی|خدمات\s*کاربران|رزرو|نوبت|گالری|تصاویر|پرسش(?:‌|\s)*های\s*متداول|پیوندهای\s*مفید|پایگاه[‌\s-]*های\s*اطلاعاتی|کتابخانه\s*دیجیتال|مهارت\s*افزایی|کتابخانه\s*2\.0|ثنا|\bvirtual\s+tour\b|\bopening\s+hours\b|\buser\s+community\b|\bservice(?:s)?\b|\bfaq\b|\bgallery\b/iu;
+
+const UNIT_IDENTITY_START =
+  /^(?:دانشگاه\s+[^|–—-]{2,80}\s+)?(?:معاونت|مدیریت|اداره|دفتر|مرکز|کتابخانه|آزمایشگاه|پژوهشکده|پژوهشگاه|گروه|کمیته|انتشارات|مرکز\s*رشد|پارک\s*علم\s*و\s*فناوری)(?:\s|$|[-–—|])|^(?:[a-z .'-]+\s+university\s+)?(?:vice[\s-]*chancell(?:or|ery)|department|office|center|centre|central\s+library|central\s+laborator(?:y|ies)|research\s+(?:center|centre|institute)|industry\s+liaison|technology\s+transfer|incubator|central\s+publications?|publishing|library|laborator(?:y|ies))\b/iu;
+
+const SHORT_UNIT_IDENTITY =
+  /^(?:ارتباط\s*با\s*(?:جامعه\s*و\s*)?صنعت|جامعه\s*و\s*صنعت|انتقال\s*فناوری|مالکیت\s*فکری|اخلاق\s*پژوهش|نشریات|انتشارات|کتابخانه\s*مرکزی|آزمایشگاه\s*مرکزی|امور\s*پژوهشی)$/iu;
+
+const UNIT_PATH_NEGATIVE =
+  /\/(?:news|article|event|announcement|form|forms|regulation|regulations|download|downloads|virtual|gallery|print|همه[-_\s‌]*اخبار|اخبار|خبرها|رویدادها)(?:\/|\?|$)|\/w\//iu;
 
 const SYSTEM_TEXT =
-  /سامانه|پرتال\s*(?:نشریات|علمی|پژوهشی)|پایگاه\s*(?:نشریات|اطلاعات\s*پژوهشی)|علم[\s‌-]*سنجی|\bsystem\b|\bportal\b|\bplatform\b|\bapplication\b|\bservice\b/iu;
+  /سامانه|پرتال|پایگاه\s*(?:نشریات|اطلاعات\s*پژوهشی)|علم[\s‌-]*سنجی|\bsystem\b|\bs?portal\b|\bplatform\b|\bapplication\b/iu;
+
+const RESEARCH_SYSTEM_CONTEXT =
+  /پژوهش|پژوهانه|گرنت|طرح\s*پژوهشی|مقاله|مقالات|اطلاعات\s*علمی|اعضای\s*هی[أا]ت\s*علمی|نشری|مجله|انتشارات|کتابخانه|منابع\s*علمی|آزمایشگاه|صنعت|جامعه\s*و\s*صنعت|فناور|نوآور|کارآفرین|اختراع|مالکیت\s*فکری|اخلاق\s*پژوهش|علم[\s‌-]*سنج|پایان[\s‌-]*نامه|رساله|همایش|\bresearch\b|\bgrant\b|\barticle(?:s)?\b|\bscientific\s+information\b|\bfaculty\s+(?:profile|information)\b|\bjournal\b|\bpublishing\b|\blibrary\b|\blaborator(?:y|ies)\b|\bindustry\b|\binnovation\b|\bpatent\b|\bethics\b|\bscientometric\b|\bscimet\b|\bthesis\b|\bdissertation\b|\bconference\b/iu;
+
+const NON_RESEARCH_SYSTEM_CONTEXT =
+  /منابع\s*انسانی|اداری\s*و\s*مالی|امور\s*مالی|اتوماسیون\s*اداری|حضور\s*و\s*غیاب|حقوق\s*و\s*دستمزد|پیشخوان\s*برنامه[‌\s]*های\s*اداری|سامانه\s*آموزشی|معاونت\s*آموزشی|امور\s*دانشجویی|ثبت\s*نام\s*دانشجو|\bhuman\s+resources?\b|\badministrative\b|\bfinancial\b|\bpayroll\b|\battendance\b|\bstudent\s+affairs\b|\beducation(?:al)?\s+system\b|\berp\b/iu;
+
+const ORGANIZATIONAL_NOT_SYSTEM =
+  /پژوهشکده|پژوهشگاه|دانشکده|مرکز\s*پژوهشی|مرکز\s*تحقیق|موسسه\s*پژوهشی|مؤسسه\s*پژوهشی|شرکت\s*سامانه\s*ساز|\bresearch\s+institute\b|\bresearch\s+center\b|\bresearch\s+centre\b|\bfaculty\b|\bschool\b|\binstitute\b/iu;
 
 const SYSTEM_HOST_TOKENS = new Set([
-  "ris", "scimet", "sima", "sampad", "thesis",
-  "journals", "journal", "press", "book", "conf",
-  "centrallab", "lab", "researchinfo", "rms", "rmis",
+  "ris", "scimet", "sima", "sampad", "thesis", "journals", "journal",
+  "press", "book", "conf", "centrallab", "lab", "researchinfo", "rms",
+  "rmis", "sajed", "sate", "samad", "ethics", "patent",
 ]);
+
+// A generic research portal host (for example research.example.ac.ir) is not, by
+// itself, evidence that a page is a system endpoint. Same-host crawler pages need
+// an application-like path or a trusted semantic relation.
+const SYSTEM_APPLICATION_PATH =
+  /\/(?:login|signin|sign-in|auth|oauth|app|apps|application|dashboard|panel|portal|sso)(?:\/|[?#]|$)|[?&](?:app|module|service|system|portal)=/iu;
+
+const CONTENT_PAGE_PATH =
+  /\/(?:organizational-structure|research-and-technology|units?|management|about|page|pages|news|article|announcement|announcements|guide|guides|how-to|instructions?|forms?|regulations?|downloads?)(?:\/|[?#]|$)/iu;
 
 const DIMENSION_PATTERNS = [
   ["libraryDocuments", /کتابخانه|مرکز\s*اسناد|منابع\s*علمی|\blibrary\b|\bdocument\s+center\b/iu],
@@ -48,28 +78,52 @@ const DIMENSION_PATTERNS = [
   ["organization", /ساختار\s*سازمانی|مدیریت\s*پژوهش|امور\s*پژوهشی|معاونت\s*پژوهش|\borganizational\s+structure\b|\bresearch\s+management\b|\bresearch\s+affairs\b/iu],
 ];
 
-const CONCEPT_PATTERNS = [
-  ["patent-registration", /ثبت\s*اختراع|\bpatent\s+registration\b/iu],
-  ["golestan", /گلستان|\bgolestan\b/iu],
-  ["central-library-systems", /سامانه[\s‌-]*های\s*کتابخانه\s*مرکزی|central\s+library\s+systems?/iu],
+const UNIT_CONCEPT_PATTERNS = [
+  ["central-library", /کتابخانه\s*مرکزی(?:\s*و\s*مرکز\s*اسناد)?|central\s+library(?:\s+and\s+document\s+center)?/iu],
   ["central-laboratory", /آزمایشگاه\s*مرکزی|central\s+laborator(?:y|ies)|central\s+lab/iu],
+  ["central-publications", /انتشارات\s*مرکزی|central\s+publications?|central\s+publishing/iu],
+  ["research-affairs-management", /مدیریت\s*امور\s*پژوهشی|research\s+affairs\s+management/iu],
+  ["research-vice-chancellery", /معاونت\s*پژوهش(?:\s*و\s*فناوری)?$|research\s+and\s+technology\s+vice[\s-]*chancell(?:or|ery)/iu],
+  ["industry-liaison-group", /گروه.*(?:کارآفرینی|ارتباط).*صنعت|industry\s+liaison\s+group/iu],
+  ["industry-liaison-management", /مدیریت.*(?:ارتباط).*صنعت|industry\s+liaison\s+management/iu],
+  ["technology-transfer-office", /دفتر\s*انتقال\s*فناوری|technology\s+transfer\s+office/iu],
+  ["research-ethics", /کمیته\s*اخلاق\s*(?:در\s*)?پژوهش|research\s+ethics\s+committee/iu],
+];
+
+const SYSTEM_CONCEPT_PATTERNS = [
   ["research-information-system", /سامانه\s*اطلاعات\s*پژوهشی|research\s+information\s+system|\bris\b/iu],
   ["scientometrics", /علم[\s‌-]*سنجی|\bscimet\b|\bscientometric/iu],
-  ["journals", /نشریات|مجلات\s*علمی|\bjournals?\b/iu],
-  ["publishing", /انتشارات|\bpublishing\b|\bpress\b/iu],
-  ["research-grant", /پژوهانه|گرنت|\bresearch\s+grant\b/iu],
-  ["ethics", /اخلاق\s*پژوهش|\bresearch\s+ethics\b/iu],
+  ["journals", /سامانه\s*(?:مدیریت\s*)?نشریات|پایگاه\s*نشریات|\bjournals?\b/iu],
+  ["publishing", /سامانه\s*انتشارات|\bpublishing\s+system\b|\bpress\b/iu],
+  ["research-grant", /سامانه.*(?:پژوهانه|گرنت)|(?:پژوهانه|گرنت).*سامانه|research\s+grant\s+system/iu],
+  ["ethics", /سامانه\s*اخلاق|research\s+ethics\s+(?:system|portal)/iu],
+  ["patent-registration", /سامانه\s*ثبت\s*اختراع|patent\s+registration\s+system/iu],
+  ["central-lab-system", /سامانه\s*آزمایشگاه\s*مرکزی|central\s+lab(?:oratory)?\s+system/iu],
 ];
 
 const GENERIC_TITLES = new Set([
-  "", "دانلود", "دانلود فایل", "دریافت فایل",
-  "مشاهده", "مشاهده فایل", "فایل", "سند",
-  "سند پژوهشی", "پیوست", "download", "download file",
+  "", "دانلود", "دانلود فایل", "دریافت فایل", "مشاهده", "مشاهده فایل",
+  "فایل", "سند", "سند پژوهشی", "پیوست", "download", "download file",
   "file", "document", "attachment", "click here",
 ]);
 
+function decodeRepeated(value, rounds = 3) {
+  let current = String(value ?? "");
+  for (let index = 0; index < rounds; index++) {
+    if (!/%[0-9a-f]{2}/i.test(current)) break;
+    try {
+      const decoded = decodeURIComponent(current);
+      if (decoded === current) break;
+      current = decoded;
+    } catch {
+      break;
+    }
+  }
+  return current;
+}
+
 export function normalizeEntityText(value) {
-  return String(value ?? "")
+  return decodeRepeated(value)
     .toLowerCase()
     .replace(/\u200c/g, " ")
     .replace(/[يى]/g, "ی")
@@ -81,13 +135,50 @@ export function normalizeEntityText(value) {
 }
 
 function decodeSafe(value) {
-  try {
-    return decodeURIComponent(String(value ?? ""));
-  } catch {
-    return String(value ?? "");
-  }
+  return decodeRepeated(value);
 }
 
+function titleText(record) {
+  const explicit = record?.nameFa || record?.title || record?.label || "";
+  const fallback = explicit || decodePathLabel(record?.url || record?.sourceUrl || record?.parentUrl) || "";
+  return normalizeEntityText(fallback);
+}
+
+function semanticContentText(record) {
+  if (!record || typeof record !== "object") return normalizeEntityText(record);
+  return normalizeEntityText([
+    record.nameFa,
+    record.title,
+    record.originalTitle,
+    record.label,
+    record.anchorText,
+    record.claim,
+    record.description,
+    record.note,
+    record.fileName,
+    decodeSafe(record.url),
+    decodeSafe(record.sourceUrl),
+    decodeSafe(record.parentUrl),
+    decodeSafe(record.sourcePage),
+  ].filter(Boolean).join(" "));
+}
+
+function identityTitle(record) {
+  let text = titleText(record);
+  text = text.replace(/^(?:صفحه\s*اصلی|خانه|home)\s*[-–—|:]\s*/iu, "");
+  text = text.replace(/\s*[-–—|:]\s*(?:صفحه\s*اصلی|خانه|home)$/iu, "");
+  text = text.replace(/^دانشگاه\s+[^|–—-]{2,80}?\s+(?=(?:معاونت|مدیریت|اداره|دفتر|مرکز|کتابخانه|آزمایشگاه|پژوهشکده|پژوهشگاه|گروه|کمیته|انتشارات|معرفی|کارکنان))/iu, "");
+  text = text.replace(/^[a-z .'-]+?\s+university\s+(?=(?:vice|department|office|center|centre|central|research|industry|technology|incubator|publishing|library|laborator|about|staff|employees))/iu, "");
+
+  const segments = text.split(/\s+[-–—|:]\s+/u).map((item) => item.trim()).filter(Boolean);
+  for (let index = segments.length - 1; index > 0; index -= 1) {
+    if (UNIT_IDENTITY_START.test(segments[index]) || SHORT_UNIT_IDENTITY.test(segments[index])) {
+      return segments[index];
+    }
+  }
+
+  return text.trim();
+}
 export function semanticEntityText(record) {
   if (!record || typeof record !== "object") {
     return normalizeEntityText(record);
@@ -125,9 +216,7 @@ export function validEntityUrl(value) {
 }
 
 export function canonicalEntityUrl(value, {ignoreLanguage = false} = {}) {
-  if (!validEntityUrl(value)) {
-    return null;
-  }
+  if (!validEntityUrl(value)) return null;
 
   const url = new URL(String(value));
   url.hash = "";
@@ -150,9 +239,7 @@ export function canonicalEntityUrl(value, {ignoreLanguage = false} = {}) {
   }
 
   url.pathname = `/${parts.map((part) => encodeURIComponent(part)).join("/")}`;
-  if (url.pathname !== "/") {
-    url.pathname = url.pathname.replace(/\/+$/, "");
-  }
+  if (url.pathname !== "/") url.pathname = url.pathname.replace(/\/+$/, "");
 
   const params = [...url.searchParams.entries()]
     .filter(([key]) => !key.toLowerCase().startsWith("utm_") &&
@@ -160,23 +247,23 @@ export function canonicalEntityUrl(value, {ignoreLanguage = false} = {}) {
     .sort(([ak, av], [bk, bv]) => ak.localeCompare(bk) || av.localeCompare(bv));
 
   url.search = "";
-  for (const [key, item] of params) {
-    url.searchParams.append(key, item);
-  }
+  for (const [key, item] of params) url.searchParams.append(key, item);
 
   return url.toString();
 }
 
-export function directDocument(record) {
-  const candidates = [
-    record?.url,
-    record?.sourceUrl,
-    record?.fileName,
-  ].filter(Boolean);
-
-  if (DOC_MIME.test(String(record?.contentType || ""))) {
-    return true;
+function canonicalHost(value) {
+  try {
+    return new URL(String(value ?? "")).hostname.toLowerCase().replace(/^www\./, "");
+  } catch {
+    return null;
   }
+}
+
+export function directDocument(record) {
+  const candidates = [record?.url, record?.sourceUrl, record?.fileName].filter(Boolean);
+
+  if (DOC_MIME.test(String(record?.contentType || ""))) return true;
 
   return candidates.some((value) => {
     try {
@@ -191,44 +278,56 @@ export function directDocument(record) {
 }
 
 function sameHost(a, b) {
-  try {
-    return new URL(a).hostname.toLowerCase().replace(/^www\./, "") ===
-      new URL(b).hostname.toLowerCase().replace(/^www\./, "");
-  } catch {
-    return false;
-  }
+  const ah = canonicalHost(a);
+  const bh = canonicalHost(b);
+  return Boolean(ah && bh && ah === bh);
 }
 
 function systemHostSignal(value) {
   try {
-    const host = new URL(String(value ?? ""))
-      .hostname
-      .toLowerCase()
-      .replace(/^www\./, "");
+    const host = canonicalHost(value);
+    if (!host) return false;
     return host.split(".").some((part) => SYSTEM_HOST_TOKENS.has(part));
   } catch {
     return false;
   }
 }
 
-export function inferDimension(record, fallback = null) {
-  const text = semanticEntityText(record);
+function urlPathText(record) {
+  return normalizeEntityText([
+    decodeSafe(record?.url),
+    decodeSafe(record?.sourceUrl),
+    decodeSafe(record?.parentUrl),
+  ].filter(Boolean).join(" "));
+}
 
-  if (IT_TEXT.test(text)) {
-    return "informationTechnology";
-  }
+export function inferDimension(record, fallback = null) {
+  const text = semanticContentText(record);
+
+  if (IT_TEXT.test(text)) return "informationTechnology";
 
   for (const [dimension, pattern] of DIMENSION_PATTERNS) {
-    if (pattern.test(text)) {
-      return dimension;
-    }
+    if (pattern.test(text)) return dimension;
   }
 
   return fallback;
 }
 
+export function inferTopicDimension(record, fallback = null) {
+  const text = semanticContentText(record);
+
+  if (IT_TEXT.test(text)) return "informationTechnology";
+  if (/کتابخانه|مرکز\s*اسناد|منابع\s*علمی|\blibrary\b|\bdocument\s+center\b/iu.test(text)) return "libraryDocuments";
+  if (/آزمایشگاه|شبکه\s*آزمایشگاهی|تجهیزات\s*پژوهشی|\blaborator(?:y|ies)\b|\bcentral\s+lab\b/iu.test(text)) return "laboratories";
+  if (/ارتباط\s*با\s*صنعت|جامعه\s*و\s*صنعت|صنعت\s*و\s*جامعه|انتقال\s*فناوری|نوآور|مالکیت\s*فکری|اختراع|مرکز\s*رشد|دانش[\s‌-]*بنیان|\bindustry\b|\btechnology\s+transfer\b|\binnovation\b|\bpatent\b|\bintellectual\s+property\b|\bincubator\b/iu.test(text)) return "industryTechnology";
+  if (SYSTEM_TEXT.test(text) && RESEARCH_SYSTEM_CONTEXT.test(text)) return "systemsServices";
+  if (/ساختار\s*سازمانی|مدیریت\s*پژوهش|امور\s*پژوهشی|معاونت\s*پژوهش|\borganizational\s+structure\b|\bresearch\s+management\b|\bresearch\s+affairs\b/iu.test(text)) return "organization";
+
+  return fallback;
+}
+
 export function inferUnitType(record) {
-  const text = semanticEntityText(record);
+  const text = semanticContentText(record);
 
   if (/کتابخانه|مرکز\s*اسناد|\blibrary\b/iu.test(text)) return "library";
   if (/آزمایشگاه|\blaborator(?:y|ies)\b|\bcentral\s+lab\b/iu.test(text)) return "laboratory";
@@ -243,7 +342,7 @@ export function inferUnitType(record) {
 }
 
 export function inferSystemCategory(record) {
-  const text = semanticEntityText(record);
+  const text = semanticContentText(record);
 
   if (/نشری|مجله|\bjournal/iu.test(text)) return "journals";
   if (/انتشارات|\bpublishing\b|\bpress\b/iu.test(text)) return "publishing";
@@ -255,7 +354,7 @@ export function inferSystemCategory(record) {
 }
 
 export function inferDocumentType(record) {
-  const text = semanticEntityText(record);
+  const text = semanticContentText(record);
 
   if (/آیین[\s‌-]*نامه|\bregulation\b|\bbylaw\b/iu.test(text)) return "آیین‌نامه";
   if (/شیوه[\s‌-]*نامه|دستورالعمل|\bguideline\b|\bprocedure\b/iu.test(text)) return "شیوه‌نامه/دستورالعمل";
@@ -266,7 +365,7 @@ export function inferDocumentType(record) {
 }
 
 export function inferDocumentTopic(record) {
-  const text = semanticEntityText(record);
+  const text = semanticContentText(record);
 
   if (/اخلاق\s*پژوهش|\bresearch\s+ethics\b/iu.test(text)) return "اخلاق پژوهش";
   if (/پایان[\s‌-]*نامه|رساله|\bthesis\b|\bdissertation\b/iu.test(text)) return "پایان‌نامه و رساله";
@@ -297,9 +396,7 @@ function filenameTitle(record) {
     .replace(/-{2,}/g, " ")
     .trim();
 
-  if (!name || /^[\d._ -]+$/.test(name)) {
-    return "";
-  }
+  if (!name || /^[\d._ -]+$/.test(name)) return "";
 
   const tokens = {
     pajohesh: "پژوهش",
@@ -319,8 +416,12 @@ function filenameTitle(record) {
     grant: "گرنت",
   };
 
-  const mapped = name.split(/\s+/).map((part) => tokens[part.toLowerCase()] || part).join(" ");
-  return mapped.replace(/راهنما\s+جستجو/g, "راهنمای جستجو").trim();
+  return name
+    .split(/\s+/)
+    .map((part) => tokens[part.toLowerCase()] || part)
+    .join(" ")
+    .replace(/راهنما\s+جستجو/g, "راهنمای جستجو")
+    .trim();
 }
 
 export function cleanDocumentTitle(record) {
@@ -336,254 +437,422 @@ export function cleanDocumentTitle(record) {
     .trim();
 }
 
+function isStrongUnitIdentity(record) {
+  const rawTitle = titleText(record);
+  const title = identityTitle(record);
+  if (!title) return false;
+
+  if (UNIT_PROFILE_TEXT.test(rawTitle) || UNIT_PROFILE_TEXT.test(title) || SERVICE_INFO_TEXT.test(rawTitle) || SERVICE_INFO_TEXT.test(title)) return false;
+  if (ANNOUNCEMENT_TEXT.test(rawTitle) || SPECIFIC_DOCUMENT_TEXT.test(rawTitle) || GUIDE_TEXT.test(rawTitle)) return false;
+
+  const source = String(record?.sourceUrl || record?.url || "");
+  if (UNIT_PATH_NEGATIVE.test(source) && !UNIT_IDENTITY_START.test(title)) return false;
+
+  if (UNIT_IDENTITY_START.test(title)) return true;
+  if (title.length <= 85 && SHORT_UNIT_IDENTITY.test(title)) return true;
+
+  return false;
+}
+
 function actualSystemEndpoint(record) {
-  const curated = !record?.discoveredBy;
+  const text = semanticContentText(record);
+  const title = titleText(record);
+  const target = record?.url;
+  const source = record?.sourceUrl || record?.parentUrl || record?.sourcePage;
   const trustedRelation = [
     "unit-service",
     "managed-by-portal",
     "national-related-system",
+    "system-endpoint",
+    "linked-external-system",
   ].includes(record?.relation);
 
-  const target = record?.url;
-  const source = record?.sourceUrl || record?.parentUrl || record?.sourcePage;
+  if (!validEntityUrl(target)) return false;
+  if (IT_TEXT.test(text)) return false;
+  if (ORGANIZATIONAL_NOT_SYSTEM.test(title)) return false;
 
-  const externalTarget =
-    validEntityUrl(target) &&
-    validEntityUrl(source) &&
-    !sameHost(target, source);
+  const researchContext = RESEARCH_SYSTEM_CONTEXT.test(text);
+  const adminContext = NON_RESEARCH_SYSTEM_CONTEXT.test(text);
+  if (adminContext && !researchContext) return false;
 
-  return Boolean(
-    trustedRelation ||
-    systemHostSignal(target) ||
-    externalTarget ||
-    (curated && SYSTEM_TEXT.test(semanticEntityText(record)))
-  );
+  const hostSignal = systemHostSignal(target);
+  const targetSystemSignal = SYSTEM_TEXT.test(decodeSafe(target));
+  const explicitSystemTitle = SYSTEM_TEXT.test(title);
+  const externalTarget = validEntityUrl(source) && !sameHost(target, source);
+  const appLikePath = SYSTEM_APPLICATION_PATH.test(String(target));
+  const contentLikePath = CONTENT_PAGE_PATH.test(decodeSafe(String(target)));
+
+  // Curated/trusted relations may prove an endpoint, but still require research
+  // context and at least one endpoint-like signal.
+  if (trustedRelation && researchContext && (hostSignal || appLikePath || externalTarget || targetSystemSignal)) {
+    return true;
+  }
+
+  // Dedicated subdomains such as scimet.*, journals.*, ris.* are strong endpoint
+  // evidence when the surrounding context is research-facing.
+  if (hostSignal && researchContext && (explicitSystemTitle || targetSystemSignal || externalTarget || appLikePath)) {
+    return true;
+  }
+
+  // External targets linked from an official research page can be accepted when
+  // their title/URL is explicitly system-like.
+  if (externalTarget && researchContext && !adminContext && (explicitSystemTitle || targetSystemSignal || appLikePath)) {
+    return true;
+  }
+
+  // Same-host pages discovered by the crawler are the risky case. A title that
+  // merely says “system” is not enough. Require an application/login path and do
+  // not accept ordinary CMS/content routes. This blocks Lorestan's patent page.
+  if (!externalTarget && researchContext && appLikePath && !contentLikePath && (explicitSystemTitle || targetSystemSignal)) {
+    return true;
+  }
+
+  return false;
+}
+
+function baseClassification(fields = {}) {
+  return {
+    topicDimension: null,
+    primaryDimension: fields.dimension || null,
+    ...fields,
+  };
 }
 
 export function classifyCatalogRecord(record, catalogKind) {
-  const text = semanticEntityText(record);
-  const it = IT_TEXT.test(text) || record?.dimension === "informationTechnology" ||
+  const fullText = semanticEntityText(record);
+  const text = semanticContentText(record);
+  const title = titleText(record);
+  const identity = identityTitle(record);
+  const it = IT_TEXT.test(fullText) || record?.dimension === "informationTechnology" ||
     normalizeEntityText(record?.type) === "it" ||
     normalizeEntityText(record?.category) === "it" ||
     normalizeEntityText(record?.category) === "it-linked";
 
   if (it) {
-    return {
+    return baseClassification({
       keep: false,
       entityType: "excluded-it",
       dimension: "informationTechnology",
       relation: "excluded",
       reason: "information-technology-out-of-public-scope",
       disposition: "quarantine",
-    };
+    });
   }
 
-  const guide = GUIDE_TEXT.test(text);
-  const announcement = ANNOUNCEMENT_TEXT.test(text);
-  const docIndex = DOCUMENT_INDEX_TEXT.test(text) && !directDocument(record);
+  const guide = GUIDE_TEXT.test(title);
+  const announcement = ANNOUNCEMENT_TEXT.test(title);
+  const docIndex = DOCUMENT_INDEX_TEXT.test(title) && !directDocument(record);
   const inferredDimension = inferDimension(record, null);
+  const topicDimension = inferTopicDimension(record, null);
 
   if (catalogKind === "documents") {
     if (directDocument(record)) {
-      return {
+      return baseClassification({
         keep: true,
         entityType: "document",
         dimension: "documentsRegulations",
+        primaryDimension: "documentsRegulations",
+        topicDimension,
         relation: "direct-resource",
         reason: "direct-downloadable-document",
         disposition: "catalog",
-      };
+      });
     }
 
     if (docIndex) {
-      return {
+      return baseClassification({
         keep: false,
         entityType: "document-index",
         dimension: "documentsRegulations",
+        primaryDimension: "documentsRegulations",
+        topicDimension,
         relation: "contains-documents",
         reason: "collection-page-not-a-document",
         disposition: "reference",
-      };
+      });
     }
 
     if (announcement) {
-      return {
+      return baseClassification({
         keep: false,
         entityType: "announcement",
-        dimension: inferredDimension || "documentsRegulations",
+        dimension: "documentsRegulations",
+        primaryDimension: "documentsRegulations",
+        topicDimension,
         relation: "mentions-resource",
         reason: "announcement-not-a-document",
         disposition: "reference",
-      };
+      });
     }
 
-    if (guide && !SPECIFIC_DOCUMENT_TEXT.test(text)) {
-      return {
+    if (guide && !SPECIFIC_DOCUMENT_TEXT.test(title)) {
+      return baseClassification({
         keep: false,
         entityType: "guide",
-        dimension: inferredDimension || "documentsRegulations",
+        dimension: "documentsRegulations",
+        primaryDimension: "documentsRegulations",
+        topicDimension,
         relation: "guide-for",
         reason: "guide-page-not-a-document",
         disposition: "reference",
-      };
+      });
     }
 
-    if (SPECIFIC_DOCUMENT_TEXT.test(text)) {
-      return {
+    if (SPECIFIC_DOCUMENT_TEXT.test(title)) {
+      return baseClassification({
         keep: true,
         entityType: "document",
         dimension: "documentsRegulations",
+        primaryDimension: "documentsRegulations",
+        topicDimension,
         relation: "document-landing-page",
         reason: "specific-document-landing-page",
         disposition: "catalog",
-      };
+      });
     }
 
-    return {
+    return baseClassification({
       keep: false,
       entityType: "service-page",
-      dimension: inferredDimension || "documentsRegulations",
+      dimension: "documentsRegulations",
+      primaryDimension: "documentsRegulations",
+      topicDimension,
       relation: "reference-only",
       reason: "generic-page-not-a-document",
       disposition: "reference",
-    };
+    });
   }
 
   if (catalogKind === "systems") {
     if (announcement) {
-      return {
+      return baseClassification({
         keep: false,
         entityType: "announcement",
         dimension: inferredDimension || "systemsServices",
         relation: "mentions-system",
         reason: "announcement-about-system-not-system",
         disposition: "reference",
-      };
+      });
     }
 
     if (guide) {
-      return {
+      return baseClassification({
         keep: false,
         entityType: "guide",
         dimension: inferredDimension || "systemsServices",
         relation: "guide-for-system",
         reason: "guide-about-system-not-system",
         disposition: "reference",
-      };
+      });
+    }
+
+    if (ORGANIZATIONAL_NOT_SYSTEM.test(title)) {
+      return baseClassification({
+        keep: false,
+        entityType: "unit-reference",
+        dimension: inferTopicDimension(record, inferredDimension || "organization"),
+        relation: "reference-only",
+        reason: "organizational-entity-not-system-endpoint",
+        disposition: "reference",
+      });
+    }
+
+    if (NON_RESEARCH_SYSTEM_CONTEXT.test(text) && !RESEARCH_SYSTEM_CONTEXT.test(text)) {
+      return baseClassification({
+        keep: false,
+        entityType: "non-research-system",
+        dimension: "systemsServices",
+        relation: "reference-only",
+        reason: "general-administrative-system-out-of-research-scope",
+        disposition: "reference",
+      });
     }
 
     if (!actualSystemEndpoint(record)) {
-      return {
+      return baseClassification({
         keep: false,
         entityType: "service-page",
         dimension: inferredDimension || "systemsServices",
         relation: "mentions-system",
-        reason: "crawler-page-is-not-proven-system-endpoint",
+        reason: "system-endpoint-not-proven-by-research-context",
         disposition: "reference",
-      };
+      });
     }
 
-    const external =
-      validEntityUrl(record?.url) &&
+    const external = validEntityUrl(record?.url) &&
       validEntityUrl(record?.sourceUrl) &&
       !sameHost(record.url, record.sourceUrl);
 
-    return {
+    const semanticRelation = [
+      "unit-service",
+      "managed-by-portal",
+      "national-related-system",
+      "system-endpoint",
+      "linked-external-system",
+    ].includes(record?.relation)
+      ? record.relation
+      : (external ? "linked-external-system" : "system-endpoint");
+
+    return baseClassification({
       keep: true,
       entityType: external ? "external-system" : "system",
       dimension: "systemsServices",
-      relation: record?.relation || (external ? "linked-external-system" : "system-endpoint"),
-      reason: external ? "proven-external-system-endpoint" : "proven-system-endpoint",
+      relation: semanticRelation,
+      reason: external ? "proven-research-external-system-endpoint" : "proven-research-system-endpoint",
       disposition: "catalog",
-    };
+    });
   }
 
   if (catalogKind === "units") {
-    if (docIndex || guide || announcement || directDocument(record)) {
-      return {
+    const unitTargetText = normalizeEntityText([record?.url, record?.sourceUrl, record?.parentUrl].filter(Boolean).map(decodeSafe).join(" "));
+    if (record?.discoveredBy && UNIT_PATH_NEGATIVE.test(unitTargetText)) {
+      return baseClassification({
         keep: false,
-        entityType: docIndex
-          ? "document-index"
-          : guide
-            ? "guide"
-            : announcement
-              ? "announcement"
-              : "document",
-        dimension: inferredDimension || "organization",
+        entityType: ANNOUNCEMENT_TEXT.test(title) ? "announcement" : "service-page",
+        dimension: topicDimension || inferredDimension || "organization",
         relation: "reference-only",
-        reason: "page-is-not-an-organizational-unit",
+        reason: "content-or-news-path-not-an-organizational-unit",
         disposition: "reference",
-      };
+      });
     }
 
-    if (STRUCTURE_HUB_TEXT.test(text)) {
-      return {
+    if (directDocument(record)) {
+      return baseClassification({
+        keep: false,
+        entityType: "document",
+        dimension: "documentsRegulations",
+        primaryDimension: "documentsRegulations",
+        topicDimension,
+        relation: "reference-only",
+        reason: "downloadable-resource-not-an-organizational-unit",
+        disposition: "reference",
+      });
+    }
+
+    if (docIndex) {
+      return baseClassification({
+        keep: false,
+        entityType: "document-index",
+        dimension: "documentsRegulations",
+        primaryDimension: "documentsRegulations",
+        topicDimension,
+        relation: "contains-documents",
+        reason: "document-index-not-an-organizational-unit",
+        disposition: "reference",
+      });
+    }
+
+    if (guide || announcement || SERVICE_INFO_TEXT.test(title) || SERVICE_INFO_TEXT.test(identity) || UNIT_PROFILE_TEXT.test(title) || UNIT_PROFILE_TEXT.test(identity)) {
+      const entityType = guide
+        ? "guide"
+        : announcement
+          ? "announcement"
+          : (UNIT_PROFILE_TEXT.test(title) || UNIT_PROFILE_TEXT.test(identity))
+            ? "unit-profile"
+            : "service-page";
+
+      return baseClassification({
+        keep: false,
+        entityType,
+        dimension: topicDimension || inferredDimension || "organization",
+        relation: entityType === "unit-profile" ? "describes-unit" : "reference-only",
+        reason: entityType === "unit-profile"
+          ? "unit-profile-or-people-page-not-a-unit"
+          : "content-page-not-an-organizational-unit",
+        disposition: "reference",
+      });
+    }
+
+    if (STRUCTURE_HUB_TEXT.test(identity)) {
+      return baseClassification({
         keep: false,
         entityType: "organization-hub",
         dimension: "organization",
         relation: "contains-units",
         reason: "structure-page-not-a-unit",
         disposition: "reference",
-      };
+      });
     }
 
     const inferredType = inferUnitType(record);
     const curated = !record?.discoveredBy;
+    const strongIdentity = isStrongUnitIdentity(record);
 
-    if (!inferredType && !(curated && record?.type)) {
-      return {
+    if (!inferredType && !(curated && record?.type && strongIdentity)) {
+      return baseClassification({
         keep: false,
         entityType: "service-page",
-        dimension: inferredDimension || "organization",
+        dimension: topicDimension || inferredDimension || "organization",
         relation: "reference-only",
         reason: "organizational-unit-not-proven",
         disposition: "reference",
-      };
+      });
     }
 
-    if (!curated && !UNIT_NOUN_TEXT.test(text)) {
-      return {
+    if (!strongIdentity) {
+      return baseClassification({
         keep: false,
         entityType: "service-page",
-        dimension: inferredDimension || "organization",
+        dimension: topicDimension || inferredDimension || "organization",
         relation: "reference-only",
-        reason: "crawler-page-lacks-unit-identity",
+        reason: "page-mentions-unit-but-lacks-unit-identity",
         disposition: "reference",
-      };
+      });
     }
 
-    return {
+    return baseClassification({
       keep: true,
       entityType: "unit",
-      dimension: inferredDimension || "organization",
+      dimension: inferredDimension === "documentsRegulations"
+        ? (topicDimension || "organization")
+        : (inferredDimension || "organization"),
       relation: record?.relation || "organizational-unit",
-      reason: "organizational-unit",
+      reason: "organizational-unit-identity-proven",
       disposition: "catalog",
-    };
+    });
   }
 
   throw new Error(`Unknown catalog kind: ${catalogKind}`);
 }
 
-export function conceptKey(record) {
-  const text = semanticEntityText(record);
-
-  for (const [key, pattern] of CONCEPT_PATTERNS) {
-    if (pattern.test(text)) {
-      return key;
-    }
+function unitConceptKey(record) {
+  const text = identityTitle(record);
+  for (const [key, pattern] of UNIT_CONCEPT_PATTERNS) {
+    if (pattern.test(text)) return key;
   }
+  return null;
+}
 
+function systemConceptKey(record) {
+  const text = semanticContentText(record);
+  for (const [key, pattern] of SYSTEM_CONCEPT_PATTERNS) {
+    if (pattern.test(text)) return key;
+  }
   return null;
 }
 
 export function logicalEntityKey(record) {
   const slug = record?.universitySlug || "unknown";
   const entityType = record?.entityType || "entity";
-  const concept = conceptKey(record);
 
-  if (concept && ["unit", "system", "external-system"].includes(entityType)) {
-    return `${slug}|${entityType}|concept:${concept}`;
+  if (entityType === "unit") {
+    const concept = unitConceptKey(record);
+    if (concept) return `${slug}|unit|concept:${concept}`;
+
+    const compactIdentity = identityTitle(record)
+      .replace(/\s*[-–—|:]\s*دانشگاه.*$/iu, "")
+      .replace(/\s+/g, " ")
+      .trim();
+    if (compactIdentity && compactIdentity.length <= 120) {
+      return `${slug}|unit|type:${record?.type || "unknown"}|text:${compactIdentity}`;
+    }
+  }
+
+  if (["system", "external-system"].includes(entityType)) {
+    const concept = systemConceptKey(record);
+    const host = canonicalHost(record?.url);
+    if (concept && host) return `${slug}|system|concept:${concept}|host:${host}`;
+    if (concept) return `${slug}|system|concept:${concept}`;
   }
 
   const target = canonicalEntityUrl(
@@ -591,13 +860,9 @@ export function logicalEntityKey(record) {
     {ignoreLanguage: true}
   );
 
-  if (target) {
-    return `${slug}|${entityType}|url:${target}`;
-  }
+  if (target) return `${slug}|${entityType}|url:${target}`;
 
-  return `${slug}|${entityType}|text:${normalizeEntityText(
-    record?.nameFa || record?.title || ""
-  )}`;
+  return `${slug}|${entityType}|text:${normalizeEntityText(record?.nameFa || record?.title || "")}`;
 }
 
 function quality(record) {
@@ -612,29 +877,195 @@ function quality(record) {
   return score;
 }
 
+function decodePathLabel(value) {
+  if (!validEntityUrl(value)) return null;
+
+  try {
+    const url = new URL(String(value));
+    const parts = url.pathname
+      .split("/")
+      .filter(Boolean)
+      .map((part) => decodeSafe(part).replace(/[-_]+/g, " ").replace(/\s+/g, " ").trim())
+      .filter((part) =>
+        part &&
+        !/^(?:fa|en|ar|fa-ir|en-us|research|research-and-technology|page|pages|units?|unit|management|organizational-structure)$/i.test(part) &&
+        !/^\d+$/.test(part)
+      );
+
+    const label = parts.at(-1) || null;
+    if (!label || label.length < 3 || label.length > 160) return null;
+    return label;
+  } catch {
+    return null;
+  }
+}
+
+function normalizeDisplayLabel(value) {
+  return decodeRepeated(String(value || ""))
+    .replace(/[-_]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function canonicalUnitDisplayLabel(value) {
+  let label = normalizeDisplayLabel(value);
+  if (!label) return label;
+
+  // Strip common site/language chrome that sometimes becomes part of crawler titles.
+  label = label
+    .replace(/\s*[|–—-]\s*(?:معاونت\s*پژوهش\s*و\s*فناوری(?:\s*دانشگاه[^|–—-]*)?|research\s+(?:and\s+)?technology[^|–—-]*|فارسی|english)\s*$/iu, "")
+    .replace(/\s+(?:فارسی|english)\s*$/iu, "")
+    .trim();
+
+  const n = normalizeEntityText(label);
+
+  // Canonicalize high-value logical unit concepts. This avoids labels such as
+  // "کتابخانه مرکزی ... کتابخانه مرکزی ..." after merging multiple evidence pages.
+  if (/کتابخانه\s*مرکزی(?:\s*و\s*مرکز\s*اسناد)?|central\s+library/iu.test(n)) {
+    const hasInfo = /اطلاع[‌\s-]*رسانی/iu.test(n);
+    const hasDocs = /مرکز\s*اسناد/iu.test(n);
+    return hasInfo
+      ? "کتابخانه مرکزی و مرکز اسناد و اطلاع‌رسانی"
+      : hasDocs
+        ? "کتابخانه مرکزی و مرکز اسناد"
+        : "کتابخانه مرکزی";
+  }
+  if (/آزمایشگاه\s*مرکزی|central\s+(?:laboratory|lab)/iu.test(n)) return "آزمایشگاه مرکزی";
+  if (/انتشارات\s*مرکزی|central\s+(?:publications?|publishing)/iu.test(n)) return "انتشارات مرکزی";
+
+  return label;
+}
+
+function displayLabelQuality(value, entityType = null) {
+  const label = normalizeDisplayLabel(value);
+  if (!label) return -Infinity;
+
+  const normalized = normalizeEntityText(label);
+  if (!normalized || GENERIC_TITLES.has(normalized)) return -Infinity;
+  if (/^https?:\/\//i.test(label) || /%(?:[0-9a-f]{2})/i.test(label)) return -Infinity;
+
+  let score = Math.min(18, label.length / 8);
+  if (/[آ-ی]/u.test(label)) score += 2;
+  if (/کتابخانه|آزمایشگاه|انتشارات|پژوهش|صنعت|فناوری|مرکز|مدیریت|اداره|دفتر|سامانه|library|laborator|publishing|research|industry|technology|system/iu.test(label)) score += 4;
+  if (/[|]/.test(label)) score -= 1;
+
+  // For logical units, prefer a compact organizational identity and strongly
+  // reject news/service/profile labels even when they are longer. This prevents
+  // a merged news page from replacing the canonical Central Library name.
+  if (entityType === "unit") {
+    if (UNIT_IDENTITY_START.test(normalized) || SHORT_UNIT_IDENTITY.test(normalized)) score += 18;
+    if (ANNOUNCEMENT_TEXT.test(normalized) || GUIDE_TEXT.test(normalized) ||
+        SERVICE_INFO_TEXT.test(normalized) || UNIT_PROFILE_TEXT.test(normalized) ||
+        DOCUMENT_INDEX_TEXT.test(normalized)) score -= 40;
+    if (normalized.length > 140) score -= 18;
+  }
+
+  return score;
+}
+
+function bestEntityDisplayLabel(...records) {
+  const candidates = [];
+  const entityType = records.find(Boolean)?.entityType || null;
+
+  for (const record of records.filter(Boolean)) {
+    for (const value of [record.nameFa, record.title, record.originalTitle, record.label]) {
+      const normalized = normalizeDisplayLabel(value);
+      if (normalized) candidates.push(normalized);
+    }
+
+    for (const value of [record.url, record.sourceUrl, record.parentUrl]) {
+      const derived = decodePathLabel(value);
+      const normalized = normalizeDisplayLabel(derived);
+      if (normalized) candidates.push(normalized);
+    }
+  }
+
+  candidates.sort((a, b) =>
+    displayLabelQuality(b, entityType) - displayLabelQuality(a, entityType)
+  );
+  const best = candidates.find((value) =>
+    Number.isFinite(displayLabelQuality(value, entityType))
+  ) || null;
+  return entityType === "unit" && best ? canonicalUnitDisplayLabel(best) : best;
+}
+
+function evidenceUrlsOf(record) {
+  return [
+    record?.url,
+    record?.sourceUrl,
+    record?.parentUrl,
+    ...(record?.evidenceUrls || []),
+    ...(record?.alternateUrls || []),
+  ].filter(validEntityUrl);
+}
+
+function entityTargetUrlsOf(record) {
+  if (!record || typeof record !== "object") return [];
+
+  // Systems must have an explicit target URL. Their source/parent pages are
+  // provenance only and must never leak into alternateUrls.
+  if (["system", "external-system"].includes(record.entityType)) {
+    const sourceKey = canonicalEntityUrl(record.sourceUrl || record.parentUrl);
+    return [record.url, ...(record.alternateUrls || [])]
+      .filter(validEntityUrl)
+      .filter((value) => {
+        const key = canonicalEntityUrl(value);
+        if (!key || key === sourceKey) return false;
+        try {
+          const url = new URL(value);
+          if (url.pathname === "/" && !url.search && !url.hash) return false;
+        } catch {
+          return false;
+        }
+        return true;
+      });
+  }
+
+  // Unit catalogs historically store the actual unit page in sourceUrl. Treat it
+  // as an entity target only for units, so bilingual unit pages can still merge.
+  if (record.entityType === "unit") {
+    return [record.url || record.sourceUrl, ...(record.alternateUrls || [])].filter(validEntityUrl);
+  }
+
+  return [record.url, ...(record.alternateUrls || [])].filter(validEntityUrl);
+}
+
 export function mergeLogicalRecords(existing, incoming) {
   const preferred = quality(incoming) > quality(existing) ? incoming : existing;
   const secondary = preferred === incoming ? existing : incoming;
 
-  const targetUrls = [
-    existing.url,
-    incoming.url,
-    ...(existing.alternateUrls || []),
-    ...(incoming.alternateUrls || []),
-  ].filter(validEntityUrl);
-
-  const urlMap = new Map();
-  for (const item of targetUrls) {
+  const evidenceMap = new Map();
+  for (const item of [...evidenceUrlsOf(existing), ...evidenceUrlsOf(incoming)]) {
     const key = canonicalEntityUrl(item);
-    if (key && !urlMap.has(key)) urlMap.set(key, item);
+    if (key && !evidenceMap.has(key)) evidenceMap.set(key, item);
   }
+
+  const targetMap = new Map();
+  for (const item of [...entityTargetUrlsOf(existing), ...entityTargetUrlsOf(incoming)]) {
+    const key = canonicalEntityUrl(item);
+    if (key && !targetMap.has(key)) targetMap.set(key, item);
+  }
+
+  const evidenceUrls = [...evidenceMap.values()];
+  const preferredTarget = preferred.url || (preferred.entityType === "unit" ? preferred.sourceUrl : null);
+  const preferredTargetKey = canonicalEntityUrl(preferredTarget);
 
   const merged = {
     ...secondary,
     ...preferred,
     id: existing.id || incoming.id,
-    alternateUrls: [...urlMap.values()].filter((item) => item !== preferred.url),
+    evidenceUrls,
+    alternateUrls: [...targetMap.entries()]
+      .filter(([key]) => key !== preferredTargetKey)
+      .map(([, value]) => value),
   };
+
+  const displayLabel = bestEntityDisplayLabel(existing, incoming, merged);
+  if (["unit", "system", "external-system"].includes(merged.entityType) && displayLabel) {
+    merged.nameFa = displayLabel;
+  } else if (merged.entityType === "document" && displayLabel && !String(merged.title || "").trim()) {
+    merged.title = displayLabel;
+  }
 
   if (existing.originalTitle || incoming.originalTitle) {
     merged.originalTitle = existing.originalTitle || incoming.originalTitle;
@@ -652,8 +1083,17 @@ export function enrichCatalogRecord(record, catalogKind, classification) {
     cleaningReason: classification.reason,
   };
 
+  if (classification.primaryDimension) next.primaryDimension = classification.primaryDimension;
+  if (classification.topicDimension && classification.topicDimension !== "informationTechnology") {
+    next.topicDimension = classification.topicDimension;
+  }
+
   if (catalogKind === "units") {
     next.type = inferUnitType(record) || record.type || "research";
+    if (!String(next.nameFa || next.title || "").trim()) {
+      const fallbackLabel = bestEntityDisplayLabel(record);
+      if (fallbackLabel) next.nameFa = fallbackLabel;
+    }
   } else if (catalogKind === "systems") {
     next.category = inferSystemCategory(record);
   } else if (catalogKind === "documents") {
@@ -680,19 +1120,48 @@ export function classifyReauditReference(url, originalDimension, matchedRecord =
     return {
       keep: false,
       dimension: "informationTechnology",
+      primaryDimension: "informationTechnology",
+      topicDimension: null,
       entityType: "excluded-it",
       reason: "information-technology-out-of-public-scope",
     };
   }
 
-  const inferred = inferDimension(record, originalDimension);
+  const docClassification = classifyCatalogRecord(record, "documents");
+  const isDocumentLike = ["document", "document-index"].includes(docClassification.entityType);
+
+  if (isDocumentLike) {
+    if (originalDimension === "documentsRegulations") {
+      return {
+        keep: true,
+        dimension: "documentsRegulations",
+        primaryDimension: "documentsRegulations",
+        topicDimension: docClassification.topicDimension,
+        entityType: docClassification.entityType,
+        reason: "document-reference-kept-in-documents-regulations",
+      };
+    }
+
+    return {
+      keep: false,
+      dimension: "documentsRegulations",
+      primaryDimension: "documentsRegulations",
+      topicDimension: docClassification.topicDimension,
+      entityType: docClassification.entityType,
+      reason: "document-reference-routed-to-documents-regulations",
+    };
+  }
+
+  const inferred = inferTopicDimension(record, inferDimension(record, originalDimension));
 
   if (originalDimension === "systemsServices") {
-    if (GUIDE_TEXT.test(text) || ANNOUNCEMENT_TEXT.test(text)) {
+    if (GUIDE_TEXT.test(titleText(record)) || ANNOUNCEMENT_TEXT.test(titleText(record))) {
       return {
         keep: false,
         dimension: inferred,
-        entityType: GUIDE_TEXT.test(text) ? "guide" : "announcement",
+        primaryDimension: inferred,
+        topicDimension: null,
+        entityType: GUIDE_TEXT.test(titleText(record)) ? "guide" : "announcement",
         reason: "reference-about-system-not-system-endpoint",
       };
     }
@@ -703,29 +1172,32 @@ export function classifyReauditReference(url, originalDimension, matchedRecord =
         return {
           keep: false,
           dimension: result.dimension,
+          primaryDimension: result.dimension,
+          topicDimension: result.topicDimension,
           entityType: result.entityType,
           reason: result.reason,
         };
       }
-    } else if (!systemHostSignal(url) && !/\b(?:system|سامانه)\b/iu.test(text)) {
+    } else if (!systemHostSignal(url) || !RESEARCH_SYSTEM_CONTEXT.test(text)) {
       return {
         keep: false,
         dimension: inferred,
+        primaryDimension: inferred,
+        topicDimension: null,
         entityType: "service-page",
-        reason: "system-endpoint-unproven",
+        reason: "research-system-endpoint-unproven",
       };
     }
   }
 
   return {
     keep: true,
-    dimension: inferred,
-    entityType:
-      originalDimension === "documentsRegulations" && DOCUMENT_INDEX_TEXT.test(text)
-        ? "document-index"
-        : "dimension-reference",
-    reason: inferred !== originalDimension
-      ? "dimension-reclassified-from-url-context"
+    dimension: inferred || originalDimension,
+    primaryDimension: inferred || originalDimension,
+    topicDimension: null,
+    entityType: "dimension-reference",
+    reason: inferred && inferred !== originalDimension
+      ? "dimension-reclassified-from-semantic-context"
       : "dimension-reference-kept",
   };
 }

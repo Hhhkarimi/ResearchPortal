@@ -36,7 +36,7 @@
     "nameFa": "دانشگاه هنر ایران",
     "iscCategory": "هنر",
     "iscRank": 1,
-    "auditDate": "2026-08-12",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.art.ac.ir/fa",
     "evidenceUrls": [
@@ -45,16 +45,16 @@
     "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
+      "organization": "unresolved",
       "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
-      "industryTechnology": "verified",
-      "systemsServices": "verified",
+      "industryTechnology": "unresolved",
+      "systemsServices": "unresolved",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 71,
-    "unitsFound": 1,
-    "systemsFound": 1,
+    "auditEvidenceCoverage": 29,
+    "unitsFound": 0,
+    "systemsFound": 0,
     "documentsFound": 1,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
@@ -95,15 +95,8 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://research.art.ac.ir/fa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific organization source",
-          "id": null
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
       "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -119,15 +112,8 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://research.art.ac.ir/fa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
       "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -143,15 +129,8 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://research.art.ac.ir/fa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
       "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -167,15 +146,8 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://research.art.ac.ir/fa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
       "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -191,15 +163,8 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://research.art.ac.ir/fa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
       "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -219,9 +184,9 @@
       "sources": [
         {
           "url": "https://research.art.ac.ir/fa",
-          "kind": "document",
-          "claim": "دستورالعمل جشنواره پژوهشگران و فناوران",
-          "id": "iran-art-doc-1"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -230,40 +195,29 @@
     }
   ],
   "ranking": null,
-  "units": [
-    {
-      "id": "iran-art-1",
-      "universitySlug": "iran-art",
-      "nameFa": "همکاری‌های علمی و هنری با جامعه",
-      "type": "industry",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
-    }
-  ],
-  "systems": [
-    {
-      "id": "iran-art-sys-2",
-      "universitySlug": "iran-art",
-      "nameFa": "پرتال آزمایشگاه مرکزی",
-      "category": "laboratory",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.art.ac.ir/fa"
-    }
-  ],
+  "units": [],
+  "systems": [],
   "documents": [
     {
       "id": "iran-art-doc-1",
       "universitySlug": "iran-art",
       "title": "دستورالعمل جشنواره پژوهشگران و فناوران",
-      "type": "دستورالعمل",
+      "type": "شیوه‌نامه/دستورالعمل",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-10",
       "sourceUrl": "https://research.art.ac.ir/fa",
       "topic": "صنعت، فناوری و مالکیت فکری",
-      "url": "https://research.art.ac.ir/fa"
+      "url": "https://research.art.ac.ir/fa",
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "document-landing-page",
+      "cleaningReason": "specific-document-landing-page",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://research.art.ac.ir/fa"
+      ],
+      "alternateUrls": []
     }
   ],
   "interpretation": {

@@ -95,7 +95,7 @@
     "nameFa": "دانشگاه اصفهان",
     "iscCategory": "جامع",
     "iscRank": 7,
-    "auditDate": "2026-08-12",
+    "auditDate": "2026-08-11",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.ui.ac.ir/",
     "evidenceUrls": [
@@ -160,21 +160,21 @@
       "https://research.ui.ac.ir/%D8%AC%D8%B3%D8%AA%D8%AC%D9%88",
       "https://research.ui.ac.ir/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D9%85%D8%A7"
     ],
-    "deepAuditStatus": "deep-audited",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
+      "organization": "unresolved",
       "libraryDocuments": "verified",
       "laboratories": "verified",
       "industryTechnology": "verified",
-      "systemsServices": "verified",
+      "systemsServices": "unresolved",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 100,
-    "unitsFound": 27,
-    "systemsFound": 13,
-    "documentsFound": 29,
-    "rankingEligibility": "candidate",
+    "auditEvidenceCoverage": 71,
+    "unitsFound": 4,
+    "systemsFound": 0,
+    "documentsFound": 27,
+    "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
   "dimensionEvidence": [
@@ -581,54 +581,13 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 27,
+      "sourceCount": 4,
       "sources": [
         {
           "url": "https://research.ui.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific organization source",
-          "id": null
-        },
-        {
-          "url": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
           "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آیین نامه ها و فرم ها",
-          "id": "isfahan-discovery-unit-library-38e57f9ec4e7",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%DA%86%DA%AF%D9%88%D9%86%DA%AF%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | چگونگی بارگذاری پایان نامه در نرم افزار کتابخانه مرکزی دانشگاه اصفهان",
-          "id": "isfahan-discovery-unit-library-15abcfbca16f",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | خانه",
-          "id": "isfahan-discovery-unit-library-e20880efdc53",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%A7%D9%87%D8%AF%D8%A7%DB%8C%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه پذیرش منابع اهدایی کتابخانه مرکزی و مرکز اسناد دانشگاه اصفهان- ۱۴۰۳",
-          "id": "isfahan-discovery-unit-library-8503b104c83d",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B9%D8%B6%D9%88%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه عضویت کتابخانه مرکزی و مرکز اسناد- ۱۴۰۳",
-          "id": "isfahan-discovery-unit-library-2d75e55debc5",
-          "unitType": "library"
-        },
-        {
-          "url": "https://lib.ui.ac.ir/DL/Search/",
-          "kind": "unit",
-          "claim": "کتابخانه دانشگاه اصفهان ، کتابخانه 2.0 ثنا",
-          "id": "isfahan-discovery-unit-library-9dfd1100b9a3",
+          "claim": "مدیریت کتابخانه‌ها و مرکز اسناد",
+          "id": "isfahan-1",
           "unitType": "library"
         },
         {
@@ -643,132 +602,13 @@
           "kind": "unit",
           "claim": "معاونت پژوهش و فناوری | اداره چاپ و انتشارات",
           "id": "isfahan-discovery-unit-library-2860c8353c66",
-          "unitType": "library"
+          "unitType": "publishing"
         },
         {
-          "url": "https://library.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D9%84%DB%8C%D9%86%DA%A9",
+          "url": "https://library.ui.ac.ir/",
           "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آیین نامه ها و فرم ها",
-          "id": "isfahan-discovery-unit-library-73b64b23cffe",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | خدمات پژوهشی و پایان نامه",
-          "id": "isfahan-discovery-unit-library-7704caf15255",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%AF%D8%B1%D8%B3-Email-%D8%AC%D9%87%D8%AA-%D8%A7%D8%B1%D8%B3%D8%A7%D9%84-pdf-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-thesisdl@res%C2%B7ui%C2%B7ac%C2%B7ir-",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آدرس Email جهت ارسال pdf پایان نامه thesisdl@res.ui.ac.ir",
-          "id": "isfahan-discovery-unit-library-446eb532fd93",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A7%D8%B9%D9%84%D8%A7%D9%85-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%DB%8C-%D8%B4%D8%A8%D8%A7-%D8%AC%D9%87%D8%AA-%D8%A8%D8%AE%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | اعلام شماره ی شبا جهت بخش پایان نامه ها",
-          "id": "isfahan-discovery-unit-library-c2d2ac1b990d",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%81%84-%D8%B1%D8%B3%D8%A7%D9%84%D9%87",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | شیوه نامه نگارش پایان نامه/ رساله",
-          "id": "isfahan-discovery-unit-library-f70c57b97845",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%AD%D9%88%D8%B2%D9%87-%D9%85%D9%88%D8%B6%D9%88%D8%B9%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D8%AB%D8%A8%D8%AA-%D8%AF%D8%B1-%D8%B5%D9%81%D8%AD%D9%87-%D8%AA%D8%B5%D9%88%DB%8C%D8%A8-%D9%86%D8%A7%D9%85%D9%87-%D9%84%D8%A7%D8%AA%DB%8C%D9%86",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | حوزه موضوعی پایان نامه ها جهت ثبت در صفحه تصویب نامه لاتین",
-          "id": "isfahan-discovery-unit-library-716b02d561e8",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%AA%D9%87%DB%8C%D9%87-%D8%B3%DB%8C-%D8%AF%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%81%84%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D9%88-%D8%AA%D8%AD%D9%88%DB%8C%D9%84-%D8%A8%D9%87-%D8%A8%D8%AE%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | تهیه سی دی پایان نامه/رساله و تحویل به بخش پایان نامه ها",
-          "id": "isfahan-discovery-unit-library-ae99900d72ab",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%D9%82%D8%A7%D9%84%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%85%D9%82%D8%B7%D8%B9-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | دریافت قالب پایان نامه مقطع دکتری",
-          "id": "isfahan-discovery-unit-library-4e191942eb01",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%D9%82%D8%A7%D9%84%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%85%D9%82%D8%B7%D8%B9-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | دریافت قالب پایان نامه مقطع کارشناسی ارشد",
-          "id": "isfahan-discovery-unit-library-54edcb215c3d",
-          "unitType": "library"
-        },
-        {
-          "url": "https://iro.ui.ac.ir/-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-_-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81",
-          "kind": "unit",
-          "claim": "مدیریت ارتباط با جامعه و صنعت | شیوه نامه فرصت مطالعاتی اعضای هیات علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت _ وزارت عتف",
-          "id": "isfahan-discovery-unit-industry-1185dbf1cf5f",
-          "unitType": "industry"
-        },
-        {
-          "url": "https://roshd.ui.ac.ir/",
-          "kind": "unit",
-          "claim": "گروه کارآفرینی و رشد فناوری | خانه",
-          "id": "isfahan-discovery-unit-technology-5c77c8bea3d9",
-          "unitType": "technology"
-        },
-        {
-          "url": "https://roshd.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%B8%D8%A7%D8%B1%D8%AA-%D9%88-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%B1%D8%B4%D8%AF-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86-",
-          "kind": "unit",
-          "claim": "گروه کارآفرینی و رشد فناوری | آیین نامه نظارت و ارزیابی مرکز رشد فناوری دانشگاه اصفهان",
-          "id": "isfahan-discovery-unit-technology-72596e6dd215",
-          "unitType": "technology"
-        },
-        {
-          "url": "http://centlab.ui.ac.ir/",
-          "kind": "unit",
-          "claim": "سامانه جامع آزمايشگاه مرکزی دانشگاه اصفهان",
-          "id": "isfahan-discovery-unit-laboratory-e9a69207291e",
-          "unitType": "laboratory"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%82%D9%81%D8%B3%D9%87-%D8%AE%D9%88%D8%A7%D9%86%DB%8C%D8%8C-%D8%B4%D9%84%D9%81-%D8%AE%D9%88%D8%A7%D9%86%DB%8C-%D9%88-%D8%A8%D8%A7%D8%B1%DA%A9%D8%AF%D8%AE%D9%88%D8%A7%D9%86%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه قفسه خوانی، شلف خوانی و بارکدخوانی کتابخانه های دانشگاه اصفهان",
-          "id": "isfahan-discovery-unit-library-de563ddd72bf",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%81%D8%A7%D8%B8%D8%AA-%D9%88-%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B2-%D9%85%D9%86%D8%A7%D8%A8%D8%B9%D8%8C-%D8%AA%D8%AC%D9%87%DB%8C%D8%B2%D8%A7%D8%AA-%D9%88-%D9%81%D8%B6%D8%A7%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه حفاظت و نگهداری از منابع، تجهیزات و فضاهای کتابخانه های دانشگاه اصفهان",
-          "id": "isfahan-discovery-unit-library-fa0399139ef1",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF-%D8%A7%D8%B2-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه بازدید از کتابخانه های دانشگاه",
-          "id": "isfahan-discovery-unit-library-d15a22151cd3",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%DB%8C-(%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%AF%DB%8C%D8%AC%DB%8C%D8%AA%D8%A7%D9%84)-",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | پایگاههای اطلاعاتی (کتابخانه دیجیتال)",
-          "id": "isfahan-discovery-unit-library-aca33d5cd625",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88%D8%AC%DB%8C%D9%86-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-1404",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه وجین منابع در کتابخانه های دانشگاه اصفهان- 1404",
-          "id": "isfahan-discovery-unit-library-236244b4592e",
+          "claim": "کتابخانه مرکزی",
+          "id": "isfahan-discovery-unit-library-e20880efdc53",
           "unitType": "library"
         }
       ],
@@ -787,48 +627,13 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 28,
+      "sourceCount": 21,
       "sources": [
-        {
-          "url": "https://research.ui.ac.ir/",
-          "kind": "system",
-          "claim": "معاونت پژوهش و فناوری | آیین نامه های نشریات",
-          "id": "isfahan-discovery-system-b7d0597d9d68",
-          "systemCategory": "journals"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
-          "kind": "system",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | چگونگی بارگذاری پایان نامه در نرم افزار کتابخانه مرکزی دانشگاه اصفهان",
-          "id": "isfahan-discovery-system-15abcfbca16f",
-          "systemCategory": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%DA%86%DA%AF%D9%88%D9%86%DA%AF%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | چگونگی بارگذاری پایان نامه در نرم افزار کتابخانه مرکزی دانشگاه اصفهان",
-          "id": "isfahan-discovery-unit-library-15abcfbca16f",
-          "unitType": "library"
-        },
         {
           "url": "https://library.ui.ac.ir/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%A7%D9%87%D8%AF%D8%A7%DB%8C%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه پذیرش منابع اهدایی کتابخانه مرکزی و مرکز اسناد دانشگاه اصفهان- ۱۴۰۳",
-          "id": "isfahan-discovery-unit-library-8503b104c83d",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B9%D8%B6%D9%88%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه عضویت کتابخانه مرکزی و مرکز اسناد- ۱۴۰۳",
-          "id": "isfahan-discovery-unit-library-2d75e55debc5",
-          "unitType": "library"
         },
         {
           "url": "https://lib.ui.ac.ir/DL/Search/",
@@ -837,52 +642,16 @@
           "id": null
         },
         {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%82%D9%81%D8%B3%D9%87-%D8%AE%D9%88%D8%A7%D9%86%DB%8C%D8%8C-%D8%B4%D9%84%D9%81-%D8%AE%D9%88%D8%A7%D9%86%DB%8C-%D9%88-%D8%A8%D8%A7%D8%B1%DA%A9%D8%AF%D8%AE%D9%88%D8%A7%D9%86%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه قفسه خوانی، شلف خوانی و بارکدخوانی کتابخانه های دانشگاه اصفهان",
-          "id": "isfahan-discovery-unit-library-de563ddd72bf",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%81%D8%A7%D8%B8%D8%AA-%D9%88-%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B2-%D9%85%D9%86%D8%A7%D8%A8%D8%B9%D8%8C-%D8%AA%D8%AC%D9%87%DB%8C%D8%B2%D8%A7%D8%AA-%D9%88-%D9%81%D8%B6%D8%A7%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه حفاظت و نگهداری از منابع، تجهیزات و فضاهای کتابخانه های دانشگاه اصفهان",
-          "id": "isfahan-discovery-unit-library-fa0399139ef1",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF-%D8%A7%D8%B2-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه بازدید از کتابخانه های دانشگاه",
-          "id": "isfahan-discovery-unit-library-d15a22151cd3",
-          "unitType": "library"
-        },
-        {
           "url": "https://library.ui.ac.ir/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%DB%8C-(%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%AF%DB%8C%D8%AC%DB%8C%D8%AA%D8%A7%D9%84)-",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | پایگاههای اطلاعاتی (کتابخانه دیجیتال)",
-          "id": "isfahan-discovery-unit-library-aca33d5cd625",
-          "unitType": "library"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
         },
         {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88%D8%AC%DB%8C%D9%86-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-1404",
+          "url": "https://research.ui.ac.ir/",
           "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه وجین منابع در کتابخانه های دانشگاه اصفهان- 1404",
-          "id": "isfahan-discovery-unit-library-236244b4592e",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | خدمات پژوهشی و پایان نامه",
-          "id": "isfahan-discovery-unit-library-7704caf15255",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D9%84%DB%8C%D9%86%DA%A9",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آیین نامه ها و فرم ها",
-          "id": "isfahan-discovery-unit-library-73b64b23cffe",
+          "claim": "مدیریت کتابخانه‌ها و مرکز اسناد",
+          "id": "isfahan-1",
           "unitType": "library"
         },
         {
@@ -890,56 +659,25 @@
           "kind": "unit",
           "claim": "معاونت پژوهش و فناوری | اداره چاپ و انتشارات",
           "id": "isfahan-discovery-unit-library-2860c8353c66",
-          "unitType": "library"
+          "unitType": "publishing"
         },
         {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%AF%D8%B1%D8%B3-Email-%D8%AC%D9%87%D8%AA-%D8%A7%D8%B1%D8%B3%D8%A7%D9%84-pdf-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-thesisdl@res%C2%B7ui%C2%B7ac%C2%B7ir-",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | آدرس Email جهت ارسال pdf پایان نامه thesisdl@res.ui.ac.ir",
-          "id": "isfahan-discovery-unit-library-446eb532fd93",
-          "unitType": "library"
+          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/rotbeh.pdf",
+          "kind": "document",
+          "claim": "-شیوه نامه ارزیابی و رتبه بندی نشریات علمی مصوب کمیسیون نشریات کشور",
+          "id": "isfahan-discovery-document-00f3b767b21b"
         },
         {
-          "url": "https://library.ui.ac.ir/%D8%A7%D8%B9%D9%84%D8%A7%D9%85-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%DB%8C-%D8%B4%D8%A8%D8%A7-%D8%AC%D9%87%D8%AA-%D8%A8%D8%AE%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | اعلام شماره ی شبا جهت بخش پایان نامه ها",
-          "id": "isfahan-discovery-unit-library-c2d2ac1b990d",
-          "unitType": "library"
+          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/ui.pdf",
+          "kind": "document",
+          "claim": "-آیین نامه نشریات دانشگاه اصفهان",
+          "id": "isfahan-discovery-document-06fe7072e433"
         },
         {
-          "url": "https://library.ui.ac.ir/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%81%84-%D8%B1%D8%B3%D8%A7%D9%84%D9%87",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | شیوه نامه نگارش پایان نامه/ رساله",
-          "id": "isfahan-discovery-unit-library-f70c57b97845",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%AD%D9%88%D8%B2%D9%87-%D9%85%D9%88%D8%B6%D9%88%D8%B9%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D8%AB%D8%A8%D8%AA-%D8%AF%D8%B1-%D8%B5%D9%81%D8%AD%D9%87-%D8%AA%D8%B5%D9%88%DB%8C%D8%A8-%D9%86%D8%A7%D9%85%D9%87-%D9%84%D8%A7%D8%AA%DB%8C%D9%86",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | حوزه موضوعی پایان نامه ها جهت ثبت در صفحه تصویب نامه لاتین",
-          "id": "isfahan-discovery-unit-library-716b02d561e8",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%AA%D9%87%DB%8C%D9%87-%D8%B3%DB%8C-%D8%AF%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%81%84%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D9%88-%D8%AA%D8%AD%D9%88%DB%8C%D9%84-%D8%A8%D9%87-%D8%A8%D8%AE%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | تهیه سی دی پایان نامه/رساله و تحویل به بخش پایان نامه ها",
-          "id": "isfahan-discovery-unit-library-ae99900d72ab",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%D9%82%D8%A7%D9%84%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%85%D9%82%D8%B7%D8%B9-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | دریافت قالب پایان نامه مقطع دکتری",
-          "id": "isfahan-discovery-unit-library-4e191942eb01",
-          "unitType": "library"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%D9%82%D8%A7%D9%84%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%85%D9%82%D8%B7%D8%B9-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | دریافت قالب پایان نامه مقطع کارشناسی ارشد",
-          "id": "isfahan-discovery-unit-library-54edcb215c3d",
-          "unitType": "library"
+          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/aeennnameh1398.pdf",
+          "kind": "document",
+          "claim": "-آیین نامه نشریات علمی مصوب کمیسیون نشریات کشور اردیبهشت ۱۳۹۸",
+          "id": "isfahan-discovery-document-48090a1817e9"
         },
         {
           "url": "https://library.ui.ac.ir/DorsaPax/userfiles/Sub64/rahpayan.pdf",
@@ -954,28 +692,80 @@
           "id": "isfahan-discovery-document-d76d42b5a555"
         },
         {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/aeennnameh1398.pdf",
-          "kind": "document",
-          "claim": "-آیین نامه نشریات علمی مصوب کمیسیون نشریات کشور اردیبهشت ۱۳۹۸",
-          "id": "isfahan-discovery-document-48090a1817e9"
-        },
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/rotbeh.pdf",
-          "kind": "document",
-          "claim": "-شیوه نامه ارزیابی و رتبه بندی نشریات علمی مصوب کمیسیون نشریات کشور",
-          "id": "isfahan-discovery-document-00f3b767b21b"
-        },
-        {
           "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/dastresebaz.pdf",
           "kind": "document",
           "claim": "-آیین نامه تعیین هزینه پردازش مقاله در نشریات علمی، دسترسی باز",
           "id": "isfahan-discovery-document-eca5a46086fa"
         },
         {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/ui.pdf",
-          "kind": "document",
-          "claim": "-آیین نامه نشریات دانشگاه اصفهان",
-          "id": "isfahan-discovery-document-06fe7072e433"
+          "url": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://library.ui.ac.ir/%DA%86%DA%AF%D9%88%D9%86%DA%AF%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
+        },
+        {
+          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%A7%D9%87%D8%AF%D8%A7%DB%8C%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
+        },
+        {
+          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B9%D8%B6%D9%88%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
+        },
+        {
+          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%82%D9%81%D8%B3%D9%87-%D8%AE%D9%88%D8%A7%D9%86%DB%8C%D8%8C-%D8%B4%D9%84%D9%81-%D8%AE%D9%88%D8%A7%D9%86%DB%8C-%D9%88-%D8%A8%D8%A7%D8%B1%DA%A9%D8%AF%D8%AE%D9%88%D8%A7%D9%86%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
+        },
+        {
+          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%81%D8%A7%D8%B8%D8%AA-%D9%88-%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B2-%D9%85%D9%86%D8%A7%D8%A8%D8%B9%D8%8C-%D8%AA%D8%AC%D9%87%DB%8C%D8%B2%D8%A7%D8%AA-%D9%88-%D9%81%D8%B6%D8%A7%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
+        },
+        {
+          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF-%D8%A7%D8%B2-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
+        },
+        {
+          "url": "https://library.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D9%84%DB%8C%D9%86%DA%A9",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88%D8%AC%DB%8C%D9%86-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-1404",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
+        },
+        {
+          "url": "https://library.ui.ac.ir/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -993,20 +783,13 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 2,
+      "sourceCount": 1,
       "sources": [
         {
-          "url": "https://research.ui.ac.ir/",
+          "url": "http://centlab.ui.ac.ir/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific laboratories source",
           "id": null
-        },
-        {
-          "url": "http://centlab.ui.ac.ir/",
-          "kind": "unit",
-          "claim": "سامانه جامع آزمايشگاه مرکزی دانشگاه اصفهان",
-          "id": "isfahan-discovery-unit-laboratory-e9a69207291e",
-          "unitType": "laboratory"
         }
       ],
       "publicationAdjustment": null,
@@ -1024,14 +807,8 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 5,
+      "sourceCount": 2,
       "sources": [
-        {
-          "url": "https://research.ui.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
         {
           "url": "https://iro.ui.ac.ir/",
           "kind": "portal-document-reaudit",
@@ -1039,25 +816,10 @@
           "id": null
         },
         {
-          "url": "https://iro.ui.ac.ir/-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-_-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81",
-          "kind": "unit",
-          "claim": "مدیریت ارتباط با جامعه و صنعت | شیوه نامه فرصت مطالعاتی اعضای هیات علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت _ وزارت عتف",
-          "id": "isfahan-discovery-unit-industry-1185dbf1cf5f",
-          "unitType": "industry"
-        },
-        {
-          "url": "https://roshd.ui.ac.ir/",
-          "kind": "unit",
-          "claim": "گروه کارآفرینی و رشد فناوری | خانه",
-          "id": "isfahan-discovery-unit-technology-5c77c8bea3d9",
-          "unitType": "technology"
-        },
-        {
-          "url": "https://roshd.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%B8%D8%A7%D8%B1%D8%AA-%D9%88-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%B1%D8%B4%D8%AF-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86-",
-          "kind": "unit",
-          "claim": "گروه کارآفرینی و رشد فناوری | آیین نامه نظارت و ارزیابی مرکز رشد فناوری دانشگاه اصفهان",
-          "id": "isfahan-discovery-unit-technology-72596e6dd215",
-          "unitType": "technology"
+          "url": "https://iro.ui.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-1",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -1075,41 +837,8 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 12,
+      "sourceCount": 7,
       "sources": [
-        {
-          "url": "https://research.ui.ac.ir/",
-          "kind": "system",
-          "claim": "معاونت پژوهش و فناوری | آیین نامه های نشریات",
-          "id": "isfahan-discovery-system-b7d0597d9d68",
-          "systemCategory": "journals"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%DA%86%DA%AF%D9%88%D9%86%DA%AF%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://www.ui.ac.ir/",
-          "kind": "system",
-          "claim": "معاونت پژوهش و فناوری | مرکز پژوهشی پردازش و سامانه های هوشمند",
-          "id": "isfahan-discovery-system-b46bab23ce5a",
-          "systemCategory": "research"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
-          "kind": "system",
-          "claim": "کتابخانه مرکزی دانشگاه اصفهان | چگونگی بارگذاری پایان نامه در نرم افزار کتابخانه مرکزی دانشگاه اصفهان",
-          "id": "isfahan-discovery-system-15abcfbca16f",
-          "systemCategory": "library"
-        },
         {
           "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/aeennnameh1398.pdf",
           "kind": "research-review-specific",
@@ -1175,8 +904,14 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 37,
+      "sourceCount": 41,
       "sources": [
+        {
+          "url": "https://research.ui.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
         {
           "url": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
           "kind": "portal-document-reaudit",
@@ -1184,25 +919,7 @@
           "id": null
         },
         {
-          "url": "https://iro.ui.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-1",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://iro.ui.ac.ir/-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-_-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D9%84%DB%8C%D9%86%DA%A9",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://iro.ui.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
+          "url": "https://library.ui.ac.ir/%DA%86%DA%AF%D9%88%D9%86%DA%AF%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -1215,6 +932,48 @@
         },
         {
           "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B9%D8%B6%D9%88%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%82%D9%81%D8%B3%D9%87-%D8%AE%D9%88%D8%A7%D9%86%DB%8C%D8%8C-%D8%B4%D9%84%D9%81-%D8%AE%D9%88%D8%A7%D9%86%DB%8C-%D9%88-%D8%A8%D8%A7%D8%B1%DA%A9%D8%AF%D8%AE%D9%88%D8%A7%D9%86%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%81%D8%A7%D8%B8%D8%AA-%D9%88-%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B2-%D9%85%D9%86%D8%A7%D8%A8%D8%B9%D8%8C-%D8%AA%D8%AC%D9%87%DB%8C%D8%B2%D8%A7%D8%AA-%D9%88-%D9%81%D8%B6%D8%A7%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF-%D8%A7%D8%B2-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88%D8%AC%DB%8C%D9%86-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-1404",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://library.ui.ac.ir/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://iro.ui.ac.ir/-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-_-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://iro.ui.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -1310,28 +1069,10 @@
           "id": null
         },
         {
-          "url": "http://inexam.ir/",
-          "kind": "portal-document-reaudit-document",
-          "claim": "سامانه ارزیابی علمی و امتیازدهی اختراع",
-          "id": null
-        },
-        {
-          "url": "https://ketab.ir/",
-          "kind": "portal-document-reaudit-document",
-          "claim": "خانه کتاب و ادبیات ایران",
-          "id": null
-        },
-        {
-          "url": "https://research.ui.ac.ir/",
+          "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/PDF.js%20viewer.pdf",
           "kind": "document",
-          "claim": "آیین‌نامه تمدید استقرار شرکت‌های دانش‌بنیان",
-          "id": "isfahan-doc-1"
-        },
-        {
-          "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D9%82%D8%A7%D9%84%D8%A8%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C(5).docx",
-          "kind": "document",
-          "claim": "دریافت قالب پایان نامه مقطع دکتری",
-          "id": "isfahan-discovery-document-da1ee110b5fa"
+          "claim": "PDF.js viewer",
+          "id": "isfahan-discovery-document-0609d187b630"
         },
         {
           "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D9%82%D8%A7%D9%84%D8%A8%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C%20%D8%A7%D8%B1%D8%B4%D8%AF(1).docx",
@@ -1340,16 +1081,10 @@
           "id": "isfahan-discovery-document-0bc2fe0205ba"
         },
         {
-          "url": "https://iro.ui.ac.ir/uploads/125/2025/Mar/03/%D9%81%D8%B1%D9%85%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%B5%D9%86%D8%B9%D8%AA%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.docx",
+          "url": "https://roshd.ui.ac.ir/uploads/121/2025/Feb/17/%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D9%85%D8%AF%DB%8C%D8%AF%20%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1%20%D8%B4%D8%B1%DA%A9%D8%AA_%D9%87%D8%A7%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4_%D8%A8%D9%86%DB%8C%D8%A7%D9%86%20%D9%88%20%D8%AE%D9%84%D8%A7%D9%82%20%D8%AF%D8%B1%20%D9%85%D8%B1%DA%A9%D8%B2%20%D8%B1%D8%B4%D8%AF%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.pdf",
           "kind": "document",
-          "claim": "فرم فرصت مطالعاتی صنعتی اعضای هیات علمی",
-          "id": "isfahan-discovery-document-b446d04d52b2"
-        },
-        {
-          "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%DA%AF%D8%A7%D8%B1%D8%B4%20%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4%20%D8%B4%D8%AF%D9%87%20%D8%AF%DB%8C%20%D9%85%D8%A7%D9%87%201403docx.pdf",
-          "kind": "document",
-          "claim": "شیوه نگارش ویرایش شده دی ماه 1403docx",
-          "id": "isfahan-discovery-document-9392d0f9cfef"
+          "claim": "آئین نامه تمدید استقرار شرکت_های دانش_بنیان و خلاق در مرکز رشد دانشگاه اصفهان",
+          "id": "isfahan-discovery-document-1f50dc53fea2"
         },
         {
           "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/hm.pdf",
@@ -1358,16 +1093,28 @@
           "id": "isfahan-discovery-document-4087ba806d1d"
         },
         {
+          "url": "https://iro.ui.ac.ir/uploads/125/2025/Oct/18/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20-%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D8%AA%D9%81_1.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی - وزارت عتف_1",
+          "id": "isfahan-discovery-document-6d2f7d43e024"
+        },
+        {
           "url": "https://library.ui.ac.ir/uploads/117/2026/Jul/28/%D9%85%D9%88%D8%A7%D8%B1%D8%AF%20%D9%82%D8%A7%D8%A8%D9%84%20%D8%AA%D9%88%D8%AC%D9%87%20%D8%AF%D8%B1%20%D8%AA%D9%87%DB%8C%D9%87%20%D8%B3%DB%8C%20%D8%AF%DB%8C_2.pdf",
           "kind": "document",
           "claim": "موارد قابل توجه در تهیه CD",
           "id": "isfahan-discovery-document-84a9a106551d"
         },
         {
-          "url": "https://iro.ui.ac.ir/uploads/125/2025/Oct/18/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20-%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D8%AA%D9%81_1.pdf",
+          "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%DA%AF%D8%A7%D8%B1%D8%B4%20%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4%20%D8%B4%D8%AF%D9%87%20%D8%AF%DB%8C%20%D9%85%D8%A7%D9%87%201403docx.pdf",
           "kind": "document",
-          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی - وزارت عتف_1",
-          "id": "isfahan-discovery-document-6d2f7d43e024"
+          "claim": "شیوه نگارش ویرایش شده دی ماه 1403docx",
+          "id": "isfahan-discovery-document-9392d0f9cfef"
+        },
+        {
+          "url": "https://iro.ui.ac.ir/uploads/125/2025/Mar/03/%D9%81%D8%B1%D9%85%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%B5%D9%86%D8%B9%D8%AA%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.docx",
+          "kind": "document",
+          "claim": "فرم فرصت مطالعاتی صنعتی اعضای هیات علمی",
+          "id": "isfahan-discovery-document-b446d04d52b2"
         },
         {
           "url": "https://iro.ui.ac.ir/uploads/125/2025/Mar/03/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%B5%D9%86%D8%B9%D8%AA%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.pdf",
@@ -1376,16 +1123,10 @@
           "id": "isfahan-discovery-document-d251e1263345"
         },
         {
-          "url": "https://roshd.ui.ac.ir/uploads/121/2025/Feb/17/%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D9%85%D8%AF%DB%8C%D8%AF%20%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1%20%D8%B4%D8%B1%DA%A9%D8%AA_%D9%87%D8%A7%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4_%D8%A8%D9%86%DB%8C%D8%A7%D9%86%20%D9%88%20%D8%AE%D9%84%D8%A7%D9%82%20%D8%AF%D8%B1%20%D9%85%D8%B1%DA%A9%D8%B2%20%D8%B1%D8%B4%D8%AF%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.pdf",
+          "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D9%82%D8%A7%D9%84%D8%A8%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C(5).docx",
           "kind": "document",
-          "claim": "آئین نامه تمدید استقرار شرکت_های دانش_بنیان و خلاق در مرکز رشد دانشگاه اصفهان",
-          "id": "isfahan-discovery-document-1f50dc53fea2"
-        },
-        {
-          "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/PDF.js%20viewer.pdf",
-          "kind": "document",
-          "claim": "PDF.js viewer",
-          "id": "isfahan-discovery-document-0609d187b630"
+          "claim": "دریافت قالب پایان نامه مقطع دکتری",
+          "id": "isfahan-discovery-document-da1ee110b5fa"
         },
         {
           "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/aienname1403.pdf",
@@ -1398,6 +1139,20 @@
           "kind": "document",
           "claim": "یین نامه نظارت و ارزیابی مرکز رشد فناوری دانشگاه اصفهان",
           "id": "isfahan-discovery-document-f807b86a82fe"
+        },
+        {
+          "url": "https://iro.ui.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-1",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://library.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D9%84%DB%8C%D9%86%DA%A9",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -1405,34 +1160,7 @@
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
-  "ranking": {
-    "universitySlug": "isfahan",
-    "nameFa": "دانشگاه اصفهان",
-    "iscCategory": "جامع",
-    "iscRank": 7,
-    "score": 87.5,
-    "confidence": 100,
-    "metrics": {
-      "documents": 91,
-      "organization": 81.7,
-      "library": 100,
-      "laboratories": 70,
-      "systems": 81.5,
-      "industryTech": 100,
-      "dataQuality": 100,
-      "findability": 73.5
-    },
-    "units": 27,
-    "systems": 13,
-    "documents": 29,
-    "activeWeight": 100,
-    "evidenceCoverage": 100,
-    "methodologyVersion": "RTPMI-4.2-ISC",
-    "snapshotDate": "2026-08-12",
-    "rank": 5,
-    "portalRankWithinISCClass": 5,
-    "rankedPortalsInISCClass": 50
-  },
+  "ranking": null,
   "units": [
     {
       "id": "isfahan-1",
@@ -1442,73 +1170,16 @@
       "url": null,
       "sourceUrl": "https://research.ui.ac.ir/",
       "evidence": "verified",
-      "lastVerified": "2026-08-10"
-    },
-    {
-      "id": "isfahan-discovery-unit-library-38e57f9ec4e7",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | آیین نامه ها و فرم ها",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-unit-library-15abcfbca16f",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | چگونگی بارگذاری پایان نامه در نرم افزار کتابخانه مرکزی دانشگاه اصفهان",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://library.ui.ac.ir/%DA%86%DA%AF%D9%88%D9%86%DA%AF%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-unit-library-e20880efdc53",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | خانه",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://library.ui.ac.ir/",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-unit-library-8503b104c83d",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه پذیرش منابع اهدایی کتابخانه مرکزی و مرکز اسناد دانشگاه اصفهان- ۱۴۰۳",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%A7%D9%87%D8%AF%D8%A7%DB%8C%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-unit-library-2d75e55debc5",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه عضویت کتابخانه مرکزی و مرکز اسناد- ۱۴۰۳",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B9%D8%B6%D9%88%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-unit-library-9dfd1100b9a3",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه دانشگاه اصفهان ، کتابخانه 2.0 ثنا",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://lib.ui.ac.ir/DL/Search/",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
+      "lastVerified": "2026-08-10",
+      "entityType": "unit",
+      "dimension": "libraryDocuments",
+      "relation": "organizational-unit",
+      "cleaningReason": "organizational-unit-identity-proven",
+      "primaryDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://research.ui.ac.ir/"
+      ],
+      "alternateUrls": []
     },
     {
       "id": "isfahan-discovery-unit-industry-30b0380d5910",
@@ -1519,481 +1190,66 @@
       "lastVerified": "2026-08-11",
       "sourceUrl": "https://iro.ui.ac.ir/",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
+      "discoveryConfidence": 0.99,
+      "entityType": "unit",
+      "dimension": "industryTechnology",
+      "relation": "organizational-unit",
+      "cleaningReason": "organizational-unit-identity-proven",
+      "primaryDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://iro.ui.ac.ir/"
+      ],
+      "alternateUrls": []
     },
     {
       "id": "isfahan-discovery-unit-library-2860c8353c66",
       "universitySlug": "isfahan",
       "nameFa": "معاونت پژوهش و فناوری | اداره چاپ و انتشارات",
-      "type": "library",
+      "type": "publishing",
       "evidence": "verified",
       "lastVerified": "2026-08-11",
       "sourceUrl": "https://research.ui.ac.ir/-%D8%A7%D8%AF%D8%A7%D8%B1%D9%87-%DA%86%D8%A7%D9%BE-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
+      "discoveryConfidence": 0.99,
+      "entityType": "unit",
+      "dimension": "organization",
+      "relation": "organizational-unit",
+      "cleaningReason": "organizational-unit-identity-proven",
+      "primaryDimension": "organization",
+      "evidenceUrls": [
+        "https://research.ui.ac.ir/-%D8%A7%D8%AF%D8%A7%D8%B1%D9%87-%DA%86%D8%A7%D9%BE-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA"
+      ],
+      "alternateUrls": []
     },
     {
-      "id": "isfahan-discovery-unit-library-73b64b23cffe",
+      "id": "isfahan-discovery-unit-library-e20880efdc53",
       "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | آیین نامه ها و فرم ها",
+      "nameFa": "کتابخانه مرکزی",
       "type": "library",
       "evidence": "verified",
       "lastVerified": "2026-08-11",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D9%84%DB%8C%D9%86%DA%A9",
+      "sourceUrl": "https://library.ui.ac.ir/",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9747368421052631
-    },
-    {
-      "id": "isfahan-discovery-unit-library-7704caf15255",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | خدمات پژوهشی و پایان نامه",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9747368421052631
-    },
-    {
-      "id": "isfahan-discovery-unit-library-446eb532fd93",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | آدرس Email جهت ارسال pdf پایان نامه thesisdl@res.ui.ac.ir",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%A2%D8%AF%D8%B1%D8%B3-Email-%D8%AC%D9%87%D8%AA-%D8%A7%D8%B1%D8%B3%D8%A7%D9%84-pdf-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-thesisdl@res%C2%B7ui%C2%B7ac%C2%B7ir-",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9747368421052631
-    },
-    {
-      "id": "isfahan-discovery-unit-library-c2d2ac1b990d",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | اعلام شماره ی شبا جهت بخش پایان نامه ها",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%A7%D8%B9%D9%84%D8%A7%D9%85-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%DB%8C-%D8%B4%D8%A8%D8%A7-%D8%AC%D9%87%D8%AA-%D8%A8%D8%AE%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9747368421052631
-    },
-    {
-      "id": "isfahan-discovery-unit-library-f70c57b97845",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | شیوه نامه نگارش پایان نامه/ رساله",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%81%84-%D8%B1%D8%B3%D8%A7%D9%84%D9%87",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9747368421052631
-    },
-    {
-      "id": "isfahan-discovery-unit-library-716b02d561e8",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | حوزه موضوعی پایان نامه ها جهت ثبت در صفحه تصویب نامه لاتین",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%AD%D9%88%D8%B2%D9%87-%D9%85%D9%88%D8%B6%D9%88%D8%B9%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D8%AB%D8%A8%D8%AA-%D8%AF%D8%B1-%D8%B5%D9%81%D8%AD%D9%87-%D8%AA%D8%B5%D9%88%DB%8C%D8%A8-%D9%86%D8%A7%D9%85%D9%87-%D9%84%D8%A7%D8%AA%DB%8C%D9%86",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9747368421052631
-    },
-    {
-      "id": "isfahan-discovery-unit-library-ae99900d72ab",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | تهیه سی دی پایان نامه/رساله و تحویل به بخش پایان نامه ها",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%AA%D9%87%DB%8C%D9%87-%D8%B3%DB%8C-%D8%AF%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%81%84%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D9%88-%D8%AA%D8%AD%D9%88%DB%8C%D9%84-%D8%A8%D9%87-%D8%A8%D8%AE%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9747368421052631
-    },
-    {
-      "id": "isfahan-discovery-unit-library-4e191942eb01",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | دریافت قالب پایان نامه مقطع دکتری",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%D9%82%D8%A7%D9%84%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%85%D9%82%D8%B7%D8%B9-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9747368421052631
-    },
-    {
-      "id": "isfahan-discovery-unit-library-54edcb215c3d",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | دریافت قالب پایان نامه مقطع کارشناسی ارشد",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%D9%82%D8%A7%D9%84%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%85%D9%82%D8%B7%D8%B9-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9747368421052631
-    },
-    {
-      "id": "isfahan-discovery-unit-industry-1185dbf1cf5f",
-      "universitySlug": "isfahan",
-      "nameFa": "مدیریت ارتباط با جامعه و صنعت | شیوه نامه فرصت مطالعاتی اعضای هیات علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت _ وزارت عتف",
-      "type": "industry",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://iro.ui.ac.ir/-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-_-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8957894736842105
-    },
-    {
-      "id": "isfahan-discovery-unit-technology-5c77c8bea3d9",
-      "universitySlug": "isfahan",
-      "nameFa": "گروه کارآفرینی و رشد فناوری | خانه",
-      "type": "technology",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://roshd.ui.ac.ir/",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8957894736842105
-    },
-    {
-      "id": "isfahan-discovery-unit-technology-72596e6dd215",
-      "universitySlug": "isfahan",
-      "nameFa": "گروه کارآفرینی و رشد فناوری | آیین نامه نظارت و ارزیابی مرکز رشد فناوری دانشگاه اصفهان",
-      "type": "technology",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://roshd.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%B8%D8%A7%D8%B1%D8%AA-%D9%88-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%B1%D8%B4%D8%AF-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86-",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-unit-laboratory-e9a69207291e",
-      "universitySlug": "isfahan",
-      "nameFa": "سامانه جامع آزمايشگاه مرکزی دانشگاه اصفهان",
-      "type": "laboratory",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "http://centlab.ui.ac.ir/",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-unit-library-de563ddd72bf",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه قفسه خوانی، شلف خوانی و بارکدخوانی کتابخانه های دانشگاه اصفهان",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%82%D9%81%D8%B3%D9%87-%D8%AE%D9%88%D8%A7%D9%86%DB%8C%D8%8C-%D8%B4%D9%84%D9%81-%D8%AE%D9%88%D8%A7%D9%86%DB%8C-%D9%88-%D8%A8%D8%A7%D8%B1%DA%A9%D8%AF%D8%AE%D9%88%D8%A7%D9%86%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-unit-library-fa0399139ef1",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه حفاظت و نگهداری از منابع، تجهیزات و فضاهای کتابخانه های دانشگاه اصفهان",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%81%D8%A7%D8%B8%D8%AA-%D9%88-%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B2-%D9%85%D9%86%D8%A7%D8%A8%D8%B9%D8%8C-%D8%AA%D8%AC%D9%87%DB%8C%D8%B2%D8%A7%D8%AA-%D9%88-%D9%81%D8%B6%D8%A7%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-unit-library-d15a22151cd3",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه بازدید از کتابخانه های دانشگاه",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF-%D8%A7%D8%B2-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-unit-library-aca33d5cd625",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | پایگاههای اطلاعاتی (کتابخانه دیجیتال)",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://library.ui.ac.ir/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%DB%8C-(%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%AF%DB%8C%D8%AC%DB%8C%D8%AA%D8%A7%D9%84)-",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-unit-library-236244b4592e",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | آئین نامه وجین منابع در کتابخانه های دانشگاه اصفهان- 1404",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88%D8%AC%DB%8C%D9%86-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-1404",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
+      "discoveryConfidence": 0.99,
+      "entityType": "unit",
+      "dimension": "libraryDocuments",
+      "relation": "organizational-unit",
+      "cleaningReason": "organizational-unit-identity-proven",
+      "primaryDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://library.ui.ac.ir/"
+      ],
+      "alternateUrls": []
     }
   ],
-  "systems": [
-    {
-      "id": "isfahan-central-lab-system",
-      "universitySlug": "isfahan",
-      "nameFa": "پرتال کارآفرینی و رشد فناوری",
-      "category": "innovation",
-      "url": null,
-      "sourceUrl": "https://research.ui.ac.ir/",
-      "relation": "unit-service",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10"
-    },
-    {
-      "id": "isfahan-discovery-system-b46bab23ce5a",
-      "universitySlug": "isfahan",
-      "nameFa": "معاونت پژوهش و فناوری | مرکز پژوهشی پردازش و سامانه های هوشمند",
-      "category": "research",
-      "url": "https://research.ui.ac.ir/%D9%85%D8%B1%DA%A9%D8%B2-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4-%D9%88-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D9%87%D9%88%D8%B4%D9%85%D9%86%D8%AF",
-      "sourceUrl": "https://www.ui.ac.ir/",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-system-7704caf15255",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | خدمات پژوهشی و پایان نامه",
-      "category": "library",
-      "url": "https://library.ui.ac.ir/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87",
-      "sourceUrl": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-system-15abcfbca16f",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | چگونگی بارگذاری پایان نامه در نرم افزار کتابخانه مرکزی دانشگاه اصفهان",
-      "category": "library",
-      "url": "https://library.ui.ac.ir/%DA%86%DA%AF%D9%88%D9%86%DA%AF%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-      "sourceUrl": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-system-446eb532fd93",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | آدرس Email جهت ارسال pdf پایان نامه thesisdl@res.ui.ac.ir",
-      "category": "library",
-      "url": "https://library.ui.ac.ir/%D8%A2%D8%AF%D8%B1%D8%B3-Email-%D8%AC%D9%87%D8%AA-%D8%A7%D8%B1%D8%B3%D8%A7%D9%84-pdf-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-thesisdl@res%C2%B7ui%C2%B7ac%C2%B7ir-",
-      "sourceUrl": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-system-c2d2ac1b990d",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | اعلام شماره ی شبا جهت بخش پایان نامه ها",
-      "category": "library",
-      "url": "https://library.ui.ac.ir/%D8%A7%D8%B9%D9%84%D8%A7%D9%85-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%DB%8C-%D8%B4%D8%A8%D8%A7-%D8%AC%D9%87%D8%AA-%D8%A8%D8%AE%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-      "sourceUrl": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-system-f70c57b97845",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | شیوه نامه نگارش پایان نامه/ رساله",
-      "category": "library",
-      "url": "https://library.ui.ac.ir/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%81%84-%D8%B1%D8%B3%D8%A7%D9%84%D9%87",
-      "sourceUrl": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-system-716b02d561e8",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | حوزه موضوعی پایان نامه ها جهت ثبت در صفحه تصویب نامه لاتین",
-      "category": "library",
-      "url": "https://library.ui.ac.ir/%D8%AD%D9%88%D8%B2%D9%87-%D9%85%D9%88%D8%B6%D9%88%D8%B9%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D8%AB%D8%A8%D8%AA-%D8%AF%D8%B1-%D8%B5%D9%81%D8%AD%D9%87-%D8%AA%D8%B5%D9%88%DB%8C%D8%A8-%D9%86%D8%A7%D9%85%D9%87-%D9%84%D8%A7%D8%AA%DB%8C%D9%86",
-      "sourceUrl": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-system-ae99900d72ab",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | تهیه سی دی پایان نامه/رساله و تحویل به بخش پایان نامه ها",
-      "category": "library",
-      "url": "https://library.ui.ac.ir/%D8%AA%D9%87%DB%8C%D9%87-%D8%B3%DB%8C-%D8%AF%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%81%84%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D9%88-%D8%AA%D8%AD%D9%88%DB%8C%D9%84-%D8%A8%D9%87-%D8%A8%D8%AE%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-      "sourceUrl": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-system-4e191942eb01",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | دریافت قالب پایان نامه مقطع دکتری",
-      "category": "library",
-      "url": "https://library.ui.ac.ir/%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%D9%82%D8%A7%D9%84%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%85%D9%82%D8%B7%D8%B9-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C",
-      "sourceUrl": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-system-54edcb215c3d",
-      "universitySlug": "isfahan",
-      "nameFa": "کتابخانه مرکزی دانشگاه اصفهان | دریافت قالب پایان نامه مقطع کارشناسی ارشد",
-      "category": "library",
-      "url": "https://library.ui.ac.ir/%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%D9%82%D8%A7%D9%84%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%85%D9%82%D8%B7%D8%B9-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF",
-      "sourceUrl": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-system-b7d0597d9d68",
-      "universitySlug": "isfahan",
-      "nameFa": "معاونت پژوهش و فناوری | آیین نامه های نشریات",
-      "category": "journals",
-      "url": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
-      "sourceUrl": "https://research.ui.ac.ir/",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9484210526315788
-    },
-    {
-      "id": "isfahan-discovery-system-fff0cb2fbba0",
-      "universitySlug": "isfahan",
-      "nameFa": "معاونت پژوهش و فناوری | مشابهت یاب",
-      "category": "research",
-      "url": "https://research.ui.ac.ir/%D9%85%D8%B4%D8%A7%D8%A8%D9%87%D8%AA-%DB%8C%D8%A7%D8%A8",
-      "sourceUrl": "https://research.ui.ac.ir/",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.7905263157894736
-    }
-  ],
+  "systems": [],
   "documents": [
-    {
-      "id": "isfahan-doc-1",
-      "universitySlug": "isfahan",
-      "title": "آیین‌نامه تمدید استقرار شرکت‌های دانش‌بنیان",
-      "type": "آیین‌نامه",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.ui.ac.ir/",
-      "topic": "سایر",
-      "url": "https://research.ui.ac.ir/"
-    },
-    {
-      "id": "isfahan-discovery-document-4de982d393f6",
-      "universitySlug": "isfahan",
-      "title": "جهت مشاهده فایل راهنما بصورت pdf برای آگاهی از چگونگی بارگذاری پایان نامه در سامانه کتابخانه مرکزی دانشگاه اصفهان کلیک نمایید .",
-      "type": "سند",
-      "topic": "تحصیلات تکمیلی و امور پژوهشی",
-      "taxonomy": "postgraduate/research affairs",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-13",
-      "url": "https://library.ui.ac.ir/DorsaPax/userfiles/Sub64/rahpayan.pdf",
-      "sourceUrl": "https://library.ui.ac.ir/DorsaPax/userfiles/Sub64/rahpayan.pdf",
-      "parentUrl": "https://library.ui.ac.ir/%DA%86%DA%AF%D9%88%D9%86%DA%AF%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-      "fileName": "rahpayan.pdf",
-      "contentType": "text/html; charset=utf-8",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-document-d76d42b5a555",
-      "universitySlug": "isfahan",
-      "title": "-آیین نامه اجرایی نشر کتاب در انتشارات دانشگاه اصفهان",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-13",
-      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/nashr_2.pdf",
-      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/nashr_2.pdf",
-      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
-      "fileName": "nashr_2.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 1124373,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-document-8fe6e348205e",
-      "universitySlug": "isfahan",
-      "title": "-شیوه نامه تألیف و چاپ کتاب فاخر اعضای هیأت علمی دانشگاه اصفهان (سفارش کتاب)",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-13",
-      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/fakhar.pdf",
-      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/fakhar.pdf",
-      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
-      "fileName": "fakhar.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 1004754,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-document-48090a1817e9",
-      "universitySlug": "isfahan",
-      "title": "-آیین نامه نشریات علمی مصوب کمیسیون نشریات کشور اردیبهشت ۱۳۹۸",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-13",
-      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/aeennnameh1398.pdf",
-      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/aeennnameh1398.pdf",
-      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
-      "fileName": "aeennnameh1398.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 2088749,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
     {
       "id": "isfahan-discovery-document-00f3b767b21b",
       "universitySlug": "isfahan",
       "title": "-شیوه نامه ارزیابی و رتبه بندی نشریات علمی مصوب کمیسیون نشریات کشور",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
+      "type": "آیین‌نامه",
+      "topic": "انتشارات و نشریات",
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
@@ -2005,33 +1261,56 @@
       "contentType": "application/pdf",
       "fileSize": 2321084,
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://research.ui.ac.ir/uploads/88/2024/Dec/10/rotbeh.pdf",
+        "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA"
+      ],
+      "alternateUrls": []
     },
     {
-      "id": "isfahan-discovery-document-eca5a46086fa",
+      "id": "isfahan-discovery-document-0609d187b630",
       "universitySlug": "isfahan",
-      "title": "-آیین نامه تعیین هزینه پردازش مقاله در نشریات علمی، دسترسی باز",
+      "title": "PDF.js viewer",
       "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
+      "topic": "کتابخانه و منابع علمی",
+      "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-13",
-      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/dastresebaz.pdf",
-      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/dastresebaz.pdf",
-      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
-      "fileName": "dastresebaz.pdf",
+      "lastVerified": "2026-08-12",
+      "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/PDF.js%20viewer.pdf",
+      "sourceUrl": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/PDF.js%20viewer.pdf",
+      "parentUrl": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%A7%D9%87%D8%AF%D8%A7%DB%8C%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
+      "sha256": "c154297dca907cda2d0181c040e1913ad370f4a935db1684dd2c05d571747b6e",
+      "fileName": "PDF.js viewer.pdf",
       "contentType": "application/pdf",
-      "fileSize": 978127,
+      "fileSize": 104571,
+      "archivePath": "isfahan/5300b9cb5f57-PDF.js viewer.pdf",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
+      "discoveryConfidence": 0.9400000000000001,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://library.ui.ac.ir/uploads/117/2025/Feb/05/PDF.js%20viewer.pdf",
+        "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%A7%D9%87%D8%AF%D8%A7%DB%8C%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3"
+      ],
+      "alternateUrls": []
     },
     {
       "id": "isfahan-discovery-document-06fe7072e433",
       "universitySlug": "isfahan",
       "title": "-آیین نامه نشریات دانشگاه اصفهان",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
+      "type": "آیین‌نامه",
+      "topic": "انتشارات و نشریات",
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
@@ -2043,73 +1322,24 @@
       "contentType": "application/pdf",
       "fileSize": 499305,
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-document-f16eee06ff31",
-      "universitySlug": "isfahan",
-      "title": "-شیوه نامه استناددهی استانداردAPA (نسخه هفتم)",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-13",
-      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/APA_1.pdf",
-      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/APA_1.pdf",
-      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
-      "fileName": "APA_1.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 1036480,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-document-47fde4c78b22",
-      "universitySlug": "isfahan",
-      "title": "-شیوه نامه بوک مارک BOOK MARK مقالات",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-13",
-      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/bookmark.pdf",
-      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/bookmark.pdf",
-      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
-      "fileName": "bookmark.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 1629170,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-document-da1ee110b5fa",
-      "universitySlug": "isfahan",
-      "title": "دریافت قالب پایان نامه مقطع دکتری",
-      "type": "سند",
-      "topic": "تحصیلات تکمیلی و امور پژوهشی",
-      "taxonomy": "postgraduate/research affairs",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D9%82%D8%A7%D9%84%D8%A8%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C(5).docx",
-      "sourceUrl": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D9%82%D8%A7%D9%84%D8%A8%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C(5).docx",
-      "parentUrl": "https://library.ui.ac.ir/%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%D9%82%D8%A7%D9%84%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%85%D9%82%D8%B7%D8%B9-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C",
-      "sha256": "6a597d8454a832be588a9210ecccdb3d6e1ffe31906f1ce750b7add01b6223bc",
-      "fileName": "قالب رساله دکتری(5).docx",
-      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "fileSize": 3852419,
-      "archivePath": "isfahan/1366168d0d9c-قالب رساله دکتری(5).docx",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://research.ui.ac.ir/uploads/88/2024/Dec/10/ui.pdf",
+        "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA"
+      ],
+      "alternateUrls": []
     },
     {
       "id": "isfahan-discovery-document-0bc2fe0205ba",
       "universitySlug": "isfahan",
       "title": "دریافت قالب پایان نامه مقطع کارشناسی ارشد",
       "type": "سند",
-      "topic": "تحصیلات تکمیلی و امور پژوهشی",
+      "topic": "پایان‌نامه و رساله",
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
@@ -2123,7 +1353,378 @@
       "fileSize": 3878577,
       "archivePath": "isfahan/e01827f4659f-قالب پایان نامه کارشناسی ارشد(1).docx",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D9%82%D8%A7%D9%84%D8%A8%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C%20%D8%A7%D8%B1%D8%B4%D8%AF(1).docx",
+        "https://library.ui.ac.ir/%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%D9%82%D8%A7%D9%84%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%85%D9%82%D8%B7%D8%B9-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A7%D8%B1%D8%B4%D8%AF"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-1f50dc53fea2",
+      "universitySlug": "isfahan",
+      "title": "آئین نامه تمدید استقرار شرکت_های دانش_بنیان و خلاق در مرکز رشد دانشگاه اصفهان",
+      "type": "آیین‌نامه",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://roshd.ui.ac.ir/uploads/121/2025/Feb/17/%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D9%85%D8%AF%DB%8C%D8%AF%20%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1%20%D8%B4%D8%B1%DA%A9%D8%AA_%D9%87%D8%A7%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4_%D8%A8%D9%86%DB%8C%D8%A7%D9%86%20%D9%88%20%D8%AE%D9%84%D8%A7%D9%82%20%D8%AF%D8%B1%20%D9%85%D8%B1%DA%A9%D8%B2%20%D8%B1%D8%B4%D8%AF%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.pdf",
+      "sourceUrl": "https://roshd.ui.ac.ir/uploads/121/2025/Feb/17/%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D9%85%D8%AF%DB%8C%D8%AF%20%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1%20%D8%B4%D8%B1%DA%A9%D8%AA_%D9%87%D8%A7%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4_%D8%A8%D9%86%DB%8C%D8%A7%D9%86%20%D9%88%20%D8%AE%D9%84%D8%A7%D9%82%20%D8%AF%D8%B1%20%D9%85%D8%B1%DA%A9%D8%B2%20%D8%B1%D8%B4%D8%AF%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.pdf",
+      "parentUrl": "https://roshd.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D9%85%D8%AF%DB%8C%D8%AF-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D8%B4%D8%B1%DA%A9%D8%AA-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4-%D8%A8%D9%86%DB%8C%D8%A7%D9%86-%D9%88-%D8%AE%D9%84%D8%A7%D9%82-",
+      "sha256": "09ea44906136cf1bb7c8f6e4ac1dde00b53ff368d51bf023b6891c2eb5249165",
+      "fileName": "آئین نامه تمدید استقرار شرکت_های دانش_بنیان و خلاق در مرکز رشد دانشگاه اصفهان.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 113418,
+      "archivePath": "isfahan/6b59785c3bb5-آئین نامه تمدید استقرار شرکت_های دانش_بنیان و خلاق در مرکز رشد دانشگاه اصفهان.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://roshd.ui.ac.ir/uploads/121/2025/Feb/17/%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D9%85%D8%AF%DB%8C%D8%AF%20%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1%20%D8%B4%D8%B1%DA%A9%D8%AA_%D9%87%D8%A7%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4_%D8%A8%D9%86%DB%8C%D8%A7%D9%86%20%D9%88%20%D8%AE%D9%84%D8%A7%D9%82%20%D8%AF%D8%B1%20%D9%85%D8%B1%DA%A9%D8%B2%20%D8%B1%D8%B4%D8%AF%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.pdf",
+        "https://roshd.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D9%85%D8%AF%DB%8C%D8%AF-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D8%B4%D8%B1%DA%A9%D8%AA-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4-%D8%A8%D9%86%DB%8C%D8%A7%D9%86-%D9%88-%D8%AE%D9%84%D8%A7%D9%82-"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-4087ba806d1d",
+      "universitySlug": "isfahan",
+      "title": "hm",
+      "type": "سند",
+      "topic": "پایان‌نامه و رساله",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/hm.pdf",
+      "sourceUrl": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/hm.pdf",
+      "parentUrl": "https://library.ui.ac.ir/%D8%AD%D9%88%D8%B2%D9%87-%D9%85%D9%88%D8%B6%D9%88%D8%B9%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D8%AB%D8%A8%D8%AA-%D8%AF%D8%B1-%D8%B5%D9%81%D8%AD%D9%87-%D8%AA%D8%B5%D9%88%DB%8C%D8%A8-%D9%86%D8%A7%D9%85%D9%87-%D9%84%D8%A7%D8%AA%DB%8C%D9%86",
+      "sha256": "9d28b719f5db11af1414fc62e8ad9f958389a5631213eb231d926aa85feccfa1",
+      "fileName": "hm.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 474119,
+      "archivePath": "isfahan/74eab7bfb66c-hm.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://library.ui.ac.ir/uploads/117/2025/Feb/05/hm.pdf",
+        "https://library.ui.ac.ir/%D8%AD%D9%88%D8%B2%D9%87-%D9%85%D9%88%D8%B6%D9%88%D8%B9%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D8%AB%D8%A8%D8%AA-%D8%AF%D8%B1-%D8%B5%D9%81%D8%AD%D9%87-%D8%AA%D8%B5%D9%88%DB%8C%D8%A8-%D9%86%D8%A7%D9%85%D9%87-%D9%84%D8%A7%D8%AA%DB%8C%D9%86"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-4352a1cc1195",
+      "universitySlug": "isfahan",
+      "title": "-فرم درخواست بررسی کتاب فاخر",
+      "type": "آیین‌نامه",
+      "topic": "اسناد و مقررات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/formfakhar.docx",
+      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/formfakhar.docx",
+      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
+      "fileName": "formfakhar.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 68153,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://research.ui.ac.ir/uploads/88/2024/Dec/10/formfakhar.docx",
+        "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-47fde4c78b22",
+      "universitySlug": "isfahan",
+      "title": "-شیوه نامه بوک مارک BOOK MARK مقالات",
+      "type": "آیین‌نامه",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/bookmark.pdf",
+      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/bookmark.pdf",
+      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
+      "fileName": "bookmark.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1629170,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://research.ui.ac.ir/uploads/88/2024/Dec/10/bookmark.pdf",
+        "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-48090a1817e9",
+      "universitySlug": "isfahan",
+      "title": "-آیین نامه نشریات علمی مصوب کمیسیون نشریات کشور اردیبهشت ۱۳۹۸",
+      "type": "آیین‌نامه",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/aeennnameh1398.pdf",
+      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/aeennnameh1398.pdf",
+      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
+      "fileName": "aeennnameh1398.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 2088749,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://research.ui.ac.ir/uploads/88/2024/Dec/10/aeennnameh1398.pdf",
+        "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-4de982d393f6",
+      "universitySlug": "isfahan",
+      "title": "جهت مشاهده فایل راهنما بصورت pdf برای آگاهی از چگونگی بارگذاری پایان نامه در سامانه کتابخانه مرکزی دانشگاه اصفهان کلیک نمایید .",
+      "type": "سند",
+      "topic": "پایان‌نامه و رساله",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://library.ui.ac.ir/DorsaPax/userfiles/Sub64/rahpayan.pdf",
+      "sourceUrl": "https://library.ui.ac.ir/DorsaPax/userfiles/Sub64/rahpayan.pdf",
+      "parentUrl": "https://library.ui.ac.ir/%DA%86%DA%AF%D9%88%D9%86%DA%AF%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
+      "fileName": "rahpayan.pdf",
+      "contentType": "text/html; charset=utf-8",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://library.ui.ac.ir/DorsaPax/userfiles/Sub64/rahpayan.pdf",
+        "https://library.ui.ac.ir/%DA%86%DA%AF%D9%88%D9%86%DA%AF%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-50152a3965b6",
+      "universitySlug": "isfahan",
+      "title": "فرم قرارداد مطالعات پژوهشی",
+      "type": "فرم/الگو",
+      "topic": "اسناد و مقررات پژوهشی",
+      "taxonomy": "form/template",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://iro.ui.ac.ir/uploads/125/2026/May/06/%D9%81%D8%B1%D9%85%20%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.docx",
+      "sourceUrl": "https://iro.ui.ac.ir/uploads/125/2026/May/06/%D9%81%D8%B1%D9%85%20%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.docx",
+      "parentUrl": "https://iro.ui.ac.ir/%D9%BE%DB%8C%D8%B4%D9%86%D9%88%DB%8C%D8%B3-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-",
+      "fileName": "فرم قرارداد مطالعات پژوهشی.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 21214,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://iro.ui.ac.ir/uploads/125/2026/May/06/%D9%81%D8%B1%D9%85%20%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.docx",
+        "https://iro.ui.ac.ir/%D9%BE%DB%8C%D8%B4%D9%86%D9%88%DB%8C%D8%B3-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-6d2f7d43e024",
+      "universitySlug": "isfahan",
+      "title": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی - وزارت عتف_1",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "procedure/guideline",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://iro.ui.ac.ir/uploads/125/2025/Oct/18/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20-%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D8%AA%D9%81_1.pdf",
+      "sourceUrl": "https://iro.ui.ac.ir/uploads/125/2025/Oct/18/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20-%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D8%AA%D9%81_1.pdf",
+      "parentUrl": "https://iro.ui.ac.ir/-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-_-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81",
+      "sha256": "25cfba7e26f28f99ecc4d1156bf065619c4fcfd14156f912c4161e5ac7b21f36",
+      "fileName": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی - وزارت عتف_1.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1256792,
+      "archivePath": "isfahan/66ae2054d9e5-شیوه نامه فرصت مطالعاتی اعضای هیات علمی - وزارت عتف_1.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://iro.ui.ac.ir/uploads/125/2025/Oct/18/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20-%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D8%AA%D9%81_1.pdf",
+        "https://iro.ui.ac.ir/-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-_-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-84a9a106551d",
+      "universitySlug": "isfahan",
+      "title": "موارد قابل توجه در تهیه CD",
+      "type": "سند",
+      "topic": "پایان‌نامه و رساله",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://library.ui.ac.ir/uploads/117/2026/Jul/28/%D9%85%D9%88%D8%A7%D8%B1%D8%AF%20%D9%82%D8%A7%D8%A8%D9%84%20%D8%AA%D9%88%D8%AC%D9%87%20%D8%AF%D8%B1%20%D8%AA%D9%87%DB%8C%D9%87%20%D8%B3%DB%8C%20%D8%AF%DB%8C_2.pdf",
+      "sourceUrl": "https://library.ui.ac.ir/uploads/117/2026/Jul/28/%D9%85%D9%88%D8%A7%D8%B1%D8%AF%20%D9%82%D8%A7%D8%A8%D9%84%20%D8%AA%D9%88%D8%AC%D9%87%20%D8%AF%D8%B1%20%D8%AA%D9%87%DB%8C%D9%87%20%D8%B3%DB%8C%20%D8%AF%DB%8C_2.pdf",
+      "parentUrl": "https://library.ui.ac.ir/%D8%AA%D9%87%DB%8C%D9%87-%D8%B3%DB%8C-%D8%AF%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%81%84%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D9%88-%D8%AA%D8%AD%D9%88%DB%8C%D9%84-%D8%A8%D9%87-%D8%A8%D8%AE%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
+      "sha256": "fd35e9020996c34551a71208aebe4283e283b6c6f89dec48ff06d396763fb54d",
+      "fileName": "موارد قابل توجه در تهیه سی دی_2.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 123615,
+      "archivePath": "isfahan/c3a70896737f-موارد قابل توجه در تهیه سی دی_2.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://library.ui.ac.ir/uploads/117/2026/Jul/28/%D9%85%D9%88%D8%A7%D8%B1%D8%AF%20%D9%82%D8%A7%D8%A8%D9%84%20%D8%AA%D9%88%D8%AC%D9%87%20%D8%AF%D8%B1%20%D8%AA%D9%87%DB%8C%D9%87%20%D8%B3%DB%8C%20%D8%AF%DB%8C_2.pdf",
+        "https://library.ui.ac.ir/%D8%AA%D9%87%DB%8C%D9%87-%D8%B3%DB%8C-%D8%AF%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%81%84%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D9%88-%D8%AA%D8%AD%D9%88%DB%8C%D9%84-%D8%A8%D9%87-%D8%A8%D8%AE%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-8fe6e348205e",
+      "universitySlug": "isfahan",
+      "title": "-شیوه نامه تألیف و چاپ کتاب فاخر اعضای هیأت علمی دانشگاه اصفهان (سفارش کتاب)",
+      "type": "آیین‌نامه",
+      "topic": "اسناد و مقررات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/fakhar.pdf",
+      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/fakhar.pdf",
+      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
+      "fileName": "fakhar.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1004754,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://research.ui.ac.ir/uploads/88/2024/Dec/10/fakhar.pdf",
+        "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-9392d0f9cfef",
+      "universitySlug": "isfahan",
+      "title": "شیوه نگارش ویرایش شده دی ماه 1403docx",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "پایان‌نامه و رساله",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-12",
+      "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%DA%AF%D8%A7%D8%B1%D8%B4%20%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4%20%D8%B4%D8%AF%D9%87%20%D8%AF%DB%8C%20%D9%85%D8%A7%D9%87%201403docx.pdf",
+      "sourceUrl": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%DA%AF%D8%A7%D8%B1%D8%B4%20%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4%20%D8%B4%D8%AF%D9%87%20%D8%AF%DB%8C%20%D9%85%D8%A7%D9%87%201403docx.pdf",
+      "parentUrl": "https://library.ui.ac.ir/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%81%84-%D8%B1%D8%B3%D8%A7%D9%84%D9%87",
+      "sha256": "41a4a0e72a91306b2117451e395a1587fbd6a27139f96a637f24443b0c6b0e1d",
+      "fileName": "شیوه نگارش ویرایش شده دی ماه 1403docx.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1593406,
+      "archivePath": "isfahan/da21913172ec-شیوه نگارش ویرایش شده دی ماه 1403docx.pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%DA%AF%D8%A7%D8%B1%D8%B4%20%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4%20%D8%B4%D8%AF%D9%87%20%D8%AF%DB%8C%20%D9%85%D8%A7%D9%87%201403docx.pdf",
+        "https://library.ui.ac.ir/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%81%84-%D8%B1%D8%B3%D8%A7%D9%84%D9%87"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-95799d7601d1",
+      "universitySlug": "isfahan",
+      "title": "سامانه پایان نامه",
+      "type": "سند",
+      "topic": "پایان‌نامه و رساله",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "http://thesisdl.ui.ac.ir/",
+      "sourceUrl": "http://thesisdl.ui.ac.ir/",
+      "parentUrl": "https://research.ui.ac.ir/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.88,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "document-landing-page",
+      "cleaningReason": "specific-document-landing-page",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "systemsServices",
+      "evidenceUrls": [
+        "http://thesisdl.ui.ac.ir/",
+        "https://research.ui.ac.ir/"
+      ],
+      "alternateUrls": []
     },
     {
       "id": "isfahan-discovery-document-b446d04d52b2",
@@ -2144,33 +1745,24 @@
       "fileSize": 60727,
       "archivePath": "isfahan/482a6126168d-فرم فرصت مطالعاتی صنعتی دانشگاه اصفهان.docx",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-document-4352a1cc1195",
-      "universitySlug": "isfahan",
-      "title": "-فرم درخواست بررسی کتاب فاخر",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-13",
-      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/formfakhar.docx",
-      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/formfakhar.docx",
-      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
-      "fileName": "formfakhar.docx",
-      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "fileSize": 68153,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://iro.ui.ac.ir/uploads/125/2025/Mar/03/%D9%81%D8%B1%D9%85%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%B5%D9%86%D8%B9%D8%AA%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.docx",
+        "https://iro.ui.ac.ir/%D9%81%D8%B1%D9%85-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%B5%D9%86%D8%B9%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C"
+      ],
+      "alternateUrls": []
     },
     {
       "id": "isfahan-discovery-document-b4f945ae7a49",
       "universitySlug": "isfahan",
       "title": "-راهنمای تنظیم فایل کتاب",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
+      "type": "آیین‌نامه",
+      "topic": "اسناد و مقررات پژوهشی",
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
@@ -2182,110 +1774,17 @@
       "contentType": "application/pdf",
       "fileSize": 161816,
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-document-f628bbbd876c",
-      "universitySlug": "isfahan",
-      "title": "-تعهدات ناشر و نویسنده برای انتشار اثر",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-13",
-      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/taahood.docx",
-      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/taahood.docx",
-      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
-      "fileName": "taahood.docx",
-      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "fileSize": 18724,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-document-9392d0f9cfef",
-      "universitySlug": "isfahan",
-      "title": "شیوه نگارش ویرایش شده دی ماه 1403docx",
-      "type": "سند",
-      "topic": "تحصیلات تکمیلی و امور پژوهشی",
-      "taxonomy": "postgraduate/research affairs",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%DA%AF%D8%A7%D8%B1%D8%B4%20%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4%20%D8%B4%D8%AF%D9%87%20%D8%AF%DB%8C%20%D9%85%D8%A7%D9%87%201403docx.pdf",
-      "sourceUrl": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%DA%AF%D8%A7%D8%B1%D8%B4%20%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4%20%D8%B4%D8%AF%D9%87%20%D8%AF%DB%8C%20%D9%85%D8%A7%D9%87%201403docx.pdf",
-      "parentUrl": "https://library.ui.ac.ir/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%81%84-%D8%B1%D8%B3%D8%A7%D9%84%D9%87",
-      "sha256": "41a4a0e72a91306b2117451e395a1587fbd6a27139f96a637f24443b0c6b0e1d",
-      "fileName": "شیوه نگارش ویرایش شده دی ماه 1403docx.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 1593406,
-      "archivePath": "isfahan/da21913172ec-شیوه نگارش ویرایش شده دی ماه 1403docx.pdf",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-document-4087ba806d1d",
-      "universitySlug": "isfahan",
-      "title": "hm",
-      "type": "سند",
-      "topic": "تحصیلات تکمیلی و امور پژوهشی",
-      "taxonomy": "postgraduate/research affairs",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/hm.pdf",
-      "sourceUrl": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/hm.pdf",
-      "parentUrl": "https://library.ui.ac.ir/%D8%AD%D9%88%D8%B2%D9%87-%D9%85%D9%88%D8%B6%D9%88%D8%B9%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D8%AB%D8%A8%D8%AA-%D8%AF%D8%B1-%D8%B5%D9%81%D8%AD%D9%87-%D8%AA%D8%B5%D9%88%DB%8C%D8%A8-%D9%86%D8%A7%D9%85%D9%87-%D9%84%D8%A7%D8%AA%DB%8C%D9%86",
-      "sha256": "9d28b719f5db11af1414fc62e8ad9f958389a5631213eb231d926aa85feccfa1",
-      "fileName": "hm.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 474119,
-      "archivePath": "isfahan/74eab7bfb66c-hm.pdf",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-document-84a9a106551d",
-      "universitySlug": "isfahan",
-      "title": "موارد قابل توجه در تهیه CD",
-      "type": "سند",
-      "topic": "تحصیلات تکمیلی و امور پژوهشی",
-      "taxonomy": "postgraduate/research affairs",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://library.ui.ac.ir/uploads/117/2026/Jul/28/%D9%85%D9%88%D8%A7%D8%B1%D8%AF%20%D9%82%D8%A7%D8%A8%D9%84%20%D8%AA%D9%88%D8%AC%D9%87%20%D8%AF%D8%B1%20%D8%AA%D9%87%DB%8C%D9%87%20%D8%B3%DB%8C%20%D8%AF%DB%8C_2.pdf",
-      "sourceUrl": "https://library.ui.ac.ir/uploads/117/2026/Jul/28/%D9%85%D9%88%D8%A7%D8%B1%D8%AF%20%D9%82%D8%A7%D8%A8%D9%84%20%D8%AA%D9%88%D8%AC%D9%87%20%D8%AF%D8%B1%20%D8%AA%D9%87%DB%8C%D9%87%20%D8%B3%DB%8C%20%D8%AF%DB%8C_2.pdf",
-      "parentUrl": "https://library.ui.ac.ir/%D8%AA%D9%87%DB%8C%D9%87-%D8%B3%DB%8C-%D8%AF%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%81%84%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D9%88-%D8%AA%D8%AD%D9%88%DB%8C%D9%84-%D8%A8%D9%87-%D8%A8%D8%AE%D8%B4-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-      "sha256": "fd35e9020996c34551a71208aebe4283e283b6c6f89dec48ff06d396763fb54d",
-      "fileName": "موارد قابل توجه در تهیه سی دی_2.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 123615,
-      "archivePath": "isfahan/c3a70896737f-موارد قابل توجه در تهیه سی دی_2.pdf",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-document-6d2f7d43e024",
-      "universitySlug": "isfahan",
-      "title": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی - وزارت عتف_1",
-      "type": "شیوه‌نامه/دستورالعمل",
-      "topic": "سایر",
-      "taxonomy": "procedure/guideline",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://iro.ui.ac.ir/uploads/125/2025/Oct/18/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20-%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D8%AA%D9%81_1.pdf",
-      "sourceUrl": "https://iro.ui.ac.ir/uploads/125/2025/Oct/18/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20-%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D8%AA%D9%81_1.pdf",
-      "parentUrl": "https://iro.ui.ac.ir/-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-_-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81",
-      "sha256": "25cfba7e26f28f99ecc4d1156bf065619c4fcfd14156f912c4161e5ac7b21f36",
-      "fileName": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی - وزارت عتف_1.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 1256792,
-      "archivePath": "isfahan/66ae2054d9e5-شیوه نامه فرصت مطالعاتی اعضای هیات علمی - وزارت عتف_1.pdf",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://research.ui.ac.ir/uploads/88/2024/Dec/10/tanzembookuiacir.pdf",
+        "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8"
+      ],
+      "alternateUrls": []
     },
     {
       "id": "isfahan-discovery-document-d251e1263345",
@@ -2306,56 +1805,85 @@
       "fileSize": 1248995,
       "archivePath": "isfahan/554146b96ad6-دستورالعمل اجرایی فرصت مطالعاتی صنعتی دانشگاه اصفهان.pdf",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://iro.ui.ac.ir/uploads/125/2025/Mar/03/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%B5%D9%86%D8%B9%D8%AA%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.pdf",
+        "https://iro.ui.ac.ir/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86"
+      ],
+      "alternateUrls": []
     },
     {
-      "id": "isfahan-discovery-document-1f50dc53fea2",
+      "id": "isfahan-discovery-document-d76d42b5a555",
       "universitySlug": "isfahan",
-      "title": "آئین نامه تمدید استقرار شرکت_های دانش_بنیان و خلاق در مرکز رشد دانشگاه اصفهان",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
+      "title": "-آیین نامه اجرایی نشر کتاب در انتشارات دانشگاه اصفهان",
+      "type": "آیین‌نامه",
+      "topic": "انتشارات و نشریات",
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://roshd.ui.ac.ir/uploads/121/2025/Feb/17/%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D9%85%D8%AF%DB%8C%D8%AF%20%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1%20%D8%B4%D8%B1%DA%A9%D8%AA_%D9%87%D8%A7%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4_%D8%A8%D9%86%DB%8C%D8%A7%D9%86%20%D9%88%20%D8%AE%D9%84%D8%A7%D9%82%20%D8%AF%D8%B1%20%D9%85%D8%B1%DA%A9%D8%B2%20%D8%B1%D8%B4%D8%AF%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.pdf",
-      "sourceUrl": "https://roshd.ui.ac.ir/uploads/121/2025/Feb/17/%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D9%85%D8%AF%DB%8C%D8%AF%20%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1%20%D8%B4%D8%B1%DA%A9%D8%AA_%D9%87%D8%A7%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4_%D8%A8%D9%86%DB%8C%D8%A7%D9%86%20%D9%88%20%D8%AE%D9%84%D8%A7%D9%82%20%D8%AF%D8%B1%20%D9%85%D8%B1%DA%A9%D8%B2%20%D8%B1%D8%B4%D8%AF%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.pdf",
-      "parentUrl": "https://roshd.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D9%85%D8%AF%DB%8C%D8%AF-%D8%A7%D8%B3%D8%AA%D9%82%D8%B1%D8%A7%D8%B1-%D8%B4%D8%B1%DA%A9%D8%AA-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4-%D8%A8%D9%86%DB%8C%D8%A7%D9%86-%D9%88-%D8%AE%D9%84%D8%A7%D9%82-",
-      "sha256": "09ea44906136cf1bb7c8f6e4ac1dde00b53ff368d51bf023b6891c2eb5249165",
-      "fileName": "آئین نامه تمدید استقرار شرکت_های دانش_بنیان و خلاق در مرکز رشد دانشگاه اصفهان.pdf",
+      "lastVerified": "2026-08-13",
+      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/nashr_2.pdf",
+      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/nashr_2.pdf",
+      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
+      "fileName": "nashr_2.pdf",
       "contentType": "application/pdf",
-      "fileSize": 113418,
-      "archivePath": "isfahan/6b59785c3bb5-آئین نامه تمدید استقرار شرکت_های دانش_بنیان و خلاق در مرکز رشد دانشگاه اصفهان.pdf",
+      "fileSize": 1124373,
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://research.ui.ac.ir/uploads/88/2024/Dec/10/nashr_2.pdf",
+        "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8"
+      ],
+      "alternateUrls": []
     },
     {
-      "id": "isfahan-discovery-document-0609d187b630",
+      "id": "isfahan-discovery-document-da1ee110b5fa",
       "universitySlug": "isfahan",
-      "title": "PDF.js viewer",
+      "title": "دریافت قالب پایان نامه مقطع دکتری",
       "type": "سند",
-      "topic": "سایر",
-      "taxonomy": "other",
+      "topic": "پایان‌نامه و رساله",
+      "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
       "lastVerified": "2026-08-12",
-      "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/PDF.js%20viewer.pdf",
-      "sourceUrl": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/PDF.js%20viewer.pdf",
-      "parentUrl": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%A7%D9%87%D8%AF%D8%A7%DB%8C%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
-      "sha256": "c154297dca907cda2d0181c040e1913ad370f4a935db1684dd2c05d571747b6e",
-      "fileName": "PDF.js viewer.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 104571,
-      "archivePath": "isfahan/5300b9cb5f57-PDF.js viewer.pdf",
+      "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D9%82%D8%A7%D9%84%D8%A8%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C(5).docx",
+      "sourceUrl": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D9%82%D8%A7%D9%84%D8%A8%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C(5).docx",
+      "parentUrl": "https://library.ui.ac.ir/%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%D9%82%D8%A7%D9%84%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%85%D9%82%D8%B7%D8%B9-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C",
+      "sha256": "6a597d8454a832be588a9210ecccdb3d6e1ffe31906f1ce750b7add01b6223bc",
+      "fileName": "قالب رساله دکتری(5).docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 3852419,
+      "archivePath": "isfahan/1366168d0d9c-قالب رساله دکتری(5).docx",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9400000000000001
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D9%82%D8%A7%D9%84%D8%A8%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C(5).docx",
+        "https://library.ui.ac.ir/%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%D9%82%D8%A7%D9%84%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%85%D9%82%D8%B7%D8%B9-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C"
+      ],
+      "alternateUrls": []
     },
     {
       "id": "isfahan-discovery-document-e3400806a3d1",
       "universitySlug": "isfahan",
       "title": "aienname1403",
       "type": "سند",
-      "topic": "سایر",
+      "topic": "کتابخانه و منابع علمی",
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
@@ -2369,13 +1897,111 @@
       "fileSize": 450679,
       "archivePath": "isfahan/42170f3d6c76-aienname1403.pdf",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9400000000000001
+      "discoveryConfidence": 0.9400000000000001,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://library.ui.ac.ir/uploads/117/2025/Feb/05/aienname1403.pdf",
+        "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B9%D8%B6%D9%88%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-eca5a46086fa",
+      "universitySlug": "isfahan",
+      "title": "-آیین نامه تعیین هزینه پردازش مقاله در نشریات علمی، دسترسی باز",
+      "type": "آیین‌نامه",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/dastresebaz.pdf",
+      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/dastresebaz.pdf",
+      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
+      "fileName": "dastresebaz.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 978127,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://research.ui.ac.ir/uploads/88/2024/Dec/10/dastresebaz.pdf",
+        "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-f16eee06ff31",
+      "universitySlug": "isfahan",
+      "title": "-شیوه نامه استناددهی استانداردAPA (نسخه هفتم)",
+      "type": "آیین‌نامه",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/APA_1.pdf",
+      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/APA_1.pdf",
+      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
+      "fileName": "APA_1.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1036480,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://research.ui.ac.ir/uploads/88/2024/Dec/10/APA_1.pdf",
+        "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "isfahan-discovery-document-f628bbbd876c",
+      "universitySlug": "isfahan",
+      "title": "-تعهدات ناشر و نویسنده برای انتشار اثر",
+      "type": "آیین‌نامه",
+      "topic": "اسناد و مقررات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/taahood.docx",
+      "sourceUrl": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/taahood.docx",
+      "parentUrl": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
+      "fileName": "taahood.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 18724,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://research.ui.ac.ir/uploads/88/2024/Dec/10/taahood.docx",
+        "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8"
+      ],
+      "alternateUrls": []
     },
     {
       "id": "isfahan-discovery-document-f807b86a82fe",
       "universitySlug": "isfahan",
       "title": "یین نامه نظارت و ارزیابی مرکز رشد فناوری دانشگاه اصفهان",
-      "type": "سند",
+      "type": "آیین‌نامه",
       "topic": "صنعت، فناوری و مالکیت فکری",
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
@@ -2390,74 +2016,40 @@
       "fileSize": 372784,
       "archivePath": "isfahan/94da7fc83fac-یین نامه نظارت و ارزیابی مرکز رشد فناوری دانشگاه اصفهان.pdf",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://roshd.ui.ac.ir/uploads/121/2025/Feb/17/%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%B8%D8%A7%D8%B1%D8%AA%20%D9%88%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20%D9%85%D8%B1%DA%A9%D8%B2%20%D8%B1%D8%B4%D8%AF%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.pdf",
+        "https://roshd.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%B8%D8%A7%D8%B1%D8%AA-%D9%88-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%B1%D8%B4%D8%AF-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86-"
+      ],
+      "alternateUrls": []
     },
     {
-      "id": "isfahan-discovery-document-50152a3965b6",
+      "id": "isfahan-doc-1",
       "universitySlug": "isfahan",
-      "title": "فرم قرارداد مطالعات پژوهشی",
-      "type": "فرم/الگو",
-      "topic": "سایر",
-      "taxonomy": "form/template",
+      "title": "آیین‌نامه تمدید استقرار شرکت‌های دانش‌بنیان",
+      "type": "آیین‌نامه",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-13",
-      "url": "https://iro.ui.ac.ir/uploads/125/2026/May/06/%D9%81%D8%B1%D9%85%20%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.docx",
-      "sourceUrl": "https://iro.ui.ac.ir/uploads/125/2026/May/06/%D9%81%D8%B1%D9%85%20%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.docx",
-      "parentUrl": "https://iro.ui.ac.ir/%D9%BE%DB%8C%D8%B4%D9%86%D9%88%DB%8C%D8%B3-%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-",
-      "fileName": "فرم قرارداد مطالعات پژوهشی.docx",
-      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "fileSize": 21214,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "isfahan-discovery-document-95799d7601d1",
-      "universitySlug": "isfahan",
-      "title": "سامانه پایان نامه",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-13",
-      "url": "http://thesisdl.ui.ac.ir/",
-      "sourceUrl": "http://thesisdl.ui.ac.ir/",
-      "parentUrl": "https://research.ui.ac.ir/",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.88
-    },
-    {
-      "id": "isfahan-discovery-document-edac62ef28a2",
-      "universitySlug": "isfahan",
-      "title": "سامانه ارزیابی علمی و امتیازدهی اختراع",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-13",
-      "url": "http://inexam.ir/",
-      "sourceUrl": "http://inexam.ir/",
-      "parentUrl": "https://iro.ui.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-1",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.88
-    },
-    {
-      "id": "isfahan-discovery-document-e49eda476a46",
-      "universitySlug": "isfahan",
-      "title": "خانه کتاب و ادبیات ایران",
-      "type": "سند",
-      "topic": "تحصیلات تکمیلی و امور پژوهشی",
-      "taxonomy": "postgraduate/research affairs",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-13",
-      "url": "https://ketab.ir/",
-      "sourceUrl": "https://ketab.ir/",
-      "parentUrl": "https://library.ui.ac.ir/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.79
+      "lastVerified": "2026-08-10",
+      "sourceUrl": "https://research.ui.ac.ir/",
+      "topic": "اسناد و مقررات پژوهشی",
+      "url": "https://research.ui.ac.ir/",
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "document-landing-page",
+      "cleaningReason": "specific-document-landing-page",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://research.ui.ac.ir/"
+      ],
+      "alternateUrls": []
     }
   ],
   "interpretation": {

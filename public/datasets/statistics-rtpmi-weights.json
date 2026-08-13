@@ -1,5 +1,6 @@
 {
   "methodologyVersion": "RTPMI-4.2-ISC",
+  "scoringPolicyVersion": "entity-cleaning-2.2-coverage-shrinkage-findability",
   "weights": {
     "documents": 0.2,
     "organization": 0.12,
@@ -12,6 +13,9 @@
   },
   "publicEvidenceDimensions": 7,
   "missingDataRule": "unresolved dimensions are excluded from the weighted denominator; they reduce confidence/audit coverage rather than becoming zero",
+  "industryTechnologyRule": "verified industry/technology units establish existence; a dedicated official hub/subdomain is maturity evidence; a side-system is supplementary and not a prerequisite",
+  "findabilityRule": "existence evidence is separate from direct target findability; system references preserved by cleaning keep the systems share in the denominator even if the cleaned systems dimension becomes unresolved",
+  "rankingRule": "score remains the active-dimension RTPMI score; coverageAdjustedScore is a strict evidence-backed diagnostic; public rank uses rankingScore, which shrinks unresolved weight toward a neutral prior of 50 instead of treating it as zero",
   "rankingGate": {
     "portalAuditStatus": "direct-official",
     "minimumAuditEvidenceCoverage": 75,
