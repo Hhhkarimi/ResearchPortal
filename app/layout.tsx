@@ -12,7 +12,7 @@ export const metadata:Metadata={
   metadataBase:new URL(site),
   title:{
     default:"رصدخانه ملی پرتال معاونت پژوهشی و فناوری دانشگاه‌ها",
-    template:"%s | رصدخانه معاونت پژوهشی و فناوری"
+    template:"%s | رصدخانه پرتال معاونت پژوهشی و فناوری"
   },
   description:"مرجع داده‌محور ممیزی پرتال معاونت پژوهشی و فناوری ۱۱۵ دانشگاه و مؤسسه دولتی مطابق ISC؛ شامل RTPMI، شواهد، اسناد و Open Data.",
   alternates:{canonical:"/"},

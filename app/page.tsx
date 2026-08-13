@@ -1,6 +1,6 @@
 import Link from "next/link";
 import {HomeExplorer} from "@/components/home-explorer";
-import {EvidenceLedger} from "@/components/visual-stories";
+import {HeroConstellation} from "@/components/visual-stories";
 import {audits,datasetSummary,institutions,rankings,researchReviews} from "@/lib/data";
 
 const fa=(n:number)=>n.toLocaleString("fa-IR");
@@ -13,8 +13,8 @@ export default function Home(){
   return <main>
     <section className="hero shell">
       <div className="heroCopy">
-        <div className="liveBadge"><i/> دفتر شواهد ۱۱۵ نهاد دولتی ISC <span>Snapshot ۱۰.۰</span></div>
-        <h1>ردِ شواهد را بگیرید؛<em> پرتال پژوهشی را بسنجید.</em></h1>
+        <div className="liveBadge"><i/> ممیزی پرتال معاونت پژوهشی و فناوری ۱۱۵ نهاد دولتی ISC <span>Snapshot ۱۰.۰</span></div>
+        <h1>ردِ شواهد را بگیرید؛<em> پرتال معاونت پژوهشی و فناوری را بسنجید.</em></h1>
         <p>رصدخانه‌ای برای سنجش بلوغ و شفافیت پرتال معاونت پژوهشی و فناوری دانشگاه‌ها؛ از ساختار معاونت و کتابخانه تا آزمایشگاه، صنعت و فناوری، سامانه‌ها و اسناد.</p>
         <HomeExplorer institutions={institutions} audits={audits} rankings={rankings}/>
         <div className="heroLinks">
@@ -22,7 +22,7 @@ export default function Home(){
           <Link className="quietLink" href="/methodology">RTPMI دقیقاً چه می‌سنجد؟</Link>
         </div>
       </div>
-      <EvidenceLedger audits={researchReviews} summary={summary}/>
+      <HeroConstellation audits={researchReviews} summary={summary}/>
     </section>
 
     <section className="proofStrip">
@@ -47,7 +47,7 @@ export default function Home(){
       <div className="journeyGrid">
         <Link href="/universities" className="journeyCard violet">
           <span>برای دانشگاه</span>
-          <strong>پرونده پرتال خودتان را باز کنید</strong>
+          <strong>پرونده پرتال معاونت پژوهشی و فناوری خود را باز کنید</strong>
           <p>شکاف‌های شفافیت، وضعیت شواهد، واحدها، سامانه‌ها و اسناد را یک‌جا ببینید.</p>
           <b>پیدا کردن دانشگاه ←</b>
           <i>پرونده</i>
@@ -96,7 +96,7 @@ export default function Home(){
           <aside>
             <span>خط قرمز تفسیر</span>
             <h3>RTPMI رتبه علمی دانشگاه نیست.</h3>
-            <p>این شاخص فقط بلوغ، یافت‌پذیری و شفافیت پرتال عمومی معاونت پژوهشی و فناوری را می‌سنجد. پرتال فاقد Evidence کافی به‌جای امتیاز ساختگی، «رتبه‌ناپذیر» می‌ماند.</p>
+            <p>این شاخص فقط بلوغ، یافت‌پذیری و شفافیت پرتال عمومی معاونت پژوهشی و فناوری را می‌سنجد. پرتال معاونت پژوهشی و فناوریِ فاقد Evidence کافی به‌جای امتیاز ساختگی، «رتبه‌ناپذیر» می‌ماند.</p>
             <Link href="/methodology">روش محاسبه و قواعد داده مفقود ←</Link>
           </aside>
         </div>

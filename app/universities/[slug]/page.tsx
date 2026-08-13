@@ -65,12 +65,12 @@ export async function generateMetadata(
   return {
     title:
       university
-        ? `${university.nameFa} | پرونده پرتال پژوهش`
+        ? `${university.nameFa} | پرونده پرتال معاونت پژوهشی و فناوری`
         : "دانشگاه",
 
     description:
       university
-        ? `پرونده ممیزی پرتال پژوهش و فناوری ${university.nameFa}، وضعیت شواهد، RTPMI، واحدها، سامانه‌ها و اسناد.`
+        ? `پرونده ممیزی پرتال معاونت پژوهشی و فناوری ${university.nameFa}، وضعیت شواهد، RTPMI، واحدها، سامانه‌ها و اسناد.`
         : "",
   };
 }
@@ -81,7 +81,7 @@ const labels:
     string
   > = {
   portalIdentity:
-    "هویت پرتال",
+    "هویت پرتال معاونت پژوهشی و فناوری",
 
   organization:
     "ساختار سازمانی",
@@ -341,9 +341,9 @@ export default async function Page(
           </h1>
 
           <p>
-            نمای یکپارچه از شواهد عمومی معاونت پژوهش و فناوری،
+            نمای یکپارچه از شواهد عمومی پرتال معاونت پژوهشی و فناوری،
             منابع رسمی، واحدها، سامانه‌ها، اسناد و وضعیت بلوغ
-            پرتال. جایگاه ISC و RTPMI دو سنجه مستقل‌اند.
+            این پرتال. جایگاه ISC و RTPMI دو سنجه مستقل‌اند.
           </p>
 
           <div className="profileActions">
@@ -358,17 +358,17 @@ export default async function Page(
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  باز کردن پرتال رسمی ↗
+                  باز کردن پرتال رسمی معاونت پژوهشی و فناوری ↗
                 </a>
               )
               : (
                 <span className="disabledAction">
-                  پرتال مستقیم هنوز تأیید نشده
+                  پرتال مستقیم معاونت پژوهشی و فناوری هنوز تأیید نشده
                 </span>
               )}
 
             <ShareButton
-              title={`پرونده پرتال پژوهش ${university.nameFa}`}
+              title={`پرونده پرتال معاونت پژوهشی و فناوری ${university.nameFa}`}
             />
 
             <a
@@ -400,7 +400,7 @@ export default async function Page(
 
                 <div>
                   <small>
-                    رتبه ملی پرتال
+                    رتبه ملی پرتال معاونت پژوهشی و فناوری
                   </small>
 
                   <strong>
@@ -656,7 +656,7 @@ export default async function Page(
               </span>
 
               <h2>
-                پروفایل بلوغ پرتال
+                پروفایل بلوغ پرتال معاونت پژوهشی و فناوری
               </h2>
             </div>
 

@@ -1,24 +1,91 @@
+diff --git a/app/compare/page.tsx b/app/compare/page.tsx
+index 68c48a6..cfe2a2d 100644
+--- a/app/compare/page.tsx
++++ b/app/compare/page.tsx
+@@ -8,7 +8,7 @@ import {
+ 
+ export const metadata = {
+   title:
+-    "مقایسه تعاملی پرتال‌های پژوهش و فناوری"
++    "مقایسه تعاملی پرتال‌های معاونت پژوهشی و فناوری"
+ };
+ 
+ export default function Page() {
+@@ -25,8 +25,8 @@ export default function Page() {
+           </h1>
+ 
+           <p>
+-            دو تا چهار پرتال Evidence-qualified را انتخاب کنید و
+-            هشت مؤلفه امتیازدهی بلوغ پرتال را کنار هم ببینید.
++            دو تا چهار پرتال معاونت پژوهشی و فناوریِ Evidence-qualified را انتخاب کنید و
++            هشت مؤلفه امتیازدهی بلوغ پرتال معاونت پژوهشی و فناوری را کنار هم ببینید.
+           </p>
+         </div>
+ 
+diff --git a/app/datasets/page.tsx b/app/datasets/page.tsx
+index 265d96a..77f3649 100644
+--- a/app/datasets/page.tsx
++++ b/app/datasets/page.tsx
+@@ -5,7 +5,7 @@ export const metadata={title:"Open Data و API | ISC ۱۱۵"};
+ 
+ const sets=[
+   ["فهرست ۱۱۵ نهاد ISC","JSON + CSV","isc-institutions"],
+-  ["ممیزی پرتال ۱۱۵ نهاد","JSON + CSV","audit-portal-audit"],
++  ["ممیزی پرتال معاونت پژوهشی و فناوری ۱۱۵ نهاد","JSON + CSV","audit-portal-audit"],
+   ["رجیستر ۸۰۵ outcome شواهد","JSON + CSV","evidence-dimension-evidence"],
+   ["ماتریس عمیق ۱۱۵ × ۷","JSON + CSV","audit-deep-audit-matrix"],
+   ["رتبه‌بندی RTPMI 4.2","JSON + CSV","statistics-portal-ranking"],
+diff --git a/app/isc-scope/page.tsx b/app/isc-scope/page.tsx
+index a7f35e6..4852c55 100644
+--- a/app/isc-scope/page.tsx
++++ b/app/isc-scope/page.tsx
+@@ -1,3 +1,3 @@
+ import {institutions,audits} from "@/lib/data";import Link from "next/link";export const metadata={title:"فهرست دقیق ISC — ۱۱۵ نهاد دولتی"};
+-const statusLabel=(s:string)=>s==="direct-official"?"پرتال مستقیم رسمی":s.includes("restricted")?"دسترسی محدود":s==="false-positive-blocked"?"مسیر اشتباه مسدود":s.includes("official")||s.includes("institutional")||s.includes("ministry")?"ارجاع رسمی/سازمانی":"شاهد؛ نیازمند Evidence مستقیم";
++const statusLabel=(s:string)=>s==="direct-official"?"پرتال مستقیم رسمی معاونت پژوهشی و فناوری":s.includes("restricted")?"دسترسی محدود":s==="false-positive-blocked"?"مسیر اشتباه مسدود":s.includes("official")||s.includes("institutional")||s.includes("ministry")?"ارجاع رسمی/سازمانی":"شاهد؛ نیازمند Evidence مستقیم";
+ export default function Page(){const cats=["جامع","صنعتی","علوم کشاورزی","هنر","زیرنظام","دستگاه اجرایی"];return <main className="shell page"><header className="pageHero"><span className="kicker">ISC NATIONAL CLASSIFICATION / 1402–1401</span><h1>فهرست قفل‌شده ۱۱۵ نهاد دولتی ISC</h1><p>۶۹ جامع، ۲۴ صنعتی، ۴ علوم کشاورزی، ۴ هنر، ۴ زیرنظام و ۱۰ وابسته به دستگاه‌های اجرایی. رتبه ISC با RTPMI مستقل است.</p><a className="external" href="/datasets/isc-source.json">متادیتای منبع ISC و Reconciliation →</a></header>{cats.map(cat=><section className="scopeGroup" key={cat}><div className="sectionHead"><h2>{cat}</h2><b>{institutions.filter(x=>x.category===cat).length}</b></div><div className="scopeTable">{institutions.filter(x=>x.category===cat).sort((a,b)=>a.iscRank-b.iscRank||a.nameFa.localeCompare(b.nameFa)).map((u:any)=>{const a:any=audits.find(x=>x.universitySlug===u.slug);return <Link href={`/universities/${u.slug}`} className="scopeRow" key={u.slug}><b>{u.iscRank}</b><span>{u.nameFa}</span><i className={`status ${a?.portalAuditStatus}`}>{statusLabel(a?.portalAuditStatus||"")}</i></Link>})}</div></section>)}</main>}
+diff --git a/app/layout.tsx b/app/layout.tsx
+index 0372b73..51e1b6f 100644
+--- a/app/layout.tsx
++++ b/app/layout.tsx
+@@ -12,7 +12,7 @@ export const metadata:Metadata={
+   metadataBase:new URL(site),
+   title:{
+     default:"رصدخانه ملی پرتال معاونت پژوهشی و فناوری دانشگاه‌ها",
+-    template:"%s | رصدخانه معاونت پژوهشی و فناوری"
++    template:"%s | رصدخانه پرتال معاونت پژوهشی و فناوری"
+   },
+   description:"مرجع داده‌محور ممیزی پرتال معاونت پژوهشی و فناوری ۱۱۵ دانشگاه و مؤسسه دولتی مطابق ISC؛ شامل RTPMI، شواهد، اسناد و Open Data.",
+   alternates:{canonical:"/"},
+diff --git a/app/manifest.ts b/app/manifest.ts
+index 42d6c73..ac26af9 100644
+--- a/app/manifest.ts
++++ b/app/manifest.ts
+@@ -1 +1 @@
+-import type {MetadataRoute} from "next";export default function manifest():MetadataRoute.Manifest{return{name:"رصد پرتال معاونت پژوهش و فناوری",short_name:"رصد پرتال",description:"ISC-aligned Research & Technology Portal Observatory",start_url:"/",display:"standalone",background_color:"#070913",theme_color:"#070913",lang:"fa",dir:"rtl"}}
++import type {MetadataRoute} from "next";export default function manifest():MetadataRoute.Manifest{return{name:"رصد پرتال معاونت پژوهشی و فناوری",short_name:"پرتال معاونت پژوهشی و فناوری",description:"ISC-aligned Research & Technology Vice-Presidency Portal Observatory",start_url:"/",display:"standalone",background_color:"#070913",theme_color:"#070913",lang:"fa",dir:"rtl"}}
+diff --git a/app/methodology/page.tsx b/app/methodology/page.tsx
+index 7e5c8f2..fadb863 100644
+--- a/app/methodology/page.tsx
++++ b/app/methodology/page.tsx
+@@ -1,2 +1,2 @@
+-export const metadata={title:"روش‌شناسی RTPMI ۴.۲ | ISC ۱۱۵",description:"روش Evidence-first ممیزی و رتبه‌بندی بلوغ پرتال معاونت پژوهش و فناوری، مستقل از رتبه عملکردی ISC."};
+-export default function Page(){return <main className="shell page"><header className="pageHero"><span className="kicker">RTPMI 4.2 / OPEN & REPRODUCIBLE</span><h1>شاخص بلوغ پرتال، نه رتبه عملکرد پژوهشی</h1><p>RTPMI فقط کیفیت و شفافیت سطح عمومی اکوسیستم معاونت پژوهش و فناوری را از Evidence نسخه‌بندی‌شده می‌سنجد.</p></header><article className="glass prose"><h2>Scope دقیق ISC</h2><p>هر ۱۱۵ نهاد دولتی طبقه‌بندی ملی ISC سال ۱۴۰۲–۱۴۰۱ در محصول حضور دارد: ۶۹ جامع، ۲۴ صنعتی، ۴ علوم کشاورزی، ۴ هنر، ۴ زیرنظام و ۱۰ دستگاه اجرایی. نهادهای غیردولتی و علوم پزشکی خارج از Scope هستند.</p><h2>Portal Resolution برای ۱۱۵/۱۱۵</h2><p>هر نهاد یک Outcome دارد: پرتال مستقیم رسمی، ارجاع رسمی/سازمانی، دسترسی محدود، شاهد ثانویه یا false-positive مسدودشده. داشتن Outcome با داشتن پرتال مستقیم یا رتبه عددی یکی نیست.</p><h2>Ranking Eligibility</h2><p>عدد RTPMI فقط وقتی منتشر می‌شود که پرتال <code>direct-official</code> باشد، Audit Evidence Coverage حداقل ۷۵٪ و Confidence حداقل ۶۵٪ باشد. سایر نهادها در National Register باقی می‌مانند ولی Unranked هستند.</p><h2>ابعاد Evidence عمومی</h2><p>مدل عمومی ممیزی شامل ۷ بُعد است: هویت پرتال، ساختار سازمانی، کتابخانه و اسناد، آزمایشگاه‌ها، صنعت و فناوری، سامانه‌ها و خدمات، و اسناد و مقررات. برای ۱۱۵ نهاد در مجموع ۸۰۵ outcome بُعدی ثبت می‌شود.</p><h2>مؤلفه‌ها و وزن‌های RTPMI 4.2</h2><p>اسناد ۲۰٪، ساختار سازمانی ۱۲٪، کتابخانه ۱۰٪، آزمایشگاه ۱۲٪، سامانه‌های پژوهشی ۱۲٪، صنعت و فناوری ۱۲٪، کیفیت داده/Provenance ۱۲٪ و یافت‌پذیری ۱۰٪.</p><h2>Missing Data Rule</h2><p>بُعد <code>unresolved</code> به صفر تبدیل نمی‌شود. آن بُعد از مخرج وزن فعال حذف می‌شود و Audit Coverage/Confidence پایین می‌آید؛ در صورت کافی نبودن Evidence، کل دانشگاه Unranked می‌ماند.</p><h2>شاعا</h2><p>شبکه آزمایشگاه‌های علمی ایران به‌عنوان <code>national-related-system</code> مدل می‌شود، نه آزمایشگاه دانشگاه.</p><h2>ISC Rank ≠ RTPMI</h2><p>رتبه ISC جایگاه مؤسسه در طبقه‌بندی ملی ISC است. RTPMI شاخص اختصاصی این پروژه برای بلوغ پرتال عمومی است و هیچ ادعایی درباره کیفیت علمی/پژوهشی کل دانشگاه ندارد.</p><h2>Reproducibility</h2><p>با اجرای <code>npm run prepare:data</code> ماتریس ۱۱۵×۷، رتبه RTPMI، Provenance Ledger، Open Data، ۱۱۵ Audit Packet و CSVها از داده نسخه‌بندی‌شده دوباره ساخته می‌شوند.</p></article></main>}
++export const metadata={title:"روش‌شناسی RTPMI ۴.۲ | ISC ۱۱۵",description:"روش Evidence-first ممیزی و رتبه‌بندی بلوغ پرتال معاونت پژوهشی و فناوری، مستقل از رتبه عملکردی ISC."};
++export default function Page(){return <main className="shell page"><header className="pageHero"><span className="kicker">RTPMI 4.2 / OPEN & REPRODUCIBLE</span><h1>شاخص بلوغ پرتال معاونت پژوهشی و فناوری، نه رتبه عملکرد پژوهشی دانشگاه</h1><p>RTPMI فقط کیفیت و شفافیت سطح عمومی پرتال معاونت پژوهشی و فناوری را از Evidence نسخه‌بندی‌شده می‌سنجد.</p></header><article className="glass prose"><h2>Scope دقیق ISC</h2><p>هر ۱۱۵ نهاد دولتی طبقه‌بندی ملی ISC سال ۱۴۰۲–۱۴۰۱ در محصول حضور دارد: ۶۹ جامع، ۲۴ صنعتی، ۴ علوم کشاورزی، ۴ هنر، ۴ زیرنظام و ۱۰ دستگاه اجرایی. نهادهای غیردولتی و علوم پزشکی خارج از Scope هستند.</p><h2>Portal Resolution برای ۱۱۵/۱۱۵</h2><p>هر نهاد یک Outcome دارد: پرتال مستقیم رسمی معاونت پژوهشی و فناوری، ارجاع رسمی/سازمانی، دسترسی محدود، شاهد ثانویه یا false-positive مسدودشده. داشتن Outcome با داشتن پرتال مستقیم معاونت پژوهشی و فناوری یا رتبه عددی یکی نیست.</p><h2>Ranking Eligibility</h2><p>عدد RTPMI فقط وقتی منتشر می‌شود که پرتال معاونت پژوهشی و فناوری <code>direct-official</code> باشد، Audit Evidence Coverage حداقل ۷۵٪ و Confidence حداقل ۶۵٪ باشد. سایر نهادها در National Register باقی می‌مانند ولی Unranked هستند.</p><h2>ابعاد Evidence عمومی</h2><p>مدل عمومی ممیزی شامل ۷ بُعد است: هویت پرتال معاونت پژوهشی و فناوری، ساختار سازمانی، کتابخانه و اسناد، آزمایشگاه‌ها، صنعت و فناوری، سامانه‌ها و خدمات، و اسناد و مقررات. برای ۱۱۵ نهاد در مجموع ۸۰۵ outcome بُعدی ثبت می‌شود.</p><h2>مؤلفه‌ها و وزن‌های RTPMI 4.2</h2><p>اسناد ۲۰٪، ساختار سازمانی ۱۲٪، کتابخانه ۱۰٪، آزمایشگاه ۱۲٪، سامانه‌های پژوهشی ۱۲٪، صنعت و فناوری ۱۲٪، کیفیت داده/Provenance ۱۲٪ و یافت‌پذیری ۱۰٪.</p><h2>Missing Data Rule</h2><p>بُعد <code>unresolved</code> به صفر تبدیل نمی‌شود. آن بُعد از مخرج وزن فعال حذف می‌شود و Audit Coverage/Confidence پایین می‌آید؛ در صورت کافی نبودن Evidence، کل دانشگاه Unranked می‌ماند.</p><h2>شاعا</h2><p>شبکه آزمایشگاه‌های علمی ایران به‌عنوان <code>national-related-system</code> مدل می‌شود، نه آزمایشگاه دانشگاه.</p><h2>ISC Rank ≠ RTPMI</h2><p>رتبه ISC جایگاه مؤسسه در طبقه‌بندی ملی ISC است. RTPMI شاخص اختصاصی این پروژه برای بلوغ پرتال عمومی معاونت پژوهشی و فناوری است و هیچ ادعایی درباره کیفیت علمی/پژوهشی کل دانشگاه ندارد.</p><h2>Reproducibility</h2><p>با اجرای <code>npm run prepare:data</code> ماتریس ۱۱۵×۷، رتبه RTPMI، Provenance Ledger، Open Data، ۱۱۵ Audit Packet و CSVها از داده نسخه‌بندی‌شده دوباره ساخته می‌شوند.</p></article></main>}
 diff --git a/app/page.tsx b/app/page.tsx
-index c239ad8..0c56b2b 100644
+index c239ad8..1cc3ea5 100644
 --- a/app/page.tsx
 +++ b/app/page.tsx
-@@ -1,6 +1,6 @@
- import Link from "next/link";
- import {HomeExplorer} from "@/components/home-explorer";
--import {HeroConstellation} from "@/components/visual-stories";
-+import {EvidenceLedger} from "@/components/visual-stories";
- import {audits,datasetSummary,institutions,rankings,researchReviews} from "@/lib/data";
- 
- const fa=(n:number)=>n.toLocaleString("fa-IR");
-@@ -13,16 +13,16 @@ export default function Home(){
+@@ -13,13 +13,13 @@ export default function Home(){
    return <main>
      <section className="hero shell">
        <div className="heroCopy">
 -        <div className="liveBadge"><i/> داده‌نمای ممیزی ۱۱۵ نهاد دولتی ISC <span>نسخه ۱۰.۰</span></div>
 -        <h1>پرتال معاونت پژوهشی و فناوری دانشگاه‌ها،<em> زیر ذره‌بین داده.</em></h1>
 -        <p>مرجع ملی سنجش بلوغ و شفافیت پرتال معاونت پژوهشی و فناوری دانشگاه‌ها؛ از ساختار معاونت و کتابخانه تا آزمایشگاه، صنعت و فناوری، سامانه‌ها و اسناد.</p>
-+        <div className="liveBadge"><i/> دفتر شواهد ۱۱۵ نهاد دولتی ISC <span>Snapshot ۱۰.۰</span></div>
-+        <h1>ردِ شواهد را بگیرید؛<em> پرتال پژوهشی را بسنجید.</em></h1>
++        <div className="liveBadge"><i/> ممیزی پرتال معاونت پژوهشی و فناوری ۱۱۵ نهاد دولتی ISC <span>Snapshot ۱۰.۰</span></div>
++        <h1>ردِ شواهد را بگیرید؛<em> پرتال معاونت پژوهشی و فناوری را بسنجید.</em></h1>
 +        <p>رصدخانه‌ای برای سنجش بلوغ و شفافیت پرتال معاونت پژوهشی و فناوری دانشگاه‌ها؛ از ساختار معاونت و کتابخانه تا آزمایشگاه، صنعت و فناوری، سامانه‌ها و اسناد.</p>
          <HomeExplorer institutions={institutions} audits={audits} rankings={rankings}/>
          <div className="heroLinks">
@@ -28,13 +95,13 @@ index c239ad8..0c56b2b 100644
 +          <Link className="quietLink" href="/methodology">RTPMI دقیقاً چه می‌سنجد؟</Link>
          </div>
        </div>
--      <HeroConstellation audits={researchReviews} summary={summary}/>
-+      <EvidenceLedger audits={researchReviews} summary={summary}/>
-     </section>
- 
-     <section className="proofStrip">
-@@ -50,7 +50,7 @@ export default function Home(){
-           <strong>پرونده پرتال خودتان را باز کنید</strong>
+       <HeroConstellation audits={researchReviews} summary={summary}/>
+@@ -47,10 +47,10 @@ export default function Home(){
+       <div className="journeyGrid">
+         <Link href="/universities" className="journeyCard violet">
+           <span>برای دانشگاه</span>
+-          <strong>پرونده پرتال خودتان را باز کنید</strong>
++          <strong>پرونده پرتال معاونت پژوهشی و فناوری خود را باز کنید</strong>
            <p>شکاف‌های شفافیت، وضعیت شواهد، واحدها، سامانه‌ها و اسناد را یک‌جا ببینید.</p>
            <b>پیدا کردن دانشگاه ←</b>
 -          <i>01</i>
@@ -60,8 +127,108 @@ index c239ad8..0c56b2b 100644
          </Link>
        </div>
      </section>
+@@ -96,7 +96,7 @@ export default function Home(){
+           <aside>
+             <span>خط قرمز تفسیر</span>
+             <h3>RTPMI رتبه علمی دانشگاه نیست.</h3>
+-            <p>این شاخص فقط بلوغ، یافت‌پذیری و شفافیت پرتال عمومی معاونت پژوهشی و فناوری را می‌سنجد. پرتال فاقد Evidence کافی به‌جای امتیاز ساختگی، «رتبه‌ناپذیر» می‌ماند.</p>
++            <p>این شاخص فقط بلوغ، یافت‌پذیری و شفافیت پرتال عمومی معاونت پژوهشی و فناوری را می‌سنجد. پرتال معاونت پژوهشی و فناوریِ فاقد Evidence کافی به‌جای امتیاز ساختگی، «رتبه‌ناپذیر» می‌ماند.</p>
+             <Link href="/methodology">روش محاسبه و قواعد داده مفقود ←</Link>
+           </aside>
+         </div>
+diff --git a/app/rankings/page.tsx b/app/rankings/page.tsx
+index febebfb..d346bf5 100644
+--- a/app/rankings/page.tsx
++++ b/app/rankings/page.tsx
+@@ -2,5 +2,5 @@ import Link from "next/link";
+ import {RankingExplorer} from "@/components/ranking-explorer";
+ import {RankPodium} from "@/components/visual-stories";
+ import {rankings,datasetSummary} from "@/lib/data";
+-export const metadata={title:"رتبه‌بندی RTPMI 4.2 پرتال‌ها"};
+-export default function Page(){const s:any=datasetSummary;return <main className="shell page"><header className="pageHero"><div><span className="eyebrow">RTPMI 4.2 · reproducible · evidence qualified</span><h1>رتبه بلوغ پرتال، نه دانشگاه.</h1><p>فقط پرتال رسمی مستقیم با پوشش شواهد حداقل ۷۵٪ و اطمینان حداقل ۶۵٪ رتبه می‌گیرد. ابعاد نامشخص صفر نشده‌اند.</p></div><div className="pageHeroStamp lime"><b>{s.ranked}</b><span>پرتال رتبه‌پذیر</span><small>{s.unranked} نهاد بدون نمره ساختگی</small></div></header><RankPodium rankings={rankings}/><div className="methodBanner"><b>پیش از خواندن جدول:</b><span>RTPMI درباره شفافیت و بلوغ سطح عمومی پرتال است و هیچ گزاره‌ای درباره کیفیت علمی، اعضای هیئت علمی یا خروجی پژوهشی دانشگاه ندارد.</span><Link href="/methodology">جزئیات روش ←</Link></div><RankingExplorer rankings={rankings}/><p className="dataNote">این Snapshot فقط با نسخه RTPMI 4.2 قابل تفسیر است. تغییر روش‌شناسی می‌تواند ترتیب نسخه‌های آینده را تغییر دهد.</p></main>}
++export const metadata={title:"رتبه‌بندی RTPMI 4.2 پرتال معاونت پژوهشی و فناوری"};
++export default function Page(){const s:any=datasetSummary;return <main className="shell page"><header className="pageHero"><div><span className="eyebrow">RTPMI 4.2 · reproducible · evidence qualified</span><h1>رتبه بلوغ پرتال معاونت پژوهشی و فناوری، نه دانشگاه.</h1><p>فقط پرتال رسمی مستقیم معاونت پژوهشی و فناوری با پوشش شواهد حداقل ۷۵٪ و اطمینان حداقل ۶۵٪ رتبه می‌گیرد. ابعاد نامشخص صفر نشده‌اند.</p></div><div className="pageHeroStamp lime"><b>{s.ranked}</b><span>پرتال معاونت پژوهشی و فناوریِ رتبه‌پذیر</span><small>{s.unranked} نهاد بدون نمره ساختگی</small></div></header><RankPodium rankings={rankings}/><div className="methodBanner"><b>پیش از خواندن جدول:</b><span>RTPMI درباره شفافیت و بلوغ سطح عمومی پرتال معاونت پژوهشی و فناوری است و هیچ گزاره‌ای درباره کیفیت علمی، اعضای هیئت علمی یا خروجی پژوهشی دانشگاه ندارد.</span><Link href="/methodology">جزئیات روش ←</Link></div><RankingExplorer rankings={rankings}/><p className="dataNote">این Snapshot فقط با نسخه RTPMI 4.2 قابل تفسیر است. تغییر روش‌شناسی می‌تواند ترتیب نسخه‌های آینده را تغییر دهد.</p></main>}
+diff --git a/app/universities/[slug]/page.tsx b/app/universities/[slug]/page.tsx
+index 58fd9d6..71fbdea 100644
+--- a/app/universities/[slug]/page.tsx
++++ b/app/universities/[slug]/page.tsx
+@@ -65,12 +65,12 @@ export async function generateMetadata(
+   return {
+     title:
+       university
+-        ? `${university.nameFa} | پرونده پرتال پژوهش`
++        ? `${university.nameFa} | پرونده پرتال معاونت پژوهشی و فناوری`
+         : "دانشگاه",
+ 
+     description:
+       university
+-        ? `پرونده ممیزی پرتال پژوهش و فناوری ${university.nameFa}، وضعیت شواهد، RTPMI، واحدها، سامانه‌ها و اسناد.`
++        ? `پرونده ممیزی پرتال معاونت پژوهشی و فناوری ${university.nameFa}، وضعیت شواهد، RTPMI، واحدها، سامانه‌ها و اسناد.`
+         : "",
+   };
+ }
+@@ -81,7 +81,7 @@ const labels:
+     string
+   > = {
+   portalIdentity:
+-    "هویت پرتال",
++    "هویت پرتال معاونت پژوهشی و فناوری",
+ 
+   organization:
+     "ساختار سازمانی",
+@@ -341,9 +341,9 @@ export default async function Page(
+           </h1>
+ 
+           <p>
+-            نمای یکپارچه از شواهد عمومی معاونت پژوهش و فناوری،
++            نمای یکپارچه از شواهد عمومی پرتال معاونت پژوهشی و فناوری،
+             منابع رسمی، واحدها، سامانه‌ها، اسناد و وضعیت بلوغ
+-            پرتال. جایگاه ISC و RTPMI دو سنجه مستقل‌اند.
++            این پرتال. جایگاه ISC و RTPMI دو سنجه مستقل‌اند.
+           </p>
+ 
+           <div className="profileActions">
+@@ -358,17 +358,17 @@ export default async function Page(
+                   target="_blank"
+                   rel="noopener noreferrer"
+                 >
+-                  باز کردن پرتال رسمی ↗
++                  باز کردن پرتال رسمی معاونت پژوهشی و فناوری ↗
+                 </a>
+               )
+               : (
+                 <span className="disabledAction">
+-                  پرتال مستقیم هنوز تأیید نشده
++                  پرتال مستقیم معاونت پژوهشی و فناوری هنوز تأیید نشده
+                 </span>
+               )}
+ 
+             <ShareButton
+-              title={`پرونده پرتال پژوهش ${university.nameFa}`}
++              title={`پرونده پرتال معاونت پژوهشی و فناوری ${university.nameFa}`}
+             />
+ 
+             <a
+@@ -400,7 +400,7 @@ export default async function Page(
+ 
+                 <div>
+                   <small>
+-                    رتبه ملی پرتال
++                    رتبه ملی پرتال معاونت پژوهشی و فناوری
+                   </small>
+ 
+                   <strong>
+@@ -656,7 +656,7 @@ export default async function Page(
+               </span>
+ 
+               <h2>
+-                پروفایل بلوغ پرتال
++                پروفایل بلوغ پرتال معاونت پژوهشی و فناوری
+               </h2>
+             </div>
+ 
 diff --git a/app/ux-refresh.css b/app/ux-refresh.css
-index b841c7c..1c606d7 100644
+index b841c7c..54bf01e 100644
 --- a/app/ux-refresh.css
 +++ b/app/ux-refresh.css
 @@ -1,8 +1,25 @@
@@ -104,24 +271,12 @@ index b841c7c..1c606d7 100644
    text-rendering:optimizeLegibility
  }
  
-@@ -616,3 +634,791 @@ summary:focus-visible{
+@@ -616,3 +634,378 @@ summary:focus-visible{
      max-width:72vw
    }
  }
 +
-+/* RESEARCH LEDGER IDENTITY */
-+
-+.srOnly{
-+  position:absolute;
-+  width:1px;
-+  height:1px;
-+  padding:0;
-+  margin:-1px;
-+  overflow:hidden;
-+  clip:rect(0,0,0,0);
-+  white-space:nowrap;
-+  border:0
-+}
++/* RESEARCH PORTAL IDENTITY */
 +
 +.brandMark{
 +  border-radius:13px 13px 5px 13px;
@@ -281,327 +436,6 @@ index b841c7c..1c606d7 100644
 +  background:color-mix(in srgb,var(--surface) 74%,transparent)
 +}
 +
-+.evidenceLedger{
-+  position:relative;
-+  min-width:0;
-+  min-height:565px;
-+  padding:22px;
-+  overflow:hidden;
-+  color:var(--ink);
-+  border:1px solid color-mix(in srgb,var(--violet) 22%,var(--line));
-+  border-right:4px solid var(--violet);
-+  border-radius:26px 26px 8px 26px;
-+  background:
-+    linear-gradient(90deg,transparent 41px,color-mix(in srgb,var(--red) 22%,transparent) 42px,transparent 43px),
-+    repeating-linear-gradient(0deg,transparent 0 31px,color-mix(in srgb,var(--line) 42%,transparent) 32px),
-+    var(--surface);
-+  box-shadow:0 34px 85px rgba(30,45,82,.16)
-+}
-+
-+.evidenceLedger:before{
-+  content:"";
-+  position:absolute;
-+  top:0;
-+  right:0;
-+  width:34%;
-+  height:5px;
-+  background:linear-gradient(90deg,var(--cyan),var(--lime),var(--red))
-+}
-+
-+.ledgerHeader,
-+.ledgerHeader>div,
-+.ledgerStatus,
-+.ledgerLegend{
-+  display:flex;
-+  align-items:center
-+}
-+
-+.ledgerHeader{
-+  position:relative;
-+  z-index:1;
-+  justify-content:space-between;
-+  gap:14px;
-+  padding-bottom:17px;
-+  border-bottom:1px solid var(--line)
-+}
-+
-+.ledgerHeader>div{
-+  gap:10px
-+}
-+
-+.ledgerHeader>div>span:last-child{
-+  display:grid
-+}
-+
-+.ledgerHeader b{
-+  font-size:12px
-+}
-+
-+.ledgerHeader small{
-+  color:var(--muted);
-+  direction:ltr;
-+  font-size:7px;
-+  letter-spacing:1.1px
-+}
-+
-+.ledgerSeal{
-+  width:34px;
-+  height:34px;
-+  display:grid;
-+  place-items:center;
-+  color:#fff;
-+  border-radius:9px 9px 3px 9px;
-+  background:var(--violet);
-+  font-size:16px;
-+  font-weight:850;
-+  box-shadow:inset 0 0 0 4px rgba(255,255,255,.13)
-+}
-+
-+.ledgerStatus{
-+  gap:7px;
-+  color:var(--cyan);
-+  font-size:8px;
-+  font-weight:750
-+}
-+
-+.ledgerStatus i{
-+  width:6px;
-+  height:6px;
-+  border-radius:50%;
-+  background:var(--cyan);
-+  box-shadow:0 0 0 4px color-mix(in srgb,var(--cyan) 12%,transparent)
-+}
-+
-+.ledgerSummary{
-+  display:grid;
-+  grid-template-columns:1fr 1.35fr;
-+  gap:18px;
-+  padding:21px 0 18px
-+}
-+
-+.ledgerSummary>div{
-+  display:grid;
-+  align-content:start
-+}
-+
-+.ledgerSummary>div>span,
-+.ledgerSummary>div>small{
-+  color:var(--muted);
-+  font-size:8px
-+}
-+
-+.ledgerSummary>div>b{
-+  font-size:52px;
-+  line-height:1.05;
-+  letter-spacing:-2px
-+}
-+
-+.ledgerSummary dl{
-+  display:grid;
-+  grid-template-columns:repeat(3,1fr);
-+  align-items:stretch;
-+  margin:0;
-+  border:1px solid var(--line);
-+  border-radius:14px 14px 4px 14px;
-+  background:color-mix(in srgb,var(--surface) 78%,var(--soft))
-+}
-+
-+.ledgerSummary dl>div{
-+  display:flex;
-+  flex-direction:column;
-+  justify-content:center;
-+  min-width:0;
-+  padding:10px;
-+  border-left:1px solid var(--line)
-+}
-+
-+.ledgerSummary dl>div:last-child{
-+  border-left:0
-+}
-+
-+.ledgerSummary dt{
-+  overflow:hidden;
-+  color:var(--muted);
-+  font-size:7px;
-+  text-overflow:ellipsis;
-+  white-space:nowrap
-+}
-+
-+.ledgerSummary dd{
-+  margin:2px 0 0;
-+  font-size:18px;
-+  font-weight:800
-+}
-+
-+.ledgerTable{
-+  border:1px solid var(--line);
-+  border-radius:15px 15px 5px 15px;
-+  overflow:hidden;
-+  background:color-mix(in srgb,var(--surface) 88%,transparent)
-+}
-+
-+.ledgerColumns{
-+  display:grid;
-+  grid-template-columns:minmax(0,1fr) 210px 44px;
-+  gap:10px;
-+  align-items:end;
-+  min-height:48px;
-+  padding:8px 12px 7px;
-+  color:var(--muted);
-+  background:var(--soft);
-+  font-size:7px
-+}
-+
-+.ledgerColumns>div{
-+  display:grid;
-+  grid-template-columns:repeat(7,1fr);
-+  align-items:end;
-+  gap:4px
-+}
-+
-+.ledgerColumns i{
-+  overflow:hidden;
-+  font-style:normal;
-+  text-align:center;
-+  text-overflow:clip;
-+  writing-mode:vertical-rl;
-+  white-space:nowrap
-+}
-+
-+.ledgerColumns>b{
-+  font-size:7px;
-+  text-align:left
-+}
-+
-+.ledgerRow{
-+  display:grid;
-+  grid-template-columns:24px minmax(0,1fr) 210px 44px;
-+  gap:9px;
-+  align-items:center;
-+  min-height:51px;
-+  padding:8px 12px;
-+  border-top:1px solid var(--line);
-+  text-decoration:none;
-+  transition:background-color .16s,transform .16s
-+}
-+
-+.ledgerRow:hover{
-+  background:var(--violet-soft);
-+  transform:translateX(-2px)
-+}
-+
-+.ledgerIndex{
-+  color:var(--muted);
-+  direction:ltr;
-+  font-size:7px
-+}
-+
-+.ledgerName{
-+  display:grid;
-+  min-width:0
-+}
-+
-+.ledgerName b{
-+  overflow:hidden;
-+  font-size:9px;
-+  text-overflow:ellipsis;
-+  white-space:nowrap
-+}
-+
-+.ledgerName small{
-+  color:var(--muted);
-+  font-size:7px
-+}
-+
-+.ledgerTrace{
-+  position:relative;
-+  display:grid;
-+  grid-template-columns:repeat(7,1fr);
-+  gap:4px;
-+  align-items:center
-+}
-+
-+.ledgerTrace:before{
-+  content:"";
-+  position:absolute;
-+  right:5%;
-+  left:5%;
-+  top:50%;
-+  height:1px;
-+  background:var(--line)
-+}
-+
-+.traceCell{
-+  position:relative;
-+  z-index:1;
-+  width:12px;
-+  height:12px;
-+  margin:auto;
-+  border:2px solid var(--surface);
-+  border-radius:50%;
-+  box-shadow:0 0 0 1px color-mix(in srgb,var(--line) 90%,transparent)
-+}
-+
-+.traceCell.verified,
-+.ledgerLegend i.verified{
-+  background:var(--cyan)
-+}
-+
-+.traceCell.observed-reference,
-+.ledgerLegend i.observed-reference{
-+  background:var(--violet)
-+}
-+
-+.traceCell.restricted,
-+.ledgerLegend i.restricted{
-+  background:var(--lime)
-+}
-+
-+.traceCell.unresolved,
-+.ledgerLegend i.unresolved{
-+  background:#aeb7c7
-+}
-+
-+.ledgerRow>strong{
-+  color:var(--ink);
-+  direction:ltr;
-+  font-size:15px;
-+  text-align:left
-+}
-+
-+.ledgerRow>strong small{
-+  color:var(--muted);
-+  font-size:7px
-+}
-+
-+.ledgerLegend{
-+  gap:12px;
-+  flex-wrap:wrap;
-+  padding-top:16px;
-+  color:var(--muted);
-+  font-size:7px
-+}
-+
-+.ledgerLegend span{
-+  display:flex;
-+  align-items:center;
-+  gap:4px
-+}
-+
-+.ledgerLegend i{
-+  width:7px;
-+  height:7px;
-+  border-radius:50%
-+}
-+
-+.ledgerLegend a{
-+  margin-right:auto;
-+  color:var(--violet);
-+  font-size:8px;
-+  font-weight:800;
-+  text-decoration:none
-+}
-+
 +.proofStrip{
 +  border-block-color:var(--line);
 +  background:color-mix(in srgb,var(--surface) 90%,transparent)
@@ -744,18 +578,6 @@ index b841c7c..1c606d7 100644
 +  background-size:32px 32px
 +}
 +
-+[data-theme="dark"] .evidenceLedger{
-+  background:
-+    linear-gradient(90deg,transparent 41px,rgba(238,129,121,.18) 42px,transparent 43px),
-+    repeating-linear-gradient(0deg,transparent 0 31px,rgba(130,156,255,.055) 32px),
-+    var(--surface)
-+}
-+
-+[data-theme="dark"] .ledgerSummary dl,
-+[data-theme="dark"] .ledgerTable{
-+  background:rgba(18,27,46,.9)
-+}
-+
 +[data-theme="dark"] .proofStrip b{
 +  color:var(--ink)
 +}
@@ -786,13 +608,6 @@ index b841c7c..1c606d7 100644
 +    gap:35px
 +  }
 +
-+  .ledgerColumns{
-+    grid-template-columns:minmax(0,1fr) 180px 40px
-+  }
-+
-+  .ledgerRow{
-+    grid-template-columns:20px minmax(0,1fr) 180px 40px
-+  }
 +}
 +
 +@media(max-width:940px){
@@ -806,10 +621,6 @@ index b841c7c..1c606d7 100644
 +    max-width:760px
 +  }
 +
-+  .evidenceLedger{
-+    width:min(100%,680px);
-+    margin-inline:auto
-+  }
 +}
 +
 +@media(max-width:620px){
@@ -827,63 +638,6 @@ index b841c7c..1c606d7 100644
 +    flex-direction:column
 +  }
 +
-+  .evidenceLedger{
-+    min-height:0;
-+    padding:16px;
-+    border-radius:20px 20px 6px 20px
-+  }
-+
-+  .ledgerStatus{
-+    display:none
-+  }
-+
-+  .ledgerSummary{
-+    grid-template-columns:1fr
-+  }
-+
-+  .ledgerSummary>div{
-+    grid-template-columns:auto 1fr;
-+    align-items:end
-+  }
-+
-+  .ledgerSummary>div>b{
-+    grid-row:1/3;
-+    margin-left:12px;
-+    font-size:46px
-+  }
-+
-+  .ledgerColumns{
-+    grid-template-columns:minmax(0,1fr) 132px 35px
-+  }
-+
-+  .ledgerColumns i{
-+    font-size:0
-+  }
-+
-+  .ledgerColumns i:after{
-+    content:"•";
-+    font-size:8px
-+  }
-+
-+  .ledgerRow{
-+    grid-template-columns:16px minmax(0,1fr) 132px 35px;
-+    gap:5px;
-+    padding-inline:8px
-+  }
-+
-+  .traceCell{
-+    width:10px;
-+    height:10px
-+  }
-+
-+  .ledgerLegend{
-+    gap:8px
-+  }
-+
-+  .ledgerLegend a{
-+    width:100%;
-+    margin-top:4px
-+  }
 +}
 +
 +@media(prefers-reduced-motion:reduce){
@@ -896,78 +650,145 @@ index b841c7c..1c606d7 100644
 +    transition-duration:.01ms!important
 +  }
 +}
+diff --git a/components/audit-explorer.tsx b/components/audit-explorer.tsx
+index 10a61b3..eed01b6 100644
+--- a/components/audit-explorer.tsx
++++ b/components/audit-explorer.tsx
+@@ -7,7 +7,7 @@ import {
+ } from "react";
+ 
+ const dimensions = [
+-  ["portalIdentity", "هویت پرتال"],
++  ["portalIdentity", "هویت پرتال معاونت پژوهشی و فناوری"],
+   ["organization", "ساختار"],
+   ["libraryDocuments", "کتابخانه"],
+   ["laboratories", "آزمایشگاه"],
+diff --git a/components/compare-explorer.tsx b/components/compare-explorer.tsx
+index 625f396..d02eb77 100644
+--- a/components/compare-explorer.tsx
++++ b/components/compare-explorer.tsx
+@@ -92,7 +92,7 @@ export function CompareExplorer(
+       <div className="comparePicker glass">
+         <div>
+           <span className="eyebrow">
+-            انتخاب ۲ تا ۴ پرتال
++            انتخاب ۲ تا ۴ پرتال معاونت پژوهشی و فناوری
+           </span>
+ 
+           <h2>
+@@ -268,7 +268,7 @@ export function CompareExplorer(
+         )}
+ 
+       <p className="dataNote">
+-        اعداد فقط برای پرتال‌های Evidence-qualified نمایش داده می‌شوند.
++        اعداد فقط برای پرتال‌های معاونت پژوهشی و فناوریِ Evidence-qualified نمایش داده می‌شوند.
+         «نامشخص» در محاسبه صفر نشده است.
+       </p>
+     </>
+diff --git a/components/evidence-explorer.tsx b/components/evidence-explorer.tsx
+index bbd729c..8330581 100644
+--- a/components/evidence-explorer.tsx
++++ b/components/evidence-explorer.tsx
+@@ -4,7 +4,7 @@ import {useMemo,useState} from "react";
+ import {PUBLIC_DIMENSION_COUNT,PUBLIC_OUTCOME_COUNT} from "@/lib/public-model";
+ 
+ const dimensionLabels:any={
+-  portalIdentity:"هویت پرتال",
++  portalIdentity:"هویت پرتال معاونت پژوهشی و فناوری",
+   organization:"ساختار",
+   libraryDocuments:"کتابخانه/اسناد",
+   laboratories:"آزمایشگاه",
+diff --git a/components/header.tsx b/components/header.tsx
+index ecc9664..2d5bec7 100644
+--- a/components/header.tsx
++++ b/components/header.tsx
+@@ -22,7 +22,7 @@ export function Header(){
+     <div className="shell headerIn">
+       <Link href="/" className="brand" aria-label="صفحه نخست رصدخانه">
+         <span className="brandMark" aria-hidden="true"><i/><i/><i/></span>
+-        <span><strong>رصدخانه معاونت پژوهشی و فناوری</strong><small>ISC ۱۱۵ · IRAN</small></span>
++        <span><strong>رصدخانه پرتال معاونت پژوهشی و فناوری</strong><small>ISC ۱۱۵ · IRAN</small></span>
+       </Link>
+       <nav className={open?"nav open":"nav"} aria-label="ناوبری اصلی">
+         {nav.map(([href,label])=><Link href={href} key={href} onClick={()=>setOpen(false)} className={pathname.startsWith(href)?"active":""}>{label}</Link>)}
+diff --git a/components/ranking-explorer.tsx b/components/ranking-explorer.tsx
+index 3730a51..869106c 100644
+--- a/components/ranking-explorer.tsx
++++ b/components/ranking-explorer.tsx
+@@ -3,4 +3,4 @@
+ import Link from "next/link";
+ import {useMemo, useState} from "react";
+ 
+-export function RankingExplorer({rankings}:{rankings:any[]}){const [category,setCategory]=useState("همه");const [query,setQuery]=useState("");const rows=useMemo(()=>rankings.filter(r=>(category==="همه"||r.iscCategory===category)&&(!query||r.nameFa.includes(query))),[rankings,category,query]);return <><div className="explorerBar compact glass"><div className="field searchField"><label htmlFor="ranking-search">جست‌وجو</label><input id="ranking-search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="نام دانشگاه…"/></div><div className="field"><label htmlFor="ranking-category">گروه ISC</label><select id="ranking-category" value={category} onChange={e=>setCategory(e.target.value)}><option>همه</option>{[...new Set(rankings.map(x=>x.iscCategory))].map(x=><option key={x}>{x}</option>)}</select></div></div><div className="rankTable"><div className="rankHead"><span>رتبه</span><span>پرتال دانشگاه</span><span>در گروه ISC</span><span>پوشش / اطمینان</span><span>RTPMI</span></div>{rows.map((r:any)=><Link href={`/universities/${r.universitySlug}`} className="rankRow" key={r.universitySlug}><b>{r.rank.toLocaleString("fa-IR")}</b><span><strong>{r.nameFa}</strong><small>{r.iscCategory} · رتبه ISC {r.iscRank.toLocaleString("fa-IR")}</small></span><i>{r.portalRankWithinISCClass.toLocaleString("fa-IR")} از {r.rankedPortalsInISCClass.toLocaleString("fa-IR")}</i><div className="confidence"><span><i style={{width:`${r.confidence}%`}}/></span><small>{r.evidenceCoverage}% پوشش · {r.confidence}% اطمینان</small></div><strong>{r.score}</strong></Link>)}</div></>}
++export function RankingExplorer({rankings}:{rankings:any[]}){const [category,setCategory]=useState("همه");const [query,setQuery]=useState("");const rows=useMemo(()=>rankings.filter(r=>(category==="همه"||r.iscCategory===category)&&(!query||r.nameFa.includes(query))),[rankings,category,query]);return <><div className="explorerBar compact glass"><div className="field searchField"><label htmlFor="ranking-search">جست‌وجو</label><input id="ranking-search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="نام دانشگاه…"/></div><div className="field"><label htmlFor="ranking-category">گروه ISC</label><select id="ranking-category" value={category} onChange={e=>setCategory(e.target.value)}><option>همه</option>{[...new Set(rankings.map(x=>x.iscCategory))].map(x=><option key={x}>{x}</option>)}</select></div></div><div className="rankTable"><div className="rankHead"><span>رتبه</span><span>پرتال معاونت پژوهشی و فناوری</span><span>در گروه ISC</span><span>پوشش / اطمینان</span><span>RTPMI</span></div>{rows.map((r:any)=><Link href={`/universities/${r.universitySlug}`} className="rankRow" key={r.universitySlug}><b>{r.rank.toLocaleString("fa-IR")}</b><span><strong>{r.nameFa}</strong><small>{r.iscCategory} · رتبه ISC {r.iscRank.toLocaleString("fa-IR")}</small></span><i>{r.portalRankWithinISCClass.toLocaleString("fa-IR")} از {r.rankedPortalsInISCClass.toLocaleString("fa-IR")}</i><div className="confidence"><span><i style={{width:`${r.confidence}%`}}/></span><small>{r.evidenceCoverage}% پوشش · {r.confidence}% اطمینان</small></div><strong>{r.score}</strong></Link>)}</div></>}
+diff --git a/components/university-explorer.tsx b/components/university-explorer.tsx
+index 1f7be90..931b552 100644
+--- a/components/university-explorer.tsx
++++ b/components/university-explorer.tsx
+@@ -4,7 +4,7 @@ import Link from "next/link";
+ import {useMemo,useState} from "react";
+ 
+ type Props={institutions:any[];audits:any[];rankings:any[];documents:any[];reviews:any[]};
+-const statusLabel=(s:string)=>s==="direct-official"?"پرتال مستقیم":s.includes("restricted")?"دسترسی محدود":s==="false-positive-blocked"?"مسیر مسدود":"نیازمند شواهد بیشتر";
++const statusLabel=(s:string)=>s==="direct-official"?"پرتال مستقیم معاونت پژوهشی و فناوری":s.includes("restricted")?"دسترسی محدود":s==="false-positive-blocked"?"مسیر مسدود":"نیازمند شواهد بیشتر";
+ 
+ export function UniversityExplorer({institutions,audits,rankings,documents,reviews}:Props){
+   const [query,setQuery]=useState("");
+@@ -28,7 +28,7 @@ export function UniversityExplorer({institutions,audits,rankings,documents,revie
+     return a.category.localeCompare(b.category,"fa")||a.iscRank-b.iscRank;
+   }),[institutions,query,category,status,sort,audit,rank,coverage,documentCount]);
+   return <>
+-    <div className="explorerBar glass"><div className="field searchField"><label htmlFor="directory-search">جست‌وجو</label><input id="directory-search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="نام دانشگاه…"/></div><div className="field"><label htmlFor="category-filter">گروه ISC</label><select id="category-filter" value={category} onChange={e=>setCategory(e.target.value)}><option>همه</option>{["جامع","صنعتی","علوم کشاورزی","هنر","زیرنظام","دستگاه اجرایی"].map(x=><option key={x}>{x}</option>)}</select></div><div className="field"><label htmlFor="status-filter">وضعیت</label><select id="status-filter" value={status} onChange={e=>setStatus(e.target.value)}><option value="همه">همه وضعیت‌ها</option><option value="ranked">دارای RTPMI</option><option value="direct">پرتال مستقیم</option><option value="pending">نیازمند تکمیل شواهد</option></select></div><div className="field"><label htmlFor="sort-filter">مرتب‌سازی</label><select id="sort-filter" value={sort} onChange={e=>setSort(e.target.value)}><option value="isc">گروه و رتبه ISC</option><option value="evidence">بیشترین پوشش شواهد</option><option value="documents">بیشترین سند</option><option value="portal">پرتال مستقیم</option><option value="rtpmi">امتیاز RTPMI</option><option value="name-asc">نام: الف تا ی</option><option value="name-desc">نام: ی تا الف</option></select></div></div>
++    <div className="explorerBar glass"><div className="field searchField"><label htmlFor="directory-search">جست‌وجو</label><input id="directory-search" value={query} onChange={e=>setQuery(e.target.value)} placeholder="نام دانشگاه…"/></div><div className="field"><label htmlFor="category-filter">گروه ISC</label><select id="category-filter" value={category} onChange={e=>setCategory(e.target.value)}><option>همه</option>{["جامع","صنعتی","علوم کشاورزی","هنر","زیرنظام","دستگاه اجرایی"].map(x=><option key={x}>{x}</option>)}</select></div><div className="field"><label htmlFor="status-filter">وضعیت</label><select id="status-filter" value={status} onChange={e=>setStatus(e.target.value)}><option value="همه">همه وضعیت‌ها</option><option value="ranked">دارای RTPMI</option><option value="direct">پرتال مستقیم معاونت پژوهشی و فناوری</option><option value="pending">نیازمند تکمیل شواهد</option></select></div><div className="field"><label htmlFor="sort-filter">مرتب‌سازی</label><select id="sort-filter" value={sort} onChange={e=>setSort(e.target.value)}><option value="isc">گروه و رتبه ISC</option><option value="evidence">بیشترین پوشش شواهد</option><option value="documents">بیشترین سند</option><option value="portal">پرتال مستقیم معاونت پژوهشی و فناوری</option><option value="rtpmi">امتیاز RTPMI</option><option value="name-asc">نام: الف تا ی</option><option value="name-desc">نام: ی تا الف</option></select></div></div>
+     <div className="resultMeta"><b>{rows.length.toLocaleString("fa-IR")}</b> دانشگاه از ۱۱۵ <span>·</span> هیچ دانشگاهی به علت کمبود شواهد حذف نشده است.</div>
+     <div className="uniGrid">{rows.map(u=>{const a:any=audit.get(u.slug);const r:any=rank.get(u.slug);const evidence=coverage.get(u.slug)??0;const docs=documentCount.get(u.slug)??0;return <Link href={`/universities/${u.slug}`} className="uniCard" key={u.slug}><div className="uniCardTop"><span className="categoryPill">{u.category}</span><span className={`evidencePill ${a?.portalAuditStatus==="direct-official"?"verified":"pending"}`}>{statusLabel(a?.portalAuditStatus||"")}</span></div><h2>{u.nameFa}</h2><p>رتبه {u.iscRank.toLocaleString("fa-IR")} در گروه ISC</p><div className="uniEvidenceMeta"><span><b>{Number(evidence).toLocaleString("fa-IR")}%</b> پوشش شواهد</span><span><b>{docs.toLocaleString("fa-IR")}</b> سند طبقه‌بندی‌شده</span></div><div className="uniScore">{r?<><span><b>{Number(r.score).toLocaleString("fa-IR")}</b><small>RTPMI</small></span><span><b>{Number(r.confidence).toLocaleString("fa-IR")}%</b><small>اطمینان</small></span></>:<span className="unranked"><b>—</b><small>رتبه منتشر نشده</small></span>}<i>مشاهده پرونده ←</i></div></Link>})}</div>
+     {!rows.length&&<div className="emptyState"><b>نتیجه‌ای با این ترکیب پیدا نشد.</b><button onClick={()=>{setQuery("");setCategory("همه");setStatus("همه")}}>پاک کردن فیلترها</button></div>}
 diff --git a/components/visual-stories.tsx b/components/visual-stories.tsx
-index d7e5f76..435411c 100644
+index d7e5f76..92acd34 100644
 --- a/components/visual-stories.tsx
 +++ b/components/visual-stories.tsx
-@@ -55,6 +55,70 @@ export function HeroConstellation({audits,summary}:{audits:any[];summary:any}){
-   </div>;
- }
+@@ -2,7 +2,7 @@ import Link from "next/link";
+ import {formatFaNumber} from "@/lib/fa";
  
-+const ledgerDimensions=[
-+  ["portalIdentity","هویت"],
-+  ["organization","ساختار"],
-+  ["libraryDocuments","کتابخانه"],
-+  ["laboratories","آزمایشگاه"],
-+  ["industryTechnology","صنعت"],
-+  ["systemsServices","سامانه"],
-+  ["documentsRegulations","اسناد"],
-+] as const;
-+
-+const outcomeLabel:Record<string,string>={
-+  verified:"تأیید مستقیم",
-+  "observed-reference":"شاهد یا ارجاع",
-+  restricted:"دسترسی محدود",
-+  unresolved:"حل‌نشده",
-+};
-+
-+export function EvidenceLedger({audits,summary}:{audits:any[];summary:any}){
-+  const sample=audits.slice(0,5);
-+
-+  return <div className="evidenceLedger" aria-label={`نمونه دفتر شواهد ${formatFaNumber(audits.length)} نهاد`}>
-+    <header className="ledgerHeader">
-+      <div><span className="ledgerSeal" aria-hidden="true">ر</span><span><b>دفتر ممیزی ملی</b><small>EVIDENCE LEDGER / SNAPSHOT 10.0</small></span></div>
-+      <span className="ledgerStatus"><i/> داده منتشرشده</span>
-+    </header>
-+
-+    <div className="ledgerSummary">
-+      <div><span>دامنه ثبت</span><b>{formatFaNumber(audits.length||115)}</b><small>دانشگاه و مؤسسه ISC</small></div>
-+      <dl>
-+        <div><dt>پرتال مستقیم</dt><dd>{formatFaNumber(summary.directOfficialPortals||0)}</dd></div>
-+        <div><dt>ردیف شواهد</dt><dd>{formatFaNumber(summary.provenanceRecords||0)}</dd></div>
-+        <div><dt>رتبه‌پذیر</dt><dd>{formatFaNumber(summary.ranked||0)}</dd></div>
-+      </dl>
-+    </div>
-+
-+    <div className="ledgerTable">
-+      <div className="ledgerColumns" aria-hidden="true">
-+        <span>نهاد</span>
-+        <div>{ledgerDimensions.map(([,label])=><i key={label}>{label}</i>)}</div>
-+        <b>پوشش</b>
-+      </div>
-+      {sample.map((row,index)=><Link href={`/universities/${row.universitySlug}`} className="ledgerRow" key={row.universitySlug}>
-+        <span className="ledgerIndex">{formatFaNumber(index+1,{minimumIntegerDigits:2})}</span>
-+        <span className="ledgerName"><b>{row.nameFa}</b><small>{row.iscCategory}</small></span>
-+        <span className="ledgerTrace">
-+          {ledgerDimensions.map(([key,label])=>{
-+            const outcome=row.dimensions?.[key]||"unresolved";
-+            return <i className={`traceCell ${outcome}`} title={`${label}: ${outcomeLabel[outcome]||outcome}`} key={key}><span className="srOnly">{label}: {outcomeLabel[outcome]||outcome}</span></i>;
-+          })}
-+        </span>
-+        <strong>{formatFaNumber(row.reviewEvidenceCoverage||0)}<small>٪</small></strong>
-+      </Link>)}
-+    </div>
-+
-+    <footer className="ledgerLegend">
-+      <span><i className="verified"/> تأیید مستقیم</span>
-+      <span><i className="observed-reference"/> شاهد/ارجاع</span>
-+      <span><i className="restricted"/> محدود</span>
-+      <span><i className="unresolved"/> حل‌نشده</span>
-+      <Link href="/evidence">همه شواهد ←</Link>
-+    </footer>
-+  </div>;
-+}
-+
- export function EvidenceSpectrum({dimensions}:{dimensions:Record<string,Record<string,number>>}){
-   const entries=Object.entries(dimensions).filter(([key])=>Object.prototype.hasOwnProperty.call(dimensionLabels,key));
-   const values=entries.map(([,value])=>value);
+ const dimensionLabels:any={
+-  portalIdentity:"هویت پرتال",
++  portalIdentity:"هویت پرتال معاونت پژوهشی و فناوری",
+   organization:"ساختار",
+   libraryDocuments:"کتابخانه",
+   laboratories:"آزمایشگاه",
+@@ -16,7 +16,7 @@ export function HeroConstellation({audits,summary}:{audits:any[];summary:any}){
+ 
+   return <div className="constellation" aria-label={`رادار ارزیابی ${formatFaNumber(institutionCount)} دانشگاه و مؤسسه`}>
+     <div className="auroraBlob violet"/><div className="auroraBlob cyan"/><div className="signalSweep"/>
+-    <div className="constellationHeader"><span><i/> رادار ارزیابی ملی</span><b>{formatFaNumber(institutionCount)} نهاد · ۷ بُعد</b></div>
++    <div className="constellationHeader"><span><i/> رادار ملی پرتال معاونت پژوهشی و فناوری</span><b>{formatFaNumber(institutionCount)} نهاد · ۷ بُعد</b></div>
+     <div className="constellationField">
+       {audits.map((row,index)=>{
+         const coverage=row.reviewEvidenceCoverage??row.auditEvidenceCoverage??0;
+@@ -34,13 +34,13 @@ export function HeroConstellation({audits,summary}:{audits:any[];summary:any}){
+       <div className="constellationCore">
+         <span>دامنه ارزیابی</span>
+         <b>{formatFaNumber(institutionCount)}</b>
+-        <small>دانشگاه و مؤسسه ISC</small>
++        <small>پرتال معاونت پژوهشی و فناوری نهادهای ISC</small>
+         <em>{formatFaNumber(summary.ranked)} رتبه‌پذیر</em>
+         <i className="corePulse"/>
+       </div>
+       <div className="orbitLine one"/><div className="orbitLine two"/><div className="orbitLine three"/>
+       <div className="constellationSignals">
+-        <span><b>{formatFaNumber(summary.directOfficialPortals||0)}</b>پرتال مستقیم</span>
++        <span><b>{formatFaNumber(summary.directOfficialPortals||0)}</b>پرتال مستقیم معاونت پژوهشی و فناوری</span>
+         <span><b>{formatFaNumber(summary.documents||0)}</b>سند/شاخص</span>
+         <span><b>{formatFaNumber(summary.ranked||0)}</b>رتبه‌پذیر</span>
+       </div>
+@@ -116,8 +116,8 @@ export function RankPodium({rankings}:{rankings:any[]}){
+ 
+   return <section className="podiumStory">
+     <header>
+-      <div><span className="eyebrow">RTPMI portal podium</span><h2>سه پرتال پیشرو در این Snapshot</h2></div>
+-      <p>ارتفاع ستون از امتیاز بلوغ پرتال می‌آید؛ اندازه دانشگاه یا کیفیت علمی را نمایش نمی‌دهد.</p>
++      <div><span className="eyebrow">RTPMI portal podium</span><h2>سه پرتال معاونت پژوهشی و فناوری پیشرو در این Snapshot</h2></div>
++      <p>ارتفاع ستون از امتیاز بلوغ پرتال معاونت پژوهشی و فناوری می‌آید؛ اندازه دانشگاه یا کیفیت علمی را نمایش نمی‌دهد.</p>
+     </header>
+     <div className="podiumStage">
+       <div className="podiumGrid"/>

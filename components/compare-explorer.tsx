@@ -92,7 +92,7 @@ export function CompareExplorer(
       <div className="comparePicker glass">
         <div>
           <span className="eyebrow">
-            انتخاب ۲ تا ۴ پرتال
+            انتخاب ۲ تا ۴ پرتال معاونت پژوهشی و فناوری
           </span>
 
           <h2>
@@ -268,7 +268,7 @@ export function CompareExplorer(
         )}
 
       <p className="dataNote">
-        اعداد فقط برای پرتال‌های Evidence-qualified نمایش داده می‌شوند.
+        اعداد فقط برای پرتال‌های معاونت پژوهشی و فناوریِ Evidence-qualified نمایش داده می‌شوند.
         «نامشخص» در محاسبه صفر نشده است.
       </p>
     </>

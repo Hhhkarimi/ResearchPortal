@@ -4,7 +4,7 @@ import {useMemo,useState} from "react";
 import {PUBLIC_DIMENSION_COUNT,PUBLIC_OUTCOME_COUNT} from "@/lib/public-model";
 
 const dimensionLabels:any={
-  portalIdentity:"هویت پرتال",
+  portalIdentity:"هویت پرتال معاونت پژوهشی و فناوری",
   organization:"ساختار",
   libraryDocuments:"کتابخانه/اسناد",
   laboratories:"آزمایشگاه",

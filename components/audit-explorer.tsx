@@ -7,7 +7,7 @@ import {
 } from "react";
 
 const dimensions = [
-  ["portalIdentity", "هویت پرتال"],
+  ["portalIdentity", "هویت پرتال معاونت پژوهشی و فناوری"],
   ["organization", "ساختار"],
   ["libraryDocuments", "کتابخانه"],
   ["laboratories", "آزمایشگاه"],

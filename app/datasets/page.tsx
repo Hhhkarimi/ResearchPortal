@@ -5,7 +5,7 @@ export const metadata={title:"Open Data و API | ISC ۱۱۵"};
 
 const sets=[
   ["فهرست ۱۱۵ نهاد ISC","JSON + CSV","isc-institutions"],
-  ["ممیزی پرتال ۱۱۵ نهاد","JSON + CSV","audit-portal-audit"],
+  ["ممیزی پرتال معاونت پژوهشی و فناوری ۱۱۵ نهاد","JSON + CSV","audit-portal-audit"],
   ["رجیستر ۸۰۵ outcome شواهد","JSON + CSV","evidence-dimension-evidence"],
   ["ماتریس عمیق ۱۱۵ × ۷","JSON + CSV","audit-deep-audit-matrix"],
   ["رتبه‌بندی RTPMI 4.2","JSON + CSV","statistics-portal-ranking"],
