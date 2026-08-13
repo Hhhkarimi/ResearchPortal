@@ -1041,3 +1041,135 @@ summary:focus-visible{
   content-visibility:auto;
   contain-intrinsic-size:auto 58px
 }
+
+/* v11.1: resilient search, transparent scoring, international context. */
+.brandShort{display:none}
+.commandBody>a.active{background:var(--violet-soft);outline:1px solid color-mix(in srgb,var(--violet) 35%,transparent)}
+.searchResults>a.active{background:var(--violet-soft);outline:1px solid color-mix(in srgb,var(--violet) 28%,transparent)}
+.commandStatus{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:3px;padding:8px 10px;border-radius:9px;background:var(--cyan-soft);color:var(--muted);font-size:9px}
+.commandStatus.error{background:color-mix(in srgb,var(--amber) 14%,var(--surface))}
+.commandStatus button{flex:none;border:0;background:transparent;color:var(--violet);font:inherit;font-weight:750;cursor:pointer}
+
+.rankingPrimer,.methodFlow,.calculationSheet,.workedExample,.internationalStanding{border:1px solid var(--line);background:var(--surface);box-shadow:var(--ux-shadow-sm)}
+.rankingPrimer{margin:0 0 26px;padding:26px;border-radius:22px 22px 7px 22px}
+.rankingPrimer>header,.workedExample>header,.internationalStanding>header{display:flex;align-items:end;justify-content:space-between;gap:24px}
+.rankingPrimer h2,.methodFlow h2,.workedExample h2,.internationalStanding h2{margin:7px 0 0;font-size:clamp(25px,3vw,37px);letter-spacing:-1.2px}
+.rankingPrimer>header>a,.workedExample>header>a{font-size:10px;font-weight:750;text-decoration:none;white-space:nowrap}
+.rankingPrimer>div,.methodFlow>div{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:22px}
+.rankingPrimer article,.methodFlow article{min-height:150px;padding:17px;border-radius:14px;background:var(--soft)}
+.rankingPrimer article i,.methodFlow article i{display:block;color:var(--violet);font-style:normal;font-size:10px;font-weight:800;direction:ltr}
+.rankingPrimer article b,.methodFlow article b{display:block;margin-top:20px;font-size:13px}
+.rankingPrimer article p,.methodFlow article p{margin:6px 0 0;color:var(--muted);font-size:9px;line-height:1.9}
+.scoreEquation{display:grid;grid-template-columns:auto 1fr;gap:2px 18px;margin:9px 0 0;padding:13px 15px;border-radius:11px;background:var(--night);color:#fff}
+.scoreEquation span{grid-row:1/3;color:var(--lime);font-size:9px}
+.scoreEquation b{direction:ltr;text-align:right;font-size:12px}
+.scoreEquation small{color:#9ea8ba;font-size:8px}
+
+.methodFlow{padding:28px;border-radius:24px 24px 8px 24px}
+.methodSection{padding:75px 0}
+.metricMethodGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:11px}
+.metricMethodGrid article{display:flex;min-height:225px;flex-direction:column;padding:21px;border:1px solid var(--line);border-radius:18px;background:var(--surface);box-shadow:var(--ux-shadow-sm)}
+.metricMethodGrid header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.metricMethodGrid header span{font-size:15px;font-weight:800}
+.metricMethodGrid header b{padding:5px 9px;border-radius:99px;background:var(--violet-soft);color:var(--violet);font-size:11px}
+.metricMethodGrid p{color:var(--muted);font-size:11px;line-height:2}
+.metricMethodGrid footer{margin-top:auto;padding-top:15px;border-top:1px solid var(--line)}
+.metricMethodGrid footer span,.metricMethodGrid footer b{display:block}
+.metricMethodGrid footer span{color:var(--muted);font-size:8px}
+.metricMethodGrid footer b{margin-top:4px;font-size:10px;line-height:1.8}
+.calculationSheet{display:grid;grid-template-columns:minmax(0,1fr) 290px;border-radius:24px;overflow:hidden}
+.calculationSheet>div{padding:30px}
+.calculationSheet h2{font-size:clamp(27px,3vw,40px);margin:8px 0 24px}
+.calculationSheet dl{display:grid;gap:1px;margin:0;background:var(--line)}
+.calculationSheet dl>div{display:grid;grid-template-columns:125px 1fr;gap:16px;padding:14px;background:var(--surface)}
+.calculationSheet dt{color:var(--muted);font-size:9px}
+.calculationSheet dd{margin:0;font-size:11px;font-weight:700;line-height:1.9}
+.calculationSheet aside{display:flex;flex-direction:column;justify-content:center;padding:27px;background:var(--night);color:#fff}
+.calculationSheet aside span{color:var(--lime);font-size:9px}
+.calculationSheet aside b{margin:13px 0 7px;font-size:26px;direction:ltr;text-align:right}
+.calculationSheet aside p{margin:0;color:#9ea8ba;font-size:10px;line-height:2}
+.workedExample{margin:70px 0 14px;padding:28px;border-radius:24px 24px 8px 24px}
+.exampleSummary{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:23px}
+.exampleSummary article{padding:15px;border-radius:13px;background:var(--soft)}
+.exampleSummary span,.exampleSummary b{display:block}
+.exampleSummary span{color:var(--muted);font-size:8px}.exampleSummary b{margin-top:7px;font-size:22px;direction:ltr;text-align:right}
+.exampleMetrics{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;margin-top:9px;background:var(--line)}
+.exampleMetrics>div{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:11px;background:var(--surface)}
+.exampleMetrics span{font-size:8px;color:var(--muted)}.exampleMetrics b{font-size:12px;direction:ltr}
+.workedExample>p{margin:12px 0 0;color:var(--muted);font-size:9px}
+.methodNotes{margin-top:20px}.methodNotes h3{margin-top:28px;font-size:16px}
+
+.internationalStanding{scroll-margin-top:145px;margin-top:14px;padding:27px;border-radius:22px 22px 7px 22px;position:relative;overflow:hidden}
+.internationalStanding:before{content:"";position:absolute;top:0;right:0;bottom:0;width:4px;background:var(--cyan)}
+.internationalStanding.unavailable:before{background:var(--amber)}
+.licenseTag{padding:5px 9px;border:1px solid var(--line);border-radius:99px;color:var(--muted);font-size:8px;direction:ltr}
+.internationalResult{display:grid;grid-template-columns:220px minmax(0,1fr);gap:10px;margin-top:23px}
+.internationalOrder{grid-row:1/3;display:flex;flex-direction:column;justify-content:center;padding:20px;border-radius:17px;background:var(--night);color:#fff}
+.internationalOrder span{color:#9ea8ba;font-size:9px}.internationalOrder b{font-size:43px;direction:ltr;text-align:right}.internationalOrder small{color:var(--lime);font-size:8px;line-height:1.8}
+.internationalResult dl{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0}
+.internationalResult dl>div{padding:15px;border-radius:13px;background:var(--soft)}
+.internationalResult dt{color:var(--muted);font-size:8px}.internationalResult dd{margin:7px 0 0;font-size:19px;font-weight:800;direction:ltr;text-align:right}
+.internationalContext{padding:15px;border:1px solid var(--line);border-radius:13px}
+.internationalContext p{margin:0;color:var(--muted);font-size:9px;line-height:1.9}
+.internationalContext>div{display:flex;gap:14px;flex-wrap:wrap;margin-top:8px}.internationalContext a,.internationalEmpty a{font-size:9px;font-weight:750;text-decoration:none}
+.internationalEmpty{margin-top:22px;padding:20px;border-radius:15px;background:color-mix(in srgb,var(--amber) 11%,var(--surface))}
+.internationalEmpty b{font-size:13px}.internationalEmpty p{max-width:800px;color:var(--muted);font-size:10px;line-height:1.9}
+.internationalStanding>footer{margin-top:13px;padding-top:12px;border-top:1px solid var(--line);color:var(--muted);font-size:8px}
+.inlineMethodLink{color:var(--violet);font-weight:750;text-decoration:none}
+
+[data-theme="dark"] .commandStatus{background:#17383a}
+[data-theme="dark"] .commandStatus.error{background:#392f1d}
+[data-theme="dark"] .rankingPrimer article,[data-theme="dark"] .methodFlow article,[data-theme="dark"] .exampleSummary article,[data-theme="dark"] .internationalResult dl>div{background:var(--surface-2)}
+
+@media(max-width:900px){
+  .rankingPrimer>div,.methodFlow>div{grid-template-columns:1fr 1fr}
+  .calculationSheet{grid-template-columns:1fr}
+  .calculationSheet aside{min-height:185px}
+  .exampleMetrics{grid-template-columns:1fr 1fr}
+  .internationalResult{grid-template-columns:190px minmax(0,1fr)}
+  .internationalResult dl{grid-template-columns:1fr 1fr}
+}
+
+@media(max-width:680px){
+  html,body{overflow-x:clip}
+  .shell{width:min(100% - 24px,1320px)}
+  .headerIn{height:64px;gap:7px}
+  .brand{min-width:0;flex:1;gap:8px}.brand>span:last-child{min-width:0}.brandMark{width:36px;height:36px;flex:none}
+  .brandLong{display:none}.brandShort{display:block}.siteHeader .brand strong{font-size:11px}.siteHeader .brand small{font-size:7px}
+  .headerActions{flex:none;gap:5px}.commandTrigger,.themeToggle,.menuButton{width:37px;height:37px;border-radius:10px}.commandTrigger{padding:0}
+  .nav{top:64px;grid-template-columns:1fr;max-height:calc(100dvh - 64px);overflow:auto;padding:12px;background:var(--surface)}
+  .nav a{padding:11px 12px}
+  .page{padding-top:12px;padding-bottom:76px}.section,.methodSection{padding:52px 0}
+  .pageHero{gap:15px;padding:27px 0 29px;margin-bottom:22px}.hero h1,.pageHero h1,.profileHero h1{font-size:clamp(31px,9.6vw,40px);line-height:1.22;letter-spacing:-1.7px}
+  .pageHero p,.profileHero>div:first-child>p{font-size:12px;line-height:1.95}
+  .pageHeroStamp{min-height:0;padding:17px;border-radius:18px}.pageHeroStamp b{font-size:36px}
+  .sectionHead{gap:8px}.sectionHead h2{font-size:clamp(25px,8vw,34px);letter-spacing:-1px}.sectionHead p{font-size:10px}
+  .profileHero{gap:18px;padding:28px 0 22px}.profileScore{min-height:0;padding:20px;border-radius:20px}.profileScore>b{font-size:52px}
+  .profileNav{top:70px;margin-inline:-2px;width:calc(100% + 4px)}
+  .profileSnapshot{grid-template-columns:1fr 1fr}.profileSnapshot>div{padding:15px}
+  .dimensionGrid,.metricGrid{grid-template-columns:1fr}.dimensionCard{min-height:145px}.metricCard{min-height:92px}
+  .profileDecision{padding-top:48px}.profileInsightGrid article{min-height:155px}.actionGapPanel article{align-items:start;padding:15px 13px}.actionGapPanel article p{line-height:1.8}
+  .evidenceSummary,.evidenceStory aside{padding:18px}.evidenceSummary h2{font-size:25px}.sourceItem{align-items:start;padding:11px}.sourceItem small{max-width:66vw}
+  .commandBackdrop{padding:0}.commandDialog{display:grid;grid-template-rows:auto minmax(0,1fr) auto;width:100%;height:100dvh;border:0;border-radius:0}.commandDialog>header{height:61px;gap:8px;padding:0 11px}.commandDialog>header>span{font-size:20px}.commandDialog input{min-width:0;font-size:13px}.commandBody{max-height:none;min-height:0}.commandBody>a{grid-template-columns:47px minmax(0,1fr) auto;gap:8px;padding:10px 8px}.commandDialog>footer{padding-bottom:max(8px,env(safe-area-inset-bottom))}
+  .rankingPrimer,.methodFlow,.workedExample,.internationalStanding{padding:19px;border-radius:18px 18px 6px 18px}
+  .rankingPrimer>header,.workedExample>header,.internationalStanding>header{align-items:start;flex-direction:column;gap:10px}
+  .rankingPrimer>div,.methodFlow>div{grid-template-columns:1fr}.rankingPrimer article,.methodFlow article{min-height:0}.scoreEquation{grid-template-columns:1fr}.scoreEquation span{grid-row:auto}
+  .metricMethodGrid{grid-template-columns:1fr}.metricMethodGrid article{min-height:205px}
+  .calculationSheet>div{padding:20px}.calculationSheet dl>div{grid-template-columns:1fr;gap:4px}.calculationSheet aside{min-height:0}
+  .exampleSummary{grid-template-columns:1fr 1fr}.exampleMetrics{grid-template-columns:1fr}.workedExample{margin-top:50px}
+  .internationalResult{grid-template-columns:1fr}.internationalOrder{grid-row:auto}.internationalResult dl{grid-template-columns:1fr 1fr}.licenseTag{white-space:normal}
+  .rankTable{display:grid;gap:8px;overflow:visible;border:0;background:transparent}.rankHead{display:none}.rankRow{grid-template-columns:43px minmax(0,1fr) 56px;grid-template-areas:"rank university score" "group group group" "confidence confidence confidence";gap:9px;min-width:0!important;padding:15px;border:1px solid var(--line);border-radius:15px;background:var(--surface)}
+  .rankRow>b:first-child{grid-area:rank}.rankRow>span{grid-area:university;min-width:0}.rankRow>i{grid-area:group}.rankRow>.confidence{grid-area:confidence}.rankRow>strong:last-child{grid-area:score}
+  .rankRow span strong{font-size:12px}.rankRow span small{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.rankRow>i{padding-top:7px;border-top:1px solid var(--line)}
+  .methodBanner{gap:6px;padding:14px}.methodBanner span{line-height:1.8}
+  .constellation{min-height:450px;border-radius:22px;padding:13px}.constellationField{height:340px}.orbitLine.two{width:330px}.orbitLine.three{width:390px}.signalSweep{width:410px;height:410px}.constellationCore{width:128px;height:128px}.constellationSignals{max-width:calc(100% - 12px);overflow:hidden}.constellationSignals span{min-width:52px;padding:4px}
+  .podiumStory{padding:21px 10px 0;border-radius:20px}.podiumStory h2{font-size:25px}.podiumStage{height:310px}.podiumPerson span{font-size:8px;line-height:1.6}.podiumPerson b{font-size:21px}
+}
+
+@media(max-width:400px){
+  .shell{width:min(100% - 18px,1320px)}
+  .commandTrigger,.themeToggle,.menuButton{width:35px;height:35px}.headerActions{gap:3px}.brandMark{width:34px;height:34px}.siteHeader .brand small{display:none}
+  .profileSnapshot,.exampleSummary,.internationalResult dl{grid-template-columns:1fr}
+  .profileActions{align-items:stretch;flex-direction:column}.profileActions a,.profileActions button,.disabledAction{text-align:center}
+  .constellation{margin-inline:0}.constellationSignals span:nth-child(n+4){display:none}
+}

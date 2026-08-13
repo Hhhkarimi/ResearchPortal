@@ -32,13 +32,20 @@ const rankText = (query: string, title: string, searchText: string) => {
   return 90 + tokens.filter((token) => normalizedTitle.includes(token)).length * 10;
 };
 
+const kindBoost: Record<GlobalSearchKind, number> = {
+  university: 80,
+  system: 18,
+  unit: 10,
+  document: 0,
+};
+
 export function searchObservatory(rawQuery: string, limit = 18): GlobalSearchResult[] {
   const query = normalize(rawQuery);
   if (query.length < 2) return [];
 
   const results = searchIndex.flatMap(({searchText, ...result}) => {
-    const score = rankText(query, result.title, searchText);
-    return score ? [{...result, score}] : [];
+    const textScore = rankText(query, result.title, searchText);
+    return textScore ? [{...result, score: textScore + kindBoost[result.kind]}] : [];
   });
 
   return results

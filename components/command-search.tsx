@@ -1,7 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import {useEffect, useRef, useState} from "react";
+import {useRouter} from "next/navigation";
+import {useEffect, useMemo, useRef, useState} from "react";
+import {searchUniversitiesLocally} from "@/lib/university-search";
 
 type Result = {
   id: string;
@@ -19,11 +21,23 @@ const labels = {
 };
 
 export function CommandSearch() {
+  const router = useRouter();
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
-  const [results, setResults] = useState<Result[]>([]);
+  const [remoteResults, setRemoteResults] = useState<Result[] | null>(null);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [retryNonce, setRetryNonce] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
+
+  const fallback = useMemo(() => searchUniversitiesLocally(query), [query]);
+  const results = useMemo(() => {
+    if (!remoteResults) return fallback;
+    return [...remoteResults, ...fallback].filter((result, index, all) =>
+      all.findIndex((candidate) => candidate.id === result.id) === index
+    ).slice(0, 18);
+  }, [fallback, remoteResults]);
 
   useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
@@ -40,13 +54,15 @@ export function CommandSearch() {
   useEffect(() => {
     if (!open) return;
     inputRef.current?.focus();
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    return () => { document.body.style.overflow = previousOverflow; };
   }, [open]);
 
   useEffect(() => {
+    if (!open) return;
     const trimmed = query.trim();
-    if (trimmed.length < 2) {
-      return;
-    }
+    if (trimmed.length < 2) return;
     const controller = new AbortController();
     const timer = window.setTimeout(async () => {
       setLoading(true);
@@ -54,10 +70,14 @@ export function CommandSearch() {
         const response = await fetch(`/api/v1/search?q=${encodeURIComponent(trimmed)}&limit=18`, {
           signal: controller.signal,
         });
+        if (!response.ok) throw new Error(`Search request failed: ${response.status}`);
         const payload = await response.json();
-        setResults(payload.data || []);
+        const remote = Array.isArray(payload.data) ? payload.data as Result[] : [];
+        setRemoteResults(remote);
       } catch (error) {
-        if ((error as Error).name !== "AbortError") setResults([]);
+        if ((error as Error).name !== "AbortError") {
+          setError(true);
+        }
       } finally {
         if (!controller.signal.aborted) setLoading(false);
       }
@@ -66,7 +86,13 @@ export function CommandSearch() {
       window.clearTimeout(timer);
       controller.abort();
     };
-  }, [query]);
+  }, [open, query, retryNonce]);
+
+  const openResult = (result: Result | undefined) => {
+    if (!result) return;
+    setOpen(false);
+    router.push(result.href);
+  };
 
   return (
     <>
@@ -80,31 +106,50 @@ export function CommandSearch() {
           <section className="commandDialog" role="dialog" aria-modal="true" aria-label="جست‌وجوی سراسری" onMouseDown={(event) => event.stopPropagation()}>
             <header>
               <span aria-hidden="true">⌕</span>
-              <input ref={inputRef} value={query} onChange={(event) => {
+              <input ref={inputRef} value={query} onKeyDown={(event) => {
+                if (event.key === "ArrowDown") {
+                  event.preventDefault();
+                  setActiveIndex((current) => Math.min(current + 1, results.length - 1));
+                } else if (event.key === "ArrowUp") {
+                  event.preventDefault();
+                  setActiveIndex((current) => Math.max(current - 1, 0));
+                } else if (event.key === "Enter") {
+                  event.preventDefault();
+                  openResult(results[activeIndex]);
+                }
+              }} onChange={(event) => {
                 const value = event.target.value;
                 setQuery(value);
+                setRemoteResults(null);
+                setActiveIndex(0);
+                setError(false);
                 if (value.trim().length < 2) {
-                  setResults([]);
                   setLoading(false);
                 }
               }}
-                placeholder="دانشگاه، سند، آزمایشگاه، گرنت یا سامانه…" aria-label="عبارت جست‌وجو" />
-              <button type="button" onClick={() => setOpen(false)}>بستن</button>
+                placeholder="دانشگاه، سند، آزمایشگاه، گرنت یا سامانه…" aria-label="عبارت جست‌وجو"
+                role="combobox" aria-expanded="true" aria-controls="observatory-search-results"
+                aria-activedescendant={results[activeIndex] ? `search-result-${activeIndex}` : undefined} />
+              <button type="button" onClick={() => setOpen(false)} aria-label="بستن جست‌وجو">بستن</button>
             </header>
-            <div className="commandBody" aria-live="polite">
+            <div className="commandBody" id="observatory-search-results" role="listbox" aria-live="polite">
+              {error ? <div className="commandStatus error" role="status"><span>جست‌وجوی کامل موقتاً در دسترس نیست؛ نتایج دانشگاهی محلی نمایش داده می‌شوند.</span><button type="button" onClick={() => {setRemoteResults(null);setError(false);setRetryNonce((value) => value + 1);}}>تلاش دوباره</button></div> : null}
+              {loading && results.length ? <div className="commandStatus" role="status">در حال تکمیل نتایج از اسناد، سامانه‌ها و واحدها…</div> : null}
               {query.trim().length < 2 ? (
                 <div className="commandGuide"><b>در کل رصدخانه جست‌وجو کنید</b><p>نام دانشگاه، عنوان سند، واحد یا سامانه را بنویسید.</p></div>
-              ) : loading ? (
+              ) : loading && !results.length ? (
                 <div className="commandGuide">در حال جست‌وجو…</div>
-              ) : results.length ? results.map((result) => (
-                <Link href={result.href} key={result.id} onClick={() => setOpen(false)}>
+              ) : results.length ? results.map((result, index) => (
+                <Link href={result.href} key={result.id} id={`search-result-${index}`} role="option"
+                  aria-selected={index === activeIndex} className={index === activeIndex ? "active" : ""}
+                  onMouseEnter={() => setActiveIndex(index)} onClick={() => setOpen(false)}>
                   <i>{labels[result.kind]}</i><span><b>{result.title}</b><small>{result.context}</small></span><em>←</em>
                 </Link>
               )) : (
                 <div className="commandGuide"><b>نتیجه‌ای پیدا نشد</b><p>عنوان کوتاه‌تر یا نام دانشگاه را امتحان کنید.</p></div>
               )}
             </div>
-            <footer><span>Enter برای باز کردن</span><span>Esc برای بستن</span></footer>
+            <footer><span>Enter باز کردن</span><span>↑↓ انتخاب</span><span>Esc بستن</span></footer>
           </section>
         </div>
       ) : null}

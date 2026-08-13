@@ -23,7 +23,7 @@ export function Header(){
     <div className="shell headerIn">
       <Link href="/" className="brand" aria-label="صفحه نخست رصدخانه">
         <span className="brandMark" aria-hidden="true"><i/><i/><i/></span>
-        <span><strong>رصدخانه پرتال معاونت پژوهشی و فناوری</strong><small>ISC ۱۱۵ · IRAN</small></span>
+        <span><strong className="brandLong">رصدخانه پرتال معاونت پژوهشی و فناوری</strong><strong className="brandShort">رصدخانه پژوهش</strong><small>ISC ۱۱۵ · IRAN</small></span>
       </Link>
       <nav className={open?"nav open":"nav"} aria-label="ناوبری اصلی">
         {nav.map(([href,label])=><Link href={href} key={href} onClick={()=>setOpen(false)} className={pathname.startsWith(href)?"active":""}>{label}</Link>)}
