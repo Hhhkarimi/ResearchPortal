@@ -1,6 +1,6 @@
 {
   "schemaVersion": "10.0.0",
-  "snapshotDate": "2026-08-11",
+  "snapshotDate": "2026-08-12",
   "institution": {
     "category": "جامع",
     "iscRank": 29,
@@ -16,7 +16,7 @@
     "nameFa": "دانشگاه زنجان",
     "iscCategory": "جامع",
     "iscRank": 29,
-    "auditDate": "2026-08-12",
+    "auditDate": "2026-08-13",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.znu.ac.ir/",
     "evidenceUrls": [
@@ -84,17 +84,18 @@
     "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
-      "lastRun": "2026-08-12",
+      "lastRun": "2026-08-13",
       "promotedSources": 190,
       "socialEvidenceRemoved": true
-    }
+    },
+    "observedSignals": []
   },
   "deepAudit": {
     "universitySlug": "zanjan",
     "nameFa": "دانشگاه زنجان",
     "iscCategory": "جامع",
     "iscRank": 29,
-    "auditDate": "2026-08-11",
+    "auditDate": "2026-08-12",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.znu.ac.ir/",
     "evidenceUrls": [
@@ -166,14 +167,13 @@
       "libraryDocuments": "verified",
       "laboratories": "verified",
       "industryTechnology": "verified",
-      "informationTechnology": "verified",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
     "auditEvidenceCoverage": 100,
-    "unitsFound": 22,
-    "systemsFound": 43,
-    "documentsFound": 143,
+    "unitsFound": 17,
+    "systemsFound": 38,
+    "documentsFound": 132,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -188,7 +188,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 105,
       "sources": [
         {
@@ -199,56 +199,56 @@
         },
         {
           "url": "https://research.znu.ac.ir/page/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.znu.ac.ir/page/oldmng-rsr",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.znu.ac.ir/rules",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.znu.ac.ir/services",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.znu.ac.ir/services/opportunity-rsr",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.znu.ac.ir/services/malekiat-fekri-rsr",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.znu.ac.ir/services/user-help-it",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://resmng.znu.ac.ir/page/telephone-directory-research-affairs",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/pay-services-from-research-site",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
@@ -325,15 +325,17 @@
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5242-forme-arshadeblag.docx",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "کاربرگ درخواست حمایت از پايان‌نامه ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
+          "id": null,
+          "sourceLabel": "کاربرگ درخواست حمایت از پايان‌نامه ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری"
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5293-form-zamaem.docx",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
+          "id": null,
+          "sourceLabel": "ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری"
         },
         {
           "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5242-forme-arshadeblag.docx",
@@ -349,9 +351,10 @@
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5190-formkala.docx",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "فرم درخواست پرداخت حق التحقیق دانشجویان دانشگاه زنجان ضمائم و فرم‌های مربوط به شیوه‌نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه",
+          "id": null,
+          "sourceLabel": "فرم درخواست پرداخت حق التحقیق دانشجویان دانشگاه زنجان ضمائم و فرم‌های مربوط به شیوه‌نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه"
         },
         {
           "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5190-formkala.docx",
@@ -361,15 +364,17 @@
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-7332-rules-all.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "مجموعه آیین نامه ها، دستورالعمل ها و شیوه نامه ها",
+          "id": null,
+          "sourceLabel": "مجموعه آیین نامه ها، دستورالعمل ها و شیوه نامه ها"
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5233-shiveh-arshad.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "فلوچارت کارگاههای خارجی تحصیلات تکمیلی دستورالعمل ها و آئین نامه ها (تحصیلات تکمیلی) شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
+          "id": null,
+          "sourceLabel": "فلوچارت کارگاههای خارجی تحصیلات تکمیلی دستورالعمل ها و آئین نامه ها (تحصیلات تکمیلی) شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری"
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5235-mosavabe-tahsilat.pdf",
@@ -415,9 +420,10 @@
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5220-form-forsat.docx",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه فرصت مطالعاتی دانشگاه زنجان فرم ها (فرصت مطالعاتی) فرم و شیوه نامه تهیه گزارش نهایی فرصت مطالعاتي",
+          "id": null,
+          "sourceLabel": "شیوه نامه فرصت مطالعاتی دانشگاه زنجان فرم ها (فرصت مطالعاتی) فرم و شیوه نامه تهیه گزارش نهایی فرصت مطالعاتي"
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5237-aein-hemayat.pdf",
@@ -427,9 +433,10 @@
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/library-7050-znuthesis.docx",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "آیین نامه وجین کتابخانه های دانشگاه زنجان دستورالعمل‌ها دستورالعمل تدوین پایان نامه های دانشگاه با ورد",
+          "id": null,
+          "sourceLabel": "آیین نامه وجین کتابخانه های دانشگاه زنجان دستورالعمل‌ها دستورالعمل تدوین پایان نامه های دانشگاه با ورد"
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/central-lab-7558-regulations-centrallab.pdf",
@@ -457,9 +464,10 @@
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5186-shiveh-kala.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "آيين نامه پژوهانه شیوه نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه",
+          "id": null,
+          "sourceLabel": "آيين نامه پژوهانه شیوه نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه"
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5188-aein-phajohanehvezarat.pdf",
@@ -529,9 +537,10 @@
         },
         {
           "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5186-shiveh-kala.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "آيين نامه پژوهانه شیوه نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه",
+          "id": null,
+          "sourceLabel": "آيين نامه پژوهانه شیوه نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه"
         },
         {
           "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5188-aein-phajohanehvezarat.pdf",
@@ -541,9 +550,10 @@
         },
         {
           "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5187-shiveh-mosavabat.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "مصوبات هیأت محترم رئیسه دانشگاه در ارتباط با شیوه‌نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه",
+          "id": null,
+          "sourceLabel": "مصوبات هیأت محترم رئیسه دانشگاه در ارتباط با شیوه‌نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه"
         },
         {
           "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5217-aein-forsatmotalati.pdf",
@@ -850,8 +860,8 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 22,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 21,
       "sources": [
         {
           "url": "https://research.znu.ac.ir/",
@@ -864,153 +874,112 @@
           "kind": "unit",
           "claim": "کتابخانه مرکزی و مرکز اسناد دانشگاه زنجان",
           "id": "zanjan-discovery-unit-library-8939b6031079",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "http://library.znu.ac.ir/simorghportal/tabid/34/Default.aspx",
           "kind": "unit",
           "claim": "کتابخانه مرکزی و مرکز اسناد دانشگاه زنجان",
           "id": "zanjan-discovery-unit-library-78133fb4cd9c",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://tacs.znu.ac.ir/rules/forsat-edu-teachers",
           "kind": "unit",
           "claim": "مدیریت امور فناوری و ارتباط با جامعه - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-industry-1aad9f023f44",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "industry"
         },
         {
           "url": "https://research.znu.ac.ir/services/malekiat-fekri-rsr",
           "kind": "unit",
           "claim": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-technology-13b1dc170368",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://research.znu.ac.ir/services/refrences-lib",
           "kind": "unit",
           "claim": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-library-b784f84566e1",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://clab.znu.ac.ir/",
           "kind": "unit",
           "claim": "آزمایشگاه مرکزی و اداره تجهیزات آزمایشگاهی - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-laboratory-f9f0a0bd4533",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "http://library.znu.ac.ir/simorghportal/tabid/34/ctl/Privacy/Default.aspx",
           "kind": "unit",
           "claim": "کتابخانه مرکزی و مرکز اسناد دانشگاه زنجان",
           "id": "zanjan-discovery-unit-library-6941ae86ebb8",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "http://library.znu.ac.ir/simorghportal/tabid/34/ctl/Terms/Default.aspx",
           "kind": "unit",
           "claim": "کتابخانه مرکزی و مرکز اسناد دانشگاه زنجان",
           "id": "zanjan-discovery-unit-library-c83e2a87bdfa",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://resmng.znu.ac.ir/",
           "kind": "unit",
           "claim": "مدیریت امور پژوهشی - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-research-af100cd69fe7",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "research"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/scientific-publications-country",
           "kind": "unit",
           "claim": "مدیریت امور پژوهشی - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-library-f9407973195c",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://resmng.znu.ac.ir/page/home-resmng",
           "kind": "unit",
           "claim": "مدیریت امور پژوهشی - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-research-c4b2a593588c",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://it.znu.ac.ir/",
-          "kind": "unit",
-          "claim": "گروه توسعه فناوری اطلاعات، امنیت و هوشمندسازی - دانشگاه زنجان | University of zanjan",
-          "id": "zanjan-discovery-unit-it-4005e06a8362",
-          "unitType": "it",
-          "relationStatus": "organizationally-attributed",
-          "relationshipEvidenceUrl": "https://research.znu.ac.ir/"
+          "unitType": "research"
         },
         {
           "url": "https://samp.znu.ac.ir/",
           "kind": "unit",
           "claim": "سامانه مدیریت پژوهش(سمپ) دانشگاه زنجان",
           "id": "zanjan-discovery-unit-research-3479dd5aa79e",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "research"
         },
         {
           "url": "https://resmng.znu.ac.ir/page/domestic-scientific-journals-rsr",
           "kind": "unit",
           "claim": "مدیریت امور پژوهشی - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-library-4b81ad0821af",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.znu.ac.ir/services/publishing-workflow-book-authoring-rsr",
           "kind": "unit",
           "claim": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-library-de5c8260124b",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.znu.ac.ir/services/tech-transfer-rsr",
           "kind": "unit",
           "claim": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-technology-572302c9ccd7",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://tacs.znu.ac.ir/rules/ekhtera",
           "kind": "unit",
           "claim": "مدیریت امور فناوری و ارتباط با جامعه - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-technology-0f46e1be168d",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://research.znu.ac.ir/services/opportunity-rsr",
@@ -1055,8 +1024,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 28,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 26,
       "sources": [
         {
           "url": "https://research.znu.ac.ir/",
@@ -1090,33 +1059,31 @@
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/scientific-publications-country",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "مدیریت امور پژوهشی - دانشگاه زنجان | University of zanjan",
+          "id": "zanjan-discovery-unit-library-f9407973195c",
+          "unitType": "library"
         },
         {
           "url": "https://resmng.znu.ac.ir/page/domestic-scientific-journals-rsr",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "مدیریت امور پژوهشی - دانشگاه زنجان | University of zanjan",
+          "id": "zanjan-discovery-unit-library-4b81ad0821af",
+          "unitType": "library"
         },
         {
           "url": "https://research.znu.ac.ir/services/refrences-lib",
           "kind": "unit",
           "claim": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-library-b784f84566e1",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.znu.ac.ir/services/publishing-workflow-book-authoring-rsr",
           "kind": "unit",
           "claim": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-library-de5c8260124b",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/pay-services-from-research-site",
@@ -1140,12 +1107,6 @@
           "systemCategory": "journals"
         },
         {
-          "url": "https://resmng.znu.ac.ir/rules/forms-sci-pub-country",
-          "kind": "document",
-          "claim": "فرم ها (نشریات علمی کشور)",
-          "id": "zanjan-discovery-document-cf65fd793859"
-        },
-        {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5168-aein98.pdf",
           "kind": "document",
           "claim": "آیین نامه نشریات علمی کشور (تعیین اعتبار)",
@@ -1159,9 +1120,10 @@
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5176-shiveh-rotbeh.pdf",
-          "kind": "document",
-          "claim": "شيوه نامه ارزيابي و رتبه بندي نشريات علمي",
-          "id": "zanjan-discovery-document-894123a4773f"
+          "kind": "research-review-specific",
+          "claim": "آيين نامه تعيين هزينه پردازش مقاله در نشریات علمی شيوه نامه ارزيابي و رتبه بندي نشريات علمي",
+          "id": null,
+          "sourceLabel": "آيين نامه تعيين هزينه پردازش مقاله در نشریات علمی شيوه نامه ارزيابي و رتبه بندي نشريات علمي"
         },
         {
           "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5194-haghtashvigh1404.pdf",
@@ -1198,12 +1160,6 @@
           "kind": "document",
           "claim": "شيوه نامه ارزيابي و رتبه بندي نشريات علمي شیوه نامه مجلات علمی دانشگاه زنجان",
           "id": "zanjan-discovery-document-e30950ee2bac"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-8872-formehazinenashr.docx",
-          "kind": "document",
-          "claim": "شیوه نامه مجلات علمی دانشگاه زنجان فرم هزینه کرد نشریات",
-          "id": "zanjan-discovery-document-394c71368daf"
         },
         {
           "url": "https://research.znu.ac.ir/services/cost-workflow-publishing-articles-domestic-journals-rsr",
@@ -1255,7 +1211,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 2,
       "sources": [
         {
@@ -1266,9 +1222,10 @@
         },
         {
           "url": "https://clab.znu.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی و اداره تجهیزات آزمایشگاهی - دانشگاه زنجان | University of zanjan",
+          "id": "zanjan-discovery-unit-laboratory-f9f0a0bd4533",
+          "unitType": "laboratory"
         }
       ],
       "publicationAdjustment": null,
@@ -1285,8 +1242,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 10,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 9,
       "sources": [
         {
           "url": "https://research.znu.ac.ir/",
@@ -1296,36 +1253,31 @@
         },
         {
           "url": "https://tacs.znu.ac.ir/rules/ekhtera",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
+          "kind": "unit",
+          "claim": "مدیریت امور فناوری و ارتباط با جامعه - دانشگاه زنجان | University of zanjan",
+          "id": "zanjan-discovery-unit-technology-0f46e1be168d",
+          "unitType": "technology"
         },
         {
           "url": "https://tacs.znu.ac.ir/rules/forsat-edu-teachers",
           "kind": "unit",
           "claim": "مدیریت امور فناوری و ارتباط با جامعه - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-industry-1aad9f023f44",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "industry"
         },
         {
           "url": "https://research.znu.ac.ir/services/malekiat-fekri-rsr",
           "kind": "unit",
           "claim": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-technology-13b1dc170368",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://research.znu.ac.ir/services/tech-transfer-rsr",
           "kind": "unit",
           "claim": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-technology-572302c9ccd7",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://research.znu.ac.ir/services/membership-workflow-domestic-assemblies-rsr",
@@ -1340,13 +1292,6 @@
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
           "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://it.znu.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "فناوری اطلاعات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "فناوری اطلاعات — کشف خودکار"
         },
         {
           "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5257-shivehnameh-ekh.pdf",
@@ -1368,664 +1313,6 @@
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
-      "id": "zanjan:informationTechnology",
-      "universitySlug": "zanjan",
-      "nameFa": "دانشگاه زنجان",
-      "iscCategory": "جامع",
-      "iscRank": 29,
-      "dimension": "informationTechnology",
-      "status": "observed-reference",
-      "reportedStatus": "verified",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 81,
-      "sources": [
-        {
-          "url": "https://research.znu.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific informationTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://it.znu.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific informationTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://it.znu.ac.ir/rules/rules-guidelines-it",
-          "kind": "system",
-          "claim": "گروه توسعه فناوری اطلاعات، امنیت و هوشمندسازی - دانشگاه زنجان | University of zanjan",
-          "id": "zanjan-discovery-system-963df21e3cd1",
-          "systemCategory": "it"
-        },
-        {
-          "url": "https://it.znu.ac.ir/systems",
-          "kind": "system",
-          "claim": "گروه توسعه فناوری اطلاعات، امنیت و هوشمندسازی - دانشگاه زنجان | University of zanjan",
-          "id": "zanjan-discovery-system-f3627c164437",
-          "systemCategory": "it"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/user-help-it",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://systems.znu.ac.ir/it",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://research.znu.ac.ir/page/rw1395",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/page/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/page/oldmng-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/rules",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/opportunity-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/speech-workflow-process-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/publishing-workflow-translation-query-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/publishing-workflow-book-authoring-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/membership-workflow-domestic-assemblies-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/cost-workflow-publishing-articles-domestic-journals-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/the-workflow-company-internal-conference-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/summer-research-mission-workflow-before-departure-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/summer-research-mission-workflow-after-return-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/the-workflow-process-company-the-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/interior-designs-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/participating-scientific-conference-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/conference-abroad-after-returning-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/publishing-articles-foreign-journals-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/proj-outside-uni-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/postdoctoral-proj-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/research-assistant-proj-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/tafahomnameh-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/military-plans-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/jaygozin-khedmat-plan-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/tech-assistant-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/maharat-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/research-week-nemayeshgah-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/davari-proj-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/tech-transfer-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/the-workflow-paying-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/malekiat-fekri-rsr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/services/refrences-lib",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/page/home-resmng",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://samp.znu.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/rules/research-plans",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/page/telephone-directory-research-affairs",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/rules/pay-services-from-research-site",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "http://library.znu.ac.ir/SimorghPortal/",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "http://library.znu.ac.ir/simorghportal/tabid/34/Default.aspx",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://clab.znu.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "http://library.znu.ac.ir/simorghportal/tabid/34/ctl/Privacy/Default.aspx",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "http://library.znu.ac.ir/simorghportal/tabid/34/ctl/Terms/Default.aspx",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/page/",
-          "kind": "research-review-reference",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/rules/scientific-publications-country",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/page/domestic-scientific-journals-rsr",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://www.znu.ac.ir/user/login",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://tacs.znu.ac.ir/rules/ekhtera",
-          "kind": "research-review-reference",
-          "claim": "صنعت و فناوری — کشف خودکار",
-          "id": null,
-          "sourceLabel": "صنعت و فناوری — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5201-aein-ertegha.pdf",
-          "kind": "research-review-reference",
-          "claim": "ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری هیئت ممیزه دستورالعمل ها و آئین نامه ها (هیئت ممیزه) آئین نامه ارتقاء",
-          "id": null,
-          "sourceLabel": "ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری هیئت ممیزه دستورالعمل ها و آئین نامه ها (هیئت ممیزه) آئین نامه ارتقاء",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-7332-rules-all.pdf",
-          "kind": "research-review-reference",
-          "claim": "مجموعه آیین نامه ها، دستورالعمل ها و شیوه نامه ها",
-          "id": null,
-          "sourceLabel": "مجموعه آیین نامه ها، دستورالعمل ها و شیوه نامه ها",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5168-aein98.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه نشریات علمی کشور (تعیین اعتبار)",
-          "id": null,
-          "sourceLabel": "آیین نامه نشریات علمی کشور (تعیین اعتبار)",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5186-shiveh-kala.pdf",
-          "kind": "research-review-reference",
-          "claim": "آيين نامه پژوهانه شیوه نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه",
-          "id": null,
-          "sourceLabel": "آيين نامه پژوهانه شیوه نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5242-forme-arshadeblag.docx",
-          "kind": "research-review-reference",
-          "claim": "کاربرگ درخواست حمایت از پايان‌نامه ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
-          "id": null,
-          "sourceLabel": "کاربرگ درخواست حمایت از پايان‌نامه ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5293-form-zamaem.docx",
-          "kind": "research-review-reference",
-          "claim": "ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
-          "id": null,
-          "sourceLabel": "ضمائم و فرم‌های مربوط به شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5186-shiveh-kala.pdf",
-          "kind": "research-review-reference",
-          "claim": "آيين نامه پژوهانه شیوه نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه",
-          "id": null,
-          "sourceLabel": "آيين نامه پژوهانه شیوه نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5187-shiveh-mosavabat.pdf",
-          "kind": "research-review-reference",
-          "claim": "مصوبات هیأت محترم رئیسه دانشگاه در ارتباط با شیوه‌نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه",
-          "id": null,
-          "sourceLabel": "مصوبات هیأت محترم رئیسه دانشگاه در ارتباط با شیوه‌نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5257-shivehnameh-ekh.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه ایجاد، مدیریت و تجاری­ سازی دارایی­ های فکری دانشگاه زنجان شیوه نامه ارزیابی، حمایت و انتقال فناوری دانشگاه",
-          "id": null,
-          "sourceLabel": "آیین نامه ایجاد، مدیریت و تجاری­ سازی دارایی­ های فکری دانشگاه زنجان شیوه نامه ارزیابی، حمایت و انتقال فناوری دانشگاه",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5258-aein-ekhtera.pdf",
-          "kind": "research-review-reference",
-          "claim": "شیوه نامه ارزیابی، حمایت و انتقال فناوری دانشگاه آیین نامه ارزیابی اختراعات",
-          "id": null,
-          "sourceLabel": "شیوه نامه ارزیابی، حمایت و انتقال فناوری دانشگاه آیین نامه ارزیابی اختراعات",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5176-shiveh-rotbeh.pdf",
-          "kind": "research-review-reference",
-          "claim": "آيين نامه تعيين هزينه پردازش مقاله در نشریات علمی شيوه نامه ارزيابي و رتبه بندي نشريات علمي",
-          "id": null,
-          "sourceLabel": "آيين نامه تعيين هزينه پردازش مقاله در نشریات علمی شيوه نامه ارزيابي و رتبه بندي نشريات علمي",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5185-aeinpajohaneh.pdf",
-          "kind": "research-review-reference",
-          "claim": "آيين نامه پژوهانه",
-          "id": null,
-          "sourceLabel": "آيين نامه پژوهانه",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5176-shiveh-rotbeh.pdf",
-          "kind": "research-review-reference",
-          "claim": "آيين نامه تعيين هزينه پردازش مقاله در نشریات علمی شيوه نامه ارزيابي و رتبه بندي نشريات علمي",
-          "id": null,
-          "sourceLabel": "آيين نامه تعيين هزينه پردازش مقاله در نشریات علمی شيوه نامه ارزيابي و رتبه بندي نشريات علمي",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5174-aeinenteshar404.pdf",
-          "kind": "research-review-reference",
-          "claim": "فرم پرداخت حق الزحمه نشریات داخلی انتشارات دستورالعمل ها و آئین نامه ها (انتشارات) آيين نامه انتشارات دانشگاه زنجان",
-          "id": null,
-          "sourceLabel": "فرم پرداخت حق الزحمه نشریات داخلی انتشارات دستورالعمل ها و آئین نامه ها (انتشارات) آيين نامه انتشارات دانشگاه زنجان",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5181-aein-tarhin.pdf",
-          "kind": "research-review-reference",
-          "claim": "فلوچارت تالیف کتاب طرح‌های پژوهشی دستورالعمل ها و آئین نامه ها (طرح های پژوهشی) آيين‌نامه طرح‌هاي پژوهشي داخل دانشگاه",
-          "id": null,
-          "sourceLabel": "فلوچارت تالیف کتاب طرح‌های پژوهشی دستورالعمل ها و آئین نامه ها (طرح های پژوهشی) آيين‌نامه طرح‌هاي پژوهشي داخل دانشگاه",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5182-form-narhaletarh.doc",
-          "kind": "research-review-reference",
-          "claim": "آيين‌نامه طرح‌هاي پژوهشي داخل دانشگاه فرم ها (طرح های پژوهشی) فرم درخواست بررسی گزارش پیشرفت مرحله ای/نهایی طرح پژوهشی داخلی",
-          "id": null,
-          "sourceLabel": "آيين‌نامه طرح‌هاي پژوهشي داخل دانشگاه فرم ها (طرح های پژوهشی) فرم درخواست بررسی گزارش پیشرفت مرحله ای/نهایی طرح پژوهشی داخلی",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5190-formkala.docx",
-          "kind": "research-review-reference",
-          "claim": "فرم درخواست پرداخت حق التحقیق دانشجویان دانشگاه زنجان ضمائم و فرم‌های مربوط به شیوه‌نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه",
-          "id": null,
-          "sourceLabel": "فرم درخواست پرداخت حق التحقیق دانشجویان دانشگاه زنجان ضمائم و فرم‌های مربوط به شیوه‌نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5191-form-kharidex.docx",
-          "kind": "research-review-reference",
-          "claim": "ضمائم و فرم‌های مربوط به شیوه‌نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه فرم خریدهای خارجی",
-          "id": null,
-          "sourceLabel": "ضمائم و فرم‌های مربوط به شیوه‌نامه خرید کالا و پرداخت اجرت خدمات از محل اعتبار پژوهانه فرم خریدهای خارجی",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5195-form-pardakhtvezarat.docx",
-          "kind": "research-review-reference",
-          "claim": "آيين نامه حق التشويق چاپ مقالات در نشريات فرم ها (مقالات) فرم درخواست پرداخت هزینه‌های چاپ مقاله در مجلات ISI , ISC از محل پژوهانه (Grant)",
-          "id": null,
-          "sourceLabel": "آيين نامه حق التشويق چاپ مقالات در نشريات فرم ها (مقالات) فرم درخواست پرداخت هزینه‌های چاپ مقاله در مجلات ISI , ISC از محل پژوهانه (Grant)",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5220-form-forsat.docx",
-          "kind": "research-review-reference",
-          "claim": "شیوه نامه فرصت مطالعاتی دانشگاه زنجان فرم ها (فرصت مطالعاتی) فرم و شیوه نامه تهیه گزارش نهایی فرصت مطالعاتي",
-          "id": null,
-          "sourceLabel": "شیوه نامه فرصت مطالعاتی دانشگاه زنجان فرم ها (فرصت مطالعاتی) فرم و شیوه نامه تهیه گزارش نهایی فرصت مطالعاتي",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5233-shiveh-arshad.pdf",
-          "kind": "research-review-reference",
-          "claim": "فلوچارت کارگاههای خارجی تحصیلات تکمیلی دستورالعمل ها و آئین نامه ها (تحصیلات تکمیلی) شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
-          "id": null,
-          "sourceLabel": "فلوچارت کارگاههای خارجی تحصیلات تکمیلی دستورالعمل ها و آئین نامه ها (تحصیلات تکمیلی) شیوه‌نامه کمک‌هزینه پایان‌نامه کارشناسی ارشد و رساله دکتری",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5240-form-pardakhatvezarat.doc",
-          "kind": "research-review-reference",
-          "claim": "آیین‌نامه تأسیس و نگهداری هسته‌‌های دانشجویی پژوهش محور فرم ها (تحصیلات تکمیلی) فرم پرداخت پژوهانه به دانشجویان دکترا از طرف وزارت علوم",
-          "id": null,
-          "sourceLabel": "آیین‌نامه تأسیس و نگهداری هسته‌‌های دانشجویی پژوهش محور فرم ها (تحصیلات تکمیلی) فرم پرداخت پژوهانه به دانشجویان دکترا از طرف وزارت علوم",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5294-form-pardakht.doc",
-          "kind": "research-review-reference",
-          "claim": "فرم پرداخت پژوهانه به دانشجویان دکترا از طرف وزارت علوم",
-          "id": null,
-          "sourceLabel": "فرم پرداخت پژوهانه به دانشجویان دکترا از طرف وزارت علوم",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.znu.ac.ir/files/uploaded/rules-file/library-7050-znuthesis.docx",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه وجین کتابخانه های دانشگاه زنجان دستورالعمل‌ها دستورالعمل تدوین پایان نامه های دانشگاه با ورد",
-          "id": null,
-          "sourceLabel": "آیین نامه وجین کتابخانه های دانشگاه زنجان دستورالعمل‌ها دستورالعمل تدوین پایان نامه های دانشگاه با ورد",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5182-form-narhaletarh.doc",
-          "kind": "research-review-reference",
-          "claim": "آيين‌نامه طرح‌هاي پژوهشي داخل دانشگاه فرم ها (طرح های پژوهشی) فرم درخواست بررسی گزارش پیشرفت مرحله ای/نهایی طرح پژوهشی داخلی",
-          "id": null,
-          "sourceLabel": "آيين‌نامه طرح‌هاي پژوهشي داخل دانشگاه فرم ها (طرح های پژوهشی) فرم درخواست بررسی گزارش پیشرفت مرحله ای/نهایی طرح پژوهشی داخلی",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-5185-aeinpajohaneh.pdf",
-          "kind": "research-review-reference",
-          "claim": "آيين نامه پژوهانه",
-          "id": null,
-          "sourceLabel": "آيين نامه پژوهانه",
-          "sourceSpecificity": "university-reference"
-        }
-      ],
-      "publicationAdjustment": "Downgraded until a source proving organizational IT dependency is registered.",
-      "verificationBasis": "Downgraded until a source proving organizational IT dependency is registered.",
-      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
-    },
-    {
       "id": "zanjan:systemsServices",
       "universitySlug": "zanjan",
       "nameFa": "دانشگاه زنجان",
@@ -2035,23 +1322,11 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 45,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 41,
       "sources": [
         {
           "url": "https://resmng.znu.ac.ir/page/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://it.znu.ac.ir/systems",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://systems.znu.ac.ir/it",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
@@ -2065,8 +1340,8 @@
         {
           "url": "https://znu.ac.ir/",
           "kind": "system",
-          "claim": "خدمات و فرآیندها - دانشگاه زنجان",
-          "id": "zanjan-discovery-system-5bf3a2fb4eb7",
+          "claim": "معاونت آموزشي - دانشگاه زنجان | University of zanjan",
+          "id": "zanjan-discovery-system-b070e7bd5b5b",
           "systemCategory": "research"
         },
         {
@@ -2102,20 +1377,6 @@
           "kind": "system",
           "claim": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-system-df12791b2602",
-          "systemCategory": "research"
-        },
-        {
-          "url": "https://it.znu.ac.ir/rules/rules-guidelines-it",
-          "kind": "system",
-          "claim": "گروه توسعه فناوری اطلاعات، امنیت و هوشمندسازی - دانشگاه زنجان | University of zanjan",
-          "id": "zanjan-discovery-system-963df21e3cd1",
-          "systemCategory": "it"
-        },
-        {
-          "url": "https://it.znu.ac.ir/",
-          "kind": "system",
-          "claim": "سامانه مدیریت پژوهش(سمپ) دانشگاه زنجان",
-          "id": "zanjan-discovery-system-3479dd5aa79e",
           "systemCategory": "research"
         },
         {
@@ -2364,8 +1625,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 147,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 135,
       "sources": [
         {
           "url": "http://library.znu.ac.ir/SimorghPortal/",
@@ -2375,12 +1636,6 @@
         },
         {
           "url": "http://library.znu.ac.ir/simorghportal/tabid/34/Default.aspx",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://systems.znu.ac.ir/it",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -2758,27 +2013,9 @@
           "id": null
         },
         {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-8872-formehazinenashr.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه مجلات علمی دانشگاه زنجان فرم هزینه کرد نشریات",
-          "id": null
-        },
-        {
           "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5181-aein-tarhin.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "آيين‌نامه طرح‌هاي پژوهشي داخل دانشگاه",
-          "id": null
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-5174-aeinenteshar404.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آيين نامه انتشارات دانشگاه زنجان",
-          "id": null
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-7327-znutemplatebooks1405.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آيين نامه انتشارات دانشگاه زنجان تمپلیت چاپ کتاب( )",
           "id": null
         },
         {
@@ -2791,18 +2028,6 @@
           "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5502-researchrightsflowchart.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "فرم عتف گرنت (درخواست خرید) فلوچارت (پژوهانه) فلوچارت حق التحقیق",
-          "id": null
-        },
-        {
-          "url": "https://it.znu.ac.ir/files/uploaded/rules-file/it-6536-bandwidth.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "استفاده از سرویس وب سایت شخصی اساتید سیاست های پهنای باند اینترنت دانشگاه",
-          "id": null
-        },
-        {
-          "url": "https://it.znu.ac.ir/files/uploaded/rules-file/it-6537-using-network-professors.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "سیاست های پهنای باند اینترنت دانشگاه استفاده از شبکه کوی اساتید",
           "id": null
         },
         {
@@ -3100,40 +2325,10 @@
           "id": "zanjan-discovery-document-c8676e63355e"
         },
         {
-          "url": "https://resmng.znu.ac.ir/rules/forms-sci-pub-country",
-          "kind": "document",
-          "claim": "فرم ها (نشریات علمی کشور)",
-          "id": "zanjan-discovery-document-cf65fd793859"
-        },
-        {
           "url": "https://resmng.znu.ac.ir/rules/rsr-publication-forms",
           "kind": "document",
           "claim": "فرم ها (انتشارات)",
           "id": "zanjan-discovery-document-707ff8e31a22"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/rules/forms-articles",
-          "kind": "document",
-          "claim": "فرم ها (مقالات)",
-          "id": "zanjan-discovery-document-20cf0c0786cf"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/rules/forms-lectures",
-          "kind": "document",
-          "claim": "فرم ها (سخنرانی ها)",
-          "id": "zanjan-discovery-document-294964828c1f"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/rules/forms-conventions",
-          "kind": "document",
-          "claim": "فرم ها (همایش‌ها)",
-          "id": "zanjan-discovery-document-4e825061c764"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/rules/forms-membership",
-          "kind": "document",
-          "claim": "فرم ها (عضویت)",
-          "id": "zanjan-discovery-document-571473de3741"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/instructions-regulations-study-opportunity",
@@ -3146,12 +2341,6 @@
           "kind": "document",
           "claim": "فرم ها (مأموریت پژوهشی خارج از کشور)",
           "id": "zanjan-discovery-document-72a3a35dc1a0"
-        },
-        {
-          "url": "https://resmng.znu.ac.ir/rules/forms-training-workshops",
-          "kind": "document",
-          "claim": "فرم ها (کارگاه‌های آموزشي)",
-          "id": "zanjan-discovery-document-9a3bce96f880"
         },
         {
           "url": "https://resmng.znu.ac.ir/rules/forms-knowledge-base",
@@ -3260,68 +2449,32 @@
     "nameFa": "دانشگاه زنجان",
     "iscCategory": "جامع",
     "iscRank": 29,
-    "score": 82.9,
+    "score": 81.4,
     "confidence": 100,
     "metrics": {
       "documents": 91,
       "organization": 90.8,
       "library": 70,
       "laboratories": 70,
-      "digital": 67.5,
+      "systems": 55,
       "industryTech": 90,
       "dataQuality": 100,
       "findability": 75
     },
-    "units": 22,
-    "systems": 43,
-    "documents": 143,
+    "units": 17,
+    "systems": 38,
+    "documents": 132,
     "activeWeight": 100,
     "evidenceCoverage": 100,
-    "methodologyVersion": "RTPMI-4.1-ISC",
-    "snapshotDate": "2026-08-11",
-    "rank": 28,
-    "portalRankWithinISCClass": 20,
+    "methodologyVersion": "RTPMI-4.2-ISC",
+    "snapshotDate": "2026-08-12",
+    "rank": 22,
+    "portalRankWithinISCClass": 17,
     "rankedPortalsInISCClass": 50
   },
   "units": [
     {
       "id": "zanjan-1",
-      "universitySlug": "zanjan",
-      "nameFa": "امور پژوهشی",
-      "type": "research",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.znu.ac.ir/"
-    },
-    {
-      "id": "zanjan-2",
-      "universitySlug": "zanjan",
-      "nameFa": "فناوری اطلاعات، امنیت و هوشمندسازی",
-      "type": "it",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.znu.ac.ir/"
-    },
-    {
-      "id": "zanjan-3",
-      "universitySlug": "zanjan",
-      "nameFa": "کتابخانه و مرکز اسناد",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.znu.ac.ir/"
-    },
-    {
-      "id": "zanjan-4",
-      "universitySlug": "zanjan",
-      "nameFa": "آزمایشگاه مرکزی",
-      "type": "laboratory",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.znu.ac.ir/"
-    },
-    {
-      "id": "zanjan-5",
       "universitySlug": "zanjan",
       "nameFa": "فناوری و ارتباط با صنعت",
       "type": "technology",
@@ -3449,19 +2602,6 @@
       "sourceUrl": "https://resmng.znu.ac.ir/page/home-resmng",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8957894736842105
-    },
-    {
-      "id": "zanjan-discovery-unit-it-4005e06a8362",
-      "universitySlug": "zanjan",
-      "nameFa": "گروه توسعه فناوری اطلاعات، امنیت و هوشمندسازی - دانشگاه زنجان | University of zanjan",
-      "type": "it",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://it.znu.ac.ir/",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263,
-      "relationStatus": "organizationally-attributed",
-      "relationshipEvidenceUrl": "https://research.znu.ac.ir/"
     },
     {
       "id": "zanjan-discovery-unit-research-3479dd5aa79e",
@@ -3664,19 +2804,6 @@
       "discoveryConfidence": 0.8431578947368421
     },
     {
-      "id": "zanjan-discovery-system-963df21e3cd1",
-      "universitySlug": "zanjan",
-      "nameFa": "گروه توسعه فناوری اطلاعات، امنیت و هوشمندسازی - دانشگاه زنجان | University of zanjan",
-      "category": "it",
-      "url": "https://it.znu.ac.ir/systems",
-      "sourceUrl": "https://it.znu.ac.ir/rules/rules-guidelines-it",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
       "id": "zanjan-discovery-system-b784f84566e1",
       "universitySlug": "zanjan",
       "nameFa": "معاونت پژوهش و فناوری - دانشگاه زنجان | University of zanjan",
@@ -3688,58 +2815,6 @@
       "lastVerified": "2026-08-11",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
-    },
-    {
-      "id": "zanjan-discovery-system-bc0ff40ab42d",
-      "universitySlug": "zanjan",
-      "nameFa": "خدمات و فرآیندها - دانشگاه زنجان",
-      "category": "research",
-      "url": "https://systems.znu.ac.ir/it",
-      "sourceUrl": "https://research.znu.ac.ir/services",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
-      "id": "zanjan-discovery-system-f3627c164437",
-      "universitySlug": "zanjan",
-      "nameFa": "گروه توسعه فناوری اطلاعات، امنیت و هوشمندسازی - دانشگاه زنجان | University of zanjan",
-      "category": "it",
-      "url": "https://it.znu.ac.ir/systems/email-guide-it",
-      "sourceUrl": "https://it.znu.ac.ir/systems",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
-      "id": "zanjan-discovery-system-d46dbe94085a",
-      "universitySlug": "zanjan",
-      "nameFa": "گروه توسعه فناوری اطلاعات، امنیت و هوشمندسازی - دانشگاه زنجان | University of zanjan",
-      "category": "it",
-      "url": "https://it.znu.ac.ir/systems/download-attachments-zip-files-it",
-      "sourceUrl": "https://it.znu.ac.ir/systems",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
-      "id": "zanjan-discovery-system-3479dd5aa79e",
-      "universitySlug": "zanjan",
-      "nameFa": "سامانه مدیریت پژوهش(سمپ) دانشگاه زنجان",
-      "category": "research",
-      "url": "https://samp.znu.ac.ir/",
-      "sourceUrl": "https://it.znu.ac.ir/",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8957894736842105
     },
     {
       "id": "zanjan-discovery-system-5dc16725d00f",
@@ -4090,7 +3165,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5242-forme-arshadeblag.docx",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5242-forme-arshadeblag.docx",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4109,7 +3184,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5293-form-zamaem.docx",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5293-form-zamaem.docx",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4160,7 +3235,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5190-formkala.docx",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5190-formkala.docx",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4179,7 +3254,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5190-formkala.docx",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5190-formkala.docx",
       "parentUrl": "https://resmng.znu.ac.ir/rules/pay-services-from-research-site",
@@ -4198,7 +3273,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-7332-rules-all.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-7332-rules-all.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4217,7 +3292,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5233-shiveh-arshad.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5233-shiveh-arshad.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4236,7 +3311,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5235-mosavabe-tahsilat.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5235-mosavabe-tahsilat.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4255,7 +3330,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5291-shiveh-payan.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5291-shiveh-payan.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4274,7 +3349,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5292-mosavabe-payan.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5292-mosavabe-payan.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4357,7 +3432,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5220-form-forsat.docx",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5220-form-forsat.docx",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4376,7 +3451,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5237-aein-hemayat.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5237-aein-hemayat.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4395,7 +3470,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/library-7050-znuthesis.docx",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/library-7050-znuthesis.docx",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4414,7 +3489,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/central-lab-7558-regulations-centrallab.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/central-lab-7558-regulations-centrallab.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4465,7 +3540,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5185-aeinpajohaneh.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5185-aeinpajohaneh.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4484,7 +3559,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5186-shiveh-kala.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5186-shiveh-kala.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4519,7 +3594,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5187-shiveh-mosavabat.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5187-shiveh-mosavabat.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4538,7 +3613,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5217-aein-forsatmotalati.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5217-aein-forsatmotalati.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4557,7 +3632,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5218-shive-forsat.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5218-shive-forsat.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -4672,7 +3747,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-5185-aeinpajohaneh.pdf",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-5185-aeinpajohaneh.pdf",
       "parentUrl": "https://resmng.znu.ac.ir/rules/pay-services-from-research-site",
@@ -4691,7 +3766,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5186-shiveh-kala.pdf",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5186-shiveh-kala.pdf",
       "parentUrl": "https://resmng.znu.ac.ir/rules/pay-services-from-research-site",
@@ -4710,7 +3785,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5188-aein-phajohanehvezarat.pdf",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5188-aein-phajohanehvezarat.pdf",
       "parentUrl": "https://resmng.znu.ac.ir/rules/pay-services-from-research-site",
@@ -4729,7 +3804,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5187-shiveh-mosavabat.pdf",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5187-shiveh-mosavabat.pdf",
       "parentUrl": "https://resmng.znu.ac.ir/rules/pay-services-from-research-site",
@@ -4916,22 +3991,6 @@
       "discoveryConfidence": 0.85
     },
     {
-      "id": "zanjan-discovery-document-cf65fd793859",
-      "universitySlug": "zanjan",
-      "title": "فرم ها (نشریات علمی کشور)",
-      "type": "فرم/الگو",
-      "topic": "سایر",
-      "taxonomy": "form/template",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-11",
-      "url": "https://resmng.znu.ac.ir/rules/forms-sci-pub-country",
-      "sourceUrl": "https://resmng.znu.ac.ir/rules/forms-sci-pub-country",
-      "parentUrl": "https://resmng.znu.ac.ir/rules",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.85
-    },
-    {
       "id": "zanjan-discovery-document-707ff8e31a22",
       "universitySlug": "zanjan",
       "title": "فرم ها (انتشارات)",
@@ -4943,70 +4002,6 @@
       "lastVerified": "2026-08-11",
       "url": "https://resmng.znu.ac.ir/rules/rsr-publication-forms",
       "sourceUrl": "https://resmng.znu.ac.ir/rules/rsr-publication-forms",
-      "parentUrl": "https://resmng.znu.ac.ir/rules",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.85
-    },
-    {
-      "id": "zanjan-discovery-document-20cf0c0786cf",
-      "universitySlug": "zanjan",
-      "title": "فرم ها (مقالات)",
-      "type": "فرم/الگو",
-      "topic": "سایر",
-      "taxonomy": "form/template",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-11",
-      "url": "https://resmng.znu.ac.ir/rules/forms-articles",
-      "sourceUrl": "https://resmng.znu.ac.ir/rules/forms-articles",
-      "parentUrl": "https://resmng.znu.ac.ir/rules",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.85
-    },
-    {
-      "id": "zanjan-discovery-document-294964828c1f",
-      "universitySlug": "zanjan",
-      "title": "فرم ها (سخنرانی ها)",
-      "type": "فرم/الگو",
-      "topic": "سایر",
-      "taxonomy": "form/template",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-11",
-      "url": "https://resmng.znu.ac.ir/rules/forms-lectures",
-      "sourceUrl": "https://resmng.znu.ac.ir/rules/forms-lectures",
-      "parentUrl": "https://resmng.znu.ac.ir/rules",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.85
-    },
-    {
-      "id": "zanjan-discovery-document-4e825061c764",
-      "universitySlug": "zanjan",
-      "title": "فرم ها (همایش‌ها)",
-      "type": "فرم/الگو",
-      "topic": "سایر",
-      "taxonomy": "form/template",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-11",
-      "url": "https://resmng.znu.ac.ir/rules/forms-conventions",
-      "sourceUrl": "https://resmng.znu.ac.ir/rules/forms-conventions",
-      "parentUrl": "https://resmng.znu.ac.ir/rules",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.85
-    },
-    {
-      "id": "zanjan-discovery-document-571473de3741",
-      "universitySlug": "zanjan",
-      "title": "فرم ها (عضویت)",
-      "type": "فرم/الگو",
-      "topic": "سایر",
-      "taxonomy": "form/template",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-11",
-      "url": "https://resmng.znu.ac.ir/rules/forms-membership",
-      "sourceUrl": "https://resmng.znu.ac.ir/rules/forms-membership",
       "parentUrl": "https://resmng.znu.ac.ir/rules",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.85
@@ -5044,22 +4039,6 @@
       "discoveryConfidence": 0.85
     },
     {
-      "id": "zanjan-discovery-document-9a3bce96f880",
-      "universitySlug": "zanjan",
-      "title": "فرم ها (کارگاه‌های آموزشي)",
-      "type": "فرم/الگو",
-      "topic": "سایر",
-      "taxonomy": "form/template",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-11",
-      "url": "https://resmng.znu.ac.ir/rules/forms-training-workshops",
-      "sourceUrl": "https://resmng.znu.ac.ir/rules/forms-training-workshops",
-      "parentUrl": "https://resmng.znu.ac.ir/rules",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.85
-    },
-    {
       "id": "zanjan-discovery-document-f88927adb20a",
       "universitySlug": "zanjan",
       "title": "فرم ها (دانش بنیان)",
@@ -5084,7 +4063,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5168-aein98.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5168-aein98.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5103,7 +4082,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5175-aein.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5175-aein.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5122,7 +4101,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5176-shiveh-rotbeh.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5176-shiveh-rotbeh.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5141,7 +4120,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5177-shiveh-nashr.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5177-shiveh-nashr.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5160,7 +4139,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5174-aeinenteshar404.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5174-aeinenteshar404.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5179,7 +4158,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5181-aein-tarhin.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5181-aein-tarhin.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5198,7 +4177,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5182-form-narhaletarh.doc",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5182-form-narhaletarh.doc",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5217,7 +4196,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5183-form-tarh.docx",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5183-form-tarh.docx",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5236,7 +4215,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5184-format-gozareshetarh.doc",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5184-format-gozareshetarh.doc",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5287,7 +4266,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5195-form-pardakhtvezarat.docx",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5195-form-pardakhtvezarat.docx",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5450,7 +4429,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5239-farakhan-hemayat.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5239-farakhan-hemayat.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5469,7 +4448,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5243-aein-tasis.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5243-aein-tasis.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5488,7 +4467,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5240-form-pardakhatvezarat.doc",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5240-form-pardakhatvezarat.doc",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5507,7 +4486,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5241-karbarg.doc",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5241-karbarg.doc",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5542,7 +4521,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5253-form-darkhasttarh.doc",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5253-form-darkhasttarh.doc",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5609,7 +4588,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5201-aein-ertegha.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5201-aein-ertegha.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5628,7 +4607,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5257-shivehnameh-ekh.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5257-shivehnameh-ekh.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ekhtera",
@@ -5647,7 +4626,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5258-aein-ekhtera.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5258-aein-ekhtera.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ekhtera",
@@ -5666,7 +4645,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5176-shiveh-rotbeh.pdf",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5176-shiveh-rotbeh.pdf",
       "parentUrl": "https://resmng.znu.ac.ir/rules/scientific-publications-country",
@@ -5685,7 +4664,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5191-form-kharidex.docx",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5191-form-kharidex.docx",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5704,7 +4683,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5294-form-pardakht.doc",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5294-form-pardakht.doc",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5723,7 +4702,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5182-form-narhaletarh.doc",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5182-form-narhaletarh.doc",
       "parentUrl": "https://resmng.znu.ac.ir/rules/research-plans",
@@ -5742,7 +4721,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-hazinehkard.pdf",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-hazinehkard.pdf",
       "parentUrl": "https://resmng.znu.ac.ir/rules/pay-services-from-research-site",
@@ -5761,7 +4740,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-8859-hazinehkard-4.pdf",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-8859-hazinehkard-4.pdf",
       "parentUrl": "https://resmng.znu.ac.ir/rules/pay-services-from-research-site",
@@ -5780,7 +4759,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5191-form-kharidex.docx",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5191-form-kharidex.docx",
       "parentUrl": "https://resmng.znu.ac.ir/rules/pay-services-from-research-site",
@@ -5799,7 +4778,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5253-form-darkhasttarh.doc",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5253-form-darkhasttarh.doc",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -5818,7 +4797,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7954-7aein-band-h.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7954-7aein-band-h.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -5837,7 +4816,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7955-8band-h-tabsare-9.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7955-8band-h-tabsare-9.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -5856,7 +4835,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7956-9band-t-tabsare-9.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7956-9band-t-tabsare-9.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -5875,7 +4854,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7957-10elhagh.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7957-10elhagh.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -5894,7 +4873,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7958-11elhagh-56.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7958-11elhagh-56.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -5913,7 +4892,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7959-12boodje-ostan96.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7959-12boodje-ostan96.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -5932,7 +4911,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5256-aeinmalekiyat.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5256-aeinmalekiyat.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ekhtera",
@@ -5951,7 +4930,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5259-marahel-ekhtera.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5259-marahel-ekhtera.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ekhtera",
@@ -5970,7 +4949,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-8872-formehazinenashr.docx",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-8872-formehazinenashr.docx",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -5989,7 +4968,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-7327-znutemplatebooks1405.docx",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-7327-znutemplatebooks1405.docx",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -6008,7 +4987,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5198-form-sokhanrani.doc",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5198-form-sokhanrani.doc",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -6027,7 +5006,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5208-form-hamayeshex.doc",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5208-form-hamayeshex.doc",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -6046,7 +5025,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5200-form-ozviyat.doc",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5200-form-ozviyat.doc",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -6065,7 +5044,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5231-form-kargahin.doc",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5231-form-kargahin.doc",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -6084,7 +5063,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5236-dastorolamal.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5236-dastorolamal.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -6103,7 +5082,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5279-form-pasadoktori.doc",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5279-form-pasadoktori.doc",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -6122,7 +5101,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/central-lab-7559-grant-form-lab.docx",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/central-lab-7559-grant-form-lab.docx",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -6141,7 +5120,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5168-aein98.pdf",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5168-aein98.pdf",
       "parentUrl": "https://resmng.znu.ac.ir/rules/scientific-publications-country",
@@ -6160,7 +5139,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5175-aein.pdf",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5175-aein.pdf",
       "parentUrl": "https://resmng.znu.ac.ir/rules/scientific-publications-country",
@@ -6179,32 +5158,13 @@
       "taxonomy": "procedure/guideline",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5177-shiveh-nashr.pdf",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5177-shiveh-nashr.pdf",
       "parentUrl": "https://resmng.znu.ac.ir/rules/scientific-publications-country",
       "fileName": "research-5177-shiveh-nashr.pdf",
       "contentType": "application/pdf",
       "fileSize": 341867,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "zanjan-discovery-document-394c71368daf",
-      "universitySlug": "zanjan",
-      "title": "شیوه نامه مجلات علمی دانشگاه زنجان فرم هزینه کرد نشریات",
-      "type": "شیوه‌نامه/دستورالعمل",
-      "topic": "سایر",
-      "taxonomy": "procedure/guideline",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-8872-formehazinenashr.docx",
-      "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-8872-formehazinenashr.docx",
-      "parentUrl": "https://resmng.znu.ac.ir/rules/scientific-publications-country",
-      "fileName": "resmng-8872-formehazinenashr.docx",
-      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "fileSize": 23488,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -6217,51 +5177,13 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5181-aein-tarhin.pdf",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5181-aein-tarhin.pdf",
       "parentUrl": "https://resmng.znu.ac.ir/rules/research-plans",
       "fileName": "research-5181-aein-tarhin.pdf",
       "contentType": "application/pdf",
       "fileSize": 3784736,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "zanjan-discovery-document-7324eec56607",
-      "universitySlug": "zanjan",
-      "title": "آيين نامه انتشارات دانشگاه زنجان",
-      "type": "سند",
-      "topic": "انتشارات و نشریات",
-      "taxonomy": "publications/journals",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-5174-aeinenteshar404.pdf",
-      "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-5174-aeinenteshar404.pdf",
-      "parentUrl": "https://resmng.znu.ac.ir/rules/publishers5060",
-      "fileName": "resmng-5174-aeinenteshar404.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 1073226,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "zanjan-discovery-document-0670010f5cdd",
-      "universitySlug": "zanjan",
-      "title": "آيين نامه انتشارات دانشگاه زنجان تمپلیت چاپ کتاب( )",
-      "type": "سند",
-      "topic": "انتشارات و نشریات",
-      "taxonomy": "publications/journals",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-7327-znutemplatebooks1405.docx",
-      "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/resmng-7327-znutemplatebooks1405.docx",
-      "parentUrl": "https://resmng.znu.ac.ir/rules/publishers5060",
-      "fileName": "resmng-7327-znutemplatebooks1405.docx",
-      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "fileSize": 143068,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -6274,7 +5196,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5192-form-atf.docx",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5192-form-atf.docx",
       "parentUrl": "https://resmng.znu.ac.ir/rules/pay-services-from-research-site",
@@ -6293,51 +5215,13 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5502-researchrightsflowchart.pdf",
       "sourceUrl": "https://resmng.znu.ac.ir/files/uploaded/rules-file/research-5502-researchrightsflowchart.pdf",
       "parentUrl": "https://resmng.znu.ac.ir/rules/pay-services-from-research-site",
       "fileName": "research-5502-researchrightsflowchart.pdf",
       "contentType": "application/pdf",
       "fileSize": 357161,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "zanjan-discovery-document-0bf52d06a20a",
-      "universitySlug": "zanjan",
-      "title": "استفاده از سرویس وب سایت شخصی اساتید سیاست های پهنای باند اینترنت دانشگاه",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://it.znu.ac.ir/files/uploaded/rules-file/it-6536-bandwidth.pdf",
-      "sourceUrl": "https://it.znu.ac.ir/files/uploaded/rules-file/it-6536-bandwidth.pdf",
-      "parentUrl": "https://it.znu.ac.ir/rules/rules-guidelines-it",
-      "fileName": "it-6536-bandwidth.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 168435,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "zanjan-discovery-document-c29d61113f93",
-      "universitySlug": "zanjan",
-      "title": "سیاست های پهنای باند اینترنت دانشگاه استفاده از شبکه کوی اساتید",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://it.znu.ac.ir/files/uploaded/rules-file/it-6537-using-network-professors.pdf",
-      "sourceUrl": "https://it.znu.ac.ir/files/uploaded/rules-file/it-6537-using-network-professors.pdf",
-      "parentUrl": "https://it.znu.ac.ir/rules/rules-guidelines-it",
-      "fileName": "it-6537-using-network-professors.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 377564,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -6350,7 +5234,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5250-dastoramalpayeh.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5250-dastoramalpayeh.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -6369,7 +5253,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5251-aein-hamkari.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5251-aein-hamkari.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -6388,7 +5272,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5252-rahnamayetarh.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/research-5252-rahnamayetarh.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -6407,7 +5291,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-8878-formkham.doc",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-8878-formkham.doc",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -6426,7 +5310,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7949-1syasat.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7949-1syasat.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -6445,7 +5329,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7950-2maliat.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7950-2maliat.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -6464,7 +5348,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7960-5sate.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7960-5sate.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -6483,7 +5367,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7953-6band-ht.pdf",
       "sourceUrl": "https://tacs.znu.ac.ir/files/uploaded/rules-file/tacs-7953-6band-ht.pdf",
       "parentUrl": "https://tacs.znu.ac.ir/rules/ext-research-proj",
@@ -6502,7 +5386,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/editor_files/research/files/aein9%20haftepa.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/editor_files/research/files/aein9%20haftepa.pdf",
       "parentUrl": "https://research.znu.ac.ir/page/rw1395",
@@ -6521,7 +5405,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/editor_files/research/files/report2.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/editor_files/research/files/report2.pdf",
       "parentUrl": "https://research.znu.ac.ir/page/rw1395",
@@ -6540,7 +5424,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/editor_files/research/files/shiveh-pajohesh.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/editor_files/research/files/shiveh-pajohesh.pdf",
       "parentUrl": "https://research.znu.ac.ir/page/rw1395",
@@ -6559,7 +5443,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5479-flowchartofinternaldesigns.pdf",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5479-flowchartofinternaldesigns.pdf",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -6578,7 +5462,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5189-formtahghigh.doc",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/resmng-5189-formtahghigh.doc",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -6597,7 +5481,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5221-form-gardeshforsat.docx",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5221-form-gardeshforsat.docx",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -6616,7 +5500,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5226-form-mamoriyat.docx",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5226-form-mamoriyat.docx",
       "parentUrl": "https://research.znu.ac.ir/rules",
@@ -6635,7 +5519,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5270-form-garardadforsat.docx",
       "sourceUrl": "https://research.znu.ac.ir/files/uploaded/rules-file/research-5270-form-garardadforsat.docx",
       "parentUrl": "https://research.znu.ac.ir/rules",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "10.0.0",
-  "snapshotDate": "2026-08-11",
+  "snapshotDate": "2026-08-12",
   "institution": {
     "category": "دستگاه اجرایی",
     "iscRank": 4,
@@ -16,7 +16,7 @@
     "nameFa": "دانشگاه تربیت دبیر شهید رجایی",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 4,
-    "auditDate": "2026-08-12",
+    "auditDate": "2026-08-13",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
     "evidenceUrls": [
@@ -84,17 +84,18 @@
     "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
-      "lastRun": "2026-08-12",
+      "lastRun": "2026-08-13",
       "promotedSources": 118,
       "socialEvidenceRemoved": true
-    }
+    },
+    "observedSignals": []
   },
   "deepAudit": {
     "universitySlug": "shahid-rajaee",
     "nameFa": "دانشگاه تربیت دبیر شهید رجایی",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 4,
-    "auditDate": "2026-08-11",
+    "auditDate": "2026-08-12",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
     "evidenceUrls": [
@@ -166,14 +167,13 @@
       "libraryDocuments": "verified",
       "laboratories": "verified",
       "industryTechnology": "verified",
-      "informationTechnology": "unresolved",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 88,
+    "auditEvidenceCoverage": 100,
     "unitsFound": 14,
     "systemsFound": 9,
-    "documentsFound": 89,
+    "documentsFound": 84,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -188,8 +188,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 92,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 88,
       "sources": [
         {
           "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
@@ -217,38 +217,38 @@
         },
         {
           "url": "https://www.sru.ac.ir/author/researchnews/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://www.sru.ac.ir/category/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://www.sru.ac.ir/%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%d9%85%d8%b1%d8%a7%d8%b3%d9%85-%d8%b1%d9%88%db%8c%d8%af%d8%a7%d8%af-%d8%a7%d8%b1%d8%a7%d8%a6%d9%87-%d8%a7%d8%b3%d8%aa%d8%a7%d8%b1%d8%aa%e2%80%8c%d8%a2%d9%be/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://www.sru.ac.ir/author/research/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
@@ -469,15 +469,17 @@
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-2.doc",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "فرم ارزشیابی گزارش مرحله ای طرح پژوهشی",
+          "id": null,
+          "sourceLabel": "فرم ارزشیابی گزارش مرحله ای طرح پژوهشی"
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-3.doc",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "فرم ارزشیابی گزارش نهایی طرح پژوهشی",
+          "id": null,
+          "sourceLabel": "فرم ارزشیابی گزارش نهایی طرح پژوهشی"
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/conferences.pdf",
@@ -487,9 +489,10 @@
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/research_course_1394a.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "دستورالعمل اجرایی استفاده از دوره فرصت مطالعاتی دانشگاه شهید رجائی",
+          "id": null,
+          "sourceLabel": "دستورالعمل اجرایی استفاده از دوره فرصت مطالعاتی دانشگاه شهید رجائی"
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C1.pdf",
@@ -717,34 +720,6 @@
           "sourceLabel": "فرم اطلاعات طرح پژوهشی"
         },
         {
-          "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%81%D8%B1%D9%85-%D8%B1%D8%B6%D8%A7%DB%8C%D8%AA-%D8%A2%DA%AF%D8%A7%D9%87%D8%A7%D9%86%D9%87-%D8%B1%D8%AC%D8%A7%DB%8C%DB%8C.docx",
-          "kind": "research-review-specific",
-          "claim": "فرم رضایت آگاهانه کلی",
-          "id": null,
-          "sourceLabel": "فرم رضایت آگاهانه کلی"
-        },
-        {
-          "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D8%B1%D8%B6%D8%A7%D9%8A%D8%AA-%D8%A7%D9%93%DA%AF%D8%A7%D9%87%D8%A7%D9%86%D9%87-%D9%85%D8%B5%D8%A7%D8%AD%D8%A8%D9%87-%DB%8C%D8%A7-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%871%D9%86%D9%87%D8%A7%DB%8C%DB%8C22216%D9%85%D9%87%D8%B1-.docx",
-          "kind": "research-review-specific",
-          "claim": "رضایت آگاهانه مصاحبه یا پرسشنامه",
-          "id": null,
-          "sourceLabel": "رضایت آگاهانه مصاحبه یا پرسشنامه"
-        },
-        {
-          "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/1-%D9%85%D9%87%D8%B1-%D9%81%D8%B1%D9%85-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B1%D8%B6%D8%A7%DB%8C%D8%AA-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B2-%D9%88%D9%84%DB%8C-%DB%8C%D8%A7-%D9%82%DB%8C%D9%85-%DA%A9%D9%88%D8%AF%DA%A9.doc",
-          "kind": "research-review-specific",
-          "claim": "فرم رضایت‌نامه ولی یا قیم کودک",
-          "id": null,
-          "sourceLabel": "فرم رضایت‌نامه ولی یا قیم کودک"
-        },
-        {
-          "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA-%D9%87%D8%B2%DB%8C%D9%86%D9%87%D8%A2%D8%B0%D8%B1-.docx",
-          "kind": "research-review-specific",
-          "claim": "فرم پرداخت هزینه",
-          "id": null,
-          "sourceLabel": "فرم پرداخت هزینه"
-        },
-        {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/Research_Group_Form.docx",
           "kind": "research-review-specific",
           "claim": "فرم درخواست ایجاد گروه پژوهشی",
@@ -766,7 +741,7 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 15,
       "sources": [
         {
@@ -780,126 +755,98 @@
           "kind": "unit",
           "claim": "مرکز نوآوری، کارآفرینی و هوش مصنوعی شهید حسن طهرانی مقدم | دانشگاه تربیت دبیر شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-technology-e23a2acea5bc",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%da%a9%d8%a7%d8%b1%d8%a2%d9%81%d8%b1%db%8c%d9%86%db%8c-%d9%88-%d8%a7%d8%b1%d8%aa%d8%a8%d8%a7%d8%b7-%d8%a8%d8%a7-%d8%ac%d8%a7%d9%85%d8%b9%d9%87-%d9%85%d8%af%db%8c/",
           "kind": "unit",
           "claim": "مدیر کارآفرینی و ارتباط با صنعت | دانشگاه تربیت دبیر شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-industry-e96feddd5af8",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "industry"
         },
         {
           "url": "https://lib.sru.ac.ir/DL/SPortal/",
           "kind": "unit",
           "claim": "كتابخانه دانشگاه تربيت دبير شهيد رجايي",
           "id": "shahid-rajaee-discovery-unit-library-d3b65ce35e15",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/labtour/",
           "kind": "unit",
           "claim": "دانشگاه شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-laboratory-5162b4269001",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d8%a7%d8%af%d8%a7%d8%b1%d9%87-%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa-%d9%88-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%b9%d9%84%d9%85%db%8c-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%b3%d8%a7/",
           "kind": "unit",
           "claim": "اداره انتشارات > سامانه ها | دانشگاه تربیت دبیر شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-library-1d21be79381d",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/category/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87/",
           "kind": "unit",
           "claim": "اخبار کتابخانه | دانشگاه تربیت دبیر شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-library-5eee2c021255",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%da%af%d8%b1%d8%af%d9%87%d9%85%d8%a7%db%8c%db%8c-%d8%b1%d9%88%d8%b3%d8%a7%db%8c-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
           "kind": "unit",
           "claim": "گردهمایی روسای کتابخانه‌های دانشگاه‌ها، پژوهشگاه‌ها و موسسات آموزش عالی و پژوهشی در روز ۲۴ آبان ۱۴۰۴ در سالن علامه امینی کتابخانه مرکزی دانشگاه تهران برگزار خواهد شد | دانشگاه تربیت دبیر شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-library-f23b8b2245b5",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%d8%aa%d8%a3%d8%b3%db%8c%d8%b3-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-%d8%aa%d8%ae%d8%b5%d8%b5%db%8c-%d8%b9%d9%84%d9%88%d9%85-%d8%b4%d9%86%d8%a7%d8%ae%d8%aa%db%8c-%d8%af%d8%b1-%d9%be%da%98/",
           "kind": "unit",
           "claim": "تأسیس کتابخانه تخصصی علوم شناختی در پژوهشکده هوش مصنوعی و علوم شناختی دانشگاه تربیت دبیر شهید رجائی با اهدای ۷۰ جلد کتاب از سوی ستاد علوم شناختی | دانشگاه تربیت دبیر شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-library-c0ab78bc1c7c",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%d8%aa%d8%ac%d9%87%db%8c%d8%b2-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%aa%d8%b1%d8%a8%db%8c%d8%aa-%d8%af%d8%a8%db%8c%d8%b1-%d8%b4%d9%87%db%8c/",
           "kind": "unit",
           "claim": "تجهیز کتابخانه دانشگاه تربیت دبیر شهید رجائی به ۴۰ جلد کتاب تخصصی در حوزه علوم شناختی با پیگیری پژوهشکده هوش مصنوعی و علوم شناختی | دانشگاه تربیت دبیر شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-library-dcacee1f7f8f",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%da%86%d8%a7%d9%be-%db%8c%da%a9-%d8%b9%d9%86%d9%88%d8%a7%d9%86-%d8%ac%d8%af%db%8c%d8%af-%d8%af%d8%b1-%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%b4/",
           "kind": "unit",
           "claim": "چاپ یک عنوان جدید در انتشارات دانشگاه شهید رجائی در اوایل آذرماه سال ۱۴۰۴ | دانشگاه تربیت دبیر شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-library-90ea2edd9025",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%da%86%d8%a7%d9%be-%d9%be%d9%86%d8%ac-%d8%b9%d9%86%d9%88%d8%a7%d9%86-%da%a9%d8%aa%d8%a7%d8%a8-%d8%af%d8%b1-%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
           "kind": "unit",
           "claim": "چاپ پنج عنوان کتاب در انتشارات دانشگاه شهید رجایی در مهرماه ۱۴۰۴ | دانشگاه تربیت دبیر شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-library-0b823f305a61",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/category/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87/page/2/",
           "kind": "unit",
           "claim": "اخبار کتابخانه | دانشگاه تربیت دبیر شهید رجایی - Part 2",
           "id": "shahid-rajaee-discovery-unit-library-f0f849def758",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%d8%a7%d8%b2-%d8%a7%db%8c%d8%ac%d8%a7%d8%af-%d8%b4%d8%a8%da%a9%d9%87-%d9%85%d9%84%db%8c-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d8%a7%db%8c%d8%b1%d8%a7%d9%86/",
           "kind": "unit",
           "claim": "از ایجاد شبکه ملی کتابخانه‌های ایران تا طراحی سامانه‌ای برای سودده شدن نشر دانشگاهی | دانشگاه تربیت دبیر شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-library-9106d5b6e887",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%d8%b6%d8%b1%d9%88%d8%b1%d8%aa-%d8%b1%d8%a7%d9%87%e2%80%8c%d8%a7%d9%86%d8%af%d8%a7%d8%b2%db%8c-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d9%87%d9%88%d8%b4/",
           "kind": "unit",
           "claim": "ضرورت راه‌اندازی آزمایشگاه‌های هوش مصنوعی کاربردی در حوزه‌های مختلف در دانشگاه‌ها | دانشگاه تربیت دبیر شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-laboratory-33cf2d124c77",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         }
       ],
       "publicationAdjustment": null,
@@ -916,74 +863,78 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 14,
       "sources": [
         {
           "url": "https://www.sru.ac.ir/category/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "اخبار کتابخانه | دانشگاه تربیت دبیر شهید رجایی",
+          "id": "shahid-rajaee-discovery-unit-library-5eee2c021255",
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%da%af%d8%b1%d8%af%d9%87%d9%85%d8%a7%db%8c%db%8c-%d8%b1%d9%88%d8%b3%d8%a7%db%8c-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "گردهمایی روسای کتابخانه‌های دانشگاه‌ها، پژوهشگاه‌ها و موسسات آموزش عالی و پژوهشی در روز ۲۴ آبان ۱۴۰۴ در سالن علامه امینی کتابخانه مرکزی دانشگاه تهران برگزار خواهد شد | دانشگاه تربیت دبیر شهید رجایی",
+          "id": "shahid-rajaee-discovery-unit-library-f23b8b2245b5",
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%d8%aa%d8%a3%d8%b3%db%8c%d8%b3-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-%d8%aa%d8%ae%d8%b5%d8%b5%db%8c-%d8%b9%d9%84%d9%88%d9%85-%d8%b4%d9%86%d8%a7%d8%ae%d8%aa%db%8c-%d8%af%d8%b1-%d9%be%da%98/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "تأسیس کتابخانه تخصصی علوم شناختی در پژوهشکده هوش مصنوعی و علوم شناختی دانشگاه تربیت دبیر شهید رجائی با اهدای ۷۰ جلد کتاب از سوی ستاد علوم شناختی | دانشگاه تربیت دبیر شهید رجایی",
+          "id": "shahid-rajaee-discovery-unit-library-c0ab78bc1c7c",
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%d8%aa%d8%ac%d9%87%db%8c%d8%b2-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%aa%d8%b1%d8%a8%db%8c%d8%aa-%d8%af%d8%a8%db%8c%d8%b1-%d8%b4%d9%87%db%8c/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "تجهیز کتابخانه دانشگاه تربیت دبیر شهید رجائی به ۴۰ جلد کتاب تخصصی در حوزه علوم شناختی با پیگیری پژوهشکده هوش مصنوعی و علوم شناختی | دانشگاه تربیت دبیر شهید رجایی",
+          "id": "shahid-rajaee-discovery-unit-library-dcacee1f7f8f",
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%da%86%d8%a7%d9%be-%db%8c%da%a9-%d8%b9%d9%86%d9%88%d8%a7%d9%86-%d8%ac%d8%af%db%8c%d8%af-%d8%af%d8%b1-%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%b4/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "چاپ یک عنوان جدید در انتشارات دانشگاه شهید رجائی در اوایل آذرماه سال ۱۴۰۴ | دانشگاه تربیت دبیر شهید رجایی",
+          "id": "shahid-rajaee-discovery-unit-library-90ea2edd9025",
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%da%86%d8%a7%d9%be-%d9%be%d9%86%d8%ac-%d8%b9%d9%86%d9%88%d8%a7%d9%86-%da%a9%d8%aa%d8%a7%d8%a8-%d8%af%d8%b1-%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "چاپ پنج عنوان کتاب در انتشارات دانشگاه شهید رجایی در مهرماه ۱۴۰۴ | دانشگاه تربیت دبیر شهید رجایی",
+          "id": "shahid-rajaee-discovery-unit-library-0b823f305a61",
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/category/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87/page/2/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "اخبار کتابخانه | دانشگاه تربیت دبیر شهید رجایی - Part 2",
+          "id": "shahid-rajaee-discovery-unit-library-f0f849def758",
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%d8%a7%d8%b2-%d8%a7%db%8c%d8%ac%d8%a7%d8%af-%d8%b4%d8%a8%da%a9%d9%87-%d9%85%d9%84%db%8c-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d8%a7%db%8c%d8%b1%d8%a7%d9%86/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "از ایجاد شبکه ملی کتابخانه‌های ایران تا طراحی سامانه‌ای برای سودده شدن نشر دانشگاهی | دانشگاه تربیت دبیر شهید رجایی",
+          "id": "shahid-rajaee-discovery-unit-library-9106d5b6e887",
+          "unitType": "library"
         },
         {
           "url": "https://lib.sru.ac.ir/DL/SPortal/",
           "kind": "unit",
           "claim": "كتابخانه دانشگاه تربيت دبير شهيد رجايي",
           "id": "shahid-rajaee-discovery-unit-library-d3b65ce35e15",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d8%a7%d8%af%d8%a7%d8%b1%d9%87-%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa-%d9%88-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%b9%d9%84%d9%85%db%8c-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%b3%d8%a7/",
           "kind": "unit",
           "claim": "اداره انتشارات > سامانه ها | دانشگاه تربیت دبیر شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-library-1d21be79381d",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/page/7/",
@@ -1025,23 +976,22 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 2,
       "sources": [
         {
           "url": "https://www.sru.ac.ir/%d8%b6%d8%b1%d9%88%d8%b1%d8%aa-%d8%b1%d8%a7%d9%87%e2%80%8c%d8%a7%d9%86%d8%af%d8%a7%d8%b2%db%8c-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d9%87%d9%88%d8%b4/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
+          "kind": "unit",
+          "claim": "ضرورت راه‌اندازی آزمایشگاه‌های هوش مصنوعی کاربردی در حوزه‌های مختلف در دانشگاه‌ها | دانشگاه تربیت دبیر شهید رجایی",
+          "id": "shahid-rajaee-discovery-unit-laboratory-33cf2d124c77",
+          "unitType": "laboratory"
         },
         {
           "url": "https://www.sru.ac.ir/labtour/",
           "kind": "unit",
           "claim": "دانشگاه شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-laboratory-5162b4269001",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         }
       ],
       "publicationAdjustment": null,
@@ -1058,26 +1008,22 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 4,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://www.sru.ac.ir/innovation/",
           "kind": "unit",
           "claim": "مرکز نوآوری، کارآفرینی و هوش مصنوعی شهید حسن طهرانی مقدم | دانشگاه تربیت دبیر شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-technology-e23a2acea5bc",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%da%a9%d8%a7%d8%b1%d8%a2%d9%81%d8%b1%db%8c%d9%86%db%8c-%d9%88-%d8%a7%d8%b1%d8%aa%d8%a8%d8%a7%d8%b7-%d8%a8%d8%a7-%d8%ac%d8%a7%d9%85%d8%b9%d9%87-%d9%85%d8%af%db%8c/",
           "kind": "unit",
           "claim": "مدیر کارآفرینی و ارتباط با صنعت | دانشگاه تربیت دبیر شهید رجایی",
           "id": "shahid-rajaee-discovery-unit-industry-e96feddd5af8",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "industry"
         },
         {
           "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
@@ -1085,41 +1031,10 @@
           "claim": "پرتال پژوهش و فناوری 1",
           "id": null,
           "sourceLabel": "پرتال پژوهش و فناوری 1"
-        },
-        {
-          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D9%85%D8%A7/",
-          "kind": "research-review-specific",
-          "claim": "فناوری اطلاعات وابسته 1",
-          "id": null,
-          "sourceLabel": "فناوری اطلاعات وابسته 1"
         }
       ],
       "publicationAdjustment": null,
       "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
-      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
-    },
-    {
-      "id": "shahid-rajaee:informationTechnology",
-      "universitySlug": "shahid-rajaee",
-      "nameFa": "دانشگاه تربیت دبیر شهید رجایی",
-      "iscCategory": "دستگاه اجرایی",
-      "iscRank": 4,
-      "dimension": "informationTechnology",
-      "status": "observed-reference",
-      "reportedStatus": "observed-reference",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D9%85%D8%A7/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific informationTechnology source",
-          "id": null
-        }
-      ],
-      "publicationAdjustment": null,
-      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -1132,7 +1047,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 9,
       "sources": [
         {
@@ -1156,8 +1071,8 @@
         {
           "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
           "kind": "system",
-          "claim": "اداره انتشارات > سامانه ها | دانشگاه تربیت دبیر شهید رجایی",
-          "id": "shahid-rajaee-discovery-system-1d21be79381d",
+          "claim": "سخنرانی با عنوان:کاربرد کنترل پیش بین در سامانه های الکترونیک قدرت خودروهای برقی | دانشگاه تربیت دبیر شهید رجایی",
+          "id": "shahid-rajaee-discovery-system-46e4ab6811b2",
           "systemCategory": "research"
         },
         {
@@ -1210,8 +1125,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 90,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 85,
       "sources": [
         {
           "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -1337,30 +1252,6 @@
           "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/form-student-1401.doc",
           "kind": "portal-document-reaudit-document",
           "claim": "فرم پرسشنامه انتخاب دانشجويان پژوهشگربرتر سال ۱۴۰۱",
-          "id": null
-        },
-        {
-          "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%81%D8%B1%D9%85-%D8%B1%D8%B6%D8%A7%DB%8C%D8%AA-%D8%A2%DA%AF%D8%A7%D9%87%D8%A7%D9%86%D9%87-%D8%B1%D8%AC%D8%A7%DB%8C%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم رضایت آگاهانه کلی",
-          "id": null
-        },
-        {
-          "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D8%B1%D8%B6%D8%A7%D9%8A%D8%AA-%D8%A7%D9%93%DA%AF%D8%A7%D9%87%D8%A7%D9%86%D9%87-%D9%85%D8%B5%D8%A7%D8%AD%D8%A8%D9%87-%DB%8C%D8%A7-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%871%D9%86%D9%87%D8%A7%DB%8C%DB%8C22216%D9%85%D9%87%D8%B1-.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "رضایت آگاهانه مصاحبه یا پرسشنامه",
-          "id": null
-        },
-        {
-          "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/1-%D9%85%D9%87%D8%B1-%D9%81%D8%B1%D9%85-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B1%D8%B6%D8%A7%DB%8C%D8%AA-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B2-%D9%88%D9%84%DB%8C-%DB%8C%D8%A7-%D9%82%DB%8C%D9%85-%DA%A9%D9%88%D8%AF%DA%A9.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم رضایت‌نامه ولی یا قیم کودک",
-          "id": null
-        },
-        {
-          "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA-%D9%87%D8%B2%DB%8C%D9%86%D9%87%D8%A2%D8%B0%D8%B1-.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم پرداخت هزینه",
           "id": null
         },
         {
@@ -1505,12 +1396,6 @@
           "url": "https://www.sru.ac.ir/wp-content/uploads/2020/09/Grant-Instruction-99-1.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "آیین نامه گرنت سال ۱۳۹۹",
-          "id": null
-        },
-        {
-          "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%81%D8%B1%D9%85-%D8%AE%D8%A7%D9%85-HSE.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم HSE",
           "id": null
         },
         {
@@ -1765,25 +1650,25 @@
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 4,
     "score": 86.6,
-    "confidence": 91.4,
+    "confidence": 100,
     "metrics": {
       "documents": 100,
       "organization": 81.7,
       "library": 100,
       "laboratories": 70,
-      "digital": 67.5,
+      "systems": 67.5,
       "industryTech": 90,
       "dataQuality": 100,
       "findability": 75
     },
     "units": 14,
     "systems": 9,
-    "documents": 89,
+    "documents": 84,
     "activeWeight": 100,
-    "evidenceCoverage": 88,
-    "methodologyVersion": "RTPMI-4.1-ISC",
-    "snapshotDate": "2026-08-11",
-    "rank": 11,
+    "evidenceCoverage": 100,
+    "methodologyVersion": "RTPMI-4.2-ISC",
+    "snapshotDate": "2026-08-12",
+    "rank": 7,
     "portalRankWithinISCClass": 1,
     "rankedPortalsInISCClass": 4
   },
@@ -2085,7 +1970,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2022/02/%D9%81%D8%B1%D9%85-%D8%AA%D8%A7%DB%8C%DB%8C%D8%AF-%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2022/02/%D9%81%D8%B1%D9%85-%D8%AA%D8%A7%DB%8C%DB%8C%D8%AF-%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2124,7 +2009,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2024/11/shivenameEtebar1403.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2024/11/shivenameEtebar1403.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2142,7 +2027,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2023/05/grant-1402.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2023/05/grant-1402.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2160,7 +2045,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2022/02/Grant-1401.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2022/02/Grant-1401.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2178,7 +2063,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-17.6.97.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-17.6.97.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2196,7 +2081,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Forsat-Motaaleati.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Forsat-Motaaleati.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2214,7 +2099,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Forsat-Motaaleati-Elhaaghiye.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Forsat-Motaaleati-Elhaaghiye.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2232,7 +2117,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2026/06/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C-%D9%88%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_compressed-3-13.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2026/06/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C-%D9%88%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_compressed-3-13.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2250,7 +2135,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2020/09/Grant-Instruction-99-1.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2020/09/Grant-Instruction-99-1.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2331,7 +2216,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2023/10/pajouhesh-journal-1402.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2023/10/pajouhesh-journal-1402.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2349,7 +2234,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2022/05/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86-%D9%81%D8%B9%D8%A7%D9%84-1401-1.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2022/05/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86-%D9%81%D8%B9%D8%A7%D9%84-1401-1.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2367,7 +2252,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D9%86%D8%AA%D8%B4%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D9%88-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-1.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D9%86%D8%AA%D8%B4%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D9%88-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-1.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2385,7 +2270,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2023/07/%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D8%A6%D9%8A-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A-%D8%AF%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A-1402.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2023/07/%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D8%A6%D9%8A-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A-%D8%AF%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A-1402.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2403,7 +2288,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-1.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-1.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2421,7 +2306,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-2.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-2.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2440,7 +2325,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-3.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-3.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2459,7 +2344,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/conferences.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/conferences.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2477,7 +2362,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/research_course_1394a.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/research_course_1394a.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2495,7 +2380,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C1.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C1.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2513,7 +2398,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2531,7 +2416,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2025/02/1_16802471857.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2025/02/1_16802471857.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2549,7 +2434,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-1.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-1.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2588,7 +2473,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_4_22849.pdf",
       "sourceUrl": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_4_22849.pdf",
       "parentUrl": "https://lib.sru.ac.ir/DL/SPortal/",
@@ -2607,7 +2492,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_6_23536.pdf",
       "sourceUrl": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_6_23536.pdf",
       "parentUrl": "https://lib.sru.ac.ir/DL/SPortal/",
@@ -2626,7 +2511,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_8_23537.docx",
       "sourceUrl": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_8_23537.docx",
       "parentUrl": "https://lib.sru.ac.ir/DL/SPortal/",
@@ -2645,7 +2530,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_10_23539.pdf",
       "sourceUrl": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_10_23539.pdf",
       "parentUrl": "https://lib.sru.ac.ir/DL/SPortal/",
@@ -2832,7 +2717,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2020/04/hemayat-d99.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2020/04/hemayat-d99.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2850,7 +2735,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2022/02/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D9%81%D8%B5%DB%8C%D9%84%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2022/02/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D9%81%D8%B5%DB%8C%D9%84%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2869,7 +2754,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2020/06/Tarh-Melli.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2020/06/Tarh-Melli.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2887,7 +2772,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Iran-Conferences.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Iran-Conferences.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2905,7 +2790,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/International-Conferences.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/11/International-Conferences.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2923,7 +2808,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/International-Conferences-for-Students.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/11/International-Conferences-for-Students.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2962,7 +2847,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D9%87%D9%85%D8%A7%DB%8C%D8%B4.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D9%87%D9%85%D8%A7%DB%8C%D8%B4.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -2981,7 +2866,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2024/02/%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%86%DA%AF%D8%A7%D8%B1.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2024/02/%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%86%DA%AF%D8%A7%D8%B1.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3000,7 +2885,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Scheme-of-Final-Report-of-Research-Plan.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Scheme-of-Final-Report-of-Research-Plan.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3018,7 +2903,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-alef.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-alef.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3036,7 +2921,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-be.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-be.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3054,7 +2939,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-jim.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-jim.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3072,7 +2957,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-dal.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-dal.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3090,7 +2975,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%DA%86%DA%A9-%D9%84%DB%8C%D8%B3%D8%AA-%D8%AA%D8%B4%DA%A9%DB%8C%D9%84-%D9%BE%D8%B1%D9%88%D9%86%D8%AF%D9%87.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%DA%86%DA%A9-%D9%84%DB%8C%D8%B3%D8%AA-%D8%AA%D8%B4%DA%A9%DB%8C%D9%84-%D9%BE%D8%B1%D9%88%D9%86%D8%AF%D9%87.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3108,7 +2993,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%DA%86%DA%A9-%D9%84%DB%8C%D8%B3%D8%AA-%D9%85%D8%AF%D8%A7%D8%B1%DA%A9-%D9%BE%D8%B3-%D8%A7%D8%B2-%D8%AA%D8%B5%D9%88%DB%8C%D8%A8-%D8%AF%D8%B1-%D8%B4%D9%88%D8%B1%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%DA%86%DA%A9-%D9%84%DB%8C%D8%B3%D8%AA-%D9%85%D8%AF%D8%A7%D8%B1%DA%A9-%D9%BE%D8%B3-%D8%A7%D8%B2-%D8%AA%D8%B5%D9%88%DB%8C%D8%A8-%D8%AF%D8%B1-%D8%B4%D9%88%D8%B1%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3126,7 +3011,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D9%88%D8%AB%D9%8A%D9%82%D9%87-%D9%85%D9%84%D9%83%D9%8A.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D9%88%D8%AB%D9%8A%D9%82%D9%87-%D9%85%D9%84%D9%83%D9%8A.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3144,7 +3029,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D8%AA%D8%B9%D9%87%D8%AF-%D9%83%D8%A7%D8%B1%D9%85%D9%86%D8%AF%D9%8A.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D8%AA%D8%B9%D9%87%D8%AF-%D9%83%D8%A7%D8%B1%D9%85%D9%86%D8%AF%D9%8A.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3162,7 +3047,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84.docx",
       "sourceUrl": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84.docx",
       "parentUrl": "https://ethicsresearch.sru.ac.ir/",
@@ -3181,7 +3066,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.docx",
       "sourceUrl": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.docx",
       "parentUrl": "https://ethicsresearch.sru.ac.ir/",
@@ -3200,88 +3085,12 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/form-student-1401.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2022/10/form-student-1401.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
       "fileName": "form-student-1401.doc",
       "contentType": "application/msword",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "shahid-rajaee-discovery-document-bd3737ba0026",
-      "universitySlug": "shahid-rajaee",
-      "title": "فرم رضایت آگاهانه کلی",
-      "type": "سند",
-      "topic": "اخلاق پژوهش",
-      "taxonomy": "research ethics",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%81%D8%B1%D9%85-%D8%B1%D8%B6%D8%A7%DB%8C%D8%AA-%D8%A2%DA%AF%D8%A7%D9%87%D8%A7%D9%86%D9%87-%D8%B1%D8%AC%D8%A7%DB%8C%DB%8C.docx",
-      "sourceUrl": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%81%D8%B1%D9%85-%D8%B1%D8%B6%D8%A7%DB%8C%D8%AA-%D8%A2%DA%AF%D8%A7%D9%87%D8%A7%D9%86%D9%87-%D8%B1%D8%AC%D8%A7%DB%8C%DB%8C.docx",
-      "parentUrl": "https://ethicsresearch.sru.ac.ir/",
-      "fileName": "فرم-رضایت-آگاهانه-رجایی.docx",
-      "contentType": "application/octet-stream",
-      "fileSize": 30769,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "shahid-rajaee-discovery-document-57027054d14f",
-      "universitySlug": "shahid-rajaee",
-      "title": "رضایت آگاهانه مصاحبه یا پرسشنامه",
-      "type": "سند",
-      "topic": "اخلاق پژوهش",
-      "taxonomy": "research ethics",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D8%B1%D8%B6%D8%A7%D9%8A%D8%AA-%D8%A7%D9%93%DA%AF%D8%A7%D9%87%D8%A7%D9%86%D9%87-%D9%85%D8%B5%D8%A7%D8%AD%D8%A8%D9%87-%DB%8C%D8%A7-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%871%D9%86%D9%87%D8%A7%DB%8C%DB%8C22216%D9%85%D9%87%D8%B1-.docx",
-      "sourceUrl": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D8%B1%D8%B6%D8%A7%D9%8A%D8%AA-%D8%A7%D9%93%DA%AF%D8%A7%D9%87%D8%A7%D9%86%D9%87-%D9%85%D8%B5%D8%A7%D8%AD%D8%A8%D9%87-%DB%8C%D8%A7-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%871%D9%86%D9%87%D8%A7%DB%8C%DB%8C22216%D9%85%D9%87%D8%B1-.docx",
-      "parentUrl": "https://ethicsresearch.sru.ac.ir/",
-      "fileName": "رضايت-آگاهانه-مصاحبه-یا-پرسشنامه1نهایی22216مهر-.docx",
-      "contentType": "application/octet-stream",
-      "fileSize": 28187,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "shahid-rajaee-discovery-document-6850be488050",
-      "universitySlug": "shahid-rajaee",
-      "title": "فرم رضایت‌نامه ولی یا قیم کودک",
-      "type": "سند",
-      "topic": "اخلاق پژوهش",
-      "taxonomy": "research ethics",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/1-%D9%85%D9%87%D8%B1-%D9%81%D8%B1%D9%85-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B1%D8%B6%D8%A7%DB%8C%D8%AA-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B2-%D9%88%D9%84%DB%8C-%DB%8C%D8%A7-%D9%82%DB%8C%D9%85-%DA%A9%D9%88%D8%AF%DA%A9.doc",
-      "sourceUrl": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/1-%D9%85%D9%87%D8%B1-%D9%81%D8%B1%D9%85-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B1%D8%B6%D8%A7%DB%8C%D8%AA-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B2-%D9%88%D9%84%DB%8C-%DB%8C%D8%A7-%D9%82%DB%8C%D9%85-%DA%A9%D9%88%D8%AF%DA%A9.doc",
-      "parentUrl": "https://ethicsresearch.sru.ac.ir/",
-      "fileName": "1-مهر-فرم-نهایی-رضایت-نامه-از-ولی-یا-قیم-کودک.doc",
-      "contentType": "application/octet-stream",
-      "fileSize": 67072,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "shahid-rajaee-discovery-document-45fb3f6edefb",
-      "universitySlug": "shahid-rajaee",
-      "title": "فرم پرداخت هزینه",
-      "type": "سند",
-      "topic": "اخلاق پژوهش",
-      "taxonomy": "research ethics",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA-%D9%87%D8%B2%DB%8C%D9%86%D9%87%D8%A2%D8%B0%D8%B1-.docx",
-      "sourceUrl": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA-%D9%87%D8%B2%DB%8C%D9%86%D9%87%D8%A2%D8%B0%D8%B1-.docx",
-      "parentUrl": "https://ethicsresearch.sru.ac.ir/",
-      "fileName": "پرداخت-هزینهآذر-.docx",
-      "contentType": "application/octet-stream",
-      "fileSize": 13589,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -3294,7 +3103,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2023/06/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%A7%D9%85%D8%B9-%D8%AA%D8%AD%D9%82%D9%8A%D9%82%D8%A7%D8%AA%D9%8A-%D9%8A%D9%83%D8%B3%D8%A7%D9%84%D9%87.docx",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2023/06/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%A7%D9%85%D8%B9-%D8%AA%D8%AD%D9%82%D9%8A%D9%82%D8%A7%D8%AA%D9%8A-%D9%8A%D9%83%D8%B3%D8%A7%D9%84%D9%87.docx",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3313,7 +3122,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/Research_Group_Form.docx",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/Research_Group_Form.docx",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3331,7 +3140,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%D9%8A%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-Grant-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88-%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%D9%8A%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-Grant-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88-%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3349,7 +3158,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%D9%8A%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-Grant-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88-%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C-1.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%D9%8A%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-Grant-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88-%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C-1.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3367,7 +3176,7 @@
       "taxonomy": "procedure/guideline",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/AeenNume/3.pdf",
       "sourceUrl": "https://www.sru.ac.ir/AeenNume/3.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c/",
@@ -3385,7 +3194,7 @@
       "taxonomy": "procedure/guideline",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/AeenNume/34.pdf",
       "sourceUrl": "https://www.sru.ac.ir/AeenNume/34.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c/",
@@ -3403,7 +3212,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-1.docx",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-1.docx",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3422,7 +3231,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-19.1.98.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-19.1.98.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3440,7 +3249,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2016/04/researchgroup.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2016/04/researchgroup.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3458,31 +3267,12 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2026/06/%D8%A2%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%B0%D8%A8-%D9%88-%D8%A8%D9%87-%DA%A9%D8%A7%D8%B1-%DA%AF%DB%8C%D8%B1%DB%8C-%D9%85%D8%AD%D9%82%D9%82%D8%A7%D9%86-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C_compressed-4-1-6.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2026/06/%D8%A2%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%B0%D8%A8-%D9%88-%D8%A8%D9%87-%DA%A9%D8%A7%D8%B1-%DA%AF%DB%8C%D8%B1%DB%8C-%D9%85%D8%AD%D9%82%D9%82%D8%A7%D9%86-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C_compressed-4-1-6.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
       "fileName": "آین-نامه-جذب-و-به-کار-گیری-محققان-پسا-دکتری_compressed-4-1-6.pdf",
       "contentType": "application/pdf",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "shahid-rajaee-discovery-document-7be7c60faf8b",
-      "universitySlug": "shahid-rajaee",
-      "title": "فرم HSE",
-      "type": "سند",
-      "topic": "اخلاق پژوهش",
-      "taxonomy": "research ethics",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%81%D8%B1%D9%85-%D8%AE%D8%A7%D9%85-HSE.pdf",
-      "sourceUrl": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%81%D8%B1%D9%85-%D8%AE%D8%A7%D9%85-HSE.pdf",
-      "parentUrl": "https://ethicsresearch.sru.ac.ir/",
-      "fileName": "فرم-خام-HSE.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 559351,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -3495,7 +3285,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2026/06/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D9%81%D8%B1%D8%B5%D8%AA%D9%87%D8%A7%DB%8C-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88-%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2026/06/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D9%81%D8%B1%D8%B5%D8%AA%D9%87%D8%A7%DB%8C-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88-%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3513,7 +3303,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/AeenNume/2.pdf",
       "sourceUrl": "https://www.sru.ac.ir/AeenNume/2.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c/",
@@ -3531,7 +3321,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%DA%AF%D8%B1%D8%AF%D8%B4-%DA%A9%D8%A7%D8%B1-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%DA%AF%D8%B1%D8%AF%D8%B4-%DA%A9%D8%A7%D8%B1-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3549,7 +3339,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%86%D9%85%D8%A7%DB%8C%D9%87-ISC.docx",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%86%D9%85%D8%A7%DB%8C%D9%87-ISC.docx",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3568,7 +3358,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3586,7 +3376,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/AeenNameh_2.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/11/AeenNameh_2.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3604,7 +3394,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D9%81%D8%B1%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%A7%D8%B3%D8%A7%D8%AA%D9%8A%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-1401.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D9%81%D8%B1%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%A7%D8%B3%D8%A7%D8%AA%D9%8A%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-1401.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3622,7 +3412,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%A7%D8%B3%D8%A7%D8%AA%D9%8A%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-1401.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%A7%D8%B3%D8%A7%D8%AA%D9%8A%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-1401.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3640,7 +3430,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D9%81%D8%B1%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D8%A7%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-1401.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D9%81%D8%B1%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D8%A7%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-1401.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3658,7 +3448,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D8%A7%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D8%A7%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3676,7 +3466,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%DA%A9%D8%B1%D8%B3%DB%8C.docx",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%DA%A9%D8%B1%D8%B3%DB%8C.docx",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3694,7 +3484,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%B0%D8%A8-%D9%88-%D8%A8%D9%87-%DA%A9%D8%A7%D8%B1-%DA%AF%DB%8C%D8%B1%DB%8C-%D9%85%D8%AD%D9%82%D9%82%D8%A7%D9%86-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%B0%D8%A8-%D9%88-%D8%A8%D9%87-%DA%A9%D8%A7%D8%B1-%DA%AF%DB%8C%D8%B1%DB%8C-%D9%85%D8%AD%D9%82%D9%82%D8%A7%D9%86-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -3712,7 +3502,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/student-request.doc",
       "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/11/student-request.doc",
       "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",

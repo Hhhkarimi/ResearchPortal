@@ -1,6 +1,6 @@
 {
   "schemaVersion": "10.0.0",
-  "snapshotDate": "2026-08-11",
+  "snapshotDate": "2026-08-12",
   "institution": {
     "category": "دستگاه اجرایی",
     "iscRank": 8,
@@ -16,7 +16,7 @@
     "nameFa": "دانشگاه صنعت نفت",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 8,
-    "auditDate": "2026-08-12",
+    "auditDate": "2026-08-13",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://www.put.ac.ir/fa-IR/put/4793/page/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A",
     "evidenceUrls": [
@@ -89,7 +89,7 @@
       "industry"
     ],
     "discoveryCrawler": {
-      "lastRun": "2026-08-12",
+      "lastRun": "2026-08-13",
       "promotedSources": 89,
       "socialEvidenceRemoved": true
     }
@@ -99,7 +99,7 @@
     "nameFa": "دانشگاه صنعت نفت",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 8,
-    "auditDate": "2026-08-11",
+    "auditDate": "2026-08-12",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://www.put.ac.ir/fa-IR/put/4793/page/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A",
     "evidenceUrls": [
@@ -171,14 +171,13 @@
       "libraryDocuments": "verified",
       "laboratories": "verified",
       "industryTechnology": "verified",
-      "informationTechnology": "verified",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
     "auditEvidenceCoverage": 100,
-    "unitsFound": 18,
-    "systemsFound": 19,
-    "documentsFound": 53,
+    "unitsFound": 13,
+    "systemsFound": 18,
+    "documentsFound": 47,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -193,7 +192,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 71,
       "sources": [
         {
@@ -210,14 +209,14 @@
         },
         {
           "url": "https://www.put.ac.ir/fa-IR/put/7448/page/%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://www.put.ac.ir/fa-IR/PUT/7448/page/%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
@@ -648,8 +647,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 19,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 14,
       "sources": [
         {
           "url": "https://www.put.ac.ir/fa-IR/put/5028/page/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%D9%8A-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
@@ -658,166 +657,95 @@
           "id": null
         },
         {
-          "url": "https://www.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "unit",
-          "claim": "مرکز فناوری اطلاعات دانشگاه",
-          "id": "petroleum-discovery-unit-it-343a2f2c6e83",
-          "unitType": "it",
-          "relationStatus": "organizationally-attributed",
-          "relationshipEvidenceUrl": "https://www.put.ac.ir/fa-IR/put/4793/page/%C2%BB-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A"
-        },
-        {
           "url": "https://www.put.ac.ir/fa-IR/PUT/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
           "kind": "unit",
           "claim": "مراکز تحقیقاتی و آزمایشگاهها",
           "id": "petroleum-discovery-unit-laboratory-106cc1cf93a0",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://www.put.ac.ir/fa-IR/put/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
           "kind": "unit",
           "claim": "مراکز تحقیقاتی و آزمایشگاهها",
           "id": "petroleum-discovery-unit-laboratory-a7e8f7fb155e",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://roshd.put.ac.ir/fa-IR/PUT/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
           "kind": "unit",
           "claim": "مراکز تحقیقاتی و آزمایشگاهها",
           "id": "petroleum-discovery-unit-laboratory-a424e786f77e",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://roshd.put.ac.ir/fa-IR/put/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
           "kind": "unit",
           "claim": "مراکز تحقیقاتی و آزمایشگاهها",
           "id": "petroleum-discovery-unit-laboratory-79da02c7119e",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://www.put.ac.ir/fa-IR/put/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "unit",
-          "claim": "مرکز فناوری اطلاعات دانشگاه",
-          "id": "petroleum-discovery-unit-it-a4413b1c34f7",
-          "unitType": "it",
-          "relationStatus": "organizationally-attributed",
-          "relationshipEvidenceUrl": "https://www.put.ac.ir/fa-IR/put/4793/page/%C2%BB-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A"
-        },
-        {
-          "url": "https://roshd.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "unit",
-          "claim": "مرکز فناوری اطلاعات دانشگاه",
-          "id": "petroleum-discovery-unit-it-8c1cab339bf2",
-          "unitType": "it",
-          "relationStatus": "organizationally-attributed",
-          "relationshipEvidenceUrl": "https://roshd.put.ac.ir/fa-IR/PUT/5531/auth/accessDenied"
-        },
-        {
-          "url": "https://roshd.put.ac.ir/fa-IR/put/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "unit",
-          "claim": "مرکز فناوری اطلاعات دانشگاه",
-          "id": "petroleum-discovery-unit-it-a0bb787c284b",
-          "unitType": "it",
-          "relationStatus": "organizationally-attributed",
-          "relationshipEvidenceUrl": "https://roshd.put.ac.ir/fa-IR/PUT/5531/auth/accessDenied"
+          "unitType": "laboratory"
         },
         {
           "url": "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
           "kind": "unit",
           "claim": "انتشارات",
           "id": "petroleum-discovery-unit-library-131156c46699",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://roshd.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
           "kind": "unit",
           "claim": "انتشارات",
           "id": "petroleum-discovery-unit-library-fab096f0c62a",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://roshd.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
           "kind": "unit",
           "claim": "انتشارات",
           "id": "petroleum-discovery-unit-library-560957cbfc76",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.put.ac.ir/fa-IR/put/1/page/%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA-%D9%86%D9%81%D8%AA",
           "kind": "unit",
           "claim": "دانشگاه صنعت نفت",
           "id": "petroleum-discovery-unit-industry-0b692de5ee66",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "industry"
         },
         {
           "url": "https://roshd.put.ac.ir/fa-IR/PUT/5531/auth/accessDenied",
           "kind": "unit",
           "claim": "مركز رشد دانشگاه صنعت نفت",
           "id": "petroleum-discovery-unit-industry-8d12ce9a1205",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "industry"
         },
         {
           "url": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
           "kind": "unit",
           "claim": "انتشارات",
           "id": "petroleum-discovery-unit-library-69937ba08cd6",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.put.ac.ir/fa-IR/put/7450/page/%D9%88%D8%A7%D8%AD%D8%AF-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
           "kind": "unit",
           "claim": "واحد ارتباط با صنعت",
           "id": "petroleum-discovery-unit-industry-0034d766827d",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "industry"
         },
         {
           "url": "https://www.put.ac.ir/fa-IR/PUT/7450/page/%D9%88%D8%A7%D8%AD%D8%AF-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
           "kind": "unit",
           "claim": "واحد ارتباط با صنعت",
           "id": "petroleum-discovery-unit-industry-ac13f25e9b89",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://www.put.ac.ir/fa-IR/put/6677/news/view/19398/12136/Staging/%D8%B1%D8%A7%D9%87%E2%80%8C%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA(Help-Desk)",
-          "kind": "unit",
-          "claim": "راه‌اندازی سامانه پشتیبانی خدمات فناوری اطلاعات(Help Desk)",
-          "id": "petroleum-discovery-unit-it-f04f7d157090",
-          "unitType": "it",
-          "relationStatus": "organizationally-attributed",
-          "relationshipEvidenceUrl": "https://www.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87"
+          "unitType": "industry"
         },
         {
           "url": "https://www.put.ac.ir/fa-IR/put/5489/page/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
           "kind": "unit",
           "claim": "دانشگاه صنعت نفت",
           "id": "petroleum-discovery-unit-industry-f99bf52e3c00",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "industry"
         }
       ],
       "publicationAdjustment": null,
@@ -834,8 +762,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 13,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 12,
       "sources": [
         {
           "url": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
@@ -854,18 +782,14 @@
           "kind": "unit",
           "claim": "انتشارات",
           "id": "petroleum-discovery-unit-library-fab096f0c62a",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://roshd.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
           "kind": "unit",
           "claim": "انتشارات",
           "id": "petroleum-discovery-unit-library-560957cbfc76",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://www.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
@@ -877,8 +801,8 @@
         {
           "url": "https://www.put.ac.ir/fa-IR/put/4793/page/%C2%BB-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A",
           "kind": "system",
-          "claim": "نشریات دانشگاه",
-          "id": "petroleum-discovery-system-7d40fbc174b3",
+          "claim": "دانشگاه صنعت نفت",
+          "id": "petroleum-discovery-system-21a4322d92ef",
           "systemCategory": "journals"
         },
         {
@@ -916,12 +840,6 @@
           "id": "petroleum-discovery-document-1f24b88bb6e0"
         },
         {
-          "url": "https://www.put.ac.ir/_DouranPortal/documents/3378/%D8%A2%D8%A6%D9%8A%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AC%D8%AF%D9%8A%D8%AF%20%D9%86%D8%B4%D8%B1%D9%8A%D8%A7%D8%AA%20%D8%B3%D8%A7%D9%84%201398.pdf",
-          "kind": "document",
-          "claim": "آئين‌نامه نشريات علمي سال 98",
-          "id": "petroleum-discovery-document-621e9bfaefd3"
-        },
-        {
           "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%AA%D8%B4%D9%88%D9%8A%D9%82%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%20%D9%85%D9%82%D8%A7%D9%84%D9%87%20%D8%AF%D8%B1%20%D9%85%D8%AC%D9%84%D8%A7%D8%AA%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%20%D8%A8%D9%8A%D9%86%E2%80%8C%D8%A7%D9%84%D9%85%D9%84%D9%84%D9%8A%20%D9%88%20%D8%AF%D8%A7%D8%AE%D9%84%D9%8A_20170114_110559.doc",
           "kind": "research-review-specific",
           "claim": "فرم درخواست تشويق انتشار مقاله در مجلات معتبر بين‌المللي و داخلي",
@@ -943,7 +861,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 4,
       "sources": [
         {
@@ -963,18 +881,14 @@
           "kind": "unit",
           "claim": "مراکز تحقیقاتی و آزمایشگاهها",
           "id": "petroleum-discovery-unit-laboratory-a424e786f77e",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://roshd.put.ac.ir/fa-IR/put/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
           "kind": "unit",
           "claim": "مراکز تحقیقاتی و آزمایشگاهها",
           "id": "petroleum-discovery-unit-laboratory-79da02c7119e",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         }
       ],
       "publicationAdjustment": null,
@@ -991,8 +905,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 19,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 15,
       "sources": [
         {
           "url": "https://put.ac.ir/fa-IR/put/1/page/%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA-%D9%86%D9%81%D8%AA",
@@ -1019,22 +933,11 @@
           "id": null
         },
         {
-          "url": "https://www.put.ac.ir/fa-IR/put/1/page/%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA-%D9%86%D9%81%D8%AA",
-          "kind": "unit",
-          "claim": "دانشگاه صنعت نفت",
-          "id": "petroleum-discovery-unit-industry-0b692de5ee66",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
           "url": "https://roshd.put.ac.ir/fa-IR/PUT/5531/auth/accessDenied",
           "kind": "unit",
           "claim": "مركز رشد دانشگاه صنعت نفت",
           "id": "petroleum-discovery-unit-industry-8d12ce9a1205",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "industry"
         },
         {
           "url": "https://scimet.put.ac.ir/",
@@ -1049,27 +952,6 @@
           "claim": "پرتال پژوهش و فناوری 1",
           "id": null,
           "sourceLabel": "پرتال پژوهش و فناوری 1"
-        },
-        {
-          "url": "https://www.put.ac.ir/fa-IR/put/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-specific",
-          "claim": "فناوری اطلاعات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "فناوری اطلاعات — کشف خودکار"
-        },
-        {
-          "url": "https://www.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-specific",
-          "claim": "فناوری اطلاعات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "فناوری اطلاعات — کشف خودکار"
-        },
-        {
-          "url": "https://www.put.ac.ir/fa-IR/put/6677/news/view/19398/12136/Staging/%D8%B1%D8%A7%D9%87%E2%80%8C%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA(Help-Desk)",
-          "kind": "research-review-specific",
-          "claim": "فناوری اطلاعات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "فناوری اطلاعات — کشف خودکار"
         },
         {
           "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D9%85%D9%86%D8%AA%D8%B4%D8%B1%20%D8%B4%D8%AF%D9%87%20%D8%AF%D8%B1%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%20%D8%A8%DB%8C%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C%20%D9%88%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C%20%D8%AF%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B5%D9%86%D8%B9%D8%AA%20%D9%86%D9%81%D8%AA_20171120_120136.pdf",
@@ -1133,81 +1015,6 @@
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
-      "id": "petroleum:informationTechnology",
-      "universitySlug": "petroleum",
-      "nameFa": "دانشگاه صنعت نفت",
-      "iscCategory": "دستگاه اجرایی",
-      "iscRank": 8,
-      "dimension": "informationTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 8,
-      "sources": [
-        {
-          "url": "https://www.put.ac.ir/fa-IR/put/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific informationTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://www.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific informationTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://www.put.ac.ir/fa-IR/put/6677/news/view/19398/12136/Staging/%D8%B1%D8%A7%D9%87%E2%80%8C%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA(Help-Desk)",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific informationTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://roshd.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "unit",
-          "claim": "مرکز فناوری اطلاعات دانشگاه",
-          "id": "petroleum-discovery-unit-it-8c1cab339bf2",
-          "unitType": "it",
-          "relationStatus": "organizationally-attributed",
-          "relationshipEvidenceUrl": "https://roshd.put.ac.ir/fa-IR/PUT/5531/auth/accessDenied"
-        },
-        {
-          "url": "https://roshd.put.ac.ir/fa-IR/put/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "unit",
-          "claim": "مرکز فناوری اطلاعات دانشگاه",
-          "id": "petroleum-discovery-unit-it-a0bb787c284b",
-          "unitType": "it",
-          "relationStatus": "organizationally-attributed",
-          "relationshipEvidenceUrl": "https://roshd.put.ac.ir/fa-IR/PUT/5531/auth/accessDenied"
-        },
-        {
-          "url": "https://www.put.ac.ir/_douranportal/documents/it/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF%20%D9%86%D9%85%D9%88%D9%86%D9%87%20%D8%A7%D9%85%D8%B6%D8%A7%D8%A1%20%D8%A8%D9%87%20%D8%B9%D9%86%D9%88%D8%A7%D9%86%20%D8%A7%D9%85%D8%B6%D8%A7%D8%A1%20%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%D8%A7%D8%AA%D9%88%D9%85%D8%A7%D8%B3%DB%8C%D9%88%D9%86%20%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "فرم درخواست ایجاد نمونه امضاء به عنوان امضاء الکترونیکی در سامانه اتوماسیون اداری فرم درخواست ایجاد فضای صفحه شخصی اعضاء هیئت علمی فرم درخواست استفاده از سرور محاسبات سریع",
-          "id": null,
-          "sourceLabel": "فرم درخواست ایجاد نمونه امضاء به عنوان امضاء الکترونیکی در سامانه اتوماسیون اداری فرم درخواست ایجاد فضای صفحه شخصی اعضاء هیئت علمی فرم درخواست استفاده از سرور محاسبات سریع"
-        },
-        {
-          "url": "https://www.put.ac.ir/_douranportal/documents/it/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF%20%D9%81%D8%B6%D8%A7%DB%8C%20%D8%B5%D9%81%D8%AD%D9%87%20%D8%B4%D8%AE%D8%B5%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85.pdf",
-          "kind": "research-review-specific",
-          "claim": "فرم درخواست ایجاد فضای صفحه شخصی اعضاء هیئت علمی",
-          "id": null,
-          "sourceLabel": "فرم درخواست ایجاد فضای صفحه شخصی اعضاء هیئت علمی"
-        },
-        {
-          "url": "https://www.put.ac.ir/_douranportal/documents/it/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA%20%D8%B3%D8%B1%DB%8C%D8%B9.v2.pdf",
-          "kind": "research-review-specific",
-          "claim": "فرم درخواست استفاده از سرور محاسبات سریع",
-          "id": null,
-          "sourceLabel": "فرم درخواست استفاده از سرور محاسبات سریع"
-        }
-      ],
-      "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
-      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
-    },
-    {
       "id": "petroleum:systemsServices",
       "universitySlug": "petroleum",
       "nameFa": "دانشگاه صنعت نفت",
@@ -1217,8 +1024,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 22,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 20,
       "sources": [
         {
           "url": "https://www.put.ac.ir/fa-IR/put/6663/page/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
@@ -1316,8 +1123,8 @@
         {
           "url": "https://www.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
           "kind": "system",
-          "claim": "مرکز علم سنجی",
-          "id": "petroleum-discovery-system-e1b4ff838b05",
+          "claim": "راه اندازی سامانه علم سنجی",
+          "id": "petroleum-discovery-system-8d5065627477",
           "systemCategory": "research"
         },
         {
@@ -1347,20 +1154,6 @@
           "claim": "شیوه‌نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر بین‌المللی و داخلی در دانشگاه صنعت نفت",
           "id": null,
           "sourceLabel": "شیوه‌نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر بین‌المللی و داخلی در دانشگاه صنعت نفت"
-        },
-        {
-          "url": "https://www.put.ac.ir/_douranportal/documents/it/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF%20%D9%86%D9%85%D9%88%D9%86%D9%87%20%D8%A7%D9%85%D8%B6%D8%A7%D8%A1%20%D8%A8%D9%87%20%D8%B9%D9%86%D9%88%D8%A7%D9%86%20%D8%A7%D9%85%D8%B6%D8%A7%D8%A1%20%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%D8%A7%D8%AA%D9%88%D9%85%D8%A7%D8%B3%DB%8C%D9%88%D9%86%20%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "فرم درخواست ایجاد نمونه امضاء به عنوان امضاء الکترونیکی در سامانه اتوماسیون اداری فرم درخواست ایجاد فضای صفحه شخصی اعضاء هیئت علمی فرم درخواست استفاده از سرور محاسبات سریع",
-          "id": null,
-          "sourceLabel": "فرم درخواست ایجاد نمونه امضاء به عنوان امضاء الکترونیکی در سامانه اتوماسیون اداری فرم درخواست ایجاد فضای صفحه شخصی اعضاء هیئت علمی فرم درخواست استفاده از سرور محاسبات سریع"
-        },
-        {
-          "url": "https://www.put.ac.ir/_douranportal/documents/tempor/%D9%81%D8%B1%D9%85%20%D9%85%D8%B9%D8%B1%D9%81%DB%8C%20%D9%86%D9%85%D9%88%D9%86%D9%87%20%D8%A7%D9%85%D8%B6%D8%A7%D8%A1%20.pdf",
-          "kind": "research-review-specific",
-          "claim": "فرم درخواست ایجاد نمونه امضاء به عنوان امضاء الکترونیکی در سامانه اتوماسیون اداری",
-          "id": null,
-          "sourceLabel": "فرم درخواست ایجاد نمونه امضاء به عنوان امضاء الکترونیکی در سامانه اتوماسیون اداری"
         }
       ],
       "publicationAdjustment": null,
@@ -1377,8 +1170,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 64,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 58,
       "sources": [
         {
           "url": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -1501,30 +1294,6 @@
           "id": null
         },
         {
-          "url": "https://www.put.ac.ir/_douranportal/documents/it/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF%20%D9%86%D9%85%D9%88%D9%86%D9%87%20%D8%A7%D9%85%D8%B6%D8%A7%D8%A1%20%D8%A8%D9%87%20%D8%B9%D9%86%D9%88%D8%A7%D9%86%20%D8%A7%D9%85%D8%B6%D8%A7%D8%A1%20%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%D8%A7%D8%AA%D9%88%D9%85%D8%A7%D8%B3%DB%8C%D9%88%D9%86%20%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست ایجاد نمونه امضاء به عنوان امضاء الکترونیکی در سامانه اتوماسیون اداری فرم درخواست ایجاد فضای صفحه شخصی اعضاء هیئت علمی فرم درخواست استفاده از سرور محاسبات سریع",
-          "id": null
-        },
-        {
-          "url": "https://www.put.ac.ir/_douranportal/documents/tempor/%D9%81%D8%B1%D9%85%20%D9%85%D8%B9%D8%B1%D9%81%DB%8C%20%D9%86%D9%85%D9%88%D9%86%D9%87%20%D8%A7%D9%85%D8%B6%D8%A7%D8%A1%20.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست ایجاد نمونه امضاء به عنوان امضاء الکترونیکی در سامانه اتوماسیون اداری",
-          "id": null
-        },
-        {
-          "url": "https://www.put.ac.ir/_douranportal/documents/it/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF%20%D9%81%D8%B6%D8%A7%DB%8C%20%D8%B5%D9%81%D8%AD%D9%87%20%D8%B4%D8%AE%D8%B5%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست ایجاد فضای صفحه شخصی اعضاء هیئت علمی",
-          "id": null
-        },
-        {
-          "url": "https://www.put.ac.ir/_douranportal/documents/it/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA%20%D8%B3%D8%B1%DB%8C%D8%B9.v2.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست استفاده از سرور محاسبات سریع",
-          "id": null
-        },
-        {
           "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A8%DA%A9%D8%A7%D8%B1%DA%AF%DB%8C%D8%B1%DB%8C%20%D9%86%D8%AE%D8%A8%D9%87%20%D9%88%D8%B8%DB%8C%D9%81%D9%87%20_20190617_112502.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "دستورالعمل بكارگيري نخبه وظيفه در دانشگاه صنعت نفت",
@@ -1630,12 +1399,6 @@
           "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%B4%D8%A7%D8%A8%DA%A9.docx",
           "kind": "portal-document-reaudit-document",
           "claim": "فرم درخواست شابک",
-          "id": null
-        },
-        {
-          "url": "https://www.put.ac.ir/_DouranPortal/documents/3378/%D8%A2%D8%A6%D9%8A%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AC%D8%AF%D9%8A%D8%AF%20%D9%86%D8%B4%D8%B1%D9%8A%D8%A7%D8%AA%20%D8%B3%D8%A7%D9%84%201398.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آئين‌نامه نشريات علمي سال 98",
           "id": null
         },
         {
@@ -1757,12 +1520,6 @@
           "kind": "portal-document-reaudit-document",
           "claim": "فایل شماره ۱ کتابچه معرفی برخی از تجهیزات مراکز تحقیقاتی دانشگاه",
           "id": null
-        },
-        {
-          "url": "https://www.www.put.ac.ir/fa-IR/put/7267/page/%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ها",
-          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -1775,43 +1532,30 @@
     "nameFa": "دانشگاه صنعت نفت",
     "iscCategory": "دستگاه اجرایی",
     "iscRank": 8,
-    "score": 78,
+    "score": 76.5,
     "confidence": 100,
     "metrics": {
       "documents": 91,
       "organization": 72.5,
       "library": 70,
       "laboratories": 70,
-      "digital": 80,
+      "systems": 67.5,
       "industryTech": 55,
       "dataQuality": 100,
       "findability": 75
     },
-    "units": 18,
-    "systems": 19,
-    "documents": 53,
+    "units": 13,
+    "systems": 18,
+    "documents": 47,
     "activeWeight": 100,
     "evidenceCoverage": 100,
-    "methodologyVersion": "RTPMI-4.1-ISC",
-    "snapshotDate": "2026-08-11",
-    "rank": 43,
+    "methodologyVersion": "RTPMI-4.2-ISC",
+    "snapshotDate": "2026-08-12",
+    "rank": 45,
     "portalRankWithinISCClass": 3,
     "rankedPortalsInISCClass": 4
   },
   "units": [
-    {
-      "id": "petroleum-discovery-unit-it-343a2f2c6e83",
-      "universitySlug": "petroleum",
-      "nameFa": "مرکز فناوری اطلاعات دانشگاه",
-      "type": "it",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://www.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99,
-      "relationStatus": "organizationally-attributed",
-      "relationshipEvidenceUrl": "https://www.put.ac.ir/fa-IR/put/4793/page/%C2%BB-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A"
-    },
     {
       "id": "petroleum-discovery-unit-laboratory-106cc1cf93a0",
       "universitySlug": "petroleum",
@@ -1855,45 +1599,6 @@
       "sourceUrl": "https://roshd.put.ac.ir/fa-IR/put/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
-    },
-    {
-      "id": "petroleum-discovery-unit-it-a4413b1c34f7",
-      "universitySlug": "petroleum",
-      "nameFa": "مرکز فناوری اطلاعات دانشگاه",
-      "type": "it",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://www.put.ac.ir/fa-IR/put/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99,
-      "relationStatus": "organizationally-attributed",
-      "relationshipEvidenceUrl": "https://www.put.ac.ir/fa-IR/put/4793/page/%C2%BB-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A"
-    },
-    {
-      "id": "petroleum-discovery-unit-it-8c1cab339bf2",
-      "universitySlug": "petroleum",
-      "nameFa": "مرکز فناوری اطلاعات دانشگاه",
-      "type": "it",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://roshd.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99,
-      "relationStatus": "organizationally-attributed",
-      "relationshipEvidenceUrl": "https://roshd.put.ac.ir/fa-IR/PUT/5531/auth/accessDenied"
-    },
-    {
-      "id": "petroleum-discovery-unit-it-a0bb787c284b",
-      "universitySlug": "petroleum",
-      "nameFa": "مرکز فناوری اطلاعات دانشگاه",
-      "type": "it",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://roshd.put.ac.ir/fa-IR/put/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99,
-      "relationStatus": "organizationally-attributed",
-      "relationshipEvidenceUrl": "https://roshd.put.ac.ir/fa-IR/PUT/5531/auth/accessDenied"
     },
     {
       "id": "petroleum-discovery-unit-library-131156c46699",
@@ -1982,19 +1687,6 @@
       "sourceUrl": "https://www.put.ac.ir/fa-IR/PUT/7450/page/%D9%88%D8%A7%D8%AD%D8%AF-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8957894736842105
-    },
-    {
-      "id": "petroleum-discovery-unit-it-f04f7d157090",
-      "universitySlug": "petroleum",
-      "nameFa": "راه‌اندازی سامانه پشتیبانی خدمات فناوری اطلاعات(Help Desk)",
-      "type": "it",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://www.put.ac.ir/fa-IR/put/6677/news/view/19398/12136/Staging/%D8%B1%D8%A7%D9%87%E2%80%8C%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA(Help-Desk)",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263,
-      "relationStatus": "organizationally-attributed",
-      "relationshipEvidenceUrl": "https://www.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87"
     },
     {
       "id": "petroleum-discovery-unit-industry-f99bf52e3c00",
@@ -2218,19 +1910,6 @@
       "discoveryConfidence": 0.9747368421052631
     },
     {
-      "id": "petroleum-discovery-system-f04f7d157090",
-      "universitySlug": "petroleum",
-      "nameFa": "راه‌اندازی سامانه پشتیبانی خدمات فناوری اطلاعات(Help Desk)",
-      "category": "it",
-      "url": "https://www.put.ac.ir/fa-IR/put/6677/news/view/19398/12136/Staging/%D8%B1%D8%A7%D9%87%E2%80%8C%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA(Help-Desk)",
-      "sourceUrl": "https://www.put.ac.ir/fa-IR/PUT/6677/page/%D9%85%D8%B1%DA%A9%D8%B2-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263
-    },
-    {
       "id": "petroleum-discovery-system-21a4322d92ef",
       "universitySlug": "petroleum",
       "nameFa": "دانشگاه صنعت نفت",
@@ -2267,7 +1946,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/book_20111231_084928.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/book_20111231_084928.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2286,7 +1965,7 @@
       "taxonomy": "procedure/guideline",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/r9_20111231_105935.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/r9_20111231_105935.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2305,7 +1984,7 @@
       "taxonomy": "procedure/guideline",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D9%85%D9%86%D8%AA%D8%B4%D8%B1%20%D8%B4%D8%AF%D9%87%20%D8%AF%D8%B1%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%20%D8%A8%DB%8C%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C%20%D9%88%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C%20%D8%AF%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B5%D9%86%D8%B9%D8%AA%20%D9%86%D9%81%D8%AA_20171120_120136.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D9%85%D9%86%D8%AA%D8%B4%D8%B1%20%D8%B4%D8%AF%D9%87%20%D8%AF%D8%B1%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%20%D8%A8%DB%8C%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C%20%D9%88%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C%20%D8%AF%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B5%D9%86%D8%B9%D8%AA%20%D9%86%D9%81%D8%AA_20171120_120136.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2324,7 +2003,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/GRANT_20160228_124355.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/GRANT_20160228_124355.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2343,7 +2022,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/d_Compressed_20170114_090430.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/d_Compressed_20170114_090430.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2362,7 +2041,7 @@
       "taxonomy": "form/template",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D9%81%D8%B1%D9%85%20%D8%B5%D9%86%D8%B9%D8%AA%DB%8C%20%D9%86%D9%85%D9%88%D8%AF%D9%86%20%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%20%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C%E2%80%8C%D8%A7%D8%B1%D8%B4%D8%AF%20%D9%88%20%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7_20220918_152527.docx",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D9%81%D8%B1%D9%85%20%D8%B5%D9%86%D8%B9%D8%AA%DB%8C%20%D9%86%D9%85%D9%88%D8%AF%D9%86%20%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%20%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C%E2%80%8C%D8%A7%D8%B1%D8%B4%D8%AF%20%D9%88%20%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7_20220918_152527.docx",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2381,7 +2060,7 @@
       "taxonomy": "procedure/guideline",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A8%DA%A9%D8%A7%D8%B1%DA%AF%DB%8C%D8%B1%DB%8C%20%D9%86%D8%AE%D8%A8%D9%87%20%D9%88%D8%B8%DB%8C%D9%81%D9%87%20_20190617_112502.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A8%DA%A9%D8%A7%D8%B1%DA%AF%DB%8C%D8%B1%DB%8C%20%D9%86%D8%AE%D8%A8%D9%87%20%D9%88%D8%B8%DB%8C%D9%81%D9%87%20_20190617_112502.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2400,7 +2079,7 @@
       "taxonomy": "procedure/guideline",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%AA%D8%B4%D9%83%D9%8A%D9%84%20%D8%AF%D9%88%D8%B1%D9%87%20%D9%87%D8%A7%D9%8A%20%D8%AA%D8%AD%D9%82%D9%8A%D9%82%D8%A7%D8%AA%D9%8A%20%D9%BE%D8%B3%D8%A7%20%D8%AF%D9%83%D8%AA%D8%B1%D9%8A_20171104_112700.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%AA%D8%B4%D9%83%D9%8A%D9%84%20%D8%AF%D9%88%D8%B1%D9%87%20%D9%87%D8%A7%D9%8A%20%D8%AA%D8%AD%D9%82%D9%8A%D9%82%D8%A7%D8%AA%D9%8A%20%D9%BE%D8%B3%D8%A7%20%D8%AF%D9%83%D8%AA%D8%B1%D9%8A_20171104_112700.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2419,7 +2098,7 @@
       "taxonomy": "procedure/guideline",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%AA%D8%B4%D9%88%D9%8A%D9%82%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%20%D9%85%D9%82%D8%A7%D9%84%D9%87%20%D8%AF%D8%B1%20%D9%85%D8%AC%D9%84%D8%A7%D8%AA%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%20%D8%A8%D9%8A%D9%86%E2%80%8C%D8%A7%D9%84%D9%85%D9%84%D9%84%D9%8A%20%D9%88%20%D8%AF%D8%A7%D8%AE%D9%84%D9%8A_20170114_110559.doc",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%AA%D8%B4%D9%88%D9%8A%D9%82%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%20%D9%85%D9%82%D8%A7%D9%84%D9%87%20%D8%AF%D8%B1%20%D9%85%D8%AC%D9%84%D8%A7%D8%AA%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%20%D8%A8%D9%8A%D9%86%E2%80%8C%D8%A7%D9%84%D9%85%D9%84%D9%84%D9%8A%20%D9%88%20%D8%AF%D8%A7%D8%AE%D9%84%D9%8A_20170114_110559.doc",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2438,7 +2117,7 @@
       "taxonomy": "procedure/guideline",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D9%81%D8%B1%D9%85%20%D8%AA%D8%B1%D9%81%D9%8A%D8%B9%20%D8%B3%D8%A7%D9%84%D9%8A%D8%A7%D9%86%D9%87%20%D8%A7%D8%B9%D8%B6%D8%A7%D9%8A%20%D9%87%D9%8A%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B5%D9%86%D8%B9%D8%AA%20%D9%86%D9%81%D8%AA_20160430_122239.doc",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D9%81%D8%B1%D9%85%20%D8%AA%D8%B1%D9%81%D9%8A%D8%B9%20%D8%B3%D8%A7%D9%84%D9%8A%D8%A7%D9%86%D9%87%20%D8%A7%D8%B9%D8%B6%D8%A7%D9%8A%20%D9%87%D9%8A%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B5%D9%86%D8%B9%D8%AA%20%D9%86%D9%81%D8%AA_20160430_122239.doc",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2457,7 +2136,7 @@
       "taxonomy": "procedure/guideline",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%AC%D8%AF%D9%8A%D8%AF%20%D8%AA%D8%B9%D9%8A%D9%8A%D9%86%20%D9%86%D8%B1%D8%AE%20%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D9%8A%20%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%87%D8%A7%D9%8A%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_02-03-2016__20160217_080916.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%AC%D8%AF%D9%8A%D8%AF%20%D8%AA%D8%B9%D9%8A%D9%8A%D9%86%20%D9%86%D8%B1%D8%AE%20%D8%A8%D8%A7%D9%84%D8%A7%D8%B3%D8%B1%D9%8A%20%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%87%D8%A7%D9%8A%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_02-03-2016__20160217_080916.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2476,7 +2155,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/PUT_Lib_20150317_134303.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/PUT_Lib_20150317_134303.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2495,7 +2174,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/r8_20111231_111137.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/r8_20111231_111137.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2514,7 +2193,7 @@
       "taxonomy": "procedure/guideline",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A8%D8%B1%D8%B1%D8%B3%D9%8A%20%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_20160315_081244.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A8%D8%B1%D8%B1%D8%B3%D9%8A%20%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_20160315_081244.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2533,7 +2212,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/documents/amozesh/%D8%AA%D9%82%D9%88%DB%8C%D9%85%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%20%D9%86%DB%8C%D9%85%D8%B3%D8%A7%D9%84%20%D8%A7%D9%88%D9%84%20%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%DB%8C%201403-1402%20[1].pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/documents/amozesh/%D8%AA%D9%82%D9%88%DB%8C%D9%85%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%20%D9%86%DB%8C%D9%85%D8%B3%D8%A7%D9%84%20%D8%A7%D9%88%D9%84%20%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%DB%8C%201403-1402%20[1].pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/4793/page/%C2%BB-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D9%8A",
@@ -2552,7 +2231,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D9%85%D8%B9%D8%B1%D9%81%D9%8A%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86%20%D8%A8%D8%B1%DA%AF%D8%B2%D9%8A%D8%AF%D9%87%20%D8%AA%D9%88%D8%B3%D8%B7%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7%20%D9%88%20%D8%B3%D8%A7%D9%8A%D8%B1%20-%20%D8%B3%D8%A7%D9%84%2095_20170114_084945.docx",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D9%85%D8%B9%D8%B1%D9%81%D9%8A%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86%20%D8%A8%D8%B1%DA%AF%D8%B2%D9%8A%D8%AF%D9%87%20%D8%AA%D9%88%D8%B3%D8%B7%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7%20%D9%88%20%D8%B3%D8%A7%D9%8A%D8%B1%20-%20%D8%B3%D8%A7%D9%84%2095_20170114_084945.docx",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2571,7 +2250,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/Untitled_20170114_084917.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/Untitled_20170114_084917.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2590,7 +2269,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%20%D8%B3%D8%A7%D9%84%2099%20%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20_20211212_102213.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%20%D8%B3%D8%A7%D9%84%2099%20%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20_20211212_102213.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2609,7 +2288,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF%20%20%D8%B3%D8%A7%D9%84%2098%20%20%20%20%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C%20%20%20%20%20%20%20_20201007_103454.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF%20%20%D8%B3%D8%A7%D9%84%2098%20%20%20%20%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C%20%20%20%20%20%20%20_20201007_103454.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2628,7 +2307,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF%20%20%D8%B3%D8%A7%D9%84%2097%20%20%20%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C%20%20%20%20%20%20_20201006_090853.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF%20%20%D8%B3%D8%A7%D9%84%2097%20%20%20%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C%20%20%20%20%20%20_20201006_090853.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2647,7 +2326,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/pazhoheshi96_20190429_121620.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/pazhoheshi96_20190429_121620.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2666,7 +2345,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/1395_nahaeeput._20171211_122246.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/1395_nahaeeput._20171211_122246.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2685,7 +2364,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B9%D9%85%D9%84%D9%83%D8%B1%D8%AF%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B5%D9%86%D8%B9%D8%AA%20%D9%86%D9%81%D8%AA%20%20%20%20%20%20%D8%B3%D8%A7%D9%84%201394%20%20%20%20%20%20%20_20170501_145221.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B9%D9%85%D9%84%D9%83%D8%B1%D8%AF%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B5%D9%86%D8%B9%D8%AA%20%D9%86%D9%81%D8%AA%20%20%20%20%20%20%D8%B3%D8%A7%D9%84%201394%20%20%20%20%20%20%20_20170501_145221.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2704,7 +2383,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B9%D9%85%D9%84%D9%83%D8%B1%D8%AF%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B5%D9%86%D8%B9%D8%AA%20%D9%86%D9%81%D8%AA%20%D8%B3%D8%A7%D9%84%201393%20_20160117_133615.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B9%D9%85%D9%84%D9%83%D8%B1%D8%AF%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B5%D9%86%D8%B9%D8%AA%20%D9%86%D9%81%D8%AA%20%D8%B3%D8%A7%D9%84%201393%20_20160117_133615.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2723,7 +2402,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/Research_1392_20150119_161554.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/Research_1392_20150119_161554.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2742,7 +2421,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/research1391_20140208_150327.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/research1391_20140208_150327.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2761,7 +2440,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/PUT_Research_1390_20130316_140917.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/PUT_Research_1390_20130316_140917.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2780,7 +2459,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B3%D9%86%D8%AF%20%D9%85%D9%84%DB%8C%20%DA%AF%DB%8C%D8%A7%D9%87%D8%A7%D9%86%20%D8%AF%D8%A7%D8%B1%D9%88%DB%8C%DB%8C%20%D9%88%20%D8%B7%D8%A8%20%D8%B3%D9%86%D8%AA%DB%8C_20150117_113244.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B3%D9%86%D8%AF%20%D9%85%D9%84%DB%8C%20%DA%AF%DB%8C%D8%A7%D9%87%D8%A7%D9%86%20%D8%AF%D8%A7%D8%B1%D9%88%DB%8C%DB%8C%20%D9%88%20%D8%B7%D8%A8%20%D8%B3%D9%86%D8%AA%DB%8C_20150117_113244.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2799,7 +2478,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B3%D9%86%D8%AF%20%D9%85%D9%84%DB%8C%20%D8%B9%D9%84%D9%88%D9%85%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D9%87%D8%A7%DB%8C%20%D8%B3%D9%84%D9%88%D9%84%20%D9%87%D8%A7%DB%8C%20%D8%A8%D9%86%DB%8C%D8%A7%D8%AF%DB%8C_20150117_113401.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B3%D9%86%D8%AF%20%D9%85%D9%84%DB%8C%20%D8%B9%D9%84%D9%88%D9%85%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D9%87%D8%A7%DB%8C%20%D8%B3%D9%84%D9%88%D9%84%20%D9%87%D8%A7%DB%8C%20%D8%A8%D9%86%DB%8C%D8%A7%D8%AF%DB%8C_20150117_113401.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2818,7 +2497,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B3%D9%86%D8%AF%20%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%DB%8C%20%D8%B9%D9%84%D9%88%D9%85%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D9%87%D8%A7%DB%8C%20%D8%B4%D9%86%D8%A7%D8%AE%D8%AA%DB%8C_20150117_113504.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B3%D9%86%D8%AF%20%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%DB%8C%20%D8%B9%D9%84%D9%88%D9%85%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D9%87%D8%A7%DB%8C%20%D8%B4%D9%86%D8%A7%D8%AE%D8%AA%DB%8C_20150117_113504.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2837,7 +2516,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B3%D9%86%D8%AF%20%D8%AC%D8%A7%D9%85%D8%B9%20%D8%AA%D9%88%D8%B3%D8%B9%D9%87%20%D9%87%D9%88%D8%A7%D9%81%D8%B6%D8%A7%DB%8C%20%DA%A9%D8%B4%D9%88%D8%B1_20150117_113607.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B3%D9%86%D8%AF%20%D8%AC%D8%A7%D9%85%D8%B9%20%D8%AA%D9%88%D8%B3%D8%B9%D9%87%20%D9%87%D9%88%D8%A7%D9%81%D8%B6%D8%A7%DB%8C%20%DA%A9%D8%B4%D9%88%D8%B1_20150117_113607.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2856,7 +2535,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B3%D9%86%D8%AF%20%D8%AA%D8%AD%D9%88%D9%84%20%D8%A8%D9%86%DB%8C%D8%A7%D8%AF%DB%8C%D9%86%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D9%88%20%D9%BE%D8%B1%D9%88%D8%B1%D8%B4_20150117_113839.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B3%D9%86%D8%AF%20%D8%AA%D8%AD%D9%88%D9%84%20%D8%A8%D9%86%DB%8C%D8%A7%D8%AF%DB%8C%D9%86%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D9%88%20%D9%BE%D8%B1%D9%88%D8%B1%D8%B4_20150117_113839.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2875,7 +2554,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B3%D9%86%D8%AF%20%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C%20%D8%B4%D8%AF%D9%86%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D9%87%D8%A7_20150117_114033.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B3%D9%86%D8%AF%20%D8%A7%D8%B3%D9%84%D8%A7%D9%85%DB%8C%20%D8%B4%D8%AF%D9%86%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D9%87%D8%A7_20150117_114033.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2894,7 +2573,7 @@
       "taxonomy": "other",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D9%86%D9%82%D8%B4%D9%87%20%D8%AC%D8%A7%D9%85%D8%B9%20%D8%B9%D9%84%D9%85%DB%8C%20%DA%A9%D8%B4%D9%88%D8%B1_20150117_114259.pdf",
       "sourceUrl": "https://www.put.ac.ir/_DouranPortal/Documents/%D9%86%D9%82%D8%B4%D9%87%20%D8%AC%D8%A7%D9%85%D8%B9%20%D8%B9%D9%84%D9%85%DB%8C%20%DA%A9%D8%B4%D9%88%D8%B1_20150117_114259.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/5436/page/%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA-%D9%88-%D8%A2%D9%8A%D9%8A%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
@@ -2913,7 +2592,7 @@
       "taxonomy": "laboratory",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "http://dreamtone.ir/research/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7.pdf",
       "sourceUrl": "http://dreamtone.ir/research/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7.pdf",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/7466/page/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C",
@@ -2932,7 +2611,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA%20%D8%A7%D8%AB%D8%B1.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA%20%D8%A7%D8%AB%D8%B1.docx",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
@@ -2951,7 +2630,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B9%D9%84%D8%A7%D9%85%20%D9%88%D8%B5%D9%88%D9%84%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B9%D9%84%D8%A7%D9%85%20%D9%88%D8%B5%D9%88%D9%84%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
@@ -2970,7 +2649,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B1%D8%B3%D8%A7%D9%84%20%DA%A9%D8%AA%D8%A7%D8%A8%20%D9%88%20%D8%AA%D8%B9%D9%87%D8%AF%D9%86%D8%A7%D9%85%D9%87.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B1%D8%B3%D8%A7%D9%84%20%DA%A9%D8%AA%D8%A7%D8%A8%20%D9%88%20%D8%AA%D8%B9%D9%87%D8%AF%D9%86%D8%A7%D9%85%D9%87.docx",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
@@ -2989,7 +2668,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B5%D8%A7%D9%84%D8%AA%20%D8%AA%D8%B1%D8%AC%D9%85%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B5%D8%A7%D9%84%D8%AA%20%D8%AA%D8%B1%D8%AC%D9%85%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
@@ -3008,7 +2687,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D9%84%D8%A7%DB%8C%D9%84%20%D8%AA%D9%88%D8%AC%DB%8C%D9%87%DB%8C%20%D8%AA%D8%B1%D8%AC%D9%85%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D9%84%D8%A7%DB%8C%D9%84%20%D8%AA%D9%88%D8%AC%DB%8C%D9%87%DB%8C%20%D8%AA%D8%B1%D8%AC%D9%85%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
@@ -3027,7 +2706,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%20%D9%85%D8%B1%D8%A8%D9%88%D8%B7%20%D8%A8%D9%87%20%D8%AA%D8%AD%D9%88%DB%8C%D9%84%20%D8%A2%D8%AB%D8%A7%D8%B1%20%D8%A8%D9%87%20%D9%85%D8%B1%DA%A9%D8%B2%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%20%D9%85%D8%B1%D8%A8%D9%88%D8%B7%20%D8%A8%D9%87%20%D8%AA%D8%AD%D9%88%DB%8C%D9%84%20%D8%A2%D8%AB%D8%A7%D8%B1%20%D8%A8%D9%87%20%D9%85%D8%B1%DA%A9%D8%B2%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA.docx",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
@@ -3046,7 +2725,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%AB%D8%A8%D8%AA%20%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA%20_%DA%A9%D8%A7%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D8%B9%D9%84%D9%85%DB%8C_%20%D8%B5%D8%A7%D8%AD%D8%A8%20%D8%A7%D8%AB%D8%B1.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%AB%D8%A8%D8%AA%20%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA%20_%DA%A9%D8%A7%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D8%B9%D9%84%D9%85%DB%8C_%20%D8%B5%D8%A7%D8%AD%D8%A8%20%D8%A7%D8%AB%D8%B1.docx",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
@@ -3065,7 +2744,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%20%DA%86%D8%A7%D9%BE%20%DA%A9%D8%AA%D8%A7%D8%A8%20%D8%AF%D8%B1%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA.doc",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%20%DA%86%D8%A7%D9%BE%20%DA%A9%D8%AA%D8%A7%D8%A8%20%D8%AF%D8%B1%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA.doc",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
@@ -3084,7 +2763,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%B4%D8%A7%D8%A8%DA%A9.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%B4%D8%A7%D8%A8%DA%A9.docx",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
@@ -3103,7 +2782,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D9%81%DB%8C%D9%BE%D8%A7%20%D9%88%20%D9%85%D8%AC%D9%88%D8%B2%20%D8%A7%D8%B1%D8%B4%D8%A7%D8%AF.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D9%81%DB%8C%D9%BE%D8%A7%20%D9%88%20%D9%85%D8%AC%D9%88%D8%B2%20%D8%A7%D8%B1%D8%B4%D8%A7%D8%AF.docx",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
@@ -3122,7 +2801,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D9%84%D8%A7%DB%8C%D9%84%20%D8%AA%D9%88%D8%AC%DB%8C%D9%87%DB%8C%20%D8%AA%D8%A7%D9%84%DB%8C%D9%81%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
       "sourceUrl": "https://dreamtone.ir/research/entesharat/%D9%81%D8%B1%D9%85%20%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D9%84%D8%A7%DB%8C%D9%84%20%D8%AA%D9%88%D8%AC%DB%8C%D9%87%DB%8C%20%D8%AA%D8%A7%D9%84%DB%8C%D9%81%20%DA%A9%D8%AA%D8%A7%D8%A8.docx",
       "parentUrl": "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
@@ -3141,7 +2820,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://put.ac.ir/_douranportal/documents/3293/manshur_akhlaghy.pdf",
       "sourceUrl": "https://put.ac.ir/_douranportal/documents/3293/manshur_akhlaghy.pdf",
       "parentUrl": "https://www.put.ac.ir/en-US/put/5489/page/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
@@ -3150,117 +2829,6 @@
       "fileSize": 1245,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
-    },
-    {
-      "id": "petroleum-discovery-document-bb184e354567",
-      "universitySlug": "petroleum",
-      "title": "فرم درخواست ایجاد نمونه امضاء به عنوان امضاء الکترونیکی در سامانه اتوماسیون اداری فرم درخواست ایجاد فضای صفحه شخصی اعضاء هیئت علمی فرم درخواست استفاده از سرور محاسبات سریع",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://www.put.ac.ir/_douranportal/documents/it/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF%20%D9%86%D9%85%D9%88%D9%86%D9%87%20%D8%A7%D9%85%D8%B6%D8%A7%D8%A1%20%D8%A8%D9%87%20%D8%B9%D9%86%D9%88%D8%A7%D9%86%20%D8%A7%D9%85%D8%B6%D8%A7%D8%A1%20%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%D8%A7%D8%AA%D9%88%D9%85%D8%A7%D8%B3%DB%8C%D9%88%D9%86%20%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C.pdf",
-      "sourceUrl": "https://www.put.ac.ir/_douranportal/documents/it/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF%20%D9%86%D9%85%D9%88%D9%86%D9%87%20%D8%A7%D9%85%D8%B6%D8%A7%D8%A1%20%D8%A8%D9%87%20%D8%B9%D9%86%D9%88%D8%A7%D9%86%20%D8%A7%D9%85%D8%B6%D8%A7%D8%A1%20%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9%DB%8C%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%D8%A7%D8%AA%D9%88%D9%85%D8%A7%D8%B3%DB%8C%D9%88%D9%86%20%D8%A7%D8%AF%D8%A7%D8%B1%DB%8C.pdf",
-      "parentUrl": "https://www.put.ac.ir/en-US/put/7267/page/%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
-      "fileName": "فرم درخواست ایجاد نمونه امضاء به عنوان امضاء الکترونیکی در سامانه اتوماسیون اداری.pdf",
-      "contentType": "text/html",
-      "fileSize": 1245,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "petroleum-discovery-document-db4af9e96207",
-      "universitySlug": "petroleum",
-      "title": "فرم درخواست ایجاد نمونه امضاء به عنوان امضاء الکترونیکی در سامانه اتوماسیون اداری",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://www.put.ac.ir/_douranportal/documents/tempor/%D9%81%D8%B1%D9%85%20%D9%85%D8%B9%D8%B1%D9%81%DB%8C%20%D9%86%D9%85%D9%88%D9%86%D9%87%20%D8%A7%D9%85%D8%B6%D8%A7%D8%A1%20.pdf",
-      "sourceUrl": "https://www.put.ac.ir/_douranportal/documents/tempor/%D9%81%D8%B1%D9%85%20%D9%85%D8%B9%D8%B1%D9%81%DB%8C%20%D9%86%D9%85%D9%88%D9%86%D9%87%20%D8%A7%D9%85%D8%B6%D8%A7%D8%A1%20.pdf",
-      "parentUrl": "https://www.put.ac.ir/en-US/put/7267/page/%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
-      "fileName": "فرم معرفی نمونه امضاء .pdf",
-      "contentType": "text/html",
-      "fileSize": 1245,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "petroleum-discovery-document-a36897ec9aff",
-      "universitySlug": "petroleum",
-      "title": "فرم درخواست ایجاد فضای صفحه شخصی اعضاء هیئت علمی",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://www.put.ac.ir/_douranportal/documents/it/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF%20%D9%81%D8%B6%D8%A7%DB%8C%20%D8%B5%D9%81%D8%AD%D9%87%20%D8%B4%D8%AE%D8%B5%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85.pdf",
-      "sourceUrl": "https://www.put.ac.ir/_douranportal/documents/it/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF%20%D9%81%D8%B6%D8%A7%DB%8C%20%D8%B5%D9%81%D8%AD%D9%87%20%D8%B4%D8%AE%D8%B5%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85.pdf",
-      "parentUrl": "https://www.put.ac.ir/en-US/put/7267/page/%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
-      "fileName": "فرم درخواست ایجاد فضای صفحه شخصی اعضاء هیئت علم.pdf",
-      "contentType": "text/html",
-      "fileSize": 1245,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "petroleum-discovery-document-a8283115ef1d",
-      "universitySlug": "petroleum",
-      "title": "فرم درخواست استفاده از سرور محاسبات سریع",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://www.put.ac.ir/_douranportal/documents/it/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA%20%D8%B3%D8%B1%DB%8C%D8%B9.v2.pdf",
-      "sourceUrl": "https://www.put.ac.ir/_douranportal/documents/it/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA%20%D8%B3%D8%B1%DB%8C%D8%B9.v2.pdf",
-      "parentUrl": "https://www.put.ac.ir/en-US/put/7267/page/%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
-      "fileName": "فرم درخواست استفاده از سرور محاسبات سریع.v2.pdf",
-      "contentType": "text/html",
-      "fileSize": 1245,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "petroleum-discovery-document-621e9bfaefd3",
-      "universitySlug": "petroleum",
-      "title": "آئين‌نامه نشريات علمي سال 98",
-      "type": "سند",
-      "topic": "صنعت، فناوری و مالکیت فکری",
-      "taxonomy": "industry/technology/IP",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://www.put.ac.ir/_DouranPortal/documents/3378/%D8%A2%D8%A6%D9%8A%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AC%D8%AF%D9%8A%D8%AF%20%D9%86%D8%B4%D8%B1%D9%8A%D8%A7%D8%AA%20%D8%B3%D8%A7%D9%84%201398.pdf",
-      "sourceUrl": "https://www.put.ac.ir/_DouranPortal/documents/3378/%D8%A2%D8%A6%D9%8A%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AC%D8%AF%D9%8A%D8%AF%20%D9%86%D8%B4%D8%B1%D9%8A%D8%A7%D8%AA%20%D8%B3%D8%A7%D9%84%201398.pdf",
-      "parentUrl": "https://www.put.ac.ir/en-US/put/6413/page/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-      "fileName": "آئين نامه جديد نشريات سال 1398.pdf",
-      "contentType": "text/html",
-      "fileSize": 1245,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9800000000000001
-    },
-    {
-      "id": "petroleum-discovery-document-aeda776aa716",
-      "universitySlug": "petroleum",
-      "title": "فرم ها",
-      "type": "فرم/الگو",
-      "topic": "سایر",
-      "taxonomy": "form/template",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://www.www.put.ac.ir/fa-IR/put/7267/page/%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
-      "sourceUrl": "https://www.www.put.ac.ir/fa-IR/put/7267/page/%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
-      "parentUrl": "https://www.put.ac.ir/fa-IR/put/7267/page/%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.88
     }
   ],
   "interpretation": {
