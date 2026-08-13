@@ -3,19 +3,43 @@ const HARD_RULES = [
     id: "student-housing",
     label: "خوابگاه/اسکان دانشجویی",
     pattern:
-      /خوابگاه|اسکان\s*دانشجوی(?:ی|ان)|ثبت\s*نام\s*خوابگاه|\b(?:student\s+housing|dormitory|dormitories|dorm\s+application)\b/iu,
+      /خوابگاه|اسکان\s*دانشجوی(?:ی|ان)|ثبت\s*نام\s*خوابگاه|\bkhabg(?:ah|hah)\b|\b(?:student\s+housing|dormitory|dormitories|dorm\s+application)\b/iu,
   },
   {
     id: "student-loan-welfare",
     label: "وام و رفاه دانشجویی",
     pattern:
-      /وام\s*(?:دانشجویی|تحصیلی|ضروری|ودیعه\s*مسکن|شهریه)|صندوق\s*رفاه\s*دانشجویان|اداره\s*رفاه\s*دانشجویان|امور\s*رفاهی\s*دانشجویان|تسهیلات\s*رفاهی\s*دانشجویان|کار\s*دانشجویی|\b(?:student\s+loan|student\s+welfare(?:\s+fund)?|student\s+employment)\b/iu,
+      /وام\s*(?:دانشجویی|تحصیلی|ضروری|ودیعه\s*مسکن|شهریه)|انواع\s*وام|مبلغ\s*وام|زمانبندی\s*وام|صندوق\s*رفاه|پرتال\s*دانشجویی\s*صندوق\s*رفاه|اداره\s*رفاه\s*دانشجویان|امور\s*رفاهی\s*دانشجویان|تسهیلات\s*رفاهی\s*دانشجویان|کار\s*دانشجویی|\bvam(?:\.|\/|\s|$)|\bswf\.ir\b|\b(?:student\s+loan|student\s+welfare(?:\s+fund)?|student\s+employment)\b/iu,
   },
   {
     id: "student-food",
     label: "تغذیه/سلف دانشجویی",
     pattern:
-      /تغذیه\s*(?:دانشجویی|دانشجویان)|سلف\s*(?:سرویس)?|رزرو\s*غذا|ژتون\s*غذا|کارت\s*تغذیه|\b(?:meal\s+(?:reservation|plan)|student\s+cafeteria|cafeteria)\b/iu,
+      /تغذیه\s*(?:دانشجویی|دانشجویان)|سلف\s*(?:سرویس)?|رزرو\s*غذا|ژتون\s*غذا|کارت\s*تغذیه|\bghaza\b|\/food\/|\b(?:meal\s+(?:reservation|plan)|student\s+cafeteria|cafeteria)\b/iu,
+  },
+  {
+    id: "student-portal",
+    label: "پرتال و فرم‌های عمومی دانشجویی",
+    pattern:
+      /پرتال\s*دانشجویی|فرم\s*مشخصات\s*دانشجویان|تعهد[\s‌-]*نامه\s*دانشجویی|سند\s*تعهد\s*نامه\s*دانشجویی|\bstudent\s+portal\b/iu,
+  },
+  {
+    id: "student-registration-admission",
+    label: "ثبت‌نام/پذیرش آموزشی",
+    pattern:
+      /ثبت\s*نام\s*پذیرفته\s*شدگان|راهنمای\s*ثبت\s*نام\s*الکترونیک|ثبت\s*نام\s*الکترونیک|تکمیل\s*ظرفیت|\bsabt\s*nam\b|\btakmil(?:\d|\s|$)|\b(?:student\s+enrollment|accepted\s+students?|admission\s+registration)\b/iu,
+  },
+  {
+    id: "course-exam-curriculum",
+    label: "امتحان/چارت/برنامه آموزشی",
+    pattern:
+      /برنامه\s*(?:زمانبندی\s*)?برگزاری\s*امتحانات|برنامه\s*امتحانات|کارت\s*ورود\s*به\s*جلسه|زمانبندی\s*امتحانات|چارت\s*درسی|برنامه\s*درسی|انتخاب\s*واحد|حذف\s*و\s*اضافه|\bexam\d*\b|\bchart\s*darsi\b|\b(?:exam\s+schedule|course\s+registration|curriculum|add\s*\/\s*drop)\b/iu,
+  },
+  {
+    id: "educational-only",
+    label: "محتوای صرفاً آموزشی",
+    pattern:
+      /شرایط\s*عمومی\s*و\s*آموزشی|تجهیزات\s*آموزشی|آزمایشگاه\s*آموزشی|\btajhizat\s+amozeshi\b|\b(?:educational\s+equipment|teaching\s+laboratory)\b/iu,
   },
   {
     id: "student-transport",
@@ -69,22 +93,10 @@ const HARD_RULES = [
 
 const SOFT_RULES = [
   {
-    id: "course-registration",
-    label: "انتخاب واحد/حذف و اضافه",
+    id: "guarantee-general",
+    label: "ضمانت/ضامن بدون زمینه پژوهشی",
     pattern:
-      /انتخاب\s*واحد|حذف\s*و\s*اضافه|\b(?:course\s+registration|add\s*\/\s*drop)\b/iu,
-  },
-  {
-    id: "exam-schedule",
-    label: "امتحانات آموزشی",
-    pattern:
-      /برنامه\s*امتحانات|کارت\s*ورود\s*به\s*جلسه|زمانبندی\s*امتحانات|\bexam\s+schedule\b/iu,
-  },
-  {
-    id: "student-enrollment",
-    label: "ثبت‌نام آموزشی دانشجویان",
-    pattern:
-      /ثبت\s*نام\s*(?:دانشجویان|دانشجوی\s*جدید|ورودی(?:\s*های)?\s*جدید)|\bstudent\s+enrollment\b/iu,
+      /شرایط\s*ضمانت|تعداد\s*ضامنین|تعداد\s*ضامن|ضامن(?:ین)?|\bguarantor\b/iu,
   },
   {
     id: "academic-calendar",
@@ -104,10 +116,22 @@ const SOFT_RULES = [
     pattern:
       /جشن\s*دانش\s*آموختگی|مراسم\s*فارغ\s*التحصیلی|\bgraduation\s+ceremony\b/iu,
   },
+  {
+    id: "general-newsletter",
+    label: "خبرنامه/فصلنامه عمومی",
+    pattern:
+      /فصلنامه\s*خبری|خبرنامه|\bnewsletter\b/iu,
+  },
 ];
 
-const RESEARCH_SIGNAL =
-  /پژوهش|پژوهشی|پژوهشگر|پژوهانه|گرنت|طرح\s*پژوهشی|پایان[\s‌-]*نامه|رساله|پروپوزال|اخلاق\s*پژوهش|نشریه|مجله|مقاله|انتشارات|آزمایشگاه|فناور|نوآور|صنعت|مالکیت\s*فکری|اختراع|دانش[\s‌-]*بنیان|مرکز\s*رشد|پارک\s*علم|فرصت\s*مطالعاتی|پسادکتری|پسا\s*دکتری|\b(?:research|researcher|thesis|dissertation|proposal|journal|publication|laboratory|technology|innovation|industry|patent|intellectual\s+property|postdoc|postdoctoral|grant)\b/iu;
+const STRONG_RESEARCH_SIGNAL =
+  /پژوهش|پژوهشی|پژوهشگر|پژوهانه|گرنت|طرح\s*پژوهشی|طرح\s*تحقیقاتی|تحقیقاتی|پایان[\s‌-]*نامه|رساله|پروپوزال|اخلاق\s*پژوهش|کمیته\s*اخلاق|نشریه\s*علمی|مجله\s*علمی|مقاله\s*علمی|انتشارات\s*علمی|آزمایشگاه|تجهیزات\s*پژوهشی|فناور|نوآور|صنعت|مالکیت\s*فکری|اختراع|دانش[\s‌-]*بنیان|مرکز\s*رشد|پارک\s*علم|فرصت\s*مطالعاتی|پسادکتری|پسا\s*دکتری|\bpajohesh(?:i)?\b|\b(?:research|researcher|thesis|dissertation|proposal|journal|publication|laboratory|technology|innovation|industry|patent|intellectual\s+property|postdoc|postdoctoral|grant)\b/iu;
+
+const SCHOLARLY_RESOURCE_SIGNAL =
+  /کتابخانه|مرکز\s*اسناد|پایگاه\s*(?:اطلاعاتی|علمی)|راهنمای\s*جستجو|جستجو\s*در\s*منابع|کتابخانه\s*دیجیتال|\bspringer\b|\bieee\b|\birandoc\b|\bsid\b|\bscopus\b|\bproquest\b|\bscience\s*direct\b|\bweb\s+of\s+science\b|\bendnote\b|\bmendeley\b|\bzotero\b/iu;
+
+const APPROVED_RESEARCH_PATH =
+  /\/(?:research|researches|pajohesh|pajoheshi|lab|labs|laboratory|library|ketabkhaneh|journal|journals|publication|publications|thesis|dissertation|innovation|industry|technology)(?:\/|$)/iu;
 
 const TRACKING_PARAMS = new Set([
   "fbclid",
@@ -140,7 +164,7 @@ function valueText(value) {
   return `${raw} ${decodeSafe(raw)}`;
 }
 
-export function scopeRecordText(record) {
+export function semanticRecordText(record) {
   if (!record || typeof record !== "object") {
     return normalizeScopeText(record);
   }
@@ -149,9 +173,6 @@ export function scopeRecordText(record) {
     [
       record.title,
       record.nameFa,
-      record.topic,
-      record.type,
-      record.taxonomy,
       record.label,
       record.claim,
       record.description,
@@ -168,8 +189,117 @@ export function scopeRecordText(record) {
   );
 }
 
-export function classifyResearchDocumentScope(record) {
+export function scopeRecordText(record) {
+  if (!record || typeof record !== "object") {
+    return normalizeScopeText(record);
+  }
+
+  return normalizeScopeText(
+    [
+      semanticRecordText(record),
+      record.topic,
+      record.type,
+      record.taxonomy,
+    ]
+      .filter(Boolean)
+      .join(" ")
+  );
+}
+
+export function isCrawlerDiscoveredDocument(record) {
+  return Boolean(
+    record &&
+      typeof record === "object" &&
+      (
+        record.discoveredBy ===
+          "research-deep-discovery" ||
+        Number.isFinite(
+          Number(record.discoveryConfidence)
+        ) ||
+        String(record.id || "").includes(
+          "-discovery-document-"
+        )
+      )
+  );
+}
+
+export function hasExplicitResearchSignal(record) {
+  const text = semanticRecordText(record);
+
+  return (
+    STRONG_RESEARCH_SIGNAL.test(text) ||
+    SCHOLARLY_RESOURCE_SIGNAL.test(text) ||
+    APPROVED_RESEARCH_PATH.test(text)
+  );
+}
+
+function candidateUrls(record) {
+  return [
+    record?.parentUrl,
+    record?.sourcePage,
+    record?.url,
+    record?.sourceUrl,
+  ].filter(Boolean);
+}
+
+function pathWithinRoot(candidate, root) {
+  try {
+    const candidateUrl = new URL(candidate);
+    const rootUrl = new URL(root);
+
+    const candidateHost = candidateUrl.hostname
+      .toLowerCase()
+      .replace(/^www\./, "");
+
+    const rootHost = rootUrl.hostname
+      .toLowerCase()
+      .replace(/^www\./, "");
+
+    if (candidateHost !== rootHost) {
+      return false;
+    }
+
+    const rootPath =
+      rootUrl.pathname.replace(/\/+$/, "") || "/";
+
+    if (rootPath === "/") {
+      return true;
+    }
+
+    const candidatePath =
+      candidateUrl.pathname.replace(/\/+$/, "") || "/";
+
+    return (
+      candidatePath === rootPath ||
+      candidatePath.startsWith(`${rootPath}/`)
+    );
+  } catch {
+    return false;
+  }
+}
+
+export function isWithinTrustedResearchRoot(
+  record,
+  researchRoots = []
+) {
+  if (!researchRoots.length) {
+    return false;
+  }
+
+  return candidateUrls(record).some(
+    (candidate) =>
+      researchRoots.some((root) =>
+        pathWithinRoot(candidate, root)
+      )
+  );
+}
+
+export function classifyResearchDocumentScope(
+  record,
+  options = {}
+) {
   const text = scopeRecordText(record);
+  const semanticText = semanticRecordText(record);
 
   for (const rule of HARD_RULES) {
     const match = text.match(rule.pattern);
@@ -181,25 +311,64 @@ export function classifyResearchDocumentScope(record) {
         reasonFa: rule.label,
         matched: match[0],
         strength: "hard",
+        evidenceBasis: null,
       };
     }
   }
 
-  const hasResearchSignal =
-    RESEARCH_SIGNAL.test(text);
+  const explicitResearch =
+    hasExplicitResearchSignal(record);
 
   for (const rule of SOFT_RULES) {
     const match = text.match(rule.pattern);
 
-    if (match && !hasResearchSignal) {
+    if (match && !explicitResearch) {
       return {
         keep: false,
         reason: rule.id,
         reasonFa: rule.label,
         matched: match[0],
         strength: "soft",
+        evidenceBasis: null,
       };
     }
+  }
+
+  const researchRoots =
+    Array.isArray(options.researchRoots)
+      ? options.researchRoots
+      : [];
+
+  const trustedResearchContext =
+    isWithinTrustedResearchRoot(
+      record,
+      researchRoots
+    );
+
+  const requirePositive =
+    options.requirePositive ??
+    isCrawlerDiscoveredDocument(record);
+
+  if (
+    requirePositive &&
+    !explicitResearch &&
+    !trustedResearchContext
+  ) {
+    return {
+      keep: false,
+      reason: "unproven-research-scope",
+      reasonFa:
+        "ارتباط پژوهشی/فناوری اثبات نشده",
+      matched:
+        String(
+          record?.title ||
+          record?.nameFa ||
+          record?.fileName ||
+          ""
+        ).slice(0, 160) || null,
+      strength: "positive-evidence-required",
+      evidenceBasis: null,
+    };
   }
 
   return {
@@ -208,18 +377,34 @@ export function classifyResearchDocumentScope(record) {
     reasonFa: null,
     matched: null,
     strength: null,
+    evidenceBasis:
+      explicitResearch
+        ? "explicit-research-signal"
+        : trustedResearchContext
+          ? "trusted-research-root"
+          : "curated-existing-record",
   };
 }
 
-export function isResearchRelevantDocument(record) {
-  return classifyResearchDocumentScope(record).keep;
+export function isResearchRelevantDocument(
+  record,
+  options = {}
+) {
+  return classifyResearchDocumentScope(
+    record,
+    options
+  ).keep;
 }
 
 export function canonicalScopeUrl(value) {
   try {
     const url = new URL(String(value ?? ""));
 
-    if (!["http:", "https:"].includes(url.protocol)) {
+    if (
+      !["http:", "https:"].includes(
+        url.protocol
+      )
+    ) {
       return null;
     }
 
@@ -229,7 +414,8 @@ export function canonicalScopeUrl(value) {
       .replace(/^www\./, "");
 
     if (url.pathname.length > 1) {
-      url.pathname = url.pathname.replace(/\/+$/, "");
+      url.pathname =
+        url.pathname.replace(/\/+$/, "");
     }
 
     const params = [
@@ -237,11 +423,18 @@ export function canonicalScopeUrl(value) {
     ]
       .filter(
         ([key]) =>
-          !key.toLowerCase().startsWith("utm_") &&
-          !TRACKING_PARAMS.has(key.toLowerCase())
+          !key
+            .toLowerCase()
+            .startsWith("utm_") &&
+          !TRACKING_PARAMS.has(
+            key.toLowerCase()
+          )
       )
       .sort(
-        ([aKey, aValue], [bKey, bValue]) =>
+        (
+          [aKey, aValue],
+          [bKey, bValue]
+        ) =>
           aKey.localeCompare(bKey) ||
           aValue.localeCompare(bValue)
       );

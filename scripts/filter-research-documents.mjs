@@ -46,10 +46,16 @@ function recordUrl(record) {
   );
 }
 
-function compactRemoval(surface, record, classification) {
+function compactRemoval(
+  surface,
+  record,
+  classification,
+  slug = null
+) {
   return {
     surface,
     universitySlug:
+      slug ||
       record?.universitySlug ||
       record?.slug ||
       null,
@@ -59,6 +65,10 @@ function compactRemoval(surface, record, classification) {
       record?.label ||
       null,
     url: recordUrl(record),
+    parentUrl:
+      record?.parentUrl ||
+      record?.sourcePage ||
+      null,
     reason: classification.reason,
     reasonFa: classification.reasonFa,
     matched: classification.matched,
@@ -66,19 +76,60 @@ function compactRemoval(surface, record, classification) {
   };
 }
 
-function filterRecords(rows, surface, removals) {
+function trustedRootsBySlug(audits) {
+  const map = new Map();
+
+  for (const audit of audits || []) {
+    const roots = [];
+
+    if (
+      audit.portalAuditStatus ===
+        "direct-official" &&
+      audit.researchUrl
+    ) {
+      roots.push(audit.researchUrl);
+    }
+
+    map.set(
+      audit.universitySlug,
+      roots
+    );
+  }
+
+  return map;
+}
+
+function filterRecords(
+  rows,
+  surface,
+  removals,
+  rootsBySlug,
+  fixedSlug = null
+) {
   const kept = [];
 
   for (const row of rows || []) {
+    const slug =
+      fixedSlug ||
+      row?.universitySlug ||
+      null;
+
     const classification =
-      classifyResearchDocumentScope(row);
+      classifyResearchDocumentScope(
+        row,
+        {
+          researchRoots:
+            rootsBySlug.get(slug) || [],
+        }
+      );
 
     if (!classification.keep) {
       removals.push(
         compactRemoval(
           surface,
           row,
-          classification
+          classification,
+          slug
         )
       );
       continue;
@@ -107,12 +158,16 @@ const [
   ),
 ]);
 
+const rootsBySlug =
+  trustedRootsBySlug(rawAudits);
+
 const removals = [];
 
 const documents = filterRecords(
   rawDocuments,
   "documents-catalog",
-  removals
+  removals,
+  rootsBySlug
 );
 
 const discoveryDocuments = {
@@ -120,7 +175,8 @@ const discoveryDocuments = {
   documents: filterRecords(
     rawDiscoveryDocuments?.documents || [],
     "discovered-documents",
-    removals
+    removals,
+    rootsBySlug
   ),
 };
 
@@ -129,7 +185,9 @@ const reaudit = rawReaudit.map((row) => ({
   directDocuments: filterRecords(
     row.directDocuments || [],
     `reaudit-directDocuments:${row.slug}`,
-    removals
+    removals,
+    rootsBySlug,
+    row.slug
   ),
 }));
 
@@ -173,8 +231,24 @@ const reviews = rawReviews.map((review) => {
     const key =
       canonicalScopeUrl(source.url);
 
+    /*
+     * Research-review sources are not all "documents".
+     * Do not require a positive document signal here.
+     * Only remove a source if its URL was identified as
+     * an excluded document, or if it explicitly matches
+     * a hard/soft non-research rule.
+     */
     const classification =
-      classifyResearchDocumentScope(source);
+      classifyResearchDocumentScope(
+        source,
+        {
+          requirePositive: false,
+          researchRoots:
+            rootsBySlug.get(
+              review.universitySlug
+            ) || [],
+        }
+      );
 
     if (
       (key && removedUrlKeys.has(key)) ||
@@ -187,7 +261,8 @@ const reviews = rawReviews.map((review) => {
           compactRemoval(
             `research-review:${review.universitySlug}`,
             source,
-            classification
+            classification,
+            review.universitySlug
           )
         );
       }
@@ -204,8 +279,14 @@ const reviews = rawReviews.map((review) => {
     const key =
       canonicalScopeUrl(source.url);
 
-    if (key && !sourceUrlMap.has(key)) {
-      sourceUrlMap.set(key, source.url);
+    if (
+      key &&
+      !sourceUrlMap.has(key)
+    ) {
+      sourceUrlMap.set(
+        key,
+        source.url
+      );
     }
   }
 
@@ -226,11 +307,19 @@ for (const item of removals) {
 }
 
 const report = {
-  schemaVersion: 1,
+  schemaVersion: 2,
   policyVersion:
-    "research-document-scope-1.0",
+    "research-document-scope-2.0-positive-evidence",
   generatedAt:
     new Date().toISOString(),
+  policy: {
+    crawlerDiscoveredDocuments:
+      "require explicit research/technology/library/laboratory evidence or a trusted direct research-portal context",
+    curatedRecords:
+      "kept unless an explicit non-research rule matches",
+    missingEvidence:
+      "excluded from public research-document catalog; exclusion is not proof the document is unimportant, only that research relevance is not established",
+  },
   counts: {
     documentsCatalog:
       `${rawDocuments.length}->${documents.length}`,
@@ -267,20 +356,21 @@ await Promise.all([
 
 const examples = removals
   .filter((item) => item.title || item.url)
-  .slice(0, 8)
+  .slice(0, 12)
   .map((item) =>
     `${item.reasonFa}: ${item.title || item.url}`
   );
 
 console.log(
   [
-    "research document scope filter complete",
+    "research document scope v2 filter complete",
     `catalog=${rawDocuments.length}->${documents.length}`,
     `discovered=${rawDiscoveryDocuments?.documents?.length || 0}->${discoveryDocuments.documents.length}`,
     `reauditRemoved=${report.counts.reauditDirectDocumentsRemoved}`,
     `auditEvidenceRemoved=${auditEvidenceRemoved}`,
     `reviewSourcesRemoved=${reviewSourcesRemoved}`,
     `removalEvents=${removals.length}`,
+    `unproven=${countsByReason["unproven-research-scope"] || 0}`,
   ].join(" | ")
 );
 

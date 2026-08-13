@@ -15,11 +15,16 @@ const readJson = async (file, fallback) => {
 };
 
 const [
+  audits,
   documents,
   reaudit,
   discoveryDocuments,
   reviews,
 ] = await Promise.all([
+  readJson(
+    "data/audit/portal-audit.json",
+    []
+  ),
   readJson(
     "data/documents/catalog.json",
     []
@@ -38,11 +43,43 @@ const [
   ),
 ]);
 
+const rootsBySlug = new Map(
+  audits.map((audit) => [
+    audit.universitySlug,
+    (
+      audit.portalAuditStatus ===
+        "direct-official" &&
+      audit.researchUrl
+    )
+      ? [audit.researchUrl]
+      : [],
+  ])
+);
+
 const failures = [];
 
-function check(record, surface, slug = null) {
+function check(
+  record,
+  surface,
+  slug = null,
+  requirePositive = undefined
+) {
+  const universitySlug =
+    slug ||
+    record?.universitySlug ||
+    null;
+
   const classification =
-    classifyResearchDocumentScope(record);
+    classifyResearchDocumentScope(
+      record,
+      {
+        requirePositive,
+        researchRoots:
+          rootsBySlug.get(
+            universitySlug
+          ) || [],
+      }
+    );
 
   if (classification.keep) {
     return;
@@ -50,10 +87,7 @@ function check(record, surface, slug = null) {
 
   failures.push({
     surface,
-    universitySlug:
-      slug ||
-      record?.universitySlug ||
-      null,
+    universitySlug,
     title:
       record?.title ||
       record?.nameFa ||
@@ -63,6 +97,8 @@ function check(record, surface, slug = null) {
       record?.url ||
       record?.sourceUrl ||
       null,
+    reason:
+      classification.reason,
     reasonFa:
       classification.reasonFa,
     matched:
@@ -71,7 +107,10 @@ function check(record, surface, slug = null) {
 }
 
 for (const item of documents) {
-  check(item, "documents-catalog");
+  check(
+    item,
+    "documents-catalog"
+  );
 }
 
 for (const row of reaudit) {
@@ -91,7 +130,10 @@ for (
   const item of
     discoveryDocuments?.documents || []
 ) {
-  check(item, "discovered-documents");
+  check(
+    item,
+    "discovered-documents"
+  );
 }
 
 for (const review of reviews) {
@@ -102,14 +144,15 @@ for (const review of reviews) {
     check(
       source,
       "research-review",
-      review.universitySlug
+      review.universitySlug,
+      false
     );
   }
 }
 
 if (failures.length) {
   const sample = failures
-    .slice(0, 20)
+    .slice(0, 30)
     .map((item) =>
       `${item.surface} ${item.universitySlug || "-"} | ${item.reasonFa} | ${item.title || item.url || "بدون عنوان"}`
     )
@@ -117,7 +160,7 @@ if (failures.length) {
 
   throw new Error(
     [
-      `Non-research student/administrative records leaked into research evidence: ${failures.length}`,
+      `Non-research or unproven crawler documents leaked into public research evidence: ${failures.length}`,
       sample,
     ].join("\n")
   );
@@ -125,10 +168,11 @@ if (failures.length) {
 
 console.log(
   [
-    "research document scope validation passed",
+    "research document scope v2 validation passed",
     `documents=${documents.length}`,
     `reauditRows=${reaudit.length}`,
     `discovered=${discoveryDocuments?.documents?.length || 0}`,
     `reviews=${reviews.length}`,
+    "policy=positive-evidence-for-crawler-documents",
   ].join(" | ")
 );
