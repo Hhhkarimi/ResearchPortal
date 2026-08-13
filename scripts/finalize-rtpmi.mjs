@@ -55,9 +55,11 @@ const [
 ]);
 
 const DATE =
+  process.env.PIPELINE_SNAPSHOT_DATE ||
   "2026-08-11";
 
 const METHODOLOGY_VERSION =
+  process.env.PIPELINE_METHODOLOGY_VERSION ||
   "RTPMI-4.2-ISC";
 
 const weights = {

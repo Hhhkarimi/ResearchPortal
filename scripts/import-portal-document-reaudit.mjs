@@ -9,6 +9,7 @@ const fromFa=value=>Number(String(value).replace(/[۰-۹]/g,d=>String("۰۱۲۳�
 const validUrl=value=>{try{return ["http:","https:"].includes(new URL(value).protocol)}catch{return false}};
 const canonicalUrl=value=>{const url=new URL(value);url.hash="";url.hostname=url.hostname.toLowerCase();if(url.pathname.length>1)url.pathname=url.pathname.replace(/\/+$/,"");return url.toString()};
 const clean=value=>String(value||"").trim().replace(/^`|`$/g,"");
+const snapshotDate=process.env.PIPELINE_SNAPSHOT_DATE||"2026-08-11";
 const parseUrls=value=>clean(value)==="—"?[]:clean(value).split(";").map(clean).map(item=>item.match(/\[[^\]]+\]\((https?:\/\/[^)]+)\)/)?.[1]||item.match(/https?:\/\/\S+/)?.[0]).filter(validUrl);
 const parseDocuments=value=>clean(value)==="—"?[]:clean(value).split(";").map(clean).map((item,index)=>{
   const markdown=item.match(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/);
@@ -42,8 +43,8 @@ const bySlug=new Map(parsed.map(row=>[row.slug,row]));
 
 const nextAudits=audits.map(audit=>{
   const row=bySlug.get(audit.universitySlug);const sources=allUrls(row);
-  if(!row.portalUrls.length)return{...audit,auditDate:"2026-08-11",evidenceUrls:[...new Set([...(audit.evidenceUrls||[]),...sources])],note:`بازممیزی پرتال و اسناد در ۲۰ مرداد ۱۴۰۵ انجام شد. ${audit.note}`};
-  return{...audit,auditDate:"2026-08-11",portalAuditStatus:"direct-official",researchUrl:row.portalUrls[0],evidenceUrls:[...new Set([...(audit.evidenceUrls||[]),...sources])],note:"پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",scoreEligibility:audit.scoreEligibility||"unranked"};
+  if(!row.portalUrls.length)return{...audit,auditDate:snapshotDate,evidenceUrls:[...new Set([...(audit.evidenceUrls||[]),...sources])],note:`بازممیزی پرتال و اسناد در ۲۰ مرداد ۱۴۰۵ انجام شد. ${audit.note}`};
+  return{...audit,auditDate:snapshotDate,portalAuditStatus:"direct-official",researchUrl:row.portalUrls[0],evidenceUrls:[...new Set([...(audit.evidenceUrls||[]),...sources])],note:"پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",scoreEligibility:audit.scoreEligibility||"unranked"};
 });
 
 const nextReviews=reviews.map(review=>{
@@ -64,7 +65,7 @@ const nextReviews=reviews.map(review=>{
   row.directDocuments.forEach(item=>additions.push({label:item.title,url:item.url}));
   const officialSources=[...(review.officialSources||[]),...additions].filter((source,index,array)=>array.findIndex(other=>other.url===source.url)===index);
   const statuses=Object.values(dimensions);const verified=statuses.filter(value=>value==="verified").length;const observed=statuses.filter(value=>value==="observed-reference").length;
-  return{...review,reviewedAt:"2026-08-11",reviewOutcome:officialSources.length?"بازممیزی مستقیم پرتال و مخازن اسناد انجام شد":"بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",dimensions,reportedDimensions,reviewEvidenceCoverage:Math.round(100*(verified+.5*observed)/8),officialSources,officialSourceUrls:officialSources.map(source=>source.url),reviewNote:`بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ ${officialSources.length} URL رسمی ثبت است.`};
+  return{...review,reviewedAt:snapshotDate,reviewOutcome:officialSources.length?"بازممیزی مستقیم پرتال و مخازن اسناد انجام شد":"بازممیزی انجام شد؛ شاهد عمومی مستقیم تازه بازیابی نشد",dimensions,reportedDimensions,reviewEvidenceCoverage:Math.round(100*(verified+.5*observed)/8),officialSources,officialSourceUrls:officialSources.map(source=>source.url),reviewNote:`بازممیزی مستقل پرتال، ساختار، واحدها، سامانه‌ها و مخازن فرم/آیین‌نامه انجام شد؛ ${officialSources.length} URL رسمی ثبت است.`};
 });
 
 const typeOf=(title,taxonomy="")=>taxonomy==="regulation/bylaw"?"آیین‌نامه":taxonomy==="procedure/guideline"?"شیوه‌نامه/دستورالعمل":taxonomy==="form/template"?"فرم/الگو":taxonomy==="policy/circular"?"سیاست/بخشنامه":/آیین.?نامه/.test(title)?"آیین‌نامه":/شیوه.?نامه/.test(title)?"شیوه‌نامه":/دستورالعمل/.test(title)?"دستورالعمل":/فرم/.test(title)?"فرم":/بخشنامه|ابلاغ/.test(title)?"بخشنامه":/راهنما/.test(title)?"راهنما":/سیاست|ضابطه/.test(title)?"ضابطه":/فرآیند/.test(title)?"فرآیند":"سند";
@@ -73,7 +74,7 @@ const documents=existingDocuments.map(document=>({...document,topic:document.top
 const keys=new Set(documents.map(document=>`${document.universitySlug}|${document.url||document.sourceUrl}`));
 for(const row of parsed){
   const candidates=[...row.documentIndexUrls.map((url,index)=>({title:`فهرست فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها${row.documentIndexUrls.length>1?` ${index+1}`:""}`,url,type:"فهرست اسناد",topic:"سایر"})),...row.directDocuments.map(item=>({title:item.title,url:item.url,type:typeOf(item.title,item.taxonomy),topic:topicOf(item.title,item.taxonomy),taxonomy:item.taxonomy}))];
-  for(const candidate of candidates){const key=`${row.slug}|${candidate.url}`;if(keys.has(key))continue;keys.add(key);documents.push({id:`${row.slug}-reaudit-doc-${documents.filter(item=>item.universitySlug===row.slug).length+1}`,universitySlug:row.slug,title:candidate.title,type:candidate.type,topic:candidate.topic,taxonomy:candidate.taxonomy||null,evidence:"verified",status:"active",lastVerified:"2026-08-11",url:candidate.url,sourceUrl:candidate.url});}
+  for(const candidate of candidates){const key=`${row.slug}|${candidate.url}`;if(keys.has(key))continue;keys.add(key);documents.push({id:`${row.slug}-reaudit-doc-${documents.filter(item=>item.universitySlug===row.slug).length+1}`,universitySlug:row.slug,title:candidate.title,type:candidate.type,topic:candidate.topic,taxonomy:candidate.taxonomy||null,evidence:"verified",status:"active",lastVerified:snapshotDate,url:candidate.url,sourceUrl:candidate.url});}
 }
 
 await Promise.all([

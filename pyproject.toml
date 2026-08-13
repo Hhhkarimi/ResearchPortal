@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=75,<76"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "research-portal-pipeline"
+version = "1.0.0"
+description = "Reproducible data pipeline for the Research Portal"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+rp-pipeline = "research_portal_pipeline.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "pipeline/src"}
+
+[tool.setuptools.packages.find]
+where = ["pipeline/src"]

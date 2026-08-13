@@ -1,0 +1,181 @@
+[pipeline]
+name = "research-portal-release"
+snapshot_date = "${PIPELINE_SNAPSHOT_DATE:-2026-08-12}"
+schema_version = "${PIPELINE_SCHEMA_VERSION:-10.0.0}"
+methodology_version = "${PIPELINE_METHODOLOGY_VERSION:-RTPMI-4.2-ISC}"
+artifact_root = "${PIPELINE_ARTIFACT_ROOT:-.pipeline/artifacts}"
+work_root = "${PIPELINE_WORK_ROOT:-.pipeline/work}"
+raw_paths = [
+  "data/isc",
+  "data/audit/portal-audit.json",
+  "data/units/catalog.json",
+  "data/systems/catalog.json",
+  "data/documents/catalog.json",
+  "data/generated/discovery-evidence.json",
+  "data/generated/discovered-documents.json",
+  "data/generated/discovery-summary.json",
+  "docs/EVIDENCE_AUDIT_115.md",
+  "docs/PORTAL_DOCUMENT_REAUDIT_115.md",
+]
+bootstrap_paths = ["scripts", "docs", "data", "public", "package.json"]
+publish_paths = ["data", "public/datasets"]
+
+[[stages]]
+name = "university_source_ingestion"
+commands = [
+  ["node", "scripts/import-research-audit.mjs"],
+  ["node", "scripts/import-portal-document-reaudit.mjs"],
+]
+inputs = [
+  "data/isc/institutions.json",
+  "data/audit/portal-audit.json",
+  "data/documents/catalog.json",
+  "docs/EVIDENCE_AUDIT_115.md",
+  "docs/PORTAL_DOCUMENT_REAUDIT_115.md",
+]
+outputs = [
+  "data/evidence/research-review.json",
+  "data/evidence/portal-document-reaudit.json",
+  "data/audit/portal-audit.json",
+  "data/documents/catalog.json",
+]
+timeout_seconds = 300
+
+[[stages]]
+name = "discovery_promotion"
+depends_on = ["university_source_ingestion"]
+commands = [["node", "scripts/promote-discovery.mjs"]]
+inputs = [
+  "data/generated/discovery-evidence.json",
+  "data/generated/discovered-documents.json",
+  "data/audit/portal-audit.json",
+  "data/evidence/research-review.json",
+]
+outputs = [
+  "data/audit/portal-audit.json",
+  "data/evidence/research-review.json",
+  "data/evidence/portal-document-reaudit.json",
+  "data/units/catalog.json",
+  "data/systems/catalog.json",
+  "data/documents/catalog.json",
+]
+timeout_seconds = 900
+
+[[stages]]
+name = "normalization_deduplication"
+depends_on = ["discovery_promotion"]
+commands = [
+  ["node", "scripts/normalize-public-data.mjs"],
+  ["node", "scripts/filter-research-documents.mjs"],
+]
+inputs = [
+  "data/audit/portal-audit.json",
+  "data/evidence/research-review.json",
+  "data/evidence/portal-document-reaudit.json",
+  "data/units/catalog.json",
+  "data/systems/catalog.json",
+  "data/documents/catalog.json",
+]
+outputs = [
+  "data/audit/portal-audit.json",
+  "data/evidence/research-review.json",
+  "data/evidence/portal-document-reaudit.json",
+  "data/units/catalog.json",
+  "data/systems/catalog.json",
+  "data/documents/catalog.json",
+  "data/generated/research-document-filter-report.json",
+]
+timeout_seconds = 600
+
+[[stages]]
+name = "deep_audit"
+depends_on = ["normalization_deduplication"]
+commands = [["node", "scripts/build-deep-audit.mjs"]]
+inputs = [
+  "data/isc/institutions.json",
+  "data/audit/portal-audit.json",
+  "data/units/catalog.json",
+  "data/systems/catalog.json",
+  "data/documents/catalog.json",
+]
+outputs = ["data/audit/deep-audit-matrix.json"]
+timeout_seconds = 300
+
+[[stages]]
+name = "rtpmi_calculation"
+depends_on = ["deep_audit"]
+commands = [["node", "scripts/finalize-rtpmi.mjs"]]
+inputs = [
+  "data/isc/institutions.json",
+  "data/audit/portal-audit.json",
+  "data/audit/deep-audit-matrix.json",
+  "data/units/catalog.json",
+  "data/systems/catalog.json",
+  "data/documents/catalog.json",
+]
+outputs = ["data/statistics/portal-ranking.json", "data/statistics/rtpmi-weights.json"]
+timeout_seconds = 300
+
+[[stages]]
+name = "evidence_validation_build"
+depends_on = ["rtpmi_calculation"]
+commands = [
+  ["node", "scripts/build-provenance.mjs"],
+  ["node", "scripts/build-dimension-evidence.mjs"],
+]
+inputs = [
+  "data/audit/portal-audit.json",
+  "data/evidence/research-review.json",
+  "data/units/catalog.json",
+  "data/systems/catalog.json",
+  "data/documents/catalog.json",
+]
+outputs = [
+  "data/evidence/provenance-ledger.json",
+  "data/evidence/dimension-evidence.json",
+  "data/evidence/research-review.json",
+]
+timeout_seconds = 900
+
+[[stages]]
+name = "snapshot_generation"
+depends_on = ["evidence_validation_build"]
+commands = [
+  ["node", "scripts/recompute-summary.mjs"],
+  ["node", "scripts/build-public-data.mjs"],
+  ["node", "scripts/build-audit-packets.mjs"],
+  ["node", "scripts/export-csv.mjs"],
+]
+inputs = [
+  "data/isc/institutions.json",
+  "data/isc/source.json",
+  "data/audit/portal-audit.json",
+  "data/audit/deep-audit-matrix.json",
+  "data/statistics/portal-ranking.json",
+  "data/statistics/rtpmi-weights.json",
+  "data/units/catalog.json",
+  "data/systems/catalog.json",
+  "data/documents/catalog.json",
+  "data/evidence/provenance-ledger.json",
+  "data/evidence/research-review.json",
+  "data/evidence/dimension-evidence.json",
+  "data/evidence/portal-document-reaudit.json",
+]
+outputs = [
+  "data",
+  "public/datasets",
+]
+timeout_seconds = 900
+
+[[stages]]
+name = "release_validation"
+depends_on = ["snapshot_generation"]
+commands = [
+  ["node", "scripts/validate-data.mjs"],
+  ["node", "scripts/validate-research-document-scope.mjs"],
+  ["node", "scripts/check-no-social-evidence.mjs"],
+]
+inputs = ["data", "public/datasets"]
+outputs = ["data/statistics/summary.json", "public/datasets/manifest.json"]
+timeout_seconds = 600
+deterministic = false

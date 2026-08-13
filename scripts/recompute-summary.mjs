@@ -349,9 +349,11 @@ const summary = {
     isc.length,
 
   snapshotDate:
+    process.env.PIPELINE_SNAPSHOT_DATE ||
     "2026-08-11",
 
   methodologyVersion:
+    process.env.PIPELINE_METHODOLOGY_VERSION ||
     "RTPMI-4.2-ISC",
 
   disclaimer:

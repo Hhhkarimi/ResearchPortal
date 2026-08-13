@@ -348,6 +348,7 @@ for (
       institution.iscRank,
 
     auditDate:
+      process.env.PIPELINE_SNAPSHOT_DATE ||
       "2026-08-11",
 
     portalAuditStatus:

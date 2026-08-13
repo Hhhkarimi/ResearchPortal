@@ -4,6 +4,7 @@ const institutions=JSON.parse(await fs.readFile("data/isc/institutions.json","ut
 const report=await fs.readFile("docs/EVIDENCE_AUDIT_115.md","utf8");
 const dimensions=["portalIdentity","organization","libraryDocuments","laboratories","industryTechnology","informationTechnology","systemsServices","documentsRegulations"];
 const codeStatus={"ت":"verified","م":"observed-reference","ن":"unresolved","د":"restricted"};
+const snapshotDate=process.env.PIPELINE_SNAPSHOT_DATE||"2026-08-11";
 const fromFa=value=>Number(String(value).replace(/[۰-۹]/g,d=>String("۰۱۲۳۴۵۶۷۸۹".indexOf(d))));
 const rows=report.split("\n").filter(line=>/^\|\s*[۰-۹]+\s*\|/.test(line));
 
@@ -26,7 +27,7 @@ const reviews=rows.map(line=>{
     reportNameFa:cells[1],
     iscCategory:institution.category,
     iscRank:institution.iscRank,
-    reviewedAt:"2026-08-11",
+    reviewedAt:snapshotDate,
     reviewOutcome:cells[2],
     dimensions:reportedDimensions,
     reportedDimensions,

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://research-portal.example/schemas/pipeline-run-manifest-v1.json",
+  "title": "Research Portal pipeline run manifest",
+  "type": "object",
+  "required": [
+    "run_id", "pipeline_name", "status", "snapshot_date", "config_hash",
+    "code_hash", "raw_artifact_hash", "created_at", "stages"
+  ],
+  "properties": {
+    "run_id": {"type": "string", "minLength": 1},
+    "pipeline_name": {"type": "string", "minLength": 1},
+    "status": {"enum": ["running", "validated", "published", "failed"]},
+    "snapshot_date": {"type": "string", "format": "date"},
+    "schema_version": {"type": "string"},
+    "methodology_version": {"type": "string"},
+    "config_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "code_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "raw_artifact_hash": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "stages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "status", "fingerprint", "input_hashes", "output_hashes"],
+        "properties": {
+          "name": {"type": "string"},
+          "status": {"enum": ["succeeded", "cached", "failed"]},
+          "fingerprint": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "input_hashes": {"type": "object", "additionalProperties": {"type": "string"}},
+          "output_hashes": {"type": "object", "additionalProperties": {"type": "string"}}
+        }
+      }
+    }
+  }
+}
