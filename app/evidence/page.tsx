@@ -12,33 +12,8 @@ export const metadata = {
 };
 
 export default function Page() {
-  const verified =
-    dimensionEvidence.filter(
-      (item) =>
-        item.status ===
-        "verified"
-    ).length;
-
-  const observed =
-    dimensionEvidence.filter(
-      (item) =>
-        item.status ===
-        "observed-reference"
-    ).length;
-
-  const restricted =
-    dimensionEvidence.filter(
-      (item) =>
-        item.status ===
-        "restricted"
-    ).length;
-
-  const unresolved =
-    dimensionEvidence.filter(
-      (item) =>
-        item.status ===
-        "unresolved"
-    ).length;
+  const counts:Record<string,number>={verified:0,"observed-reference":0,restricted:0,unresolved:0};
+  for(const item of dimensionEvidence)counts[item.status]=(counts[item.status]||0)+1;
 
   return (
     <main className="shell page">
@@ -76,30 +51,38 @@ export default function Page() {
 
       <div className="auditKpis evidenceKpis">
         <div>
-          <b>{verified}</b>
+          <b>{counts.verified}</b>
           <span>تأیید مستقیم</span>
         </div>
 
         <div>
-          <b>{observed}</b>
+          <b>{counts["observed-reference"]}</b>
           <span>شاهد/ارجاع رسمی</span>
         </div>
 
         <div>
-          <b>{restricted}</b>
+          <b>{counts.restricted}</b>
           <span>محدود/مسدود</span>
         </div>
 
         <div>
-          <b>{unresolved}</b>
+          <b>{counts.unresolved}</b>
           <span>حل‌نشده</span>
         </div>
       </div>
 
       <EvidenceExplorer
-        rows={
-          dimensionEvidence
-        }
+        rows={dimensionEvidence.map(item=>({
+          id:item.id,
+          universitySlug:item.universitySlug,
+          nameFa:item.nameFa,
+          dimension:item.dimension,
+          status:item.status,
+          reviewedAt:item.reviewedAt,
+          publicationAdjusted:Boolean(item.publicationAdjustment),
+          sourceCount:item.sourceCount,
+          sourceUrl:item.sources[0]?.url||null,
+        }))}
       />
     </main>
   );

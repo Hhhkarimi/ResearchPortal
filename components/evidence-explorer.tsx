@@ -1,7 +1,10 @@
 "use client";
 
-import {useMemo,useState} from "react";
-import {PUBLIC_DIMENSION_COUNT,PUBLIC_OUTCOME_COUNT} from "@/lib/public-model";
+import {useDeferredValue,useMemo,useState} from "react";
+
+const PUBLIC_DIMENSION_COUNT=7;
+const PUBLIC_OUTCOME_COUNT=805;
+const initialLimit=96;
 
 const dimensionLabels:any={
   portalIdentity:"هویت پرتال معاونت پژوهشی و فناوری",
@@ -27,22 +30,25 @@ const basisLabels:any={
   unresolved:"در این Snapshot شاهد عمومی کافی حل نشده است؛ این به معنی نبود قابلیت نیست."
 };
 
-export function EvidenceExplorer({rows}:{rows:any[]}){
+type EvidenceRow={id:string;universitySlug:string;nameFa:string;dimension:string;status:string;reviewedAt:string;publicationAdjusted:boolean;sourceCount:number;sourceUrl:string|null};
+
+export function EvidenceExplorer({rows}:{rows:EvidenceRow[]}){
   const [query,setQuery]=useState("");
   const [dimension,setDimension]=useState("همه");
   const [status,setStatus]=useState("همه");
-  const [limit,setLimit]=useState(96);
+  const [limit,setLimit]=useState(initialLimit);
+  const deferredQuery=useDeferredValue(query);
 
   const filtered=useMemo(
     ()=>rows.filter(row=>
       (dimension==="همه"||row.dimension===dimension)&&
       (status==="همه"||row.status===status)&&
-      (!query||row.nameFa.includes(query)||row.universitySlug.includes(query.toLowerCase()))
+      (!deferredQuery||row.nameFa.includes(deferredQuery)||row.universitySlug.includes(deferredQuery.toLowerCase()))
     ),
-    [rows,query,dimension,status]
+    [rows,deferredQuery,dimension,status]
   );
 
-  const resetLimit=()=>setLimit(96);
+  const resetLimit=()=>setLimit(initialLimit);
 
   return <>
     <div className="explorerBar glass">
@@ -50,9 +56,11 @@ export function EvidenceExplorer({rows}:{rows:any[]}){
         <label htmlFor="evidence-search">دانشگاه</label>
         <input
           id="evidence-search"
+          type="search"
           value={query}
           onChange={event=>{setQuery(event.target.value);resetLimit()}}
           placeholder="نام دانشگاه…"
+          spellCheck={false}
         />
       </div>
 
@@ -99,14 +107,14 @@ export function EvidenceExplorer({rows}:{rows:any[]}){
           <h2>{row.nameFa}</h2>
           <p>
             {basisLabels[row.status]}
-            {row.publicationAdjustment&&
+            {row.publicationAdjusted&&
               <small> نتیجه گزارش اولیه به‌دلیل نبود منبع بُعدی کافی با احتیاط منتشر شده است.</small>
             }
           </p>
           <footer>
             <span>{new Date(row.reviewedAt).toLocaleDateString("fa-IR")}</span>
-            {row.sources[0]
-              ? <a href={row.sources[0].url} target="_blank" rel="noopener noreferrer">
+            {row.sourceUrl
+              ? <a href={row.sourceUrl} target="_blank" rel="noopener noreferrer">
                   {row.sourceCount.toLocaleString("fa-IR")} منبع رسمی ↗
                 </a>
               : <b>بدون URL قابل انتشار</b>
@@ -117,7 +125,7 @@ export function EvidenceExplorer({rows}:{rows:any[]}){
     </div>
 
     {limit<filtered.length&&
-      <button className="loadMore" onClick={()=>setLimit(value=>value+96)}>
+      <button className="loadMore" type="button" onClick={()=>setLimit(value=>value+initialLimit)}>
         نمایش outcomeهای بیشتر ↓
       </button>
     }

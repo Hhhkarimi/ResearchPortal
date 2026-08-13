@@ -102,9 +102,14 @@ export default function Page() {
       />
 
       <AuditExplorer
-        audits={
-          researchReviews
-        }
+        audits={researchReviews.map(item=>({
+          universitySlug:item.universitySlug,
+          nameFa:item.nameFa,
+          iscCategory:item.iscCategory,
+          iscRank:item.iscRank,
+          reviewEvidenceCoverage:item.reviewEvidenceCoverage,
+          dimensions:item.dimensions,
+        }))}
       />
     </main>
   );

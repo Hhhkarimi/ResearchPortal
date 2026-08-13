@@ -1,41 +1,30 @@
 "use client";
 
 import {
+  useDeferredValue,
   useMemo,
+  useRef,
   useState,
+  useTransition,
 } from "react";
 
 import styles from "./document-explorer.module.css";
 
-const classify = (
-  document: any
-) =>
-  document.displayTopic ||
-  document.topic ||
-  document.category ||
-  "سایر اسناد پژوهشی";
-
-const titleOf = (
-  document: any
-) =>
-  document.displayTitle ||
-  document.title ||
-  "سند پژوهشی";
-
-const typeOf = (
-  document: any
-) =>
-  document.displayType ||
-  document.type ||
-  "سند";
+type DocumentRow={id:string;title:string;type:string;topic:string;universityName:string;displayFileName:string;status:string;lastVerified:string;url:string;searchText:string};
+const initialLimit=96;
 
 export function DocumentExplorer({
-  documents,
-  institutions,
+  initialDocuments,
+  total,
+  types,
+  topics,
 }: {
-  documents: any[];
-  institutions: any[];
+  initialDocuments: DocumentRow[];
+  total: number;
+  types: string[];
+  topics: string[];
 }) {
+  const [documents,setDocuments]=useState(()=>initialDocuments);
   const [query, setQuery] =
     useState("");
 
@@ -48,57 +37,22 @@ export function DocumentExplorer({
   const [sort, setSort] =
     useState("university");
 
-  const university =
-    useMemo(
-      () =>
-        new Map(
-          institutions.map(
-            (item) => [
-              item.slug,
-              item,
-            ]
-          )
-        ),
-      [institutions]
-    );
+  const [limit,setLimit]=useState(initialLimit);
+  const [loading,setLoading]=useState(false);
+  const [isPending,startTransition]=useTransition();
+  const loadPromise=useRef<Promise<void>|null>(null);
+  const deferredQuery=useDeferredValue(query);
 
-  const types =
-    useMemo(
-      () =>
-        [
-          ...new Set(
-            documents.map(
-              typeOf
-            )
-          ),
-        ].sort(
-          (a, b) =>
-            String(a).localeCompare(
-              String(b),
-              "fa"
-            )
-        ),
-      [documents]
-    );
-
-  const topics =
-    useMemo(
-      () =>
-        [
-          ...new Set(
-            documents.map(
-              classify
-            )
-          ),
-        ].sort(
-          (a, b) =>
-            String(a).localeCompare(
-              String(b),
-              "fa"
-            )
-        ),
-      [documents]
-    );
+  const loadAll=()=>{
+    if(documents.length>=total)return Promise.resolve();
+    if(loadPromise.current)return loadPromise.current;
+    setLoading(true);
+    loadPromise.current=fetch("/api/v1/documents")
+      .then(response=>{if(!response.ok)throw new Error("document_index_failed");return response.json()})
+      .then(payload=>{if(!Array.isArray(payload.data))throw new Error("document_index_invalid");startTransition(()=>setDocuments(payload.data))})
+      .finally(()=>{loadPromise.current=null;setLoading(false)});
+    return loadPromise.current;
+  };
 
   const rows =
     useMemo(
@@ -106,34 +60,18 @@ export function DocumentExplorer({
         documents
           .filter(
             (document) => {
-              const uni: any =
-                university.get(
-                  document.universitySlug
-                );
-
-              const haystack =
-                [
-                  titleOf(document),
-                  document.originalTitle,
-                  document.displayFileName,
-                  uni?.nameFa,
-                  classify(document),
-                ]
-                  .filter(Boolean)
-                  .join(" ");
-
               return (
                 (
                   type === "همه" ||
-                  typeOf(document) === type
+                  document.type === type
                 ) &&
                 (
                   topic === "همه" ||
-                  classify(document) === topic
+                  document.topic === topic
                 ) &&
                 (
-                  !query ||
-                  haystack.includes(query)
+                  !deferredQuery ||
+                  document.searchText.includes(deferredQuery)
                 )
               );
             }
@@ -149,40 +87,32 @@ export function DocumentExplorer({
                     )
                   )
                 : sort === "title"
-                  ? titleOf(a).localeCompare(
-                      titleOf(b),
+                  ? a.title.localeCompare(
+                      b.title,
                       "fa"
                     )
-                  : (
-                      (
-                        university.get(
-                          a.universitySlug
-                        ) as any
-                      )?.nameFa || ""
-                    ).localeCompare(
-                      (
-                        (
-                          university.get(
-                            b.universitySlug
-                          ) as any
-                        )?.nameFa || ""
-                      ),
+                  : a.universityName.localeCompare(
+                      b.universityName,
                       "fa"
                     ) ||
-                    titleOf(a).localeCompare(
-                      titleOf(b),
+                    a.title.localeCompare(
+                      b.title,
                       "fa"
                     )
           ),
       [
         documents,
-        query,
+        deferredQuery,
         type,
         topic,
         sort,
-        university,
       ]
     );
+
+  const updateFilter=(setter:(value:string)=>void,value:string)=>{setter(value);setLimit(initialLimit)};
+  const showMore=async()=>{if(documents.length<total)await loadAll();setLimit(value=>value+initialLimit)};
+  const allDocumentsLoaded=documents.length>=total;
+  const resultCount=!allDocumentsLoaded&&type==="همه"&&topic==="همه"&&!deferredQuery?total:rows.length;
 
   return (
     <>
@@ -194,12 +124,11 @@ export function DocumentExplorer({
           <input
             id="document-search"
             value={query}
-            onChange={(event) =>
-              setQuery(
-                event.target.value
-              )
-            }
+            type="search"
+            onFocus={()=>void loadAll()}
+            onChange={(event) =>{void loadAll();updateFilter(setQuery,event.target.value)}}
             placeholder="عنوان سند، نام فایل یا دانشگاه…"
+            spellCheck={false}
           />
         </div>
 
@@ -210,11 +139,8 @@ export function DocumentExplorer({
           <select
             id="document-type"
             value={type}
-            onChange={(event) =>
-              setType(
-                event.target.value
-              )
-            }
+            onFocus={()=>void loadAll()}
+            onChange={(event) =>{void loadAll();updateFilter(setType,event.target.value)}}
           >
             <option>
               همه
@@ -236,11 +162,8 @@ export function DocumentExplorer({
           <select
             id="document-topic"
             value={topic}
-            onChange={(event) =>
-              setTopic(
-                event.target.value
-              )
-            }
+            onFocus={()=>void loadAll()}
+            onChange={(event) =>{void loadAll();updateFilter(setTopic,event.target.value)}}
           >
             <option>
               همه
@@ -262,11 +185,8 @@ export function DocumentExplorer({
           <select
             id="document-sort"
             value={sort}
-            onChange={(event) =>
-              setSort(
-                event.target.value
-              )
-            }
+            onFocus={()=>void loadAll()}
+            onChange={(event) =>{void loadAll();updateFilter(setSort,event.target.value)}}
           >
             <option value="university">
               دانشگاه
@@ -283,38 +203,30 @@ export function DocumentExplorer({
 
       <div className="resultMeta">
         <b>
-          {rows.length.toLocaleString(
+          {resultCount.toLocaleString(
             "fa-IR"
           )}
         </b>{" "}
         سند پژوهشی دارای شاهد عمومی
+        {(loading||isPending)&&<span className="loadingHint" role="status"> · در حال آماده‌سازی نمایه کامل…</span>}
       </div>
 
       <div
         className={`${styles.grid} docGrid`}
       >
-        {rows.map(
+        {rows.slice(0,limit).map(
           (document) => {
-            const uni: any =
-              university.get(
-                document.universitySlug
-              );
-
-            const href =
-              document.url ||
-              document.sourceUrl;
-
             return (
               <a
                 className={`docCard ${styles.card}`}
                 key={document.id}
-                href={href}
+                href={document.url}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <div>
                   <span className="categoryPill">
-                    {typeOf(document)}
+                    {document.type}
                   </span>
                   <em>
                     {document.status ===
@@ -325,15 +237,15 @@ export function DocumentExplorer({
                 </div>
 
                 <h2>
-                  {titleOf(document)}
+                  {document.title}
                 </h2>
 
                 <p>
-                  {uni?.nameFa}
+                  {document.universityName}
                 </p>
 
                 <div className="documentTopic">
-                  {classify(document)}
+                  {document.topic}
                 </div>
 
                 {document.displayFileName && (
@@ -374,6 +286,7 @@ export function DocumentExplorer({
           }
         )}
       </div>
+      {(limit<rows.length||!allDocumentsLoaded)&&<button className="loadMore" type="button" disabled={loading} onClick={()=>void showMore()}>{loading?"در حال بارگذاری…":"نمایش اسناد بیشتر ↓"}</button>}
     </>
   );
 }

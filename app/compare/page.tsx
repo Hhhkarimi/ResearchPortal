@@ -38,9 +38,7 @@ export default function Page() {
       </header>
 
       <CompareExplorer
-        rankings={
-          rankings
-        }
+        rankings={rankings.map(({universitySlug,nameFa,score,confidence,metrics})=>({universitySlug,nameFa,score,confidence,metrics}))}
       />
     </main>
   );

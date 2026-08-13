@@ -9,6 +9,10 @@ export default function Home(){
   const summary:any=datasetSummary;
   const categories=Object.entries(summary.categoryCounts);
   const top=rankings.slice(0,5);
+  const heroAudits=researchReviews.map(({universitySlug,nameFa,reviewEvidenceCoverage})=>({universitySlug,nameFa,reviewEvidenceCoverage}));
+  const searchInstitutions=institutions.map(({slug,nameFa,category,iscRank})=>({slug,nameFa,category,iscRank}));
+  const searchAudits=audits.map(({universitySlug,portalAuditStatus})=>({universitySlug,portalAuditStatus}));
+  const searchRankings=rankings.map(({universitySlug,score,rank})=>({universitySlug,score,rank}));
 
   return <main>
     <section className="hero shell">
@@ -16,13 +20,13 @@ export default function Home(){
         <div className="liveBadge"><i/> ممیزی پرتال معاونت پژوهشی و فناوری ۱۱۵ نهاد دولتی ISC <span>Snapshot ۱۰.۰</span></div>
         <h1>ردِ شواهد را بگیرید؛<em> پرتال معاونت پژوهشی و فناوری را بسنجید.</em></h1>
         <p>رصدخانه‌ای برای سنجش بلوغ و شفافیت پرتال معاونت پژوهشی و فناوری دانشگاه‌ها؛ از ساختار معاونت و کتابخانه تا آزمایشگاه، صنعت و فناوری، سامانه‌ها و اسناد.</p>
-        <HomeExplorer institutions={institutions} audits={audits} rankings={rankings}/>
+        <HomeExplorer institutions={searchInstitutions} audits={searchAudits} rankings={searchRankings}/>
         <div className="heroLinks">
           <Link className="primaryLink" href="/audit">باز کردن دفتر ممیزی <span>←</span></Link>
           <Link className="quietLink" href="/methodology">RTPMI دقیقاً چه می‌سنجد؟</Link>
         </div>
       </div>
-      <HeroConstellation audits={researchReviews} summary={summary}/>
+      <HeroConstellation audits={heroAudits} summary={summary}/>
     </section>
 
     <section className="proofStrip">

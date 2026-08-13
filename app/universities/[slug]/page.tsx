@@ -8,16 +8,17 @@ import {
 } from "@/components/share-button";
 
 import {
-  audits,
   canonicalPublicUrl,
   dedupePublicCatalog,
-  dimensionEvidence,
-  documentCatalog,
+  getAudit,
+  getDimensionEvidence,
+  getDocuments,
+  getInstitution,
+  getRank,
+  getResearchReview,
+  getSystems,
+  getUnits,
   institutions,
-  rankings,
-  researchReviews,
-  systemCatalog,
-  unitCatalog,
 } from "@/lib/data";
 
 import {
@@ -56,11 +57,7 @@ export async function generateMetadata(
 
   const university:
     any =
-    institutions.find(
-      (item) =>
-        item.slug ===
-        slug
-    );
+    getInstitution(slug);
 
   return {
     title:
@@ -167,11 +164,7 @@ export default async function Page(
 
   const university:
     any =
-    institutions.find(
-      (item) =>
-        item.slug ===
-        slug
-    );
+    getInstitution(slug);
 
   if (
     !university
@@ -181,64 +174,36 @@ export default async function Page(
 
   const audit:
     any =
-    audits.find(
-      (item) =>
-        item.universitySlug ===
-        slug
-    );
+    getAudit(slug);
 
   const review:
     any =
-    researchReviews.find(
-      (item) =>
-        item.universitySlug ===
-        slug
-    );
+    getResearchReview(slug);
 
   const reviewed:
     any[] =
-    dimensionEvidence.filter(
-      (item) =>
-        item.universitySlug ===
-        slug
-    );
+    getDimensionEvidence(slug);
 
   const ranking:
     any =
-    rankings.find(
-      (item) =>
-        item.universitySlug ===
-        slug
-    );
+    getRank(slug);
 
   const units:
     any[] =
     dedupePublicCatalog(
-      unitCatalog.filter(
-        (item) =>
-          item.universitySlug ===
-          slug
-      )
+      getUnits(slug)
     );
 
   const systems:
     any[] =
     dedupePublicCatalog(
-      systemCatalog.filter(
-        (item) =>
-          item.universitySlug ===
-          slug
-      )
+      getSystems(slug)
     );
 
   const documents:
     any[] =
     dedupePublicCatalog(
-      documentCatalog.filter(
-        (item) =>
-          item.universitySlug ===
-          slug
-      )
+      getDocuments(slug)
     );
 
   const verified =

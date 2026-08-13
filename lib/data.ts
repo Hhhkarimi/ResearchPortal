@@ -401,37 +401,51 @@ export {
   uniquePublicUrls,
 } from "@/lib/public-model";
 
+const indexBySlug = (
+  rows: any[],
+  key = "universitySlug"
+) => new Map(rows.map((item) => [item[key], item]));
+
+const groupBySlug = (
+  rows: any[]
+) => {
+  const groups = new Map<string, any[]>();
+  for (const item of rows) {
+    const group = groups.get(item.universitySlug);
+    if (group) group.push(item);
+    else groups.set(item.universitySlug, [item]);
+  }
+  return groups;
+};
+
+const institutionBySlug = indexBySlug(institutions as any[], "slug");
+const auditBySlug = indexBySlug(audits as any[]);
+const deepAuditBySlug = indexBySlug(deepAudits as any[]);
+const rankingBySlug = indexBySlug(rankings as any[]);
+const reviewBySlug = indexBySlug(researchReviews as any[]);
+const evidenceBySlug = groupBySlug(dimensionEvidence as any[]);
+const unitsBySlug = groupBySlug(unitCatalog as any[]);
+const systemsBySlug = groupBySlug(systemCatalog as any[]);
+const documentsBySlug = groupBySlug(documentCatalog as any[]);
+
 export const getInstitution = (
   slug: string
-) =>
-  institutions.find(
-    (item) =>
-      item.slug === slug
-  );
+) => institutionBySlug.get(slug);
 
 export const getAudit = (
   slug: string
-) =>
-  audits.find(
-    (item) =>
-      item.universitySlug ===
-      slug
-  );
+) => auditBySlug.get(slug);
 
 export const getDeepAudit = (
   slug: string
-) =>
-  deepAudits.find(
-    (item) =>
-      item.universitySlug ===
-      slug
-  );
+) => deepAuditBySlug.get(slug);
 
 export const getRank = (
   slug: string
-) =>
-  rankings.find(
-    (item) =>
-      item.universitySlug ===
-      slug
-  );
+) => rankingBySlug.get(slug);
+
+export const getResearchReview = (slug: string) => reviewBySlug.get(slug);
+export const getDimensionEvidence = (slug: string) => evidenceBySlug.get(slug) || [];
+export const getUnits = (slug: string) => unitsBySlug.get(slug) || [];
+export const getSystems = (slug: string) => systemsBySlug.get(slug) || [];
+export const getDocuments = (slug: string) => documentsBySlug.get(slug) || [];

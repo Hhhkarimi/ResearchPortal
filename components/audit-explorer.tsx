@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import {
+  useDeferredValue,
   useMemo,
   useState
 } from "react";
@@ -63,6 +64,10 @@ export function AuditExplorer(
       "همه"
     );
 
+  const deferredQuery=useDeferredValue(query);
+
+  const categories=useMemo(()=>[...new Set(audits.map(item=>item.iscCategory))],[audits]);
+
   const [
     mode,
     setMode,
@@ -83,9 +88,9 @@ export function AuditExplorer(
                 category
             ) &&
             (
-              !query ||
+              !deferredQuery ||
               audit.nameFa.includes(
-                query
+                deferredQuery
               )
             ) &&
             (
@@ -126,7 +131,7 @@ export function AuditExplorer(
 
       [
         audits,
-        query,
+        deferredQuery,
         category,
         mode,
       ]
@@ -142,6 +147,7 @@ export function AuditExplorer(
 
           <input
             id="audit-search"
+            type="search"
             value={
               query
             }
@@ -154,6 +160,7 @@ export function AuditExplorer(
                 )
             }
             placeholder="نام دانشگاه…"
+            spellCheck={false}
           />
         </div>
 
@@ -180,14 +187,7 @@ export function AuditExplorer(
               همه
             </option>
 
-            {[
-              ...new Set(
-                audits.map(
-                  (item) =>
-                    item.iscCategory
-                )
-              ),
-            ].map(
+            {categories.map(
               (
                 value
               ) => (

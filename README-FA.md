@@ -14,6 +14,9 @@
 - هویت بصری جدید برای لوگو، header، کارت‌ها، رتبه‌بندی و بخش‌های داده
 - حذف شماره‌های گمراه‌کننده ۰۱/۰۲/۰۳ از مسیرهای مخاطب و جایگزینی با برچسب معنایی
 - پشتیبانی کامل از RTL، حالت تیره، focus keyboard، موبایل و `prefers-reduced-motion`
+- Performance Engineering بر اساس Vercel React Best Practices؛ جزئیات عددی در `PERFORMANCE-REPORT-FA.md`
+- کاهش ۸۴.۹٪ تا ۹۸.۵٪ حجم gzip پاسخ اولیه صفحات سنگین
+- بارگذاری progressive نمایه ۴۷۹۱ سند و حفظ جست‌وجوی کامل
 
 ## وضعیت فایل‌ها
 
@@ -25,7 +28,10 @@
 | تغییر | `app/layout.tsx`, `app/manifest.ts` | نام کامل محصول در metadata و manifest |
 | تغییر | صفحه‌های `compare`, `datasets`, `isc-scope`, `methodology`, `rankings`, `universities/[slug]` | یکدست‌سازی نام پرتال |
 | تغییر | کامپوننت‌های explorer و header | یکدست‌سازی برچسب‌ها و عنوان محصول |
-| افزودن | — | هیچ فایل جدیدی در خود پروژه لازم نیست |
+| افزودن | `app/api/v1/documents/route.ts` | نمایه استاتیک و cacheable اسناد برای بارگذاری progressive |
+| افزودن | `lib/document-search-index.ts` | DTO کم‌حجم و index مشترک اسناد |
+| تغییر | `lib/data.ts` | indexهای O(1) برای داده‌های هر دانشگاه |
+| تغییر | Client Explorerها و `persian-digits.tsx` | deferred search، DOM محدود، idle batching و propهای کم‌حجم |
 | حذف | — | حذف فایل لازم نیست |
 
 ## روش اعمال
@@ -44,10 +50,10 @@ git apply research-portal-frontend.patch
 
 - `npm run typecheck` — موفق
 - `npm run lint` — موفق، بدون خطا؛ ۷ هشدار قدیمی و نامرتبط باقی مانده است
-- `next build --webpack` — موفق؛ ۲۵۳ صفحه و route تولید شد
+- `next build --webpack` — موفق؛ ۲۵۴ صفحه و route تولید شد
 - smoke test تولیدی برای `/`، `/universities`، `/audit`، `/rankings` و `/datasets` — موفق
 - `git diff --check` — موفق
 
-## نکته نسخه دوم
+## نکته نسخه سوم
 
-این نسخه جایگزین پکیج نخست است: نمودار دفتر شواهد حذف و نمودار راداری قبلی در صفحه اول بازگردانده شده است. عبارت کامل «پرتال معاونت پژوهشی و فناوری» در تمام نقاط اصلی رابط کاربری استفاده می‌شود.
+این نسخه جایگزین پکیج‌های قبلی است: نمودار راداری در صفحه اول حفظ شده، عبارت کامل «پرتال معاونت پژوهشی و فناوری» در نقاط اصلی رابط به‌کار رفته و اصلاحات Performance Engineering نیز به همان پچ افزوده شده است.

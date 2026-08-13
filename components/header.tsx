@@ -31,7 +31,7 @@ export function Header(){
       <div className="headerActions">
         <ThemeToggle/>
         <Link href="/datasets" className="headerCta">دریافت داده <span>↙</span></Link>
-        <button className="menuButton" type="button" aria-label={open?"بستن منو":"باز کردن منو"} aria-expanded={open} onClick={()=>setOpen(!open)}><i/><i/><i/></button>
+        <button className="menuButton" type="button" aria-label={open?"بستن منو":"باز کردن منو"} aria-expanded={open} onClick={()=>setOpen(current=>!current)}><i/><i/><i/></button>
       </div>
     </div>
   </header>

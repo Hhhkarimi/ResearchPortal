@@ -69,17 +69,17 @@ export function CompareExplorer(
 
   const rows =
     useMemo(
-      () =>
+      () => {
+        const bySlug=new Map(rankings.map(row=>[row.universitySlug,row]));
+        return (
         selected
           .map(
             (slug) =>
-              rankings.find(
-                (row) =>
-                  row.universitySlug ===
-                  slug
-              )
+              bySlug.get(slug)
           )
-          .filter(Boolean),
+          .filter(Boolean)
+        );
+      },
 
       [
         selected,
