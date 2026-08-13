@@ -31,6 +31,7 @@ import {
   semanticEvidenceSources,
 } from "@/lib/semantic-labels";
 import {buildUniversityInsights} from "@/lib/university-insights";
+import {getInternationalStanding} from "@/lib/international-rankings";
 
 export function generateStaticParams() {
   return institutions.map(
@@ -268,6 +269,8 @@ export default async function Page(
     documents: documents.length,
   });
 
+  const international = getInternationalStanding(slug);
+
   return (
     <main className="shell page profilePage">
       <nav
@@ -431,6 +434,10 @@ export default async function Page(
           </a>
         )}
 
+        <a href="#international-standing">
+          جایگاه بین‌المللی
+        </a>
+
         <a href="#evidence-sources">
           منابع رسمی
         </a>
@@ -526,6 +533,43 @@ export default async function Page(
             سند
           </small>
         </div>
+      </section>
+
+      <section
+        className={`internationalStanding ${international.record ? "verified" : "unavailable"}`}
+        id="international-standing"
+        aria-labelledby="international-standing-title"
+      >
+        <header>
+          <div>
+            <span className="eyebrow">International context · independent from RTPMI</span>
+            <h2 id="international-standing-title">جایگاه در نظام‌های بین‌المللی</h2>
+          </div>
+          <span className="licenseTag">{international.source} {international.edition} · {international.license}</span>
+        </header>
+
+        {international.record ? <div className="internationalResult">
+          <div className="internationalOrder">
+            <span>جایگاه جهانی در مرتب‌سازی شاخص</span>
+            <b>#{international.record.globalIndicatorOrder.toLocaleString("fa-IR")}</b>
+            <small>{international.indicator.code} · این عدد رتبه مرکب دانشگاه نیست.</small>
+          </div>
+          <dl>
+            <div><dt>{international.indicator.labelFa}</dt><dd>{international.record.top10Share.toLocaleString("fa-IR")}٪</dd></div>
+            <div><dt>انتشارات محاسبه‌شده</dt><dd>{international.record.publications.toLocaleString("fa-IR")}</dd></div>
+            <div><dt>مقالات ۱۰٪ پراستناد</dt><dd>{international.record.top10Publications.toLocaleString("fa-IR")}</dd></div>
+          </dl>
+          <div className="internationalContext">
+            <p>همه علوم · دوره {international.indicator.period} · شمارش کسری · فقط انتشارات هسته. هویت دانشگاه با ROR و بازبینی انسانی تطبیق داده شده است.</p>
+            <div><a href={international.record.sourceUrl} target="_blank" rel="noopener noreferrer">مشاهده رکورد رسمی Leiden ↗</a><a href={international.record.rorId} target="_blank" rel="noopener noreferrer">شناسه ROR ↗</a></div>
+          </div>
+        </div> : <div className="internationalEmpty">
+          <b>برای این نهاد، تطبیق تأییدشده‌ای در Snapshot حاضر ثبت نشده است.</b>
+          <p>این وضعیت به معنی «بدون رتبه» یا عملکرد ضعیف نیست؛ ممکن است نهاد معیار ورود Leiden را نداشته باشد یا crosswalk هویت آن هنوز تأیید نشده باشد.</p>
+          <a href={international.sourceUrl} target="_blank" rel="noopener noreferrer">بررسی فهرست رسمی Leiden Open {international.edition} ↗</a>
+        </div>}
+
+        <footer>این شاخص اثر علمی مستقل از RTPMI است و در ارزیابی بلوغ پرتال معاونت پژوهشی و فناوری دخالت ندارد. Snapshot: {new Date(international.retrievedAt).toLocaleDateString("fa-IR")}.</footer>
       </section>
 
       <section className="profileDecision" aria-labelledby="profile-decision-title">
@@ -661,6 +705,7 @@ export default async function Page(
             <p>
               مؤلفه‌های نامشخص از مخرج وزن فعال حذف می‌شوند و
               به‌جای صفر ساختگی، Confidence را کاهش می‌دهند.
+              <Link className="inlineMethodLink" href="/methodology"> فرمول کامل و شیوه ارزیابی ←</Link>
             </p>
           </div>
 

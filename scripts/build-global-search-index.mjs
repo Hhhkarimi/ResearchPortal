@@ -83,4 +83,5 @@ for (const item of units) {
 
 rows.sort((a, b) => a.kind.localeCompare(b.kind) || a.id.localeCompare(b.id));
 write("data/search/global-index.json", rows);
+write("data/search/university-index.json", rows.filter((row) => row.kind === "university"));
 console.log(`Global observatory search index: ${rows.length} records`);
