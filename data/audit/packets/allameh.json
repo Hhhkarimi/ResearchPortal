@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "10.0.0",
+  "schemaVersion": "11.0.0",
   "snapshotDate": "2026-08-12",
   "institution": {
     "category": "جامع",
@@ -84,7 +84,7 @@
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
       "lastRun": "2026-08-13",
-      "promotedSources": 185,
+      "promotedSources": 184,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -187,7 +187,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 73,
+      "sourceCount": 74,
       "sources": [
         {
           "url": "https://research.atu.ac.ir/fa",
@@ -644,6 +644,13 @@
           "claim": "طرحنامه (مختص طرح های درون واحدی و دانشگاهی)",
           "id": null,
           "sourceLabel": "طرحنامه (مختص طرح های درون واحدی و دانشگاهی)"
+        },
+        {
+          "url": "https://research.atu.ac.ir/file/download/page/1670835174-2-.docx.docx",
+          "kind": "research-review-specific",
+          "claim": "طرحنامه ( مختص طرح های بین المللی)",
+          "id": null,
+          "sourceLabel": "طرحنامه ( مختص طرح های بین المللی)"
         }
       ],
       "publicationAdjustment": null,

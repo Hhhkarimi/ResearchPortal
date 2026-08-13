@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "10.0.0",
+  "schemaVersion": "11.0.0",
   "snapshotDate": "2026-08-12",
   "institution": {
     "category": "دستگاه اجرایی",
@@ -90,7 +90,7 @@
     ],
     "discoveryCrawler": {
       "lastRun": "2026-08-13",
-      "promotedSources": 89,
+      "promotedSources": 82,
       "socialEvidenceRemoved": true
     }
   },
@@ -906,7 +906,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 15,
+      "sourceCount": 17,
       "sources": [
         {
           "url": "https://put.ac.ir/fa-IR/put/1/page/%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B5%D9%86%D8%B9%D8%AA-%D9%86%D9%81%D8%AA",
@@ -1008,6 +1008,20 @@
           "claim": "دستورالعمل نحوه تشويق و حمايت پژوهشگران شركت كننده در همايش هاي بين المللي مرتبط با صنعت نفت",
           "id": null,
           "sourceLabel": "دستورالعمل نحوه تشويق و حمايت پژوهشگران شركت كننده در همايش هاي بين المللي مرتبط با صنعت نفت"
+        },
+        {
+          "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B3%D9%86%D8%AF%20%D9%85%D9%84%DB%8C%20%D8%B9%D9%84%D9%88%D9%85%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D9%87%D8%A7%DB%8C%20%D8%B3%D9%84%D9%88%D9%84%20%D9%87%D8%A7%DB%8C%20%D8%A8%D9%86%DB%8C%D8%A7%D8%AF%DB%8C_20150117_113401.pdf",
+          "kind": "research-review-specific",
+          "claim": "سند ملی علوم و فناوری های سلول های بنیادی",
+          "id": null,
+          "sourceLabel": "سند ملی علوم و فناوری های سلول های بنیادی"
+        },
+        {
+          "url": "https://www.put.ac.ir/_DouranPortal/Documents/%D8%B3%D9%86%D8%AF%20%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%DB%8C%20%D8%B9%D9%84%D9%88%D9%85%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D9%87%D8%A7%DB%8C%20%D8%B4%D9%86%D8%A7%D8%AE%D8%AA%DB%8C_20150117_113504.pdf",
+          "kind": "research-review-specific",
+          "claim": "سند راهبری علوم و فناوری های شناختی",
+          "id": null,
+          "sourceLabel": "سند راهبری علوم و فناوری های شناختی"
         }
       ],
       "publicationAdjustment": null,
@@ -1025,7 +1039,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 20,
+      "sourceCount": 19,
       "sources": [
         {
           "url": "https://www.put.ac.ir/fa-IR/put/6663/page/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
@@ -1077,12 +1091,6 @@
         },
         {
           "url": "https://scimet.put.ac.ir/Index.php",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://www.put.ac.ir/fa-IR/put/6677/news/view/19398/12136/Staging/%D8%B1%D8%A7%D9%87%E2%80%8C%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%BE%D8%B4%D8%AA%DB%8C%D8%A8%D8%A7%D9%86%DB%8C-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA(Help-Desk)",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null

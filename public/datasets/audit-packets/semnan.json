@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "10.0.0",
-  "snapshotDate": "2026-08-11",
+  "schemaVersion": "11.0.0",
+  "snapshotDate": "2026-08-12",
   "institution": {
     "category": "جامع",
     "iscRank": 15,
@@ -16,7 +16,7 @@
     "nameFa": "دانشگاه سمنان",
     "iscCategory": "جامع",
     "iscRank": 15,
-    "auditDate": "2026-08-12",
+    "auditDate": "2026-08-13",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.semnan.ac.ir/",
     "evidenceUrls": [
@@ -84,17 +84,18 @@
     "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
-      "lastRun": "2026-08-12",
-      "promotedSources": 181,
+      "lastRun": "2026-08-13",
+      "promotedSources": 175,
       "socialEvidenceRemoved": true
-    }
+    },
+    "observedSignals": []
   },
   "deepAudit": {
     "universitySlug": "semnan",
     "nameFa": "دانشگاه سمنان",
     "iscCategory": "جامع",
     "iscRank": 15,
-    "auditDate": "2026-08-11",
+    "auditDate": "2026-08-12",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.semnan.ac.ir/",
     "evidenceUrls": [
@@ -166,14 +167,13 @@
       "libraryDocuments": "verified",
       "laboratories": "verified",
       "industryTechnology": "verified",
-      "informationTechnology": "verified",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
     "auditEvidenceCoverage": 100,
-    "unitsFound": 45,
-    "systemsFound": 17,
-    "documentsFound": 125,
+    "unitsFound": 30,
+    "systemsFound": 12,
+    "documentsFound": 116,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -188,8 +188,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 87,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 91,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
@@ -199,110 +199,110 @@
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/getformes",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/ghadr",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%AA%D9%82%D8%A7-%D9%85%D8%B1%D8%AA%D8%A8%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%82%D9%88%D8%A7%D9%86%DB%8C%D9%86-%D9%88-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%87%D9%85%D9%87-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D8%B1%D8%AE%D8%B4%D8%B4-%D8%AF%D8%A7%D9%86%D8%B4%DA%A9%D8%AF%D9%87-%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C-%D9%85%DA%A9%D8%A7%D9%86%DB%8C%DA%A9-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86%D8%9B-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A8%D8%B1%DA%AF%D8%B2%DB%8C%D8%AF%D9%87-%D8%A7%D9%86%D8%AC%D9%85%D9%86-%D9%85%D9%87%D9%86%D8%AF%D8%B3%D8%A7%D9%86-%D9%85%DA%A9%D8%A7%D9%86%DB%8C%DA%A9-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%B4%D8%AF",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7/%D8%B1%D8%A7%D9%87%E2%80%8C%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%DA%A9%D8%A7%D9%86%D8%A7%D9%84-%D8%B1%D8%B3%D9%85%DB%8C-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86-%D8%AF%D8%B1-%D9%BE%DB%8C%D8%A7%D9%85%E2%80%8C%D8%B1%D8%B3%D8%A7%D9%86-%D8%A7%DB%8C%D8%AA%D8%A7",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%85%D9%86%D8%B4%D9%88%D8%B1-%D9%88-%D9%85%D9%88%D8%A7%D8%B2%DB%8C%D9%86-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D9%BE%DA%98%D9%88%D9%87%D8%B4",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%A7%DB%8C%D8%AF%D9%87-%D9%87%D8%A7-%D9%88-%D9%86%DB%8C%D8%A7%D8%B2%D9%87%D8%A7-(%D9%86%D8%A7%D9%86)",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%85%D8%B1%DA%A9%D8%B2-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.semnan.ac.ir/%D8%AA%D9%85%D8%A7%D8%B3-%D8%A8%D8%A7-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
@@ -391,9 +391,10 @@
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/2.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه پذیرش اعضای هیأت علمی دانشگاه ها و مؤسسات آموزش عالی در قالب فرصت مطالعاتی در دانشگاه سمنان",
+          "id": null,
+          "sourceLabel": "شیوه نامه پذیرش اعضای هیأت علمی دانشگاه ها و مؤسسات آموزش عالی در قالب فرصت مطالعاتی در دانشگاه سمنان"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/05/%D8%A2%D9%8A%D9%8A%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87_%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C_%D9%87%DB%8C%D8%A6%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_14081.pdf",
@@ -427,27 +428,31 @@
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2025/Aug/12/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20....pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "آیین نامه و دستورالعمل ها شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی اعضای هیات علمی شیوه نامه 1404/5/21 شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی",
+          "id": null,
+          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی اعضای هیات علمی شیوه نامه 1404/5/21 شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/4.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی بررسی تخلفات پژوهشی دانشگاه سمنان اعضای هیات علمی 1404/1/19 شیوه نامه اجرایی بررسی تخلفات پژوهشی دانشگاه سمنان",
+          "id": null,
+          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی بررسی تخلفات پژوهشی دانشگاه سمنان اعضای هیات علمی 1404/1/19 شیوه نامه اجرایی بررسی تخلفات پژوهشی دانشگاه سمنان"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/1.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "آیین نامه و دستورالعمل ها شیوه نامه بازدید علمی کوتاه مدت در خارج از کشور اعضای هیات علمی 1404/1/19 شیوه نامه بازدید علمی کوتاه مدت در خارج از کشور",
+          "id": null,
+          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه بازدید علمی کوتاه مدت در خارج از کشور اعضای هیات علمی 1404/1/19 شیوه نامه بازدید علمی کوتاه مدت در خارج از کشور"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/3.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی همکاری های دانشگاه سمنان با جامعه و صنعت اعضای هیات علمی 1404/1/19 شیوه نامه اجرایی همکاری های دانشگاه سمنان با جامعه و صنعت",
+          "id": null,
+          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی همکاری های دانشگاه سمنان با جامعه و صنعت اعضای هیات علمی 1404/1/19 شیوه نامه اجرایی همکاری های دانشگاه سمنان با جامعه و صنعت"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2024/Jul/17/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87.pdf",
@@ -457,21 +462,24 @@
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2024/Jun/15/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8%20%2014.2.4.4.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "آیین نامه و دستورالعمل ها شیوه ­نامه­ اجرایی پذیرش و نشر کتاب دانشگاه سمنان اعضای هیات علمی شيوه نامه اجرائی 1403/3/26 شیوه ­نامه­ اجرایی پذیرش و نشر کتاب دانشگاه سمنان",
+          "id": null,
+          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه ­نامه­ اجرایی پذیرش و نشر کتاب دانشگاه سمنان اعضای هیات علمی شيوه نامه اجرائی 1403/3/26 شیوه ­نامه­ اجرایی پذیرش و نشر کتاب دانشگاه سمنان"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2024/Jan/27/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "آیین نامه و دستورالعمل ها شيوه نامه اجرايي طرح هاي پژوهشي داخلي دانشگاه سمنان اعضای هیات علمی شيوه نامه اجرائی 1402/11/7 شیوه نامه اجرایی طرح های پژوهشی داخلی دانشگاه سمنان",
+          "id": null,
+          "sourceLabel": "آیین نامه و دستورالعمل ها شيوه نامه اجرايي طرح هاي پژوهشي داخلي دانشگاه سمنان اعضای هیات علمی شيوه نامه اجرائی 1402/11/7 شیوه نامه اجرایی طرح های پژوهشی داخلی دانشگاه سمنان"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2025/May/11/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%86%D8%AD%D9%88%D9%87%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی و کاربرگ نحوه تاسیس واحدهای پژوهشی دانشگاه اعضای هیات علمی و کارکنان شيوه نامه اجرائی 1401/7/30 شیوه نامه اجرایی نحوه تاسیس واحدهای پژوهشی دانشگاه سمنان",
+          "id": null,
+          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی و کاربرگ نحوه تاسیس واحدهای پژوهشی دانشگاه اعضای هیات علمی و کارکنان شيوه نامه اجرائی 1401/7/30 شیوه نامه اجرایی نحوه تاسیس واحدهای پژوهشی دانشگاه سمنان"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2023/Oct/11/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%82%D8%AF%D8%B1.pdf",
@@ -529,9 +537,10 @@
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2024/Nov/26/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%AB%D8%A8%D8%AA%20%D9%86%D8%A7%D9%85%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%B1%20%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "فرم ها فرم هزینه ثبت نام اعضای هیات علمی در کارگاه های تخصصی معتبر داخلی(جدید) اعضای هیات علمی پژوهانه 1398/11/17 فرم هزینه ثبت نام اعضای هیات علمی در کارگاه های تخصصی معتبر داخلی(جدید)",
+          "id": null,
+          "sourceLabel": "فرم ها فرم هزینه ثبت نام اعضای هیات علمی در کارگاه های تخصصی معتبر داخلی(جدید) اعضای هیات علمی پژوهانه 1398/11/17 فرم هزینه ثبت نام اعضای هیات علمی در کارگاه های تخصصی معتبر داخلی(جدید)"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2020/Dec/26/%D9%86%D9%85%D9%88%D9%86%D9%87%20%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87%20%D8%B3%D8%A7%D9%84%201399.pdf",
@@ -727,6 +736,34 @@
           "claim": "آیین نامه و دستورالعمل ها اصلاحیه شماره یک آیین نامه فرصت مطالعاتی مورخ 89.6.30 اعضای هیات علمی فرصت مطالعاتی 1398/11/19",
           "id": null,
           "sourceLabel": "آیین نامه و دستورالعمل ها اصلاحیه شماره یک آیین نامه فرصت مطالعاتی مورخ 89.6.30 اعضای هیات علمی فرصت مطالعاتی 1398/11/19"
+        },
+        {
+          "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/ayin_name_89_45126.pdf",
+          "kind": "research-review-specific",
+          "claim": "آیین نامه و دستورالعمل ها آيين نامه فرصت مطالعاتی مورخ 89.6.30 اعضای هیات علمی فرصت مطالعاتي 1398/11/19",
+          "id": null,
+          "sourceLabel": "آیین نامه و دستورالعمل ها آيين نامه فرصت مطالعاتی مورخ 89.6.30 اعضای هیات علمی فرصت مطالعاتي 1398/11/19"
+        },
+        {
+          "url": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/form_hazineh_viraish_isi_scopus.pdf",
+          "kind": "research-review-specific",
+          "claim": "فرم ها فرم هزینه ویرایش مقالات انگلیسی چاپ شده در نشریات ISI و Scopus اعضای هیات علمی پژوهانه 1399/9/19",
+          "id": null,
+          "sourceLabel": "فرم ها فرم هزینه ویرایش مقالات انگلیسی چاپ شده در نشریات ISI و Scopus اعضای هیات علمی پژوهانه 1399/9/19"
+        },
+        {
+          "url": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/form_hazineh_sabtenam_academic_conferance.pdf",
+          "kind": "research-review-specific",
+          "claim": "فرم ها فرم هزینه ثبت نام اعضای هیأت علمی در کنفرانس های معتبر داخلی با ارائه مقاله (جدید) اعضای هیات علمی پژوهانه 1398/11/17",
+          "id": null,
+          "sourceLabel": "فرم ها فرم هزینه ثبت نام اعضای هیأت علمی در کنفرانس های معتبر داخلی با ارائه مقاله (جدید) اعضای هیات علمی پژوهانه 1398/11/17"
+        },
+        {
+          "url": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/form_hazineh_sabtenam_kargah_daneshjoyan_3.pdf",
+          "kind": "research-review-specific",
+          "claim": "فرم ها فرم هزینه ثبت نام دانشجویان تحصیات تکمیلی در کنفرانس های معتبر و کارگاه های تخصصی داخلی(جدید) دانشجویان پژوهانه 1398/11/17",
+          "id": null,
+          "sourceLabel": "فرم ها فرم هزینه ثبت نام دانشجویان تحصیات تکمیلی در کنفرانس های معتبر و کارگاه های تخصصی داخلی(جدید) دانشجویان پژوهانه 1398/11/17"
         }
       ],
       "publicationAdjustment": null,
@@ -743,293 +780,204 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 35,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 31,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific organization source",
-          "id": null
+          "kind": "unit",
+          "claim": "آزمایشگاه‌ها و کارگاه‌های تحقیقاتی و آموزشی",
+          "id": "semnan-labs",
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF",
           "kind": "unit",
           "claim": "مدیریت کتابخانه مرکزی و مرکز اسناد | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-be7fb4e2dab2",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-",
           "kind": "unit",
           "claim": "کتابخانه مرکزی و مرکز اسناد | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-265ce689993e",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7/%D8%A8%D8%B1%DA%AF-%D8%A7%D9%81%D8%AA%D8%AE%D8%A7%D8%B1-%D8%AF%DB%8C%DA%AF%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86:-%D9%82%D8%B1%D8%A7%D8%B1%DA%AF%D8%B1%D9%81%D8%AA%D9%86-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87--%D8%A8%D8%B1%D8%A7%DB%8C-%DA%86%D9%86%D8%AF%D9%85%DB%8C%D9%86-%D8%B3%D8%A7%D9%84-%D9%85%D8%AA%D9%88%D8%A7%D9%84%DB%8C-%D8%AF%D8%B1-%D8%B2%D9%85%D8%B1%D9%87-10-%D8%AF%D8%B1%D8%B5%D8%AF-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D8%AA%D8%B1-%DA%A9%D8%B4%D9%88%D8%B1",
           "kind": "unit",
           "claim": "برگ افتخار دیگری برای دانشگاه سمنان: قرارگرفتن کتابخانه مرکزی و مرکز اسناد دانشگاه برای چندمین سال متوالی در زمره 10 درصد کتابخانه های برتر کشور | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-9a9ee4d5f3ee",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/",
           "kind": "unit",
           "claim": "کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-dc12c81c9192",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.semnan.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7/%D8%B1%D8%A7%D9%87%E2%80%8C%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%DA%A9%D8%A7%D9%86%D8%A7%D9%84-%D8%B1%D8%B3%D9%85%DB%8C-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86-%D8%AF%D8%B1-%D9%BE%DB%8C%D8%A7%D9%85%E2%80%8C%D8%B1%D8%B3%D8%A7%D9%86-%D8%A7%DB%8C%D8%AA%D8%A7",
           "kind": "unit",
           "claim": "راه‌اندازی کانال رسمی آزمایشگاه مرکزی دانشگاه سمنان در پیام‌رسان ایتا | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-laboratory-3b8703d841ea",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AC%D8%B3%D8%AA%D8%AC%D9%88%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%AF%DB%8C%D8%AC%DB%8C%D8%AA%D8%A7%D9%84-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-",
           "kind": "unit",
           "claim": "راهنمای جستجوی منابع دیجیتال کتابخانه | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-bad8ea822716",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://centrallab.semnan.ac.ir/",
-          "kind": "unit",
-          "claim": "آزمایشگاه مرکزی دانشگاه سمنان",
-          "id": "semnan-discovery-unit-laboratory-573b6257cc6d",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%85%D8%B1%DA%A9%D8%B2-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
           "kind": "unit",
           "claim": "معرفی مرکز کارآفرینی | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-technology-0d8e6c54e92d",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://publication.semnan.ac.ir/",
-          "kind": "unit",
-          "claim": "اداره نشریات | اداره چاپ و انتشارات دانشگاه سمنان",
-          "id": "semnan-discovery-unit-library-1474d6379c52",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86%DB%8C-%DA%A9%D9%87-%D8%AF%D9%81%D8%A7%D8%B9-%D9%88-%D8%A7%D8%B1%D8%B3%D8%A7%D9%84-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A2%D9%86%D9%87%D8%A7-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86-%D9%85%DB%8C-%D8%A8%D8%A7%D8%B4%D8%AF%C2%B7",
           "kind": "unit",
           "claim": "راهنمای تسویه حساب پایان نامه برای دانشجویانی که دفاع و ارسال پایان نامه آنها خارج از سامانه گلستان می باشد. | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-bc0ac25a5e8c",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%85%D8%A7%D9%86%D8%AA-%D9%88-%D8%AA%D9%85%D8%AF%DB%8C%D8%AF-%DA%A9%D8%AA%D8%A7%D8%A8",
           "kind": "unit",
           "claim": "دستورالعمل امانت و تمدید کتاب | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-3ae91aa330f0",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/Aeennameha",
           "kind": "unit",
           "claim": "آیین نامه ها | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-72156dd3d244",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%87%D9%85%D8%A7%D9%86%D9%86%D8%AF%D8%AC%D9%88",
           "kind": "unit",
           "claim": "راهنمای همانندجو | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-8d53d5ac188c",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%85%D8%A7%D9%86%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%87%D8%A7",
           "kind": "unit",
           "claim": "دستورالعمل امانت کتاب ها | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-802c995d6c51",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
           "kind": "unit",
           "claim": "مدیر مرکز کارآفرینی | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-technology-332072f9aa73",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://research.semnan.ac.ir/%D8%AA%D9%85%D8%A7%D8%B3-%D8%A8%D8%A7-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
           "kind": "unit",
           "claim": "تماس با کارآفرینی | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-technology-827251aa48af",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
           "kind": "unit",
           "claim": "نشریات علمی | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-d91b3b30a4cf",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
           "kind": "unit",
           "claim": "مدیریت امور پژوهشی | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-research-555f11b64c07",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "research"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%85%D9%87%D8%B1-%D9%88-%D8%A2%D8%A8%D8%A7%D9%86-1401",
           "kind": "unit",
           "claim": "فهرست کارگاه های کتابخانه مرکزی مهر و آبان 1401 | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-8a731158779c",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%A2%D8%A8%D8%A7%D9%86-1399",
           "kind": "unit",
           "claim": "فهرست کارگاه های کتابخانه مرکزی آبان 1399 | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-4732444fd5b0",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7/%D8%A8%D9%87-%D8%B1%D9%88%D8%B2-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%DA%86%D8%A7%D9%BE%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C%D8%8C-%D8%AE%D8%B1%DB%8C%D8%AF-1173-%D9%86%D8%B3%D8%AE%D9%87-(350-%D8%B9%D9%86%D9%88%D8%A7%D9%86)-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%84-1404-%D9%88-%D8%AB%D8%A8%D8%AA-333-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%A7%D8%B1%D8%AF%DB%8C%D8%A8%D9%87%D8%B4%D8%AA-%D8%B3%D8%A7%D9%84-1405",
           "kind": "unit",
           "claim": "اطلاعیه ها | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-d251a549870b",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D9%87%D9%85%D9%87-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%DA%A9%D8%AA%D8%A8-%D9%86%D8%A7%D8%B4%D8%B1%D8%A7%D9%86-%D8%B4%D8%B1%DA%A9%D8%AA-%DA%A9%D9%86%D9%86%D8%AF%D9%87-%D8%AF%D8%B1-%D9%87%D9%81%D8%AA%D9%85%DB%8C%D9%86-%D9%86%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%85%D8%AC%D8%A7%D8%B2%DB%8C-1405-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-",
           "kind": "unit",
           "claim": "همه اخبار | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-b541a8eafad1",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://it.semnan.ac.ir/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
-          "kind": "unit",
-          "claim": "فرآیند سیستم آزمایشگاه مرکزی | مدیریت فناوری اطلاعات و امنیت فضای مجازی دانشگاه سمنان",
-          "id": "semnan-discovery-unit-laboratory-f8333c997a0b",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://sustp.semnan.ac.ir/%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86",
           "kind": "unit",
           "claim": "پارک علم و فناوری دانشگاه سمنان | استفاده از کتابخانه مرکزی دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-a220f30e1528",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D9%87%D9%85%D9%87-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D9%87-%D8%B1%D9%88%D8%B2-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%DA%86%D8%A7%D9%BE%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C%D8%8C-%D8%AE%D8%B1%DB%8C%D8%AF-1173-%D9%86%D8%B3%D8%AE%D9%87-(350-%D8%B9%D9%86%D9%88%D8%A7%D9%86)-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%84-1404-%D9%88-%D8%AB%D8%A8%D8%AA-333-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%A7%D8%B1%D8%AF%DB%8C%D8%A8%D9%87%D8%B4%D8%AA-%D8%B3%D8%A7%D9%84-1405",
           "kind": "unit",
           "claim": "به روز رسانی منابع چاپی کتابخانه مرکزی، خرید 1173 نسخه (350 عنوان) در سال 1404 و ثبت 333 درخواست جدید در اردیبهشت سال 1405 | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-f1bfe4d4ec18",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.semnan.ac.ir/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d9%88-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af",
           "kind": "unit",
           "claim": "مدیریت کتابخانه مرکزی و مرکز اسناد | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-02ad93b2bf73",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://sustp.semnan.ac.ir/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%88-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%DA%A9%D9%84%DB%8C%D8%AF%DB%8C-%D9%BE%D8%A7%D8%B1%DA%A9-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86%D8%8C-%D8%A2%D8%BA%D8%A7%D8%B2-%D8%A8%D9%87-%DA%A9%D8%A7%D8%B1-%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%BA%DB%8C%D8%B1%D8%AF%D9%88%D9%84%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86-%D9%88-%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%DA%A9%D8%A7%D8%B1%D8%AE%D8%A7%D9%86%D9%87-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C%D8%8C-%D8%A8%D9%87-%D8%A8%D9%87%D8%B1%D9%87%E2%80%8C%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D8%B1%D8%B3%DB%8C%D8%AF%C2%B7",
           "kind": "unit",
           "claim": "پارک علم و فناوری دانشگاه سمنان | دو پروژه کلیدی پارک دانشگاه سمنان، آغاز به کار صندوق پژوهش و فناوری غیردولتی دانشگاه سمنان و افتتاح کارخانه نوآوری، به بهره‌برداری رسید.",
           "id": "semnan-discovery-unit-technology-0e5a1ec011b8",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://lib.semnan.ac.ir/%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%db%8c%d9%87%20%d9%87%d8%a7/%d8%a7%d9%85%da%a9%d8%a7%d9%86-%d8%ab%d8%a8%d8%aa-%d8%af%d8%b1%d8%ae%d9%88%d8%a7%d8%b3%d8%aa-%d9%88-%d8%ae%d8%b1%db%8c%d8%af-%da%a9%d8%aa%d8%a8-%d9%85%d9%88%d8%b1%d8%af-%d9%86%db%8c%d8%a7%d8%b2-%d8%a7%d8%b9%d8%b6%d8%a7%db%8c-%d9%87%db%8c%d8%a6%d8%aa-%d8%b9%d9%84%d9%85%db%8c-%d8%8c-%d8%af%d8%a7%d9%86%d8%b4%d8%ac%d9%88%db%8c%d8%a7%d9%86-%d9%88-%da%a9%d8%a7%d8%b1%da%a9%d9%86%d8%a7%d9%86-%d8%a7%d8%b2-%d9%87%d9%81%d8%aa%d9%85%db%8c%d9%86-%d9%86%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%ac%d8%a7%d8%b2%db%8c-1405%da%a9%d8%aa%d8%a7%d8%a8-%d8%aa%d9%87%d8%b1%d8%a7%d9%86",
           "kind": "unit",
           "claim": "امکان ثبت درخواست و خرید کتب مورد نیاز اعضای هیئت علمی ، دانشجویان و کارکنان از هفتمین نمایشگاه مجازی 1405کتاب تهران | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-34f91afa2e1d",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D9%87%D9%85%D9%87-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D9%85%D8%AC%D8%A7%D8%B2%DB%8C-%D8%A8%D8%A7-%D8%B9%D9%86%D9%88%D8%A7%D9%86-%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D8%B3%D8%AA%D9%86%D8%A7%D8%AF%D8%AF%D9%87%DB%8C-%D8%A7%D9%86%D8%AF%D9%86%D9%88%D8%AA:Endnote",
           "kind": "unit",
           "claim": "کارگاه آموزشی مجازی با عنوان آشنایی با نرم افزار مدیریت استناددهی اندنوت:Endnote | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-9db3f55677bd",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%85%D8%B1%DA%A9%D8%B2-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C-%D9%88-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
           "kind": "unit",
           "claim": "مرکز کارآفرینی و ارتباط با صنعت | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-industry-710642c86051",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://it.semnan.ac.ir/",
-          "kind": "unit",
-          "claim": "صفحه اصلی | مدیریت فناوری اطلاعات و امنیت فضای مجازی دانشگاه سمنان",
-          "id": "semnan-discovery-unit-it-59c01537c28e",
-          "unitType": "it",
-          "relationStatus": "organizationally-attributed",
-          "relationshipEvidenceUrl": "https://research.semnan.ac.ir/"
+          "unitType": "industry"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2022/Nov/22/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.doc",
@@ -1067,176 +1015,169 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 45,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 44,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "system",
+          "claim": "نشریات علمی | معاونت پژوهش و فناوری دانشگاه سمنان",
+          "id": "semnan-discovery-system-d91b3b30a4cf",
+          "systemCategory": "journals"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7/%D8%A8%D8%B1%DA%AF-%D8%A7%D9%81%D8%AA%D8%AE%D8%A7%D8%B1-%D8%AF%DB%8C%DA%AF%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86:-%D9%82%D8%B1%D8%A7%D8%B1%DA%AF%D8%B1%D9%81%D8%AA%D9%86-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87--%D8%A8%D8%B1%D8%A7%DB%8C-%DA%86%D9%86%D8%AF%D9%85%DB%8C%D9%86-%D8%B3%D8%A7%D9%84-%D9%85%D8%AA%D9%88%D8%A7%D9%84%DB%8C-%D8%AF%D8%B1-%D8%B2%D9%85%D8%B1%D9%87-10-%D8%AF%D8%B1%D8%B5%D8%AF-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D8%AA%D8%B1-%DA%A9%D8%B4%D9%88%D8%B1",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "برگ افتخار دیگری برای دانشگاه سمنان: قرارگرفتن کتابخانه مرکزی و مرکز اسناد دانشگاه برای چندمین سال متوالی در زمره 10 درصد کتابخانه های برتر کشور | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
+          "id": "semnan-discovery-unit-library-9a9ee4d5f3ee",
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "system",
+          "claim": "راهنمای تسویه حساب پایان نامه برای دانشجویانی که دفاع و ارسال پایان نامه آنها خارج از سامانه گلستان می باشد. | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
+          "id": "semnan-discovery-system-bc0ac25a5e8c",
+          "systemCategory": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%85%D9%87%D8%B1-%D9%88-%D8%A2%D8%A8%D8%A7%D9%86-1401",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "فهرست کارگاه های کتابخانه مرکزی مهر و آبان 1401 | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
+          "id": "semnan-discovery-unit-library-8a731158779c",
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%A2%D8%A8%D8%A7%D9%86-1399",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "فهرست کارگاه های کتابخانه مرکزی آبان 1399 | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
+          "id": "semnan-discovery-unit-library-4732444fd5b0",
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7/%D8%A8%D9%87-%D8%B1%D9%88%D8%B2-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%DA%86%D8%A7%D9%BE%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C%D8%8C-%D8%AE%D8%B1%DB%8C%D8%AF-1173-%D9%86%D8%B3%D8%AE%D9%87-(350-%D8%B9%D9%86%D9%88%D8%A7%D9%86)-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%84-1404-%D9%88-%D8%AB%D8%A8%D8%AA-333-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%A7%D8%B1%D8%AF%DB%8C%D8%A8%D9%87%D8%B4%D8%AA-%D8%B3%D8%A7%D9%84-1405",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "اطلاعیه ها | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
+          "id": "semnan-discovery-unit-library-d251a549870b",
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D9%87%D9%85%D9%87-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%DA%A9%D8%AA%D8%A8-%D9%86%D8%A7%D8%B4%D8%B1%D8%A7%D9%86-%D8%B4%D8%B1%DA%A9%D8%AA-%DA%A9%D9%86%D9%86%D8%AF%D9%87-%D8%AF%D8%B1-%D9%87%D9%81%D8%AA%D9%85%DB%8C%D9%86-%D9%86%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%85%D8%AC%D8%A7%D8%B2%DB%8C-1405-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "همه اخبار | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
+          "id": "semnan-discovery-unit-library-b541a8eafad1",
+          "unitType": "library"
         },
         {
           "url": "https://sustp.semnan.ac.ir/%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "پارک علم و فناوری دانشگاه سمنان | استفاده از کتابخانه مرکزی دانشگاه سمنان",
+          "id": "semnan-discovery-unit-library-a220f30e1528",
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "کتابخانه مرکزی و مرکز اسناد | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
+          "id": "semnan-discovery-unit-library-265ce689993e",
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D9%87%D9%85%D9%87-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D9%87-%D8%B1%D9%88%D8%B2-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%DA%86%D8%A7%D9%BE%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C%D8%8C-%D8%AE%D8%B1%DB%8C%D8%AF-1173-%D9%86%D8%B3%D8%AE%D9%87-(350-%D8%B9%D9%86%D9%88%D8%A7%D9%86)-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%84-1404-%D9%88-%D8%AB%D8%A8%D8%AA-333-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%A7%D8%B1%D8%AF%DB%8C%D8%A8%D9%87%D8%B4%D8%AA-%D8%B3%D8%A7%D9%84-1405",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "به روز رسانی منابع چاپی کتابخانه مرکزی، خرید 1173 نسخه (350 عنوان) در سال 1404 و ثبت 333 درخواست جدید در اردیبهشت سال 1405 | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
+          "id": "semnan-discovery-unit-library-f1bfe4d4ec18",
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86%DB%8C-%DA%A9%D9%87-%D8%AF%D9%81%D8%A7%D8%B9-%D9%88-%D8%A7%D8%B1%D8%B3%D8%A7%D9%84-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A2%D9%86%D9%87%D8%A7-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86-%D9%85%DB%8C-%D8%A8%D8%A7%D8%B4%D8%AF%C2%B7",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "راهنمای تسویه حساب پایان نامه برای دانشجویانی که دفاع و ارسال پایان نامه آنها خارج از سامانه گلستان می باشد. | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
+          "id": "semnan-discovery-unit-library-bc0ac25a5e8c",
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/Aeennameha",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "آیین نامه ها | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
+          "id": "semnan-discovery-unit-library-72156dd3d244",
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%db%8c%d9%87%20%d9%87%d8%a7/%d8%a7%d9%85%da%a9%d8%a7%d9%86-%d8%ab%d8%a8%d8%aa-%d8%af%d8%b1%d8%ae%d9%88%d8%a7%d8%b3%d8%aa-%d9%88-%d8%ae%d8%b1%db%8c%d8%af-%da%a9%d8%aa%d8%a8-%d9%85%d9%88%d8%b1%d8%af-%d9%86%db%8c%d8%a7%d8%b2-%d8%a7%d8%b9%d8%b6%d8%a7%db%8c-%d9%87%db%8c%d8%a6%d8%aa-%d8%b9%d9%84%d9%85%db%8c-%d8%8c-%d8%af%d8%a7%d9%86%d8%b4%d8%ac%d9%88%db%8c%d8%a7%d9%86-%d9%88-%da%a9%d8%a7%d8%b1%da%a9%d9%86%d8%a7%d9%86-%d8%a7%d8%b2-%d9%87%d9%81%d8%aa%d9%85%db%8c%d9%86-%d9%86%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%ac%d8%a7%d8%b2%db%8c-1405%da%a9%d8%aa%d8%a7%d8%a8-%d8%aa%d9%87%d8%b1%d8%a7%d9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "امکان ثبت درخواست و خرید کتب مورد نیاز اعضای هیئت علمی ، دانشجویان و کارکنان از هفتمین نمایشگاه مجازی 1405کتاب تهران | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
+          "id": "semnan-discovery-unit-library-34f91afa2e1d",
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D9%87%D9%85%D9%87-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D9%85%D8%AC%D8%A7%D8%B2%DB%8C-%D8%A8%D8%A7-%D8%B9%D9%86%D9%88%D8%A7%D9%86-%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D8%B3%D8%AA%D9%86%D8%A7%D8%AF%D8%AF%D9%87%DB%8C-%D8%A7%D9%86%D8%AF%D9%86%D9%88%D8%AA:Endnote",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "کارگاه آموزشی مجازی با عنوان آشنایی با نرم افزار مدیریت استناددهی اندنوت:Endnote | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
+          "id": "semnan-discovery-unit-library-9db3f55677bd",
+          "unitType": "library"
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF",
           "kind": "unit",
           "claim": "مدیریت کتابخانه مرکزی و مرکز اسناد | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-be7fb4e2dab2",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AC%D8%B3%D8%AA%D8%AC%D9%88%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%AF%DB%8C%D8%AC%DB%8C%D8%AA%D8%A7%D9%84-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-",
           "kind": "unit",
           "claim": "راهنمای جستجوی منابع دیجیتال کتابخانه | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-bad8ea822716",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://publication.semnan.ac.ir/",
-          "kind": "unit",
-          "claim": "اداره نشریات | اداره چاپ و انتشارات دانشگاه سمنان",
-          "id": "semnan-discovery-unit-library-1474d6379c52",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%85%D8%A7%D9%86%D8%AA-%D9%88-%D8%AA%D9%85%D8%AF%DB%8C%D8%AF-%DA%A9%D8%AA%D8%A7%D8%A8",
           "kind": "unit",
           "claim": "دستورالعمل امانت و تمدید کتاب | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-3ae91aa330f0",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%87%D9%85%D8%A7%D9%86%D9%86%D8%AF%D8%AC%D9%88",
           "kind": "unit",
           "claim": "راهنمای همانندجو | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-8d53d5ac188c",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%85%D8%A7%D9%86%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%87%D8%A7",
           "kind": "unit",
           "claim": "دستورالعمل امانت کتاب ها | کتابخانه مرکزی و مرکز اسناد دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-802c995d6c51",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
           "kind": "unit",
           "claim": "نشریات علمی | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-d91b3b30a4cf",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.semnan.ac.ir/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d9%88-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af",
           "kind": "unit",
           "claim": "مدیریت کتابخانه مرکزی و مرکز اسناد | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-library-02ad93b2bf73",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2025/Aug/12/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20....pdf",
-          "kind": "document",
-          "claim": "شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی",
-          "id": "semnan-discovery-document-20dbcff5a309"
+          "kind": "research-review-specific",
+          "claim": "آیین نامه و دستورالعمل ها شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی اعضای هیات علمی شیوه نامه 1404/5/21 شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی",
+          "id": null,
+          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی اعضای هیات علمی شیوه نامه 1404/5/21 شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2024/Jun/15/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8%20%2014.2.4.4.pdf",
-          "kind": "document",
-          "claim": "شیوه ­نامه­ اجرایی پذیرش و نشر کتاب دانشگاه سمنان",
-          "id": "semnan-discovery-document-aae93610c1b6"
+          "kind": "research-review-specific",
+          "claim": "آیین نامه و دستورالعمل ها شیوه ­نامه­ اجرایی پذیرش و نشر کتاب دانشگاه سمنان اعضای هیات علمی شيوه نامه اجرائی 1403/3/26 شیوه ­نامه­ اجرایی پذیرش و نشر کتاب دانشگاه سمنان",
+          "id": null,
+          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه ­نامه­ اجرایی پذیرش و نشر کتاب دانشگاه سمنان اعضای هیات علمی شيوه نامه اجرائی 1403/3/26 شیوه ­نامه­ اجرایی پذیرش و نشر کتاب دانشگاه سمنان"
         },
         {
           "url": "https://lib.semnan.ac.ir/uploads/19/2021/Oct/13/diglib.pdf",
@@ -1379,20 +1320,15 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 5,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 4,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://it.semnan.ac.ir/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
+          "kind": "unit",
+          "claim": "آزمایشگاه‌ها و کارگاه‌های تحقیقاتی و آموزشی",
+          "id": "semnan-labs",
+          "unitType": "laboratory"
         },
         {
           "url": "https://centrallab.semnan.ac.ir/",
@@ -1405,9 +1341,7 @@
           "kind": "unit",
           "claim": "راه‌اندازی کانال رسمی آزمایشگاه مرکزی دانشگاه سمنان در پیام‌رسان ایتا | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-laboratory-3b8703d841ea",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/shive_name_center_lab_62008.pdf",
@@ -1431,8 +1365,8 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 9,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 8,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
@@ -1445,52 +1379,35 @@
           "kind": "unit",
           "claim": "معرفی مرکز کارآفرینی | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-technology-0d8e6c54e92d",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
           "kind": "unit",
           "claim": "مدیر مرکز کارآفرینی | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-technology-332072f9aa73",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://research.semnan.ac.ir/%D8%AA%D9%85%D8%A7%D8%B3-%D8%A8%D8%A7-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
           "kind": "unit",
           "claim": "تماس با کارآفرینی | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-technology-827251aa48af",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://sustp.semnan.ac.ir/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%88-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%DA%A9%D9%84%DB%8C%D8%AF%DB%8C-%D9%BE%D8%A7%D8%B1%DA%A9-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86%D8%8C-%D8%A2%D8%BA%D8%A7%D8%B2-%D8%A8%D9%87-%DA%A9%D8%A7%D8%B1-%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%BA%DB%8C%D8%B1%D8%AF%D9%88%D9%84%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86-%D9%88-%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%DA%A9%D8%A7%D8%B1%D8%AE%D8%A7%D9%86%D9%87-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C%D8%8C-%D8%A8%D9%87-%D8%A8%D9%87%D8%B1%D9%87%E2%80%8C%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D8%B1%D8%B3%DB%8C%D8%AF%C2%B7",
           "kind": "unit",
           "claim": "پارک علم و فناوری دانشگاه سمنان | دو پروژه کلیدی پارک دانشگاه سمنان، آغاز به کار صندوق پژوهش و فناوری غیردولتی دانشگاه سمنان و افتتاح کارخانه نوآوری، به بهره‌برداری رسید.",
           "id": "semnan-discovery-unit-technology-0e5a1ec011b8",
-          "unitType": "technology",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "technology"
         },
         {
           "url": "https://research.semnan.ac.ir/%D9%85%D8%B1%DA%A9%D8%B2-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C-%D9%88-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
           "kind": "unit",
           "claim": "مرکز کارآفرینی و ارتباط با صنعت | معاونت پژوهش و فناوری دانشگاه سمنان",
           "id": "semnan-discovery-unit-industry-710642c86051",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://it.semnan.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "فناوری اطلاعات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "فناوری اطلاعات — کشف خودکار"
+          "unitType": "industry"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/3.pdf",
@@ -1512,656 +1429,6 @@
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
-      "id": "semnan:informationTechnology",
-      "universitySlug": "semnan",
-      "nameFa": "دانشگاه سمنان",
-      "iscCategory": "جامع",
-      "iscRank": 15,
-      "dimension": "informationTechnology",
-      "status": "observed-reference",
-      "reportedStatus": "verified",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 80,
-      "sources": [
-        {
-          "url": "https://research.semnan.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific informationTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://it.semnan.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific informationTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://it.semnan.ac.ir/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%A7%D9%81%D8%B2%D9%88%D8%AF%D9%87-%D8%B4%D8%AF%D9%87-%D8%A8%D9%87-SSO",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://it.semnan.ac.ir/workflow",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://it.semnan.ac.ir/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
-        },
-        {
-          "url": "https://it.semnan.ac.ir/%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%87%D9%81%D8%AA%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/getformes",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/ghadr",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%AA%D9%82%D8%A7-%D9%85%D8%B1%D8%AA%D8%A8%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%82%D9%88%D8%A7%D9%86%DB%8C%D9%86-%D9%88-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%87%D9%85%D9%87-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D8%B1%D8%AE%D8%B4%D8%B4-%D8%AF%D8%A7%D9%86%D8%B4%DA%A9%D8%AF%D9%87-%D9%85%D9%87%D9%86%D8%AF%D8%B3%DB%8C-%D9%85%DA%A9%D8%A7%D9%86%DB%8C%DA%A9-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86%D8%9B-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C-%D8%A8%D8%B1%DA%AF%D8%B2%DB%8C%D8%AF%D9%87-%D8%A7%D9%86%D8%AC%D9%85%D9%86-%D9%85%D9%87%D9%86%D8%AF%D8%B3%D8%A7%D9%86-%D9%85%DA%A9%D8%A7%D9%86%DB%8C%DA%A9-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%D8%B4%D8%AF",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7/%D8%B1%D8%A7%D9%87%E2%80%8C%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%DA%A9%D8%A7%D9%86%D8%A7%D9%84-%D8%B1%D8%B3%D9%85%DB%8C-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86-%D8%AF%D8%B1-%D9%BE%DB%8C%D8%A7%D9%85%E2%80%8C%D8%B1%D8%B3%D8%A7%D9%86-%D8%A7%DB%8C%D8%AA%D8%A7",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%85%D9%86%D8%B4%D9%88%D8%B1-%D9%88-%D9%85%D9%88%D8%A7%D8%B2%DB%8C%D9%86-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D9%BE%DA%98%D9%88%D9%87%D8%B4",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%A7%DB%8C%D8%AF%D9%87-%D9%87%D8%A7-%D9%88-%D9%86%DB%8C%D8%A7%D8%B2%D9%87%D8%A7-(%D9%86%D8%A7%D9%86)",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%85%D8%B1%DA%A9%D8%B2-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1-%D9%85%D8%B1%DA%A9%D8%B2-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D8%AA%D9%85%D8%A7%D8%B3-%D8%A8%D8%A7-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%85%D8%B1%DA%A9%D8%B2-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C-%D9%88-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%d9%87%d9%85%d9%87-%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1/%d8%af%d8%b1%d8%ae%d8%b4%d8%b4-%d8%af%d8%a7%d9%86%d8%b4%da%a9%d8%af%d9%87-%d9%85%d9%87%d9%86%d8%af%d8%b3%db%8c-%d9%85%da%a9%d8%a7%d9%86%db%8c%da%a9-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%b3%d9%85%d9%86%d8%a7%d9%86%d8%9b-%d9%be%d8%a7%db%8c%d8%a7%d9%86%e2%80%8c%d9%86%d8%a7%d9%85%d9%87-%d8%af%d8%a7%d9%86%d8%b4%d8%ac%d9%88%db%8c-%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3%db%8c-%d8%a8%d8%b1%da%af%d8%b2%db%8c%d8%af%d9%87-%d8%a7%d9%86%d8%ac%d9%85%d9%86-%d9%85%d9%87%d9%86%d8%af%d8%b3%d8%a7%d9%86-%d9%85%da%a9%d8%a7%d9%86%db%8c%da%a9-%d8%a7%db%8c%d8%b1%d8%a7%d9%86-%d8%b4%d8%af",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-(Grant)",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%D9%87%D9%85%D9%87-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D8%B1%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D8%AC%D8%B0%D8%A8-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-%D8%A8%D8%A7-%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%D8%A8%D9%86%DB%8C%D8%A7%D8%AF-%D8%B9%D9%84%D9%85-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d9%88-%d8%b4%db%8c%d9%88%d9%87-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d9%88-%d9%85%d8%b1%da%a9%d8%b2-%d8%a7%d8%b3%d9%86%d8%a7%d8%af",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/%d9%82%d9%88%d8%a7%d9%86%db%8c%d9%86-%d9%88-%d9%85%d9%82%d8%b1%d8%b1%d8%a7%d8%aa",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://sustp.semnan.ac.ir/%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%88-%D9%BE%D8%B1%D9%88%DA%98%D9%87-%DA%A9%D9%84%DB%8C%D8%AF%DB%8C-%D9%BE%D8%A7%D8%B1%DA%A9-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86%D8%8C-%D8%A2%D8%BA%D8%A7%D8%B2-%D8%A8%D9%87-%DA%A9%D8%A7%D8%B1-%D8%B5%D9%86%D8%AF%D9%88%D9%82-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%BA%DB%8C%D8%B1%D8%AF%D9%88%D9%84%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86-%D9%88-%D8%A7%D9%81%D8%AA%D8%AA%D8%A7%D8%AD-%DA%A9%D8%A7%D8%B1%D8%AE%D8%A7%D9%86%D9%87-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C%D8%8C-%D8%A8%D9%87-%D8%A8%D9%87%D8%B1%D9%87%E2%80%8C%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D8%B1%D8%B3%DB%8C%D8%AF%C2%B7",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://lib.semnan.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7/%D8%A8%D8%B1%DA%AF-%D8%A7%D9%81%D8%AA%D8%AE%D8%A7%D8%B1-%D8%AF%DB%8C%DA%AF%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86:-%D9%82%D8%B1%D8%A7%D8%B1%DA%AF%D8%B1%D9%81%D8%AA%D9%86-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87--%D8%A8%D8%B1%D8%A7%DB%8C-%DA%86%D9%86%D8%AF%D9%85%DB%8C%D9%86-%D8%B3%D8%A7%D9%84-%D9%85%D8%AA%D9%88%D8%A7%D9%84%DB%8C-%D8%AF%D8%B1-%D8%B2%D9%85%D8%B1%D9%87-10-%D8%AF%D8%B1%D8%B5%D8%AF-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D8%AA%D8%B1-%DA%A9%D8%B4%D9%88%D8%B1",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://sustp.semnan.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7%D9%87",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://sustp.semnan.ac.ir/Forms",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://lib.semnan.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://lib.semnan.ac.ir/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%85%D9%87%D8%B1-%D9%88-%D8%A2%D8%A8%D8%A7%D9%86-1401",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://lib.semnan.ac.ir/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%A2%D8%A8%D8%A7%D9%86-1399",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://lib.semnan.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7/%D8%A8%D9%87-%D8%B1%D9%88%D8%B2-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%DA%86%D8%A7%D9%BE%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C%D8%8C-%D8%AE%D8%B1%DB%8C%D8%AF-1173-%D9%86%D8%B3%D8%AE%D9%87-(350-%D8%B9%D9%86%D9%88%D8%A7%D9%86)-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%84-1404-%D9%88-%D8%AB%D8%A8%D8%AA-333-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%A7%D8%B1%D8%AF%DB%8C%D8%A8%D9%87%D8%B4%D8%AA-%D8%B3%D8%A7%D9%84-1405",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://semnan.ac.ir/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%AA%D8%B5%D9%88%DB%8C%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%B9%D9%84%D9%85%E2%80%8C%D8%B3%D9%86%D8%AC%DB%8C-%D8%AF%D8%B1-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86",
-          "kind": "research-review-reference",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://lib.semnan.ac.ir/%D9%87%D9%85%D9%87-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%DA%A9%D8%AA%D8%A8-%D9%86%D8%A7%D8%B4%D8%B1%D8%A7%D9%86-%D8%B4%D8%B1%DA%A9%D8%AA-%DA%A9%D9%86%D9%86%D8%AF%D9%87-%D8%AF%D8%B1-%D9%87%D9%81%D8%AA%D9%85%DB%8C%D9%86-%D9%86%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%85%D8%AC%D8%A7%D8%B2%DB%8C-1405-%D8%AA%D9%87%D8%B1%D8%A7%D9%86-",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://sustp.semnan.ac.ir/%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://centrallab.semnan.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://semnan.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://sustp.semnan.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://sustp.semnan.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%82%D9%88%D8%A7%D9%86%DB%8C%D9%86",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://lib.semnan.ac.ir/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://lib.semnan.ac.ir/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86%DB%8C-%DA%A9%D9%87-%D8%AF%D9%81%D8%A7%D8%B9-%D9%88-%D8%A7%D8%B1%D8%B3%D8%A7%D9%84-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A2%D9%86%D9%87%D8%A7-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86-%D9%85%DB%8C-%D8%A8%D8%A7%D8%B4%D8%AF%C2%B7",
-          "kind": "research-review-reference",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://semnan.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://lib.semnan.ac.ir/%D9%87%D9%85%D9%87-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%D8%A8%D9%87-%D8%B1%D9%88%D8%B2-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%DA%86%D8%A7%D9%BE%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C%D8%8C-%D8%AE%D8%B1%DB%8C%D8%AF-1173-%D9%86%D8%B3%D8%AE%D9%87-(350-%D8%B9%D9%86%D9%88%D8%A7%D9%86)-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%84-1404-%D9%88-%D8%AB%D8%A8%D8%AA-333-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%AF%D8%B1-%D8%A7%D8%B1%D8%AF%DB%8C%D8%A8%D9%87%D8%B4%D8%AA-%D8%B3%D8%A7%D9%84-1405",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://lib.semnan.ac.ir/Aeennameha",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://lib.semnan.ac.ir/%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%db%8c%d9%87%20%d9%87%d8%a7/%d8%a7%d9%85%da%a9%d8%a7%d9%86-%d8%ab%d8%a8%d8%aa-%d8%af%d8%b1%d8%ae%d9%88%d8%a7%d8%b3%d8%aa-%d9%88-%d8%ae%d8%b1%db%8c%d8%af-%da%a9%d8%aa%d8%a8-%d9%85%d9%88%d8%b1%d8%af-%d9%86%db%8c%d8%a7%d8%b2-%d8%a7%d8%b9%d8%b6%d8%a7%db%8c-%d9%87%db%8c%d8%a6%d8%aa-%d8%b9%d9%84%d9%85%db%8c-%d8%8c-%d8%af%d8%a7%d9%86%d8%b4%d8%ac%d9%88%db%8c%d8%a7%d9%86-%d9%88-%da%a9%d8%a7%d8%b1%da%a9%d9%86%d8%a7%d9%86-%d8%a7%d8%b2-%d9%87%d9%81%d8%aa%d9%85%db%8c%d9%86-%d9%86%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%ac%d8%a7%d8%b2%db%8c-1405%da%a9%d8%aa%d8%a7%d8%a8-%d8%aa%d9%87%d8%b1%d8%a7%d9%86",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://lib.semnan.ac.ir/%D9%87%D9%85%D9%87-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D9%85%D8%AC%D8%A7%D8%B2%DB%8C-%D8%A8%D8%A7-%D8%B9%D9%86%D9%88%D8%A7%D9%86-%D8%A2%D8%B4%D9%86%D8%A7%DB%8C%DB%8C-%D8%A8%D8%A7-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D8%B3%D8%AA%D9%86%D8%A7%D8%AF%D8%AF%D9%87%DB%8C-%D8%A7%D9%86%D8%AF%D9%86%D9%88%D8%AA:Endnote",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2025/Aug/12/%D8%A8%D9%86%D8%AF%D9%87%D8%A7%DB%8C%20%D8%A7%D9%84%D8%AD%D8%A7%D9%82%DB%8C%D9%87%20%D8%A8%D9%87%20%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87%20%D8%AC%D8%A7%D9%85%D8%B9%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها بندهای الحاقیه به شیوه نامه اجرایی اعطای پژوهانه جامع دانشگاه سمنان اعضای هیات علمی شیوه نامه 1404/5/21 بندهای الحاقیه به شیوه نامه اجرایی اعطای پژوهانه جامع دانشگاه سمنان",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها بندهای الحاقیه به شیوه نامه اجرایی اعطای پژوهانه جامع دانشگاه سمنان اعضای هیات علمی شیوه نامه 1404/5/21 بندهای الحاقیه به شیوه نامه اجرایی اعطای پژوهانه جامع دانشگاه سمنان",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/2.pdf",
-          "kind": "research-review-reference",
-          "claim": "شیوه نامه پذیرش اعضای هیأت علمی دانشگاه ها و مؤسسات آموزش عالی در قالب فرصت مطالعاتی در دانشگاه سمنان",
-          "id": null,
-          "sourceLabel": "شیوه نامه پذیرش اعضای هیأت علمی دانشگاه ها و مؤسسات آموزش عالی در قالب فرصت مطالعاتی در دانشگاه سمنان",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2023/Feb/13/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86%20%D8%B3%DB%8C%D8%A7%D9%87%20%D9%88%20%D8%B3%D9%81%DB%8C%D8%AF.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شيوه نامه استفاده اعضاي هيات علمي دانشگاه سمنان از فرصت مطالعاتي داخلي اعضای هیات علمی شيوه نامه 1401/11/24",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شيوه نامه استفاده اعضاي هيات علمي دانشگاه سمنان از فرصت مطالعاتي داخلي اعضای هیات علمی شيوه نامه 1401/11/24",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/taghvim_daneshkadeh_61682.doc",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها جدول تقویم پژوهشی نیم سالانه دانشكده ها اعضای هیات علمی فرم هاي متفرقه 1398/11/20 توضیح",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها جدول تقویم پژوهشی نیم سالانه دانشكده ها اعضای هیات علمی فرم هاي متفرقه 1398/11/20 توضیح",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/taghvim_daneshkadeh_61683.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها جدول تقویم پژوهشی نیم سالانه دانشكده ها اعضای هیات علمی فرم هاي متفرقه 1398/11/20 توضیح",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها جدول تقویم پژوهشی نیم سالانه دانشكده ها اعضای هیات علمی فرم هاي متفرقه 1398/11/20 توضیح",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/shiva_name_90_45123.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شیوه نامه مورخ 90.6.2 اعضای هیات علمی فرصت مطالعاتی 1398/11/19",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه مورخ 90.6.2 اعضای هیات علمی فرصت مطالعاتی 1398/11/19",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2025/Aug/12/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20....pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی اعضای هیات علمی شیوه نامه 1404/5/21 شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی اعضای هیات علمی شیوه نامه 1404/5/21 شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/4.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی بررسی تخلفات پژوهشی دانشگاه سمنان اعضای هیات علمی 1404/1/19 شیوه نامه اجرایی بررسی تخلفات پژوهشی دانشگاه سمنان",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی بررسی تخلفات پژوهشی دانشگاه سمنان اعضای هیات علمی 1404/1/19 شیوه نامه اجرایی بررسی تخلفات پژوهشی دانشگاه سمنان",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/1.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شیوه نامه بازدید علمی کوتاه مدت در خارج از کشور اعضای هیات علمی 1404/1/19 شیوه نامه بازدید علمی کوتاه مدت در خارج از کشور",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه بازدید علمی کوتاه مدت در خارج از کشور اعضای هیات علمی 1404/1/19 شیوه نامه بازدید علمی کوتاه مدت در خارج از کشور",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/3.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی همکاری های دانشگاه سمنان با جامعه و صنعت اعضای هیات علمی 1404/1/19 شیوه نامه اجرایی همکاری های دانشگاه سمنان با جامعه و صنعت",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی همکاری های دانشگاه سمنان با جامعه و صنعت اعضای هیات علمی 1404/1/19 شیوه نامه اجرایی همکاری های دانشگاه سمنان با جامعه و صنعت",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2025/Jan/19/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%B7%D8%B1%D8%AD%20%D8%B3%D9%81%DB%8C%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شیوه نامه طرح سفیر دانشگاه سمنان اعضای هیات علمی شیوه نامه اجرایی 1403/10/30 طرح سفیر (سمپوزیوم فارغ التحصیلان یاری رسان)",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه طرح سفیر دانشگاه سمنان اعضای هیات علمی شیوه نامه اجرایی 1403/10/30 طرح سفیر (سمپوزیوم فارغ التحصیلان یاری رسان)",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2024/Jun/15/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8%20%2014.2.4.4.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شیوه ­نامه­ اجرایی پذیرش و نشر کتاب دانشگاه سمنان اعضای هیات علمی شيوه نامه اجرائی 1403/3/26 شیوه ­نامه­ اجرایی پذیرش و نشر کتاب دانشگاه سمنان",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه ­نامه­ اجرایی پذیرش و نشر کتاب دانشگاه سمنان اعضای هیات علمی شيوه نامه اجرائی 1403/3/26 شیوه ­نامه­ اجرایی پذیرش و نشر کتاب دانشگاه سمنان",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2024/Jan/27/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شيوه نامه اجرايي طرح هاي پژوهشي داخلي دانشگاه سمنان اعضای هیات علمی شيوه نامه اجرائی 1402/11/7 شیوه نامه اجرایی طرح های پژوهشی داخلی دانشگاه سمنان",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شيوه نامه اجرايي طرح هاي پژوهشي داخلي دانشگاه سمنان اعضای هیات علمی شيوه نامه اجرائی 1402/11/7 شیوه نامه اجرایی طرح های پژوهشی داخلی دانشگاه سمنان",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2022/Nov/22/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.doc",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی و کاربرگ نحوه تاسیس واحدهای پژوهشی دانشگاه اعضای هیات علمی و کارکنان شيوه نامه اجرائی 1401/7/30 شیوه نامه اجرایی نحوه تاسیس واحدهای پژوهشی دانشگاه سمنان",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی و کاربرگ نحوه تاسیس واحدهای پژوهشی دانشگاه اعضای هیات علمی و کارکنان شيوه نامه اجرائی 1401/7/30 شیوه نامه اجرایی نحوه تاسیس واحدهای پژوهشی دانشگاه سمنان",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2022/Nov/22/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی و کاربرگ نحوه تاسیس واحدهای پژوهشی دانشگاه اعضای هیات علمی و کارکنان شيوه نامه اجرائی 1401/7/30 شیوه نامه اجرایی نحوه تاسیس واحدهای پژوهشی دانشگاه سمنان",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی و کاربرگ نحوه تاسیس واحدهای پژوهشی دانشگاه اعضای هیات علمی و کارکنان شيوه نامه اجرائی 1401/7/30 شیوه نامه اجرایی نحوه تاسیس واحدهای پژوهشی دانشگاه سمنان",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2025/May/11/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%86%D8%AD%D9%88%D9%87%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی و کاربرگ نحوه تاسیس واحدهای پژوهشی دانشگاه اعضای هیات علمی و کارکنان شيوه نامه اجرائی 1401/7/30 شیوه نامه اجرایی نحوه تاسیس واحدهای پژوهشی دانشگاه سمنان",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی و کاربرگ نحوه تاسیس واحدهای پژوهشی دانشگاه اعضای هیات علمی و کارکنان شيوه نامه اجرائی 1401/7/30 شیوه نامه اجرایی نحوه تاسیس واحدهای پژوهشی دانشگاه سمنان",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2023/Jul/09/postdoc.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شيوه نامه اجرائی دوره پسا دکتری دانشگاه سمنان دانشجویان شيوه نامه اجرائی 1402/4/18",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شيوه نامه اجرائی دوره پسا دکتری دانشگاه سمنان دانشجویان شيوه نامه اجرائی 1402/4/18",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/shive_name_center_lab_62008.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی آزمایشگاه مرکزی دانشگاه سمنان اعضای هیات علمی آزمایشگاه مرکزی 1398/11/20",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه اجرایی آزمایشگاه مرکزی دانشگاه سمنان اعضای هیات علمی آزمایشگاه مرکزی 1398/11/20",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/shive_name_tashvigh_59388.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها شیوه نامه تشویق مقالات اعضای هیات علمی قراردادی(مدعو) در دانشگاه سمنان اعضای هیات علمی مدعو فعالیت پژوهشی همکاران حق التدریس 1398/11/20",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه تشویق مقالات اعضای هیات علمی قراردادی(مدعو) در دانشگاه سمنان اعضای هیات علمی مدعو فعالیت پژوهشی همکاران حق التدریس 1398/11/20",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/kargargah_marjaeyat_malekiyat_fekri_18589.pdf",
-          "kind": "research-review-reference",
-          "claim": "فرم ها فرم درخواست شرکت در کارگاه های آموزشی مرجعیت مالکیت فکری اعضای هیات علمی پژوهانه 1398/11/17",
-          "id": null,
-          "sourceLabel": "فرم ها فرم درخواست شرکت در کارگاه های آموزشی مرجعیت مالکیت فکری اعضای هیات علمی پژوهانه 1398/11/17",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2022/Apr/04/%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%B1%DB%8C%D8%A7%D9%84%DB%8C.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها آيين نامه فرصت مطالعاتي مصوبه 97.9.19 هيات امنا اعضای هیات علمی فرصت مطالعاتی 1401/1/15",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها آيين نامه فرصت مطالعاتي مصوبه 97.9.19 هيات امنا اعضای هیات علمی فرصت مطالعاتی 1401/1/15",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/eslahiye_dovom_89_45125.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها اصلاحیه شماره دو آیین نامه فرصت مطالعاتی مورخ 89.6.30 اعضای هیات علمی فرصت مطالعاتی 1398/11/19",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها اصلاحیه شماره دو آیین نامه فرصت مطالعاتی مورخ 89.6.30 اعضای هیات علمی فرصت مطالعاتی 1398/11/19",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/eslahiy_aval_89_45124.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه و دستورالعمل ها اصلاحیه شماره یک آیین نامه فرصت مطالعاتی مورخ 89.6.30 اعضای هیات علمی فرصت مطالعاتی 1398/11/19",
-          "id": null,
-          "sourceLabel": "آیین نامه و دستورالعمل ها اصلاحیه شماره یک آیین نامه فرصت مطالعاتی مورخ 89.6.30 اعضای هیات علمی فرصت مطالعاتی 1398/11/19",
-          "sourceSpecificity": "university-reference"
-        }
-      ],
-      "publicationAdjustment": "Downgraded until a source proving organizational IT dependency is registered.",
-      "verificationBasis": "Downgraded until a source proving organizational IT dependency is registered.",
-      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
-    },
-    {
       "id": "semnan:systemsServices",
       "universitySlug": "semnan",
       "nameFa": "دانشگاه سمنان",
@@ -2171,20 +1438,15 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 9,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 8,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://it.semnan.ac.ir/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%A7%D9%81%D8%B2%D9%88%D8%AF%D9%87-%D8%B4%D8%AF%D9%87-%D8%A8%D9%87-SSO",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
+          "kind": "system",
+          "claim": "درخشش دانشکده مهندسی مکانیک دانشگاه سمنان؛ پایان‌نامه دانشجوی کارشناسی برگزیده انجمن مهندسان مکانیک ایران شد | معاونت پژوهش و فناوری دانشگاه سمنان",
+          "id": "semnan-discovery-system-3bf2d09e8e02",
+          "systemCategory": "research"
         },
         {
           "url": "https://semnan.ac.ir/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%AA%D8%B5%D9%88%DB%8C%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%B9%D9%84%D9%85%E2%80%8C%D8%B3%D9%86%D8%AC%DB%8C-%D8%AF%D8%B1-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86",
@@ -2206,13 +1468,6 @@
           "systemCategory": "library"
         },
         {
-          "url": "https://it.semnan.ac.ir/",
-          "kind": "system",
-          "claim": "سامانه های افزوده شده به SSO | مدیریت فناوری اطلاعات و امنیت فضای مجازی دانشگاه سمنان",
-          "id": "semnan-discovery-system-9190f2cf3817",
-          "systemCategory": "it"
-        },
-        {
           "url": "https://semnan.ac.ir/",
           "kind": "system",
           "claim": "راه اندازی سامانه علم‌سنجی در دانشگاه سمنان | دانشگاه سمنان",
@@ -2232,6 +1487,13 @@
           "claim": "آیین نامه و دستورالعمل ها شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی اعضای هیات علمی شیوه نامه 1404/5/21 شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی",
           "id": null,
           "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی اعضای هیات علمی شیوه نامه 1404/5/21 شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی"
+        },
+        {
+          "url": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/form_hazineh_viraish_isi_scopus.pdf",
+          "kind": "research-review-specific",
+          "claim": "فرم ها فرم هزینه ویرایش مقالات انگلیسی چاپ شده در نشریات ISI و Scopus اعضای هیات علمی پژوهانه 1399/9/19",
+          "id": null,
+          "sourceLabel": "فرم ها فرم هزینه ویرایش مقالات انگلیسی چاپ شده در نشریات ISI و Scopus اعضای هیات علمی پژوهانه 1399/9/19"
         }
       ],
       "publicationAdjustment": null,
@@ -2248,8 +1510,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 135,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 128,
       "sources": [
         {
           "url": "https://sustp.semnan.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7%D9%87",
@@ -2264,19 +1526,7 @@
           "id": null
         },
         {
-          "url": "https://it.semnan.ac.ir/workflow",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
           "url": "https://semnan.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://it.semnan.ac.ir/%D8%A2%D9%8A%D9%8A%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -2301,12 +1551,6 @@
         },
         {
           "url": "https://lib.semnan.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7/%D8%A8%D8%B1%DA%AF-%D8%A7%D9%81%D8%AA%D8%AE%D8%A7%D8%B1-%D8%AF%DB%8C%DA%AF%D8%B1%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%D9%86%D8%A7%D9%86:-%D9%82%D8%B1%D8%A7%D8%B1%DA%AF%D8%B1%D9%81%D8%AA%D9%86-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87--%D8%A8%D8%B1%D8%A7%DB%8C-%DA%86%D9%86%D8%AF%D9%85%DB%8C%D9%86-%D8%B3%D8%A7%D9%84-%D9%85%D8%AA%D9%88%D8%A7%D9%84%DB%8C-%D8%AF%D8%B1-%D8%B2%D9%85%D8%B1%D9%87-10-%D8%AF%D8%B1%D8%B5%D8%AF-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D8%AA%D8%B1-%DA%A9%D8%B4%D9%88%D8%B1",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://it.semnan.ac.ir/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -2876,12 +2120,6 @@
           "id": null
         },
         {
-          "url": "https://semnan.ac.ir/uploads/1/2023/Jul/30/SemnanUniadmission-form.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ثبت نام",
-          "id": null
-        },
-        {
           "url": "https://research.semnan.ac.ir/uploads/7/2021/Oct/11/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C%20%D8%A8%D8%A7%20%D8%AC%D8%A7%D9%85%D8%B9%D9%87%20%D9%88%20%D8%B5%D9%86%D8%B9%D8%AA.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "شیوه نامه همکاری با جامعه و صنعت",
@@ -2920,7 +2158,7 @@
         {
           "url": "https://research.semnan.ac.ir/",
           "kind": "document",
-          "claim": "الحاقیه شیوه‌نامه پژوهانه جامع",
+          "claim": "شیوه‌نامه همکاری با جامعه و صنعت",
           "id": "semnan-doc-1"
         },
         {
@@ -2996,22 +2234,10 @@
           "id": "semnan-discovery-document-f01d47d8e7f9"
         },
         {
-          "url": "https://lib.semnan.ac.ir/uploads/19/2024/Oct/02/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D9%87%D9%85%D8%A7%D9%86%D9%86%D8%AF%D8%AC%D9%88.pdf",
-          "kind": "document",
-          "claim": "راهنمای همانندجویی برای دانشجویان تحصیلات تکمیلی",
-          "id": "semnan-discovery-document-f18f2b1fa4aa"
-        },
-        {
           "url": "https://lib.semnan.ac.ir/uploads/19/2021/Oct/13/diglib.pdf",
           "kind": "document",
           "claim": "راهنمای جستجو و استفاده از منابع دیجیتال کتابخانه",
           "id": "semnan-discovery-document-d6da24c35921"
-        },
-        {
-          "url": "https://lib.semnan.ac.ir/uploads/19/2025/Oct/21/Manual%20book%20asli%20Circulation%20inboomi%20%20centerlib14040729.pdf",
-          "kind": "document",
-          "claim": "دستورالعمل امانت و تمدید کتاب",
-          "id": "semnan-discovery-document-ab80d8816d5a"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2023/Jan/21/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%20%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86(1).docx",
@@ -3044,12 +2270,6 @@
           "id": "semnan-discovery-document-1a36efa24bdd"
         },
         {
-          "url": "https://lib.semnan.ac.ir/uploads/19/2021/Jul/04/final_english_database980215.pdf",
-          "kind": "document",
-          "claim": "جستجوی مقاله در پایگاه ها",
-          "id": "semnan-discovery-document-b015518526a0"
-        },
-        {
           "url": "https://semnan.ac.ir//uploads/23/2025/Mar/14/research1403-1404.pdf",
           "kind": "document",
           "claim": "تقویم پژوهشی دانشکده ها",
@@ -3073,108 +2293,35 @@
     "nameFa": "دانشگاه سمنان",
     "iscCategory": "جامع",
     "iscRank": 15,
-    "score": 93.8,
+    "score": 90.9,
     "confidence": 100,
     "metrics": {
-      "documents": 100,
+      "documents": 82,
       "organization": 100,
       "library": 100,
       "laboratories": 100,
-      "digital": 83.5,
+      "systems": 85,
       "industryTech": 90,
       "dataQuality": 100,
-      "findability": 70.2
+      "findability": 75
     },
-    "units": 45,
-    "systems": 17,
-    "documents": 125,
+    "units": 30,
+    "systems": 12,
+    "documents": 116,
     "activeWeight": 100,
     "evidenceCoverage": 100,
-    "methodologyVersion": "RTPMI-4.1-ISC",
-    "snapshotDate": "2026-08-11",
-    "rank": 3,
-    "portalRankWithinISCClass": 3,
+    "methodologyVersion": "RTPMI-4.2-ISC",
+    "snapshotDate": "2026-08-12",
+    "rank": 2,
+    "portalRankWithinISCClass": 2,
     "rankedPortalsInISCClass": 50
   },
   "units": [
     {
       "id": "semnan-1",
       "universitySlug": "semnan",
-      "nameFa": "مدیریت امور پژوهشی",
-      "type": "research",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-2",
-      "universitySlug": "semnan",
-      "nameFa": "مدیریت امور فناوری",
-      "type": "technology",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-3",
-      "universitySlug": "semnan",
-      "nameFa": "کتابخانه مرکزی و مرکز اسناد",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-4",
-      "universitySlug": "semnan",
-      "nameFa": "فناوری اطلاعات و امنیت فضای مجازی",
-      "type": "it",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-5",
-      "universitySlug": "semnan",
       "nameFa": "آزمایشگاه‌ها و کارگاه‌های تحقیقاتی",
       "type": "laboratory",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-6",
-      "universitySlug": "semnan",
-      "nameFa": "کارآفرینی و ارتباط با صنعت",
-      "type": "industry",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-7",
-      "universitySlug": "semnan",
-      "nameFa": "نشریات و انتشارات",
-      "type": "publishing",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-industry",
-      "universitySlug": "semnan",
-      "nameFa": "مرکز کارآفرینی و ارتباط با صنعت",
-      "type": "industry",
-      "url": null,
-      "sourceUrl": "https://research.semnan.ac.ir/",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10"
-    },
-    {
-      "id": "semnan-it",
-      "universitySlug": "semnan",
-      "nameFa": "مدیریت فناوری اطلاعات و امنیت فضای مجازی",
-      "type": "it",
       "url": null,
       "sourceUrl": "https://research.semnan.ac.ir/",
       "evidence": "verified",
@@ -3185,50 +2332,24 @@
       "universitySlug": "semnan",
       "nameFa": "آزمایشگاه‌ها و کارگاه‌های تحقیقاتی و آموزشی",
       "type": "laboratory",
-      "url": "https://centrallab.semnan.ac.ir/",
-      "sourceUrl": "https://research.semnan.ac.ir/",
       "evidence": "verified",
-      "lastVerified": "2026-08-10"
-    },
-    {
-      "id": "semnan-library",
-      "universitySlug": "semnan",
-      "nameFa": "مدیریت کتابخانه مرکزی و مرکز اسناد",
-      "type": "library",
-      "url": null,
+      "lastVerified": "2026-08-10",
       "sourceUrl": "https://research.semnan.ac.ir/",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10"
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "url": "https://centrallab.semnan.ac.ir/"
     },
     {
       "id": "semnan-publishing",
       "universitySlug": "semnan",
       "nameFa": "اداره نشریات و چاپ و انتشارات",
       "type": "publishing",
-      "url": "https://publication.semnan.ac.ir/",
-      "sourceUrl": "https://research.semnan.ac.ir/",
       "evidence": "verified",
-      "lastVerified": "2026-08-10"
-    },
-    {
-      "id": "semnan-research",
-      "universitySlug": "semnan",
-      "nameFa": "مدیریت امور پژوهشی",
-      "type": "research",
-      "url": null,
+      "lastVerified": "2026-08-10",
       "sourceUrl": "https://research.semnan.ac.ir/",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10"
-    },
-    {
-      "id": "semnan-tech",
-      "universitySlug": "semnan",
-      "nameFa": "مدیریت امور فناوری",
-      "type": "technology",
-      "url": null,
-      "sourceUrl": "https://research.semnan.ac.ir/",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10"
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "url": "https://publication.semnan.ac.ir/"
     },
     {
       "id": "semnan-discovery-unit-library-be7fb4e2dab2",
@@ -3297,17 +2418,6 @@
       "discoveryConfidence": 0.99
     },
     {
-      "id": "semnan-discovery-unit-laboratory-573b6257cc6d",
-      "universitySlug": "semnan",
-      "nameFa": "آزمایشگاه مرکزی دانشگاه سمنان",
-      "type": "laboratory",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://centrallab.semnan.ac.ir/",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
       "id": "semnan-discovery-unit-technology-0d8e6c54e92d",
       "universitySlug": "semnan",
       "nameFa": "معرفی مرکز کارآفرینی | معاونت پژوهش و فناوری دانشگاه سمنان",
@@ -3315,17 +2425,6 @@
       "evidence": "verified",
       "lastVerified": "2026-08-11",
       "sourceUrl": "https://research.semnan.ac.ir/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%85%D8%B1%DA%A9%D8%B2-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "semnan-discovery-unit-library-1474d6379c52",
-      "universitySlug": "semnan",
-      "nameFa": "اداره نشریات | اداره چاپ و انتشارات دانشگاه سمنان",
-      "type": "library",
-      "evidence": "verified",
-      "lastVerified": "2026-08-11",
-      "sourceUrl": "https://publication.semnan.ac.ir/",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -3473,17 +2572,6 @@
       "discoveryConfidence": 0.99
     },
     {
-      "id": "semnan-discovery-unit-laboratory-f8333c997a0b",
-      "universitySlug": "semnan",
-      "nameFa": "فرآیند سیستم آزمایشگاه مرکزی | مدیریت فناوری اطلاعات و امنیت فضای مجازی دانشگاه سمنان",
-      "type": "laboratory",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://it.semnan.ac.ir/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%B3%DB%8C%D8%B3%D8%AA%D9%85-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
       "id": "semnan-discovery-unit-library-a220f30e1528",
       "universitySlug": "semnan",
       "nameFa": "پارک علم و فناوری دانشگاه سمنان | استفاده از کتابخانه مرکزی دانشگاه سمنان",
@@ -3559,19 +2647,6 @@
       "sourceUrl": "https://research.semnan.ac.ir/%D9%85%D8%B1%DA%A9%D8%B2-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C-%D9%88-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.9484210526315788
-    },
-    {
-      "id": "semnan-discovery-unit-it-59c01537c28e",
-      "universitySlug": "semnan",
-      "nameFa": "صفحه اصلی | مدیریت فناوری اطلاعات و امنیت فضای مجازی دانشگاه سمنان",
-      "type": "it",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://it.semnan.ac.ir/",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8431578947368421,
-      "relationStatus": "organizationally-attributed",
-      "relationshipEvidenceUrl": "https://research.semnan.ac.ir/"
     }
   ],
   "systems": [
@@ -3621,42 +2696,6 @@
     },
     {
       "id": "semnan-sys-1",
-      "universitySlug": "semnan",
-      "nameFa": "سامانه مدیریت پژوهانه",
-      "category": "research",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-sys-2",
-      "universitySlug": "semnan",
-      "nameFa": "سامانه پژوهشی سیما",
-      "category": "research",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-sys-3",
-      "universitySlug": "semnan",
-      "nameFa": "سامانه آزمایشگاه مرکزی",
-      "category": "laboratory",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-sys-4",
-      "universitySlug": "semnan",
-      "nameFa": "شاعا",
-      "category": "national",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-sys-5",
       "universitySlug": "semnan",
       "nameFa": "پایگاه نشریات و انتشارات",
       "category": "journals",
@@ -3730,19 +2769,6 @@
       "discoveryConfidence": 0.8957894736842105
     },
     {
-      "id": "semnan-discovery-system-9190f2cf3817",
-      "universitySlug": "semnan",
-      "nameFa": "سامانه های افزوده شده به SSO | مدیریت فناوری اطلاعات و امنیت فضای مجازی دانشگاه سمنان",
-      "category": "it",
-      "url": "https://it.semnan.ac.ir/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%A7%D9%81%D8%B2%D9%88%D8%AF%D9%87-%D8%B4%D8%AF%D9%87-%D8%A8%D9%87-SSO",
-      "sourceUrl": "https://it.semnan.ac.ir/",
-      "relation": "research-portal-discovery",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
       "id": "semnan-discovery-system-df9b0464eb80",
       "universitySlug": "semnan",
       "nameFa": "راه اندازی سامانه علم‌سنجی در دانشگاه سمنان | دانشگاه سمنان",
@@ -3773,42 +2799,6 @@
     {
       "id": "semnan-doc-1",
       "universitySlug": "semnan",
-      "title": "الحاقیه شیوه‌نامه پژوهانه جامع",
-      "type": "شیوه‌نامه",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/",
-      "topic": "حمایت و گرنت",
-      "url": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-doc-2",
-      "universitySlug": "semnan",
-      "title": "دستورالعمل ایمنی آزمایشگاه‌ها",
-      "type": "دستورالعمل",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/",
-      "topic": "آزمایشگاه",
-      "url": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-doc-3",
-      "universitySlug": "semnan",
-      "title": "شیوه‌نامه تخلفات پژوهشی",
-      "type": "شیوه‌نامه",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/",
-      "topic": "سایر",
-      "url": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-doc-4",
-      "universitySlug": "semnan",
       "title": "شیوه‌نامه همکاری با جامعه و صنعت",
       "type": "شیوه‌نامه",
       "evidence": "verified",
@@ -3816,30 +2806,6 @@
       "lastVerified": "2026-08-10",
       "sourceUrl": "https://research.semnan.ac.ir/",
       "topic": "صنعت، فناوری و مالکیت فکری",
-      "url": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-doc-5",
-      "universitySlug": "semnan",
-      "title": "دستورالعمل پژوهانه جامع",
-      "type": "دستورالعمل",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/",
-      "topic": "حمایت و گرنت",
-      "url": "https://research.semnan.ac.ir/"
-    },
-    {
-      "id": "semnan-doc-6",
-      "universitySlug": "semnan",
-      "title": "شیوه‌نامه آزمایشگاه مرکزی",
-      "type": "شیوه‌نامه",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-10",
-      "sourceUrl": "https://research.semnan.ac.ir/",
-      "topic": "آزمایشگاه",
       "url": "https://research.semnan.ac.ir/"
     },
     {
@@ -3851,7 +2817,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/shivehnameh_aeennameh_ertegha_martabe_.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/shivehnameh_aeennameh_ertegha_martabe_.pdf",
       "parentUrl": "https://research.semnan.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%AA%D9%82%D8%A7-%D9%85%D8%B1%D8%AA%D8%A8%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
@@ -3870,7 +2836,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2021/Oct/11/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%B1%20%D8%AC%D8%A7%D9%85%D8%B9%D9%87%20%D9%88%20%D8%B5%D9%86%D8%B9%D8%AA.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2021/Oct/11/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%B1%20%D8%AC%D8%A7%D9%85%D8%B9%D9%87%20%D9%88%20%D8%B5%D9%86%D8%B9%D8%AA.pdf",
       "parentUrl": "https://research.semnan.ac.ir/%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d9%88-%d8%b4%db%8c%d9%88%d9%87-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7",
@@ -3889,7 +2855,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/2.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/2.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -3908,7 +2874,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/05/%D8%A2%D9%8A%D9%8A%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87_%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C_%D9%87%DB%8C%D8%A6%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_14081.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/05/%D8%A2%D9%8A%D9%8A%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87_%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C_%D9%87%DB%8C%D8%A6%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_14081.pdf",
       "parentUrl": "https://research.semnan.ac.ir/%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
@@ -3927,7 +2893,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2021/Oct/11/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C%20%D8%A8%D8%A7%20%D8%AC%D8%A7%D9%85%D8%B9%D9%87%20%D9%88%20%D8%B5%D9%86%D8%B9%D8%AA.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2021/Oct/11/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C%20%D8%A8%D8%A7%20%D8%AC%D8%A7%D9%85%D8%B9%D9%87%20%D9%88%20%D8%B5%D9%86%D8%B9%D8%AA.pdf",
       "parentUrl": "https://research.semnan.ac.ir/%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d9%88-%d8%b4%db%8c%d9%88%d9%87-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7",
@@ -3946,7 +2912,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2023/Jun/18/%D9%81%D8%B1%D9%85%D8%AA%20%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%20%D8%AF%D9%88%D8%B1%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2023/Jun/18/%D9%81%D8%B1%D9%85%D8%AA%20%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%20%D8%AF%D9%88%D8%B1%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20.doc",
       "parentUrl": "https://research.semnan.ac.ir/%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d9%88-%d8%b4%db%8c%d9%88%d9%87-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7",
@@ -3965,7 +2931,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2023/Jun/18/%D9%81%D8%B1%D9%85%D8%AA%20%D8%AA%D9%81%D8%A7%D9%87%D9%85%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.docx",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2023/Jun/18/%D9%81%D8%B1%D9%85%D8%AA%20%D8%AA%D9%81%D8%A7%D9%87%D9%85%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.docx",
       "parentUrl": "https://research.semnan.ac.ir/%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d9%88-%d8%b4%db%8c%d9%88%d9%87-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7",
@@ -3984,7 +2950,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2023/Jun/18/%D9%81%D8%B1%D9%85%D8%AA%20%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.docx",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2023/Jun/18/%D9%81%D8%B1%D9%85%D8%AA%20%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.docx",
       "parentUrl": "https://research.semnan.ac.ir/%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d9%88-%d8%b4%db%8c%d9%88%d9%87-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7",
@@ -4003,7 +2969,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2025/Aug/12/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20....pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2025/Aug/12/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20....pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4022,7 +2988,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/4.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/4.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4041,7 +3007,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/1.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/1.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4060,7 +3026,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/3.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2025/Apr/08/3.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4079,7 +3045,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2024/Jul/17/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2024/Jul/17/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4098,7 +3064,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2024/Jun/15/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8%20%2014.2.4.4.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2024/Jun/15/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8%20%2014.2.4.4.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4117,7 +3083,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2024/Jan/27/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2024/Jan/27/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4136,7 +3102,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2025/May/11/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%86%D8%AD%D9%88%D9%87%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2025/May/11/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%86%D8%AD%D9%88%D9%87%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4323,7 +3289,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2025/Jul/19/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA%20%D8%A7%DB%8C%D9%85%D9%86%DB%8C%20%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%20%D9%87%D8%A7%20%D9%88%20%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%20%D9%87%D8%A7%20%D8%AF%D8%B1%20%D8%B2%D9%85%D8%A7%D9%86%20%D8%A8%D8%AD%D8%B1%D8%A7%D9%86.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2025/Jul/19/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA%20%D8%A7%DB%8C%D9%85%D9%86%DB%8C%20%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%20%D9%87%D8%A7%20%D9%88%20%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%20%D9%87%D8%A7%20%D8%AF%D8%B1%20%D8%B2%D9%85%D8%A7%D9%86%20%D8%A8%D8%AD%D8%B1%D8%A7%D9%86.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4342,7 +3308,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2024/Nov/26/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%AB%D8%A8%D8%AA%20%D9%86%D8%A7%D9%85%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%B1%20%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2024/Nov/26/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%AB%D8%A8%D8%AA%20%D9%86%D8%A7%D9%85%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%B1%20%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4437,27 +3403,6 @@
       "discoveryConfidence": 0.99
     },
     {
-      "id": "semnan-discovery-document-f18f2b1fa4aa",
-      "universitySlug": "semnan",
-      "title": "راهنمای همانندجویی برای دانشجویان تحصیلات تکمیلی",
-      "type": "سند",
-      "topic": "تحصیلات تکمیلی و امور پژوهشی",
-      "taxonomy": "postgraduate/research affairs",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://lib.semnan.ac.ir/uploads/19/2024/Oct/02/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D9%87%D9%85%D8%A7%D9%86%D9%86%D8%AF%D8%AC%D9%88.pdf",
-      "sourceUrl": "https://lib.semnan.ac.ir/uploads/19/2024/Oct/02/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D9%87%D9%85%D8%A7%D9%86%D9%86%D8%AF%D8%AC%D9%88.pdf",
-      "parentUrl": "https://lib.semnan.ac.ir/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D9%87%D9%85%D8%A7%D9%86%D9%86%D8%AF%D8%AC%D9%88",
-      "sha256": "b5548d5f1521a96f510e6c6d1a2417e03ff4bc7826d7742cf2a19f5e04557827",
-      "fileName": "راهنمای همانندجو.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 505939,
-      "archivePath": "semnan/a46edc47f6f8-راهنمای همانندجو.pdf",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
       "id": "semnan-discovery-document-d6da24c35921",
       "universitySlug": "semnan",
       "title": "راهنمای جستجو و استفاده از منابع دیجیتال کتابخانه",
@@ -4475,27 +3420,6 @@
       "contentType": "application/pdf",
       "fileSize": 2655173,
       "archivePath": "semnan/492ec9495bab-diglib.pdf",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "semnan-discovery-document-ab80d8816d5a",
-      "universitySlug": "semnan",
-      "title": "دستورالعمل امانت و تمدید کتاب",
-      "type": "شیوه‌نامه/دستورالعمل",
-      "topic": "سایر",
-      "taxonomy": "procedure/guideline",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://lib.semnan.ac.ir/uploads/19/2025/Oct/21/Manual%20book%20asli%20Circulation%20inboomi%20%20centerlib14040729.pdf",
-      "sourceUrl": "https://lib.semnan.ac.ir/uploads/19/2025/Oct/21/Manual%20book%20asli%20Circulation%20inboomi%20%20centerlib14040729.pdf",
-      "parentUrl": "https://lib.semnan.ac.ir/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A7%D9%85%D8%A7%D9%86%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%87%D8%A7",
-      "sha256": "988d4871d095a1b9f9ffa1c368d3ac56e9b1f2b77db69697d8f08b97b948337a",
-      "fileName": "Manual book asli Circulation inboomi centerlib14040729.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 1455964,
-      "archivePath": "semnan/dda0bc13026b-Manual book asli Circulation inboomi centerlib14040729.pdf",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -4529,7 +3453,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2025/Jun/15/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87-%D8%B9%D8%B1%D8%A8%DB%8C.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2025/Jun/15/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87-%D8%B9%D8%B1%D8%A8%DB%8C.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4548,7 +3472,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2025/Jan/19/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%B7%D8%B1%D8%AD%20%D8%B3%D9%81%DB%8C%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2025/Jan/19/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%B7%D8%B1%D8%AD%20%D8%B3%D9%81%DB%8C%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4567,7 +3491,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2023/Mar/04/%D9%81%D8%B1%D9%85%20%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA%20%DA%A9%D8%A7%D8%B1%D8%AA%20%D9%88%DB%8C%D8%B2%DB%8C%D8%AA.docx",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2023/Mar/04/%D9%81%D8%B1%D9%85%20%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA%20%DA%A9%D8%A7%D8%B1%D8%AA%20%D9%88%DB%8C%D8%B2%DB%8C%D8%AA.docx",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4586,7 +3510,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2023/Feb/13/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86%20%D8%B3%DB%8C%D8%A7%D9%87%20%D9%88%20%D8%B3%D9%81%DB%8C%D8%AF.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2023/Feb/13/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86%20%D8%B3%DB%8C%D8%A7%D9%87%20%D9%88%20%D8%B3%D9%81%DB%8C%D8%AF.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4605,7 +3529,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2022/Nov/22/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2022/Nov/22/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4624,32 +3548,13 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2022/Nov/22/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2022/Nov/22/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
       "fileName": "کاربرگ تاسیس واحدهای پژوهشی دانشگاه سمنان.pdf",
       "contentType": "application/pdf",
       "fileSize": 299091,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "semnan-discovery-document-49b80cd1278b",
-      "universitySlug": "semnan",
-      "title": "فرم ثبت نام",
-      "type": "آیین‌نامه",
-      "topic": "سایر",
-      "taxonomy": "regulation/bylaw",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://semnan.ac.ir/uploads/1/2023/Jul/30/SemnanUniadmission-form.pdf",
-      "sourceUrl": "https://semnan.ac.ir/uploads/1/2023/Jul/30/SemnanUniadmission-form.pdf",
-      "parentUrl": "https://semnan.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%87%D8%A7",
-      "fileName": "SemnanUniadmission-form.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 208302,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -4662,7 +3567,7 @@
       "taxonomy": "laboratory",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://centrallab.semnan.ac.ir/use.pdf",
       "sourceUrl": "https://centrallab.semnan.ac.ir/use.pdf",
       "parentUrl": "https://centrallab.semnan.ac.ir/",
@@ -4681,51 +3586,13 @@
       "taxonomy": "laboratory",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://centrallab.semnan.ac.ir/use.docx",
       "sourceUrl": "https://centrallab.semnan.ac.ir/use.docx",
       "parentUrl": "https://centrallab.semnan.ac.ir/",
       "fileName": "use.docx",
       "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "fileSize": 24739,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "semnan-discovery-document-3d3300bcef4b",
-      "universitySlug": "semnan",
-      "title": "فرم تعهد تجهیزات",
-      "type": "سند",
-      "topic": "آزمایشگاه",
-      "taxonomy": "laboratory",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://centrallab.semnan.ac.ir/agreement.pdf",
-      "sourceUrl": "https://centrallab.semnan.ac.ir/agreement.pdf",
-      "parentUrl": "https://centrallab.semnan.ac.ir/",
-      "fileName": "agreement.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 56809,
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99
-    },
-    {
-      "id": "semnan-discovery-document-a035e6829396",
-      "universitySlug": "semnan",
-      "title": "فرم تعهد تجهیزات",
-      "type": "سند",
-      "topic": "آزمایشگاه",
-      "taxonomy": "laboratory",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://centrallab.semnan.ac.ir/agreement.docx",
-      "sourceUrl": "https://centrallab.semnan.ac.ir/agreement.docx",
-      "parentUrl": "https://centrallab.semnan.ac.ir/",
-      "fileName": "agreement.docx",
-      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "fileSize": 12191,
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99
     },
@@ -4814,27 +3681,6 @@
       "discoveryConfidence": 0.9400000000000001
     },
     {
-      "id": "semnan-discovery-document-b015518526a0",
-      "universitySlug": "semnan",
-      "title": "جستجوی مقاله در پایگاه ها",
-      "type": "سند",
-      "topic": "سایر",
-      "taxonomy": "other",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-11",
-      "url": "https://lib.semnan.ac.ir/uploads/19/2021/Jul/04/final_english_database980215.pdf",
-      "sourceUrl": "https://lib.semnan.ac.ir/uploads/19/2021/Jul/04/final_english_database980215.pdf",
-      "parentUrl": "https://lib.semnan.ac.ir/",
-      "sha256": "b9c36ad1603bbe2f73fc2bb1f48db628ad165c59c604d1c22fbd0f91c1d82125",
-      "fileName": "final_english_database980215.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 419895,
-      "archivePath": "semnan/8c05b0d3252b-final_english_database980215.pdf",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.9400000000000001
-    },
-    {
       "id": "semnan-discovery-document-8cb204d5cf96",
       "universitySlug": "semnan",
       "title": "بندهای الحاقیه به شیوه نامه اجرایی اعطای پژوهانه جامع دانشگاه سمنان",
@@ -4843,7 +3689,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2025/Aug/12/%D8%A8%D9%86%D8%AF%D9%87%D8%A7%DB%8C%20%D8%A7%D9%84%D8%AD%D8%A7%D9%82%DB%8C%D9%87%20%D8%A8%D9%87%20%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87%20%D8%AC%D8%A7%D9%85%D8%B9%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2025/Aug/12/%D8%A8%D9%86%D8%AF%D9%87%D8%A7%DB%8C%20%D8%A7%D9%84%D8%AD%D8%A7%D9%82%DB%8C%D9%87%20%D8%A8%D9%87%20%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87%20%D8%AC%D8%A7%D9%85%D8%B9%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%B3%D9%85%D9%86%D8%A7%D9%86.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4883,7 +3729,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2022/Apr/04/%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%B1%DB%8C%D8%A7%D9%84%DB%8C.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2022/Apr/04/%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%B1%DB%8C%D8%A7%D9%84%DB%8C.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4902,7 +3748,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/taghvim_daneshkadeh_61682.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/taghvim_daneshkadeh_61682.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4921,7 +3767,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/taghvim_daneshkadeh_61683.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/taghvim_daneshkadeh_61683.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4940,7 +3786,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/shiva_name_90_45123.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/shiva_name_90_45123.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4959,7 +3805,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2023/Jul/09/postdoc.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2023/Jul/09/postdoc.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4978,7 +3824,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/shive_name_center_lab_62008.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/shive_name_center_lab_62008.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -4997,7 +3843,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/shive_name_tashvigh_59388.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/shive_name_tashvigh_59388.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5016,7 +3862,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/kargargah_marjaeyat_malekiyat_fekri_18589.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/kargargah_marjaeyat_malekiyat_fekri_18589.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5035,7 +3881,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/eslahiye_dovom_89_45125.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/eslahiye_dovom_89_45125.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5054,7 +3900,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/eslahiy_aval_89_45124.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/eslahiy_aval_89_45124.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5073,7 +3919,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/ayin_name_89_45126.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/ayin_name_89_45126.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5092,7 +3938,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/form_hazineh_viraish_isi_scopus.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/form_hazineh_viraish_isi_scopus.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5111,7 +3957,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/form_hazineh_sabtenam_academic_conferance.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/form_hazineh_sabtenam_academic_conferance.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5130,7 +3976,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/form_hazineh_sabtenam_kargah_daneshjoyan_3.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/form_hazineh_sabtenam_kargah_daneshjoyan_3.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5149,7 +3995,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%A2%D9%85%D8%A7%D8%AF%D9%87%20%D8%B3%D8%A7%D8%B2%DB%8C%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%DA%86%D8%A7%D9%BE%20%D8%B4%D8%AF%D9%87%20%D8%AF%D8%B1%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%A2%D9%85%D8%A7%D8%AF%D9%87%20%D8%B3%D8%A7%D8%B2%DB%8C%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%DA%86%D8%A7%D9%BE%20%D8%B4%D8%AF%D9%87%20%D8%AF%D8%B1%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5168,7 +4014,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/Ayin_name_dastyar_pajhooheshi_59850.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/Ayin_name_dastyar_pajhooheshi_59850.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5187,7 +4033,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/form_pardakht_hazineh_sabt_ekhtera_14968.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/form_pardakht_hazineh_sabt_ekhtera_14968.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5206,7 +4052,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2022/Mar/06/%D9%81%D8%B1%D9%85%20%D8%A8%D8%A7%D8%B2%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AB%D8%A8%D8%AA%20%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2022/Mar/06/%D9%81%D8%B1%D9%85%20%D8%A8%D8%A7%D8%B2%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AB%D8%A8%D8%AA%20%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5225,7 +4071,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/1_281_3-5___8525.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/1_281_3-5___8525.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5244,7 +4090,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/1_281_3-5___8526.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/1_281_3-5___8526.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5263,7 +4109,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/Ayin_nameh_grant_3_9_1392_14082.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/06/Ayin_nameh_grant_3_9_1392_14082.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5282,7 +4128,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/Copy_of_Discontinued-sources-from-Scopus_57983_1.xls",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/Copy_of_Discontinued-sources-from-Scopus_57983_1.xls",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5301,7 +4147,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/black_list_2015_39872.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/black_list_2015_39872.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5320,7 +4166,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/Ordibehesht_98_57986.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/Ordibehesht_98_57986.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5339,7 +4185,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/MIF_2010_JCR_Science_8068.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/MIF_2010_JCR_Science_8068.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5358,7 +4204,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/MIF_2010_JCR_Science_8067.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/MIF_2010_JCR_Science_8067.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5377,7 +4223,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/Job_Certification_request_Form_38605.docx",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/Job_Certification_request_Form_38605.docx",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5396,7 +4242,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/form_darkhast_sherkat_student_24876.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/form_darkhast_sherkat_student_24876.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5415,7 +4261,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/form_darkhast_sherkat_student2_24877.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/form_darkhast_sherkat_student2_24877.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5434,7 +4280,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/ayinnameh_nahve_bargozari_hamayesh_20442.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/ayinnameh_nahve_bargozari_hamayesh_20442.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5453,7 +4299,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/request_participation_in_conference_61735.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/request_participation_in_conference_61735.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5472,7 +4318,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/request_for_participation_in_conference_38603.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/request_for_participation_in_conference_38603.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5491,7 +4337,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/Form_using_lab_62432.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/Form_using_lab_62432.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5510,7 +4356,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/Form_using_lab_62433.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/Form_using_lab_62433.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5529,7 +4375,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/haghotadris_60553.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/haghotadris_60553.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5548,7 +4394,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/form_haghotadris_60549.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/09/form_haghotadris_60549.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5567,7 +4413,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2021/Apr/04/%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C.docx",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2021/Apr/04/%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C.docx",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5586,7 +4432,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2021/Apr/04/%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2021/Apr/04/%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5605,7 +4451,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2021/Apr/04/%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C_1.docx",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2021/Apr/04/%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C_1.docx",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5624,7 +4470,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2021/Apr/04/%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C_1.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2021/Apr/04/%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C_1.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5643,7 +4489,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/rezome_8360.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/rezome_8360.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5662,7 +4508,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/rezome_8356.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/rezome_8356.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5681,7 +4527,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/form_darkhast_bargozari_8359.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/form_darkhast_bargozari_8359.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5700,7 +4546,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/form_darkhast_bargozari_8357.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/form_darkhast_bargozari_8357.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5719,7 +4565,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/form_arzeshyabi_gozaresh_tarh_8321.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/form_arzeshyabi_gozaresh_tarh_8321.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5738,7 +4584,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/form_arzeshyabi_gozaresh_tarh_8320.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/form_arzeshyabi_gozaresh_tarh_8320.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5757,7 +4603,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/tafahom_name_8372.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/tafahom_name_8372.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5776,7 +4622,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/tashvaighe_nevisandegan_maghalat_20441.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/tashvaighe_nevisandegan_maghalat_20441.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5795,7 +4641,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/darkhast_elmi_tarviji_8328.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/darkhast_elmi_tarviji_8328.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5814,7 +4660,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/darkhast_elmi_tarvij_8327.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/darkhast_elmi_tarvij_8327.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5833,7 +4679,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/darkhast_elmi_pashoheshi_8330.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/darkhast_elmi_pashoheshi_8330.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5852,7 +4698,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/darkhast_elmi_pajoheshi_8329.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/darkhast_elmi_pajoheshi_8329.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5871,7 +4717,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/porseshname_modir_masool_1__13704.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/porseshname_modir_masool_1__13704.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5890,7 +4736,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/porseshname_modir_masool_1__13703.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/porseshname_modir_masool_1__13703.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5909,7 +4755,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/porseshname_sardabir_2_10870.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/porseshname_sardabir_2_10870.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5928,7 +4774,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/porseshname_sardabir__8334_10871.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/porseshname_sardabir__8334_10871.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5947,7 +4793,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/porseshname_heiat_tahririye_2_10872.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/porseshname_heiat_tahririye_2_10872.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5966,7 +4812,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/porseshname_heiat_tahririye_2_10875.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/porseshname_heiat_tahririye_2_10875.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -5985,7 +4831,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/forme_arzyabi_nashriyat_8337.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/forme_arzyabi_nashriyat_8337.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -6004,7 +4850,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/aeen_name_taeen_etebar_nashriye_8361.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/aeen_name_taeen_etebar_nashriye_8361.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -6023,7 +4869,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/gharardad_chap_ketab_8496.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/gharardad_chap_ketab_8496.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -6042,7 +4888,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/gharardad_chap_ketab_8497.doc",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/gharardad_chap_ketab_8497.doc",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -6061,7 +4907,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/form_arzeshyabi_ketab_tarjome_8493.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/form_arzeshyabi_ketab_tarjome_8493.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -6080,7 +4926,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/form_arzeshyabi_ketab_talif_8492.pdf",
       "sourceUrl": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/form_arzeshyabi_ketab_talif_8492.pdf",
       "parentUrl": "https://research.semnan.ac.ir/getformes",
@@ -6099,7 +4945,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://sustp.semnan.ac.ir/uploads/17/2023/Sep/25/%D9%81%D8%B1%D9%85%20%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87.docx",
       "sourceUrl": "https://sustp.semnan.ac.ir/uploads/17/2023/Sep/25/%D9%81%D8%B1%D9%85%20%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87.docx",
       "parentUrl": "https://sustp.semnan.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%A8%D9%88%D8%B7%D9%87",
@@ -6118,7 +4964,7 @@
       "taxonomy": "grants/funding",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://sustp.semnan.ac.ir/uploads/17/2023/Sep/25/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87.pdf",
       "sourceUrl": "https://sustp.semnan.ac.ir/uploads/17/2023/Sep/25/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87.pdf",
       "parentUrl": "https://sustp.semnan.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%DB%8C",
@@ -6137,12 +4983,50 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.semnan.ac.ir/startup",
       "sourceUrl": "https://research.semnan.ac.ir/startup",
       "parentUrl": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.88
+    },
+    {
+      "id": "semnan-discovery-document-3d3300bcef4b",
+      "universitySlug": "semnan",
+      "title": "فرم ها فرم استفاده از آزمایشگاه مرکزی فرم استفاده از آزمایشگاه مرکزی فرم تعهد تجهیزات فرم تعهد تجهیزات",
+      "type": "سند",
+      "topic": "آزمایشگاه",
+      "taxonomy": "laboratory",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://centrallab.semnan.ac.ir/agreement.pdf",
+      "sourceUrl": "https://centrallab.semnan.ac.ir/agreement.pdf",
+      "parentUrl": "https://centrallab.semnan.ac.ir/",
+      "fileName": "agreement.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 56809,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "semnan-discovery-document-a035e6829396",
+      "universitySlug": "semnan",
+      "title": "فرم ها فرم استفاده از آزمایشگاه مرکزی فرم استفاده از آزمایشگاه مرکزی فرم تعهد تجهیزات فرم تعهد تجهیزات",
+      "type": "سند",
+      "topic": "آزمایشگاه",
+      "taxonomy": "laboratory",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://centrallab.semnan.ac.ir/agreement.docx",
+      "sourceUrl": "https://centrallab.semnan.ac.ir/agreement.docx",
+      "parentUrl": "https://centrallab.semnan.ac.ir/",
+      "fileName": "agreement.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 12191,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
     }
   ],
   "interpretation": {

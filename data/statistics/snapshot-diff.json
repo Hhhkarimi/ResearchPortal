@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0.0",
+  "fromSnapshot": "2026-08-11",
+  "toSnapshot": "2026-08-12",
+  "methodologyChanged": true,
+  "methodology": {
+    "before": "RTPMI-4.1-ISC",
+    "after": "RTPMI-4.2-ISC"
+  },
+  "totals": {
+    "directOfficialPortals": {
+      "before": 98,
+      "after": 98,
+      "delta": 0
+    },
+    "documents": {
+      "before": 6671,
+      "after": 4862,
+      "delta": -1809
+    },
+    "evidenceCoverageAverage": {
+      "before": 63.4,
+      "after": 63,
+      "delta": -0.4
+    },
+    "ranked": {
+      "before": 82,
+      "after": 79,
+      "delta": -3
+    }
+  },
+  "newDirectPortals": [],
+  "addedDocuments": 0,
+  "improvedEvidenceInstitutions": 0,
+  "brokenLinksDetected": 604,
+  "rankingChanges": 39,
+  "highlights": {
+    "improvedEvidence": [],
+    "scoreChanges": [
+      {
+        "universitySlug": "qom-technology",
+        "nameFa": "دانشگاه صنعتی قم",
+        "before": 77,
+        "after": 61.1,
+        "delta": -15.9
+      },
+      {
+        "universitySlug": "amirkabir",
+        "nameFa": "دانشگاه صنعتی امیرکبیر",
+        "before": 89.3,
+        "after": 76.7,
+        "delta": -12.6
+      },
+      {
+        "universitySlug": "tehran",
+        "nameFa": "دانشگاه تهران",
+        "before": 85.1,
+        "after": 74.1,
+        "delta": -11
+      },
+      {
+        "universitySlug": "iust",
+        "nameFa": "دانشگاه علم و صنعت ایران",
+        "before": 89.9,
+        "after": 80.6,
+        "delta": -9.3
+      },
+      {
+        "universitySlug": "kharazmi",
+        "nameFa": "دانشگاه خوارزمی",
+        "before": 83.5,
+        "after": 74.9,
+        "delta": -8.6
+      }
+    ],
+    "brokenLinks": [
+      "https://res.modares.ac.ir/",
+      "https://news.modares.ac.ir/res-news-list",
+      "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%B1%D8%A7%D8%A6%D9%87%20%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF%20%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D8%AF%D8%B1%20%D9%86%D8%B4%D8%B3%D8%AA%20%D8%B4%D9%88%D8%B1%D8%A7%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
+      "https://news.modares.ac.ir/res-news-list/%D8%AA%D9%88%D8%B3%D8%B9%D9%87%20%D8%B2%DB%8C%D8%B1%D8%B3%D8%A7%D8%AE%D8%AA%E2%80%8C%D9%87%D8%A7%20%D9%88%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86%D8%8C%20%D8%A7%D9%88%D9%84%D9%88%DB%8C%D8%AA%20%D9%85%D9%87%D9%85%20%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B3%D8%AA",
+      "https://news.modares.ac.ir/res-news-list/%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C%20%D8%A8%DB%8C%D8%B3%D8%AA%20%D9%88%20%D9%BE%D9%86%D8%AC%D9%85%DB%8C%D9%86%20%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87"
+    ]
+  },
+  "interpretation": "RTPMI methodology changed between snapshots; score deltas are a rebaseline, not a pure performance change."
+}

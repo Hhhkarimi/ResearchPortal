@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "10.0.0",
+  "schemaVersion": "11.0.0",
   "snapshotDate": "2026-08-12",
   "institution": {
     "category": "جامع",
@@ -85,7 +85,7 @@
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
       "lastRun": "2026-08-13",
-      "promotedSources": 181,
+      "promotedSources": 175,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -173,7 +173,7 @@
     "auditEvidenceCoverage": 100,
     "unitsFound": 30,
     "systemsFound": 12,
-    "documentsFound": 114,
+    "documentsFound": 116,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 87,
+      "sourceCount": 91,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
@@ -537,9 +537,10 @@
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2024/Nov/26/%D9%81%D8%B1%D9%85%20%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%AB%D8%A8%D8%AA%20%D9%86%D8%A7%D9%85%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%B1%20%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "فرم ها فرم هزینه ثبت نام اعضای هیات علمی در کارگاه های تخصصی معتبر داخلی(جدید) اعضای هیات علمی پژوهانه 1398/11/17 فرم هزینه ثبت نام اعضای هیات علمی در کارگاه های تخصصی معتبر داخلی(جدید)",
+          "id": null,
+          "sourceLabel": "فرم ها فرم هزینه ثبت نام اعضای هیات علمی در کارگاه های تخصصی معتبر داخلی(جدید) اعضای هیات علمی پژوهانه 1398/11/17 فرم هزینه ثبت نام اعضای هیات علمی در کارگاه های تخصصی معتبر داخلی(جدید)"
         },
         {
           "url": "https://research.semnan.ac.ir/uploads/7/2020/Dec/26/%D9%86%D9%85%D9%88%D9%86%D9%87%20%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87%20%D8%B3%D8%A7%D9%84%201399.pdf",
@@ -735,6 +736,34 @@
           "claim": "آیین نامه و دستورالعمل ها اصلاحیه شماره یک آیین نامه فرصت مطالعاتی مورخ 89.6.30 اعضای هیات علمی فرصت مطالعاتی 1398/11/19",
           "id": null,
           "sourceLabel": "آیین نامه و دستورالعمل ها اصلاحیه شماره یک آیین نامه فرصت مطالعاتی مورخ 89.6.30 اعضای هیات علمی فرصت مطالعاتی 1398/11/19"
+        },
+        {
+          "url": "https://research.semnan.ac.ir/uploads/7/2020/Feb/08/ayin_name_89_45126.pdf",
+          "kind": "research-review-specific",
+          "claim": "آیین نامه و دستورالعمل ها آيين نامه فرصت مطالعاتی مورخ 89.6.30 اعضای هیات علمی فرصت مطالعاتي 1398/11/19",
+          "id": null,
+          "sourceLabel": "آیین نامه و دستورالعمل ها آيين نامه فرصت مطالعاتی مورخ 89.6.30 اعضای هیات علمی فرصت مطالعاتي 1398/11/19"
+        },
+        {
+          "url": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/form_hazineh_viraish_isi_scopus.pdf",
+          "kind": "research-review-specific",
+          "claim": "فرم ها فرم هزینه ویرایش مقالات انگلیسی چاپ شده در نشریات ISI و Scopus اعضای هیات علمی پژوهانه 1399/9/19",
+          "id": null,
+          "sourceLabel": "فرم ها فرم هزینه ویرایش مقالات انگلیسی چاپ شده در نشریات ISI و Scopus اعضای هیات علمی پژوهانه 1399/9/19"
+        },
+        {
+          "url": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/form_hazineh_sabtenam_academic_conferance.pdf",
+          "kind": "research-review-specific",
+          "claim": "فرم ها فرم هزینه ثبت نام اعضای هیأت علمی در کنفرانس های معتبر داخلی با ارائه مقاله (جدید) اعضای هیات علمی پژوهانه 1398/11/17",
+          "id": null,
+          "sourceLabel": "فرم ها فرم هزینه ثبت نام اعضای هیأت علمی در کنفرانس های معتبر داخلی با ارائه مقاله (جدید) اعضای هیات علمی پژوهانه 1398/11/17"
+        },
+        {
+          "url": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/form_hazineh_sabtenam_kargah_daneshjoyan_3.pdf",
+          "kind": "research-review-specific",
+          "claim": "فرم ها فرم هزینه ثبت نام دانشجویان تحصیات تکمیلی در کنفرانس های معتبر و کارگاه های تخصصی داخلی(جدید) دانشجویان پژوهانه 1398/11/17",
+          "id": null,
+          "sourceLabel": "فرم ها فرم هزینه ثبت نام دانشجویان تحصیات تکمیلی در کنفرانس های معتبر و کارگاه های تخصصی داخلی(جدید) دانشجویان پژوهانه 1398/11/17"
         }
       ],
       "publicationAdjustment": null,
@@ -1410,7 +1439,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 7,
+      "sourceCount": 8,
       "sources": [
         {
           "url": "https://research.semnan.ac.ir/",
@@ -1458,6 +1487,13 @@
           "claim": "آیین نامه و دستورالعمل ها شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی اعضای هیات علمی شیوه نامه 1404/5/21 شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی",
           "id": null,
           "sourceLabel": "آیین نامه و دستورالعمل ها شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی اعضای هیات علمی شیوه نامه 1404/5/21 شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر ملی و بین المللی"
+        },
+        {
+          "url": "https://research.semnan.ac.ir/uploads/7/2022/Jan/18/form_hazineh_viraish_isi_scopus.pdf",
+          "kind": "research-review-specific",
+          "claim": "فرم ها فرم هزینه ویرایش مقالات انگلیسی چاپ شده در نشریات ISI و Scopus اعضای هیات علمی پژوهانه 1399/9/19",
+          "id": null,
+          "sourceLabel": "فرم ها فرم هزینه ویرایش مقالات انگلیسی چاپ شده در نشریات ISI و Scopus اعضای هیات علمی پژوهانه 1399/9/19"
         }
       ],
       "publicationAdjustment": null,
@@ -2271,7 +2307,7 @@
     },
     "units": 30,
     "systems": 12,
-    "documents": 114,
+    "documents": 116,
     "activeWeight": 100,
     "evidenceCoverage": 100,
     "methodologyVersion": "RTPMI-4.2-ISC",
@@ -4953,6 +4989,44 @@
       "parentUrl": "https://research.semnan.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.88
+    },
+    {
+      "id": "semnan-discovery-document-3d3300bcef4b",
+      "universitySlug": "semnan",
+      "title": "فرم ها فرم استفاده از آزمایشگاه مرکزی فرم استفاده از آزمایشگاه مرکزی فرم تعهد تجهیزات فرم تعهد تجهیزات",
+      "type": "سند",
+      "topic": "آزمایشگاه",
+      "taxonomy": "laboratory",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://centrallab.semnan.ac.ir/agreement.pdf",
+      "sourceUrl": "https://centrallab.semnan.ac.ir/agreement.pdf",
+      "parentUrl": "https://centrallab.semnan.ac.ir/",
+      "fileName": "agreement.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 56809,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
+    },
+    {
+      "id": "semnan-discovery-document-a035e6829396",
+      "universitySlug": "semnan",
+      "title": "فرم ها فرم استفاده از آزمایشگاه مرکزی فرم استفاده از آزمایشگاه مرکزی فرم تعهد تجهیزات فرم تعهد تجهیزات",
+      "type": "سند",
+      "topic": "آزمایشگاه",
+      "taxonomy": "laboratory",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-13",
+      "url": "https://centrallab.semnan.ac.ir/agreement.docx",
+      "sourceUrl": "https://centrallab.semnan.ac.ir/agreement.docx",
+      "parentUrl": "https://centrallab.semnan.ac.ir/",
+      "fileName": "agreement.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 12191,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99
     }
   ],
   "interpretation": {

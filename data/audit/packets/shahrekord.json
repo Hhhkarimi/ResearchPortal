@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "10.0.0",
+  "schemaVersion": "11.0.0",
   "snapshotDate": "2026-08-12",
   "institution": {
     "category": "جامع",
@@ -77,13 +77,14 @@
       "https://journals.sku.ac.ir/contact.us",
       "https://journals.sku.ac.ir/rss",
       "https://sku.ac.ir/File/31441/manshoor-va-mavazine-akhlagh-dar-pajoohesh",
-      "https://sku.ac.ir/File/31442/rahnamaye-moraghebat"
+      "https://sku.ac.ir/File/31442/rahnamaye-moraghebat",
+      "https://www.sku.ac.ir/File/25640/flochrat"
     ],
     "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-13",
-      "promotedSources": 70,
+      "promotedSources": 69,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -154,7 +155,8 @@
       "https://journals.sku.ac.ir/contact.us",
       "https://journals.sku.ac.ir/rss",
       "https://sku.ac.ir/File/31441/manshoor-va-mavazine-akhlagh-dar-pajoohesh",
-      "https://sku.ac.ir/File/31442/rahnamaye-moraghebat"
+      "https://sku.ac.ir/File/31442/rahnamaye-moraghebat",
+      "https://www.sku.ac.ir/File/25640/flochrat"
     ],
     "deepAuditStatus": "deep-audited",
     "dimensions": {
@@ -185,7 +187,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-13",
-      "sourceCount": 58,
+      "sourceCount": 59,
       "sources": [
         {
           "url": "https://www.sku.ac.ir/Vice-President/research",
@@ -531,6 +533,12 @@
         },
         {
           "url": "https://sku.ac.ir/File/31442/rahnamaye-moraghebat",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
+        },
+        {
+          "url": "https://www.sku.ac.ir/File/25640/flochrat",
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null

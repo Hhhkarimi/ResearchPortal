@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "10.0.0",
-  "snapshotDate": "2026-08-11",
+  "schemaVersion": "11.0.0",
+  "snapshotDate": "2026-08-12",
   "institution": {
     "category": "جامع",
     "iscRank": 36,
@@ -16,7 +16,7 @@
     "nameFa": "دانشگاه لرستان",
     "iscCategory": "جامع",
     "iscRank": 36,
-    "auditDate": "2026-08-12",
+    "auditDate": "2026-08-13",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.lu.ac.ir/",
     "evidenceUrls": [
@@ -84,17 +84,18 @@
     "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
-      "lastRun": "2026-08-12",
-      "promotedSources": 158,
+      "lastRun": "2026-08-13",
+      "promotedSources": 157,
       "socialEvidenceRemoved": true
-    }
+    },
+    "observedSignals": []
   },
   "deepAudit": {
     "universitySlug": "lorestan",
     "nameFa": "دانشگاه لرستان",
     "iscCategory": "جامع",
     "iscRank": 36,
-    "auditDate": "2026-08-11",
+    "auditDate": "2026-08-12",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.lu.ac.ir/",
     "evidenceUrls": [
@@ -166,14 +167,13 @@
       "libraryDocuments": "verified",
       "laboratories": "verified",
       "industryTechnology": "verified",
-      "informationTechnology": "verified",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
     "auditEvidenceCoverage": 100,
-    "unitsFound": 24,
+    "unitsFound": 23,
     "systemsFound": 11,
-    "documentsFound": 96,
+    "documentsFound": 95,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -188,8 +188,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 94,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 93,
       "sources": [
         {
           "url": "https://research.lu.ac.ir/",
@@ -199,98 +199,98 @@
         },
         {
           "url": "https://research.lu.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%84%D8%B1%D8%B3%D8%AA%D8%A7%D9%86/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/research-and-technology-deputy-announcements/view-professors-research-grant-in-golestan-system/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/2022/01/03/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%84%D8%B1%D8%B3%D8%AA%D8%A7%D9%86/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/2015/01/06/%D8%AC%D9%84%D8%B3%D9%87-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D9%88%D8%B6%D8%B9%DB%8C%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%88-%D9%85%D9%88%D8%B6%D9%88%D8%B9-%D8%B4%D8%A7%D8%B9%D8%A7/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D8%B3%D9%86%DA%AF%DB%8C%D9%86/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%DA%AF%D8%B1%D9%86%D8%AA-%D8%AA%D9%88%D8%B3%D8%B7-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3-%D9%88-%D9%85%D8%AF%DB%8C%D8%B1/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%DA%AF%D8%B1%D9%86%D8%AA-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%A7%D8%B6%D8%A7%D9%81%D9%87-%DA%A9%D8%B1%D8%AF%D9%86-%D9%84%DB%8C%D9%86%DA%A9-%D8%B5%D9%81%D8%AD%D9%87-%D8%A7%D8%B3%DA%A9%D9%88%D9%84%D8%A7%D8%B1-%D8%A8%D9%87-%D8%B5%D9%81%D8%AD%D9%87-%D8%B4%D8%AE%D8%B5%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%D8%B5%D9%81%D8%AD%D9%87-%DA%AF%D9%88%DA%AF%D9%84-%D8%A7%D8%B3%DA%A9%D9%88%D9%84%D8%A7%D8%B1/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/2022/06/14/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D8%B3%D9%86%DA%AF%DB%8C%D9%86/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/2022/06/14/%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/research-council-resolutions/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/research-and-technology-deputy-announcements/guidelines-for-requesting-use-of-lorestan-university-central-laboratory-services/",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
@@ -391,15 +391,17 @@
         },
         {
           "url": "https://research.lu.ac.ir/documents/792/shevenameh_ertegha.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه اجرایی آیین نامه ارتقا 2.4 MB",
+          "id": null,
+          "sourceLabel": "شیوه نامه اجرایی آیین نامه ارتقا 2.4 MB"
         },
         {
           "url": "https://research.lu.ac.ir/documents/827/aeen_nameh_chap_payan_nameh_1395.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "آیین نامه چاپ پایان نامه دانشجویی 78.5 KB",
+          "id": null,
+          "sourceLabel": "آیین نامه چاپ پایان نامه دانشجویی 78.5 KB"
         },
         {
           "url": "https://research.lu.ac.ir/documents/1145/%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87_%D9%86%D8%AD%D9%88%D9%87_%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%D9%8A_%D9%87%D9%85%D8%A7%D9%8A%D8%B4_%D9%87%D8%A7%D9%8A_%D8%B9%D9%84%D9%85%D9%8A_907.pdf",
@@ -409,9 +411,10 @@
         },
         {
           "url": "https://research.lu.ac.ir/documents/788/%D9%81%D8%B1%D9%85_%D9%87%D8%A7%DB%8C_%D8%B3%D9%81%D8%B1_%D8%B9%D9%84%D9%85%DB%8C_%D8%AE%D8%A7%D8%B1%D8%AC_%D8%A7%D8%B2_%DA%A9%D8%B4%D9%88%D8%B1_862.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "فرم های سفر علمی خارج از کشور 135.4 KB",
+          "id": null,
+          "sourceLabel": "فرم های سفر علمی خارج از کشور 135.4 KB"
         },
         {
           "url": "https://research.lu.ac.ir/documents/1167/%D8%A7%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87_%D9%88%D8%B2%D8%A7%D8%B1%D8%AA_914.pdf",
@@ -439,15 +442,17 @@
         },
         {
           "url": "https://research.lu.ac.ir/documents/4255/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%D8%A8%D9%87_%DA%A9%D8%B1%D8%B3%DB%8C_%D9%87%D8%A7%DB%8C_%D8%B9%D9%84%D9%85%DB%8C_1.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه امتیازدهی به کرسی های علمی 28.6 KB",
+          "id": null,
+          "sourceLabel": "شیوه نامه امتیازدهی به کرسی های علمی 28.6 KB"
         },
         {
           "url": "https://research.lu.ac.ir/documents/3989/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C_%D8%A7%D8%AB%D8%B1%D8%A8%D8%AE%D8%B4%DB%8C_%D9%85%D9%84%DB%8C_%D8%B7%D8%B1%D8%AD_%D9%87%D8%A7%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D9%84%D8%B1%D8%B3%D8%AA%D8%A7%D9%86.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "Guidelines for Evaluating the National Effectiveness of Applied Research Projects at Lorestan University 228.0 KB",
+          "id": null,
+          "sourceLabel": "Guidelines for Evaluating the National Effectiveness of Applied Research Projects at Lorestan University 228.0 KB"
         },
         {
           "url": "https://research.lu.ac.ir/documents/4256/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%D8%A8%D9%87_%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA.pdf",
@@ -517,21 +522,24 @@
         },
         {
           "url": "https://research.lu.ac.ir/documents/801/%D8%B4%DB%8C%D9%88%D9%87_%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C_%D9%85%D8%AC%D9%84%D8%A7%D8%AA.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه ارزیابی نشریات علمی، وزارت (جدید) سال ۱۳۹۸ 2.1 MB",
+          "id": null,
+          "sourceLabel": "شیوه نامه ارزیابی نشریات علمی، وزارت (جدید) سال ۱۳۹۸ 2.1 MB"
         },
         {
           "url": "https://research.lu.ac.ir/documents/802/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C.%D8%B3%D8%A7%D9%84_98.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "آیین نامه ایجادنشریات علمی ، وزارت(جدید)سال ۱۳۹۸ 2.0 MB",
+          "id": null,
+          "sourceLabel": "آیین نامه ایجادنشریات علمی ، وزارت(جدید)سال ۱۳۹۸ 2.0 MB"
         },
         {
           "url": "https://research.lu.ac.ir/documents/803/haghozameye_modiran_va_avamel_majaleh.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "شیوه نامه اجرایی مجلات علمی دانشگاه لرستان موضوع حق الزحمه مدیران و عوامل مجلات علمی 146.0 KB",
+          "id": null,
+          "sourceLabel": "شیوه نامه اجرایی مجلات علمی دانشگاه لرستان موضوع حق الزحمه مدیران و عوامل مجلات علمی 146.0 KB"
         },
         {
           "url": "https://research.lu.ac.ir/documents/809/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D8%AC%D8%AF%DB%8C%D8%AF_%D8%AA%D8%B9%DB%8C%DB%8C%D9%86_%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1__881.pdf",
@@ -541,9 +549,10 @@
         },
         {
           "url": "https://research.lu.ac.ir/documents/3147/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%DA%A9%D8%AA%D8%A8_14000216.pdf",
-          "kind": "portal-identity",
-          "claim": "official portal identity evidence",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "آیین نامه فرایند امتیازدهی کتب 14000216 938.8 KB",
+          "id": null,
+          "sourceLabel": "آیین نامه فرایند امتیازدهی کتب 14000216 938.8 KB"
         },
         {
           "url": "https://research.lu.ac.ir/documents/3145/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA_%D8%A7%D8%B5%D9%84%D8%A7%D8%AD_%D8%B4%D8%AF%D9%8714010207.pdf",
@@ -685,13 +694,6 @@
           "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
         },
         {
-          "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA/",
-          "kind": "research-review-specific",
-          "claim": "فناوری اطلاعات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "فناوری اطلاعات — کشف خودکار"
-        },
-        {
           "url": "https://research.lu.ac.ir/documents/4023/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%DA%A9%D9%85%DB%8C%D8%AA%D9%87_%D9%87%D8%A7%DB%8C_%D8%A7%D8%AE%D9%84%D8%A7%D9%82_tQcRR1o_Mr7vIB4.pdf",
           "kind": "research-review-specific",
           "claim": "دستورالعمل کمیته های اخلاق 2.2 MB",
@@ -797,224 +799,169 @@
       "status": "unresolved",
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 32,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 31,
       "sources": [
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/2015/01/06/%D8%AC%D9%84%D8%B3%D9%87-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D9%88%D8%B6%D8%B9%DB%8C%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%88-%D9%85%D9%88%D8%B6%D9%88%D8%B9-%D8%B4%D8%A7%D8%B9%D8%A7/",
           "kind": "unit",
           "claim": "جلسه بررسی وضعیت آزمایشگاه های دانشگاه و موضوع شاعا | اطلاعیه های معاونت پژوهش و فناوری",
           "id": "lorestan-discovery-unit-laboratory-9f039ef1fd5d",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/",
           "kind": "unit",
           "claim": "دانشگاه لرستان راهنمای سامانه های کتابخانه مرکزی",
           "id": "lorestan-discovery-unit-library-46f147e1eb8c",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%84%D8%B1%D8%B3%D8%AA%D8%A7%D9%86/",
           "kind": "unit",
           "claim": "راهنمای درخواست استفاده از خدمات آزمایشگاه مرکزی دانشگاه لرستان | اطلاعیه های معاونت پژوهش و فناوری",
           "id": "lorestan-discovery-unit-laboratory-a7d1241b0056",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/research-and-technology-deputy-announcements/guidelines-for-requesting-use-of-lorestan-university-central-laboratory-services/",
           "kind": "unit",
           "claim": "Guidelines for Requesting Use of Lorestan University Central Laboratory Services | Research and Technology Deputy Announcements",
           "id": "lorestan-discovery-unit-laboratory-3fa40ec3e358",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/2022/01/03/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%84%D8%B1%D8%B3%D8%AA%D8%A7%D9%86/",
           "kind": "unit",
           "claim": "راهنمای درخواست استفاده از خدمات آزمایشگاه مرکزی دانشگاه لرستان | اطلاعیه های معاونت پژوهش و فناوری",
           "id": "lorestan-discovery-unit-laboratory-5692fdbf7854",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/",
           "kind": "unit",
           "claim": "دانشگاه لرستان آئین نامه و فرم های مجلات علمی",
           "id": "lorestan-discovery-unit-library-94be6d3f5f19",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-publications/regulations-and-forms-of-scientific-journals-1/",
           "kind": "unit",
           "claim": "Lorestan University Regulations and Forms of Scientific Journals",
           "id": "lorestan-discovery-unit-library-9e338d68159f",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D8%B3%D9%86%DA%AF%DB%8C%D9%86/",
           "kind": "unit",
           "claim": "راهنمای درخواست از سامانه گلستان برای استفاده از آزمایشگاه محاسبات سنگین | اطلاعیه های معاونت پژوهش و فناوری",
           "id": "lorestan-discovery-unit-laboratory-c1f356dd696c",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/2022/06/14/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D8%B3%D9%86%DA%AF%DB%8C%D9%86/",
           "kind": "unit",
           "claim": "راهنمای درخواست از سامانه گلستان برای استفاده از آزمایشگاه محاسبات سنگین | اطلاعیه های معاونت پژوهش و فناوری",
           "id": "lorestan-discovery-unit-laboratory-e3419ded10c1",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/",
           "kind": "unit",
           "claim": "دانشگاه لرستان آئین نامه و فرم های مجلات علمی",
           "id": "lorestan-discovery-unit-library-0c4bffedcd43",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
           "kind": "unit",
           "claim": "دانشگاه لرستان معرفی معاونت پژوهش و فناوری",
           "id": "lorestan-discovery-unit-research-9c94c3988fb4",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "research"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/regulations-and-forms-of-scientific-journals/",
           "kind": "unit",
           "claim": "Lorestan University Regulations and Forms of Scientific Journals",
           "id": "lorestan-discovery-unit-library-b0588dcde262",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87/",
           "kind": "unit",
           "claim": "دانشگاه لرستان کتابخانه مرکزی",
           "id": "lorestan-discovery-unit-library-76324e1e6734",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-library/central-library-systems-guide/",
           "kind": "unit",
           "claim": "Lorestan University Central Library Systems Guide",
           "id": "lorestan-discovery-unit-library-9c72be4bd30e",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/",
           "kind": "unit",
           "claim": "دانشگاه لرستان آزمایشگاه مرکزی",
           "id": "lorestan-discovery-unit-laboratory-234f1dadece6",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://industry.lu.ac.ir/",
           "kind": "unit",
           "claim": "دانشگاه لرستان مدیریت ارتباط با جامعه و صنعت",
           "id": "lorestan-discovery-unit-industry-c7209ad2ae68",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "industry"
         },
         {
           "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/",
           "kind": "unit",
           "claim": "دانشگاه لرستان انتشارات مرکزی",
           "id": "lorestan-discovery-unit-library-971e8cfaf620",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://industry.lu.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA/%DA%AF%D8%B1%D9%88%D9%87%D9%87%D8%A7%DB%8C-%D8%B2%DB%8C%D8%B1-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87/%DA%AF%D8%B1%D9%88%D9%87-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA/",
           "kind": "unit",
           "claim": "دانشگاه لرستان گروه ارتباط با صنعت",
           "id": "lorestan-discovery-unit-industry-5fcddec4ad12",
-          "unitType": "industry",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "industry"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-library/",
           "kind": "unit",
           "claim": "Lorestan University Central Library",
           "id": "lorestan-discovery-unit-library-70191e7fbfff",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-laboratory/",
           "kind": "unit",
           "claim": "Lorestan University Central Laboratory",
           "id": "lorestan-discovery-unit-laboratory-bf96b4221f97",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.lu.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA/%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4/",
           "kind": "unit",
           "claim": "دانشگاه لرستان کارکنان معاونت پژوهش",
           "id": "lorestan-discovery-unit-research-379410948c5c",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "research"
         },
         {
           "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/",
           "kind": "unit",
           "claim": "دانشگاه لرستان مدیریت امور پژوهشی",
           "id": "lorestan-discovery-unit-research-d07d1aaad9ca",
-          "unitType": "research",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "research"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-publications/",
           "kind": "unit",
           "claim": "Lorestan University Central Publications",
           "id": "lorestan-discovery-unit-library-8a2ffa4f6f78",
-          "unitType": "library",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA/",
-          "kind": "unit",
-          "claim": "دانشگاه لرستان مدیریت فناوری اطلاعات",
-          "id": "lorestan-discovery-unit-it-32fc9502090e",
-          "unitType": "it",
-          "relationStatus": "organizationally-attributed",
-          "relationshipEvidenceUrl": "https://research.lu.ac.ir/en/research-and-technology/"
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/research-affairs-management/",
@@ -1087,8 +1034,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 23,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 22,
       "sources": [
         {
           "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87/",
@@ -1098,9 +1045,10 @@
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-library/central-library-systems-guide/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "Lorestan University Central Library Systems Guide",
+          "id": "lorestan-discovery-unit-library-9c72be4bd30e",
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/",
@@ -1110,21 +1058,24 @@
         },
         {
           "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "دانشگاه لرستان آئین نامه و فرم های مجلات علمی",
+          "id": "lorestan-discovery-unit-library-94be6d3f5f19",
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "دانشگاه لرستان راهنمای سامانه های کتابخانه مرکزی",
+          "id": "lorestan-discovery-unit-library-46f147e1eb8c",
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-publications/regulations-and-forms-of-scientific-journals-1/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "Lorestan University Regulations and Forms of Scientific Journals",
+          "id": "lorestan-discovery-unit-library-9e338d68159f",
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-library/",
@@ -1134,9 +1085,10 @@
         },
         {
           "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "دانشگاه لرستان آئین نامه و فرم های مجلات علمی",
+          "id": "lorestan-discovery-unit-library-0c4bffedcd43",
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-publications/",
@@ -1146,16 +1098,10 @@
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/regulations-and-forms-of-scientific-journals/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://research.lu.ac.ir/",
-          "kind": "system",
-          "claim": "دانشگاه لرستان راهنمای سامانه های کتابخانه مرکزی",
-          "id": "lorestan-discovery-system-46f147e1eb8c",
-          "systemCategory": "library"
+          "kind": "unit",
+          "claim": "Lorestan University Regulations and Forms of Scientific Journals",
+          "id": "lorestan-discovery-unit-library-b0588dcde262",
+          "unitType": "library"
         },
         {
           "url": "https://research.lu.ac.ir/en/",
@@ -1249,7 +1195,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 14,
       "sources": [
         {
@@ -1269,54 +1215,42 @@
           "kind": "unit",
           "claim": "جلسه بررسی وضعیت آزمایشگاه های دانشگاه و موضوع شاعا | اطلاعیه های معاونت پژوهش و فناوری",
           "id": "lorestan-discovery-unit-laboratory-9f039ef1fd5d",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%84%D8%B1%D8%B3%D8%AA%D8%A7%D9%86/",
           "kind": "unit",
           "claim": "راهنمای درخواست استفاده از خدمات آزمایشگاه مرکزی دانشگاه لرستان | اطلاعیه های معاونت پژوهش و فناوری",
           "id": "lorestan-discovery-unit-laboratory-a7d1241b0056",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/research-and-technology-deputy-announcements/guidelines-for-requesting-use-of-lorestan-university-central-laboratory-services/",
           "kind": "unit",
           "claim": "Guidelines for Requesting Use of Lorestan University Central Laboratory Services | Research and Technology Deputy Announcements",
           "id": "lorestan-discovery-unit-laboratory-3fa40ec3e358",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/2022/01/03/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%84%D8%B1%D8%B3%D8%AA%D8%A7%D9%86/",
           "kind": "unit",
           "claim": "راهنمای درخواست استفاده از خدمات آزمایشگاه مرکزی دانشگاه لرستان | اطلاعیه های معاونت پژوهش و فناوری",
           "id": "lorestan-discovery-unit-laboratory-5692fdbf7854",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D8%B3%D9%86%DA%AF%DB%8C%D9%86/",
           "kind": "unit",
           "claim": "راهنمای درخواست از سامانه گلستان برای استفاده از آزمایشگاه محاسبات سنگین | اطلاعیه های معاونت پژوهش و فناوری",
           "id": "lorestan-discovery-unit-laboratory-c1f356dd696c",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/2022/06/14/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D8%B3%D9%86%DA%AF%DB%8C%D9%86/",
           "kind": "unit",
           "claim": "راهنمای درخواست از سامانه گلستان برای استفاده از آزمایشگاه محاسبات سنگین | اطلاعیه های معاونت پژوهش و فناوری",
           "id": "lorestan-discovery-unit-laboratory-e3419ded10c1",
-          "unitType": "laboratory",
-          "relationStatus": null,
-          "relationshipEvidenceUrl": null
+          "unitType": "laboratory"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/forms-and-regulations-2/",
@@ -1375,7 +1309,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
+      "reviewedAt": "2026-08-13",
       "sourceCount": 31,
       "sources": [
         {
@@ -1545,13 +1479,6 @@
           "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
         },
         {
-          "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA/",
-          "kind": "research-review-specific",
-          "claim": "فناوری اطلاعات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "فناوری اطلاعات — کشف خودکار"
-        },
-        {
           "url": "https://industry.lu.ac.ir/documents/4269/%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA_%D9%85%D9%88%D8%B1%D8%AF_%D9%86%DB%8C%D8%A7%D8%B2_%D8%AF%D9%88%D8%B1%D9%87_%D9%81%D8%B1%D8%B5%D8%AA_%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C_1.pdf",
           "kind": "research-review-specific",
           "claim": "مستندات مورد نیاز دوره فرصت مطالعاتی 384.7 KB",
@@ -1592,666 +1519,17 @@
           "claim": "کاربرگ 1 - پیشنهادیه برنامه. 247.3 KB",
           "id": null,
           "sourceLabel": "کاربرگ 1 - پیشنهادیه برنامه. 247.3 KB"
+        },
+        {
+          "url": "https://industry.lu.ac.ir/documents/4096/%D9%86%D9%85%D9%88%D9%86%D9%87_%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF__1_oGPqMgZ_q0hutay.docx",
+          "kind": "research-review-specific",
+          "claim": "نمونه قرارداد طرح برون دانشگاهی 51.1 KB",
+          "id": null,
+          "sourceLabel": "نمونه قرارداد طرح برون دانشگاهی 51.1 KB"
         }
       ],
       "publicationAdjustment": null,
       "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
-      "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
-    },
-    {
-      "id": "lorestan:informationTechnology",
-      "universitySlug": "lorestan",
-      "nameFa": "دانشگاه لرستان",
-      "iscCategory": "جامع",
-      "iscRank": 36,
-      "dimension": "informationTechnology",
-      "status": "observed-reference",
-      "reportedStatus": "verified",
-      "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 80,
-      "sources": [
-        {
-          "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific informationTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://research.lu.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش و فناوری 1",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش و فناوری 1",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA/%D9%85%D8%B9%D8%B1%D9%81%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%84%D8%B1%D8%B3%D8%AA%D8%A7%D9%86/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/2022/01/03/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%84%D8%B1%D8%B3%D8%AA%D8%A7%D9%86/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/2015/01/06/%D8%AC%D9%84%D8%B3%D9%87-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D9%88%D8%B6%D8%B9%DB%8C%D8%AA-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%88-%D9%85%D9%88%D8%B6%D9%88%D8%B9-%D8%B4%D8%A7%D8%B9%D8%A7/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D8%B3%D9%86%DA%AF%DB%8C%D9%86/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%DA%AF%D8%B1%D9%86%D8%AA-%D8%AA%D9%88%D8%B3%D8%B7-%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3-%D9%88-%D9%85%D8%AF%DB%8C%D8%B1/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%DA%AF%D8%B1%D9%86%D8%AA-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%A7%D8%B6%D8%A7%D9%81%D9%87-%DA%A9%D8%B1%D8%AF%D9%86-%D9%84%DB%8C%D9%86%DA%A9-%D8%B5%D9%81%D8%AD%D9%87-%D8%A7%D8%B3%DA%A9%D9%88%D9%84%D8%A7%D8%B1-%D8%A8%D9%87-%D8%B5%D9%81%D8%AD%D9%87-%D8%B4%D8%AE%D8%B5%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF-%D8%B5%D9%81%D8%AD%D9%87-%DA%AF%D9%88%DA%AF%D9%84-%D8%A7%D8%B3%DA%A9%D9%88%D9%84%D8%A7%D8%B1/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/2022/06/14/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA-%D8%B3%D9%86%DA%AF%DB%8C%D9%86/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/2022/06/14/%D9%85%D8%B4%D8%A7%D9%87%D8%AF%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA/%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/vice-presidency/introduction-to-the-vice-presidency-for-research-and-technology/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/research-affairs-management/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/research-and-technology-deputy-announcements/view-professors-research-grant-in-golestan-system/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/research-and-technology-deputy-announcements/guidelines-for-requesting-use-of-lorestan-university-central-laboratory-services/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/research-council-resolutions/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/units/research-centers/",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.lu.ac.ir/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA/%D9%81%D8%B1%D9%85%D9%87%D8%A7/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.lu.ac.ir/%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C/%D9%81%D8%B1%D9%85%D9%87%D8%A7/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%AF%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-library/central-library-systems-guide/",
-          "kind": "research-review-reference",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87/",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/",
-          "kind": "research-review-reference",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/",
-          "kind": "research-review-reference",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-publications/regulations-and-forms-of-scientific-journals-1/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/regulations-and-forms-of-scientific-journals/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/forms-and-regulations-2/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.lu.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "صنعت و فناوری — کشف خودکار",
-          "id": null,
-          "sourceLabel": "صنعت و فناوری — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%D9%86%D8%AD%D9%88%D9%87-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9-%D8%AF%D8%B1-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.lu.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA/%DA%AF%D8%B1%D9%88%D9%87%D9%87%D8%A7%DB%8C-%D8%B2%DB%8C%D8%B1-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87/%DA%AF%D8%B1%D9%88%D9%87-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA/",
-          "kind": "research-review-reference",
-          "claim": "صنعت و فناوری — کشف خودکار",
-          "id": null,
-          "sourceLabel": "صنعت و فناوری — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%D9%86%D8%AD%D9%88%D9%87-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9/",
-          "kind": "research-review-reference",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-library/",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-laboratory/",
-          "kind": "research-review-reference",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-publications/",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/research-affairs-management/%D9%86%D8%AD%D9%88%D9%87-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9/guidelines-for-patent-registration-in-iran/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.lu.ac.ir/en/research-opportunities-in-industry/forms/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.lu.ac.ir/en/extramural-contracts/forms-1/",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/research-affairs-management/%D9%86%D8%AD%D9%88%D9%87-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9/patent-registration-system/",
-          "kind": "research-review-reference",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/4255/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%D8%A8%D9%87_%DA%A9%D8%B1%D8%B3%DB%8C_%D9%87%D8%A7%DB%8C_%D8%B9%D9%84%D9%85%DB%8C_1.pdf",
-          "kind": "research-review-reference",
-          "claim": "شیوه نامه امتیازدهی به کرسی های علمی 28.6 KB",
-          "id": null,
-          "sourceLabel": "شیوه نامه امتیازدهی به کرسی های علمی 28.6 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/4023/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%DA%A9%D9%85%DB%8C%D8%AA%D9%87_%D9%87%D8%A7%DB%8C_%D8%A7%D8%AE%D9%84%D8%A7%D9%82_tQcRR1o_Mr7vIB4.pdf",
-          "kind": "research-review-reference",
-          "claim": "دستورالعمل کمیته های اخلاق 2.2 MB",
-          "id": null,
-          "sourceLabel": "دستورالعمل کمیته های اخلاق 2.2 MB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/4024/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D8%A7%D8%AE%D9%84%D8%A7%D9%82%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4_%D8%A8%D8%B1_%DA%AF%D8%B1%D9%88%D9%87_%D9%87%D8%A7%DB%8C_%D8%A2%D8%B3%DB%8C%D8%A8_%D9%BE%D8%B0%DB%8C%D8%B1_FSAtMyg_Urw9fHi.pdf",
-          "kind": "research-review-reference",
-          "claim": "راهنمای اخلاقی پژوهش بر گروه های آسیب پذیر 490.2 KB",
-          "id": null,
-          "sourceLabel": "راهنمای اخلاقی پژوهش بر گروه های آسیب پذیر 490.2 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/4025/%DA%A9%D8%AF%D9%87%D8%A7%DB%8C_31_%DA%AF%D8%A7%D9%86%D9%87_%D8%A7%D8%AE%D9%84%D8%A7%D9%82_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_sepwgIg_RCIlPxO.docx",
-          "kind": "research-review-reference",
-          "claim": "کدهای 31 گانه اخلاق پژوهشی 44.4 KB",
-          "id": null,
-          "sourceLabel": "کدهای 31 گانه اخلاق پژوهشی 44.4 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/4026/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%AA_%D9%88_%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%DB%8C_%D8%A7%D8%B2_%D8%AD%DB%8C%D9%88%D8%A7%D9%86%D8%A7%D8%AA_%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C_%D8%AF%D8%B1_%D8%A7%D9%85%D9%88%D8%B1_%D8%B9%D9%84%D9%85%DB%8C_ImITTnq_0xFGTdp.pdf",
-          "kind": "research-review-reference",
-          "claim": "راهنمای مراقبت و نگهداری از حیوانات آزمایشگاهی در امور علمی 3.8 MB",
-          "id": null,
-          "sourceLabel": "راهنمای مراقبت و نگهداری از حیوانات آزمایشگاهی در امور علمی 3.8 MB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/4027/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87_%D8%A7%D8%B2_%D8%AD%DB%8C%D9%88%D8%A7%D9%86__fTduBpo_qD008pi.pdf",
-          "kind": "research-review-reference",
-          "claim": "دستورالعمل استفاده از حیوانات آزمایشگاهی در تحقیقات 1.2 MB",
-          "id": null,
-          "sourceLabel": "دستورالعمل استفاده از حیوانات آزمایشگاهی در تحقیقات 1.2 MB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/801/%D8%B4%DB%8C%D9%88%D9%87_%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C_%D9%85%D8%AC%D9%84%D8%A7%D8%AA.pdf",
-          "kind": "research-review-reference",
-          "claim": "شیوه نامه ارزیابی نشریات علمی، وزارت (جدید) سال ۱۳۹۸ 2.1 MB",
-          "id": null,
-          "sourceLabel": "شیوه نامه ارزیابی نشریات علمی، وزارت (جدید) سال ۱۳۹۸ 2.1 MB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/802/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C.%D8%B3%D8%A7%D9%84_98.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه ایجادنشریات علمی ، وزارت(جدید)سال ۱۳۹۸ 2.0 MB",
-          "id": null,
-          "sourceLabel": "آیین نامه ایجادنشریات علمی ، وزارت(جدید)سال ۱۳۹۸ 2.0 MB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/803/haghozameye_modiran_va_avamel_majaleh.pdf",
-          "kind": "research-review-reference",
-          "claim": "شیوه نامه اجرایی مجلات علمی دانشگاه لرستان موضوع حق الزحمه مدیران و عوامل مجلات علمی 146.0 KB",
-          "id": null,
-          "sourceLabel": "شیوه نامه اجرایی مجلات علمی دانشگاه لرستان موضوع حق الزحمه مدیران و عوامل مجلات علمی 146.0 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/3985/%D9%81%D8%B1%D9%85_%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87_%DA%A9%D8%B1%D8%B3%DB%8C_%D8%AA%D8%B1%D9%88%DB%8C%D8%AC%DB%8C_2_1.doc",
-          "kind": "research-review-reference",
-          "claim": "فرم صورتجلسه کرسی ترویجی (2) 277.5 KB",
-          "id": null,
-          "sourceLabel": "فرم صورتجلسه کرسی ترویجی (2) 277.5 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/3984/%D8%B7%D8%B1%D8%AD%D9%86%D8%A7%D9%85%D9%87_%DA%A9%D8%B1%D8%B3%DB%8C_%D9%87%D8%A7%DB%8C_%D8%B9%D9%84%D9%85%DB%8C_%D8%AA%D8%B1%D9%88%DB%8C%D8%AC%DB%8C_1_1.doc",
-          "kind": "research-review-reference",
-          "claim": "طرحنامه کرسی های علمی ترویجی (1) 282.5 KB",
-          "id": null,
-          "sourceLabel": "طرحنامه کرسی های علمی ترویجی (1) 282.5 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/3983/%D9%81%D8%B1%D9%85_%D8%AF%D8%A7%D9%88%D8%B1%DB%8C_%D8%B7%D8%B1%D8%AD%D9%86%D8%A7%D9%85%D9%87_3_1.doc",
-          "kind": "research-review-reference",
-          "claim": "فرم داوری طرحنامه (3) 61.5 KB",
-          "id": null,
-          "sourceLabel": "فرم داوری طرحنامه (3) 61.5 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/3965/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4_%D8%AA%D9%81%D8%B5%D9%84%DB%8C_%DA%A9%D9%85%DB%8C%D8%AA%D9%87_%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C.docx",
-          "kind": "research-review-reference",
-          "claim": "گزارش تفصلی کمیته دستگاهی 16.7 KB",
-          "id": null,
-          "sourceLabel": "گزارش تفصلی کمیته دستگاهی 16.7 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.lu.ac.ir/documents/4269/%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA_%D9%85%D9%88%D8%B1%D8%AF_%D9%86%DB%8C%D8%A7%D8%B2_%D8%AF%D9%88%D8%B1%D9%87_%D9%81%D8%B1%D8%B5%D8%AA_%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C_1.pdf",
-          "kind": "research-review-reference",
-          "claim": "مستندات مورد نیاز دوره فرصت مطالعاتی 384.7 KB",
-          "id": null,
-          "sourceLabel": "مستندات مورد نیاز دوره فرصت مطالعاتی 384.7 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.lu.ac.ir/documents/1930/%D8%B4%DB%8C%D9%88%D9%87%D9%86%D8%A7%D9%85%D9%87_%D9%86%DA%AF%D8%A7%D8%B1%D8%B4_%D9%88_%D8%AA%D8%AF%D9%88%DB%8C%D9%86_%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4_%D9%86%D9%87%D8%A7%DB%8C%DB%8C_JxPLPOr_lr4jwRT_mFLi8qp.docx",
-          "kind": "research-review-reference",
-          "claim": "شیوه‌نامه نگارش و تدوین گزارش نهایی 44.3 KB",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه نگارش و تدوین گزارش نهایی 44.3 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/4028/%D8%B6%D9%85%DB%8C%D9%85%D9%87_%D8%B1%D9%88%D8%B4_%DA%A9%D8%A7%D8%B1_%D8%A8%D8%A7_%D8%AD%DB%8C%D9%88%D8%A7%D9%86%D8%A7%D8%AA_%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C_L0yVpss_rjQP1bx.pdf",
-          "kind": "research-review-reference",
-          "claim": "ضمیمه روش کار با حیوانات آزمایشگاهی 244.0 KB",
-          "id": null,
-          "sourceLabel": "ضمیمه روش کار با حیوانات آزمایشگاهی 244.0 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/800/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF_%D9%85%D8%AC%D9%84%D8%A7%D8%AA.pdf",
-          "kind": "research-review-reference",
-          "claim": "دستورالعمل ایجادمجلات دانشگاه لرستان (قدیمی) 99.4 KB",
-          "id": null,
-          "sourceLabel": "دستورالعمل ایجادمجلات دانشگاه لرستان (قدیمی) 99.4 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/792/shevenameh_ertegha.pdf",
-          "kind": "research-review-reference",
-          "claim": "شیوه نامه اجرایی آیین نامه ارتقا 2.4 MB",
-          "id": null,
-          "sourceLabel": "شیوه نامه اجرایی آیین نامه ارتقا 2.4 MB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/827/aeen_nameh_chap_payan_nameh_1395.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه چاپ پایان نامه دانشجویی 78.5 KB",
-          "id": null,
-          "sourceLabel": "آیین نامه چاپ پایان نامه دانشجویی 78.5 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.lu.ac.ir/documents/2596/%DA%86%DA%A9%DB%8C%D8%AF%D9%87_%D9%81%D8%B1%D8%B5%D8%AA_%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C__1.docx",
-          "kind": "research-review-reference",
-          "claim": "چکیده فرصت مطالعاتی (1) 76.1 KB",
-          "id": null,
-          "sourceLabel": "چکیده فرصت مطالعاتی (1) 76.1 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/804/31-_%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA_%D8%B3%D8%B1%D8%AF%D8%A8%DB%8C%D8%B1_%D9%85%D8%AC%D9%84%D8%A7%D8%AA_875.pdf",
-          "kind": "research-review-reference",
-          "claim": "پرسشنامه مشخصات سردبیر مجلات 109.1 KB",
-          "id": null,
-          "sourceLabel": "پرسشنامه مشخصات سردبیر مجلات 109.1 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/805/32-_%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%AF%DB%8C%D8%B1_%D9%85%D8%B3%D8%A6%D9%88%D9%84_%D9%85%D8%AC%D9%84%D8%A7%D8%AA_876.pdf",
-          "kind": "research-review-reference",
-          "claim": "پرسشنامه مدیر مسئول مجلات 92.8 KB",
-          "id": null,
-          "sourceLabel": "پرسشنامه مدیر مسئول مجلات 92.8 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/3989/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C_%D8%A7%D8%AB%D8%B1%D8%A8%D8%AE%D8%B4%DB%8C_%D9%85%D9%84%DB%8C_%D8%B7%D8%B1%D8%AD_%D9%87%D8%A7%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D9%84%D8%B1%D8%B3%D8%AA%D8%A7%D9%86.pdf",
-          "kind": "research-review-reference",
-          "claim": "Guidelines for Evaluating the National Effectiveness of Applied Research Projects at Lorestan University 228.0 KB",
-          "id": null,
-          "sourceLabel": "Guidelines for Evaluating the National Effectiveness of Applied Research Projects at Lorestan University 228.0 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/788/%D9%81%D8%B1%D9%85_%D9%87%D8%A7%DB%8C_%D8%B3%D9%81%D8%B1_%D8%B9%D9%84%D9%85%DB%8C_%D8%AE%D8%A7%D8%B1%D8%AC_%D8%A7%D8%B2_%DA%A9%D8%B4%D9%88%D8%B1_862.pdf",
-          "kind": "research-review-reference",
-          "claim": "فرم های سفر علمی خارج از کشور 135.4 KB",
-          "id": null,
-          "sourceLabel": "فرم های سفر علمی خارج از کشور 135.4 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.lu.ac.ir/documents/3147/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%DA%A9%D8%AA%D8%A8_14000216.pdf",
-          "kind": "research-review-reference",
-          "claim": "آیین نامه فرایند امتیازدهی کتب 14000216 938.8 KB",
-          "id": null,
-          "sourceLabel": "آیین نامه فرایند امتیازدهی کتب 14000216 938.8 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.lu.ac.ir/documents/4000/%D9%81%D8%B1%D9%85_%D8%AA%D8%B9%D9%87%D8%AF_%D8%B4%D8%B1%D9%88%D8%B7_%D9%81%D8%B1%D8%B5%D8%AA_%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C_izmYEIv.docx",
-          "kind": "research-review-reference",
-          "claim": "فرم_تعهد_شروط_فرصت_مطالعاتی 12.6 KB",
-          "id": null,
-          "sourceLabel": "فرم_تعهد_شروط_فرصت_مطالعاتی 12.6 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.lu.ac.ir/documents/1701/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF_1_-_%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C%D9%87_%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87.docx",
-          "kind": "research-review-reference",
-          "claim": "کاربرگ 1 - پیشنهادیه برنامه. 32.7 KB",
-          "id": null,
-          "sourceLabel": "کاربرگ 1 - پیشنهادیه برنامه. 32.7 KB",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.lu.ac.ir/documents/1702/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF_1_-_%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C%D9%87_%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87.pdf",
-          "kind": "research-review-reference",
-          "claim": "کاربرگ 1 - پیشنهادیه برنامه. 247.3 KB",
-          "id": null,
-          "sourceLabel": "کاربرگ 1 - پیشنهادیه برنامه. 247.3 KB",
-          "sourceSpecificity": "university-reference"
-        }
-      ],
-      "publicationAdjustment": "Downgraded until a source proving organizational IT dependency is registered.",
-      "verificationBasis": "Downgraded until a source proving organizational IT dependency is registered.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -2264,8 +1542,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 12,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 11,
       "sources": [
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-library/central-library-systems-guide/",
@@ -2281,9 +1559,10 @@
         },
         {
           "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%D9%86%D8%AD%D9%88%D9%87-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
+          "kind": "system",
+          "claim": "Lorestan University Patent Registration System",
+          "id": "lorestan-discovery-system-f36afd4b1da7",
+          "systemCategory": "research"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/research-affairs-management/%D9%86%D8%AD%D9%88%D9%87-%D8%AB%D8%A8%D8%AA-%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9/patent-registration-system/",
@@ -2294,9 +1573,9 @@
         {
           "url": "https://research.lu.ac.ir/",
           "kind": "system",
-          "claim": "دانشگاه لرستان راهنمای سامانه های کتابخانه مرکزی",
-          "id": "lorestan-discovery-system-46f147e1eb8c",
-          "systemCategory": "library"
+          "claim": "راهنمای درخواست از سامانه گلستان برای استفاده از آزمایشگاه محاسبات سنگین | اطلاعیه های معاونت پژوهش و فناوری",
+          "id": "lorestan-discovery-system-c1f356dd696c",
+          "systemCategory": "laboratory"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/forms-and-regulations-2/",
@@ -2311,13 +1590,6 @@
           "claim": "راهنمای درخواست از سامانه گلستان برای استفاده از آزمایشگاه محاسبات سنگین | اطلاعیه های معاونت پژوهش و فناوری",
           "id": "lorestan-discovery-system-e3419ded10c1",
           "systemCategory": "laboratory"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/",
-          "kind": "system",
-          "claim": "Lorestan University Central Library Systems Guide",
-          "id": "lorestan-discovery-system-9c72be4bd30e",
-          "systemCategory": "library"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/research-and-technology-deputy-announcements/view-professors-research-grant-in-golestan-system/",
@@ -2362,8 +1634,8 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-12",
-      "sourceCount": 114,
+      "reviewedAt": "2026-08-13",
+      "sourceCount": 113,
       "sources": [
         {
           "url": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -2469,33 +1741,33 @@
         },
         {
           "url": "https://research.lu.ac.ir/documents/4023/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%DA%A9%D9%85%DB%8C%D8%AA%D9%87_%D9%87%D8%A7%DB%8C_%D8%A7%D8%AE%D9%84%D8%A7%D9%82_tQcRR1o_Mr7vIB4.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل کمیته های اخلاق 2.2 MB",
-          "id": null
+          "kind": "document",
+          "claim": "Ethics Committees Guidelines 2.2 MB",
+          "id": "lorestan-discovery-document-aa0da0162586"
         },
         {
           "url": "https://research.lu.ac.ir/documents/4024/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D8%A7%D8%AE%D9%84%D8%A7%D9%82%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4_%D8%A8%D8%B1_%DA%AF%D8%B1%D9%88%D9%87_%D9%87%D8%A7%DB%8C_%D8%A2%D8%B3%DB%8C%D8%A8_%D9%BE%D8%B0%DB%8C%D8%B1_FSAtMyg_Urw9fHi.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای اخلاقی پژوهش بر گروه های آسیب پذیر 490.2 KB",
-          "id": null
+          "kind": "document",
+          "claim": "Ethical Guidelines for Research on Vulnerable Groups 490.2 KB",
+          "id": "lorestan-discovery-document-5c8e9d1472ef"
         },
         {
           "url": "https://research.lu.ac.ir/documents/4025/%DA%A9%D8%AF%D9%87%D8%A7%DB%8C_31_%DA%AF%D8%A7%D9%86%D9%87_%D8%A7%D8%AE%D9%84%D8%A7%D9%82_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_sepwgIg_RCIlPxO.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کدهای 31 گانه اخلاق پژوهشی 44.4 KB",
-          "id": null
+          "kind": "document",
+          "claim": "The 31 Codes of Research Ethics 44.4 KB",
+          "id": "lorestan-discovery-document-17bdbcb30fbb"
         },
         {
           "url": "https://research.lu.ac.ir/documents/4026/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%AA_%D9%88_%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%DB%8C_%D8%A7%D8%B2_%D8%AD%DB%8C%D9%88%D8%A7%D9%86%D8%A7%D8%AA_%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C_%D8%AF%D8%B1_%D8%A7%D9%85%D9%88%D8%B1_%D8%B9%D9%84%D9%85%DB%8C_ImITTnq_0xFGTdp.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای مراقبت و نگهداری از حیوانات آزمایشگاهی در امور علمی 3.8 MB",
-          "id": null
+          "kind": "document",
+          "claim": "Guidelines for the Care and Maintenance of Laboratory Animals in Scientific Research 3.8 MB",
+          "id": "lorestan-discovery-document-a08226a96af0"
         },
         {
           "url": "https://research.lu.ac.ir/documents/4027/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87_%D8%A7%D8%B2_%D8%AD%DB%8C%D9%88%D8%A7%D9%86__fTduBpo_qD008pi.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل استفاده از حیوانات آزمایشگاهی در تحقیقات 1.2 MB",
-          "id": null
+          "kind": "document",
+          "claim": "Guidelines for the Use of Laboratory Animals in Research 1.2 MB",
+          "id": "lorestan-discovery-document-ee7c3f0a0cd6"
         },
         {
           "url": "https://research.lu.ac.ir/documents/801/%D8%B4%DB%8C%D9%88%D9%87_%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C_%D9%85%D8%AC%D9%84%D8%A7%D8%AA.pdf",
@@ -2553,9 +1825,9 @@
         },
         {
           "url": "https://research.lu.ac.ir/documents/4028/%D8%B6%D9%85%DB%8C%D9%85%D9%87_%D8%B1%D9%88%D8%B4_%DA%A9%D8%A7%D8%B1_%D8%A8%D8%A7_%D8%AD%DB%8C%D9%88%D8%A7%D9%86%D8%A7%D8%AA_%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C_L0yVpss_rjQP1bx.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "ضمیمه روش کار با حیوانات آزمایشگاهی 244.0 KB",
-          "id": null
+          "kind": "document",
+          "claim": "Appendix: Laboratory Animal Handling Procedures 244.0 KB",
+          "id": "lorestan-discovery-document-930f09aaea21"
         },
         {
           "url": "https://research.lu.ac.ir/documents/800/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF_%D9%85%D8%AC%D9%84%D8%A7%D8%AA.pdf",
@@ -2853,33 +2125,33 @@
         },
         {
           "url": "https://research.lu.ac.ir/documents/2400/%D9%81%D8%B1%D9%85_%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8_%D8%B9%D8%B6%D9%88_%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1_%D8%B3%D8%A7%D9%84.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم انتخاب عضو هیات علمی پژوهشگر برتر سال ( ) 448.5 KB",
-          "id": null
+          "kind": "document",
+          "claim": "فرم انتخاب عضو هیات علمی پژوهشگر برتر سال (pdf) 448.5 KB",
+          "id": "lorestan-discovery-document-71491ed649e2"
         },
         {
           "url": "https://research.lu.ac.ir/documents/2401/%D9%81%D8%B1%D9%85_%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8_%D8%B9%D8%B6%D9%88_%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1_%D8%B3%D8%A7%D9%84.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم انتخاب عضو هیات علمی پژوهشگر برتر سال ( ) 102.5 KB",
-          "id": null
+          "kind": "document",
+          "claim": "فرم انتخاب عضو هیات علمی پژوهشگر برتر سال (word) 102.5 KB",
+          "id": "lorestan-discovery-document-0fe8eae2b0cb"
         },
         {
           "url": "https://research.lu.ac.ir/documents/2402/%D9%81%D8%B1%D9%85_%DA%A9%D8%A7%D8%B1%D9%85%D9%86%D8%AF_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1%D8%B3%D8%A7%D9%84.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم کارمند پژوهشگر برترسال( ) 61.5 KB",
-          "id": null
+          "kind": "document",
+          "claim": "فرم کارمند پژوهشگر برترسال(pdf) 61.5 KB",
+          "id": "lorestan-discovery-document-c93be71a67e1"
         },
         {
           "url": "https://research.lu.ac.ir/documents/2403/%D9%81%D8%B1%D9%85_%DA%A9%D8%A7%D8%B1%D9%85%D9%86%D8%AF_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1%D8%B3%D8%A7%D9%84.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم کارمند پژوهشگر برترسال ( ) 47.0 KB",
-          "id": null
+          "kind": "document",
+          "claim": "فرم کارمند پژوهشگر برترسال (word) 47.0 KB",
+          "id": "lorestan-discovery-document-f0bbde5784e7"
         },
         {
           "url": "https://research.lu.ac.ir/documents/2404/%D9%81%D8%B1%D9%85_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1%D8%B3%D8%A7%D9%84.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم دانشجوی پژوهشگر برترسال ( ) 46.0 KB",
-          "id": null
+          "kind": "document",
+          "claim": "فرم دانشجوی پژوهشگر برترسال (word) 46.0 KB",
+          "id": "lorestan-discovery-document-acf1a5585e9e"
         },
         {
           "url": "https://research.lu.ac.ir/documents/2405/%D9%81%D8%B1%D9%85_%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA_%D9%81%D8%B1%D8%AF%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1_%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C_%D9%87%DB%8C%D8%A3%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86_%D9%88_%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86.doc",
@@ -3002,12 +2274,6 @@
           "id": "lorestan-discovery-document-281378b95791"
         },
         {
-          "url": "https://www.lu.ac.ir/documents/630/333.pdf",
-          "kind": "document",
-          "claim": "برای مشاهده راهنمای فراخوان طراحی لوگوی برند گردشگری استان اصفهان بر روی عکس کلیک کنید",
-          "id": "lorestan-discovery-document-51bd96adaa40"
-        },
-        {
           "url": "https://research.lu.ac.ir/documents/791/%D8%A7%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%B1%D8%AA%D9%82%D8%A7_863.PDF",
           "kind": "document",
           "claim": "Promotion Regulations 3.3 MB",
@@ -3069,20 +2335,20 @@
       "organization": 81.7,
       "library": 100,
       "laboratories": 100,
-      "digital": 67.5,
+      "systems": 67.5,
       "industryTech": 45,
       "dataQuality": 100,
       "findability": 75
     },
-    "units": 24,
+    "units": 23,
     "systems": 11,
-    "documents": 96,
+    "documents": 95,
     "activeWeight": 100,
     "evidenceCoverage": 100,
-    "methodologyVersion": "RTPMI-4.1-ISC",
-    "snapshotDate": "2026-08-11",
-    "rank": 26,
-    "portalRankWithinISCClass": 18,
+    "methodologyVersion": "RTPMI-4.2-ISC",
+    "snapshotDate": "2026-08-12",
+    "rank": 16,
+    "portalRankWithinISCClass": 12,
     "rankedPortalsInISCClass": 50
   },
   "units": [
@@ -3338,19 +2604,6 @@
       "sourceUrl": "https://research.lu.ac.ir/en/research-and-technology/units/central-publications/",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8694736842105263
-    },
-    {
-      "id": "lorestan-discovery-unit-it-32fc9502090e",
-      "universitySlug": "lorestan",
-      "nameFa": "دانشگاه لرستان مدیریت فناوری اطلاعات",
-      "type": "it",
-      "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA/",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8431578947368421,
-      "relationStatus": "organizationally-attributed",
-      "relationshipEvidenceUrl": "https://research.lu.ac.ir/en/research-and-technology/"
     }
   ],
   "systems": [
@@ -3508,7 +2761,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/792/shevenameh_ertegha.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/792/shevenameh_ertegha.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3527,7 +2780,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/827/aeen_nameh_chap_payan_nameh_1395.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/827/aeen_nameh_chap_payan_nameh_1395.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3567,7 +2820,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/788/%D9%81%D8%B1%D9%85_%D9%87%D8%A7%DB%8C_%D8%B3%D9%81%D8%B1_%D8%B9%D9%84%D9%85%DB%8C_%D8%AE%D8%A7%D8%B1%D8%AC_%D8%A7%D8%B2_%DA%A9%D8%B4%D9%88%D8%B1_862.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/788/%D9%81%D8%B1%D9%85_%D9%87%D8%A7%DB%8C_%D8%B3%D9%81%D8%B1_%D8%B9%D9%84%D9%85%DB%8C_%D8%AE%D8%A7%D8%B1%D8%AC_%D8%A7%D8%B2_%DA%A9%D8%B4%D9%88%D8%B1_862.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3670,7 +2923,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/4255/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%D8%A8%D9%87_%DA%A9%D8%B1%D8%B3%DB%8C_%D9%87%D8%A7%DB%8C_%D8%B9%D9%84%D9%85%DB%8C_1.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/4255/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%D8%A8%D9%87_%DA%A9%D8%B1%D8%B3%DB%8C_%D9%87%D8%A7%DB%8C_%D8%B9%D9%84%D9%85%DB%8C_1.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3689,7 +2942,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3989/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C_%D8%A7%D8%AB%D8%B1%D8%A8%D8%AE%D8%B4%DB%8C_%D9%85%D9%84%DB%8C_%D8%B7%D8%B1%D8%AD_%D9%87%D8%A7%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D9%84%D8%B1%D8%B3%D8%AA%D8%A7%D9%86.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/3989/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C_%D8%A7%D8%AB%D8%B1%D8%A8%D8%AE%D8%B4%DB%8C_%D9%85%D9%84%DB%8C_%D8%B7%D8%B1%D8%AD_%D9%87%D8%A7%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D9%84%D8%B1%D8%B3%D8%AA%D8%A7%D9%86.pdf",
       "parentUrl": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/forms-and-regulations-2/",
@@ -3708,7 +2961,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/4256/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%D8%A8%D9%87_%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/4256/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%D8%A8%D9%87_%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3727,7 +2980,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/4277/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C_%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA_2.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/4277/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C_%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA_2.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3746,7 +2999,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/2211/postdoc_.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/2211/postdoc_.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3765,7 +3018,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/751/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D8%B7%D8%B1%D8%AD_%D8%AF%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C..pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/751/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D8%B7%D8%B1%D8%AD_%D8%AF%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C..pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3784,7 +3037,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/753/shevenameh_tanzim_tarh.doc",
       "sourceUrl": "https://research.lu.ac.ir/documents/753/shevenameh_tanzim_tarh.doc",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3803,7 +3056,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/4242/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C_%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/4242/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C_%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3822,7 +3075,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/2397/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/2397/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3841,7 +3094,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/2398/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8_%D8%B9%D8%B6%D9%88_%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1.PDF",
       "sourceUrl": "https://research.lu.ac.ir/documents/2398/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8_%D8%B9%D8%B6%D9%88_%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1.PDF",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3860,7 +3113,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/2399/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8_%DA%A9%D8%A7%D8%B1%D9%85%D9%86%D8%AF_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/2399/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8_%DA%A9%D8%A7%D8%B1%D9%85%D9%86%D8%AF_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3879,7 +3132,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/789/safar.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/789/safar.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3898,7 +3151,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/794/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C_%D8%A7%D8%B1%D8%AA%D9%82%D8%A7_865.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/794/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C_%D8%A7%D8%B1%D8%AA%D9%82%D8%A7_865.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3917,7 +3170,7 @@
       "taxonomy": "procedure/guideline",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/801/%D8%B4%DB%8C%D9%88%D9%87_%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C_%D9%85%D8%AC%D9%84%D8%A7%D8%AA.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/801/%D8%B4%DB%8C%D9%88%D9%87_%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C_%D9%85%D8%AC%D9%84%D8%A7%D8%AA.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/",
@@ -3936,7 +3189,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/802/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C.%D8%B3%D8%A7%D9%84_98.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/802/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C.%D8%B3%D8%A7%D9%84_98.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/",
@@ -3955,7 +3208,7 @@
       "taxonomy": "procedure/guideline",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/803/haghozameye_modiran_va_avamel_majaleh.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/803/haghozameye_modiran_va_avamel_majaleh.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/",
@@ -3974,7 +3227,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/809/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D8%AC%D8%AF%DB%8C%D8%AF_%D8%AA%D8%B9%DB%8C%DB%8C%D9%86_%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1__881.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/809/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D8%AC%D8%AF%DB%8C%D8%AF_%D8%AA%D8%B9%DB%8C%DB%8C%D9%86_%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1__881.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -3993,7 +3246,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3147/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%DA%A9%D8%AA%D8%A8_14000216.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/3147/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%DA%A9%D8%AA%D8%A8_14000216.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4012,7 +3265,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3145/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA_%D8%A7%D8%B5%D9%84%D8%A7%D8%AD_%D8%B4%D8%AF%D9%8714010207.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/3145/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA_%D8%A7%D8%B5%D9%84%D8%A7%D8%AD_%D8%B4%D8%AF%D9%8714010207.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4031,7 +3284,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/4062/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C_%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.docx",
       "sourceUrl": "https://research.lu.ac.ir/documents/4062/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C_%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.docx",
       "parentUrl": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/forms-and-regulations-2/",
@@ -4134,7 +3387,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3985/%D9%81%D8%B1%D9%85_%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87_%DA%A9%D8%B1%D8%B3%DB%8C_%D8%AA%D8%B1%D9%88%DB%8C%D8%AC%DB%8C_2_1.doc",
       "sourceUrl": "https://research.lu.ac.ir/documents/3985/%D9%81%D8%B1%D9%85_%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87_%DA%A9%D8%B1%D8%B3%DB%8C_%D8%AA%D8%B1%D9%88%DB%8C%D8%AC%DB%8C_2_1.doc",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4153,7 +3406,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3983/%D9%81%D8%B1%D9%85_%D8%AF%D8%A7%D9%88%D8%B1%DB%8C_%D8%B7%D8%B1%D8%AD%D9%86%D8%A7%D9%85%D9%87_3_1.doc",
       "sourceUrl": "https://research.lu.ac.ir/documents/3983/%D9%81%D8%B1%D9%85_%D8%AF%D8%A7%D9%88%D8%B1%DB%8C_%D8%B7%D8%B1%D8%AD%D9%86%D8%A7%D9%85%D9%87_3_1.doc",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4193,7 +3446,7 @@
       "taxonomy": "postgraduate/research affairs",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3836/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84_%D8%B7%D8%B1%D8%AD_%D8%AF%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C_JMMTKUT.doc",
       "sourceUrl": "https://research.lu.ac.ir/documents/3836/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84_%D8%B7%D8%B1%D8%AD_%D8%AF%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C_JMMTKUT.doc",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4275,7 +3528,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3990/%D9%81%D8%B1%D9%85_%D8%AE%D9%88%D8%AF%D8%A7%D8%B8%D9%87%D8%A7%D8%B1%DB%8C_%D9%85%D8%A7%D8%AF%D9%87_5_%D8%A8%D9%86%D8%AF_2_%D9%BE%D8%A7%DB%8C%D9%87_%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C_2.docx",
       "sourceUrl": "https://research.lu.ac.ir/documents/3990/%D9%81%D8%B1%D9%85_%D8%AE%D9%88%D8%AF%D8%A7%D8%B8%D9%87%D8%A7%D8%B1%DB%8C_%D9%85%D8%A7%D8%AF%D9%87_5_%D8%A8%D9%86%D8%AF_2_%D9%BE%D8%A7%DB%8C%D9%87_%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C_2.docx",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4294,7 +3547,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3632/%D9%81%D8%A7%DB%8C%D9%84_%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA_%D8%AA%D8%B1%D9%81%DB%8C%D8%B9_%D8%A8%D8%AF%D9%88%D9%86_%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/3632/%D9%81%D8%A7%DB%8C%D9%84_%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA_%D8%AA%D8%B1%D9%81%DB%8C%D8%B9_%D8%A8%D8%AF%D9%88%D9%86_%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4313,7 +3566,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3861/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D9%86%D8%AD%D9%88%D9%87_%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C_%D9%BE%D8%A7%DB%8C%D9%87_%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C_%D8%A8%D9%87_%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C_%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/3861/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D9%86%D8%AD%D9%88%D9%87_%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C_%D9%BE%D8%A7%DB%8C%D9%87_%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C_%D8%A8%D9%87_%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C_%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4332,7 +3585,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/2400/%D9%81%D8%B1%D9%85_%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8_%D8%B9%D8%B6%D9%88_%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1_%D8%B3%D8%A7%D9%84.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/2400/%D9%81%D8%B1%D9%85_%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8_%D8%B9%D8%B6%D9%88_%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1_%D8%B3%D8%A7%D9%84.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4351,7 +3604,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/2401/%D9%81%D8%B1%D9%85_%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8_%D8%B9%D8%B6%D9%88_%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1_%D8%B3%D8%A7%D9%84.doc",
       "sourceUrl": "https://research.lu.ac.ir/documents/2401/%D9%81%D8%B1%D9%85_%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8_%D8%B9%D8%B6%D9%88_%D9%87%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1_%D8%B3%D8%A7%D9%84.doc",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4370,7 +3623,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/2402/%D9%81%D8%B1%D9%85_%DA%A9%D8%A7%D8%B1%D9%85%D9%86%D8%AF_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1%D8%B3%D8%A7%D9%84.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/2402/%D9%81%D8%B1%D9%85_%DA%A9%D8%A7%D8%B1%D9%85%D9%86%D8%AF_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1%D8%B3%D8%A7%D9%84.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4389,7 +3642,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/2403/%D9%81%D8%B1%D9%85_%DA%A9%D8%A7%D8%B1%D9%85%D9%86%D8%AF_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1%D8%B3%D8%A7%D9%84.doc",
       "sourceUrl": "https://research.lu.ac.ir/documents/2403/%D9%81%D8%B1%D9%85_%DA%A9%D8%A7%D8%B1%D9%85%D9%86%D8%AF_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1%D8%B3%D8%A7%D9%84.doc",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4408,7 +3661,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/2404/%D9%81%D8%B1%D9%85_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1%D8%B3%D8%A7%D9%84.doc",
       "sourceUrl": "https://research.lu.ac.ir/documents/2404/%D9%81%D8%B1%D9%85_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1%D8%B3%D8%A7%D9%84.doc",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4427,7 +3680,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/2405/%D9%81%D8%B1%D9%85_%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA_%D9%81%D8%B1%D8%AF%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1_%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C_%D9%87%DB%8C%D8%A3%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86_%D9%88_%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86.doc",
       "sourceUrl": "https://research.lu.ac.ir/documents/2405/%D9%81%D8%B1%D9%85_%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA_%D9%81%D8%B1%D8%AF%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1_%D8%A8%D8%B1%D8%AA%D8%B1_%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C_%D9%87%DB%8C%D8%A3%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86_%D9%88_%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86.doc",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4446,7 +3699,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3716/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A2%D9%85%D8%A7%D8%AF%D9%87_%DA%A9%D8%B1%D8%AF%D9%86_%D9%BE%D8%B1%D9%88%D9%86%D8%AF%D9%87_%D9%87%D8%A7%DB%8C_%D8%A7%D8%B1%D8%AA%D9%82%D8%A7.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/3716/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A2%D9%85%D8%A7%D8%AF%D9%87_%DA%A9%D8%B1%D8%AF%D9%86_%D9%BE%D8%B1%D9%88%D9%86%D8%AF%D9%87_%D9%87%D8%A7%DB%8C_%D8%A7%D8%B1%D8%AA%D9%82%D8%A7.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4486,7 +3739,7 @@
       "taxonomy": "procedure/guideline",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/800/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF_%D9%85%D8%AC%D9%84%D8%A7%D8%AA.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/800/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%DB%8C%D8%AC%D8%A7%D8%AF_%D9%85%D8%AC%D9%84%D8%A7%D8%AA.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/",
@@ -4505,7 +3758,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/812/%D9%81%D8%B1%D9%85_%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C_%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_884.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/812/%D9%81%D8%B1%D9%85_%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C_%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA_%D8%B9%D9%84%D9%85%DB%8C_884.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4566,7 +3819,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3874/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87_%D9%85%D8%B1%DA%A9%D8%B2_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A7%DB%8C_%D8%A7%D8%B7%D9%84%D8%A7%D8%B9_%D8%B1%D8%B3%D8%A7%D9%86%DB%8C_%D8%B9%D9%84%D9%88%D9%85_%D9%88_%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C_-_Copy_u4qOIrC.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/3874/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87_%D9%85%D8%B1%DA%A9%D8%B2_%D9%85%D9%86%D8%B7%D9%82%D9%87_%D8%A7%DB%8C_%D8%A7%D8%B7%D9%84%D8%A7%D8%B9_%D8%B1%D8%B3%D8%A7%D9%86%DB%8C_%D8%B9%D9%84%D9%88%D9%85_%D9%88_%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C_-_Copy_u4qOIrC.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4585,7 +3838,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3873/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D8%B3%D8%B1%DB%8C%D8%B9_%D9%85%DA%AF%D8%A7%D9%BE%DB%8C%D9%BE%D8%B1_xjxpXUO.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/3873/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D8%B3%D8%B1%DB%8C%D8%B9_%D9%85%DA%AF%D8%A7%D9%BE%DB%8C%D9%BE%D8%B1_xjxpXUO.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4604,7 +3857,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3871/help.pdf_%D9%81%D8%A7%DB%8C%D9%84_%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D8%AB%D8%A8%D8%AA_%D9%86%D8%A7%D9%85_%D8%AF%D8%B1_%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%D8%AF%D8%A7%D9%86%D8%A7.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/3871/help.pdf_%D9%81%D8%A7%DB%8C%D9%84_%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D8%AB%D8%A8%D8%AA_%D9%86%D8%A7%D9%85_%D8%AF%D8%B1_%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%D8%AF%D8%A7%D9%86%D8%A7.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4615,27 +3868,6 @@
       "discoveryConfidence": 0.99
     },
     {
-      "id": "lorestan-discovery-document-51bd96adaa40",
-      "universitySlug": "lorestan",
-      "title": "برای مشاهده راهنمای فراخوان طراحی لوگوی برند گردشگری استان اصفهان بر روی عکس کلیک کنید",
-      "type": "شیوه‌نامه/دستورالعمل",
-      "topic": "سایر",
-      "taxonomy": "procedure/guideline",
-      "evidence": "verified",
-      "status": "active",
-      "lastVerified": "2026-08-12",
-      "url": "https://www.lu.ac.ir/documents/630/333.pdf",
-      "sourceUrl": "https://www.lu.ac.ir/documents/630/333.pdf",
-      "parentUrl": "https://www.lu.ac.ir/",
-      "sha256": "3a5aa0b64664b2594c6ce4d5c00b748d447f859d9371524b3fff6d91e3086b70",
-      "fileName": "333.pdf",
-      "contentType": "application/pdf",
-      "fileSize": 601599,
-      "archivePath": "lorestan/1f0e61e41ff1-333.pdf",
-      "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8900000000000001
-    },
-    {
       "id": "lorestan-discovery-document-0144d3e5e1bb",
       "universitySlug": "lorestan",
       "title": "Regulations for the Promotion of Faculty Members 2.8 MB",
@@ -4644,7 +3876,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3543/37437d2a-e148-4af8-845b-f746ea2faaed.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/3543/37437d2a-e148-4af8-845b-f746ea2faaed.pdf",
       "parentUrl": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/forms-and-regulations-2/",
@@ -4663,7 +3895,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/790/ertegh.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/790/ertegh.pdf",
       "parentUrl": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/forms-and-regulations-2/",
@@ -4724,7 +3956,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3862/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C_%D9%88_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/3862/%D8%B4%DB%8C%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C_%D9%88_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA.pdf",
       "parentUrl": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/forms-and-regulations-2/",
@@ -4743,7 +3975,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/787/hamayesh.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/787/hamayesh.pdf",
       "parentUrl": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/forms-and-regulations-2/",
@@ -4762,7 +3994,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/2317/%D9%81%D8%B1%D9%85_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%D8%A8%D9%87_%D8%A7%D9%86%D9%88%D8%A7%D8%B9_%D8%A2%D8%AB%D8%A7%D8%B1_%D9%86%DA%AF%D8%A7%D8%B1%D8%B4_%DB%8C%D8%A7%D9%81%D8%AA%D9%87_35071_1.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/2317/%D9%81%D8%B1%D9%85_%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C_%D8%A8%D9%87_%D8%A7%D9%86%D9%88%D8%A7%D8%B9_%D8%A2%D8%AB%D8%A7%D8%B1_%D9%86%DA%AF%D8%A7%D8%B1%D8%B4_%DB%8C%D8%A7%D9%81%D8%AA%D9%87_35071_1.pdf",
       "parentUrl": "https://research.lu.ac.ir/en/research-and-technology/units/central-publications/regulations-and-forms-of-scientific-journals-1/",
@@ -4781,7 +4013,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/4023/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%DA%A9%D9%85%DB%8C%D8%AA%D9%87_%D9%87%D8%A7%DB%8C_%D8%A7%D8%AE%D9%84%D8%A7%D9%82_tQcRR1o_Mr7vIB4.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/4023/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%DA%A9%D9%85%DB%8C%D8%AA%D9%87_%D9%87%D8%A7%DB%8C_%D8%A7%D8%AE%D9%84%D8%A7%D9%82_tQcRR1o_Mr7vIB4.pdf",
       "parentUrl": "https://research.lu.ac.ir/%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%AF%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4800,7 +4032,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/4024/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D8%A7%D8%AE%D9%84%D8%A7%D9%82%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4_%D8%A8%D8%B1_%DA%AF%D8%B1%D9%88%D9%87_%D9%87%D8%A7%DB%8C_%D8%A2%D8%B3%DB%8C%D8%A8_%D9%BE%D8%B0%DB%8C%D8%B1_FSAtMyg_Urw9fHi.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/4024/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D8%A7%D8%AE%D9%84%D8%A7%D9%82%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4_%D8%A8%D8%B1_%DA%AF%D8%B1%D9%88%D9%87_%D9%87%D8%A7%DB%8C_%D8%A2%D8%B3%DB%8C%D8%A8_%D9%BE%D8%B0%DB%8C%D8%B1_FSAtMyg_Urw9fHi.pdf",
       "parentUrl": "https://research.lu.ac.ir/%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%AF%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4819,7 +4051,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/4025/%DA%A9%D8%AF%D9%87%D8%A7%DB%8C_31_%DA%AF%D8%A7%D9%86%D9%87_%D8%A7%D8%AE%D9%84%D8%A7%D9%82_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_sepwgIg_RCIlPxO.docx",
       "sourceUrl": "https://research.lu.ac.ir/documents/4025/%DA%A9%D8%AF%D9%87%D8%A7%DB%8C_31_%DA%AF%D8%A7%D9%86%D9%87_%D8%A7%D8%AE%D9%84%D8%A7%D9%82_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_sepwgIg_RCIlPxO.docx",
       "parentUrl": "https://research.lu.ac.ir/%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%AF%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4838,7 +4070,7 @@
       "taxonomy": "laboratory",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/4026/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%AA_%D9%88_%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%DB%8C_%D8%A7%D8%B2_%D8%AD%DB%8C%D9%88%D8%A7%D9%86%D8%A7%D8%AA_%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C_%D8%AF%D8%B1_%D8%A7%D9%85%D9%88%D8%B1_%D8%B9%D9%84%D9%85%DB%8C_ImITTnq_0xFGTdp.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/4026/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C_%D9%85%D8%B1%D8%A7%D9%82%D8%A8%D8%AA_%D9%88_%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%DB%8C_%D8%A7%D8%B2_%D8%AD%DB%8C%D9%88%D8%A7%D9%86%D8%A7%D8%AA_%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C_%D8%AF%D8%B1_%D8%A7%D9%85%D9%88%D8%B1_%D8%B9%D9%84%D9%85%DB%8C_ImITTnq_0xFGTdp.pdf",
       "parentUrl": "https://research.lu.ac.ir/%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%AF%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4857,7 +4089,7 @@
       "taxonomy": "laboratory",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/4027/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87_%D8%A7%D8%B2_%D8%AD%DB%8C%D9%88%D8%A7%D9%86__fTduBpo_qD008pi.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/4027/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84_%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87_%D8%A7%D8%B2_%D8%AD%DB%8C%D9%88%D8%A7%D9%86__fTduBpo_qD008pi.pdf",
       "parentUrl": "https://research.lu.ac.ir/%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%AF%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4876,7 +4108,7 @@
       "taxonomy": "laboratory",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/4028/%D8%B6%D9%85%DB%8C%D9%85%D9%87_%D8%B1%D9%88%D8%B4_%DA%A9%D8%A7%D8%B1_%D8%A8%D8%A7_%D8%AD%DB%8C%D9%88%D8%A7%D9%86%D8%A7%D8%AA_%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C_L0yVpss_rjQP1bx.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/4028/%D8%B6%D9%85%DB%8C%D9%85%D9%87_%D8%B1%D9%88%D8%B4_%DA%A9%D8%A7%D8%B1_%D8%A8%D8%A7_%D8%AD%DB%8C%D9%88%D8%A7%D9%86%D8%A7%D8%AA_%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C_L0yVpss_rjQP1bx.pdf",
       "parentUrl": "https://research.lu.ac.ir/%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%AF%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4958,7 +4190,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3984/%D8%B7%D8%B1%D8%AD%D9%86%D8%A7%D9%85%D9%87_%DA%A9%D8%B1%D8%B3%DB%8C_%D9%87%D8%A7%DB%8C_%D8%B9%D9%84%D9%85%DB%8C_%D8%AA%D8%B1%D9%88%DB%8C%D8%AC%DB%8C_1_1.doc",
       "sourceUrl": "https://research.lu.ac.ir/documents/3984/%D8%B7%D8%B1%D8%AD%D9%86%D8%A7%D9%85%D9%87_%DA%A9%D8%B1%D8%B3%DB%8C_%D9%87%D8%A7%DB%8C_%D8%B9%D9%84%D9%85%DB%8C_%D8%AA%D8%B1%D9%88%DB%8C%D8%AC%DB%8C_1_1.doc",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4977,7 +4209,7 @@
       "taxonomy": "regulation/bylaw",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/3965/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4_%D8%AA%D9%81%D8%B5%D9%84%DB%8C_%DA%A9%D9%85%DB%8C%D8%AA%D9%87_%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C.docx",
       "sourceUrl": "https://research.lu.ac.ir/documents/3965/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4_%D8%AA%D9%81%D8%B5%D9%84%DB%8C_%DA%A9%D9%85%DB%8C%D8%AA%D9%87_%D8%AF%D8%B3%D8%AA%DA%AF%D8%A7%D9%87%DB%8C.docx",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/",
@@ -4996,7 +4228,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://industry.lu.ac.ir/documents/4269/%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA_%D9%85%D9%88%D8%B1%D8%AF_%D9%86%DB%8C%D8%A7%D8%B2_%D8%AF%D9%88%D8%B1%D9%87_%D9%81%D8%B1%D8%B5%D8%AA_%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C_1.pdf",
       "sourceUrl": "https://industry.lu.ac.ir/documents/4269/%D9%85%D8%B3%D8%AA%D9%86%D8%AF%D8%A7%D8%AA_%D9%85%D9%88%D8%B1%D8%AF_%D9%86%DB%8C%D8%A7%D8%B2_%D8%AF%D9%88%D8%B1%D9%87_%D9%81%D8%B1%D8%B5%D8%AA_%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C_1.pdf",
       "parentUrl": "https://industry.lu.ac.ir/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA/%D9%81%D8%B1%D9%85%D9%87%D8%A7/",
@@ -5015,7 +4247,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://industry.lu.ac.ir/documents/1930/%D8%B4%DB%8C%D9%88%D9%87%D9%86%D8%A7%D9%85%D9%87_%D9%86%DA%AF%D8%A7%D8%B1%D8%B4_%D9%88_%D8%AA%D8%AF%D9%88%DB%8C%D9%86_%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4_%D9%86%D9%87%D8%A7%DB%8C%DB%8C_JxPLPOr_lr4jwRT_mFLi8qp.docx",
       "sourceUrl": "https://industry.lu.ac.ir/documents/1930/%D8%B4%DB%8C%D9%88%D9%87%D9%86%D8%A7%D9%85%D9%87_%D9%86%DA%AF%D8%A7%D8%B1%D8%B4_%D9%88_%D8%AA%D8%AF%D9%88%DB%8C%D9%86_%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4_%D9%86%D9%87%D8%A7%DB%8C%DB%8C_JxPLPOr_lr4jwRT_mFLi8qp.docx",
       "parentUrl": "https://industry.lu.ac.ir/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA/%D9%81%D8%B1%D9%85%D9%87%D8%A7/",
@@ -5034,7 +4266,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://industry.lu.ac.ir/documents/2596/%DA%86%DA%A9%DB%8C%D8%AF%D9%87_%D9%81%D8%B1%D8%B5%D8%AA_%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C__1.docx",
       "sourceUrl": "https://industry.lu.ac.ir/documents/2596/%DA%86%DA%A9%DB%8C%D8%AF%D9%87_%D9%81%D8%B1%D8%B5%D8%AA_%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C__1.docx",
       "parentUrl": "https://industry.lu.ac.ir/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA/%D9%81%D8%B1%D9%85%D9%87%D8%A7/",
@@ -5053,7 +4285,7 @@
       "taxonomy": "form/template",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/804/31-_%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA_%D8%B3%D8%B1%D8%AF%D8%A8%DB%8C%D8%B1_%D9%85%D8%AC%D9%84%D8%A7%D8%AA_875.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/804/31-_%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%B4%D8%AE%D8%B5%D8%A7%D8%AA_%D8%B3%D8%B1%D8%AF%D8%A8%DB%8C%D8%B1_%D9%85%D8%AC%D9%84%D8%A7%D8%AA_875.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/",
@@ -5072,7 +4304,7 @@
       "taxonomy": "form/template",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/805/32-_%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%AF%DB%8C%D8%B1_%D9%85%D8%B3%D8%A6%D9%88%D9%84_%D9%85%D8%AC%D9%84%D8%A7%D8%AA_876.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/805/32-_%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87_%D9%85%D8%AF%DB%8C%D8%B1_%D9%85%D8%B3%D8%A6%D9%88%D9%84_%D9%85%D8%AC%D9%84%D8%A7%D8%AA_876.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D8%B3%D8%A7%D8%AE%D8%AA%D8%A7%D8%B1-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D9%88-%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/",
@@ -5091,7 +4323,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://industry.lu.ac.ir/documents/4000/%D9%81%D8%B1%D9%85_%D8%AA%D8%B9%D9%87%D8%AF_%D8%B4%D8%B1%D9%88%D8%B7_%D9%81%D8%B1%D8%B5%D8%AA_%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C_izmYEIv.docx",
       "sourceUrl": "https://industry.lu.ac.ir/documents/4000/%D9%81%D8%B1%D9%85_%D8%AA%D8%B9%D9%87%D8%AF_%D8%B4%D8%B1%D9%88%D8%B7_%D9%81%D8%B1%D8%B5%D8%AA_%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C_izmYEIv.docx",
       "parentUrl": "https://industry.lu.ac.ir/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA/%D9%81%D8%B1%D9%85%D9%87%D8%A7/",
@@ -5110,7 +4342,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://industry.lu.ac.ir/documents/1701/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF_1_-_%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C%D9%87_%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87.docx",
       "sourceUrl": "https://industry.lu.ac.ir/documents/1701/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF_1_-_%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C%D9%87_%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87.docx",
       "parentUrl": "https://industry.lu.ac.ir/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA/%D9%81%D8%B1%D9%85%D9%87%D8%A7/",
@@ -5129,7 +4361,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://industry.lu.ac.ir/documents/1702/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF_1_-_%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C%D9%87_%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87.pdf",
       "sourceUrl": "https://industry.lu.ac.ir/documents/1702/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF_1_-_%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C%D9%87_%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87.pdf",
       "parentUrl": "https://industry.lu.ac.ir/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA/%D9%81%D8%B1%D9%85%D9%87%D8%A7/",
@@ -5148,7 +4380,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://industry.lu.ac.ir/documents/4096/%D9%86%D9%85%D9%88%D9%86%D9%87_%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF__1_oGPqMgZ_q0hutay.docx",
       "sourceUrl": "https://industry.lu.ac.ir/documents/4096/%D9%86%D9%85%D9%88%D9%86%D9%87_%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF__1_oGPqMgZ_q0hutay.docx",
       "parentUrl": "https://industry.lu.ac.ir/%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C/%D9%81%D8%B1%D9%85%D9%87%D8%A7/",
@@ -5167,7 +4399,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://industry.lu.ac.ir/documents/4097/%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF_%D8%AF%D8%A7%D8%AE%D9%84%DB%8C_9_1.docx",
       "sourceUrl": "https://industry.lu.ac.ir/documents/4097/%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF_%D8%AF%D8%A7%D8%AE%D9%84%DB%8C_9_1.docx",
       "parentUrl": "https://industry.lu.ac.ir/%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C/%D9%81%D8%B1%D9%85%D9%87%D8%A7/",
@@ -5186,7 +4418,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://industry.lu.ac.ir/documents/4098/%D9%81%D8%B1%D9%85_%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA_%D8%AA%D9%85%D8%AF%DB%8C%D8%AF_%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF_lzRRwkr.docx",
       "sourceUrl": "https://industry.lu.ac.ir/documents/4098/%D9%81%D8%B1%D9%85_%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA_%D8%AA%D9%85%D8%AF%DB%8C%D8%AF_%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF_lzRRwkr.docx",
       "parentUrl": "https://industry.lu.ac.ir/%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C/%D9%81%D8%B1%D9%85%D9%87%D8%A7/",
@@ -5205,7 +4437,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://industry.lu.ac.ir/documents/4099/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA%D9%8A%D9%87_%D8%B7%D8%B1%D8%AD_%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A_wT0dCEj_VSnP3t4.doc",
       "sourceUrl": "https://industry.lu.ac.ir/documents/4099/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA%D9%8A%D9%87_%D8%B7%D8%B1%D8%AD_%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A_%D8%A8%D8%B1%D9%88%D9%86_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A_wT0dCEj_VSnP3t4.doc",
       "parentUrl": "https://industry.lu.ac.ir/%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C/%D9%81%D8%B1%D9%85%D9%87%D8%A7/",
@@ -5224,7 +4456,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://industry.lu.ac.ir/documents/4100/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA_%D8%A7%D9%84%D8%AD%D8%A7%D9%82%D9%8A%D9%87_%D9%85%D8%AA%D9%85%D9%85_%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF_%D8%A8%D9%87_%D9%85%D8%AC%D8%B1%D9%8A_zhJJKIc_WLoj98v.docx",
       "sourceUrl": "https://industry.lu.ac.ir/documents/4100/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA_%D8%A7%D9%84%D8%AD%D8%A7%D9%82%D9%8A%D9%87_%D9%85%D8%AA%D9%85%D9%85_%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF_%D8%A8%D9%87_%D9%85%D8%AC%D8%B1%D9%8A_zhJJKIc_WLoj98v.docx",
       "parentUrl": "https://industry.lu.ac.ir/%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C/%D9%81%D8%B1%D9%85%D9%87%D8%A7/",
@@ -5243,7 +4475,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://industry.lu.ac.ir/documents/4101/%D9%85%D8%B9%D8%B1%D9%81%DB%8C_%D9%86%D8%A7%D9%85%D9%87_%D8%AA%D8%A7%D9%85%DB%8C%D9%86_%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%DB%8C_ZzLNCPb_JAMeZuG.docx",
       "sourceUrl": "https://industry.lu.ac.ir/documents/4101/%D9%85%D8%B9%D8%B1%D9%81%DB%8C_%D9%86%D8%A7%D9%85%D9%87_%D8%AA%D8%A7%D9%85%DB%8C%D9%86_%D8%A7%D8%AC%D8%AA%D9%85%D8%A7%D8%B9%DB%8C_ZzLNCPb_JAMeZuG.docx",
       "parentUrl": "https://industry.lu.ac.ir/%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C-%D8%A8%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C/%D9%81%D8%B1%D9%85%D9%87%D8%A7/",
@@ -5262,7 +4494,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/806/33-_%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87_%D9%87%DB%8C%D8%A7%D8%AA_%D8%AA%D8%AD%D8%B1%DB%8C%D8%B1%DB%8C%D9%87_877.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/806/33-_%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87_%D9%87%DB%8C%D8%A7%D8%AA_%D8%AA%D8%AD%D8%B1%DB%8C%D8%B1%DB%8C%D9%87_877.pdf",
       "parentUrl": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/regulations-and-forms-of-scientific-journals/",
@@ -5281,7 +4513,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/807/34-_%D8%AA%D9%88%D8%A7%D9%81%D9%82%D9%86%D8%A7%D9%85%D9%87_%D9%87%DB%8C%D8%A7%D8%AA_%D8%AA%D8%AD%D8%B1%DB%8C%D8%B1%DB%8C%D9%87_%D9%85%D8%AC%D9%84%D8%A7%D8%AA_878.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/807/34-_%D8%AA%D9%88%D8%A7%D9%81%D9%82%D9%86%D8%A7%D9%85%D9%87_%D9%87%DB%8C%D8%A7%D8%AA_%D8%AA%D8%AD%D8%B1%DB%8C%D8%B1%DB%8C%D9%87_%D9%85%D8%AC%D9%84%D8%A7%D8%AA_878.pdf",
       "parentUrl": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/regulations-and-forms-of-scientific-journals/",
@@ -5300,7 +4532,7 @@
       "taxonomy": "publications/journals",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/808/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1_%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9_%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA_879.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/808/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1_%D8%A7%D9%84%DA%A9%D8%AA%D8%B1%D9%88%D9%86%DB%8C%DA%A9_%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA_879.pdf",
       "parentUrl": "https://research.lu.ac.ir/en/research-and-technology/organizational-structure/forms-and-regulations/regulations-and-forms-of-scientific-journals/",
@@ -5319,7 +4551,7 @@
       "taxonomy": "industry/technology/IP",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://industry.lu.ac.ir/documents/3901/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA_%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_%D8%AC%D9%87%D8%AA_%D8%AB%D8%A8%D8%AA_%D8%AF%D8%B1_%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%D9%86%D8%B8%D8%A7%D9%85_%D8%A7%DB%8C%D8%AF%D9%87_%D9%87%D8%A7_%D9%88_%D9%86%DB%8C%D8%A7%D8%B2%D9%87%D8%A7.xlsx",
       "sourceUrl": "https://industry.lu.ac.ir/documents/3901/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA_%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C_%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_%D8%AC%D9%87%D8%AA_%D8%AB%D8%A8%D8%AA_%D8%AF%D8%B1_%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87_%D9%86%D8%B8%D8%A7%D9%85_%D8%A7%DB%8C%D8%AF%D9%87_%D9%87%D8%A7_%D9%88_%D9%86%DB%8C%D8%A7%D8%B2%D9%87%D8%A7.xlsx",
       "parentUrl": "https://industry.lu.ac.ir/en/extramural-contracts/forms-1/",
@@ -5338,7 +4570,7 @@
       "taxonomy": "form/template",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/4341/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF_%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA_%D8%AA%D8%AF%D9%88%DB%8C%D9%86_%D9%88_%DA%AF%D8%B1%D8%AF%D8%A2%D9%88%D8%B1%DB%8C_%D8%AA%D8%A7%D9%84%DB%8C%D9%81_%D8%AA%D8%B5%D9%86%DB%8C%D9%81_%DA%A9%D8%AA%D8%A7%D8%A8.pdf",
       "sourceUrl": "https://research.lu.ac.ir/documents/4341/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF_%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA_%D8%AA%D8%AF%D9%88%DB%8C%D9%86_%D9%88_%DA%AF%D8%B1%D8%AF%D8%A2%D9%88%D8%B1%DB%8C_%D8%AA%D8%A7%D9%84%DB%8C%D9%81_%D8%AA%D8%B5%D9%86%DB%8C%D9%81_%DA%A9%D8%AA%D8%A7%D8%A8.pdf",
       "parentUrl": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/",
@@ -5357,7 +4589,7 @@
       "taxonomy": "form/template",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-12",
+      "lastVerified": "2026-08-13",
       "url": "https://research.lu.ac.ir/documents/4342/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF_%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA_%D8%AA%D8%AF%D9%88%DB%8C%D9%86_%D9%88_%DA%AF%D8%B1%D8%AF%D8%A2%D9%88%D8%B1%DB%8C_%D8%AA%D8%A7%D9%84%DB%8C%D9%81_%D8%AA%D8%B5%D9%86%DB%8C%D9%81_%DA%A9%D8%AA%D8%A7%D8%A8.doc",
       "sourceUrl": "https://research.lu.ac.ir/documents/4342/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF_%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA_%D8%AA%D8%AF%D9%88%DB%8C%D9%86_%D9%88_%DA%AF%D8%B1%D8%AF%D8%A2%D9%88%D8%B1%DB%8C_%D8%AA%D8%A7%D9%84%DB%8C%D9%81_%D8%AA%D8%B5%D9%86%DB%8C%D9%81_%DA%A9%D8%AA%D8%A7%D8%A8.doc",
       "parentUrl": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C/",

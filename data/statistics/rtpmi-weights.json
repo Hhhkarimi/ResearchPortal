@@ -1,15 +1,16 @@
 {
-  "methodologyVersion": "RTPMI-4.1-ISC",
+  "methodologyVersion": "RTPMI-4.2-ISC",
   "weights": {
     "documents": 0.2,
     "organization": 0.12,
     "library": 0.1,
     "laboratories": 0.12,
-    "digital": 0.12,
+    "systems": 0.12,
     "industryTech": 0.12,
     "dataQuality": 0.12,
     "findability": 0.1
   },
+  "publicEvidenceDimensions": 7,
   "missingDataRule": "unresolved dimensions are excluded from the weighted denominator; they reduce confidence/audit coverage rather than becoming zero",
   "rankingGate": {
     "portalAuditStatus": "direct-official",
