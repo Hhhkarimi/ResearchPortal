@@ -1,6 +1,7 @@
 import type {Metadata} from "next";
 import "@fontsource-variable/vazirmatn";
 import "./globals.css";
+import "./ux-refresh.css";
 import {Header} from "@/components/header";
 import {Footer} from "@/components/footer";
 import {PersianDigits} from "@/components/persian-digits";
