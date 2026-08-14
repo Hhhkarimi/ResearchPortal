@@ -41,46 +41,222 @@ jobs:
       CRAWL_CHECKPOINT_RESET: "0"
 
       DISCOVERY_PROMOTE_CONFIDENCE: "0.78"
+
       PIPELINE_ARTIFACT_ROOT: "C:\\actions-runner\\_pipeline-artifacts"
       PIPELINE_WORK_ROOT: "C:\\actions-runner\\_pipeline-work"
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          ref: main
-          fetch-depth: 0
-          clean: true
+      # ------------------------------------------------------------
+      # 1. Runner diagnostics
+      # ------------------------------------------------------------
+      - name: Runner diagnostics
+        shell: cmd
+        run: |
+          @echo off
+          setlocal
 
-      # Self-hosted Windows runner: use locally installed runtimes.
-      # No setup-node/setup-python downloads and no PowerShell temp scripts.
+          echo ============================================================
+          echo RUNNER STARTED
+          echo ============================================================
+          echo Computer: %COMPUTERNAME%
+          echo User: %USERNAME%
+          echo Workspace: %GITHUB_WORKSPACE%
+          echo Repository: %GITHUB_REPOSITORY%
+          echo Ref: %GITHUB_REF%
+          echo SHA: %GITHUB_SHA%
+          echo Date: %DATE%
+          echo Time: %TIME%
+          echo.
+
+          echo Checking Git...
+          where git
+          if errorlevel 1 (
+            echo ERROR: git.exe was not found in PATH.
+            exit /b 1
+          )
+          git --version
+          if errorlevel 1 exit /b 1
+
+          echo.
+          echo Checking GitHub connectivity...
+          curl.exe -I --max-time 20 https://github.com
+          if errorlevel 1 (
+            echo WARNING: github.com connectivity check failed.
+          )
+
+          echo.
+          curl.exe -I --max-time 20 https://api.github.com
+          if errorlevel 1 (
+            echo WARNING: api.github.com connectivity check failed.
+          )
+
+          echo.
+          echo Runner diagnostics completed.
+          echo ============================================================
+
+      # ------------------------------------------------------------
+      # 2. Local Git checkout
+      #
+      # Do NOT use actions/checkout here.
+      # This self-hosted runner performs checkout using local Git only.
+      # ------------------------------------------------------------
+      - name: Bootstrap repository with local Git
+        shell: cmd
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          @echo off
+          setlocal
+
+          echo ============================================================
+          echo PREPARING REPOSITORY
+          echo ============================================================
+
+          echo Workspace:
+          echo %GITHUB_WORKSPACE%
+          echo.
+
+          if not exist "%GITHUB_WORKSPACE%" (
+            echo Creating workspace...
+            mkdir "%GITHUB_WORKSPACE%"
+            if errorlevel 1 (
+              echo ERROR: Failed to create workspace.
+              exit /b 1
+            )
+          )
+
+          cd /d "%GITHUB_WORKSPACE%"
+          if errorlevel 1 (
+            echo ERROR: Cannot enter workspace.
+            exit /b 1
+          )
+
+          echo.
+          echo Configuring Git safe directory...
+          git config --global --add safe.directory "%GITHUB_WORKSPACE%"
+          if errorlevel 1 (
+            echo ERROR: Unable to configure Git safe.directory.
+            exit /b 1
+          )
+
+          echo.
+          if exist ".git" (
+            echo Existing repository detected.
+            echo.
+
+            echo Restoring origin URL...
+            git remote get-url origin >nul 2>&1
+            if errorlevel 1 (
+              git remote add origin https://github.com/%GITHUB_REPOSITORY%.git
+              if errorlevel 1 exit /b 1
+            ) else (
+              git remote set-url origin https://github.com/%GITHUB_REPOSITORY%.git
+              if errorlevel 1 exit /b 1
+            )
+
+            echo.
+            echo Fetching origin/main...
+            git fetch --force --prune origin main
+            if errorlevel 1 (
+              echo ERROR: git fetch failed.
+              exit /b 1
+            )
+
+            echo.
+            echo Cleaning existing workspace...
+            git reset --hard
+            if errorlevel 1 exit /b 1
+
+            git clean -ffdx
+            if errorlevel 1 exit /b 1
+
+            echo.
+            echo Resetting main to origin/main...
+            git checkout -B main origin/main
+            if errorlevel 1 (
+              echo ERROR: git checkout failed.
+              exit /b 1
+            )
+
+          ) else (
+            echo Repository does not exist in workspace.
+            echo Cloning repository...
+            echo.
+
+            git clone --branch main --single-branch https://github.com/%GITHUB_REPOSITORY%.git .
+            if errorlevel 1 (
+              echo ERROR: git clone failed.
+              exit /b 1
+            )
+          )
+
+          echo.
+          echo Configuring authenticated push URL...
+          git remote set-url --push origin https://x-access-token:%GH_TOKEN%@github.com/%GITHUB_REPOSITORY%.git
+          if errorlevel 1 (
+            echo ERROR: Unable to configure authenticated push URL.
+            exit /b 1
+          )
+
+          echo.
+          echo Repository HEAD:
+          git log -1 --oneline
+          if errorlevel 1 exit /b 1
+
+          echo.
+          echo Repository status:
+          git status --short --branch
+          if errorlevel 1 exit /b 1
+
+          echo.
+          echo ============================================================
+          echo REPOSITORY READY
+          echo ============================================================
+
+      # ------------------------------------------------------------
+      # 3. Verify local runtimes
+      # ------------------------------------------------------------
       - name: Verify local Node and Python runtimes
         shell: cmd
         run: |
           @echo off
-          echo ==========================================
-          echo Verifying local runtimes
-          echo ==========================================
+          setlocal
 
-          where node >nul 2>&1
+          echo ============================================================
+          echo VERIFYING LOCAL RUNTIMES
+          echo ============================================================
+
+          echo.
+          echo Checking Node.js...
+          where node
           if errorlevel 1 (
             echo ERROR: Node.js is not available in runner PATH.
             exit /b 1
           )
 
           node --version
+          if errorlevel 1 exit /b 1
+
           node -e "const m=Number(process.versions.node.split('.')[0]); if(m<22){console.error('ERROR: Node 22+ required, found '+process.version); process.exit(1)}"
           if errorlevel 1 exit /b 1
 
-          where npm.cmd >nul 2>&1
+          echo.
+          echo Checking npm...
+          where npm.cmd
           if errorlevel 1 (
             echo ERROR: npm.cmd is not available in runner PATH.
             exit /b 1
           )
+
           npm.cmd --version
+          if errorlevel 1 exit /b 1
+
+          echo.
+          echo Checking Python...
 
           where py >nul 2>&1
           if not errorlevel 1 (
+            echo Using Windows Python launcher.
             py -3 -c "import sys; print(sys.version); assert sys.version_info >= (3,11), 'Python 3.11+ required'"
             if errorlevel 1 exit /b 1
             goto python_ok
@@ -88,7 +264,8 @@ jobs:
 
           where python >nul 2>&1
           if errorlevel 1 (
-            echo ERROR: Python 3.11+ was not found. Install Python or the Windows py launcher.
+            echo ERROR: Python 3.11+ was not found.
+            echo Install Python or make the Windows py launcher available.
             exit /b 1
           )
 
@@ -96,92 +273,389 @@ jobs:
           if errorlevel 1 exit /b 1
 
           :python_ok
-          echo Local runtimes OK.
 
-      - name: Set UTC snapshot date without PowerShell
+          echo.
+          echo ============================================================
+          echo LOCAL RUNTIMES OK
+          echo ============================================================
+
+      # ------------------------------------------------------------
+      # 4. Snapshot date
+      # ------------------------------------------------------------
+      - name: Set UTC snapshot date
         shell: cmd
         run: |
+          @echo off
+
+          echo ============================================================
+          echo SETTING UTC SNAPSHOT DATE
+          echo ============================================================
+
           node -e "const fs=require('fs'); const d=new Date().toISOString().slice(0,10); fs.appendFileSync(process.env.GITHUB_ENV,'PIPELINE_SNAPSHOT_DATE='+d+'\n'); console.log('PIPELINE_SNAPSHOT_DATE='+d)"
 
+          if errorlevel 1 (
+            echo ERROR: Unable to set PIPELINE_SNAPSHOT_DATE.
+            exit /b 1
+          )
+
+      # ------------------------------------------------------------
+      # 5. Verify crawler source transformation
+      # ------------------------------------------------------------
       - name: Verify v14 crawler source transformation
         shell: cmd
-        run: node scripts/test-crawler-v14.mjs
+        run: |
+          @echo off
 
+          echo ============================================================
+          echo VERIFYING CRAWLER V14 SOURCE
+          echo ============================================================
+
+          node scripts/test-crawler-v14.mjs
+          if errorlevel 1 (
+            echo ERROR: Crawler v14 source verification failed.
+            exit /b 1
+          )
+
+      # ------------------------------------------------------------
+      # 6. Clean previous runtime/document leftovers
+      # ------------------------------------------------------------
       - name: Clean legacy downloaded document archive
         shell: cmd
         run: |
           @echo off
+
+          echo ============================================================
+          echo CLEANING LEGACY RUNTIME DATA
+          echo ============================================================
+
           if exist "C:\actions-runner\_research-documents" (
+            echo Removing C:\actions-runner\_research-documents
             rmdir /s /q "C:\actions-runner\_research-documents"
-          )
-          if exist "scripts\.deep-crawl-research-v14-runtime.mjs" (
-            del /q "scripts\.deep-crawl-research-v14-runtime.mjs"
+            if errorlevel 1 (
+              echo ERROR: Unable to remove legacy document archive.
+              exit /b 1
+            )
+          ) else (
+            echo Legacy document archive does not exist.
           )
 
+          if exist "scripts\.deep-crawl-research-v14-runtime.mjs" (
+            echo Removing old runtime transformation file...
+            del /f /q "scripts\.deep-crawl-research-v14-runtime.mjs"
+            if errorlevel 1 (
+              echo ERROR: Unable to delete old runtime file.
+              exit /b 1
+            )
+          )
+
+          echo Legacy cleanup completed.
+
+      # ------------------------------------------------------------
+      # 7. Prepare and validate existing evidence
+      # ------------------------------------------------------------
       - name: Sanitize and validate current published evidence
         shell: cmd
         run: |
-          npm.cmd run prepare:data
-          if errorlevel 1 exit /b 1
-          npm.cmd run validate:data
-          if errorlevel 1 exit /b 1
-          npm.cmd run validate:no-social
-          if errorlevel 1 exit /b 1
+          @echo off
 
+          echo ============================================================
+          echo PREPARING CURRENT DATA
+          echo ============================================================
+
+          echo.
+          echo Running prepare:data...
+          npm.cmd run prepare:data
+          if errorlevel 1 (
+            echo ERROR: prepare:data failed.
+            exit /b 1
+          )
+
+          echo.
+          echo Running validate:data...
+          npm.cmd run validate:data
+          if errorlevel 1 (
+            echo ERROR: validate:data failed.
+            exit /b 1
+          )
+
+          echo.
+          echo Running validate:no-social...
+          npm.cmd run validate:no-social
+          if errorlevel 1 (
+            echo ERROR: validate:no-social failed.
+            exit /b 1
+          )
+
+          echo.
+          echo Current published evidence is valid.
+
+      # ------------------------------------------------------------
+      # 8. Commit/publish sanitized baseline
+      # ------------------------------------------------------------
       - name: Publish sanitized baseline
         shell: cmd
         run: |
+          @echo off
+
+          echo ============================================================
+          echo PUBLISHING SANITIZED BASELINE
+          echo ============================================================
+
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data public/datasets
-          git diff --cached --quiet || git commit -m "chore(data): sanitize published evidence"
-          git pull --rebase origin main
-          if errorlevel 1 exit /b 1
-          git push origin HEAD:main
           if errorlevel 1 exit /b 1
 
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if errorlevel 1 exit /b 1
+
+          echo.
+          echo Staging data...
+          git add data public/datasets
+          if errorlevel 1 exit /b 1
+
+          echo.
+          git diff --cached --quiet
+          if errorlevel 1 (
+            echo Changes detected. Creating baseline commit...
+
+            git commit -m "chore(data): sanitize published evidence"
+            if errorlevel 1 (
+              echo ERROR: Baseline commit failed.
+              exit /b 1
+            )
+          ) else (
+            echo No sanitized baseline changes to commit.
+          )
+
+          echo.
+          echo Synchronizing with origin/main...
+          git pull --rebase origin main
+          if errorlevel 1 (
+            echo ERROR: git pull --rebase failed.
+            exit /b 1
+          )
+
+          echo.
+          echo Pushing baseline...
+          git push origin HEAD:main
+          if errorlevel 1 (
+            echo ERROR: Baseline push failed.
+            exit /b 1
+          )
+
+          echo.
+          echo Baseline published.
+
+      # ------------------------------------------------------------
+      # 9. Deep crawl
+      # ------------------------------------------------------------
       - name: Deep crawl official research portals v14 with checkpoint resume
         shell: cmd
-        run: node scripts/deep-crawl-research-v14.mjs
+        run: |
+          @echo off
 
+          echo ============================================================
+          echo STARTING DEEP RESEARCH CRAWL V14
+          echo ============================================================
+          echo Snapshot date: %PIPELINE_SNAPSHOT_DATE%
+          echo Max depth: %CRAWL_MAX_DEPTH%
+          echo University concurrency: %CRAWL_UNIVERSITY_CONCURRENCY%
+          echo Page concurrency: %CRAWL_PAGE_CONCURRENCY%
+          echo Checkpoint interval ms: %CRAWL_CHECKPOINT_INTERVAL_MS%
+          echo ============================================================
+          echo.
+
+          node scripts/deep-crawl-research-v14.mjs
+          if errorlevel 1 (
+            echo.
+            echo ERROR: Deep crawler exited with failure.
+            exit /b 1
+          )
+
+          echo.
+          echo Deep crawl completed successfully.
+
+      # ------------------------------------------------------------
+      # 10. Validate raw crawler outputs
+      # ------------------------------------------------------------
       - name: Validate raw v14 discovery outputs
         shell: cmd
-        run: node scripts/validate-crawler-v14.mjs
+        run: |
+          @echo off
 
-      - name: Promote discovery, clean entities and rebuild evidence
+          echo ============================================================
+          echo VALIDATING RAW V14 DISCOVERY OUTPUTS
+          echo ============================================================
+
+          node scripts/validate-crawler-v14.mjs
+          if errorlevel 1 (
+            echo ERROR: Raw crawler output validation failed.
+            exit /b 1
+          )
+
+          echo Raw crawler outputs are valid.
+
+      # ------------------------------------------------------------
+      # 11. Promote and rebuild evidence
+      # ------------------------------------------------------------
+      - name: Promote discovery clean entities and rebuild evidence
         shell: cmd
-        run: npm.cmd run prepare:data
+        run: |
+          @echo off
 
+          echo ============================================================
+          echo PROMOTING DISCOVERY DATA
+          echo ============================================================
+
+          npm.cmd run prepare:data
+          if errorlevel 1 (
+            echo ERROR: prepare:data failed after crawler run.
+            exit /b 1
+          )
+
+          echo Discovery promotion completed.
+
+      # ------------------------------------------------------------
+      # 12. Validate promoted data
+      # ------------------------------------------------------------
       - name: Validate promoted datasets
         shell: cmd
         run: |
-          npm.cmd run validate:data
-          if errorlevel 1 exit /b 1
-          npm.cmd run validate:entities
-          if errorlevel 1 exit /b 1
-          npm.cmd run validate:no-social
-          if errorlevel 1 exit /b 1
+          @echo off
 
+          echo ============================================================
+          echo VALIDATING PROMOTED DATASETS
+          echo ============================================================
+
+          echo.
+          echo validate:data
+          npm.cmd run validate:data
+          if errorlevel 1 (
+            echo ERROR: validate:data failed.
+            exit /b 1
+          )
+
+          echo.
+          echo validate:entities
+          npm.cmd run validate:entities
+          if errorlevel 1 (
+            echo ERROR: validate:entities failed.
+            exit /b 1
+          )
+
+          echo.
+          echo validate:no-social
+          npm.cmd run validate:no-social
+          if errorlevel 1 (
+            echo ERROR: validate:no-social failed.
+            exit /b 1
+          )
+
+          echo.
+          echo Promoted datasets are valid.
+
+      # ------------------------------------------------------------
+      # 13. Link monitoring
+      # ------------------------------------------------------------
       - name: Monitor published evidence links
         shell: cmd
-        run: npm.cmd run monitor:links
+        run: |
+          @echo off
 
+          echo ============================================================
+          echo MONITORING PUBLISHED EVIDENCE LINKS
+          echo ============================================================
+
+          npm.cmd run monitor:links
+          if errorlevel 1 (
+            echo ERROR: Evidence link monitoring failed.
+            exit /b 1
+          )
+
+          echo Evidence link monitoring completed.
+
+      # ------------------------------------------------------------
+      # 14. Remove completed checkpoints
+      # ------------------------------------------------------------
       - name: Remove completed crawl checkpoints
         shell: cmd
         run: |
           @echo off
+
+          echo ============================================================
+          echo REMOVING COMPLETED CHECKPOINTS
+          echo ============================================================
+
           if exist "data\crawl-checkpoints" (
+            echo Removing data\crawl-checkpoints...
+
             rmdir /s /q "data\crawl-checkpoints"
+            if errorlevel 1 (
+              echo ERROR: Unable to remove crawl checkpoints.
+              exit /b 1
+            )
+          ) else (
+            echo No crawl checkpoints remain.
           )
 
+          echo Checkpoint cleanup completed.
+
+      # ------------------------------------------------------------
+      # 15. Commit final crawl results
+      # ------------------------------------------------------------
       - name: Commit completed v14 crawl results
         shell: cmd
         run: |
+          @echo off
+
+          echo ============================================================
+          echo COMMITTING FINAL V14 CRAWL RESULTS
+          echo ============================================================
+
           git config user.name "github-actions[bot]"
+          if errorlevel 1 exit /b 1
+
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if errorlevel 1 exit /b 1
+
+          echo.
+          echo Staging final datasets...
           git add -A data public/datasets
-          git diff --cached --quiet || git commit -m "chore(crawl): publish v14 research evidence"
+          if errorlevel 1 (
+            echo ERROR: git add failed.
+            exit /b 1
+          )
+
+          echo.
+          git diff --cached --quiet
+          if errorlevel 1 (
+            echo Crawl changes detected. Creating commit...
+
+            git commit -m "chore(crawl): publish v14 research evidence"
+            if errorlevel 1 (
+              echo ERROR: Final crawl commit failed.
+              exit /b 1
+            )
+          ) else (
+            echo No final crawl changes to commit.
+          )
+
+          echo.
+          echo Synchronizing final result with origin/main...
           git pull --rebase origin main
-          if errorlevel 1 exit /b 1
+          if errorlevel 1 (
+            echo ERROR: Final git pull --rebase failed.
+            exit /b 1
+          )
+
+          echo.
+          echo Pushing final results...
           git push origin HEAD:main
-          if errorlevel 1 exit /b 1
+          if errorlevel 1 (
+            echo ERROR: Final push failed.
+            exit /b 1
+          )
+
+          echo.
+          echo ============================================================
+          echo V14 RESEARCH PIPELINE COMPLETED SUCCESSFULLY
+          echo ============================================================
