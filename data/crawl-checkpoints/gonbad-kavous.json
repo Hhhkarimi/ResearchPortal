@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "crawlerVersion": "14.0-hub-interactive-relations",
+  "fingerprint": "6931273d5322a5327dbd681c8576a63283635a4ef3b56ada7fa23bd9abbad267",
+  "completed": true,
+  "completedAt": "2026-08-14T18:24:52.236Z",
+  "index": 55,
+  "slug": "gonbad-kavous",
+  "result": {
+    "slug": "gonbad-kavous",
+    "nameFa": "دانشگاه گنبد کاووس",
+    "officialWebsite": "https://gonbad.ac.ir/",
+    "existingResearchUrl": "https://gonbad.ac.ir/fa/home/presidencies/researchpresidency",
+    "pageCount": 0,
+    "visitedCount": 10,
+    "browserFallbackPages": 0,
+    "researchHubs": 2,
+    "evidence": [],
+    "documents": [],
+    "portalCandidates": [],
+    "references": [],
+    "browserActions": [],
+    "failures": [
+      {
+        "url": "https://gonbad.ac.ir/fa/home/page/120",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://gonbad.ac.ir/fa/home/presidencies/researchpresidency",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://gonbad.ac.ir/fa/home/page/171",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://gonbad.ac.ir/fa/home/details?newsId=41261",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://gonbad.ac.ir/fa/home/details?newsId=41112",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://karafarini.gonbad.ac.ir/",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://gonbad.ac.ir/fa/home/page/327",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "http://arpe.gonbad.ac.ir/page/114/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%B6%D8%B1%D9%88%D8%B1%DB%8C",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "http://jair.gonbad.ac.ir/page/115/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D8%B6%D8%B1%D9%88%D8%B1%DB%8C",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://gonbad.ac.ir/",
+        "reason": "fetch failed"
+      }
+    ],
+    "elapsedMs": 24
+  }
+}

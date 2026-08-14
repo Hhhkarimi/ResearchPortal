@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "crawlerVersion": "14.0-hub-interactive-relations",
+  "fingerprint": "6931273d5322a5327dbd681c8576a63283635a4ef3b56ada7fa23bd9abbad267",
+  "completed": true,
+  "completedAt": "2026-08-14T18:24:52.245Z",
+  "index": 56,
+  "slug": "torbat-heydarieh",
+  "result": {
+    "slug": "torbat-heydarieh",
+    "nameFa": "دانشگاه تربت حیدریه",
+    "officialWebsite": "https://torbath.ac.ir/",
+    "existingResearchUrl": null,
+    "pageCount": 0,
+    "visitedCount": 4,
+    "browserFallbackPages": 0,
+    "researchHubs": 0,
+    "evidence": [],
+    "documents": [],
+    "portalCandidates": [],
+    "references": [],
+    "browserActions": [],
+    "failures": [
+      {
+        "url": "https://torbath.ac.ir/fa/download/category/4/%D8%AF%D9%81%D8%AA%D8%B1-%DA%A9%D8%A7%D8%B1-%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C-%D9%88-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://torbath.ac.ir/fa/grid/2/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-118",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://torbath.ac.ir/fa/grid/2/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-118?sort=column0",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://torbath.ac.ir/",
+        "reason": "fetch failed"
+      }
+    ],
+    "elapsedMs": 14
+  }
+}

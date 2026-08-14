@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "crawlerVersion": "14.0-hub-interactive-relations",
+  "fingerprint": "6931273d5322a5327dbd681c8576a63283635a4ef3b56ada7fa23bd9abbad267",
+  "completed": true,
+  "completedAt": "2026-08-14T18:24:52.453Z",
+  "index": 62,
+  "slug": "lar-higher-ed",
+  "result": {
+    "slug": "lar-higher-ed",
+    "nameFa": "مرکز آموزش عالی لار",
+    "officialWebsite": "https://lar.ac.ir/",
+    "existingResearchUrl": null,
+    "pageCount": 0,
+    "visitedCount": 6,
+    "browserFallbackPages": 0,
+    "researchHubs": 0,
+    "evidence": [],
+    "documents": [],
+    "portalCandidates": [],
+    "references": [],
+    "browserActions": [],
+    "failures": [
+      {
+        "url": "https://services.lar.ac.ir/?page_id=1370",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://services.lar.ac.ir/wp-content/plugins/gravityforms/assets/js/dist/",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://services.lar.ac.ir/wp-content/plugins/gravityforms/assets/js/dist/?ND",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://edu.lar.ac.ir/sess/Script/Help.aspx?Page=69",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://edu.lar.ac.ir/sess/Script/Help.aspx?Page=68",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://lar.ac.ir/",
+        "reason": "fetch failed"
+      }
+    ],
+    "elapsedMs": 20
+  }
+}

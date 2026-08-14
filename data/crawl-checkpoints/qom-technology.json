@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "crawlerVersion": "14.0-hub-interactive-relations",
+  "fingerprint": "6931273d5322a5327dbd681c8576a63283635a4ef3b56ada7fa23bd9abbad267",
+  "completed": true,
+  "completedAt": "2026-08-14T18:24:53.450Z",
+  "index": 83,
+  "slug": "qom-technology",
+  "result": {
+    "slug": "qom-technology",
+    "nameFa": "دانشگاه صنعتی قم",
+    "officialWebsite": "https://qut.ac.ir/",
+    "existingResearchUrl": "https://qut.ac.ir/fa/researches/index",
+    "pageCount": 0,
+    "visitedCount": 6,
+    "browserFallbackPages": 0,
+    "researchHubs": 1,
+    "evidence": [],
+    "documents": [],
+    "portalCandidates": [],
+    "references": [],
+    "browserActions": [],
+    "failures": [
+      {
+        "url": "https://qut.ac.ir/fa/researches/index",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://digitallib.qut.ac.ir/Dl/Search/default.aspx?Login=1",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/DefaultSP.aspx?bs=%",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4%20%D8%B3%D9%8A%DA%AF%D9%86%D8%A7%D9%84%D9%87%D8%A7%20Signal%20processing",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%D9%8A%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%B9%D8%A7%D9%84%D9%8A",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://qut.ac.ir/",
+        "reason": "fetch failed"
+      }
+    ],
+    "elapsedMs": 17
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "crawlerVersion": "14.0-hub-interactive-relations",
+  "fingerprint": "6931273d5322a5327dbd681c8576a63283635a4ef3b56ada7fa23bd9abbad267",
+  "completed": true,
+  "completedAt": "2026-08-14T18:24:47.131Z",
+  "index": 8,
+  "slug": "iasbs",
+  "result": {
+    "slug": "iasbs",
+    "nameFa": "دانشگاه تحصیلات تکمیلی علوم پایه زنجان",
+    "officialWebsite": "https://iasbs.ac.ir/",
+    "existingResearchUrl": null,
+    "pageCount": 0,
+    "visitedCount": 3,
+    "browserFallbackPages": 0,
+    "researchHubs": 0,
+    "evidence": [],
+    "documents": [],
+    "portalCandidates": [],
+    "references": [],
+    "browserActions": [],
+    "failures": [
+      {
+        "url": "https://iasbs.ac.ir/sections/student-affairs/regulations-forms",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://iasbs.ac.ir/sections/student-affairs/regulations-forms?lang=fa",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://iasbs.ac.ir/",
+        "reason": "fetch failed"
+      }
+    ],
+    "elapsedMs": 33
+  }
+}
