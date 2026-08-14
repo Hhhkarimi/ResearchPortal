@@ -71,15 +71,15 @@ function validateRuntime(
     ],
 
     [
-      runtime.includes(
-        "countTowardUniversitySystems: false"
+      /countTowardUniversitySystems:\s*false/.test(
+        runtime
       ),
       "external systems no-count",
     ],
 
     [
-      runtime.includes(
-        "countTowardRTPMI: false"
+      /countTowardRTPMI:\s*false/.test(
+        runtime
       ),
       "external RTPMI no-count",
     ],
