@@ -23,19 +23,23 @@ jobs:
       CRAWL_MAX_PAGES_PER_HUB: "60"
       CRAWL_MAX_RESEARCH_HUBS: "24"
       CRAWL_MAX_DOCUMENTS_PER_UNIVERSITY: "250"
+
       CRAWL_PAGE_TIMEOUT_MS: "15000"
       CRAWL_DOCUMENT_TIMEOUT_MS: "20000"
       CRAWL_BROWSER_TIMEOUT_MS: "45000"
       CRAWL_BROWSER_CLICK_BUDGET: "6"
       CRAWL_BROWSER_CLICK_WAIT_MS: "900"
       CRAWL_BROWSER_ACTION_LOG_LIMIT: "240"
+
       CRAWL_PAGE_CONCURRENCY: "3"
       CRAWL_UNIVERSITY_CONCURRENCY: "3"
       CRAWL_USE_BROWSER_FALLBACK: "1"
+
       CRAWL_CHECKPOINT_INTERVAL_MS: "1800000"
       CRAWL_CHECKPOINT_DIR: "data/crawl-checkpoints"
       CRAWL_CHECKPOINT_PUSH: "1"
       CRAWL_CHECKPOINT_RESET: "0"
+
       DISCOVERY_PROMOTE_CONFIDENCE: "0.78"
       PIPELINE_ARTIFACT_ROOT: "C:\\actions-runner\\_pipeline-artifacts"
       PIPELINE_WORK_ROOT: "C:\\actions-runner\\_pipeline-work"
@@ -48,48 +52,56 @@ jobs:
           fetch-depth: 0
           clean: true
 
-      - name: Verify preinstalled Node runtime
-        shell: powershell
+      # Self-hosted Windows runner: use locally installed runtimes.
+      # No setup-node/setup-python downloads and no PowerShell temp scripts.
+      - name: Verify local Node and Python runtimes
+        shell: cmd
         run: |
-          $node = Get-Command node -ErrorAction SilentlyContinue
+          @echo off
+          echo ==========================================
+          echo Verifying local runtimes
+          echo ==========================================
 
-          if (-not $node) {
-            $candidates = @(
-              "$env:ProgramFiles\nodejs\node.exe",
-              "${env:ProgramFiles(x86)}\nodejs\node.exe",
-              "$env:LOCALAPPDATA\Programs\nodejs\node.exe"
-            ) | Where-Object { $_ -and (Test-Path $_) }
+          where node >nul 2>&1
+          if errorlevel 1 (
+            echo ERROR: Node.js is not available in runner PATH.
+            exit /b 1
+          )
 
-            if ($candidates.Count -eq 0) {
-              throw "Node.js was not found on the self-hosted runner. Install Node 22+ system-wide or add it to PATH."
-            }
+          node --version
+          node -e "const m=Number(process.versions.node.split('.')[0]); if(m<22){console.error('ERROR: Node 22+ required, found '+process.version); process.exit(1)}"
+          if errorlevel 1 exit /b 1
 
-            $nodeDir = Split-Path $candidates[0] -Parent
-            $env:PATH = "$nodeDir;$env:PATH"
-            $nodeDir | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
-          }
+          where npm.cmd >nul 2>&1
+          if errorlevel 1 (
+            echo ERROR: npm.cmd is not available in runner PATH.
+            exit /b 1
+          )
+          npm.cmd --version
 
-          $version = (& node --version).Trim()
-          $major = [int](($version -replace '^v','').Split('.')[0])
+          where py >nul 2>&1
+          if not errorlevel 1 (
+            py -3 -c "import sys; print(sys.version); assert sys.version_info >= (3,11), 'Python 3.11+ required'"
+            if errorlevel 1 exit /b 1
+            goto python_ok
+          )
 
-          if ($major -lt 22) {
-            throw "Node.js 22+ is required. Found $version"
-          }
+          where python >nul 2>&1
+          if errorlevel 1 (
+            echo ERROR: Python 3.11+ was not found. Install Python or the Windows py launcher.
+            exit /b 1
+          )
 
-          Write-Host "Using local Node: $version"
-          Write-Host "npm: $(& npm.cmd --version)"
+          python -c "import sys; print(sys.version); assert sys.version_info >= (3,11), 'Python 3.11+ required'"
+          if errorlevel 1 exit /b 1
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-          check-latest: false
+          :python_ok
+          echo Local runtimes OK.
 
-      - name: Set UTC snapshot date
-        shell: powershell
+      - name: Set UTC snapshot date without PowerShell
+        shell: cmd
         run: |
-          $date = (Get-Date).ToUniversalTime().ToString("yyyy-MM-dd")
-          "PIPELINE_SNAPSHOT_DATE=$date" >> $env:GITHUB_ENV
+          node -e "const fs=require('fs'); const d=new Date().toISOString().slice(0,10); fs.appendFileSync(process.env.GITHUB_ENV,'PIPELINE_SNAPSHOT_DATE='+d+'\n'); console.log('PIPELINE_SNAPSHOT_DATE='+d)"
 
       - name: Verify v14 crawler source transformation
         shell: cmd
@@ -109,9 +121,12 @@ jobs:
       - name: Sanitize and validate current published evidence
         shell: cmd
         run: |
-          npm run prepare:data
-          npm run validate:data
-          npm run validate:no-social
+          npm.cmd run prepare:data
+          if errorlevel 1 exit /b 1
+          npm.cmd run validate:data
+          if errorlevel 1 exit /b 1
+          npm.cmd run validate:no-social
+          if errorlevel 1 exit /b 1
 
       - name: Publish sanitized baseline
         shell: cmd
@@ -121,7 +136,9 @@ jobs:
           git add data public/datasets
           git diff --cached --quiet || git commit -m "chore(data): sanitize published evidence"
           git pull --rebase origin main
+          if errorlevel 1 exit /b 1
           git push origin HEAD:main
+          if errorlevel 1 exit /b 1
 
       - name: Deep crawl official research portals v14 with checkpoint resume
         shell: cmd
@@ -133,18 +150,21 @@ jobs:
 
       - name: Promote discovery, clean entities and rebuild evidence
         shell: cmd
-        run: npm run prepare:data
+        run: npm.cmd run prepare:data
 
       - name: Validate promoted datasets
         shell: cmd
         run: |
-          npm run validate:data
-          npm run validate:entities
-          npm run validate:no-social
+          npm.cmd run validate:data
+          if errorlevel 1 exit /b 1
+          npm.cmd run validate:entities
+          if errorlevel 1 exit /b 1
+          npm.cmd run validate:no-social
+          if errorlevel 1 exit /b 1
 
       - name: Monitor published evidence links
         shell: cmd
-        run: npm run monitor:links
+        run: npm.cmd run monitor:links
 
       - name: Remove completed crawl checkpoints
         shell: cmd
@@ -162,4 +182,6 @@ jobs:
           git add -A data public/datasets
           git diff --cached --quiet || git commit -m "chore(crawl): publish v14 research evidence"
           git pull --rebase origin main
+          if errorlevel 1 exit /b 1
           git push origin HEAD:main
+          if errorlevel 1 exit /b 1
