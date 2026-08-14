@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "crawlerVersion": "14.0-hub-interactive-relations",
+  "fingerprint": "6931273d5322a5327dbd681c8576a63283635a4ef3b56ada7fa23bd9abbad267",
+  "completed": true,
+  "completedAt": "2026-08-14T21:05:44.138Z",
+  "index": 96,
+  "slug": "torbat-jam-agri",
+  "result": {
+    "slug": "torbat-jam-agri",
+    "nameFa": "دانشکده کشاورزی و دامپروری تربت جام",
+    "officialWebsite": "https://tjamcaas.ac.ir/",
+    "existingResearchUrl": null,
+    "pageCount": 0,
+    "visitedCount": 5,
+    "browserFallbackPages": 0,
+    "researchHubs": 0,
+    "evidence": [],
+    "documents": [],
+    "portalCandidates": [],
+    "references": [],
+    "browserActions": [],
+    "failures": [
+      {
+        "url": "http://tjamcaas.ac.ir/news.php?readmore=119",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "http://tjamcaas.ac.ir/news.php?readmore=1262",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "http://tjamcaas.ac.ir/news.php?readmore=13",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "http://tjamcaas.ac.ir/downloads.php?cat_id=2",
+        "reason": "fetch failed"
+      },
+      {
+        "url": "https://tjamcaas.ac.ir/",
+        "reason": "fetch failed"
+      }
+    ],
+    "elapsedMs": 73
+  }
+}
