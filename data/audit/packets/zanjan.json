@@ -869,7 +869,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 11,
+      "sourceCount": 12,
       "sources": [
         {
           "url": "https://resmng.znu.ac.ir/rules/scientific-publications-country",
@@ -879,10 +879,9 @@
         },
         {
           "url": "https://resmng.znu.ac.ir/page/domestic-scientific-journals-rsr",
-          "kind": "unit",
-          "claim": "مدیریت امور پژوهشی دانشگاه زنجان | University of zanjan",
-          "id": "zanjan-discovery-unit-research-af100cd69fe7",
-          "unitType": "research"
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
         },
         {
           "url": "https://resmng.znu.ac.ir/page/",
@@ -898,7 +897,7 @@
           "unitType": "laboratory"
         },
         {
-          "url": "http://library.znu.ac.ir/simorghportal/tabid/34/ctl/Terms/Default.aspx",
+          "url": "http://library.znu.ac.ir/simorghportal/tabid/34/ctl/Privacy/Default.aspx",
           "kind": "unit",
           "claim": "کتابخانه مرکزی و مرکز اسناد",
           "id": "zanjan-discovery-unit-library-8939b6031079",
@@ -910,6 +909,13 @@
           "claim": "معاونت پژوهش و فناوری دانشگاه زنجان | University of zanjan",
           "id": "zanjan-discovery-unit-library-de5c8260124b",
           "unitType": "publishing"
+        },
+        {
+          "url": "https://resmng.znu.ac.ir/page/home-resmng",
+          "kind": "unit",
+          "claim": "مدیریت امور پژوهشی دانشگاه زنجان | University of zanjan",
+          "id": "zanjan-discovery-unit-research-af100cd69fe7",
+          "unitType": "research"
         },
         {
           "url": "https://research.znu.ac.ir/services/tech-transfer-rsr",
@@ -2284,7 +2290,7 @@
       "type": "library",
       "evidence": "verified",
       "lastVerified": "2026-08-14",
-      "sourceUrl": "http://library.znu.ac.ir/simorghportal/tabid/34/ctl/Terms/Default.aspx",
+      "sourceUrl": "http://library.znu.ac.ir/simorghportal/tabid/34/ctl/Privacy/Default.aspx",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
       "entityType": "unit",
@@ -2293,15 +2299,15 @@
       "cleaningReason": "organizational-unit-identity-proven",
       "primaryDimension": "libraryDocuments",
       "evidenceUrls": [
-        "http://library.znu.ac.ir/simorghportal/tabid/34/ctl/Terms/Default.aspx",
+        "http://library.znu.ac.ir/simorghportal/tabid/34/ctl/Privacy/Default.aspx",
         "http://library.znu.ac.ir/simorghportal/tabid/34/Default.aspx",
         "http://library.znu.ac.ir/SimorghPortal/",
-        "http://library.znu.ac.ir/simorghportal/tabid/34/ctl/Privacy/Default.aspx"
+        "http://library.znu.ac.ir/simorghportal/tabid/34/ctl/Terms/Default.aspx"
       ],
       "alternateUrls": [
         "http://library.znu.ac.ir/simorghportal/tabid/34/Default.aspx",
         "http://library.znu.ac.ir/SimorghPortal/",
-        "http://library.znu.ac.ir/simorghportal/tabid/34/ctl/Privacy/Default.aspx"
+        "http://library.znu.ac.ir/simorghportal/tabid/34/ctl/Terms/Default.aspx"
       ]
     },
     {
@@ -2331,24 +2337,24 @@
       "type": "research",
       "evidence": "verified",
       "lastVerified": "2026-08-14",
-      "sourceUrl": "https://resmng.znu.ac.ir/page/domestic-scientific-journals-rsr",
+      "sourceUrl": "https://resmng.znu.ac.ir/page/home-resmng",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.8694736842105263,
+      "discoveryConfidence": 0.8957894736842105,
       "entityType": "unit",
       "dimension": "organization",
       "relation": "organizational-unit",
       "cleaningReason": "organizational-unit-identity-proven",
       "primaryDimension": "organization",
       "evidenceUrls": [
-        "https://resmng.znu.ac.ir/page/domestic-scientific-journals-rsr",
+        "https://resmng.znu.ac.ir/page/home-resmng",
         "https://resmng.znu.ac.ir/rules/scientific-publications-country",
         "https://resmng.znu.ac.ir/",
-        "https://resmng.znu.ac.ir/page/home-resmng"
+        "https://resmng.znu.ac.ir/page/domestic-scientific-journals-rsr"
       ],
       "alternateUrls": [
         "https://resmng.znu.ac.ir/rules/scientific-publications-country",
         "https://resmng.znu.ac.ir/",
-        "https://resmng.znu.ac.ir/page/home-resmng"
+        "https://resmng.znu.ac.ir/page/domestic-scientific-journals-rsr"
       ]
     },
     {
