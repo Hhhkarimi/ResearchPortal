@@ -22,37 +22,37 @@
   "directOfficialPortals": 98,
   "portalResolutionOutcomes": 115,
   "unresolvedPublicPortal": 0,
-  "ranked": 49,
-  "unranked": 66,
+  "ranked": 46,
+  "unranked": 69,
   "rankedByISCCategory": {
-    "جامع": 32,
-    "صنعتی": 10,
+    "جامع": 31,
+    "صنعتی": 8,
     "علوم کشاورزی": 2,
     "هنر": 2,
     "زیرنظام": 0,
     "دستگاه اجرایی": 3
   },
   "deepAuditStatusCounts": {
-    "identity-verified-deep-pending": 49,
-    "deep-audited": 49,
+    "identity-verified-deep-pending": 52,
+    "deep-audited": 46,
     "reference-resolved-deep-pending": 4,
     "portal-resolution-pending": 8,
     "blocked-needs-alternative-discovery": 1,
     "restricted-closed": 4
   },
   "deepAuditedByISCCategory": {
-    "جامع": 32,
-    "صنعتی": 10,
+    "جامع": 31,
+    "صنعتی": 8,
     "علوم کشاورزی": 2,
     "هنر": 2,
     "زیرنظام": 0,
     "دستگاه اجرایی": 3
   },
   "evidenceCoverage": {
-    "average": 69,
-    "complete100": 24,
-    "gte75": 53,
-    "gte50": 92
+    "average": 68.2,
+    "complete100": 21,
+    "gte75": 50,
+    "gte50": 91
   },
   "dimensions": {
     "portalIdentity": {
@@ -62,9 +62,9 @@
       "restricted": 4
     },
     "organization": {
-      "unresolved": 46,
-      "verified": 43,
-      "observed-reference": 22,
+      "unresolved": 48,
+      "verified": 39,
+      "observed-reference": 24,
       "restricted": 4
     },
     "libraryDocuments": {
@@ -73,26 +73,26 @@
       "restricted": 4
     },
     "laboratories": {
-      "unresolved": 50,
-      "verified": 59,
+      "unresolved": 51,
+      "verified": 58,
       "observed-reference": 2,
       "restricted": 4
     },
     "industryTechnology": {
-      "verified": 75,
-      "unresolved": 30,
+      "verified": 74,
+      "unresolved": 31,
       "observed-reference": 6,
       "restricted": 4
     },
     "systemsServices": {
-      "verified": 61,
-      "unresolved": 46,
+      "verified": 60,
+      "unresolved": 47,
       "observed-reference": 4,
       "restricted": 4
     },
     "documentsRegulations": {
-      "verified": 96,
-      "unresolved": 15,
+      "verified": 95,
+      "unresolved": 16,
       "restricted": 4
     }
   },
@@ -190,15 +190,15 @@
     "reviewedInstitutions": 115,
     "dimensionOutcomes": 805
   },
-  "units": 344,
-  "systems": 61,
+  "units": 350,
+  "systems": 52,
   "documents": 4737,
-  "provenanceRecords": 10648,
+  "provenanceRecords": 10645,
   "dimensionEvidenceOutcomes": 805,
-  "dimensionEvidenceSources": 18295,
+  "dimensionEvidenceSources": 18281,
   "publicationGateDowngrades": 31,
   "auditPackets": 115,
-  "snapshotDate": "2026-08-11",
+  "snapshotDate": "2026-08-14",
   "methodologyVersion": "RTPMI-4.2-ISC",
   "disclaimer": "RTPMI evaluates public Research & Technology portal maturity, not university research performance. Missing evidence is not scored as zero."
 }

@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
-  "fromSnapshot": "2026-08-11",
-  "toSnapshot": "2026-08-12",
-  "methodologyChanged": true,
+  "fromSnapshot": "2026-08-12",
+  "toSnapshot": "2026-08-14",
+  "methodologyChanged": false,
   "methodology": {
-    "before": "RTPMI-4.1-ISC",
+    "before": "RTPMI-4.2-ISC",
     "after": "RTPMI-4.2-ISC"
   },
   "totals": {
@@ -14,63 +14,63 @@
       "delta": 0
     },
     "documents": {
-      "before": 6671,
-      "after": 4862,
-      "delta": -1809
+      "before": 4862,
+      "after": 4737,
+      "delta": -125
     },
     "evidenceCoverageAverage": {
-      "before": 63.4,
-      "after": 63,
-      "delta": -0.4
+      "before": 63,
+      "after": 62.4,
+      "delta": -0.6
     },
     "ranked": {
-      "before": 82,
-      "after": 79,
-      "delta": -3
+      "before": 79,
+      "after": 46,
+      "delta": -33
     }
   },
   "newDirectPortals": [],
   "addedDocuments": 0,
   "improvedEvidenceInstitutions": 0,
   "brokenLinksDetected": 604,
-  "rankingChanges": 39,
+  "rankingChanges": 46,
   "highlights": {
     "improvedEvidence": [],
     "scoreChanges": [
       {
-        "universitySlug": "qom-technology",
-        "nameFa": "دانشگاه صنعتی قم",
-        "before": 77,
-        "after": 61.1,
-        "delta": -15.9
+        "universitySlug": "eghlid-higher-ed",
+        "nameFa": "مرکز آموزش عالی اقلید",
+        "before": 63.9,
+        "after": 31.7,
+        "delta": -32.2
       },
       {
-        "universitySlug": "amirkabir",
-        "nameFa": "دانشگاه صنعتی امیرکبیر",
-        "before": 89.3,
-        "after": 76.7,
-        "delta": -12.6
+        "universitySlug": "shahid-rajaee",
+        "nameFa": "دانشگاه تربیت دبیر شهید رجایی",
+        "before": 86.6,
+        "after": 58.9,
+        "delta": -27.7
       },
       {
-        "universitySlug": "tehran",
-        "nameFa": "دانشگاه تهران",
-        "before": 85.1,
-        "after": 74.1,
-        "delta": -11
+        "universitySlug": "amol-special-tech",
+        "nameFa": "دانشگاه تخصصی فناوری های نوین آمل",
+        "before": 83.2,
+        "after": 58.9,
+        "delta": -24.3
       },
       {
-        "universitySlug": "iust",
-        "nameFa": "دانشگاه علم و صنعت ایران",
-        "before": 89.9,
-        "after": 80.6,
-        "delta": -9.3
+        "universitySlug": "gonabad-higher-ed",
+        "nameFa": "مجتمع آموزش عالی گناباد",
+        "before": 84.8,
+        "after": 60.9,
+        "delta": -23.9
       },
       {
-        "universitySlug": "kharazmi",
-        "nameFa": "دانشگاه خوارزمی",
-        "before": 83.5,
-        "after": 74.9,
-        "delta": -8.6
+        "universitySlug": "hakim-sabzevari",
+        "nameFa": "دانشگاه حکیم سبزواری",
+        "before": 91.7,
+        "after": 70.3,
+        "delta": -21.4
       }
     ],
     "brokenLinks": [
@@ -81,5 +81,5 @@
       "https://news.modares.ac.ir/res-news-list/%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C%20%D8%A8%DB%8C%D8%B3%D8%AA%20%D9%88%20%D9%BE%D9%86%D8%AC%D9%85%DB%8C%D9%86%20%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87"
     ]
   },
-  "interpretation": "RTPMI methodology changed between snapshots; score deltas are a rebaseline, not a pure performance change."
+  "interpretation": "Score deltas use the same RTPMI methodology."
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "11.0.0",
-  "snapshotDate": "2026-08-12",
+  "snapshotDate": "2026-08-14",
   "institution": {
     "category": "صنعتی",
     "iscRank": 15,
@@ -16,7 +16,7 @@
     "nameFa": "دانشگاه صنعتی قم",
     "iscCategory": "صنعتی",
     "iscRank": 15,
-    "auditDate": "2026-08-13",
+    "auditDate": "2026-08-14",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://qut.ac.ir/fa/researches/index",
     "evidenceUrls": [
@@ -38,7 +38,7 @@
     "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
-      "lastRun": "2026-08-13",
+      "lastRun": "2026-08-14",
       "promotedSources": 10,
       "socialEvidenceRemoved": true
     },
@@ -49,7 +49,7 @@
     "nameFa": "دانشگاه صنعتی قم",
     "iscCategory": "صنعتی",
     "iscRank": 15,
-    "auditDate": "2026-08-11",
+    "auditDate": "2026-08-14",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://qut.ac.ir/fa/researches/index",
     "evidenceUrls": [
@@ -68,21 +68,21 @@
       "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%D9%8A%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%B9%D8%A7%D9%84%D9%8A",
       "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%B3%D9%8A%D8%A7%D8%B3%D8%AA%D9%85%D8%AF%D8%A7%D8%B1%D8%A7%D9%86"
     ],
-    "deepAuditStatus": "deep-audited",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "verified",
       "libraryDocuments": "verified",
-      "laboratories": "verified",
-      "industryTechnology": "verified",
+      "laboratories": "unresolved",
+      "industryTechnology": "unresolved",
       "systemsServices": "verified",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 86,
+    "auditEvidenceCoverage": 57,
     "unitsFound": 2,
     "systemsFound": 1,
     "documentsFound": 0,
-    "rankingEligibility": "candidate",
+    "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
   "dimensionEvidence": [
@@ -96,7 +96,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 14,
       "sources": [
         {
@@ -198,14 +198,15 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 2,
       "sources": [
         {
           "url": "https://qut.ac.ir/fa/researches/index",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific organization source",
-          "id": null
+          "kind": "unit",
+          "claim": "مدیریت امور پژوهشی و فناوری",
+          "id": "qom-technology-1",
+          "unitType": "research"
         },
         {
           "url": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_5.aspx",
@@ -229,15 +230,9 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
-      "sourceCount": 5,
+      "reviewedAt": "2026-08-14",
+      "sourceCount": 4,
       "sources": [
-        {
-          "url": "https://qut.ac.ir/fa/researches/index",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
         {
           "url": "https://digitallib.qut.ac.ir/Dl/Search/default.aspx?Login=1",
           "kind": "portal-document-reaudit",
@@ -278,15 +273,9 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
-      "sourceCount": 2,
+      "reviewedAt": "2026-08-14",
+      "sourceCount": 1,
       "sources": [
-        {
-          "url": "https://qut.ac.ir/fa/researches/index",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
         {
           "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%AF%D8%B3%D8%AA%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%D9%8A%20%D8%A2%D8%B2%D9%85%D8%A7%D9%8A%D8%B4%DA%AF%D8%A7%D9%87%D9%8A",
           "kind": "research-review-specific",
@@ -309,16 +298,9 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-13",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://qut.ac.ir/fa/researches/index",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        }
-      ],
+      "reviewedAt": "2026-08-14",
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
       "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -333,15 +315,9 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-13",
-      "sourceCount": 5,
+      "reviewedAt": "2026-08-14",
+      "sourceCount": 4,
       "sources": [
-        {
-          "url": "https://qut.ac.ir/fa/researches/index",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
         {
           "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4%20%D8%B3%D9%8A%DA%AF%D9%86%D8%A7%D9%84%D9%87%D8%A7%20Signal%20processing",
           "kind": "portal-document-reaudit",
@@ -382,7 +358,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 3,
       "sources": [
         {
@@ -412,37 +388,7 @@
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
-  "ranking": {
-    "universitySlug": "qom-technology",
-    "nameFa": "دانشگاه صنعتی قم",
-    "iscCategory": "صنعتی",
-    "iscRank": 15,
-    "score": 51.4,
-    "coverageAdjustedScore": 41.1,
-    "rankingScore": 51.1,
-    "confidence": 89.9,
-    "metrics": {
-      "documents": null,
-      "organization": 63.3,
-      "library": 70,
-      "laboratories": 0,
-      "systems": 37.5,
-      "industryTech": 0,
-      "dataQuality": 100,
-      "findability": 100
-    },
-    "units": 2,
-    "systems": 1,
-    "documents": 0,
-    "activeWeight": 80,
-    "evidenceCoverage": 86,
-    "methodologyVersion": "RTPMI-4.2-ISC",
-    "scoringPolicyVersion": "entity-cleaning-2.2-coverage-shrinkage-findability",
-    "snapshotDate": "2026-08-11",
-    "rank": 48,
-    "portalRankWithinISCClass": 10,
-    "rankedPortalsInISCClass": 10
-  },
+  "ranking": null,
   "units": [
     {
       "id": "qom-technology-1",
@@ -500,20 +446,21 @@
       "category": "research",
       "url": "https://scimet.qut.ac.ir/",
       "sourceUrl": "https://qut.ac.ir/",
-      "relation": "linked-external-system",
+      "relation": "system-endpoint",
       "evidence": "verified",
       "lastVerified": "2026-08-11",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.9747368421052631,
-      "entityType": "external-system",
+      "entityType": "system",
       "dimension": "systemsServices",
-      "cleaningReason": "proven-research-external-system-endpoint",
+      "cleaningReason": "proven-university-system-endpoint",
       "primaryDimension": "systemsServices",
       "evidenceUrls": [
         "https://scimet.qut.ac.ir/",
         "https://qut.ac.ir/"
       ],
-      "alternateUrls": []
+      "alternateUrls": [],
+      "ownershipScope": "university"
     }
   ],
   "documents": [],

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "11.0.0",
-  "snapshotDate": "2026-08-12",
+  "snapshotDate": "2026-08-14",
   "institution": {
     "category": "جامع",
     "iscRank": 22,
@@ -16,7 +16,7 @@
     "nameFa": "دانشگاه شهرکرد",
     "iscCategory": "جامع",
     "iscRank": 22,
-    "auditDate": "2026-08-13",
+    "auditDate": "2026-08-14",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://www.sku.ac.ir/Vice-President/research",
     "evidenceUrls": [
@@ -83,7 +83,7 @@
     "note": "پرتال رسمی پژوهش و فناوری و مسیرهای قابل بازیابی آن در باز‌ممیزی ۲۰ مرداد ۱۴۰۵ ثبت شد؛ هر بُعد با شاهد اختصاصی خودش منتشر می‌شود.",
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
-      "lastRun": "2026-08-13",
+      "lastRun": "2026-08-14",
       "promotedSources": 69,
       "socialEvidenceRemoved": true
     },
@@ -94,7 +94,7 @@
     "nameFa": "دانشگاه شهرکرد",
     "iscCategory": "جامع",
     "iscRank": 22,
-    "auditDate": "2026-08-11",
+    "auditDate": "2026-08-14",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://www.sku.ac.ir/Vice-President/research",
     "evidenceUrls": [
@@ -186,7 +186,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 59,
       "sources": [
         {
@@ -558,11 +558,23 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
-      "sourceCount": 7,
+      "reviewedAt": "2026-08-14",
+      "sourceCount": 9,
       "sources": [
         {
           "url": "https://sku.ac.ir/en/University_DepartmentsForm.aspx",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
+        },
+        {
+          "url": "https://journals.sku.ac.ir/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific organization source",
+          "id": null
+        },
+        {
+          "url": "https://sarv.sku.ac.ir/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific organization source",
           "id": null
@@ -575,7 +587,7 @@
           "unitType": "industry"
         },
         {
-          "url": "https://sarv.sku.ac.ir/Clab",
+          "url": "https://sarv.sku.ac.ir/CLab",
           "kind": "unit",
           "claim": "آزمایشگاه مرکزی",
           "id": "shahrekord-discovery-unit-laboratory-31128671f815",
@@ -624,7 +636,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 7,
       "sources": [
         {
@@ -688,7 +700,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 7,
       "sources": [
         {
@@ -751,7 +763,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 10,
       "sources": [
         {
@@ -832,15 +844,9 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
-      "sourceCount": 8,
+      "reviewedAt": "2026-08-14",
+      "sourceCount": 7,
       "sources": [
-        {
-          "url": "https://journals.sku.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
         {
           "url": "https://journals.sku.ac.ir/contact.us",
           "kind": "portal-document-reaudit",
@@ -849,12 +855,6 @@
         },
         {
           "url": "https://journals.sku.ac.ir/rss",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://sarv.sku.ac.ir/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
@@ -879,6 +879,13 @@
           "systemCategory": "journals"
         },
         {
+          "url": "https://journals.sku.ac.ir/",
+          "kind": "research-review-specific",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
+        },
+        {
           "url": "https://www.sku.ac.ir/Vice-President/research/News/5708/%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%D8%B4%D8%B1%DA%A9%D8%AA-%D9%81%D9%88%D9%84%D8%A7%D8%AF-%D9%85%D8%A8%D8%A7%D8%B1%D9%83%D9%87-%D8%A7%D8%B2-%D8%B1%D8%B3%D8%A7%D9%84%D9%87%E2%80%8C%D9%87%D8%A7-%D9%88-%D9%BE%D8%A7%D9%8A%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87%E2%80%8C%D9%87%D8%A7%D9%8A-%D9%85%D9%82%D8%A7%D8%B7%D8%B9-%D9%83%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%D9%8A-%D8%A7%D8%B1%D8%B4%D8%AF-%D9%88-%D8%AF%D9%83%D8%AA%D8%B1%D9%8A-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D8%A7%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%D9%87%D8%B1%D9%83%D8%B1%D8%AF",
           "kind": "research-review-specific",
           "claim": "سامانه‌ها و خدمات — کشف خودکار",
@@ -900,7 +907,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 22,
       "sources": [
         {
@@ -1072,10 +1079,10 @@
     "evidenceCoverage": 100,
     "methodologyVersion": "RTPMI-4.2-ISC",
     "scoringPolicyVersion": "entity-cleaning-2.2-coverage-shrinkage-findability",
-    "snapshotDate": "2026-08-11",
+    "snapshotDate": "2026-08-14",
     "rank": 6,
     "portalRankWithinISCClass": 4,
-    "rankedPortalsInISCClass": 32
+    "rankedPortalsInISCClass": 31
   },
   "units": [
     {
@@ -1107,8 +1114,8 @@
       "nameFa": "آزمایشگاه مرکزی",
       "type": "laboratory",
       "evidence": "verified",
-      "lastVerified": "2026-08-12",
-      "sourceUrl": "https://sarv.sku.ac.ir/Clab",
+      "lastVerified": "2026-08-14",
+      "sourceUrl": "https://sarv.sku.ac.ir/CLab",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.99,
       "entityType": "unit",
@@ -1117,11 +1124,11 @@
       "cleaningReason": "organizational-unit-identity-proven",
       "primaryDimension": "laboratories",
       "evidenceUrls": [
-        "https://sarv.sku.ac.ir/Clab",
-        "https://sarv.sku.ac.ir/CLab"
+        "https://sarv.sku.ac.ir/CLab",
+        "https://sarv.sku.ac.ir/Clab"
       ],
       "alternateUrls": [
-        "https://sarv.sku.ac.ir/CLab"
+        "https://sarv.sku.ac.ir/Clab"
       ]
     },
     {
@@ -1213,15 +1220,16 @@
       "category": "journals",
       "url": "https://journals.sku.ac.ir/",
       "sourceUrl": "https://www.sku.ac.ir/Vice-President/research/News/5836/%D8%AA%D8%AC%D9%84%DB%8C%D9%84-%D8%A7%D8%B2-%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%D9%87%D8%B1%DA%A9%D8%B1%D8%AF",
-      "relation": "linked-external-system",
+      "relation": "system-endpoint",
       "evidence": "verified",
       "lastVerified": "2026-08-12",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.9747368421052631,
-      "entityType": "external-system",
+      "entityType": "system",
       "dimension": "systemsServices",
-      "cleaningReason": "proven-research-external-system-endpoint",
+      "cleaningReason": "proven-university-system-endpoint",
       "primaryDimension": "systemsServices",
+      "ownershipScope": "university",
       "evidenceUrls": [
         "https://journals.sku.ac.ir/",
         "https://www.sku.ac.ir/Vice-President/research/News/5836/%D8%AA%D8%AC%D9%84%DB%8C%D9%84-%D8%A7%D8%B2-%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%D9%87%D8%B1%DA%A9%D8%B1%D8%AF",
@@ -1240,20 +1248,21 @@
       "category": "research",
       "url": "https://sarv.sku.ac.ir/",
       "sourceUrl": "https://www.sku.ac.ir/Vice-President/research/News/5836/%D8%AA%D8%AC%D9%84%DB%8C%D9%84-%D8%A7%D8%B2-%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%D9%87%D8%B1%DA%A9%D8%B1%D8%AF",
-      "relation": "linked-external-system",
+      "relation": "system-endpoint",
       "evidence": "verified",
       "lastVerified": "2026-08-12",
       "discoveredBy": "research-deep-discovery",
       "discoveryConfidence": 0.8694736842105263,
-      "entityType": "external-system",
+      "entityType": "system",
       "dimension": "systemsServices",
-      "cleaningReason": "proven-research-external-system-endpoint",
+      "cleaningReason": "proven-university-system-endpoint",
       "primaryDimension": "systemsServices",
       "evidenceUrls": [
         "https://sarv.sku.ac.ir/",
         "https://www.sku.ac.ir/Vice-President/research/News/5836/%D8%AA%D8%AC%D9%84%DB%8C%D9%84-%D8%A7%D8%B2-%DA%A9%D8%A7%D8%B1%DA%A9%D9%86%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%D9%87%D8%B1%DA%A9%D8%B1%D8%AF"
       ],
-      "alternateUrls": []
+      "alternateUrls": [],
+      "ownershipScope": "university"
     }
   ],
   "documents": [
@@ -1266,7 +1275,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-13",
+      "lastVerified": "2026-08-14",
       "url": "https://www.sku.ac.ir/File/25635/cell",
       "sourceUrl": "https://www.sku.ac.ir/File/25635/cell",
       "parentUrl": "https://www.sku.ac.ir/office/ecr",
@@ -1295,7 +1304,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-13",
+      "lastVerified": "2026-08-14",
       "url": "https://www.sku.ac.ir/File/25636/modakhelat",
       "sourceUrl": "https://www.sku.ac.ir/File/25636/modakhelat",
       "parentUrl": "https://www.sku.ac.ir/office/ecr",
@@ -1324,7 +1333,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-13",
+      "lastVerified": "2026-08-14",
       "url": "https://sku.ac.ir/File/31441/manshoor-va-mavazine-akhlagh-dar-pajoohesh",
       "sourceUrl": "https://sku.ac.ir/File/31441/manshoor-va-mavazine-akhlagh-dar-pajoohesh",
       "parentUrl": "https://www.sku.ac.ir/office/ecr",
@@ -1353,7 +1362,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-13",
+      "lastVerified": "2026-08-14",
       "url": "https://sku.ac.ir/File/31442/rahnamaye-moraghebat",
       "sourceUrl": "https://sku.ac.ir/File/31442/rahnamaye-moraghebat",
       "parentUrl": "https://www.sku.ac.ir/office/ecr",
@@ -1383,7 +1392,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-13",
+      "lastVerified": "2026-08-14",
       "url": "https://www.sku.ac.ir/File/25634/animal-check-list",
       "sourceUrl": "https://www.sku.ac.ir/File/25634/animal-check-list",
       "parentUrl": "https://www.sku.ac.ir/office/ecr",
@@ -1413,7 +1422,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-13",
+      "lastVerified": "2026-08-14",
       "url": "https://www.sku.ac.ir/File/25637/moshahedat",
       "sourceUrl": "https://www.sku.ac.ir/File/25637/moshahedat",
       "parentUrl": "https://www.sku.ac.ir/office/ecr",
@@ -1442,7 +1451,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-13",
+      "lastVerified": "2026-08-14",
       "url": "https://www.sku.ac.ir/File/38015/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%AF%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4",
       "sourceUrl": "https://www.sku.ac.ir/File/38015/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%AF%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4",
       "parentUrl": "https://www.sku.ac.ir/Vice-President/research/Page/4578/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%DB%8C%20%DA%A9%D9%85%DB%8C%D8%AA%D9%87%20%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5%20%D8%B4%D9%86%D8%A7%D8%B3%D9%87%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82",
@@ -1471,7 +1480,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-13",
+      "lastVerified": "2026-08-14",
       "url": "https://www.sku.ac.ir/File/25649/tahod",
       "sourceUrl": "https://www.sku.ac.ir/File/25649/tahod",
       "parentUrl": "https://www.sku.ac.ir/office/ecr",
@@ -1500,7 +1509,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-13",
+      "lastVerified": "2026-08-14",
       "url": "https://www.sku.ac.ir/File/25641/animal-q",
       "sourceUrl": "https://www.sku.ac.ir/File/25641/animal-q",
       "parentUrl": "https://www.sku.ac.ir/office/ecr",
@@ -1529,7 +1538,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-13",
+      "lastVerified": "2026-08-14",
       "url": "https://www.sku.ac.ir/File/25640/flochrat",
       "sourceUrl": "https://www.sku.ac.ir/File/25640/flochrat",
       "parentUrl": "https://www.sku.ac.ir/office/ecr",
@@ -1558,7 +1567,7 @@
       "taxonomy": "research ethics",
       "evidence": "verified",
       "status": "active",
-      "lastVerified": "2026-08-13",
+      "lastVerified": "2026-08-14",
       "url": "https://www.sku.ac.ir/File/38016/farayandbarresipayannamehha",
       "sourceUrl": "https://www.sku.ac.ir/File/38016/farayandbarresipayannamehha",
       "parentUrl": "https://www.sku.ac.ir/Vice-President/research/Page/4578/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%DB%8C%20%DA%A9%D9%85%DB%8C%D8%AA%D9%87%20%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5%20%D8%B4%D9%86%D8%A7%D8%B3%D9%87%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "11.0.0",
-  "snapshotDate": "2026-08-12",
+  "snapshotDate": "2026-08-14",
   "institution": {
     "category": "جامع",
     "iscRank": 32,
@@ -16,7 +16,7 @@
     "nameFa": "دانشگاه اراک",
     "iscCategory": "جامع",
     "iscRank": 32,
-    "auditDate": "2026-08-13",
+    "auditDate": "2026-08-14",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.araku.ac.ir/",
     "evidenceUrls": [
@@ -93,7 +93,7 @@
       "systems"
     ],
     "discoveryCrawler": {
-      "lastRun": "2026-08-13",
+      "lastRun": "2026-08-14",
       "promotedSources": 75,
       "socialEvidenceRemoved": true
     }
@@ -103,7 +103,7 @@
     "nameFa": "دانشگاه اراک",
     "iscCategory": "جامع",
     "iscRank": 32,
-    "auditDate": "2026-08-11",
+    "auditDate": "2026-08-14",
     "portalAuditStatus": "direct-official",
     "researchUrl": "https://research.araku.ac.ir/",
     "evidenceUrls": [
@@ -171,16 +171,16 @@
     "deepAuditStatus": "deep-audited",
     "dimensions": {
       "portalIdentity": "verified",
-      "organization": "verified",
+      "organization": "observed-reference",
       "libraryDocuments": "verified",
       "laboratories": "verified",
       "industryTechnology": "verified",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 100,
+    "auditEvidenceCoverage": 93,
     "unitsFound": 4,
-    "systemsFound": 4,
+    "systemsFound": 3,
     "documentsFound": 15,
     "rankingEligibility": "candidate",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
@@ -196,7 +196,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 64,
       "sources": [
         {
@@ -600,7 +600,7 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 2,
       "sources": [
         {
@@ -632,15 +632,9 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 5,
       "sources": [
-        {
-          "url": "https://research.araku.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
         {
           "url": "https://research.araku.ac.ir/web/library",
           "kind": "portal-document-reaudit",
@@ -664,6 +658,13 @@
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
+        },
+        {
+          "url": "https://research.araku.ac.ir/",
+          "kind": "system",
+          "claim": "سامانه نشریات علمی",
+          "id": "arak-journals",
+          "systemCategory": "journals"
         }
       ],
       "publicationAdjustment": null,
@@ -680,20 +681,21 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 2,
       "sources": [
-        {
-          "url": "https://research.araku.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
         {
           "url": "https://new.araku.ac.ir/web/lab",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific laboratories source",
           "id": null
+        },
+        {
+          "url": "https://research.araku.ac.ir/",
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی",
+          "id": "arak-lab",
+          "unitType": "laboratory"
         }
       ],
       "publicationAdjustment": null,
@@ -710,20 +712,21 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 2,
       "sources": [
-        {
-          "url": "https://research.araku.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
         {
           "url": "https://new.araku.ac.ir/web/indust",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific industryTechnology source",
           "id": null
+        },
+        {
+          "url": "https://research.araku.ac.ir/",
+          "kind": "unit",
+          "claim": "مدیریت امور فناوری، کارآفرینی و تجاری‌سازی",
+          "id": "arak-1",
+          "unitType": "technology"
         }
       ],
       "publicationAdjustment": null,
@@ -740,14 +743,15 @@
       "status": "observed-reference",
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.araku.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
+          "kind": "system",
+          "claim": "سامانه نشریات علمی",
+          "id": "arak-journals",
+          "systemCategory": "journals"
         }
       ],
       "publicationAdjustment": null,
@@ -764,7 +768,7 @@
       "status": "verified",
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
-      "reviewedAt": "2026-08-13",
+      "reviewedAt": "2026-08-14",
       "sourceCount": 15,
       "sources": [
         {
@@ -868,13 +872,13 @@
     "nameFa": "دانشگاه اراک",
     "iscCategory": "جامع",
     "iscRank": 32,
-    "score": 78.9,
-    "coverageAdjustedScore": 78.9,
-    "rankingScore": 78.9,
-    "confidence": 100,
+    "score": 78.5,
+    "coverageAdjustedScore": 69.1,
+    "rankingScore": 75.1,
+    "confidence": 95,
     "metrics": {
       "documents": 82,
-      "organization": 81.7,
+      "organization": null,
       "library": 70,
       "laboratories": 70,
       "systems": 72.5,
@@ -883,16 +887,16 @@
       "findability": 100
     },
     "units": 4,
-    "systems": 4,
+    "systems": 3,
     "documents": 15,
-    "activeWeight": 100,
-    "evidenceCoverage": 100,
+    "activeWeight": 88,
+    "evidenceCoverage": 93,
     "methodologyVersion": "RTPMI-4.2-ISC",
     "scoringPolicyVersion": "entity-cleaning-2.2-coverage-shrinkage-findability",
-    "snapshotDate": "2026-08-11",
-    "rank": 8,
-    "portalRankWithinISCClass": 6,
-    "rankedPortalsInISCClass": 32
+    "snapshotDate": "2026-08-14",
+    "rank": 15,
+    "portalRankWithinISCClass": 10,
+    "rankedPortalsInISCClass": 31
   },
   "units": [
     {
@@ -1002,15 +1006,16 @@
       "relation": "unit-service",
       "evidence": "verified",
       "lastVerified": "2026-08-10",
-      "entityType": "external-system",
+      "entityType": "system",
       "dimension": "systemsServices",
-      "cleaningReason": "proven-research-external-system-endpoint",
+      "cleaningReason": "proven-university-system-endpoint",
       "primaryDimension": "systemsServices",
       "evidenceUrls": [
         "https://journals.araku.ac.ir/",
         "https://research.araku.ac.ir/"
       ],
-      "alternateUrls": []
+      "alternateUrls": [],
+      "ownershipScope": "university"
     },
     {
       "id": "arak-press",
@@ -1022,35 +1027,16 @@
       "relation": "unit-service",
       "evidence": "verified",
       "lastVerified": "2026-08-10",
-      "entityType": "external-system",
+      "entityType": "system",
       "dimension": "systemsServices",
-      "cleaningReason": "proven-research-external-system-endpoint",
+      "cleaningReason": "proven-university-system-endpoint",
       "primaryDimension": "systemsServices",
       "evidenceUrls": [
         "https://press.araku.ac.ir/",
         "https://research.araku.ac.ir/"
       ],
-      "alternateUrls": []
-    },
-    {
-      "id": "arak-sate",
-      "universitySlug": "arak",
-      "nameFa": "سامانه ساتع",
-      "category": "research",
-      "url": "https://sate.atf.gov.ir/",
-      "sourceUrl": "https://research.araku.ac.ir/",
-      "relation": "national-related-system",
-      "evidence": "verified",
-      "lastVerified": "2026-08-10",
-      "entityType": "external-system",
-      "dimension": "systemsServices",
-      "cleaningReason": "proven-research-external-system-endpoint",
-      "primaryDimension": "systemsServices",
-      "evidenceUrls": [
-        "https://sate.atf.gov.ir/",
-        "https://research.araku.ac.ir/"
-      ],
-      "alternateUrls": []
+      "alternateUrls": [],
+      "ownershipScope": "university"
     },
     {
       "id": "arak-zhiro",
@@ -1062,15 +1048,16 @@
       "relation": "unit-service",
       "evidence": "verified",
       "lastVerified": "2026-08-10",
-      "entityType": "external-system",
+      "entityType": "system",
       "dimension": "systemsServices",
-      "cleaningReason": "proven-research-external-system-endpoint",
+      "cleaningReason": "proven-university-system-endpoint",
       "primaryDimension": "systemsServices",
       "evidenceUrls": [
         "https://rd.araku.ac.ir/",
         "https://research.araku.ac.ir/"
       ],
-      "alternateUrls": []
+      "alternateUrls": [],
+      "ownershipScope": "university"
     }
   ],
   "documents": [
