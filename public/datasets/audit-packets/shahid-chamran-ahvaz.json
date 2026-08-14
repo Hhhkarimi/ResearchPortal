@@ -84,7 +84,7 @@
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
       "lastRun": "2026-08-14",
-      "promotedSources": 103,
+      "promotedSources": 0,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -162,13 +162,13 @@
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "unresolved",
-      "libraryDocuments": "verified",
+      "libraryDocuments": "unresolved",
       "laboratories": "verified",
-      "industryTechnology": "verified",
+      "industryTechnology": "unresolved",
       "systemsServices": "unresolved",
       "documentsRegulations": "unresolved"
     },
-    "auditEvidenceCoverage": 57,
+    "auditEvidenceCoverage": 29,
     "unitsFound": 1,
     "systemsFound": 0,
     "documentsFound": 0,
@@ -187,7 +187,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 74,
+      "sourceCount": 59,
       "sources": [
         {
           "url": "https://research.scu.ac.ir/",
@@ -197,443 +197,351 @@
         },
         {
           "url": "https://industry.scu.ac.ir/web/research",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://scu.ac.ir/web/research",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/web/research/%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/fa/%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://scu.ac.ir/web/research/%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://scu.ac.ir/fa/web/research/%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B9%D9%84%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B9%D9%84%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B9%D9%84%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/fa/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B9%D9%84%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B9%D9%84%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B9%D9%84%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://scu.ac.ir/fa/web/rms/w/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?redirect=%2Fweb%2Frms",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA-%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%DA%A9%D9%84%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%82%D8%A8%D9%84%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/%D9%BE%DB%8C%D8%A7%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/%D9%85%D8%A3%D9%85%D9%88%D8%B1%DB%8C%D8%AA%D8%8C-%DA%86%D8%B4%D9%85-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2-%D9%88-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF-%D8%A2%DB%8C%D9%86%D8%AF%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/web/research/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA-%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%DA%A9%D9%84%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/web/research/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%D9%87%DB%8C%D8%AF-%DA%86%D9%85%D8%B1%D8%A7%D9%86-%D8%A7%D9%87%D9%88%D8%A7%D8%B2-1?redirect=%2Fweb%2Fresearch",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA-%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%DA%A9%D9%84%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/web/research/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%82%D8%A8%D9%84%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/web/research/%D9%BE%DB%8C%D8%A7%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%A3%D9%85%D9%88%D8%B1%DB%8C%D8%AA%D8%8C-%DA%86%D8%B4%D9%85-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2-%D9%88-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF-%D8%A2%DB%8C%D9%86%D8%AF%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%82%D8%A8%D9%84%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/%D9%BE%DB%8C%D8%A7%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%A3%D9%85%D9%88%D8%B1%DB%8C%D8%AA%D8%8C-%DA%86%D8%B4%D9%85-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2-%D9%88-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF-%D8%A2%DB%8C%D9%86%D8%AF%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%88-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF?redirect=%2Fweb%2Fresearch",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/web/research/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%A9%D8%AF%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%D9%86%D9%81%D8%AA%D8%8C-%DA%AF%D8%A7%D8%B2-%D9%88-%D9%BE%D8%AA%D8%B1%D9%88%D8%B4%DB%8C%D9%85%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%A9%D8%AF%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%D9%86%D9%81%D8%AA%D8%8C-%DA%AF%D8%A7%D8%B2-%D9%88-%D9%BE%D8%AA%D8%B1%D9%88%D8%B4%DB%8C%D9%85%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%D9%87%DB%8C%D8%AF-%DA%86%D9%85%D8%B1%D8%A7%D9%86-%D8%A7%D9%87%D9%88%D8%A7%D8%B2-1?redirect=%2Ffa%2Fweb%2Fresearch",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://industry.scu.ac.ir/fa/web/research/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%88-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF?redirect=%2Ffa%2Fweb%2Fresearch",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/fa/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%88-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF?redirect=%2F",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/fa/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA-%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%DA%A9%D9%84%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/fa/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/fa/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/fa/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/fa/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%82%D8%A8%D9%84%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/fa/%D9%BE%DB%8C%D8%A7%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/fa/%D9%85%D8%A3%D9%85%D9%88%D8%B1%DB%8C%D8%AA%D8%8C-%DA%86%D8%B4%D9%85-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2-%D9%88-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF-%D8%A2%DB%8C%D9%86%D8%AF%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.scu.ac.ir/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%A9%D8%AF%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%D9%86%D9%81%D8%AA%D8%8C-%DA%AF%D8%A7%D8%B2-%D9%88-%D9%BE%D8%AA%D8%B1%D9%88%D8%B4%DB%8C%D9%85%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://scu.ac.ir/web/research/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA-%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%DA%A9%D9%84%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://scu.ac.ir/web/research/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://scu.ac.ir/fa/web/research/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%D9%87%DB%8C%D8%AF-%DA%86%D9%85%D8%B1%D8%A7%D9%86-%D8%A7%D9%87%D9%88%D8%A7%D8%B2-1?redirect=%2Fweb%2Fresearch",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA-%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%DA%A9%D9%84%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%82%D8%A8%D9%84%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%D9%BE%DB%8C%D8%A7%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%D9%85%D8%A3%D9%85%D9%88%D8%B1%DB%8C%D8%AA%D8%8C-%DA%86%D8%B4%D9%85-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2-%D9%88-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF-%D8%A2%DB%8C%D9%86%D8%AF%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%82%D8%A8%D9%84%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/%D9%BE%DB%8C%D8%A7%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://scu.ac.ir/web/rms",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "http://research.scu.ac.ir/web/lib",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://research.scu.ac.ir/fa/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%88-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF?redirect=%2Ffa%2F%25D8%25B5%25D9%2581%25D8%25AD%25D9%2587-%25D8%25A7%25D8%25B5%25D9%2584%25DB%258C",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -672,33 +580,14 @@
       "iscCategory": "جامع",
       "iscRank": 20,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 3,
-      "sources": [
-        {
-          "url": "http://research.scu.ac.ir/web/lib",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://press.scu.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://research.scu.ac.ir/fa/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%88-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF?redirect=%2Ffa%2F%25D8%25B5%25D9%2581%25D8%25AD%25D9%2587-%25D8%25A7%25D8%25B5%25D9%2584%25DB%258C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -708,21 +597,22 @@
       "iscCategory": "جامع",
       "iscRank": 20,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://scu.ac.ir/web/laboratory",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
+          "kind": "unit",
+          "claim": "laboratory",
+          "id": "shahid-chamran-ahvaz-discovery-unit-laboratory-07d8cadd61b3",
+          "unitType": "laboratory"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -732,223 +622,14 @@
       "iscCategory": "جامع",
       "iscRank": 20,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 30,
-      "sources": [
-        {
-          "url": "https://industry.scu.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://scu.ac.ir/web/roshd",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B9%D9%84%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B9%D9%84%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA-%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%DA%A9%D9%84%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%D9%87%DB%8C%D8%AF-%DA%86%D9%85%D8%B1%D8%A7%D9%86-%D8%A7%D9%87%D9%88%D8%A7%D8%B2-1?redirect=%2Fweb%2Fresearch",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA-%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%DA%A9%D9%84%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%82%D8%A8%D9%84%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%BE%DB%8C%D8%A7%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%A3%D9%85%D9%88%D8%B1%DB%8C%D8%AA%D8%8C-%DA%86%D8%B4%D9%85-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2-%D9%88-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF-%D8%A2%DB%8C%D9%86%D8%AF%D9%87",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%82%D8%A8%D9%84%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%BE%DB%8C%D8%A7%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%A3%D9%85%D9%88%D8%B1%DB%8C%D8%AA%D8%8C-%DA%86%D8%B4%D9%85-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2-%D9%88-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF-%D8%A2%DB%8C%D9%86%D8%AF%D9%87",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%88-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF?redirect=%2Fweb%2Fresearch",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%A9%D8%AF%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%D9%86%D9%81%D8%AA%D8%8C-%DA%AF%D8%A7%D8%B2-%D9%88-%D9%BE%D8%AA%D8%B1%D9%88%D8%B4%DB%8C%D9%85%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%A9%D8%AF%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%D9%86%D9%81%D8%AA%D8%8C-%DA%AF%D8%A7%D8%B2-%D9%88-%D9%BE%D8%AA%D8%B1%D9%88%D8%B4%DB%8C%D9%85%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%D9%87%DB%8C%D8%AF-%DA%86%D9%85%D8%B1%D8%A7%D9%86-%D8%A7%D9%87%D9%88%D8%A7%D8%B2-1?redirect=%2Ffa%2Fweb%2Fresearch",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%88-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF?redirect=%2Ffa%2Fweb%2Fresearch",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -975,639 +656,14 @@
       "iscCategory": "جامع",
       "iscRank": 20,
       "dimension": "documentsRegulations",
-      "status": "observed-reference",
-      "reportedStatus": "verified",
-      "reviewOutcome": "reference-only",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 78,
-      "sources": [
-        {
-          "url": "https://research.scu.ac.ir/fa",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/web/research",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/fa/%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B9%D9%84%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B9%D9%84%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B9%D9%84%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/fa/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B9%D9%84%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B9%D9%84%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%81%D8%B9%D9%84%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/rms/w/%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C?redirect=%2Fweb%2Frms",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA-%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%DA%A9%D9%84%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%82%D8%A8%D9%84%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/%D9%BE%DB%8C%D8%A7%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/%D9%85%D8%A3%D9%85%D9%88%D8%B1%DB%8C%D8%AA%D8%8C-%DA%86%D8%B4%D9%85-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2-%D9%88-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF-%D8%A2%DB%8C%D9%86%D8%AF%D9%87",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA-%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%DA%A9%D9%84%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%D9%87%DB%8C%D8%AF-%DA%86%D9%85%D8%B1%D8%A7%D9%86-%D8%A7%D9%87%D9%88%D8%A7%D8%B2-1?redirect=%2Fweb%2Fresearch",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA-%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%DA%A9%D9%84%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%82%D8%A8%D9%84%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%BE%DB%8C%D8%A7%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%A3%D9%85%D9%88%D8%B1%DB%8C%D8%AA%D8%8C-%DA%86%D8%B4%D9%85-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2-%D9%88-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF-%D8%A2%DB%8C%D9%86%D8%AF%D9%87",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%82%D8%A8%D9%84%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%BE%DB%8C%D8%A7%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%A3%D9%85%D9%88%D8%B1%DB%8C%D8%AA%D8%8C-%DA%86%D8%B4%D9%85-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2-%D9%88-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF-%D8%A2%DB%8C%D9%86%D8%AF%D9%87",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%88-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF?redirect=%2Fweb%2Fresearch",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/web/research/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%A9%D8%AF%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%D9%86%D9%81%D8%AA%D8%8C-%DA%AF%D8%A7%D8%B2-%D9%88-%D9%BE%D8%AA%D8%B1%D9%88%D8%B4%DB%8C%D9%85%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%A9%D8%AF%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%D9%86%D9%81%D8%AA%D8%8C-%DA%AF%D8%A7%D8%B2-%D9%88-%D9%BE%D8%AA%D8%B1%D9%88%D8%B4%DB%8C%D9%85%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%D9%87%DB%8C%D8%AF-%DA%86%D9%85%D8%B1%D8%A7%D9%86-%D8%A7%D9%87%D9%88%D8%A7%D8%B2-1?redirect=%2Ffa%2Fweb%2Fresearch",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/fa/web/research/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%88-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF?redirect=%2Ffa%2Fweb%2Fresearch",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/fa/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%88-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF?redirect=%2F",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/fa/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA-%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%DA%A9%D9%84%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/fa/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/fa/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/fa/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/fa/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%82%D8%A8%D9%84%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/fa/%D9%BE%DB%8C%D8%A7%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/fa/%D9%85%D8%A3%D9%85%D9%88%D8%B1%DB%8C%D8%AA%D8%8C-%DA%86%D8%B4%D9%85-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2-%D9%88-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF-%D8%A2%DB%8C%D9%86%D8%AF%D9%87",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%A9%D8%AF%D9%87-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%D9%86%D9%81%D8%AA%D8%8C-%DA%AF%D8%A7%D8%B2-%D9%88-%D9%BE%D8%AA%D8%B1%D9%88%D8%B4%DB%8C%D9%85%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA-%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%DA%A9%D9%84%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%D9%87%DB%8C%D8%AF-%DA%86%D9%85%D8%B1%D8%A7%D9%86-%D8%A7%D9%87%D9%88%D8%A7%D8%B2-1?redirect=%2Fweb%2Fresearch",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/%D8%A7%D9%87%D8%AF%D8%A7%D9%81-%D9%88-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA-%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%87%D8%A7%DB%8C-%DA%A9%D9%84%D8%A7%D9%86-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%B1%D8%AA%D8%A8%D8%B7-%D8%A8%D8%A7-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%82%D8%A8%D9%84%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%D9%BE%DB%8C%D8%A7%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%D9%85%D8%A3%D9%85%D9%88%D8%B1%DB%8C%D8%AA%D8%8C-%DA%86%D8%B4%D9%85-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2-%D9%88-%D8%B1%D8%A7%D9%87%D8%A8%D8%B1%D8%AF-%D8%A2%DB%8C%D9%86%D8%AF%D9%87",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/web/research/%D9%85%D8%B1%D8%A7%DA%A9%D8%B2-%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%82%D8%A8%D9%84%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/fa/web/research/%D9%BE%DB%8C%D8%A7%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/web/rms",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://industry.scu.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "صنعت و فناوری — کشف خودکار",
-          "id": null,
-          "sourceLabel": "صنعت و فناوری — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "http://research.scu.ac.ir/web/lib",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/web/laboratory",
-          "kind": "research-review-reference",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://press.scu.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://scu.ac.ir/web/roshd",
-          "kind": "research-review-reference",
-          "claim": "صنعت و فناوری — کشف خودکار",
-          "id": null,
-          "sourceLabel": "صنعت و فناوری — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://research.scu.ac.ir/fa/w/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%8C-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9-%D8%B1%D8%B3%D8%A7%D9%86%DB%8C-%D9%88-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF?redirect=%2Ffa%2F%25D8%25B5%25D9%2581%25D8%25AD%25D9%2587-%25D8%25A7%25D8%25B5%25D9%2584%25DB%258C",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        }
-      ],
-      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
-      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "sourceCount": 0,
+      "sources": [],
+      "publicationAdjustment": null,
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],

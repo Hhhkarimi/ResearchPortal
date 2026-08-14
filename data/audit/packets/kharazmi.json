@@ -69,7 +69,7 @@
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
       "lastRun": "2026-08-14",
-      "promotedSources": 27,
+      "promotedSources": 0,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -173,8 +173,8 @@
         },
         {
           "url": "https://research.khu.ac.ir/index.php?sid=140&slc_lang=fa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
@@ -323,74 +323,74 @@
         },
         {
           "url": "https://research.khu.ac.ir/page/29695/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.khu.ac.ir/page/30287/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.khu.ac.ir/page/29700/%D9%85%D8%B9%D8%A7%D9%88%D9%86%DB%8C%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%BE%DB%8C%D8%B4%DB%8C%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.khu.ac.ir/page/29695/index.php?sid=140&slc_lang=fa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.khu.ac.ir/page/29807/index.php?sid=140&slc_lang=fa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.khu.ac.ir/page/30287/index.php?sid=140&slc_lang=fa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.khu.ac.ir/page/30242/index.php?sid=140&slc_lang=fa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.khu.ac.ir/page/29807/%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%D9%88-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.khu.ac.ir/page/30242/%D9%85%D8%B1%DA%A9%D8%B2-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C-%D9%88-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%AC%D8%A7%D9%85%D8%B9%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://researchweek.khu.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://respro.khu.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://alborz-research.khu.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
@@ -474,18 +474,12 @@
       "iscCategory": "جامع",
       "iscRank": 10,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 4,
+      "sourceCount": 3,
       "sources": [
-        {
-          "url": "https://lib.khu.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
         {
           "url": "https://lib.khu.ac.ir/content/76436/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%DB%8C%DA%A9-%D8%B3%D8%A7%D9%84%D9%87-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C%D8%8C-%D9%85%D9%88%D8%B2%D9%87-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%AE%D9%88%D8%A7%D8%B1%D8%B2%D9%85%DB%8C_YW_PAR_OPEN_%DB%B1%DB%B4%DB%B0%DB%B4-%DB%B1%DB%B4%DB%B0%DB%B3_YW_PAR_CLOSE_",
           "kind": "unit",
@@ -508,7 +502,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -522,7 +516,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 2,
+      "sourceCount": 1,
       "sources": [
         {
           "url": "https://research.khu.ac.ir/",
@@ -530,13 +524,6 @@
           "claim": "آزمایشگاه مرکزی",
           "id": "kharazmi-lab",
           "unitType": "laboratory"
-        },
-        {
-          "url": "https://lab-portal.khu.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "سامانه آزمایشگاه مرکزی",
-          "id": null,
-          "sourceLabel": "سامانه آزمایشگاه مرکزی"
         }
       ],
       "publicationAdjustment": null,
@@ -550,24 +537,12 @@
       "iscCategory": "جامع",
       "iscRank": 10,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 3,
+      "sourceCount": 1,
       "sources": [
-        {
-          "url": "https://inc.khu.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://ent.khu.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
         {
           "url": "https://research.khu.ac.ir/",
           "kind": "unit",
@@ -577,7 +552,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -587,24 +562,12 @@
       "iscCategory": "جامع",
       "iscRank": 10,
       "dimension": "systemsServices",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 5,
+      "sourceCount": 2,
       "sources": [
-        {
-          "url": "https://accounts.khu.ac.ir/cas/login?service=https://khu.ac.ir/login_cas_khu.php",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://publish.khu.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
         {
           "url": "https://research.khu.ac.ir/",
           "kind": "system",
@@ -618,17 +581,10 @@
           "claim": "سامانه کتاب",
           "id": "kharazmi-discovery-system-64ceed7d7812",
           "systemCategory": "research"
-        },
-        {
-          "url": "https://lab-portal.khu.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "سامانه آزمایشگاه مرکزی",
-          "id": null,
-          "sourceLabel": "سامانه آزمایشگاه مرکزی"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -695,9 +651,9 @@
     "methodologyVersion": "RTPMI-4.2-ISC",
     "scoringPolicyVersion": "entity-cleaning-2.2-coverage-shrinkage-findability",
     "snapshotDate": "2026-08-14",
-    "rank": 16,
-    "portalRankWithinISCClass": 11,
-    "rankedPortalsInISCClass": 31
+    "rank": 22,
+    "portalRankWithinISCClass": 15,
+    "rankedPortalsInISCClass": 20
   },
   "units": [
     {

@@ -39,7 +39,7 @@
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
       "lastRun": "2026-08-14",
-      "promotedSources": 10,
+      "promotedSources": 0,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -227,30 +227,12 @@
       "iscCategory": "صنعتی",
       "iscRank": 15,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 4,
+      "sourceCount": 1,
       "sources": [
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/Search/default.aspx?Login=1",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/DefaultSP.aspx?bs=%",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%AF%D8%B3%D8%AA%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%D9%8A%20%D8%A2%D8%B2%D9%85%D8%A7%D9%8A%D8%B4%DA%AF%D8%A7%D9%87%D9%8A",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
         {
           "url": "https://digitallib.qut.ac.ir/Dl/SPortal/FAQ/9_5.aspx",
           "kind": "unit",
@@ -260,7 +242,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -270,22 +252,14 @@
       "iscCategory": "صنعتی",
       "iscRank": 15,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%AF%D8%B3%D8%AA%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%D9%8A%20%D8%A2%D8%B2%D9%85%D8%A7%D9%8A%D8%B4%DA%AF%D8%A7%D9%87%D9%8A",
-          "kind": "research-review-specific",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -316,26 +290,8 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 4,
+      "sourceCount": 1,
       "sources": [
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4%20%D8%B3%D9%8A%DA%AF%D9%86%D8%A7%D9%84%D9%87%D8%A7%20Signal%20processing",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%D9%8A%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%B9%D8%A7%D9%84%D9%8A",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%B3%D9%8A%D8%A7%D8%B3%D8%AA%D9%85%D8%AF%D8%A7%D8%B1%D8%A7%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
         {
           "url": "https://qut.ac.ir/",
           "kind": "system",
@@ -355,36 +311,14 @@
       "iscCategory": "صنعتی",
       "iscRank": 15,
       "dimension": "documentsRegulations",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 3,
-      "sources": [
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4%20%D8%B3%D9%8A%DA%AF%D9%86%D8%A7%D9%84%D9%87%D8%A7%20Signal%20processing",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%D9%8A%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%B9%D8%A7%D9%84%D9%8A",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://digitallib.qut.ac.ir/Dl/SPortal/Search/?bs=%D8%B3%D9%8A%D8%A7%D8%B3%D8%AA%D9%85%D8%AF%D8%A7%D8%B1%D8%A7%D9%86",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],

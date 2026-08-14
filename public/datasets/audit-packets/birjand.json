@@ -85,7 +85,7 @@
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-14",
-      "promotedSources": 257,
+      "promotedSources": 0,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -164,13 +164,13 @@
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "unresolved",
-      "libraryDocuments": "verified",
-      "laboratories": "verified",
+      "libraryDocuments": "unresolved",
+      "laboratories": "unresolved",
       "industryTechnology": "verified",
       "systemsServices": "unresolved",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 71,
+    "auditEvidenceCoverage": 43,
     "unitsFound": 1,
     "systemsFound": 0,
     "documentsFound": 71,
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 89,
+      "sourceCount": 60,
       "sources": [
         {
           "url": "https://birjand.ac.ir/research/fa",
@@ -205,194 +205,194 @@
         },
         {
           "url": "https://birjand.ac.ir/research/fa/organizationChart/1/%DA%86%D8%A7%D8%B1%D8%AA-%D8%B3%D8%A7%D8%B2%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/5122/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D9%85%DB%8C%D8%AA%D9%87-%D8%A7%D8%AE%D9%84%D8%A7%D9%82-%D8%B2%DB%8C%D8%B3%D8%AA-%D9%BE%D8%B2%D8%B4%DA%A9%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/page/2735/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/442/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/549/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%85%D8%B1%D8%A7%D8%AD%D9%84-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B3%D9%86%D8%AC%DB%8C-%D9%88-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D9%85%D9%84%DB%8C-%D9%88-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D9%88%D8%B3%D8%B3%D9%87-isc",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/481/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/328/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/350/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%DA%AF%D8%B1%D9%88%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/342/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%AD%D9%88%D9%87-%D8%AA%D8%B4%DA%A9%DB%8C%D9%84-%D9%88-%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%DA%A9%D9%85%DB%8C%D8%B3%DB%8C%D9%88%D9%86-%D8%A7%D9%86%D8%AC%D9%85%D9%86%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/330/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%88-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D8%AF%D9%87%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/329/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AE%D9%88%D8%AF%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/577/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/346/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D8%A7%D8%B3%D8%AA%D9%86%D8%A7%D8%AF%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B1-isc",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/345/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/331/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/325/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%86%D8%A7%D9%BE-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D8%AF%D8%B1-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84-%D9%88-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/324/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%D9%88-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/321/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2-%D8%AF%D9%87%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/320/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/487/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/486/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%88-%D8%B1%D8%AA%D8%A8%D9%87-%D8%A8%D9%86%D8%AF%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/485/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%AF%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C-%D8%A8%D8%A7%D8%B2",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/386/%D9%81%D8%B1%D9%85-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%DB%B2-%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%86%D9%82%D8%AF%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/181/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/176/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D8%AE%D9%88%D8%AF%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/434/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C-%D9%82%D8%A8%D9%84-%D8%A7%D8%B2-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%DB%8C%D9%86%D8%A7%D8%B1-",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/433/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%AF%D8%A8%DB%8C%D8%B1%D8%AE%D8%A7%D9%86%D9%87-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA%DB%8C-%D9%88-%D8%B3%D8%A7%DB%8C%D8%AA-%D9%87%D9%85%D8%A7%DB%8C%D8%B4",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/409/%D9%81%D8%B1%D9%85-%D9%85%D8%AD%D8%B1%D9%85%D8%A7%D9%86%D9%87-%D8%A7%D8%B1%D8%B2%D8%B4%DB%8C%D8%A7%D8%A8%DB%8C-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/408/%D9%81%D8%B1%D9%85-%D9%85%D8%AD%D8%B1%D9%85%D8%A7%D9%86%D9%87-%D8%A7%D8%B1%D8%B2%D8%B4%DB%8C%D8%A7%D8%A8%DB%8C-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/341/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%D9%88-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/339/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://birjand.ac.ir/research/fa/regulation/337/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%85%D8%B1%D8%AC%D8%B9-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D9%88-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%B3%D8%A8%DA%A9-apa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
@@ -550,187 +550,6 @@
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/page/171/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/page/1284/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF%D9%87%D8%A7%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D8%A7%D9%85%D9%88%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/page/4451/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/page/170/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%D9%87%D8%A7",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/page/2775/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A8%D9%84%D9%86%D8%AF-%D9%85%D8%AF%D8%AA-%DB%B6-%D9%85%D8%A7%D9%87%D9%87-",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/page/2854/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%DA%A9%D9%88%D8%AA%D8%A7%D9%87-%D9%85%D8%AF%D8%AA-%DB%B3-%D9%85%D8%A7%D9%87%D9%87-",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/page/2774/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%A7%D8%B1%D8%A7%D8%A6%D9%87-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%AF%D8%B1-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/content/252/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D8%B9%D9%85%D9%84%DA%AF%D8%B1%D8%AF-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16256/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%DB%8C%DA%A9-%D8%B3%D8%A7%D9%84%D9%87-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/323/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%DA%86%D8%A7%D9%BE-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/180/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%DB%8C%D8%A7-%D8%AA%D8%A7%DB%8C%DB%8C%D8%AF-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/179/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AE%D8%B5%D9%88%D8%B5-%D8%B3%D8%B1%D8%AF%D8%A8%DB%8C%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/178/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AE%D8%B5%D9%88%D8%B5-%D8%A7%D8%B9%D8%B6%D8%A7-%D9%87%DB%8C%D8%A7%D8%AA-%D8%AA%D8%AD%D8%B1%DB%8C%D8%B1%DB%8C%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/177/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%D9%85%D8%B3%D8%A6%D9%88%D9%84-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/457/rfp-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/456/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/455/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/436/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A8%D8%B9%D8%AF-%D8%A7%D8%B2-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%DA%AF%D8%B1%D8%AF%D9%87%D9%85%D8%A7%DB%8C%DB%8C-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%DA%A9%D9%86%DA%AF%D8%B1%D9%87-%D9%88-.....-",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/415/%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8-%D9%85%D8%A7%D9%84%DB%8C-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/414/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/397/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87-%D8%A7%D9%87%D8%AF%D8%A7-%D8%A7%D9%85%D9%88%D8%A7%D9%84",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/175/%D9%81%D8%B1%D9%85-%D8%AE%D9%84%D8%A7%D8%B5%D9%87-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=circularNo",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16255/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D8%B3%D9%87-%D8%B3%D8%A7%D9%84%D9%87-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D8%B4%D8%B1-%D9%88-%D8%B2%DB%8C%D8%B3%D8%AA-%D8%A8%D9%88%D9%85-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "صنعت و فناوری — کشف خودکار",
-          "id": null,
-          "sourceLabel": "صنعت و فناوری — کشف خودکار"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=title",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16259/%D8%B1%D9%88%D9%86%D9%85%D8%A7%DB%8C%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16258/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B1%D9%88%D9%86%D9%85%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1569055151-2.docx?language=fa&subdomain=research",
-          "kind": "research-review-specific",
-          "claim": "1 فرم شماره ۲- تسویه حساب اعتبار نقدی (پژوهانه) فرم های پژوهشی",
-          "id": null,
-          "sourceLabel": "1 فرم شماره ۲- تسویه حساب اعتبار نقدی (پژوهانه) فرم های پژوهشی"
         }
       ],
       "publicationAdjustment": null,
@@ -769,18 +588,12 @@
       "iscCategory": "جامع",
       "iscRank": 34,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 12,
+      "sourceCount": 9,
       "sources": [
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16255/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D8%B3%D9%87-%D8%B3%D8%A7%D9%84%D9%87-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D8%B4%D8%B1-%D9%88-%D8%B2%DB%8C%D8%B3%D8%AA-%D8%A8%D9%88%D9%85-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/1530505233-7-porsshnameh-heat-tahrireh.zip?language=fa&subdomain=research",
           "kind": "document",
@@ -834,24 +647,10 @@
           "kind": "document",
           "claim": "13 شیوه نامه ارزیابی و رتبه بندی نشریات علمی آیین نامه های مجلات و انتشارات",
           "id": "birjand-discovery-document-dcbb1c39add6"
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1591775182-.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه نامه تدوین و نگارش کتاب انتشارات دانشگاه آیین نامه های مجلات و انتشارات شیوه نامه تدوین و نگارش کتاب انتشارات دانشگاه لینک آخرین به‌روزرسانی : ۲۱ خرداد ۱۳۹۹ دسته‌ها - آیین نامه های مجلات و انتشارات",
-          "id": null,
-          "sourceLabel": "شیوه نامه تدوین و نگارش کتاب انتشارات دانشگاه آیین نامه های مجلات و انتشارات شیوه نامه تدوین و نگارش کتاب انتشارات دانشگاه لینک آخرین به‌روزرسانی : ۲۱ خرداد ۱۳۹۹ دسته‌ها - آیین نامه های مجلات و انتشارات"
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1658037395-.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه نامه ارزیابی و رتبه بندی نشریات علمی آیین نامه های مجلات و انتشارات شیوه نامه ارزیابی و رتبه بندی نشریات علمی لینک آخرین به‌روزرسانی : ۲۶ تیر ۱۴۰۱ دسته‌ها - آیین نامه های مجلات و انتشارات",
-          "id": null,
-          "sourceLabel": "شیوه نامه ارزیابی و رتبه بندی نشریات علمی آیین نامه های مجلات و انتشارات شیوه نامه ارزیابی و رتبه بندی نشریات علمی لینک آخرین به‌روزرسانی : ۲۶ تیر ۱۴۰۱ دسته‌ها - آیین نامه های مجلات و انتشارات"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -861,21 +660,14 @@
       "iscCategory": "جامع",
       "iscRank": 34,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16259/%D8%B1%D9%88%D9%86%D9%85%D8%A7%DB%8C%DB%8C-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -885,55 +677,22 @@
       "iscCategory": "جامع",
       "iscRank": 34,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 6,
+      "sourceCount": 1,
       "sources": [
-        {
-          "url": "https://cv.birjand.ac.ir/saghebjou/fa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16258/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B1%D9%88%D9%86%D9%85%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
         {
           "url": "https://birjand.ac.ir/research/fa/page/4451/%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C",
           "kind": "unit",
           "claim": "مدیریت امور پژوهشی معاونت پژوهش، فناوری و نوآوری",
           "id": "birjand-discovery-unit-technology-ca07e5af139d",
           "unitType": "technology"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16255/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF-%D8%B3%D9%87-%D8%B3%D8%A7%D9%84%D9%87-%D8%B4%D8%A8%DA%A9%D9%87-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87%DB%8C-%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D9%86%D8%B4%D8%B1-%D9%88-%D8%B2%DB%8C%D8%B3%D8%AA-%D8%A8%D9%88%D9%85-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D9%88-%D9%86%D9%88%D8%A2%D9%88%D8%B1%DB%8C-%D9%88-%DA%A9%D8%A7%D8%B1%D8%A2%D9%81%D8%B1%DB%8C%D9%86%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "صنعت و فناوری — کشف خودکار",
-          "id": null,
-          "sourceLabel": "صنعت و فناوری — کشف خودکار"
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/page/1608360975-new-folder.zip",
-          "kind": "research-review-specific",
-          "claim": "فرآیند فرصت مطالعاتی بلند مدت (۶ ماهه) تعداد بازدید:۲۰۸۷ ارسال به دیگران نام شما ایمیل شما ایمیل ‌کننده ارسال انصراف - فرم ها .",
-          "id": null,
-          "sourceLabel": "فرآیند فرصت مطالعاتی بلند مدت (۶ ماهه) تعداد بازدید:۲۰۸۷ ارسال به دیگران نام شما ایمیل شما ایمیل ‌کننده ارسال انصراف - فرم ها ."
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1611050849-.doc",
-          "kind": "research-review-specific",
-          "claim": "پروپوزال طرح‌های فناورانه فرم های پژوهشی پروپوزال طرح‌های فناورانه لینک آخرین به‌روزرسانی : ۳۰ دی ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
-          "id": null,
-          "sourceLabel": "پروپوزال طرح‌های فناورانه فرم های پژوهشی پروپوزال طرح‌های فناورانه لینک آخرین به‌روزرسانی : ۳۰ دی ۱۳۹۹ دسته‌ها - فرم های پژوهشی"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -943,36 +702,14 @@
       "iscCategory": "جامع",
       "iscRank": 34,
       "dimension": "systemsServices",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 3,
-      "sources": [
-        {
-          "url": "https://birjand.ac.ir/research/fa/news/16258/%DA%A9%D9%84%DB%8C%D9%BE-%D8%B1%D9%88%D9%86%D9%85%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B2-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/652b6db2a4fe7-.pdf?language=fa&subdomain=graduate",
-          "kind": "research-review-specific",
-          "claim": "5 راهنمای تصویری ثبت پارسا (پایان نامه کارشناسی ارشد و رساله دکتری) در سامانه نان برای جذب دانشجوی تحصیلات تکمیلی استادمحور فرآیندهای اعضای هیأت علمی",
-          "id": null,
-          "sourceLabel": "5 راهنمای تصویری ثبت پارسا (پایان نامه کارشناسی ارشد و رساله دکتری) در سامانه نان برای جذب دانشجوی تحصیلات تکمیلی استادمحور فرآیندهای اعضای هیأت علمی"
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1658037395-.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه نامه ارزیابی و رتبه بندی نشریات علمی آیین نامه های مجلات و انتشارات شیوه نامه ارزیابی و رتبه بندی نشریات علمی لینک آخرین به‌روزرسانی : ۲۶ تیر ۱۴۰۱ دسته‌ها - آیین نامه های مجلات و انتشارات",
-          "id": null,
-          "sourceLabel": "شیوه نامه ارزیابی و رتبه بندی نشریات علمی آیین نامه های مجلات و انتشارات شیوه نامه ارزیابی و رتبه بندی نشریات علمی لینک آخرین به‌روزرسانی : ۲۶ تیر ۱۴۰۱ دسته‌ها - آیین نامه های مجلات و انتشارات"
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -986,32 +723,8 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 119,
+      "sourceCount": 72,
       "sources": [
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=-circularNo",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/category/151/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA?sort=title",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
         {
           "url": "https://birjand.ac.ir/graduate/fa/regulation",
           "kind": "portal-document-reaudit",
@@ -1019,46 +732,202 @@
           "id": null
         },
         {
-          "url": "https://birjand.ac.ir/research/fa/regulation/category/58/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1530505233-7-porsshnameh-heat-tahrireh.zip?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "5 پرسشنامه مخصوص اعضاء هیات تحریریه نشریه فرم های پژوهشی",
+          "id": "birjand-discovery-document-03569445f2f3"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1554785686-finalapa.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل مرجع نویسی پروپوزال و گزارش نهایی طرح پژوهشی سبک APA آیین نامه های پژوهشی دستورالعمل مرجع نویسی پروپوزال و گزارش نهایی طرح پژوهشی سبک APA لینک آخرین به‌روزرسانی : ۲۴ فروردین ۱۳۹۸ دسته‌ها - آیین نامه های پژوهشی",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1778408169-6a005ae988dae-1405.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-068a2e47ad2c"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/page/1608360975-new-folder.zip",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرآیند فرصت مطالعاتی بلند مدت (۶ ماهه) تعداد بازدید:۲۰۸۷ ارسال به دیگران نام شما ایمیل شما ایمیل ‌کننده ارسال انصراف - فرم ها .",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1530505300-8-porsshnameh-taain-ya-tamdid-etbar.zip",
+          "kind": "document",
+          "claim": "پرسشنامه درخواست تعیین یا تایید اعتبار علمی_پژوهشی فرم های پژوهشی پرسشنامه درخواست تعیین یا تایید اعتبار علمی_پژوهشی لینک آخرین به‌روزرسانی : ۱۱ تیر ۱۳۹۷ دسته‌ها - فرم های پژوهشی",
+          "id": "birjand-discovery-document-0a1c1c888b49"
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/652b6db2a4fe7-.pdf?language=fa&subdomain=graduate",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "5 راهنمای تصویری ثبت پارسا (پایان نامه کارشناسی ارشد و رساله دکتری) در سامانه نان برای جذب دانشجوی تحصیلات تکمیلی استادمحور فرآیندهای اعضای هیأت علمی",
-          "id": null
+          "id": "birjand-discovery-document-0a941f30f326"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1591775146-.pdf?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "5 دستورالعمل تدوین، چاپ و انتشار نشریات علمی دانشگاه بیرجند آیین نامه های مجلات و انتشارات",
+          "id": "birjand-discovery-document-0b509fb7cb3f"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1554787810-pdfoperation.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-0bac57aec4a1"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1644135031-.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-1306d6b8215e"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/page/1744789195-67ff5ecb629e1-.docx",
+          "kind": "document",
+          "claim": "- فرم رضایت آگاهانه شرکت کنندگان",
+          "id": "birjand-discovery-document-15a4ccd6157f"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1604817257-new-folder.zip",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-17698b78f25a"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1530505373-mamoreat-pajoheshi.zip?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "2 فرم درخواست ماموریت پژوهشی فرم های پژوهشی",
+          "id": "birjand-discovery-document-1f72e0bdbde9"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1554787587-rahnama-2.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-25643d9878d1"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1530505199-6-porsshnameh-modir-masol.zip",
+          "kind": "document",
+          "claim": "پرسشنامه مدیرمسئول نشریه فرم های پژوهشی پرسشنامه مدیرمسئول نشریه لینک آخرین به‌روزرسانی : ۱۱ تیر ۱۳۹۷ دسته‌ها - فرم های پژوهشی",
+          "id": "birjand-discovery-document-27cb89dd80ed"
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/1569055151-2.docx?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "1 فرم شماره ۲- تسویه حساب اعتبار نقدی (پژوهانه) فرم های پژوهشی",
-          "id": null
+          "id": "birjand-discovery-document-27e1e85273d1"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/65a798a682e38-10461405-2-.pdf",
+          "url": "https://birjand.ac.ir/file/download/regulation/664c44038d3ca-1402-.pdf",
           "kind": "document",
           "claim": "لینک دانلود فایل",
-          "id": "birjand-discovery-document-c46f12012c75"
+          "id": "birjand-discovery-document-29616f725b66"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1591775182-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه تدوین و نگارش کتاب انتشارات دانشگاه آیین نامه های مجلات و انتشارات شیوه نامه تدوین و نگارش کتاب انتشارات دانشگاه لینک آخرین به‌روزرسانی : ۲۱ خرداد ۱۳۹۹ دسته‌ها - آیین نامه های مجلات و انتشارات",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1530505300-8-porsshnameh-taain-ya-tamdid-etbar.zip?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "3 پرسشنامه درخواست تعیین یا تایید اعتبار علمی_پژوهشی فرم های پژوهشی",
+          "id": "birjand-discovery-document-2bc923b4be24"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1644133371-.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-2e59bdc00ead"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/page/1608360975-new-folder.zip",
+          "kind": "document",
+          "claim": "فرآیند فرصت مطالعاتی بلند مدت (۶ ماهه) تعداد بازدید:۲۰۸۷ ارسال به دیگران نام شما ایمیل شما ایمیل ‌کننده ارسال انصراف - فرم ها .",
+          "id": "birjand-discovery-document-3481d4eab6ff"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/page/1744789140-67ff5e94c4fe9-.pdf",
+          "kind": "document",
+          "claim": "- راهنمای کشوری اخلاق در انتشار آثار پژوهشی",
+          "id": "birjand-discovery-document-384c553824f1"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1591775089-.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-39b2be27fe1b"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/page/1744789445-67ff5fc5d1467-.docx",
+          "kind": "document",
+          "claim": "- فرم ثبت اطلاعات کد اخلاق",
+          "id": "birjand-discovery-document-3cae2bc31dd7"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1530505267-5-porsesh-nameh-sar-dabir.zip",
+          "kind": "document",
+          "claim": "پرسشنامه مخصوص سردبیر نشریه فرم های پژوهشی پرسشنامه مخصوص سردبیر نشریه لینک آخرین به‌روزرسانی : ۱۱ تیر ۱۳۹۷ دسته‌ها - فرم های پژوهشی",
+          "id": "birjand-discovery-document-3d68c99bbea4"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1611050956-rfp.doc",
+          "kind": "document",
+          "claim": "rfp طرح‌های کاربردی فرم های پژوهشی rfp طرح‌های کاربردی لینک آخرین به‌روزرسانی : ۳۰ دی ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
+          "id": "birjand-discovery-document-3e76813f111c"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1611050900-.doc",
+          "kind": "document",
+          "claim": "پروپوزال طرح‌های کاربردی فرم های پژوهشی پروپوزال طرح‌های کاربردی لینک آخرین به‌روزرسانی : ۳۰ دی ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
+          "id": "birjand-discovery-document-3ea1546e54ba"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1611050849-.doc",
+          "kind": "document",
+          "claim": "پروپوزال طرح‌های فناورانه فرم های پژوهشی پروپوزال طرح‌های فناورانه لینک آخرین به‌روزرسانی : ۳۰ دی ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
+          "id": "birjand-discovery-document-3ea9adbaff52"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1658037395-.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-4712120251a0"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1599459424-.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-4d4db436bf8a"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1569055151-2.docx",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-4e28af9d8991"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/page/1744789381-67ff5f85a2672-irct-.doc",
+          "kind": "document",
+          "claim": "- ضرورت ثبت کارآزمایی های بالینی (IRCT)",
+          "id": "birjand-discovery-document-51c91e64ea26"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1530505233-7-porsshnameh-heat-tahrireh.zip",
+          "kind": "document",
+          "claim": "پرسشنامه مخصوص اعضاء هیات تحریریه نشریه فرم های پژوهشی پرسشنامه مخصوص اعضاء هیات تحریریه نشریه لینک آخرین به‌روزرسانی : ۱۱ تیر ۱۳۹۷ دسته‌ها - فرم های پژوهشی",
+          "id": "birjand-discovery-document-56d344ad1c11"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1555485928-.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-577538c012ab"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1610789207-3.docx",
+          "kind": "document",
+          "claim": "اطلاعات بعد از برگزاری گردهمایی های علمی (همایش، کنگره و .....) فرم های پژوهشی اطلاعات بعد از برگزاری گردهمایی های علمی (همایش، کنگره و .....) لینک آخرین به‌روزرسانی : ۲۷ دی ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
+          "id": "birjand-discovery-document-5d020b86874e"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1658037518-.pdf?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "14 شیوه نامه تشویقی نشریات علمی داخلی نمایه شده در نمایه های بین المللی معتبر آیین نامه های مجلات و انتشارات",
+          "id": "birjand-discovery-document-6119e224beee"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1604817257-new-folder.zip?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "7 فرم پرسشنامه طرح خودارزیاب فرم های پژوهشی",
+          "id": "birjand-discovery-document-62db2b27a39c"
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/1658037518-.pdf",
@@ -1067,310 +936,184 @@
           "id": "birjand-discovery-document-65612c721e08"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1658037395-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه ارزیابی و رتبه بندی نشریات علمی آیین نامه های مجلات و انتشارات شیوه نامه ارزیابی و رتبه بندی نشریات علمی لینک آخرین به‌روزرسانی : ۲۶ تیر ۱۴۰۱ دسته‌ها - آیین نامه های مجلات و انتشارات",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1569055151-2.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم شماره ۲- تسویه حساب اعتبار نقدی (پژوهانه) فرم های پژوهشی فرم شماره ۲- تسویه حساب اعتبار نقدی (پژوهانه) لینک آخرین به‌روزرسانی : ۲۱ مهر ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1611050900-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "پروپوزال طرح‌های کاربردی فرم های پژوهشی پروپوزال طرح‌های کاربردی لینک آخرین به‌روزرسانی : ۳۰ دی ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1611050849-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "پروپوزال طرح‌های فناورانه فرم های پژوهشی پروپوزال طرح‌های فناورانه لینک آخرین به‌روزرسانی : ۳۰ دی ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1598693789-farayand-tarh.pdf?language=fa&subdomain=graduate",
-          "kind": "portal-document-reaudit-document",
-          "claim": "16 فرآیند ثبت طرح تحقیق رساله/پایان نامه در سامانه پویا فرآیندهای اعضای هیأت علمی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1530505373-mamoreat-pajoheshi.zip?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 فرم درخواست ماموریت پژوهشی فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1530505300-8-porsshnameh-taain-ya-tamdid-etbar.zip?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 پرسشنامه درخواست تعیین یا تایید اعتبار علمی_پژوهشی فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/page/1744789140-67ff5e94c4fe9-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "- راهنمای کشوری اخلاق در انتشار آثار پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/page/1744789195-67ff5ecb629e1-.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "- فرم رضایت آگاهانه شرکت کنندگان",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/page/1744789381-67ff5f85a2672-irct-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "- ضرورت ثبت کارآزمایی های بالینی (IRCT)",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/page/1744789445-67ff5fc5d1467-.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "- فرم ثبت اطلاعات کد اخلاق",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/page/1744789489-67ff5ff1692e1-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "- لزوم اخذ کد اخلاق",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1644135031-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه تخصیص پژوهانه اعضای هیات علمی آیین نامه های پژوهشی آیین نامه تخصیص پژوهانه اعضای هیات علمی لینک آخرین به‌روزرسانی : ۱۷ بهمن ۱۴۰۰ دسته‌ها - آیین نامه های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1761636671-6900713f11a58-890630.zip",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه فرصت مطالعاتی خارج از کشور آیین نامه های پژوهشی آیین نامه فرصت مطالعاتی خارج از کشور لینک آخرین به‌روزرسانی : ۰۶ آبان ۱۴۰۴ دسته‌ها - آیین نامه های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1530505373-mamoreat-pajoheshi.zip",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست ماموریت پژوهشی فرم های پژوهشی فرم درخواست ماموریت پژوهشی لینک آخرین به‌روزرسانی : ۱۱ تیر ۱۳۹۷ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1604817257-new-folder.zip",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم پرسشنامه طرح خودارزیاب فرم های پژوهشی فرم پرسشنامه طرح خودارزیاب مصوب 1394/8/13 شورای پژوهشی لینک آخرین به‌روزرسانی : ۱۹ مهر ۱۴۰۴ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1610788843-1.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم اطلاعات پیشنهادی قبل از برگزاری همایش (کارگاه، سمینار) فرم های پژوهشی فرم اطلاعات پیشنهادی قبل از برگزاری همایش (کارگاه، سمینار) لینک آخرین به‌روزرسانی : ۲۷ دی ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1610789059-2.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست راه اندازی دبیرخانه اینترنتی و سایت همایش فرم های پژوهشی فرم درخواست راه اندازی دبیرخانه اینترنتی و سایت همایش لینک آخرین به‌روزرسانی : ۲۷ دی ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1573446414-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم محرمانه ارزشیابی گزارش نهایی طرحهای پژوهشی فرم های پژوهشی فرم محرمانه ارزشیابی گزارش نهایی طرحهای پژوهشی لینک آخرین به‌روزرسانی : ۲۰ آبان ۱۳۹۸ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1573446384-.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم محرمانه ارزشیابی پرسشنامه طرحهای پژوهشی فرم های پژوهشی فرم محرمانه ارزشیابی پرسشنامه طرحهای پژوهشی لینک آخرین به‌روزرسانی : ۲۰ آبان ۱۳۹۸ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1554787587-rahnama-2.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای تدوین و نگارش گزارش نهایی طرحهای پژوهشی آیین نامه های پژوهشی راهنمای تدوین و نگارش گزارش نهایی طرحهای پژوهشی لینک آخرین به‌روزرسانی : ۲۰ فروردین ۱۳۹۸ دسته‌ها - آیین نامه های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1555485928-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل نحوه بررسی تخلفات پژوهشی آیین نامه های پژوهشی دستورالعمل نحوه بررسی تخلفات پژوهشی لینک آخرین به‌روزرسانی : ۲۸ فروردین ۱۳۹۸ دسته‌ها - آیین نامه های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1591775146-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "لینک",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1530505300-8-porsshnameh-taain-ya-tamdid-etbar.zip",
-          "kind": "portal-document-reaudit-document",
-          "claim": "پرسشنامه درخواست تعیین یا تایید اعتبار علمی_پژوهشی فرم های پژوهشی پرسشنامه درخواست تعیین یا تایید اعتبار علمی_پژوهشی لینک آخرین به‌روزرسانی : ۱۱ تیر ۱۳۹۷ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1530505267-5-porsesh-nameh-sar-dabir.zip",
-          "kind": "portal-document-reaudit-document",
-          "claim": "پرسشنامه مخصوص سردبیر نشریه فرم های پژوهشی پرسشنامه مخصوص سردبیر نشریه لینک آخرین به‌روزرسانی : ۱۱ تیر ۱۳۹۷ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1530505233-7-porsshnameh-heat-tahrireh.zip",
-          "kind": "portal-document-reaudit-document",
-          "claim": "پرسشنامه مخصوص اعضاء هیات تحریریه نشریه فرم های پژوهشی پرسشنامه مخصوص اعضاء هیات تحریریه نشریه لینک آخرین به‌روزرسانی : ۱۱ تیر ۱۳۹۷ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1530505199-6-porsshnameh-modir-masol.zip",
-          "kind": "portal-document-reaudit-document",
-          "claim": "پرسشنامه مدیرمسئول نشریه فرم های پژوهشی پرسشنامه مدیرمسئول نشریه لینک آخرین به‌روزرسانی : ۱۱ تیر ۱۳۹۷ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1611050956-rfp.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "rfp طرح‌های کاربردی فرم های پژوهشی rfp طرح‌های کاربردی لینک آخرین به‌روزرسانی : ۳۰ دی ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1610789207-3.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "اطلاعات بعد از برگزاری گردهمایی های علمی (همایش، کنگره و .....) فرم های پژوهشی اطلاعات بعد از برگزاری گردهمایی های علمی (همایش، کنگره و .....) لینک آخرین به‌روزرسانی : ۲۷ دی ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1587975433-2-.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "تسویه حساب مالی واحد پژوهشی فرم های پژوهشی تسویه حساب مالی واحد پژوهشی لینک آخرین به‌روزرسانی : ۲۱ مهر ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1587975380-.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "درخواست تاسیس واحد پژوهشی فرم های پژوهشی درخواست تاسیس واحد پژوهشی لینک آخرین به‌روزرسانی : ۲۱ مهر ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1570338908-1-.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "صورتجلسه اهداء اموال فرم های پژوهشی صورتجلسه اهداء اموال لینک آخرین به‌روزرسانی : ۱۴ مهر ۱۳۹۸ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1530505035-rezome.zip",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم خلاصه فعالیتهای آموزشی ، پژوهشی و اجرایی اعضای هیئت علمی فرم های پژوهشی فرم خلاصه فعالیتهای آموزشی ، پژوهشی و اجرایی اعضای هیئت علمی لینک آخرین به‌روزرسانی : ۱۱ تیر ۱۳۹۷ دسته‌ها - فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1591775182-.pdf?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "6 شیوه نامه تدوین و نگارش کتاب انتشارات دانشگاه آیین نامه های مجلات و انتشارات",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1658037518-.pdf?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "14 شیوه نامه تشویقی نشریات علمی داخلی نمایه شده در نمایه های بین المللی معتبر آیین نامه های مجلات و انتشارات",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1658037395-.pdf?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "13 شیوه نامه ارزیابی و رتبه بندی نشریات علمی آیین نامه های مجلات و انتشارات",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1598694284-tarh3-4-.pdf?language=fa&subdomain=graduate",
-          "kind": "portal-document-reaudit-document",
-          "claim": "14 راهنمای ثبت طرح تحقیق مصوب(طرح پژوهشی ۳) در سامانه جامع آموزشی (دانشجویان تحصیلات تکمیلی) فرآیندها",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1610788843-1.docx?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "13 فرم اطلاعات پیشنهادی قبل از برگزاری همایش (کارگاه، سمینار) فرم های پژوهشی",
+          "id": "birjand-discovery-document-692754890a51"
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/1611050900-.doc?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "10 پروپوزال طرح‌های کاربردی فرم های پژوهشی",
-          "id": null
+          "id": "birjand-discovery-document-692ba365e5c3"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1611050849-.doc?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "11 پروپوزال طرح‌های فناورانه فرم های پژوهشی",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1530505267-5-porsesh-nameh-sar-dabir.zip?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "4 پرسشنامه مخصوص سردبیر نشریه فرم های پژوهشی",
+          "id": "birjand-discovery-document-6e5f4004b516"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1599459424-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح‌های پژوهشی کاربردی و فناورانه دانشگاه بیرجند آیین نامه های پژوهشی آیین نامه طرح‌های پژوهشی کاربردی و فناورانه دانشگاه بیرجند لینک آخرین به‌روزرسانی : ۱۷ شهریور ۱۳۹۹ دسته‌ها - آیین نامه های پژوهشی",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1530505373-mamoreat-pajoheshi.zip",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-6e9259a02f0c"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1644133371-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه تشویق دستاوردهای پژوهشی و فناوری آیین نامه های پژوهشی آیین‌نامه تشویق دستاوردهای پژوهشی و فناوری لینک آخرین به‌روزرسانی : ۱۷ بهمن ۱۴۰۰ دسته‌ها - آیین نامه های پژوهشی",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1570338908-1-.docx",
+          "kind": "document",
+          "claim": "صورتجلسه اهداء اموال فرم های پژوهشی صورتجلسه اهداء اموال لینک آخرین به‌روزرسانی : ۱۴ مهر ۱۳۹۸ دسته‌ها - فرم های پژوهشی",
+          "id": "birjand-discovery-document-70fd8910fe86"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1644134766-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه تاسیس گروه های پژوهشی آیین نامه های پژوهشی آیین نامه تاسیس گروه های پژوهشی لینک آخرین به‌روزرسانی : ۱۷ بهمن ۱۴۰۰ دسته‌ها - آیین نامه های پژوهشی",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1610789207-3.docx?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "12 اطلاعات بعد از برگزاری گردهمایی های علمی (همایش، کنگره و .....) فرم های پژوهشی",
+          "id": "birjand-discovery-document-7388591cc68b"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1554787810-pdfoperation.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه نحوه تشکیل و شرح وظایف کمیسیون انجمنهای علمی ایران آیین نامه های پژوهشی آیین نامه نحوه تشکیل و شرح وظایف کمیسیون انجمنهای علمی ایران لینک آخرین به‌روزرسانی : ۲۰ فروردین ۱۳۹۸ دسته‌ها - آیین نامه های پژوهشی",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1530505035-rezome.zip?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "8 فرم خلاصه فعالیتهای آموزشی ، پژوهشی و اجرایی اعضای هیئت علمی فرم های پژوهشی",
+          "id": "birjand-discovery-document-79f463e64ff1"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1610975294-untitled.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه نحوه برگزاری و ساماندهی همایش های علمی دانشگاه بیرجند آیین نامه های پژوهشی آیین نامه نحوه برگزاری و ساماندهی همایش های علمی دانشگاه بیرجند لینک آخرین به‌روزرسانی : ۲۹ دی ۱۳۹۹ دسته‌ها - آیین نامه های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1778408169-6a005ae988dae-1405.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه طرح های پژوهشی خودارزیاب دانشگاه آیین نامه های پژوهشی آیین نامه طرح های پژوهشی خودارزیاب دانشگاه لینک آخرین به‌روزرسانی : ۲۰ اردیبهشت ۱۴۰۵ دسته‌ها - آیین نامه های پژوهشی",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1573446384-.doc",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-7a371c7a33e9"
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/1554866593-document1.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه نمایه سازی استنادی نشریات معتبر علمی در ISC آیین نامه های مجلات و انتشارات آیین نامه نمایه سازی استنادی نشریات معتبر علمی در ISC لینک آخرین به‌روزرسانی : ۲۱ فروردین ۱۳۹۸ دسته‌ها - آیین نامه های مجلات و انتشارات",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1658036783-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه نشریات علمی وزارت علوم آیین نامه های مجلات و انتشارات آیین نامه نشریات علمی وزارت علوم لینک آخرین به‌روزرسانی : ۲۶ تیر ۱۴۰۱ دسته‌ها - آیین نامه های مجلات و انتشارات",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/664c44038d3ca-1402-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه اجرایی نشریات علمی دانشگاه بیرجند آیین نامه های مجلات و انتشارات آیین نامه اجرایی نشریات علمی دانشگاه بیرجند لینک آخرین به‌روزرسانی : ۰۱ خرداد ۱۴۰۳ دسته‌ها - آیین نامه های مجلات و انتشارات",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1554782260-hcm.pdf",
           "kind": "document",
           "claim": "لینک دانلود فایل",
-          "id": "birjand-discovery-document-e1e95df7f8b1"
+          "id": "birjand-discovery-document-7c7d1657613e"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1591775089-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه امتیاز دهی کتاب آیین نامه های مجلات و انتشارات آیین نامه امتیاز دهی کتاب لینک آخرین به‌روزرسانی : ۲۱ خرداد ۱۳۹۹ دسته‌ها - آیین نامه های مجلات و انتشارات",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1573446414-.doc",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-8234c10ec6cc"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1610789059-2.docx?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "14 فرم درخواست راه اندازی دبیرخانه اینترنتی و سایت همایش فرم های پژوهشی",
+          "id": "birjand-discovery-document-844647762566"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1611050956-rfp.doc?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "9 rfp طرح‌های کاربردی فرم های پژوهشی",
+          "id": "birjand-discovery-document-862306526de5"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1587975433-2-.docx?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "15 تسویه حساب مالی واحد پژوهشی فرم های پژوهشی",
+          "id": "birjand-discovery-document-88b05b961b50"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1610975294-untitled.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-8f7de7467c64"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1554785686-finalapa.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-9e085806d6bb"
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/664c45a2eabbd-1-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه انتشارات دانشگاه بیرجند آیین نامه های مجلات و انتشارات آیین نامه انتشارات دانشگاه بیرجند لینک آخرین به‌روزرسانی : ۰۱ خرداد ۱۴۰۳ دسته‌ها - آیین نامه های مجلات و انتشارات",
-          "id": null
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-a13215d98016"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1591775182-.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-a8dc745acadd"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/page/1744789489-67ff5ff1692e1-.doc",
+          "kind": "document",
+          "claim": "- لزوم اخذ کد اخلاق",
+          "id": "birjand-discovery-document-acf0c2f34cf6"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1761636671-6900713f11a58-890630.zip",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-b42f04361d26"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1610788843-1.docx",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-b4903d0cc12f"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1611050849-.doc?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "11 پروپوزال طرح‌های فناورانه فرم های پژوهشی",
+          "id": "birjand-discovery-document-b64a2424c424"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1658036783-.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-bc417ffa8871"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1587975380-.docx",
+          "kind": "document",
+          "claim": "درخواست تاسیس واحد پژوهشی فرم های پژوهشی درخواست تاسیس واحد پژوهشی لینک آخرین به‌روزرسانی : ۲۱ مهر ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
+          "id": "birjand-discovery-document-bde2b4cac8c6"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1598693789-farayand-tarh.pdf?language=fa&subdomain=graduate",
+          "kind": "document",
+          "claim": "16 فرآیند ثبت طرح تحقیق رساله/پایان نامه در سامانه پویا فرآیندهای اعضای هیأت علمی",
+          "id": "birjand-discovery-document-c283622898c5"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/65a798a682e38-10461405-2-.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-c46f12012c75"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1587975433-2-.docx",
+          "kind": "document",
+          "claim": "تسویه حساب مالی واحد پژوهشی فرم های پژوهشی تسویه حساب مالی واحد پژوهشی لینک آخرین به‌روزرسانی : ۲۱ مهر ۱۳۹۹ دسته‌ها - فرم های پژوهشی",
+          "id": "birjand-discovery-document-c57d208ea130"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1610789059-2.docx",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-c634214beaa9"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1598694284-tarh3-4-.pdf?language=fa&subdomain=graduate",
+          "kind": "document",
+          "claim": "14 راهنمای ثبت طرح تحقیق مصوب(طرح پژوهشی ۳) در سامانه جامع آموزشی (دانشجویان تحصیلات تکمیلی) فرآیندها",
+          "id": "birjand-discovery-document-c9118bce656c"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1591775146-.pdf",
+          "kind": "document",
+          "claim": "لینک",
+          "id": "birjand-discovery-document-c99591e5593e"
+        },
+        {
+          "url": "https://birjand.ac.ir/file/download/regulation/1587975380-.docx?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "16 درخواست تاسیس واحد پژوهشی فرم های پژوهشی",
+          "id": "birjand-discovery-document-d456349c4cf6"
         },
         {
           "url": "https://birjand.ac.ir/file/download/regulation/1658037239-.pdf",
@@ -1379,370 +1122,40 @@
           "id": "birjand-discovery-document-d4f0d461d255"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1591775146-.pdf?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "5 دستورالعمل تدوین، چاپ و انتشار نشریات علمی دانشگاه بیرجند آیین نامه های مجلات و انتشارات",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1530505267-5-porsesh-nameh-sar-dabir.zip?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "4 پرسشنامه مخصوص سردبیر نشریه فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1530505233-7-porsshnameh-heat-tahrireh.zip?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "5 پرسشنامه مخصوص اعضاء هیات تحریریه نشریه فرم های پژوهشی",
-          "id": null
-        },
-        {
           "url": "https://birjand.ac.ir/file/download/regulation/1530505199-6-porsshnameh-modir-masol.zip?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "6 پرسشنامه مدیرمسئول نشریه فرم های پژوهشی",
-          "id": null
+          "id": "birjand-discovery-document-d50b326de8e5"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1604817257-new-folder.zip?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "7 فرم پرسشنامه طرح خودارزیاب فرم های پژوهشی",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1658037395-.pdf?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "13 شیوه نامه ارزیابی و رتبه بندی نشریات علمی آیین نامه های مجلات و انتشارات",
+          "id": "birjand-discovery-document-dcbb1c39add6"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1530505035-rezome.zip?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "8 فرم خلاصه فعالیتهای آموزشی ، پژوهشی و اجرایی اعضای هیئت علمی فرم های پژوهشی",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1554782260-hcm.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-e1e95df7f8b1"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1611050956-rfp.doc?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "9 rfp طرح‌های کاربردی فرم های پژوهشی",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1591775182-.pdf?language=fa&subdomain=research",
+          "kind": "document",
+          "claim": "6 شیوه نامه تدوین و نگارش کتاب انتشارات دانشگاه آیین نامه های مجلات و انتشارات",
+          "id": "birjand-discovery-document-e30a199a8ce6"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1610789207-3.docx?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "12 اطلاعات بعد از برگزاری گردهمایی های علمی (همایش، کنگره و .....) فرم های پژوهشی",
-          "id": null
+          "url": "https://birjand.ac.ir/file/download/regulation/1644134766-.pdf",
+          "kind": "document",
+          "claim": "لینک دانلود فایل",
+          "id": "birjand-discovery-document-e5e797e05ea1"
         },
         {
-          "url": "https://birjand.ac.ir/file/download/regulation/1610788843-1.docx?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "13 فرم اطلاعات پیشنهادی قبل از برگزاری همایش (کارگاه، سمینار) فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1610789059-2.docx?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "14 فرم درخواست راه اندازی دبیرخانه اینترنتی و سایت همایش فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1587975433-2-.docx?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "15 تسویه حساب مالی واحد پژوهشی فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/file/download/regulation/1587975380-.docx?language=fa&subdomain=research",
-          "kind": "portal-document-reaudit-document",
-          "claim": "16 درخواست تاسیس واحد پژوهشی فرم های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/442/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/549/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%88-%D9%85%D8%B1%D8%A7%D8%AD%D9%84-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B3%D9%86%D8%AC%DB%8C-%D9%88-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D9%85%D9%84%DB%8C-%D9%88-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D8%AA%D9%88%D8%B3%D8%B7-%D9%85%D9%88%D8%B3%D8%B3%D9%87-isc",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/481/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/328/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/350/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%DA%AF%D8%B1%D9%88%D9%87-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/342/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%AD%D9%88%D9%87-%D8%AA%D8%B4%DA%A9%DB%8C%D9%84-%D9%88-%D8%B4%D8%B1%D8%AD-%D9%88%D8%B8%D8%A7%DB%8C%D9%81-%DA%A9%D9%85%DB%8C%D8%B3%DB%8C%D9%88%D9%86-%D8%A7%D9%86%D8%AC%D9%85%D9%86%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/330/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%88-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D8%AF%D9%87%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/329/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AE%D9%88%D8%AF%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/577/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/346/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B3%D8%A7%D8%B2%DB%8C-%D8%A7%D8%B3%D8%AA%D9%86%D8%A7%D8%AF%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B1-isc",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/345/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D9%84%D9%88%D9%85",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/331/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/325/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%DA%86%D8%A7%D9%BE-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D8%AF%D8%B1-%D9%85%D8%AC%D9%84%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84-%D9%88-%D8%AE%D8%A7%D8%B1%D8%AC-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%88%D8%B1",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/324/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%D9%88-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%DA%A9%D8%AA%D8%A7%D8%A8-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/321/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2-%D8%AF%D9%87%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/320/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/487/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%D9%86%D9%85%D8%A7%DB%8C%D9%87-%D9%87%D8%A7%DB%8C-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/486/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D9%88-%D8%B1%D8%AA%D8%A8%D9%87-%D8%A8%D9%86%D8%AF%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/485/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%D9%87%D8%B2%DB%8C%D9%86%D9%87-%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4-%D9%85%D9%82%D8%A7%D9%84%D9%87-%D8%AF%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C-%D8%A8%D8%A7%D8%B2",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/386/%D9%81%D8%B1%D9%85-%D8%B4%D9%85%D8%A7%D8%B1%D9%87-%DB%B2-%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%86%D9%82%D8%AF%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/181/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%85%D8%A7%D9%85%D9%88%D8%B1%DB%8C%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/176/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD-%D8%AE%D9%88%D8%AF%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/434/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%DB%8C-%D9%82%D8%A8%D9%84-%D8%A7%D8%B2-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D8%B3%D9%85%DB%8C%D9%86%D8%A7%D8%B1-",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/433/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%B1%D8%A7%D9%87-%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C-%D8%AF%D8%A8%DB%8C%D8%B1%D8%AE%D8%A7%D9%86%D9%87-%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA%DB%8C-%D9%88-%D8%B3%D8%A7%DB%8C%D8%AA-%D9%87%D9%85%D8%A7%DB%8C%D8%B4",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/409/%D9%81%D8%B1%D9%85-%D9%85%D8%AD%D8%B1%D9%85%D8%A7%D9%86%D9%87-%D8%A7%D8%B1%D8%B2%D8%B4%DB%8C%D8%A7%D8%A8%DB%8C-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/408/%D9%81%D8%B1%D9%85-%D9%85%D8%AD%D8%B1%D9%85%D8%A7%D9%86%D9%87-%D8%A7%D8%B1%D8%B2%D8%B4%DB%8C%D8%A7%D8%A8%DB%8C-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/341/%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%D9%88-%D9%86%DA%AF%D8%A7%D8%B1%D8%B4-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/339/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%86%D8%AD%D9%88%D9%87-%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C-%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/337/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D9%85%D8%B1%D8%AC%D8%B9-%D9%86%D9%88%DB%8C%D8%B3%DB%8C-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D9%88-%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%B3%D8%A8%DA%A9-apa",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/323/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%AA%D8%AF%D9%88%DB%8C%D9%86-%DA%86%D8%A7%D9%BE-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%DB%8C%D8%B1%D8%AC%D9%86%D8%AF",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/180/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AA%D8%B9%DB%8C%DB%8C%D9%86-%DB%8C%D8%A7-%D8%AA%D8%A7%DB%8C%DB%8C%D8%AF-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B9%D9%84%D9%85%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/179/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AE%D8%B5%D9%88%D8%B5-%D8%B3%D8%B1%D8%AF%D8%A8%DB%8C%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/178/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AE%D8%B5%D9%88%D8%B5-%D8%A7%D8%B9%D8%B6%D8%A7-%D9%87%DB%8C%D8%A7%D8%AA-%D8%AA%D8%AD%D8%B1%DB%8C%D8%B1%DB%8C%D9%87-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/177/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D9%85%D8%AF%DB%8C%D8%B1%D9%85%D8%B3%D8%A6%D9%88%D9%84-%D9%86%D8%B4%D8%B1%DB%8C%D9%87",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/457/rfp-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/456/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%D8%AF%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/455/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D8%B7%D8%B1%D8%AD-%D9%87%D8%A7%DB%8C-%D9%81%D9%86%D8%A7%D9%88%D8%B1%D8%A7%D9%86%D9%87",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/436/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%A8%D8%B9%D8%AF-%D8%A7%D8%B2-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%DA%AF%D8%B1%D8%AF%D9%87%D9%85%D8%A7%DB%8C%DB%8C-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%DA%A9%D9%86%DA%AF%D8%B1%D9%87-%D9%88-.....-",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/415/%D8%AA%D8%B3%D9%88%DB%8C%D9%87-%D8%AD%D8%B3%D8%A7%D8%A8-%D9%85%D8%A7%D9%84%DB%8C-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/414/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/397/%D8%B5%D9%88%D8%B1%D8%AA%D8%AC%D9%84%D8%B3%D9%87-%D8%A7%D9%87%D8%AF%D8%A7-%D8%A7%D9%85%D9%88%D8%A7%D9%84",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://birjand.ac.ir/research/fa/regulation/175/%D9%81%D8%B1%D9%85-%D8%AE%D9%84%D8%A7%D8%B5%D9%87-%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
+          "url": "https://birjand.ac.ir/file/download/regulation/1530505035-rezome.zip",
+          "kind": "document",
+          "claim": "فرم خلاصه فعالیتهای آموزشی ، پژوهشی و اجرایی اعضای هیئت علمی فرم های پژوهشی فرم خلاصه فعالیتهای آموزشی ، پژوهشی و اجرایی اعضای هیئت علمی لینک آخرین به‌روزرسانی : ۱۱ تیر ۱۳۹۷ دسته‌ها - فرم های پژوهشی",
+          "id": "birjand-discovery-document-effdcd73a2d0"
         }
       ],
       "publicationAdjustment": null,

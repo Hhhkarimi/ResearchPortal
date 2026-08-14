@@ -55,7 +55,7 @@
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-14",
-      "promotedSources": 34,
+      "promotedSources": 0,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -104,13 +104,13 @@
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "verified",
-      "libraryDocuments": "verified",
+      "libraryDocuments": "unresolved",
       "laboratories": "unresolved",
       "industryTechnology": "unresolved",
-      "systemsServices": "verified",
+      "systemsServices": "unresolved",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 71,
+    "auditEvidenceCoverage": 43,
     "unitsFound": 0,
     "systemsFound": 0,
     "documentsFound": 9,
@@ -351,14 +351,8 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 16,
+      "sourceCount": 2,
       "sources": [
-        {
-          "url": "https://pprs.tabrizu.ac.ir/journal/process?ethics&lang=en",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
         {
           "url": "https://pprs.tabrizu.ac.ir/data/jies/news/shvenameye_entesharate_danehgahe_tabriz.pdf",
           "kind": "document",
@@ -371,97 +365,6 @@
           "claim": "کتابخانه و مرکز اسناد 1",
           "id": null,
           "sourceLabel": "کتابخانه و مرکز اسناد 1"
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/journal/authors.note",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/journal/about",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/journal/editorial.board",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/issue_0_0.html",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/news?newsCode=91",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/journal/process",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/journal/process?lang=fa",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/journal/process?lang=en",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "http://www.nlai.ir/",
-          "kind": "research-review-specific",
-          "claim": "سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران",
-          "id": null,
-          "sourceLabel": "سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران"
-        },
-        {
-          "url": "http://www.ketab.ir/default.aspx",
-          "kind": "research-review-specific",
-          "claim": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب",
-          "id": null,
-          "sourceLabel": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب"
-        },
-        {
-          "url": "https://ketab.farhang.gov.ir/fa/usershelp",
-          "kind": "research-review-specific",
-          "claim": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب",
-          "id": null,
-          "sourceLabel": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب"
-        },
-        {
-          "url": "http://www.isbn.ir/Default.aspx",
-          "kind": "research-review-specific",
-          "claim": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب",
-          "id": null,
-          "sourceLabel": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب"
-        },
-        {
-          "url": "https://ketab.samandehi.ir/Pages/default.aspx",
-          "kind": "research-review-specific",
-          "claim": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب",
-          "id": null,
-          "sourceLabel": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب"
         }
       ],
       "publicationAdjustment": null,
@@ -517,105 +420,47 @@
       "iscCategory": "جامع",
       "iscRank": 6,
       "dimension": "systemsServices",
-      "status": "verified",
+      "status": "observed-reference",
       "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 14,
+      "sourceCount": 4,
       "sources": [
         {
+          "url": "https://tabrizu.ac.ir/",
+          "kind": "research-review-reference",
+          "claim": "منبع رسمی ۱",
+          "id": null,
+          "sourceLabel": "منبع رسمی ۱",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://research.tabrizu.ac.ir/",
+          "kind": "research-review-reference",
+          "claim": "پرتال پژوهش و فناوری 1",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش و فناوری 1",
+          "sourceSpecificity": "university-reference"
+        },
+        {
+          "url": "https://research.tabrizu.ac.ir/fa/page/9498/%D8%AD%D8%B3%D8%A7%D8%A8%D8%AF%D8%A7%D8%B1%DB%8C-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
+          "kind": "research-review-reference",
+          "claim": "ساختار معاونت 1",
+          "id": null,
+          "sourceLabel": "ساختار معاونت 1",
+          "sourceSpecificity": "university-reference"
+        },
+        {
           "url": "https://pprs.tabrizu.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/journal/about",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/journal/editorial.board",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/issue_0_0.html",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/news?newsCode=91",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/contacts?_action=loginForm",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/contacts",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/contacts?_action=login&frg=1",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/data/jies/news/rahnemaye_ersale_ketab_az_pprs.pdf",
-          "kind": "research-review-specific",
-          "claim": "راهنمای ارسال کتاب در سامانه داوری انتشارات دانشگاه تبریز",
+          "kind": "research-review-reference",
+          "claim": "کتابخانه و مرکز اسناد 1",
           "id": null,
-          "sourceLabel": "راهنمای ارسال کتاب در سامانه داوری انتشارات دانشگاه تبریز"
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/data/jies/news/rahnemaye_paspkh_be_davaran.pdf",
-          "kind": "research-review-specific",
-          "claim": "راهنمای پاسخ به نظرات داوران و سردبیر سامانه داوری انتشارات دانشگاه تبریز",
-          "id": null,
-          "sourceLabel": "راهنمای پاسخ به نظرات داوران و سردبیر سامانه داوری انتشارات دانشگاه تبریز"
-        },
-        {
-          "url": "http://www.ketab.ir/default.aspx",
-          "kind": "research-review-specific",
-          "claim": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب",
-          "id": null,
-          "sourceLabel": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب"
-        },
-        {
-          "url": "https://ketab.farhang.gov.ir/fa/usershelp",
-          "kind": "research-review-specific",
-          "claim": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب",
-          "id": null,
-          "sourceLabel": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب"
-        },
-        {
-          "url": "http://www.isbn.ir/Default.aspx",
-          "kind": "research-review-specific",
-          "claim": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب",
-          "id": null,
-          "sourceLabel": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب"
-        },
-        {
-          "url": "https://ketab.samandehi.ir/Pages/default.aspx",
-          "kind": "research-review-specific",
-          "claim": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب",
-          "id": null,
-          "sourceLabel": "پیوندهای مفید: سازمان اسناد و کتابخانه ملی جمهوری اسلامی ایران خانه کتاب ایران وزارت فرهنگ و ارشاد اسلامی، اداره کتاب شابک سامانه جامع صدور مجور چاپ و نشر کتاب"
+          "sourceLabel": "کتابخانه و مرکز اسناد 1",
+          "sourceSpecificity": "university-reference"
         }
       ],
-      "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
+      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -625,100 +470,75 @@
       "iscCategory": "جامع",
       "iscRank": 6,
       "dimension": "documentsRegulations",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 14,
+      "sourceCount": 10,
       "sources": [
         {
-          "url": "https://pprs.tabrizu.ac.ir/journal/authors.note",
+          "url": "https://pprs.tabrizu.ac.ir/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/journal/process",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/journal/process?lang=fa",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/journal/process?lang=en",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/data/jies/news/rahnemaye_ersale_ketab_az_pprs.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای ارسال کتاب در سامانه داوری انتشارات دانشگاه تبریز",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/data/jies/news/rahnemaye_paspkh_be_davaran.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای پاسخ به نظرات داوران و سردبیر سامانه داوری انتشارات دانشگاه تبریز",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/data/jies/news/fianl_edition_of_ayeennameye_entesharat._mehre_1400.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه انتشارات دانشگاه تبریز",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/data/jies/news/shvenameye_entesharate_danehgahe_tabriz.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه نگارشی و شکلی آثار پیشنهادی برای نشر در انتشارات دانشگاه تبریز",
           "id": null
         },
         {
           "url": "https://pprs.tabrizu.ac.ir/data/jies/news/dastour-e-khat-17.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "دستور خط فارسی مصوب فرهنگستان زبان و ادب فارسی",
-          "id": null
+          "id": "tabriz-discovery-document-3d793a2dc439"
+        },
+        {
+          "url": "https://pprs.tabrizu.ac.ir/data/jies/news/shvenameye_entesharate_danehgahe_tabriz.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه نگارشی و شکلی آثار پیشنهادی برای نشر در انتشارات دانشگاه تبریز",
+          "id": "tabriz-discovery-document-7f8e4657e5d0"
         },
         {
           "url": "https://pprs.tabrizu.ac.ir/data/jies/news/APA_Dr._Hoori_book.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "شیوه نامه استنادی APA",
-          "id": null
+          "id": "tabriz-discovery-document-8872a137bd22"
         },
         {
           "url": "https://pprs.tabrizu.ac.ir/data/jies/news/forme_tayeede_asar_baraye_chap.docx",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم تایید اثر برای چاپ",
-          "id": null
-        },
-        {
-          "url": "https://pprs.tabrizu.ac.ir/data/jies/news/hagozzahameye__virastar.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "درخواست حق‌الزحمه ویراستار از محل گرنت پدیدآورنده",
-          "id": null
+          "id": "tabriz-discovery-document-aa6a46eecd87"
         },
         {
           "url": "https://pprs.tabrizu.ac.ir/data/jies/news/sayere_hazinehaye_chap.docx",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "درخواست سایر هزینه های چاپ از محل گرنت",
-          "id": null
+          "id": "tabriz-discovery-document-af9c4b311d61"
         },
         {
-          "url": "https://pprs.tabrizu.ac.ir/contacts?_action=loginForm",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
+          "url": "https://pprs.tabrizu.ac.ir/data/jies/news/hagozzahameye__virastar.docx",
+          "kind": "document",
+          "claim": "درخواست حق‌الزحمه ویراستار از محل گرنت پدیدآورنده",
+          "id": "tabriz-discovery-document-bfe113ee89ab"
+        },
+        {
+          "url": "https://pprs.tabrizu.ac.ir/data/jies/news/rahnemaye_ersale_ketab_az_pprs.pdf",
+          "kind": "document",
+          "claim": "راهنمای ارسال کتاب در سامانه داوری انتشارات دانشگاه تبریز",
+          "id": "tabriz-discovery-document-ce0c744f45fe"
+        },
+        {
+          "url": "https://pprs.tabrizu.ac.ir/data/jies/news/fianl_edition_of_ayeennameye_entesharat._mehre_1400.pdf",
+          "kind": "document",
+          "claim": "آیین نامه انتشارات دانشگاه تبریز",
+          "id": "tabriz-discovery-document-d892f1687852"
+        },
+        {
+          "url": "https://pprs.tabrizu.ac.ir/data/jies/news/rahnemaye_paspkh_be_davaran.pdf",
+          "kind": "document",
+          "claim": "راهنمای پاسخ به نظرات داوران و سردبیر سامانه داوری انتشارات دانشگاه تبریز",
+          "id": "tabriz-discovery-document-fa4a029a6d5e"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],

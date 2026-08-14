@@ -15,62 +15,93 @@
     },
     "documents": {
       "before": 4862,
-      "after": 4737,
-      "delta": -125
+      "after": 5525,
+      "delta": 663
     },
     "evidenceCoverageAverage": {
       "before": 63,
-      "after": 62.4,
-      "delta": -0.6
+      "after": 31.3,
+      "delta": -31.7
     },
     "ranked": {
       "before": 79,
-      "after": 46,
-      "delta": -33
+      "after": 32,
+      "delta": -47
     }
   },
   "newDirectPortals": [],
-  "addedDocuments": 0,
-  "improvedEvidenceInstitutions": 0,
+  "addedDocuments": 799,
+  "improvedEvidenceInstitutions": 10,
   "brokenLinksDetected": 604,
-  "rankingChanges": 46,
+  "rankingChanges": 31,
   "highlights": {
-    "improvedEvidence": [],
+    "improvedEvidence": [
+      {
+        "universitySlug": "mahallat-higher-ed",
+        "nameFa": "مرکز آموزش عالی محلات",
+        "before": 28.571428571428573,
+        "after": 57.142857142857146
+      },
+      {
+        "universitySlug": "national-defense",
+        "nameFa": "دانشگاه عالی دفاع ملی",
+        "before": 57.142857142857146,
+        "after": 85.71428571428571
+      },
+      {
+        "universitySlug": "birjand-technology",
+        "nameFa": "دانشگاه صنعتی بیرجند",
+        "before": 42.857142857142854,
+        "after": 64.28571428571429
+      },
+      {
+        "universitySlug": "sirjan-technology",
+        "nameFa": "دانشگاه صنعتی سیرجان",
+        "before": 85.71428571428571,
+        "after": 100
+      },
+      {
+        "universitySlug": "imam-hossein",
+        "nameFa": "دانشگاه جامع امام حسین (ع)",
+        "before": 14.285714285714286,
+        "after": 28.571428571428573
+      }
+    ],
     "scoreChanges": [
       {
-        "universitySlug": "eghlid-higher-ed",
-        "nameFa": "مرکز آموزش عالی اقلید",
+        "universitySlug": "urmia",
+        "nameFa": "دانشگاه ارومیه",
+        "before": 82.9,
+        "after": 62.3,
+        "delta": -20.6
+      },
+      {
+        "universitySlug": "national-defense",
+        "nameFa": "دانشگاه عالی دفاع ملی",
+        "before": 59.6,
+        "after": 42.5,
+        "delta": -17.1
+      },
+      {
+        "universitySlug": "applied-science",
+        "nameFa": "دانشگاه جامع علمی کاربردی",
         "before": 63.9,
-        "after": 31.7,
-        "delta": -32.2
+        "after": 47,
+        "delta": -16.9
       },
       {
-        "universitySlug": "shahid-rajaee",
-        "nameFa": "دانشگاه تربیت دبیر شهید رجایی",
-        "before": 86.6,
-        "after": 58.9,
-        "delta": -27.7
+        "universitySlug": "bam-higher-ed",
+        "nameFa": "مجتمع آموزش عالی بم",
+        "before": 68.6,
+        "after": 83.9,
+        "delta": 15.3
       },
       {
-        "universitySlug": "amol-special-tech",
-        "nameFa": "دانشگاه تخصصی فناوری های نوین آمل",
-        "before": 83.2,
-        "after": 58.9,
-        "delta": -24.3
-      },
-      {
-        "universitySlug": "gonabad-higher-ed",
-        "nameFa": "مجتمع آموزش عالی گناباد",
-        "before": 84.8,
-        "after": 60.9,
-        "delta": -23.9
-      },
-      {
-        "universitySlug": "hakim-sabzevari",
-        "nameFa": "دانشگاه حکیم سبزواری",
-        "before": 91.7,
-        "after": 70.3,
-        "delta": -21.4
+        "universitySlug": "malayer",
+        "nameFa": "دانشگاه ملایر",
+        "before": 68.2,
+        "after": 80.6,
+        "delta": 12.4
       }
     ],
     "brokenLinks": [

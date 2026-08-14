@@ -89,7 +89,7 @@
     ],
     "discoveryCrawler": {
       "lastRun": "2026-08-14",
-      "promotedSources": 102,
+      "promotedSources": 0,
       "socialEvidenceRemoved": true
     }
   },
@@ -214,8 +214,8 @@
         },
         {
           "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=11&index=74",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
@@ -544,14 +544,14 @@
         },
         {
           "url": "https://www.shahroodut.ac.ir/fa/news/showitem.php?id=010928123603",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=16",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         }
       ],
@@ -570,7 +570,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 5,
+      "sourceCount": 4,
       "sources": [
         {
           "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=22",
@@ -599,13 +599,6 @@
           "claim": "کتابخانه مرکزی",
           "id": "shahrood-technology-discovery-unit-library-4b232e5d4632",
           "unitType": "library"
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162626",
-          "kind": "research-review-specific",
-          "claim": "دانشکده مهندسی صنایع و مدیریت (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
-          "id": null,
-          "sourceLabel": "دانشکده مهندسی صنایع و مدیریت (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹"
         }
       ],
       "publicationAdjustment": null,
@@ -619,35 +612,18 @@
       "iscCategory": "صنعتی",
       "iscRank": 6,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 22,
+      "sourceCount": 13,
       "sources": [
         {
           "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=23",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=23&page=648",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=23&page=649",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/news/showitem.php?id=040807170705",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "کتابخانه مرکزی",
+          "id": "shahrood-technology-discovery-unit-library-4b232e5d4632",
+          "unitType": "library"
         },
         {
           "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=11",
@@ -721,52 +697,10 @@
           "kind": "document",
           "claim": "نشریات علمی معتبر وزارت علوم تحقیقات و فناوری (1403/3/23) نشریات وزارت علوم",
           "id": "shahrood-technology-discovery-document-d77f1a761141"
-        },
-        {
-          "url": "https://journals.shahroodut.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=23&index=335",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://journals.shahroodut.ac.ir/rss",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://journals.shahroodut.ac.ir/years.html",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://journals.shahroodut.ac.ir/contact.us",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://rera.shahroodut.ac.ir/journal/process",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -776,39 +710,22 @@
       "iscCategory": "صنعتی",
       "iscRank": 6,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 4,
+      "sourceCount": 1,
       "sources": [
         {
-          "url": "https://www.shahroodut.ac.ir/fa/news/index.php?kq=%20%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%20%D9%85%D8%B1%DA%A9%D8%B2%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
           "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=49",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/news/showitem.php?id=041029143308",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/news/index.php?kq=%20%DA%AF%D8%B1%D9%86%D8%AA%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی",
+          "id": "shahrood-technology-discovery-unit-laboratory-acd8d80c8940",
+          "unitType": "laboratory"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -818,11 +735,11 @@
       "iscCategory": "صنعتی",
       "iscRank": 6,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 10,
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=22",
@@ -832,12 +749,6 @@
           "unitType": "industry"
         },
         {
-          "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=45",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
-        {
           "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=33",
           "kind": "unit",
           "claim": "مرکز رشد فناوری های نوین دانشگاه صنعتی شاهرود",
@@ -845,56 +756,15 @@
           "unitType": "technology"
         },
         {
-          "url": "https://www.shahroodut.ac.ir/fa/news/index.php?kq=%20%D8%AF%D9%81%D8%AA%D8%B1%20%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7%20%D8%A8%D8%A7%20%D8%B5%D9%86%D8%B9%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
-        {
           "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=11",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش و فناوری 1",
           "id": null,
           "sourceLabel": "پرتال پژوهش و فناوری 1"
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111125432",
-          "kind": "research-review-specific",
-          "claim": "شیوه نامه فرصت مطالعاتی صنعتی",
-          "id": null,
-          "sourceLabel": "شیوه نامه فرصت مطالعاتی صنعتی"
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111133461",
-          "kind": "research-review-specific",
-          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت (1397/7/11) 97/7/10",
-          "id": null,
-          "sourceLabel": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت (1397/7/11) 97/7/10"
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111129616",
-          "kind": "research-review-specific",
-          "claim": "فهرست طرح پساد دکترا و فرصت مطالعاتی اعلام شده از سوی وزارت صنعت و معدن تجارت (1395/12/7) فهرست اعلام شده از وزارت صنعت و معدن تجارت",
-          "id": null,
-          "sourceLabel": "فهرست طرح پساد دکترا و فرصت مطالعاتی اعلام شده از سوی وزارت صنعت و معدن تجارت (1395/12/7) فهرست اعلام شده از وزارت صنعت و معدن تجارت"
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174212",
-          "kind": "research-review-specific",
-          "claim": "آیین نامه پسا دکتری صنعتی (1403/3/23) پسا دکتری صنعتی",
-          "id": null,
-          "sourceLabel": "آیین نامه پسا دکتری صنعتی (1403/3/23) پسا دکتری صنعتی"
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174208",
-          "kind": "research-review-specific",
-          "claim": "نشریات علمی معتبر وزارت علوم تحقیقات و فناوری (1403/3/23) نشریات وزارت علوم",
-          "id": null,
-          "sourceLabel": "نشریات علمی معتبر وزارت علوم تحقیقات و فناوری (1403/3/23) نشریات وزارت علوم"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -904,72 +774,22 @@
       "iscCategory": "صنعتی",
       "iscRank": 6,
       "dimension": "systemsServices",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 9,
+      "sourceCount": 1,
       "sources": [
-        {
-          "url": "https://journals.shahroodut.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://journals.shahroodut.ac.ir/contact.us",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://journals.shahroodut.ac.ir/rss",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://journals.shahroodut.ac.ir/years.html",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/thesis/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/thesis/index.php",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
         {
           "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=11",
           "kind": "system",
           "claim": "سامانه مدیریت نشریات علمی دانشگاه صنعتی شاهرود",
           "id": "shahrood-technology-discovery-system-c525b786371d",
           "systemCategory": "journals"
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174208",
-          "kind": "research-review-specific",
-          "claim": "نشریات علمی معتبر وزارت علوم تحقیقات و فناوری (1403/3/23) نشریات وزارت علوم",
-          "id": null,
-          "sourceLabel": "نشریات علمی معتبر وزارت علوم تحقیقات و فناوری (1403/3/23) نشریات وزارت علوم"
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174207",
-          "kind": "research-review-specific",
-          "claim": "شیوه نامه تشویق نشریات علمی داخلی نمایه شده در نمایه های بین المللی معتبر (1403/3/23) شیوه نامه تشویق نشریات علمی",
-          "id": null,
-          "sourceLabel": "شیوه نامه تشویق نشریات علمی داخلی نمایه شده در نمایه های بین المللی معتبر (1403/3/23) شیوه نامه تشویق نشریات علمی"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -983,20 +803,8 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 113,
+      "sourceCount": 109,
       "sources": [
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=23&index=335",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=23&index=165",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
         {
           "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=6&index=257",
           "kind": "portal-document-reaudit",
@@ -1004,424 +812,22 @@
           "id": null
         },
         {
-          "url": "https://www.shahroodut.ac.ir/fa/sec/index.php?id=16&index=75",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://rera.shahroodut.ac.ir/journal/process",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111173229",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرايند اجرايي ثبت پروپوزال و پايان نامه /",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130945",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه تدوین پایان‌نامه/رساله تحصیلات تکمیلی",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130862",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شرایط و نحوه عضویت در کتابخانه",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130842",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه کتابخانه",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130841",
-          "kind": "portal-document-reaudit-document",
-          "claim": "وظایف اعضای کتابخانه",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130840",
-          "kind": "portal-document-reaudit-document",
-          "claim": "ضوابط جریمه تاخیر و مفقود شدن کتاب",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130839",
-          "kind": "portal-document-reaudit-document",
-          "claim": "مقررات امانت و تمدید کتاب",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130838",
-          "kind": "portal-document-reaudit-document",
-          "claim": "مقررات عمومی سالن های مطالعه",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130828",
-          "kind": "portal-document-reaudit-document",
-          "claim": "مقررات استفاده از تالار کتابخانه مرکزی",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111122162",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه اجرایی اعطای پژوهانه (1393/5/18) شیوه نامهاجرای طرح اعطای پژوهانه رساله به دانشجویان دکتری دانشگاهها و موسسات آموزشی و پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111125594",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل نحوه بررسی تخلفات پژوهشی (1394/7/29) این دستورالعمل در تاریخ 93/12/23 تصویب شده و از 93/12/25 قابل اجرا است.",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111125432",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه فرصت مطالعاتی صنعتی",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111122161",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اجرای اعطای پژوهانه (1393/5/18) آیین نامه اجرایی اعطای پژوهانه رساله به دانشجویان دکتری",
-          "id": null
-        },
-        {
-          "url": "https://shahroodut.ac.ir/fa/sec/files/fl/6/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D9%81%D8%B1%D8%B5%D8%AA.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم های فرصت مطالعاتی (منسوخ شده)",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111133461",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت (1397/7/11) 97/7/10",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111125597",
-          "kind": "portal-document-reaudit-document",
-          "claim": "منشور اخلاق پژوهشی (1394/7/29) کتابجه منشور اخلاق پژوهشی است که حدود اخلاقی اجزای پژوهشی را نشان می دهد.",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111125592",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه گرنت اعضا هیات علمی",
-          "id": null
+          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/PHD94-shivenameh.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اجرایی پذیرش بدون آزمون دکتری",
+          "id": "shahrood-technology-discovery-document-031b6b350742"
         },
         {
           "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111122195",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "شیوه نامه انتخاب استاد نمونه آموزشی (1393/5/19) شیوه نامه انتخاب استاد نمونه آموزشی",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111134691",
-          "kind": "portal-document-reaudit-document",
-          "claim": "نحوه تشکیل و شرح وظایف کمیسیون انجمن های علمی ایران (1397/12/4) آیین نامه وزارتی مصوبه 262 جلسه شورای عالی انقلاب فرهنگی",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111129284",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه و شیوه نامه قطب های علمی مصوب سال 95 (1395/10/18) آیین نامه قطب های علمی کشور مصوب سال 95",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111126617",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه و شیوه نامه قطب های علمی مصوب 17 بهمن 88 (1394/10/28) آیین نامه و شیوه نامه قطب های علمی مصوب 17 بمهن ماه 1388",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111129616",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فهرست طرح پساد دکترا و فرصت مطالعاتی اعلام شده از سوی وزارت صنعت و معدن تجارت (1395/12/7) فهرست اعلام شده از وزارت صنعت و معدن تجارت",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111129515",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اجرایی نظارتی دوره دکتری پژوهش محور (1395/11/23) شیوه نامه اجرایی دوره دکتری پژوهش محور",
-          "id": null
-        },
-        {
-          "url": "https://shahroodut.ac.ir/fa/sec/files/fl/6/aaen-nameh/arshad%201402.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه آموزشی دوره های کارشناسی ارشد ورودی 1402 و ما بعد arshad 1402",
-          "id": null
-        },
-        {
-          "url": "https://shahroodut.ac.ir/fa/sec/files/fl/6/Shiveh%20PhD-Estedad-Final.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه پذیرش بدون آزمون استعدادهای درخشان دوره دکتری سال 1402",
-          "id": null
-        },
-        {
-          "url": "https://shahroodut.ac.ir/fa/sec/files/fl/6/forsat.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اجرایی فرصت تحقیقاتی کوتاه مدت داخل و خارج از کشور سال 1400",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111171929",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه شورای موارد خاص دانشگاه ها (1400/7/11) نامه شماره 306280/و مورخ 26/12/99 به شماره ثبت دانشگاه 273 سال 1400",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111122202",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه اعطای بورس داخل برای ارتقا سطح علمی مربیان (1393/5/19) آیین نامه اعطای بورس داخل برای ارتقا سطح علمی مربیان",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111171611",
-          "kind": "portal-document-reaudit-document",
-          "claim": "نظام نامه اخلاق آموزش (1400/3/5) تدوین شیوه نامه اجرایی نظام نامه اخلاق آموزش",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162620",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانشکده فیزیک و مهندسی هسته ای (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162621",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانشکده علوم زمین (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162622",
-          "kind": "portal-document-reaudit-document",
-          "claim": "گروه زبان انگلیسی (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162623",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانشکده شیمی (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162624",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانشکده مهندسی معماری (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162625",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانشکده مهندسی شیمی و مواد (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162626",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانشکده مهندسی صنایع و مدیریت (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162628",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانشکده مهندسی عمران (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162629",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانشکده مهندسی معدن، نفت و ژئوفیزیک (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
-          "id": null
+          "id": "shahrood-technology-discovery-document-0f3d0c270896"
         },
         {
           "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162630",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "دانشکده علوم ریاضی (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162632",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانشکده مهندسی کامپیوتر (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162633",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانشکده مهندسی مکانیک و مکاترونیک (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162634",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دانشکده مهندسی برق و رباتیک (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174212",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه پسا دکتری صنعتی (1403/3/23) پسا دکتری صنعتی",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174211",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه نحوه برگزاری همایش های علمی (1403/3/23) همایش های علمی",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174210",
-          "kind": "portal-document-reaudit-document",
-          "claim": "نقشه جامع علمی کشور (1403/3/23) نقشه جامع",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174209",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه ارتقا (1403/3/23) آیین نامه ارتقا",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174208",
-          "kind": "portal-document-reaudit-document",
-          "claim": "نشریات علمی معتبر وزارت علوم تحقیقات و فناوری (1403/3/23) نشریات وزارت علوم",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174207",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه تشویق نشریات علمی داخلی نمایه شده در نمایه های بین المللی معتبر (1403/3/23) شیوه نامه تشویق نشریات علمی",
-          "id": null
-        },
-        {
-          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174206",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه تشـکیل قطب علمی دوره چهارم (1397/8/5) تاریخ اجرا 97/7/21",
-          "id": null
-        },
-        {
-          "url": "https://shahroodut.ac.ir/fa/sec/files/fl/6/moadel(4).doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل نحوه معادل سازی دروس",
-          "id": null
-        },
-        {
-          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C%20%D8%AC%D9%84%D8%B3%D9%87%20%D8%AF%D9%81%D8%A7%D8%B9%20%D8%A7%D8%B2%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B1%D8%B4%D8%AF-%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه برگزاری جلسه دفاع از پایان نامه ارشد/ رساله دکتری",
-          "id": null
-        },
-        {
-          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/aeen%20name%20pasho%20hane.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه اجرایی اعطای پژوهانه رساله",
-          "id": null
-        },
-        {
-          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/aaen-nameh/Shivenameh.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اجرایی فرصت مطالعاتی (قدیم) لینک",
-          "id": null
-        },
-        {
-          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20name%20arsad%20vroodi%2094%20sora%20danesgah1.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه آموزشی کارشناسی ارشد ورودی 94به بعد",
-          "id": null
-        },
-        {
-          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/%D9%8Eaeen%20name%20alktroniki.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه دوره های آموزش الکترونیکی",
-          "id": null
-        },
-        {
-          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/momtazin%209355.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه پذیرش بدون آزمون استعدادهای درخشان کارشناسی ارشد",
-          "id": null
-        },
-        {
-          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/Shivename94.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اجرایی پذیرش بدون آزمون کارشناسی ارشد",
-          "id": null
-        },
-        {
-          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/aslahie%20momtazin%20doktora.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "اصلاحیه آیین نامه بدون آزمون دکتری",
-          "id": null
-        },
-        {
-          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/PHD94-shivenameh.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اجرایی پذیرش بدون آزمون دکتری",
-          "id": null
-        },
-        {
-          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/aeen%20name%20anteghal.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه انتقال خارج به داخل کشور دانشجویان ایرانی",
-          "id": null
-        },
-        {
-          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/aeen%20name%20bors89.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه اعطای بورس برای ارتقای سطح علمی مربیان",
-          "id": null
-        },
-        {
-          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/cetade-shahed.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه ستاد شاهد و ایثارگر(ارشدودکتری)",
-          "id": null
-        },
-        {
-          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/%D8%B7%D8%B1%D8%AD%20%D8%B1%D9%88%DB%8C%20%D8%AC%D9%84%D8%AF%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرمهای مربوط به صحافی رساله دکتری",
-          "id": null
-        },
-        {
-          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C%20%D8%A8%D9%87%20%D8%B9%D9%86%D9%88%D8%A7%D9%86%20%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF%20%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%20%D8%AF%D8%B1%20%D8%B3%D8%A7%DB%8C%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D9%87%D8%A7_1.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست همکاری به عنوان استادراهنما در سایر دانشگاه ها",
-          "id": null
-        },
-        {
-          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرایند فرصت مطالعاتی دانشجویان دکتری",
-          "id": null
-        },
-        {
-          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/form%20ha/formhaye-moarefibeostad%20(2).doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرمهای معرفی به استاد",
-          "id": null
-        },
-        {
-          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/dastorolamalha/%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%20%D8%A7%D8%B2%20%D8%B4%D9%8A%D9%88%D9%87%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D9%85%D8%AD%D9%88%D8%B1%20%D8%A8%D9%87%20%D8%B4%D9%8A%D9%88%D9%87%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%D9%8A.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل تغییر شیوه آموزشی",
-          "id": null
-        },
-        {
-          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%AC%D8%A7%D9%85%D8%B9%20%D8%A7%DB%8C%D9%81%D8%A7%DB%8C%20%D8%AA%D8%B9%D9%87%D8%AF%20%20%D8%AE%D8%AF%D9%85%D8%AA%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل جامع ایفای تعهد خدمت آموزش رایگان",
-          "id": null
+          "id": "shahrood-technology-discovery-document-10dec28903b5"
         },
         {
           "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111132646",
@@ -1430,10 +836,22 @@
           "id": "shahrood-technology-discovery-document-17cb0a769666"
         },
         {
+          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/%D9%8Eaeen%20name%20alktroniki.pdf",
+          "kind": "document",
+          "claim": "آیین نامه دوره های آموزش الکترونیکی",
+          "id": "shahrood-technology-discovery-document-1c849b24dbac"
+        },
+        {
           "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111131867",
           "kind": "document",
           "claim": "راهنمای جستجو و امانت کتاب",
           "id": "shahrood-technology-discovery-document-1d61cfda87d2"
+        },
+        {
+          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/cetade-shahed.pdf",
+          "kind": "document",
+          "claim": "آیین نامه ستاد شاهد و ایثارگر(ارشدودکتری)",
+          "id": "shahrood-technology-discovery-document-205853d0aedf"
         },
         {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4%20%D8%A8%D8%AF%D9%88%D9%86%20%D8%A2%D8%B2%D9%85%D9%88%D9%86%20%D8%A7%D8%B3%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF%D9%87%D8%A7%DB%8C%20%D8%AF%D8%B1%D8%AE%D8%B4%D8%A7%D9%86%20%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C%20%D8%A7%D8%B1%D8%B4%D8%AF.pdf",
@@ -1448,10 +866,22 @@
           "id": "shahrood-technology-discovery-document-23576d2b2ce7"
         },
         {
+          "url": "https://shahroodut.ac.ir/fa/sec/files/fl/6/forsat.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اجرایی فرصت تحقیقاتی کوتاه مدت داخل و خارج از کشور سال 1400",
+          "id": "shahrood-technology-discovery-document-28f284497aa8"
+        },
+        {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20(%D9%85%D8%B4%D8%A7%D9%88%D8%B1)%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%20%D8%AF%D8%B1%20%D8%AF%D9%88%D8%B1%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%DB%8C%20%DA%A9%D8%A7%D8%B1%D8%AF%D8%A7%D9%86%DB%8C%20%D9%88%20%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C.pdf",
           "kind": "document",
           "claim": "شیوه نامه راهنمای (مشاور) آموزشی در دوره های تحصیلی کاردانی و کارشناسی",
           "id": "shahrood-technology-discovery-document-29997420e821"
+        },
+        {
+          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/momtazin%209355.pdf",
+          "kind": "document",
+          "claim": "آیین نامه پذیرش بدون آزمون استعدادهای درخشان کارشناسی ارشد",
+          "id": "shahrood-technology-discovery-document-29d9b577bb78"
         },
         {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%85%D8%B4%D8%A7%D9%88%D8%B1%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C.pdf",
@@ -1472,10 +902,46 @@
           "id": "shahrood-technology-discovery-document-34f4f4929e2e"
         },
         {
+          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/dastorolamalha/%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%84%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%20%D8%A7%D8%B2%20%D8%B4%D9%8A%D9%88%D9%87%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D9%85%D8%AD%D9%88%D8%B1%20%D8%A8%D9%87%20%D8%B4%D9%8A%D9%88%D9%87%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%D9%8A.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل تغییر شیوه آموزشی",
+          "id": "shahrood-technology-discovery-document-37f6c62f0f43"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111125432",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی صنعتی",
+          "id": "shahrood-technology-discovery-document-3bc280a787de"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162629",
+          "kind": "document",
+          "claim": "دانشکده مهندسی معدن، نفت و ژئوفیزیک (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
+          "id": "shahrood-technology-discovery-document-3c786945c64d"
+        },
+        {
+          "url": "https://shahroodut.ac.ir/fa/sec/files/fl/6/moadel(4).doc",
+          "kind": "document",
+          "claim": "دستورالعمل نحوه معادل سازی دروس",
+          "id": "shahrood-technology-discovery-document-3d9b149e0052"
+        },
+        {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4%20%D8%A8%D8%AF%D9%88%D9%86%20%D8%A2%D8%B2%D9%85%D9%88%D9%86%20%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C%20%D8%A7%D8%B1%D8%B4%D8%AF.pdf",
           "kind": "document",
           "claim": "شیوه نامه اجرایی پذیرش بدون آزمون کارشناسی ارشد",
           "id": "shahrood-technology-discovery-document-3f4bf0747e81"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174210",
+          "kind": "document",
+          "claim": "نقشه جامع علمی کشور (1403/3/23) نقشه جامع",
+          "id": "shahrood-technology-discovery-document-3fdaaa8cc560"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162620",
+          "kind": "document",
+          "claim": "دانشکده فیزیک و مهندسی هسته ای (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
+          "id": "shahrood-technology-discovery-document-4226bf211793"
         },
         {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%E2%80%93%201403.pdf",
@@ -1484,10 +950,28 @@
           "id": "shahrood-technology-discovery-document-47ab25807d01"
         },
         {
+          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/aaen-nameh/Shivenameh.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اجرایی فرصت مطالعاتی (قدیم) لینک",
+          "id": "shahrood-technology-discovery-document-4d7de8083aa4"
+        },
+        {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D8%A2%D8%A6%D9%8A%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B4%D9%83%D9%8A%D9%84%20%D8%A7%D9%86%D8%AC%D9%85%D9%86%D9%87%D8%A7%D9%8A%20%D9%88%D8%B1%D8%B2%D8%B4%D9%8A_%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D9%8A.pdf",
           "kind": "document",
           "claim": "آئين نامه تشكيل انجمنهاي ورزشي_دانشجويي",
           "id": "shahrood-technology-discovery-document-5133da307094"
+        },
+        {
+          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/aeen%20name%20pasho%20hane.pdf",
+          "kind": "document",
+          "claim": "آیین نامه اجرایی اعطای پژوهانه رساله",
+          "id": "shahrood-technology-discovery-document-5a69d34481ff"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130828",
+          "kind": "document",
+          "claim": "مقررات استفاده از تالار کتابخانه مرکزی",
+          "id": "shahrood-technology-discovery-document-5cc9e46ead18"
         },
         {
           "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111133187",
@@ -1502,16 +986,46 @@
           "id": "shahrood-technology-discovery-document-5d075a6ce4cf"
         },
         {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162634",
+          "kind": "document",
+          "claim": "دانشکده مهندسی برق و رباتیک (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
+          "id": "shahrood-technology-discovery-document-606d19f2ffc4"
+        },
+        {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D8%A8%D9%88%D8%B1%D8%B3%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%B1%D8%AA%D9%82%D8%A7%DB%8C%20%D8%B3%D8%B7%D8%AD%20%D8%B9%D9%84%D9%85%DB%8C%20%D9%85%D8%B1%D8%A8%DB%8C%D8%A7%D9%86.pdf",
           "kind": "document",
           "claim": "آیین نامه اعطای بورس برای ارتقای سطح علمی مربیان",
           "id": "shahrood-technology-discovery-document-60f23300f0bb"
         },
         {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111125594",
+          "kind": "document",
+          "claim": "دستورالعمل نحوه بررسی تخلفات پژوهشی (1394/7/29) این دستورالعمل در تاریخ 93/12/23 تصویب شده و از 93/12/25 قابل اجرا است.",
+          "id": "shahrood-technology-discovery-document-62d6209c10c5"
+        },
+        {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D8%A2%EF%BB%B3%EF%BB%B4%EF%BB%A6%EF%BB%A7%EF%BA%8E%EF%BB%A3%EF%BA%94%20%EF%BB%8B%EF%BB%80%EF%BB%AE%EF%BB%B3%EF%BA%96%20%D9%88%20%D8%A7%EF%BA%B3%EF%BA%98%EF%BB%94%EF%BA%8E%D8%AF%D9%87%20%D8%A7%D8%B2%20%EF%BA%A7%EF%BA%AA%EF%BB%A3%EF%BA%8E%D8%AA%20%EF%BA%B3%EF%BA%8E%EF%BB%A3%EF%BA%8E%EF%BB%A7%EF%BB%AA%20%EF%BA%91%EF%BB%AC%EF%BA%AE%D9%87%EF%BA%91%EF%BA%AE%D8%AF%D8%A7%D8%B1%D9%8A%20%EF%BA%97%EF%BA%A0%EF%BB%AC%EF%BB%B4%EF%BA%B0%D8%A7%D8%AA%C2%AB%EF%BA%91%EF%BB%B4%EF%BA%96%C2%BB%20%D9%88%20%EF%BB%A3%EF%BA%A0%EF%BA%98%EF%BB%A4%EF%BB%8A%20%D8%A2%D8%B2%EF%BB%A3%EF%BA%8E%EF%BB%B3%EF%BA%B8%DA%AF%D8%A7%D9%87%EF%BB%AB%EF%BA%8E%D9%8A%20%EF%BB%8B%EF%BB%A0%EF%BB%A4%EF%BB%B2%20%D9%88%20%EF%BA%97%EF%BA%A4%EF%BB%98%EF%BB%B4%EF%BB%98%EF%BA%8E%EF%BA%97%EF%BB%B2.pdf",
           "kind": "document",
           "claim": "آﻳﻴﻦﻧﺎﻣﺔ ﻋﻀﻮﻳﺖ و اﺳﺘﻔﺎده از ﺧﺪﻣﺎت ﺳﺎﻣﺎﻧﻪ ﺑﻬﺮهﺑﺮداري ﺗﺠﻬﻴﺰات &laquo;ﺑﻴﺖ&raquo; و ﻣﺠﺘﻤﻊ آزﻣﺎﻳﺸگاهﻫﺎي ﻋﻠﻤﻲ و ﺗﺤﻘﻴﻘﺎﺗﻲ",
           "id": "shahrood-technology-discovery-document-64aeca1723cc"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111125592",
+          "kind": "document",
+          "claim": "آیین نامه گرنت اعضا هیات علمی",
+          "id": "shahrood-technology-discovery-document-6673322e6e3c"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111122161",
+          "kind": "document",
+          "claim": "شیوه نامه اجرای اعطای پژوهانه (1393/5/18) آیین نامه اجرایی اعطای پژوهانه رساله به دانشجویان دکتری",
+          "id": "shahrood-technology-discovery-document-677dada4b7a8"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130945",
+          "kind": "document",
+          "claim": "شیوه‌نامه تدوین پایان‌نامه/رساله تحصیلات تکمیلی",
+          "id": "shahrood-technology-discovery-document-6988c8c67be4"
         },
         {
           "url": "http://shahroodut.ac.ir/fa/sec/files/fl/23/Form%20Teahod.pdf",
@@ -1526,6 +1040,18 @@
           "id": "shahrood-technology-discovery-document-6afb3f089c15"
         },
         {
+          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/form%20ha/formhaye-moarefibeostad%20(2).doc",
+          "kind": "document",
+          "claim": "فرمهای معرفی به استاد",
+          "id": "shahrood-technology-discovery-document-6bd2a8aa9719"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111173229",
+          "kind": "document",
+          "claim": "فرايند اجرايي ثبت پروپوزال و پايان نامه /",
+          "id": "shahrood-technology-discovery-document-6f15d6ca61d7"
+        },
+        {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%B7%D8%B1%D8%B2%20%D8%AA%D8%B4%DA%A9%DB%8C%D9%84%20%D9%87%DB%8C%D8%A7%D8%AA%20%D9%85%D9%85%DB%8C%D8%B2%D9%87%20%D9%85%D9%88%D8%B3%D8%B3%D9%87%20%D9%88%20%D9%88%D8%B8%D8%A7%DB%8C%D9%81%20%D9%88%20%D8%A7%D8%AE%D8%AA%DB%8C%D8%A7%D8%B1%D8%A7%D8%AA%20%D8%A2%D9%86.pdf",
           "kind": "document",
           "claim": "دستورالعمل طرز تشکیل هیات ممیزه موسسه و وظایف و اختیارات آن",
@@ -1538,10 +1064,34 @@
           "id": "shahrood-technology-discovery-document-714ed60e765b"
         },
         {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130838",
+          "kind": "document",
+          "claim": "مقررات عمومی سالن های مطالعه",
+          "id": "shahrood-technology-discovery-document-78eaec2b44f1"
+        },
+        {
+          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C%20%D8%A8%D9%87%20%D8%B9%D9%86%D9%88%D8%A7%D9%86%20%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF%20%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%20%D8%AF%D8%B1%20%D8%B3%D8%A7%DB%8C%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D9%87%D8%A7_1.doc",
+          "kind": "document",
+          "claim": "فرم درخواست همکاری به عنوان استادراهنما در سایر دانشگاه ها",
+          "id": "shahrood-technology-discovery-document-79265dffed70"
+        },
+        {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D8%B7%D8%B1%D8%AD%20%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%D9%8A%20%D9%85%D8%B3%D8%A7%D8%A8%D9%82%D8%A7%D8%AA%20%D9%82%D9%87%D8%B1%D9%85%D8%A7%D9%86%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D8%A7%D9%86.pdf",
           "kind": "document",
           "claim": "طرح برگزاري مسابقات قهرماني دانشجويان",
           "id": "shahrood-technology-discovery-document-792b423a2f16"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174211",
+          "kind": "document",
+          "claim": "آیین نامه نحوه برگزاری همایش های علمی (1403/3/23) همایش های علمی",
+          "id": "shahrood-technology-discovery-document-793e8677f2bf"
+        },
+        {
+          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/aeen%20name%20anteghal.pdf",
+          "kind": "document",
+          "claim": "آیین نامه انتقال خارج به داخل کشور دانشجویان ایرانی",
+          "id": "shahrood-technology-discovery-document-7a736e52b3dc"
         },
         {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%D8%A2%DB%8C%D9%8A%D9%86%20%D9%86%D8%A7%D9%85%DB%80%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D8%AA%D8%AC%D9%87%D9%8A%D8%B2%D8%A7%D8%AA%20%D9%88%20%D8%AE%D8%AF%D9%85%D8%A7%D8%AA%20%D9%85%D8%AC%D8%AA%D9%85%D8%B9%20%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%B9%D9%84%D9%85%DB%8C%20%D9%88%20%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B3%D9%81%D9%86%D8%AF%2098.docx",
@@ -1550,10 +1100,34 @@
           "id": "shahrood-technology-discovery-document-7ba33ec121b5"
         },
         {
+          "url": "https://shahroodut.ac.ir/fa/sec/files/fl/6/%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D9%81%D8%B1%D8%B5%D8%AA.doc",
+          "kind": "document",
+          "claim": "فرم های فرصت مطالعاتی (منسوخ شده)",
+          "id": "shahrood-technology-discovery-document-7c2e47589c30"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111122162",
+          "kind": "document",
+          "claim": "آیین نامه اجرایی اعطای پژوهانه (1393/5/18) شیوه نامهاجرای طرح اعطای پژوهانه رساله به دانشجویان دکتری دانشگاهها و موسسات آموزشی و پژوهشی",
+          "id": "shahrood-technology-discovery-document-7fdc47163280"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111125597",
+          "kind": "document",
+          "claim": "منشور اخلاق پژوهشی (1394/7/29) کتابجه منشور اخلاق پژوهشی است که حدود اخلاقی اجزای پژوهشی را نشان می دهد.",
+          "id": "shahrood-technology-discovery-document-81b402adb3e1"
+        },
+        {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87%20%D9%85%D8%A3%D9%85%D9%88%D8%B1%DB%8C%D8%AA%20%D8%AA%D8%AD%D8%B5%DB%8C%D9%84%DB%8C.pdf",
           "kind": "document",
           "claim": "آیین_نامه مأموریت تحصیلی",
           "id": "shahrood-technology-discovery-document-8296ea0e7e89"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111129284",
+          "kind": "document",
+          "claim": "آیین نامه و شیوه نامه قطب های علمی مصوب سال 95 (1395/10/18) آیین نامه قطب های علمی کشور مصوب سال 95",
+          "id": "shahrood-technology-discovery-document-832a99dcef38"
         },
         {
           "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111131870",
@@ -1580,6 +1154,24 @@
           "id": "shahrood-technology-discovery-document-869b91ae9365"
         },
         {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130841",
+          "kind": "document",
+          "claim": "وظایف اعضای کتابخانه",
+          "id": "shahrood-technology-discovery-document-897a89b689a6"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111133461",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت (1397/7/11) 97/7/10",
+          "id": "shahrood-technology-discovery-document-8bbdad12f56c"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162625",
+          "kind": "document",
+          "claim": "دانشکده مهندسی شیمی و مواد (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
+          "id": "shahrood-technology-discovery-document-8d265c4cb62b"
+        },
+        {
           "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111131869",
           "kind": "document",
           "claim": "راهنمای تمدید کتاب",
@@ -1598,10 +1190,22 @@
           "id": "shahrood-technology-discovery-document-944a377e9c21"
         },
         {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162622",
+          "kind": "document",
+          "claim": "گروه زبان انگلیسی (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
+          "id": "shahrood-technology-discovery-document-952879025401"
+        },
+        {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D9%86%D8%B4%D8%B1%D9%8A%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%D9%8A%20%D9%85%D8%B9%D8%AA%D8%A8%D8%B1%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D9%84%D9%88%D9%85-%D8%A7%D8%B3%D9%81%D9%86%D8%AF%2094.pdf",
           "kind": "document",
           "claim": "نشريات علمي معتبر وزارت علوم-اسفند",
           "id": "shahrood-technology-discovery-document-95a8fbe4041b"
+        },
+        {
+          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/aslahie%20momtazin%20doktora.pdf",
+          "kind": "document",
+          "claim": "اصلاحیه آیین نامه بدون آزمون دکتری",
+          "id": "shahrood-technology-discovery-document-968ac9c04a77"
         },
         {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%20%D9%88%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86%20%D9%85%D9%85%D8%AA%D8%A7%D8%B2-%D9%86%D8%B3%D8%AE%D9%87%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C.pdf",
@@ -1610,10 +1214,22 @@
           "id": "shahrood-technology-discovery-document-96eabba56868"
         },
         {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111171611",
+          "kind": "document",
+          "claim": "نظام نامه اخلاق آموزش (1400/3/5) تدوین شیوه نامه اجرایی نظام نامه اخلاق آموزش",
+          "id": "shahrood-technology-discovery-document-9a4ed99a7333"
+        },
+        {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D8%B6%D9%88%D8%B1%20%D9%82%D9%87%D8%B1%D9%85%D8%A7%D9%86%D8%A7%D9%86.pdf",
           "kind": "document",
           "claim": "آیین نامه حضور قهرمانان",
           "id": "shahrood-technology-discovery-document-9c548f9273c0"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162628",
+          "kind": "document",
+          "claim": "دانشکده مهندسی عمران (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
+          "id": "shahrood-technology-discovery-document-9d63457baf70"
         },
         {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C.pdf",
@@ -1622,10 +1238,52 @@
           "id": "shahrood-technology-discovery-document-9f13c675c650"
         },
         {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111129515",
+          "kind": "document",
+          "claim": "شیوه نامه اجرایی نظارتی دوره دکتری پژوهش محور (1395/11/23) شیوه نامه اجرایی دوره دکتری پژوهش محور",
+          "id": "shahrood-technology-discovery-document-a024a1e0895f"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162626",
+          "kind": "document",
+          "claim": "دانشکده مهندسی صنایع و مدیریت (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
+          "id": "shahrood-technology-discovery-document-a03c6ae66458"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174209",
+          "kind": "document",
+          "claim": "آیین نامه ارتقا (1403/3/23) آیین نامه ارتقا",
+          "id": "shahrood-technology-discovery-document-a29e15e185f0"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130839",
+          "kind": "document",
+          "claim": "مقررات امانت و تمدید کتاب",
+          "id": "shahrood-technology-discovery-document-a39a23e19297"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162621",
+          "kind": "document",
+          "claim": "دانشکده علوم زمین (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
+          "id": "shahrood-technology-discovery-document-a4186e5c0b6b"
+        },
+        {
+          "url": "https://shahroodut.ac.ir/fa/sec/files/fl/6/aaen-nameh/arshad%201402.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه آموزشی دوره های کارشناسی ارشد ورودی 1402 و ما بعد arshad 1402",
+          "id": "shahrood-technology-discovery-document-ae15b68c4c3d"
+        },
+        {
           "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111131866",
           "kind": "document",
           "claim": "راهنمای استفاده از کتابخانه",
           "id": "shahrood-technology-discovery-document-b1eb759cb152"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111129616",
+          "kind": "document",
+          "claim": "فهرست طرح پساد دکترا و فرصت مطالعاتی اعلام شده از سوی وزارت صنعت و معدن تجارت (1395/12/7) فهرست اعلام شده از وزارت صنعت و معدن تجارت",
+          "id": "shahrood-technology-discovery-document-b355ca01b07f"
         },
         {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%D8%A2%DB%8C%DB%8C%D9%86%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4%20%D9%88%20%DA%86%D8%A7%D9%BE%20%D9%83%D8%AA%D8%A7%D8%A8.doc",
@@ -1646,16 +1304,154 @@
           "id": "shahrood-technology-discovery-document-ba783b2621e7"
         },
         {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111126617",
+          "kind": "document",
+          "claim": "آیین نامه و شیوه نامه قطب های علمی مصوب 17 بهمن 88 (1394/10/28) آیین نامه و شیوه نامه قطب های علمی مصوب 17 بمهن ماه 1388",
+          "id": "shahrood-technology-discovery-document-bb5c595b492e"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162633",
+          "kind": "document",
+          "claim": "دانشکده مهندسی مکانیک و مکاترونیک (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
+          "id": "shahrood-technology-discovery-document-bd02d3a50a8b"
+        },
+        {
+          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/Shivename94.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اجرایی پذیرش بدون آزمون کارشناسی ارشد",
+          "id": "shahrood-technology-discovery-document-bd6e65e9593b"
+        },
+        {
+          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C%20%D8%AC%D9%84%D8%B3%D9%87%20%D8%AF%D9%81%D8%A7%D8%B9%20%D8%A7%D8%B2%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B1%D8%B4%D8%AF-%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه برگزاری جلسه دفاع از پایان نامه ارشد/ رساله دکتری",
+          "id": "shahrood-technology-discovery-document-bf433894db04"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174207",
+          "kind": "document",
+          "claim": "شیوه نامه تشویق نشریات علمی داخلی نمایه شده در نمایه های بین المللی معتبر (1403/3/23) شیوه نامه تشویق نشریات علمی",
+          "id": "shahrood-technology-discovery-document-bf5b70ae6a92"
+        },
+        {
+          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
+          "kind": "document",
+          "claim": "فرایند فرصت مطالعاتی دانشجویان دکتری",
+          "id": "shahrood-technology-discovery-document-bff989f52917"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174206",
+          "kind": "document",
+          "claim": "آیین نامه تشـکیل قطب علمی دوره چهارم (1397/8/5) تاریخ اجرا 97/7/21",
+          "id": "shahrood-technology-discovery-document-c269fe5f766f"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130862",
+          "kind": "document",
+          "claim": "شرایط و نحوه عضویت در کتابخانه",
+          "id": "shahrood-technology-discovery-document-c33067268658"
+        },
+        {
+          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/%D8%B7%D8%B1%D8%AD%20%D8%B1%D9%88%DB%8C%20%D8%AC%D9%84%D8%AF%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.docx",
+          "kind": "document",
+          "claim": "فرمهای مربوط به صحافی رساله دکتری",
+          "id": "shahrood-technology-discovery-document-c4517c55764a"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111134691",
+          "kind": "document",
+          "claim": "نحوه تشکیل و شرح وظایف کمیسیون انجمن های علمی ایران (1397/12/4) آیین نامه وزارتی مصوبه 262 جلسه شورای عالی انقلاب فرهنگی",
+          "id": "shahrood-technology-discovery-document-c77e09809a5a"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130840",
+          "kind": "document",
+          "claim": "ضوابط جریمه تاخیر و مفقود شدن کتاب",
+          "id": "shahrood-technology-discovery-document-c7de5ebc29db"
+        },
+        {
+          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20name%20arsad%20vroodi%2094%20sora%20danesgah1.pdf",
+          "kind": "document",
+          "claim": "آیین نامه آموزشی کارشناسی ارشد ورودی 94به بعد",
+          "id": "shahrood-technology-discovery-document-cc67b0c54f00"
+        },
+        {
+          "url": "http://www.shahroodut.ac.ir/fa/sec/files/fl/6/aeen%20nameha2/aeen%20name%20bors89.pdf",
+          "kind": "document",
+          "claim": "آیین نامه اعطای بورس برای ارتقای سطح علمی مربیان",
+          "id": "shahrood-technology-discovery-document-d64f619b99be"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111130842",
+          "kind": "document",
+          "claim": "آیین نامه کتابخانه",
+          "id": "shahrood-technology-discovery-document-d6a4d3c01b53"
+        },
+        {
+          "url": "https://shahroodut.ac.ir/fa/sec/files/fl/6/Shiveh%20PhD-Estedad-Final.pdf",
+          "kind": "document",
+          "claim": "آیین نامه پذیرش بدون آزمون استعدادهای درخشان دوره دکتری سال 1402",
+          "id": "shahrood-technology-discovery-document-d77d62e6b734"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174208",
+          "kind": "document",
+          "claim": "نشریات علمی معتبر وزارت علوم تحقیقات و فناوری (1403/3/23) نشریات وزارت علوم",
+          "id": "shahrood-technology-discovery-document-d77f1a761141"
+        },
+        {
           "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111133384",
           "kind": "document",
           "claim": "الگوی تدوین پایان‌نامه (Word)",
           "id": "shahrood-technology-discovery-document-d7a53a75e772"
         },
         {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111171929",
+          "kind": "document",
+          "claim": "آیین نامه شورای موارد خاص دانشگاه ها (1400/7/11) نامه شماره 306280/و مورخ 26/12/99 به شماره ثبت دانشگاه 273 سال 1400",
+          "id": "shahrood-technology-discovery-document-da4f69a30747"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162623",
+          "kind": "document",
+          "claim": "دانشکده شیمی (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
+          "id": "shahrood-technology-discovery-document-daedb0f545a5"
+        },
+        {
           "url": "https://shahroodut.ac.ir/fa/sec/files/fl/129/%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8%20%D8%A7%D8%B9%D8%B6%D8%A7%D9%8A%20%D9%87%D9%8A%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%D9%8A%20%D9%86%D9%85%D9%88%D9%86%D9%87%20%DA%A9%D8%B4%D9%88%D8%B1%DB%8C.pdf",
           "kind": "document",
           "claim": "دستور العمل نحوه انتخاب اعضاي هيأت علمي نمونه کشوری",
           "id": "shahrood-technology-discovery-document-db893b1eed43"
+        },
+        {
+          "url": "http://shahroodut.ac.ir/fa/sec/files/fl/6/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%AC%D8%A7%D9%85%D8%B9%20%D8%A7%DB%8C%D9%81%D8%A7%DB%8C%20%D8%AA%D8%B9%D9%87%D8%AF%20%20%D8%AE%D8%AF%D9%85%D8%AA%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%B1%D8%A7%DB%8C%DA%AF%D8%A7%D9%86.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل جامع ایفای تعهد خدمت آموزش رایگان",
+          "id": "shahrood-technology-discovery-document-e6d335b183a7"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162632",
+          "kind": "document",
+          "claim": "دانشکده مهندسی کامپیوتر (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
+          "id": "shahrood-technology-discovery-document-e7e460a4f575"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111122202",
+          "kind": "document",
+          "claim": "آیین نامه اعطای بورس داخل برای ارتقا سطح علمی مربیان (1393/5/19) آیین نامه اعطای بورس داخل برای ارتقا سطح علمی مربیان",
+          "id": "shahrood-technology-discovery-document-e99b5e39ea8d"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111174212",
+          "kind": "document",
+          "claim": "آیین نامه پسا دکتری صنعتی (1403/3/23) پسا دکتری صنعتی",
+          "id": "shahrood-technology-discovery-document-faa115a6c820"
+        },
+        {
+          "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111162624",
+          "kind": "document",
+          "claim": "دانشکده مهندسی معماری (1398/11/2) پایان نامه های منتشر شده تا ۳۱ اردیبهشت ۹۹",
+          "id": "shahrood-technology-discovery-document-facc6f6fc552"
         },
         {
           "url": "https://www.shahroodut.ac.ir/fa/download.php?id=1111131875",
@@ -1696,9 +1492,9 @@
     "methodologyVersion": "RTPMI-4.2-ISC",
     "scoringPolicyVersion": "entity-cleaning-2.2-coverage-shrinkage-findability",
     "snapshotDate": "2026-08-14",
-    "rank": 12,
+    "rank": 14,
     "portalRankWithinISCClass": 2,
-    "rankedPortalsInISCClass": 8
+    "rankedPortalsInISCClass": 6
   },
   "units": [
     {

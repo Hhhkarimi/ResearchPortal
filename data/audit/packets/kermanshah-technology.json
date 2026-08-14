@@ -84,7 +84,7 @@
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-14",
-      "promotedSources": 97,
+      "promotedSources": 0,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -187,7 +187,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 81,
+      "sourceCount": 59,
       "sources": [
         {
           "url": "https://research.kut.ac.ir/",
@@ -197,9 +197,10 @@
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
+          "kind": "research-review-specific",
+          "claim": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1",
+          "id": null,
+          "sourceLabel": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1"
         },
         {
           "url": "https://kut.ac.ir/%d9%85%d9%82%d8%b1%d8%b1%d8%a7%d8%aa-%d9%88-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
@@ -215,87 +216,75 @@
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6caca31e-fbcd-4b47-bac5-f8ef51a9ce20&FileName=%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA%20%D8%AB%D8%A8%D8%AA%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7.docx",
-          "kind": "research-review-specific",
-          "claim": "2 - تغییرات ثبت پروپوزال پایان نامه ها با توجه به آیین نامه پژوهانه جدید",
-          "id": null,
-          "sourceLabel": "2 - تغییرات ثبت پروپوزال پایان نامه ها با توجه به آیین نامه پژوهانه جدید"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=cfadf869-b804-4a7d-9613-ea5d4651f564&FileName=%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%20%D9%88%20%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%B9%D8%AA%D9%81.pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - مجموعه آیین نامه ها شیوه نامه ها و دستورالعمل های اجرایی مصوب معاونت پژوهشی وزارت عتف",
-          "id": null,
-          "sourceLabel": "1 - مجموعه آیین نامه ها شیوه نامه ها و دستورالعمل های اجرایی مصوب معاونت پژوهشی وزارت عتف"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=0b7aec3f-fe56-4683-9ab2-4f3592f7378c&FileName=New%20colleague.docx",
-          "kind": "research-review-specific",
-          "claim": "1 - فرم درخواست اضافه نمودن همکار به مقالات مستخرج از پایان نامه دانشجویان تحصیلات تکمیلی",
-          "id": null,
-          "sourceLabel": "1 - فرم درخواست اضافه نمودن همکار به مقالات مستخرج از پایان نامه دانشجویان تحصیلات تکمیلی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=11a891c9-9b95-42cf-b8e4-6f7e3044ca27&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%20%D8%A7%D9%86%D8%AC%D8%A7%D9%85%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%20%DA%A9%D8%B4%D9%88%D8%B1%20%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7%20%D9%88%20%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%B9%D8%A7%D9%84%DB%8C%20%D9%88%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - شیوه نامه حمایت از انجام فرصت مطالعاتی داخل کشور اعضاء هیات علمی دانشگاهها و موسسات آموزش عالی و پژوهشی",
-          "id": null,
-          "sourceLabel": "1 - شیوه نامه حمایت از انجام فرصت مطالعاتی داخل کشور اعضاء هیات علمی دانشگاهها و موسسات آموزش عالی و پژوهشی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=cb268e0a-2139-4f72-afdd-c027dfa37343&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "4 - شیوه نامه استفاده از فرصت مطالعاتی وزارتی",
-          "id": null,
-          "sourceLabel": "4 - شیوه نامه استفاده از فرصت مطالعاتی وزارتی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=5b323f15-1e48-4334-a901-4577b696cf66&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%2099.pdf",
-          "kind": "research-review-specific",
-          "claim": "6 - شیوه نامه اجرایی فرصت مطالعاتی اعضای هیئت علمی",
-          "id": null,
-          "sourceLabel": "6 - شیوه نامه اجرایی فرصت مطالعاتی اعضای هیئت علمی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9ce00a96-09b8-444e-9c09-e37c50e38f53&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%DA%AF%D8%B3%D8%AA%D8%B1%D8%B4%20%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D9%85%D9%84%DB%8C%20%D9%88%20%D8%A8%DB%8C%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "8 - دستور العمل اجرایی گسترش تعاملات علمی ملی و بین المللی طبق آیین نامه جدید پژوهانه",
-          "id": null,
-          "sourceLabel": "8 - دستور العمل اجرایی گسترش تعاملات علمی ملی و بین المللی طبق آیین نامه جدید پژوهانه"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=21c5e7b8-f627-4341-9f81-5b00413e010f&FileName=%D8%A2%D9%8A%D9%8A%D9%86_%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85%D9%8A%20%D9%87%D9%8A%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D9%87%D8%A7.pdf",
-          "kind": "research-review-specific",
-          "claim": "8 - آیین نامه اجرایی قانون مقررات انتظامی هیأت علمی دانشگاه ها",
-          "id": null,
-          "sourceLabel": "8 - آیین نامه اجرایی قانون مقررات انتظامی هیأت علمی دانشگاه ها"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e6f78071-c425-4754-abd9-c051eeacec14&FileName=%D8%A7%D8%A8%D9%84%D8%A7%D8%BA%20%D8%A7%D8%B5%D9%84%D8%A7%D8%AD%DB%8C%D9%87%20%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86%20%D8%AF%D9%88%D8%B1%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%20%D8%A8%D9%87%20%D8%B1%D9%88%D8%B4%20%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF%20%D9%85%D8%AD%D9%88%D8%B1%20%D8%A7%D8%B2%20%D8%B7%D8%B1%DB%8C%D9%82%20%D8%A2%D8%B2%D9%85%D9%88%D9%86%20%D8%B3%D8%B1%D8%A7%D8%B3%D8%B1%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - ابلاغ اصلاحیه شیوه نامه پذیرش دانشجویان دوره های دکتری به روش استاد محور از طریق آزمون سراسری",
-          "id": null,
-          "sourceLabel": "1 - ابلاغ اصلاحیه شیوه نامه پذیرش دانشجویان دوره های دکتری به روش استاد محور از طریق آزمون سراسری"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=18adfc85-a704-4601-b1ca-13042c370ce1&FileName=%D8%A7%D8%B1%D8%B4%D8%AF.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - آیین نامه پذیرش بدون آزمون استعدادهای درخشان در دوره تحصیلی کارشناسی ارشد به شیوه استاد محوری",
-          "id": null,
-          "sourceLabel": "2 - آیین نامه پذیرش بدون آزمون استعدادهای درخشان در دوره تحصیلی کارشناسی ارشد به شیوه استاد محوری"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dc7db8e8-ebfa-4a31-a3e5-9ed4c098542c&FileName=%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "3 - آیین نامه پذیرش بدون آزمون استعدادهای درخشان در دوره تحصیلی دکتری به شیوه استاد محوری",
-          "id": null,
-          "sourceLabel": "3 - آیین نامه پذیرش بدون آزمون استعدادهای درخشان در دوره تحصیلی دکتری به شیوه استاد محوری"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6b8f74e2-18c9-45aa-8fd6-a1ca7cc46487&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - آیین نامه دستیار پژوهشی وزارتی",
-          "id": null,
-          "sourceLabel": "1 - آیین نامه دستیار پژوهشی وزارتی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ae8bfde8-3fce-479c-8fdb-50a49a565053&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF.pdf",
@@ -305,31 +294,27 @@
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f374a25b-5dd7-40c0-af56-10020a8be374&FileName=postdoc-kut.pdf",
-          "kind": "research-review-specific",
-          "claim": "3 - شیوه نامه پژوهشگر پسا دکترا (مصوبه اولین نشست از دوره پنجم هیئت امنا مورخ 1400/12/02)",
-          "id": null,
-          "sourceLabel": "3 - شیوه نامه پژوهشگر پسا دکترا (مصوبه اولین نشست از دوره پنجم هیئت امنا مورخ 1400/12/02)"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=05fe54e9-c8e5-4e0e-8522-3f7fcba3720b&FileName=Research%20Assistant.pdf",
-          "kind": "research-review-specific",
-          "claim": "4 - شیوه نامه دستیار پژوهشی (مصوبه اولین نشست از دوره پنجم هیئت امنا مورخ 1400/12/02)",
-          "id": null,
-          "sourceLabel": "4 - شیوه نامه دستیار پژوهشی (مصوبه اولین نشست از دوره پنجم هیئت امنا مورخ 1400/12/02)"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ba311bd9-3212-4ede-9850-7a4b60244a9b&FileName=%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D8%B1%20%D8%AE%D8%B5%D9%88%D8%B5%20%D8%B1%D9%81%D8%B9%20%D8%A7%D8%A8%D9%87%D8%A7%D9%85%D8%A7%D8%AA%20%D9%85%D8%B7%D8%B1%D9%88%D8%AD%D9%87%20%D9%BE%DB%8C%D8%B1%D8%A7%D9%85%D9%88%D9%86%20%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C%20%D9%85%D8%A7%D8%AF%D9%87%2053.pdf",
-          "kind": "research-review-specific",
-          "claim": "3 - بخشنامه در خصوص رفع ابهامات مطروحه پیرامون دستورالعمل نحوه اعطای پایه تشویقی ماده 53",
-          "id": null,
-          "sourceLabel": "3 - بخشنامه در خصوص رفع ابهامات مطروحه پیرامون دستورالعمل نحوه اعطای پایه تشویقی ماده 53"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=21fc704c-c2a4-4c7c-b346-ec1ef03061d0&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%20%D8%AA%D8%B4%DA%A9%DB%8C%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - شیوه نامه تاسیس واحدهای پژوهشی در دانشگاه",
-          "id": null,
-          "sourceLabel": "1 - شیوه نامه تاسیس واحدهای پژوهشی در دانشگاه"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6040bca3-32e9-45f3-bd6f-4b219c43bcc8&FileName=%D9%BE%D8%B3%D8%A7%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%20%D8%B5%D9%86%D8%AF%D9%88%D9%82%20INSF.pdf",
@@ -339,38 +324,33 @@
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6042fdcb-8f93-4d4f-82d8-25424a3f35cc&FileName=%D9%81%D8%B1%D9%85%20%D8%A8%D8%B1%D8%A2%D9%88%D8%B1%D8%AF%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20.docx",
-          "kind": "research-review-specific",
-          "claim": "5 - فرم برآورد هزینه اجرای طرح پژوهشی",
-          "id": null,
-          "sourceLabel": "5 - فرم برآورد هزینه اجرای طرح پژوهشی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c98a8472-c61a-411b-bc23-1c415f538fda&FileName=Research%20Plan-Help.pdf",
-          "kind": "research-review-specific",
-          "claim": "6 - راهنمای ثبت طرح پژوهشی تفاهم نامه ای",
-          "id": null,
-          "sourceLabel": "6 - راهنمای ثبت طرح پژوهشی تفاهم نامه ای"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a319ffd7-f6ac-4277-980f-c8d22ce54d4b&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AC%D9%87%D8%AA%D8%AF%D8%A7%D8%B1%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - شیوه نامه اجرایی ارائه برنامه پژوهشی جهت دار اعضای هیئت علمی",
-          "id": null,
-          "sourceLabel": "2 - شیوه نامه اجرایی ارائه برنامه پژوهشی جهت دار اعضای هیئت علمی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=7fade0f4-edbf-40ad-b31a-ef33f256d687&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "7 - دستورالعمل حمایت از فرصت مطالعاتی اعضای هیئت علمی دانشگاه صنعتی کرمانشاه",
-          "id": null,
-          "sourceLabel": "7 - دستورالعمل حمایت از فرصت مطالعاتی اعضای هیئت علمی دانشگاه صنعتی کرمانشاه"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=962e4cfd-1e17-4202-857b-915e919b985b&FileName=3.pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - شیوه نامه ارزیابی و رتبه بندی نشریات علمی",
-          "id": null,
-          "sourceLabel": "1 - شیوه نامه ارزیابی و رتبه بندی نشریات علمی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=15f79b2e-ceab-4206-bbd0-fa75cfe2bd0d&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
@@ -392,59 +372,51 @@
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=cb3d6b9b-13a0-4cb1-82ad-056e8eb4ab2b&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C%20%D9%88%20%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87%20%D8%A8%D8%A7%20%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA.pdf",
-          "kind": "research-review-specific",
-          "claim": "10 - آیین نامه اجرایی قانون پیشگیری و مقابله با تخلفات",
-          "id": null,
-          "sourceLabel": "10 - آیین نامه اجرایی قانون پیشگیری و مقابله با تخلفات"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=889234c0-c540-4352-81e9-42e58398d818&FileName=%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D9%84%D9%88%D9%85.pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - آیین نامه تشویقی مقالات وزارت علوم",
-          "id": null,
-          "sourceLabel": "1 - آیین نامه تشویقی مقالات وزارت علوم"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aba601a3-85b0-437f-b449-fe1dff29a03f&FileName=%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA%20%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%82%20%D8%A7%D9%84%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%84%201404.docx",
-          "kind": "research-review-specific",
-          "claim": "2 - تغییرات جدید آیین نامه حق التشویق مقالات در سال 1404",
-          "id": null,
-          "sourceLabel": "2 - تغییرات جدید آیین نامه حق التشویق مقالات در سال 1404"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a167ea63-5786-4d39-b759-ac1d9d69a415&FileName=%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%AA%D8%B1%DB%8C%D9%86%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%82%20%D8%A7%D9%84%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%A7%D9%85%D9%86%D8%A7.pdf",
-          "kind": "research-review-specific",
-          "claim": "3 - جدیدترین هیئت امنا درمورد آیین نامه حق التشویق مقالاتت",
-          "id": null,
-          "sourceLabel": "3 - جدیدترین هیئت امنا درمورد آیین نامه حق التشویق مقالاتت"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=889e2c5d-4ad0-4a63-840d-3e80d7c99446&FileName=1401-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%D8%A7%D8%AD%D8%AF%20%D9%81%D9%86%D8%A7%D9%88%D8%B1.docx",
-          "kind": "research-review-specific",
-          "claim": "6 - پروپوزال طرح پژوهشی در قالب واحد فناور",
-          "id": null,
-          "sourceLabel": "6 - پروپوزال طرح پژوهشی در قالب واحد فناور"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e4c32ccd-9aef-4c7e-a462-45dd81eed40c&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - دستورالعمل اجرایی اعطای پژوهانه علمی، آموزشی، پژوهشی، فناوری، نوآوری، مهارتی، هنری، ورزشی و فرهنگی (جامع) به اعضای هیئت علمی",
-          "id": null,
-          "sourceLabel": "2 - دستورالعمل اجرایی اعطای پژوهانه علمی، آموزشی، پژوهشی، فناوری، نوآوری، مهارتی، هنری، ورزشی و فرهنگی (جامع) به اعضای هیئت علمی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f9969213-c545-457a-a6e1-95b13f8126c7&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%201403.pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - آئین نامه حمایت از پایان نامه های تحصیلات تکمیلی",
-          "id": null,
-          "sourceLabel": "1 - آئین نامه حمایت از پایان نامه های تحصیلات تکمیلی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=0c0d51f7-8ad7-4f73-a53d-e17dfc1de824&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%20%D8%A8%D8%B1%D8%AA%D8%B1%20-%D9%86%D8%B3%D8%AE%D9%87%20%D9%85%D8%B5%D9%88%D8%A81404.pdf",
-          "kind": "research-review-specific",
-          "claim": "3 - آیین نامه پژوهشگر برتر اعضای هیئت علمی",
-          "id": null,
-          "sourceLabel": "3 - آیین نامه پژوهشگر برتر اعضای هیئت علمی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=fd28e3fa-e276-418a-8fb1-86094c85951d&FileName=%D8%A2%DB%8C%D9%86%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%B4%D8%B1%20%201405.pdf",
@@ -460,10 +432,9 @@
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=84e0f8cd-8fbb-4e0c-9f9a-bdc471ae56da&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "7 - دستورالعمل اعطای پایه تشویقی به اعضای هیأت علمی (ماده 53)",
-          "id": null,
-          "sourceLabel": "7 - دستورالعمل اعطای پایه تشویقی به اعضای هیأت علمی (ماده 53)"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e4fa51ea-4c59-472d-97d4-48671be97e3a&FileName=book%20review%20form%20(1402%2011%2030).docx",
@@ -473,59 +444,51 @@
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=143bd0f2-4574-4ef7-905f-2a4084e86a06&FileName=referee%20form-Plan.doc",
-          "kind": "research-review-specific",
-          "claim": "2 - فرم داوری طرح های تفاهم نامه ای",
-          "id": null,
-          "sourceLabel": "2 - فرم داوری طرح های تفاهم نامه ای"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=25f4d3cf-df70-4b72-b19d-73a4a758f026&FileName=%D9%81%D8%B1%D9%85%20%D8%A8%D8%B1%D8%A2%D9%88%D8%B1%D8%AF%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7%20.docx",
-          "kind": "research-review-specific",
-          "claim": "3 - فرم برآورد هزینه اجرای طرح پسادکتری",
-          "id": null,
-          "sourceLabel": "3 - فرم برآورد هزینه اجرای طرح پسادکتری"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=97bbb00d-3dbe-4307-9057-081b8de87ea9&FileName=PostDoc-Help.pdf",
-          "kind": "research-review-specific",
-          "claim": "4 - راهنمای ثبت طرح پسادکتری تفاهم نامه ای",
-          "id": null,
-          "sourceLabel": "4 - راهنمای ثبت طرح پسادکتری تفاهم نامه ای"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9ec34810-ac90-44ba-97eb-6b157dad6215&FileName=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AC%D9%87%D8%AA%20%D8%AF%D8%A7%D8%B1.docx",
-          "kind": "research-review-specific",
-          "claim": "1 - فرم برنامه پژوهشی جهت دار اعضای هیئت علمی",
-          "id": null,
-          "sourceLabel": "1 - فرم برنامه پژوهشی جهت دار اعضای هیئت علمی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=576c3377-644c-400f-b5de-d4da86427a07&FileName=%D8%A7%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "5 - ایین نامه استفاده از فرصت مطالعاتی وزارتی",
-          "id": null,
-          "sourceLabel": "5 - ایین نامه استفاده از فرصت مطالعاتی وزارتی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=07dda4e4-c350-4270-b7f8-d8a146afbab7&FileName=instruction.rar",
-          "kind": "research-review-specific",
-          "claim": "1 - دستورالعمل ماده 5 آییننامـۀاجرایی قانون پیشـگیری و مقابله با تقلب در تهیه آثـارعلمی",
-          "id": null,
-          "sourceLabel": "1 - دستورالعمل ماده 5 آییننامـۀاجرایی قانون پیشـگیری و مقابله با تقلب در تهیه آثـارعلمی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=27b1ff82-1b3d-4256-ba84-f3d61583bf1a&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C%20%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "7 - دستورالعمل نحوه بررسی تخلفات پژوهشی",
-          "id": null,
-          "sourceLabel": "7 - دستورالعمل نحوه بررسی تخلفات پژوهشی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=200103c4-19ec-4ba1-a909-21591da09684&FileName=-%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85%D9%8A%20%D9%87%D9%8A%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D9%87%D8%A7.pdf",
-          "kind": "research-review-specific",
-          "claim": "11 - قانون مقررات انتظامی هیأت علمی دانشگاهها",
-          "id": null,
-          "sourceLabel": "11 - قانون مقررات انتظامی هیأت علمی دانشگاهها"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://kut.ac.ir/wp-content/uploads/2025/10/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%D8%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C.pdf",
@@ -535,8 +498,8 @@
         },
         {
           "url": "https://kut.ac.ir/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
@@ -580,160 +543,6 @@
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d72b4d90-6d15-4660-ada1-e735aeb1344d&FileName=%D9%85%D9%86%D8%B4%D9%88%D8%B1%20%D9%88%20%D9%85%D9%88%D8%A7%D8%B2%DB%8C%D9%86%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20-1391.rar",
-          "kind": "research-review-specific",
-          "claim": "1 - دستورالعمل نحوه بررسی تخلفات پژوهشی",
-          "id": null,
-          "sourceLabel": "1 - دستورالعمل نحوه بررسی تخلفات پژوهشی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ec79b6c8-7aaa-497a-97c8-717c802f1478&FileName=%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D9%84%D9%88%D9%85%20%D8%AC%D9%87%D8%AA%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "4 - آئین نامه وزارت علوم جهت استفاده از فرصت مطالعاتی",
-          "id": null,
-          "sourceLabel": "4 - آئین نامه وزارت علوم جهت استفاده از فرصت مطالعاتی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dec48845-3e0f-42b2-9f21-8d42699e82e0&FileName=%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA+%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1+%D8%B1%D9%88%D9%86%D8%AF+%D8%AE%D8%B1%DB%8C%D8%AF%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_467620_984143_816119.pdf",
-          "kind": "research-review-specific",
-          "claim": "6 - فلوچارت جدید نحوه خرید غیرمصرفی از محل گرنت",
-          "id": null,
-          "sourceLabel": "6 - فلوچارت جدید نحوه خرید غیرمصرفی از محل گرنت"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=91561334-bfe1-4fef-9624-0ca9db6f7206&FileName=%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%A3%D8%B3%DB%8C%D8%B3%D8%8C%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20%D9%88%20%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - آئین نامه تأسیس، ارزیابی و مدیریت واحدهای پژوهشی",
-          "id": null,
-          "sourceLabel": "2 - آئین نامه تأسیس، ارزیابی و مدیریت واحدهای پژوهشی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a1fea871-d482-4388-af31-6b08e0342234&FileName=%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF%20%D8%AF%D8%A7%D9%88%D8%B1%DB%8C%20%DA%A9%D8%AA%D8%A7%D8%A8%20%D8%AA%D8%B5%D9%86%DB%8C%D9%81%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - فرایند داوری کتاب تصنیفی",
-          "id": null,
-          "sourceLabel": "1 - فرایند داوری کتاب تصنیفی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=7701b8f7-0ed4-4855-86c8-d81a5a735cae&FileName=%D8%A7%D8%B5%D9%84%D8%A7%D8%AD%DB%8C%D9%87%20%D8%B4%D9%85%D8%A7%D8%B1%D9%87%202.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - اصلاحیه شماره 2",
-          "id": null,
-          "sourceLabel": "2 - اصلاحیه شماره 2"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=3c01ff3d-e90a-4507-824a-7a565c9a78cd&FileName=%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%AD%D9%85%D8%A7%D9%8A%D8%AA%20%D8%A7%D8%B2%20%D8%AD%D9%82%D9%88%D9%82%20%D9%85%D9%88%D9%84%D9%81%D8%A7%D9%86%20%D9%88%20%D9%85%D8%B5%D9%86%D9%81%D8%A7%D9%86.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - قانون حمایت از حقوق مولفان و مصنفان",
-          "id": null,
-          "sourceLabel": "2 - قانون حمایت از حقوق مولفان و مصنفان"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f895706f-5542-4eb5-a476-a3d166a6ce50&FileName=%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%AD%D9%85%D8%A7%D9%8A%D8%AA%20%D8%A7%D8%B2%20%D8%AD%D9%82%D9%88%D9%82%20%D9%BE%D8%AF%D9%8A%D8%AF%D8%A2%D9%88%D8%B1%D9%86%D8%AF%DA%AF%D8%A7%D9%86%20%D9%86%D8%B1%D9%85%20%D8%A7%D9%81%D8%B2%D8%A7%D8%B1%D9%87%D8%A7%D9%8A%20%D8%B1%D8%A7%D9%8A%D8%A7%D9%86%D9%87%20%D8%A7%D9%8A.pdf",
-          "kind": "research-review-specific",
-          "claim": "3 - قانون حمایت از حقوق پدیدآورندگان نرم افزارهای رایانه ای",
-          "id": null,
-          "sourceLabel": "3 - قانون حمایت از حقوق پدیدآورندگان نرم افزارهای رایانه ای"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c332fe56-eede-4ed7-91f6-185252184335&FileName=%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%AB%D8%A8%D8%AA%20%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9%D8%A7%D8%AA%20%D9%88%20%D8%B7%D8%B1%D8%AD%20%D9%87%D8%A7%D9%8A%20%D8%B5%D9%86%D8%B9%D8%AA%D9%8A%20%D9%88%20%D8%B9%D9%84%D8%A7%D8%A6%D9%85%20%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A.pdf",
-          "kind": "research-review-specific",
-          "claim": "4 - قانون ثبت اختراعات و طرح های صنعتی و علائم تجاری",
-          "id": null,
-          "sourceLabel": "4 - قانون ثبت اختراعات و طرح های صنعتی و علائم تجاری"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d1adfe7f-fd7a-412c-a7e9-a328968621c5&FileName=%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%AA%D8%B1%D8%AC%D9%85%D9%87%20%D9%88%20%D8%AA%DA%A9%D8%AB%D9%8A%D8%B1%20%DA%A9%D8%AA%D8%A8%20%D9%88%20%D9%86%D8%B4%D8%B1%D9%8A%D8%A7%D8%AA.pdf",
-          "kind": "research-review-specific",
-          "claim": "5 - قانون ترجمه و تکثیر کتب و نشریات",
-          "id": null,
-          "sourceLabel": "5 - قانون ترجمه و تکثیر کتب و نشریات"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=06da0e16-3406-423f-8bad-b2afc66aa316&FileName=%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%BE%D9%8A%D8%B4%DA%AF%D9%8A%D8%B1%D9%8A%20%D9%88%20%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87%20%D8%A8%D8%A7%20%D8%AA%D9%82%D9%84%D8%A8.pdf",
-          "kind": "research-review-specific",
-          "claim": "6 - قانون پیشگیری و مقابله با تقلب",
-          "id": null,
-          "sourceLabel": "6 - قانون پیشگیری و مقابله با تقلب"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aa9186d8-029e-4753-a9fe-a9b89e7b4169&FileName=%D9%85%D9%86%D8%B4%D9%88%D8%B1%20%D9%88%20%D9%85%D9%88%D8%A7%D8%B2%DB%8C%D9%86%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82%20%D9%BE%DA%98%D9%88%D9%87%D8%B4.pdf",
-          "kind": "research-review-specific",
-          "claim": "12 - منشور و موازین اخلاق پژوهش",
-          "id": null,
-          "sourceLabel": "12 - منشور و موازین اخلاق پژوهش"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=3c43a0ef-3492-48e5-babc-8a5f7821f3c5&FileName=%D9%88%D8%A7%D8%AD%D8%AF%20%D9%85%D9%88%D8%B8%D9%81%DB%8C.docx",
-          "kind": "research-review-specific",
-          "claim": "1 - فرم واحد موظفی",
-          "id": null,
-          "sourceLabel": "1 - فرم واحد موظفی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=da393bdb-09d0-4a97-8ecc-7bde4b8427d2&FileName=avc_Promotion-Guide.rar",
-          "kind": "research-review-specific",
-          "claim": "2 - راهنمای درخواست ترفیع پایه در سامانه ژیرو",
-          "id": null,
-          "sourceLabel": "2 - راهنمای درخواست ترفیع پایه در سامانه ژیرو"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6887f235-3281-43c6-b8bf-4d81e32124a7&FileName=209b_2.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - فرم حق التحقیق طرح­های پژوهشی کاربردی مسأله محور(به سفارش دانشگاه)",
-          "id": null,
-          "sourceLabel": "2 - فرم حق التحقیق طرح­های پژوهشی کاربردی مسأله محور(به سفارش دانشگاه)"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=b1019aac-cac4-44f4-a36d-4ea65a244d56&FileName=report.docx",
-          "kind": "research-review-specific",
-          "claim": "3 - گزارش نهایی طرح پژوهشی",
-          "id": null,
-          "sourceLabel": "3 - گزارش نهایی طرح پژوهشی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dd9d3f8f-e683-4c1f-9398-7d41995e4245&FileName=209.pdf",
-          "kind": "research-review-specific",
-          "claim": "5 - فرم حق التحقیق طرح­های پژوهشی متکی به اعتبار پژوهشی",
-          "id": null,
-          "sourceLabel": "5 - فرم حق التحقیق طرح­های پژوهشی متکی به اعتبار پژوهشی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6f3e415f-389e-42df-bb30-b0eb1265e335&FileName=%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%201405.docx",
-          "kind": "research-review-specific",
-          "claim": "8 - پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)",
-          "id": null,
-          "sourceLabel": "8 - پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=4de584c1-6709-469a-93a9-f11ed1bef68b&FileName=KUT%20Garnt-1404.pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - آئین نامه اعتبار ویژه پژوهشی اعضای هیئت علمی",
-          "id": null,
-          "sourceLabel": "1 - آئین نامه اعتبار ویژه پژوهشی اعضای هیئت علمی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6670f5a7-664d-44e9-809b-1a457b4eef9d&FileName=Proposal-1401.docx",
-          "kind": "research-review-specific",
-          "claim": "1 - پروپوزال مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور",
-          "id": null,
-          "sourceLabel": "1 - پروپوزال مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=99e5a4b4-ca37-4123-9399-29bd7c899258&FileName=%D8%AA%D8%B9%D9%87%D8%AF%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B9%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%DA%A9%D9%88%D8%AA%D8%A7%D9%87%20%D9%85%D8%AF%D8%AA.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - فرم تعهدنامه اعزام به سفر علمی در قالب ماموریت پژوهشی",
-          "id": null,
-          "sourceLabel": "2 - فرم تعهدنامه اعزام به سفر علمی در قالب ماموریت پژوهشی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d8bfa1cb-d259-4314-a623-dd9c29ad6ca5&FileName=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%A7%D8%B9%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%DA%A9%D9%88%D8%AA%D8%A7%D9%87%20%D9%85%D8%AF%D8%AA.pdf",
-          "kind": "research-review-specific",
-          "claim": "3 - راهنمای اعزام به مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور",
-          "id": null,
-          "sourceLabel": "3 - راهنمای اعزام به مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور"
         }
       ],
       "publicationAdjustment": null,
@@ -751,7 +560,7 @@
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 9,
+      "sourceCount": 2,
       "sources": [
         {
           "url": "https://kut.ac.ir/%d8%af%d9%81%d8%aa%d8%b1-%d8%a7%d8%b1%d8%aa%d8%a8%d8%a7%d8%b7-%d8%a8%d8%a7-%d8%b5%d9%86%d8%b9%d8%aa/",
@@ -766,55 +575,6 @@
           "claim": "مدیریت امور پژوهشی و فناوری – دانشگاه صنعتی کرمانشاه",
           "id": "kermanshah-technology-discovery-unit-research-fc02082d9c43",
           "unitType": "research"
-        },
-        {
-          "url": "https://kut.ac.ir/wp-content/uploads/2025/12/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%86%D8%AD%D9%88%D9%87-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pptx",
-          "kind": "research-review-specific",
-          "claim": "فلوچارت نحوه درخواست فرصت مطالعاتی",
-          "id": null,
-          "sourceLabel": "فلوچارت نحوه درخواست فرصت مطالعاتی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dec48845-3e0f-42b2-9f21-8d42699e82e0&FileName=%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA+%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1+%D8%B1%D9%88%D9%86%D8%AF+%D8%AE%D8%B1%DB%8C%D8%AF%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_467620_984143_816119.pdf",
-          "kind": "research-review-specific",
-          "claim": "6 - فلوچارت جدید نحوه خرید غیرمصرفی از محل گرنت",
-          "id": null,
-          "sourceLabel": "6 - فلوچارت جدید نحوه خرید غیرمصرفی از محل گرنت"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=91561334-bfe1-4fef-9624-0ca9db6f7206&FileName=%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%A3%D8%B3%DB%8C%D8%B3%D8%8C%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20%D9%88%20%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - آئین نامه تأسیس، ارزیابی و مدیریت واحدهای پژوهشی",
-          "id": null,
-          "sourceLabel": "2 - آئین نامه تأسیس، ارزیابی و مدیریت واحدهای پژوهشی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=21fc704c-c2a4-4c7c-b346-ec1ef03061d0&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%20%D8%AA%D8%B4%DA%A9%DB%8C%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - شیوه نامه تاسیس واحدهای پژوهشی در دانشگاه",
-          "id": null,
-          "sourceLabel": "1 - شیوه نامه تاسیس واحدهای پژوهشی در دانشگاه"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=889e2c5d-4ad0-4a63-840d-3e80d7c99446&FileName=1401-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%D8%A7%D8%AD%D8%AF%20%D9%81%D9%86%D8%A7%D9%88%D8%B1.docx",
-          "kind": "research-review-specific",
-          "claim": "6 - پروپوزال طرح پژوهشی در قالب واحد فناور",
-          "id": null,
-          "sourceLabel": "6 - پروپوزال طرح پژوهشی در قالب واحد فناور"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=3c43a0ef-3492-48e5-babc-8a5f7821f3c5&FileName=%D9%88%D8%A7%D8%AD%D8%AF%20%D9%85%D9%88%D8%B8%D9%81%DB%8C.docx",
-          "kind": "research-review-specific",
-          "claim": "1 - فرم واحد موظفی",
-          "id": null,
-          "sourceLabel": "1 - فرم واحد موظفی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6f3e415f-389e-42df-bb30-b0eb1265e335&FileName=%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%201405.docx",
-          "kind": "research-review-specific",
-          "claim": "8 - پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)",
-          "id": null,
-          "sourceLabel": "8 - پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)"
         }
       ],
       "publicationAdjustment": null,
@@ -842,17 +602,15 @@
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=962e4cfd-1e17-4202-857b-915e919b985b&FileName=3.pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - شیوه نامه ارزیابی و رتبه بندی نشریات علمی",
-          "id": null,
-          "sourceLabel": "1 - شیوه نامه ارزیابی و رتبه بندی نشریات علمی"
+          "kind": "document",
+          "claim": "شیوه نامه ارزیابی و رتبه بندی نشریات علمی",
+          "id": "kermanshah-technology-discovery-document-867535c0481f"
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=15f79b2e-ceab-4206-bbd0-fa75cfe2bd0d&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - آیین نامه نشریات علمی",
-          "id": null,
-          "sourceLabel": "2 - آیین نامه نشریات علمی"
+          "kind": "document",
+          "claim": "آیین نامه نشریات علمی",
+          "id": "kermanshah-technology-discovery-document-bf4e08c562f9"
         }
       ],
       "publicationAdjustment": null,
@@ -883,17 +641,18 @@
       "iscCategory": "صنعتی",
       "iscRank": 14,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 8,
+      "sourceCount": 2,
       "sources": [
         {
           "url": "https://kut.ac.ir/%d8%af%d9%81%d8%aa%d8%b1-%d8%a7%d8%b1%d8%aa%d8%a8%d8%a7%d8%b7-%d8%a8%d8%a7-%d8%b5%d9%86%d8%b9%d8%aa/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
+          "kind": "unit",
+          "claim": "دفتر ارتباط با صنعت – دانشگاه صنعتی کرمانشاه",
+          "id": "kermanshah-technology-discovery-unit-industry-d3948c21ca07",
+          "unitType": "industry"
         },
         {
           "url": "https://research.kut.ac.ir/",
@@ -901,52 +660,10 @@
           "claim": "پرتال پژوهش و فناوری 1",
           "id": null,
           "sourceLabel": "پرتال پژوهش و فناوری 1"
-        },
-        {
-          "url": "https://kut.ac.ir/wp-content/uploads/2025/12/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%DA%AF%D9%88%D8%A7%D9%87%DB%8C-%D8%AA%D8%A3%DB%8C%DB%8C%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D9%88-%D8%B7%D8%B1%D8%AD-%D8%AC%D8%A7%DB%8C%DA%AF%D8%B2%DB%8C%D9%86-%D8%AF%D9%81%D8%AA%D8%B1-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA.pdf",
-          "kind": "research-review-specific",
-          "claim": "فرآیند گواهی تأیید فرصت مطالعاتی و طرح جایگزین دفتر ارتباط با صنعت",
-          "id": null,
-          "sourceLabel": "فرآیند گواهی تأیید فرصت مطالعاتی و طرح جایگزین دفتر ارتباط با صنعت"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e4c32ccd-9aef-4c7e-a462-45dd81eed40c&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - دستورالعمل اجرایی اعطای پژوهانه علمی، آموزشی، پژوهشی، فناوری، نوآوری، مهارتی، هنری، ورزشی و فرهنگی (جامع) به اعضای هیئت علمی",
-          "id": null,
-          "sourceLabel": "2 - دستورالعمل اجرایی اعطای پژوهانه علمی، آموزشی، پژوهشی، فناوری، نوآوری، مهارتی، هنری، ورزشی و فرهنگی (جامع) به اعضای هیئت علمی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=7fade0f4-edbf-40ad-b31a-ef33f256d687&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "7 - دستورالعمل حمایت از فرصت مطالعاتی اعضای هیئت علمی دانشگاه صنعتی کرمانشاه",
-          "id": null,
-          "sourceLabel": "7 - دستورالعمل حمایت از فرصت مطالعاتی اعضای هیئت علمی دانشگاه صنعتی کرمانشاه"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=889e2c5d-4ad0-4a63-840d-3e80d7c99446&FileName=1401-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%D8%A7%D8%AD%D8%AF%20%D9%81%D9%86%D8%A7%D9%88%D8%B1.docx",
-          "kind": "research-review-specific",
-          "claim": "6 - پروپوزال طرح پژوهشی در قالب واحد فناور",
-          "id": null,
-          "sourceLabel": "6 - پروپوزال طرح پژوهشی در قالب واحد فناور"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c332fe56-eede-4ed7-91f6-185252184335&FileName=%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%AB%D8%A8%D8%AA%20%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9%D8%A7%D8%AA%20%D9%88%20%D8%B7%D8%B1%D8%AD%20%D9%87%D8%A7%D9%8A%20%D8%B5%D9%86%D8%B9%D8%AA%D9%8A%20%D9%88%20%D8%B9%D9%84%D8%A7%D8%A6%D9%85%20%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A.pdf",
-          "kind": "research-review-specific",
-          "claim": "4 - قانون ثبت اختراعات و طرح های صنعتی و علائم تجاری",
-          "id": null,
-          "sourceLabel": "4 - قانون ثبت اختراعات و طرح های صنعتی و علائم تجاری"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6f3e415f-389e-42df-bb30-b0eb1265e335&FileName=%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%201405.docx",
-          "kind": "research-review-specific",
-          "claim": "8 - پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)",
-          "id": null,
-          "sourceLabel": "8 - پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -960,37 +677,8 @@
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 4,
-      "sources": [
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=962e4cfd-1e17-4202-857b-915e919b985b&FileName=3.pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - شیوه نامه ارزیابی و رتبه بندی نشریات علمی",
-          "id": null,
-          "sourceLabel": "1 - شیوه نامه ارزیابی و رتبه بندی نشریات علمی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=15f79b2e-ceab-4206-bbd0-fa75cfe2bd0d&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - آیین نامه نشریات علمی",
-          "id": null,
-          "sourceLabel": "2 - آیین نامه نشریات علمی"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d1adfe7f-fd7a-412c-a7e9-a328968621c5&FileName=%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%AA%D8%B1%D8%AC%D9%85%D9%87%20%D9%88%20%D8%AA%DA%A9%D8%AB%D9%8A%D8%B1%20%DA%A9%D8%AA%D8%A8%20%D9%88%20%D9%86%D8%B4%D8%B1%D9%8A%D8%A7%D8%AA.pdf",
-          "kind": "research-review-specific",
-          "claim": "5 - قانون ترجمه و تکثیر کتب و نشریات",
-          "id": null,
-          "sourceLabel": "5 - قانون ترجمه و تکثیر کتب و نشریات"
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=da393bdb-09d0-4a97-8ecc-7bde4b8427d2&FileName=avc_Promotion-Guide.rar",
-          "kind": "research-review-specific",
-          "claim": "2 - راهنمای درخواست ترفیع پایه در سامانه ژیرو",
-          "id": null,
-          "sourceLabel": "2 - راهنمای درخواست ترفیع پایه در سامانه ژیرو"
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
       "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
@@ -1006,415 +694,331 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 93,
+      "sourceCount": 91,
       "sources": [
         {
-          "url": "https://kut.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C/",
+          "url": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6caca31e-fbcd-4b47-bac5-f8ef51a9ce20&FileName=%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA%20%D8%AB%D8%A8%D8%AA%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - تغییرات ثبت پروپوزال پایان نامه ها با توجه به آیین نامه پژوهانه جدید",
-          "id": null
-        },
-        {
-          "url": "https://kut.ac.ir/wp-content/uploads/2025/12/%D9%86%D9%85%D9%88%D9%86%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D8%AA%D8%A3%DB%8C%DB%8C%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pptx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "نمونه نامه های تأیید فرصت مطالعاتی",
-          "id": null
-        },
-        {
-          "url": "https://kut.ac.ir/wp-content/uploads/2025/12/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%86%D8%AD%D9%88%D9%87-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pptx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فلوچارت نحوه درخواست فرصت مطالعاتی",
-          "id": null
-        },
-        {
-          "url": "https://kut.ac.ir/wp-content/uploads/2025/12/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست فرصت مطالعاتی",
-          "id": null
-        },
-        {
-          "url": "https://kut.ac.ir/wp-content/uploads/2025/12/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%DA%AF%D9%88%D8%A7%D9%87%DB%8C-%D8%AA%D8%A3%DB%8C%DB%8C%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D9%88-%D8%B7%D8%B1%D8%AD-%D8%AC%D8%A7%DB%8C%DA%AF%D8%B2%DB%8C%D9%86-%D8%AF%D9%81%D8%AA%D8%B1-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرآیند گواهی تأیید فرصت مطالعاتی و طرح جایگزین دفتر ارتباط با صنعت",
-          "id": null
-        },
-        {
-          "url": "https://kut.ac.ir/wp-content/uploads/2025/12/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B1%D8%A6%DB%8C%D8%B3%D9%87.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه فرصت مطالعاتی هیئت رئیسه",
-          "id": null
-        },
-        {
-          "url": "https://kut.ac.ir/wp-content/uploads/2025/12/%D8%AE%D9%84%D8%A7%D8%B5%D9%87-%D8%B7%D8%B1%D8%AD-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "خلاصه طرح فرصت مطالعاتی وزارت عتف",
-          "id": null
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=01f1d63e-8cad-47b6-a82b-ab55c1befd93&FileName=%D9%81%D8%A7%DB%8C%D9%84%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4.pdf",
+          "kind": "document",
+          "claim": "1 - آموزش ثبت مقاله چاپ شده در فعالیت های پژوهشی",
+          "id": "kermanshah-technology-discovery-document-014ee0138cba"
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=cfadf869-b804-4a7d-9613-ea5d4651f564&FileName=%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%20%D9%88%20%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%B9%D8%AA%D9%81.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - مجموعه آیین نامه ها شیوه نامه ها و دستورالعمل های اجرایی مصوب معاونت پژوهشی وزارت عتف",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9ce00a96-09b8-444e-9c09-e37c50e38f53&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%DA%AF%D8%B3%D8%AA%D8%B1%D8%B4%20%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D9%85%D9%84%DB%8C%20%D9%88%20%D8%A8%DB%8C%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "8 - دستور العمل اجرایی گسترش تعاملات علمی ملی و بین المللی طبق آیین نامه جدید پژوهانه",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=21c5e7b8-f627-4341-9f81-5b00413e010f&FileName=%D8%A2%D9%8A%D9%8A%D9%86_%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85%D9%8A%20%D9%87%D9%8A%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D9%87%D8%A7.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "8 - آیین نامه اجرایی قانون مقررات انتظامی هیأت علمی دانشگاه ها",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d72b4d90-6d15-4660-ada1-e735aeb1344d&FileName=%D9%85%D9%86%D8%B4%D9%88%D8%B1%20%D9%88%20%D9%85%D9%88%D8%A7%D8%B2%DB%8C%D9%86%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20-1391.rar",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - دستورالعمل نحوه بررسی تخلفات پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6787d913-5b83-40fb-b2f3-8755f763cf9c&FileName=faculty-recruitment-regulations%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B1%D8%AA%D9%82%D8%A7%20.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - آئین نامه ارتقاء",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ec79b6c8-7aaa-497a-97c8-717c802f1478&FileName=%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D9%84%D9%88%D9%85%20%D8%AC%D9%87%D8%AA%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "4 - آئین نامه وزارت علوم جهت استفاده از فرصت مطالعاتی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dec48845-3e0f-42b2-9f21-8d42699e82e0&FileName=%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA+%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1+%D8%B1%D9%88%D9%86%D8%AF+%D8%AE%D8%B1%DB%8C%D8%AF%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_467620_984143_816119.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "6 - فلوچارت جدید نحوه خرید غیرمصرفی از محل گرنت",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=0b7aec3f-fe56-4683-9ab2-4f3592f7378c&FileName=New%20colleague.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - فرم درخواست اضافه نمودن همکار به مقالات مستخرج از پایان نامه دانشجویان تحصیلات تکمیلی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=11a891c9-9b95-42cf-b8e4-6f7e3044ca27&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%20%D8%A7%D9%86%D8%AC%D8%A7%D9%85%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%20%DA%A9%D8%B4%D9%88%D8%B1%20%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7%20%D9%88%20%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%B9%D8%A7%D9%84%DB%8C%20%D9%88%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - شیوه نامه حمایت از انجام فرصت مطالعاتی داخل کشور اعضاء هیات علمی دانشگاهها و موسسات آموزش عالی و پژوهشی",
-          "id": null
+          "kind": "document",
+          "claim": "مجموعه آیین نامه ها شیوه نامه ها و دستورالعمل های اجرایی مصوب معاونت پژوهشی وزارت عتف",
+          "id": "kermanshah-technology-discovery-document-01517e6ad4fa"
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=cb268e0a-2139-4f72-afdd-c027dfa37343&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "4 - شیوه نامه استفاده از فرصت مطالعاتی وزارتی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=5b323f15-1e48-4334-a901-4577b696cf66&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%2099.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "6 - شیوه نامه اجرایی فرصت مطالعاتی اعضای هیئت علمی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ab4bf360-53f6-47f0-a31f-2917a0670147&FileName=%D8%A2%D9%8A%D9%8A%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D9%85%D8%A7%D9%8A%D8%B4%20%D9%87%D8%A7%D9%8A%20%D8%B9%D9%84%D9%85%D9%8A.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "9 - آیین نامه همایش های علمی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e4c32ccd-9aef-4c7e-a462-45dd81eed40c&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - دستورالعمل اجرایی اعطای پژوهانه علمی، آموزشی، پژوهشی، فناوری، نوآوری، مهارتی، هنری، ورزشی و فرهنگی (جامع) به اعضای هیئت علمی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=91561334-bfe1-4fef-9624-0ca9db6f7206&FileName=%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%A3%D8%B3%DB%8C%D8%B3%D8%8C%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20%D9%88%20%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - آئین نامه تأسیس، ارزیابی و مدیریت واحدهای پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e6f78071-c425-4754-abd9-c051eeacec14&FileName=%D8%A7%D8%A8%D9%84%D8%A7%D8%BA%20%D8%A7%D8%B5%D9%84%D8%A7%D8%AD%DB%8C%D9%87%20%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86%20%D8%AF%D9%88%D8%B1%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%20%D8%A8%D9%87%20%D8%B1%D9%88%D8%B4%20%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF%20%D9%85%D8%AD%D9%88%D8%B1%20%D8%A7%D8%B2%20%D8%B7%D8%B1%DB%8C%D9%82%20%D8%A2%D8%B2%D9%85%D9%88%D9%86%20%D8%B3%D8%B1%D8%A7%D8%B3%D8%B1%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - ابلاغ اصلاحیه شیوه نامه پذیرش دانشجویان دوره های دکتری به روش استاد محور از طریق آزمون سراسری",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=18adfc85-a704-4601-b1ca-13042c370ce1&FileName=%D8%A7%D8%B1%D8%B4%D8%AF.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - آیین نامه پذیرش بدون آزمون استعدادهای درخشان در دوره تحصیلی کارشناسی ارشد به شیوه استاد محوری",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dc7db8e8-ebfa-4a31-a3e5-9ed4c098542c&FileName=%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - آیین نامه پذیرش بدون آزمون استعدادهای درخشان در دوره تحصیلی دکتری به شیوه استاد محوری",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6b8f74e2-18c9-45aa-8fd6-a1ca7cc46487&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - آیین نامه دستیار پژوهشی وزارتی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ae8bfde8-3fce-479c-8fdb-50a49a565053&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - آیین نامه پسا دکترا وزراتی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f374a25b-5dd7-40c0-af56-10020a8be374&FileName=postdoc-kut.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - شیوه نامه پژوهشگر پسا دکترا (مصوبه اولین نشست از دوره پنجم هیئت امنا مورخ 1400/12/02)",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=05fe54e9-c8e5-4e0e-8522-3f7fcba3720b&FileName=Research%20Assistant.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "4 - شیوه نامه دستیار پژوهشی (مصوبه اولین نشست از دوره پنجم هیئت امنا مورخ 1400/12/02)",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ba311bd9-3212-4ede-9850-7a4b60244a9b&FileName=%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D8%B1%20%D8%AE%D8%B5%D9%88%D8%B5%20%D8%B1%D9%81%D8%B9%20%D8%A7%D8%A8%D9%87%D8%A7%D9%85%D8%A7%D8%AA%20%D9%85%D8%B7%D8%B1%D9%88%D8%AD%D9%87%20%D9%BE%DB%8C%D8%B1%D8%A7%D9%85%D9%88%D9%86%20%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C%20%D9%85%D8%A7%D8%AF%D9%87%2053.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - بخشنامه در خصوص رفع ابهامات مطروحه پیرامون دستورالعمل نحوه اعطای پایه تشویقی ماده 53",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=21fc704c-c2a4-4c7c-b346-ec1ef03061d0&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%20%D8%AA%D8%B4%DA%A9%DB%8C%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - شیوه نامه تاسیس واحدهای پژوهشی در دانشگاه",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6040bca3-32e9-45f3-bd6f-4b219c43bcc8&FileName=%D9%BE%D8%B3%D8%A7%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%20%D8%B5%D9%86%D8%AF%D9%88%D9%82%20INSF.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - آیین نامه پسا دکترا INSF",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6042fdcb-8f93-4d4f-82d8-25424a3f35cc&FileName=%D9%81%D8%B1%D9%85%20%D8%A8%D8%B1%D8%A2%D9%88%D8%B1%D8%AF%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "5 - فرم برآورد هزینه اجرای طرح پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c98a8472-c61a-411b-bc23-1c415f538fda&FileName=Research%20Plan-Help.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "6 - راهنمای ثبت طرح پژوهشی تفاهم نامه ای",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a319ffd7-f6ac-4277-980f-c8d22ce54d4b&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AC%D9%87%D8%AA%D8%AF%D8%A7%D8%B1%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - شیوه نامه اجرایی ارائه برنامه پژوهشی جهت دار اعضای هیئت علمی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=7fade0f4-edbf-40ad-b31a-ef33f256d687&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "7 - دستورالعمل حمایت از فرصت مطالعاتی اعضای هیئت علمی دانشگاه صنعتی کرمانشاه",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=962e4cfd-1e17-4202-857b-915e919b985b&FileName=3.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - شیوه نامه ارزیابی و رتبه بندی نشریات علمی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=15f79b2e-ceab-4206-bbd0-fa75cfe2bd0d&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - آیین نامه نشریات علمی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=610e573a-cf74-4081-b0a1-df1a37760858&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - آیین نامه انتشارات",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=cb3d6b9b-13a0-4cb1-82ad-056e8eb4ab2b&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C%20%D9%88%20%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87%20%D8%A8%D8%A7%20%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "10 - آیین نامه اجرایی قانون پیشگیری و مقابله با تخلفات",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=889234c0-c540-4352-81e9-42e58398d818&FileName=%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D9%84%D9%88%D9%85.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - آیین نامه تشویقی مقالات وزارت علوم",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aba601a3-85b0-437f-b449-fe1dff29a03f&FileName=%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA%20%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%82%20%D8%A7%D9%84%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%84%201404.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - تغییرات جدید آیین نامه حق التشویق مقالات در سال 1404",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a167ea63-5786-4d39-b759-ac1d9d69a415&FileName=%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%AA%D8%B1%DB%8C%D9%86%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%82%20%D8%A7%D9%84%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%A7%D9%85%D9%86%D8%A7.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - جدیدترین هیئت امنا درمورد آیین نامه حق التشویق مقالاتت",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=889e2c5d-4ad0-4a63-840d-3e80d7c99446&FileName=1401-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%D8%A7%D8%AD%D8%AF%20%D9%81%D9%86%D8%A7%D9%88%D8%B1.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "6 - پروپوزال طرح پژوهشی در قالب واحد فناور",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f9969213-c545-457a-a6e1-95b13f8126c7&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%201403.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - آئین نامه حمایت از پایان نامه های تحصیلات تکمیلی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=0c0d51f7-8ad7-4f73-a53d-e17dfc1de824&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%20%D8%A8%D8%B1%D8%AA%D8%B1%20-%D9%86%D8%B3%D8%AE%D9%87%20%D9%85%D8%B5%D9%88%D8%A81404.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - آیین نامه پژوهشگر برتر اعضای هیئت علمی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=fd28e3fa-e276-418a-8fb1-86094c85951d&FileName=%D8%A2%DB%8C%D9%86%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%B4%D8%B1%20%201405.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - آیین نامه انتشارات",
-          "id": null
+          "kind": "document",
+          "claim": "شیوه نامه استفاده از فرصت مطالعاتی وزارتی",
+          "id": "kermanshah-technology-discovery-document-02b8e6a604be"
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=84e0f8cd-8fbb-4e0c-9f9a-bdc471ae56da&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "7 - دستورالعمل اعطای پایه تشویقی به اعضای هیأت علمی (ماده 53)",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a1fea871-d482-4388-af31-6b08e0342234&FileName=%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF%20%D8%AF%D8%A7%D9%88%D8%B1%DB%8C%20%DA%A9%D8%AA%D8%A7%D8%A8%20%D8%AA%D8%B5%D9%86%DB%8C%D9%81%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - فرایند داوری کتاب تصنیفی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e4fa51ea-4c59-472d-97d4-48671be97e3a&FileName=book%20review%20form%20(1402%2011%2030).docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - فرم داوری کتاب تصنیفی ( )",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=143bd0f2-4574-4ef7-905f-2a4084e86a06&FileName=referee%20form-Plan.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - فرم داوری طرح های تفاهم نامه ای",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=25f4d3cf-df70-4b72-b19d-73a4a758f026&FileName=%D9%81%D8%B1%D9%85%20%D8%A8%D8%B1%D8%A2%D9%88%D8%B1%D8%AF%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7%20.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - فرم برآورد هزینه اجرای طرح پسادکتری",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=97bbb00d-3dbe-4307-9057-081b8de87ea9&FileName=PostDoc-Help.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "4 - راهنمای ثبت طرح پسادکتری تفاهم نامه ای",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9ec34810-ac90-44ba-97eb-6b157dad6215&FileName=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AC%D9%87%D8%AA%20%D8%AF%D8%A7%D8%B1.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - فرم برنامه پژوهشی جهت دار اعضای هیئت علمی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=7701b8f7-0ed4-4855-86c8-d81a5a735cae&FileName=%D8%A7%D8%B5%D9%84%D8%A7%D8%AD%DB%8C%D9%87%20%D8%B4%D9%85%D8%A7%D8%B1%D9%87%202.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - اصلاحیه شماره 2",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=576c3377-644c-400f-b5de-d4da86427a07&FileName=%D8%A7%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "5 - ایین نامه استفاده از فرصت مطالعاتی وزارتی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=07dda4e4-c350-4270-b7f8-d8a146afbab7&FileName=instruction.rar",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - دستورالعمل ماده 5 آییننامـۀاجرایی قانون پیشـگیری و مقابله با تقلب در تهیه آثـارعلمی",
-          "id": null
+          "kind": "document",
+          "claim": "دستورالعمل اعطای پایه تشویقی به اعضای هیأت علمی (ماده 53)",
+          "id": "kermanshah-technology-discovery-document-04d871802225"
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=3c01ff3d-e90a-4507-824a-7a565c9a78cd&FileName=%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%AD%D9%85%D8%A7%D9%8A%D8%AA%20%D8%A7%D8%B2%20%D8%AD%D9%82%D9%88%D9%82%20%D9%85%D9%88%D9%84%D9%81%D8%A7%D9%86%20%D9%88%20%D9%85%D8%B5%D9%86%D9%81%D8%A7%D9%86.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "2 - قانون حمایت از حقوق مولفان و مصنفان",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-0652d9b74e64"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f895706f-5542-4eb5-a476-a3d166a6ce50&FileName=%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%AD%D9%85%D8%A7%D9%8A%D8%AA%20%D8%A7%D8%B2%20%D8%AD%D9%82%D9%88%D9%82%20%D9%BE%D8%AF%D9%8A%D8%AF%D8%A2%D9%88%D8%B1%D9%86%D8%AF%DA%AF%D8%A7%D9%86%20%D9%86%D8%B1%D9%85%20%D8%A7%D9%81%D8%B2%D8%A7%D8%B1%D9%87%D8%A7%D9%8A%20%D8%B1%D8%A7%D9%8A%D8%A7%D9%86%D9%87%20%D8%A7%D9%8A.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - قانون حمایت از حقوق پدیدآورندگان نرم افزارهای رایانه ای",
-          "id": null
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e6f78071-c425-4754-abd9-c051eeacec14&FileName=%D8%A7%D8%A8%D9%84%D8%A7%D8%BA%20%D8%A7%D8%B5%D9%84%D8%A7%D8%AD%DB%8C%D9%87%20%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86%20%D8%AF%D9%88%D8%B1%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%20%D8%A8%D9%87%20%D8%B1%D9%88%D8%B4%20%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF%20%D9%85%D8%AD%D9%88%D8%B1%20%D8%A7%D8%B2%20%D8%B7%D8%B1%DB%8C%D9%82%20%D8%A2%D8%B2%D9%85%D9%88%D9%86%20%D8%B3%D8%B1%D8%A7%D8%B3%D8%B1%DB%8C.pdf",
+          "kind": "document",
+          "claim": "ابلاغ اصلاحیه شیوه نامه پذیرش دانشجویان دوره های دکتری به روش استاد محور از طریق آزمون سراسری",
+          "id": "kermanshah-technology-discovery-document-06c2f374fd72"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c332fe56-eede-4ed7-91f6-185252184335&FileName=%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%AB%D8%A8%D8%AA%20%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9%D8%A7%D8%AA%20%D9%88%20%D8%B7%D8%B1%D8%AD%20%D9%87%D8%A7%D9%8A%20%D8%B5%D9%86%D8%B9%D8%AA%D9%8A%20%D9%88%20%D8%B9%D9%84%D8%A7%D8%A6%D9%85%20%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "4 - قانون ثبت اختراعات و طرح های صنعتی و علائم تجاری",
-          "id": null
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=07dda4e4-c350-4270-b7f8-d8a146afbab7&FileName=instruction.rar",
+          "kind": "document",
+          "claim": "دستورالعمل ماده 5 آییننامـۀاجرایی قانون پیشـگیری و مقابله با تقلب در تهیه آثـارعلمی",
+          "id": "kermanshah-technology-discovery-document-0b043926b9d6"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=25f4d3cf-df70-4b72-b19d-73a4a758f026&FileName=%D9%81%D8%B1%D9%85%20%D8%A8%D8%B1%D8%A2%D9%88%D8%B1%D8%AF%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%D8%A7%20.docx",
+          "kind": "document",
+          "claim": "فرم برآورد هزینه اجرای طرح پسادکتری",
+          "id": "kermanshah-technology-discovery-document-118e2bef055c"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=18adfc85-a704-4601-b1ca-13042c370ce1&FileName=%D8%A7%D8%B1%D8%B4%D8%AF.pdf",
+          "kind": "document",
+          "claim": "آیین نامه پذیرش بدون آزمون استعدادهای درخشان در دوره تحصیلی کارشناسی ارشد به شیوه استاد محوری",
+          "id": "kermanshah-technology-discovery-document-17e458a7f868"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=fd28e3fa-e276-418a-8fb1-86094c85951d&FileName=%D8%A2%DB%8C%D9%86%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%B4%D8%B1%20%201405.pdf",
+          "kind": "document",
+          "claim": "آیین نامه انتشارات",
+          "id": "kermanshah-technology-discovery-document-187b7c991bd2"
+        },
+        {
+          "url": "https://kut.ac.ir/wp-content/uploads/2025/12/%D8%AE%D9%84%D8%A7%D8%B5%D9%87-%D8%B7%D8%B1%D8%AD-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81.pdf",
+          "kind": "document",
+          "claim": "خلاصه طرح فرصت مطالعاتی وزارت عتف",
+          "id": "kermanshah-technology-discovery-document-19603fd8b900"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=91561334-bfe1-4fef-9624-0ca9db6f7206&FileName=%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%A3%D8%B3%DB%8C%D8%B3%D8%8C%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20%D9%88%20%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
+          "kind": "document",
+          "claim": "2 - آئین نامه تأسیس، ارزیابی و مدیریت واحدهای پژوهشی",
+          "id": "kermanshah-technology-discovery-document-1ceaf9ed2734"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a167ea63-5786-4d39-b759-ac1d9d69a415&FileName=%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%AA%D8%B1%DB%8C%D9%86%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%82%20%D8%A7%D9%84%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%A7%D9%85%D9%86%D8%A7.pdf",
+          "kind": "document",
+          "claim": "جدیدترین هیئت امنا درمورد آیین نامه حق التشویق مقالاتت",
+          "id": "kermanshah-technology-discovery-document-1dfce11ae3e8"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a8440c60-7cdf-48da-b99f-f301688cdd2a&FileName=semat.pdf",
+          "kind": "document",
+          "claim": "1 - اولویتهای پژوهشی سمات ملی",
+          "id": "kermanshah-technology-discovery-document-29435dfdeb30"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=0c0d51f7-8ad7-4f73-a53d-e17dfc1de824&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%20%D8%A8%D8%B1%D8%AA%D8%B1%20-%D9%86%D8%B3%D8%AE%D9%87%20%D9%85%D8%B5%D9%88%D8%A81404.pdf",
+          "kind": "document",
+          "claim": "آیین نامه پژوهشگر برتر اعضای هیئت علمی",
+          "id": "kermanshah-technology-discovery-document-299e95b094ad"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ec79b6c8-7aaa-497a-97c8-717c802f1478&FileName=%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D9%84%D9%88%D9%85%20%D8%AC%D9%87%D8%AA%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pdf",
+          "kind": "document",
+          "claim": "4 - آئین نامه وزارت علوم جهت استفاده از فرصت مطالعاتی",
+          "id": "kermanshah-technology-discovery-document-2bd6ee1ba7c1"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ac695040-5aea-4b0b-9306-50fe8b829ebb&FileName=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D8%B4%D9%88%D8%B1%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AE%D8%A7%D8%B1%D8%AC%20%D8%A7%D8%B2%20%D8%A2.docx",
+          "kind": "document",
+          "claim": "1 - مصوبات شورای پژوهشی دانشگاه خارج از آئین نامه های موجود",
+          "id": "kermanshah-technology-discovery-document-2ca762073fea"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dc7db8e8-ebfa-4a31-a3e5-9ed4c098542c&FileName=%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
+          "kind": "document",
+          "claim": "آیین نامه پذیرش بدون آزمون استعدادهای درخشان در دوره تحصیلی دکتری به شیوه استاد محوری",
+          "id": "kermanshah-technology-discovery-document-2d2147d0f92e"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9ec34810-ac90-44ba-97eb-6b157dad6215&FileName=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AC%D9%87%D8%AA%20%D8%AF%D8%A7%D8%B1.docx",
+          "kind": "document",
+          "claim": "فرم برنامه پژوهشی جهت دار اعضای هیئت علمی",
+          "id": "kermanshah-technology-discovery-document-2d92bd03d969"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dec48845-3e0f-42b2-9f21-8d42699e82e0&FileName=%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA+%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1+%D8%B1%D9%88%D9%86%D8%AF+%D8%AE%D8%B1%DB%8C%D8%AF%D9%87%D8%A7%DB%8C+%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_467620_984143_816119.pdf",
+          "kind": "document",
+          "claim": "6 - فلوچارت جدید نحوه خرید غیرمصرفی از محل گرنت",
+          "id": "kermanshah-technology-discovery-document-310e112477ab"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6b9e0abb-f0b9-4878-ba1b-40ca96bd1b72&FileName=%D9%86%D8%AD%D9%88%D9%87%20%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D9%87%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%B3%D8%B1%D9%88%D8%B1.pdf",
+          "kind": "document",
+          "claim": "1 - نحوه محاسبه هزینه سرور",
+          "id": "kermanshah-technology-discovery-document-342b0c6e4679"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=cb3d6b9b-13a0-4cb1-82ad-056e8eb4ab2b&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%BE%DB%8C%D8%B4%DA%AF%DB%8C%D8%B1%DB%8C%20%D9%88%20%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87%20%D8%A8%D8%A7%20%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA.pdf",
+          "kind": "document",
+          "claim": "آیین نامه اجرایی قانون پیشگیری و مقابله با تخلفات",
+          "id": "kermanshah-technology-discovery-document-373b455aea2e"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=5f795640-544b-45e1-9525-92f9689ece2b&FileName=%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA.pdf",
+          "kind": "document",
+          "claim": "4 - نحوه ی امتیاز دهی به مقالات در اعطای پایه ی تشویقی",
+          "id": "kermanshah-technology-discovery-document-37e0547a2674"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6787d913-5b83-40fb-b2f3-8755f763cf9c&FileName=faculty-recruitment-regulations%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B1%D8%AA%D9%82%D8%A7%20.pdf",
+          "kind": "document",
+          "claim": "آئین نامه ارتقاء",
+          "id": "kermanshah-technology-discovery-document-3c7bcc0af49c"
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d1adfe7f-fd7a-412c-a7e9-a328968621c5&FileName=%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%AA%D8%B1%D8%AC%D9%85%D9%87%20%D9%88%20%D8%AA%DA%A9%D8%AB%D9%8A%D8%B1%20%DA%A9%D8%AA%D8%A8%20%D9%88%20%D9%86%D8%B4%D8%B1%D9%8A%D8%A7%D8%AA.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "5 - قانون ترجمه و تکثیر کتب و نشریات",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-3cd9f77c7038"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=21c5e7b8-f627-4341-9f81-5b00413e010f&FileName=%D8%A2%D9%8A%D9%8A%D9%86_%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%D9%8A%D9%8A%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85%D9%8A%20%D9%87%D9%8A%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D9%87%D8%A7.pdf",
+          "kind": "document",
+          "claim": "آیین نامه اجرایی قانون مقررات انتظامی هیأت علمی دانشگاه ها",
+          "id": "kermanshah-technology-discovery-document-4475d9c2c756"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=610e573a-cf74-4081-b0a1-df1a37760858&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA.pdf",
+          "kind": "document",
+          "claim": "آیین نامه انتشارات",
+          "id": "kermanshah-technology-discovery-document-465d4989efae"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ab4bf360-53f6-47f0-a31f-2917a0670147&FileName=%D8%A2%D9%8A%D9%8A%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D9%85%D8%A7%D9%8A%D8%B4%20%D9%87%D8%A7%D9%8A%20%D8%B9%D9%84%D9%85%D9%8A.pdf",
+          "kind": "document",
+          "claim": "آیین نامه همایش های علمی",
+          "id": "kermanshah-technology-discovery-document-47ae76c6c4c5"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ebeaca2d-342d-413b-9cb9-3dffc2e06377&FileName=%D8%B1%D9%88%D9%86%D8%AF%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA%DB%8C%20.pdf",
+          "kind": "document",
+          "claim": "2 - روند درخواست استفاده از سرور محاسباتی",
+          "id": "kermanshah-technology-discovery-document-509593ae52bc"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e4c32ccd-9aef-4c7e-a462-45dd81eed40c&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل اجرایی اعطای پژوهانه علمی، آموزشی، پژوهشی، فناوری، نوآوری، مهارتی، هنری، ورزشی و فرهنگی (جامع) به اعضای هیئت علمی",
+          "id": "kermanshah-technology-discovery-document-57d7aac89c14"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e9bc2355-188d-4095-8248-c74fdcdde857&FileName=%D9%81%D8%B1%D9%85%20%D8%B4%D9%86%D8%A7%D8%B3%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%20%D8%A8%D8%B1%D8%AA%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C.pdf",
+          "kind": "document",
+          "claim": "فرم شناسنامه فعالیتهای پژوهشی-پژوهشگر برتر دانشجویی",
+          "id": "kermanshah-technology-discovery-document-59e45761f960"
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=06da0e16-3406-423f-8bad-b2afc66aa316&FileName=%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%BE%D9%8A%D8%B4%DA%AF%D9%8A%D8%B1%D9%8A%20%D9%88%20%D9%85%D9%82%D8%A7%D8%A8%D9%84%D9%87%20%D8%A8%D8%A7%20%D8%AA%D9%82%D9%84%D8%A8.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "6 - قانون پیشگیری و مقابله با تقلب",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-673140016b52"
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=27b1ff82-1b3d-4256-ba84-f3d61583bf1a&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A8%D8%B1%D8%B1%D8%B3%DB%8C%20%D8%AA%D8%AE%D9%84%D9%81%D8%A7%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "7 - دستورالعمل نحوه بررسی تخلفات پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=200103c4-19ec-4ba1-a909-21591da09684&FileName=-%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85%D9%8A%20%D9%87%D9%8A%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D9%87%D8%A7.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "11 - قانون مقررات انتظامی هیأت علمی دانشگاهها",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aa9186d8-029e-4753-a9fe-a9b89e7b4169&FileName=%D9%85%D9%86%D8%B4%D9%88%D8%B1%20%D9%88%20%D9%85%D9%88%D8%A7%D8%B2%DB%8C%D9%86%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82%20%D9%BE%DA%98%D9%88%D9%87%D8%B4.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "12 - منشور و موازین اخلاق پژوهش",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=3c43a0ef-3492-48e5-babc-8a5f7821f3c5&FileName=%D9%88%D8%A7%D8%AD%D8%AF%20%D9%85%D9%88%D8%B8%D9%81%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - فرم واحد موظفی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6887f235-3281-43c6-b8bf-4d81e32124a7&FileName=209b_2.pdf",
           "kind": "document",
-          "claim": "فرم دریافت حق التحقیق طرح­های پژوهشی کاربردی مسأله محور(به سفارش دانشگاه)",
-          "id": "kermanshah-technology-discovery-document-fbb3f7148a4c"
+          "claim": "دستورالعمل نحوه بررسی تخلفات پژوهشی",
+          "id": "kermanshah-technology-discovery-document-6bfff1a6cce0"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=b1019aac-cac4-44f4-a36d-4ea65a244d56&FileName=report.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - گزارش نهایی طرح پژوهشی",
-          "id": null
+          "url": "https://kut.ac.ir/wp-content/uploads/2025/12/%D9%81%D8%B1%D9%85-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.docx",
+          "kind": "document",
+          "claim": "فرم درخواست فرصت مطالعاتی",
+          "id": "kermanshah-technology-discovery-document-6dd31f37b69d"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=889e2c5d-4ad0-4a63-840d-3e80d7c99446&FileName=1401-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%D8%A7%D8%AD%D8%AF%20%D9%81%D9%86%D8%A7%D9%88%D8%B1.docx",
+          "kind": "document",
+          "claim": "پروپوزال طرح پژوهشی در قالب واحد فناور",
+          "id": "kermanshah-technology-discovery-document-723f6a10adb4"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=889234c0-c540-4352-81e9-42e58398d818&FileName=%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D9%84%D9%88%D9%85.pdf",
+          "kind": "document",
+          "claim": "آیین نامه تشویقی مقالات وزارت علوم",
+          "id": "kermanshah-technology-discovery-document-75d750483e73"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=fe572ea7-effe-4a1f-9a00-abebc2497565&FileName=1.pdf",
+          "kind": "document",
+          "claim": "1 - برخورداری از پایه تشویقی در خصوص راه اندازی آزمایشگاه مرجع (1402/11/09)",
+          "id": "kermanshah-technology-discovery-document-798160acd556"
+        },
+        {
+          "url": "https://kut.ac.ir/wp-content/uploads/2026/06/karamoozi.zip",
+          "kind": "document",
+          "claim": "فرمهای کار آموزی",
+          "id": "kermanshah-technology-discovery-document-7ac2e32e0429"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6f3e415f-389e-42df-bb30-b0eb1265e335&FileName=%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%201405.docx",
+          "kind": "document",
+          "claim": "پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)",
+          "id": "kermanshah-technology-discovery-document-7c22dde65061"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=21fc704c-c2a4-4c7c-b346-ec1ef03061d0&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%20%D8%AA%D8%B4%DA%A9%DB%8C%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه تاسیس واحدهای پژوهشی در دانشگاه",
+          "id": "kermanshah-technology-discovery-document-7dc6e6a53873"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a319ffd7-f6ac-4277-980f-c8d22ce54d4b&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AC%D9%87%D8%AA%D8%AF%D8%A7%D8%B1%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اجرایی ارائه برنامه پژوهشی جهت دار اعضای هیئت علمی",
+          "id": "kermanshah-technology-discovery-document-7fcf218db1bc"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=4de584c1-6709-469a-93a9-f11ed1bef68b&FileName=KUT%20Garnt-1404.pdf",
+          "kind": "document",
+          "claim": "1 - آئین نامه اعتبار ویژه پژوهشی اعضای هیئت علمی",
+          "id": "kermanshah-technology-discovery-document-85334f545c2c"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9ce00a96-09b8-444e-9c09-e37c50e38f53&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%20%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%DA%AF%D8%B3%D8%AA%D8%B1%D8%B4%20%D8%AA%D8%B9%D8%A7%D9%85%D9%84%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D9%85%D9%84%DB%8C%20%D9%88%20%D8%A8%DB%8C%D9%86%20%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C.pdf",
+          "kind": "document",
+          "claim": "دستور العمل اجرایی گسترش تعاملات علمی ملی و بین المللی طبق آیین نامه جدید پژوهانه",
+          "id": "kermanshah-technology-discovery-document-861ae22b3a44"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=962e4cfd-1e17-4202-857b-915e919b985b&FileName=3.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه ارزیابی و رتبه بندی نشریات علمی",
+          "id": "kermanshah-technology-discovery-document-867535c0481f"
+        },
+        {
+          "url": "https://kut.ac.ir/wp-content/uploads/2025/12/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B1%D8%A6%DB%8C%D8%B3%D9%87.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی هیئت رئیسه",
+          "id": "kermanshah-technology-discovery-document-89f5a5fe7206"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=97bbb00d-3dbe-4307-9057-081b8de87ea9&FileName=PostDoc-Help.pdf",
+          "kind": "document",
+          "claim": "راهنمای ثبت طرح پسادکتری تفاهم نامه ای",
+          "id": "kermanshah-technology-discovery-document-8a698193199f"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6042fdcb-8f93-4d4f-82d8-25424a3f35cc&FileName=%D9%81%D8%B1%D9%85%20%D8%A8%D8%B1%D8%A2%D9%88%D8%B1%D8%AF%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20.docx",
+          "kind": "document",
+          "claim": "فرم برآورد هزینه اجرای طرح پژوهشی",
+          "id": "kermanshah-technology-discovery-document-8f3d0a949400"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6670f5a7-664d-44e9-809b-1a457b4eef9d&FileName=Proposal-1401.docx",
+          "kind": "document",
+          "claim": "پروپوزال مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور",
+          "id": "kermanshah-technology-discovery-document-8f7b9a517e9a"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f895706f-5542-4eb5-a476-a3d166a6ce50&FileName=%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%AD%D9%85%D8%A7%D9%8A%D8%AA%20%D8%A7%D8%B2%20%D8%AD%D9%82%D9%88%D9%82%20%D9%BE%D8%AF%D9%8A%D8%AF%D8%A2%D9%88%D8%B1%D9%86%D8%AF%DA%AF%D8%A7%D9%86%20%D9%86%D8%B1%D9%85%20%D8%A7%D9%81%D8%B2%D8%A7%D8%B1%D9%87%D8%A7%D9%8A%20%D8%B1%D8%A7%D9%8A%D8%A7%D9%86%D9%87%20%D8%A7%D9%8A.pdf",
+          "kind": "document",
+          "claim": "3 - قانون حمایت از حقوق پدیدآورندگان نرم افزارهای رایانه ای",
+          "id": "kermanshah-technology-discovery-document-9046e4c1fe9d"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c833dec3-0ae7-4ea4-834d-9850eeb9d0fd&FileName=%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C%20%20%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA%20%D9%86%D8%AD%D9%88%D9%87%20%D8%AE%D8%B1%DB%8C%D8%AF%20%DA%A9%D8%A7%D9%84%D8%A7%DB%8C%20%D8%AE%D8%A7%D8%B1%D8%AC%DB%8C.pdf",
+          "kind": "document",
+          "claim": "1 - فلوچارت جدید نحوه استفاده ازکالای خارجی در خریدهای طرحی و غیر طرحی سامانه توانیران",
+          "id": "kermanshah-technology-discovery-document-905f6a029649"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c98a8472-c61a-411b-bc23-1c415f538fda&FileName=Research%20Plan-Help.pdf",
+          "kind": "document",
+          "claim": "راهنمای ثبت طرح پژوهشی تفاهم نامه ای",
+          "id": "kermanshah-technology-discovery-document-924a765201d3"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ae8bfde8-3fce-479c-8fdb-50a49a565053&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C-%D8%AC%D8%AF%DB%8C%D8%AF.pdf",
+          "kind": "document",
+          "claim": "آیین نامه پسا دکترا وزراتی",
+          "id": "kermanshah-technology-discovery-document-96bf169c1166"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=5b323f15-1e48-4334-a901-4577b696cf66&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%2099.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اجرایی فرصت مطالعاتی اعضای هیئت علمی",
+          "id": "kermanshah-technology-discovery-document-9743045ad040"
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dd9d3f8f-e683-4c1f-9398-7d41995e4245&FileName=209.pdf",
@@ -1423,130 +1027,178 @@
           "id": "kermanshah-technology-discovery-document-9bd8c0e3c5be"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6f3e415f-389e-42df-bb30-b0eb1265e335&FileName=%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%201405.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "8 - پروپوزال کلیه طرحهای پژوهشی (به استثناء طرحهای واحد فناور)",
-          "id": null
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=500cfdf4-1153-46d6-b08b-e5fde09290cc&FileName=%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87%20-%20%D9%86%DA%A9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%B1%D8%AE%D8%B5%D9%88%D8%B5%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%D8%A7%DB%8C%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20-%20%D9%85%D8%A7%D8%AF%D9%87%2053%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%DB%8C%20-%20%D9%85%D8%B1%DA%A9%D8%B2%20%D9%87%DB%8C%D8%A6%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C%20%D8%A7%D9%85%D9%86%D8%A7.pdf",
+          "kind": "document",
+          "claim": "2 - نکاتی درخصوص اعطای پایه های تشویقی اعضای هیئت علمی",
+          "id": "kermanshah-technology-discovery-document-9c3f407c9dbf"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=4de584c1-6709-469a-93a9-f11ed1bef68b&FileName=KUT%20Garnt-1404.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - آئین نامه اعتبار ویژه پژوهشی اعضای هیئت علمی",
-          "id": null
+          "url": "https://kut.ac.ir/wp-content/uploads/2025/12/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%D9%86%D8%AD%D9%88%D9%87-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pptx",
+          "kind": "document",
+          "claim": "فلوچارت نحوه درخواست فرصت مطالعاتی",
+          "id": "kermanshah-technology-discovery-document-9e340c410ff8"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6670f5a7-664d-44e9-809b-1a457b4eef9d&FileName=Proposal-1401.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - پروپوزال مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=99e5a4b4-ca37-4123-9399-29bd7c899258&FileName=%D8%AA%D8%B9%D9%87%D8%AF%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B9%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%DA%A9%D9%88%D8%AA%D8%A7%D9%87%20%D9%85%D8%AF%D8%AA.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - فرم تعهدنامه اعزام به سفر علمی در قالب ماموریت پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d8bfa1cb-d259-4314-a623-dd9c29ad6ca5&FileName=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%A7%D8%B9%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%DA%A9%D9%88%D8%AA%D8%A7%D9%87%20%D9%85%D8%AF%D8%AA.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - راهنمای اعزام به مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e9bc2355-188d-4095-8248-c74fdcdde857&FileName=%D9%81%D8%B1%D9%85%20%D8%B4%D9%86%D8%A7%D8%B3%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%20%D8%A8%D8%B1%D8%AA%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - فرم شناسنامه فعالیتهای پژوهشی-پژوهشگر برتر دانشجویی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=01f1d63e-8cad-47b6-a82b-ab55c1befd93&FileName=%D9%81%D8%A7%DB%8C%D9%84%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - آموزش ثبت مقاله چاپ شده در فعالیت های پژوهشی",
-          "id": null
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=b1019aac-cac4-44f4-a36d-4ea65a244d56&FileName=report.docx",
+          "kind": "document",
+          "claim": "گزارش نهایی طرح پژوهشی",
+          "id": "kermanshah-technology-discovery-document-a06dc4c09f6c"
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d84fb23c-1ecb-4d16-b8e3-645b00335de5&FileName=%D9%81%D8%A7%DB%8C%D9%84%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%20%D8%B7%D8%B1%D8%AD%20%D9%87%D8%A7.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "2 - آموزش ثبت طرح ها",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-a285313e12fc"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=fe572ea7-effe-4a1f-9a00-abebc2497565&FileName=1.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - برخورداری از پایه تشویقی در خصوص راه اندازی آزمایشگاه مرجع (1402/11/09)",
-          "id": null
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=0b7aec3f-fe56-4683-9ab2-4f3592f7378c&FileName=New%20colleague.docx",
+          "kind": "document",
+          "claim": "فرم درخواست اضافه نمودن همکار به مقالات مستخرج از پایان نامه دانشجویان تحصیلات تکمیلی",
+          "id": "kermanshah-technology-discovery-document-a32037a26b22"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=500cfdf4-1153-46d6-b08b-e5fde09290cc&FileName=%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87%20-%20%D9%86%DA%A9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%B1%D8%AE%D8%B5%D9%88%D8%B5%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%D8%A7%DB%8C%D9%87%20%D9%87%D8%A7%DB%8C%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A6%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20-%20%D9%85%D8%A7%D8%AF%D9%87%2053%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D8%A7%D9%85%DB%8C%20-%20%D9%85%D8%B1%DA%A9%D8%B2%20%D9%87%DB%8C%D8%A6%D8%AA%E2%80%8C%D9%87%D8%A7%DB%8C%20%D8%A7%D9%85%D9%86%D8%A7.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - نکاتی درخصوص اعطای پایه های تشویقی اعضای هیئت علمی",
-          "id": null
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d72b4d90-6d15-4660-ada1-e735aeb1344d&FileName=%D9%85%D9%86%D8%B4%D9%88%D8%B1%20%D9%88%20%D9%85%D9%88%D8%A7%D8%B2%DB%8C%D9%86%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20-1391.rar",
+          "kind": "document",
+          "claim": "1 - دستورالعمل نحوه بررسی تخلفات پژوهشی",
+          "id": "kermanshah-technology-discovery-document-a6dcf496718a"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=5f795640-544b-45e1-9525-92f9689ece2b&FileName=%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%DB%8C%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "4 - نحوه ی امتیاز دهی به مقالات در اعطای پایه ی تشویقی",
-          "id": null
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6040bca3-32e9-45f3-bd6f-4b219c43bcc8&FileName=%D9%BE%D8%B3%D8%A7%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C%20%D8%B5%D9%86%D8%AF%D9%88%D9%82%20INSF.pdf",
+          "kind": "document",
+          "claim": "آیین نامه پسا دکترا INSF",
+          "id": "kermanshah-technology-discovery-document-b0a8a0a72e5b"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c73a09ca-81d3-497f-bc62-3050c195dc84&FileName=%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "5 - کاربرگ اعطای پایه تشویقی",
-          "id": null
+          "url": "https://kut.ac.ir/wp-content/uploads/2025/12/%D9%86%D9%85%D9%88%D9%86%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D8%AA%D8%A3%DB%8C%DB%8C%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pptx",
+          "kind": "document",
+          "claim": "نمونه نامه های تأیید فرصت مطالعاتی",
+          "id": "kermanshah-technology-discovery-document-b2dc4b96c618"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=934ba0f8-77bd-42bb-b687-e2c86055f4df&FileName=%D9%86%D9%85%D9%88%D9%86%D9%87%20%D9%81%D8%A7%DB%8C%D9%84%20%D8%A7%DA%A9%D8%B3%D9%84%20%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C.xlsx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "6 - نمونه تکمیل شده فایل اکسل مربوط به پایه تشویقی",
-          "id": null
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=3c43a0ef-3492-48e5-babc-8a5f7821f3c5&FileName=%D9%88%D8%A7%D8%AD%D8%AF%20%D9%85%D9%88%D8%B8%D9%81%DB%8C.docx",
+          "kind": "document",
+          "claim": "فرم واحد موظفی",
+          "id": "kermanshah-technology-discovery-document-b7b3b68b0fc4"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c682e868-3e27-4ca0-bb2e-f2bdc1f44ba6&FileName=%D8%B4%D8%B1%D8%A7%DB%8C%D8%B7%20%DA%A9%D8%AA%D8%A7%D8%A8%20%D8%AA%D8%B5%D9%86%DB%8C%D9%81%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - شرایط کتاب تصنیفی",
-          "id": null
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=99e5a4b4-ca37-4123-9399-29bd7c899258&FileName=%D8%AA%D8%B9%D9%87%D8%AF%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B9%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%DA%A9%D9%88%D8%AA%D8%A7%D9%87%20%D9%85%D8%AF%D8%AA.pdf",
+          "kind": "document",
+          "claim": "فرم تعهدنامه اعزام به سفر علمی در قالب ماموریت پژوهشی",
+          "id": "kermanshah-technology-discovery-document-bae301237281"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c833dec3-0ae7-4ea4-834d-9850eeb9d0fd&FileName=%D8%B7%D8%B1%D8%A7%D8%AD%DB%8C%20%20%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA%20%D9%86%D8%AD%D9%88%D9%87%20%D8%AE%D8%B1%DB%8C%D8%AF%20%DA%A9%D8%A7%D9%84%D8%A7%DB%8C%20%D8%AE%D8%A7%D8%B1%D8%AC%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - فلوچارت جدید نحوه استفاده ازکالای خارجی در خریدهای طرحی و غیر طرحی سامانه توانیران",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6b9e0abb-f0b9-4878-ba1b-40ca96bd1b72&FileName=%D9%86%D8%AD%D9%88%D9%87%20%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D9%87%20%D9%87%D8%B2%DB%8C%D9%86%D9%87%20%D8%B3%D8%B1%D9%88%D8%B1.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - نحوه محاسبه هزینه سرور",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ebeaca2d-342d-413b-9cb9-3dffc2e06377&FileName=%D8%B1%D9%88%D9%86%D8%AF%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D8%B3%D8%B1%D9%88%D8%B1%20%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A7%D8%AA%DB%8C%20.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - روند درخواست استفاده از سرور محاسباتی",
-          "id": null
-        },
-        {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ac695040-5aea-4b0b-9306-50fe8b829ebb&FileName=%D9%85%D8%B5%D9%88%D8%A8%D8%A7%D8%AA%20%D8%B4%D9%88%D8%B1%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AE%D8%A7%D8%B1%D8%AC%20%D8%A7%D8%B2%20%D8%A2.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - مصوبات شورای پژوهشی دانشگاه خارج از آئین نامه های موجود",
-          "id": null
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=15f79b2e-ceab-4206-bbd0-fa75cfe2bd0d&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
+          "kind": "document",
+          "claim": "آیین نامه نشریات علمی",
+          "id": "kermanshah-technology-discovery-document-bf4e08c562f9"
         },
         {
           "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=be238ef9-60e6-4114-b6e2-ca2ccb763449&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%B1%D9%81%DB%8C%D8%B9%2014051202.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "3 - آئین نامه ترفیع",
-          "id": null
+          "id": "kermanshah-technology-discovery-document-bfc360b45033"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a8440c60-7cdf-48da-b99f-f301688cdd2a&FileName=semat.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - اولویتهای پژوهشی سمات ملی",
-          "id": null
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=143bd0f2-4574-4ef7-905f-2a4084e86a06&FileName=referee%20form-Plan.doc",
+          "kind": "document",
+          "claim": "فرم داوری طرح های تفاهم نامه ای",
+          "id": "kermanshah-technology-discovery-document-c591db6842f1"
         },
         {
-          "url": "https://kut.ac.ir/wp-content/uploads/2026/06/karamoozi.zip",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرمهای کار آموزی",
-          "id": null
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=11a891c9-9b95-42cf-b8e4-6f7e3044ca27&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%20%D8%A7%D9%86%D8%AC%D8%A7%D9%85%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%20%DA%A9%D8%B4%D9%88%D8%B1%20%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7%20%D9%88%20%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA%20%D8%A2%D9%85%D9%88%D8%B2%D8%B4%20%D8%B9%D8%A7%D9%84%DB%8C%20%D9%88%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه حمایت از انجام فرصت مطالعاتی داخل کشور اعضاء هیات علمی دانشگاهها و موسسات آموزش عالی و پژوهشی",
+          "id": "kermanshah-technology-discovery-document-c71a29d9d1fe"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=934ba0f8-77bd-42bb-b687-e2c86055f4df&FileName=%D9%86%D9%85%D9%88%D9%86%D9%87%20%D9%81%D8%A7%DB%8C%D9%84%20%D8%A7%DA%A9%D8%B3%D9%84%20%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C.xlsx",
+          "kind": "document",
+          "claim": "6 - نمونه تکمیل شده فایل اکسل مربوط به پایه تشویقی",
+          "id": "kermanshah-technology-discovery-document-ce71e6ae9dbf"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d8bfa1cb-d259-4314-a623-dd9c29ad6ca5&FileName=%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%DB%8C%20%D8%A7%D8%B9%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%DA%A9%D9%88%D8%AA%D8%A7%D9%87%20%D9%85%D8%AF%D8%AA.pdf",
+          "kind": "document",
+          "claim": "راهنمای اعزام به مأموریت پژوهشی در قالب همکاری تحقیقاتی با خارج از کشور",
+          "id": "kermanshah-technology-discovery-document-d0112966a461"
+        },
+        {
+          "url": "https://kut.ac.ir/wp-content/uploads/2025/12/%D9%81%D8%B1%D8%A2%DB%8C%D9%86%D8%AF-%D8%AF%D8%B1%DB%8C%D8%A7%D9%81%D8%AA-%DA%AF%D9%88%D8%A7%D9%87%DB%8C-%D8%AA%D8%A3%DB%8C%DB%8C%D8%AF-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D9%88-%D8%B7%D8%B1%D8%AD-%D8%AC%D8%A7%DB%8C%DA%AF%D8%B2%DB%8C%D9%86-%D8%AF%D9%81%D8%AA%D8%B1-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA.pdf",
+          "kind": "document",
+          "claim": "فرآیند گواهی تأیید فرصت مطالعاتی و طرح جایگزین دفتر ارتباط با صنعت",
+          "id": "kermanshah-technology-discovery-document-d4b801e42ba4"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f9969213-c545-457a-a6e1-95b13f8126c7&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%201403.pdf",
+          "kind": "document",
+          "claim": "آئین نامه حمایت از پایان نامه های تحصیلات تکمیلی",
+          "id": "kermanshah-technology-discovery-document-d4db62ce7fda"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c682e868-3e27-4ca0-bb2e-f2bdc1f44ba6&FileName=%D8%B4%D8%B1%D8%A7%DB%8C%D8%B7%20%DA%A9%D8%AA%D8%A7%D8%A8%20%D8%AA%D8%B5%D9%86%DB%8C%D9%81%DB%8C.pdf",
+          "kind": "document",
+          "claim": "3 - شرایط کتاب تصنیفی",
+          "id": "kermanshah-technology-discovery-document-d511e325445f"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c332fe56-eede-4ed7-91f6-185252184335&FileName=%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D8%AB%D8%A8%D8%AA%20%D8%A7%D8%AE%D8%AA%D8%B1%D8%A7%D8%B9%D8%A7%D8%AA%20%D9%88%20%D8%B7%D8%B1%D8%AD%20%D9%87%D8%A7%D9%8A%20%D8%B5%D9%86%D8%B9%D8%AA%D9%8A%20%D9%88%20%D8%B9%D9%84%D8%A7%D8%A6%D9%85%20%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A.pdf",
+          "kind": "document",
+          "claim": "4 - قانون ثبت اختراعات و طرح های صنعتی و علائم تجاری",
+          "id": "kermanshah-technology-discovery-document-d56605393d15"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=200103c4-19ec-4ba1-a909-21591da09684&FileName=-%20%D9%82%D8%A7%D9%86%D9%88%D9%86%20%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA%20%D8%A7%D9%86%D8%AA%D8%B8%D8%A7%D9%85%D9%8A%20%D9%87%D9%8A%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%D9%8A%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D9%87%D8%A7.pdf",
+          "kind": "document",
+          "claim": "قانون مقررات انتظامی هیأت علمی دانشگاهها",
+          "id": "kermanshah-technology-discovery-document-d575289514b9"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=05fe54e9-c8e5-4e0e-8522-3f7fcba3720b&FileName=Research%20Assistant.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه دستیار پژوهشی (مصوبه اولین نشست از دوره پنجم هیئت امنا مورخ 1400/12/02)",
+          "id": "kermanshah-technology-discovery-document-d6aa267da3d4"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6b8f74e2-18c9-45aa-8fd6-a1ca7cc46487&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C.pdf",
+          "kind": "document",
+          "claim": "آیین نامه دستیار پژوهشی وزارتی",
+          "id": "kermanshah-technology-discovery-document-d726d107d794"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=7701b8f7-0ed4-4855-86c8-d81a5a735cae&FileName=%D8%A7%D8%B5%D9%84%D8%A7%D8%AD%DB%8C%D9%87%20%D8%B4%D9%85%D8%A7%D8%B1%D9%87%202.pdf",
+          "kind": "document",
+          "claim": "2 - اصلاحیه شماره 2",
+          "id": "kermanshah-technology-discovery-document-d8e34c3dbc86"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c73a09ca-81d3-497f-bc62-3050c195dc84&FileName=%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C.docx",
+          "kind": "document",
+          "claim": "5 - کاربرگ اعطای پایه تشویقی",
+          "id": "kermanshah-technology-discovery-document-d8f9bac6b512"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aba601a3-85b0-437f-b449-fe1dff29a03f&FileName=%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA%20%D8%AC%D8%AF%DB%8C%D8%AF%20%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%AD%D9%82%20%D8%A7%D9%84%D8%AA%D8%B4%D9%88%DB%8C%D9%82%20%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%84%201404.docx",
+          "kind": "document",
+          "claim": "تغییرات جدید آیین نامه حق التشویق مقالات در سال 1404",
+          "id": "kermanshah-technology-discovery-document-db9ed7c963cc"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f374a25b-5dd7-40c0-af56-10020a8be374&FileName=postdoc-kut.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه پژوهشگر پسا دکترا (مصوبه اولین نشست از دوره پنجم هیئت امنا مورخ 1400/12/02)",
+          "id": "kermanshah-technology-discovery-document-ddbe24771a9f"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ba311bd9-3212-4ede-9850-7a4b60244a9b&FileName=%D8%A8%D8%AE%D8%B4%D9%86%D8%A7%D9%85%D9%87%20%D8%AF%D8%B1%20%D8%AE%D8%B5%D9%88%D8%B5%20%D8%B1%D9%81%D8%B9%20%D8%A7%D8%A8%D9%87%D8%A7%D9%85%D8%A7%D8%AA%20%D9%85%D8%B7%D8%B1%D9%88%D8%AD%D9%87%20%D9%BE%DB%8C%D8%B1%D8%A7%D9%85%D9%88%D9%86%20%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%86%D8%AD%D9%88%D9%87%20%D8%A7%D8%B9%D8%B7%D8%A7%DB%8C%20%D9%BE%D8%A7%DB%8C%D9%87%20%D8%AA%D8%B4%D9%88%DB%8C%D9%82%DB%8C%20%D9%85%D8%A7%D8%AF%D9%87%2053.pdf",
+          "kind": "document",
+          "claim": "بخشنامه در خصوص رفع ابهامات مطروحه پیرامون دستورالعمل نحوه اعطای پایه تشویقی ماده 53",
+          "id": "kermanshah-technology-discovery-document-df4bbb35ee90"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=7fade0f4-edbf-40ad-b31a-ef33f256d687&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل حمایت از فرصت مطالعاتی اعضای هیئت علمی دانشگاه صنعتی کرمانشاه",
+          "id": "kermanshah-technology-discovery-document-e2bccbf0997c"
         },
         {
           "url": "https://kut.ac.ir/wp-content/uploads/2025/10/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C%D8%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C.pdf",
@@ -1555,18 +1207,40 @@
           "id": "kermanshah-technology-discovery-document-e5bbbfddfe4f"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/Regulations/Default.aspx",
-          "kind": "research-review-specific",
-          "claim": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1",
-          "id": null,
-          "sourceLabel": "فرم‌ها، آیین‌نامه‌ها و دستورالعمل‌ها 1"
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aa9186d8-029e-4753-a9fe-a9b89e7b4169&FileName=%D9%85%D9%86%D8%B4%D9%88%D8%B1%20%D9%88%20%D9%85%D9%88%D8%A7%D8%B2%DB%8C%D9%86%20%D8%A7%D8%AE%D9%84%D8%A7%D9%82%20%D9%BE%DA%98%D9%88%D9%87%D8%B4.pdf",
+          "kind": "document",
+          "claim": "منشور و موازین اخلاق پژوهش",
+          "id": "kermanshah-technology-discovery-document-eda6e91e6926"
         },
         {
-          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=da393bdb-09d0-4a97-8ecc-7bde4b8427d2&FileName=avc_Promotion-Guide.rar",
-          "kind": "research-review-specific",
-          "claim": "2 - راهنمای درخواست ترفیع پایه در سامانه ژیرو",
-          "id": null,
-          "sourceLabel": "2 - راهنمای درخواست ترفیع پایه در سامانه ژیرو"
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=576c3377-644c-400f-b5de-d4da86427a07&FileName=%D8%A7%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%DB%8C.pdf",
+          "kind": "document",
+          "claim": "ایین نامه استفاده از فرصت مطالعاتی وزارتی",
+          "id": "kermanshah-technology-discovery-document-ee6986c646f0"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e4fa51ea-4c59-472d-97d4-48671be97e3a&FileName=book%20review%20form%20(1402%2011%2030).docx",
+          "kind": "document",
+          "claim": "فرم داوری کتاب تصنیفی (word)",
+          "id": "kermanshah-technology-discovery-document-f6dbed945c32"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a1fea871-d482-4388-af31-6b08e0342234&FileName=%D9%81%D8%B1%D8%A7%DB%8C%D9%86%D8%AF%20%D8%AF%D8%A7%D9%88%D8%B1%DB%8C%20%DA%A9%D8%AA%D8%A7%D8%A8%20%D8%AA%D8%B5%D9%86%DB%8C%D9%81%DB%8C.pdf",
+          "kind": "document",
+          "claim": "1 - فرایند داوری کتاب تصنیفی",
+          "id": "kermanshah-technology-discovery-document-f9b583e550c8"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6caca31e-fbcd-4b47-bac5-f8ef51a9ce20&FileName=%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1%D8%A7%D8%AA%20%D8%AB%D8%A8%D8%AA%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%87%D8%A7.docx",
+          "kind": "document",
+          "claim": "تغییرات ثبت پروپوزال پایان نامه ها با توجه به آیین نامه پژوهانه جدید",
+          "id": "kermanshah-technology-discovery-document-fbac0fc3f222"
+        },
+        {
+          "url": "https://research.kut.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6887f235-3281-43c6-b8bf-4d81e32124a7&FileName=209b_2.pdf",
+          "kind": "document",
+          "claim": "فرم دریافت حق التحقیق طرح­های پژوهشی کاربردی مسأله محور(به سفارش دانشگاه)",
+          "id": "kermanshah-technology-discovery-document-fbb3f7148a4c"
         }
       ],
       "publicationAdjustment": null,

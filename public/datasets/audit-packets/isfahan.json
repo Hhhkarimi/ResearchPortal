@@ -85,7 +85,7 @@
     "scoreEligibility": "eligible",
     "discoveryCrawler": {
       "lastRun": "2026-08-14",
-      "promotedSources": 63,
+      "promotedSources": 0,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -165,12 +165,12 @@
       "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "verified",
-      "laboratories": "verified",
+      "laboratories": "unresolved",
       "industryTechnology": "verified",
       "systemsServices": "unresolved",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 71,
+    "auditEvidenceCoverage": 57,
     "unitsFound": 4,
     "systemsFound": 0,
     "documentsFound": 27,
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 61,
+      "sourceCount": 60,
       "sources": [
         {
           "url": "https://research.ui.ac.ir/",
@@ -199,44 +199,44 @@
         },
         {
           "url": "https://research.ui.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7%DB%8C-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.ui.ac.ir/%D8%B3%D8%A7%DB%8C%D8%B1-%D8%A7%D8%AE%D8%A8%D8%A7%D8%B1/-%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%D8%A7%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%81%D8%B1%D9%87%D9%86%DA%AF%DB%8C%D8%A7%D9%86-%D8%A7%D8%B2-%D9%85%D9%88%D8%B2%D9%87-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.ui.ac.ir/%D9%85%D8%B1%DA%A9%D8%B2-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%BE%D8%B1%D8%AF%D8%A7%D8%B2%D8%B4-%D9%88-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D9%87%D9%88%D8%B4%D9%85%D9%86%D8%AF",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.ui.ac.ir/-%D8%A7%D8%AF%D8%A7%D8%B1%D9%87-%DA%86%D8%A7%D9%BE-%D9%88-%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
@@ -397,38 +397,33 @@
         },
         {
           "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/nashr_2.pdf",
-          "kind": "research-review-specific",
-          "claim": "-آیین نامه اجرایی نشر کتاب در انتشارات دانشگاه اصفهان",
-          "id": null,
-          "sourceLabel": "-آیین نامه اجرایی نشر کتاب در انتشارات دانشگاه اصفهان"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/fakhar.pdf",
-          "kind": "research-review-specific",
-          "claim": "-شیوه نامه تألیف و چاپ کتاب فاخر اعضای هیأت علمی دانشگاه اصفهان (سفارش کتاب)",
-          "id": null,
-          "sourceLabel": "-شیوه نامه تألیف و چاپ کتاب فاخر اعضای هیأت علمی دانشگاه اصفهان (سفارش کتاب)"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/aeennnameh1398.pdf",
-          "kind": "research-review-specific",
-          "claim": "-آیین نامه نشریات علمی مصوب کمیسیون نشریات کشور اردیبهشت ۱۳۹۸",
-          "id": null,
-          "sourceLabel": "-آیین نامه نشریات علمی مصوب کمیسیون نشریات کشور اردیبهشت ۱۳۹۸"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/rotbeh.pdf",
-          "kind": "research-review-specific",
-          "claim": "-شیوه نامه ارزیابی و رتبه بندی نشریات علمی مصوب کمیسیون نشریات کشور",
-          "id": null,
-          "sourceLabel": "-شیوه نامه ارزیابی و رتبه بندی نشریات علمی مصوب کمیسیون نشریات کشور"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/dastresebaz.pdf",
-          "kind": "research-review-specific",
-          "claim": "-آیین نامه تعیین هزینه پردازش مقاله در نشریات علمی، دسترسی باز",
-          "id": null,
-          "sourceLabel": "-آیین نامه تعیین هزینه پردازش مقاله در نشریات علمی، دسترسی باز"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/ui.pdf",
@@ -438,17 +433,15 @@
         },
         {
           "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/APA_1.pdf",
-          "kind": "research-review-specific",
-          "claim": "-شیوه نامه استناددهی استانداردAPA (نسخه هفتم)",
-          "id": null,
-          "sourceLabel": "-شیوه نامه استناددهی استانداردAPA (نسخه هفتم)"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/bookmark.pdf",
-          "kind": "research-review-specific",
-          "claim": "-شیوه نامه بوک مارک BOOK MARK مقالات",
-          "id": null,
-          "sourceLabel": "-شیوه نامه بوک مارک BOOK MARK مقالات"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D9%82%D8%A7%D9%84%D8%A8%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C(5).docx",
@@ -482,10 +475,9 @@
         },
         {
           "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/taahood.docx",
-          "kind": "research-review-specific",
-          "claim": "-تعهدات ناشر و نویسنده برای انتشار اثر",
-          "id": null,
-          "sourceLabel": "-تعهدات ناشر و نویسنده برای انتشار اثر"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%DA%AF%D8%A7%D8%B1%D8%B4%20%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4%20%D8%B4%D8%AF%D9%87%20%D8%AF%DB%8C%20%D9%85%D8%A7%D9%87%201403docx.pdf",
@@ -549,20 +541,14 @@
         },
         {
           "url": "https://research.ui.ac.ir/%D8%AC%D8%B3%D8%AA%D8%AC%D9%88",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://research.ui.ac.ir/%D8%AF%D8%B1%D8%A8%D8%A7%D8%B1%D9%87-%D9%85%D8%A7",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://research.ui.ac.ir/%D9%85%D8%B4%D8%A7%D8%A8%D9%87%D8%AA-%DB%8C%D8%A7%D8%A8",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         }
       ],
@@ -623,30 +609,12 @@
       "iscCategory": "جامع",
       "iscRank": 7,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 21,
+      "sourceCount": 9,
       "sources": [
-        {
-          "url": "https://library.ui.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.ui.ac.ir/DL/Search/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87%D9%87%D8%A7%DB%8C-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA%DB%8C-(%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%AF%DB%8C%D8%AC%DB%8C%D8%AA%D8%A7%D9%84)-",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
         {
           "url": "https://research.ui.ac.ir/",
           "kind": "unit",
@@ -660,6 +628,13 @@
           "claim": "معاونت پژوهش و فناوری | اداره چاپ و انتشارات",
           "id": "isfahan-discovery-unit-library-2860c8353c66",
           "unitType": "publishing"
+        },
+        {
+          "url": "https://library.ui.ac.ir/",
+          "kind": "unit",
+          "claim": "کتابخانه مرکزی",
+          "id": "isfahan-discovery-unit-library-e20880efdc53",
+          "unitType": "library"
         },
         {
           "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/rotbeh.pdf",
@@ -696,80 +671,10 @@
           "kind": "document",
           "claim": "-آیین نامه تعیین هزینه پردازش مقاله در نشریات علمی، دسترسی باز",
           "id": "isfahan-discovery-document-eca5a46086fa"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%DA%86%DA%AF%D9%88%D9%86%DA%AF%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%A7%D9%87%D8%AF%D8%A7%DB%8C%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B9%D8%B6%D9%88%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%82%D9%81%D8%B3%D9%87-%D8%AE%D9%88%D8%A7%D9%86%DB%8C%D8%8C-%D8%B4%D9%84%D9%81-%D8%AE%D9%88%D8%A7%D9%86%DB%8C-%D9%88-%D8%A8%D8%A7%D8%B1%DA%A9%D8%AF%D8%AE%D9%88%D8%A7%D9%86%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%81%D8%A7%D8%B8%D8%AA-%D9%88-%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B2-%D9%85%D9%86%D8%A7%D8%A8%D8%B9%D8%8C-%D8%AA%D8%AC%D9%87%DB%8C%D8%B2%D8%A7%D8%AA-%D9%88-%D9%81%D8%B6%D8%A7%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF-%D8%A7%D8%B2-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D9%84%DB%8C%D9%86%DA%A9",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88%D8%AC%DB%8C%D9%86-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-1404",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -779,21 +684,14 @@
       "iscCategory": "جامع",
       "iscRank": 7,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "http://centlab.ui.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -803,27 +701,22 @@
       "iscCategory": "جامع",
       "iscRank": 7,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 2,
+      "sourceCount": 1,
       "sources": [
         {
           "url": "https://iro.ui.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://iro.ui.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-1",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
+          "kind": "unit",
+          "claim": "مدیریت ارتباط با جامعه و صنعت | خانه",
+          "id": "isfahan-discovery-unit-industry-30b0380d5910",
+          "unitType": "industry"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -833,64 +726,14 @@
       "iscCategory": "جامع",
       "iscRank": 7,
       "dimension": "systemsServices",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 7,
-      "sources": [
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/aeennnameh1398.pdf",
-          "kind": "research-review-specific",
-          "claim": "-آیین نامه نشریات علمی مصوب کمیسیون نشریات کشور اردیبهشت ۱۳۹۸",
-          "id": null,
-          "sourceLabel": "-آیین نامه نشریات علمی مصوب کمیسیون نشریات کشور اردیبهشت ۱۳۹۸"
-        },
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/rotbeh.pdf",
-          "kind": "research-review-specific",
-          "claim": "-شیوه نامه ارزیابی و رتبه بندی نشریات علمی مصوب کمیسیون نشریات کشور",
-          "id": null,
-          "sourceLabel": "-شیوه نامه ارزیابی و رتبه بندی نشریات علمی مصوب کمیسیون نشریات کشور"
-        },
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/dastresebaz.pdf",
-          "kind": "research-review-specific",
-          "claim": "-آیین نامه تعیین هزینه پردازش مقاله در نشریات علمی، دسترسی باز",
-          "id": null,
-          "sourceLabel": "-آیین نامه تعیین هزینه پردازش مقاله در نشریات علمی، دسترسی باز"
-        },
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/ui.pdf",
-          "kind": "research-review-specific",
-          "claim": "-آیین نامه نشریات دانشگاه اصفهان",
-          "id": null,
-          "sourceLabel": "-آیین نامه نشریات دانشگاه اصفهان"
-        },
-        {
-          "url": "https://library.ui.ac.ir/DorsaPax/userfiles/Sub64/rahpayan.pdf",
-          "kind": "research-review-specific",
-          "claim": "جهت راهنما بصورت برای آگاهی از چگونگی بارگذاری پایان نامه در سامانه کتابخانه مرکزی دانشگاه اصفهان کلیک نمایید .",
-          "id": null,
-          "sourceLabel": "جهت راهنما بصورت برای آگاهی از چگونگی بارگذاری پایان نامه در سامانه کتابخانه مرکزی دانشگاه اصفهان کلیک نمایید ."
-        },
-        {
-          "url": "http://thesisdl.ui.ac.ir/",
-          "kind": "research-review-specific",
-          "claim": "سامانه پایان نامه",
-          "id": null,
-          "sourceLabel": "سامانه پایان نامه"
-        },
-        {
-          "url": "http://inexam.ir/",
-          "kind": "research-review-specific",
-          "claim": "سامانه ارزیابی علمی و امتیازدهی اختراع",
-          "id": null,
-          "sourceLabel": "سامانه ارزیابی علمی و امتیازدهی اختراع"
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -900,173 +743,29 @@
       "iscCategory": "جامع",
       "iscRank": 7,
       "dimension": "documentsRegulations",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 41,
+      "sourceCount": 27,
       "sources": [
         {
-          "url": "https://library.ui.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7-%d9%88-%d9%81%d8%b1%d9%85-%d9%87%d8%a7-%d8%ac%d9%87%d8%aa-%d9%84%db%8c%d9%86%da%a9",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://library.ui.ac.ir/%DA%86%DA%AF%D9%88%D9%86%DA%AF%DB%8C-%D8%A8%D8%A7%D8%B1%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B1-%D9%86%D8%B1%D9%85-%D8%A7%D9%81%D8%B2%D8%A7%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%A7%D9%87%D8%AF%D8%A7%DB%8C%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B9%D8%B6%D9%88%DB%8C%D8%AA-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF%E2%80%93-%DB%B1%DB%B4%DB%B0%DB%B3",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%82%D9%81%D8%B3%D9%87-%D8%AE%D9%88%D8%A7%D9%86%DB%8C%D8%8C-%D8%B4%D9%84%D9%81-%D8%AE%D9%88%D8%A7%D9%86%DB%8C-%D9%88-%D8%A8%D8%A7%D8%B1%DA%A9%D8%AF%D8%AE%D9%88%D8%A7%D9%86%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AD%D9%81%D8%A7%D8%B8%D8%AA-%D9%88-%D9%86%DA%AF%D9%87%D8%AF%D8%A7%D8%B1%DB%8C-%D8%A7%D8%B2-%D9%85%D9%86%D8%A7%D8%A8%D8%B9%D8%8C-%D8%AA%D8%AC%D9%87%DB%8C%D8%B2%D8%A7%D8%AA-%D9%88-%D9%81%D8%B6%D8%A7%D9%87%D8%A7%DB%8C-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF-%D8%A7%D8%B2-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%88%D8%AC%DB%8C%D9%86-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%87%D8%A7%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%E2%80%93-1404",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%AE%D8%AF%D9%85%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://iro.ui.ac.ir/-%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%87%D8%A7-%D9%88-%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-_-%D9%88%D8%B2%D8%A7%D8%B1%D8%AA-%D8%B9%D8%AA%D9%81",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://iro.ui.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://iro.ui.ac.ir/%D9%81%D8%B1%D9%85-%D8%AE%D8%A7%D9%85-%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%D9%87",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/nashr_2.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "-آیین نامه اجرایی نشر کتاب در انتشارات دانشگاه اصفهان",
-          "id": null
-        },
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/fakhar.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "-شیوه نامه تألیف و چاپ کتاب فاخر اعضای هیأت علمی دانشگاه اصفهان (سفارش کتاب)",
-          "id": null
-        },
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/formfakhar.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "-فرم درخواست بررسی کتاب فاخر",
-          "id": null
-        },
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/tanzembookuiacir.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "-راهنمای تنظیم فایل کتاب",
-          "id": null
-        },
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/taahood.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "-تعهدات ناشر و نویسنده برای انتشار اثر",
-          "id": null
-        },
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/aeennnameh1398.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "-آیین نامه نشریات علمی مصوب کمیسیون نشریات کشور اردیبهشت ۱۳۹۸",
-          "id": null
-        },
-        {
           "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/rotbeh.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "-شیوه نامه ارزیابی و رتبه بندی نشریات علمی مصوب کمیسیون نشریات کشور",
-          "id": null
-        },
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/dastresebaz.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "-آیین نامه تعیین هزینه پردازش مقاله در نشریات علمی، دسترسی باز",
-          "id": null
-        },
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/ui.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "-آیین نامه نشریات دانشگاه اصفهان",
-          "id": null
-        },
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/APA_1.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "-شیوه نامه استناددهی استانداردAPA (نسخه هفتم)",
-          "id": null
-        },
-        {
-          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/bookmark.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "-شیوه نامه بوک مارک BOOK MARK مقالات",
-          "id": null
-        },
-        {
-          "url": "https://library.ui.ac.ir/DorsaPax/userfiles/Sub64/rahpayan.pdf",
           "kind": "document",
-          "claim": "جهت مشاهده فایل راهنما بصورت pdf برای آگاهی از چگونگی بارگذاری پایان نامه در سامانه کتابخانه مرکزی دانشگاه اصفهان کلیک نمایید .",
-          "id": "isfahan-discovery-document-4de982d393f6"
-        },
-        {
-          "url": "https://iro.ui.ac.ir/uploads/125/2026/May/06/%D9%81%D8%B1%D9%85%20%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم قرارداد مطالعات پژوهشی",
-          "id": null
-        },
-        {
-          "url": "http://thesisdl.ui.ac.ir/",
-          "kind": "portal-document-reaudit-document",
-          "claim": "سامانه پایان نامه",
-          "id": null
+          "claim": "-شیوه نامه ارزیابی و رتبه بندی نشریات علمی مصوب کمیسیون نشریات کشور",
+          "id": "isfahan-discovery-document-00f3b767b21b"
         },
         {
           "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/PDF.js%20viewer.pdf",
           "kind": "document",
           "claim": "PDF.js viewer",
           "id": "isfahan-discovery-document-0609d187b630"
+        },
+        {
+          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/ui.pdf",
+          "kind": "document",
+          "claim": "-آیین نامه نشریات دانشگاه اصفهان",
+          "id": "isfahan-discovery-document-06fe7072e433"
         },
         {
           "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D9%82%D8%A7%D9%84%D8%A8%20%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%DA%A9%D8%A7%D8%B1%D8%B4%D9%86%D8%A7%D8%B3%DB%8C%20%D8%A7%D8%B1%D8%B4%D8%AF(1).docx",
@@ -1087,6 +786,36 @@
           "id": "isfahan-discovery-document-4087ba806d1d"
         },
         {
+          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/formfakhar.docx",
+          "kind": "document",
+          "claim": "-فرم درخواست بررسی کتاب فاخر",
+          "id": "isfahan-discovery-document-4352a1cc1195"
+        },
+        {
+          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/bookmark.pdf",
+          "kind": "document",
+          "claim": "-شیوه نامه بوک مارک BOOK MARK مقالات",
+          "id": "isfahan-discovery-document-47fde4c78b22"
+        },
+        {
+          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/aeennnameh1398.pdf",
+          "kind": "document",
+          "claim": "-آیین نامه نشریات علمی مصوب کمیسیون نشریات کشور اردیبهشت ۱۳۹۸",
+          "id": "isfahan-discovery-document-48090a1817e9"
+        },
+        {
+          "url": "https://library.ui.ac.ir/DorsaPax/userfiles/Sub64/rahpayan.pdf",
+          "kind": "document",
+          "claim": "جهت مشاهده فایل راهنما بصورت pdf برای آگاهی از چگونگی بارگذاری پایان نامه در سامانه کتابخانه مرکزی دانشگاه اصفهان کلیک نمایید .",
+          "id": "isfahan-discovery-document-4de982d393f6"
+        },
+        {
+          "url": "https://iro.ui.ac.ir/uploads/125/2026/May/06/%D9%81%D8%B1%D9%85%20%D9%82%D8%B1%D8%A7%D8%B1%D8%AF%D8%A7%D8%AF%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.docx",
+          "kind": "document",
+          "claim": "فرم قرارداد مطالعات پژوهشی",
+          "id": "isfahan-discovery-document-50152a3965b6"
+        },
+        {
           "url": "https://iro.ui.ac.ir/uploads/125/2025/Oct/18/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20-%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D8%AA%D9%81_1.pdf",
           "kind": "document",
           "claim": "شیوه نامه فرصت مطالعاتی اعضای هیات علمی - وزارت عتف_1",
@@ -1099,10 +828,22 @@
           "id": "isfahan-discovery-document-84a9a106551d"
         },
         {
+          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/fakhar.pdf",
+          "kind": "document",
+          "claim": "-شیوه نامه تألیف و چاپ کتاب فاخر اعضای هیأت علمی دانشگاه اصفهان (سفارش کتاب)",
+          "id": "isfahan-discovery-document-8fe6e348205e"
+        },
+        {
           "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%DA%AF%D8%A7%D8%B1%D8%B4%20%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4%20%D8%B4%D8%AF%D9%87%20%D8%AF%DB%8C%20%D9%85%D8%A7%D9%87%201403docx.pdf",
           "kind": "document",
           "claim": "شیوه نگارش ویرایش شده دی ماه 1403docx",
           "id": "isfahan-discovery-document-9392d0f9cfef"
+        },
+        {
+          "url": "http://thesisdl.ui.ac.ir/",
+          "kind": "document",
+          "claim": "سامانه پایان نامه",
+          "id": "isfahan-discovery-document-95799d7601d1"
         },
         {
           "url": "https://iro.ui.ac.ir/uploads/125/2025/Mar/03/%D9%81%D8%B1%D9%85%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%B5%D9%86%D8%B9%D8%AA%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.docx",
@@ -1111,10 +852,22 @@
           "id": "isfahan-discovery-document-b446d04d52b2"
         },
         {
+          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/tanzembookuiacir.pdf",
+          "kind": "document",
+          "claim": "-راهنمای تنظیم فایل کتاب",
+          "id": "isfahan-discovery-document-b4f945ae7a49"
+        },
+        {
           "url": "https://iro.ui.ac.ir/uploads/125/2025/Mar/03/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%B5%D9%86%D8%B9%D8%AA%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.pdf",
           "kind": "document",
           "claim": "دستورالعمل اجرایی فرصت مطالعاتی صنعتی دانشگاه اصفهان",
           "id": "isfahan-discovery-document-d251e1263345"
+        },
+        {
+          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/nashr_2.pdf",
+          "kind": "document",
+          "claim": "-آیین نامه اجرایی نشر کتاب در انتشارات دانشگاه اصفهان",
+          "id": "isfahan-discovery-document-d76d42b5a555"
         },
         {
           "url": "https://library.ui.ac.ir/uploads/117/2025/Feb/05/%D9%82%D8%A7%D9%84%D8%A8%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C(5).docx",
@@ -1129,6 +882,24 @@
           "id": "isfahan-discovery-document-e3400806a3d1"
         },
         {
+          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/dastresebaz.pdf",
+          "kind": "document",
+          "claim": "-آیین نامه تعیین هزینه پردازش مقاله در نشریات علمی، دسترسی باز",
+          "id": "isfahan-discovery-document-eca5a46086fa"
+        },
+        {
+          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/APA_1.pdf",
+          "kind": "document",
+          "claim": "-شیوه نامه استناددهی استانداردAPA (نسخه هفتم)",
+          "id": "isfahan-discovery-document-f16eee06ff31"
+        },
+        {
+          "url": "https://research.ui.ac.ir/uploads/88/2024/Dec/10/taahood.docx",
+          "kind": "document",
+          "claim": "-تعهدات ناشر و نویسنده برای انتشار اثر",
+          "id": "isfahan-discovery-document-f628bbbd876c"
+        },
+        {
           "url": "https://roshd.ui.ac.ir/uploads/121/2025/Feb/17/%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%86%D8%B8%D8%A7%D8%B1%D8%AA%20%D9%88%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20%D9%85%D8%B1%DA%A9%D8%B2%20%D8%B1%D8%B4%D8%AF%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86.pdf",
           "kind": "document",
           "claim": "یین نامه نظارت و ارزیابی مرکز رشد فناوری دانشگاه اصفهان",
@@ -1139,24 +910,10 @@
           "kind": "document",
           "claim": "آیین‌نامه تمدید استقرار شرکت‌های دانش‌بنیان",
           "id": "isfahan-doc-1"
-        },
-        {
-          "url": "https://iro.ui.ac.ir/%D9%81%D8%B1%D9%85-%D9%87%D8%A7-1",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://library.ui.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7-%D8%AC%D9%87%D8%AA-%D9%84%DB%8C%D9%86%DA%A9",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],

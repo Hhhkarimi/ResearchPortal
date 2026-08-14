@@ -88,7 +88,7 @@
     ],
     "discoveryCrawler": {
       "lastRun": "2026-08-14",
-      "promotedSources": 105,
+      "promotedSources": 0,
       "socialEvidenceRemoved": true
     }
   },
@@ -166,11 +166,11 @@
       "organization": "observed-reference",
       "libraryDocuments": "unresolved",
       "laboratories": "verified",
-      "industryTechnology": "verified",
+      "industryTechnology": "observed-reference",
       "systemsServices": "observed-reference",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 71,
+    "auditEvidenceCoverage": 64,
     "unitsFound": 1,
     "systemsFound": 0,
     "documentsFound": 55,
@@ -230,52 +230,51 @@
         },
         {
           "url": "https://rtm.maragheh.ac.ir/193",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://rtm.maragheh.ac.ir/fa/home",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://rtm.maragheh.ac.ir/fa/193",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://rtm.maragheh.ac.ir/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://rtm.maragheh.ac.ir/%D9%82%D9%88%D8%A7%D9%86%DB%8C%D9%86-%D9%88-%D9%85%D9%82%D8%B1%D8%B1%D8%A7%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://rtm.maragheh.ac.ir/fa/w/%DA%A9%D8%B1%D8%B3%DB%8C-%D8%AA%D8%B1%D9%88%DB%8C%D8%AC%DB%8C-%DA%86%D8%A7%D9%84%D8%B4%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%B3%DB%8C%D8%A7%D8%B3%D8%AA%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D8%AF%D8%B1-%D9%88%D8%B1%D8%B2%D8%B4-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86-%E2%9A%BD?redirect=%2F",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://rtm.maragheh.ac.ir/fa/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D8%A7-%D9%88-%D9%81%D8%B1%D9%85-%D9%87%D8%A7",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c27bb36b-4656-42c5-96a8-afcbb3af9eb4&FileName=65793ec78b0e5-.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - کتاب مجموعه آیین نامه ها، شیوه نامه ها و دستورالعمل های مصوب معاونت پژوهشی وزارت علوم، تحقیقات و فناوری (تابستان 1402)",
-          "id": null,
-          "sourceLabel": "2 - کتاب مجموعه آیین نامه ها، شیوه نامه ها و دستورالعمل های مصوب معاونت پژوهشی وزارت علوم، تحقیقات و فناوری (تابستان 1402)"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=753568d7-d405-468c-ab5d-eeda4d286e6b&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A8%D8%B1%D9%88%D9%86%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C%20(%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4%20%D8%B4%D8%AF%D9%87).pdf",
@@ -453,10 +452,9 @@
         },
         {
           "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9db9e39d-7760-4ca2-a9e4-0744e5caa464&FileName=Pasa%20Doctora%D9%8D%20Editted%20%D8%8CTir%201405pdf.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - شیوه نامه دوره پژوهشی پسا دکتری (Post-Doctoral Research) (ویرایش تیر ماه 1405)",
-          "id": null,
-          "sourceLabel": "2 - شیوه نامه دوره پژوهشی پسا دکتری (Post-Doctoral Research) (ویرایش تیر ماه 1405)"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://rtm.maragheh.ac.ir/documents/56093/0/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D9%85%D8%A7%D8%AF%D9%87+5+%D8%A2%D8%A6%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87.pdf/bc8af7ee-8fd5-870e-eee2-28522456ef78?t=1764397965588",
@@ -490,20 +488,20 @@
         },
         {
           "url": "https://rtm.maragheh.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://rtm.maragheh.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://maragheh.ac.ir/fa/w/%D8%A7%D8%B1%D8%AA%D9%82%D8%A7-%D8%B3%D9%87-%D9%BE%D9%84%D9%87%E2%80%8C%D8%A7%DB%8C-%D8%AC%D8%A7%DB%8C%DA%AF%D8%A7%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%D8%A7%D8%BA%D9%87-%D8%AF%D8%B1-%D9%81%D9%87%D8%B1%D8%B3%D8%AA-%D9%86%DB%8C-1?redirect=%2F",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
@@ -558,7 +556,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 3,
+      "sourceCount": 1,
       "sources": [
         {
           "url": "https://clab.maragheh.ac.ir/",
@@ -566,20 +564,6 @@
           "claim": "آزمایشگاه مرکزی",
           "id": "maragheh-discovery-unit-laboratory-8b59bb4ee75e",
           "unitType": "laboratory"
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c1749d9d-19ca-4f76-a4c6-2ce754c8fcc7&FileName=%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%D8%8C%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D8%8C%20%D9%86%D8%B8%D8%A7%D8%B1%D8%AA%20%D9%88%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%D8%8C%20%D9%86%D8%AD%D9%88%D9%87%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D9%88%20%D8%A7%D9%86%D8%AD%D9%84%D8%A7%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D9%85%D8%B1%D8%A7%D8%BA%D9%87%20_REV2.pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - شیوه‌نامه تاسیس، فعالیت، نظارت و ارزیابی، نحوه حمایت و انحلال واحدهای پژوهشی دانشگاه مراغه",
-          "id": null,
-          "sourceLabel": "1 - شیوه‌نامه تاسیس، فعالیت، نظارت و ارزیابی، نحوه حمایت و انحلال واحدهای پژوهشی دانشگاه مراغه"
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=083bd780-5b44-4fb8-a3b0-21421038efbb&FileName=%D9%81%D8%B1%D9%85%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF%20%D8%B3%D8%A7%D9%84%D8%A7%D9%86%D9%87%20%D9%88%D8%A7%D8%AD%D8%AF%20%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D9%85%D8%B1%D8%A7%D8%BA%D9%87.docx",
-          "kind": "research-review-specific",
-          "claim": "4 - فرم ارزیابی عملکرد سالانه واحد های پژوهشی دانشگاه مراغه",
-          "id": null,
-          "sourceLabel": "4 - فرم ارزیابی عملکرد سالانه واحد های پژوهشی دانشگاه مراغه"
         }
       ],
       "publicationAdjustment": null,
@@ -617,28 +601,22 @@
       "iscCategory": "جامع",
       "iscRank": 37,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 2,
+      "sourceCount": 1,
       "sources": [
         {
           "url": "https://clab.maragheh.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=28f9b712-5360-4918-a701-3bd8b10c9707&FileName=%D9%81%D8%B1%D9%85%20%D8%B4%D9%85%D8%A7%D8%B1%D9%87%201.docx",
-          "kind": "research-review-specific",
-          "claim": "2 - فرم درخواست تاسیس گروه پژوهشی / هسته پژوهشی / آزمایشگاه تحقیقاتی فرم شماره 1",
-          "id": null,
-          "sourceLabel": "2 - فرم درخواست تاسیس گروه پژوهشی / هسته پژوهشی / آزمایشگاه تحقیقاتی فرم شماره 1"
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی",
+          "id": "maragheh-discovery-unit-laboratory-8b59bb4ee75e",
+          "unitType": "laboratory"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -648,102 +626,22 @@
       "iscCategory": "جامع",
       "iscRank": 37,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "observed-reference",
+      "reportedStatus": "observed-reference",
+      "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 13,
+      "sourceCount": 1,
       "sources": [
-        {
-          "url": "https://edu.maragheh.ac.ir/web/site/achievements?sort=createDate-&tag=%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7+%D8%A8%D8%A7+%D8%B5%D9%86%D8%B9%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://edu.maragheh.ac.ir/web/site/achievements?sort=createDate-&tag=%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+%D9%85%D8%B1%D8%A7%D8%BA%D9%87&tag=%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7+%D8%A8%D8%A7+%D8%B5%D9%86%D8%B9%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://edu.maragheh.ac.ir/web/site/achievements?sort=createDate-&tag=%D9%85%D8%B1%D8%A7%D8%BA%D9%87&tag=%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7+%D8%A8%D8%A7+%D8%B5%D9%86%D8%B9%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://edu.maragheh.ac.ir/web/site/achievements?sort=createDate-&tag=%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF+%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87+%D9%85%D8%B1%D8%A7%D8%BA%D9%87&tag=%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7+%D8%A8%D8%A7+%D8%B5%D9%86%D8%B9%D8%AA",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
         {
           "url": "https://rtm.maragheh.ac.ir/",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش و فناوری 1",
           "id": null,
           "sourceLabel": "پرتال پژوهش و فناوری 1"
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=15ceaf7c-c477-4e33-9e4e-a9710fa5cdbe&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-8-2-1401%20(1).pdf",
-          "kind": "research-review-specific",
-          "claim": "1 - آئین نامه دستیار فناوری (1400/12/21)",
-          "id": null,
-          "sourceLabel": "1 - آئین نامه دستیار فناوری (1400/12/21)"
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c27bb36b-4656-42c5-96a8-afcbb3af9eb4&FileName=65793ec78b0e5-.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - کتاب مجموعه آیین نامه ها، شیوه نامه ها و دستورالعمل های مصوب معاونت پژوهشی وزارت علوم، تحقیقات و فناوری (تابستان 1402)",
-          "id": null,
-          "sourceLabel": "2 - کتاب مجموعه آیین نامه ها، شیوه نامه ها و دستورالعمل های مصوب معاونت پژوهشی وزارت علوم، تحقیقات و فناوری (تابستان 1402)"
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=3ae776a6-e617-4e16-be8c-d70a8133a990&FileName=Adm.rar.7.pdf",
-          "kind": "research-review-specific",
-          "claim": "3 - آیین نامه ارتقای مرتبه اعضای هیأت علمی آموزشی و پژوهشی و فناوری (ویرایش 1395)",
-          "id": null,
-          "sourceLabel": "3 - آیین نامه ارتقای مرتبه اعضای هیأت علمی آموزشی و پژوهشی و فناوری (ویرایش 1395)"
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=90be0864-23e9-4ebb-b2b2-123016236392&FileName=%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.doc",
-          "kind": "research-review-specific",
-          "claim": "1 - پروپوزال فرصت مطالعاتی ارتباط با صنعت و جامعه",
-          "id": null,
-          "sourceLabel": "1 - پروپوزال فرصت مطالعاتی ارتباط با صنعت و جامعه"
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=25771320-06d8-430b-808e-6c9df2a36a2d&FileName=Rewards%20-%20Shive%20nameh.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - شیوه نامه تشویق فعالیت های پژوهشی و فناورانه (1400/07/27)",
-          "id": null,
-          "sourceLabel": "2 - شیوه نامه تشویق فعالیت های پژوهشی و فناورانه (1400/07/27)"
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=b6d57070-0d08-42d5-8c25-0e76d622a8e5&FileName=%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.docx",
-          "kind": "research-review-specific",
-          "claim": "2 - گزارش نهایی فرصت مطالعاتی ارتباط با صنعت و جامعه",
-          "id": null,
-          "sourceLabel": "2 - گزارش نهایی فرصت مطالعاتی ارتباط با صنعت و جامعه"
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=096e71dc-fad1-443b-8afd-6ef97a39be5f&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%81%D8%B6%D8%A7%DB%8C%20%DA%A9%D8%A7%D8%B1%20%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%DA%A9%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "2 - دستورالعمل حمایت از توسعه فعالیت و اعتباربخشی به فضای کار اشتراکی نوآوری (1402/05/28)",
-          "id": null,
-          "sourceLabel": "2 - دستورالعمل حمایت از توسعه فعالیت و اعتباربخشی به فضای کار اشتراکی نوآوری (1402/05/28)"
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=4eb2ea1f-3d02-4894-af47-6431daa59d19&FileName=Rewards.doc",
-          "kind": "research-review-specific",
-          "claim": "1 - فرم تشویقی فعالیت های پژوهشی و فناورانه",
-          "id": null,
-          "sourceLabel": "1 - فرم تشویقی فعالیت های پژوهشی و فناورانه"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "An official public reference was observed, but direct dimension attribution was not established.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -797,328 +695,328 @@
           "id": null
         },
         {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=15ceaf7c-c477-4e33-9e4e-a9710fa5cdbe&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-8-2-1401%20(1).pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - آئین نامه دستیار فناوری (1400/12/21)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c27bb36b-4656-42c5-96a8-afcbb3af9eb4&FileName=65793ec78b0e5-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - کتاب مجموعه آیین نامه ها، شیوه نامه ها و دستورالعمل های مصوب معاونت پژوهشی وزارت علوم، تحقیقات و فناوری (تابستان 1402)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=3ae776a6-e617-4e16-be8c-d70a8133a990&FileName=Adm.rar.7.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - آیین نامه ارتقای مرتبه اعضای هیأت علمی آموزشی و پژوهشی و فناوری (ویرایش 1395)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=753568d7-d405-468c-ab5d-eeda4d286e6b&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A8%D8%B1%D9%88%D9%86%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C%20(%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4%20%D8%B4%D8%AF%D9%87).pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "12 - شیوه‌نامه طرح‌های پژوهشی برون‌‎دانشگاهی و آیین‌نامه محاسبه نرخ بالا سری طرح‌های تحقیقاتی 1403",
-          "id": null
-        },
-        {
-          "url": "https://pajhooheshi.msrt.ir/file/download/news/65793ec78b0e5-.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "كتاب مجموعه آيين نامه هاي پژوهشي مصوب عتف",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=8f084242-cf8c-40c5-bbc1-245c4eb864bc&FileName=Top.offices2023.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "4 - شیوه‌نامه و فرم انتخاب پژوهشگران برتر ادارات شهرستان مراغه (ویرایش پاییز سال 1402)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f38d863e-316f-4ba7-82a8-08282e08ac3c&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D9%84%D9%88%D9%85.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - شیوه نامه فرصت مطالعاتی وزارت علوم (1390/06/02)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e22b73bf-b436-444c-99c7-330d8a33e277&FileName=Shiveh%20Nameh%20Grant%20Editted%20Bahman%201404.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - شیوه نامه اعتبار ویژه پژوهشی (گرنت) و تشویق نویسندگان مقالات (ویرایش بهمن 1404)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=bb764a00-ac5a-44f2-838e-371b5e9846a6&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.%D9%88%DB%8C%D8%B1%D8%A7%D8%B4%20%D8%A7%D8%B3%D9%81%D9%86%D8%AF%201404.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - شیوه نامه طرح پژوهشی داخل دانشگاه (ویرایش اسفند 1404)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=04f91f4a-1297-4d50-90b3-d82ddce3a59c&FileName=proposal-Second%20Part.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "5 - فرم پیشنهاد طرح پژوهشی (پروپوزال)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=7d5b1e5b-e5d9-4abb-bead-66276eb280d4&FileName=gozareshe-nahai.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "7 - شیوه نامه تنظیم گزارش نهایی طرح های تحقیقاتی",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c27582aa-d72b-4a50-b5d4-edb9755558dc&FileName=Forms-Proposal.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "8 - فرم هزینه های انجام یافته از محل طرح پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c1749d9d-19ca-4f76-a4c6-2ce754c8fcc7&FileName=%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%D8%8C%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D8%8C%20%D9%86%D8%B8%D8%A7%D8%B1%D8%AA%20%D9%88%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%D8%8C%20%D9%86%D8%AD%D9%88%D9%87%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D9%88%20%D8%A7%D9%86%D8%AD%D9%84%D8%A7%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D9%85%D8%B1%D8%A7%D8%BA%D9%87%20_REV2.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - شیوه‌نامه تاسیس، فعالیت، نظارت و ارزیابی، نحوه حمایت و انحلال واحدهای پژوهشی دانشگاه مراغه",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=080b54c1-f9ea-42cb-b2aa-e129c529a7ea&FileName=shivenameStudents%20Editted%201403.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - شیوه‌نامه انتخاب دانشجویان پژوهشگر برتر دانشگاه مراغه (ویرایش مهر 1403)",
-          "id": null
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=52d6a425-c3f7-424e-8aa6-191d128b2fe5&FileName=shenaseh.doc",
+          "kind": "document",
+          "claim": "فرم شناسه طرح پژوهشی (همراه با ارائه گزارش نهایی)",
+          "id": "maragheh-discovery-document-03d5ae81ab6f"
         },
         {
           "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=90be0864-23e9-4ebb-b2b2-123016236392&FileName=%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - پروپوزال فرصت مطالعاتی ارتباط با صنعت و جامعه",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=25771320-06d8-430b-808e-6c9df2a36a2d&FileName=Rewards%20-%20Shive%20nameh.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - شیوه نامه تشویق فعالیت های پژوهشی و فناورانه (1400/07/27)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c0fe9668-8095-4fc3-9432-902898c099c5&FileName=RIAMM,%201398.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - شیوه نامه ارزیابی فعالیت های موظفی اعضای هیئت علمی پژوهشی دانشگاه (ویرایش زمستان 1398)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=de14aa1e-5a33-4620-9f52-cecc5dc2816a&FileName=Students-papers1405.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - شیوه نامه اجرائی حمایت از فعالیت های پژوهشی دانشجویان (ویرایش تیر 1403)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a220b64d-0853-4866-8f6b-a2098ff146f8&FileName=%D9%81%D8%B1%D9%85%20%D8%A7%D8%B1%D8%B3%D8%A7%D9%84%20%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AA%D9%88%D8%B3%D8%B7%20%DA%AF%D8%B1%D9%88%D9%87%20(1).docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "5 - فرم ارسال گزارش فرصت مطالعاتی اعضای هیات علمی توسط گروه",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=2f194cc6-3031-49c7-b210-7bcdaf70bc1f&FileName=%D9%81%D8%B1%D9%85%20%D8%A7%D8%B1%D8%B3%D8%A7%D9%84%20%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "6 - فرم ارسال گزارش فرصت مطالعاتی اعضای هیات علمی",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e655f72e-377d-4449-af84-b0a6293e3430&FileName=%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C%201400.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - فرم پیشنهاده فرصت مطالعاتی داخلی اعضای هیأت علمی",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=07dd0037-64a4-493f-95af-ecc924c40866&FileName=Hazineh-Grant%20Factor%20Free%20(2).docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - فرم شماره 2 هزینه های انجام یافته از محل گرنت (بدون فاکتور)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=8d409121-3949-47f9-904f-cf393d55996f&FileName=Hazineh-Grant%20(1).docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - فرم شماره 1 هزینه های انجام یافته از محل گرنت",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e668cefe-6f35-492f-a7b6-566be46a6821&FileName=darkhaste-barrasi%20(2).doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - فرم درخواست بررسی طرح پژوهشی (ویرایش بهمن 1399)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d160b954-c495-42fa-bddf-158eec5debda&FileName=proposal-Second%20Part.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "4 - فرم پیشنهاد طرح پژوهشی - قسمت دوم (جهت ارسال به داوری)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aa10660a-d099-43a8-9d1f-4ccf4add1bc4&FileName=gozareshe-marhalei.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "6 - فرم گزارش مرحله ای طرح پژوهشی (همزمان با درخواست حق التحقیق)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=4c8daeed-3cc9-4c0f-86df-25fba140f9b3&FileName=hagholTahghigh-Proposal.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "9 - فرم درخواست حق التحقیق طرح پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=52d6a425-c3f7-424e-8aa6-191d128b2fe5&FileName=shenaseh.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "10 - فرم شناسه طرح پژوهشی (همراه با ارائه گزارش نهایی)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e43a8214-183c-4895-8795-1d642a703c18&FileName=Tarh%20Karbordi%20Masaleh%20Mehvar.%20Shahrivar%201404.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "11 - شیوه‌نامه اجرایی طرح های پژوهشی کاربردی مسأله محور دانشگاه مراغه (ویرایش شهریور 1404)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ad574159-966b-49e8-a380-2e134ba336f6&FileName=shivename1404.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - شیوه نامه انتخاب پژوهشگران برتر سال (ویرایش آبان 1404)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=be51f2c6-56e5-4a59-aafb-f3696d4e932c&FileName=Post-Doctoral.Ministry.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - آیین نامه جذب و به کارگیری محققان پسادکتری شورای عالی عتف ابلاغی مورخ 10/12/1401 شماره 011543/12/3",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9db9e39d-7760-4ca2-a9e4-0744e5caa464&FileName=Pasa%20Doctora%D9%8D%20Editted%20%D8%8CTir%201405pdf.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - شیوه نامه دوره پژوهشی پسا دکتری (Post-Doctoral Research) (ویرایش تیر ماه 1405)",
-          "id": null
-        },
-        {
-          "url": "https://rtm.maragheh.ac.ir/documents/56093/0/2+%283%29.pdf/365f62a9-d459-3cfe-0a44-b1cde32e9bd5?t=1765277512176",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای استفاده از ابزارهای هوش مصنوعی در پژوهش",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=28f9b712-5360-4918-a701-3bd8b10c9707&FileName=%D9%81%D8%B1%D9%85%20%D8%B4%D9%85%D8%A7%D8%B1%D9%87%201.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - فرم درخواست تاسیس گروه پژوهشی / هسته پژوهشی / آزمایشگاه تحقیقاتی فرم شماره 1",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=60027451-cb17-4412-8c73-fe48ebe52e3f&FileName=%D9%81%D8%B1%D9%85%20%D8%B4%D9%85%D8%A7%D8%B1%D9%87%202.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - فرم درخواست تاسیس مرکز پژوهشی فرم شماره 2",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=083bd780-5b44-4fb8-a3b0-21421038efbb&FileName=%D9%81%D8%B1%D9%85%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF%20%D8%B3%D8%A7%D9%84%D8%A7%D9%86%D9%87%20%D9%88%D8%A7%D8%AD%D8%AF%20%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D9%85%D8%B1%D8%A7%D8%BA%D9%87.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "4 - فرم ارزیابی عملکرد سالانه واحد های پژوهشی دانشگاه مراغه",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=b6d57070-0d08-42d5-8c25-0e76d622a8e5&FileName=%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - گزارش نهایی فرصت مطالعاتی ارتباط با صنعت و جامعه",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=096e71dc-fad1-443b-8afd-6ef97a39be5f&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%81%D8%B6%D8%A7%DB%8C%20%DA%A9%D8%A7%D8%B1%20%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%DA%A9%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - دستورالعمل حمایت از توسعه فعالیت و اعتباربخشی به فضای کار اشتراکی نوآوری (1402/05/28)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=4eb2ea1f-3d02-4894-af47-6431daa59d19&FileName=Rewards.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - فرم تشویقی فعالیت های پژوهشی و فناورانه",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=b86abed7-832a-40da-a82a-075d45e503b0&FileName=%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D9%85%D8%B1%D8%A7%D8%BA%D9%87%20(%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4%20%D8%A8%D9%87%D8%A7%D8%B1%201403).pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - آئین نامه فرصت مطالعاتی دانشگاه مراغه (ویرایش بهار 1403)",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=96412b8f-4ee5-4253-a39f-ef63a3883996&FileName=%D8%AC%D9%80%D8%AF%D9%88%D9%84%20%D9%85%D9%82%D8%B1%D8%B1%DB%8C%20%D8%A7%D8%B1%D8%B2%DB%8C%20%D8%AE%D8%A7%D8%B1%D8%AC%20%D8%A7%D8%B2%20%DA%A9%D8%B4%D9%88%D8%B1%20%D9%85%D8%B1%D8%A8%D9%88%D8%B7%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C%20%D8%AE%D8%A7%D8%B1%D8%AC.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "2 - جدول مقرری ارزی خارج از کشور مربوط به فرصت تحقیقاتی خارج",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6b1a44a5-8b5a-4636-9ff5-a71996674bfe&FileName=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%AD%D9%82%DB%8C%D9%82%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "4 - برنامه تحقیق فرصت مطالعاتی",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=bd9fdc88-d5ca-4d03-a9a2-f9b124fb4182&FileName=%D9%85%D8%AF%D8%A7%D8%B1%D9%83%20%D9%84%D8%A7%D8%B2%D9%85%20%D8%AC%D9%87%D8%AA%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-3.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "7 - مدارک لازم جهت استفاده از فرصت مطالعاتی",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c040d621-77da-4011-98cb-6dfae253797d&FileName=%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%B9%D8%B6%D9%88%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%DA%AF%D8%B1%D9%88%D9%87%20%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "9 - کاربرگ درخواست عضو هیات علمی گروه برای استفاده از فرصت مطالعاتی",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=015860e8-b57c-4a06-a524-075c113d3f64&FileName=%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%AF%D8%A7%D9%86%D8%B4%DA%A9%D8%AF%D9%87%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "10 - کاربرگ درخواست دانشکده برای استفاده از فرصت مطالعاتی",
-          "id": null
+          "kind": "document",
+          "claim": "پروپوزال فرصت مطالعاتی ارتباط با صنعت و جامعه",
+          "id": "maragheh-discovery-document-07abef80913b"
         },
         {
           "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e0e51bc7-07e0-49d4-897c-fca5f8bf290d&FileName=ISI-guide.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "4 - راهنمای مجلات نمایه شده در ISI Web of Science",
-          "id": null
+          "id": "maragheh-discovery-document-08f8c82409b7"
         },
         {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f7607377-408d-4ccf-b633-1d9895bf1538&FileName=gardeshekar.tarh%20(Repaired).pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "1 - گردش کار طرح های تحقیقاتی",
-          "id": null
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=60027451-cb17-4412-8c73-fe48ebe52e3f&FileName=%D9%81%D8%B1%D9%85%20%D8%B4%D9%85%D8%A7%D8%B1%D9%87%202.docx",
+          "kind": "document",
+          "claim": "فرم درخواست تاسیس مرکز پژوهشی فرم شماره 2",
+          "id": "maragheh-discovery-document-092f4b57dc9b"
         },
         {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=4fa2f808-a630-46a4-aa73-182b00b2b6ec&FileName=Asasname-nashriat.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - دستورالعمل اجرایی نشریات علمی- پژوهشی دانشگاه مراغه (پاییز 94)",
-          "id": null
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=a220b64d-0853-4866-8f6b-a2098ff146f8&FileName=%D9%81%D8%B1%D9%85%20%D8%A7%D8%B1%D8%B3%D8%A7%D9%84%20%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AA%D9%88%D8%B3%D8%B7%20%DA%AF%D8%B1%D9%88%D9%87%20(1).docx",
+          "kind": "document",
+          "claim": "فرم ارسال گزارش فرصت مطالعاتی اعضای هیات علمی توسط گروه",
+          "id": "maragheh-discovery-document-0c72edd27cba"
         },
         {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=452d7936-cad6-4bb1-890f-1ee403e2e380&FileName=Saramadan-Form%D9%8D%20Editted%20Aban%201404%20.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3 - فرم سرآمدان پژوهشی",
-          "id": null
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=28f9b712-5360-4918-a701-3bd8b10c9707&FileName=%D9%81%D8%B1%D9%85%20%D8%B4%D9%85%D8%A7%D8%B1%D9%87%201.docx",
+          "kind": "document",
+          "claim": "فرم درخواست تاسیس گروه پژوهشی / هسته پژوهشی / آزمایشگاه تحقیقاتی فرم شماره 1",
+          "id": "maragheh-discovery-document-14fac509e6a3"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e43a8214-183c-4895-8795-1d642a703c18&FileName=Tarh%20Karbordi%20Masaleh%20Mehvar.%20Shahrivar%201404.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه اجرایی طرح های پژوهشی کاربردی مسأله محور دانشگاه مراغه (ویرایش شهریور 1404)",
+          "id": "maragheh-discovery-document-1603f62510aa"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=4eb2ea1f-3d02-4894-af47-6431daa59d19&FileName=Rewards.doc",
+          "kind": "document",
+          "claim": "1 - فرم تشویقی فعالیت های پژوهشی و فناورانه",
+          "id": "maragheh-discovery-document-1819da3ac2ef"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=be51f2c6-56e5-4a59-aafb-f3696d4e932c&FileName=Post-Doctoral.Ministry.pdf",
+          "kind": "document",
+          "claim": "آیین نامه جذب و به کارگیری محققان پسادکتری شورای عالی عتف ابلاغی مورخ 10/12/1401 شماره 011543/12/3",
+          "id": "maragheh-discovery-document-19a00bdf1a0f"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=6b1a44a5-8b5a-4636-9ff5-a71996674bfe&FileName=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%AD%D9%82%DB%8C%D9%82%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.doc",
+          "kind": "document",
+          "claim": "4 - برنامه تحقیق فرصت مطالعاتی",
+          "id": "maragheh-discovery-document-1a673cf48e4f"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=753568d7-d405-468c-ab5d-eeda4d286e6b&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A8%D8%B1%D9%88%D9%86%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%DB%8C%20(%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4%20%D8%B4%D8%AF%D9%87).pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه طرح‌های پژوهشی برون‌‎دانشگاهی و آیین‌نامه محاسبه نرخ بالا سری طرح‌های تحقیقاتی 1403",
+          "id": "maragheh-discovery-document-21d47360a24b"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=4c8daeed-3cc9-4c0f-86df-25fba140f9b3&FileName=hagholTahghigh-Proposal.doc",
+          "kind": "document",
+          "claim": "فرم درخواست حق التحقیق طرح پژوهشی",
+          "id": "maragheh-discovery-document-24bb0eb7c60c"
         },
         {
           "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=8ec94105-5d49-403c-b5a7-bc870c827dd4&FileName=%D9%81%D8%B1%D9%85%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%20%D8%A8%D8%B1%D8%AA%D8%B1.docx",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "4 - فرم ارزیابی فناور برتر دانشگاه",
-          "id": null
+          "id": "maragheh-discovery-document-267da7701add"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=4fa2f808-a630-46a4-aa73-182b00b2b6ec&FileName=Asasname-nashriat.pdf",
+          "kind": "document",
+          "claim": "3 - دستورالعمل اجرایی نشریات علمی- پژوهشی دانشگاه مراغه (پاییز 94)",
+          "id": "maragheh-discovery-document-2bcaeeb02fc2"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=25771320-06d8-430b-808e-6c9df2a36a2d&FileName=Rewards%20-%20Shive%20nameh.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه تشویق فعالیت های پژوهشی و فناورانه (1400/07/27)",
+          "id": "maragheh-discovery-document-2ceab835bb7f"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=d160b954-c495-42fa-bddf-158eec5debda&FileName=proposal-Second%20Part.doc",
+          "kind": "document",
+          "claim": "فرم پیشنهاد طرح پژوهشی - قسمت دوم (جهت ارسال به داوری)",
+          "id": "maragheh-discovery-document-2ff156993d67"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=96412b8f-4ee5-4253-a39f-ef63a3883996&FileName=%D8%AC%D9%80%D8%AF%D9%88%D9%84%20%D9%85%D9%82%D8%B1%D8%B1%DB%8C%20%D8%A7%D8%B1%D8%B2%DB%8C%20%D8%AE%D8%A7%D8%B1%D8%AC%20%D8%A7%D8%B2%20%DA%A9%D8%B4%D9%88%D8%B1%20%D9%85%D8%B1%D8%A8%D9%88%D8%B7%20%D8%A8%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D8%AA%D8%AD%D9%82%DB%8C%D9%82%D8%A7%D8%AA%DB%8C%20%D8%AE%D8%A7%D8%B1%D8%AC.pdf",
+          "kind": "document",
+          "claim": "2 - جدول مقرری ارزی خارج از کشور مربوط به فرصت تحقیقاتی خارج",
+          "id": "maragheh-discovery-document-3962eb51ae5d"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c0fe9668-8095-4fc3-9432-902898c099c5&FileName=RIAMM,%201398.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه ارزیابی فعالیت های موظفی اعضای هیئت علمی پژوهشی دانشگاه (ویرایش زمستان 1398)",
+          "id": "maragheh-discovery-document-450d091a806b"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aa10660a-d099-43a8-9d1f-4ccf4add1bc4&FileName=gozareshe-marhalei.doc",
+          "kind": "document",
+          "claim": "فرم گزارش مرحله ای طرح پژوهشی (همزمان با درخواست حق التحقیق)",
+          "id": "maragheh-discovery-document-4b48778f9cc1"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c27bb36b-4656-42c5-96a8-afcbb3af9eb4&FileName=65793ec78b0e5-.pdf",
+          "kind": "document",
+          "claim": "کتاب مجموعه آیین نامه ها، شیوه نامه ها و دستورالعمل های مصوب معاونت پژوهشی وزارت علوم، تحقیقات و فناوری (تابستان 1402)",
+          "id": "maragheh-discovery-document-4be6a8bd4f44"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=080b54c1-f9ea-42cb-b2aa-e129c529a7ea&FileName=shivenameStudents%20Editted%201403.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه انتخاب دانشجویان پژوهشگر برتر دانشگاه مراغه (ویرایش مهر 1403)",
+          "id": "maragheh-discovery-document-5848fd03563c"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c040d621-77da-4011-98cb-6dfae253797d&FileName=%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%B9%D8%B6%D9%88%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%DA%AF%D8%B1%D9%88%D9%87%20%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.docx",
+          "kind": "document",
+          "claim": "9 - کاربرگ درخواست عضو هیات علمی گروه برای استفاده از فرصت مطالعاتی",
+          "id": "maragheh-discovery-document-5add12723729"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=07dd0037-64a4-493f-95af-ecc924c40866&FileName=Hazineh-Grant%20Factor%20Free%20(2).docx",
+          "kind": "document",
+          "claim": "فرم شماره 2 هزینه های انجام یافته از محل گرنت (بدون فاکتور)",
+          "id": "maragheh-discovery-document-62328ab29e2d"
+        },
+        {
+          "url": "https://rtm.maragheh.ac.ir/documents/56093/0/2+%283%29.pdf/365f62a9-d459-3cfe-0a44-b1cde32e9bd5?t=1765277512176",
+          "kind": "document",
+          "claim": "راهنمای استفاده از ابزارهای هوش مصنوعی در پژوهش",
+          "id": "maragheh-discovery-document-64b3ca1fdcca"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c27582aa-d72b-4a50-b5d4-edb9755558dc&FileName=Forms-Proposal.doc",
+          "kind": "document",
+          "claim": "فرم هزینه های انجام یافته از محل طرح پژوهشی",
+          "id": "maragheh-discovery-document-66ccf31c8e46"
+        },
+        {
+          "url": "https://pajhooheshi.msrt.ir/file/download/news/65793ec78b0e5-.pdf",
+          "kind": "document",
+          "claim": "كتاب مجموعه آيين نامه هاي پژوهشي مصوب عتف",
+          "id": "maragheh-discovery-document-691b57e6d6c0"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=c1749d9d-19ca-4f76-a4c6-2ce754c8fcc7&FileName=%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%20%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3%D8%8C%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%D8%8C%20%D9%86%D8%B8%D8%A7%D8%B1%D8%AA%20%D9%88%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%D8%8C%20%D9%86%D8%AD%D9%88%D9%87%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D9%88%20%D8%A7%D9%86%D8%AD%D9%84%D8%A7%D9%84%20%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D9%85%D8%B1%D8%A7%D8%BA%D9%87%20_REV2.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه تاسیس، فعالیت، نظارت و ارزیابی، نحوه حمایت و انحلال واحدهای پژوهشی دانشگاه مراغه",
+          "id": "maragheh-discovery-document-6d1419fd1b88"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=15ceaf7c-c477-4e33-9e4e-a9710fa5cdbe&FileName=%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87-%D8%AF%D8%B3%D8%AA%DB%8C%D8%A7%D8%B1%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-8-2-1401%20(1).pdf",
+          "kind": "document",
+          "claim": "1 - آئین نامه دستیار فناوری (1400/12/21)",
+          "id": "maragheh-discovery-document-6f298f734984"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=2f194cc6-3031-49c7-b210-7bcdaf70bc1f&FileName=%D9%81%D8%B1%D9%85%20%D8%A7%D8%B1%D8%B3%D8%A7%D9%84%20%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C.docx",
+          "kind": "document",
+          "claim": "فرم ارسال گزارش فرصت مطالعاتی اعضای هیات علمی",
+          "id": "maragheh-discovery-document-742ee4aaa249"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=b6d57070-0d08-42d5-8c25-0e76d622a8e5&FileName=%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%86%D9%87%D8%A7%DB%8C%DB%8C%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.docx",
+          "kind": "document",
+          "claim": "گزارش نهایی فرصت مطالعاتی ارتباط با صنعت و جامعه",
+          "id": "maragheh-discovery-document-767ed2c4f971"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=04f91f4a-1297-4d50-90b3-d82ddce3a59c&FileName=proposal-Second%20Part.doc",
+          "kind": "document",
+          "claim": "فرم پیشنهاد طرح پژوهشی (پروپوزال)",
+          "id": "maragheh-discovery-document-7792c906e0b0"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e668cefe-6f35-492f-a7b6-566be46a6821&FileName=darkhaste-barrasi%20(2).doc",
+          "kind": "document",
+          "claim": "فرم درخواست بررسی طرح پژوهشی (ویرایش بهمن 1399)",
+          "id": "maragheh-discovery-document-83322f9609df"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=083bd780-5b44-4fb8-a3b0-21421038efbb&FileName=%D9%81%D8%B1%D9%85%20%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF%20%D8%B3%D8%A7%D9%84%D8%A7%D9%86%D9%87%20%D9%88%D8%A7%D8%AD%D8%AF%20%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D9%85%D8%B1%D8%A7%D8%BA%D9%87.docx",
+          "kind": "document",
+          "claim": "فرم ارزیابی عملکرد سالانه واحد های پژوهشی دانشگاه مراغه",
+          "id": "maragheh-discovery-document-8f95e35bc01f"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f7607377-408d-4ccf-b633-1d9895bf1538&FileName=gardeshekar.tarh%20(Repaired).pdf",
+          "kind": "document",
+          "claim": "1 - گردش کار طرح های تحقیقاتی",
+          "id": "maragheh-discovery-document-9198c95f49f0"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=7d5b1e5b-e5d9-4abb-bead-66276eb280d4&FileName=gozareshe-nahai.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه تنظیم گزارش نهایی طرح های تحقیقاتی",
+          "id": "maragheh-discovery-document-9946837c1d01"
         },
         {
           "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=dedf3e2b-67bf-4c99-9630-1a4fbd4de8f3&FileName=unimaragheh-form-pd.doc",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "3 - فرم تقاضا پژوهشگر پسادکتری",
-          "id": null
-        },
-        {
-          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aacd1fd1-5214-4186-b981-653851cfb2e0&FileName=%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%20%DA%A9%D8%A7%D8%B1%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86%20%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "4 - فرم گزارش پیشرفت کار مرحله‌ای پژوهشگر پسادکتری",
-          "id": null
-        },
-        {
-          "url": "https://rtm.maragheh.ac.ir/documents/56093/0/%D8%A2%D8%A6%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D8%B1%DB%8C%D8%A7%D8%B3%D8%AA+%D8%AC%D9%85%D9%87%D9%88%D8%B1%DB%8C.pdf/ec81651b-e1c5-c914-dea1-5fc03ae274fb?t=1764397862848",
-          "kind": "portal-document-reaudit-document",
-          "claim": "قوانین و مقررات فایل قوانین و مقررات در ادامه قابل دسترسی می باشد: آئین نامه اجرایی قانون پیشگیری و مقابله با تقلب در تهیه آثار علمی (تصویب نامه هیئت وزیران)",
-          "id": null
+          "id": "maragheh-discovery-document-9d2c2a8d51fb"
         },
         {
           "url": "https://rtm.maragheh.ac.ir/documents/56093/0/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84+%D9%85%D8%A7%D8%AF%D9%87+5+%D8%A2%D8%A6%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87.pdf/bc8af7ee-8fd5-870e-eee2-28522456ef78?t=1764397965588",
           "kind": "document",
           "claim": "دستورالعمل ماده 5 آئین نامه اجرایی قانون پیشگیری و مقابله با تقلب در تهیه آثار علمی (وزارت علوم)",
           "id": "maragheh-discovery-document-a29c3be849b0"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e655f72e-377d-4449-af84-b0a6293e3430&FileName=%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%A7%D8%AE%D9%84%DB%8C%201400.doc",
+          "kind": "document",
+          "claim": "فرم پیشنهاده فرصت مطالعاتی داخلی اعضای هیأت علمی",
+          "id": "maragheh-discovery-document-a751279b5867"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=ad574159-966b-49e8-a380-2e134ba336f6&FileName=shivename1404.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه انتخاب پژوهشگران برتر سال (ویرایش آبان 1404)",
+          "id": "maragheh-discovery-document-b13e78fac072"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=015860e8-b57c-4a06-a524-075c113d3f64&FileName=%DA%A9%D8%A7%D8%B1%D8%A8%D8%B1%DA%AF%20%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%20%D8%AF%D8%A7%D9%86%D8%B4%DA%A9%D8%AF%D9%87%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.doc",
+          "kind": "document",
+          "claim": "10 - کاربرگ درخواست دانشکده برای استفاده از فرصت مطالعاتی",
+          "id": "maragheh-discovery-document-c34cd490447c"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=8f084242-cf8c-40c5-bbc1-245c4eb864bc&FileName=Top.offices2023.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه و فرم انتخاب پژوهشگران برتر ادارات شهرستان مراغه (ویرایش پاییز سال 1402)",
+          "id": "maragheh-discovery-document-c4919cfd1ff7"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=bb764a00-ac5a-44f2-838e-371b5e9846a6&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%B7%D8%B1%D8%AD%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.%D9%88%DB%8C%D8%B1%D8%A7%D8%B4%20%D8%A7%D8%B3%D9%81%D9%86%D8%AF%201404.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه طرح پژوهشی داخل دانشگاه (ویرایش اسفند 1404)",
+          "id": "maragheh-discovery-document-c87684175747"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=b86abed7-832a-40da-a82a-075d45e503b0&FileName=%D8%A2%D8%A6%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D9%85%D8%B1%D8%A7%D8%BA%D9%87%20(%D9%88%DB%8C%D8%B1%D8%A7%DB%8C%D8%B4%20%D8%A8%D9%87%D8%A7%D8%B1%201403).pdf",
+          "kind": "document",
+          "claim": "1 - آئین نامه فرصت مطالعاتی دانشگاه مراغه (ویرایش بهار 1403)",
+          "id": "maragheh-discovery-document-c9fb904193e6"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=452d7936-cad6-4bb1-890f-1ee403e2e380&FileName=Saramadan-Form%D9%8D%20Editted%20Aban%201404%20.docx",
+          "kind": "document",
+          "claim": "3 - فرم سرآمدان پژوهشی",
+          "id": "maragheh-discovery-document-d314e368f113"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=de14aa1e-5a33-4620-9f52-cecc5dc2816a&FileName=Students-papers1405.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اجرائی حمایت از فعالیت های پژوهشی دانشجویان (ویرایش تیر 1403)",
+          "id": "maragheh-discovery-document-d3453888ceb7"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=3ae776a6-e617-4e16-be8c-d70a8133a990&FileName=Adm.rar.7.pdf",
+          "kind": "document",
+          "claim": "آیین نامه ارتقای مرتبه اعضای هیأت علمی آموزشی و پژوهشی و فناوری (ویرایش 1395)",
+          "id": "maragheh-discovery-document-d5b04324452c"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=f38d863e-316f-4ba7-82a8-08282e08ac3c&FileName=%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C%20%D9%88%D8%B2%D8%A7%D8%B1%D8%AA%20%D8%B9%D9%84%D9%88%D9%85.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی وزارت علوم (1390/06/02)",
+          "id": "maragheh-discovery-document-d73d03dc1c3e"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=8d409121-3949-47f9-904f-cf393d55996f&FileName=Hazineh-Grant%20(1).docx",
+          "kind": "document",
+          "claim": "فرم شماره 1 هزینه های انجام یافته از محل گرنت",
+          "id": "maragheh-discovery-document-ddf9423e1947"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=9db9e39d-7760-4ca2-a9e4-0744e5caa464&FileName=Pasa%20Doctora%D9%8D%20Editted%20%D8%8CTir%201405pdf.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه دوره پژوهشی پسا دکتری (Post-Doctoral Research) (ویرایش تیر ماه 1405)",
+          "id": "maragheh-discovery-document-de68f89afa21"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=e22b73bf-b436-444c-99c7-330d8a33e277&FileName=Shiveh%20Nameh%20Grant%20Editted%20Bahman%201404.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اعتبار ویژه پژوهشی (گرنت) و تشویق نویسندگان مقالات (ویرایش بهمن 1404)",
+          "id": "maragheh-discovery-document-e7d1180c11cc"
+        },
+        {
+          "url": "https://rtm.maragheh.ac.ir/documents/56093/0/%D8%A2%D8%A6%DB%8C%D9%86+%D9%86%D8%A7%D9%85%D9%87+%D8%B1%DB%8C%D8%A7%D8%B3%D8%AA+%D8%AC%D9%85%D9%87%D9%88%D8%B1%DB%8C.pdf/ec81651b-e1c5-c914-dea1-5fc03ae274fb?t=1764397862848",
+          "kind": "document",
+          "claim": "قوانین و مقررات فایل قوانین و مقررات در ادامه قابل دسترسی می باشد: آئین نامه اجرایی قانون پیشگیری و مقابله با تقلب در تهیه آثار علمی (تصویب نامه هیئت وزیران)",
+          "id": "maragheh-discovery-document-f24bc5a87e54"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=bd9fdc88-d5ca-4d03-a9a2-f9b124fb4182&FileName=%D9%85%D8%AF%D8%A7%D8%B1%D9%83%20%D9%84%D8%A7%D8%B2%D9%85%20%D8%AC%D9%87%D8%AA%20%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87%20%D8%A7%D8%B2%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A-3.doc",
+          "kind": "document",
+          "claim": "7 - مدارک لازم جهت استفاده از فرصت مطالعاتی",
+          "id": "maragheh-discovery-document-f6b25e4ff793"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=aacd1fd1-5214-4186-b981-653851cfb2e0&FileName=%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D9%BE%DB%8C%D8%B4%D8%B1%D9%81%D8%AA%20%DA%A9%D8%A7%D8%B1%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86%20%D9%BE%D8%B3%D8%A7%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.docx",
+          "kind": "document",
+          "claim": "4 - فرم گزارش پیشرفت کار مرحله‌ای پژوهشگر پسادکتری",
+          "id": "maragheh-discovery-document-f96e364e1aff"
+        },
+        {
+          "url": "https://res.maragheh.ac.ir/_Pages/FileDownloadHandler.aspx?Code=096e71dc-fad1-443b-8afd-6ef97a39be5f&FileName=%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84%20%D9%81%D8%B6%D8%A7%DB%8C%20%DA%A9%D8%A7%D8%B1%20%D8%A7%D8%B4%D8%AA%D8%B1%D8%A7%DA%A9%DB%8C.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل حمایت از توسعه فعالیت و اعتباربخشی به فضای کار اشتراکی نوآوری (1402/05/28)",
+          "id": "maragheh-discovery-document-fdefd4206812"
         }
       ],
       "publicationAdjustment": null,

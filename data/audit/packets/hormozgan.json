@@ -85,7 +85,7 @@
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-14",
-      "promotedSources": 102,
+      "promotedSources": 0,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -160,21 +160,21 @@
       "https://www.hormozgan.ac.ir/home/index/32/87/1376",
       "https://hormozgan.ac.ir/home/index/35/96/news/3933"
     ],
-    "deepAuditStatus": "deep-audited",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "verified",
       "laboratories": "verified",
-      "industryTechnology": "verified",
+      "industryTechnology": "unresolved",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 86,
+    "auditEvidenceCoverage": 71,
     "unitsFound": 2,
     "systemsFound": 1,
     "documentsFound": 29,
-    "rankingEligibility": "candidate",
+    "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
   "dimensionEvidence": [
@@ -199,20 +199,20 @@
         },
         {
           "url": "https://hormozgan.ac.ir/home/index/10",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://hormozgan.ac.ir/home/index/10/28/news/18640",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://www.hormozgan.ac.ir/home/index/10/29",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
@@ -415,56 +415,56 @@
         },
         {
           "url": "https://www.hormozgan.ac.ir/home/index/10/28/379",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://www.hormozgan.ac.ir/home/index/10/28/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://www.hormozgan.ac.ir/home/index/10/28/search/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://www.hormozgan.ac.ir/home/index/10/28/phone/?idetpage=",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://www.hormozgan.ac.ir/home/index/10/28/2371",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://hormozgan.ac.ir/home/index/1/1/news/18959",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://hormozgan.ac.ir/home/index/10/28/news/5187",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://www.hormozgan.ac.ir/home/index/10/29/search/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://www.hormozgan.ac.ir/home/index/10/29/phone/?idetpage=",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
@@ -567,7 +567,7 @@
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 4,
+      "sourceCount": 2,
       "sources": [
         {
           "url": "https://hormozgan.ac.ir/home/index/19/52",
@@ -582,20 +582,6 @@
           "claim": "کتابخانه مرکزی",
           "id": "hormozgan-discovery-unit-library-eac857b4a7f0",
           "unitType": "library"
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F995990155459468460.pdf",
-          "kind": "research-review-specific",
-          "claim": "فلوچارت قبل از انعقاد قرارداد طرح پژوهشی",
-          "id": null,
-          "sourceLabel": "فلوچارت قبل از انعقاد قرارداد طرح پژوهشی"
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F992738364832731469.pdf",
-          "kind": "research-review-specific",
-          "claim": "فلوچارت پایان طرح پژوهشی",
-          "id": null,
-          "sourceLabel": "فلوچارت پایان طرح پژوهشی"
         }
       ],
       "publicationAdjustment": null,
@@ -609,21 +595,22 @@
       "iscCategory": "جامع",
       "iscRank": 42,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
       "sourceCount": 1,
       "sources": [
         {
           "url": "https://www.hormozgan.ac.ir/home/index/32",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "کتابخانه مرکزی",
+          "id": "hormozgan-discovery-unit-library-eac857b4a7f0",
+          "unitType": "library"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -633,57 +620,22 @@
       "iscCategory": "جامع",
       "iscRank": 42,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 7,
+      "sourceCount": 1,
       "sources": [
         {
-          "url": "https://hormozgan.ac.ir/home/index/19",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://hormozgan.ac.ir/home/index/19/51/959",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://hormozgan.ac.ir/home/index/19/51/1017",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://hormozgan.ac.ir/home/index/19/51/961",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://hormozgan.ac.ir/home/index/19/51/1971",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
           "url": "https://hormozgan.ac.ir/home/index/19/52",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://hormozgan.ac.ir/home/index/19/51/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی",
+          "id": "hormozgan-discovery-unit-laboratory-4c0a83595158",
+          "unitType": "laboratory"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -693,63 +645,22 @@
       "iscCategory": "جامع",
       "iscRank": 42,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 7,
+      "sourceCount": 1,
       "sources": [
-        {
-          "url": "https://hormozgan.ac.ir/home/index/35/96/news/3933",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
         {
           "url": "https://www.hormozgan.ac.ir/home/index/10/28/373",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش و فناوری 1",
           "id": null,
           "sourceLabel": "پرتال پژوهش و فناوری 1"
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F96912906328646486.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه اجرایی ایجاد و راه‌اندازی مرکز کارآفرینی و نوآوری(1143)",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه اجرایی ایجاد و راه‌اندازی مرکز کارآفرینی و نوآوری(1143)"
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F98656478274606755.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه نامه داخلی فرصت مطالعاتی اعضای هیأت علمی دانشگاه هرمزگان در جامعه و صنعت(2967)",
-          "id": null,
-          "sourceLabel": "شیوه نامه داخلی فرصت مطالعاتی اعضای هیأت علمی دانشگاه هرمزگان در جامعه و صنعت(2967)"
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F102977864245230808.zip",
-          "kind": "research-review-specific",
-          "claim": "فرم های فرصت مطالعاتی اعضای هیئت علمی(5510)",
-          "id": null,
-          "sourceLabel": "فرم های فرصت مطالعاتی اعضای هیئت علمی(5510)"
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F95300856320396475.pdf",
-          "kind": "research-review-specific",
-          "claim": "کرسی های نظریه پردازی، نقد و مناظره آیین نامه های هیئت علمی دستورالعمل اجرایی اعطای پژوهانه جامع وزارت علوم، تحقیقات و فناوری",
-          "id": null,
-          "sourceLabel": "کرسی های نظریه پردازی، نقد و مناظره آیین نامه های هیئت علمی دستورالعمل اجرایی اعطای پژوهانه جامع وزارت علوم، تحقیقات و فناوری"
-        },
-        {
-          "url": "https://gu.ac.ir/file/58e9a909-2ade-eb11-9ec1-005056998f1e/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت - وزارت عتف",
-          "id": null,
-          "sourceLabel": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت - وزارت عتف"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -759,40 +670,22 @@
       "iscCategory": "جامع",
       "iscRank": 42,
       "dimension": "systemsServices",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 4,
+      "sourceCount": 1,
       "sources": [
         {
-          "url": "https://scimet.hormozgan.ac.ir/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://hormozgan.ac.ir/home/index/1/1/1119",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
           "url": "https://www.hormozgan.ac.ir/home/index/10/28/514",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/home/index/32/87/1375",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
+          "kind": "system",
+          "claim": "���Ԑ�� ���Ґ��",
+          "id": "hormozgan-discovery-system-42e8322bb369",
+          "systemCategory": "research"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -802,251 +695,173 @@
       "iscCategory": "جامع",
       "iscRank": 42,
       "dimension": "documentsRegulations",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 42,
+      "sourceCount": 29,
       "sources": [
         {
-          "url": "https://www.hormozgan.ac.ir/home/index/32/87/1375",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://hormozgan.ac.ir/home/index/10/28/news/18990",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/home/index/10/28/444",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/home/index/10/28/457",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/home/index/10/28/1471",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/home/index/10/28/1763",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://hormozgan.ac.ir/home/index/35/96/1635",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://hormozgan.ac.ir/home/index/8/22/1868",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/home/index/10/28/853",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/home/index/10/28/2023",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/home/index/10/28/512",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/home/index/10/28/1236",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/home/index/32/87/1376",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F96912906328646486.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه اجرایی ایجاد و راه‌اندازی مرکز کارآفرینی و نوآوری(1143)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F99520543590569512.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه فرصت مطالعاتی اعضای هیئت علمی(5385)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F93416713366239280.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی(5327)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F98656478274606755.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه داخلی فرصت مطالعاتی اعضای هیأت علمی دانشگاه هرمزگان در جامعه و صنعت(2967)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F102977864245230808.zip",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم های فرصت مطالعاتی اعضای هیئت علمی(5510)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F98191584791213686.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اعطای ماموریت پژوهشی به اعضای هیئت علمی(7004)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F96752427167170375.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل بررسی تخلفات پژوهشی(5691)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F91113497617012224.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه و دستورالعمل نحوه تخصیص اعتبار پژوهانه(Grant)(6017)",
-          "id": null
-        },
-        {
           "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F92602216313016296.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه تشکیل هسته های پژوهشی هیئت علمی(5669)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F104237975150791880.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم مراحل پروپوزال(5566)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F93322712860869187.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کرسی های نظریه پردازی، نقد و مناظره فرم های هیئت علمی فرم درخواست برگزاری کارگاه پژوهشی(5505) فرم تعهد محضری ماموریت پژوهشی(5825) فرم مراحل پروپوزال(5566) پرسشنامه ماموریت پژوهشی(5682)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F91415049612538368.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "پرسشنامه تشکیل هسته پژوهشی اعضای هیئت علمی(5602)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F995990155459468460.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فلوچارت قبل از انعقاد قرارداد طرح پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F992738364832731469.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فلوچارت پایان طرح پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F95300856320396475.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کرسی های نظریه پردازی، نقد و مناظره آیین نامه های هیئت علمی دستورالعمل اجرایی اعطای پژوهانه جامع وزارت علوم، تحقیقات و فناوری",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F106180268353465943.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم خرید اقلام بدون فاکتور مربوط به گرنت(5903)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F109390574073159534.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم پروپوزال خارج از گرنت(5509)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F109254917713707986.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم تایید طرح های پژوهشی جهت استفاده از گرنت(5626)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F109933056720077687.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم پروپوزال گرنت(5703)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F108864876343671986.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کرسی های نظریه پردازی، نقد و مناظره فرم های هیئت علمی فرم درخواست برگزاری کارگاه پژوهشی(5505)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F93754830818457711.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کرسی های نظریه پردازی، نقد و مناظره فرم های هیئت علمی فرم درخواست برگزاری کارگاه پژوهشی(5505) فرم تعهد محضری ماموریت پژوهشی(5825)",
-          "id": null
-        },
-        {
-          "url": "https://gu.ac.ir/file/58e9a909-2ade-eb11-9ec1-005056998f1e/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت - وزارت عتف",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/tempfile/P2589208847922829_1417897827528818.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "3- معافیت قراردادهای پژوهشی از بیمه",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F1222002619749345230.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کرسی های نظریه پردازی، نقد و مناظره آئین نامه ها و فرم های مرکز رشد آئین نامه داخلی مرکز رشد(4959)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F1227968831046637038.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کرسی های نظریه پردازی، نقد و مناظره آئین نامه ها و فرم های مرکز رشد آئین نامه داخلی مرکز رشد(4959) فرم طرح کسب و کار(4944)",
-          "id": null
-        },
-        {
-          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F1227412315483725290.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم اولیه درخواست پذیرش در مرکز رشد دانشگاه هرمزگان(4877)",
-          "id": null
+          "kind": "document",
+          "claim": "آیین نامه تشکیل هسته های پژوهشی هیئت علمی(5667)",
+          "id": "hormozgan-discovery-document-0140d95b4629"
         },
         {
           "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F107306001974881002.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ارسال گزارش مرحله ای طرح های پژوهشی(5342)",
-          "id": null
+          "kind": "document",
+          "claim": "فرم ارسال گزارش مرحله ای طرح های پژوهشی(5341)",
+          "id": "hormozgan-discovery-document-032b6470a268"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F1222002619749345230.pdf",
+          "kind": "document",
+          "claim": "کرسی های نظریه پردازی، نقد و مناظره آئین نامه ها و فرم های مرکز رشد آئین نامه داخلی مرکز رشد(4959)",
+          "id": "hormozgan-discovery-document-09a362751af8"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F96912906328646486.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه اجرایی ایجاد و راه‌اندازی مرکز کارآفرینی و نوآوری(1143)",
+          "id": "hormozgan-discovery-document-145262f40228"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F98191584791213686.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اعطای ماموریت پژوهشی به اعضای هیئت علمی(7002)",
+          "id": "hormozgan-discovery-document-1a0246343418"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F995990155459468460.pdf",
+          "kind": "document",
+          "claim": "فلوچارت قبل از انعقاد قرارداد طرح پژوهشی",
+          "id": "hormozgan-discovery-document-21f63bdb8a50"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F1227968831046637038.docx",
+          "kind": "document",
+          "claim": "کرسی های نظریه پردازی، نقد و مناظره آئین نامه ها و فرم های مرکز رشد آئین نامه داخلی مرکز رشد(4959) فرم طرح کسب و کار(4944)",
+          "id": "hormozgan-discovery-document-244bbb1f00eb"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F108864876343671986.doc",
+          "kind": "document",
+          "claim": "فرم درخواست برگزاری کارگاه پژوهشی(5504)",
+          "id": "hormozgan-discovery-document-2eaa09bf97b8"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F99520543590569512.pdf",
+          "kind": "document",
+          "claim": "آیین نامه فرصت مطالعاتی اعضای هیئت علمی(5383)",
+          "id": "hormozgan-discovery-document-33e81e320922"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F1227412315483725290.docx",
+          "kind": "document",
+          "claim": "فرم اولیه درخواست پذیرش در مرکز رشد دانشگاه هرمزگان(4877)",
+          "id": "hormozgan-discovery-document-436e93262934"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F93322712860869187.docx",
+          "kind": "document",
+          "claim": "کرسی های نظریه پردازی، نقد و مناظره فرم های هیئت علمی فرم درخواست برگزاری کارگاه پژوهشی(5505) فرم تعهد محضری ماموریت پژوهشی(5825) فرم مراحل پروپوزال(5566) پرسشنامه ماموریت پژوهشی(5682)",
+          "id": "hormozgan-discovery-document-48a9f163126d"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F109933056720077687.docx",
+          "kind": "document",
+          "claim": "فرم پروپوزال گرنت(5702)",
+          "id": "hormozgan-discovery-document-496b4d1d30cc"
+        },
+        {
+          "url": "https://gu.ac.ir/file/58e9a909-2ade-eb11-9ec1-005056998f1e/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی دانشگاه ها و موسسات پژوهشی در جامعه و صنعت - وزارت عتف",
+          "id": "hormozgan-discovery-document-52165c9fec8a"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F992738364832731469.pdf",
+          "kind": "document",
+          "claim": "فلوچارت پایان طرح پژوهشی",
+          "id": "hormozgan-discovery-document-5553323847c8"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F104237975150791880.docx",
+          "kind": "document",
+          "claim": "فرم مراحل پروپوزال(5564)",
+          "id": "hormozgan-discovery-document-5650ae5b4242"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F95300856320396475.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل اجرایی اعطای پژوهانه جامع وزارت علوم، تحقیقات و فناوری",
+          "id": "hormozgan-discovery-document-648e2299def9"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F109390574073159534.docx",
+          "kind": "document",
+          "claim": "فرم پروپوزال خارج از گرنت(5507)",
+          "id": "hormozgan-discovery-document-64a356982c7e"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F106180268353465943.pdf",
+          "kind": "document",
+          "claim": "فرم خرید اقلام بدون فاکتور مربوط به گرنت(5901)",
+          "id": "hormozgan-discovery-document-67e8f0481c2f"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F91113497617012224.pdf",
+          "kind": "document",
+          "claim": "آیین نامه و دستورالعمل نحوه تخصیص اعتبار پژوهانه(Grant)(6015)",
+          "id": "hormozgan-discovery-document-7a639fe25d9b"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F109254917713707986.pdf",
+          "kind": "document",
+          "claim": "فرم تایید طرح های پژوهشی جهت استفاده از گرنت(5624)",
+          "id": "hormozgan-discovery-document-8bcaf6218764"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F96752427167170375.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل بررسی تخلفات پژوهشی(5691)",
+          "id": "hormozgan-discovery-document-a007ea4d56ed"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/tempfile/P2589208847922829_1417897827528818.pdf",
+          "kind": "document",
+          "claim": "3- معافیت قراردادهای پژوهشی از بیمه",
+          "id": "hormozgan-discovery-document-a8cdf8c4a420"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F93754830818457711.doc",
+          "kind": "document",
+          "claim": "فرم تعهد محضری ماموریت پژوهشی(5824)",
+          "id": "hormozgan-discovery-document-b3c0b22da30a"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F102977864245230808.zip",
+          "kind": "document",
+          "claim": "فرم های فرصت مطالعاتی اعضای هیئت علمی(5508)",
+          "id": "hormozgan-discovery-document-cfa106e90538"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F91415049612538368.docx",
+          "kind": "document",
+          "claim": "پرسشنامه تشکیل هسته پژوهشی اعضای هیئت علمی(5602)",
+          "id": "hormozgan-discovery-document-ea5863e28add"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F98656478274606755.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه داخلی فرصت مطالعاتی اعضای هیأت علمی دانشگاه هرمزگان در جامعه و صنعت(2965)",
+          "id": "hormozgan-discovery-document-ebf287c42b93"
+        },
+        {
+          "url": "https://www.hormozgan.ac.ir/fileupload/10_28/F93416713366239280.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی(5325)",
+          "id": "hormozgan-discovery-document-eea1ebe3a401"
         },
         {
           "url": "https://www.hormozgan.ac.ir/home/index/10/28/filed/906",
@@ -1062,41 +877,11 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
-  "ranking": {
-    "universitySlug": "hormozgan",
-    "nameFa": "دانشگاه هرمزگان",
-    "iscCategory": "جامع",
-    "iscRank": 42,
-    "score": 68.3,
-    "coverageAdjustedScore": 60.1,
-    "rankingScore": 66.1,
-    "confidence": 89.9,
-    "metrics": {
-      "documents": 91,
-      "organization": null,
-      "library": 70,
-      "laboratories": 70,
-      "systems": 37.5,
-      "industryTech": 0,
-      "dataQuality": 100,
-      "findability": 100
-    },
-    "units": 2,
-    "systems": 1,
-    "documents": 29,
-    "activeWeight": 88,
-    "evidenceCoverage": 86,
-    "methodologyVersion": "RTPMI-4.2-ISC",
-    "scoringPolicyVersion": "entity-cleaning-2.2-coverage-shrinkage-findability",
-    "snapshotDate": "2026-08-14",
-    "rank": 32,
-    "portalRankWithinISCClass": 24,
-    "rankedPortalsInISCClass": 31
-  },
+  "ranking": null,
   "units": [
     {
       "id": "hormozgan-discovery-unit-laboratory-4c0a83595158",

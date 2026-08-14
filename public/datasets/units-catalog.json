@@ -583,6 +583,26 @@
     "alternateUrls": []
   },
   {
+    "id": "birjand-technology-discovery-unit-industry-7e1cdcf48b99",
+    "universitySlug": "birjand-technology",
+    "nameFa": "اداره فناوری و ارتباط با صنعت و جامعه",
+    "type": "industry",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://research.birjandut.ac.ir/fa/tag/221/%D8%A7%D8%AF%D8%A7%D8%B1%D9%87+%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C+%D9%88+%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7+%D8%A8%D8%A7+%D8%B5%D9%86%D8%B9%D8%AA+%D9%88+%D8%AC%D8%A7%D9%85%D8%B9%D9%87",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.99,
+    "entityType": "unit",
+    "dimension": "industryTechnology",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "industryTechnology",
+    "evidenceUrls": [
+      "https://research.birjandut.ac.ir/fa/tag/221/%D8%A7%D8%AF%D8%A7%D8%B1%D9%87+%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C+%D9%88+%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7+%D8%A8%D8%A7+%D8%B5%D9%86%D8%B9%D8%AA+%D9%88+%D8%AC%D8%A7%D9%85%D8%B9%D9%87"
+    ],
+    "alternateUrls": []
+  },
+  {
     "id": "bojnord-discovery-unit-laboratory-9cc7a38a4718",
     "universitySlug": "bojnord",
     "nameFa": "آزمایشگاه مرکزی",
@@ -1476,13 +1496,56 @@
     "alternateUrls": []
   },
   {
+    "id": "ferdowsi-discovery-unit-laboratory-1f5e1338f69b",
+    "universitySlug": "ferdowsi",
+    "nameFa": "آزمایشگاه مرکزی",
+    "type": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://labs.um.ac.ir/index.php/fa/networkdashboard/centralized-laboratories/central-laboratory",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.99,
+    "entityType": "unit",
+    "dimension": "laboratories",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "laboratories",
+    "evidenceUrls": [
+      "https://labs.um.ac.ir/index.php/fa/networkdashboard/centralized-laboratories/central-laboratory"
+    ],
+    "alternateUrls": []
+  },
+  {
+    "id": "ferdowsi-discovery-unit-laboratory-86482fbefab5",
+    "universitySlug": "ferdowsi",
+    "nameFa": "آزمایشگاه مرجع مواد غذایی",
+    "type": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://labs.um.ac.ir/index.php/fa/networkdashboard/centralized-laboratories/central-laboratory/83-uncategorised/1864-food-reference-laboratory",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.9747368421052631,
+    "entityType": "unit",
+    "dimension": "laboratories",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "laboratories",
+    "evidenceUrls": [
+      "https://labs.um.ac.ir/index.php/fa/networkdashboard/centralized-laboratories/central-laboratory/83-uncategorised/1864-food-reference-laboratory",
+      "https://labs.um.ac.ir/index.php/fa/all-news2/83-uncategorised/1864-food-reference-laboratory"
+    ],
+    "alternateUrls": [
+      "https://labs.um.ac.ir/index.php/fa/all-news2/83-uncategorised/1864-food-reference-laboratory"
+    ]
+  },
+  {
     "id": "ferdowsi-discovery-unit-library-916afd966f4d",
     "universitySlug": "ferdowsi",
     "nameFa": "کتابخانه مرکزی",
     "type": "library",
     "evidence": "verified",
     "lastVerified": "2026-08-14",
-    "sourceUrl": "https://library.um.ac.ir/index.php?lang=fa",
+    "sourceUrl": "https://vpr.um.ac.ir/index.php/fa/management-of-publishing-scientific-works",
     "discoveredBy": "research-deep-discovery",
     "discoveryConfidence": 0.99,
     "entityType": "unit",
@@ -1491,11 +1554,11 @@
     "cleaningReason": "organizational-unit-identity-proven",
     "primaryDimension": "libraryDocuments",
     "evidenceUrls": [
-      "https://library.um.ac.ir/index.php?lang=fa",
-      "https://vpr.um.ac.ir/index.php/fa/management-of-publishing-scientific-works"
+      "https://vpr.um.ac.ir/index.php/fa/management-of-publishing-scientific-works",
+      "https://library.um.ac.ir/index.php?lang=fa"
     ],
     "alternateUrls": [
-      "https://vpr.um.ac.ir/index.php/fa/management-of-publishing-scientific-works"
+      "https://library.um.ac.ir/index.php?lang=fa"
     ]
   },
   {
@@ -1769,6 +1832,47 @@
       "https://mte.gau.ac.ir/"
     ],
     "alternateUrls": []
+  },
+  {
+    "id": "gorgan-agri-discovery-unit-laboratory-4a353946d6d8",
+    "universitySlug": "gorgan-agri",
+    "nameFa": "آزمایشگاه مرکزی",
+    "type": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://lab.gau.ac.ir/",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.99,
+    "entityType": "unit",
+    "dimension": "laboratories",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "laboratories",
+    "evidenceUrls": [
+      "https://lab.gau.ac.ir/",
+      "https://lab.gau.ac.ir/page?pageid=9367",
+      "https://lab.gau.ac.ir/page?pageid=9343",
+      "https://lab.gau.ac.ir/page?pageid=9370",
+      "https://lab.gau.ac.ir/page?pageid=9364",
+      "https://lab.gau.ac.ir/page?pageid=9349",
+      "https://lab.gau.ac.ir/NewsDetails?newsid=19981",
+      "https://lab.gau.ac.ir/NewsDetails?newsid=19961",
+      "https://lab.gau.ac.ir/NewsDetails?newsid=19884",
+      "https://lab.gau.ac.ir/NewsDetails?newsid=18855",
+      "https://lab.gau.ac.ir/Rules"
+    ],
+    "alternateUrls": [
+      "https://lab.gau.ac.ir/page?pageid=9367",
+      "https://lab.gau.ac.ir/page?pageid=9343",
+      "https://lab.gau.ac.ir/page?pageid=9370",
+      "https://lab.gau.ac.ir/page?pageid=9364",
+      "https://lab.gau.ac.ir/page?pageid=9349",
+      "https://lab.gau.ac.ir/NewsDetails?newsid=19981",
+      "https://lab.gau.ac.ir/NewsDetails?newsid=19961",
+      "https://lab.gau.ac.ir/NewsDetails?newsid=19884",
+      "https://lab.gau.ac.ir/NewsDetails?newsid=18855",
+      "https://lab.gau.ac.ir/Rules"
+    ]
   },
   {
     "id": "gorgan-agri-discovery-unit-library-67243deb89ba",
@@ -2064,6 +2168,26 @@
     "primaryDimension": "libraryDocuments",
     "evidenceUrls": [
       "https://www.hormozgan.ac.ir/home/index/32"
+    ],
+    "alternateUrls": []
+  },
+  {
+    "id": "imam-hossein-discovery-unit-library-356ea6da1a5d",
+    "universitySlug": "imam-hossein",
+    "nameFa": "کتابخانه مرکزی",
+    "type": "library",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://www.ihu.ac.ir/page/library",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.9484210526315788,
+    "entityType": "unit",
+    "dimension": "libraryDocuments",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "libraryDocuments",
+    "evidenceUrls": [
+      "https://www.ihu.ac.ir/page/library"
     ],
     "alternateUrls": []
   },
@@ -3604,11 +3728,13 @@
     "evidenceUrls": [
       "https://mahallat.ac.ir/en/web/pajoheshi/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
       "https://mahallat.ac.ir/ar/web/pajoheshi/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
-      "https://mahallat.ac.ir/web/pajoheshi/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA"
+      "https://mahallat.ac.ir/web/pajoheshi/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
+      "https://mahallat.ac.ir/fa/web/pajoheshi/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA"
     ],
     "alternateUrls": [
       "https://mahallat.ac.ir/ar/web/pajoheshi/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
-      "https://mahallat.ac.ir/web/pajoheshi/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA"
+      "https://mahallat.ac.ir/web/pajoheshi/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA",
+      "https://mahallat.ac.ir/fa/web/pajoheshi/%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA"
     ]
   },
   {
@@ -4387,12 +4513,43 @@
       "https://www.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "https://roshd.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "https://roshd.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
-      "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA"
+      "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "https://elearn.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "https://elearn.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA"
     ],
     "alternateUrls": [
       "https://roshd.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
       "https://roshd.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
-      "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA"
+      "https://www.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "https://elearn.put.ac.ir/fa-IR/PUT/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA",
+      "https://elearn.put.ac.ir/fa-IR/put/7451/page/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA"
+    ]
+  },
+  {
+    "id": "petroleum-discovery-unit-library-ba914676f8d9",
+    "universitySlug": "petroleum",
+    "nameFa": "کتابخانه مرکزی",
+    "type": "library",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://www.put.ac.ir/fa-IR/PUT/4971/page/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%B9%D9%84%D9%85%DB%8C",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.8694736842105263,
+    "entityType": "unit",
+    "dimension": "libraryDocuments",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "libraryDocuments",
+    "evidenceUrls": [
+      "https://www.put.ac.ir/fa-IR/PUT/4971/page/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%B9%D9%84%D9%85%DB%8C",
+      "https://elearn.put.ac.ir/fa-IR/put/4971/page/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%B9%D9%84%D9%85%DB%8C",
+      "https://roshd.put.ac.ir/fa-IR/put/4971/page/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%B9%D9%84%D9%85%DB%8C",
+      "https://www.put.ac.ir/fa-IR/put/4971/page/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%B9%D9%84%D9%85%DB%8C"
+    ],
+    "alternateUrls": [
+      "https://elearn.put.ac.ir/fa-IR/put/4971/page/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%B9%D9%84%D9%85%DB%8C",
+      "https://roshd.put.ac.ir/fa-IR/put/4971/page/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%B9%D9%84%D9%85%DB%8C",
+      "https://www.put.ac.ir/fa-IR/put/4971/page/%D9%BE%D8%A7%DB%8C%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D9%85%D9%86%D8%A7%D8%A8%D8%B9-%D8%B9%D9%84%D9%85%DB%8C"
     ]
   },
   {
@@ -4710,13 +4867,40 @@
     "alternateUrls": []
   },
   {
+    "id": "sari-agri-discovery-unit-industry-6398fa53205b",
+    "universitySlug": "sari-agri",
+    "nameFa": "مرکز نوآوری شروع با همکاری معاونت پژوهشی دانشگاه علوم کشاورزی و منابع طبیعی مازندران و به همت بسیج دانشجویی دانشگاه برگزار می کند: – مدیریت فناوری و ارتباط با صنعت دانشگاه علوم کشاورزی و منابع طبیعی ساری",
+    "type": "industry",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://isr.sanru.ac.ir/%d9%85%d8%b1%da%a9%d8%b2-%d9%86%d9%88%d8%a2%d9%88%d8%b1%db%8c-%d8%b4%d8%b1%d9%88%d8%b9-%d8%a8%d8%a7-%d9%87%d9%85%da%a9%d8%a7%d8%b1%db%8c-%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87/%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%db%8c%d9%87-%d9%88-%d9%81%d8%b1%d8%a7%d8%ae%d9%88%d8%a7%d9%86/",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.9484210526315788,
+    "entityType": "unit",
+    "dimension": "industryTechnology",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "industryTechnology",
+    "evidenceUrls": [
+      "https://isr.sanru.ac.ir/%d9%85%d8%b1%da%a9%d8%b2-%d9%86%d9%88%d8%a2%d9%88%d8%b1%db%8c-%d8%b4%d8%b1%d9%88%d8%b9-%d8%a8%d8%a7-%d9%87%d9%85%da%a9%d8%a7%d8%b1%db%8c-%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87/%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%db%8c%d9%87-%d9%88-%d9%81%d8%b1%d8%a7%d8%ae%d9%88%d8%a7%d9%86/",
+      "https://isr.sanru.ac.ir/%da%a9%d8%aa%d8%a7%d8%a8%da%86%d9%87-%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%b9%d9%85%d9%84%da%a9%d8%b1%d8%af-%d8%b3%d8%a7%d9%84-%db%b1%db%b3%db%b9%db%b9/%d9%88%d8%a8%d9%84%d8%a7%da%af/",
+      "https://isr.sanru.ac.ir/%d8%a7%d9%82%d8%af%d8%a7%d9%85%d8%a7%d8%aa-%d9%88-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%d9%87%d8%a7/%d9%88%d8%a8%d9%84%d8%a7%da%af/",
+      "https://isr.sanru.ac.ir/category/%d8%a7%d8%b9%d8%b6%d8%a7%db%8c-%d8%a7%d8%b1%d8%aa%d8%a8%d8%a7%d8%b7-%d8%a8%d8%a7-%d8%b5%d9%86%d8%b9%d8%aa/"
+    ],
+    "alternateUrls": [
+      "https://isr.sanru.ac.ir/%da%a9%d8%aa%d8%a7%d8%a8%da%86%d9%87-%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%b9%d9%85%d9%84%da%a9%d8%b1%d8%af-%d8%b3%d8%a7%d9%84-%db%b1%db%b3%db%b9%db%b9/%d9%88%d8%a8%d9%84%d8%a7%da%af/",
+      "https://isr.sanru.ac.ir/%d8%a7%d9%82%d8%af%d8%a7%d9%85%d8%a7%d8%aa-%d9%88-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%d9%87%d8%a7/%d9%88%d8%a8%d9%84%d8%a7%da%af/",
+      "https://isr.sanru.ac.ir/category/%d8%a7%d8%b9%d8%b6%d8%a7%db%8c-%d8%a7%d8%b1%d8%aa%d8%a8%d8%a7%d8%b7-%d8%a8%d8%a7-%d8%b5%d9%86%d8%b9%d8%aa/"
+    ]
+  },
+  {
     "id": "sari-agri-discovery-unit-laboratory-6da7e61d4b0e",
     "universitySlug": "sari-agri",
-    "nameFa": "آزمایشگاه مرکزی",
+    "nameFa": "آزمایشگاه آنالیز عنصری",
     "type": "laboratory",
     "evidence": "verified",
     "lastVerified": "2026-08-14",
-    "sourceUrl": "https://shaa.sanru.ac.ir/%d8%a7%d9%86%d8%a8%d8%a7%d8%b1-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d9%85%d9%88%d8%a7%d8%af-%d8%b4%db%8c%d9%85%db%8c%d8%a7%db%8c%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%b9%d9%84%d9%88%d9%85/",
+    "sourceUrl": "https://shaa.sanru.ac.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%d8%a7%d9%86%d8%ac%d9%85%d9%86-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d9%87%d9%85%da%af%d9%86-%d8%ba/",
     "discoveredBy": "research-deep-discovery",
     "discoveryConfidence": 0.8694736842105263,
     "entityType": "unit",
@@ -4725,8 +4909,18 @@
     "cleaningReason": "organizational-unit-identity-proven",
     "primaryDimension": "laboratories",
     "evidenceUrls": [
-      "https://shaa.sanru.ac.ir/%d8%a7%d9%86%d8%a8%d8%a7%d8%b1-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d9%85%d9%88%d8%a7%d8%af-%d8%b4%db%8c%d9%85%db%8c%d8%a7%db%8c%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%b9%d9%84%d9%88%d9%85/",
-      "https://shaa.sanru.ac.ir/",
+      "https://shaa.sanru.ac.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%d8%a7%d9%86%d8%ac%d9%85%d9%86-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d9%87%d9%85%da%af%d9%86-%d8%ba/",
+      "https://shaa.sanru.ac.ir/online_services/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%b3%d9%85%d8%a7/",
+      "https://shaa.sanru.ac.ir/online_services/%d8%a7%d8%aa%d9%88%d9%85%d8%a7%d8%b3%db%8c%d9%88%d9%86-%d8%a7%d8%af%d8%a7%d8%b1%db%8c/",
+      "https://shaa.sanru.ac.ir/online_services/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%aa%d8%a7%db%8c%d9%85%da%a9%d8%b3/",
+      "https://shaa.sanru.ac.ir/online_services/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af/",
+      "https://shaa.sanru.ac.ir/%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%d9%87%db%8c%d8%a7%d8%aa-%d8%a7%d9%85%d9%86%d8%a7-%d9%85%d8%b1%da%a9%d8%b2-%d9%86%d9%88%d8%a2%d9%88%d8%b1%db%8c-%d8%aa%d8%ae%d8%b5%d8%b5%db%8c-%d8%a8%d8%b1%d9%86/",
+      "https://shaa.sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%a2%d9%86%d8%a7%d9%84%db%8c%d8%b2-%d8%b9%d9%86%d8%b5%d8%b1%db%8c/",
+      "https://shaa.sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%da%a9%d8%b1%d9%88%d9%85%d8%a7%d8%aa%d9%88%da%af%d8%b1%d8%a7%d9%81%db%8c/",
+      "https://shaa.sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%a8%db%8c%d9%88%d9%84%d9%88%da%98%db%8c/",
+      "https://shaa.sanru.ac.ir/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3%d8%a7%d9%86-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/",
+      "https://shaa.sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%b7%db%8c%d9%81-%d8%b3%d9%86%d8%ac%db%8c/",
+      "https://shaa.sanru.ac.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%82%d8%a7%d8%a8%d9%84-%d8%a7%d8%b1%d8%a7%d8%a6%d9%87-%d8%aa%d9%88%d8%b3%d8%b7-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/",
       "https://shaa.sanru.ac.ir/%d8%a7%d8%b9%d8%b6%d8%a7%db%8c-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/",
       "https://shaa.sanru.ac.ir/%d8%aa%d8%ac%d9%84%d9%8a%d9%84-%d8%a7%d8%b2-%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a2%d8%b2%d9%85%d8%a7%d9%8a%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%d9%83%d8%b2%d9%8a-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
       "https://shaa.sanru.ac.ir/%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%d8%a7%d8%b2-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d9%be%d8%a7%d8%b1%da%a9-%d8%b9%d9%84%d9%85-%d9%88-%d9%81%d9%86/",
@@ -4741,13 +4935,24 @@
       "https://shaa.sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/",
       "https://shaa.sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d8%b3%d8%a7%d8%b1%db%8c/",
       "https://shaa.sanru.ac.ir/%d8%b4%d8%a8%da%a9%d9%87-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d9%87%d8%a7%db%8c-%d8%b1%d8%a7%d9%87%d8%a8%d8%b1%d8%af%db%8c/",
-      "https://shaa.sanru.ac.ir/%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%d9%87%db%8c%d8%a7%d8%aa-%d8%a7%d9%85%d9%86%d8%a7-%d9%85%d8%b1%da%a9%d8%b2-%d9%86%d9%88%d8%a2%d9%88%d8%b1%db%8c-%d8%aa%d8%ae%d8%b5%d8%b5%db%8c-%d8%a8%d8%b1%d9%86/",
+      "https://shaa.sanru.ac.ir/",
+      "https://shaa.sanru.ac.ir/%d8%a7%d9%86%d8%a8%d8%a7%d8%b1-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d9%85%d9%88%d8%a7%d8%af-%d8%b4%db%8c%d9%85%db%8c%d8%a7%db%8c%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%b9%d9%84%d9%88%d9%85/",
       "https://research.sanru.ac.ir/%d8%b3%d9%84%d8%b3%d9%84%d9%87-%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%da%a9%d8%a7%d8%b1%d8%a2%d9%81%d8%b1%db%8c%d9%86%db%8c/",
       "https://research.sanru.ac.ir/%d8%b1%d8%a6%db%8c%d8%b3-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/",
       "https://research.sanru.ac.ir/%d9%85%d8%b3%d8%a6%d9%88%d9%84-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/"
     ],
     "alternateUrls": [
-      "https://shaa.sanru.ac.ir/",
+      "https://shaa.sanru.ac.ir/online_services/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%b3%d9%85%d8%a7/",
+      "https://shaa.sanru.ac.ir/online_services/%d8%a7%d8%aa%d9%88%d9%85%d8%a7%d8%b3%db%8c%d9%88%d9%86-%d8%a7%d8%af%d8%a7%d8%b1%db%8c/",
+      "https://shaa.sanru.ac.ir/online_services/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%aa%d8%a7%db%8c%d9%85%da%a9%d8%b3/",
+      "https://shaa.sanru.ac.ir/online_services/%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af/",
+      "https://shaa.sanru.ac.ir/%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%d9%87%db%8c%d8%a7%d8%aa-%d8%a7%d9%85%d9%86%d8%a7-%d9%85%d8%b1%da%a9%d8%b2-%d9%86%d9%88%d8%a2%d9%88%d8%b1%db%8c-%d8%aa%d8%ae%d8%b5%d8%b5%db%8c-%d8%a8%d8%b1%d9%86/",
+      "https://shaa.sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%a2%d9%86%d8%a7%d9%84%db%8c%d8%b2-%d8%b9%d9%86%d8%b5%d8%b1%db%8c/",
+      "https://shaa.sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%da%a9%d8%b1%d9%88%d9%85%d8%a7%d8%aa%d9%88%da%af%d8%b1%d8%a7%d9%81%db%8c/",
+      "https://shaa.sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%a8%db%8c%d9%88%d9%84%d9%88%da%98%db%8c/",
+      "https://shaa.sanru.ac.ir/%da%a9%d8%a7%d8%b1%d8%b4%d9%86%d8%a7%d8%b3%d8%a7%d9%86-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/",
+      "https://shaa.sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%b7%db%8c%d9%81-%d8%b3%d9%86%d8%ac%db%8c/",
+      "https://shaa.sanru.ac.ir/%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%d9%82%d8%a7%d8%a8%d9%84-%d8%a7%d8%b1%d8%a7%d8%a6%d9%87-%d8%aa%d9%88%d8%b3%d8%b7-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/",
       "https://shaa.sanru.ac.ir/%d8%a7%d8%b9%d8%b6%d8%a7%db%8c-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/",
       "https://shaa.sanru.ac.ir/%d8%aa%d8%ac%d9%84%d9%8a%d9%84-%d8%a7%d8%b2-%d8%b1%d8%a6%d9%8a%d8%b3-%d8%a2%d8%b2%d9%85%d8%a7%d9%8a%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%d9%83%d8%b2%d9%8a-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
       "https://shaa.sanru.ac.ir/%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%d8%a7%d8%b2-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d9%be%d8%a7%d8%b1%da%a9-%d8%b9%d9%84%d9%85-%d9%88-%d9%81%d9%86/",
@@ -4762,11 +4967,52 @@
       "https://shaa.sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/",
       "https://shaa.sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d8%b3%d8%a7%d8%b1%db%8c/",
       "https://shaa.sanru.ac.ir/%d8%b4%d8%a8%da%a9%d9%87-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d9%87%d8%a7%db%8c-%d8%b1%d8%a7%d9%87%d8%a8%d8%b1%d8%af%db%8c/",
-      "https://shaa.sanru.ac.ir/%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%d9%87%db%8c%d8%a7%d8%aa-%d8%a7%d9%85%d9%86%d8%a7-%d9%85%d8%b1%da%a9%d8%b2-%d9%86%d9%88%d8%a2%d9%88%d8%b1%db%8c-%d8%aa%d8%ae%d8%b5%d8%b5%db%8c-%d8%a8%d8%b1%d9%86/",
+      "https://shaa.sanru.ac.ir/",
+      "https://shaa.sanru.ac.ir/%d8%a7%d9%86%d8%a8%d8%a7%d8%b1-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d9%85%d9%88%d8%a7%d8%af-%d8%b4%db%8c%d9%85%db%8c%d8%a7%db%8c%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%b9%d9%84%d9%88%d9%85/",
       "https://research.sanru.ac.ir/%d8%b3%d9%84%d8%b3%d9%84%d9%87-%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%da%a9%d8%a7%d8%b1%d8%a2%d9%81%d8%b1%db%8c%d9%86%db%8c/",
       "https://research.sanru.ac.ir/%d8%b1%d8%a6%db%8c%d8%b3-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/",
       "https://research.sanru.ac.ir/%d9%85%d8%b3%d8%a6%d9%88%d9%84-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/"
     ]
+  },
+  {
+    "id": "sari-agri-discovery-unit-laboratory-bff63588917c",
+    "universitySlug": "sari-agri",
+    "nameFa": "آزمایشگاه اگرو مکاترونیک در دانشگاه افتتاح می شود دانشگاه علوم و طبیعی ساری",
+    "type": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%a7%da%af%d8%b1%d9%88-%d9%85%da%a9%d8%a7%d8%aa%d8%b1%d9%88%d9%86%db%8c%da%a9-%d8%af%d8%b1-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%a7/",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.8431578947368421,
+    "entityType": "unit",
+    "dimension": "laboratories",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "laboratories",
+    "evidenceUrls": [
+      "https://sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%a7%da%af%d8%b1%d9%88-%d9%85%da%a9%d8%a7%d8%aa%d8%b1%d9%88%d9%86%db%8c%da%a9-%d8%af%d8%b1-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%a7/"
+    ],
+    "alternateUrls": []
+  },
+  {
+    "id": "sari-agri-discovery-unit-laboratory-c8787d3018ba",
+    "universitySlug": "sari-agri",
+    "nameFa": "آزمایشگاه اگرومکاترونیک در دانشگاه علوم کشاورزی و منابع طبیعی ساری افتتاح شد دانشگاه علوم و طبیعی ساری",
+    "type": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%a7%da%af%d8%b1%d9%88%d9%85%da%a9%d8%a7%d8%aa%d8%b1%d9%88%d9%86%db%8c%da%a9-%d8%af%d8%b1-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%b9/",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.8431578947368421,
+    "entityType": "unit",
+    "dimension": "laboratories",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "laboratories",
+    "evidenceUrls": [
+      "https://sanru.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%a7%da%af%d8%b1%d9%88%d9%85%da%a9%d8%a7%d8%aa%d8%b1%d9%88%d9%86%db%8c%da%a9-%d8%af%d8%b1-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%b9/"
+    ],
+    "alternateUrls": []
   },
   {
     "id": "sari-agri-discovery-unit-laboratory-da7e9d0f129b",
@@ -4794,26 +5040,26 @@
   {
     "id": "sari-agri-discovery-unit-library-13451ce31b5f",
     "universitySlug": "sari-agri",
-    "nameFa": "کتابخانه مرکزی و مرکز اسناد",
-    "type": "library",
+    "nameFa": "آزمایشگاه مرکزی",
+    "type": "laboratory",
     "evidence": "verified",
     "lastVerified": "2026-08-14",
-    "sourceUrl": "https://research.sanru.ac.ir/%d9%85%d8%b3%d8%a6%d9%88%d9%84-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/",
+    "sourceUrl": "https://research.sanru.ac.ir/%d8%b3%d9%84%d8%b3%d9%84%d9%87-%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%da%a9%d8%a7%d8%b1%d8%a2%d9%81%d8%b1%db%8c%d9%86%db%8c/",
     "discoveredBy": "research-deep-discovery",
-    "discoveryConfidence": 0.9747368421052631,
+    "discoveryConfidence": 0.8431578947368421,
     "entityType": "unit",
-    "dimension": "libraryDocuments",
+    "dimension": "laboratories",
     "relation": "organizational-unit",
     "cleaningReason": "organizational-unit-identity-proven",
-    "primaryDimension": "libraryDocuments",
+    "primaryDimension": "laboratories",
     "evidenceUrls": [
-      "https://research.sanru.ac.ir/%d9%85%d8%b3%d8%a6%d9%88%d9%84-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/",
+      "https://research.sanru.ac.ir/%d8%b3%d9%84%d8%b3%d9%84%d9%87-%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%da%a9%d8%a7%d8%b1%d8%a2%d9%81%d8%b1%db%8c%d9%86%db%8c/",
       "https://research.sanru.ac.ir/%d8%b1%d8%a6%db%8c%d8%b3-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/",
-      "https://research.sanru.ac.ir/%d8%b3%d9%84%d8%b3%d9%84%d9%87-%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%da%a9%d8%a7%d8%b1%d8%a2%d9%81%d8%b1%db%8c%d9%86%db%8c/"
+      "https://research.sanru.ac.ir/%d9%85%d8%b3%d8%a6%d9%88%d9%84-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/"
     ],
     "alternateUrls": [
       "https://research.sanru.ac.ir/%d8%b1%d8%a6%db%8c%d8%b3-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/",
-      "https://research.sanru.ac.ir/%d8%b3%d9%84%d8%b3%d9%84%d9%87-%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%da%a9%d8%a7%d8%b1%d8%a2%d9%81%d8%b1%db%8c%d9%86%db%8c/"
+      "https://research.sanru.ac.ir/%d9%85%d8%b3%d8%a6%d9%88%d9%84-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c/"
     ]
   },
   {
@@ -4823,21 +5069,23 @@
     "type": "library",
     "evidence": "verified",
     "lastVerified": "2026-08-14",
-    "sourceUrl": "https://lib.sanru.ac.ir/%d8%a7%d8%b9%d9%84%d8%a7%d9%85-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-%da%a9%d8%aa%d8%a8-%d9%81%d8%a7%d8%b1%d8%b3%db%8c-%d9%88-%d9%84%d8%a7%d8%aa%db%8c%d9%86-%d9%be%db%8c%d8%b4%d9%86%d9%87%d8%a7%d8%af%db%8c/",
+    "sourceUrl": "https://lib.sanru.ac.ir/%d9%85%d8%b1%d8%ac%d8%b9-%d9%88-%d8%a7%d8%b3%d9%86%d8%a7%d8%af-%d8%b9%d9%84%d9%85%db%8c/",
     "discoveredBy": "research-deep-discovery",
-    "discoveryConfidence": 0.9747368421052631,
+    "discoveryConfidence": 0.8694736842105263,
     "entityType": "unit",
     "dimension": "libraryDocuments",
     "relation": "organizational-unit",
     "cleaningReason": "organizational-unit-identity-proven",
     "primaryDimension": "libraryDocuments",
     "evidenceUrls": [
-      "https://lib.sanru.ac.ir/%d8%a7%d8%b9%d9%84%d8%a7%d9%85-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-%da%a9%d8%aa%d8%a8-%d9%81%d8%a7%d8%b1%d8%b3%db%8c-%d9%88-%d9%84%d8%a7%d8%aa%db%8c%d9%86-%d9%be%db%8c%d8%b4%d9%86%d9%87%d8%a7%d8%af%db%8c/",
+      "https://lib.sanru.ac.ir/%d9%85%d8%b1%d8%ac%d8%b9-%d9%88-%d8%a7%d8%b3%d9%86%d8%a7%d8%af-%d8%b9%d9%84%d9%85%db%8c/",
       "https://lib.sanru.ac.ir/%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%d9%87%d9%8a%d8%a7%d8%aa-%d8%b1%d8%a6%d9%8a%d8%b3%d9%87-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%a7%d8%b2-%d9%81%d8%b6%d8%a7%d9%8a-%d8%ac%d8%af%d9%8a%d8%af/",
+      "https://lib.sanru.ac.ir/%d8%a7%d8%b9%d9%84%d8%a7%d9%85-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-%da%a9%d8%aa%d8%a8-%d9%81%d8%a7%d8%b1%d8%b3%db%8c-%d9%88-%d9%84%d8%a7%d8%aa%db%8c%d9%86-%d9%be%db%8c%d8%b4%d9%86%d9%87%d8%a7%d8%af%db%8c/",
       "https://lib.sanru.ac.ir/"
     ],
     "alternateUrls": [
       "https://lib.sanru.ac.ir/%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%d9%87%d9%8a%d8%a7%d8%aa-%d8%b1%d8%a6%d9%8a%d8%b3%d9%87-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%a7%d8%b2-%d9%81%d8%b6%d8%a7%d9%8a-%d8%ac%d8%af%d9%8a%d8%af/",
+      "https://lib.sanru.ac.ir/%d8%a7%d8%b9%d9%84%d8%a7%d9%85-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-%da%a9%d8%aa%d8%a8-%d9%81%d8%a7%d8%b1%d8%b3%db%8c-%d9%88-%d9%84%d8%a7%d8%aa%db%8c%d9%86-%d9%be%db%8c%d8%b4%d9%86%d9%87%d8%a7%d8%af%db%8c/",
       "https://lib.sanru.ac.ir/"
     ]
   },
@@ -5062,6 +5310,31 @@
     "alternateUrls": []
   },
   {
+    "id": "shahed-discovery-unit-laboratory-40ca49b66a24",
+    "universitySlug": "shahed",
+    "nameFa": "استعلام لوازم آزمایشگاهی – اداره انتشارات",
+    "type": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://po.shahed.ac.ir/tender/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c/",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.8168421052631578,
+    "entityType": "unit",
+    "dimension": "laboratories",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "laboratories",
+    "evidenceUrls": [
+      "https://po.shahed.ac.ir/tender/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c/",
+      "https://po.shahed.ac.ir/tender/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c-2/",
+      "https://po.shahed.ac.ir/tender/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c-3/"
+    ],
+    "alternateUrls": [
+      "https://po.shahed.ac.ir/tender/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c-2/",
+      "https://po.shahed.ac.ir/tender/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c-3/"
+    ]
+  },
+  {
     "id": "shahed-discovery-unit-laboratory-6481b6efdd5e",
     "universitySlug": "shahed",
     "nameFa": "آزمایشگاه تحقیقاتی – دانشکده علوم پایه",
@@ -5119,11 +5392,19 @@
     "evidenceUrls": [
       "https://res.shahed.ac.ir/%d8%a8%d8%a7%d8%b2%d8%af%db%8c%d8%af-%db%8c%da%a9-%d9%88%d8%a7%d8%ad%d8%af-%d8%b5%d9%86%d8%b9%d8%aa%db%8c-%d8%a7%d8%b2-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%d8%aa/",
       "https://res.shahed.ac.ir/%d8%a7%d8%b1%d8%aa%d9%82%d8%a7%db%8c-%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
-      "https://res.shahed.ac.ir/organigram/53944/"
+      "https://res.shahed.ac.ir/organigram/53944/",
+      "https://res.shahed.ac.ir/growth-center/support-and-services/equipment-and-laboratory/",
+      "https://res.shahed.ac.ir/validation-tools-for-scientific-journals/",
+      "https://res.shahed.ac.ir/search-in-the-library-portal/",
+      "https://res.shahed.ac.ir/central-laboratory/"
     ],
     "alternateUrls": [
       "https://res.shahed.ac.ir/%d8%a7%d8%b1%d8%aa%d9%82%d8%a7%db%8c-%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
-      "https://res.shahed.ac.ir/organigram/53944/"
+      "https://res.shahed.ac.ir/organigram/53944/",
+      "https://res.shahed.ac.ir/growth-center/support-and-services/equipment-and-laboratory/",
+      "https://res.shahed.ac.ir/validation-tools-for-scientific-journals/",
+      "https://res.shahed.ac.ir/search-in-the-library-portal/",
+      "https://res.shahed.ac.ir/central-laboratory/"
     ]
   },
   {
@@ -5245,7 +5526,10 @@
       "https://library.shahed.ac.ir/paged-2/3/?pp=env",
       "https://library.shahed.ac.ir/paged-2/191/?pp=env",
       "https://library.shahed.ac.ir/category/instruction/",
-      "https://library.shahed.ac.ir/%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d8%a7%d8%a8%d8%b2%d8%a7%d8%b1%d9%87%d8%a7%db%8c-%d9%87%d9%88%d8%b4-%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c-%d8%af%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4/"
+      "https://library.shahed.ac.ir/%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d8%a7%d8%a8%d8%b2%d8%a7%d8%b1%d9%87%d8%a7%db%8c-%d9%87%d9%88%d8%b4-%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c-%d8%af%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4/",
+      "https://library.shahed.ac.ir/paged-2/2/",
+      "https://library.shahed.ac.ir/paged-2/3/",
+      "https://library.shahed.ac.ir/paged-2/191/"
     ],
     "alternateUrls": [
       "https://library.shahed.ac.ir/office-of-the-head/",
@@ -5268,7 +5552,10 @@
       "https://library.shahed.ac.ir/paged-2/3/?pp=env",
       "https://library.shahed.ac.ir/paged-2/191/?pp=env",
       "https://library.shahed.ac.ir/category/instruction/",
-      "https://library.shahed.ac.ir/%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d8%a7%d8%a8%d8%b2%d8%a7%d8%b1%d9%87%d8%a7%db%8c-%d9%87%d9%88%d8%b4-%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c-%d8%af%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4/"
+      "https://library.shahed.ac.ir/%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d8%a7%d8%a8%d8%b2%d8%a7%d8%b1%d9%87%d8%a7%db%8c-%d9%87%d9%88%d8%b4-%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c-%d8%af%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4/",
+      "https://library.shahed.ac.ir/paged-2/2/",
+      "https://library.shahed.ac.ir/paged-2/3/",
+      "https://library.shahed.ac.ir/paged-2/191/"
     ]
   },
   {
@@ -5281,41 +5568,88 @@
     "sourceUrl": "https://res.shahed.ac.ir/",
     "discoveredBy": "research-deep-discovery",
     "discoveryConfidence": 0.8957894736842105,
-    "url": "https://po.shahed.ac.ir/",
     "entityType": "unit",
     "dimension": "organization",
     "relation": "organizational-unit",
     "cleaningReason": "organizational-unit-identity-proven",
     "primaryDimension": "organization",
+    "url": "https://po.shahed.ac.ir/",
     "evidenceUrls": [
       "https://po.shahed.ac.ir/",
-      "https://res.shahed.ac.ir/"
+      "https://res.shahed.ac.ir/",
+      "https://po.shahed.ac.ir/organigram/%d8%b1%d8%a6%db%8c%d8%b3-%d8%a7%d8%af%d8%a7%d8%b1%d9%87-%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa/",
+      "https://po.shahed.ac.ir/pub-portals-journals/"
     ],
-    "alternateUrls": []
+    "alternateUrls": [
+      "https://po.shahed.ac.ir/organigram/%d8%b1%d8%a6%db%8c%d8%b3-%d8%a7%d8%af%d8%a7%d8%b1%d9%87-%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa/",
+      "https://po.shahed.ac.ir/pub-portals-journals/"
+    ]
   },
   {
     "id": "shahed-research",
     "universitySlug": "shahed",
-    "nameFa": "مدیریت امور پژوهشی – مدیریت امور پژوهشی",
-    "type": "research",
+    "nameFa": "آزمایشگاه انگل شناسی و قارچ – مدیریت امور پژوهشی",
+    "type": "laboratory",
     "evidence": "verified",
     "lastVerified": "2026-08-10",
     "sourceUrl": "https://res.shahed.ac.ir/",
     "discoveredBy": "research-deep-discovery",
     "discoveryConfidence": 0.8694736842105263,
     "entityType": "unit",
-    "dimension": "organization",
+    "dimension": "laboratories",
     "relation": "organizational-unit",
     "cleaningReason": "organizational-unit-identity-proven",
-    "primaryDimension": "organization",
+    "primaryDimension": "laboratories",
     "url": "https://ram.shahed.ac.ir/",
     "evidenceUrls": [
       "https://ram.shahed.ac.ir/",
       "https://res.shahed.ac.ir/",
-      "https://ram.shahed.ac.ir/organigram/chart/"
+      "https://ram.shahed.ac.ir/organigram/chart/",
+      "https://ram.shahed.ac.ir/tender/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c/",
+      "https://ram.shahed.ac.ir/tender/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c-2/",
+      "https://ram.shahed.ac.ir/tender/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c-3/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d9%87%d9%86%d8%af%d8%b3%db%8c-%d9%be%d8%b2%d8%b4%da%a9%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%aa%d8%ac%d9%87%db%8c%d8%b2%d8%a7%d8%aa-%d9%be%d8%b2%d8%b4%da%a9%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%a8%db%8c%d9%88%d8%b4%db%8c%d9%85%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%aa%d8%ad%d9%82%db%8c%d9%82%d8%a7%d8%aa%db%8c-1-2/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%db%8c%da%a9%d8%b1%d9%88%d8%a8-2/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%db%8c%da%a9%d8%b1%d9%88%d8%a8-1/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%da%af%db%8c%d8%a7%d9%87-%d8%b4%d9%86%d8%a7%d8%b3%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%da%a9%d8%b4%d8%aa-%d8%a8%d8%a7%d9%81%d8%aa-%da%af%db%8c%d8%a7%d9%87%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%a7%d9%84%da%a9%d8%aa%d8%b1%d9%88%d9%81%db%8c%d8%b2%db%8c%d9%88%d9%84%d9%88%da%98%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%a7%d9%86%da%af%d9%84-%d8%b4%d9%86%d8%a7%d8%b3%db%8c-%d9%88-%d9%82%d8%a7%d8%b1%da%86/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%aa%d8%ad%d9%82%db%8c%d9%82%d8%a7%d8%aa%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%81%db%8c%d8%b2%db%8c%d9%88%d9%84%d9%88%da%98%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%81%d9%84%d9%88%d8%b3%db%8c%d8%aa%d9%88%d9%85%d8%aa%d8%b1%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%88%db%8c%d8%b1%d9%88%d8%b3-%d8%b4%d9%86%d8%a7%d8%b3%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d9%84%d9%88%da%a9%d9%88%d9%84%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%aa%d8%b4%d8%b1%db%8c%d8%ad/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%86%d8%a7%d9%86%d9%88-%d8%a7%d9%84%da%a9%d8%aa%d8%b1%d9%88%d9%86%db%8c%da%a9/"
     ],
     "alternateUrls": [
-      "https://ram.shahed.ac.ir/organigram/chart/"
+      "https://ram.shahed.ac.ir/organigram/chart/",
+      "https://ram.shahed.ac.ir/tender/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c/",
+      "https://ram.shahed.ac.ir/tender/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c-2/",
+      "https://ram.shahed.ac.ir/tender/%d8%a7%d8%b3%d8%aa%d8%b9%d9%84%d8%a7%d9%85-%d9%84%d9%88%d8%a7%d8%b2%d9%85-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%db%8c-3/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d9%87%d9%86%d8%af%d8%b3%db%8c-%d9%be%d8%b2%d8%b4%da%a9%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%aa%d8%ac%d9%87%db%8c%d8%b2%d8%a7%d8%aa-%d9%be%d8%b2%d8%b4%da%a9%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%a8%db%8c%d9%88%d8%b4%db%8c%d9%85%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%aa%d8%ad%d9%82%db%8c%d9%82%d8%a7%d8%aa%db%8c-1-2/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%db%8c%da%a9%d8%b1%d9%88%d8%a8-2/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%db%8c%da%a9%d8%b1%d9%88%d8%a8-1/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%da%af%db%8c%d8%a7%d9%87-%d8%b4%d9%86%d8%a7%d8%b3%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%da%a9%d8%b4%d8%aa-%d8%a8%d8%a7%d9%81%d8%aa-%da%af%db%8c%d8%a7%d9%87%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%a7%d9%84%da%a9%d8%aa%d8%b1%d9%88%d9%81%db%8c%d8%b2%db%8c%d9%88%d9%84%d9%88%da%98%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%a7%d9%86%da%af%d9%84-%d8%b4%d9%86%d8%a7%d8%b3%db%8c-%d9%88-%d9%82%d8%a7%d8%b1%da%86/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%aa%d8%ad%d9%82%db%8c%d9%82%d8%a7%d8%aa%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%81%db%8c%d8%b2%db%8c%d9%88%d9%84%d9%88%da%98%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%81%d9%84%d9%88%d8%b3%db%8c%d8%aa%d9%88%d9%85%d8%aa%d8%b1%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%88%db%8c%d8%b1%d9%88%d8%b3-%d8%b4%d9%86%d8%a7%d8%b3%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d9%84%d9%88%da%a9%d9%88%d9%84%db%8c/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%aa%d8%b4%d8%b1%db%8c%d8%ad/",
+      "https://ram.shahed.ac.ir/phone_book/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%86%d8%a7%d9%86%d9%88-%d8%a7%d9%84%da%a9%d8%aa%d8%b1%d9%88%d9%86%db%8c%da%a9/"
     ]
   },
   {
@@ -5359,13 +5693,33 @@
     "alternateUrls": []
   },
   {
+    "id": "shahid-beheshti-discovery-unit-laboratory-7e32ebfecb9d",
+    "universitySlug": "shahid-beheshti",
+    "nameFa": "آزمایشگاه مرکزی",
+    "type": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://centrallab.sbu.ac.ir/fa/sarmad",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.8431578947368421,
+    "entityType": "unit",
+    "dimension": "laboratories",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "laboratories",
+    "evidenceUrls": [
+      "https://centrallab.sbu.ac.ir/fa/sarmad"
+    ],
+    "alternateUrls": []
+  },
+  {
     "id": "shahid-beheshti-discovery-unit-library-1f5e3792b203",
     "universitySlug": "shahid-beheshti",
     "nameFa": "کتابخانه مرکزی و مرکز اسناد",
     "type": "library",
     "evidence": "verified",
     "lastVerified": "2026-08-14",
-    "sourceUrl": "https://www.sbu.ac.ir/fa/web/lib/",
+    "sourceUrl": "https://lib.sbu.ac.ir/",
     "discoveredBy": "research-deep-discovery",
     "discoveryConfidence": 0.99,
     "entityType": "unit",
@@ -5374,18 +5728,24 @@
     "cleaningReason": "organizational-unit-identity-proven",
     "primaryDimension": "libraryDocuments",
     "evidenceUrls": [
-      "https://www.sbu.ac.ir/fa/web/lib/",
-      "https://lib.sbu.ac.ir/fa/assistance",
-      "https://lib.sbu.ac.ir/fa/service-time",
+      "https://lib.sbu.ac.ir/",
       "https://www.sbu.ac.ir/fa/web/lib/service-time",
       "https://www.sbu.ac.ir/fa/web/lib/assistance",
+      "https://lib.sbu.ac.ir/fa/service-time",
+      "https://lib.sbu.ac.ir/fa/assistance",
+      "https://lib.sbu.ac.ir/service-time",
+      "https://lib.sbu.ac.ir/assistance",
+      "https://www.sbu.ac.ir/fa/web/lib/",
       "https://lib.sbu.ac.ir/fa/"
     ],
     "alternateUrls": [
-      "https://lib.sbu.ac.ir/fa/assistance",
-      "https://lib.sbu.ac.ir/fa/service-time",
       "https://www.sbu.ac.ir/fa/web/lib/service-time",
       "https://www.sbu.ac.ir/fa/web/lib/assistance",
+      "https://lib.sbu.ac.ir/fa/service-time",
+      "https://lib.sbu.ac.ir/fa/assistance",
+      "https://lib.sbu.ac.ir/service-time",
+      "https://lib.sbu.ac.ir/assistance",
+      "https://www.sbu.ac.ir/fa/web/lib/",
       "https://lib.sbu.ac.ir/fa/"
     ]
   },
@@ -5747,7 +6107,7 @@
     "type": "library",
     "evidence": "verified",
     "lastVerified": "2026-08-14",
-    "sourceUrl": "https://centlib.shirazu.ac.ir/-/%D8%AD%D8%B6%D9%88%D8%B1-%D9%85%D8%B3%D8%A6%D9%88%D9%84-%D9%85%D8%AD%D8%AA%D8%B1%D9%85-%D9%86%D9%87%D8%A7%D8%AF-%D9%86%D9%85%D8%A7%DB%8C%D9%86%D8%AF%DA%AF%DB%8C-%D9%85%D8%B9%D8%B8%D9%85-%D8%B1%D9%87%D8%A8%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%D9%87-%D9%87%D9%85%D8%B1%D8%A7%D9%87-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%85%D8%AD%D8%AA%D8%B1%D9%85-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D8%AA%D9%82%D8%AF%DB%8C%D8%B1-%D8%A7%D8%B2-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AF%D8%A7%D8%B1%D8%A7%D9%86-%D8%A8%D9%87-%D9%85%D9%86%D8%A7%D8%B3%D8%A8%D8%AA-%D9%87%D9%81%D8%AA%D9%87-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%88-%DA%A9%D8%AA%D8%A7",
+    "sourceUrl": "https://centlib.shirazu.ac.ir/",
     "discoveredBy": "research-deep-discovery",
     "discoveryConfidence": 0.99,
     "entityType": "unit",
@@ -5756,13 +6116,13 @@
     "cleaningReason": "organizational-unit-identity-proven",
     "primaryDimension": "libraryDocuments",
     "evidenceUrls": [
-      "https://centlib.shirazu.ac.ir/-/%D8%AD%D8%B6%D9%88%D8%B1-%D9%85%D8%B3%D8%A6%D9%88%D9%84-%D9%85%D8%AD%D8%AA%D8%B1%D9%85-%D9%86%D9%87%D8%A7%D8%AF-%D9%86%D9%85%D8%A7%DB%8C%D9%86%D8%AF%DA%AF%DB%8C-%D9%85%D8%B9%D8%B8%D9%85-%D8%B1%D9%87%D8%A8%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%D9%87-%D9%87%D9%85%D8%B1%D8%A7%D9%87-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%85%D8%AD%D8%AA%D8%B1%D9%85-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D8%AA%D9%82%D8%AF%DB%8C%D8%B1-%D8%A7%D8%B2-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AF%D8%A7%D8%B1%D8%A7%D9%86-%D8%A8%D9%87-%D9%85%D9%86%D8%A7%D8%B3%D8%A8%D8%AA-%D9%87%D9%81%D8%AA%D9%87-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%88-%DA%A9%D8%AA%D8%A7",
       "https://centlib.shirazu.ac.ir/",
+      "https://centlib.shirazu.ac.ir/-/%D8%AD%D8%B6%D9%88%D8%B1-%D9%85%D8%B3%D8%A6%D9%88%D9%84-%D9%85%D8%AD%D8%AA%D8%B1%D9%85-%D9%86%D9%87%D8%A7%D8%AF-%D9%86%D9%85%D8%A7%DB%8C%D9%86%D8%AF%DA%AF%DB%8C-%D9%85%D8%B9%D8%B8%D9%85-%D8%B1%D9%87%D8%A8%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%D9%87-%D9%87%D9%85%D8%B1%D8%A7%D9%87-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%85%D8%AD%D8%AA%D8%B1%D9%85-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D8%AA%D9%82%D8%AF%DB%8C%D8%B1-%D8%A7%D8%B2-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AF%D8%A7%D8%B1%D8%A7%D9%86-%D8%A8%D9%87-%D9%85%D9%86%D8%A7%D8%B3%D8%A8%D8%AA-%D9%87%D9%81%D8%AA%D9%87-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%88-%DA%A9%D8%AA%D8%A7",
       "https://centlib.shirazu.ac.ir/-/%D8%A7%D9%87%D8%AF%D8%A7%D8%A1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%B4%D8%AE%D8%B5%DB%8C-%D8%B2%D9%86%D8%AF%D9%87%E2%80%8C%DB%8C%D8%A7%D8%AF-%D9%85%D8%AD%D9%85%D8%AF%D8%AD%D8%B3%DB%8C%D9%86-%D8%B4%D8%A8%D8%A7%D9%86%DB%8C-%D8%A8%D9%87-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2",
       "https://centlib.shirazu.ac.ir/documents-section"
     ],
     "alternateUrls": [
-      "https://centlib.shirazu.ac.ir/",
+      "https://centlib.shirazu.ac.ir/-/%D8%AD%D8%B6%D9%88%D8%B1-%D9%85%D8%B3%D8%A6%D9%88%D9%84-%D9%85%D8%AD%D8%AA%D8%B1%D9%85-%D9%86%D9%87%D8%A7%D8%AF-%D9%86%D9%85%D8%A7%DB%8C%D9%86%D8%AF%DA%AF%DB%8C-%D9%85%D8%B9%D8%B8%D9%85-%D8%B1%D9%87%D8%A8%D8%B1%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%A8%D9%87-%D9%87%D9%85%D8%B1%D8%A7%D9%87-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%85%D8%AD%D8%AA%D8%B1%D9%85-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D8%AA%D9%82%D8%AF%DB%8C%D8%B1-%D8%A7%D8%B2-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AF%D8%A7%D8%B1%D8%A7%D9%86-%D8%A8%D9%87-%D9%85%D9%86%D8%A7%D8%B3%D8%A8%D8%AA-%D9%87%D9%81%D8%AA%D9%87-%DA%A9%D8%AA%D8%A7%D8%A8-%D9%88-%DA%A9%D8%AA%D8%A7",
       "https://centlib.shirazu.ac.ir/-/%D8%A7%D9%87%D8%AF%D8%A7%D8%A1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D8%B4%D8%AE%D8%B5%DB%8C-%D8%B2%D9%86%D8%AF%D9%87%E2%80%8C%DB%8C%D8%A7%D8%AF-%D9%85%D8%AD%D9%85%D8%AF%D8%AD%D8%B3%DB%8C%D9%86-%D8%B4%D8%A8%D8%A7%D9%86%DB%8C-%D8%A8%D9%87-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2",
       "https://centlib.shirazu.ac.ir/documents-section"
     ]
@@ -6413,6 +6773,26 @@
     "alternateUrls": []
   },
   {
+    "id": "sirjan-technology-discovery-unit-laboratory-3955daefe037",
+    "universitySlug": "sirjan-technology",
+    "nameFa": "آزمایشگاه کنترل خطی دانشگاه صنعتی سیرجان",
+    "type": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://sirjantech.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%da%a9%d9%86%d8%aa%d8%b1%d9%84-%d8%ae%d8%b7%db%8c/",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.8168421052631578,
+    "entityType": "unit",
+    "dimension": "laboratories",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "laboratories",
+    "evidenceUrls": [
+      "https://sirjantech.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%da%a9%d9%86%d8%aa%d8%b1%d9%84-%d8%ae%d8%b7%db%8c/"
+    ],
+    "alternateUrls": []
+  },
+  {
     "id": "sirjan-technology-discovery-unit-laboratory-39f14ac8f836",
     "universitySlug": "sirjan-technology",
     "nameFa": "آزمایشگاه مدارهای الکتریکی دانشگاه صنعتی سیرجان",
@@ -6573,6 +6953,26 @@
     "alternateUrls": []
   },
   {
+    "id": "sirjan-technology-discovery-unit-laboratory-7e9c418c134d",
+    "universitySlug": "sirjan-technology",
+    "nameFa": "آزمایشگاه پایگاه داده دانشگاه صنعتی سیرجان",
+    "type": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://sirjantech.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87-%d8%af%d8%a7%d8%af%d9%87/",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.8168421052631578,
+    "entityType": "unit",
+    "dimension": "laboratories",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "laboratories",
+    "evidenceUrls": [
+      "https://sirjantech.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87-%d8%af%d8%a7%d8%af%d9%87/"
+    ],
+    "alternateUrls": []
+  },
+  {
     "id": "sirjan-technology-discovery-unit-laboratory-8652428883db",
     "universitySlug": "sirjan-technology",
     "nameFa": "آزمایشگاه الکترونیک آنالوگ دانشگاه صنعتی سیرجان",
@@ -6673,6 +7073,46 @@
     "alternateUrls": []
   },
   {
+    "id": "sirjan-technology-discovery-unit-laboratory-a3a9881b9c1c",
+    "universitySlug": "sirjan-technology",
+    "nameFa": "آزمایشگاه ریزپردازنده دانشگاه صنعتی سیرجان",
+    "type": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://sirjantech.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%b1%db%8c%d8%b2%d9%be%d8%b1%d8%af%d8%a7%d8%b2%d9%86%d8%af%d9%87/",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.8168421052631578,
+    "entityType": "unit",
+    "dimension": "laboratories",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "laboratories",
+    "evidenceUrls": [
+      "https://sirjantech.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%b1%db%8c%d8%b2%d9%be%d8%b1%d8%af%d8%a7%d8%b2%d9%86%d8%af%d9%87/"
+    ],
+    "alternateUrls": []
+  },
+  {
+    "id": "sirjan-technology-discovery-unit-laboratory-aaefc518a8ff",
+    "universitySlug": "sirjan-technology",
+    "nameFa": "آزمایشگاه سیستم عامل دانشگاه صنعتی سیرجان",
+    "type": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://sirjantech.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%b3%db%8c%d8%b3%d8%aa%d9%85-%d8%b9%d8%a7%d9%85%d9%84/",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.8168421052631578,
+    "entityType": "unit",
+    "dimension": "laboratories",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "laboratories",
+    "evidenceUrls": [
+      "https://sirjantech.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%b3%db%8c%d8%b3%d8%aa%d9%85-%d8%b9%d8%a7%d9%85%d9%84/"
+    ],
+    "alternateUrls": []
+  },
+  {
     "id": "sirjan-technology-discovery-unit-laboratory-ae4a97500b0e",
     "universitySlug": "sirjan-technology",
     "nameFa": "آزمایشگاه فیزیک ۳ دانشگاه صنعتی سیرجان",
@@ -6769,6 +7209,46 @@
     "primaryDimension": "laboratories",
     "evidenceUrls": [
       "https://sirjantech.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%b4%db%8c%d9%85%db%8c-%d8%aa%d8%ac%d8%b2%db%8c%d9%87-%d9%88-%d8%b4%db%8c%d9%85%db%8c-%d8%b9%d9%85%d9%88%d9%85%db%8c/"
+    ],
+    "alternateUrls": []
+  },
+  {
+    "id": "sirjan-technology-discovery-unit-laboratory-dcc22667a3df",
+    "universitySlug": "sirjan-technology",
+    "nameFa": "آزمایشگاه شبکه دانشگاه صنعتی سیرجان",
+    "type": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://sirjantech.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%b4%d8%a8%da%a9%d9%87/",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.8168421052631578,
+    "entityType": "unit",
+    "dimension": "laboratories",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "laboratories",
+    "evidenceUrls": [
+      "https://sirjantech.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d8%b4%d8%a8%da%a9%d9%87/"
+    ],
+    "alternateUrls": []
+  },
+  {
+    "id": "sirjan-technology-discovery-unit-laboratory-e0b4c01f9ca3",
+    "universitySlug": "sirjan-technology",
+    "nameFa": "آزمایشگاه مدار منطقی دانشگاه صنعتی سیرجان",
+    "type": "laboratory",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://sirjantech.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%af%d8%a7%d8%b1-%d9%85%d9%86%d8%b7%d9%82%db%8c/",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.8168421052631578,
+    "entityType": "unit",
+    "dimension": "laboratories",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "laboratories",
+    "evidenceUrls": [
+      "https://sirjantech.ac.ir/%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87-%d9%85%d8%af%d8%a7%d8%b1-%d9%85%d9%86%d8%b7%d9%82%db%8c/"
     ],
     "alternateUrls": []
   },
@@ -6912,10 +7392,12 @@
     "primaryDimension": "libraryDocuments",
     "evidenceUrls": [
       "https://sirjantech.ac.ir/%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87/",
-      "https://lib.sirjantech.ac.ir/DL/SPortal/"
+      "https://lib.sirjantech.ac.ir/DL/SPortal/",
+      "https://sirjantech.ac.ir/%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87/?nocache=1785790895&jet_blog_ajax=1"
     ],
     "alternateUrls": [
-      "https://lib.sirjantech.ac.ir/DL/SPortal/"
+      "https://lib.sirjantech.ac.ir/DL/SPortal/",
+      "https://sirjantech.ac.ir/%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87/?nocache=1785790895&jet_blog_ajax=1"
     ]
   },
   {
@@ -7199,6 +7681,29 @@
       "https://research.ut.ac.ir/fa/page/4017/%D8%A7%D8%AF%D8%A7%D8%B1%D9%87-%DA%A9%D9%84-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA-%D9%88-%D8%AC%D8%A7%D9%85%D8%B9%D9%87"
     ],
     "alternateUrls": []
+  },
+  {
+    "id": "tehran-discovery-unit-library-26e73fb98d03",
+    "universitySlug": "tehran",
+    "nameFa": "کتابخانه و اسناد",
+    "type": "library",
+    "evidence": "verified",
+    "lastVerified": "2026-08-14",
+    "sourceUrl": "https://library.ut.ac.ir/fa/page/8914/%D9%85%D9%88%D8%B2%D9%87-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF",
+    "discoveredBy": "research-deep-discovery",
+    "discoveryConfidence": 0.7905263157894736,
+    "entityType": "unit",
+    "dimension": "libraryDocuments",
+    "relation": "organizational-unit",
+    "cleaningReason": "organizational-unit-identity-proven",
+    "primaryDimension": "libraryDocuments",
+    "evidenceUrls": [
+      "https://library.ut.ac.ir/fa/page/8914/%D9%85%D9%88%D8%B2%D9%87-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF",
+      "https://library.ut.ac.ir/fa/page/10146/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF"
+    ],
+    "alternateUrls": [
+      "https://library.ut.ac.ir/fa/page/10146/%DA%A9%D8%A7%D8%B1%DA%AF%D8%A7%D9%87-%D9%87%D8%A7%DB%8C-%D8%A2%D9%85%D9%88%D8%B2%D8%B4%DB%8C-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C-%D9%88-%D9%85%D8%B1%DA%A9%D8%B2-%D8%A7%D8%B3%D9%86%D8%A7%D8%AF"
+    ]
   },
   {
     "id": "urmia-discovery-unit-industry-0adb92d464c9",

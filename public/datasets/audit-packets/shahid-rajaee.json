@@ -85,7 +85,7 @@
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-14",
-      "promotedSources": 118,
+      "promotedSources": 137,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -160,21 +160,21 @@
       "https://lib.sru.ac.ir/Dl/Sportal/Files/24_10_23539.pdf",
       "https://www.sru.ac.ir/wp-content/uploads/2026/05/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-5.pdf"
     ],
-    "deepAuditStatus": "deep-audited",
+    "deepAuditStatus": "identity-verified-deep-pending",
     "dimensions": {
       "portalIdentity": "verified",
       "organization": "unresolved",
       "libraryDocuments": "verified",
-      "laboratories": "verified",
+      "laboratories": "unresolved",
       "industryTechnology": "verified",
       "systemsServices": "verified",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 86,
+    "auditEvidenceCoverage": 71,
     "unitsFound": 3,
     "systemsFound": 0,
-    "documentsFound": 83,
-    "rankingEligibility": "candidate",
+    "documentsFound": 128,
+    "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
   "dimensionEvidence": [
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 88,
+      "sourceCount": 110,
       "sources": [
         {
           "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/",
@@ -469,17 +469,15 @@
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-2.doc",
-          "kind": "research-review-specific",
-          "claim": "فرم ارزشیابی گزارش مرحله ای طرح پژوهشی",
-          "id": null,
-          "sourceLabel": "فرم ارزشیابی گزارش مرحله ای طرح پژوهشی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-3.doc",
-          "kind": "research-review-specific",
-          "claim": "فرم ارزشیابی گزارش نهایی طرح پژوهشی",
-          "id": null,
-          "sourceLabel": "فرم ارزشیابی گزارش نهایی طرح پژوهشی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/conferences.pdf",
@@ -489,10 +487,9 @@
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/research_course_1394a.pdf",
-          "kind": "research-review-specific",
-          "claim": "دستورالعمل اجرایی استفاده از دوره فرصت مطالعاتی دانشگاه شهید رجائی",
-          "id": null,
-          "sourceLabel": "دستورالعمل اجرایی استفاده از دوره فرصت مطالعاتی دانشگاه شهید رجائی"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C1.pdf",
@@ -591,13 +588,79 @@
           "id": null
         },
         {
+          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/6/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/7/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/8/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/9/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
           "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/page/2/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
+          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/11/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
           "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/page/3/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%d8%b5%d9%86%d8%af%d9%88%d9%82-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c-%d8%a8%d8%a7-%d8%b1%d9%88%db%8c%da%a9%d8%b1%d8%af-%d9%86%d9%88%d8%a2%d9%88%d8%b1%db%8c/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%d8%a8%d9%87-%d9%85%d9%86%d8%a7%d8%b3%d8%a8%d8%aa-%d9%81%d8%b1%d8%a7%d8%b1%d8%b3%db%8c%d8%af%d9%86-%d8%b1%d9%88%d8%b2-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af%d8%8c-%d8%ac%d9%84%d8%b3%d9%87-%d8%a7%db%8c/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/12/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/13/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/14/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific portalIdentity source",
           "id": null
@@ -645,25 +708,103 @@
           "id": null
         },
         {
+          "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/page/11/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
           "url": "https://www.sru.ac.ir/category/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/page/2/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific portalIdentity source",
           "id": null
         },
         {
+          "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/page/12/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/page/13/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/page/14/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/page/16/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/110/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/109/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/108/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/107/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/106/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/page/110/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/page/109/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/page/108/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/page/107/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/page/106/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
           "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d9%85%d8%af%db%8c%d8%b1-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%b9%d8%a7%d9%88%d9%86-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific portalIdentity source",
           "id": null
@@ -693,17 +834,10 @@
           "id": null
         },
         {
-          "url": "https://ethicsresearch.sru.ac.ir/",
+          "url": "https://www.sru.ac.ir/%d8%a7%d8%ae%d8%aa%d8%aa%d8%a7%d9%85%db%8c%d9%87-%d9%86%d9%87%d9%85%db%8c%d9%86-%d8%ac%d8%b4%d9%86%d9%88%d8%a7%d8%b1%d9%87-%d8%a7%d9%86%d8%af%db%8c%d8%b4%d9%85%d9%86%d8%af%d8%a7%d9%86-%d9%88-%d8%af/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific portalIdentity source",
           "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Scheme-of-Final-Report-of-Research-Plan.doc",
-          "kind": "research-review-specific",
-          "claim": "الگوی گزارش نهایی طرح های پژوهشی",
-          "id": null,
-          "sourceLabel": "الگوی گزارش نهایی طرح های پژوهشی"
         },
         {
           "url": "https://ethicsresearch.sru.ac.ir/data/ebrs/news/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84.docx",
@@ -718,13 +852,6 @@
           "claim": "فرم اطلاعات طرح پژوهشی",
           "id": null,
           "sourceLabel": "فرم اطلاعات طرح پژوهشی"
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/Research_Group_Form.docx",
-          "kind": "research-review-specific",
-          "claim": "فرم درخواست ایجاد گروه پژوهشی",
-          "id": null,
-          "sourceLabel": "فرم درخواست ایجاد گروه پژوهشی"
         }
       ],
       "publicationAdjustment": null,
@@ -784,13 +911,13 @@
       "sourceCount": 13,
       "sources": [
         {
-          "url": "https://www.sru.ac.ir/category/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87/",
+          "url": "https://www.sru.ac.ir/%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%d8%ac%d8%af%db%8c%d8%af-%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa-%d9%88-%d9%86%d8%b4%d8%b1%d9%8a%d8%a7%d8%aa-%d8%b9%d9%84%d9%85%d9%8a-2/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
         },
         {
-          "url": "https://www.sru.ac.ir/%da%af%d8%b1%d8%af%d9%87%d9%85%d8%a7%db%8c%db%8c-%d8%b1%d9%88%d8%b3%d8%a7%db%8c-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
+          "url": "https://www.sru.ac.ir/%d8%ad%d8%b6%d9%88%d8%b1-%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%b4%d9%87%db%8c%d8%af-%d8%b1%d8%ac%d8%a7%d8%a6%db%8c-%d8%af%d8%b1-%d9%86%d9%85/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
@@ -820,13 +947,13 @@
           "id": null
         },
         {
-          "url": "https://www.sru.ac.ir/category/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87/page/2/",
+          "url": "https://www.sru.ac.ir/%d8%a7%d8%b2-%d8%a7%db%8c%d8%ac%d8%a7%d8%af-%d8%b4%d8%a8%da%a9%d9%87-%d9%85%d9%84%db%8c-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d8%a7%db%8c%d8%b1%d8%a7%d9%86/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
         },
         {
-          "url": "https://www.sru.ac.ir/%d8%a7%d8%b2-%d8%a7%db%8c%d8%ac%d8%a7%d8%af-%d8%b4%d8%a8%da%a9%d9%87-%d9%85%d9%84%db%8c-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d8%a7%db%8c%d8%b1%d8%a7%d9%86/",
+          "url": "https://www.sru.ac.ir/%da%a9%d8%aa%d8%a7%d8%a8%e2%80%8c%d9%87%d8%a7%db%8c-%d9%81%d9%87%d8%b1%d8%b3%d8%aa%da%af%d8%a7%d9%86-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d8%af%d8%a7%d9%86/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
@@ -875,21 +1002,14 @@
       "iscCategory": "دستگاه اجرایی",
       "iscRank": 4,
       "dimension": "laboratories",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 1,
-      "sources": [
-        {
-          "url": "https://www.sru.ac.ir/%d8%b6%d8%b1%d9%88%d8%b1%d8%aa-%d8%b1%d8%a7%d9%87%e2%80%8c%d8%a7%d9%86%d8%af%d8%a7%d8%b2%db%8c-%d8%a2%d8%b2%d9%85%d8%a7%db%8c%d8%b4%da%af%d8%a7%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d9%87%d9%88%d8%b4/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -899,12 +1019,24 @@
       "iscCategory": "دستگاه اجرایی",
       "iscRank": 4,
       "dimension": "industryTechnology",
-      "status": "unresolved",
-      "reportedStatus": "unresolved",
-      "reviewOutcome": "no-public-evidence-resolved",
+      "status": "verified",
+      "reportedStatus": "verified",
+      "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 2,
+      "sourceCount": 4,
       "sources": [
+        {
+          "url": "https://www.sru.ac.ir/category/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d8%a7%d8%ae%d8%a8%d8%a7%d8%b1-%d8%a7%d8%b1%d8%aa%d8%a8%d8%a7%d8%b7-%d8%a8%d8%a7-%d8%b5%d9%86%d8%b9%d8%aa/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%d9%8a-%d9%85%d8%b1%d8%a7%d8%b3%d9%85-%d8%aa%d9%83%d8%b1%d9%8a%d9%85-%d9%88-%d9%85%d8%b9%d8%a7%d8%b1%d9%81%d9%87-%d9%85%d8%af%d9%8a%d8%b1-%d9%83%d8%a7%d8%b1%d8%a2/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific industryTechnology source",
+          "id": null
+        },
         {
           "url": "https://www.sru.ac.ir/innovation/",
           "kind": "unit",
@@ -921,7 +1053,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -935,22 +1067,41 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 3,
+      "sourceCount": 6,
       "sources": [
         {
-          "url": "https://www.sru.ac.ir/%d8%a7%d8%b9%d9%84%d8%a7%d9%85-%d9%be%d8%b1%d9%88%da%98%d9%87-%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%db%8c%da%a9%d9%be%d8%a7%d8%b1%da%86%d9%87-%d8%b1%d8%b4%d8%af%db%8c/",
+          "url": "https://www.sru.ac.ir/%d8%a7%d8%b1%d8%aa%d9%82%d8%a7%db%8c-%d9%88%d8%a8-%d8%b3%d8%a7%db%8c%d8%aa-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
         },
         {
-          "url": "https://www.sru.ac.ir/%d9%85%d8%b4%da%a9%d9%84-%d9%86%d9%85%d8%a7%db%8c%d9%87-%d8%b4%d8%af%d9%86-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%af%d8%b1-%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87-isc-%d8%ad%d9%84-%d8%b4%d8%af/",
+          "url": "https://www.sru.ac.ir/%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87-%d9%87%d8%a7%db%8c-%d8%ac%d8%af%db%8c%d8%af-%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa-%d9%88-%d9%86%d8%b4%d8%b1%d9%8a%d8%a7%d8%aa-%d8%b9%d9%84%d9%85%d9%8a-2/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
         },
         {
-          "url": "https://www.sru.ac.ir/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8-%d9%be%d8%a7%db%8c%d8%a7%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7%db%8c-%d8%a8%d8%b1%da%af%d8%b2%db%8c%d8%af%d9%87-%d8%a7%d8%b2-%d8%af%d8%a7%d9%86%d8%b4%da%af/",
+          "url": "https://www.sru.ac.ir/%d8%b1%d9%88%d9%86%d9%85%d8%a7%db%8c%db%8c-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d8%aa%d8%b9%d9%87%d8%af%d8%a7%d8%aa-%d9%88-%da%a9%d8%b3%d9%88%d8%b1%d8%a7%d8%aa-%d8%af%d8%a7%d9%86%d8%b4%d8%ac%d9%88/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%f0%9f%93%a2-%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%d8%ac%d9%84%d8%b3%d9%87-%d8%a7%d8%b1%d8%aa%d9%82%d8%a7%db%8c-%da%a9%db%8c%d9%81%db%8c%d8%aa-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific systemsServices source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%d8%a7%d9%88%d9%84%db%8c%d9%86-%d8%ac%d8%b4%d9%86%d9%88%d8%a7%d8%b1%d9%87-%d9%be%d8%a7%db%8c%d8%a7%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7%db%8c-%d8%af%d8%a7%d9%86%d8%b4%d8%ac%d9%88%db%8c%db%8c-3/",
+          "kind": "research-review-specific",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
+        },
+        {
+          "url": "https://www.sru.ac.ir/%d8%a7%d9%88%d9%84%db%8c%d9%86-%d8%ac%d8%b4%d9%86%d9%88%d8%a7%d8%b1%d9%87-%d9%be%d8%a7%db%8c%d8%a7%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7%db%8c-%d8%af%d8%a7%d9%86%d8%b4%d8%ac%d9%88%db%8c%db%8c-2/",
           "kind": "research-review-specific",
           "claim": "سامانه‌ها و خدمات — کشف خودکار",
           "id": null,
@@ -972,10 +1123,16 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 86,
+      "sourceCount": 132,
       "sources": [
         {
-          "url": "https://www.sru.ac.ir/%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8-%d9%be%d8%a7%db%8c%d8%a7%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7%db%8c-%d8%a8%d8%b1%da%af%d8%b2%db%8c%d8%af%d9%87-%d8%a7%d8%b2-%d8%af%d8%a7%d9%86%d8%b4%da%af/",
+          "url": "https://www.sru.ac.ir/%d8%a7%d9%88%d9%84%db%8c%d9%86-%d8%ac%d8%b4%d9%86%d9%88%d8%a7%d8%b1%d9%87-%d9%be%d8%a7%db%8c%d8%a7%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7%db%8c-%d8%af%d8%a7%d9%86%d8%b4%d8%ac%d9%88%db%8c%db%8c-3/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/%d8%a7%d9%88%d9%84%db%8c%d9%86-%d8%ac%d8%b4%d9%86%d9%88%d8%a7%d8%b1%d9%87-%d9%be%d8%a7%db%8c%d8%a7%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7%db%8c-%d8%af%d8%a7%d9%86%d8%b4%d8%ac%d9%88%db%8c%db%8c-2/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -987,93 +1144,9 @@
           "id": null
         },
         {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/02/%D9%81%D8%B1%D9%85-%D8%AA%D8%A7%DB%8C%DB%8C%D8%AF-%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم تایید تعداد پایان نامه/رساله تحت راهنمایی عضو هیات علمی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-1.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ارزشیابی طرح پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-2.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ارزشیابی گزارش مرحله ای طرح پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-3.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ارزشیابی گزارش نهایی طرح پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Scheme-of-Final-Report-of-Research-Plan.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "الگوی گزارش نهایی طرح های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2020/06/Tarh-Melli.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ درخواست گستره طرح پژوهشی (حوزه اثر ملی)",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-alef.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم الف",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-be.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ب",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-jim.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ج",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-dal.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم د",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C1.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اجرایی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%DA%86%DA%A9-%D9%84%DB%8C%D8%B3%D8%AA-%D8%AA%D8%B4%DA%A9%DB%8C%D9%84-%D9%BE%D8%B1%D9%88%D9%86%D8%AF%D9%87.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "چک لیست مدارک برای تشکیل پرونده",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%DA%86%DA%A9-%D9%84%DB%8C%D8%B3%D8%AA-%D9%85%D8%AF%D8%A7%D8%B1%DA%A9-%D9%BE%D8%B3-%D8%A7%D8%B2-%D8%AA%D8%B5%D9%88%DB%8C%D8%A8-%D8%AF%D8%B1-%D8%B4%D9%88%D8%B1%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "چک لیست مدارک پس از تصویب درخواست",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D9%88%D8%AB%D9%8A%D9%82%D9%87-%D9%85%D9%84%D9%83%D9%8A.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم وثیقه ملکی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D8%AA%D8%B9%D9%87%D8%AF-%D9%83%D8%A7%D8%B1%D9%85%D9%86%D8%AF%D9%8A.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم تعهد کارمندی",
+          "url": "https://www.sru.ac.ir/%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%d8%b3%d9%85%db%8c%d9%86%d8%a7%d8%b1-%d9%85%d9%84%db%8c-%d9%be%da%98%d9%88%d9%87%d8%b4-%d8%af%d8%b1-%d8%b2%d9%85%db%8c%d9%86%d9%87-%da%a9%d8%a7%d8%b1%d8%a8/",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
@@ -1089,48 +1162,6 @@
           "id": null
         },
         {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/02/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D9%81%D8%B5%DB%8C%D9%84%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "پرسشنامه تفصیلی درخواست اعتبار طرح پژوهشی (ویژه طرح های پژوهشی ماموریت گرا و تقاضا محور)",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/form-student-1401.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم پرسشنامه انتخاب دانشجويان پژوهشگربرتر سال ۱۴۰۱",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2023/06/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%A7%D9%85%D8%B9-%D8%AA%D8%AD%D9%82%D9%8A%D9%82%D8%A7%D8%AA%D9%8A-%D9%8A%D9%83%D8%B3%D8%A7%D9%84%D9%87.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل شیوه نامه اجرایی طرح های پژوهشی درون دانشگاهی ۱۴۰۲ فرم پرسشنامه برنامه جامع تحقيقاتي يكساله عضو هیات علمی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/research_course_1394a.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل اجرایی استفاده از دوره فرصت مطالعاتی دانشگاه شهید رجائی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/Research_Group_Form.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست ایجاد گروه پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%D9%8A%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-Grant-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88-%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "اعضای هیئت علمی دانشگاهها و مؤسسات آموزش عالی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%D9%8A%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-Grant-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88-%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C-1.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آيین نامه پژوهانه Grant اعضای هیئت علمی دانشگاهها و مؤسسات آموزش عالی 1",
-          "id": null
-        },
-        {
           "url": "https://www.sru.ac.ir/AeenNume/3.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "دستورالعمل اجرايي شيوه نامه تشـويق نويسندگان مقــالات منتشر شده در نشريات معتبر بين المللي و داخلي",
@@ -1143,262 +1174,304 @@
           "id": null
         },
         {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2024/11/shivenameEtebar1403.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "_ نامه شیوه نامه اعتبار پژوهشی اعضای هیات علمی دانشگاه تربیت دبیر شهید رجائی (پژوهانه) سال ۱۴۰۳",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2023/05/grant-1402.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اعتبار پژوهشی اعضای هیات علمی دانشگاه تربیت دبیر شهید رجائی (پژوهانه) سال ۱۴۰۲",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/02/Grant-1401.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اعتبار پژوهشی اعضای هیات علمی دانشگاه تربیت دبیر شهید رجایی (پژوهانه) سال",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2020/04/hemayat-d99.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل اجرایی حمایت از فعالیت های پژوهشی دانشجویان (بازنگری شده در بهمن ۹۸)",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2023/07/%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D8%A6%D9%8A-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A-%D8%AF%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A-1402.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل شیوه نامه اجرایی طرح های پژوهشی درون دانشگاهی ۱۴۰۲",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/conferences.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه شیوه نامه اجرایی شرکت اساتید و دانشجویان تحصیلات تکمیلی در کنفرانس های علمی خارج از کشور فرم فرم شرکت در همایش های داخل کشور",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Iran-Conferences.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه شیوه نامه اجرایی شرکت اساتید و دانشجویان تحصیلات تکمیلی در کنفرانس های علمی خارج از کشور فرم فرم شرکت در همایش های داخل کشور",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/International-Conferences.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم شرکت در همایش های خارج از کشور",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-1.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "گاربرگ مشخصات همایش خارجی (تکمیل توسط معاون پژوهشی دانشکده)",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/International-Conferences-for-Students.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم شرکت دانشجویان تحصیلات تکمیلی در همایش های خارج از کشور",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-17.6.97.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه شیوه نامه فرصت مطالعاتی اعضای هیئت علمی در جامعه و صنعت وزارت علوم-دی ۱۳۹۷",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Forsat-Motaaleati.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه شیوه نامه فرصت مطالعاتی اعضای هیئت علمی در جامعه و صنعت وزارت علوم-دی ۱۳۹۷ شیوه نامه فرصت مطالعاتی اعضای هیئت علمی (وزارت علوم)",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Forsat-Motaaleati-Elhaaghiye.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "الحاقیه شیوه نامه فرصت مطالعاتی اعضای هیئت علمی (وزارت علوم)",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-19.1.98.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه و دستورالعمل آئین نامه تشکیل واحدهای پژوهشی وزارت علوم- فروردین ۱۳۹۸",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2016/04/researchgroup.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه و دستورالعمل آئین نامه تشکیل واحدهای پژوهشی وزارت علوم- فروردین ۱۳۹۸ دستورالعمل تشکیل گروههاي پژوهشی اعضاي هیات علمی دانشگاه شهید رجائی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/06/%D8%A2%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%B0%D8%A8-%D9%88-%D8%A8%D9%87-%DA%A9%D8%A7%D8%B1-%DA%AF%DB%8C%D8%B1%DB%8C-%D9%85%D8%AD%D9%82%D9%82%D8%A7%D9%86-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C_compressed-4-1-6.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دکتری_compressed-4-1-6",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2020/09/Grant-Instruction-99-1.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه گرنت سال ۱۳۹۹",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D9%86%D8%AA%D8%B4%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D9%88-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-1.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر بین المللی و داخلی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/06/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C-%D9%88%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_compressed-3-13.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه فرصت مطالعاتی اعضاء هیات علمی دانشگاهها و موسسات آموزش عالی و پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/06/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D9%81%D8%B1%D8%B5%D8%AA%D9%87%D8%A7%DB%8C-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88-%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آئین نامه استفاده از فرصتهای مطالعاتی برای اعضای هیئت علمی دانشگاهها و موسسات آموزش عالی",
-          "id": null
-        },
-        {
           "url": "https://www.sru.ac.ir/AeenNume/2.pdf",
           "kind": "portal-document-reaudit-document",
           "claim": "شیوه نامه تشویق اعضای هیات علمی وزارت علوم،تحقیقات و فناوری",
           "id": null
         },
         {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2023/10/pajouhesh-journal-1402.pdf",
+          "url": "https://www.sru.ac.ir/AeenNume/32.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "شيوه نامه تشويق نويسندگان مقالات منتشر شده در نشريات معتبر – ۱۴۰۲",
+          "claim": "آئین نامه فرصت مطالعاتی",
           "id": null
         },
         {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/05/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86-%D9%81%D8%B9%D8%A7%D9%84-1401-1.pdf",
+          "url": "https://www.sru.ac.ir/AeenNume/33.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "شيوه نامه تشويق نويسندگان مقالات منتشر شده در نشريات معتبر – ۱۴۰۲ شیوه نامه انتخاب پژوهشگران فعال در سال ۱۴۰۱",
+          "claim": "اصلاحیه آئین نامه فرصت مطالعاتی",
           "id": null
         },
         {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D9%87%D9%85%D8%A7%DB%8C%D8%B4.doc",
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/04/Geran.pdf",
           "kind": "portal-document-reaudit-document",
-          "claim": "فرم پیشنهاد برگزاری همایش در دانشگاه تربیت دبیر شهید رجایی",
+          "claim": "(مطابق با نامه ابلاغی ریاست محترم دانشگاه)",
           "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2024/08/statute.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "اساسنامه دانشگاه",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2016/06/Strategic.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "سند راهبردی دانشگاه",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2017/05/16-2.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مرکز مطالعات و پژوهش هاي آموزش علوم و مهندسی",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2017/05/17_20.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی بینایی محاسباتی -شناختی",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2017/05/21_26.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی تعیین میزان نفوذپذیري در اجسام متخلخل",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2017/05/27_30.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی الکترونیک قدرت و انرژيهاي نو",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/31_36.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی پیل سوختی",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/37_40-2.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی سامانه مکانیاب جهانی",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/41_44.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی پردازش سیگنال هاي مخابراتی دیجیتال",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/45_52.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی نانوفوتونیک و اپتوالکترونیک",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/53_54.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مرکز محاسبات سریع",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/55_58.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی سیستم هاي تطبیقی و پردازش تصویر",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/59_62.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی موتورهاي احتراق داخلی",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/63_64-2.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه ارتعاشات پیشرفته",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/65_68.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی مکاترونیک و اتوماسیون",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/69_78.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی سیستمها و مدرات الکترونیک کاربردي",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/79_82-3.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی کامپوزیت",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/83_86.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی سنتزسبز مواد شیمیایی",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/87_90-2.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "پژوهشکده فناوري هاي نوین",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2024/08/telephon-main.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "تلفن ها",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2017/05/16-2.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مرکز مطالعات و پژوهش هاي آموزش علوم و مهندسی",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2017/05/17_20.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی بینایی محاسباتی -شناختی",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2017/05/21_26.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی تعیین میزان نفوذپذیري در اجسام متخلخل",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2017/05/27_30.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی الکترونیک قدرت و انرژيهاي نو",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/31_36.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی پیل سوختی",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/37_40-2.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی سامانه مکانیاب جهانی",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/41_44.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی پردازش سیگنال هاي مخابراتی دیجیتال",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/45_52.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی نانوفوتونیک و اپتوالکترونیک",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/53_54.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مرکز محاسبات سریع",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/55_58.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی سیستم هاي تطبیقی و پردازش تصویر",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/59_62.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی موتورهاي احتراق داخلی",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/63_64-2.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه ارتعاشات پیشرفته",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/65_68.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی مکاترونیک و اتوماسیون",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/69_78.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی سیستمها و مدرات الکترونیک کاربردي",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/79_82-3.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی کامپوزیت",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/83_86.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "آزمایشگاه تحقیقاتی سنتزسبز مواد شیمیایی",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/87_90-2.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "پژوهشکده فناوري هاي نوین",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/AeenNume/MIF%202010%20JCR%20Science.doc",
+          "kind": "portal-document-reaudit-document",
+          "claim": "(جدول جهانی JCR)",
+          "id": null
+        },
+        {
+          "url": "http://www.sru.ac.ir/wp-content/uploads/2026/01/Hamidzadeh.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "به گزارش روابط عمومی، دکتر علی پورکمالی رئیس دانشگاه، طی حکمی جناب آقای کوروش حمیدزاده را به عنوان رئیس دفتر برنامه ریزی امور واحدهای پژوهشی خودگردان منصوب کرد. ایشان قبل از این سرپرستی این دفتر را بر عهده داشتند. متن حکم ایشان به شرح زیر ا",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2025/12/%D8%B3%D8%AE%D9%86%D8%B1%D8%A7%D9%86%DB%8C-%D8%B3%D8%B1%D9%BE%D8%B1%D8%B3%D8%AA-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%B1-17-%D8%A2%D8%B0%D8%B1%D9%85%D8%A7%D9%87-1404-1.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "سخنرانی سرپرست معاونت پژوهشی و فناوری در 17 آذرماه 1404 1",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2025/11/%D9%85%D8%AA%D9%86-%D8%AA%D9%81%D8%A7%D9%87%D9%85_%D9%86%D8%A7%D9%85%D9%87-%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C-%D9%81%DB%8C-%D9%85%D8%A7%D8%A8%DB%8C%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%AA%D8%B1%D8%A8%DB%8C%D8%AA-%D8%AF%D8%A8%DB%8C%D8%B1-%D8%B4%D9%87%DB%8C%D8%AF-%D8%B1%D8%AC%D8%A7%DB%8C%DB%8C-%D9%88-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D9%84%DB%8C-%D9%86%D9%82%D8%B4%D9%87_%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D9%85%D8%BA%D8%B2.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "متن تفاهم‌نامه",
+          "id": null
+        },
+        {
+          "url": "http://pgsrttu.ir/",
+          "kind": "portal-document-reaudit-document",
+          "claim": "سامانه امور پایان نامه ها",
+          "id": null
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Iran-Conferences.doc",
+          "kind": "document",
+          "claim": "فرم شرکت در همایش های داخل کشور",
+          "id": "shahid-rajaee-discovery-document-01ecd4df33d9"
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%DA%AF%D8%B1%D8%AF%D8%B4-%DA%A9%D8%A7%D8%B1-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C-%D9%87%D9%85%D8%A7%DB%8C%D8%B4.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "آئین نامه و دستورالعمل آئین نامه برگزاری همایش های علمی وزارت علوم- دی ۱۳۹۷ دستورالعمل اجرایی نحوه برگزاري همایشها و کنفرانسهاي علمی فرم پیشنهاد برگزاری همایش در دانشگاه تربیت دبیر شهید رجایی گردش کاربرگزاری همایش",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2024/02/%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%86%DA%AF%D8%A7%D8%B1.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست فعال سازی وب سایت همایش",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%86%D9%85%D8%A7%DB%8C%D9%87-ISC.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست نمایه",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آئین نامه همایش های علمی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/AeenNameh_2.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "منشور و موازین اخلاق پژوهش مصاديق تخلفات پژوهشي دستورالعمل بررسي تخلفات پژوهشي",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D9%81%D8%B1%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%A7%D8%B3%D8%A7%D8%AA%D9%8A%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-1401.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه های پژوهشی فراخوان ﺍﻧﺘﺨﺎﺏ ﺍﺳﺎﺗﻴﺪ ﭘﮋﻭﻫﺸﮕﺮ ﺑﺮﮔﺰﻳﺪﻩ ۱۴۰۱",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%A7%D8%B3%D8%A7%D8%AA%D9%8A%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-1401.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه های پژوهشی فراخوان ﺍﻧﺘﺨﺎﺏ ﺍﺳﺎﺗﻴﺪ ﭘﮋﻭﻫﺸﮕﺮ ﺑﺮﮔﺰﻳﺪﻩ ۱۴۰۱ شیوهﻧﺎﻣﻪ ﺍﻧﺘﺨﺎﺏ ﺍﺳﺎﺗﻴﺪ ﭘﮋﻭﻫﺸﮕﺮ ﺑﺮﮔﺰﻳﺪﻩ ۱۴۰۱",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D9%81%D8%B1%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D8%A7%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-1401.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه های پژوهشی فراخوان ﺍﻧﺘﺨﺎﺏ ﺍﺳﺎﺗﻴﺪ ﭘﮋﻭﻫﺸﮕﺮ ﺑﺮﮔﺰﻳﺪﻩ ۱۴۰۱ شیوهﻧﺎﻣﻪ ﺍﻧﺘﺨﺎﺏ ﺍﺳﺎﺗﻴﺪ ﭘﮋﻭﻫﺸﮕﺮ ﺑﺮﮔﺰﻳﺪﻩ ۱۴۰۱ فراخوان ﺍﻧﺘﺨﺎﺏ ﺩﺍﻧﺸﺠﻮﻳﺎﻥ ﭘﮋﻭﻫﺸﮕﺮ برتر سال ۱۴۰۱",
-          "id": null
+          "id": "shahid-rajaee-discovery-document-07e57d7e4948"
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D8%A7%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "آیین نامه های پژوهشی فراخوان ﺍﻧﺘﺨﺎﺏ ﺍﺳﺎﺗﻴﺪ ﭘﮋﻭﻫﺸﮕﺮ ﺑﺮﮔﺰﻳﺪﻩ ۱۴۰۱ شیوهﻧﺎﻣﻪ ﺍﻧﺘﺨﺎﺏ ﺍﺳﺎﺗﻴﺪ ﭘﮋﻭﻫﺸﮕﺮ ﺑﺮﮔﺰﻳﺪﻩ ۱۴۰۱ فراخوان ﺍﻧﺘﺨﺎﺏ ﺩﺍﻧﺸﺠﻮﻳﺎﻥ ﭘﮋﻭﻫﺸﮕﺮ برتر سال ۱۴۰۱ شیوه ﻧﺎﻣﻪ ﺍﻧﺘﺨﺎﺏ ﺩﺍﻧﺸﺠﻮﻳﺎﻥ ﭘﮋﻭﻫﺸﮕﺮ برتر س ال ۱۴۰۱",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه برگزاری کرسی ترویجی کاربرگ درخواست برگزاری کرسی ترویجی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%DA%A9%D8%B1%D8%B3%DB%8C.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه برگزاری کرسی ترویجی کاربرگ درخواست برگزاری کرسی ترویجی",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2025/02/1_16802471857.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شيوه نامه جذب پژوهشگر پسادكتري ۱۴۰۲",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-1.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "گردش کار دوره تحقیقاتی پسادکتری در دانشگاه تربیت دبیر شهید رجایی آیین نامه پذیرش پژوهش گران پسا دکتری آین نامه جذب و به کار گیری محققان پسا دکتری",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%B0%D8%A8-%D9%88-%D8%A8%D9%87-%DA%A9%D8%A7%D8%B1-%DA%AF%DB%8C%D8%B1%DB%8C-%D9%85%D8%AD%D9%82%D9%82%D8%A7%D9%86-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "گردش کار دوره تحقیقاتی پسادکتری در دانشگاه تربیت دبیر شهید رجایی آیین نامه پذیرش پژوهش گران پسا دکتری آین نامه جذب و به کار گیری محققان پسا دکتری",
-          "id": null
-        },
-        {
-          "url": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_4_22849.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "نحوه نگارش پايان نامه",
-          "id": null
+          "id": "shahid-rajaee-discovery-document-0a5aba9e74c7"
         },
         {
           "url": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_6_23536.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "شماره گذاري صفحات پايان نامه",
-          "id": null
-        },
-        {
-          "url": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_8_23537.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "الگو (Template) نگارش پايان نامه",
-          "id": null
-        },
-        {
-          "url": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_10_23539.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "ثبت پايان نامه",
-          "id": null
-        },
-        {
-          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/student-request.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "درخواست تسهیلات شرکت دانشجویان تحصيلات تكميلي در همایش های خارج از کشور",
-          "id": null
+          "id": "shahid-rajaee-discovery-document-0c9fabe21ff2"
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D9%84%D9%88%DA%86%D8%A7%D8%B1%D8%AA-%DA%A9%D8%A7%D8%B1%D8%A2%D9%85%D9%88%D8%B2%DB%8C.pdf",
@@ -1407,10 +1480,34 @@
           "id": "shahid-rajaee-discovery-document-0da30b2e4837"
         },
         {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84-%D9%87%D9%85%D8%A7%DB%8C%D8%B4.doc",
+          "kind": "document",
+          "claim": "فرم پیشنهاد برگزاری همایش در دانشگاه تربیت دبیر شهید رجایی",
+          "id": "shahid-rajaee-discovery-document-0e5ebb27fbb8"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%DA%86%DA%A9-%D9%84%DB%8C%D8%B3%D8%AA-%D8%AA%D8%B4%DA%A9%DB%8C%D9%84-%D9%BE%D8%B1%D9%88%D9%86%D8%AF%D9%87.pdf",
+          "kind": "document",
+          "claim": "چک لیست مدارک برای تشکیل پرونده",
+          "id": "shahid-rajaee-discovery-document-14dc3f7546b4"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-be.doc",
+          "kind": "document",
+          "claim": "فرم ب",
+          "id": "shahid-rajaee-discovery-document-18eeadef3803"
+        },
+        {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2026/02/shivename-pishgiri-taghalob.pdf",
           "kind": "document",
           "claim": "دستورالعمل ماده ۵آیین نامه اجرائی قانون پیشگیری و مقابله با تقلب در تهیه آثار علمی",
           "id": "shahid-rajaee-discovery-document-1c474fdac420"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%DA%A9%D8%B1%D8%B3%DB%8C.docx",
+          "kind": "document",
+          "claim": "شیوه نامه برگزاری کرسی ترویجی کاربرگ درخواست برگزاری کرسی ترویجی",
+          "id": "shahid-rajaee-discovery-document-1fe6f60b7fbb"
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2016/05/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1%D8%A7%D9%84%D8%B9%D9%85%D9%84-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%D9%8A-%D9%87%D9%85%D8%A7%D9%8A%D8%B4.pdf",
@@ -1419,10 +1516,22 @@
           "id": "shahid-rajaee-discovery-document-26f62518d147"
         },
         {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/research_course_1394a.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل اجرایی استفاده از دوره فرصت مطالعاتی دانشگاه شهید رجائی",
+          "id": "shahid-rajaee-discovery-document-2777d003f052"
+        },
+        {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4-%DA%A9%D8%A7%D8%B1-%D9%87%D9%81%D8%AA%DA%AF%DB%8C.pdf",
           "kind": "document",
           "claim": "فرم گزارش هفتگی",
           "id": "shahid-rajaee-discovery-document-29d8fe336393"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C1.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اجرایی",
+          "id": "shahid-rajaee-discovery-document-2da1a773f7ba"
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D9%87%D8%A7%DB%8C-%DA%A9%D8%A7%D8%B1%D8%A2%D9%85%D9%88%D8%B2%DB%8C.pdf",
@@ -1437,6 +1546,36 @@
           "id": "shahid-rajaee-discovery-document-3720c1255acf"
         },
         {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-3.doc",
+          "kind": "document",
+          "claim": "فرم ارزشیابی گزارش نهایی طرح پژوهشی",
+          "id": "shahid-rajaee-discovery-document-38410e4e0e26"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/06/%D8%A2%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%B0%D8%A8-%D9%88-%D8%A8%D9%87-%DA%A9%D8%A7%D8%B1-%DA%AF%DB%8C%D8%B1%DB%8C-%D9%85%D8%AD%D9%82%D9%82%D8%A7%D9%86-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C_compressed-4-1-6.pdf",
+          "kind": "document",
+          "claim": "دکتری_compressed-4-1-6",
+          "id": "shahid-rajaee-discovery-document-389e8864b351"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%B4%D9%88%DB%8C%D9%82-%D9%86%D9%88%DB%8C%D8%B3%D9%86%D8%AF%DA%AF%D8%A7%D9%86-%D9%85%D9%82%D8%A7%D9%84%D8%A7%D8%AA-%D9%85%D9%86%D8%AA%D8%B4%D8%B1-%D8%B4%D8%AF%D9%87-%D8%AF%D8%B1-%D9%86%D8%B4%D8%B1%DB%8C%D8%A7%D8%AA-%D9%85%D8%B9%D8%AA%D8%A8%D8%B1-%D8%A8%DB%8C%D9%86-%D8%A7%D9%84%D9%85%D9%84%D9%84%DB%8C-%D9%88-%D8%AF%D8%A7%D8%AE%D9%84%DB%8C-1.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه تشویق نویسندگان مقالات منتشر شده در نشریات معتبر بین المللی و داخلی",
+          "id": "shahid-rajaee-discovery-document-391737886947"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2020/09/Grant-Instruction-99-1.pdf",
+          "kind": "document",
+          "claim": "آیین نامه گرنت سال ۱۳۹۹",
+          "id": "shahid-rajaee-discovery-document-3a4726667386"
+        },
+        {
+          "url": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_10_23539.pdf",
+          "kind": "document",
+          "claim": "ثبت پايان نامه",
+          "id": "shahid-rajaee-discovery-document-40640fc8207b"
+        },
+        {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2025/01/%D9%BE%D8%B1%D8%AF%D8%A7%D8%AE%D8%AA-%D9%87%D8%B2%DB%8C%D9%86%D9%87%D8%A2%D8%B0%D8%B1-.pdf",
           "kind": "document",
           "claim": "فرم پرداخت هزینه",
@@ -1449,10 +1588,88 @@
           "id": "shahid-rajaee-discovery-document-4c818e8ee1a8"
         },
         {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2023/05/grant-1402.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اعتبار پژوهشی اعضای هیات علمی دانشگاه تربیت دبیر شهید رجائی (پژوهانه) سال ۱۴۰۲",
+          "id": "shahid-rajaee-discovery-document-54c22624578d"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/AeenNameh_2.pdf",
+          "kind": "document",
+          "claim": "منشور و موازین اخلاق پژوهش مصاديق تخلفات پژوهشي دستورالعمل بررسي تخلفات پژوهشي",
+          "id": "shahid-rajaee-discovery-document-5899d429ca70"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%87%D8%A7%DB%8C-%D8%B9%D9%84%D9%85%DB%8C.pdf",
+          "kind": "document",
+          "claim": "آئین نامه همایش های علمی",
+          "id": "shahid-rajaee-discovery-document-5c2bd6405467"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%A7%D8%B3%D8%A7%D8%AA%D9%8A%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-1401.pdf",
+          "kind": "document",
+          "claim": "آیین نامه های پژوهشی فراخوان ﺍﻧﺘﺨﺎﺏ ﺍﺳﺎﺗﻴﺪ ﭘﮋﻭﻫﺸﮕﺮ ﺑﺮﮔﺰﻳﺪﻩ ۱۴۰۱ شیوهﻧﺎﻣﻪ ﺍﻧﺘﺨﺎﺏ ﺍﺳﺎﺗﻴﺪ ﭘﮋﻭﻫﺸﮕﺮ ﺑﺮﮔﺰﻳﺪﻩ ۱۴۰۱",
+          "id": "shahid-rajaee-discovery-document-5e9d1224467f"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-1.docx",
+          "kind": "document",
+          "claim": "گاربرگ مشخصات همایش خارجی (تکمیل توسط معاون پژوهشی دانشکده)",
+          "id": "shahid-rajaee-discovery-document-67fe8e00264e"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D9%81%D8%B1%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%D9%8A%D8%A7%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-1401.pdf",
+          "kind": "document",
+          "claim": "آیین نامه های پژوهشی فراخوان ﺍﻧﺘﺨﺎﺏ ﺍﺳﺎﺗﻴﺪ ﭘﮋﻭﻫﺸﮕﺮ ﺑﺮﮔﺰﻳﺪﻩ ۱۴۰۱ شیوهﻧﺎﻣﻪ ﺍﻧﺘﺨﺎﺏ ﺍﺳﺎﺗﻴﺪ ﭘﮋﻭﻫﺸﮕﺮ ﺑﺮﮔﺰﻳﺪﻩ ۱۴۰۱ فراخوان ﺍﻧﺘﺨﺎﺏ ﺩﺍﻧﺸﺠﻮﻳﺎﻥ ﭘﮋﻭﻫﺸﮕﺮ برتر سال ۱۴۰۱",
+          "id": "shahid-rajaee-discovery-document-69ae2196ac91"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2016/04/researchgroup.pdf",
+          "kind": "document",
+          "claim": "آیین نامه و دستورالعمل آئین نامه تشکیل واحدهای پژوهشی وزارت علوم- فروردین ۱۳۹۸ دستورالعمل تشکیل گروههاي پژوهشی اعضاي هیات علمی دانشگاه شهید رجائی",
+          "id": "shahid-rajaee-discovery-document-6c58903cd631"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2020/04/hemayat-d99.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل اجرایی حمایت از فعالیت های پژوهشی دانشجویان (بازنگری شده در بهمن ۹۸)",
+          "id": "shahid-rajaee-discovery-document-6dfff07045b4"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Forsat-Motaaleati.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی (وزارت علوم)",
+          "id": "shahid-rajaee-discovery-document-7742d644ce50"
+        },
+        {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2022/07/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D9%BE%D8%B1%D9%88%D9%BE%D9%88%D8%B2%D8%A7%D9%84.docx",
           "kind": "document",
           "claim": "فرم اطلاعات پروپوزال",
           "id": "shahid-rajaee-discovery-document-7765d05a664a"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-alef.doc",
+          "kind": "document",
+          "claim": "فرم الف",
+          "id": "shahid-rajaee-discovery-document-7df4b4fd09bb"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%DB%8C%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B0%DB%8C%D8%B1%D8%B4-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C-1.pdf",
+          "kind": "document",
+          "claim": "آیین نامه پذیرش پژوهش گران پسا دکتری",
+          "id": "shahid-rajaee-discovery-document-839ec47ffbc6"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2023/07/%D8%B4%D9%8A%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%D8%A6%D9%8A-%D8%B7%D8%B1%D8%AD%D9%87%D8%A7%D9%8A-%D9%BE%DA%98%D9%88%D9%87%D8%B4%D9%8A-%D8%AF%D8%B1%D9%88%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%8A-1402.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اجرایی طرح های پژوهشی درون دانشگاهی ۱۴۰۲",
+          "id": "shahid-rajaee-discovery-document-8c5556d1e1a5"
+        },
+        {
+          "url": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_8_23537.docx",
+          "kind": "document",
+          "claim": "الگو (Template) نگارش پايان نامه",
+          "id": "shahid-rajaee-discovery-document-8db416f93a3e"
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2022/07/%D9%81%D8%B1%D9%85-%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.docx",
@@ -1461,10 +1678,64 @@
           "id": "shahid-rajaee-discovery-document-8e1a8ee652c6"
         },
         {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2023/06/%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%A7%D9%85%D8%B9-%D8%AA%D8%AD%D9%82%D9%8A%D9%82%D8%A7%D8%AA%D9%8A-%D9%8A%D9%83%D8%B3%D8%A7%D9%84%D9%87.docx",
+          "kind": "document",
+          "claim": "دستورالعمل شیوه نامه اجرایی طرح های پژوهشی درون دانشگاهی ۱۴۰۲ فرم پرسشنامه برنامه جامع تحقيقاتي يكساله عضو هیات علمی",
+          "id": "shahid-rajaee-discovery-document-903e98b4b4ff"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%D9%8A%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-Grant-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88-%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C.pdf",
+          "kind": "document",
+          "claim": "اعضای هیئت علمی دانشگاهها و مؤسسات آموزش عالی",
+          "id": "shahid-rajaee-discovery-document-94b2c23afbda"
+        },
+        {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2020/06/form-sabti.pdf",
           "kind": "document",
           "claim": "(دانلود فرم و تکمیل بصورت فیزیکی)",
           "id": "shahid-rajaee-discovery-document-99110408a052"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/student-request.doc",
+          "kind": "document",
+          "claim": "درخواست تسهیلات شرکت دانشجویان تحصيلات تكميلي در همایش های خارج از کشور",
+          "id": "shahid-rajaee-discovery-document-9c47794b96ba"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2024/11/shivenameEtebar1403.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اعتبار پژوهشی اعضای هیات علمی دانشگاه تربیت دبیر شهید رجائی (پژوهانه) سال ۱۴۰۳",
+          "id": "shahid-rajaee-discovery-document-a228f023b846"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D8%AA%D8%B9%D9%87%D8%AF-%D9%83%D8%A7%D8%B1%D9%85%D9%86%D8%AF%D9%8A.pdf",
+          "kind": "document",
+          "claim": "فرم تعهد کارمندی",
+          "id": "shahid-rajaee-discovery-document-a36314f45186"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/conferences.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اجرایی شرکت اساتید و دانشجویان تحصیلات تکمیلی در کنفرانس های علمی خارج از کشور",
+          "id": "shahid-rajaee-discovery-document-a521a27d07cc"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/International-Conferences.doc",
+          "kind": "document",
+          "claim": "فرم شرکت در همایش های خارج از کشور",
+          "id": "shahid-rajaee-discovery-document-a627fa1a7a49"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/International-Conferences-for-Students.doc",
+          "kind": "document",
+          "claim": "فرم شرکت دانشجویان تحصیلات تکمیلی در همایش های خارج از کشور",
+          "id": "shahid-rajaee-discovery-document-a8cf2fa85810"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه برگزاری کرسی ترویجی",
+          "id": "shahid-rajaee-discovery-document-a9ada69675e5"
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2022/07/%D9%81%D8%B1%D9%85-%D8%AE%D8%A7%D9%85-HSE.pdf",
@@ -1473,10 +1744,148 @@
           "id": "shahid-rajaee-discovery-document-ab6bdf605cef"
         },
         {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%DA%86%DA%A9-%D9%84%DB%8C%D8%B3%D8%AA-%D9%85%D8%AF%D8%A7%D8%B1%DA%A9-%D9%BE%D8%B3-%D8%A7%D8%B2-%D8%AA%D8%B5%D9%88%DB%8C%D8%A8-%D8%AF%D8%B1-%D8%B4%D9%88%D8%B1%D8%A7%DB%8C-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.pdf",
+          "kind": "document",
+          "claim": "چک لیست مدارک پس از تصویب درخواست",
+          "id": "shahid-rajaee-discovery-document-acae51974eb0"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/06/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C-%D9%88%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_compressed-3-13.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی اعضاء هیات علمی دانشگاهها و موسسات آموزش عالی و پژوهشی",
+          "id": "shahid-rajaee-discovery-document-b64a6d1d0e63"
+        },
+        {
+          "url": "https://lib.sru.ac.ir/Dl/Sportal/Files/24_4_22849.pdf",
+          "kind": "document",
+          "claim": "نحوه نگارش پايان نامه",
+          "id": "shahid-rajaee-discovery-document-b99f01c2a7a0"
+        },
+        {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF.pdf",
           "kind": "document",
           "claim": "فرم بازديد جهت پروژه",
           "id": "shahid-rajaee-discovery-document-bae6b0b08aea"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/02/%D9%81%D8%B1%D9%85-%D8%AA%D8%A7%DB%8C%DB%8C%D8%AF-%D8%AA%D8%B9%D8%AF%D8%A7%D8%AF-%D9%BE%D8%A7%DB%8C%D8%A7%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%B1%D8%B3%D8%A7%D9%84%D9%87-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%DB%8C%DB%8C.doc",
+          "kind": "document",
+          "claim": "فرم تایید تعداد پایان نامه/رساله تحت راهنمایی عضو هیات علمی",
+          "id": "shahid-rajaee-discovery-document-be68c19e3487"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/02/%D9%81%D8%B1%D9%85-%D9%BE%D8%B1%D8%B3%D8%B4%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D9%81%D8%B5%DB%8C%D9%84%DB%8C-%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D8%B7%D8%B1%D8%AD-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C.doc",
+          "kind": "document",
+          "claim": "پرسشنامه تفصیلی درخواست اعتبار طرح پژوهشی (ویژه طرح های پژوهشی ماموریت گرا و تقاضا محور)",
+          "id": "shahid-rajaee-discovery-document-bfda04568fff"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2023/10/pajouhesh-journal-1402.pdf",
+          "kind": "document",
+          "claim": "شيوه نامه تشويق نويسندگان مقالات منتشر شده در نشريات معتبر – ۱۴۰۲",
+          "id": "shahid-rajaee-discovery-document-c00ced61b298"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/Research_Group_Form.docx",
+          "kind": "document",
+          "claim": "فرم درخواست ایجاد گروه پژوهشی",
+          "id": "shahid-rajaee-discovery-document-c7e77f47d556"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2025/02/1_16802471857.pdf",
+          "kind": "document",
+          "claim": "شيوه نامه جذب پژوهشگر پسادكتري ۱۴۰۲",
+          "id": "shahid-rajaee-discovery-document-c85652547012"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/02/Grant-1401.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اعتبار پژوهشی اعضای هیات علمی دانشگاه تربیت دبیر شهید رجایی (پژوهانه) سال",
+          "id": "shahid-rajaee-discovery-document-ca389f1c9f56"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-jim.doc",
+          "kind": "document",
+          "claim": "فرم ج",
+          "id": "shahid-rajaee-discovery-document-cfd56305b3c6"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D9%88%D8%AB%D9%8A%D9%82%D9%87-%D9%85%D9%84%D9%83%D9%8A.pdf",
+          "kind": "document",
+          "claim": "فرم وثیقه ملکی",
+          "id": "shahid-rajaee-discovery-document-d3ec85a7b013"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%B0%D8%A8-%D9%88-%D8%A8%D9%87-%DA%A9%D8%A7%D8%B1-%DA%AF%DB%8C%D8%B1%DB%8C-%D9%85%D8%AD%D9%82%D9%82%D8%A7%D9%86-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
+          "kind": "document",
+          "claim": "گردش کار دوره تحقیقاتی پسادکتری در دانشگاه تربیت دبیر شهید رجایی آیین نامه پذیرش پژوهش گران پسا دکتری آین نامه جذب و به کار گیری محققان پسا دکتری",
+          "id": "shahid-rajaee-discovery-document-d4b6b58f1d05"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%D9%8A%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87-Grant-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88-%D9%85%D8%A4%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C-1.pdf",
+          "kind": "document",
+          "claim": "آيین نامه پژوهانه Grant اعضای هیئت علمی دانشگاهها و مؤسسات آموزش عالی 1",
+          "id": "shahid-rajaee-discovery-document-d720cccbe1e0"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Scheme-of-Final-Report-of-Research-Plan.doc",
+          "kind": "document",
+          "claim": "الگوی گزارش نهایی طرح های پژوهشی",
+          "id": "shahid-rajaee-discovery-document-d7843f75bc09"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/%D9%81%D8%B1%D8%A7%D8%AE%D9%88%D8%A7%D9%86-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D8%A7%D8%B3%D8%A7%D8%AA%D9%8A%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1-%D8%A8%D8%B1%D8%AA%D8%B1-1401.pdf",
+          "kind": "document",
+          "claim": "آیین نامه های پژوهشی فراخوان ﺍﻧﺘﺨﺎﺏ ﺍﺳﺎﺗﻴﺪ ﭘﮋﻭﻫﺸﮕﺮ ﺑﺮﮔﺰﻳﺪﻩ ۱۴۰۱",
+          "id": "shahid-rajaee-discovery-document-d895e74a91ed"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2024/02/%D9%81%D8%A7%DB%8C%D9%84-%D9%87%D9%85%D8%A7%DB%8C%D8%B4-%D9%86%DA%AF%D8%A7%D8%B1.doc",
+          "kind": "document",
+          "claim": "فرم درخواست فعال سازی وب سایت همایش",
+          "id": "shahid-rajaee-discovery-document-d91eac927c95"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%AF%D8%B1-%D8%AC%D8%A7%D9%85%D8%B9%D9%87-%D9%88-%D8%B5%D9%86%D8%B9%D8%AA-17.6.97.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی در جامعه و صنعت وزارت علوم-دی ۱۳۹۷",
+          "id": "shahid-rajaee-discovery-document-d9f292c98b15"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Forsat-Motaaleati-Elhaaghiye.pdf",
+          "kind": "document",
+          "claim": "الحاقیه شیوه نامه فرصت مطالعاتی اعضای هیئت علمی (وزارت علوم)",
+          "id": "shahid-rajaee-discovery-document-ea4c5f331161"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/05/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%AF%DB%8C%D8%AF-%D8%A7%D9%86%D8%AA%D8%AE%D8%A7%D8%A8-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86-%D9%81%D8%B9%D8%A7%D9%84-1401-1.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه انتخاب پژوهشگران فعال در سال ۱۴۰۱",
+          "id": "shahid-rajaee-discovery-document-ec12a3977704"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-1.doc",
+          "kind": "document",
+          "claim": "فرم ارزشیابی طرح پژوهشی",
+          "id": "shahid-rajaee-discovery-document-efd32ff871f3"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2022/10/form-student-1401.doc",
+          "kind": "document",
+          "claim": "فرم پرسشنامه انتخاب دانشجويان پژوهشگربرتر سال ۱۴۰۱",
+          "id": "shahid-rajaee-discovery-document-f1596c2696b7"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AA%D8%A7%D8%B3%DB%8C%D8%B3-%D9%88%D8%A7%D8%AD%D8%AF-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-19.1.98.pdf",
+          "kind": "document",
+          "claim": "آیین نامه و دستورالعمل آئین نامه تشکیل واحدهای پژوهشی وزارت علوم- فروردین ۱۳۹۸",
+          "id": "shahid-rajaee-discovery-document-f42e3c3d1ee6"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2026/06/%D8%A2%D8%A6%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B3%D8%AA%D9%81%D8%A7%D8%AF%D9%87-%D8%A7%D8%B2-%D9%81%D8%B1%D8%B5%D8%AA%D9%87%D8%A7%DB%8C-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C-%D9%87%DB%8C%D8%A6%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88-%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C.pdf",
+          "kind": "document",
+          "claim": "آئین نامه استفاده از فرصتهای مطالعاتی برای اعضای هیئت علمی دانشگاهها و موسسات آموزش عالی",
+          "id": "shahid-rajaee-discovery-document-f6fdf30fe17a"
         },
         {
           "url": "https://www.sru.ac.ir/wp-content/uploads/2024/10/1-%D9%85%D9%87%D8%B1-%D9%81%D8%B1%D9%85-%D9%86%D9%87%D8%A7%DB%8C%DB%8C-%D8%B1%D8%B6%D8%A7%DB%8C%D8%AA-%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%B2-%D9%88%D9%84%DB%8C-%DB%8C%D8%A7-%D9%82%DB%8C%D9%85-%DA%A9%D9%88%D8%AF%DA%A9.doc",
@@ -1485,11 +1894,28 @@
           "id": "shahid-rajaee-discovery-document-f8e9301f12c0"
         },
         {
-          "url": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D8%AF%D8%B1%D8%AE%D9%88%D8%A7%D8%B3%D8%AA-%D9%86%D9%85%D8%A7%DB%8C%D9%87-ISC.docx",
+          "kind": "document",
+          "claim": "فرم درخواست نمایه",
+          "id": "shahid-rajaee-discovery-document-f9c2eda3ab46"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-dal.doc",
+          "kind": "document",
+          "claim": "فرم د",
+          "id": "shahid-rajaee-discovery-document-fd032870e367"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2020/06/Tarh-Melli.doc",
+          "kind": "document",
+          "claim": "کاربرگ درخواست گستره طرح پژوهشی (حوزه اثر ملی)",
+          "id": "shahid-rajaee-discovery-document-fd1227b9e4d4"
+        },
+        {
+          "url": "https://www.sru.ac.ir/wp-content/uploads/2015/11/Research-Plan-2.doc",
+          "kind": "document",
+          "claim": "فرم ارزشیابی گزارش مرحله ای طرح پژوهشی",
+          "id": "shahid-rajaee-discovery-document-ff2083d3d37c"
         }
       ],
       "publicationAdjustment": null,
@@ -1497,37 +1923,7 @@
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
-  "ranking": {
-    "universitySlug": "shahid-rajaee",
-    "nameFa": "دانشگاه تربیت دبیر شهید رجایی",
-    "iscCategory": "دستگاه اجرایی",
-    "iscRank": 4,
-    "score": 58.9,
-    "coverageAdjustedScore": 51.8,
-    "rankingScore": 57.8,
-    "confidence": 89.9,
-    "metrics": {
-      "documents": 91,
-      "organization": null,
-      "library": 70,
-      "laboratories": 0,
-      "systems": 0,
-      "industryTech": 55,
-      "dataQuality": 100,
-      "findability": 80
-    },
-    "units": 3,
-    "systems": 0,
-    "documents": 83,
-    "activeWeight": 88,
-    "evidenceCoverage": 86,
-    "methodologyVersion": "RTPMI-4.2-ISC",
-    "scoringPolicyVersion": "entity-cleaning-2.2-coverage-shrinkage-findability",
-    "snapshotDate": "2026-08-14",
-    "rank": 44,
-    "portalRankWithinISCClass": 3,
-    "rankedPortalsInISCClass": 3
-  },
+  "ranking": null,
   "units": [
     {
       "id": "shahid-rajaee-discovery-unit-library-1d21be79381d",
@@ -1617,6 +2013,64 @@
       "evidenceUrls": [
         "https://www.sru.ac.ir/wp-content/uploads/2015/11/Iran-Conferences.doc",
         "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-0654e81d32cd",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی بینایی محاسباتی -شناختی",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2017/05/17_20.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2017/05/17_20.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "17_20.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2017/05/17_20.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-0732f96860d1",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی موتورهاي احتراق داخلی",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/59_62.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2015/01/59_62.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "59_62.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2015/01/59_62.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
       ],
       "alternateUrls": []
     },
@@ -1767,6 +2221,61 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-0ebaebca1d3e",
+      "universitySlug": "shahid-rajaee",
+      "title": "(جدول جهانی JCR)",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/AeenNume/MIF%202010%20JCR%20Science.doc",
+      "sourceUrl": "https://www.sru.ac.ir/AeenNume/MIF%202010%20JCR%20Science.doc",
+      "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c/",
+      "fileName": "MIF 2010 JCR Science.doc",
+      "contentType": "text/html; charset=UTF-8",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/AeenNume/MIF%202010%20JCR%20Science.doc",
+        "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-148ac9bbf1aa",
+      "universitySlug": "shahid-rajaee",
+      "title": "سامانه امور پایان نامه ها",
+      "type": "سند",
+      "topic": "پایان‌نامه و رساله",
+      "taxonomy": "postgraduate/research affairs",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://pgsrttu.ir/",
+      "sourceUrl": "http://pgsrttu.ir/",
+      "parentUrl": "https://www.sru.ac.ir/%d8%a7%d9%88%d9%84%db%8c%d9%86-%d8%ac%d9%84%d8%b3%d9%87-%d8%b4%d9%88%d8%b1%d8%a7%db%8c-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%af%d8%b1-%d8%b3%d8%a7%d9%84-1404/",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.79,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "document-landing-page",
+      "cleaningReason": "specific-document-landing-page",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "systemsServices",
+      "evidenceUrls": [
+        "http://pgsrttu.ir/",
+        "https://www.sru.ac.ir/%d8%a7%d9%88%d9%84%db%8c%d9%86-%d8%ac%d9%84%d8%b3%d9%87-%d8%b4%d9%88%d8%b1%d8%a7%db%8c-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%af%d8%b1-%d8%b3%d8%a7%d9%84-1404/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-14dc3f7546b4",
       "universitySlug": "shahid-rajaee",
       "title": "چک لیست مدارک برای تشکیل پرونده",
@@ -1823,6 +2332,35 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-1b209820b077",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه ارتعاشات پیشرفته",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/63_64-2.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/01/63_64-2.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "63_64-2.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2015/01/63_64-2.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-1c474fdac420",
       "universitySlug": "shahid-rajaee",
       "title": "دستورالعمل ماده ۵آیین نامه اجرائی قانون پیشگیری و مقابله با تقلب در تهیه آثار علمی",
@@ -1854,6 +2392,64 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-1e697c6f3fb8",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی مکاترونیک و اتوماسیون",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/65_68.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/01/65_68.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "65_68.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2015/01/65_68.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-1ecd1f87a462",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی سنتزسبز مواد شیمیایی",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/83_86.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/01/83_86.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "83_86.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2015/01/83_86.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-1fe6f60b7fbb",
       "universitySlug": "shahid-rajaee",
       "title": "شیوه نامه برگزاری کرسی ترویجی کاربرگ درخواست برگزاری کرسی ترویجی",
@@ -1878,6 +2474,64 @@
       "evidenceUrls": [
         "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%DA%A9%D8%B1%D8%B3%DB%8C.docx",
         "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-226f0fba7cfa",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی نانوفوتونیک و اپتوالکترونیک",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/45_52.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2015/01/45_52.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "45_52.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2015/01/45_52.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-24c7fb192702",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی الکترونیک قدرت و انرژيهاي نو",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2017/05/27_30.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2017/05/27_30.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "27_30.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2017/05/27_30.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
       ],
       "alternateUrls": []
     },
@@ -1972,6 +2626,62 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-29fe34642147",
+      "universitySlug": "shahid-rajaee",
+      "title": "تلفن ها",
+      "type": "سند",
+      "topic": "سایر اسناد پژوهشی",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2024/08/telephon-main.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2024/08/telephon-main.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%d8%a7%d9%88%d9%84%db%8c%d9%86-%d8%ac%d9%84%d8%b3%d9%87-%d8%b4%d9%88%d8%b1%d8%a7%db%8c-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%af%d8%b1-%d8%b3%d8%a7%d9%84-1404/",
+      "fileName": "telephon-main.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2024/08/telephon-main.pdf",
+        "https://www.sru.ac.ir/%d8%a7%d9%88%d9%84%db%8c%d9%86-%d8%ac%d9%84%d8%b3%d9%87-%d8%b4%d9%88%d8%b1%d8%a7%db%8c-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%af%d8%b1-%d8%b3%d8%a7%d9%84-1404/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-2bedc2a07bf1",
+      "universitySlug": "shahid-rajaee",
+      "title": "مرکز مطالعات و پژوهش هاي آموزش علوم و مهندسی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2017/05/16-2.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2017/05/16-2.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "16-2.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2017/05/16-2.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-2da1a773f7ba",
       "universitySlug": "shahid-rajaee",
       "title": "شیوه نامه اجرایی",
@@ -1996,6 +2706,35 @@
       "evidenceUrls": [
         "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C1.pdf",
         "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-30bf2b59fe33",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی پردازش سیگنال هاي مخابراتی دیجیتال",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/41_44.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2015/01/41_44.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "41_44.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2015/01/41_44.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
       ],
       "alternateUrls": []
     },
@@ -2236,6 +2975,35 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-45b92609bb32",
+      "universitySlug": "shahid-rajaee",
+      "title": "سخنرانی سرپرست معاونت پژوهشی و فناوری در 17 آذرماه 1404 1",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2025/12/%D8%B3%D8%AE%D9%86%D8%B1%D8%A7%D9%86%DB%8C-%D8%B3%D8%B1%D9%BE%D8%B1%D8%B3%D8%AA-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%B1-17-%D8%A2%D8%B0%D8%B1%D9%85%D8%A7%D9%87-1404-1.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2025/12/%D8%B3%D8%AE%D9%86%D8%B1%D8%A7%D9%86%DB%8C-%D8%B3%D8%B1%D9%BE%D8%B1%D8%B3%D8%AA-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%B1-17-%D8%A2%D8%B0%D8%B1%D9%85%D8%A7%D9%87-1404-1.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b1%d8%a7%d8%b3%d9%85-%d8%b1%d9%88%d8%b2-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d8%aa%d9%82%d8%af%db%8c%d8%b1-%d8%a7%d8%b2-%d9%be%da%98%d9%88%d9%87%d8%b4%da%af%d8%b1%d8%a7%d9%86-%d8%a8%d8%b1/",
+      "fileName": "سخنرانی-سرپرست-معاونت-پژوهشی-و-فناوری-در-17-آذرماه-1404-1.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "organization",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2025/12/%D8%B3%D8%AE%D9%86%D8%B1%D8%A7%D9%86%DB%8C-%D8%B3%D8%B1%D9%BE%D8%B1%D8%B3%D8%AA-%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C-%D8%AF%D8%B1-17-%D8%A2%D8%B0%D8%B1%D9%85%D8%A7%D9%87-1404-1.pdf",
+        "https://www.sru.ac.ir/%d9%85%d8%b1%d8%a7%d8%b3%d9%85-%d8%b1%d9%88%d8%b2-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d8%aa%d9%82%d8%af%db%8c%d8%b1-%d8%a7%d8%b2-%d9%be%da%98%d9%88%d9%87%d8%b4%da%af%d8%b1%d8%a7%d9%86-%d8%a8%d8%b1/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-4c818e8ee1a8",
       "universitySlug": "shahid-rajaee",
       "title": "فرم رضایت آگاهانه کلی",
@@ -2263,6 +3031,93 @@
       "evidenceUrls": [
         "https://www.sru.ac.ir/wp-content/uploads/2024/11/%D9%81%D8%B1%D9%85-%D8%B1%D8%B6%D8%A7%DB%8C%D8%AA-%D8%A2%DA%AF%D8%A7%D9%87%D8%A7%D9%86%D9%87-%D8%B1%D8%AC%D8%A7%DB%8C%DB%8C.docx",
         "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%da%a9%d9%85%db%8c%d8%aa%d9%87-%d8%a7%d8%ae%d9%84%d8%a7%d9%82-%d8%af%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%87%d8%a7%db%8c-%d8%b2%db%8c%d8%b3%d8%aa-%d9%be%d8%b2%d8%b4%da%a9%db%8c/%d9%81%d8%b1%d9%85-%d9%87%d8%a7/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-4dc66886accb",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی مکاترونیک و اتوماسیون",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/65_68.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2015/01/65_68.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "65_68.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2015/01/65_68.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-4f7a2c4b5838",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی موتورهاي احتراق داخلی",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/59_62.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/01/59_62.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "59_62.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2015/01/59_62.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-4f8d89625fc9",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی پیل سوختی",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/31_36.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2015/01/31_36.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "31_36.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2015/01/31_36.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
       ],
       "alternateUrls": []
     },
@@ -2408,6 +3263,34 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-5ff3cce97c9e",
+      "universitySlug": "shahid-rajaee",
+      "title": "پژوهشکده فناوري هاي نوین",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/87_90-2.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2015/01/87_90-2.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "87_90-2.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2015/01/87_90-2.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-633d9d1e36d5",
       "universitySlug": "shahid-rajaee",
       "title": "دستورالعمل اجرايي شيوه نامه تشـويق نويسندگان مقــالات منتشر شده در نشريات معتبر بين المللي و داخلي",
@@ -2549,6 +3432,91 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-6ff5ef672077",
+      "universitySlug": "shahid-rajaee",
+      "title": "مرکز محاسبات سریع",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/53_54.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2015/01/53_54.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "53_54.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2015/01/53_54.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-704c6dbd6352",
+      "universitySlug": "shahid-rajaee",
+      "title": "آئین نامه فرصت مطالعاتی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/AeenNume/32.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/AeenNume/32.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c/",
+      "fileName": "32.pdf",
+      "contentType": "text/html; charset=UTF-8",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9800000000000001,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/AeenNume/32.pdf",
+        "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-759c1c5e81e1",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی سنتزسبز مواد شیمیایی",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/83_86.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2015/01/83_86.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "83_86.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2015/01/83_86.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-7742d644ce50",
       "universitySlug": "shahid-rajaee",
       "title": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی (وزارت علوم)",
@@ -2608,6 +3576,34 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-7b89624b5e4c",
+      "universitySlug": "shahid-rajaee",
+      "title": "پژوهشکده فناوري هاي نوین",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/87_90-2.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/01/87_90-2.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "87_90-2.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2015/01/87_90-2.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-7df4b4fd09bb",
       "universitySlug": "shahid-rajaee",
       "title": "فرم الف",
@@ -2632,6 +3628,64 @@
       "evidenceUrls": [
         "https://www.sru.ac.ir/wp-content/uploads/2015/05/form-alef.doc",
         "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-7f1fa17c729d",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی تعیین میزان نفوذپذیري در اجسام متخلخل",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2017/05/21_26.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2017/05/21_26.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "21_26.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2017/05/21_26.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-810f2fa0a8aa",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی کامپوزیت",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/79_82-3.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2015/01/79_82-3.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "79_82-3.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2015/01/79_82-3.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
       ],
       "alternateUrls": []
     },
@@ -2718,6 +3772,35 @@
       "evidenceUrls": [
         "https://lib.sru.ac.ir/Dl/Sportal/Files/24_8_23537.docx",
         "https://lib.sru.ac.ir/DL/SPortal/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-8dd3eb449094",
+      "universitySlug": "shahid-rajaee",
+      "title": "متن تفاهم‌نامه",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2025/11/%D9%85%D8%AA%D9%86-%D8%AA%D9%81%D8%A7%D9%87%D9%85_%D9%86%D8%A7%D9%85%D9%87-%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C-%D9%81%DB%8C-%D9%85%D8%A7%D8%A8%DB%8C%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%AA%D8%B1%D8%A8%DB%8C%D8%AA-%D8%AF%D8%A8%DB%8C%D8%B1-%D8%B4%D9%87%DB%8C%D8%AF-%D8%B1%D8%AC%D8%A7%DB%8C%DB%8C-%D9%88-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D9%84%DB%8C-%D9%86%D9%82%D8%B4%D9%87_%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D9%85%D8%BA%D8%B2.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2025/11/%D9%85%D8%AA%D9%86-%D8%AA%D9%81%D8%A7%D9%87%D9%85_%D9%86%D8%A7%D9%85%D9%87-%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C-%D9%81%DB%8C-%D9%85%D8%A7%D8%A8%DB%8C%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%AA%D8%B1%D8%A8%DB%8C%D8%AA-%D8%AF%D8%A8%DB%8C%D8%B1-%D8%B4%D9%87%DB%8C%D8%AF-%D8%B1%D8%AC%D8%A7%DB%8C%DB%8C-%D9%88-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D9%84%DB%8C-%D9%86%D9%82%D8%B4%D9%87_%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D9%85%D8%BA%D8%B2.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%d8%a7%d9%86%d8%b9%d9%82%d8%a7%d8%af-%d8%aa%d9%81%d8%a7%d9%87%d9%85%e2%80%8c%d9%86%d8%a7%d9%85%d9%87-%d9%87%d9%85%da%a9%d8%a7%d8%b1%db%8c-%d9%81%db%8c-%d9%85%d8%a7%d8%a8%db%8c%d9%86-%d8%af%d8%a7%d9%86/",
+      "fileName": "متن-تفاهم_نامه-همکاری-فی-مابین-دانشگاه-تربیت-دبیر-شهید-رجایی-و-آزمایشگاه-ملی-نقشه_برداری-مغز.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2025/11/%D9%85%D8%AA%D9%86-%D8%AA%D9%81%D8%A7%D9%87%D9%85_%D9%86%D8%A7%D9%85%D9%87-%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C-%D9%81%DB%8C-%D9%85%D8%A7%D8%A8%DB%8C%D9%86-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87-%D8%AA%D8%B1%D8%A8%DB%8C%D8%AA-%D8%AF%D8%A8%DB%8C%D8%B1-%D8%B4%D9%87%DB%8C%D8%AF-%D8%B1%D8%AC%D8%A7%DB%8C%DB%8C-%D9%88-%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D9%84%DB%8C-%D9%86%D9%82%D8%B4%D9%87_%D8%A8%D8%B1%D8%AF%D8%A7%D8%B1%DB%8C-%D9%85%D8%BA%D8%B2.pdf",
+        "https://www.sru.ac.ir/%d8%a7%d9%86%d8%b9%d9%82%d8%a7%d8%af-%d8%aa%d9%81%d8%a7%d9%87%d9%85%e2%80%8c%d9%86%d8%a7%d9%85%d9%87-%d9%87%d9%85%da%a9%d8%a7%d8%b1%db%8c-%d9%81%db%8c-%d9%85%d8%a7%d8%a8%db%8c%d9%86-%d8%af%d8%a7%d9%86/"
       ],
       "alternateUrls": []
     },
@@ -2838,6 +3921,35 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-959a23ec57ce",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی سیستم هاي تطبیقی و پردازش تصویر",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/55_58.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2015/01/55_58.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "55_58.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2015/01/55_58.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-99110408a052",
       "universitySlug": "shahid-rajaee",
       "title": "(دانلود فرم و تکمیل بصورت فیزیکی)",
@@ -2865,6 +3977,63 @@
       "evidenceUrls": [
         "https://www.sru.ac.ir/wp-content/uploads/2020/06/form-sabti.pdf",
         "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-9a22a29db3d5",
+      "universitySlug": "shahid-rajaee",
+      "title": "اصلاحیه آئین نامه فرصت مطالعاتی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/AeenNume/33.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/AeenNume/33.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c/",
+      "fileName": "33.pdf",
+      "contentType": "text/html; charset=UTF-8",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9800000000000001,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/AeenNume/33.pdf",
+        "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-9b033b6e73dc",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی سامانه مکانیاب جهانی",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/37_40-2.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/01/37_40-2.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "37_40-2.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2015/01/37_40-2.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
       ],
       "alternateUrls": []
     },
@@ -3009,6 +4178,34 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-a54e5c133d26",
+      "universitySlug": "shahid-rajaee",
+      "title": "(مطابق با نامه ابلاغی ریاست محترم دانشگاه)",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2026/04/Geran.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2026/04/Geran.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%b9%d8%a7%d9%88%d9%86-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "Geran.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.9800000000000001,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2026/04/Geran.pdf",
+        "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%b9%d8%a7%d9%88%d9%86-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-a627fa1a7a49",
       "universitySlug": "shahid-rajaee",
       "title": "فرم شرکت در همایش های خارج از کشور",
@@ -3033,6 +4230,34 @@
       "evidenceUrls": [
         "https://www.sru.ac.ir/wp-content/uploads/2015/11/International-Conferences.doc",
         "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-a685080fdbc9",
+      "universitySlug": "shahid-rajaee",
+      "title": "مرکز مطالعات و پژوهش هاي آموزش علوم و مهندسی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2017/05/16-2.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2017/05/16-2.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "16-2.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2017/05/16-2.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
       ],
       "alternateUrls": []
     },
@@ -3181,6 +4406,63 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-b4d509a4e54b",
+      "universitySlug": "shahid-rajaee",
+      "title": "به گزارش روابط عمومی، دکتر علی پورکمالی رئیس دانشگاه، طی حکمی جناب آقای کوروش حمیدزاده را به عنوان رئیس دفتر برنامه ریزی امور واحدهای پژوهشی خودگردان منصوب کرد. ایشان قبل از این سرپرستی این دفتر را بر عهده داشتند. متن حکم ایشان به شرح زیر ا",
+      "type": "سند",
+      "topic": "سایر اسناد پژوهشی",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2026/01/Hamidzadeh.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2026/01/Hamidzadeh.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%d8%a7%d9%86%d8%aa%d8%b5%d8%a7%d8%a8-%d8%b1%d8%a6%db%8c%d8%b3-%d8%af%d9%81%d8%aa%d8%b1-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87-%d8%b1%db%8c%d8%b2%db%8c-%d8%a7%d9%85%d9%88%d8%b1-%d9%88%d8%a7%d8%ad%d8%af/",
+      "fileName": "Hamidzadeh.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2026/01/Hamidzadeh.pdf",
+        "https://www.sru.ac.ir/%d8%a7%d9%86%d8%aa%d8%b5%d8%a7%d8%a8-%d8%b1%d8%a6%db%8c%d8%b3-%d8%af%d9%81%d8%aa%d8%b1-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87-%d8%b1%db%8c%d8%b2%db%8c-%d8%a7%d9%85%d9%88%d8%b1-%d9%88%d8%a7%d8%ad%d8%af/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-b5da80f823c8",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی سیستمها و مدرات الکترونیک کاربردي",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/69_78.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/01/69_78.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "69_78.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2015/01/69_78.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-b64a6d1d0e63",
       "universitySlug": "shahid-rajaee",
       "title": "شیوه نامه فرصت مطالعاتی اعضاء هیات علمی دانشگاهها و موسسات آموزش عالی و پژوهشی",
@@ -3205,6 +4487,35 @@
       "evidenceUrls": [
         "https://www.sru.ac.ir/wp-content/uploads/2026/06/%D8%B4%DB%8C%D9%88%D9%87-%D9%86%D8%A7%D9%85%D9%87-%D9%81%D8%B1%D8%B5%D8%AA-%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%DB%8C-%D8%A7%D8%B9%D8%B6%D8%A7%D8%A1-%D9%87%DB%8C%D8%A7%D8%AA-%D8%B9%D9%84%D9%85%DB%8C-%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%D9%87%D8%A7-%D9%88%D9%85%D9%88%D8%B3%D8%B3%D8%A7%D8%AA-%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%D8%B9%D8%A7%D9%84%DB%8C-%D9%88%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C_compressed-3-13.pdf",
         "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-b86300b784db",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی سامانه مکانیاب جهانی",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/37_40-2.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2015/01/37_40-2.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "37_40-2.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2015/01/37_40-2.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
       ],
       "alternateUrls": []
     },
@@ -3266,6 +4577,93 @@
       "evidenceUrls": [
         "https://www.sru.ac.ir/wp-content/uploads/2015/05/%D9%81%D8%B1%D9%85-%D8%A8%D8%A7%D8%B2%D8%AF%DB%8C%D8%AF.pdf",
         "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d8%a7%d9%85%d9%88%d8%b1-%da%a9%d8%a7%d8%b1%d8%a2%d9%81%d8%b1%db%8c%d9%86%db%8c/%d9%81%d8%b1%d9%85-%d9%87%d8%a7/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-bc6ee466d7cf",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی الکترونیک قدرت و انرژيهاي نو",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2017/05/27_30.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2017/05/27_30.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "27_30.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2017/05/27_30.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-bd00a17d321e",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی سیستمها و مدرات الکترونیک کاربردي",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/69_78.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2015/01/69_78.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "69_78.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2015/01/69_78.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-be161b4567d4",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی سیستم هاي تطبیقی و پردازش تصویر",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/55_58.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/01/55_58.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "55_58.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2015/01/55_58.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
       ],
       "alternateUrls": []
     },
@@ -3351,6 +4749,92 @@
       "evidenceUrls": [
         "https://www.sru.ac.ir/wp-content/uploads/2023/10/pajouhesh-journal-1402.pdf",
         "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-c144257e3ff8",
+      "universitySlug": "shahid-rajaee",
+      "title": "اساسنامه دانشگاه",
+      "type": "سند",
+      "topic": "سایر اسناد پژوهشی",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2024/08/statute.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2024/08/statute.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%d8%a7%d9%88%d9%84%db%8c%d9%86-%d8%ac%d9%84%d8%b3%d9%87-%d8%b4%d9%88%d8%b1%d8%a7%db%8c-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%af%d8%b1-%d8%b3%d8%a7%d9%84-1404/",
+      "fileName": "statute.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2024/08/statute.pdf",
+        "https://www.sru.ac.ir/%d8%a7%d9%88%d9%84%db%8c%d9%86-%d8%ac%d9%84%d8%b3%d9%87-%d8%b4%d9%88%d8%b1%d8%a7%db%8c-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%af%d8%b1-%d8%b3%d8%a7%d9%84-1404/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-c1f39b3f566f",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه ارتعاشات پیشرفته",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2015/01/63_64-2.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2015/01/63_64-2.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "63_64-2.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2015/01/63_64-2.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-c2c56fa56644",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی کامپوزیت",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/79_82-3.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/01/79_82-3.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "79_82-3.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2015/01/79_82-3.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
       ],
       "alternateUrls": []
     },
@@ -3467,6 +4951,64 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-d0c63aaaa717",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی بینایی محاسباتی -شناختی",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2017/05/17_20.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2017/05/17_20.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "17_20.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2017/05/17_20.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-d36f0659fffa",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی نانوفوتونیک و اپتوالکترونیک",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/45_52.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/01/45_52.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "45_52.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2015/01/45_52.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-d3ec85a7b013",
       "universitySlug": "shahid-rajaee",
       "title": "فرم وثیقه ملکی",
@@ -3495,6 +5037,34 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-d40a6913cd7b",
+      "universitySlug": "shahid-rajaee",
+      "title": "سند راهبردی دانشگاه",
+      "type": "سند",
+      "topic": "سایر اسناد پژوهشی",
+      "taxonomy": "other",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2016/06/Strategic.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2016/06/Strategic.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%d8%a7%d9%88%d9%84%db%8c%d9%86-%d8%ac%d9%84%d8%b3%d9%87-%d8%b4%d9%88%d8%b1%d8%a7%db%8c-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%af%d8%b1-%d8%b3%d8%a7%d9%84-1404/",
+      "fileName": "Strategic.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2016/06/Strategic.pdf",
+        "https://www.sru.ac.ir/%d8%a7%d9%88%d9%84%db%8c%d9%86-%d8%ac%d9%84%d8%b3%d9%87-%d8%b4%d9%88%d8%b1%d8%a7%db%8c-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%af%d8%b1-%d8%b3%d8%a7%d9%84-1404/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-d4b6b58f1d05",
       "universitySlug": "shahid-rajaee",
       "title": "گردش کار دوره تحقیقاتی پسادکتری در دانشگاه تربیت دبیر شهید رجایی آیین نامه پذیرش پژوهش گران پسا دکتری آین نامه جذب و به کار گیری محققان پسا دکتری",
@@ -3519,6 +5089,35 @@
       "evidenceUrls": [
         "https://www.sru.ac.ir/wp-content/uploads/2026/07/%D8%A2%DB%8C%D9%86-%D9%86%D8%A7%D9%85%D9%87-%D8%AC%D8%B0%D8%A8-%D9%88-%D8%A8%D9%87-%DA%A9%D8%A7%D8%B1-%DA%AF%DB%8C%D8%B1%DB%8C-%D9%85%D8%AD%D9%82%D9%82%D8%A7%D9%86-%D9%BE%D8%B3%D8%A7-%D8%AF%DA%A9%D8%AA%D8%B1%DB%8C.pdf",
         "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-d54de913b5bb",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی پردازش سیگنال هاي مخابراتی دیجیتال",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/41_44.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/01/41_44.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "41_44.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2015/01/41_44.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
       ],
       "alternateUrls": []
     },
@@ -3636,6 +5235,35 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-d9ba877f2150",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی پیل سوختی",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/31_36.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/01/31_36.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "31_36.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2015/01/31_36.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-d9f292c98b15",
       "universitySlug": "shahid-rajaee",
       "title": "شیوه نامه فرصت مطالعاتی اعضای هیئت علمی در جامعه و صنعت وزارت علوم-دی ۱۳۹۷",
@@ -3665,6 +5293,35 @@
       "alternateUrls": []
     },
     {
+      "id": "shahid-rajaee-discovery-document-e689107aab01",
+      "universitySlug": "shahid-rajaee",
+      "title": "آزمایشگاه تحقیقاتی تعیین میزان نفوذپذیري در اجسام متخلخل",
+      "type": "سند",
+      "topic": "آزمایشگاه و تجهیزات پژوهشی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "http://www.sru.ac.ir/wp-content/uploads/2017/05/21_26.pdf",
+      "sourceUrl": "http://www.sru.ac.ir/wp-content/uploads/2017/05/21_26.pdf",
+      "parentUrl": "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/",
+      "fileName": "21_26.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "laboratories",
+      "evidenceUrls": [
+        "http://www.sru.ac.ir/wp-content/uploads/2017/05/21_26.pdf",
+        "http://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "shahid-rajaee-discovery-document-ea4c5f331161",
       "universitySlug": "shahid-rajaee",
       "title": "الحاقیه شیوه نامه فرصت مطالعاتی اعضای هیئت علمی (وزارت علوم)",
@@ -3689,6 +5346,34 @@
       "evidenceUrls": [
         "https://www.sru.ac.ir/wp-content/uploads/2015/11/Forsat-Motaaleati-Elhaaghiye.pdf",
         "https://www.sru.ac.ir/%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%aa-%d9%be%da%98%d9%88%d9%87%d8%b4-%d9%88-%d9%81%d9%86%d8%a7%d9%88%d8%b1%db%8c/%d9%85%d8%af%db%8c%d8%b1%db%8c%d8%aa-%d8%a7%d9%85%d9%88%d8%b1-%d9%be%da%98%d9%88%d9%87%d8%b4%db%8c-%d8%a2%db%8c%db%8c%d9%86-%d9%86%d8%a7%d9%85%d9%87-%d9%87%d8%a7/"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "shahid-rajaee-discovery-document-eb70bd54ab06",
+      "universitySlug": "shahid-rajaee",
+      "title": "مرکز محاسبات سریع",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://www.sru.ac.ir/wp-content/uploads/2015/01/53_54.pdf",
+      "sourceUrl": "https://www.sru.ac.ir/wp-content/uploads/2015/01/53_54.pdf",
+      "parentUrl": "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/",
+      "fileName": "53_54.pdf",
+      "contentType": "application/pdf",
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.89,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://www.sru.ac.ir/wp-content/uploads/2015/01/53_54.pdf",
+        "https://www.sru.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C/page/16/"
       ],
       "alternateUrls": []
     },

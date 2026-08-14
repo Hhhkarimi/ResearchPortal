@@ -85,7 +85,7 @@
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-14",
-      "promotedSources": 143,
+      "promotedSources": 256,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -173,7 +173,7 @@
     "auditEvidenceCoverage": 71,
     "unitsFound": 2,
     "systemsFound": 0,
-    "documentsFound": 79,
+    "documentsFound": 121,
     "rankingEligibility": "unranked-evidence-insufficient",
     "interpretation": "Audit coverage measures evidence resolution, not portal quality. Missing/unresolved is not scored as zero."
   },
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 73,
+      "sourceCount": 76,
       "sources": [
         {
           "url": "https://res.modares.ac.ir/",
@@ -265,14 +265,14 @@
         },
         {
           "url": "https://news.modares.ac.ir/res-news-list/%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AA%D8%B1%D8%A8%DB%8C%D8%AA%20%D9%85%D8%AF%D8%B1%D8%B3%20%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%20%D8%B4%D8%AF",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://news.modares.ac.ir/res-news-list/%D8%AD%D8%B6%D9%88%D8%B1%20%D9%81%D8%B9%D8%A7%D9%84%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AA%D8%B1%D8%A8%DB%8C%D8%AA%20%D9%85%D8%AF%D8%B1%D8%B3%20%D8%A8%D8%A7%20%D8%A8%DB%8C%D8%B4%20%D8%A7%D8%B2%20%DB%B6%DB%B0%20%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%B1%20%D9%86%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
@@ -547,8 +547,8 @@
         },
         {
           "url": "https://res.modares.ac.ir/res-news-list",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
@@ -594,6 +594,12 @@
           "id": null
         },
         {
+          "url": "https://res.modares.ac.ir/res/managements/Arto/about-us",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
           "url": "https://res.modares.ac.ir/res/managements/library/guides",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific portalIdentity source",
@@ -628,6 +634,18 @@
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific portalIdentity source",
           "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/res/managements/arto/about-us/previous-managers",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/res/managements/library/instructions",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific portalIdentity source",
+          "id": null
         }
       ],
       "publicationAdjustment": null,
@@ -645,7 +663,7 @@
       "reportedStatus": "observed-reference",
       "reviewOutcome": "reference-only",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 15,
+      "sourceCount": 4,
       "sources": [
         {
           "url": "https://res.modares.ac.ir/res/managements/management-laboratories",
@@ -674,83 +692,6 @@
           "claim": "ساختار معاونت 1",
           "id": null,
           "sourceLabel": "ساختار معاونت 1"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.45.pdf",
-          "kind": "research-review-specific",
-          "claim": "مدیریت پژوهش: شيوه‌نامه تعيين ظرفيت اعضای هيات‌علمی براي راهنمايی پايان‌نامه/رساله دانشجويان کارشناسی ارشد و دکتری استاد/دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: شيوه‌نامه تعيين ظرفيت اعضای هيات‌علمی براي راهنمايی پايان‌نامه/رساله دانشجويان کارشناسی ارشد و دکتری استاد/دانشجو دکتری/دانشجو ارشد"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Management.Rar.60.zip",
-          "kind": "research-review-specific",
-          "claim": "مدیریت پژوهش: راهنما و شیوه‌نامه نگارش و تدوین پایان‌نامه و رساله دانشجویی دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: راهنما و شیوه‌نامه نگارش و تدوین پایان‌نامه و رساله دانشجویی دانشجو دکتری/دانشجو ارشد"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.21.pdf",
-          "kind": "research-review-specific",
-          "claim": "مدیریت پژوهش: آئين‌نامه استاد راهنمای مشترک برای پايان‌نامه‌ها و رساله‌های دانشگاه دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: آئين‌نامه استاد راهنمای مشترک برای پايان‌نامه‌ها و رساله‌های دانشگاه دانشجو دکتری/دانشجو ارشد"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.37.pdf",
-          "kind": "research-review-specific",
-          "claim": "مدیریت پژوهش: دستورالعمل هزينه كرد بودجه مصوب رساله / پايان‌نامه و تعيين حساب معين اعضاء هيأت‌علمی استاد/دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: دستورالعمل هزينه كرد بودجه مصوب رساله / پايان‌نامه و تعيين حساب معين اعضاء هيأت‌علمی استاد/دانشجو دکتری/دانشجو ارشد"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.61.pdf",
-          "kind": "research-review-specific",
-          "claim": "مدیریت پژوهش: آیین نامه اجرایی پایان نامه کارشناسی ارشد دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: آیین نامه اجرایی پایان نامه کارشناسی ارشد دانشجو ارشد"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.62.pdf",
-          "kind": "research-review-specific",
-          "claim": "مدیریت پژوهش: دستورالعمل اجرایی افزایش بودجه پایان نامه رساله دانشجویان اصلاحیه 1400 استاد/دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: دستورالعمل اجرایی افزایش بودجه پایان نامه رساله دانشجویان اصلاحیه 1400 استاد/دانشجو دکتری/دانشجو ارشد"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.36.pdf",
-          "kind": "research-review-specific",
-          "claim": "مدیریت پژوهش: دستورالعمل نحوه هزينه كرد بودجه پشتيبانی پايان‌نامه‌ها دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: دستورالعمل نحوه هزينه كرد بودجه پشتيبانی پايان‌نامه‌ها دانشجو دکتری/دانشجو ارشد"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.48.pdf",
-          "kind": "research-review-specific",
-          "claim": "مدیریت پژوهش: شیوه‌نامه فرصت مطالعاتی اعضاء هیأت‌علمی استاد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: شیوه‌نامه فرصت مطالعاتی اعضاء هیأت‌علمی استاد"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.60.pdf",
-          "kind": "research-review-specific",
-          "claim": "مدیریت پژوهش: شیوه‌نامه دفاع از رساله دکتری دانشجو دکتری",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: شیوه‌نامه دفاع از رساله دکتری دانشجو دکتری"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Form.Management.75.pdf",
-          "kind": "research-review-specific",
-          "claim": "مدیریت پژوهش: دستورالعمل اجرایی افزایش بودجه پایان نامه/رساله دانشجویان اصلاحیه۱۴۰۰ دانشجو دکتری",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: دستورالعمل اجرایی افزایش بودجه پایان نامه/رساله دانشجویان اصلاحیه۱۴۰۰ دانشجو دکتری"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Rm.Oth.5.pdf",
-          "kind": "research-review-specific",
-          "claim": "گزارش عملکرد ده ساله مدیریت پژوهش و امور آزمایشگاه‌ها (1394 تا 1385)",
-          "id": null,
-          "sourceLabel": "گزارش عملکرد ده ساله مدیریت پژوهش و امور آزمایشگاه‌ها (1394 تا 1385)"
         }
       ],
       "publicationAdjustment": null,
@@ -768,13 +709,25 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 14,
+      "sourceCount": 24,
       "sources": [
         {
           "url": "https://news.modares.ac.ir/res-news-list/%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C%20%D9%86%D8%B4%D8%B3%D8%AA%20%DA%AF%D8%B1%D8%A7%D9%85%DB%8C%D8%AF%D8%A7%D8%B4%D8%AA%20%D9%87%D9%81%D8%AA%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8%D8%8C%20%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D9%88%D8%A7%D9%86%DB%8C%20%D9%88%20%D8%B1%D9%88%D8%B2%20%DA%A9%D8%AA%D8%A7%D8%A8%D8%AF%D8%A7%D8%B1%20%D8%AF%D8%B1%20%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87%20%D9%85%D8%B1%DA%A9%D8%B2%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific libraryDocuments source",
           "id": null
+        },
+        {
+          "url": "https://news.modares.ac.ir/res-news-list/%D9%86%D8%AD%D9%88%D9%87%20%D9%81%D8%B9%D8%A7%D9%84%DB%8C%D8%AA%20%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA%20%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87%20%D9%88%20%D9%86%D8%B4%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AF%D8%B1%20%D9%85%D8%B1%D8%AF%D8%A7%D8%AF%20%D9%85%D8%A7%D9%87%201405",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific libraryDocuments source",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.8.pdf",
+          "kind": "document",
+          "claim": "کتابخانه: مقررات سالن مطالعه استاد/دانشجو دکتری/دانشجو ارشد",
+          "id": "tarbiat-modares-discovery-document-033543e59246"
         },
         {
           "url": "https://res.modares.ac.ir/uploads/Res.Rar.Library.11.pdf",
@@ -795,6 +748,12 @@
           "id": "tarbiat-modares-discovery-document-299e6339cabd"
         },
         {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.9.pdf",
+          "kind": "document",
+          "claim": "کتابخانه: مقررات مربوط به تاخير در تحويل مواد و منابع امانت گرفته شده استاد/دانشجو دکتری/دانشجو ارشد",
+          "id": "tarbiat-modares-discovery-document-2e0fa8e6a806"
+        },
+        {
           "url": "https://res.modares.ac.ir/uploads/Res.Rar.Library.10.pdf",
           "kind": "document",
           "claim": "کتابخانه: تعرفه پایان نامه و رساله دانشجو دکتری/دانشجو ارشد",
@@ -813,10 +772,22 @@
           "id": "tarbiat-modares-discovery-document-85646c62b104"
         },
         {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.8.pdf",
+          "kind": "document",
+          "claim": "نشر: اهداف و سياست‌های مجله‌های علمی استاد/دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
+          "id": "tarbiat-modares-discovery-document-901d58473407"
+        },
+        {
           "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.16.pdf",
           "kind": "document",
           "claim": "نشر: تدوین الکترونیکی پایان نامه / رساله دانشجو دکتری/دانشجو ارشد",
           "id": "tarbiat-modares-discovery-document-96aab50b03b1"
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.21.pdf",
+          "kind": "document",
+          "claim": "نشر: ضوابط قالب نشریات و مقالات استاد/دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
+          "id": "tarbiat-modares-discovery-document-9bc96d56df48"
         },
         {
           "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.6.pdf",
@@ -825,10 +796,34 @@
           "id": "tarbiat-modares-discovery-document-aa95e7e4021b"
         },
         {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.3.pdf",
+          "kind": "document",
+          "claim": "کتابخانه: مقررات امانت منابع و تجهیزات دیداری شنیداری استاد/دانشجو دکتری/دانشجو ارشد",
+          "id": "tarbiat-modares-discovery-document-b03210680550"
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.10.pdf",
+          "kind": "document",
+          "claim": "کتابخانه: مقررات استفاده از خدمات تخصصی کتابخانه استاد/دانشجو دکتری/دانشجو ارشد/سایر",
+          "id": "tarbiat-modares-discovery-document-b561dcfeb1f3"
+        },
+        {
           "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.13.pdf",
           "kind": "document",
           "claim": "نشر: آيين‌نامه چاپ پايان‌نامه (رساله)های دانشجويان دانشگاه دانشجو دکتری/دانشجو ارشد",
           "id": "tarbiat-modares-discovery-document-bc3ecd3b2d5b"
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.10.pdf",
+          "kind": "document",
+          "claim": "نشر: دستورالعمل نحوه حمايت از انتشار مجلات علمه ـ تخصصه مشترک بين دانشگاه و انجمن‌های علمی معتبر استاد/دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
+          "id": "tarbiat-modares-discovery-document-c6f5b24d3002"
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.11.pdf",
+          "kind": "document",
+          "claim": "نشر: دستورالعمل قيمت‌گذاری، اهدا و اشتراك مجلات علمی ـ تخصصی منتشر شده دانشگاه استاد/دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
+          "id": "tarbiat-modares-discovery-document-df313e68251b"
         },
         {
           "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.18.pdf",
@@ -856,6 +851,13 @@
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
           "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://res.modares.ac.ir/res/managements/library/instructions",
+          "kind": "research-review-specific",
+          "claim": "پرتال پژوهش کشف‌شده",
+          "id": null,
+          "sourceLabel": "پرتال پژوهش کشف‌شده"
         }
       ],
       "publicationAdjustment": null,
@@ -873,22 +875,10 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 6,
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%B1%D8%AA%D9%82%D8%A7%DB%8C%20%D8%AC%D8%A7%DB%8C%DA%AF%D8%A7%D9%87%20%D8%B3%D9%87%20%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AA%D8%B1%D8%A8%DB%8C%D8%AA%20%D9%85%D8%AF%D8%B1%D8%B3%20%D8%AF%D8%B1%20%D8%B4%D8%A8%DA%A9%D9%87%20%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C%20%DA%A9%D8%B4%D9%88%D8%B1",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%D9%81%D8%B1%D8%A7%D8%AE%D9%88%D8%A7%D9%86%20%D8%B9%D9%85%D9%88%D9%85%DB%8C%20%D8%A7%D8%AC%D8%A7%D8%B1%D9%87%20%D8%AF%D9%88%20%D9%81%D8%B6%D8%A7%DB%8C%20%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C%20%D8%AA%D8%B9%D9%85%DB%8C%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%AC%D9%87%DB%8C%D8%B2%D8%A7%D8%AA%20%D9%88%20%D9%81%D8%B1%D9%88%D8%B4%DA%AF%D8%A7%D9%87%20%D9%84%D9%88%D8%A7%D8%B2%D9%85%20%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C%20%D8%AF%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AA%D8%B1%D8%A8%DB%8C%D8%AA%20%D9%85%D8%AF%D8%B1%D8%B3",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%D8%AA%D8%A3%DA%A9%DB%8C%D8%AF%20%D8%A8%D8%B1%20%D8%B1%D8%B9%D8%A7%DB%8C%D8%AA%20%D9%85%D9%88%D8%A7%D8%B1%D8%AF%20%D8%A7%DB%8C%D9%85%D9%86%DB%8C%20%D8%AF%D8%B1%20%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%E2%80%8C%D9%87%D8%A7%20%D9%88%20%D8%B9%D8%B1%D8%B5%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific laboratories source",
           "id": null
@@ -906,13 +896,6 @@
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
           "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Rm.Oth.5.pdf",
-          "kind": "research-review-specific",
-          "claim": "گزارش عملکرد ده ساله مدیریت پژوهش و امور آزمایشگاه‌ها (1394 تا 1385)",
-          "id": null,
-          "sourceLabel": "گزارش عملکرد ده ساله مدیریت پژوهش و امور آزمایشگاه‌ها (1394 تا 1385)"
         }
       ],
       "publicationAdjustment": null,
@@ -930,7 +913,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 15,
+      "sourceCount": 12,
       "sources": [
         {
           "url": "https://news.modares.ac.ir/res-news-list/%20%D8%B3%D9%87%20%D8%B9%D8%B6%D9%88%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AF%D8%B1%20%D9%85%DB%8C%D8%A7%D9%86%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%A8%D8%B1%DA%AF%D8%B2%DB%8C%D8%AF%D9%87%20%D8%AF%D8%B1%20%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C%20%D8%A8%D8%A7%20%D8%AC%D8%A7%D9%85%D8%B9%D9%87%20%D9%88%20%D8%B5%D9%86%D8%B9%D8%AA%20%D8%B3%D8%A7%D9%84%20%DB%B1%DB%B4%DB%B0%DB%B4",
@@ -1014,27 +997,6 @@
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
           "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Management.Rar.60.zip",
-          "kind": "research-review-specific",
-          "claim": "مدیریت پژوهش: راهنما و شیوه‌نامه نگارش و تدوین پایان‌نامه و رساله دانشجویی دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: راهنما و شیوه‌نامه نگارش و تدوین پایان‌نامه و رساله دانشجویی دانشجو دکتری/دانشجو ارشد"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Arto.42.docx",
-          "kind": "research-review-specific",
-          "claim": "پژوهش‌های کاربردی: آیین نامه خط مشی و ضوابط حقوق مالکیت فکری در مؤسسات علمی و پژوهشی دانشگاه تربیت مدرس مصوبه سی وششمین جلسه هیات امنای دانشگاه مورخ 21/09/87 سایر",
-          "id": null,
-          "sourceLabel": "پژوهش‌های کاربردی: آیین نامه خط مشی و ضوابط حقوق مالکیت فکری در مؤسسات علمی و پژوهشی دانشگاه تربیت مدرس مصوبه سی وششمین جلسه هیات امنای دانشگاه مورخ 21/09/87 سایر"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Arto.32.pdf",
-          "kind": "research-review-specific",
-          "claim": "پژوهش‌های کاربردی: شیوه نامه فرصت مطالعاتی اعضای هیات علمی در صنعت و جامعه سایر",
-          "id": null,
-          "sourceLabel": "پژوهش‌های کاربردی: شیوه نامه فرصت مطالعاتی اعضای هیات علمی در صنعت و جامعه سایر"
         }
       ],
       "publicationAdjustment": null,
@@ -1048,655 +1010,22 @@
       "iscCategory": "جامع",
       "iscRank": 2,
       "dimension": "systemsServices",
-      "status": "observed-reference",
+      "status": "verified",
       "reportedStatus": "verified",
-      "reviewOutcome": "reference-only",
+      "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 80,
+      "sourceCount": 1,
       "sources": [
         {
-          "url": "https://res.modares.ac.ir/",
-          "kind": "research-review-reference",
-          "claim": "پرتال معاونت ۱",
-          "id": null,
-          "sourceLabel": "پرتال معاونت ۱",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/research-units",
-          "kind": "research-review-reference",
-          "claim": "واحدهای پژوهشی ۲",
-          "id": null,
-          "sourceLabel": "واحدهای پژوهشی ۲",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/forms",
-          "kind": "research-review-reference",
-          "claim": "فرم‌ها ۳",
-          "id": null,
-          "sourceLabel": "فرم‌ها ۳",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/library/people",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و نشر ۴",
-          "id": null,
-          "sourceLabel": "کتابخانه و نشر ۴",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/people",
-          "kind": "research-review-reference",
-          "claim": "ساختار معاونت 1",
-          "id": null,
-          "sourceLabel": "ساختار معاونت 1",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/Research-innovation-management",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/Arto",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%B1%D8%A7%D8%A6%D9%87%20%DA%AF%D8%B2%D8%A7%D8%B1%D8%B4%20%D8%B9%D9%85%D9%84%DA%A9%D8%B1%D8%AF%20%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D8%AF%D8%B1%20%D9%86%D8%B4%D8%B3%D8%AA%20%D8%B4%D9%88%D8%B1%D8%A7%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%D8%AA%D9%88%D8%B3%D8%B9%D9%87%20%D8%B2%DB%8C%D8%B1%D8%B3%D8%A7%D8%AE%D8%AA%E2%80%8C%D9%87%D8%A7%20%D9%88%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%AF%D8%B1%D8%A7%D9%86%D8%8C%20%D8%A7%D9%88%D9%84%D9%88%DB%8C%D8%AA%20%D9%85%D9%87%D9%85%20%D9%85%D8%B9%D8%A7%D9%88%D9%86%D8%AA%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%A7%D8%B3%D8%AA",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/research-innovation-management",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/management-laboratories",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/Research-innovation-management/about-us",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/Research-innovation-management/guides",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/research-innovation-management/forms",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/research-innovation-management/about-us/previous-managers",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/research-innovation-management/guides",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/people/vice-chancellor",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/research-innovation-management/forms/workshops",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/index.jsp?siteid=18&fkeyid=&siteid=18&pageid=501",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res-news-list",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/Research-innovation-management/faq",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/research-innovation-management/list-magazines",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AA%D8%B1%D8%A8%DB%8C%D8%AA%20%D9%85%D8%AF%D8%B1%D8%B3%20%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%20%D8%B4%D8%AF",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%D8%AD%D8%B6%D9%88%D8%B1%20%D9%81%D8%B9%D8%A7%D9%84%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AA%D8%B1%D8%A8%DB%8C%D8%AA%20%D9%85%D8%AF%D8%B1%D8%B3%20%D8%A8%D8%A7%20%D8%A8%DB%8C%D8%B4%20%D8%A7%D8%B2%20%DB%B6%DB%B0%20%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%B1%20%D9%86%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AF%D8%B3%D8%AA%D8%A7%D9%88%D8%B1%D8%AF%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C%20%D8%A8%DB%8C%D8%B3%D8%AA%20%D9%88%20%D9%BE%D9%86%D8%AC%D9%85%DB%8C%D9%86%20%D8%AC%D8%B4%D9%86%D9%88%D8%A7%D8%B1%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/instructions",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/guides",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/deputy-district",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/arto/marketing-committee",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/index.jsp?siteid=18",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/~res-workshops",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/library/guides",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/about-us",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/arto/supporting-project",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/library/forms",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/arto/forms",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res/managements/management-laboratories/forms",
-          "kind": "research-review-reference",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://merc.modares.ac.ir/merc/forms",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://riwem.modares.ac.ir/riwem/forms",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://rdcb.modares.ac.ir/rdcb/forms",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://pllrc.modares.ac.ir/pllrc/forms",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87%20%D9%81%D8%B9%D8%A7%D9%84%E2%80%8C%D8%B3%D8%A7%D8%B2%DB%8C%20%D9%81%D8%B1%D9%85%20%C2%AB%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF%20%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%20%D8%AA%D9%88%D8%B3%D8%B7%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%C2%BB%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1%DB%8C%20%D9%86%D8%B4%D8%B3%D8%AA%20%DA%AF%D8%B1%D8%A7%D9%85%DB%8C%D8%AF%D8%A7%D8%B4%D8%AA%20%D9%87%D9%81%D8%AA%D9%87%20%DA%A9%D8%AA%D8%A7%D8%A8%D8%8C%20%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D9%88%D8%A7%D9%86%DB%8C%20%D9%88%20%D8%B1%D9%88%D8%B2%20%DA%A9%D8%AA%D8%A7%D8%A8%D8%AF%D8%A7%D8%B1%20%D8%AF%D8%B1%20%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87%20%D9%85%D8%B1%DA%A9%D8%B2%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-reference",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%B1%D8%AA%D9%82%D8%A7%DB%8C%20%D8%AC%D8%A7%DB%8C%DA%AF%D8%A7%D9%87%20%D8%B3%D9%87%20%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AA%D8%B1%D8%A8%DB%8C%D8%AA%20%D9%85%D8%AF%D8%B1%D8%B3%20%D8%AF%D8%B1%20%D8%B4%D8%A8%DA%A9%D9%87%20%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C%20%DA%A9%D8%B4%D9%88%D8%B1",
-          "kind": "research-review-reference",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA%20%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5%20%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%20%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C%20%D8%A8%D9%87%20%D8%B5%D9%86%D8%A7%DB%8C%D8%B9%20%D8%A8%D8%B1%D8%A7%DB%8C%20%D8%AA%D8%B9%D8%B1%DB%8C%D9%81%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C%20%D8%AA%D8%AD%D9%82%DB%8C%D9%82%20%D9%88%20%D8%AA%D9%88%D8%B3%D8%B9%D9%87",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA-%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C-%D8%A8%D9%87-%D8%B5%D9%86%D8%A7%DB%8C%D8%B9-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D8%B9%D8%B1%DB%8C%D9%81-%D8%B1%D8%B3%D8%A7%D9%84%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82-%D9%88-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%20%D8%B3%D9%87%20%D8%B9%D8%B6%D9%88%20%D9%87%DB%8C%D8%A7%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AF%D8%B1%20%D9%85%DB%8C%D8%A7%D9%86%20%D8%A7%D8%B9%D8%B6%D8%A7%DB%8C%20%D9%87%DB%8C%D8%A3%D8%AA%20%D8%B9%D9%84%D9%85%DB%8C%20%D8%A8%D8%B1%DA%AF%D8%B2%DB%8C%D8%AF%D9%87%20%D8%AF%D8%B1%20%D9%87%D9%85%DA%A9%D8%A7%D8%B1%DB%8C%20%D8%A8%D8%A7%20%D8%AC%D8%A7%D9%85%D8%B9%D9%87%20%D9%88%20%D8%B5%D9%86%D8%B9%D8%AA%20%D8%B3%D8%A7%D9%84%20%DB%B1%DB%B4%DB%B0%DB%B4",
-          "kind": "research-review-reference",
-          "claim": "صنعت و فناوری — کشف خودکار",
-          "id": null,
-          "sourceLabel": "صنعت و فناوری — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%D9%81%D8%B1%D8%A7%D8%AE%D9%88%D8%A7%D9%86%20%D8%B9%D9%85%D9%88%D9%85%DB%8C%20%D8%A7%D8%AC%D8%A7%D8%B1%D9%87%20%D8%AF%D9%88%20%D9%81%D8%B6%D8%A7%DB%8C%20%D8%AA%D8%AE%D8%B5%D8%B5%DB%8C%20%D8%AA%D8%B9%D9%85%DB%8C%D8%B1%D8%A7%D8%AA%20%D8%AA%D8%AC%D9%87%DB%8C%D8%B2%D8%A7%D8%AA%20%D9%88%20%D9%81%D8%B1%D9%88%D8%B4%DA%AF%D8%A7%D9%87%20%D9%84%D9%88%D8%A7%D8%B2%D9%85%20%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%DB%8C%20%D8%AF%D8%B1%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AA%D8%B1%D8%A8%DB%8C%D8%AA%20%D9%85%D8%AF%D8%B1%D8%B3",
-          "kind": "research-review-reference",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://news.modares.ac.ir/res-news-list/%D8%AA%D8%A3%DA%A9%DB%8C%D8%AF%20%D8%A8%D8%B1%20%D8%B1%D8%B9%D8%A7%DB%8C%D8%AA%20%D9%85%D9%88%D8%A7%D8%B1%D8%AF%20%D8%A7%DB%8C%D9%85%D9%86%DB%8C%20%D8%AF%D8%B1%20%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87%E2%80%8C%D9%87%D8%A7%20%D9%88%20%D8%B9%D8%B1%D8%B5%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87",
-          "kind": "research-review-reference",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/res-news-list/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA-%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C-%D8%A8%D9%87-%D8%B5%D9%86%D8%A7%DB%8C%D8%B9-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D8%B9%D8%B1%DB%8C%D9%81-%D8%B1%D8%B3%D8%A7%D9%84%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82-%D9%88-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-",
-          "kind": "research-review-reference",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.45.pdf",
-          "kind": "research-review-reference",
-          "claim": "مدیریت پژوهش: شيوه‌نامه تعيين ظرفيت اعضای هيات‌علمی براي راهنمايی پايان‌نامه/رساله دانشجويان کارشناسی ارشد و دکتری استاد/دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: شيوه‌نامه تعيين ظرفيت اعضای هيات‌علمی براي راهنمايی پايان‌نامه/رساله دانشجويان کارشناسی ارشد و دکتری استاد/دانشجو دکتری/دانشجو ارشد",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Management.Rar.60.zip",
-          "kind": "research-review-reference",
-          "claim": "مدیریت پژوهش: راهنما و شیوه‌نامه نگارش و تدوین پایان‌نامه و رساله دانشجویی دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: راهنما و شیوه‌نامه نگارش و تدوین پایان‌نامه و رساله دانشجویی دانشجو دکتری/دانشجو ارشد",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.13.pdf",
-          "kind": "research-review-reference",
-          "claim": "نشر: آيين‌نامه چاپ پايان‌نامه (رساله)های دانشجويان دانشگاه دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "نشر: آيين‌نامه چاپ پايان‌نامه (رساله)های دانشجويان دانشگاه دانشجو دکتری/دانشجو ارشد",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.12.pdf",
-          "kind": "research-review-reference",
-          "claim": "نشر: شیوه‌نامه نحوه استفاده و تكثير پايان‌نامه‌ها و رساله‌های دانشگاه دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "نشر: شیوه‌نامه نحوه استفاده و تكثير پايان‌نامه‌ها و رساله‌های دانشگاه دانشجو دکتری/دانشجو ارشد",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.21.pdf",
-          "kind": "research-review-reference",
-          "claim": "مدیریت پژوهش: آئين‌نامه استاد راهنمای مشترک برای پايان‌نامه‌ها و رساله‌های دانشگاه دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: آئين‌نامه استاد راهنمای مشترک برای پايان‌نامه‌ها و رساله‌های دانشگاه دانشجو دکتری/دانشجو ارشد",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.37.pdf",
-          "kind": "research-review-reference",
-          "claim": "مدیریت پژوهش: دستورالعمل هزينه كرد بودجه مصوب رساله / پايان‌نامه و تعيين حساب معين اعضاء هيأت‌علمی استاد/دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: دستورالعمل هزينه كرد بودجه مصوب رساله / پايان‌نامه و تعيين حساب معين اعضاء هيأت‌علمی استاد/دانشجو دکتری/دانشجو ارشد",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.61.pdf",
-          "kind": "research-review-reference",
-          "claim": "مدیریت پژوهش: آیین نامه اجرایی پایان نامه کارشناسی ارشد دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: آیین نامه اجرایی پایان نامه کارشناسی ارشد دانشجو ارشد",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.62.pdf",
-          "kind": "research-review-reference",
-          "claim": "مدیریت پژوهش: دستورالعمل اجرایی افزایش بودجه پایان نامه رساله دانشجویان اصلاحیه 1400 استاد/دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: دستورالعمل اجرایی افزایش بودجه پایان نامه رساله دانشجویان اصلاحیه 1400 استاد/دانشجو دکتری/دانشجو ارشد",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Arto.42.docx",
-          "kind": "research-review-reference",
-          "claim": "پژوهش‌های کاربردی: آیین نامه خط مشی و ضوابط حقوق مالکیت فکری در مؤسسات علمی و پژوهشی دانشگاه تربیت مدرس مصوبه سی وششمین جلسه هیات امنای دانشگاه مورخ 21/09/87 سایر",
-          "id": null,
-          "sourceLabel": "پژوهش‌های کاربردی: آیین نامه خط مشی و ضوابط حقوق مالکیت فکری در مؤسسات علمی و پژوهشی دانشگاه تربیت مدرس مصوبه سی وششمین جلسه هیات امنای دانشگاه مورخ 21/09/87 سایر",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.15.pdf",
-          "kind": "research-review-reference",
-          "claim": "نشر: دستورالعمل اهدای پايان‌نامه (رساله)های چاپ شده دانشجويان دانشگاه دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "نشر: دستورالعمل اهدای پايان‌نامه (رساله)های چاپ شده دانشجويان دانشگاه دانشجو دکتری/دانشجو ارشد",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Form.Management.60.doc",
-          "kind": "research-review-reference",
-          "claim": "حکم استاد راهنمای دوم پایان‌نامه/رساله دکتری 174",
-          "id": null,
-          "sourceLabel": "حکم استاد راهنمای دوم پایان‌نامه/رساله دکتری 174",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Form.Management.34.doc",
-          "kind": "research-review-reference",
-          "claim": "حکم استاد راهنمای دوم پایان‌نامه/رساله مشترک 166",
-          "id": null,
-          "sourceLabel": "حکم استاد راهنمای دوم پایان‌نامه/رساله مشترک 166",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Form.Management.71.doc",
-          "kind": "research-review-reference",
-          "claim": "فرم ارزیابی مستندات پژوهشی پايان‌نامه كارشناسی‌ارشد کارشناسی ارشد 541",
-          "id": null,
-          "sourceLabel": "فرم ارزیابی مستندات پژوهشی پايان‌نامه كارشناسی‌ارشد کارشناسی ارشد 541",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.36.pdf",
-          "kind": "research-review-reference",
-          "claim": "مدیریت پژوهش: دستورالعمل نحوه هزينه كرد بودجه پشتيبانی پايان‌نامه‌ها دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: دستورالعمل نحوه هزينه كرد بودجه پشتيبانی پايان‌نامه‌ها دانشجو دکتری/دانشجو ارشد",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.48.pdf",
-          "kind": "research-review-reference",
-          "claim": "مدیریت پژوهش: شیوه‌نامه فرصت مطالعاتی اعضاء هیأت‌علمی استاد",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: شیوه‌نامه فرصت مطالعاتی اعضاء هیأت‌علمی استاد",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.60.pdf",
-          "kind": "research-review-reference",
-          "claim": "مدیریت پژوهش: شیوه‌نامه دفاع از رساله دکتری دانشجو دکتری",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: شیوه‌نامه دفاع از رساله دکتری دانشجو دکتری",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Form.Management.75.pdf",
-          "kind": "research-review-reference",
-          "claim": "مدیریت پژوهش: دستورالعمل اجرایی افزایش بودجه پایان نامه/رساله دانشجویان اصلاحیه۱۴۰۰ دانشجو دکتری",
-          "id": null,
-          "sourceLabel": "مدیریت پژوهش: دستورالعمل اجرایی افزایش بودجه پایان نامه/رساله دانشجویان اصلاحیه۱۴۰۰ دانشجو دکتری",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Arto.32.pdf",
-          "kind": "research-review-reference",
-          "claim": "پژوهش‌های کاربردی: شیوه نامه فرصت مطالعاتی اعضای هیات علمی در صنعت و جامعه سایر",
-          "id": null,
-          "sourceLabel": "پژوهش‌های کاربردی: شیوه نامه فرصت مطالعاتی اعضای هیات علمی در صنعت و جامعه سایر",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.16.pdf",
-          "kind": "research-review-reference",
-          "claim": "نشر: تدوین الکترونیکی پایان نامه / رساله دانشجو دکتری/دانشجو ارشد",
-          "id": null,
-          "sourceLabel": "نشر: تدوین الکترونیکی پایان نامه / رساله دانشجو دکتری/دانشجو ارشد",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Rm.Oth.5.pdf",
-          "kind": "research-review-reference",
-          "claim": "گزارش عملکرد ده ساله مدیریت پژوهش و امور آزمایشگاه‌ها (1394 تا 1385)",
-          "id": null,
-          "sourceLabel": "گزارش عملکرد ده ساله مدیریت پژوهش و امور آزمایشگاه‌ها (1394 تا 1385)",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Form.Management.29.doc",
-          "kind": "research-review-reference",
-          "claim": "برگه هزینه‌كرد پشتیبانی پایان‌نامه / رساله مشترک 392",
-          "id": null,
-          "sourceLabel": "برگه هزینه‌كرد پشتیبانی پایان‌نامه / رساله مشترک 392",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Form.Management.31.doc",
-          "kind": "research-review-reference",
-          "claim": "برگه مقالات مستخرج از پایان‌نامه / رساله دانشجویان مشترک 658",
-          "id": null,
-          "sourceLabel": "برگه مقالات مستخرج از پایان‌نامه / رساله دانشجویان مشترک 658",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Form.Management.32.doc",
-          "kind": "research-review-reference",
-          "claim": "برگه انتخاب رساله / پایان‌نامه برتر دانشجویی مشترک 264",
-          "id": null,
-          "sourceLabel": "برگه انتخاب رساله / پایان‌نامه برتر دانشجویی مشترک 264",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Form.Management.36.doc",
-          "kind": "research-review-reference",
-          "claim": "نمونه حاشیه‌بندی صفحات شروع هر فصل پایان‌نامه / رساله مشترک 1240",
-          "id": null,
-          "sourceLabel": "نمونه حاشیه‌بندی صفحات شروع هر فصل پایان‌نامه / رساله مشترک 1240",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Form.Management.38.doc",
-          "kind": "research-review-reference",
-          "claim": "آئين نامه چاپ پایان‌نامه /رساله دانشجویان دانشگاه تربیت مدرس‌ مشترک 1928",
-          "id": null,
-          "sourceLabel": "آئين نامه چاپ پایان‌نامه /رساله دانشجویان دانشگاه تربیت مدرس‌ مشترک 1928",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Form.Management.68.docx",
-          "kind": "research-review-reference",
-          "claim": "راهنماي نگارش و تدوين پايان‌نامه كارشناسی‌ارشد کارشناسی ارشد 2080",
-          "id": null,
-          "sourceLabel": "راهنماي نگارش و تدوين پايان‌نامه كارشناسی‌ارشد کارشناسی ارشد 2080",
-          "sourceSpecificity": "university-reference"
-        },
-        {
-          "url": "https://res.modares.ac.ir/uploads/Res.Form.Management.69.doc",
-          "kind": "research-review-reference",
-          "claim": "فرم ارزیابی دفاع ازپايان‌نامه كارشناسی‌ارشد کارشناسی ارشد 779",
-          "id": null,
-          "sourceLabel": "فرم ارزیابی دفاع ازپايان‌نامه كارشناسی‌ارشد کارشناسی ارشد 779",
-          "sourceSpecificity": "university-reference"
+          "url": "https://edu.modares.ac.ir/edu/regulations?q=%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87",
+          "kind": "research-review-specific",
+          "claim": "سامانه‌ها و خدمات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
         }
       ],
-      "publicationAdjustment": "Downgraded because no dimension-specific public URL was registered.",
-      "verificationBasis": "Downgraded because no dimension-specific public URL was registered.",
+      "publicationAdjustment": null,
+      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -1710,16 +1039,22 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 93,
+      "sourceCount": 203,
       "sources": [
         {
-          "url": "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87%20%D9%81%D8%B9%D8%A7%D9%84%E2%80%8C%D8%B3%D8%A7%D8%B2%DB%8C%20%D9%81%D8%B1%D9%85%20%C2%AB%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF%20%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%20%D8%AA%D9%88%D8%B3%D8%B7%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%C2%BB%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86",
+          "url": "https://edu.modares.ac.ir/edu/regulations?q=%D9%BE%D8%A7%DB%8C%D8%A7%D9%86%20%D9%86%D8%A7%D9%85%D9%87",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://merc.modares.ac.ir/merc/forms",
+          "url": "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87-%D9%81%D8%B9%D8%A7%D9%84%E2%80%8C%D8%B3%D8%A7%D8%B2%DB%8C-%D9%81%D8%B1%D9%85-%C2%AB%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C-%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF-%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7-%D8%AA%D9%88%D8%B3%D8%B7-%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%C2%BB-%D8%AF%D8%B1-%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87-%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%DB%8C%D9%87%20%D9%81%D8%B9%D8%A7%D9%84%E2%80%8C%D8%B3%D8%A7%D8%B2%DB%8C%20%D9%81%D8%B1%D9%85%20%C2%AB%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF%20%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%20%D8%AA%D9%88%D8%B3%D8%B7%20%D8%AF%D8%A7%D9%86%D8%B4%D8%AC%D9%88%C2%BB%20%D8%AF%D8%B1%20%D8%B3%D8%A7%D9%85%D8%A7%D9%86%D9%87%20%DA%AF%D9%84%D8%B3%D8%AA%D8%A7%D9%86",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -1749,13 +1084,397 @@
           "id": null
         },
         {
+          "url": "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA-%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C-%D8%A8%D9%87-%D8%B5%D9%86%D8%A7%DB%8C%D8%B9-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D8%B9%D8%B1%DB%8C%D9%81-%D8%B1%D8%B3%D8%A7%D9%84%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82-%D9%88-%D8%AA%D9%88%D8%B3%D8%B9%D9%87",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=164",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=45",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=49",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=162",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=77",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=89",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=109",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=110",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=144",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=145",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations?q=%D8%A7%D8%B3%D8%AA%D8%A7%D8%AF%20%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://merc.modares.ac.ir/merc/forms",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
           "url": "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA-%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C-%D8%A8%D9%87-%D8%B5%D9%86%D8%A7%DB%8C%D8%B9-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D8%B9%D8%B1%DB%8C%D9%81-%D8%B1%D8%B3%D8%A7%D9%84%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82-%D9%88-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
         },
         {
-          "url": "https://res.modares.ac.ir/res-news-list/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA-%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C-%D8%A8%D9%87-%D8%B5%D9%86%D8%A7%DB%8C%D8%B9-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D8%B9%D8%B1%DB%8C%D9%81-%D8%B1%D8%B3%D8%A7%D9%84%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82-%D9%88-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-",
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=7",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=28",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=17",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=165",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=26",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=1",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=6",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=3",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=4",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=5",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=8",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=9",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=10",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=11",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=13",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=14",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=15",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=18",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=22",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=24",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=27",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=30",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=34",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=35",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=38",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=39",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=40",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=41",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=46",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=50",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=51",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=53",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=54",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=55",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=56",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=57",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=58",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=59",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=60",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=67",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=68",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=69",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=70",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/list",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://news.modares.ac.ir/news-list/%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%20%D8%B1%D8%A7%D9%87%E2%80%8C%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C%20%C2%AB%D9%BE%D9%84%D8%AA%D9%81%D8%B1%D9%85%20%D9%87%D9%88%D8%B4%20%D8%B1%D9%82%D8%A7%D8%A8%D8%AA%DB%8C%C2%BB%20%D8%A7%D8%B2%20%D8%B3%D9%88%DB%8C%20%D8%B1%DB%8C%DB%8C%D8%B3%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%A9%D8%AF%D9%87%20%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%20%D8%AA%D8%B1%D8%A8%DB%8C%D8%AA%20%D9%85%D8%AF%D8%B1%D8%B3",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://pub.modares.ac.ir/page_3.html",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=166",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=16",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=19",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://edu.modares.ac.ir/edu/regulations/showdoc?q=21",
+          "kind": "portal-document-reaudit",
+          "claim": "dimension-specific documentsRegulations source",
+          "id": null
+        },
+        {
+          "url": "https://news.modares.ac.ir/eri-news-list/%D9%BE%DB%8C%D8%B4%D9%86%D9%87%D8%A7%D8%AF%20%D8%B1%D8%A7%D9%87%E2%80%8C%D8%A7%D9%86%D8%AF%D8%A7%D8%B2%DB%8C%20%C2%AB%D9%BE%D9%84%D8%AA%D9%81%D8%B1%D9%85%20%D9%87%D9%88%D8%B4%20%D8%B1%D9%82%D8%A7%D8%A8%D8%AA%DB%8C%C2%BB%20%D8%A7%D8%B2%20%D8%B3%D9%88%DB%8C%20%D8%B1%DB%8C%DB%8C%D8%B3%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DA%A9%D8%AF%D9%87%20%D8%A7%D9%82%D8%AA%D8%B5%D8%A7%D8%AF%20%D8%AA%D8%B1%D8%A8%DB%8C%D8%AA%20%D9%85%D8%AF%D8%B1%D8%B3",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific documentsRegulations source",
           "id": null
@@ -2235,6 +1954,258 @@
           "id": null
         },
         {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.34.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مدیریت پژوهش: دستورالعمل نحوه بررسی تخلفات پژوهشی استاد/دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.35.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مدیریت پژوهش: دستورالعمل نحوه حمايت از همكاران طرح‌های تحقيقاتی استاد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.52.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مدیریت پژوهش: ضوابط حمایت از برگزاری همایش‌های علمی و فناوری استانی، ملی و بین‌المللی استاد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.55.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مدیریت پژوهش: فرم درخواست مجوز اوليه برگزاری همایش استاد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.56.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مدیریت پژوهش: فرم درخواست مجوز قطعی برگزاری همایش استاد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.57.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مدیریت پژوهش: مدارك لازم جهت تسويه حساب فرصت مطالعاتی كه پس از بازگشت بايد ارائه شود استاد/دانشجو دکتری/دانشجو ارشد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.8.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه اجرایی ارزیابی جامع دوره دکتری دانشجویان دکتری 95-94 دانشجو دکتری",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.9.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه اجرایی ارزیابی جامع دکتری ورودی‌های سال 89-88 و بعد از آن دانشجو دکتری",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.11.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه افزایش سنوات مازاد بر مدت تحصیل مجاز دانشجویان دانشجو دکتری/دانشجو ارشد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.12.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه تمدید تحصیلی دانشجویان کارشناسی‌ارشد ورودی 94 و بعد از آن دانشجو ارشد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.13.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه تمدید تحصیل دانشجویان كارشناسی‌ارشد ورودی 88 تا 93 دانشجو ارشد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.14.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه تمدید تحصیل دانشجویان كارشناسی‌ارشد ورودی‌های 86و87 دانشجو ارشد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.16.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه تمدید تحصیلی دانشجویان دکتری (ویژه دانشجویان دکتری ورودی 95 و بعد از آن) دانشجو دکتری",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.17.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه تمدید تحصیل دانشجویان دکتری ورودی 88 و بعد از آن دانشجو دکتری",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.18.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه تمدید تحصیل دانشجویان دكتری ورودی‌های 84 تا 87 دانشجو دکتری",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.21.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه انتخاب دانش‌آموختگان رتبه اول درمقطع کارشناسی‌ارشد دانشجو ارشد/دانش‌آموختگان",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.22.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه انتخاب دانش‌آموختگان رتبه اول درمقطع دکتری دانشجو دکتری/دانش‌آموختگان",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.28.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه اعطای جایزه به پذیرفته شدگان برتر مقاطع تحصیلی کارشناسی ارشد و دکتری آزمون ورودی سال 94 و بعد دانشجو دکتری/دانشجو ارشد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.29.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه تبدیل شیوه تحصیل دانشجویان مقطع کارشناسی ارشد ازآموزشی پژوهشی به آموزشی دانشجو ارشد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.35.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه معادل سازی واحدهای درسی در دوره های کارشناسی ارشد و دکتری (اجرا از تاریخ 97/08/06) دانشجو دکتری/دانشجو ارشد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.36.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه‌نامه اجرایی پذیرش و معرفی دانشجویان مهمان در مقاطع تحصیلی کارشناسی‌ارشد و دکتری دانشجو دکتری/دانشجو ارشد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.37.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه نامه اعلام نمره درس مقاطع کارشناسی ارشد و دکتری دانشجو دکتری/دانشجو ارشد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.24.zip",
+          "kind": "portal-document-reaudit-document",
+          "claim": "مدیریت پژوهش: دستورالعمل شروع فعالیت های پژوهشی دانشجویان در زمان شیوع بیماری کووید۱۹_نسخه بازنگری شده اردیبهشت ۱۴۰۰ دانشجو دکتری",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Form.Arto.1.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم انتخاب طرح پژوهشی برتر مدیریت فناوری و پژوهش‌های کاربردی 85",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Form.Arto.3.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم درخواست فرصت مطالعاتی در جامعه و صنعت دانشگاه تربیت مدرس مدیریت فناوری و پژوهش‌های کاربردی 81",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Form.Arto.4.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم پیشنهادیه طرح دوره فرصت مطالعاتی صنعت و جامعه دانشگاه تربیت مدرس مدیریت فناوری و پژوهش‌های کاربردی 55",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Form.Arto.6.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم شروع دوره فرصت مطالعاتی صنعت و جامعه عضو هیات علمی در واحد عملیاتی مدیریت فناوری و پژوهش‌های کاربردی 40",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Form.Arto.16.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم خلاصه گزارش پیشرفت ماهانه فرصت مطالعاتی صنعت و جامعه مدیریت فناوری و پژوهش‌های کاربردی 33",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Form.Arto.17.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم خلاصه گزارش نهایی فرصت مطالعاتی صنعت و جامعه مدیریت فناوری و پژوهش‌های کاربردی 30",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Form.Arto.18.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "فرم اختتام دوره فرصت مطالعاتی صنعت و جامعه عضو هیات علمی در واحد عملیات مدیریت فناوری و پژوهش‌های کاربردی 25",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Arto.36.docx",
+          "kind": "portal-document-reaudit-document",
+          "claim": "پژوهش‌های کاربردی: روند تمدید قرارداد پژوهشی استاد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.10.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "کتابخانه: مقررات استفاده از خدمات تخصصی کتابخانه استاد/دانشجو دکتری/دانشجو ارشد/سایر",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.3.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "کتابخانه: مقررات امانت منابع و تجهیزات دیداری شنیداری استاد/دانشجو دکتری/دانشجو ارشد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.8.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "کتابخانه: مقررات سالن مطالعه استاد/دانشجو دکتری/دانشجو ارشد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.9.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "کتابخانه: مقررات مربوط به تاخير در تحويل مواد و منابع امانت گرفته شده استاد/دانشجو دکتری/دانشجو ارشد",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.8.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "نشر: اهداف و سياست‌های مجله‌های علمی استاد/دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.11.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "نشر: دستورالعمل قيمت‌گذاری، اهدا و اشتراك مجلات علمی ـ تخصصی منتشر شده دانشگاه استاد/دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.10.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "نشر: دستورالعمل نحوه حمايت از انتشار مجلات علمه ـ تخصصه مشترک بين دانشگاه و انجمن‌های علمی معتبر استاد/دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.21.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "نشر: ضوابط قالب نشریات و مقالات استاد/دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
+          "id": null
+        },
+        {
+          "url": "https://news.modares.ac.ir/uploads/4/2026/Aug/09/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D9%87%D8%A7%20%D8%AF%D8%B1%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%20%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "شیوه&zwnj;نامه اجرایی تخصیص اعتبار مالیاتی به صنایع برای تعریف رساله&zwnj;های تحقیق و توسعه",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Rld.Oth.2.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "واحد صنعتی یحیی",
+          "id": null
+        },
+        {
+          "url": "https://res.modares.ac.ir/uploads/Res.Rld.Oth.3.pdf",
+          "kind": "portal-document-reaudit-document",
+          "claim": "گروه بهداشتی فیروز",
+          "id": null
+        },
+        {
           "url": "https://res.modares.ac.ir/res/forms",
           "kind": "research-review-specific",
           "claim": "فرم‌ها ۳",
@@ -2275,6 +2246,27 @@
           "claim": "پرتال پژوهش کشف‌شده",
           "id": null,
           "sourceLabel": "پرتال پژوهش کشف‌شده"
+        },
+        {
+          "url": "https://news.modares.ac.ir/res-news-list/%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%db%8c%d9%87-%d9%81%d8%b9%d8%a7%d9%84%e2%80%8c%d8%b3%d8%a7%d8%b2%db%8c-%d9%81%d8%b1%d9%85-%c2%ab%d8%a7%d8%b1%d8%b2%db%8c%d8%a7%d8%a8%db%8c-%d8%a7%d8%b3%d8%aa%d8%a7%d8%af-%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7-%d8%aa%d9%88%d8%b3%d8%b7-%d8%af%d8%a7%d9%86%d8%b4%d8%ac%d9%88%c2%bb-%d8%af%d8%b1-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%da%af%d9%84%d8%b3%d8%aa%d8%a7%d9%86",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://news.modares.ac.ir/res-news-list/%d8%a7%d8%a8%d9%84%d8%a7%d8%ba-%d8%b4%db%8c%d9%88%d9%87%e2%80%8c%d9%86%d8%a7%d9%85%d9%87-%d8%a7%d8%ac%d8%b1%d8%a7%db%8c%db%8c-%d8%aa%d8%ae%d8%b5%db%8c%d8%b5-%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1-%d9%85%d8%a7%d9%84%db%8c%d8%a7%d8%aa%db%8c-%d8%a8%d9%87-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%a8%d8%b1%d8%a7%db%8c-%d8%aa%d8%b9%d8%b1%db%8c%d9%81-%d8%b1%d8%b3%d8%a7%d9%84%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d8%aa%d8%ad%d9%82%db%8c%d9%82-%d9%88-%d8%aa%d9%88%d8%b3%d8%b9%d9%87",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
+        },
+        {
+          "url": "https://news.modares.ac.ir/res-news-list/%d8%a7%d8%a8%d9%84%d8%a7%d8%ba-%d8%b4%db%8c%d9%88%d9%87%e2%80%8c%d9%86%d8%a7%d9%85%d9%87-%d8%a7%d8%ac%d8%b1%d8%a7%db%8c%db%8c-%d8%aa%d8%ae%d8%b5%db%8c%d8%b5-%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1-%d9%85%d8%a7%d9%84%db%8c%d8%a7%d8%aa%db%8c-%d8%a8%d9%87-%d8%b5%d9%86%d8%a7%db%8c%d8%b9-%d8%a8%d8%b1%d8%a7%db%8c-%d8%aa%d8%b9%d8%b1%db%8c%d9%81-%d8%b1%d8%b3%d8%a7%d9%84%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d8%aa%d8%ad%d9%82%db%8c%d9%82-%d9%88-%d8%aa%d9%88%d8%b3%d8%b9%d9%87-",
+          "kind": "research-review-specific",
+          "claim": "اسناد و مقررات — کشف خودکار",
+          "id": null,
+          "sourceLabel": "اسناد و مقررات — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -2361,6 +2353,36 @@
       "alternateUrls": []
     },
     {
+      "id": "tarbiat-modares-discovery-document-033543e59246",
+      "universitySlug": "tarbiat-modares",
+      "title": "کتابخانه: مقررات سالن مطالعه استاد/دانشجو دکتری/دانشجو ارشد",
+      "type": "سند",
+      "topic": "کتابخانه و منابع علمی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.8.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.8.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
+      "fileName": "Res.Regulations.Library.8.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 142359,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Library.8.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "tarbiat-modares-discovery-document-05d8320c5ec1",
       "universitySlug": "tarbiat-modares",
       "title": "پژوهش‌های کاربردی: شیوه نامه تشویق مجریان طرح های کاربردی (از طریق دفتر پژوهش های کاربردی و فناوری)",
@@ -2420,6 +2442,156 @@
       "alternateUrls": []
     },
     {
+      "id": "tarbiat-modares-discovery-document-0f4b557b02f3",
+      "universitySlug": "tarbiat-modares",
+      "title": "فرم خلاصه گزارش پیشرفت ماهانه فرصت مطالعاتی صنعت و جامعه مدیریت فناوری و پژوهش‌های کاربردی 33",
+      "type": "فرم/الگو",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Form.Arto.16.docx",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Form.Arto.16.docx",
+      "parentUrl": "https://res.modares.ac.ir/res/forms",
+      "fileName": "Res.Form.Arto.16.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 95885,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Form.Arto.16.docx",
+        "https://res.modares.ac.ir/res/forms"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-0f6d4dd7e387",
+      "universitySlug": "tarbiat-modares",
+      "title": "مدیریت پژوهش: مدارك لازم جهت تسويه حساب فرصت مطالعاتی كه پس از بازگشت بايد ارائه شود استاد/دانشجو دکتری/دانشجو ارشد",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.57.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.57.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Res.Regulations.Management.57.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 571233,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Management.57.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-1325ad3c7197",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه‌نامه تمدید تحصیل دانشجویان كارشناسی‌ارشد ورودی‌های 86و87 دانشجو ارشد",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.14.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.14.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.14.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 6894638,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.14.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-14ba9250552d",
+      "universitySlug": "tarbiat-modares",
+      "title": "مدیریت پژوهش: فرم درخواست مجوز اوليه برگزاری همایش استاد",
+      "type": "فرم/الگو",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.55.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.55.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Res.Regulations.Management.55.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 797159,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Management.55.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-18ff1bda006f",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه‌نامه تمدید تحصیل دانشجویان دكتری ورودی‌های 84 تا 87 دانشجو دکتری",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.18.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.18.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.18.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 5009342,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.18.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "tarbiat-modares-discovery-document-1a15afef0606",
       "universitySlug": "tarbiat-modares",
       "title": "مدیریت پژوهش: شيوه‌نامه تعيين ظرفيت اعضای هيات‌علمی براي راهنمايی پايان‌نامه/رساله دانشجويان کارشناسی ارشد و دکتری استاد/دانشجو دکتری/دانشجو ارشد",
@@ -2450,6 +2622,36 @@
       "alternateUrls": []
     },
     {
+      "id": "tarbiat-modares-discovery-document-1c83be274e60",
+      "universitySlug": "tarbiat-modares",
+      "title": "مدیریت پژوهش: فرم درخواست مجوز قطعی برگزاری همایش استاد",
+      "type": "فرم/الگو",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.56.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.56.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Res.Regulations.Management.56.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 703917,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Management.56.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "tarbiat-modares-discovery-document-1cd75a312be3",
       "universitySlug": "tarbiat-modares",
       "title": "کتابخانه: شرایط و نحوه استفاده از پایان‌نامه‌ها و رساله‌ها دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
@@ -2461,7 +2663,7 @@
       "lastVerified": "2026-08-14",
       "url": "https://res.modares.ac.ir/uploads/Res.Rar.Library.11.pdf",
       "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Rar.Library.11.pdf",
-      "parentUrl": "https://res.modares.ac.ir/res/instructions",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
       "fileName": "Res.Rar.Library.11.pdf",
       "contentType": "application/pdf",
       "fileSize": 106378,
@@ -2475,6 +2677,7 @@
       "topicDimension": "libraryDocuments",
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Rar.Library.11.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions",
         "https://res.modares.ac.ir/res/instructions"
       ],
       "alternateUrls": []
@@ -2536,6 +2739,36 @@
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Form.Management.30.doc",
         "https://res.modares.ac.ir/res/managements/research-innovation-management/forms"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-2302d9eb987a",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه نامه اعطای جایزه به پذیرفته شدگان برتر مقاطع تحصیلی کارشناسی ارشد و دکتری آزمون ورودی سال 94 و بعد دانشجو دکتری/دانشجو ارشد",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.28.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.28.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.28.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 277980,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.28.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
       ],
       "alternateUrls": []
     },
@@ -2641,7 +2874,7 @@
       "lastVerified": "2026-08-14",
       "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.19.pdf",
       "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.19.pdf",
-      "parentUrl": "https://res.modares.ac.ir/res/instructions",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
       "fileName": "Res.Regulations.Publication.19.pdf",
       "contentType": "application/pdf",
       "fileSize": 971823,
@@ -2654,9 +2887,11 @@
       "primaryDimension": "documentsRegulations",
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.19.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions",
         "https://res.modares.ac.ir/res/instructions"
       ],
-      "alternateUrls": []
+      "alternateUrls": [],
+      "topicDimension": "libraryDocuments"
     },
     {
       "id": "tarbiat-modares-discovery-document-29ed49dee9da",
@@ -2748,6 +2983,36 @@
       "alternateUrls": []
     },
     {
+      "id": "tarbiat-modares-discovery-document-2e0fa8e6a806",
+      "universitySlug": "tarbiat-modares",
+      "title": "کتابخانه: مقررات مربوط به تاخير در تحويل مواد و منابع امانت گرفته شده استاد/دانشجو دکتری/دانشجو ارشد",
+      "type": "سند",
+      "topic": "کتابخانه و منابع علمی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.9.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.9.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
+      "fileName": "Res.Regulations.Library.9.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 192830,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Library.9.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "tarbiat-modares-discovery-document-3156e79472df",
       "universitySlug": "tarbiat-modares",
       "title": "مدیریت پژوهش: شيوه‌نامه مدیریت و تسویه حساب مالی همایش‌های علمی – پژوهشی ملی دانشگاه استاد/دانشجو دکتری/دانشجو ارشد",
@@ -2773,6 +3038,36 @@
       "topicDimension": "industryTechnology",
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Regulations.Management.49.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-339845b2091c",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه‌نامه افزایش سنوات مازاد بر مدت تحصیل مجاز دانشجویان دانشجو دکتری/دانشجو ارشد",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.11.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.11.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.11.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 46420,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.11.pdf",
         "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
       ],
       "alternateUrls": []
@@ -2892,6 +3187,66 @@
       "topicDimension": "industryTechnology",
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Regulations.Management.51.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-40017fd78310",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه‌نامه تمدید تحصیل دانشجویان دکتری ورودی 88 و بعد از آن دانشجو دکتری",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.17.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.17.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.17.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 628530,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.17.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-433640521c58",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه‌نامه تمدید تحصیلی دانشجویان دکتری (ویژه دانشجویان دکتری ورودی 95 و بعد از آن) دانشجو دکتری",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.16.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.16.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.16.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 2760080,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.16.pdf",
         "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
       ],
       "alternateUrls": []
@@ -3017,6 +3372,66 @@
       "alternateUrls": []
     },
     {
+      "id": "tarbiat-modares-discovery-document-52c121846478",
+      "universitySlug": "tarbiat-modares",
+      "title": "مدیریت پژوهش: دستورالعمل نحوه بررسی تخلفات پژوهشی استاد/دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.34.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.34.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Res.Regulations.Management.34.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 712044,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Management.34.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-54a3d825f9e1",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه نامه تبدیل شیوه تحصیل دانشجویان مقطع کارشناسی ارشد ازآموزشی پژوهشی به آموزشی دانشجو ارشد",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.29.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.29.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.29.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 234400,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.29.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "tarbiat-modares-discovery-document-5b021ad35913",
       "universitySlug": "tarbiat-modares",
       "title": "مدیریت پژوهش: دستورالعمل تشخیص اعتبار جشنواره‌ها و مسابقه‌های علمی ـ بین‌المللی استاد/دانشجو دکتری/دانشجو ارشد",
@@ -3043,6 +3458,95 @@
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Regulations.Management.31.pdf",
         "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-5b204619aaa0",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه‌نامه انتخاب دانش‌آموختگان رتبه اول درمقطع کارشناسی‌ارشد دانشجو ارشد/دانش‌آموختگان",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.21.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.21.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.21.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 256734,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.21.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-5e606e459818",
+      "universitySlug": "tarbiat-modares",
+      "title": "مدیریت پژوهش: ضوابط حمایت از برگزاری همایش‌های علمی و فناوری استانی، ملی و بین‌المللی استاد",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.52.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.52.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Res.Regulations.Management.52.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 575955,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Management.52.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-6026509ce7ca",
+      "universitySlug": "tarbiat-modares",
+      "title": "گروه بهداشتی فیروز",
+      "type": "سند",
+      "topic": "حمایت و گرنت",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Rld.Oth.3.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Rld.Oth.3.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/Arto/about-us",
+      "fileName": "Res.Rld.Oth.3.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 809720,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Rld.Oth.3.pdf",
+        "https://res.modares.ac.ir/res/managements/Arto/about-us"
       ],
       "alternateUrls": []
     },
@@ -3088,7 +3592,7 @@
       "lastVerified": "2026-08-14",
       "url": "https://res.modares.ac.ir/uploads/Res.Rar.Library.10.pdf",
       "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Rar.Library.10.pdf",
-      "parentUrl": "https://res.modares.ac.ir/res/instructions",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
       "fileName": "Res.Rar.Library.10.pdf",
       "contentType": "application/pdf",
       "fileSize": 109353,
@@ -3102,7 +3606,98 @@
       "topicDimension": "libraryDocuments",
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Rar.Library.10.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions",
         "https://res.modares.ac.ir/res/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-65c497dd1b96",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه‌نامه اجرایی پذیرش و معرفی دانشجویان مهمان در مقاطع تحصیلی کارشناسی‌ارشد و دکتری دانشجو دکتری/دانشجو ارشد",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.36.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.36.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.36.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 438444,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.36.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-6867e75abee7",
+      "universitySlug": "tarbiat-modares",
+      "title": "فرم درخواست فرصت مطالعاتی در جامعه و صنعت دانشگاه تربیت مدرس مدیریت فناوری و پژوهش‌های کاربردی 81",
+      "type": "فرم/الگو",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Form.Arto.3.docx",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Form.Arto.3.docx",
+      "parentUrl": "https://res.modares.ac.ir/res/forms",
+      "fileName": "Res.Form.Arto.3.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 111364,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Form.Arto.3.docx",
+        "https://res.modares.ac.ir/res/forms"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-6fb4bb20b042",
+      "universitySlug": "tarbiat-modares",
+      "title": "مدیریت پژوهش: دستورالعمل شروع فعالیت های پژوهشی دانشجویان در زمان شیوع بیماری کووید۱۹_نسخه بازنگری شده اردیبهشت ۱۴۰۰ دانشجو دکتری",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.24.zip",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.24.zip",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Res.Regulations.Publication.24.zip",
+      "contentType": "application/zip",
+      "fileSize": 660826,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.24.zip",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
       ],
       "alternateUrls": []
     },
@@ -3207,7 +3802,7 @@
       "lastVerified": "2026-08-14",
       "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.12.pdf",
       "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.12.pdf",
-      "parentUrl": "https://res.modares.ac.ir/res/instructions",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
       "fileName": "Res.Regulations.Publication.12.pdf",
       "contentType": "application/pdf",
       "fileSize": 787579,
@@ -3220,7 +3815,39 @@
       "primaryDimension": "documentsRegulations",
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.12.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions",
         "https://res.modares.ac.ir/res/instructions"
+      ],
+      "alternateUrls": [],
+      "topicDimension": "libraryDocuments"
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-7a88dd16cc84",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه نامه معادل سازی واحدهای درسی در دوره های کارشناسی ارشد و دکتری (اجرا از تاریخ 97/08/06) دانشجو دکتری/دانشجو ارشد",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.35.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.35.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.35.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1085404,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.35.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
       ],
       "alternateUrls": []
     },
@@ -3314,6 +3941,66 @@
       "alternateUrls": []
     },
     {
+      "id": "tarbiat-modares-discovery-document-8335c80971d5",
+      "universitySlug": "tarbiat-modares",
+      "title": "مدیریت پژوهش: دستورالعمل نحوه حمايت از همكاران طرح‌های تحقيقاتی استاد",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.35.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Management.35.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Res.Regulations.Management.35.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 679253,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Management.35.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-83902dff3ec5",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه‌نامه انتخاب دانش‌آموختگان رتبه اول درمقطع دکتری دانشجو دکتری/دانش‌آموختگان",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.22.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.22.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.22.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 453238,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.22.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "tarbiat-modares-discovery-document-8560f837f536",
       "universitySlug": "tarbiat-modares",
       "title": "پژوهش‌های کاربردی: شیوه نامه حمایت از قراردادهای پژوهشی شخصی اعضای هیات علمی دانشگاه استاد",
@@ -3354,7 +4041,7 @@
       "lastVerified": "2026-08-14",
       "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.15.pdf",
       "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.15.pdf",
-      "parentUrl": "https://res.modares.ac.ir/res/instructions",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
       "fileName": "Res.Regulations.Publication.15.pdf",
       "contentType": "application/pdf",
       "fileSize": 560825,
@@ -3367,7 +4054,68 @@
       "primaryDimension": "documentsRegulations",
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.15.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions",
         "https://res.modares.ac.ir/res/instructions"
+      ],
+      "alternateUrls": [],
+      "topicDimension": "libraryDocuments"
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-86a856fc19d3",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه‌نامه اجرایی ارزیابی جامع دکتری ورودی‌های سال 89-88 و بعد از آن دانشجو دکتری",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.9.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.9.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.9.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 84118,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.9.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-88e06be06e0f",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه&zwnj;نامه اجرایی تخصیص اعتبار مالیاتی به صنایع برای تعریف رساله&zwnj;های تحقیق و توسعه",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "پایان‌نامه و رساله",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://news.modares.ac.ir/uploads/4/2026/Aug/09/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D9%87%D8%A7%20%D8%AF%D8%B1%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%20%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C.pdf",
+      "sourceUrl": "https://news.modares.ac.ir/uploads/4/2026/Aug/09/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D9%87%D8%A7%20%D8%AF%D8%B1%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%20%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C.pdf",
+      "parentUrl": "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA-%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C-%D8%A8%D9%87-%D8%B5%D9%86%D8%A7%DB%8C%D8%B9-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D8%B9%D8%B1%DB%8C%D9%81-%D8%B1%D8%B3%D8%A7%D9%84%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82-%D9%88-%D8%AA%D9%88%D8%B3%D8%B9%D9%87",
+      "fileName": "شیوه نامه اجرایی حمایت از رساله ها در برنامه اعتبار مالیاتی.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 161393,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://news.modares.ac.ir/uploads/4/2026/Aug/09/%D8%B4%DB%8C%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C%20%D8%AD%D9%85%D8%A7%DB%8C%D8%AA%20%D8%A7%D8%B2%20%D8%B1%D8%B3%D8%A7%D9%84%D9%87%20%D9%87%D8%A7%20%D8%AF%D8%B1%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1%20%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C.pdf",
+        "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA-%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C-%D8%A8%D9%87-%D8%B5%D9%86%D8%A7%DB%8C%D8%B9-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D8%B9%D8%B1%DB%8C%D9%81-%D8%B1%D8%B3%D8%A7%D9%84%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82-%D9%88-%D8%AA%D9%88%D8%B3%D8%B9%D9%87"
       ],
       "alternateUrls": []
     },
@@ -3398,6 +4146,36 @@
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Form.Management.38.doc",
         "https://res.modares.ac.ir/res/managements/research-innovation-management/forms"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-901d58473407",
+      "universitySlug": "tarbiat-modares",
+      "title": "نشر: اهداف و سياست‌های مجله‌های علمی استاد/دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
+      "type": "سیاست/بخشنامه",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.8.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.8.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
+      "fileName": "Res.Regulations.Publication.8.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 591580,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.8.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions"
       ],
       "alternateUrls": []
     },
@@ -3443,7 +4221,7 @@
       "lastVerified": "2026-08-14",
       "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.16.pdf",
       "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.16.pdf",
-      "parentUrl": "https://res.modares.ac.ir/res/instructions",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
       "fileName": "Res.Regulations.Publication.16.pdf",
       "contentType": "application/pdf",
       "fileSize": 567955,
@@ -3456,7 +4234,39 @@
       "primaryDimension": "documentsRegulations",
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.16.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions",
         "https://res.modares.ac.ir/res/instructions"
+      ],
+      "alternateUrls": [],
+      "topicDimension": "libraryDocuments"
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-9bc96d56df48",
+      "universitySlug": "tarbiat-modares",
+      "title": "نشر: ضوابط قالب نشریات و مقالات استاد/دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
+      "type": "سند",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.21.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.21.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
+      "fileName": "Res.Regulations.Publication.21.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 591690,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.21.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions"
       ],
       "alternateUrls": []
     },
@@ -3486,6 +4296,36 @@
       "topicDimension": "industryTechnology",
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Regulations.Management.43.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-9e91afb01427",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه‌نامه اجرایی ارزیابی جامع دوره دکتری دانشجویان دکتری 95-94 دانشجو دکتری",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.8.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.8.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.8.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 2827068,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.8.pdf",
         "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
       ],
       "alternateUrls": []
@@ -3551,6 +4391,36 @@
       "alternateUrls": []
     },
     {
+      "id": "tarbiat-modares-discovery-document-a4188cb0e9c8",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه نامه اعلام نمره درس مقاطع کارشناسی ارشد و دکتری دانشجو دکتری/دانشجو ارشد",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.37.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.37.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.37.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 393034,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.37.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "tarbiat-modares-discovery-document-a4b8531f1392",
       "universitySlug": "tarbiat-modares",
       "title": "مدیریت پژوهش: دستورالعمل نحوه تخصيص اعتبار پژوهشی (Grant) استاد",
@@ -3592,7 +4462,7 @@
       "lastVerified": "2026-08-14",
       "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.6.pdf",
       "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.6.pdf",
-      "parentUrl": "https://res.modares.ac.ir/res/instructions",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
       "fileName": "Res.Regulations.Publication.6.pdf",
       "contentType": "application/pdf",
       "fileSize": 510080,
@@ -3605,9 +4475,11 @@
       "primaryDimension": "documentsRegulations",
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.6.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions",
         "https://res.modares.ac.ir/res/instructions"
       ],
-      "alternateUrls": []
+      "alternateUrls": [],
+      "topicDimension": "libraryDocuments"
     },
     {
       "id": "tarbiat-modares-discovery-document-ab91a147b826",
@@ -3696,6 +4568,155 @@
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Regulations.Arto.42.docx",
         "https://res.modares.ac.ir/res/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-b03210680550",
+      "universitySlug": "tarbiat-modares",
+      "title": "کتابخانه: مقررات امانت منابع و تجهیزات دیداری شنیداری استاد/دانشجو دکتری/دانشجو ارشد",
+      "type": "سند",
+      "topic": "کتابخانه و منابع علمی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.3.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.3.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
+      "fileName": "Res.Regulations.Library.3.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 128667,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Library.3.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-b264dbd6c721",
+      "universitySlug": "tarbiat-modares",
+      "title": "واحد صنعتی یحیی",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Rld.Oth.2.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Rld.Oth.2.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/Arto/about-us",
+      "fileName": "Res.Rld.Oth.2.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 542520,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Rld.Oth.2.pdf",
+        "https://res.modares.ac.ir/res/managements/Arto/about-us"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-b561dcfeb1f3",
+      "universitySlug": "tarbiat-modares",
+      "title": "کتابخانه: مقررات استفاده از خدمات تخصصی کتابخانه استاد/دانشجو دکتری/دانشجو ارشد/سایر",
+      "type": "سند",
+      "topic": "کتابخانه و منابع علمی",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.10.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Library.10.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
+      "fileName": "Res.Regulations.Library.10.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 203255,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Library.10.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-b59a7e4eec60",
+      "universitySlug": "tarbiat-modares",
+      "title": "فرم اختتام دوره فرصت مطالعاتی صنعت و جامعه عضو هیات علمی در واحد عملیات مدیریت فناوری و پژوهش‌های کاربردی 25",
+      "type": "فرم/الگو",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Form.Arto.18.docx",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Form.Arto.18.docx",
+      "parentUrl": "https://res.modares.ac.ir/res/forms",
+      "fileName": "Res.Form.Arto.18.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 95199,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Form.Arto.18.docx",
+        "https://res.modares.ac.ir/res/forms"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-b6e00417b625",
+      "universitySlug": "tarbiat-modares",
+      "title": "فرم پیشنهادیه طرح دوره فرصت مطالعاتی صنعت و جامعه دانشگاه تربیت مدرس مدیریت فناوری و پژوهش‌های کاربردی 55",
+      "type": "فرم/الگو",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Form.Arto.4.docx",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Form.Arto.4.docx",
+      "parentUrl": "https://res.modares.ac.ir/res/forms",
+      "fileName": "Res.Form.Arto.4.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 120846,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Form.Arto.4.docx",
+        "https://res.modares.ac.ir/res/forms"
       ],
       "alternateUrls": []
     },
@@ -3799,7 +4820,7 @@
       "lastVerified": "2026-08-14",
       "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.13.pdf",
       "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.13.pdf",
-      "parentUrl": "https://res.modares.ac.ir/res/instructions",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
       "fileName": "Res.Regulations.Publication.13.pdf",
       "contentType": "application/pdf",
       "fileSize": 532131,
@@ -3812,9 +4833,11 @@
       "primaryDimension": "documentsRegulations",
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.13.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions",
         "https://res.modares.ac.ir/res/instructions"
       ],
-      "alternateUrls": []
+      "alternateUrls": [],
+      "topicDimension": "libraryDocuments"
     },
     {
       "id": "tarbiat-modares-discovery-document-beb39e093ba9",
@@ -3843,6 +4866,36 @@
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Form.Management.29.doc",
         "https://res.modares.ac.ir/res/managements/research-innovation-management/forms"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-c17319bcb6d1",
+      "universitySlug": "tarbiat-modares",
+      "title": "فرم خلاصه گزارش نهایی فرصت مطالعاتی صنعت و جامعه مدیریت فناوری و پژوهش‌های کاربردی 30",
+      "type": "فرم/الگو",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Form.Arto.17.docx",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Form.Arto.17.docx",
+      "parentUrl": "https://res.modares.ac.ir/res/forms",
+      "fileName": "Res.Form.Arto.17.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 183591,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Form.Arto.17.docx",
+        "https://res.modares.ac.ir/res/forms"
       ],
       "alternateUrls": []
     },
@@ -3936,6 +4989,36 @@
       "alternateUrls": []
     },
     {
+      "id": "tarbiat-modares-discovery-document-c6f5b24d3002",
+      "universitySlug": "tarbiat-modares",
+      "title": "نشر: دستورالعمل نحوه حمايت از انتشار مجلات علمه ـ تخصصه مشترک بين دانشگاه و انجمن‌های علمی معتبر استاد/دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "grants/funding",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.10.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.10.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
+      "fileName": "Res.Regulations.Publication.10.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 580238,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.10.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "tarbiat-modares-discovery-document-c765116544ce",
       "universitySlug": "tarbiat-modares",
       "title": "مدیریت پژوهش: تکمله شيوه‌نامه شركت در مجامع علمی خارج از كشور (کارگاه‌های تخصصی) استاد/دانشجو دکتری/دانشجو ارشد",
@@ -3996,6 +5079,66 @@
       "alternateUrls": []
     },
     {
+      "id": "tarbiat-modares-discovery-document-cd913f9e6f17",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه‌نامه تمدید تحصیل دانشجویان كارشناسی‌ارشد ورودی 88 تا 93 دانشجو ارشد",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.13.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.13.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.13.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 1204163,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.13.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-cef9b2510776",
+      "universitySlug": "tarbiat-modares",
+      "title": "فرم شروع دوره فرصت مطالعاتی صنعت و جامعه عضو هیات علمی در واحد عملیاتی مدیریت فناوری و پژوهش‌های کاربردی 40",
+      "type": "فرم/الگو",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Form.Arto.6.docx",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Form.Arto.6.docx",
+      "parentUrl": "https://res.modares.ac.ir/res/forms",
+      "fileName": "Res.Form.Arto.6.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 95260,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Form.Arto.6.docx",
+        "https://res.modares.ac.ir/res/forms"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "tarbiat-modares-discovery-document-cf3ea5ec2cb9",
       "universitySlug": "tarbiat-modares",
       "title": "شیوه نامه ارائه خدمات آزمایشگاهی، کارگاهی و عرصه های پژوهشی به داخل و خارج از دانشگاه استاد/دانشجو دکتری/دانشجو ارشد",
@@ -4037,7 +5180,7 @@
       "lastVerified": "2026-08-14",
       "url": "https://news.modares.ac.ir/inc/ajax.ashx?action=download&id=a2ce7f88-7caa-4fe3-b39a-977d5d1779ff&md5=13265AD8DCFB2EA216083D43E550A215",
       "sourceUrl": "https://news.modares.ac.ir/inc/ajax.ashx?action=download&id=a2ce7f88-7caa-4fe3-b39a-977d5d1779ff&md5=13265AD8DCFB2EA216083D43E550A215",
-      "parentUrl": "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA-%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C-%D8%A8%D9%87-%D8%B5%D9%86%D8%A7%DB%8C%D8%B9-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D8%B9%D8%B1%DB%8C%D9%81-%D8%B1%D8%B3%D8%A7%D9%84%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82-%D9%88-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-",
+      "parentUrl": "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA-%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C-%D8%A8%D9%87-%D8%B5%D9%86%D8%A7%DB%8C%D8%B9-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D8%B9%D8%B1%DB%8C%D9%81-%D8%B1%D8%B3%D8%A7%D9%84%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82-%D9%88-%D8%AA%D9%88%D8%B3%D8%B9%D9%87",
       "fileName": "Ø´ÛÙÙ_ÙØ§ÙÙ_Ø§Ø¬Ø±Ø§ÛÛ_Ø­ÙØ§ÛØª_Ø§Ø²_Ø±Ø³Ø§ÙÙ_ÙØ§_Ø¯Ø±_Ø¨Ø±ÙØ§ÙÙ_Ø§Ø¹ØªØ¨Ø§Ø±_ÙØ§ÙÛØ§ØªÛ.pdf",
       "contentType": "application/pdf",
       "fileSize": 161393,
@@ -4050,6 +5193,7 @@
       "primaryDimension": "documentsRegulations",
       "evidenceUrls": [
         "https://news.modares.ac.ir/inc/ajax.ashx?action=download&id=a2ce7f88-7caa-4fe3-b39a-977d5d1779ff&md5=13265AD8DCFB2EA216083D43E550A215",
+        "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA-%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C-%D8%A8%D9%87-%D8%B5%D9%86%D8%A7%DB%8C%D8%B9-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D8%B9%D8%B1%DB%8C%D9%81-%D8%B1%D8%B3%D8%A7%D9%84%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82-%D9%88-%D8%AA%D9%88%D8%B3%D8%B9%D9%87",
         "https://news.modares.ac.ir/res-news-list/%D8%A7%D8%A8%D9%84%D8%A7%D8%BA-%D8%B4%DB%8C%D9%88%D9%87%E2%80%8C%D9%86%D8%A7%D9%85%D9%87-%D8%A7%D8%AC%D8%B1%D8%A7%DB%8C%DB%8C-%D8%AA%D8%AE%D8%B5%DB%8C%D8%B5-%D8%A7%D8%B9%D8%AA%D8%A8%D8%A7%D8%B1-%D9%85%D8%A7%D9%84%DB%8C%D8%A7%D8%AA%DB%8C-%D8%A8%D9%87-%D8%B5%D9%86%D8%A7%DB%8C%D8%B9-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%AA%D8%B9%D8%B1%DB%8C%D9%81-%D8%B1%D8%B3%D8%A7%D9%84%D9%87%E2%80%8C%D9%87%D8%A7%DB%8C-%D8%AA%D8%AD%D9%82%DB%8C%D9%82-%D9%88-%D8%AA%D9%88%D8%B3%D8%B9%D9%87-"
       ],
       "alternateUrls": []
@@ -4174,6 +5318,36 @@
       "alternateUrls": []
     },
     {
+      "id": "tarbiat-modares-discovery-document-d5268f7608a5",
+      "universitySlug": "tarbiat-modares",
+      "title": "شیوه‌نامه تمدید تحصیلی دانشجویان کارشناسی‌ارشد ورودی 94 و بعد از آن دانشجو ارشد",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.12.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Edu.Management.Rar.12.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions",
+      "fileName": "Edu.Management.Rar.12.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 323517,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "industryTechnology",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Edu.Management.Rar.12.pdf",
+        "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "tarbiat-modares-discovery-document-db5408c6bc32",
       "universitySlug": "tarbiat-modares",
       "title": "مدیریت پژوهش: شرح وظايف استاد راهنمای رساله‌های دكتری دانشجو دکتری",
@@ -4260,6 +5434,36 @@
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Form.Management.71.doc",
         "https://res.modares.ac.ir/res/managements/research-innovation-management/forms"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-df313e68251b",
+      "universitySlug": "tarbiat-modares",
+      "title": "نشر: دستورالعمل قيمت‌گذاری، اهدا و اشتراك مجلات علمی ـ تخصصی منتشر شده دانشگاه استاد/دانشجو دکتری/دانشجو ارشد/دانش‌آموختگان",
+      "type": "شیوه‌نامه/دستورالعمل",
+      "topic": "انتشارات و نشریات",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.11.pdf",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.11.pdf",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
+      "fileName": "Res.Regulations.Publication.11.pdf",
+      "contentType": "application/pdf",
+      "fileSize": 644808,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "topicDimension": "libraryDocuments",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.11.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions"
       ],
       "alternateUrls": []
     },
@@ -4412,6 +5616,35 @@
       "alternateUrls": []
     },
     {
+      "id": "tarbiat-modares-discovery-document-e70adc00647b",
+      "universitySlug": "tarbiat-modares",
+      "title": "پژوهش‌های کاربردی: روند تمدید قرارداد پژوهشی استاد",
+      "type": "سند",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Arto.36.docx",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Arto.36.docx",
+      "parentUrl": "https://res.modares.ac.ir/res/instructions",
+      "fileName": "Res.Regulations.Arto.36.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 198138,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Regulations.Arto.36.docx",
+        "https://res.modares.ac.ir/res/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
       "id": "tarbiat-modares-discovery-document-eadb51721b7a",
       "universitySlug": "tarbiat-modares",
       "title": "مدیریت پژوهش: دستورالعمل هزينه كرد بودجه مصوب رساله / پايان‌نامه و تعيين حساب معين اعضاء هيأت‌علمی استاد/دانشجو دکتری/دانشجو ارشد",
@@ -4453,7 +5686,7 @@
       "lastVerified": "2026-08-14",
       "url": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.18.pdf",
       "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.18.pdf",
-      "parentUrl": "https://res.modares.ac.ir/res/instructions",
+      "parentUrl": "https://res.modares.ac.ir/res/managements/library/instructions",
       "fileName": "Res.Regulations.Publication.18.pdf",
       "contentType": "application/pdf",
       "fileSize": 206416,
@@ -4466,9 +5699,11 @@
       "primaryDimension": "documentsRegulations",
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Regulations.Publication.18.pdf",
+        "https://res.modares.ac.ir/res/managements/library/instructions",
         "https://res.modares.ac.ir/res/instructions"
       ],
-      "alternateUrls": []
+      "alternateUrls": [],
+      "topicDimension": "libraryDocuments"
     },
     {
       "id": "tarbiat-modares-discovery-document-ed12895f1a9d",
@@ -4646,6 +5881,35 @@
       "evidenceUrls": [
         "https://res.modares.ac.ir/uploads/Res.Regulations.Management.61.pdf",
         "https://res.modares.ac.ir/res/managements/research-innovation-management/instructions"
+      ],
+      "alternateUrls": []
+    },
+    {
+      "id": "tarbiat-modares-discovery-document-f98fed5f1b79",
+      "universitySlug": "tarbiat-modares",
+      "title": "فرم انتخاب طرح پژوهشی برتر مدیریت فناوری و پژوهش‌های کاربردی 85",
+      "type": "فرم/الگو",
+      "topic": "صنعت، فناوری و مالکیت فکری",
+      "taxonomy": "industry/technology/IP",
+      "evidence": "verified",
+      "status": "active",
+      "lastVerified": "2026-08-14",
+      "url": "https://res.modares.ac.ir/uploads/Res.Form.Arto.1.docx",
+      "sourceUrl": "https://res.modares.ac.ir/uploads/Res.Form.Arto.1.docx",
+      "parentUrl": "https://res.modares.ac.ir/res/forms",
+      "fileName": "Res.Form.Arto.1.docx",
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "fileSize": 31613,
+      "discoveredBy": "research-deep-discovery",
+      "discoveryConfidence": 0.99,
+      "entityType": "document",
+      "dimension": "documentsRegulations",
+      "relation": "direct-resource",
+      "cleaningReason": "direct-downloadable-document",
+      "primaryDimension": "documentsRegulations",
+      "evidenceUrls": [
+        "https://res.modares.ac.ir/uploads/Res.Form.Arto.1.docx",
+        "https://res.modares.ac.ir/res/forms"
       ],
       "alternateUrls": []
     },

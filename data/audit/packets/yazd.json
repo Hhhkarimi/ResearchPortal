@@ -85,7 +85,7 @@
     "scoreEligibility": "unranked",
     "discoveryCrawler": {
       "lastRun": "2026-08-14",
-      "promotedSources": 143,
+      "promotedSources": 0,
       "socialEvidenceRemoved": true
     },
     "observedSignals": []
@@ -189,7 +189,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 80,
+      "sourceCount": 60,
       "sources": [
         {
           "url": "https://yazd.ac.ir/offices/research/home/introduction",
@@ -211,8 +211,8 @@
         },
         {
           "url": "https://yazd.ac.ir/offices/research/deputy/research/journal",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
@@ -493,20 +493,20 @@
         },
         {
           "url": "https://yazd.ac.ir/resesrch",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://yazd.ac.ir/offices/research/deputy/research/introduction",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
           "url": "https://yazd.ac.ir/offices/research/people/head",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific portalIdentity source",
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
           "id": null
         },
         {
@@ -550,146 +550,6 @@
           "kind": "portal-identity",
           "claim": "official portal identity evidence",
           "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/publications/council",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/technology/introduction",
-          "kind": "research-review-specific",
-          "claim": "صنعت و فناوری — کشف خودکار",
-          "id": null,
-          "sourceLabel": "صنعت و فناوری — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/library/head",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/labs/services",
-          "kind": "research-review-specific",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/entrepreneurship/services/collaboration",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/entrepreneurship/services",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/support.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه حمایت از پایان‌نامه‌ها و رساله‌های تحصیلات تکمیلی",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه حمایت از پایان‌نامه‌ها و رساله‌های تحصیلات تکمیلی"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/proposal-grant1400.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه تخصیص امتیاز پژوهانه تدوین پروپوزال طرح‌های پژوهشی",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه تخصیص امتیاز پژوهانه تدوین پروپوزال طرح‌های پژوهشی"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/Forms-Hasteh-Ghotb.docx",
-          "kind": "research-review-specific",
-          "claim": "فرم‌های درخواست ایجاد هسته/ قطب علمی و مستندات مورد نیاز",
-          "id": null,
-          "sourceLabel": "فرم‌های درخواست ایجاد هسته/ قطب علمی و مستندات مورد نیاز"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/publications/forms/form-talif94.doc",
-          "kind": "research-review-specific",
-          "claim": "فرم‌های داوری کتاب توسط داور علمی (داوری کتب تالیفی)",
-          "id": null,
-          "sourceLabel": "فرم‌های داوری کتاب توسط داور علمی (داوری کتب تالیفی)"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/publications/forms/form-tarjome94.doc",
-          "kind": "research-review-specific",
-          "claim": "فرم‌های داوری کتاب توسط داور علمی (داوری کتب ترجمه)",
-          "id": null,
-          "sourceLabel": "فرم‌های داوری کتاب توسط داور علمی (داوری کتب ترجمه)"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/rules-1402.pdf",
-          "kind": "research-review-specific",
-          "claim": "مجموعه آیین‌نامه و شیوه‌نامه‌های اجرایی وزارت علوم - سال ۱۴۰۲",
-          "id": null,
-          "sourceLabel": "مجموعه آیین‌نامه و شیوه‌نامه‌های اجرایی وزارت علوم - سال ۱۴۰۲"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-score-1404.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه اعطای امتیاز به انواع طرح‌های پژوهشی و فناوری مطابق با محموعه مقررات و رویه‌های داخلی هیأت ممیزه دانشگاه یزد (ویرایش تیرماه ۱۴۰۴)",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه اعطای امتیاز به انواع طرح‌های پژوهشی و فناوری مطابق با محموعه مقررات و رویه‌های داخلی هیأت ممیزه دانشگاه یزد (ویرایش تیرماه ۱۴۰۴)"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/RCM-Rules1401.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه مدیریت واحدهای پژوهشی دانشگاه",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه مدیریت واحدهای پژوهشی دانشگاه"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/flowchart-plans5.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه اجرایی طرح‌های پژوهشی کاربردی دانشگاه یزد",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه اجرایی طرح‌های پژوهشی کاربردی دانشگاه یزد"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/membership-rules.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه عضویت هیأت علمی وابسته واحدهای پژوهشی",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه عضویت هیأت علمی وابسته واحدهای پژوهشی"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/suggest-form-exterior.doc",
-          "kind": "research-review-specific",
-          "claim": "فرم پیشنهادیه طرح پژوهشی برون‌دانشگاهی",
-          "id": null,
-          "sourceLabel": "فرم پیشنهادیه طرح پژوهشی برون‌دانشگاهی"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/thesis-accept%201401.docx",
-          "kind": "research-review-specific",
-          "claim": "کاربرگ تأیید دانشکده برای مستخرج از پایان‌نامه بودن محصول فناورانه / شرکت",
-          "id": null,
-          "sourceLabel": "کاربرگ تأیید دانشکده برای مستخرج از پایان‌نامه بودن محصول فناورانه / شرکت"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/Sabbatical-leave.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه‌های فرصت مطالعاتی داخل کشور و خارج از کشور اعضای هیأت علمی",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه‌های فرصت مطالعاتی داخل کشور و خارج از کشور اعضای هیأت علمی"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/entrepreneurship/opportunities/opp-rules.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه فرصت مطالعاتی اعضای هیأت علمی در جامعه و صنعت",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه فرصت مطالعاتی اعضای هیأت علمی در جامعه و صنعت"
         }
       ],
       "publicationAdjustment": null,
@@ -707,7 +567,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 11,
+      "sourceCount": 7,
       "sources": [
         {
           "url": "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
@@ -756,34 +616,6 @@
           "claim": "دانشگاه یزد مدیریت امور پژوهشی",
           "id": "yazd-discovery-unit-research-b4b145a732c9",
           "unitType": "research"
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/educational/deputy/graduate/opportunity/forms",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/RCM-Rules1401.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه مدیریت واحدهای پژوهشی دانشگاه",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه مدیریت واحدهای پژوهشی دانشگاه"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/membership-rules.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه عضویت هیأت علمی وابسته واحدهای پژوهشی",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه عضویت هیأت علمی وابسته واحدهای پژوهشی"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/entrepreneurship/opportunities/opp-rules.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه فرصت مطالعاتی اعضای هیأت علمی در جامعه و صنعت",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه فرصت مطالعاتی اعضای هیأت علمی در جامعه و صنعت"
         }
       ],
       "publicationAdjustment": null,
@@ -801,7 +633,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 16,
+      "sourceCount": 8,
       "sources": [
         {
           "url": "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
@@ -811,39 +643,17 @@
         },
         {
           "url": "https://yazd.ac.ir/offices/research/deputy/library/introduction",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "کتابخانه مرکزی",
+          "id": "yazd-discovery-unit-library-2ec8ba831e77",
+          "unitType": "library"
         },
         {
           "url": "https://yazd.ac.ir/offices/research/deputy/publications/introduction",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/publications/council",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://nahad.yazd.ac.ir/%d8%a7%d8%b2-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af%d8%a7%d9%86-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%db%8c%d8%b2/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/library/head",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://nahad.yazd.ac.ir/%d8%aa%d8%b5%d9%88%db%8c%d8%b1-%d8%ac%d8%af%db%8c%d8%af%db%8c-%d8%a7%d8%b2-%d8%b1%d9%87%d8%a8%d8%b1-%d8%a7%d9%86%d9%82%d9%84%d8%a7%d8%a8-%d8%af%d8%b1-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
+          "kind": "unit",
+          "claim": "دانشگاه یزد اداره نشریات علمی و انتشارات",
+          "id": "yazd-discovery-unit-library-8c516add9cb1",
+          "unitType": "publishing"
         },
         {
           "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/pub-yazd-rules-3.pdf",
@@ -874,34 +684,6 @@
           "kind": "document",
           "claim": "شیوه‌نامه تشویق نشریات علمی نمایه‌شده در نمایه‌های بین‌المللی",
           "id": "yazd-discovery-document-ccff2c3e24fa"
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/research/journal",
-          "kind": "research-review-specific",
-          "claim": "پرتال پژوهش کشف‌شده",
-          "id": null,
-          "sourceLabel": "پرتال پژوهش کشف‌شده"
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/publications/forms",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/publications/forms/form-talif94.doc",
-          "kind": "research-review-specific",
-          "claim": "فرم‌های داوری کتاب توسط داور علمی (داوری کتب تالیفی)",
-          "id": null,
-          "sourceLabel": "فرم‌های داوری کتاب توسط داور علمی (داوری کتب تالیفی)"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/publications/forms/form-tarjome94.doc",
-          "kind": "research-review-specific",
-          "claim": "فرم‌های داوری کتاب توسط داور علمی (داوری کتب ترجمه)",
-          "id": null,
-          "sourceLabel": "فرم‌های داوری کتاب توسط داور علمی (داوری کتب ترجمه)"
         }
       ],
       "publicationAdjustment": null,
@@ -919,7 +701,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 8,
+      "sourceCount": 2,
       "sources": [
         {
           "url": "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
@@ -929,47 +711,10 @@
         },
         {
           "url": "https://yazd.ac.ir/offices/research/deputy/labs/introduction",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/4006-5-7595",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/labs/services",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/4006-5-9799",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/4006-5-3401",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific laboratories source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/labs/forms",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/entrepreneurship/services/collaboration",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
+          "kind": "unit",
+          "claim": "آزمایشگاه مرکزی",
+          "id": "yazd-discovery-unit-laboratory-8c9725aff6c8",
+          "unitType": "laboratory"
         }
       ],
       "publicationAdjustment": null,
@@ -987,7 +732,7 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 17,
+      "sourceCount": 3,
       "sources": [
         {
           "url": "https://yazd.ac.ir/%D9%85%D8%B9%D8%A7%D9%88%D9%86-%D9%BE%DA%98%D9%88%D9%87%D8%B4-%D9%88-%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C",
@@ -1004,106 +749,10 @@
         },
         {
           "url": "https://yazd.ac.ir/offices/research/deputy/technology/introduction",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://nahad.yazd.ac.ir/%da%a9%d8%a7%d8%b1-%da%af%d8%b1%d9%88%d9%87-%d8%a8%d8%b1%d8%b1%d8%b3%db%8c-%d8%b1%d8%a7%d9%87%da%a9%d8%a7%d8%b1%d9%87%d8%a7%db%8c-%da%af%d8%b3%d8%aa%d8%b1%d8%b4-%da%a9%d8%a7%d8%b1%d8%a2%d9%85%d8%af/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/technology/forms",
-          "kind": "research-review-specific",
-          "claim": "اسناد و مقررات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/technology/sections/centers/institutes/intelligent/introduction",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/entrepreneurship/services/software",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/entrepreneurship/services/collaboration",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/entrepreneurship/services",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/proposal-grant1400.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه تخصیص امتیاز پژوهانه تدوین پروپوزال طرح‌های پژوهشی",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه تخصیص امتیاز پژوهانه تدوین پروپوزال طرح‌های پژوهشی"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-score-1404.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه اعطای امتیاز به انواع طرح‌های پژوهشی و فناوری مطابق با محموعه مقررات و رویه‌های داخلی هیأت ممیزه دانشگاه یزد (ویرایش تیرماه ۱۴۰۴)",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه اعطای امتیاز به انواع طرح‌های پژوهشی و فناوری مطابق با محموعه مقررات و رویه‌های داخلی هیأت ممیزه دانشگاه یزد (ویرایش تیرماه ۱۴۰۴)"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/RCM-Rules1401.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه مدیریت واحدهای پژوهشی دانشگاه",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه مدیریت واحدهای پژوهشی دانشگاه"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/flowchart-plans5.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه اجرایی طرح‌های پژوهشی کاربردی دانشگاه یزد",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه اجرایی طرح‌های پژوهشی کاربردی دانشگاه یزد"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/membership-rules.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه عضویت هیأت علمی وابسته واحدهای پژوهشی",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه عضویت هیأت علمی وابسته واحدهای پژوهشی"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/suggest-form-exterior.doc",
-          "kind": "research-review-specific",
-          "claim": "فرم پیشنهادیه طرح پژوهشی برون‌دانشگاهی",
-          "id": null,
-          "sourceLabel": "فرم پیشنهادیه طرح پژوهشی برون‌دانشگاهی"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/thesis-accept%201401.docx",
-          "kind": "research-review-specific",
-          "claim": "کاربرگ تأیید دانشکده برای مستخرج از پایان‌نامه بودن محصول فناورانه / شرکت",
-          "id": null,
-          "sourceLabel": "کاربرگ تأیید دانشکده برای مستخرج از پایان‌نامه بودن محصول فناورانه / شرکت"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/entrepreneurship/opportunities/opp-rules.pdf",
-          "kind": "research-review-specific",
-          "claim": "شیوه‌نامه فرصت مطالعاتی اعضای هیأت علمی در جامعه و صنعت",
-          "id": null,
-          "sourceLabel": "شیوه‌نامه فرصت مطالعاتی اعضای هیأت علمی در جامعه و صنعت"
+          "kind": "unit",
+          "claim": "دانشگاه یزد مدیریت ارتباط با جامعه و صنعت",
+          "id": "yazd-discovery-unit-industry-e9613ffd233c",
+          "unitType": "industry"
         }
       ],
       "publicationAdjustment": null,
@@ -1121,63 +770,13 @@
       "reportedStatus": "verified",
       "reviewOutcome": "evidence-confirmed",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 9,
+      "sourceCount": 1,
       "sources": [
         {
           "url": "https://yazd.ac.ir/",
           "kind": "portal-document-reaudit",
           "claim": "dimension-specific systemsServices source",
           "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/technology/sections/centers/institutes/intelligent/introduction",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/research/core/sshd",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/entrepreneurship/services/software",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/publications/introduction",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/entrepreneurship/services/collaboration",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/entrepreneurship/services",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific systemsServices source",
-          "id": null
-        },
-        {
-          "url": "https://nahad.yazd.ac.ir/category/1000/1002/%da%a9%d8%a7%d8%b1%d8%a8%d8%b1%d8%af%db%8c-%da%a9%d8%b1%d8%af%d9%86-%d9%be%d8%a7%db%8c%d8%a7%d9%86%e2%80%8c%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%e2%80%8c%d9%87%d8%a7/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/labs/services",
-          "kind": "research-review-specific",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
         }
       ],
       "publicationAdjustment": null,
@@ -1191,695 +790,275 @@
       "iscCategory": "جامع",
       "iscRank": 17,
       "dimension": "documentsRegulations",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 120,
+      "sourceCount": 90,
       "sources": [
         {
-          "url": "https://nahad.yazd.ac.ir/category/1000/1002/%da%a9%d8%a7%d8%b1%d8%a8%d8%b1%d8%af%db%8c-%da%a9%d8%b1%d8%af%d9%86-%d9%be%d8%a7%db%8c%d8%a7%d9%86%e2%80%8c%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%e2%80%8c%d9%87%d8%a7/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/publications/forms",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/labs/forms",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/technology/forms",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/educational/deputy/graduate/opportunity/forms",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/educational/deputy/planning/home/forms",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/cultural/home/forms",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/student/deputy/student/sections/dormitory/forms",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/student/deputy/consultation/forms",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/president/administration/yupr/forms",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/research/register",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/cultural/home/rules",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://nahad.yazd.ac.ir/category/1000/1034/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/president/administration/planning/processes",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/educational/deputy/graduate/home/forms/phd",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/educational/deputy/graduate/home/forms/master",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/home/rules",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/conferences/rules",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/research/jobs/rules",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/conferences/forms",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/offices/research/deputy/research/jobs/forms",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/research/week/rules",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Page.aspx?mID=15685&Page=eForms/eFormView&frmId=473&ft=0",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://nahad.yazd.ac.ir/%d9%81%d8%b1%d9%85-%d8%ab%d8%a8%d8%aa-%d9%86%d8%a7%d9%85-%d8%a7%d8%b1%d8%af%d9%88%db%8c-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d8%aa%d8%b1%d8%a8%db%8c%d8%aa%db%8c-%d8%a7%d9%81%d8%b3%d8%b1%d8%a7%d9%86/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://nahad.yazd.ac.ir/%d8%b6%d8%af-%d8%a7%d9%86%d9%82%d9%84%d8%a7%d8%a8-%d8%b4%d8%a7%db%8c%d8%b9%d9%87-%da%a9%d8%b1%d8%af%d9%87-%d8%a8%d9%88%d8%af%d9%86%d8%af%d8%8c-%d9%81%d8%b1%d9%85%d8%a7%d9%86%d8%af%d9%87-%d9%84%d8%b4/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://nahad.yazd.ac.ir/%d8%aa%d9%82%d8%af%db%8c%d8%b1-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%db%8c%d8%b2%d8%af-%d8%a7%d8%b2-%d9%81%d8%b1%d9%85%d8%a7%d9%86%d8%af%d9%87-%d8%b3%d9%be%d8%a7%d9%87-%d8%a7%d9%84%d8%ba%d8%af/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://nahad.yazd.ac.ir/%d8%b3%db%8c%d8%a7%d8%b3%d8%aa-%d8%a2%d9%85%d8%b1%db%8c%da%a9%d8%a7-%d8%aa%d8%b3%d9%84%d8%b7-%d8%a8%d8%b1-%d9%85%d9%86%d8%a7%d8%a8%d8%b9-%d9%85%d9%86%d8%b7%d9%82%d9%87-%d8%a8%d9%87-%d9%88%d8%b3%db%8c/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://nahad.yazd.ac.ir/%d8%b3%db%8c%d8%a7%d8%b3%d8%aa-%d9%82%d8%b1%d8%a2%d9%86%d8%8c-%d9%87%d9%85%d8%a8%d8%b3%d8%aa%da%af%db%8c-%d9%85%db%8c%d8%a7%d9%86-%d9%85%d9%84%d8%aa%e2%80%8c%d9%87%d8%a7%db%8c-%d9%85%d8%b3%d9%84%d9%85/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://nahad.yazd.ac.ir/%d8%b5%d8%af%d9%88%d8%b1-%d8%ad%da%a9%d9%85-%d9%85%d8%a3%d9%85%d9%88%d8%b1%db%8c%d8%aa-%d9%88%db%8c%da%98%d9%87-%d8%a7%d8%b2-%d8%b3%d9%88%db%8c-%d9%81%d8%b1%d9%85%d8%a7%d9%86%d8%af%d9%87%db%8c-%da%a9/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://nahad.yazd.ac.ir/%d9%81%d8%b1%d9%85-%d8%ab%d8%a8%d8%aa-%d9%86%d8%a7%d9%85-%d8%b7%d8%b1%d8%ad-%d8%af%d8%a7%d9%86%d8%b4%d8%ac%d9%88%db%8c-%d9%85%d9%88%d9%81%d9%82/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/support.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه حمایت از پایان‌نامه‌ها و رساله‌های تحصیلات تکمیلی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/proposal-grant1400.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه تخصیص امتیاز پژوهانه تدوین پروپوزال طرح‌های پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/Forms-Hasteh-Ghotb.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم‌های درخواست ایجاد هسته/ قطب علمی و مستندات مورد نیاز",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/publications/forms/form-talif94.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم‌های داوری کتاب توسط داور علمی (داوری کتب تالیفی)",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/publications/forms/form-tarjome94.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم‌های داوری کتاب توسط داور علمی (داوری کتب ترجمه)",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/rules-1402.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "مجموعه آیین‌نامه و شیوه‌نامه‌های اجرایی وزارت علوم - سال ۱۴۰۲",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-score-1404.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه اعطای امتیاز به انواع طرح‌های پژوهشی و فناوری مطابق با محموعه مقررات و رویه‌های داخلی هیأت ممیزه دانشگاه یزد (ویرایش تیرماه ۱۴۰۴)",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/RCM-Rules1401.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه مدیریت واحدهای پژوهشی دانشگاه",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/flowchart-plans5.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه اجرایی طرح‌های پژوهشی کاربردی دانشگاه یزد",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/membership-rules.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه عضویت هیأت علمی وابسته واحدهای پژوهشی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/suggest-form-exterior.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم پیشنهادیه طرح پژوهشی برون‌دانشگاهی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/thesis-accept%201401.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ تأیید دانشکده برای مستخرج از پایان‌نامه بودن محصول فناورانه / شرکت",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/Sabbatical-leave.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه‌های فرصت مطالعاتی داخل کشور و خارج از کشور اعضای هیأت علمی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/entrepreneurship/opportunities/opp-rules.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه فرصت مطالعاتی اعضای هیأت علمی در جامعه و صنعت",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/support-score.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ اعطای نمره حمایت برون‌دانشگاهی از پایان‌نامه",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/suggest/EPF022.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ تقاضای تغییر عنوان پایان‌نامه قبل از جلسه دفاع",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/master/EPB001-1401.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ درخواست تصویب پیشنهادیه پایان‌نامه ارشد EP/B001",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/master/EPF004-03.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ ارزشیابی داوران از پایان‌نامه کارشناسی ارشد EP/F004",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/master/EPF011-1404.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ تایید اصلاحات پایان‌نامه دانشجویان کارشناسی ارشد EP/F011",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/master/EPF011-1404.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ تایید اصلاحات پایان‌نامه دانشجویان کارشناسی ارشد EP/F011",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/grant.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ کمک‌هزینه شیوه‌نامه فرصت تحقیقاتی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/grant.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ کمک‌هزینه شیوه‌نامه فرصت تحقیقاتی",
-          "id": null
-        },
-        {
           "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/yazd-conf-report.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "نمونه فرم گزارش برگزاری همایش",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/yazd-evaluation.doc",
           "kind": "document",
-          "claim": "yazd-evaluation",
-          "id": "yazd-discovery-document-efc460a9a09a"
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/yazdk1.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ شماره (۱) فرم برگزاری همایش در دانشگاه",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/yazdk2.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ شماره (۲) فرم اعضای کمیته علمی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/foreign-guests.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ شماره (۱۰) فرم اطلاعات مورد نیاز جهت دعوت از میهمانان",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/foreign-visa.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ شماره (۱۱) فرم درخواست ویزا جهت دعوت از میهمانان",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/foreigners.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ شماره (۱۲) فرم مشخصات اتباع خارجی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/k1-english.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ شماره (۱۳) فرم انگلیسی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/isco-conf-report.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم مربوط به همایش برگزار شده در دانشگاه یزد توسط دبیر همایش",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/Conferenceprocess.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فلوچارت مراحل برگزاری همایش در دانشگاه یزد",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/publications/forms/Self-declaration.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم خوداظهاری کتاب",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/publications/forms/alef.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم داوری کتاب توسط گروه آموزشی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/sections/labs/forms/Proposal-Form.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "۱ فرم درخواست خرید تجهیزات",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/sections/labs/forms/propesal2.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "۲ فرم درخواست خرید تجهیزات جانبی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/sections/labs/forms/Request-Form.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "۳ فرم درخواست تعمیرات",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/sections/labs/forms/lab-equipments.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "۴ فرم اطلاعات تجهیزات آزمایشگاه",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/sections/labs/forms/lab-experts.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "۵ فرم اطلاعات کارشناسان آزمایشگاه",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/sections/labs/forms/shaa-form.xls",
-          "kind": "portal-document-reaudit-document",
-          "claim": "۶ فرم اطلاعات تجهیزات شاعایی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/sections/labs/forms/xrf-form.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "۷ فرم درخواست آنالیز نمونه به روش XRF",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/Tajhizat-form.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "۹ فرم پیشنهاد تأمین تجهیزات آزمایشگاهی/ کارگاهی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/Tamin-e-etebar.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "۱۰ فرم تأمین اعتبار خرید تجهیزات پژوهشی و آزمایشگاهی غیرمصرفی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/found-rules.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه اجرایی تاسیس واحدهای پژوهشی تقاضامحور",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/parsa.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه تامین اعتبار حمایت از پارسا تقاضامحور از اعتبار طرح‌های پژوهشی برون‌دانشگاهی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/score-research.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه امتیازدهی به طرح‌های پژوهشی برون‌دانشگاهی برای ارتقا / تغییر وضعیت اعضای هیأت علمی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/RFP.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم درخواست پیشنهادیه طرح پژوهشی (RFP)",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-report-form-2.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ارائه گزارش طرح پژوهشی کاربردی و درخواست پرداخت حق‌الزحمه",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/score2.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم اعطای امتیاز طرح پژوهشی کاربردی درون‌دانشگاهی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/Score-plans-form.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم اعطای امتیاز طرح‌های فناورانه",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/award.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم اعطای امتیاز پژوهشی طرح‌های برون‌دانشگاهی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/suggest-form.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم پیشنهاد طرح‌های پژوهشی راهبردی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/rules-msrt-1403.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل اجرایی پژوهانه جامع - ابلاغ وزارت علوم ۱۴۰۳",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/saramadan-1403.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه انتخاب سرآمدان پژوهشی اعضای هیأت علمی دانشگاه یزد",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/independent-researchers.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه ساماندهی پژوهشگران مستقل کشور",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/payesh-rules.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه ایجاد کمیته پایش و نظارت بر مأموریت‌های ویژه دانشگاه یزد در حوزه پژوهش",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/teory-rules-3.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه اجرایی کرسی‌های ترویجی هیئت حمایت از کرسی‌های نظریه‌پردازی، نقد و مناظره",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/teory-rules.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه اجرایی کرسی‌های نظریه‌پردازی، نوآوری نقد و ترویجی",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/db.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه تاسیس شرکت‌های دانشگاهی دانش‌بنیان دانشگاه یزد",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/karad.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه توسعه کار‌آفرینی در دانشگاه‌ها و مراکز آموزش عالی در کشور",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/Research-session.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه دوره‌های پژوهشی کوتاه‌مدت خارج از کشور",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/f6aeennameh.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه اجرایی شرکت در کارگاه‌های آموزشی خارج از کشور",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/f5aeennameh.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه اجرایی شرکت در گردهمایی علمی بین‌المللی خارج از کشور",
-          "id": null
+          "claim": "yazd-conf-report",
+          "id": "yazd-discovery-document-04ebecb8d222"
         },
         {
           "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/workflow.doc",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "گردش کار امور بعد از بازگشت از فرصت مطالعاتی",
-          "id": null
+          "id": "yazd-discovery-document-0a6353ac190d"
         },
         {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/workflow.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "گردش کار امور بعد از بازگشت از فرصت مطالعاتی",
-          "id": null
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/support.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه حمایت از پایان‌نامه‌ها و رساله‌های تحصیلات تکمیلی",
+          "id": "yazd-discovery-document-0ce3a88ed566"
         },
         {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-5.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ارسال گزارش سه‌ماهه فرصت مطالعاتی توسط عضو هیأت علمی، دانشکده/ گروه مستقل و پردیس/ دانشکده مستقل",
-          "id": null
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/Research-session.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه دوره‌های پژوهشی کوتاه‌مدت خارج از کشور",
+          "id": "yazd-discovery-document-12ad3842242a"
         },
         {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-5.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ارسال گزارش سه‌ماهه فرصت مطالعاتی توسط عضو هیأت علمی، دانشکده/ گروه مستقل و پردیس/ دانشکده مستقل",
-          "id": null
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/master/EPB001-1401.docx",
+          "kind": "document",
+          "claim": "کاربرگ درخواست تصویب پیشنهادیه پایان‌نامه ارشد EP/B001",
+          "id": "yazd-discovery-document-143f880c313f"
         },
         {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-6.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم گزارش فرصت مطالعاتی اعضای هیأت‌ علمی",
-          "id": null
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/RCM-Rules1401.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه مدیریت واحدهای پژوهشی دانشگاه",
+          "id": "yazd-discovery-document-14d430039c60"
         },
         {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-6.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم گزارش فرصت مطالعاتی اعضای هیأت‌ علمی",
-          "id": null
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/grant.doc",
+          "kind": "document",
+          "claim": "کاربرگ کمک‌هزینه شیوه‌نامه فرصت تحقیقاتی",
+          "id": "yazd-discovery-document-1889b791bc7c"
         },
         {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-7.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ارسال گزارش فرصت مطالعاتی اعضای هیأت علمی توسط دانشکده/ گروه مستقل",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-7.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ارسال گزارش فرصت مطالعاتی اعضای هیأت علمی توسط دانشکده/ گروه مستقل",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-8.doc",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ارسال گزارش فرصت مطالعاتی اعضای هیات علمی توسط پردیس/ دانشکده مستقل",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-8.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "فرم ارسال گزارش فرصت مطالعاتی اعضای هیات علمی توسط پردیس/ دانشکده مستقل",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/cost-grant-11-1403.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "دستورالعمل هزینه‌کرد پژوهانه اعضای هیأت علمی دانشگاه یزد",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/guide-grant-1403-2.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای هزینه‌کرد پژوهانه اعضای هیأت علمی دانشگاه یزد",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/cost-grant-1403.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "راهنمای ثبت سند هزینه در سیستم هزینه‌کرد پژوهانه",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/cost-rules.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه تعیین هزینه پردازش مقالات",
-          "id": null
-        },
-        {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/pub-rules-99.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه انتشارات",
-          "id": null
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/master/EPF004-03.pdf",
+          "kind": "document",
+          "claim": "کاربرگ ارزشیابی داوران از پایان‌نامه کارشناسی ارشد EP/F004",
+          "id": "yazd-discovery-document-196c2b0dae0b"
         },
         {
           "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/pub-yazd-rules-3.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "شیوه‌نامه نشریات علمی دانشگاه یزد",
-          "id": null
+          "id": "yazd-discovery-document-1994baf47947"
         },
         {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/publication-rules-98.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه نشریات علمی",
-          "id": null
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/sections/labs/forms/xrf-form.docx",
+          "kind": "document",
+          "claim": "۷ فرم درخواست آنالیز نمونه به روش XRF",
+          "id": "yazd-discovery-document-1cd517fbe144"
         },
         {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/eval-journals.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه ارزیابی و رتبه‌بندی نشریات",
-          "id": null
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/Tajhizat-form.docx",
+          "kind": "document",
+          "claim": "۹ فرم پیشنهاد تأمین تجهیزات آزمایشگاهی/ کارگاهی",
+          "id": "yazd-discovery-document-1d36cd2702a0"
         },
         {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/indexing-isc-rule.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه نمایه‌سازی استنادی نشریات علمی در ISC",
-          "id": null
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/suggest/EPF022.pdf",
+          "kind": "document",
+          "claim": "کاربرگ تقاضای تغییر عنوان پایان‌نامه قبل از جلسه دفاع",
+          "id": "yazd-discovery-document-209fb4e286f1"
         },
         {
-          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/encourage-rules.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه تشویق نشریات علمی نمایه‌شده در نمایه‌های بین‌المللی",
-          "id": null
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/proposal-grant1400.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه تخصیص امتیاز پژوهانه تدوین پروپوزال طرح‌های پژوهشی",
+          "id": "yazd-discovery-document-26ade771c0bd"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/sections/labs/forms/shaa-form.xls",
+          "kind": "document",
+          "claim": "۶ فرم اطلاعات تجهیزات شاعایی",
+          "id": "yazd-discovery-document-314d8bb74ec6"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/sections/labs/forms/lab-equipments.docx",
+          "kind": "document",
+          "claim": "۴ فرم اطلاعات تجهیزات آزمایشگاه",
+          "id": "yazd-discovery-document-325295590660"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/sections/labs/forms/Request-Form.docx",
+          "kind": "document",
+          "claim": "۳ فرم درخواست تعمیرات",
+          "id": "yazd-discovery-document-344bb63903f8"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/sections/labs/forms/Proposal-Form.docx",
+          "kind": "document",
+          "claim": "۱ فرم درخواست خرید تجهیزات",
+          "id": "yazd-discovery-document-34d6065b6ff9"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-6.pdf",
+          "kind": "document",
+          "claim": "فرم گزارش فرصت مطالعاتی اعضای هیأت‌ علمی",
+          "id": "yazd-discovery-document-3ab474c3b855"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/f6aeennameh.pdf",
+          "kind": "document",
+          "claim": "آیین‌نامه اجرایی شرکت در کارگاه‌های آموزشی خارج از کشور",
+          "id": "yazd-discovery-document-3b03b374aa98"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/publications/forms/form-talif94.doc",
+          "kind": "document",
+          "claim": "فرم‌های داوری کتاب توسط داور علمی (داوری کتب تالیفی)",
+          "id": "yazd-discovery-document-3b8722a06cef"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/foreigners.docx",
+          "kind": "document",
+          "claim": "foreigners",
+          "id": "yazd-discovery-document-412e658dc047"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/workflow.pdf",
+          "kind": "document",
+          "claim": "گردش کار امور بعد از بازگشت از فرصت مطالعاتی",
+          "id": "yazd-discovery-document-414ef2aa0cd8"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/parsa.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه تامین اعتبار حمایت از پارسا تقاضامحور از اعتبار طرح‌های پژوهشی برون‌دانشگاهی",
+          "id": "yazd-discovery-document-491f6b540cc1"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-7.pdf",
+          "kind": "document",
+          "claim": "فرم ارسال گزارش فرصت مطالعاتی اعضای هیأت علمی توسط دانشکده/ گروه مستقل",
+          "id": "yazd-discovery-document-4afe24350a21"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-8.pdf",
+          "kind": "document",
+          "claim": "فرم ارسال گزارش فرصت مطالعاتی اعضای هیات علمی توسط پردیس/ دانشکده مستقل",
+          "id": "yazd-discovery-document-4b4faffefcac"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/publications/forms/form-tarjome94.doc",
+          "kind": "document",
+          "claim": "فرم‌های داوری کتاب توسط داور علمی (داوری کتب ترجمه)",
+          "id": "yazd-discovery-document-4b76a8c2f219"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/guide-grant-1403-2.pdf",
+          "kind": "document",
+          "claim": "راهنمای هزینه‌کرد پژوهانه اعضای هیأت علمی دانشگاه یزد",
+          "id": "yazd-discovery-document-4d07e143bded"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/Score-plans-form.docx",
+          "kind": "document",
+          "claim": "فرم اعطای امتیاز طرح‌های فناورانه",
+          "id": "yazd-discovery-document-52e1e29a5115"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/Tamin-e-etebar.docx",
+          "kind": "document",
+          "claim": "۱۰ فرم تأمین اعتبار خرید تجهیزات پژوهشی و آزمایشگاهی غیرمصرفی",
+          "id": "yazd-discovery-document-60b89d16d4ca"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/teory-rules.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه اجرایی کرسی‌های نظریه‌پردازی، نوآوری نقد و ترویجی",
+          "id": "yazd-discovery-document-65b2376e7703"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/score-research.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه امتیازدهی به طرح‌های پژوهشی برون‌دانشگاهی برای ارتقا / تغییر وضعیت اعضای هیأت علمی",
+          "id": "yazd-discovery-document-6c1b2fba6695"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/cost-grant-11-1403.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل هزینه‌کرد پژوهانه اعضای هیأت علمی دانشگاه یزد",
+          "id": "yazd-discovery-document-6d598eb1eb88"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-5.pdf",
+          "kind": "document",
+          "claim": "فرم ارسال گزارش سه‌ماهه فرصت مطالعاتی توسط عضو هیأت علمی، دانشکده/ گروه مستقل و پردیس/ دانشکده مستقل",
+          "id": "yazd-discovery-document-6f07b766e944"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/independent-researchers.pdf",
+          "kind": "document",
+          "claim": "آیین‌نامه ساماندهی پژوهشگران مستقل کشور",
+          "id": "yazd-discovery-document-71fdcaacf6f5"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/k1-english.docx",
+          "kind": "document",
+          "claim": "k1-english",
+          "id": "yazd-discovery-document-7448d28080d5"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-8.doc",
+          "kind": "document",
+          "claim": "فرم ارسال گزارش فرصت مطالعاتی اعضای هیات علمی توسط پردیس/ دانشکده مستقل",
+          "id": "yazd-discovery-document-7ab6c210a804"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/yazdk2.docx",
+          "kind": "document",
+          "claim": "yazdk2",
+          "id": "yazd-discovery-document-7c98f135e61e"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/publications/forms/Self-declaration.doc",
+          "kind": "document",
+          "claim": "فرم خوداظهاری کتاب",
+          "id": "yazd-discovery-document-7e5117ff50b8"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/found-rules.pdf",
+          "kind": "document",
+          "claim": "آیین‌نامه اجرایی تاسیس واحدهای پژوهشی تقاضامحور",
+          "id": "yazd-discovery-document-80d61ba56b42"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/rules-1402.pdf",
+          "kind": "document",
+          "claim": "مجموعه آیین‌نامه و شیوه‌نامه‌های اجرایی وزارت علوم - سال ۱۴۰۲",
+          "id": "yazd-discovery-document-8e6b07032f4f"
         },
         {
           "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/publications/forms/conflict-author-form2.docx",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "فرم تعارض منافع نویسندگان",
-          "id": null
+          "id": "yazd-discovery-document-8e875ff9241d"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/award.docx",
+          "kind": "document",
+          "claim": "فرم اعطای امتیاز پژوهشی طرح‌های برون‌دانشگاهی",
+          "id": "yazd-discovery-document-8fbca1868a06"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/foreign-guests.docx",
+          "kind": "document",
+          "claim": "foreign-guests",
+          "id": "yazd-discovery-document-909087e0ab32"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/indexing-isc-rule.pdf",
+          "kind": "document",
+          "claim": "آیین‌نامه نمایه‌سازی استنادی نشریات علمی در ISC",
+          "id": "yazd-discovery-document-914921dd1fdf"
         },
         {
           "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/table-t.docx",
@@ -1888,16 +1067,112 @@
           "id": "yazd-discovery-document-922fd0fddcd7"
         },
         {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-5.doc",
+          "kind": "document",
+          "claim": "فرم ارسال گزارش سه‌ماهه فرصت مطالعاتی توسط عضو هیأت علمی، دانشکده/ گروه مستقل و پردیس/ دانشکده مستقل",
+          "id": "yazd-discovery-document-9b7dd60aeb7d"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/eval-journals.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه ارزیابی و رتبه‌بندی نشریات",
+          "id": "yazd-discovery-document-9b802e25a6d5"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/publication-rules-98.pdf",
+          "kind": "document",
+          "claim": "آیین‌نامه نشریات علمی",
+          "id": "yazd-discovery-document-9bfcb7397129"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/payesh-rules.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه ایجاد کمیته پایش و نظارت بر مأموریت‌های ویژه دانشگاه یزد در حوزه پژوهش",
+          "id": "yazd-discovery-document-9cd73b17a06c"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/flowchart-plans5.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه اجرایی طرح‌های پژوهشی کاربردی دانشگاه یزد",
+          "id": "yazd-discovery-document-a3233e7e2fc1"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/master/EPF011-1404.pdf",
+          "kind": "document",
+          "claim": "کاربرگ تایید اصلاحات پایان‌نامه دانشجویان کارشناسی ارشد EP/F011",
+          "id": "yazd-discovery-document-a6daad04d948"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/karad.pdf",
+          "kind": "document",
+          "claim": "آیین‌نامه توسعه کار‌آفرینی در دانشگاه‌ها و مراکز آموزش عالی در کشور",
+          "id": "yazd-discovery-document-a9191e7d21da"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-6.doc",
+          "kind": "document",
+          "claim": "فرم گزارش فرصت مطالعاتی اعضای هیأت‌ علمی",
+          "id": "yazd-discovery-document-aa52cda914b0"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-score-1404.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه اعطای امتیاز به انواع طرح‌های پژوهشی و فناوری مطابق با محموعه مقررات و رویه‌های داخلی هیأت ممیزه دانشگاه یزد (ویرایش تیرماه ۱۴۰۴)",
+          "id": "yazd-discovery-document-af019ae6bb5a"
+        },
+        {
           "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/yazdk4.docx",
           "kind": "document",
           "claim": "yazdk4",
           "id": "yazd-discovery-document-af07bfd85aea"
         },
         {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/support-score.pdf",
+          "kind": "document",
+          "claim": "کاربرگ اعطای نمره حمایت برون‌دانشگاهی از پایان‌نامه",
+          "id": "yazd-discovery-document-affb919525b5"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/Forms-Hasteh-Ghotb.docx",
+          "kind": "document",
+          "claim": "فرم‌های درخواست ایجاد هسته/ قطب علمی و مستندات مورد نیاز",
+          "id": "yazd-discovery-document-b1d8cdba6733"
+        },
+        {
           "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/yazdk3.docx",
           "kind": "document",
           "claim": "yazdk3",
           "id": "yazd-discovery-document-ba0fbc423da4"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/pub-rules-99.pdf",
+          "kind": "document",
+          "claim": "آیین‌نامه انتشارات",
+          "id": "yazd-discovery-document-bc283b263d25"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/cost-grant-1403.pdf",
+          "kind": "document",
+          "claim": "راهنمای ثبت سند هزینه در سیستم هزینه‌کرد پژوهانه",
+          "id": "yazd-discovery-document-be6c6e74a93f"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/Sabbatical-leave.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه‌های فرصت مطالعاتی داخل کشور و خارج از کشور اعضای هیأت علمی",
+          "id": "yazd-discovery-document-c19bd534aaf1"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/cost-rules.pdf",
+          "kind": "document",
+          "claim": "آیین‌نامه تعیین هزینه پردازش مقالات",
+          "id": "yazd-discovery-document-c2a30f99de78"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/rules-msrt-1403.pdf",
+          "kind": "document",
+          "claim": "دستورالعمل اجرایی پژوهانه جامع - ابلاغ وزارت علوم ۱۴۰۳",
+          "id": "yazd-discovery-document-c3d9edd485b8"
         },
         {
           "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/check%20list-ev.docx",
@@ -1912,14 +1187,158 @@
           "id": "yazd-discovery-document-c5b5811c1806"
         },
         {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/publications/forms/alef.doc",
+          "kind": "document",
+          "claim": "فرم داوری کتاب توسط گروه آموزشی",
+          "id": "yazd-discovery-document-c5dcc45cba8f"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/yazdk1.docx",
+          "kind": "document",
+          "claim": "yazdk1",
+          "id": "yazd-discovery-document-c7d6a1a83e9b"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/grant.pdf",
+          "kind": "document",
+          "claim": "کاربرگ کمک‌هزینه شیوه‌نامه فرصت تحقیقاتی",
+          "id": "yazd-discovery-document-c7de9ae2746e"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/isco-conf-report.docx",
+          "kind": "document",
+          "claim": "isco-conf-report",
+          "id": "yazd-discovery-document-c9fe29d1838b"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/suggest-form.docx",
+          "kind": "document",
+          "claim": "فرم پیشنهاد طرح‌های پژوهشی راهبردی",
+          "id": "yazd-discovery-document-cafb87e7d6c8"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/db.pdf",
+          "kind": "document",
+          "claim": "آیین‌نامه تاسیس شرکت‌های دانشگاهی دانش‌بنیان دانشگاه یزد",
+          "id": "yazd-discovery-document-cb866831098d"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/encourage-rules.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه تشویق نشریات علمی نمایه‌شده در نمایه‌های بین‌المللی",
+          "id": "yazd-discovery-document-ccff2c3e24fa"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/score2.docx",
+          "kind": "document",
+          "claim": "فرم اعطای امتیاز طرح پژوهشی کاربردی درون‌دانشگاهی",
+          "id": "yazd-discovery-document-d26a4377f756"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/foreign-visa.docx",
+          "kind": "document",
+          "claim": "foreign-visa",
+          "id": "yazd-discovery-document-d524dab5d189"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/sections/labs/forms/propesal2.docx",
+          "kind": "document",
+          "claim": "۲ فرم درخواست خرید تجهیزات جانبی",
+          "id": "yazd-discovery-document-da12b6125200"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/educational/deputy/graduate/forms/master/EPF011-1404.docx",
+          "kind": "document",
+          "claim": "کاربرگ تایید اصلاحات پایان‌نامه دانشجویان کارشناسی ارشد EP/F011",
+          "id": "yazd-discovery-document-e0792649c555"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/entrepreneurship/opportunities/opp-rules.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه فرصت مطالعاتی اعضای هیأت علمی در جامعه و صنعت",
+          "id": "yazd-discovery-document-e09938ee97fd"
+        },
+        {
           "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/yazdk5.docx",
           "kind": "document",
           "claim": "yazdk5",
           "id": "yazd-discovery-document-e285fb6c2561"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/sections/labs/forms/lab-experts.docx",
+          "kind": "document",
+          "claim": "۵ فرم اطلاعات کارشناسان آزمایشگاه",
+          "id": "yazd-discovery-document-e3da27959bf7"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-opp-7.doc",
+          "kind": "document",
+          "claim": "فرم ارسال گزارش فرصت مطالعاتی اعضای هیأت علمی توسط دانشکده/ گروه مستقل",
+          "id": "yazd-discovery-document-e4e45c10185e"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/f5aeennameh.pdf",
+          "kind": "document",
+          "claim": "آیین‌نامه اجرایی شرکت در گردهمایی علمی بین‌المللی خارج از کشور",
+          "id": "yazd-discovery-document-e900031ed41a"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/suggest-form-exterior.doc",
+          "kind": "document",
+          "claim": "فرم پیشنهادیه طرح پژوهشی برون‌دانشگاهی",
+          "id": "yazd-discovery-document-ea3c5ce0d673"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/deputy/technology/forms/membership-rules.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه عضویت هیأت علمی وابسته واحدهای پژوهشی",
+          "id": "yazd-discovery-document-eb6295883799"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/yazd-evaluation.doc",
+          "kind": "document",
+          "claim": "yazd-evaluation",
+          "id": "yazd-discovery-document-efc460a9a09a"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/res-report-form-2.doc",
+          "kind": "document",
+          "claim": "فرم ارائه گزارش طرح پژوهشی کاربردی و درخواست پرداخت حق‌الزحمه",
+          "id": "yazd-discovery-document-f293a6b2f381"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/thesis-accept%201401.docx",
+          "kind": "document",
+          "claim": "کاربرگ تأیید دانشکده برای مستخرج از پایان‌نامه بودن محصول فناورانه / شرکت",
+          "id": "yazd-discovery-document-f3f756515168"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/president/administration/international/conferences/forms/Conferenceprocess.pdf",
+          "kind": "document",
+          "claim": "Conferenceprocess",
+          "id": "yazd-discovery-document-f49fd1b636e4"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/saramadan-1403.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه انتخاب سرآمدان پژوهشی اعضای هیأت علمی دانشگاه یزد",
+          "id": "yazd-discovery-document-f86a3636a015"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/RFP.docx",
+          "kind": "document",
+          "claim": "فرم درخواست پیشنهادیه طرح پژوهشی (RFP)",
+          "id": "yazd-discovery-document-fbbfcf007493"
+        },
+        {
+          "url": "https://yazd.ac.ir/Upload/modules/files/documents/pages/offices/research/rules/teory-rules-3.pdf",
+          "kind": "document",
+          "claim": "شیوه‌نامه اجرایی کرسی‌های ترویجی هیئت حمایت از کرسی‌های نظریه‌پردازی، نقد و مناظره",
+          "id": "yazd-discovery-document-fdd49bbcd4a8"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
@@ -1950,9 +1369,9 @@
     "methodologyVersion": "RTPMI-4.2-ISC",
     "scoringPolicyVersion": "entity-cleaning-2.2-coverage-shrinkage-findability",
     "snapshotDate": "2026-08-14",
-    "rank": 19,
-    "portalRankWithinISCClass": 14,
-    "rankedPortalsInISCClass": 31
+    "rank": 24,
+    "portalRankWithinISCClass": 17,
+    "rankedPortalsInISCClass": 20
   },
   "units": [
     {

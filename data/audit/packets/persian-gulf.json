@@ -77,7 +77,7 @@
     ],
     "discoveryCrawler": {
       "lastRun": "2026-08-14",
-      "promotedSources": 118,
+      "promotedSources": 0,
       "socialEvidenceRemoved": true
     }
   },
@@ -145,11 +145,11 @@
       "organization": "observed-reference",
       "libraryDocuments": "verified",
       "laboratories": "unresolved",
-      "industryTechnology": "verified",
+      "industryTechnology": "observed-reference",
       "systemsServices": "unresolved",
       "documentsRegulations": "verified"
     },
-    "auditEvidenceCoverage": 64,
+    "auditEvidenceCoverage": 57,
     "unitsFound": 2,
     "systemsFound": 0,
     "documentsFound": 25,
@@ -388,10 +388,9 @@
         },
         {
           "url": "https://pgu.ac.ir/sites/default/files/1400-06/pgu_research_proposal__in_english-2020.docx",
-          "kind": "research-review-specific",
-          "claim": "الگوی نگارش پیشنهاده (پروپوزال) به زبان انگلیسی (برای پایان نامه و رساله دکتری دارای همکار بین المللی) آموزشی 1400-06-01",
-          "id": null,
-          "sourceLabel": "الگوی نگارش پیشنهاده (پروپوزال) به زبان انگلیسی (برای پایان نامه و رساله دکتری دارای همکار بین المللی) آموزشی 1400-06-01"
+          "kind": "portal-identity",
+          "claim": "official portal identity evidence",
+          "id": null
         },
         {
           "url": "https://pgu.ac.ir/sites/default/files/1400-03/pguthesismarkingform1397115.docx",
@@ -503,30 +502,12 @@
       "iscCategory": "جامع",
       "iscRank": 28,
       "dimension": "libraryDocuments",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 28,
+      "sourceCount": 4,
       "sources": [
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%b9%d8%b1%d8%b6-%d8%aa%d8%b3%d9%84%db%8c%d8%aa-%d8%a8%d9%87-%d8%b3%d8%b1%da%a9%d8%a7%d8%b1%d8%ae%d8%a7%d9%86%d9%85-%d8%af%da%a9%d8%aa%d8%b1-%d8%b7%d8%a7%d9%87%d8%b1%db%8c%d8%a7%d9%86%d8%8c-%d8%b1/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/fa/news/4875",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
         {
           "url": "https://lib.pgu.ac.ir/",
           "kind": "unit",
@@ -535,137 +516,11 @@
           "unitType": "library"
         },
         {
-          "url": "https://lib.pgu.ac.ir/%d8%a7%d8%b1%d8%b2%db%8c%d8%a7%d8%a8%db%8c-%da%a9%db%8c%d9%81%db%8c%d8%aa-%d8%ae%d8%af%d9%85%d8%a7%d8%aa-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d8%af%d8%a7/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%b1%d9%88%d9%86%d9%85%d8%a7%db%8c%db%8c-%da%a9%d8%aa%d8%a7%d8%a8%d9%87%d8%a7%db%8c-%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%ae%d9%84/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%a7%d8%b1%d8%a7%d8%a6%d9%87-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-%d8%ac%d8%af%db%8c%d8%af-%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa-%d9%85%d8%b1%da%a9%d8%b2-%d9%86%d8%b4%d8%b1-%d8%af%d8%a7%d9%86/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%a7%d9%86%d8%aa%d8%b4%d8%a7%d8%b1%d8%a7%d8%aa-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d9%81%d8%b1%d9%87%d9%86%da%af%db%8c%d8%a7%d9%86/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%b3%d8%a7%d8%b9%d8%a7%d8%aa-%da%a9%d8%a7%d8%b1%db%8c-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%aa%d8%b9%d8%b7%db%8c%d9%84%db%8c-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87-%d8%af%d8%b1-%d8%a7%db%8c%d8%a7%d9%85-%d8%aa%d8%a7%d8%a8%d8%b3%d8%aa%d8%a7%d9%86/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%a7%d9%88%d9%84%db%8c%d9%86-%d9%87%d9%85%d8%a7%db%8c%d8%b4-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d9%87%d9%85%d8%a7%db%8c%d8%b4-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87%e2%80%8c%d9%87/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
           "url": "https://lib.pgu.ac.ir/%d9%87%d9%85%d8%a7%db%8c%d8%b4-%d8%a8%db%8c%d9%86-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d9%85%d8%b1%da%a9%d8%b2%db%8c-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87/",
           "kind": "unit",
           "claim": "کتابخانه‌های عمومی و کسب و کارهای کوچک – کتابخانه دانشگاه خلیج فارس",
           "id": "persian-gulf-discovery-unit-library-c9be887bda67",
           "unitType": "library"
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%a2%db%8c%db%8c%d9%86-%d8%b1%d9%88%d9%86%d9%85%d8%a7%db%8c%db%8c-%d8%a7%d8%b2-%d9%88%d8%a8%d8%b3%d8%a7%db%8c%d8%aa-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d8%af/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d9%86%d8%ae%d8%b3%d8%aa%db%8c%d9%86-%d9%86%d8%b4%d8%b3%d8%aa-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d8%b4%d8%a8%da%a9%d9%87-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%e2%80%8c%d9%87%d8%a7%db%8c/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%d9%87%d8%a7%db%8c-%d8%b9%d9%85%d9%88%d9%85%db%8c-%d9%88-%da%a9%d8%b3%d8%a8-%d9%88-%da%a9%d8%a7%d8%b1%d9%87%d8%a7%db%8c-%da%a9%d9%88%da%86/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%da%af%d8%b1%d8%af%d9%87%d9%85%d8%a7%db%8c%db%8c-%d9%85%d8%af%db%8c%d8%b1%d8%a7%d9%86-%d9%88-%d9%85%d8%b9%d8%a7%d9%88%d9%86%d8%a7%d9%86-%da%a9%d8%aa%d8%a7%d8%a8%d8%ae%d8%a7%d9%86%d9%87%d9%87/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d9%85%d8%ac%d8%a7%d8%b2%db%8c-%d8%b2%d9%86%da%af-%d8%a7%db%8c%d8%b1%d8%a7%d9%86%d8%af%d8%a7%da%a9-%d8%a2%d8%b4%d9%86%d8%a7/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87%d9%87%d8%a7-%d9%88/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%a7%d8%ae%d8%aa%d9%84%d8%a7%d9%84-%d8%af%d8%b1-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d9%81%d8%a7%d8%b1%d8%b3%d9%be%db%8c%d9%be%d8%b1/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d9%81%d8%b9%d8%a7%d9%84%d8%b3%d8%a7%d8%b2%db%8c-%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1-%d8%af%d8%b1-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d9%87%d9%85%d8%a7%d9%86%d9%86%d8%af%d8%ac%d9%88-%d8%a8%d8%b1/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%da%af%db%8c%da%af%d8%a7%d9%84%db%8c%d8%a8-%d8%b3%d8%a7%d9%85%d8%a7%d9%86/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9-%d8%a8%d8%a7-%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87-%d8%ac%d8%a7%d9%85%d8%b9-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%a7%db%8c%d8%b1%d8%a7%d9%86%d8%8c-%d9%85%da%af/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%a7%d9%84%d8%b2%d8%a7%d9%85%d8%a7%d8%aa-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%a7%d9%84%da%a9%d8%aa%d8%b1%d9%88%d9%86%db%8c%da%a9%db%8c/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d9%85%d8%b9%d8%b1%d9%81%db%8c-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%b9%d9%84%d9%85-%d9%88-%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%81%d8%b1%d8%a7%d8%ae/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%af%d9%88%d9%85%db%8c%d9%86-%d9%86%d8%b4%d8%b3%d8%aa-%d8%aa%d8%ae%d8%b5%d8%b5%db%8c-%d9%88%db%8c%da%98%d9%87-%d8%b3%d8%b1%d8%af%d8%a8%db%8c%d8%b1%d8%a7%d9%86-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific libraryDocuments source",
-          "id": null
         },
         {
           "url": "https://pgu.ac.ir/sites/default/files/1399-12/%D8%B4%D9%8A%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D9%86%D8%B4%D8%B1_%DA%A9%D8%AA%D8%A8_%D8%B9%D9%84%D9%85%D9%8A_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D8%AE%D9%84%D9%8A%D8%AC_%D9%81%D8%A7%D8%B1%D8%B3.pdf",
@@ -681,7 +536,7 @@
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -708,42 +563,22 @@
       "iscCategory": "جامع",
       "iscRank": 28,
       "dimension": "industryTechnology",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 4,
+      "sourceCount": 1,
       "sources": [
-        {
-          "url": "https://pgu.ac.ir/fa/news/4954",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific industryTechnology source",
-          "id": null
-        },
         {
           "url": "https://pgu.ac.ir/fa/researchdeputy",
           "kind": "research-review-specific",
           "claim": "پرتال پژوهش و فناوری 1",
           "id": null,
           "sourceLabel": "پرتال پژوهش و فناوری 1"
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1400-03/%E2%80%8E%E2%81%A8%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%87%D8%A7_%D9%88_%D9%81%D8%B1%D9%85_%D9%87%D8%A7%DB%8C_%D8%A7%D8%AF%D8%A7%D8%B1%D9%87_%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA%E2%81%A9.zip",
-          "kind": "research-review-specific",
-          "claim": "آیین‌نامه‌ها و فرمهای اداره انتشارات (کتاب و مجله) پژوهشی 1400-03-04",
-          "id": null,
-          "sourceLabel": "آیین‌نامه‌ها و فرمهای اداره انتشارات (کتاب و مجله) پژوهشی 1400-03-04"
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1399-12/malekiat_fekri.pdf",
-          "kind": "research-review-specific",
-          "claim": "آیین نامه مالکیت فکری پژوهشی 1399-12-09",
-          "id": null,
-          "sourceLabel": "آیین نامه مالکیت فکری پژوهشی 1399-12-09"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -753,78 +588,14 @@
       "iscCategory": "جامع",
       "iscRank": 28,
       "dimension": "systemsServices",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 9,
-      "sources": [
-        {
-          "url": "https://lib.pgu.ac.ir/%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d9%85%d8%ac%d8%a7%d8%b2%db%8c-%d8%b2%d9%86%da%af-%d8%a7%db%8c%d8%b1%d8%a7%d9%86%d8%af%d8%a7%da%a9-%d8%a2%d8%b4%d9%86%d8%a7/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%da%a9%d8%a7%d8%b1%da%af%d8%a7%d9%87-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87%d9%87%d8%a7-%d9%88/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%a7%d8%ae%d8%aa%d9%84%d8%a7%d9%84-%d8%af%d8%b1-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d9%81%d8%a7%d8%b1%d8%b3%d9%be%db%8c%d9%be%d8%b1/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d9%81%d8%b9%d8%a7%d9%84%d8%b3%d8%a7%d8%b2%db%8c-%d8%a7%d8%b9%d8%aa%d8%a8%d8%a7%d8%b1-%d8%af%d8%b1-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%d9%87%d9%85%d8%a7%d9%86%d9%86%d8%af%d8%ac%d9%88-%d8%a8%d8%b1/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d9%88%d8%a8%db%8c%d9%86%d8%a7%d8%b1-%d8%a2%d8%b4%d9%86%d8%a7%db%8c%db%8c-%d8%a8%d8%a7-%d8%b3%d8%a7%d9%85%d8%a7%d9%86%d9%87-%da%af%db%8c%da%af%d8%a7%d9%84%db%8c%d8%a8-%d8%b3%d8%a7%d9%85%d8%a7%d9%86/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%a7%d8%b4%d8%aa%d8%b1%d8%a7%da%a9-%d8%a8%d8%a7-%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87-%d8%ac%d8%a7%d9%85%d8%b9-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%a7%db%8c%d8%b1%d8%a7%d9%86%d8%8c-%d9%85%da%af/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%a7%d9%84%d8%b2%d8%a7%d9%85%d8%a7%d8%aa-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%a7%d9%84%da%a9%d8%aa%d8%b1%d9%88%d9%86%db%8c%da%a9%db%8c/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d9%85%d8%b9%d8%b1%d9%81%db%8c-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%b9%d9%84%d9%85-%d9%88-%d9%81%d8%b1%d9%87%d9%86%da%af-%d9%88-%d9%81%d8%b1%d8%a7%d8%ae/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%af%d9%88%d9%85%db%8c%d9%86-%d9%86%d8%b4%d8%b3%d8%aa-%d8%aa%d8%ae%d8%b5%d8%b5%db%8c-%d9%88%db%8c%da%98%d9%87-%d8%b3%d8%b1%d8%af%d8%a8%db%8c%d8%b1%d8%a7%d9%86-%d9%86%d8%b4%d8%b1%db%8c%d8%a7%d8%aa/",
-          "kind": "research-review-specific",
-          "claim": "سامانه‌ها و خدمات — کشف خودکار",
-          "id": null,
-          "sourceLabel": "سامانه‌ها و خدمات — کشف خودکار"
-        }
-      ],
+      "sourceCount": 0,
+      "sources": [],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     },
     {
@@ -834,207 +605,165 @@
       "iscCategory": "جامع",
       "iscRank": 28,
       "dimension": "documentsRegulations",
-      "status": "verified",
-      "reportedStatus": "verified",
-      "reviewOutcome": "evidence-confirmed",
+      "status": "unresolved",
+      "reportedStatus": "unresolved",
+      "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 32,
+      "sourceCount": 25,
       "sources": [
         {
-          "url": "https://pgu.ac.ir/fa/documents",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%a2%db%8c%db%8c%d9%86%e2%80%8c%d9%86%d8%a7%d9%85%d9%87%e2%80%8c%d9%87%d8%a7-%d9%88-%d8%af%d8%b3%d8%aa%d9%88%d8%b1%d8%a7%d9%84%d8%b9%d9%85%d9%84%e2%80%8c%d9%87%d8%a7/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d8%ac%d8%b3%d8%aa%d8%ac%d9%88%db%8c-%d9%85%d9%86%d8%a7%d8%a8%d8%b9/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%d9%87%d8%a7%db%8c-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d9%81%db%8c%d9%84%d9%85-%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d8%ac%d8%b3%d8%aa%d8%ac%d9%88-%d8%af%d8%b1-%d9%be%d8%a7%db%8c%da%af%d8%a7%d9%87-%d8%a7%d8%b7%d9%84%d8%a7%d8%b9%d8%a7%d8%aa%db%8c-ri/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d8%a2%d9%85%d9%88%d8%b2%d8%b4%db%8c-%d9%86%d8%b1%d9%85%d8%a7%d9%81%d8%b2%d8%a7%d8%b1%d9%87%d8%a7%db%8c-%da%a9%d8%a7%d8%b1%d8%a8%d8%b1%d8%af%db%8c/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://lib.pgu.ac.ir/request-printedbooks/",
-          "kind": "portal-document-reaudit",
-          "claim": "dimension-specific documentsRegulations source",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1400-10/pgu_thesis_template_1399-08-05.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "الگوی نگارش پارسا (پایان نامه و رساله) به زبان انگلیسی (برای پایان نامه و رساله دکتری دارای همکار بین المللی) آموزشی 1400-10-14",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1400-06/pgu_research_proposal__in_english-2020.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "الگوی نگارش پیشنهاده (پروپوزال) به زبان انگلیسی (برای پایان نامه و رساله دکتری دارای همکار بین المللی) آموزشی 1400-06-01",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1400-03/pguthesismarkingform1397115.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "کاربرگ ارزشیابی و نمره دهی پایان ‏نامه و رساله آموزشی 1400-03-04",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1404-03/%D8%A2%D9%8A%D9%8A%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%B3%D9%87%D9%85%D9%8A%D9%87%20%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%D9%8A%D9%8A%20%D9%BE%D8%A7%D8%B1%D8%B3%D8%A7%D9%87%D8%A7-%D9%85%D8%B5%D9%88%D8%A8%D9%87%2098.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آيين نامه سهميه راهنمايي پارساها-مصوبه 98 پژوهشی 1404-03-31",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1400-10/%D8%A7%D9%84%DA%AF%D9%88%D9%8A_%D9%86%DA%AF%D8%A7%D8%B1%D8%B4_%D9%BE%D8%A7%D8%B1%D8%B3%D8%A7-9-8-99.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "الگوی نگارش پارسا (پایان نامه و رساله) به زبان پارسی آموزشی 1400-10-14",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1400-03/pgu-proposalinpersian.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "الگوی پیشنهاده پایان نامه / رساله آموزشی 1400-03-04",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1400-03/1_400_97_forsat.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه فرصت مطالعاتی دانشجویان دکتری (وزارتی) آموزشی 1400-03-04",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1400-03/%E2%80%8E%E2%81%A8%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%87%D8%A7_%D9%88_%D9%81%D8%B1%D9%85_%D9%87%D8%A7%DB%8C_%D8%A7%D8%AF%D8%A7%D8%B1%D9%87_%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA%E2%81%A9.zip",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین‌نامه‌ها و فرمهای اداره انتشارات (کتاب و مجله) پژوهشی 1400-03-04",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1399-12/forsat-2.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه فرصت مطالعاتی پژوهشی 1399-12-09",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1399-12/forsat_motaleati.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه اعزام و پذیرش درخواست فرصت مطالعاتی دانشجویان دکتری پژوهشی 1399-12-09",
-          "id": null
-        },
-        {
           "url": "https://pgu.ac.ir/sites/default/files/1399-12/malekiat_fekri.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "آیین نامه مالکیت فکری پژوهشی 1399-12-09",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1399-12/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AE%D9%84%DB%8C%D8%AC%20%D9%81%D8%A7%D8%B1%D8%B3.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه پژوهانه دانشگاه خلیج فارس پژوهشی 1399-12-09",
-          "id": null
-        },
-        {
-          "url": "https://irandoc.ac.ir/",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه‌نامه‌های استناددهی",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1400-03/1_283_51_doctoral-proposal-form.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "پیشنهاده طرح پژوهشی درون دانشگاهی رساله دکتری پژوهشی 1400-03-04",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1399-12/%D8%B4%D9%8A%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D9%86%D8%B4%D8%B1_%DA%A9%D8%AA%D8%A8_%D8%B9%D9%84%D9%85%D9%8A_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D8%AE%D9%84%D9%8A%D8%AC_%D9%81%D8%A7%D8%B1%D8%B3.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه نشر کتب علمی دانشگاه خلیج فارس پژوهشی 1399-12-11",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1399-12/postdoc.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه دوره پسا دکترا پژوهشی 1399-12-09",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1399-12/shivenameh.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "شیوه نامه استقرار و اجاره بها پژوهشی 1399-12-09",
-          "id": null
-        },
-        {
-          "url": "https://pgu.ac.ir/sites/default/files/1399-12/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B1%D8%B2%D8%B4%DB%8C%D8%A7%D8%A8%DB%8C%20%D8%B9%D9%85%D9%84_%DA%A9%D8%B1%D8%AF%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%20v3.0.pdf",
-          "kind": "portal-document-reaudit-document",
-          "claim": "آیین نامه ارزشیابی عملکرد پژوهشی و فناوری اعضای هیأت علمی دانشگاه خلیج فارس پژوهشی 1399-12-09",
-          "id": null
+          "id": "persian-gulf-discovery-document-05afacddcb43"
         },
         {
           "url": "https://pgu.ac.ir/sites/default/files/1401-04/%D8%B4%D9%8A%D9%88%D9%87%20%D9%86%D8%A7%D9%85%D9%87%20%D9%81%D8%B1%D8%B5%D8%AA%20%D9%85%D8%B7%D8%A7%D9%84%D8%B9%D8%A7%D8%AA%D9%8A%20%D8%AF%D8%B1%20%D8%B5%D9%86%D8%B9%D8%AA.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "شوه نامه فرصت مطالعاتی در صنعت و جامعه جذب 1401-04-08",
-          "id": null
+          "id": "persian-gulf-discovery-document-1678d9987be6"
         },
         {
-          "url": "https://pgu.ac.ir/sites/default/files/1400-03/1_283_67_university-proposal-form.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "پیشنهاده طرح پژوهشی درون دانشگاهی دانشگاه‌پژوهی پژوهشی 1400-03-04",
-          "id": null
+          "url": "https://pgu.ac.ir/sites/default/files/1399-12/%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87%20%D8%A7%D8%B1%D8%B2%D8%B4%DB%8C%D8%A7%D8%A8%DB%8C%20%D8%B9%D9%85%D9%84_%DA%A9%D8%B1%D8%AF%20%D9%BE%DA%98%D9%88%D9%87%D8%B4%DB%8C%20%D9%88%20%D9%81%D9%86%D8%A7%D9%88%D8%B1%DB%8C%20%20v3.0.pdf",
+          "kind": "document",
+          "claim": "آیین نامه ارزشیابی عملکرد پژوهشی و فناوری اعضای هیأت علمی دانشگاه خلیج فارس پژوهشی 1399-12-09",
+          "id": "persian-gulf-discovery-document-19ab92ab25c7"
         },
         {
           "url": "https://pgu.ac.ir/sites/default/files/1400-03/1_283_2_international-proposal-form.docx",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "پیشنهاده طرح پژوهشی بین المللی پژوهشی 1400-03-04",
-          "id": null
+          "id": "persian-gulf-discovery-document-1da25861653d"
+        },
+        {
+          "url": "https://irandoc.ac.ir/",
+          "kind": "document",
+          "claim": "شیوه‌نامه‌های استناددهی",
+          "id": "persian-gulf-discovery-document-2256a0d07bcb"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1399-12/%D8%B4%D9%8A%D9%88%D9%87_%D9%86%D8%A7%D9%85%D9%87_%D9%86%D8%B4%D8%B1_%DA%A9%D8%AA%D8%A8_%D8%B9%D9%84%D9%85%D9%8A_%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87_%D8%AE%D9%84%D9%8A%D8%AC_%D9%81%D8%A7%D8%B1%D8%B3.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه نشر کتب علمی دانشگاه خلیج فارس پژوهشی 1399-12-11",
+          "id": "persian-gulf-discovery-document-2cbf9201734b"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1399-12/shivenameh.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه استقرار و اجاره بها پژوهشی 1399-12-09",
+          "id": "persian-gulf-discovery-document-2cd5a9b2eee1"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1399-12/forsat-2.pdf",
+          "kind": "document",
+          "claim": "آیین نامه فرصت مطالعاتی پژوهشی 1399-12-09",
+          "id": "persian-gulf-discovery-document-2deadea54d8e"
         },
         {
           "url": "https://pgu.ac.ir/sites/default/files/1400-03/post_doc-proposal-form.docx",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "پیشنهاده طرح پژوهشی درون دانشگاهی پسادکتری پژوهشی 1400-03-04",
-          "id": null
+          "id": "persian-gulf-discovery-document-2e5ab6947b1f"
         },
         {
-          "url": "https://pgu.ac.ir/sites/default/files/1400-03/1_283_17_tech-dev-proposal-form.docx",
-          "kind": "portal-document-reaudit-document",
-          "claim": "پیشنهاد طرح پژوهشی درون دانشگاهی فناورانه پژوهشی 1400-03-04",
-          "id": null
+          "url": "https://pgu.ac.ir/sites/default/files/1400-03/1_400_97_forsat.pdf",
+          "kind": "document",
+          "claim": "آیین نامه فرصت مطالعاتی دانشجویان دکتری (وزارتی) آموزشی 1400-03-04",
+          "id": "persian-gulf-discovery-document-2f0098d351c2"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1399-12/%D8%A2%DB%8C%DB%8C%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D9%BE%DA%98%D9%88%D9%87%D8%A7%D9%86%D9%87%20%D8%AF%D8%A7%D9%86%D8%B4%DA%AF%D8%A7%D9%87%20%D8%AE%D9%84%DB%8C%D8%AC%20%D9%81%D8%A7%D8%B1%D8%B3.pdf",
+          "kind": "document",
+          "claim": "آیین نامه پژوهانه دانشگاه خلیج فارس پژوهشی 1399-12-09",
+          "id": "persian-gulf-discovery-document-490bb480d7c1"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1400-03/pgu-proposalinpersian.docx",
+          "kind": "document",
+          "claim": "الگوی پیشنهاده پایان نامه / رساله آموزشی 1400-03-04",
+          "id": "persian-gulf-discovery-document-559137267061"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1400-10/%D8%A7%D9%84%DA%AF%D9%88%D9%8A_%D9%86%DA%AF%D8%A7%D8%B1%D8%B4_%D9%BE%D8%A7%D8%B1%D8%B3%D8%A7-9-8-99.docx",
+          "kind": "document",
+          "claim": "الگوی نگارش پارسا (پایان نامه و رساله) به زبان پارسی آموزشی 1400-10-14",
+          "id": "persian-gulf-discovery-document-736e83a45492"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1400-03/1_283_67_university-proposal-form.docx",
+          "kind": "document",
+          "claim": "پیشنهاده طرح پژوهشی درون دانشگاهی دانشگاه‌پژوهی پژوهشی 1400-03-04",
+          "id": "persian-gulf-discovery-document-82b209b96e9d"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1400-06/pgu_research_proposal__in_english-2020.docx",
+          "kind": "document",
+          "claim": "الگوی نگارش پیشنهاده (پروپوزال) به زبان انگلیسی (برای پایان نامه و رساله دکتری دارای همکار بین المللی) آموزشی 1400-06-01",
+          "id": "persian-gulf-discovery-document-8ed94c5d6bee"
         },
         {
           "url": "https://pgu.ac.ir/sites/default/files/1400-03/persian_gulf-proposal-form.docx",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "پیشنهاد طرح پژوهشی درون دانشگاهی خلیج فارس پژوهی پژوهشی 1400-03-04",
-          "id": null
+          "id": "persian-gulf-discovery-document-a12148e1ce07"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1400-10/pgu_thesis_template_1399-08-05.docx",
+          "kind": "document",
+          "claim": "الگوی نگارش پارسا (پایان نامه و رساله) به زبان انگلیسی (برای پایان نامه و رساله دکتری دارای همکار بین المللی) آموزشی 1400-10-14",
+          "id": "persian-gulf-discovery-document-a346bd456382"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1400-03/1_283_51_doctoral-proposal-form.docx",
+          "kind": "document",
+          "claim": "پیشنهاده طرح پژوهشی درون دانشگاهی رساله دکتری پژوهشی 1400-03-04",
+          "id": "persian-gulf-discovery-document-ab4ead95b845"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1404-03/%D8%A2%D9%8A%D9%8A%D9%86%20%D9%86%D8%A7%D9%85%D9%87%20%D8%B3%D9%87%D9%85%D9%8A%D9%87%20%D8%B1%D8%A7%D9%87%D9%86%D9%85%D8%A7%D9%8A%D9%8A%20%D9%BE%D8%A7%D8%B1%D8%B3%D8%A7%D9%87%D8%A7-%D9%85%D8%B5%D9%88%D8%A8%D9%87%2098.pdf",
+          "kind": "document",
+          "claim": "آيين نامه سهميه راهنمايي پارساها-مصوبه 98 پژوهشی 1404-03-31",
+          "id": "persian-gulf-discovery-document-c1d6d19ff049"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1400-03/%E2%80%8E%E2%81%A8%D8%A2%DB%8C%DB%8C%D9%86_%D9%86%D8%A7%D9%85%D9%87_%D9%87%D8%A7_%D9%88_%D9%81%D8%B1%D9%85_%D9%87%D8%A7%DB%8C_%D8%A7%D8%AF%D8%A7%D8%B1%D9%87_%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA%E2%81%A9.zip",
+          "kind": "document",
+          "claim": "آیین‌نامه‌ها و فرمهای اداره انتشارات (کتاب و مجله) پژوهشی 1400-03-04",
+          "id": "persian-gulf-discovery-document-caf2e2a06321"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1399-12/postdoc.pdf",
+          "kind": "document",
+          "claim": "آیین نامه دوره پسا دکترا پژوهشی 1399-12-09",
+          "id": "persian-gulf-discovery-document-d3511a941a84"
         },
         {
           "url": "https://pgu.ac.ir/sites/default/files/1402-03/%D8%B9%D8%AF%D9%85%20%D8%A7%D9%84%D8%B2%D8%A7%D9%85%20%D8%A8%D9%87%20%DA%AF%D8%B0%D8%B1%D8%A7%D9%86%D8%AF%D9%86%20%D8%B7%D8%B1%D8%AD%20%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7%20%D8%A8%D8%A7%20%D8%B5%D9%86%D8%B9%D8%AA%20%D8%AA%D8%A7%20%D9%BE%D8%A7%D9%8A%D8%A7%D9%86%201402.pdf",
-          "kind": "portal-document-reaudit-document",
+          "kind": "document",
           "claim": "عدم الزام به گذراندن طرح ارتباط با جامعه و صنعت تا پایان سال 1402 جذب 1402-03-03",
-          "id": null
+          "id": "persian-gulf-discovery-document-db0a52bd53bf"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1399-12/forsat_motaleati.pdf",
+          "kind": "document",
+          "claim": "شیوه نامه اعزام و پذیرش درخواست فرصت مطالعاتی دانشجویان دکتری پژوهشی 1399-12-09",
+          "id": "persian-gulf-discovery-document-e2691adbe4e7"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1400-03/pguthesismarkingform1397115.docx",
+          "kind": "document",
+          "claim": "کاربرگ ارزشیابی و نمره دهی پایان ‏نامه و رساله آموزشی 1400-03-04",
+          "id": "persian-gulf-discovery-document-e775724700cc"
+        },
+        {
+          "url": "https://pgu.ac.ir/sites/default/files/1400-03/1_283_17_tech-dev-proposal-form.docx",
+          "kind": "document",
+          "claim": "پیشنهاد طرح پژوهشی درون دانشگاهی فناورانه پژوهشی 1400-03-04",
+          "id": "persian-gulf-discovery-document-f1b72b00c6b2"
         }
       ],
       "publicationAdjustment": null,
-      "verificationBasis": "Dimension-specific evidence is registered on an official public surface.",
+      "verificationBasis": "No sufficient public evidence was resolved in this snapshot; this is not proof of absence.",
       "missingDataRule": "Unresolved is not absence and is never automatically scored as zero."
     }
   ],
