@@ -1,4 +1,4 @@
-name: National Research Discovery & Evidence Monitor
+name: National Research Discovery & Evidence Monitor v14
 
 on:
   workflow_dispatch:
@@ -16,54 +16,37 @@ jobs:
   audit:
     runs-on: [self-hosted, windows, iran-crawler]
 
-    # Checkpoint/resume means even if this eventually times out,
-    # the next run continues from completed universities.
+    # A crawl may need more than one run. Completed universities are checkpointed
+    # and the next run resumes instead of starting over.
     timeout-minutes: 360
 
     env:
-      CRAWL_MAX_DEPTH: "6"
+      CRAWL_MAX_DEPTH: "8"
+      CRAWL_MAX_PAGES_PER_UNIVERSITY: "200"
+      CRAWL_MAX_PAGES_PER_HUB: "60"
+      CRAWL_MAX_RESEARCH_HUBS: "24"
+      CRAWL_MAX_DOCUMENTS_PER_UNIVERSITY: "250"
 
-      CRAWL_MAX_PAGES_PER_UNIVERSITY: "90"
-
-      CRAWL_MAX_PAGES_PER_HUB: "35"
-
-      CRAWL_MAX_RESEARCH_HUBS: "12"
-
-      CRAWL_MAX_DOCUMENTS_PER_UNIVERSITY: "100"
-
-      CRAWL_PAGE_TIMEOUT_MS: "12000"
-
-      CRAWL_DOCUMENT_TIMEOUT_MS: "15000"
-
-      CRAWL_BROWSER_TIMEOUT_MS: "25000"
+      CRAWL_PAGE_TIMEOUT_MS: "15000"
+      CRAWL_DOCUMENT_TIMEOUT_MS: "20000"
+      CRAWL_BROWSER_TIMEOUT_MS: "45000"
+      CRAWL_BROWSER_CLICK_BUDGET: "6"
+      CRAWL_BROWSER_CLICK_WAIT_MS: "900"
+      CRAWL_BROWSER_ACTION_LOG_LIMIT: "240"
 
       CRAWL_PAGE_CONCURRENCY: "3"
-
       CRAWL_UNIVERSITY_CONCURRENCY: "3"
-
       CRAWL_USE_BROWSER_FALLBACK: "1"
 
-      # =====================================================
-      # CHECKPOINT / RESUME
-      # =====================================================
-
-      # 30 minutes = 1,800,000 ms
+      # 30-minute checkpoint/resume. The crawler commits ONLY completed-university
+      # checkpoint files during an incomplete cycle.
       CRAWL_CHECKPOINT_INTERVAL_MS: "1800000"
-
       CRAWL_CHECKPOINT_DIR: "data/crawl-checkpoints"
-
-      # Allow crawler to commit/push checkpoint state.
       CRAWL_CHECKPOINT_PUSH: "1"
-
-      # Keep this at 0 normally.
-      # Set to 1 only when you intentionally want to discard
-      # an unfinished crawl and start all 115 again.
       CRAWL_CHECKPOINT_RESET: "0"
 
       DISCOVERY_PROMOTE_CONFIDENCE: "0.78"
-
       PIPELINE_ARTIFACT_ROOT: "C:\\actions-runner\\_pipeline-artifacts"
-
       PIPELINE_WORK_ROOT: "C:\\actions-runner\\_pipeline-work"
 
     steps:
@@ -90,29 +73,24 @@ jobs:
           $date = (Get-Date).ToUniversalTime().ToString("yyyy-MM-dd")
           "PIPELINE_SNAPSHOT_DATE=$date" >> $env:GITHUB_ENV
 
+      - name: Verify v14 crawler source transformation
+        shell: cmd
+        run: node scripts/test-crawler-v14.mjs
+
       - name: Clean legacy downloaded document archive
         shell: cmd
         run: |
           @echo off
-
-          echo ==========================================
-          echo Cleaning old crawler document archive
-          echo ==========================================
-
           if exist "C:\actions-runner\_research-documents" (
-            echo Removing C:\actions-runner\_research-documents ...
             rmdir /s /q "C:\actions-runner\_research-documents"
-          ) else (
-            echo No legacy document archive found.
+          )
+          if exist "scripts\.deep-crawl-research-v14-runtime.mjs" (
+            del /q "scripts\.deep-crawl-research-v14-runtime.mjs"
           )
 
-          echo.
-          echo Cleanup completed.
-          echo.
-          echo Current C drive status:
-          dir C:\
-
-      - name: Sanitize and rebuild current published evidence
+      # Keep the same safety rule as before: do not crawl on top of an invalid
+      # published baseline.
+      - name: Sanitize and validate current published evidence
         shell: cmd
         run: |
           npm run prepare:data
@@ -124,66 +102,51 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add data public/datasets
-
           git diff --cached --quiet || git commit -m "chore(data): sanitize published evidence"
-
           git pull --rebase origin main
           git push origin HEAD:main
 
-      - name: Deep crawl official research portals with checkpoint resume
+      - name: Deep crawl official research portals v14 with checkpoint resume
         shell: cmd
-        run: npm run discover:research
+        run: node scripts/deep-crawl-research-v14.mjs
 
-      # These steps run ONLY after all 115 universities have
-      # completed checkpoints.
-      - name: Promote discovery and rebuild evidence datasets
+      # This runs only after all 115 university checkpoints exist.
+      - name: Validate raw v14 discovery outputs
+        shell: cmd
+        run: node scripts/validate-crawler-v14.mjs
+
+      - name: Promote discovery, clean entities and rebuild evidence
         shell: cmd
         run: npm run prepare:data
 
       - name: Validate promoted datasets
         shell: cmd
-        run: npm run validate:data
-
-      - name: Enforce no social evidence
-        shell: cmd
-        run: npm run validate:no-social
+        run: |
+          npm run validate:data
+          npm run validate:entities
+          npm run validate:no-social
 
       - name: Monitor published evidence links
         shell: cmd
         run: npm run monitor:links
 
-      # Checkpoints are useful only while a crawl cycle is incomplete.
-      #
-      # Delete them only after the full crawl + promotion + validation
-      # + link monitoring have all succeeded.
-      #
-      # If anything above fails, this step never runs and the next
-      # workflow resumes from the saved checkpoints.
+      # Delete checkpoints only after 115/115 crawl + promotion + validation +
+      # monitoring all succeed. Failed runs retain checkpoints for the next run.
       - name: Remove completed crawl checkpoints
         shell: cmd
         run: |
           @echo off
-
           if exist "data\crawl-checkpoints" (
-            echo Crawl completed successfully.
-            echo Removing checkpoint state before final publication...
-
             rmdir /s /q "data\crawl-checkpoints"
-          ) else (
-            echo No checkpoint directory found.
           )
 
-      - name: Commit deep crawler results
+      - name: Commit completed v14 crawl results
         shell: cmd
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add -A data public/datasets
-
-          git diff --cached --quiet || git commit -m "chore(crawl): publish completed multi-hub research evidence"
-
+          git diff --cached --quiet || git commit -m "chore(crawl): publish v14 research evidence"
           git pull --rebase origin main
           git push origin HEAD:main
