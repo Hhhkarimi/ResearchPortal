@@ -91,6 +91,7 @@ commands = [
   ["node", "scripts/normalize-public-data.mjs"],
   ["node", "scripts/filter-research-documents.mjs"],
   ["node", "scripts/clean-entity-catalogs.mjs"],
+  ["node", "scripts/normalize-external-reference-ownership.mjs"],
   ["node", "scripts/normalize-reaudit-portal-roots.mjs"],
   ["node", "scripts/stabilize-catalog-ids.mjs"],
 ]
