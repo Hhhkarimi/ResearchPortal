@@ -800,7 +800,7 @@
       "reportedStatus": "unresolved",
       "reviewOutcome": "no-public-evidence-resolved",
       "reviewedAt": "2026-08-14",
-      "sourceCount": 20,
+      "sourceCount": 18,
       "sources": [
         {
           "url": "https://industry.lu.ac.ir/%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA/%DA%AF%D8%B1%D9%88%D9%87%D9%87%D8%A7%DB%8C-%D8%B2%DB%8C%D8%B1-%D9%85%D8%AC%D9%85%D9%88%D8%B9%D9%87/%DA%AF%D8%B1%D9%88%D9%87-%D8%A7%D8%B1%D8%AA%D8%A8%D8%A7%D8%B7-%D8%A8%D8%A7-%D8%B5%D9%86%D8%B9%D8%AA/",
@@ -817,18 +817,18 @@
           "unitType": "industry"
         },
         {
-          "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/",
-          "kind": "unit",
-          "claim": "آزمایشگاه مرکزی",
-          "id": "lorestan-discovery-unit-laboratory-234f1dadece6",
-          "unitType": "laboratory"
+          "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-laboratory/",
+          "kind": "research-review-specific",
+          "claim": "آزمایشگاه‌ها — کشف خودکار",
+          "id": null,
+          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
         },
         {
-          "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87/",
-          "kind": "unit",
-          "claim": "کتابخانه مرکزی",
-          "id": "lorestan-discovery-unit-library-76324e1e6734",
-          "unitType": "library"
+          "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-library/",
+          "kind": "research-review-specific",
+          "claim": "کتابخانه و اسناد — کشف خودکار",
+          "id": null,
+          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
         },
         {
           "url": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1%D8%A7%D8%AA-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/",
@@ -899,20 +899,6 @@
           "claim": "اسناد و مقررات — کشف خودکار",
           "id": null,
           "sourceLabel": "اسناد و مقررات — کشف خودکار"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-library/",
-          "kind": "research-review-specific",
-          "claim": "کتابخانه و اسناد — کشف خودکار",
-          "id": null,
-          "sourceLabel": "کتابخانه و اسناد — کشف خودکار"
-        },
-        {
-          "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-laboratory/",
-          "kind": "research-review-specific",
-          "claim": "آزمایشگاه‌ها — کشف خودکار",
-          "id": null,
-          "sourceLabel": "آزمایشگاه‌ها — کشف خودکار"
         },
         {
           "url": "https://research.lu.ac.ir/en/research-and-technology/units/central-publications/",
@@ -2234,20 +2220,20 @@
       "type": "laboratory",
       "evidence": "verified",
       "lastVerified": "2026-08-14",
-      "sourceUrl": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/",
+      "sourceUrl": "https://research.lu.ac.ir/en/research-and-technology/units/central-laboratory/",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99,
+      "discoveryConfidence": 0.9747368421052631,
       "entityType": "unit",
       "dimension": "laboratories",
       "relation": "organizational-unit",
       "cleaningReason": "organizational-unit-identity-proven",
       "primaryDimension": "laboratories",
       "evidenceUrls": [
-        "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/",
-        "https://research.lu.ac.ir/en/research-and-technology/units/central-laboratory/"
+        "https://research.lu.ac.ir/en/research-and-technology/units/central-laboratory/",
+        "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/"
       ],
       "alternateUrls": [
-        "https://research.lu.ac.ir/en/research-and-technology/units/central-laboratory/"
+        "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%D8%A2%D8%B2%D9%85%D8%A7%DB%8C%D8%B4%DA%AF%D8%A7%D9%87-%D9%85%D8%B1%DA%A9%D8%B2%DB%8C/"
       ]
     },
     {
@@ -2257,20 +2243,20 @@
       "type": "library",
       "evidence": "verified",
       "lastVerified": "2026-08-14",
-      "sourceUrl": "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87/",
+      "sourceUrl": "https://research.lu.ac.ir/en/research-and-technology/units/central-library/",
       "discoveredBy": "research-deep-discovery",
-      "discoveryConfidence": 0.99,
+      "discoveryConfidence": 0.9747368421052631,
       "entityType": "unit",
       "dimension": "libraryDocuments",
       "relation": "organizational-unit",
       "cleaningReason": "organizational-unit-identity-proven",
       "primaryDimension": "libraryDocuments",
       "evidenceUrls": [
-        "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87/",
-        "https://research.lu.ac.ir/en/research-and-technology/units/central-library/"
+        "https://research.lu.ac.ir/en/research-and-technology/units/central-library/",
+        "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87/"
       ],
       "alternateUrls": [
-        "https://research.lu.ac.ir/en/research-and-technology/units/central-library/"
+        "https://research.lu.ac.ir/%D9%88%D8%A7%D8%AD%D8%AF%D9%87%D8%A7/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87/"
       ]
     },
     {
