@@ -1,0 +1,163 @@
+name: Community Source Daily Refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 3 * * *"
+
+permissions:
+  contents: write
+
+# Use the same group as the deep crawler so two data-writing workflows never
+# mutate main at the same time.
+concurrency:
+  group: national-research-discovery
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: community-refresh
+
+    runs-on:
+      - self-hosted
+      - windows
+      - iran-crawler
+      - hk-crawler
+
+    timeout-minutes: 90
+
+    env:
+      DISCOVERY_PROMOTE_CONFIDENCE: "0.78"
+      COMMUNITY_PROCESS_LIMIT: "150"
+      COMMUNITY_MAX_ATTEMPTS: "3"
+      COMMUNITY_VERIFY_CONCURRENCY: "4"
+      PIPELINE_ARTIFACT_ROOT: "C:\\actions-runner\\_pipeline-artifacts"
+      PIPELINE_WORK_ROOT: "C:\\actions-runner\\_pipeline-work"
+
+    defaults:
+      run:
+        shell: cmd
+
+    steps:
+      - name: "01 - Prepare repository"
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          @echo off
+
+          cd /d "%GITHUB_WORKSPACE%" || exit /b 1
+
+          git --version || exit /b 1
+          git config --global --add safe.directory "%GITHUB_WORKSPACE%" || exit /b 1
+
+          if not exist ".git" goto clone_repository
+
+          git remote get-url origin >nul 2>&1
+          if errorlevel 1 git remote add origin https://github.com/%GITHUB_REPOSITORY%.git
+
+          git remote set-url origin https://github.com/%GITHUB_REPOSITORY%.git || exit /b 1
+          git fetch --force --prune origin main || exit /b 1
+          git reset --hard origin/main || exit /b 1
+          git clean -ffdx || exit /b 1
+          git checkout -B main origin/main || exit /b 1
+          goto repository_ready
+
+          :clone_repository
+          git clone --branch main --single-branch https://github.com/%GITHUB_REPOSITORY%.git . || exit /b 1
+
+          :repository_ready
+          git remote set-url --push origin https://x-access-token:%GH_TOKEN%@github.com/%GITHUB_REPOSITORY%.git || exit /b 1
+          git status --short --branch || exit /b 1
+
+      - name: "02 - Verify Node"
+        run: |
+          @echo off
+          where node || exit /b 1
+          node --version || exit /b 1
+          node -e "const m=Number(process.versions.node.split('.')[0]); if(m<22) process.exit(1)" || exit /b 1
+          where npm.cmd || exit /b 1
+
+      - name: "03 - Set snapshot date"
+        run: |
+          @echo off
+          node -e "const fs=require('fs'); const d=new Date().toISOString().slice(0,10); fs.appendFileSync(process.env.GITHUB_ENV,'PIPELINE_SNAPSHOT_DATE='+d+'\n'); console.log('PIPELINE_SNAPSHOT_DATE='+d)" || exit /b 1
+
+      - name: "04 - Test community policy"
+        run: node scripts/test-community-submissions.mjs
+
+      - name: "05 - Process pending community sources"
+        run: node scripts/process-community-submissions.mjs
+
+      - name: "06 - Promote accepted sources"
+        run: |
+          @echo off
+
+          if "%COMMUNITY_PROCESSED%"=="0" (
+            echo No pending community submissions.
+            exit /b 0
+          )
+
+          if "%COMMUNITY_ACCEPTED%"=="0" (
+            echo No source qualified for automatic promotion.
+            exit /b 0
+          )
+
+          npm.cmd run prepare:data || exit /b 1
+          npm.cmd run validate:data || exit /b 1
+          npm.cmd run validate:no-social || exit /b 1
+
+      - name: "07 - Commit reviewed submissions"
+        run: |
+          @echo off
+
+          if "%COMMUNITY_PROCESSED%"=="0" (
+            echo Nothing to commit.
+            exit /b 0
+          )
+
+          git config user.name "github-actions[bot]" || exit /b 1
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com" || exit /b 1
+
+          git add -A || exit /b 1
+          git diff --cached --quiet
+          if not errorlevel 1 (
+            echo No repository changes after processing.
+            exit /b 0
+          )
+
+          git commit -m "chore(data): review community research sources" || exit /b 1
+
+      - name: "08 - Rebase and push"
+        run: |
+          @echo off
+
+          git diff --quiet || (
+            echo ERROR: Unstaged changes remain before sync.
+            git status --short
+            exit /b 1
+          )
+
+          git diff --cached --quiet || (
+            echo ERROR: Staged changes remain before sync.
+            git status --short
+            exit /b 1
+          )
+
+          git fetch --prune origin main || exit /b 1
+          git rebase origin/main || (
+            git rebase --abort >nul 2>&1
+            echo ERROR: Community refresh rebase failed.
+            exit /b 1
+          )
+
+          git push origin HEAD:main
+          if not errorlevel 1 exit /b 0
+
+          echo Push raced with a new web submission. Retrying once...
+          git fetch --prune origin main || exit /b 1
+          git rebase origin/main || (
+            git rebase --abort >nul 2>&1
+            echo ERROR: Community refresh retry rebase failed.
+            exit /b 1
+          )
+          git push origin HEAD:main || exit /b 1
